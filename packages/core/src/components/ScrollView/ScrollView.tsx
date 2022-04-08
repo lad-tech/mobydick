@@ -1,10 +1,7 @@
 import React, {FC} from 'react';
-import {
-  ScrollView as DefaultScrollView,
-  ScrollViewProps as DefaultScrollViewProps,
-} from 'react-native';
+import {ScrollView as DefaultScrollView} from 'react-native';
 
-type ScrollViewProps = DefaultScrollViewProps;
+import {ScrollViewProps} from './types';
 
 const ScrollView: FC<ScrollViewProps> = props => {
   return <DefaultScrollView {...props} />;

@@ -1,7 +1,7 @@
 {
-  "name": "@mobydick/theme",
+  "name": "@mobydick/inputs",
   "version": "1.0.0",
-  "description": "MobyDick theme management library",
+  "description": "Inputs on MobyDick core",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
