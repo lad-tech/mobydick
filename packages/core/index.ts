@@ -1,5 +1,8 @@
-export {ScrollView} from './src/components/ScrollView';
-export {View} from './src/components/View';
-export {TextInput} from './src/components/TextInput';
-export {Text} from './src/components/Text';
-export {Button} from './src/components/Button';
+import ScrollView from './src/components/ScrollView';
+import View from './src/components/View';
+import TextInput from './src/components/TextInput';
+import Text from './src/components/Text';
+import Button from './src/components/Button';
+import TouchableOpacity from './src/components/TouchableOpacity';
+
+export {ScrollView, View, TextInput, Text, Button, TouchableOpacity};

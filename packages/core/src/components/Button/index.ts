@@ -1,1 +1,3 @@
-export {TouchableOpacity as Button} from 'react-native';
+import Button from './Button';
+
+export default Button;
