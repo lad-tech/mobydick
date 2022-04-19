@@ -1,3 +1,7 @@
 import {TextInputProps} from '@mobydick/core';
 
-export type InputFieldProps = TextInputProps;
+interface IInputFieldsProps {
+  title?: string;
+  underInputText?: string;
+}
+export type InputFieldProps = TextInputProps & IInputFieldsProps;

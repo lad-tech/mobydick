@@ -1,19 +1,25 @@
-import {TextInput, TextInputProps} from '@mobydick/core';
+import {Text, TextInput, View} from '@mobydick/core';
 import React, {FC} from 'react';
-import useTheme from '@mobydick/styles/src/theme/useTheme';
+import {useTheme, Show} from '@mobydick/styles';
 
+import {InputFieldProps} from './types';
 import styles from './styles';
 
-const InputField: FC<TextInputProps> = props => {
-  const {style, ...otherProps} = props;
+const InputField: FC<InputFieldProps> = props => {
+  const {style, title, underInputText, ...otherProps} = props;
   const theme = useTheme();
 
   return (
-    <TextInput
-      style={[styles(theme).container, style]}
-      placeholderTextColor={theme.TextTertiary}
-      {...otherProps}
-    />
+    <View>
+      <Text style={styles(theme).label}>{title}</Text>
+      <TextInput
+        style={[styles(theme).textInput, style]}
+        placeholderTextColor={theme.TextTertiary}
+        {...otherProps}
+      />
+      <Show />
+      <Text style={styles(theme).underInputText}>{underInputText}</Text>
+    </View>
   );
 };
 export default InputField;
