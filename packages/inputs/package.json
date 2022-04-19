@@ -13,6 +13,7 @@
     "react": ">=17.0.2"
   },
   "dependencies": {
-    "@mobydick/styles": "*"
+    "@mobydick/styles": "*",
+    "@mobydick/core": "*"
   }
 }
