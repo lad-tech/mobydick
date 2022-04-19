@@ -1,10 +1,15 @@
+import {useColorScheme} from 'react-native';
+
 import defaultTheme, {CurrentTheme} from './theme';
 
 const useTheme = () => {
   // TODO: Реализовать запоминание и кастомные темы
+  const colorScheme = useColorScheme();
 
   return {
-    ...defaultTheme['colors'][CurrentTheme.light],
+    ...defaultTheme['colors'][
+      colorScheme === 'dark' ? CurrentTheme.dark : CurrentTheme.light
+    ],
   };
 };
 

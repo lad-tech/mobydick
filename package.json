@@ -9,7 +9,16 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "storybook": "start-storybook -p 7007",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "bundle": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
+    "bundleWithAssets": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/",
+    "android:clean": "cd android && ./gradlew clean",
+    "android:aab": "cd android && ./gradlew bundleRelease",
+    "android:build:debug": "cd android && ./gradlew assembleDebug",
+    "android:build:release": "cd android && ./gradlew assembleRelease",
+    "android:get:aab": "cd android && ./gradlew bundleRelease",
+    "android:get:debug": "yarn bundleWithAssets && yarn android:build:debug",
+    "android:get:release": "yarn bundle && yarn android:build:release"
   },
   "workspaces": [
     "packages/*"
