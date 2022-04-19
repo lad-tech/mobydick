@@ -12,7 +12,7 @@ const defaultStyle = (theme: ReturnType<typeof useTheme>, focused: boolean) =>
     },
     textInputContainer: {
       backgroundColor: theme.BgSecondary,
-      padding: 10, // TODO: Брать из темы, когда они будут готовы
+      padding: 8,
       borderRadius: 8, // TODO: Брать из темы, когда они будут готовы
       borderWidth: 1,
       borderColor: focused ? theme.BorderNormal : 'transparent',
@@ -24,6 +24,7 @@ const defaultStyle = (theme: ReturnType<typeof useTheme>, focused: boolean) =>
     },
     textInput: {
       flex: 1,
+      padding: 0, // Android по дефолту ставит padding на input's
     },
     subtitleContainer: {
       flexDirection: 'row',
