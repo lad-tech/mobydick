@@ -1,11 +1,25 @@
-import {Text, TextInput, View} from '@mobydick/core';
-import React, {FC, useState} from 'react';
+import {ITextInput, Text, TextInput, View} from '@mobydick/core';
+import React, {forwardRef, useState} from 'react';
 import {useTheme} from '@mobydick/styles';
 
 import {InputFieldProps, ITypes} from './types';
 import stylesCreate from './stylesCreate';
 
-const InputField: FC<InputFieldProps> = props => {
+/**
+ * Пример использования ref:
+ * ```
+ * const biba = () => {
+ *   const ref = useRef<ITextInput>(null);
+ *   const boba = () => {
+ *     ref.current?.isFocused();
+ *   };
+ *   return (
+ *     <InputField ref={ref} /> />
+ *   );
+ * };
+ * ```
+ */
+const InputField = forwardRef<ITextInput, InputFieldProps>((props, ref) => {
   const {
     style,
     title,
@@ -28,6 +42,7 @@ const InputField: FC<InputFieldProps> = props => {
       {Boolean(title) && <Text style={styles.label}>{title}</Text>}
       <View style={styles.textInputContainer}>
         <TextInput
+          ref={ref}
           style={[styles.textInput, style]}
           placeholderTextColor={theme.TextTertiary}
           editable={!disabled}
@@ -49,5 +64,6 @@ const InputField: FC<InputFieldProps> = props => {
       )}
     </View>
   );
-};
+});
+
 export default InputField;
