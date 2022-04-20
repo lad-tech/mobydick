@@ -13,6 +13,7 @@ storiesOf('Design System/CTA/Button', module)
       text={text('text', 'text')}
       onPress={action('onPress')}
       type={select('type', ITypes, ITypes.primary)}
+      disabled={boolean('disabled', false)}
       loading={boolean('loading', false)}
     />
   ));
