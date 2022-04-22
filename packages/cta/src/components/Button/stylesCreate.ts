@@ -1,18 +1,18 @@
 import {StyleSheet} from 'react-native';
 import {useTheme} from '@mobydick/styles';
 
-import {ITypes} from './types';
+import {ISize, ITypes} from './types';
 
-const primaryStyle = (theme: ReturnType<typeof useTheme>) =>
+const primaryStyle = (theme: ReturnType<typeof useTheme>, size: ISize) =>
   StyleSheet.create({
     container: {
-      alignSelf: 'stretch',
+      alignSelf: size === ISize.fixed ? 'stretch' : undefined,
       flexDirection: 'row',
       alignItems: 'stretch',
       justifyContent: 'center',
       backgroundColor: theme.CtaBtnPrimary,
       borderRadius: 12, // TODO: Брать из theme
-      padding: 12, // TODO: Брать из theme
+      padding: size === ISize.small ? 10 : 12, // TODO: Брать из theme
       margin: 12, // TODO: Брать из theme
     },
     text: {
@@ -23,8 +23,8 @@ const primaryStyle = (theme: ReturnType<typeof useTheme>) =>
     },
   });
 
-const secondaryStyle = (theme: ReturnType<typeof useTheme>) => {
-  const defaultStyles = primaryStyle(theme);
+const secondaryStyle = (theme: ReturnType<typeof useTheme>, size: ISize) => {
+  const defaultStyles = primaryStyle(theme, size);
 
   defaultStyles.container = {
     ...defaultStyles.container,
@@ -39,8 +39,8 @@ const secondaryStyle = (theme: ReturnType<typeof useTheme>) => {
   return defaultStyles;
 };
 
-const tertiaryStyle = (theme: ReturnType<typeof useTheme>) => {
-  const defaultStyles = primaryStyle(theme);
+const tertiaryStyle = (theme: ReturnType<typeof useTheme>, size: ISize) => {
+  const defaultStyles = primaryStyle(theme, size);
 
   defaultStyles.container = {
     ...defaultStyles.container,
@@ -55,8 +55,8 @@ const tertiaryStyle = (theme: ReturnType<typeof useTheme>) => {
   return defaultStyles;
 };
 
-const disabledStyle = (theme: ReturnType<typeof useTheme>) => {
-  const defaultStyles = primaryStyle(theme);
+const disabledStyle = (theme: ReturnType<typeof useTheme>, size: ISize) => {
+  const defaultStyles = primaryStyle(theme, size);
 
   defaultStyles.container = {
     ...defaultStyles.container,
@@ -71,18 +71,22 @@ const disabledStyle = (theme: ReturnType<typeof useTheme>) => {
   return defaultStyles;
 };
 
-const stylesCreate = (theme: ReturnType<typeof useTheme>, type: ITypes) => {
+const stylesCreate = (
+  theme: ReturnType<typeof useTheme>,
+  type: ITypes,
+  size: ISize,
+) => {
   switch (type) {
     case ITypes.primary:
-      return primaryStyle(theme);
+      return primaryStyle(theme, size);
     case ITypes.secondary:
-      return secondaryStyle(theme);
+      return secondaryStyle(theme, size);
     case ITypes.tertiary:
-      return tertiaryStyle(theme);
+      return tertiaryStyle(theme, size);
     case ITypes.disabled:
-      return disabledStyle(theme);
+      return disabledStyle(theme, size);
     default:
-      return primaryStyle(theme);
+      return primaryStyle(theme, size);
   }
 };
 export default stylesCreate;

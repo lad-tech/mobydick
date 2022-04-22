@@ -3,7 +3,7 @@ import React, {FC, useEffect, useRef} from 'react';
 import {Loader as LoaderIcon, useTheme} from '@mobydick/styles';
 import {Animated} from 'react-native';
 
-import {ButtonProps, ITypes} from './types';
+import {ButtonProps, ISize, ITypes} from './types';
 import stylesCreate from './stylesCreate';
 
 // TODO: Возможно вынести в отдельный компонент, только не понятно куда
@@ -38,13 +38,14 @@ const Button: FC<ButtonProps> = props => {
     text,
     leftIcon,
     rightIcon,
+    size = ISize.fixed,
     type = ITypes.primary,
     loading = false,
     disabled = false,
     ...otherProps
   } = props;
   const theme = useTheme();
-  const styles = stylesCreate(theme, disabled ? ITypes.disabled : type);
+  const styles = stylesCreate(theme, disabled ? ITypes.disabled : type, size);
 
   const Container: FC = ({children}) => (
     <TouchableOpacity

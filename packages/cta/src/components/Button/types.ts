@@ -7,6 +7,7 @@ interface IButtonProps {
   leftIcon?: ReactElement;
   rightIcon?: ReactElement;
   loading?: boolean;
+  size?: ISize;
 }
 
 export enum ITypes {
@@ -16,4 +17,11 @@ export enum ITypes {
   disabled = 'disabled',
   loading = 'loading',
 }
+
+export enum ISize {
+  large = 'large',
+  small = 'small',
+  fixed = 'fixed',
+}
+
 export type ButtonProps = TouchableOpacityProps & IButtonProps;
