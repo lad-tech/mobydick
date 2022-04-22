@@ -1,0 +1,19 @@
+{
+  "name": "@mobydick/progress",
+  "version": "1.0.0",
+  "description": "Progress on MobyDick core",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirill Lebedev <lebedevki@lad24.ru>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.66.4",
+    "react": ">=17.0.2"
+  },
+  "dependencies": {
+    "@mobydick/styles": "*",
+    "@mobydick/core": "*"
+  }
+}
