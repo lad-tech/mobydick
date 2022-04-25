@@ -1,7 +1,6 @@
-import React, {createRef} from 'react';
+import React from 'react';
 import {act, render} from '@testing-library/react-native';
 import {ITypes} from '@mobydick/inputs';
-import {ITextInput} from '@mobydick/core';
 
 import InputField from '../index';
 import Constants from '../constants';
