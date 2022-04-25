@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mobydick/progress/Spinner renders correctly 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "transform": Array [
+        Object {
+          "rotate": "0deg",
+        },
+      ],
+    }
+  }
+>
+  <SvgMock
+    style={
+      Array [
+        Object {
+          "borderRadius": 20,
+          "elevation": 10,
+          "shadowColor": "#20242D",
+          "shadowOffset": Object {
+            "height": 0,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 4,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

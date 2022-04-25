@@ -4,6 +4,7 @@ import {useTheme} from '@mobydick/styles';
 
 import {InputFieldProps, ITypes} from './types';
 import stylesCreate from './stylesCreate';
+import Constants from './constants';
 
 /**
  * Пример использования ref:
@@ -43,13 +44,12 @@ const InputField = forwardRef<ITextInput, InputFieldProps>((props, ref) => {
       <View style={styles.textInputContainer}>
         <TextInput
           ref={ref}
+          testID={Constants.testID}
           style={[styles.textInput, style]}
           placeholderTextColor={theme.TextTertiary}
           editable={!disabled}
           numberOfLines={1}
-          onFocus={() => {
-            setFocused(true);
-          }}
+          onFocus={() => setFocused(true)}
           onBlur={() => {
             setFocused(false);
           }}
