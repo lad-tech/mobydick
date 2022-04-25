@@ -13,5 +13,8 @@
     "react": ">=17.0.2",
     "react-native-svg": ">=12.3.0",
     "react-native-svg-transformer": ">=1.0.0"
+  },
+  "publishConfig": {
+    "@mobydick:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
   }
 }

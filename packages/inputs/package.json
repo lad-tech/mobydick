@@ -15,5 +15,8 @@
   "dependencies": {
     "@mobydick/styles": "*",
     "@mobydick/core": "*"
+  },
+  "publishConfig": {
+    "@mobydick:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
   }
 }
