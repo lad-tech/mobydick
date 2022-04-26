@@ -3,8 +3,8 @@ import {View as DefaultView} from 'react-native';
 
 import {ViewProps} from './types';
 
-const TextInput: FC<ViewProps> = props => {
+const View: FC<ViewProps> = props => {
   return <DefaultView {...props} />;
 };
 
-export default TextInput;
+export default View;
