@@ -4,9 +4,10 @@ import {renderHook} from '@testing-library/react-hooks';
 describe('useTheme', () => {
   it('light', () => {
     const {result} = renderHook(() => useTheme());
-    expect(result.current).toStrictEqual(
-      defaultTheme.colors[CurrentTheme.light],
-    );
+    expect(result.current).toStrictEqual({
+      colorScheme: CurrentTheme.light,
+      ...defaultTheme.colors[CurrentTheme.light],
+    });
   });
   it('dark', () => {
     jest.mock('react-native/Libraries/Utilities/useColorScheme', () => ({
@@ -15,8 +16,9 @@ describe('useTheme', () => {
 
     const {result} = renderHook(() => useTheme());
 
-    expect(result.current).toStrictEqual(
-      defaultTheme.colors[CurrentTheme.dark],
-    );
+    expect(result.current).toStrictEqual({
+      colorScheme: CurrentTheme.dark,
+      ...defaultTheme.colors[CurrentTheme.dark],
+    });
   });
 });

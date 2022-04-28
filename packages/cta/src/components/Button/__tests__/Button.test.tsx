@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
-import {ISize, ITypes} from '@mobydick/cta';
 
+import {ISize, ITypes} from '../types';
 import Button from '../index';
 
 describe('@mobydick/cta/Button', () => {

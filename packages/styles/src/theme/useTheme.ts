@@ -7,6 +7,7 @@ const useTheme = () => {
   const colorScheme = useColorScheme();
 
   return {
+    colorScheme,
     ...defaultTheme['colors'][
       colorScheme === 'dark' ? CurrentTheme.dark : CurrentTheme.light
     ],

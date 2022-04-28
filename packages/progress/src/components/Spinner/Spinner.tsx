@@ -1,5 +1,5 @@
 import React, {FC, useEffect, useRef} from 'react';
-import {Loader as LoaderIcon, useTheme} from '@mobydick/styles';
+import {Loader as LoaderIcon, useStyles} from '@mobydick/styles';
 import {Animated} from 'react-native';
 import stylesCreate from '@mobydick/progress/src/components/Spinner/stylesCreate';
 
@@ -7,8 +7,7 @@ import {SpinnerProps} from './types';
 
 const Spinner: FC<SpinnerProps> = props => {
   const {style, speed = 2500, ...otherProps} = props;
-  const theme = useTheme();
-  const styles = stylesCreate(theme);
+  const [styles] = useStyles(stylesCreate);
   const spinValue = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {

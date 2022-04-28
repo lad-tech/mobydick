@@ -1,6 +1,6 @@
 import {ITextInput, Text, TextInput, View} from '@mobydick/core';
 import React, {forwardRef, useState} from 'react';
-import {useTheme} from '@mobydick/styles';
+import {useStyles} from '@mobydick/styles';
 
 import {InputFieldProps, ITypes} from './types';
 import stylesCreate from './stylesCreate';
@@ -31,9 +31,8 @@ const InputField = forwardRef<ITextInput, InputFieldProps>((props, ref) => {
     ...otherProps
   } = props;
   const [focused, setFocused] = useState(false);
-  const theme = useTheme();
-  const styles = stylesCreate(
-    theme,
+  const [styles, theme] = useStyles(
+    stylesCreate,
     disabled ? ITypes.disabled : type,
     focused,
   );

@@ -1,7 +1,7 @@
 import {Text, TouchableOpacity} from '@mobydick/core';
 import React, {FC} from 'react';
-import {useTheme} from '@mobydick/styles';
 import {Spinner} from '@mobydick/progress';
+import {useStyles} from '@mobydick/styles';
 
 import {ButtonProps, ISize, ITypes} from './types';
 import stylesCreate from './stylesCreate';
@@ -18,8 +18,11 @@ const Button: FC<ButtonProps> = props => {
     disabled = false,
     ...otherProps
   } = props;
-  const theme = useTheme();
-  const styles = stylesCreate(theme, disabled ? ITypes.disabled : type, size);
+  const [styles] = useStyles(
+    stylesCreate,
+    disabled ? ITypes.disabled : type,
+    size,
+  );
 
   const Container: FC = ({children}) => (
     <TouchableOpacity
