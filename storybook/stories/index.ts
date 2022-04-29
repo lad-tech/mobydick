@@ -1,1 +1,4 @@
-import './Button/Button.stories';
+import './core';
+import './inputs';
+import './cta';
+import './progress';

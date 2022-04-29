@@ -1,5 +1,6 @@
 import React from 'react';
 import {View} from '@mobydick/core';
+
 import style from './style';
 
 export default function CenterView({

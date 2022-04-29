@@ -1,1 +1,3 @@
-export {Text} from 'react-native';
+import Text from './Text';
+
+export default Text;

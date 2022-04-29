@@ -1,0 +1,22 @@
+{
+  "name": "@mobydick/inputs",
+  "version": "1.0.0",
+  "description": "Inputs on MobyDick core",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirill Lebedev <lebedevki@lad24.ru>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.66.4",
+    "react": ">=17.0.2"
+  },
+  "dependencies": {
+    "@mobydick/styles": "*",
+    "@mobydick/core": "*"
+  },
+  "publishConfig": {
+    "@mobydick:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
+  }
+}

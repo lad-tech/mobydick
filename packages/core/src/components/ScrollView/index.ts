@@ -1,1 +1,3 @@
-export {ScrollView} from 'react-native';
+import ScrollView from './ScrollView';
+
+export default ScrollView;

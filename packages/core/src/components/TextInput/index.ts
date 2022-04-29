@@ -1,1 +1,2 @@
-export {TextInput} from 'react-native';
+import TextInput from './TextInput';
+export default TextInput;

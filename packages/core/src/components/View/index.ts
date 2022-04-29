@@ -1,1 +1,2 @@
-export {View} from 'react-native';
+import View from './View';
+export default View;
