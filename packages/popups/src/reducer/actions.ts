@@ -1,4 +1,4 @@
-import {IPopupId, IPopup} from '@mobydick/popups';
+import {IPopupId, IPopup} from '../types';
 
 import {POPUP_CLOSE, POPUP_CLOSE_ALL, POPUP_OPEN} from './constatnts';
 import {ICloseAction, ICloseAllAction, IOpenAction} from './types';

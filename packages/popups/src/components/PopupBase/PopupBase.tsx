@@ -3,7 +3,7 @@ import {View, Text, Pressable} from '@mobydick/core';
 import {useStyles} from '@mobydick/styles';
 import {Button} from '@mobydick/cta';
 
-import {usePopups} from '../../hooks';
+import usePopups from '../../hooks/usePopups';
 
 import {IPopupProps} from './types';
 import stylesCreate from './stylesCreate';

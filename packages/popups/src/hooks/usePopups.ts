@@ -1,6 +1,6 @@
 import {useContext} from 'react';
 
-import {PopupsContext} from '../context';
+import PopupsContext from '../context/context';
 
 const usePopups = () => {
   const context = useContext(PopupsContext);

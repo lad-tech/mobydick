@@ -1,6 +1,7 @@
 import React, {FC, useReducer} from 'react';
-import {PopupBase} from '@mobydick/popups';
 
+import {IPopup, IPopupId} from '../types';
+import {PopupBase} from '../components/PopupBase';
 import {
   reducer,
   defaultState,
@@ -9,7 +10,7 @@ import {
   openPopupAction,
 } from '../reducer';
 
-import {IPopupId, IPopup, IPopupsContext} from './types';
+import {IPopupsContext} from './types';
 import PopupsContext from './context';
 interface IPopupsProviderProps {
   popups?: IPopup[];

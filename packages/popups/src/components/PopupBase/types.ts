@@ -1,4 +1,4 @@
-import {IPopup} from '../../context/types';
+import {IPopup} from '../../types';
 
 export interface IPopupBaseProps {
   isVisible: boolean;
