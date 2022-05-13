@@ -5,7 +5,7 @@ import {ITypes} from '../types';
 import InputField from '../index';
 import Constants from '../constants';
 
-describe('@mobydick/inputs/InputField', () => {
+describe('@npm/mobydick-inputs/InputField', () => {
   it('renders correctly', () => {
     const {toJSON} = render(
       <InputField title={'title'} subtitle={'subtitle'} />,

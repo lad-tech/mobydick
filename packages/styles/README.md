@@ -1,4 +1,4 @@
-## @MobyDick/styles
+## @npm/mobydick-styles
 
 Пакет, который отвечает за стили, темы и иконки
 

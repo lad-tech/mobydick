@@ -1,6 +1,6 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react-native';
-import {TextInput} from '@mobydick/core';
+import {TextInput} from '@npm/mobydick-core';
 
 import CenterView from '../../CenterView';
 

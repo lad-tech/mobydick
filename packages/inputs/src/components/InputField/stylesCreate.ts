@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {useTheme} from '@mobydick/styles';
+import {useTheme} from '@npm/mobydick-styles';
 
 import {ITypes} from './types';
 

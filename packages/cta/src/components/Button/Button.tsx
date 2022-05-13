@@ -1,7 +1,7 @@
-import {Text, TouchableOpacity} from '@mobydick/core';
+import {Text, TouchableOpacity} from '@npm/mobydick-core';
 import React, {FC} from 'react';
-import {Spinner} from '@mobydick/progress';
-import {useStyles} from '@mobydick/styles';
+import {Spinner} from '@npm/mobydick-progress';
+import {useStyles} from '@npm/mobydick-styles';
 
 import {ButtonProps, ISize, ITypes} from './types';
 import stylesCreate from './stylesCreate';

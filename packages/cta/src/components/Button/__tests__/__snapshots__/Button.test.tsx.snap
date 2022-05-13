@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@mobydick/cta/Button renders correctly 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly 1`] = `
 <View
   accessibilityState={
     Object {
@@ -46,7 +46,7 @@ exports[`@mobydick/cta/Button renders correctly 1`] = `
 </View>
 `;
 
-exports[`@mobydick/cta/Button renders correctly disabled 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly disabled 1`] = `
 <View
   accessibilityState={
     Object {
@@ -79,7 +79,7 @@ exports[`@mobydick/cta/Button renders correctly disabled 1`] = `
 />
 `;
 
-exports[`@mobydick/cta/Button renders correctly fixed 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly fixed 1`] = `
 <View
   accessibilityState={
     Object {
@@ -112,7 +112,7 @@ exports[`@mobydick/cta/Button renders correctly fixed 1`] = `
 />
 `;
 
-exports[`@mobydick/cta/Button renders correctly large 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly large 1`] = `
 <View
   accessibilityState={
     Object {
@@ -145,7 +145,7 @@ exports[`@mobydick/cta/Button renders correctly large 1`] = `
 />
 `;
 
-exports[`@mobydick/cta/Button renders correctly loading 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly loading 1`] = `
 <View
   accessibilityState={
     Object {
@@ -210,7 +210,7 @@ exports[`@mobydick/cta/Button renders correctly loading 1`] = `
 </View>
 `;
 
-exports[`@mobydick/cta/Button renders correctly secondary 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly secondary 1`] = `
 <View
   accessibilityState={
     Object {
@@ -243,7 +243,7 @@ exports[`@mobydick/cta/Button renders correctly secondary 1`] = `
 />
 `;
 
-exports[`@mobydick/cta/Button renders correctly small 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly small 1`] = `
 <View
   accessibilityState={
     Object {
@@ -276,7 +276,7 @@ exports[`@mobydick/cta/Button renders correctly small 1`] = `
 />
 `;
 
-exports[`@mobydick/cta/Button renders correctly tertiary 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly tertiary 1`] = `
 <View
   accessibilityState={
     Object {

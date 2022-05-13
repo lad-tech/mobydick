@@ -1,4 +1,4 @@
-import {TextInputProps} from '@mobydick/core';
+import {TextInputProps} from '@npm/mobydick-core';
 import {FC, ReactElement} from 'react';
 
 interface IInputFieldsProps {

@@ -4,7 +4,7 @@ import {render} from '@testing-library/react-native';
 import {ISize, ITypes} from '../types';
 import Button from '../index';
 
-describe('@mobydick/cta/Button', () => {
+describe('@npm/mobydick-cta/Button', () => {
   it('renders correctly', () => {
     const {toJSON} = render(<Button text={'text'} />);
     expect(toJSON()).toMatchSnapshot();

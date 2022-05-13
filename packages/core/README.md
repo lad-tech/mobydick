@@ -1,1 +1,1 @@
-## @MobyDick/core
+## @npm/mobydick-core

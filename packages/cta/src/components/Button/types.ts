@@ -1,4 +1,4 @@
-import {TouchableOpacityProps} from '@mobydick/core';
+import {TouchableOpacityProps} from '@npm/mobydick-core';
 import {ReactElement} from 'react';
 
 interface IButtonProps {

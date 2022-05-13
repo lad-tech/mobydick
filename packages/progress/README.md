@@ -1,1 +1,1 @@
-## @MobyDick/progress
+## @npm/mobydick-progress
