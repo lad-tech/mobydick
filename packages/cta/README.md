@@ -1,1 +1,1 @@
-## @MobyDick/cta
+## @npm/mobydick-cta

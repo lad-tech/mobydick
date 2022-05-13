@@ -1,1 +1,1 @@
-## @MobyDick/inputs
+## @npm/mobydick-inputs

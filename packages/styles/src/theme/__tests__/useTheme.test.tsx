@@ -1,4 +1,4 @@
-import {CurrentTheme, defaultTheme, useTheme} from '@mobydick/styles';
+import {CurrentTheme, defaultTheme, useTheme} from '@npm/mobydick-styles';
 import {renderHook} from '@testing-library/react-hooks';
 
 describe('useTheme', () => {

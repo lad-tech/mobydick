@@ -1,6 +1,6 @@
-import {ITextInput, Text, TextInput, View} from '@mobydick/core';
+import {ITextInput, Text, TextInput, View} from '@npm/mobydick-core';
 import React, {forwardRef, useState} from 'react';
-import {useStyles} from '@mobydick/styles';
+import {useStyles} from '@npm/mobydick-styles';
 
 import {InputFieldProps, ITypes} from './types';
 import stylesCreate from './stylesCreate';

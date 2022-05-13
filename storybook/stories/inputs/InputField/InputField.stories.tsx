@@ -1,9 +1,9 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {InputField, ITypes} from '@mobydick/inputs';
+import {InputField, ITypes} from '@npm/mobydick-inputs';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
-import {Show} from '@mobydick/styles';
+import {Show} from '@npm/mobydick-styles';
 
 import CenterView from '../../CenterView';
 

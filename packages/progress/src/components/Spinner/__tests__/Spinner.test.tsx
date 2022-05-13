@@ -3,7 +3,7 @@ import {render} from '@testing-library/react-native';
 
 import Spinner from '../index';
 
-describe('@mobydick/progress/Spinner', () => {
+describe('@npm/mobydick-progress/Spinner', () => {
   it('renders correctly', () => {
     const {toJSON} = render(<Spinner />);
     expect(toJSON()).toMatchSnapshot();

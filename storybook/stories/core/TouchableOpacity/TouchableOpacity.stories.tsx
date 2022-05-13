@@ -2,7 +2,7 @@ import {action} from '@storybook/addon-actions';
 import {text} from '@storybook/addon-knobs';
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {Text, TouchableOpacity} from '@mobydick/core';
+import {Text, TouchableOpacity} from '@npm/mobydick-core';
 
 import CenterView from '../../CenterView';
 

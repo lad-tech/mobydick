@@ -1,4 +1,4 @@
-import {CurrentTheme, defaultTheme, useStyles} from '@mobydick/styles';
+import {CurrentTheme, defaultTheme, useStyles} from '@npm/mobydick-styles';
 import {renderHook} from '@testing-library/react-hooks';
 import {StyleSheet} from 'react-native';
 

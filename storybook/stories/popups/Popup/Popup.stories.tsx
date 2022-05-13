@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {storiesOf} from '@storybook/react-native';
-import {Button} from '@mobydick/cta';
-import {PopupsProvider, usePopups} from '@mobydick/popups';
+import {Button} from '@npm/mobydick-cta';
+import {PopupsProvider, usePopups} from '@npm/mobydick-popups';
 
 import CenterView from '../../CenterView';
 

@@ -14,6 +14,6 @@ const PopupsContext = createContext<IPopupsContext>({
   closeAllPopups: missingFunc,
 });
 
-PopupsContext.displayName = '@mobydick/popups/PopupsContext';
+PopupsContext.displayName = '@npm/mobydick-popups/PopupsContext';
 
 export default PopupsContext;

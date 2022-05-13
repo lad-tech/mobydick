@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
-import {View, Text, Pressable} from '@mobydick/core';
-import {useStyles} from '@mobydick/styles';
-import {Button} from '@mobydick/cta';
+import {View, Text, Pressable} from '@npm/mobydick-core';
+import {useStyles} from '@npm/mobydick-styles';
+import {Button} from '@npm/mobydick-cta';
 
 import usePopups from '../../hooks/usePopups';
 

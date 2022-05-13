@@ -7,7 +7,7 @@ const usePopups = () => {
 
   if (!context) {
     throw new Error(
-      '[@mobydick/popups] usePopups hook was called outside of context, wrap your app with PopupsProvider component',
+      '[@npm/mobydick-popups] usePopups hook was called outside of context, wrap your app with PopupsProvider component',
     );
   }
 

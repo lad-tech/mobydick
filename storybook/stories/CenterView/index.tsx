@@ -1,5 +1,5 @@
 import React from 'react';
-import {View} from '@mobydick/core';
+import {View} from '@npm/mobydick-core';
 
 import style from './style';
 

@@ -2,11 +2,8 @@
 
 Библиотека компонентов для мобильной разработки
 
-Для использования библиотеки надо прописать зависимость:
+Для использования библиотеки надо прописать зависимость из [доки](https://glab.lad24.ru/npm/registry)
 
-```bash
-npm config set @mobydick:registry https://glab.lad24.ru/api/v4/packages/npm/
-```
 
 # Содержание
 1. [О проекте](#1-о-проекте)
@@ -25,11 +22,11 @@ npm config set @mobydick:registry https://glab.lad24.ru/api/v4/packages/npm/
 
 Для того чтобы не тянуть все зависимости, которые вам могут быть не нужны, либу разделили на модули:
 
-- [@mobydick/core](./packages/core/README.md)
-- [@mobydick/cta](./packages/cta/README.md)
-- [@mobydick/inputs](./packages/inputs/README.md)
-- [@mobydick/progress](./packages/progress/README.md)
-- [@mobydick/styles](./packages/styles/README.md)
+- [@npm/mobydick-core](./packages/core/README.md)
+- [@npm/mobydick-cta](./packages/cta/README.md)
+- [@npm/mobydick-inputs](./packages/inputs/README.md)
+- [@npm/mobydick-progress](./packages/progress/README.md)
+- [@npm/mobydick-styles](./packages/styles/README.md)
 
 
 # 2. Разработка

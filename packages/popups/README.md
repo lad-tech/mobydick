@@ -1,1 +1,1 @@
-## @MobyDick/popups
+## @npm/mobydick-popups
