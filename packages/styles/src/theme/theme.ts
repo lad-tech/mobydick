@@ -13,7 +13,7 @@ import {
   defaultElementLightColor,
 } from '../colors';
 
-import {eventEmitterTheme} from './eventEmitter';
+import {eventEmitterTheme, IEventEmitterTheme} from './eventEmitter';
 
 export enum CurrentTheme {
   light = 'light',
@@ -62,7 +62,7 @@ export const setTheme = (theme: typeof defaultTheme) => {
 
 export const setCurrentTheme = (theme: typeof defaultTheme['currentTheme']) => {
   defaultTheme.currentTheme = theme;
-  eventEmitterTheme.emit('setCurrentTheme', theme);
+  eventEmitterTheme.emit(IEventEmitterTheme.setCurrentTheme, theme);
 };
 
 export const getCurrentTheme = () => {
