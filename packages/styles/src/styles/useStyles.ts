@@ -18,7 +18,7 @@ const useStyles = <
 
   useEffect(() => {
     setStyles(createStyleFn(theme, ...args));
-  }, [theme.colorScheme, createStyleFn, ...args]);
+  }, [theme.currentTheme, createStyleFn, ...args]);
 
   return [styles, theme] as const;
 };

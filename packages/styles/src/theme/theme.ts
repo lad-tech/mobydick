@@ -7,17 +7,34 @@ import {
   defaultBgLightColor,
   defaultBorderDarkColor,
   defaultBorderLightColor,
-  defaultCATDarkColor,
-  defaultCATLightColor,
+  defaultCTADarkColor,
+  defaultCTALightColor,
   defaultElementDarkColor,
   defaultElementLightColor,
 } from '../colors';
+
+import {eventEmitterTheme} from './eventEmitter';
 
 export enum CurrentTheme {
   light = 'light',
   dark = 'dark',
 }
-const defaultTheme = {
+
+type ICurrentTheme = CurrentTheme | string;
+
+interface IDefaultTheme {
+  currentTheme: ICurrentTheme;
+  colors: Record<
+    ICurrentTheme,
+    typeof defaultTextLightColor &
+      typeof defaultElementLightColor &
+      typeof defaultIconLightColor &
+      typeof defaultBgLightColor &
+      typeof defaultCTALightColor &
+      typeof defaultBorderLightColor
+  >;
+}
+let defaultTheme: IDefaultTheme = {
   currentTheme: CurrentTheme.light,
   colors: {
     [CurrentTheme.light]: {
@@ -25,7 +42,7 @@ const defaultTheme = {
       ...defaultElementLightColor,
       ...defaultIconLightColor,
       ...defaultBgLightColor,
-      ...defaultCATLightColor,
+      ...defaultCTALightColor,
       ...defaultBorderLightColor,
     },
     [CurrentTheme.dark]: {
@@ -33,10 +50,29 @@ const defaultTheme = {
       ...defaultElementDarkColor,
       ...defaultIconDarkColor,
       ...defaultBgDarkColor,
-      ...defaultCATDarkColor,
+      ...defaultCTADarkColor,
       ...defaultBorderDarkColor,
     },
   },
 };
 
-export default defaultTheme;
+export const setTheme = (theme: typeof defaultTheme) => {
+  defaultTheme = theme;
+};
+
+export const setCurrentTheme = (theme: typeof defaultTheme['currentTheme']) => {
+  defaultTheme.currentTheme = theme;
+  eventEmitterTheme.emit('setCurrentTheme', theme);
+};
+
+export const getCurrentTheme = () => {
+  return defaultTheme.currentTheme;
+};
+
+export const getCurrentColors = () => {
+  return defaultTheme.colors[defaultTheme.currentTheme];
+};
+
+export const getTheme = () => {
+  return defaultTheme;
+};

@@ -1,16 +1,27 @@
-import {useColorScheme} from 'react-native';
+import {useEffect, useState} from 'react';
 
-import defaultTheme, {CurrentTheme} from './theme';
+import {getCurrentColors, getCurrentTheme} from './theme';
+import {eventEmitterTheme, IEventEmitterTheme} from './eventEmitter';
 
 const useTheme = () => {
-  // TODO: Реализовать запоминание и кастомные темы
-  const colorScheme = useColorScheme();
+  const [currentTheme, setCurrentTheme] = useState(getCurrentTheme);
+
+  useEffect(() => {
+    const listener = eventEmitterTheme.addListener(
+      IEventEmitterTheme.setCurrentTheme,
+      () => {
+        setCurrentTheme(getCurrentTheme);
+      },
+    );
+
+    return () => {
+      listener.remove();
+    };
+  }, [currentTheme]);
 
   return {
-    colorScheme,
-    ...defaultTheme['colors'][
-      colorScheme === 'dark' ? CurrentTheme.dark : CurrentTheme.light
-    ],
+    currentTheme,
+    ...getCurrentColors(),
   };
 };
 

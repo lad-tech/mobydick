@@ -117,12 +117,12 @@ export const defaultBgDarkColor = {
   BgWhite: '#FFF',
 };
 
-export const defaultCATLightColor = {
+export const defaultCTALightColor = {
   CtaBtnPrimary: '#2B78EE',
   CtaBtnSecondary: 'rgba(43, 120, 238, 0.15)',
   CtaBtnMuted: '#9BA1B0',
 };
-export const defaultCATDarkColor = {
+export const defaultCTADarkColor = {
   CtaBtnPrimary: '#2B78EE',
   CtaBtnSecondary: 'rgba(43, 120, 238, 0.15)',
   CtaBtnMuted: '#758199',

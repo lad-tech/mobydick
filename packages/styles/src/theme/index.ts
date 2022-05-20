@@ -1,4 +1,4 @@
-import defaultTheme, {CurrentTheme} from './theme';
 import useTheme from './useTheme';
+export * from './theme';
 
-export {defaultTheme, CurrentTheme, useTheme};
+export {useTheme};
