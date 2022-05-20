@@ -17,7 +17,7 @@ const useTheme = () => {
     return () => {
       listener.remove();
     };
-  }, [currentTheme]);
+  }, []);
 
   return {
     currentTheme,
