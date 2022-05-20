@@ -60,7 +60,7 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 Чтобы запустить проект локально, используй:
 
 - `yarn start`
-- `yarn andoroid` или `yarn ios`
+- `yarn android` или `yarn ios`
 - `yarn storybook`
 
 ## Code style
