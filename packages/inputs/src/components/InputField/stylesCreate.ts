@@ -25,6 +25,7 @@ const defaultStyle = (themeColors: ICurrentThemeColors, focused: boolean) =>
     textInput: {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
+      color: themeColors.TextPrimary,
     },
     subtitleContainer: {
       flexDirection: 'row',
