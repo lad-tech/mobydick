@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react';
 import {StyleSheet} from 'react-native';
-import {ICurrentThemeColors} from '@npm/mobydick-styles';
+import {getCurrentColors, ICurrentThemeColors} from '@npm/mobydick-styles';
 
 import useTheme from '../theme/useTheme';
 
@@ -14,8 +14,9 @@ const useStyles = <
   createStyleFn: Fn,
   ...args: Args
 ) => {
-  const {currentTheme, colors} = useTheme();
-  const currentColors = colors[currentTheme];
+  const currentTheme = useTheme();
+  const currentColors = getCurrentColors();
+
   const [styles, setStyles] = useState(createStyleFn(currentColors, ...args));
 
   useEffect(() => {
