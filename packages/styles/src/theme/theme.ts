@@ -63,7 +63,7 @@ export const setTheme = (theme: typeof defaultTheme) => {
   defaultTheme = theme;
 };
 
-export const setCurrentTheme = (theme: typeof defaultTheme['currentTheme']) => {
+export const setCurrentTheme = (theme: ICurrentTheme) => {
   defaultTheme.currentTheme = theme;
   eventEmitterTheme.emit(IEventEmitterTheme.setCurrentTheme, theme);
 };
