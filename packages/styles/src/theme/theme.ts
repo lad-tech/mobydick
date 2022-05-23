@@ -22,7 +22,7 @@ export enum CurrentTheme {
 
 type ICurrentTheme = CurrentTheme | string;
 
-interface IDefaultTheme {
+export interface IDefaultTheme {
   currentTheme: ICurrentTheme;
   colors: Record<
     ICurrentTheme,
