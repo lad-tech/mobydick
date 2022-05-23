@@ -34,6 +34,9 @@ interface IDefaultTheme {
       typeof defaultBorderLightColor
   >;
 }
+
+export type ICurrentThemeColors = IDefaultTheme['colors'][0];
+
 let defaultTheme: IDefaultTheme = {
   currentTheme: CurrentTheme.light,
   colors: {

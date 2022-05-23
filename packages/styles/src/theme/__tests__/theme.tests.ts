@@ -1,4 +1,9 @@
-import {getTheme, setTheme} from '@npm/mobydick-styles';
+import {
+  getCurrentColors,
+  getCurrentTheme,
+  getTheme,
+  setTheme,
+} from '@npm/mobydick-styles';
 
 export const newThemeTextColor = {
   TextPrimary: '#113583',
@@ -82,5 +87,39 @@ describe('theme', () => {
     setTheme(newTheme);
 
     expect(getTheme()).toStrictEqual(newTheme);
+  });
+  it('getCurrentTheme', () => {
+    const newTheme: ReturnType<typeof getTheme> = {
+      currentTheme: 'qwe',
+      colors: {
+        qwe: {
+          ...newThemeTextColor,
+          ...newThemeIconColor,
+          ...newThemeElementColor,
+          ...newThemeBorderColor,
+          ...newThemeBgColor,
+          ...newThemeCTAColor,
+        },
+      },
+    };
+
+    expect(getCurrentTheme()).toStrictEqual(newTheme.currentTheme);
+  });
+  it('getCurrentColors', () => {
+    const newTheme: ReturnType<typeof getTheme> = {
+      currentTheme: 'qwe',
+      colors: {
+        qwe: {
+          ...newThemeTextColor,
+          ...newThemeIconColor,
+          ...newThemeElementColor,
+          ...newThemeBorderColor,
+          ...newThemeBgColor,
+          ...newThemeCTAColor,
+        },
+      },
+    };
+
+    expect(getCurrentColors()).toStrictEqual(newTheme.colors.qwe);
   });
 });

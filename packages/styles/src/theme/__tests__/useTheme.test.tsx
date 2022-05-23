@@ -15,7 +15,7 @@ describe('useTheme', () => {
     const {result} = renderHook(() => useTheme());
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.light,
-      ...theme.colors[CurrentTheme.light],
+      colors: theme.colors,
     });
   });
   it('dark', () => {
@@ -25,7 +25,7 @@ describe('useTheme', () => {
 
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.dark,
-      ...theme.colors[CurrentTheme.dark],
+      colors: theme.colors,
     });
   });
   it('change', () => {
@@ -35,14 +35,14 @@ describe('useTheme', () => {
 
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.light,
-      ...theme.colors[CurrentTheme.light],
+      colors: theme.colors,
     });
 
     setCurrentTheme(CurrentTheme.dark);
 
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.dark,
-      ...theme.colors[CurrentTheme.dark],
+      colors: theme.colors,
     });
   });
 });

@@ -1,18 +1,18 @@
 import {StyleSheet} from 'react-native';
-import {useTheme} from '@npm/mobydick-styles';
+import {ICurrentThemeColors} from '@npm/mobydick-styles';
 
-const stylesCreate = (theme: ReturnType<typeof useTheme>) =>
+const stylesCreate = (themeColors: ICurrentThemeColors) =>
   StyleSheet.create({
     overlay: {
       position: 'absolute',
       height: '100%',
       width: '100%',
-      backgroundColor: theme.BgOverlay,
+      backgroundColor: themeColors.BgOverlay,
       alignItems: 'center',
       justifyContent: 'center',
     },
     container: {
-      backgroundColor: theme.BgPrimary,
+      backgroundColor: themeColors.BgPrimary,
       padding: 12,
     },
   });

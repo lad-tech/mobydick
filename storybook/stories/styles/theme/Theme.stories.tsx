@@ -7,13 +7,14 @@ import {
   CurrentTheme,
   getCurrentTheme,
   useStyles,
-  useTheme,
+  ICurrentThemeColors,
 } from '@npm/mobydick-styles';
-import {StyleSheet} from 'react-native';
+import {FlatList, StyleSheet} from 'react-native';
+import {InputField} from '@npm/mobydick-inputs';
 
 import CenterView from '../../CenterView';
 
-const stylesCreate = (theme: ReturnType<typeof useTheme>) =>
+const stylesCreate = (theme: ICurrentThemeColors) =>
   StyleSheet.create({
     container: {
       backgroundColor: theme.BgPrimary,
@@ -21,6 +22,7 @@ const stylesCreate = (theme: ReturnType<typeof useTheme>) =>
       borderColor: theme.BorderSoft,
     },
   });
+const array = Array(100).fill(0);
 
 const Theme = () => {
   const [styles] = useStyles(stylesCreate);
@@ -34,9 +36,19 @@ const Theme = () => {
   };
 
   return (
-    <View style={styles.container}>
+    <>
+      <FlatList
+        data={array}
+        renderItem={() => (
+          <View style={styles.container}>
+            <Button text={'Change theme'} onPress={changeTheme} />
+            <InputField />
+          </View>
+        )}
+        keyExtractor={(_item, index) => index.toString()}
+      />
       <Button text={'Change theme'} onPress={changeTheme} />
-    </View>
+    </>
   );
 };
 

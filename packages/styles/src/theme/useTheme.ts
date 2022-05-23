@@ -1,16 +1,19 @@
 import {useEffect, useState} from 'react';
 
-import {getCurrentColors, getCurrentTheme} from './theme';
+import {getTheme} from './theme';
 import {eventEmitterTheme, IEventEmitterTheme} from './eventEmitter';
 
 const useTheme = () => {
-  const [currentTheme, setCurrentTheme] = useState(getCurrentTheme);
+  const [currentTheme, setCurrentTheme] = useState(getTheme);
 
   useEffect(() => {
     const listener = eventEmitterTheme.addListener(
       IEventEmitterTheme.setCurrentTheme,
-      () => {
-        setCurrentTheme(getCurrentTheme);
+      newCurrentTheme => {
+        setCurrentTheme({
+          currentTheme: newCurrentTheme,
+          colors: currentTheme.colors,
+        });
       },
     );
 
@@ -19,10 +22,7 @@ const useTheme = () => {
     };
   }, []);
 
-  return {
-    currentTheme,
-    ...getCurrentColors(),
-  };
+  return currentTheme;
 };
 
 export default useTheme;

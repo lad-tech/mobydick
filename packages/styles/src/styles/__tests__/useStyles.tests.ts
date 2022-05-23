@@ -10,10 +10,7 @@ describe('useStyles', () => {
     const {result} = renderHook(() => useStyles(styles));
     expect(result.current).toStrictEqual([
       styles(),
-      {
-        currentTheme: CurrentTheme.light,
-        ...theme.colors[CurrentTheme.light],
-      },
+      theme.colors[CurrentTheme.light],
     ]);
   });
 });
