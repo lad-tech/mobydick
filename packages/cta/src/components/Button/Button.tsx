@@ -1,5 +1,5 @@
 import {Text, TouchableOpacity} from '@npm/mobydick-core';
-import React, {FC} from 'react';
+import React, {FC, useCallback} from 'react';
 import {Spinner} from '@npm/mobydick-progress';
 import {useStyles} from '@npm/mobydick-styles';
 
@@ -24,18 +24,21 @@ const Button: FC<ButtonProps> = props => {
     size,
   );
 
-  const Container: FC = ({children}) => (
-    <TouchableOpacity
-      style={[styles.container, style]}
-      disabled={
-        loading ||
-        disabled ||
-        type === ITypes.disabled ||
-        type === ITypes.loading
-      }
-      {...otherProps}>
-      {children}
-    </TouchableOpacity>
+  const Container = useCallback(
+    ({children}) => (
+      <TouchableOpacity
+        style={[styles.container, style]}
+        disabled={
+          loading ||
+          disabled ||
+          type === ITypes.disabled ||
+          type === ITypes.loading
+        }
+        {...otherProps}>
+        {children}
+      </TouchableOpacity>
+    ),
+    [type, loading, disabled, styles],
   );
 
   if (loading || type === ITypes.loading)

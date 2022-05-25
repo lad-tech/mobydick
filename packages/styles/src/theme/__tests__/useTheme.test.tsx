@@ -1,24 +1,48 @@
-import {CurrentTheme, defaultTheme, useTheme} from '@npm/mobydick-styles';
+import {
+  CurrentTheme,
+  getTheme,
+  setCurrentTheme,
+  useTheme,
+} from '@npm/mobydick-styles';
 import {renderHook} from '@testing-library/react-hooks';
 
 describe('useTheme', () => {
+  const theme = getTheme();
+
   it('light', () => {
+    setCurrentTheme(CurrentTheme.light);
+
     const {result} = renderHook(() => useTheme());
     expect(result.current).toStrictEqual({
-      colorScheme: CurrentTheme.light,
-      ...defaultTheme.colors[CurrentTheme.light],
+      currentTheme: CurrentTheme.light,
+      colors: theme.colors,
     });
   });
   it('dark', () => {
-    jest.mock('react-native/Libraries/Utilities/useColorScheme', () => ({
-      default: () => 'dark',
-    }));
+    setCurrentTheme(CurrentTheme.dark);
 
     const {result} = renderHook(() => useTheme());
 
     expect(result.current).toStrictEqual({
-      colorScheme: CurrentTheme.dark,
-      ...defaultTheme.colors[CurrentTheme.dark],
+      currentTheme: CurrentTheme.dark,
+      colors: theme.colors,
+    });
+  });
+  it('change', () => {
+    setCurrentTheme(CurrentTheme.light);
+
+    const {result} = renderHook(() => useTheme());
+
+    expect(result.current).toStrictEqual({
+      currentTheme: CurrentTheme.light,
+      colors: theme.colors,
+    });
+
+    setCurrentTheme(CurrentTheme.dark);
+
+    expect(result.current).toStrictEqual({
+      currentTheme: CurrentTheme.dark,
+      colors: theme.colors,
     });
   });
 });

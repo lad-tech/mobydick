@@ -1,10 +1,10 @@
 import {StyleSheet} from 'react-native';
-import {useTheme} from '@npm/mobydick-styles';
+import {ICurrentThemeColors} from '@npm/mobydick-styles';
 
-const defaultStyle = (theme: ReturnType<typeof useTheme>) =>
+const defaultStyle = (themeColors: ICurrentThemeColors) =>
   StyleSheet.create({
     container: {
-      shadowColor: theme.BgBlack,
+      shadowColor: themeColors.BgBlack,
       // ios
       shadowOffset: {
         width: 0,
@@ -19,7 +19,7 @@ const defaultStyle = (theme: ReturnType<typeof useTheme>) =>
     },
   });
 
-const stylesCreate = (theme: ReturnType<typeof useTheme>) => {
+const stylesCreate = (theme: ICurrentThemeColors) => {
   return defaultStyle(theme);
 };
 export default stylesCreate;
