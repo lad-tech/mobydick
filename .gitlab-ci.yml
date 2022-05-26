@@ -1,0 +1,4 @@
+include:
+  - project: 'mobile-developers/template-builder'
+    ref: master
+    file: '.gitlab-ci.yml'

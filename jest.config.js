@@ -18,5 +18,6 @@ module.exports = {
     'moduleNameMapper': {
         '\\.svg': '<rootDir>/__mocks__/svgMock.ts',
     },
+    testResultsProcessor: 'jest-sonar-reporter',
 };
 
