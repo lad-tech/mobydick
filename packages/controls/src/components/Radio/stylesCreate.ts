@@ -1,8 +1,8 @@
-import {useTheme} from '@npm/mobydick-styles';
+import {ICurrentThemeColors} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
 const stylesCreate = (
-  theme: ReturnType<typeof useTheme>,
+  themeColors: ICurrentThemeColors,
   selected: boolean,
   disabled?: boolean,
 ) =>
@@ -10,15 +10,17 @@ const stylesCreate = (
     container: {
       flexDirection: 'row',
       alignItems: 'center',
-      backgroundColor: theme.BgPrimary,
+      backgroundColor: themeColors.BgPrimary,
       opacity: disabled ? 0.4 : 1,
     },
     circle: {
       width: 22,
       aspectRatio: 1,
       borderRadius: 11,
-      backgroundColor: selected ? theme.ElementBase : 'transparent',
-      borderColor: selected ? theme.ElementBase : theme.BorderNormal,
+      backgroundColor: selected ? themeColors.ElementBase : 'transparent',
+      borderColor: selected
+        ? themeColors.ElementBase
+        : themeColors.BorderNormal,
       borderWidth: 2,
       justifyContent: 'center',
       alignItems: 'center',
@@ -29,7 +31,7 @@ const stylesCreate = (
       aspectRatio: 1,
       borderWidth: 2,
       borderRadius: 9,
-      borderColor: theme.BgPrimary,
+      borderColor: themeColors.BgPrimary,
     },
     text: {
       fontSize: 16,

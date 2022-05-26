@@ -1,21 +1,21 @@
 import {StyleSheet} from 'react-native';
-import {useTheme} from '@npm/mobydick-styles';
+import {ICurrentThemeColors} from '@npm/mobydick-styles';
 
 import {ITypes} from './types';
 
-const defaultStyle = (theme: ReturnType<typeof useTheme>, focused: boolean) =>
+const defaultStyle = (themeColors: ICurrentThemeColors, focused: boolean) =>
   StyleSheet.create({
     label: {
-      color: theme.TextTertiary,
+      color: themeColors.TextTertiary,
       fontSize: 14, // TODO: Брать из темы, когда они будут готовы,
       fontWeight: '500', // TODO: Брать из темы, когда они будут готовы,
     },
     textInputContainer: {
-      backgroundColor: theme.BgSecondary,
+      backgroundColor: themeColors.BgSecondary,
       padding: 8,
       borderRadius: 8, // TODO: Брать из темы, когда они будут готовы
       borderWidth: 1,
-      borderColor: focused ? theme.BorderNormal : 'transparent',
+      borderColor: focused ? themeColors.BorderNormal : 'transparent',
       marginVertical: 8, // TODO: Брать из темы, когда они будут готовы
       minWidth: 120,
       flexDirection: 'row',
@@ -25,74 +25,72 @@ const defaultStyle = (theme: ReturnType<typeof useTheme>, focused: boolean) =>
     textInput: {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
+      color: themeColors.TextPrimary,
     },
     subtitleContainer: {
       flexDirection: 'row',
       alignItems: 'center',
     },
     subtitleText: {
-      color: theme.TextMuted,
+      color: themeColors.TextMuted,
       fontSize: 12, // TODO: Брать из темы, когда они будут готовы
       fontWeight: '400',
     },
   });
 
-const validStyle = (theme: ReturnType<typeof useTheme>, focused: boolean) => {
-  const defaultStyles = defaultStyle(theme, focused);
+const validStyle = (themeColors: ICurrentThemeColors, focused: boolean) => {
+  const defaultStyles = defaultStyle(themeColors, focused);
 
   defaultStyles.textInputContainer = {
     ...defaultStyles.textInputContainer,
-    borderColor: focused ? theme.BorderSuccess : 'transparent',
-    backgroundColor: theme.BgAccentSoft,
+    borderColor: focused ? themeColors.BorderSuccess : 'transparent',
+    backgroundColor: themeColors.BgAccentSoft,
   };
   return defaultStyles;
 };
 
-const disabledStyle = (
-  theme: ReturnType<typeof useTheme>,
-  focused: boolean,
-) => {
-  const defaultStyles = defaultStyle(theme, focused);
+const disabledStyle = (themeColors: ICurrentThemeColors, focused: boolean) => {
+  const defaultStyles = defaultStyle(themeColors, focused);
 
   defaultStyles.textInputContainer = {
     ...defaultStyles.textInputContainer,
-    borderColor: focused ? theme.BgTertiary : 'transparent',
-    backgroundColor: theme.BgTertiary,
+    borderColor: focused ? themeColors.BgTertiary : 'transparent',
+    backgroundColor: themeColors.BgTertiary,
   };
   return defaultStyles;
 };
 
-const wrongStyle = (theme: ReturnType<typeof useTheme>, focused: boolean) => {
-  const defaultStyles = defaultStyle(theme, focused);
+const wrongStyle = (themeColors: ICurrentThemeColors, focused: boolean) => {
+  const defaultStyles = defaultStyle(themeColors, focused);
 
   defaultStyles.textInputContainer = {
     ...defaultStyles.textInputContainer,
-    borderColor: focused ? theme.BorderError : 'transparent',
-    backgroundColor: theme.BgError,
+    borderColor: focused ? themeColors.BorderError : 'transparent',
+    backgroundColor: themeColors.BgError,
   };
 
   defaultStyles.subtitleText = {
     ...defaultStyles.subtitleText,
-    color: theme.TextError,
+    color: themeColors.TextError,
   };
   return defaultStyles;
 };
 
 const stylesCreate = (
-  theme: ReturnType<typeof useTheme>,
+  themeColors: ICurrentThemeColors,
   type: ITypes,
   focused: boolean,
 ) => {
   switch (type) {
     case ITypes.valid:
-      return validStyle(theme, focused);
+      return validStyle(themeColors, focused);
     case ITypes.wrong:
-      return wrongStyle(theme, focused);
+      return wrongStyle(themeColors, focused);
     case ITypes.disabled:
-      return disabledStyle(theme, focused);
+      return disabledStyle(themeColors, focused);
     case ITypes.default:
     default:
-      return defaultStyle(theme, focused);
+      return defaultStyle(themeColors, focused);
   }
 };
 export default stylesCreate;
