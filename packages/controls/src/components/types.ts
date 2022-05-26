@@ -1,9 +1,8 @@
 export interface ICommonControlProps {
-  selected: boolean;
+  selected?: boolean;
 }
 
 export interface IControlProps extends ICommonControlProps {
   text: string;
-  disabled: boolean;
-  onSelect(): void;
+  disabled?: boolean;
 }

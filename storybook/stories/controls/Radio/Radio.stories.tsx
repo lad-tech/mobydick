@@ -13,6 +13,6 @@ storiesOf('Design System/Controls/Radio', module)
       text={text('text', 'Option 1')}
       selected={boolean('selected', false)}
       disabled={boolean('disabled', false)}
-      onSelect={action('clicked radio')}
+      onPress={action('clicked radio')}
     />
   ));

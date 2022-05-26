@@ -9,19 +9,14 @@ import Circle from './Circle';
 
 const Radio: FC<IControlProps & PressableProps> = ({
   text,
-  selected,
-  disabled,
-  onSelect,
+  selected = false,
+  disabled = false,
   ...rest
 }) => {
   const [styles] = useStyles(stylesCreate, selected, disabled);
 
   return (
-    <Pressable
-      style={styles.container}
-      onPress={onSelect}
-      disabled={disabled}
-      {...rest}>
+    <Pressable style={styles.container} disabled={disabled} {...rest}>
       <Circle
         selected={selected}
         outerStyle={styles.circle}

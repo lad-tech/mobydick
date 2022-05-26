@@ -4,7 +4,7 @@ import {StyleSheet} from 'react-native';
 const stylesCreate = (
   themeColors: ICurrentThemeColors,
   selected: boolean,
-  disabled?: boolean,
+  disabled: boolean,
 ) =>
   StyleSheet.create({
     container: {
