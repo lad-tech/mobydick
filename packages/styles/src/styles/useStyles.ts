@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import {StyleSheet} from 'react-native';
-import {getCurrentColors, ICurrentThemeColors} from '@npm/mobydick-styles';
 
+import {getCurrentColors, ICurrentThemeColors} from '../theme';
 import useTheme from '../theme/useTheme';
 
 const useStyles = <
