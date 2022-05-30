@@ -37,6 +37,7 @@ const stylesCreate = (
       fontSize: 16,
       lineHeight: 20,
       letterSpacing: -0.25,
+      color: themeColors.TextPrimary,
     },
   });
 

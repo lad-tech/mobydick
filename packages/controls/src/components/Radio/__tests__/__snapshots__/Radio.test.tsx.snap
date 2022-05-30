@@ -46,6 +46,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly 1`] = `
   <Text
     style={
       Object {
+        "color": "#20242D",
         "fontSize": 16,
         "letterSpacing": -0.25,
         "lineHeight": 20,
@@ -103,6 +104,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly disabled 1`] = `
   <Text
     style={
       Object {
+        "color": "#20242D",
         "fontSize": 16,
         "letterSpacing": -0.25,
         "lineHeight": 20,
@@ -172,6 +174,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
   <Text
     style={
       Object {
+        "color": "#20242D",
         "fontSize": 16,
         "letterSpacing": -0.25,
         "lineHeight": 20,
@@ -241,6 +244,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`
   <Text
     style={
       Object {
+        "color": "#20242D",
         "fontSize": 16,
         "letterSpacing": -0.25,
         "lineHeight": 20,
