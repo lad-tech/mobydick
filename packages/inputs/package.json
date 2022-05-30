@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-inputs",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0-alpha.2",
   "description": "Inputs on MobyDick core",
   "main": "index.ts",
   "scripts": {
@@ -13,8 +13,8 @@
     "react": ">=17.0.2"
   },
   "dependencies": {
-    "@npm/mobydick-styles": "0.0.0-alpha.1",
-    "@npm/mobydick-core": "0.0.0-alpha.1"
+    "@npm/mobydick-styles": "0.0.0-alpha.2",
+    "@npm/mobydick-core": "0.0.0-alpha.2"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"

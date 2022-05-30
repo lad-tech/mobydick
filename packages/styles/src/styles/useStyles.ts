@@ -6,12 +6,9 @@ import useTheme from '../theme/useTheme';
 
 const useStyles = <
   Args extends unknown[],
-  Fn extends (
-    theme: ICurrentThemeColors,
-    ...arg: Args
-  ) => ReturnType<typeof StyleSheet.create>,
+  FnReturn extends StyleSheet.NamedStyles<unknown>,
 >(
-  createStyleFn: Fn,
+  createStyleFn: (theme: ICurrentThemeColors, ...arg: Args) => FnReturn,
   ...args: Args
 ) => {
   const currentTheme = useTheme();
