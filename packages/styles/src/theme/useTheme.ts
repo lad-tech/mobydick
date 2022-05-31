@@ -13,6 +13,7 @@ const useTheme = () => {
         setCurrentTheme({
           currentTheme: newCurrentTheme,
           colors: currentTheme.colors,
+          spaces: currentTheme.spaces,
         });
       },
     );

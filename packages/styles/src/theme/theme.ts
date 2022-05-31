@@ -1,3 +1,4 @@
+import {defaultSpaces} from '../spaces';
 import {
   defaultTextDarkColor,
   defaultTextLightColor,
@@ -33,9 +34,11 @@ export interface IDefaultTheme {
       typeof defaultCTALightColor &
       typeof defaultBorderLightColor
   >;
+  spaces: typeof defaultSpaces;
 }
 
 export type ICurrentThemeColors = IDefaultTheme['colors'][0];
+export type ICurrentSpaces = IDefaultTheme['spaces'];
 
 let defaultTheme: IDefaultTheme = {
   currentTheme: CurrentTheme.light,
@@ -57,6 +60,9 @@ let defaultTheme: IDefaultTheme = {
       ...defaultBorderDarkColor,
     },
   },
+  spaces: {
+    ...defaultSpaces,
+  },
 };
 
 export const setTheme = (theme: typeof defaultTheme) => {
@@ -74,6 +80,10 @@ export const getCurrentTheme = () => {
 
 export const getCurrentColors = () => {
   return defaultTheme.colors[defaultTheme.currentTheme];
+};
+
+export const getSpaces = () => {
+  return defaultTheme.spaces;
 };
 
 export const getTheme = () => {

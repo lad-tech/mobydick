@@ -7,7 +7,7 @@ import {
 import {renderHook} from '@testing-library/react-hooks';
 
 describe('useTheme', () => {
-  const theme = getTheme();
+  const {colors, spaces} = getTheme();
 
   it('light', () => {
     setCurrentTheme(CurrentTheme.light);
@@ -15,7 +15,8 @@ describe('useTheme', () => {
     const {result} = renderHook(() => useTheme());
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.light,
-      colors: theme.colors,
+      colors,
+      spaces,
     });
   });
   it('dark', () => {
@@ -25,7 +26,8 @@ describe('useTheme', () => {
 
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.dark,
-      colors: theme.colors,
+      colors,
+      spaces,
     });
   });
   it('change', () => {
@@ -35,14 +37,16 @@ describe('useTheme', () => {
 
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.light,
-      colors: theme.colors,
+      colors,
+      spaces,
     });
 
     setCurrentTheme(CurrentTheme.dark);
 
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.dark,
-      colors: theme.colors,
+      colors,
+      spaces,
     });
   });
 });

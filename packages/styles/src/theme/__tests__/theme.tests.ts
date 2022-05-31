@@ -1,6 +1,7 @@
 import {
   getCurrentColors,
   getCurrentTheme,
+  getSpaces,
   getTheme,
   setTheme,
 } from '@npm/mobydick-styles';
@@ -82,6 +83,7 @@ describe('theme', () => {
           ...newThemeCTAColor,
         },
       },
+      spaces: getSpaces(),
     };
 
     setTheme(newTheme);
@@ -101,6 +103,7 @@ describe('theme', () => {
           ...newThemeCTAColor,
         },
       },
+      spaces: getSpaces(),
     };
 
     expect(getCurrentTheme()).toStrictEqual(newTheme.currentTheme);
@@ -118,6 +121,7 @@ describe('theme', () => {
           ...newThemeCTAColor,
         },
       },
+      spaces: getSpaces(),
     };
 
     expect(getCurrentColors()).toStrictEqual(newTheme.colors.qwe);
