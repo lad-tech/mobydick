@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-controls/Radio renders correctly 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "flexDirection": "row",
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "transparent",
+        "borderColor": "rgba(32, 36, 45, 0.3)",
+        "borderRadius": 11,
+        "borderWidth": 2,
+        "justifyContent": "center",
+        "margin": 11,
+        "width": 22,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#20242D",
+        "fontSize": 16,
+        "letterSpacing": -0.25,
+        "lineHeight": 20,
+      }
+    }
+  >
+    text
+  </Text>
+</View>
+`;
+
+exports[`@npm/mobydick-controls/Radio renders correctly disabled 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "flexDirection": "row",
+      "opacity": 0.4,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "transparent",
+        "borderColor": "rgba(32, 36, 45, 0.3)",
+        "borderRadius": 11,
+        "borderWidth": 2,
+        "justifyContent": "center",
+        "margin": 11,
+        "width": 22,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#20242D",
+        "fontSize": 16,
+        "letterSpacing": -0.25,
+        "lineHeight": 20,
+      }
+    }
+  >
+    text
+  </Text>
+</View>
+`;
+
+exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "flexDirection": "row",
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "#2B78EE",
+        "borderColor": "#2B78EE",
+        "borderRadius": 11,
+        "borderWidth": 2,
+        "justifyContent": "center",
+        "margin": 11,
+        "width": 22,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "aspectRatio": 1,
+          "borderColor": "#FFF",
+          "borderRadius": 9,
+          "borderWidth": 2,
+          "width": 18,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#20242D",
+        "fontSize": 16,
+        "letterSpacing": -0.25,
+        "lineHeight": 20,
+      }
+    }
+  >
+    text
+  </Text>
+</View>
+`;
+
+exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "flexDirection": "row",
+      "opacity": 0.4,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "#2B78EE",
+        "borderColor": "#2B78EE",
+        "borderRadius": 11,
+        "borderWidth": 2,
+        "justifyContent": "center",
+        "margin": 11,
+        "width": 22,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "aspectRatio": 1,
+          "borderColor": "#FFF",
+          "borderRadius": 9,
+          "borderWidth": 2,
+          "width": 18,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#20242D",
+        "fontSize": 16,
+        "letterSpacing": -0.25,
+        "lineHeight": 20,
+      }
+    }
+  >
+    text
+  </Text>
+</View>
+`;
