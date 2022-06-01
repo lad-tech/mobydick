@@ -16,3 +16,12 @@ jest.mock('react-native/Libraries/StyleSheet/StyleSheet.js', () => {
     create: (obj: unknown) => obj,
   };
 });
+
+// Somehow Platform.isTesting === undefined when running in jest:/
+jest.mock('react-native/Libraries/Utilities/Platform', () => {
+  const real = jest.requireActual('react-native/Libraries/Utilities/Platform');
+  return {
+    ...real,
+    isTesting: true,
+  };
+});

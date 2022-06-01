@@ -4,7 +4,7 @@ import {
   setCurrentTheme,
   useTheme,
 } from '@npm/mobydick-styles';
-import {renderHook} from '@testing-library/react-hooks';
+import {act, renderHook} from '@testing-library/react-hooks';
 
 describe('useTheme', () => {
   const {colors, spaces} = getTheme();
@@ -41,7 +41,7 @@ describe('useTheme', () => {
       spaces,
     });
 
-    setCurrentTheme(CurrentTheme.dark);
+    act(() => setCurrentTheme(CurrentTheme.dark));
 
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.dark,
