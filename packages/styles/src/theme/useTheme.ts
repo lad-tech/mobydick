@@ -1,20 +1,34 @@
 import {useEffect, useState} from 'react';
 
-import {getTheme} from './theme';
+import {
+  getCurrentColors,
+  getCurrentTheme,
+  getSpaces,
+  ICurrentTheme,
+} from './theme';
 import {eventEmitterTheme, IEventEmitterTheme} from './eventEmitter';
 
+interface IUseTheme {
+  colors: ReturnType<typeof getCurrentColors>;
+  spaces: ReturnType<typeof getSpaces>;
+  currentTheme: ICurrentTheme;
+}
 const useTheme = () => {
-  const [currentTheme, setCurrentTheme] = useState(getTheme);
+  const [currentTheme, setCurrentTheme] = useState<IUseTheme>(() => ({
+    colors: getCurrentColors(),
+    currentTheme: getCurrentTheme(),
+    spaces: getSpaces(),
+  }));
 
   useEffect(() => {
     const listener = eventEmitterTheme.addListener(
       IEventEmitterTheme.setCurrentTheme,
       newCurrentTheme => {
-        setCurrentTheme({
+        setCurrentTheme(() => ({
           currentTheme: newCurrentTheme,
-          colors: currentTheme.colors,
+          colors: getCurrentColors(),
           spaces: currentTheme.spaces,
-        });
+        }));
       },
     );
 

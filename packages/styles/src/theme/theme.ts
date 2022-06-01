@@ -21,7 +21,7 @@ export enum CurrentTheme {
   dark = 'dark',
 }
 
-type ICurrentTheme = CurrentTheme | string;
+export type ICurrentTheme = CurrentTheme | string;
 
 export interface IDefaultTheme {
   currentTheme: ICurrentTheme;

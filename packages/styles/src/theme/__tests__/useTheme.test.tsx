@@ -15,7 +15,7 @@ describe('useTheme', () => {
     const {result} = renderHook(() => useTheme());
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.light,
-      colors,
+      colors: colors[CurrentTheme.light],
       spaces,
     });
   });
@@ -26,7 +26,7 @@ describe('useTheme', () => {
 
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.dark,
-      colors,
+      colors: colors[CurrentTheme.dark],
       spaces,
     });
   });
@@ -37,7 +37,7 @@ describe('useTheme', () => {
 
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.light,
-      colors,
+      colors: colors[CurrentTheme.light],
       spaces,
     });
 
@@ -45,7 +45,7 @@ describe('useTheme', () => {
 
     expect(result.current).toStrictEqual({
       currentTheme: CurrentTheme.dark,
-      colors,
+      colors: colors[CurrentTheme.dark],
       spaces,
     });
   });

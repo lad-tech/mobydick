@@ -1,4 +1,3 @@
-import {useEffect, useState} from 'react';
 import {StyleSheet} from 'react-native';
 import {IUseStylesTheme} from '@npm/mobydick-styles/src/styles/types';
 
@@ -12,19 +11,13 @@ const useStyles = <
   createStyleFn: (theme: IUseStylesTheme, ...arg: Args) => FnReturn,
   ...args: Args
 ) => {
-  const currentTheme = useTheme();
+  useTheme();
   const theme = {
     colors: getCurrentColors(),
     spaces: getSpaces(),
   };
 
-  const [styles, setStyles] = useState(createStyleFn(theme, ...args));
-
-  useEffect(() => {
-    setStyles(createStyleFn(theme, ...args));
-  }, [currentTheme.currentTheme, createStyleFn, ...args]);
-
-  return [styles, theme] as const;
+  return [createStyleFn(theme, ...args), theme] as const;
 };
 
 export default useStyles;
