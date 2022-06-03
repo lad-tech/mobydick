@@ -1,26 +1,25 @@
-import {ICurrentThemeColors} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
+import {IUseStylesTheme} from '@npm/mobydick-styles';
 
 const stylesCreate = (
-  themeColors: ICurrentThemeColors,
+  theme: IUseStylesTheme,
   selected: boolean,
   disabled: boolean,
-) =>
-  StyleSheet.create({
+) => {
+  const {colors} = theme;
+  return StyleSheet.create({
     container: {
       flexDirection: 'row',
       alignItems: 'center',
-      backgroundColor: themeColors.BgPrimary,
+      backgroundColor: colors.BgPrimary,
       opacity: disabled ? 0.4 : 1,
     },
     circle: {
       width: 22,
       aspectRatio: 1,
       borderRadius: 11,
-      backgroundColor: selected ? themeColors.ElementBase : 'transparent',
-      borderColor: selected
-        ? themeColors.ElementBase
-        : themeColors.BorderNormal,
+      backgroundColor: selected ? colors.ElementBase : 'transparent',
+      borderColor: selected ? colors.ElementBase : colors.BorderNormal,
       borderWidth: 2,
       justifyContent: 'center',
       alignItems: 'center',
@@ -31,14 +30,15 @@ const stylesCreate = (
       aspectRatio: 1,
       borderWidth: 2,
       borderRadius: 9,
-      borderColor: themeColors.BgPrimary,
+      borderColor: colors.BgPrimary,
     },
     text: {
       fontSize: 16,
       lineHeight: 20,
       letterSpacing: -0.25,
-      color: themeColors.TextPrimary,
+      color: colors.TextPrimary,
     },
   });
+};
 
 export default stylesCreate;

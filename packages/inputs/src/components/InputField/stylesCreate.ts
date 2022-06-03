@@ -1,21 +1,22 @@
+import {IUseStylesTheme} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
-import {ICurrentThemeColors} from '@npm/mobydick-styles';
 
 import {ITypes} from './types';
 
-const defaultStyle = (themeColors: ICurrentThemeColors, focused: boolean) =>
-  StyleSheet.create({
+const defaultStyle = (theme: IUseStylesTheme, focused: boolean) => {
+  const {colors} = theme;
+  return StyleSheet.create({
     label: {
-      color: themeColors.TextTertiary,
+      color: colors.TextTertiary,
       fontSize: 14, // TODO: Брать из темы, когда они будут готовы,
       fontWeight: '500', // TODO: Брать из темы, когда они будут готовы,
     },
     textInputContainer: {
-      backgroundColor: themeColors.BgSecondary,
+      backgroundColor: colors.BgSecondary,
       padding: 8,
       borderRadius: 8, // TODO: Брать из темы, когда они будут готовы
       borderWidth: 1,
-      borderColor: focused ? themeColors.BorderNormal : 'transparent',
+      borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: 8, // TODO: Брать из темы, когда они будут готовы
       minWidth: 120,
       flexDirection: 'row',
@@ -25,72 +26,71 @@ const defaultStyle = (themeColors: ICurrentThemeColors, focused: boolean) =>
     textInput: {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
-      color: themeColors.TextPrimary,
+      color: colors.TextPrimary,
     },
     subtitleContainer: {
       flexDirection: 'row',
       alignItems: 'center',
     },
     subtitleText: {
-      color: themeColors.TextMuted,
+      color: colors.TextMuted,
       fontSize: 12, // TODO: Брать из темы, когда они будут готовы
       fontWeight: '400',
     },
   });
+};
 
-const validStyle = (themeColors: ICurrentThemeColors, focused: boolean) => {
-  const defaultStyles = defaultStyle(themeColors, focused);
+const validStyle = (theme: IUseStylesTheme, focused: boolean) => {
+  const defaultStyles = defaultStyle(theme, focused);
+  const {colors} = theme;
+  const {textInputContainer} = defaultStyles;
 
-  defaultStyles.textInputContainer = {
-    ...defaultStyles.textInputContainer,
-    borderColor: focused ? themeColors.BorderSuccess : 'transparent',
-    backgroundColor: themeColors.BgAccentSoft,
-  };
+  textInputContainer.borderColor = focused
+    ? colors.BorderSuccess
+    : 'transparent';
+  textInputContainer.backgroundColor = colors.BgAccentSoft;
+
   return defaultStyles;
 };
 
-const disabledStyle = (themeColors: ICurrentThemeColors, focused: boolean) => {
-  const defaultStyles = defaultStyle(themeColors, focused);
+const disabledStyle = (theme: IUseStylesTheme, focused: boolean) => {
+  const defaultStyles = defaultStyle(theme, focused);
+  const {colors} = theme;
+  const {textInputContainer} = defaultStyles;
 
-  defaultStyles.textInputContainer = {
-    ...defaultStyles.textInputContainer,
-    borderColor: focused ? themeColors.BgTertiary : 'transparent',
-    backgroundColor: themeColors.BgTertiary,
-  };
+  textInputContainer.borderColor = focused ? colors.BgTertiary : 'transparent';
+  textInputContainer.backgroundColor = colors.BgTertiary;
+
   return defaultStyles;
 };
 
-const wrongStyle = (themeColors: ICurrentThemeColors, focused: boolean) => {
-  const defaultStyles = defaultStyle(themeColors, focused);
+const wrongStyle = (theme: IUseStylesTheme, focused: boolean) => {
+  const defaultStyles = defaultStyle(theme, focused);
+  const {colors} = theme;
+  const {textInputContainer} = defaultStyles;
 
-  defaultStyles.textInputContainer = {
-    ...defaultStyles.textInputContainer,
-    borderColor: focused ? themeColors.BorderError : 'transparent',
-    backgroundColor: themeColors.BgError,
-  };
+  textInputContainer.borderColor = focused ? colors.BorderError : 'transparent';
+  textInputContainer.backgroundColor = colors.BgError;
+  defaultStyles.subtitleText.color = colors.TextError;
 
-  defaultStyles.subtitleText = {
-    ...defaultStyles.subtitleText,
-    color: themeColors.TextError,
-  };
   return defaultStyles;
 };
 
 const stylesCreate = (
-  themeColors: ICurrentThemeColors,
+  theme: IUseStylesTheme,
   type: ITypes,
   focused: boolean,
 ) => {
   switch (type) {
     case ITypes.valid:
-      return validStyle(themeColors, focused);
+      return validStyle(theme, focused);
     case ITypes.wrong:
-      return wrongStyle(themeColors, focused);
+      return wrongStyle(theme, focused);
     case ITypes.disabled:
-      return disabledStyle(themeColors, focused);
+      return disabledStyle(theme, focused);
     case ITypes.default:
     default:
-      return defaultStyle(themeColors, focused);
+      return defaultStyle(theme, focused);
   }
 };
 export default stylesCreate;

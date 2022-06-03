@@ -1,13 +1,13 @@
 import {StyleSheet} from 'react-native';
-import {ICurrentThemeColors} from '@npm/mobydick-styles';
+import {IUseStylesTheme} from '@npm/mobydick-styles';
 
-const styleCreate = (themeColors: ICurrentThemeColors) =>
+const styleCreate = (theme: IUseStylesTheme) =>
   StyleSheet.create({
     main: {
       flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: themeColors.BgPrimary,
+      backgroundColor: theme.colors.BgPrimary,
     },
     themeSwitcher: {
       position: 'absolute',

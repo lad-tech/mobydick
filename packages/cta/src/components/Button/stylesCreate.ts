@@ -1,92 +1,74 @@
+import {IUseStylesTheme} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
-import {ICurrentThemeColors} from '@npm/mobydick-styles';
 
 import {ISize, ITypes} from './types';
 
-const primaryStyle = (themeColors: ICurrentThemeColors, size: ISize) =>
-  StyleSheet.create({
+const primaryStyle = (theme: IUseStylesTheme, size: ISize) => {
+  const {colors} = theme;
+  return StyleSheet.create({
     container: {
       alignSelf: size === ISize.fixed ? 'stretch' : undefined,
       flexDirection: 'row',
       alignItems: 'stretch',
       justifyContent: 'center',
-      backgroundColor: themeColors.CtaBtnPrimary,
+      backgroundColor: colors.CtaBtnPrimary,
       borderRadius: 12, // TODO: Брать из theme
       padding: size === ISize.small ? 10 : 12, // TODO: Брать из theme
       margin: 12, // TODO: Брать из theme
     },
     text: {
-      color: themeColors.TextWhite,
+      color: colors.TextWhite,
       marginHorizontal: 10,
       fontSize: 18, // TODO: Брать из theme
       fontWeight: '600', // TODO: Брать из theme
     },
   });
+};
 
-const secondaryStyle = (themeColors: ICurrentThemeColors, size: ISize) => {
-  const defaultStyles = primaryStyle(themeColors, size);
+const secondaryStyle = (theme: IUseStylesTheme, size: ISize) => {
+  const defaultStyles = primaryStyle(theme, size);
+  const {
+    colors: {CtaBtnSecondary, TextAccent},
+  } = theme;
 
-  defaultStyles.container = {
-    ...defaultStyles.container,
-    backgroundColor: themeColors.CtaBtnSecondary,
-  };
-
-  defaultStyles.text = {
-    ...defaultStyles.text,
-    color: themeColors.TextAccent,
-  };
+  defaultStyles.container.backgroundColor = CtaBtnSecondary;
+  defaultStyles.text.color = TextAccent;
 
   return defaultStyles;
 };
 
-const tertiaryStyle = (themeColors: ICurrentThemeColors, size: ISize) => {
-  const defaultStyles = primaryStyle(themeColors, size);
+const tertiaryStyle = (theme: IUseStylesTheme, size: ISize) => {
+  const defaultStyles = primaryStyle(theme, size);
+  const {colors} = theme;
 
-  defaultStyles.container = {
-    ...defaultStyles.container,
-    backgroundColor: 'transparent',
-  };
-
-  defaultStyles.text = {
-    ...defaultStyles.text,
-    color: themeColors.TextAccent,
-  };
+  defaultStyles.container.backgroundColor = 'transparent';
+  defaultStyles.text.color = colors.TextAccent;
 
   return defaultStyles;
 };
 
-const disabledStyle = (themeColors: ICurrentThemeColors, size: ISize) => {
-  const defaultStyles = primaryStyle(themeColors, size);
+const disabledStyle = (theme: IUseStylesTheme, size: ISize) => {
+  const defaultStyles = primaryStyle(theme, size);
+  const {colors} = theme;
 
-  defaultStyles.container = {
-    ...defaultStyles.container,
-    backgroundColor: themeColors.CtaBtnMuted,
-  };
-
-  defaultStyles.text = {
-    ...defaultStyles.text,
-    color: themeColors.TextWhite,
-  };
+  defaultStyles.container.backgroundColor = colors.CtaBtnMuted;
+  defaultStyles.text.color = colors.TextWhite;
 
   return defaultStyles;
 };
 
-const stylesCreate = (
-  themeColors: ICurrentThemeColors,
-  type: ITypes,
-  size: ISize,
-) => {
+const stylesCreate = (theme: IUseStylesTheme, type: ITypes, size: ISize) => {
   switch (type) {
     case ITypes.primary:
-      return primaryStyle(themeColors, size);
+      return primaryStyle(theme, size);
     case ITypes.secondary:
-      return secondaryStyle(themeColors, size);
+      return secondaryStyle(theme, size);
     case ITypes.tertiary:
-      return tertiaryStyle(themeColors, size);
+      return tertiaryStyle(theme, size);
     case ITypes.disabled:
-      return disabledStyle(themeColors, size);
+      return disabledStyle(theme, size);
     default:
-      return primaryStyle(themeColors, size);
+      return primaryStyle(theme, size);
   }
 };
 export default stylesCreate;
