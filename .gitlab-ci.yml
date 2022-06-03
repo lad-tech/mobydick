@@ -2,3 +2,4 @@ include:
   - project: 'mobile-developers/template-builder'
     ref: android
     file: '.gitlab-ci.yml'
+
