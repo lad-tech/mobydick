@@ -17,7 +17,6 @@
     "bundle": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
     "bundleWithAssets": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/",
     "android:clean": "cd android && ./gradlew clean",
-    "android:aab": "cd android && ./gradlew :app:bundleRelease",
     "android:build:debug": "cd android && ./gradlew :app:assembleDebug",
     "android:build:release": "cd android && ./gradlew :app:assembleRelease",
     "android:get:aab": "cd android && ./gradlew :app:bundleRelease",
