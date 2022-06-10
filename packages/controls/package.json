@@ -1,12 +1,12 @@
 {
-  "name": "@npm/mobydick-progress",
+  "name": "@npm/mobydick-controls",
   "version": "0.0.0-alpha.3",
-  "description": "Progress on MobyDick core",
+  "description": "Controls on MobyDick core",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kirill Lebedev <lebedevki@lad24.ru>",
+  "author": "Dmitriy Gubanikhin <gubanikhinda@lad24.ru>",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.66.4",
@@ -22,6 +22,6 @@
   "repository": {
     "type": "git",
     "url": "https://glab.lad24.ru/npm/mobydick.git",
-    "directory": "packages/progress"
+    "directory": "packages/controls"
   }
 }

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-controls/Radio/Circle renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "aspectRatio": 1,
+      "borderColor": "#FFF",
+      "borderRadius": 9,
+      "borderWidth": 2,
+      "width": 18,
+    }
+  }
+/>
+`;
+
+exports[`@npm/mobydick-controls/Radio/Circle renders correctly selected 1`] = `
+<View
+  style={
+    Object {
+      "aspectRatio": 1,
+      "borderColor": "#FFF",
+      "borderRadius": 9,
+      "borderWidth": 2,
+      "width": 18,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "transparent",
+        "borderColor": "rgba(32, 36, 45, 0.3)",
+        "borderRadius": 11,
+        "borderWidth": 2,
+        "justifyContent": "center",
+        "margin": 11,
+        "width": 22,
+      }
+    }
+  />
+</View>
+`;

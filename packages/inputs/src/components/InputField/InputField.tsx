@@ -45,7 +45,7 @@ const InputField = forwardRef<ITextInput, InputFieldProps>((props, ref) => {
           ref={ref}
           testID={Constants.testID}
           style={[styles.textInput, style]}
-          placeholderTextColor={theme.TextTertiary}
+          placeholderTextColor={theme.colors.TextTertiary}
           editable={!disabled}
           numberOfLines={1}
           onFocus={() => setFocused(true)}

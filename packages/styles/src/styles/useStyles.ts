@@ -1,26 +1,23 @@
-import {useEffect, useState} from 'react';
 import {StyleSheet} from 'react-native';
+import {IUseStylesTheme} from '@npm/mobydick-styles/src/styles/types';
 
-import {getCurrentColors, ICurrentThemeColors} from '../theme';
+import {getCurrentColors, getSpaces} from '../theme';
 import useTheme from '../theme/useTheme';
 
 const useStyles = <
   Args extends unknown[],
   FnReturn extends StyleSheet.NamedStyles<unknown>,
 >(
-  createStyleFn: (theme: ICurrentThemeColors, ...arg: Args) => FnReturn,
+  createStyleFn: (theme: IUseStylesTheme, ...arg: Args) => FnReturn,
   ...args: Args
 ) => {
-  const currentTheme = useTheme();
-  const currentColors = getCurrentColors();
+  useTheme();
+  const theme = {
+    colors: getCurrentColors(),
+    spaces: getSpaces(),
+  };
 
-  const [styles, setStyles] = useState(createStyleFn(currentColors, ...args));
-
-  useEffect(() => {
-    setStyles(createStyleFn(currentColors, ...args));
-  }, [currentTheme, createStyleFn, ...args]);
-
-  return [styles, currentColors] as const;
+  return [createStyleFn(theme, ...args), theme] as const;
 };
 
 export default useStyles;
