@@ -1,69 +1,41 @@
-import React, {FC, useEffect, useRef, useState} from 'react';
+import React, {FC, useEffect, useRef} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
-import {Animated, View} from 'react-native';
-import stylesCreate from '@npm/mobydick-progress/src/components/Indicator/stylesCreate';
+import {Animated, StyleSheet} from 'react-native';
+import {View} from '@npm/mobydick-core';
 
+import stylesCreate from './stylesCreate';
 import {IndicatorProps} from './types';
 
 const Indicator: FC<IndicatorProps> = props => {
-  const {
-    steps,
-    step,
-    indicatorColor,
-    indicatorHeight,
-    indicatorWidth,
-    indicatorBorderRadius,
-  } = props;
+  const {percent, indicatorViewStyles, indicatorStyles} = props;
   const [styles] = useStyles(stylesCreate);
-  const animatedValue = useRef(new Animated.Value(-1000)).current;
-  const fill = useRef(new Animated.Value(-1000)).current;
-  const [width, setWidth] = useState(0);
+  const percentAnimated = useRef(new Animated.Value(percent)).current;
 
   useEffect(() => {
-    const bar = Animated.timing(animatedValue, {
+    Animated.timing(percentAnimated, {
+      toValue: percent,
+      duration: 500,
       useNativeDriver: false,
-      toValue: fill,
-      duration: 300,
-    });
-    bar.start();
+    }).start();
+  }, [percent]);
 
-    return () => {
-      bar.stop();
-      animatedValue.setValue(-1000);
-    };
-  }, []);
-
-  useEffect(() => {
-    if (step <= steps) {
-      fill.setValue(-width + (width * step) / steps);
-    } else {
-      fill.setValue(0);
-    }
-  }, [step, width]);
+  const width = percentAnimated.interpolate({
+    inputRange: [0, 100],
+    outputRange: ['0%', '100%'],
+    extrapolate: 'clamp',
+  });
 
   return (
-    <>
-      <View
+    <View style={[styles.indicatorView, indicatorViewStyles]}>
+      <Animated.View
         style={[
-          styles.indicatorView,
-          indicatorBorderRadius ? {borderRadius: indicatorBorderRadius} : null,
-          indicatorHeight ? {height: indicatorHeight} : null,
-          indicatorWidth ? {width: indicatorWidth} : null,
+          styles.indicator,
+          [StyleSheet.absoluteFill],
+          {width},
+          indicatorStyles,
         ]}
-        onLayout={e => {
-          const newWidth = e.nativeEvent.layout.width;
-          setWidth(newWidth);
-        }}>
-        <Animated.View
-          style={[
-            styles.indicator,
-            indicatorColor ? {backgroundColor: indicatorColor} : null,
-            indicatorHeight ? {height: indicatorHeight} : null,
-            {transform: [{translateX: animatedValue}]},
-          ]}
-        />
-      </View>
-    </>
+      />
+    </View>
   );
 };
 

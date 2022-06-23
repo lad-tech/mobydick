@@ -3,19 +3,15 @@ import {IUseStylesTheme} from '@npm/mobydick-styles/src/styles/types';
 
 const defaultStyle = (theme: IUseStylesTheme) =>
   StyleSheet.create({
-    indicator: {
-      height: 20,
-      borderRadius: 20,
-      width: '100%',
-      backgroundColor: theme.colors.CtaBtnPrimary,
-    },
     indicatorView: {
-      justifyContent: 'center',
-      borderRadius: 20,
-      width: 300,
-      height: 20,
-      overflow: 'hidden',
+      width: '90%',
+      height: theme.spaces.Space20,
+      borderRadius: theme.spaces.Space20,
       backgroundColor: theme.colors.BgSecondary,
+    },
+    indicator: {
+      borderRadius: theme.spaces.Space20,
+      backgroundColor: theme.colors.CtaBtnPrimary,
     },
   });
 

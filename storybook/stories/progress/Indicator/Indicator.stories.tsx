@@ -9,11 +9,7 @@ storiesOf('Design System/Progress/Indicator', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('basic', () => (
     <Indicator
-      steps={number('steps', 10)}
-      step={number('step', 4)}
-      indicatorHeight={number('height', 10)}
-      indicatorWidth={number('width', 300)}
-      indicatorBorderRadius={number('borderRadius', 15)}
-      indicatorColor={color('color', '#2B78EE')}
+      percent={number('percent', 20)}
+      indicatorStyles={{backgroundColor: color('color', '#2B78EE')}}
     />
   ));
