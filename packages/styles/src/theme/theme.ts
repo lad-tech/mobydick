@@ -79,7 +79,9 @@ export const getCurrentTheme = () => {
 };
 
 export const getCurrentColors = () => {
-  return defaultTheme.colors[defaultTheme.currentTheme];
+  return defaultTheme.colors[
+    defaultTheme.currentTheme
+  ] as typeof defaultTheme.colors[0]; // I think no one don't be setting currentTheme to not keys of colors
 };
 
 export const getSpaces = () => {
