@@ -9,4 +9,5 @@ export interface IPopup {
   style?: ViewStyle;
   onClose?: () => void;
   children?: ReactNode;
+  overlayStyle?: ViewStyle;
 }

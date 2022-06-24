@@ -14,6 +14,7 @@ const PopupBase: FC<IPopupProps> = ({
   isVisible,
   style,
   children,
+  overlayStyle,
 }) => {
   const [styles] = useStyles(stylesCreate);
   const popupContext = usePopups();
@@ -26,18 +27,19 @@ const PopupBase: FC<IPopupProps> = ({
 
   return (
     <Pressable
-      style={styles.overlay}
+      style={[styles.overlay, overlayStyle]}
       onPress={event => {
         if (event.target === event.currentTarget) {
           onClose();
         }
       }}>
-      <View style={[styles.container, style]}>
-        <Text>{title}</Text>
-        <Button onPress={onClose} text={'close'} />
-
-        {children}
-      </View>
+      {title && (
+        <View style={[styles.container, style]}>
+          <Text>{title}</Text>
+          <Button onPress={onClose} text={'close'} />
+        </View>
+      )}
+      {children}
     </Pressable>
   );
 };

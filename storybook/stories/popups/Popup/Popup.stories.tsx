@@ -5,6 +5,8 @@ import {PopupsProvider, usePopups} from '@npm/mobydick-popups';
 
 import CenterView from '../../CenterView';
 
+import TooltipExample from './TooltipExample';
+
 const PopupExample = () => {
   const popupContext = usePopups();
   const [popupCount, setPopupCount] = useState(0);
@@ -41,4 +43,5 @@ storiesOf('Design System/Popups/Popup', module)
       <CenterView>{getStory()}</CenterView>
     </PopupsProvider>
   ))
-  .add('basic', () => <PopupExample />);
+  .add('basic', () => <PopupExample />)
+  .add('tooltip', () => <TooltipExample />);
