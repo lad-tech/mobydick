@@ -10,11 +10,8 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       width: '100%',
       backgroundColor: colors.BgOverlay,
       alignItems: 'center',
-      justifyContent: 'center',
-    },
-    container: {
-      backgroundColor: colors.BgPrimary,
-      padding: 12,
+      justifyContent: 'flex-end',
+      paddingVertical: 30,
     },
   });
 };
