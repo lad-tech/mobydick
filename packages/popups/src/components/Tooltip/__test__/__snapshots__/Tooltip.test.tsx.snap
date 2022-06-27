@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/Tooltip should renders correctly 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FAB742",
+      "borderRadius": 8,
+      "bottom": "10",
+      "justifyContent": "center",
+      "left": "10",
+      "paddingHorizontal": 12,
+      "paddingVertical": 8,
+      "position": "absolute",
+      "right": "10",
+      "top": "120",
+      "zIndex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#20242D",
+          "fontSize": 14,
+          "zIndex": 1,
+        },
+        undefined,
+      ]
+    }
+  >
+    message
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottomColor": "transparent",
+          "borderBottomWidth": 0,
+          "borderLeftColor": "transparent",
+          "borderLeftWidth": 10,
+          "borderRadius": 4,
+          "borderRightColor": "transparent",
+          "borderRightWidth": 10,
+          "borderStyle": "solid",
+          "borderTopColor": "#FAB742",
+          "borderTopWidth": 8,
+          "bottom": -7,
+          "height": 0,
+          "position": "absolute",
+          "right": 10,
+          "width": 0,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
