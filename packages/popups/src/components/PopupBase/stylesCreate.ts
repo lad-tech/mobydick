@@ -13,6 +13,41 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       justifyContent: 'flex-end',
       paddingVertical: 30,
     },
+    container: {
+      backgroundColor: colors.BgPrimary,
+      marginHorizontal: 10,
+      borderRadius: 14,
+      justifyContent: 'center',
+      alignItems: 'center',
+      paddingBottom: 30,
+      paddingTop: 16,
+    },
+    title: {
+      fontSize: 24,
+      lineHeight: 26,
+      fontWeight: '600',
+      color: colors.TextPrimary,
+      paddingHorizontal: 20,
+      paddingVertical: 10,
+      textAlign: 'center',
+    },
+    descriptionText: {
+      fontSize: 16,
+      lineHeight: 20,
+      fontWeight: '400',
+      color: colors.TextSecondary,
+      paddingHorizontal: 20,
+      paddingBottom: 20,
+      textAlign: 'center',
+    },
+    exitView: {
+      alignSelf: 'flex-end',
+      paddingHorizontal: 16,
+    },
+    exitSvg: {
+      padding: 12,
+      borderRadius: 100,
+    },
   });
 };
 

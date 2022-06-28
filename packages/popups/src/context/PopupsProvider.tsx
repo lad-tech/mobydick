@@ -15,6 +15,7 @@ import PopupsContext from './context';
 interface IPopupsProviderProps {
   popups?: IPopup[];
 }
+
 const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   const [state, dispatch] = useReducer(reducer, defaultState);
 
@@ -23,6 +24,7 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
       openPopupAction({
         ...popup,
         id: popup.id || Symbol(''),
+        onClose: () => closePopup(popup.id || Symbol('')),
       }),
     );
   };

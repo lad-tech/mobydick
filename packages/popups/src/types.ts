@@ -1,20 +1,17 @@
 import {ViewStyle} from 'react-native';
-import {ReactNode} from 'react';
+import {FC, ReactNode} from 'react';
 
 export type IPopupId = string | symbol;
 
-export enum PopupType {
-  modal = 'modal',
+export interface IContentProps {
+  onClose: () => void;
+  id: IPopupId;
 }
 
 export interface IPopup {
   id: IPopupId;
-  title?: string;
-  style?: ViewStyle;
-  onClose?: () => void;
-  children?: ReactNode;
+  onClose: () => void;
+  Content?: FC<IContentProps>;
   overlayStyle?: ViewStyle;
-  type?: PopupType;
-  isExitIcon?: boolean;
-  titleStyles?: ViewStyle;
+  children?: ReactNode;
 }
