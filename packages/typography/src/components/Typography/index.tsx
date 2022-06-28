@@ -54,13 +54,13 @@ const Typography: FC<IStyledTextProps> = ({
   style,
   ...props
 }) => {
-  const {currentTheme, colors} = useTheme();
+  const {colors} = useTheme();
 
   const fontStyle = useMemo(() => {
     const [weight, color, size] = font.split('-');
     const {fontSize, lineHeight} = getSize(size as TFontSize);
     return {
-      color: colors[currentTheme][`${TEXT}${color as TFontColor}`],
+      color: colors[`${TEXT}${color as TFontColor}`],
       fontFamily: getWeight(weight as TFontWeight),
       fontSize,
       lineHeight,
