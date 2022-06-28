@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 14,
+        "justifyContent": "center",
+        "marginHorizontal": 10,
+        "paddingBottom": 30,
+        "paddingTop": 16,
+      },
+    ]
+  }
+/>
+`;
