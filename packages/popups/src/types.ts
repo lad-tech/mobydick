@@ -1,5 +1,5 @@
 import {ViewStyle} from 'react-native';
-import {FC, ReactNode} from 'react';
+import {FC} from 'react';
 
 export type IPopupId = string | symbol;
 
@@ -11,7 +11,6 @@ export interface IContentProps {
 export interface IPopup {
   id: IPopupId;
   onClose: () => void;
-  Content?: FC<IContentProps>;
+  Content: FC<IContentProps>;
   overlayStyle?: ViewStyle;
-  children?: ReactNode;
 }

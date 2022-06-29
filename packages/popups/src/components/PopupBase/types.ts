@@ -1,11 +1,6 @@
 import {ViewStyle} from 'react-native';
-import {ReactNode} from 'react';
 
-import {IPopup, IPopupId} from '../../types';
-
-export interface IPopupBaseProps {
-  isVisible: boolean;
-}
+import {IPopup} from '../../types';
 
 export interface ITitlePopup {
   title: string;
@@ -21,9 +16,4 @@ export interface IPopupCloseIcon {
   onPress(): void;
 }
 
-export interface IModalBase {
-  id?: IPopupId;
-  onClose?: () => void;
-  children?: ReactNode;
-}
-export type IPopupProps = IPopupBaseProps & IPopup;
+export type IPopupProps = IPopup;

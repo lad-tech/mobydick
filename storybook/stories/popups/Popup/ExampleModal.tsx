@@ -2,15 +2,16 @@ import {select, text} from '@storybook/addon-knobs';
 import {Button, ISize} from '@npm/mobydick-cta';
 import React, {FC} from 'react';
 import ModalBase from '@npm/mobydick-popups/src/components/ModalBase/ModalBase';
-import {IPopup} from '@npm/mobydick-popups';
+import {IContentProps, usePopups} from '@npm/mobydick-popups';
 
 import ImageModal from './icons/svg/imageModal.svg';
 
-const ExampleModal: FC<IPopup> = props => {
-  const {onClose, id} = props;
+const ExampleModal: FC<IContentProps> = props => {
+  const popupContext = usePopups();
+  const {onClose} = props;
 
   return (
-    <ModalBase onClose={onClose} id={id}>
+    <ModalBase>
       <ModalBase.CloseIcon onPress={onClose} />
       <ImageModal style={{marginTop: 10}} />
       <ModalBase.Title title={text('title', 'Нет доступа к камере')} />
@@ -21,8 +22,26 @@ const ExampleModal: FC<IPopup> = props => {
         )}
       />
       <Button
-        onPress={() => null}
+        onPress={() => popupContext.openPopup({Content: NestedExampleModal})}
         text={text('Text button', 'Разрешить доступ')}
+        size={select('Size button', ISize, ISize.small)}
+      />
+    </ModalBase>
+  );
+};
+
+const NestedExampleModal: FC<IContentProps> = props => {
+  const popupContext = usePopups();
+  const {onClose} = props;
+
+  return (
+    <ModalBase>
+      <ModalBase.CloseIcon onPress={onClose} />
+      <ModalBase.Title title={'Вложенная Модалка'} />
+      <ModalBase.DescriptionText descriptionText={'Это просто пример'} />
+      <Button
+        onPress={() => popupContext.openPopup({Content: ExampleModal})}
+        text={'Открыть ещё одну'}
         size={select('Size button', ISize, ISize.small)}
       />
     </ModalBase>

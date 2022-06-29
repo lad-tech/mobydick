@@ -20,7 +20,7 @@ describe('@npm/mobydick-popups/PopupBase', () => {
     (usePopups as jest.Mock).mockReturnValue(popupContextMock);
     const id = '41710252-4116-46ba-b2e9-9ec0d34f9db8';
     const {toJSON, getByTestId} = render(
-      <PopupBase id={id} isVisible Content={() => null} onClose={() => null} />,
+      <PopupBase id={id} Content={() => null} onClose={() => null} />,
     );
     const pressable = getByTestId(Constants.testID);
 
@@ -29,18 +29,6 @@ describe('@npm/mobydick-popups/PopupBase', () => {
     expect(toJSON()).toMatchSnapshot();
     expect(popupContextMock.closePopup).toHaveBeenCalledTimes(1);
     expect(popupContextMock.closePopup).toHaveBeenCalledWith(id);
-  });
-  it('should not render if `isVisible` = false', () => {
-    const {toJSON} = render(
-      <PopupBase
-        id={'41710252-4116-46ba-b2e9-9ec0d34f9db8'}
-        isVisible={false}
-        Content={() => null}
-        onClose={() => null}
-      />,
-    );
-
-    expect(toJSON()).toBe(null);
   });
   it('should not fire onClose event', () => {
     const {result} = renderHook(() => useContext(PopupsContext));
@@ -55,7 +43,7 @@ describe('@npm/mobydick-popups/PopupBase', () => {
 
     const id = '41710252-4116-46ba-b2e9-9ec0d34f9db8';
     const {toJSON, getByTestId} = render(
-      <PopupBase id={id} isVisible Content={() => null} onClose={() => null} />,
+      <PopupBase id={id} Content={() => null} onClose={() => null} />,
     );
     const pressable = getByTestId(Constants.testID);
 

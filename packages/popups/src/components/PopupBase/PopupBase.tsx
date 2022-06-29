@@ -8,15 +8,13 @@ import usePopups from '../../hooks/usePopups';
 import {IPopupProps} from './types';
 import stylesCreate from './stylesCreate';
 
-const PopupBase: FC<IPopupProps> = ({id, isVisible, Content, overlayStyle}) => {
+const PopupBase: FC<IPopupProps> = ({id, Content, overlayStyle}) => {
   const [styles] = useStyles(stylesCreate);
   const popupContext = usePopups();
 
   const onClose = () => {
     popupContext.closePopup(id);
   };
-
-  if (!isVisible) return null;
 
   return (
     <Pressable
@@ -27,7 +25,7 @@ const PopupBase: FC<IPopupProps> = ({id, isVisible, Content, overlayStyle}) => {
           onClose();
         }
       }}>
-      {Content && <Content onClose={onClose} id={id} />}
+      <Content onClose={onClose} id={id} />
     </Pressable>
   );
 };

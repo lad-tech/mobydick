@@ -8,7 +8,7 @@ import CloseIcon from './CloseIcon';
 import DescriptionText from './DescriptionText';
 import Title from './Title';
 
-const ModalBase: FC<IPopup> & {
+const ModalBase: FC<Omit<IPopup, 'Content'> | Partial<IPopup>> & {
   Title: typeof Title;
   CloseIcon: typeof CloseIcon;
   DescriptionText: typeof DescriptionText;
