@@ -1,14 +1,15 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
-import Title from '@npm/mobydick-popups/src/components/ModalBase/Title';
 
-describe('@npm/mobydick-popups/Title', () => {
+import PopupsProvider from '../PopupsProvider';
+
+describe('@npm/mobydick-popups/PopupsProvider', () => {
   afterEach(() => {
     jest.resetAllMocks();
     jest.clearAllMocks();
   });
   it('should renders correctly', () => {
-    const {toJSON} = render(<Title title={'title'} titleStyles={{flex: 1}} />);
+    const {toJSON} = render(<PopupsProvider />);
 
     expect(toJSON()).toMatchSnapshot();
   });

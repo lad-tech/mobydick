@@ -1,12 +1,18 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
 import Constants from '@npm/mobydick-popups/src/components/PopupBase/constants';
+import {renderHook} from '@testing-library/react-hooks';
+import {PopupsContext, usePopups} from '@npm/mobydick-popups';
 
 import PopupBase from '../PopupBase';
-import usePopups from '../../../hooks/usePopups';
 
 jest.mock('../../../hooks/usePopups');
+
 describe('@npm/mobydick-popups/PopupBase', () => {
+  afterEach(() => {
+    jest.resetAllMocks();
+    jest.clearAllMocks();
+  });
   it('should renders correctly', () => {
     const popupContextMock = {
       closePopup: jest.fn(),
@@ -37,10 +43,16 @@ describe('@npm/mobydick-popups/PopupBase', () => {
     expect(toJSON()).toBe(null);
   });
   it('should not fire onClose event', () => {
-    const popupContextMock = {
-      closePopup: jest.fn(),
-    };
-    (usePopups as jest.Mock).mockReturnValue(popupContextMock);
+    const {result} = renderHook(() => useContext(PopupsContext));
+
+    expect(result.current).toStrictEqual(
+      expect.objectContaining({
+        popups: [],
+      }),
+    );
+
+    const closePopup = jest.spyOn(result.current, 'closePopup');
+
     const id = '41710252-4116-46ba-b2e9-9ec0d34f9db8';
     const {toJSON, getByTestId} = render(
       <PopupBase id={id} isVisible Content={() => null} onClose={() => null} />,
@@ -50,6 +62,6 @@ describe('@npm/mobydick-popups/PopupBase', () => {
     fireEvent.press(pressable, {target: {}, currentTarget: {}});
 
     expect(toJSON()).toMatchSnapshot();
-    expect(popupContextMock.closePopup).toHaveBeenCalledTimes(0);
+    expect(closePopup).toHaveBeenCalledTimes(0);
   });
 });

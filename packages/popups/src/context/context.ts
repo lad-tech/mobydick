@@ -1,10 +1,11 @@
 import {createContext} from 'react';
 
 import {IPopupsContext} from './types';
-import {MISSING_POPUPS_PROVIDER_WARNING} from './constants';
 
 const missingFunc = () => {
-  console.warn(MISSING_POPUPS_PROVIDER_WARNING);
+  throw new Error(
+    '[@npm/mobydick-popups] usePopups hook was called outside of context, wrap your app with PopupsProvider component',
+  );
 };
 
 const PopupsContext = createContext<IPopupsContext>({
