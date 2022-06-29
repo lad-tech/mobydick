@@ -22,6 +22,6 @@ module.exports = {
   assets: ['node_modules/@npm/mobydick-typography/src/assets/fonts/'] // <--- добавить эту строчку
 };
 
-и выполнить команду react-native link
+и выполнить команду `react-native link`
 
 Если тебе нужен какой-то специфический размер или цвет текста - не беда, есть параметр style где ты можешь конфигурировать дополнительно
