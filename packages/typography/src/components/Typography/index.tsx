@@ -1,4 +1,4 @@
-import React, {FC, useMemo} from 'react';
+import React, {FC} from 'react';
 import {useTheme} from '@npm/mobydick-styles';
 import {Text} from '@npm/mobydick-core';
 
@@ -46,24 +46,20 @@ const Typography: FC<IStyledTextProps> = ({
   style,
   ...props
 }) => {
-  const {colors, currentTheme} = useTheme();
+  const {colors} = useTheme();
 
-  const fontStyle = useMemo(() => {
-    const [weight, color, size] = font.split('-');
-    const {fontSize, lineHeight} = getSize(size as TFontSize);
-    return [
-      {
-        color: colors[`${TEXT}${color as TFontColor}`],
-        fontFamily: getWeight(weight as TFontWeight),
-        fontSize,
-        lineHeight,
-      },
-      style,
-    ];
-  }, [font, currentTheme, style]);
+  const [weight, color, size] = font.split('-');
+  const {fontSize, lineHeight} = getSize(size as TFontSize);
+
+  const fontStyle = {
+    color: colors[`${TEXT}${color as TFontColor}`],
+    fontFamily: getWeight(weight as TFontWeight),
+    fontSize,
+    lineHeight,
+  };
 
   return (
-    <Text style={fontStyle} {...props}>
+    <Text style={[fontStyle, style]} {...props}>
       {children}
     </Text>
   );
