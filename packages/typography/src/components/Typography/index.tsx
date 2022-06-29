@@ -1,10 +1,6 @@
 import React, {FC, useMemo} from 'react';
 import {useTheme} from '@npm/mobydick-styles';
 import {Text} from '@npm/mobydick-core';
-import {
-  ITextColors,
-  textColorKeys,
-} from '@npm/mobydick-styles/src/colors/types';
 
 import {
   IStyledTextProps,
@@ -44,17 +40,13 @@ const getSize = (size: TFontSize): {fontSize: number; lineHeight: number} =>
 
 const getWeight = (weight: TFontWeight): string => weightsToFonts[weight];
 
-export const fontColors = (textColorKeys as (keyof ITextColors)[]).map(item =>
-  item.slice(TEXT.length),
-); // нужно для вывода в сторибуке
-
 const Typography: FC<IStyledTextProps> = ({
   children,
   font = 'Regular-Primary-S',
   style,
   ...props
 }) => {
-  const {colors} = useTheme();
+  const {colors, currentTheme} = useTheme();
 
   const fontStyle = useMemo(() => {
     const [weight, color, size] = font.split('-');
@@ -65,7 +57,7 @@ const Typography: FC<IStyledTextProps> = ({
       fontSize,
       lineHeight,
     };
-  }, [font]);
+  }, [font, currentTheme]);
 
   return (
     <Text style={[fontStyle, style]} {...props}>
