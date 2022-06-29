@@ -1,3 +1,523 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 1`] = `null`;
+exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 1`] = `
+<View>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "stretch",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 12,
+        "opacity": 1,
+        "padding": 12,
+      }
+    }
+    testID="testIdOpenPopup"
+  />
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "stretch",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 12,
+        "opacity": 1,
+        "padding": 12,
+      }
+    }
+    testID="testIdCloseAllPopup"
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 2`] = `
+Array [
+  <View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "alignSelf": "stretch",
+          "backgroundColor": "#2B78EE",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 12,
+          "opacity": 1,
+          "padding": 12,
+        }
+      }
+      testID="testIdOpenPopup"
+    />
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "alignSelf": "stretch",
+          "backgroundColor": "#2B78EE",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 12,
+          "opacity": 1,
+          "padding": 12,
+        }
+      }
+      testID="testIdCloseAllPopup"
+    />
+  </View>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(32, 36, 45, 0.45)",
+          "height": "100%",
+          "justifyContent": "flex-end",
+          "paddingVertical": 30,
+          "position": "absolute",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    testID="Pressable"
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "alignSelf": "stretch",
+          "backgroundColor": "#2B78EE",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 12,
+          "opacity": 1,
+          "padding": 12,
+        }
+      }
+      testID="testIdPopup"
+    />
+  </View>,
+]
+`;
+
+exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 3`] = `
+<View>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "stretch",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 12,
+        "opacity": 1,
+        "padding": 12,
+      }
+    }
+    testID="testIdOpenPopup"
+  />
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "stretch",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 12,
+        "opacity": 1,
+        "padding": 12,
+      }
+    }
+    testID="testIdCloseAllPopup"
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 4`] = `
+Array [
+  <View>
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "alignSelf": "stretch",
+          "backgroundColor": "#2B78EE",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 12,
+          "opacity": 1,
+          "padding": 12,
+        }
+      }
+      testID="testIdOpenPopup"
+    />
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "alignSelf": "stretch",
+          "backgroundColor": "#2B78EE",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 12,
+          "opacity": 1,
+          "padding": 12,
+        }
+      }
+      testID="testIdCloseAllPopup"
+    />
+  </View>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(32, 36, 45, 0.45)",
+          "height": "100%",
+          "justifyContent": "flex-end",
+          "paddingVertical": 30,
+          "position": "absolute",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    testID="Pressable"
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "alignSelf": "stretch",
+          "backgroundColor": "#2B78EE",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 12,
+          "opacity": 1,
+          "padding": 12,
+        }
+      }
+      testID="testIdPopup"
+    />
+  </View>,
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(32, 36, 45, 0.45)",
+          "height": "100%",
+          "justifyContent": "flex-end",
+          "paddingVertical": 30,
+          "position": "absolute",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+    testID="Pressable"
+  >
+    <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "stretch",
+          "alignSelf": "stretch",
+          "backgroundColor": "#2B78EE",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 12,
+          "opacity": 1,
+          "padding": 12,
+        }
+      }
+      testID="testIdPopup"
+    />
+  </View>,
+]
+`;
+
+exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 5`] = `
+<View>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "stretch",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 12,
+        "opacity": 1,
+        "padding": 12,
+      }
+    }
+    testID="testIdOpenPopup"
+  />
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "stretch",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 12,
+        "opacity": 1,
+        "padding": 12,
+      }
+    }
+    testID="testIdCloseAllPopup"
+  />
+</View>
+`;
