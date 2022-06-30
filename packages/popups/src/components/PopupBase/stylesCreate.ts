@@ -14,7 +14,7 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       paddingVertical: 30,
     },
     container: {
-      backgroundColor: colors.BgPrimary,
+      backgroundColor: colors.BgSecondary,
       marginHorizontal: 10,
       borderRadius: 14,
       justifyContent: 'center',
@@ -40,13 +40,15 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       paddingBottom: 20,
       textAlign: 'center',
     },
-    exitView: {
+    closeButton: {
       alignSelf: 'flex-end',
-      paddingHorizontal: 16,
-    },
-    exitSvg: {
-      padding: 12,
+      marginRight: 16,
+      padding: 6,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: colors.BgTertiary,
       borderRadius: 100,
+      fill: colors.IconNeutral,
     },
   });
 };
