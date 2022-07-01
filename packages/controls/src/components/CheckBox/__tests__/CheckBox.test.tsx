@@ -1,7 +1,8 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
-import {CheckBox} from '@npm/mobydick-controls';
 import {Text} from '@npm/mobydick-core';
+
+import CheckBox from '../CheckBox';
 
 describe('CheckBox', () => {
   it('should renders correctly', function () {

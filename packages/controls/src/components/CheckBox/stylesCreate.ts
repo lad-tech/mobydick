@@ -16,11 +16,11 @@ const stylesCreate = (
       opacity: disabled ? 0.4 : 1,
     },
     checkbox: {
-      borderWidth: selected ? 0 : 2,
+      borderWidth: selected ? 0 : spaces.Space2,
       borderColor: colors.BorderNormal,
-      width: 20,
-      height: 20,
-      borderRadius: 4,
+      width: spaces.Space20,
+      height: spaces.Space20,
+      borderRadius: spaces.Space4,
       marginRight: spaces.Space12,
     },
   });

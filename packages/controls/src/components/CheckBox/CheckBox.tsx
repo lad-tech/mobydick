@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
 import {PressableProps, View} from '@npm/mobydick-core';
 import {useStyles} from '@npm/mobydick-styles';
-import {TCheckBox} from '@npm/mobydick-controls';
 
 import stylesCreate from './stylesCreate';
 import CheckSquare from './CheckSquare';
+import {TCheckBox} from './types';
 
 const CheckBox: FC<TCheckBox & PressableProps> = ({
   selected = false,
