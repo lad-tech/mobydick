@@ -4,4 +4,4 @@ import {
 } from 'react-native';
 
 export type TextInputProps = DefaultTextInputProps;
-export interface ITextInput extends DefaultTextInput {}
+export type ITextInput = DefaultTextInput;

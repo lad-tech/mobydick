@@ -1,4 +1,7 @@
 {
+  "exclude": [
+    "node_modules"
+  ],
   "compilerOptions": {
     /* Projects */
     // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
@@ -24,12 +27,9 @@
 
     /* Modules */
     "module": "commonjs",                                /* Specify what module code is generated. */
-    "rootDir": "./",                                     /* Specify the root folder within your source files. */
+    // "rootDir": "./",                                     /* Specify the root folder within your source files. */
     "moduleResolution": "node",                          /* Specify how TypeScript looks up a file from a given module specifier. */
-    "baseUrl": "./",                                     /* Specify the base directory to resolve non-relative module names. */
-    "paths": {
-      "@npm/mobydick-*": ["packages/*"]
-    },                                                   /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+    // "baseUrl": "./",                                     /* Specify the base directory to resolve non-relative module names. */
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */
     // "types": [],                                      /* Specify type package names to be included without being referenced in a source file. */
@@ -99,8 +99,5 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  },
-  "exclude": [
-    "node_modules"
-  ]
+  }
 }

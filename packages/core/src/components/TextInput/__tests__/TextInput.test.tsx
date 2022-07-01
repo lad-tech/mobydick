@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
 
-import TextInput from '../index';
+import TextInput from '../TextInput';
 
 describe('@npm/mobydick-core/TextInput', () => {
   it('renders correctly', () => {

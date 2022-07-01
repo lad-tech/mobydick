@@ -1,8 +1,9 @@
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme} from '@npm/mobydick-styles/src/styles/types';
 
 import {getCurrentColors, getSpaces} from '../theme';
 import useTheme from '../theme/useTheme';
+
+import {IUseStylesTheme} from './types';
 
 const useStyles = <
   Args extends unknown[],

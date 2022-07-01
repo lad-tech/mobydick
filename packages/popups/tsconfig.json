@@ -1,0 +1,29 @@
+{
+  "extends": "../../tsconfig.json",
+  "references": [
+    {
+      "path": "../controls"
+    },
+    {
+      "path": "../core"
+    },
+    {
+      "path": "../cta"
+    },
+    {
+      "path": "../inputs"
+    },
+    {
+      "path": "../progress"
+    },
+    {
+      "path": "../styles"
+    },
+    {
+      "path": "../typography"
+    },
+  ],
+  "compilerOptions": {
+    "composite": true,
+  }
+}

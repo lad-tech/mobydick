@@ -1,3 +1,2 @@
-import PopupBase from './PopupBase/PopupBase';
-
-export {PopupBase};
+export * from './PopupBase';
+export * from './ModalBase';

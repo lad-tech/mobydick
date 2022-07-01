@@ -1,2 +1,5 @@
 import TextInput from './TextInput';
-export default TextInput;
+
+export * from './types';
+
+export {TextInput};

@@ -1,3 +1,5 @@
 import InputField from './InputField';
 
-export default InputField;
+export * from './types';
+
+export {InputField};

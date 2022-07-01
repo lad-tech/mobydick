@@ -1,7 +1,6 @@
 import React, {FC, useReducer} from 'react';
 
 import {IPopup, IPopupId} from '../types';
-import {PopupBase} from '../components/PopupBase';
 import {
   reducer,
   defaultState,
@@ -10,15 +9,16 @@ import {
   openPopupAction,
 } from '../reducer';
 
-import {IPopupsContext} from './types';
+import {IOpenPopupParams, IPopupsContext} from './types';
 import PopupsContext from './context';
 interface IPopupsProviderProps {
   popups?: IPopup[];
 }
+
 const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   const [state, dispatch] = useReducer(reducer, defaultState);
 
-  const openPopup = (popup: Partial<IPopup>) => {
+  const openPopup = (popup: IOpenPopupParams) => {
     dispatch(
       openPopupAction({
         ...popup,
@@ -32,10 +32,6 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   };
 
   const closeAllPopups = () => {
-    state.popups.forEach(popup => {
-      popup.onClose?.();
-    });
-
     dispatch(closeAllPopupsAction());
   };
 
@@ -51,10 +47,10 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
       {children}
 
       {state.popups.map((popup, index) => (
-        <PopupBase
+        <popup.Content
           key={popup.id.toString() + index}
-          isVisible={state.popups.length > 0}
           {...popup}
+          onClose={() => closePopup(popup.id)}
         />
       ))}
     </PopupsContext.Provider>
