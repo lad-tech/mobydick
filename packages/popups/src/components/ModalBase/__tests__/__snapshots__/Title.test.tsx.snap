@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/Title should renders correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#20242D",
+        "fontSize": 24,
+        "fontWeight": "600",
+        "lineHeight": 26,
+        "paddingHorizontal": 20,
+        "paddingVertical": 10,
+        "textAlign": "center",
+      },
+      Object {
+        "flex": 1,
+      },
+    ]
+  }
+>
+  title
+</Text>
+`;

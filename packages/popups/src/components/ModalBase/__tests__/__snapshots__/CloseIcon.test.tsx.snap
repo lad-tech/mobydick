@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/CloseIcon should renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "flex-end",
+      "backgroundColor": "#D1D4DB",
+      "borderRadius": 12,
+      "fill": "#5E6678",
+      "justifyContent": "center",
+      "marginRight": 16,
+      "opacity": 1,
+      "padding": 6,
+    }
+  }
+>
+  <SvgMock
+    fill="#5E6678"
+  />
+</View>
+`;

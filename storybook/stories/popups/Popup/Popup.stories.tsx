@@ -5,6 +5,8 @@ import {PopupsProvider, usePopups} from '@npm/mobydick-popups';
 
 import CenterView from '../../CenterView';
 
+import ExampleModal from './ExampleModal';
+
 const PopupExample = () => {
   const popupContext = usePopups();
   const [popupCount, setPopupCount] = useState(0);
@@ -14,23 +16,9 @@ const PopupExample = () => {
 
     setPopupCount(newCount);
 
-    const pop = {
-      title: newCount.toString(),
-      children: (
-        <Button
-          onPress={() =>
-            popupContext.openPopup({
-              title: newCount + 'newNested',
-              style: {width: 200, position: 'absolute', top: 5},
-              children: pop['children'],
-            })
-          }
-          text={'nested'}
-        />
-      ),
-    };
-
-    popupContext.openPopup(pop);
+    popupContext.openPopup({
+      Content: ExampleModal,
+    });
   };
   return <Button text={'Open Popup'} onPress={onPress} />;
 };
