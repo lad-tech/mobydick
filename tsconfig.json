@@ -1,33 +1,6 @@
 {
-  "include": ["./packages/*"],
   "exclude": [
     "node_modules"
-  ],
-  "references": [
-    {
-      "path": "./packages/controls"
-    },
-    {
-      "path": "./packages/core"
-    },
-    {
-      "path": "./packages/cta"
-    },
-    {
-      "path": "./packages/inputs"
-    },
-    {
-      "path": "./packages/popups"
-    },
-    {
-      "path": "./packages/progress"
-    },
-    {
-      "path": "./packages/styles"
-    },
-    {
-      "path": "./packages/typography"
-    }
   ],
   "compilerOptions": {
     /* Projects */
