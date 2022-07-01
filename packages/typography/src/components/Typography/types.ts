@@ -1,5 +1,5 @@
 import {TextProps} from '@npm/mobydick-core';
-import {ITextColors} from '@npm/mobydick-styles/src/colors/types';
+import {ITextColors} from '@npm/mobydick-styles';
 import {ReactChild} from 'react';
 import {TextStyle} from 'react-native';
 
