@@ -27,6 +27,7 @@
 - [@npm/mobydick-inputs](./packages/inputs/README.md)
 - [@npm/mobydick-progress](./packages/progress/README.md)
 - [@npm/mobydick-styles](./packages/styles/README.md)
+- [@npm/mobydick-typography](./packages/typography/README.md)
 
 
 # 2. Разработка
