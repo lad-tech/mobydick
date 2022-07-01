@@ -4,7 +4,7 @@ exports[`CheckBox should renders correctly 1`] = `
 <View
   style={
     Object {
-      "alignItems": "center",
+      "alignItems": "flex-start",
       "backgroundColor": "#FFF",
       "flexDirection": "row",
       "opacity": 1,
@@ -50,7 +50,7 @@ exports[`CheckBox should renders correctly checked 1`] = `
 <View
   style={
     Object {
-      "alignItems": "center",
+      "alignItems": "flex-start",
       "backgroundColor": "#FFF",
       "flexDirection": "row",
       "opacity": 1,
@@ -98,7 +98,7 @@ exports[`CheckBox should renders correctly disabled 1`] = `
 <View
   style={
     Object {
-      "alignItems": "center",
+      "alignItems": "flex-start",
       "backgroundColor": "#FFF",
       "flexDirection": "row",
       "opacity": 0.4,

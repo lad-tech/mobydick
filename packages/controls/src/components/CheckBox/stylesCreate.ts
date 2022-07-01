@@ -11,7 +11,7 @@ const stylesCreate = (
   return StyleSheet.create({
     container: {
       flexDirection: 'row',
-      alignItems: 'center',
+      alignItems: 'flex-start',
       backgroundColor: colors.BgPrimary,
       opacity: disabled ? 0.4 : 1,
     },
