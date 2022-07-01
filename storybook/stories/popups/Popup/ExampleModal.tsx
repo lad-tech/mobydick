@@ -1,8 +1,7 @@
 import {select, text} from '@storybook/addon-knobs';
 import {Button, ISize} from '@npm/mobydick-cta';
 import React, {FC} from 'react';
-import ModalBase from '@npm/mobydick-popups/src/components/ModalBase/ModalBase';
-import {IContentProps, usePopups} from '@npm/mobydick-popups';
+import {IContentProps, usePopups, ModalBase} from '@npm/mobydick-popups';
 
 import ImageModal from './icons/svg/imageModal.svg';
 

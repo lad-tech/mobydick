@@ -1,6 +1,5 @@
-import {POPUP_CLOSE_ALL} from '@npm/mobydick-popups/src/reducer';
-
 import {defaultState, reducer} from '../reducer';
+import {POPUP_CLOSE_ALL} from '../constatnts';
 
 describe('Popup reducer', () => {
   test('Default works', () => {

@@ -2,8 +2,8 @@ import React, {FC} from 'react';
 import {Exit, useStyles} from '@npm/mobydick-styles';
 import {TouchableOpacity} from '@npm/mobydick-core';
 
+import {IPopupCloseIcon} from '../PopupBase';
 import stylesCreate from '../PopupBase/stylesCreate';
-import {IPopupCloseIcon} from '../PopupBase/types';
 
 const CloseIcon: FC<IPopupCloseIcon> = props => {
   const [styles] = useStyles(stylesCreate);

@@ -1,10 +1,11 @@
 import React, {useContext} from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
-import Constants from '@npm/mobydick-popups/src/components/PopupBase/constants';
 import {renderHook} from '@testing-library/react-hooks';
-import {PopupsContext, usePopups} from '@npm/mobydick-popups';
 
+import {usePopups} from '../../../hooks';
 import PopupBase from '../PopupBase';
+import Constants from '../constants';
+import {PopupsContext} from '../../../context';
 
 jest.mock('../../../hooks/usePopups');
 

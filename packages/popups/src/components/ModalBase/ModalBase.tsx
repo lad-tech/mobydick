@@ -1,8 +1,10 @@
 import React, {FC} from 'react';
 import {View} from '@npm/mobydick-core';
 import {useStyles} from '@npm/mobydick-styles';
-import stylesCreate from '@npm/mobydick-popups/src/components/PopupBase/stylesCreate';
-import {IPopup, PopupBase} from '@npm/mobydick-popups';
+
+import stylesCreate from '../PopupBase/stylesCreate';
+import {PopupBase} from '../PopupBase';
+import {IPopup} from '../../types';
 
 import CloseIcon from './CloseIcon';
 import DescriptionText from './DescriptionText';

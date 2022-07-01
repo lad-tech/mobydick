@@ -2,8 +2,8 @@ import React, {FC} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Text} from '@npm/mobydick-core';
 
+import {IDescriptionTextPopup} from '../PopupBase';
 import stylesCreate from '../PopupBase/stylesCreate';
-import {IDescriptionTextPopup} from '../PopupBase/types';
 
 const DescriptionText: FC<IDescriptionTextPopup> = props => {
   const [styles] = useStyles(stylesCreate);

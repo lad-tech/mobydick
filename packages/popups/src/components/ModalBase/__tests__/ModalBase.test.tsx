@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
-import ModalBase from '@npm/mobydick-popups/src/components/ModalBase/ModalBase';
+
+import ModalBase from '../ModalBase';
 
 describe('@npm/mobydick-popups/ModalBase', () => {
   afterEach(() => {

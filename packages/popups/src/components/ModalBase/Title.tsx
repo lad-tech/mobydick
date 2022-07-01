@@ -1,8 +1,9 @@
 import React, {FC} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
-import stylesCreate from '@npm/mobydick-popups/src/components/PopupBase/stylesCreate';
 import {Text} from '@npm/mobydick-core';
-import {ITitlePopup} from '@npm/mobydick-popups/src/components/PopupBase/types';
+
+import stylesCreate from '../PopupBase/stylesCreate';
+import {ITitlePopup} from '../PopupBase';
 
 const Title: FC<ITitlePopup> = props => {
   const [styles] = useStyles(stylesCreate);
