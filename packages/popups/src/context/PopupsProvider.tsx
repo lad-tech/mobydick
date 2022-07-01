@@ -1,7 +1,6 @@
 import React, {FC, useReducer} from 'react';
 
 import {IPopup, IPopupId} from '../types';
-import {PopupBase} from '../components/PopupBase';
 import {
   reducer,
   defaultState,
@@ -24,7 +23,6 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
       openPopupAction({
         ...popup,
         id: popup.id || Symbol(''),
-        onClose: () => closePopup(popup.id || Symbol('')),
       }),
     );
   };
@@ -34,10 +32,6 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   };
 
   const closeAllPopups = () => {
-    state.popups.forEach(popup => {
-      popup.onClose?.();
-    });
-
     dispatch(closeAllPopupsAction());
   };
 
@@ -53,7 +47,11 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
       {children}
 
       {state.popups.map((popup, index) => (
-        <PopupBase key={popup.id.toString() + index} {...popup} />
+        <popup.Content
+          key={popup.id.toString() + index}
+          {...popup}
+          onClose={() => closePopup(popup.id)}
+        />
       ))}
     </PopupsContext.Provider>
   );

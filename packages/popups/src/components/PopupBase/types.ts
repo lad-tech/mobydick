@@ -16,4 +16,6 @@ export interface IPopupCloseIcon {
   onPress(): void;
 }
 
-export type IPopupProps = IPopup;
+export type IPopupProps = Pick<IPopup, 'overlayStyle'> & {
+  onClose: () => void;
+};

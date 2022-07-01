@@ -18,17 +18,13 @@ describe('@npm/mobydick-popups/PopupBase', () => {
       closePopup: jest.fn(),
     };
     (usePopups as jest.Mock).mockReturnValue(popupContextMock);
-    const id = '41710252-4116-46ba-b2e9-9ec0d34f9db8';
-    const {toJSON, getByTestId} = render(
-      <PopupBase id={id} Content={() => null} onClose={() => null} />,
-    );
+
+    const {toJSON, getByTestId} = render(<PopupBase onClose={() => null} />);
     const pressable = getByTestId(Constants.testID);
 
     fireEvent.press(pressable, {target: null, currentTarget: null});
 
     expect(toJSON()).toMatchSnapshot();
-    expect(popupContextMock.closePopup).toHaveBeenCalledTimes(1);
-    expect(popupContextMock.closePopup).toHaveBeenCalledWith(id);
   });
   it('should not fire onClose event', () => {
     const {result} = renderHook(() => useContext(PopupsContext));
@@ -41,9 +37,8 @@ describe('@npm/mobydick-popups/PopupBase', () => {
 
     const closePopup = jest.spyOn(result.current, 'closePopup');
 
-    const id = '41710252-4116-46ba-b2e9-9ec0d34f9db8';
     const {toJSON, getByTestId} = render(
-      <PopupBase id={id} Content={() => null} onClose={() => null} />,
+      <PopupBase onClose={() => closePopup} />,
     );
     const pressable = getByTestId(Constants.testID);
 

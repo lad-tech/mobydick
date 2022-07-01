@@ -134,12 +134,15 @@ Array [
     />
   </View>,
   <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
     accessible={true}
     collapsable={false}
     focusable={true}
-    onBlur={[Function]}
     onClick={[Function]}
-    onFocus={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -147,53 +150,20 @@ Array [
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "rgba(32, 36, 45, 0.45)",
-          "height": "100%",
-          "justifyContent": "flex-end",
-          "paddingVertical": 30,
-          "position": "absolute",
-          "width": "100%",
-        },
-        undefined,
-      ]
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "stretch",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 12,
+        "opacity": 1,
+        "padding": 12,
+      }
     }
-    testID="Pressable"
-  >
-    <View
-      accessibilityState={
-        Object {
-          "disabled": false,
-        }
-      }
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "alignItems": "stretch",
-          "alignSelf": "stretch",
-          "backgroundColor": "#2B78EE",
-          "borderRadius": 12,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "margin": 12,
-          "opacity": 1,
-          "padding": 12,
-        }
-      }
-      testID="testIdPopup"
-    />
-  </View>,
+    testID="testIdPopup"
+  />,
 ]
 `;
 
@@ -331,12 +301,15 @@ Array [
     />
   </View>,
   <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
     accessible={true}
     collapsable={false}
     focusable={true}
-    onBlur={[Function]}
     onClick={[Function]}
-    onFocus={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -344,60 +317,30 @@ Array [
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "rgba(32, 36, 45, 0.45)",
-          "height": "100%",
-          "justifyContent": "flex-end",
-          "paddingVertical": 30,
-          "position": "absolute",
-          "width": "100%",
-        },
-        undefined,
-      ]
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "stretch",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 12,
+        "opacity": 1,
+        "padding": 12,
+      }
     }
-    testID="Pressable"
-  >
-    <View
-      accessibilityState={
-        Object {
-          "disabled": false,
-        }
-      }
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "alignItems": "stretch",
-          "alignSelf": "stretch",
-          "backgroundColor": "#2B78EE",
-          "borderRadius": 12,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "margin": 12,
-          "opacity": 1,
-          "padding": 12,
-        }
-      }
-      testID="testIdPopup"
-    />
-  </View>,
+    testID="testIdPopup"
+  />,
   <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
     accessible={true}
     collapsable={false}
     focusable={true}
-    onBlur={[Function]}
     onClick={[Function]}
-    onFocus={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -405,53 +348,20 @@ Array [
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "backgroundColor": "rgba(32, 36, 45, 0.45)",
-          "height": "100%",
-          "justifyContent": "flex-end",
-          "paddingVertical": 30,
-          "position": "absolute",
-          "width": "100%",
-        },
-        undefined,
-      ]
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "stretch",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "margin": 12,
+        "opacity": 1,
+        "padding": 12,
+      }
     }
-    testID="Pressable"
-  >
-    <View
-      accessibilityState={
-        Object {
-          "disabled": false,
-        }
-      }
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "alignItems": "stretch",
-          "alignSelf": "stretch",
-          "backgroundColor": "#2B78EE",
-          "borderRadius": 12,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "margin": 12,
-          "opacity": 1,
-          "padding": 12,
-        }
-      }
-      testID="testIdPopup"
-    />
-  </View>,
+    testID="testIdPopup"
+  />,
 ]
 `;
 

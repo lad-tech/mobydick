@@ -2,18 +2,48 @@
 
 exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
 <View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "#EEEFF1",
-        "borderRadius": 14,
-        "justifyContent": "center",
-        "marginHorizontal": 10,
-        "paddingBottom": 30,
-        "paddingTop": 16,
+        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "height": "100%",
+        "justifyContent": "flex-end",
+        "position": "absolute",
+        "width": "100%",
       },
+      undefined,
     ]
   }
-/>
+  testID="Pressable"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#EEEFF1",
+          "borderRadius": 12,
+          "justifyContent": "center",
+          "marginHorizontal": 6,
+          "marginVertical": 20,
+          "paddingBottom": 40,
+          "paddingTop": 16,
+        },
+      ]
+    }
+  />
+</View>
 `;

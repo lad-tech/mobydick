@@ -1,20 +1,13 @@
 import React, {FC} from 'react';
 import {Pressable} from '@npm/mobydick-core';
 import {useStyles} from '@npm/mobydick-styles';
-import Constants from '@npm/mobydick-popups/src/components/PopupBase/constants';
 
-import usePopups from '../../hooks/usePopups';
-
+import Constants from './constants';
 import {IPopupProps} from './types';
 import stylesCreate from './stylesCreate';
 
-const PopupBase: FC<IPopupProps> = ({id, Content, overlayStyle}) => {
+const PopupBase: FC<IPopupProps> = ({onClose, children, overlayStyle}) => {
   const [styles] = useStyles(stylesCreate);
-  const popupContext = usePopups();
-
-  const onClose = () => {
-    popupContext.closePopup(id);
-  };
 
   return (
     <Pressable
@@ -25,7 +18,7 @@ const PopupBase: FC<IPopupProps> = ({id, Content, overlayStyle}) => {
           onClose();
         }
       }}>
-      <Content onClose={onClose} id={id} />
+      {children}
     </Pressable>
   );
 };

@@ -11,7 +11,7 @@ const ExampleModal: FC<IContentProps> = props => {
   const {onClose} = props;
 
   return (
-    <ModalBase>
+    <ModalBase {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
       <ImageModal style={{marginTop: 10}} />
       <ModalBase.Title title={text('title', 'Нет доступа к камере')} />
@@ -35,7 +35,7 @@ const NestedExampleModal: FC<IContentProps> = props => {
   const {onClose} = props;
 
   return (
-    <ModalBase>
+    <ModalBase {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
       <ModalBase.Title title={'Вложенная Модалка'} />
       <ModalBase.DescriptionText descriptionText={'Это просто пример'} />

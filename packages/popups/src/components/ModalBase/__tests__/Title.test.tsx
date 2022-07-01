@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
-import Title from '@npm/mobydick-popups/src/components/ModalBase/Title';
+
+import Title from '../Title';
 
 describe('@npm/mobydick-popups/Title', () => {
   afterEach(() => {
