@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBox should renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "flexDirection": "row",
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "borderColor": "rgba(32, 36, 45, 0.3)",
+        "borderRadius": 4,
+        "borderWidth": 2,
+        "height": 20,
+        "marginRight": 12,
+        "width": 20,
+      }
+    }
+  />
+  <Text>
+    Pepega
+  </Text>
+</View>
+`;
+
+exports[`CheckBox should renders correctly checked 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "flexDirection": "row",
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "borderColor": "rgba(32, 36, 45, 0.3)",
+        "borderRadius": 4,
+        "borderWidth": 0,
+        "height": 20,
+        "marginRight": 12,
+        "width": 20,
+      }
+    }
+  >
+    <SvgMock />
+  </View>
+  <Text>
+    Pepega
+  </Text>
+</View>
+`;
+
+exports[`CheckBox should renders correctly disabled 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "flexDirection": "row",
+      "opacity": 0.4,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "borderColor": "rgba(32, 36, 45, 0.3)",
+        "borderRadius": 4,
+        "borderWidth": 2,
+        "height": 20,
+        "marginRight": 12,
+        "width": 20,
+      }
+    }
+  />
+  <Text>
+    Pepega
+  </Text>
+</View>
+`;
