@@ -1,5 +1,5 @@
+import {IUseStylesTheme} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme} from '@npm/mobydick-styles/src/styles/types';
 
 const defaultStyle = (theme: IUseStylesTheme) =>
   StyleSheet.create({
