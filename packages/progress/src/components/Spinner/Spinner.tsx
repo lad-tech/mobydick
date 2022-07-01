@@ -1,8 +1,8 @@
+import {useStyles, Loader as LoaderIcon} from '@npm/mobydick-styles';
 import React, {FC, useEffect, useRef} from 'react';
-import {Loader as LoaderIcon, useStyles} from '@npm/mobydick-styles';
 import {Animated} from 'react-native';
-import stylesCreate from '@npm/mobydick-progress/src/components/Spinner/stylesCreate';
 
+import stylesCreate from './stylesCreate';
 import {SpinnerProps} from './types';
 
 const Spinner: FC<SpinnerProps> = props => {

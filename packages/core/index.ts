@@ -1,17 +1,7 @@
-import ScrollView from './src/components/ScrollView';
-import View from './src/components/View';
-import TextInput from './src/components/TextInput';
-import Text from './src/components/Text';
-import Button from './src/components/Button';
-import TouchableOpacity from './src/components/TouchableOpacity';
-import Pressable from './src/components/Pressable';
-
-export * from './src/components/ScrollView/types';
-export * from './src/components/View/types';
-export * from './src/components/Text/types';
-export * from './src/components/TextInput/types';
-export * from './src/components/Button/types';
-export * from './src/components/TouchableOpacity/types';
-export * from './src/components/Pressable/types';
-
-export {ScrollView, View, TextInput, Text, Button, TouchableOpacity, Pressable};
+export * from './src/components/ScrollView';
+export * from './src/components/View';
+export * from './src/components/TextInput';
+export * from './src/components/Text';
+export * from './src/components/Button';
+export * from './src/components/TouchableOpacity';
+export * from './src/components/Pressable';

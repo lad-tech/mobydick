@@ -1,3 +1,5 @@
 import Pressable from './Pressable';
 
-export default Pressable;
+export * from './types';
+
+export {Pressable};

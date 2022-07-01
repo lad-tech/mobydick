@@ -1,10 +1,10 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
 import {useStyles} from '@npm/mobydick-styles';
-import stylesCreate from '@npm/mobydick-controls/src/components/Radio/stylesCreate';
 import {renderHook} from '@testing-library/react-hooks';
 
 import Circle from '../Circle';
+import stylesCreate from '../stylesCreate';
 
 describe('@npm/mobydick-controls/Radio/Circle', () => {
   it('renders correctly', () => {
