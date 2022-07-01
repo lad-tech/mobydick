@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
 
-import Button from '../index';
+import Button from '../Button';
 
 describe('@npm/mobydick-core/Button', () => {
   it('renders correctly', () => {

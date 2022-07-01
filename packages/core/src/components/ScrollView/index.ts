@@ -1,3 +1,5 @@
 import ScrollView from './ScrollView';
 
-export default ScrollView;
+export * from './types';
+
+export {ScrollView};
