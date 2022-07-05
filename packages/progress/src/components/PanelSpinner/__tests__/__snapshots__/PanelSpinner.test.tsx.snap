@@ -17,7 +17,7 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly 1`] = `
       },
       "shadowOpacity": 1,
       "shadowRadius": 16,
-      "width": 88,
+      "width": 64,
     }
   }
 >
@@ -37,5 +37,146 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly 1`] = `
       fill="#2B78EE"
     />
   </View>
+</View>
+`;
+
+exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#FFF",
+      "borderRadius": 44,
+      "elevation": 16,
+      "justifyContent": "center",
+      "shadowColor": "#20242D",
+      "shadowOffset": Object {
+        "height": 10,
+        "width": 0,
+      },
+      "shadowOpacity": 1,
+      "shadowRadius": 16,
+      "width": 64,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <SvgMock
+      fill="#2B78EE"
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
+          "borderRadius": 16,
+          "height": 32,
+          "width": 32,
+        },
+        Object {
+          "backgroundColor": "green",
+          "position": "absolute",
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-progress/PanelSpinner renders correctly done 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#FFF",
+      "borderRadius": 44,
+      "elevation": 16,
+      "justifyContent": "center",
+      "shadowColor": "#20242D",
+      "shadowOffset": Object {
+        "height": 10,
+        "width": 0,
+      },
+      "shadowOpacity": 1,
+      "shadowRadius": 16,
+      "width": 64,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
+          "borderRadius": 16,
+          "height": 32,
+          "width": 32,
+        },
+        Object {
+          "backgroundColor": "red",
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-progress/PanelSpinner renders correctly error 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#FFF",
+      "borderRadius": 44,
+      "elevation": 16,
+      "justifyContent": "center",
+      "shadowColor": "#20242D",
+      "shadowOffset": Object {
+        "height": 10,
+        "width": 0,
+      },
+      "shadowOpacity": 1,
+      "shadowRadius": 16,
+      "width": 64,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#9BA1B0",
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      }
+    }
+  />
 </View>
 `;

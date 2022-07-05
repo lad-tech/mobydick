@@ -11,7 +11,14 @@ storiesOf('Design System/Progress/PanelSpinner', module)
   .add('basic', () => (
     <PanelSpinner
       speed={number('speed', 2500)}
-      isSpin={boolean('isSpin', true)}
+      isLoading={boolean('isLoading', true)}
+      isError={boolean('isError', false)}
+    />
+  ))
+  .add('with cancel', () => (
+    <PanelSpinner
+      speed={number('speed', 2500)}
+      isLoading={boolean('isLoading', true)}
       isError={boolean('isError', false)}
       onCancel={action('onCancel')}
     />

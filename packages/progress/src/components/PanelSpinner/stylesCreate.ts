@@ -6,9 +6,9 @@ const defaultStyle = (theme: IUseStylesTheme) =>
     container: {
       justifyContent: 'center',
       alignItems: 'center',
-      width: 88,
+      width: theme.spaces.Space64,
       aspectRatio: 1,
-      backgroundColor: theme.colors.BgWhite,
+      backgroundColor: theme.colors.BgPrimary,
       borderRadius: 44,
       shadowColor: theme.colors.BgBlack,
       // ios

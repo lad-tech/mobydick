@@ -7,7 +7,7 @@ import stylesCreate from './stylesCreate';
 import {PanelSpinnerProps} from './types';
 
 const PanelSpinner: FC<PanelSpinnerProps> = props => {
-  const {isSpin, speed = 2500, isError = false, onCancel} = props;
+  const {isLoading, speed = 2500, isError = false, onCancel} = props;
   const [styles, theme] = useStyles(stylesCreate);
   const spinValue = useRef(new Animated.Value(0)).current;
 
@@ -24,7 +24,7 @@ const PanelSpinner: FC<PanelSpinnerProps> = props => {
       loop.stop();
       spinValue.setValue(0);
     };
-  }, [speed, isSpin]);
+  }, [speed, isLoading]);
 
   const rotation = spinValue.interpolate({
     inputRange: [0, 1],
@@ -33,7 +33,7 @@ const PanelSpinner: FC<PanelSpinnerProps> = props => {
 
   return (
     <View style={styles.container}>
-      {isSpin ? (
+      {isLoading ? (
         <>
           <Animated.View style={{transform: [{rotate: rotation}]}}>
             <Indicator fill={theme.colors.CtaBtnPrimary} />
