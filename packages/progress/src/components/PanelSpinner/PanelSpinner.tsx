@@ -22,7 +22,7 @@ const PanelSpinner: FC<PanelSpinnerProps> = props => {
               style={[
                 styles.errorView,
                 {
-                  backgroundColor: 'green',
+                  backgroundColor: 'pink',
                   position: 'absolute',
                   width: 10,
                   height: 10,
