@@ -34,7 +34,22 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly 1`] = `
     }
   >
     <SvgMock
-      fill="#2B78EE"
+      style={
+        Array [
+          Object {
+            "borderRadius": 20,
+            "elevation": 10,
+            "shadowColor": "#20242D",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 4,
+          },
+          undefined,
+        ]
+      }
     />
   </View>
 </View>
@@ -74,7 +89,22 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
     }
   >
     <SvgMock
-      fill="#2B78EE"
+      style={
+        Array [
+          Object {
+            "borderRadius": 20,
+            "elevation": 10,
+            "shadowColor": "#20242D",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 4,
+          },
+          undefined,
+        ]
+      }
     />
   </View>
   <View
@@ -100,7 +130,9 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
         },
         Object {
           "backgroundColor": "green",
+          "height": 10,
           "position": "absolute",
+          "width": 10,
         },
       ]
     }

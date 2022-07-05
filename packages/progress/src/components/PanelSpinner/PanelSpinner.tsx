@@ -1,48 +1,32 @@
 import {Pressable} from '@npm/mobydick-core';
-import {useStyles, Indicator} from '@npm/mobydick-styles';
-import React, {FC, useEffect, useRef} from 'react';
-import {Animated, View} from 'react-native';
+import {useStyles} from '@npm/mobydick-styles';
+import React, {FC} from 'react';
+import {View} from 'react-native';
+
+import Spinner from '../Spinner';
 
 import stylesCreate from './stylesCreate';
 import {PanelSpinnerProps} from './types';
 
 const PanelSpinner: FC<PanelSpinnerProps> = props => {
   const {isLoading, speed = 2500, isError = false, onCancel} = props;
-  const [styles, theme] = useStyles(stylesCreate);
-  const spinValue = useRef(new Animated.Value(0)).current;
-
-  useEffect(() => {
-    const loop = Animated.loop(
-      Animated.timing(spinValue, {
-        useNativeDriver: true,
-        toValue: 1,
-        duration: speed,
-      }),
-    );
-    loop.start();
-    return () => {
-      loop.stop();
-      spinValue.setValue(0);
-    };
-  }, [speed, isLoading]);
-
-  const rotation = spinValue.interpolate({
-    inputRange: [0, 1],
-    outputRange: ['0deg', '360deg'],
-  });
+  const [styles] = useStyles(stylesCreate);
 
   return (
     <View style={styles.container}>
       {isLoading ? (
         <>
-          <Animated.View style={{transform: [{rotate: rotation}]}}>
-            <Indicator fill={theme.colors.CtaBtnPrimary} />
-          </Animated.View>
+          <Spinner speed={speed} />
           {!!onCancel && (
             <Pressable
               style={[
                 styles.errorView,
-                {backgroundColor: 'green', position: 'absolute'},
+                {
+                  backgroundColor: 'green',
+                  position: 'absolute',
+                  width: 10,
+                  height: 10,
+                },
               ]}
               onPress={onCancel}
             />
