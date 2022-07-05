@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-progress/PanelSpinner renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#FFF",
+      "borderRadius": 44,
+      "elevation": 16,
+      "justifyContent": "center",
+      "shadowColor": "#20242D",
+      "shadowOffset": Object {
+        "height": 10,
+        "width": 0,
+      },
+      "shadowOpacity": 1,
+      "shadowRadius": 16,
+      "width": 88,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <SvgMock
+      fill="#2B78EE"
+    />
+  </View>
+</View>
+`;
