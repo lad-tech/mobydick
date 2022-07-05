@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "prepare": "husky install",
-    "postversion": "npx react-native-version --never-amend",
+    "postversion": "npx react-native-version -a",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
