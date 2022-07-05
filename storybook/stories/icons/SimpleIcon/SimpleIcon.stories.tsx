@@ -1,13 +1,13 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import SimpleIconAlbum from '@npm/mobydick-styles/src/icons/font/SimpleIconAlbum';
-import SimpleIcon, {
-  iconNames,
-  SimpleIconName,
-} from '@npm/mobydick-styles/src/icons/font/SimpleIcon';
 import {number, select} from '@storybook/addon-knobs';
 import {defaultIconLightColor} from '@npm/mobydick-styles';
 
+import SimpleIconAlbum from '../../../../packages/styles/src/icons/font/SimpleIconAlbum';
+import SimpleIcon, {
+  iconNames,
+  SimpleIconName,
+} from '../../../../packages/styles/src/icons/font/SimpleIcon';
 import CenterView from '../../CenterView';
 
 storiesOf('Design System/icons/SimpleIcon', module)
