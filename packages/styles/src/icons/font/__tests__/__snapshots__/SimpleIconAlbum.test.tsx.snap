@@ -7,7 +7,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
       "flexDirection": "row",
       "flexWrap": "wrap",
       "justifyContent": "center",
-      "width": "70%",
+      "maxWidth": "70%",
     }
   }
 >
@@ -949,7 +949,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
       "flexDirection": "row",
       "flexWrap": "wrap",
       "justifyContent": "center",
-      "width": "70%",
+      "maxWidth": "70%",
     }
   }
 >
@@ -1891,7 +1891,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
       "flexDirection": "row",
       "flexWrap": "wrap",
       "justifyContent": "center",
-      "width": "70%",
+      "maxWidth": "70%",
     }
   }
 >
