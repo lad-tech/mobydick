@@ -1,5 +1,8 @@
 {
   "extends": "../../tsconfig.json",
+  "include": [
+    "./src/icons/font/unicodesMap.json"
+  ],
   "references": [
     {
       "path": "../controls"
@@ -21,7 +24,7 @@
     },
     {
       "path": "../typography"
-    },
+    }
   ],
   "compilerOptions": {
     "composite": true,
