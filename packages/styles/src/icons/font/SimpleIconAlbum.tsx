@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    width: '70%',
+    maxWidth: '70%',
     justifyContent: 'center',
   },
   item: {
