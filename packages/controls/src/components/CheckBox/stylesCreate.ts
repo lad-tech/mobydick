@@ -14,6 +14,7 @@ const stylesCreate = (
       alignItems: 'flex-start',
       backgroundColor: colors.BgPrimary,
       opacity: disabled ? 0.4 : 1,
+      maxWidth: '100%',
     },
     checkbox: {
       borderWidth: selected ? 0 : spaces.Space2,

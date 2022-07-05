@@ -7,6 +7,7 @@ exports[`CheckBox should renders correctly 1`] = `
       "alignItems": "flex-start",
       "backgroundColor": "#FFF",
       "flexDirection": "row",
+      "maxWidth": "100%",
       "opacity": 1,
     }
   }
@@ -53,6 +54,7 @@ exports[`CheckBox should renders correctly checked 1`] = `
       "alignItems": "flex-start",
       "backgroundColor": "#FFF",
       "flexDirection": "row",
+      "maxWidth": "100%",
       "opacity": 1,
     }
   }
@@ -101,6 +103,7 @@ exports[`CheckBox should renders correctly disabled 1`] = `
       "alignItems": "flex-start",
       "backgroundColor": "#FFF",
       "flexDirection": "row",
+      "maxWidth": "100%",
       "opacity": 0.4,
     }
   }
