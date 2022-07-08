@@ -1,14 +1,25 @@
-import {useStyles, Loader as LoaderIcon} from '@npm/mobydick-styles';
+import {LoaderS, LoaderM, LoaderL, useTheme} from '@npm/mobydick-styles';
 import React, {FC, useEffect, useRef} from 'react';
 import {Animated} from 'react-native';
+import {Color} from 'react-native-svg';
 
-import stylesCreate from './stylesCreate';
-import {SpinnerProps} from './types';
+import {ISizeSpinner, SpinnerProps} from './types';
 
 const Spinner: FC<SpinnerProps> = props => {
-  const {style, speed = 2500, ...otherProps} = props;
-  const [styles] = useStyles(stylesCreate);
+  const {speed = 2500, size = ISizeSpinner.S, fill, ...otherProps} = props;
+  const {colors} = useTheme();
   const spinValue = useRef(new Animated.Value(0)).current;
+
+  const getSize = (size: ISizeSpinner, color: Color) => {
+    switch (size) {
+      case ISizeSpinner.S:
+        return <LoaderS fill={color} {...otherProps} />;
+      case ISizeSpinner.M:
+        return <LoaderM fill={color} {...otherProps} />;
+      case ISizeSpinner.L:
+        return <LoaderL fill={color} {...otherProps} />;
+    }
+  };
 
   useEffect(() => {
     const loop = Animated.loop(
@@ -32,7 +43,7 @@ const Spinner: FC<SpinnerProps> = props => {
 
   return (
     <Animated.View style={{transform: [{rotate: rotation}]}}>
-      <LoaderIcon style={[styles.container, style]} {...otherProps} />
+      {getSize(size, fill || colors.ElementBase)}
     </Animated.View>
   );
 };

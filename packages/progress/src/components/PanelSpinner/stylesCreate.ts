@@ -6,26 +6,28 @@ const defaultStyle = (theme: IUseStylesTheme) =>
     container: {
       justifyContent: 'center',
       alignItems: 'center',
-      width: theme.spaces.Space64,
-      aspectRatio: 1,
+      padding: 20,
       backgroundColor: theme.colors.BgPrimary,
-      borderRadius: 44,
+      borderColor: theme.colors.BorderSoft,
+      borderWidth: 0.5,
+      borderRadius: 200,
       shadowColor: theme.colors.BgBlack,
       // ios
       shadowOffset: {
         width: 0,
-        height: 10,
+        height: 1,
       },
-      shadowOpacity: 1,
-      shadowRadius: 16,
+      shadowOpacity: 0.3,
+      shadowRadius: 12,
       // android
-      elevation: 16,
+      elevation: 10,
     },
-    errorView: {
-      backgroundColor: theme.colors.IconMuted,
-      width: 32,
-      height: 32,
-      borderRadius: 16,
+    insideView: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: theme.spaces.Space48,
+      aspectRatio: 1,
+      borderRadius: 24,
     },
   });
 

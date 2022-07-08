@@ -14,22 +14,7 @@ exports[`@npm/mobydick-progress/Spinner renders correctly 1`] = `
   }
 >
   <SvgMock
-    style={
-      Array [
-        Object {
-          "borderRadius": 20,
-          "elevation": 10,
-          "shadowColor": "#20242D",
-          "shadowOffset": Object {
-            "height": 0,
-            "width": 0,
-          },
-          "shadowOpacity": 0.25,
-          "shadowRadius": 4,
-        },
-        undefined,
-      ]
-    }
+    fill="#2B78EE"
   />
 </View>
 `;

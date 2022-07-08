@@ -5,19 +5,20 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "aspectRatio": 1,
       "backgroundColor": "#FFF",
-      "borderRadius": 44,
-      "elevation": 16,
+      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "borderRadius": 200,
+      "borderWidth": 0.5,
+      "elevation": 10,
       "justifyContent": "center",
+      "padding": 20,
       "shadowColor": "#20242D",
       "shadowOffset": Object {
-        "height": 10,
+        "height": 1,
         "width": 0,
       },
-      "shadowOpacity": 1,
-      "shadowRadius": 16,
-      "width": 64,
+      "shadowOpacity": 0.3,
+      "shadowRadius": 12,
     }
   }
 >
@@ -34,22 +35,7 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly 1`] = `
     }
   >
     <SvgMock
-      style={
-        Array [
-          Object {
-            "borderRadius": 20,
-            "elevation": 10,
-            "shadowColor": "#20242D",
-            "shadowOffset": Object {
-              "height": 0,
-              "width": 0,
-            },
-            "shadowOpacity": 0.25,
-            "shadowRadius": 4,
-          },
-          undefined,
-        ]
-      }
+      fill="#2B78EE"
     />
   </View>
 </View>
@@ -60,19 +46,20 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "aspectRatio": 1,
       "backgroundColor": "#FFF",
-      "borderRadius": 44,
-      "elevation": 16,
+      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "borderRadius": 200,
+      "borderWidth": 0.5,
+      "elevation": 10,
       "justifyContent": "center",
+      "padding": 20,
       "shadowColor": "#20242D",
       "shadowOffset": Object {
-        "height": 10,
+        "height": 1,
         "width": 0,
       },
-      "shadowOpacity": 1,
-      "shadowRadius": 16,
-      "width": 64,
+      "shadowOpacity": 0.3,
+      "shadowRadius": 12,
     }
   }
 >
@@ -89,22 +76,7 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
     }
   >
     <SvgMock
-      style={
-        Array [
-          Object {
-            "borderRadius": 20,
-            "elevation": 10,
-            "shadowColor": "#20242D",
-            "shadowOffset": Object {
-              "height": 0,
-              "width": 0,
-            },
-            "shadowOpacity": 0.25,
-            "shadowRadius": 4,
-          },
-          undefined,
-        ]
-      }
+      fill="#2B78EE"
     />
   </View>
   <View
@@ -123,20 +95,30 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#9BA1B0",
-          "borderRadius": 16,
-          "height": 32,
-          "width": 32,
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "borderRadius": 24,
+          "justifyContent": "center",
+          "width": 48,
         },
         Object {
-          "backgroundColor": "pink",
-          "height": 10,
           "position": "absolute",
-          "width": 10,
         },
       ]
     }
-  />
+  >
+    <Text
+      style={
+        Object {
+          "color": "#9BA1B0",
+          "fontFamily": "Neotis",
+          "fontSize": 24,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
 </View>
 `;
 
@@ -145,37 +127,46 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly done 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "aspectRatio": 1,
       "backgroundColor": "#FFF",
-      "borderRadius": 44,
-      "elevation": 16,
+      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "borderRadius": 200,
+      "borderWidth": 0.5,
+      "elevation": 10,
       "justifyContent": "center",
+      "padding": 20,
       "shadowColor": "#20242D",
       "shadowOffset": Object {
-        "height": 10,
+        "height": 1,
         "width": 0,
       },
-      "shadowOpacity": 1,
-      "shadowRadius": 16,
-      "width": 64,
+      "shadowOpacity": 0.3,
+      "shadowRadius": 12,
     }
   }
 >
   <View
     style={
-      Array [
-        Object {
-          "backgroundColor": "#9BA1B0",
-          "borderRadius": 16,
-          "height": 32,
-          "width": 32,
-        },
-        Object {
-          "backgroundColor": "red",
-        },
-      ]
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "borderRadius": 24,
+        "justifyContent": "center",
+        "width": 48,
+      }
     }
-  />
+  >
+    <Text
+      style={
+        Object {
+          "color": "#2B78EE",
+          "fontFamily": "Neotis",
+          "fontSize": 48,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
 </View>
 `;
 
@@ -184,31 +175,50 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly error 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "aspectRatio": 1,
       "backgroundColor": "#FFF",
-      "borderRadius": 44,
-      "elevation": 16,
+      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "borderRadius": 200,
+      "borderWidth": 0.5,
+      "elevation": 10,
       "justifyContent": "center",
+      "padding": 20,
       "shadowColor": "#20242D",
       "shadowOffset": Object {
-        "height": 10,
+        "height": 1,
         "width": 0,
       },
-      "shadowOpacity": 1,
-      "shadowRadius": 16,
-      "width": 64,
+      "shadowOpacity": 0.3,
+      "shadowRadius": 12,
     }
   }
 >
   <View
     style={
-      Object {
-        "backgroundColor": "#9BA1B0",
-        "borderRadius": 16,
-        "height": 32,
-        "width": 32,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "borderRadius": 24,
+          "justifyContent": "center",
+          "width": 48,
+        },
+        Object {
+          "backgroundColor": "#EEEFF1",
+        },
+      ]
     }
-  />
+  >
+    <Text
+      style={
+        Object {
+          "color": "#9BA1B0",
+          "fontFamily": "Neotis",
+          "fontSize": 32,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
 </View>
 `;
