@@ -1,6 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-progress/Spinner renders correctly 1`] = `
+exports[`@npm/mobydick-progress/Spinner renders correctly L 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "transform": Array [
+        Object {
+          "rotate": "0deg",
+        },
+      ],
+    }
+  }
+>
+  <SvgMock
+    fill="#2B78EE"
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-progress/Spinner renders correctly M 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "transform": Array [
+        Object {
+          "rotate": "0deg",
+        },
+      ],
+    }
+  }
+>
+  <SvgMock
+    fill="#2B78EE"
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-progress/Spinner renders correctly S 1`] = `
 <View
   collapsable={false}
   style={
