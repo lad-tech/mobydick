@@ -2,6 +2,18 @@
 
 exports[`@npm/mobydick-controls/Radio/Circle renders correctly 1`] = `
 <View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
     Object {
       "aspectRatio": 1,
@@ -16,6 +28,18 @@ exports[`@npm/mobydick-controls/Radio/Circle renders correctly 1`] = `
 
 exports[`@npm/mobydick-controls/Radio/Circle renders correctly selected 1`] = `
 <View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
     Object {
       "aspectRatio": 1,
@@ -36,7 +60,7 @@ exports[`@npm/mobydick-controls/Radio/Circle renders correctly selected 1`] = `
         "borderRadius": 11,
         "borderWidth": 2,
         "justifyContent": "center",
-        "margin": 11,
+        "margin": 12,
         "width": 22,
       }
     }
