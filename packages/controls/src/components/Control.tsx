@@ -11,7 +11,7 @@ const Control: FC<TControl | Exclude<TControl, IRadioStyle>> = ({
   ...rest
 }) => {
   return type === ControlType.checkBox ? (
-    <CheckSquare style={{margin: 12}} {...rest} />
+    <CheckSquare {...rest} />
   ) : (
     <Circle {...rest} />
   );

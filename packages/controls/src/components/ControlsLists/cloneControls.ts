@@ -7,9 +7,12 @@ const cloneControls = (
   controls: FunctionComponentElement<IControlProps & PressableProps>[],
   single = false,
 ) => {
-  const initialValues = controls
-    .filter(control => control.props.selected)
-    .map(control => control.props.value);
+  const initialValues = controls.reduce((acc: string[], item) => {
+    if (item.props.selected) {
+      acc.push(item.props.value);
+    }
+    return acc;
+  }, []);
   const [values, setValues] = useState<string[]>(initialValues);
   const radios = controls.map(
     (radio: FunctionComponentElement<IControlProps & PressableProps>) => {
