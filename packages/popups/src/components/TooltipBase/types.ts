@@ -8,13 +8,15 @@ export interface IPosition {
   right?: number | string;
 }
 
+export interface IArrowViewPopup {
+  arrowViewStyles?: ViewStyle;
+}
+
 export interface ITooltip {
-  message: string | null;
+  isVisible: boolean;
   position?: IPosition;
   element?: JSX.Element;
   styleContainer?: ViewStyle;
-  textStyle?: TextStyle;
-  isArrow?: boolean;
-  arrowStyle?: ViewStyle;
-  children?: ReactNode;
+  titleStyles?: TextStyle;
+  children: ReactNode;
 }

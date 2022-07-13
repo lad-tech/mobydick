@@ -14,7 +14,6 @@ const primaryStyle = (theme: IUseStylesTheme, size: ISize) => {
       backgroundColor: colors.CtaBtnPrimary,
       borderRadius: 12, // TODO: Брать из theme
       padding: size === ISize.small ? 10 : 12, // TODO: Брать из theme
-      margin: 12, // TODO: Брать из theme
     },
     text: {
       color: colors.TextWhite,

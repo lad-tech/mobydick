@@ -1,22 +1,22 @@
 import React, {FC} from 'react';
 import {Animated} from 'react-native';
 import {useStyles} from '@npm/mobydick-styles';
-import {Text, View} from '@npm/mobydick-core';
-import {ITooltip} from '@npm/mobydick-popups/src/components/Tooltip/types';
 
 import stylesCreate from './stylesCreate';
+import Title from './Title';
+import DescriptionText from './DescriptionText';
+import {ITooltip} from './types';
+import Arrow from './Arrow';
 
-const Tooltip: FC<ITooltip> = props => {
-  const {
-    message,
-    position,
-    styleContainer,
-    arrowStyle,
-    textStyle,
-    isArrow,
-    children,
-  } = props;
+const TooltipBase: FC<ITooltip> & {
+  Title: typeof Title;
+  DescriptionText: typeof DescriptionText;
+  Arrow: typeof Arrow;
+} = props => {
+  const {position, styleContainer, children, isVisible} = props;
   const [styles] = useStyles(stylesCreate);
+
+  if (!isVisible) return null;
 
   return (
     <Animated.View
@@ -31,11 +31,12 @@ const Tooltip: FC<ITooltip> = props => {
           right: position?.right,
         },
       ]}>
-      <Text style={[styles.text, textStyle]}>{message}</Text>
-      {isArrow && <View style={[styles.arrow, arrowStyle]} />}
       {children}
     </Animated.View>
   );
 };
 
-export default Tooltip;
+TooltipBase.Title = Title;
+TooltipBase.DescriptionText = DescriptionText;
+TooltipBase.Arrow = Arrow;
+export default TooltipBase;

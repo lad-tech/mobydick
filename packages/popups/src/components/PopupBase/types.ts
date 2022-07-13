@@ -11,7 +11,6 @@ export interface IDescriptionTextPopup {
   descriptionText: string;
   descriptionStyles?: ViewStyle;
 }
-
 export interface IPopupCloseIcon {
   onPress(): void;
 }

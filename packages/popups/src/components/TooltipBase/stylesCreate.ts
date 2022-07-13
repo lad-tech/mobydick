@@ -4,9 +4,6 @@ import {StyleSheet} from 'react-native';
 const stylesCreate = (theme: IUseStylesTheme) => {
   const {colors} = theme;
   return StyleSheet.create({
-    overlayStyle: {
-      backgroundColor: 'transparent',
-    },
     container: {
       paddingVertical: 8,
       paddingHorizontal: 12,
@@ -36,7 +33,12 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       borderBottomColor: 'transparent',
       borderLeftColor: 'transparent',
     },
-    text: {
+    title: {
+      fontSize: 14,
+      zIndex: 1,
+      color: colors.TextPrimary,
+    },
+    descriptionText: {
       fontSize: 14,
       zIndex: 1,
       color: colors.TextPrimary,
