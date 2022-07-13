@@ -9,7 +9,7 @@ storiesOf('Design System/Progress/Spinner', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('basic', () => (
     <Spinner
-      speed={number('speed', 2500)}
+      duration={number('duration', 2500)}
       size={select('size', ISizeSpinner, ISizeSpinner.S)}
     />
   ));

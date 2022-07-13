@@ -10,14 +10,14 @@ import stylesCreate from './stylesCreate';
 import {PanelSpinnerProps} from './types';
 
 const PanelSpinner: FC<PanelSpinnerProps> = props => {
-  const {isLoading, speed = 2500, isError = false, onCancel} = props;
+  const {isLoading, duration = 2500, isError = false, onCancel} = props;
   const [styles, theme] = useStyles(stylesCreate);
 
   return (
     <View style={styles.container}>
       {isLoading ? (
         <>
-          <Spinner speed={speed} size={ISizeSpinner.L} />
+          <Spinner duration={duration} size={ISizeSpinner.L} />
           {!!onCancel && (
             <Pressable
               style={[

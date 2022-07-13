@@ -27,7 +27,7 @@ const defaultStyle = (theme: IUseStylesTheme) =>
       alignItems: 'center',
       width: theme.spaces.Space48,
       aspectRatio: 1,
-      borderRadius: 24,
+      borderRadius: theme.spaces.Space24,
     },
   });
 

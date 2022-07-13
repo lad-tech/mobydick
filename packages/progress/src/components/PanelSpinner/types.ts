@@ -1,6 +1,6 @@
 interface IPanelSpinnerProps {
   isLoading: boolean;
-  speed?: number;
+  duration?: number;
   isError?: boolean;
   onCancel?: () => void;
 }

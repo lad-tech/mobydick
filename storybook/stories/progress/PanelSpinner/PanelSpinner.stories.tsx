@@ -10,14 +10,14 @@ storiesOf('Design System/Progress/PanelSpinner', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('basic', () => (
     <PanelSpinner
-      speed={number('speed', 2500)}
+      duration={number('duration', 2500)}
       isLoading={boolean('isLoading', true)}
       isError={boolean('isError', false)}
     />
   ))
   .add('with cancel', () => (
     <PanelSpinner
-      speed={number('speed', 2500)}
+      duration={number('duration', 2500)}
       isLoading={boolean('isLoading', true)}
       isError={boolean('isError', false)}
       onCancel={action('onCancel')}
