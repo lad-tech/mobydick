@@ -12,7 +12,7 @@ interface IProps {
   style?: TextStyle;
 }
 
-const SimpleIcon = ({size = 20, name, style, color}: IProps): JSX.Element => {
+const SimpleIcon = ({size = 24, name, style, color}: IProps): JSX.Element => {
   const {colors} = useTheme();
   const resolveGlyph = useCallback((name: SimpleIconName): string => {
     const glyph = glyphMap[name];

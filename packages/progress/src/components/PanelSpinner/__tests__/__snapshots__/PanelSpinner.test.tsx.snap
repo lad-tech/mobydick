@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-progress/PanelSpinner renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "borderRadius": 200,
+      "borderWidth": 0.5,
+      "elevation": 10,
+      "justifyContent": "center",
+      "padding": 20,
+      "shadowColor": "#20242D",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.3,
+      "shadowRadius": 12,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <SvgMock
+      fill="#2B78EE"
+    />
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "borderRadius": 200,
+      "borderWidth": 0.5,
+      "elevation": 10,
+      "justifyContent": "center",
+      "padding": 20,
+      "shadowColor": "#20242D",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.3,
+      "shadowRadius": 12,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <SvgMock
+      fill="#2B78EE"
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "borderRadius": 24,
+          "justifyContent": "center",
+          "width": 48,
+        },
+        Object {
+          "position": "absolute",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#9BA1B0",
+          "fontFamily": "Neotis",
+          "fontSize": 24,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-progress/PanelSpinner renders correctly done 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "borderRadius": 200,
+      "borderWidth": 0.5,
+      "elevation": 10,
+      "justifyContent": "center",
+      "padding": 20,
+      "shadowColor": "#20242D",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.3,
+      "shadowRadius": 12,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "borderRadius": 24,
+        "justifyContent": "center",
+        "width": 48,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#2B78EE",
+          "fontFamily": "Neotis",
+          "fontSize": 48,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-progress/PanelSpinner renders correctly error 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF",
+      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "borderRadius": 200,
+      "borderWidth": 0.5,
+      "elevation": 10,
+      "justifyContent": "center",
+      "padding": 20,
+      "shadowColor": "#20242D",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.3,
+      "shadowRadius": 12,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "borderRadius": 24,
+          "justifyContent": "center",
+          "width": 48,
+        },
+        Object {
+          "backgroundColor": "#EEEFF1",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#9BA1B0",
+          "fontFamily": "Neotis",
+          "fontSize": 32,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

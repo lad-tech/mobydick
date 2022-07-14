@@ -1,6 +1,19 @@
 import {SvgProps} from 'react-native-svg';
 
 interface ISpinnerProps {
-  speed?: number;
+  duration?: number;
+  size?: ISizeSpinner;
+}
+
+export enum ISizeSpinner {
+  S = 'S',
+  M = 'M',
+  L = 'L',
 }
 export type SpinnerProps = ISpinnerProps & SvgProps;
+
+interface ILoaderProps {
+  size: ISizeSpinner;
+}
+
+export type LoaderProps = ILoaderProps & SvgProps;
