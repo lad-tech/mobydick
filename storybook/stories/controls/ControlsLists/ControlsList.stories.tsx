@@ -13,17 +13,14 @@ storiesOf('Design System/Controls/ControlsList.tsx', module)
     <ControlsList
       horizontal={boolean('horizontal', false)}
       single={boolean('single', false)}
+      disabled={boolean('disabled', false)}
       onChange={action('pressed')}>
-      <CheckBox
-        value={text('text 1', 'Option 1')}
-        disabled={boolean('disabled', false)}>
+      <CheckBox value={'Option 1'}>
         <Typography font={'Regular-Primary-M'}>
           {text('Text 1', 'Option 1')}
         </Typography>
       </CheckBox>
-      <CheckBox
-        value={text('text2', 'Option 2')}
-        disabled={boolean('disabled 2', false)}>
+      <CheckBox value={'Option 2'}>
         <Typography font={'Regular-Primary-M'}>
           {text('Text 2', 'Option 2')}
         </Typography>
@@ -33,17 +30,14 @@ storiesOf('Design System/Controls/ControlsList.tsx', module)
   .add('radio list', () => (
     <ControlsList
       single={boolean('single', false)}
+      disabled={boolean('disabled', false)}
       onChange={action('pressed')}>
-      <Radio
-        value={text('text', 'Option 1')}
-        disabled={boolean('disabled', false)}>
+      <Radio value={'Option 1'}>
         <Typography font={'Regular-Primary-M'}>
           {text('Text 1', 'Option 1')}
         </Typography>
       </Radio>
-      <Radio
-        value={text('text2', 'Option 2')}
-        disabled={boolean('disabled 2', false)}>
+      <Radio value={'Option 2'}>
         <Typography font={'Regular-Primary-M'}>
           {text('Text 2', 'Option 2')}
         </Typography>

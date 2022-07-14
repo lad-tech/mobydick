@@ -8,4 +8,5 @@ export interface IControlsList {
   children: FunctionComponentElement<IControlProps & PressableProps>[];
   horizontal?: boolean;
   single?: boolean;
+  disabled?: boolean;
 }

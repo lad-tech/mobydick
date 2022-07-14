@@ -10,9 +10,10 @@ const ControlsList: FC<IControlsList> = ({
   single = false,
   horizontal = false,
   onChange,
+  disabled = false,
   children,
 }) => {
-  const {values, radios} = cloneControls(children, single);
+  const {values, radios} = cloneControls(children, single, disabled);
   const [styles] = useStyles(stylesCreate, horizontal);
 
   useEffect(() => {

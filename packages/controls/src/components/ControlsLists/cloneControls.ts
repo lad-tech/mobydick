@@ -6,6 +6,7 @@ import {IControlProps} from '../types';
 const cloneControls = (
   controls: FunctionComponentElement<IControlProps & PressableProps>[],
   single = false,
+  disabled = false,
 ) => {
   const initialValues = controls.reduce((acc: string[], item) => {
     if (item.props.selected) {
@@ -21,6 +22,7 @@ const cloneControls = (
       return cloneElement<IControlProps & PressableProps>(radio, {
         key: text,
         selected,
+        disabled,
         onPress: () => {
           let data = [...values];
           if (single) {

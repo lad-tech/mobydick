@@ -20,6 +20,11 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
     }
   >
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -72,6 +77,11 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
     }
   >
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -135,6 +145,11 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
     }
   >
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -187,6 +202,11 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
     }
   >
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -250,6 +270,11 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
     }
   >
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -302,6 +327,11 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
     }
   >
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
       collapsable={false}
       focusable={true}
