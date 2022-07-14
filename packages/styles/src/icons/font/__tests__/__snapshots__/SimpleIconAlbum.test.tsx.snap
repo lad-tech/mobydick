@@ -93,6 +93,38 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
+    testID="icon-arrow-left-long"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
     testID="icon-arrow-left"
   >
     <Text
@@ -125,6 +157,38 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
+    testID="icon-arrow-right-long"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
     testID="icon-arrow-right"
   >
     <Text
@@ -136,7 +200,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -200,7 +264,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -232,7 +296,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -264,7 +328,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -296,7 +360,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -328,7 +392,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -360,7 +424,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -392,70 +456,6 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-filter"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-folder"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
       
     </Text>
   </View>
@@ -477,7 +477,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-grid"
+    testID="icon-edit"
   >
     <Text
       style={
@@ -509,7 +509,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-group"
+    testID="icon-filter"
   >
     <Text
       style={
@@ -541,7 +541,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-hide"
+    testID="icon-folder"
   >
     <Text
       style={
@@ -573,7 +573,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-house"
+    testID="icon-grid"
   >
     <Text
       style={
@@ -605,7 +605,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-image"
+    testID="icon-group"
   >
     <Text
       style={
@@ -637,7 +637,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-kebab"
+    testID="icon-hide"
   >
     <Text
       style={
@@ -669,7 +669,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-list"
+    testID="icon-house"
   >
     <Text
       style={
@@ -701,7 +701,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-lock"
+    testID="icon-image"
   >
     <Text
       style={
@@ -733,7 +733,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-logout"
+    testID="icon-kebab"
   >
     <Text
       style={
@@ -765,7 +765,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-notification"
+    testID="icon-list"
   >
     <Text
       style={
@@ -797,7 +797,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-plus"
+    testID="icon-lock"
   >
     <Text
       style={
@@ -829,7 +829,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-settings"
+    testID="icon-logout"
   >
     <Text
       style={
@@ -861,7 +861,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-show"
+    testID="icon-notification"
   >
     <Text
       style={
@@ -893,7 +893,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-unlock"
+    testID="icon-plus"
   >
     <Text
       style={
@@ -925,7 +925,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 10,
       }
     }
-    testID="icon-warning"
+    testID="icon-search"
   >
     <Text
       style={
@@ -937,6 +937,230 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
       }
     >
       
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-settings"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-share"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-show"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-sort-horizontal"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-sort-vertical"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-unlock"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-warning"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
     </Text>
   </View>
 </View>
@@ -1035,6 +1259,38 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 10,
       }
     }
+    testID="icon-arrow-left-long"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
     testID="icon-arrow-left"
   >
     <Text
@@ -1067,6 +1323,38 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 10,
       }
     }
+    testID="icon-arrow-right-long"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
     testID="icon-arrow-right"
   >
     <Text
@@ -1078,7 +1366,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1142,7 +1430,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1174,7 +1462,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1206,7 +1494,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1238,7 +1526,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1270,7 +1558,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1302,7 +1590,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1334,70 +1622,6 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-filter"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-folder"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
       
     </Text>
   </View>
@@ -1419,7 +1643,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 10,
       }
     }
-    testID="icon-grid"
+    testID="icon-edit"
   >
     <Text
       style={
@@ -1451,852 +1675,6 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 10,
       }
     }
-    testID="icon-group"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-hide"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-house"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-image"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-kebab"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-list"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-lock"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-logout"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-notification"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-plus"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-settings"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-show"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-unlock"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-warning"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press 1`] = `
-<View
-  style={
-    Object {
-      "flexDirection": "row",
-      "flexWrap": "wrap",
-      "justifyContent": "center",
-      "maxWidth": "70%",
-    }
-  }
->
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-account"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-arrow-down"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-arrow-left"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-arrow-right"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-arrow-up"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-attachment"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-bookmark"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-calendar"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-call"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-cancel"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-check"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
-    testID="icon-copy"
-  >
-    <Text
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 20,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 10,
-      }
-    }
     testID="icon-filter"
   >
     <Text
@@ -2308,7 +1686,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2340,7 +1718,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2372,7 +1750,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2404,7 +1782,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2436,7 +1814,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2468,7 +1846,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2500,7 +1878,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2532,7 +1910,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2564,7 +1942,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2596,7 +1974,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2628,7 +2006,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2660,7 +2038,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2692,7 +2070,39 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-search"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
     </Text>
   </View>
   <View
@@ -2724,7 +2134,39 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-share"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
     </Text>
   </View>
   <View
@@ -2756,7 +2198,71 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-sort-horizontal"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 10,
+      }
+    }
+    testID="icon-sort-vertical"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
     </Text>
   </View>
   <View
@@ -2788,7 +2294,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2820,7 +2326,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
 </View>

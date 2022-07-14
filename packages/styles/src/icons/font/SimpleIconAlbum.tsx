@@ -1,6 +1,7 @@
 import {Pressable, View} from '@npm/mobydick-core';
 import React from 'react';
 import {StyleSheet} from 'react-native';
+import {action} from '@storybook/addon-actions';
 
 import SimpleIcon, {iconNames} from './SimpleIcon';
 
@@ -12,7 +13,7 @@ const SimpleIconAlbum = (props: {color?: string}): JSX.Element => {
           testID={item}
           style={styles.item}
           key={item}
-          onPress={() => console.log(item)}>
+          onPress={action(item)}>
           <SimpleIcon key={item} name={item} size={20} color={props.color} />
         </Pressable>
       ))}
