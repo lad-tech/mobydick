@@ -6,8 +6,7 @@ const stylesCreate = (theme: IUseStylesTheme) => {
 
   return StyleSheet.create({
     container: {
-      paddingVertical: 8,
-      paddingHorizontal: 12,
+      padding: 16,
       borderRadius: 8,
       justifyContent: 'center',
       alignItems: 'center',
@@ -27,11 +26,13 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       fontSize: 14,
       zIndex: 1,
       color: colors.TextPrimary,
+      paddingBottom: 8,
     },
     descriptionText: {
       fontSize: 14,
       zIndex: 1,
-      color: colors.TextPrimary,
+      color: colors.TextTertiary,
+      paddingBottom: 16,
     },
   });
 };

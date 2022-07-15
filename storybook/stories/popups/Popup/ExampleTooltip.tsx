@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import Title from '@npm/mobydick-popups/src/components/TooltipBase/Title';
 import DescriptionText from '@npm/mobydick-popups/src/components/TooltipBase/DescriptionText';
-import {Button} from '@npm/mobydick-cta';
+import {Button, ISize} from '@npm/mobydick-cta';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {View} from 'react-native';
 import Arrow from '@npm/mobydick-popups/src/components/TooltipBase/Arrow';
@@ -19,8 +19,12 @@ const ExampleTooltip: FC<ITooltip> = props => {
   return (
     <View style={{position: 'relative', alignItems: 'center'}}>
       <TooltipBase {...props} position={position} isVisible={isVisible}>
-        <Title title={'Title'} />
-        <DescriptionText descriptionText={'DescriptionText'} />
+        <Title
+          title={'Войдите в приложение, чтобы\nделиться картами и скидками'}
+        />
+        <DescriptionText
+          descriptionText={'Это займет меньше минуты, а\nплюшек станет больше!'}
+        />
 
         {boolean('With arrow', isArrow) ? (
           <Arrow
@@ -28,7 +32,11 @@ const ExampleTooltip: FC<ITooltip> = props => {
             position={position}
           />
         ) : null}
-        <Button onPress={() => null} text={text('Text button', 'Войти')} />
+        <Button
+          onPress={() => null}
+          text={text('Text button', 'Войти')}
+          size={ISize.small}
+        />
       </TooltipBase>
       {children}
     </View>
