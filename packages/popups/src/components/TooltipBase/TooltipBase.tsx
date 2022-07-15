@@ -5,7 +5,7 @@ import {useStyles} from '@npm/mobydick-styles';
 import stylesCreate from './stylesCreate';
 import Title from './Title';
 import DescriptionText from './DescriptionText';
-import {ITooltip} from './types';
+import {IPosition, ITooltip} from './types';
 import Arrow from './Arrow';
 
 const TooltipBase: FC<ITooltip> & {
@@ -23,12 +23,13 @@ const TooltipBase: FC<ITooltip> & {
       style={[
         styles.container,
         styleContainer,
-        position && {
+        position === IPosition.top && {
           position: 'absolute',
-          top: position?.top,
-          bottom: position?.bottom,
-          left: position?.left,
-          right: position?.right,
+          top: '100%',
+        },
+        position === IPosition.bottom && {
+          position: 'absolute',
+          bottom: '100%',
         },
       ]}>
       {children}

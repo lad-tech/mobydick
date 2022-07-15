@@ -3,6 +3,7 @@ import {StyleSheet} from 'react-native';
 
 const stylesCreate = (theme: IUseStylesTheme) => {
   const {colors} = theme;
+
   return StyleSheet.create({
     container: {
       paddingVertical: 8,
@@ -11,7 +12,7 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       justifyContent: 'center',
       alignItems: 'center',
       zIndex: 1,
-
+      margin: 8,
       backgroundColor: colors.IconFavorite,
     },
     arrow: {
@@ -21,17 +22,6 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       height: 0,
       backgroundColor: 'transparent',
       borderStyle: 'solid',
-      //позиция стрелочки меняется в зависимости этих стилей
-      right: 10,
-      bottom: -7,
-      borderTopWidth: 8,
-      borderRightWidth: 10,
-      borderBottomWidth: 0,
-      borderLeftWidth: 10,
-      borderTopColor: colors.IconFavorite,
-      borderRightColor: 'transparent',
-      borderBottomColor: 'transparent',
-      borderLeftColor: 'transparent',
     },
     title: {
       fontSize: 14,
