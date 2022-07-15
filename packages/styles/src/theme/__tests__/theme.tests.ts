@@ -3,10 +3,16 @@ import {
   getCurrentTheme,
   getSpaces,
   getTheme,
+  IBgColors,
+  IBorderColors,
+  ICTAColors,
+  IElementColors,
+  IIconColors,
+  ITextColors,
   setTheme,
 } from '@npm/mobydick-styles';
 
-export const newThemeTextColor = {
+export const newThemeTextColor: ITextColors = {
   TextPrimary: '#113583',
   TextSecondary: '#444B5A',
   TextTertiary: '#5E6678',
@@ -18,7 +24,7 @@ export const newThemeTextColor = {
   TextWhite: '#FFF',
   TextWhiteTransparent: 'rgba(255, 255, 255, 0.75)',
 };
-export const newThemeIconColor = {
+export const newThemeIconColor: IIconColors = {
   IconNeutral: '#5E6678',
   IconMuted: '#9BA1B0',
   IconBase: '#283446',
@@ -28,7 +34,7 @@ export const newThemeIconColor = {
   IconWhite: '#FFF',
   IconBlack: '#1E232F',
 };
-export const newThemeElementColor = {
+export const newThemeElementColor: IElementColors = {
   ElementNeutral: '#5E6678',
   ElementMuted: '#9BA1B0',
   ElementBase: '#0049b9',
@@ -39,7 +45,7 @@ export const newThemeElementColor = {
   ElementBlack: '#20242D',
   ElementTransparent: 'rgba(255, 255, 255, 0.15)',
 };
-export const newThemeBorderColor = {
+export const newThemeBorderColor: IBorderColors = {
   BorderExtra: 'rgba(32, 36, 45, 0.75)',
   BorderHard: 'rgba(32, 36, 45, 0.45)',
   BorderNormal: 'rgba(32, 36, 45, 0.3)',
@@ -47,7 +53,7 @@ export const newThemeBorderColor = {
   BorderError: '#8c6662',
   BorderSuccess: '#2B78EE',
 };
-export const newThemeBgColor = {
+export const newThemeBgColor: IBgColors = {
   BgPrimary: '#FFF',
   BgPrimaryTransparent: 'rgba(255, 255, 255, 0.75)',
   BgSecondary: '#EEEFF1',
@@ -62,8 +68,9 @@ export const newThemeBgColor = {
   BgOverlay: 'rgba(32, 36, 45, 0.45)',
   BgBlack: '#20242D',
   BgWhite: '#FFF',
+  BgWhiteSoft: '#123123',
 };
-export const newThemeCTAColor = {
+export const newThemeCTAColor: ICTAColors = {
   CtaBtnPrimary: '#2B78EE',
   CtaBtnSecondary: 'rgba(43, 120, 238, 0.15)',
   CtaBtnMuted: '#143faf',
