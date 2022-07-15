@@ -11,10 +11,11 @@ storiesOf('Design System/Controls/CheckBox', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('basic', () => (
     <CheckBox
+      value={'Pepe'}
       selected={boolean('selected', false)}
       disabled={boolean('disabled', false)}
       onPress={action('clicked checkbox')}>
-      <Typography font={'Regular-Primary-XXS'}>
+      <Typography font={'Regular-Primary-M'}>
         {text('Text', 'Option1')}
       </Typography>
     </CheckBox>

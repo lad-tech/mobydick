@@ -11,7 +11,7 @@ const stylesCreate = (
   return StyleSheet.create({
     container: {
       flexDirection: 'row',
-      alignItems: 'flex-start',
+      alignItems: 'center',
       backgroundColor: colors.BgPrimary,
       opacity: disabled ? 0.4 : 1,
       maxWidth: '100%',
@@ -22,7 +22,7 @@ const stylesCreate = (
       width: spaces.Space20,
       height: spaces.Space20,
       borderRadius: spaces.Space4,
-      marginRight: spaces.Space12,
+      margin: spaces.Space12,
     },
   });
 };

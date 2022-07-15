@@ -1,29 +1,35 @@
 import React, {FC} from 'react';
-import {Pressable, PressableProps, Text} from '@npm/mobydick-core';
+import {View} from '@npm/mobydick-core';
 import {useStyles} from '@npm/mobydick-styles';
 
 import {IControlProps} from '../types';
+import Control from '../Control';
+import ControlType from '../constants';
 
 import stylesCreate from './stylesCreate';
-import Circle from './Circle';
+import {IRadioStyle} from './types';
 
-const Radio: FC<IControlProps & PressableProps> = ({
-  text,
+const Radio: FC<IControlProps & IRadioStyle> = ({
+  value,
   selected = false,
   disabled = false,
+  children,
   ...rest
 }) => {
   const [styles] = useStyles(stylesCreate, selected, disabled);
-
   return (
-    <Pressable style={styles.container} disabled={disabled} {...rest}>
-      <Circle
+    <View style={styles.container}>
+      <Control
+        value={value}
+        disabled={disabled}
+        type={ControlType.radio}
         selected={selected}
         outerStyle={styles.circle}
         innerStyle={styles.innerCircle}
+        {...rest}
       />
-      <Text style={styles.text}>{text}</Text>
-    </Pressable>
+      {children}
+    </View>
   );
 };
 

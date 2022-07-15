@@ -6,7 +6,7 @@ const stylesCreate = (
   selected: boolean,
   disabled: boolean,
 ) => {
-  const {colors} = theme;
+  const {colors, spaces} = theme;
   return StyleSheet.create({
     container: {
       flexDirection: 'row',
@@ -20,10 +20,10 @@ const stylesCreate = (
       borderRadius: 11,
       backgroundColor: selected ? colors.ElementBase : 'transparent',
       borderColor: selected ? colors.ElementBase : colors.BorderNormal,
-      borderWidth: 2,
+      borderWidth: spaces.Space2,
       justifyContent: 'center',
       alignItems: 'center',
-      margin: 11,
+      margin: spaces.Space12,
     },
     innerCircle: {
       width: 18,
