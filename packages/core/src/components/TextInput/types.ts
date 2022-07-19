@@ -3,5 +3,5 @@ import {
   TextInput as DefaultTextInput,
 } from 'react-native';
 
-export type TextInputProps = DefaultTextInputProps;
+export type ITextInputProps = DefaultTextInputProps;
 export type ITextInput = DefaultTextInput;

@@ -1,4 +1,4 @@
-import {TextInputProps} from '@npm/mobydick-core';
+import {ITextInputProps} from '@npm/mobydick-core';
 import {ReactElement} from 'react';
 import {IStyledTextProps} from '@npm/mobydick-typography';
 import {StyleProp, ViewStyle} from 'react-native';
@@ -21,4 +21,4 @@ export enum ITypes {
   wrong = 'wrong',
   disabled = 'disabled',
 }
-export type InputFieldProps = TextInputProps & IInputFieldsProps;
+export type InputFieldProps = ITextInputProps & IInputFieldsProps;

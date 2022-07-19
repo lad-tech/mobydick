@@ -3,9 +3,9 @@ import {TextInput as DefaultTextInput} from 'react-native';
 
 import {getConfig} from '../../config';
 
-import {TextInputProps, ITextInput} from './types';
+import {ITextInputProps, ITextInput} from './types';
 
-const TextInput = forwardRef<ITextInput, TextInputProps>((props, ref) => (
+const TextInput = forwardRef<ITextInput, ITextInputProps>((props, ref) => (
   <DefaultTextInput
     ref={ref}
     allowFontScaling={getConfig().allowFontScaling}
