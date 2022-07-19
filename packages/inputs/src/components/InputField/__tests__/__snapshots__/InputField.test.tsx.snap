@@ -371,6 +371,21 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
       testID="TextInput"
     />
   </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#F54D3D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    subtitle
+  </Text>
 </View>
 `;
 
@@ -414,5 +429,20 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
       testID="TextInput"
     />
   </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#F54D3D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    subtitle
+  </Text>
 </View>
 `;
