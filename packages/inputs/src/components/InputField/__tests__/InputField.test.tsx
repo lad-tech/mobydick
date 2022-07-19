@@ -24,7 +24,9 @@ describe('@npm/mobydick-inputs/InputField', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly wrong', () => {
-    const {toJSON, getByTestId} = render(<InputField type={ITypes.wrong} />);
+    const {toJSON, getByTestId} = render(
+      <InputField type={ITypes.wrong} subtitle={'subtitle'} />,
+    );
 
     expect(toJSON()).toMatchSnapshot();
 

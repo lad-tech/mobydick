@@ -1,6 +1,7 @@
-import {ITextInput, Text, TextInput, View} from '@npm/mobydick-core';
+import {ITextInput, TextInput, View} from '@npm/mobydick-core';
 import React, {forwardRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
+import {Typography} from '@npm/mobydick-typography';
 
 import {InputFieldProps, ITypes} from './types';
 import stylesCreate from './stylesCreate';
@@ -28,6 +29,10 @@ const InputField = forwardRef<ITextInput, InputFieldProps>((props, ref) => {
     rightIcon,
     type = ITypes.default,
     disabled = false,
+    titleProps,
+    subtitleProps,
+    containerStyle,
+    textInputContainerStyle,
     ...otherProps
   } = props;
   const [focused, setFocused] = useState(false);
@@ -38,9 +43,13 @@ const InputField = forwardRef<ITextInput, InputFieldProps>((props, ref) => {
   );
 
   return (
-    <View>
-      {Boolean(title) && <Text style={styles.label}>{title}</Text>}
-      <View style={styles.textInputContainer}>
+    <View style={containerStyle}>
+      {Boolean(title) && (
+        <Typography font={'Medium-Tertiary-XS'} {...titleProps}>
+          {title}
+        </Typography>
+      )}
+      <View style={[styles.textInputContainer, textInputContainerStyle]}>
         <TextInput
           ref={ref}
           testID={Constants.testID}
@@ -57,9 +66,13 @@ const InputField = forwardRef<ITextInput, InputFieldProps>((props, ref) => {
         {rightIcon}
       </View>
       {Boolean(subtitle) && (
-        <View style={styles.subtitleContainer}>
-          <Text style={styles.subtitleText}>{subtitle}</Text>
-        </View>
+        <Typography
+          font={
+            type === ITypes.wrong ? 'Regular-Error-XXS' : 'Regular-Muted-XXS'
+          }
+          {...subtitleProps}>
+          {subtitle}
+        </Typography>
       )}
     </View>
   );
