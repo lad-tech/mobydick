@@ -1,6 +1,6 @@
-import {PressableProps} from '@npm/mobydick-core';
+import {IPressableProps} from '@npm/mobydick-core';
 
-export interface IToggle extends PressableProps {
+export interface IToggle extends IPressableProps {
   active: boolean;
   disabled: boolean;
 }

@@ -1,4 +1,4 @@
-import {TouchableOpacityProps} from '@npm/mobydick-core';
+import {ITouchableOpacityProps} from '@npm/mobydick-core';
 import {ReactElement} from 'react';
 
 interface IButtonProps {
@@ -24,4 +24,4 @@ export enum ISize {
   fixed = 'fixed',
 }
 
-export type ButtonProps = TouchableOpacityProps & IButtonProps;
+export type ButtonProps = ITouchableOpacityProps & IButtonProps;

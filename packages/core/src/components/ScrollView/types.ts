@@ -1,3 +1,7 @@
-import {ScrollViewProps as DefaultScrollViewProps} from 'react-native';
+import {
+  ScrollViewProps as DefaultScrollViewProps,
+  ScrollView as DefaultScrollView,
+} from 'react-native';
 
-export type ScrollViewProps = DefaultScrollViewProps;
+export type IScrollViewProps = DefaultScrollViewProps;
+export type IScrollView = DefaultScrollView;
