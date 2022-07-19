@@ -9,7 +9,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "test:ci": "jest --ci --coverage=true",
+    "test:ci": "jest --ci --coverage=true --silent",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx && tsc -p tsconfig.json --noEmit",
     "lint:ci": "eslint . --quiet && tsc -p tsconfig.json --noEmit",
     "storybook": "start-storybook -p 7007",

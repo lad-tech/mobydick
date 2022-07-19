@@ -50,6 +50,7 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
       value="1"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -107,6 +108,7 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
       value="2"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -175,6 +177,7 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       value="1"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -232,6 +235,7 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       value="2"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -300,6 +304,7 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
       value="1"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -357,6 +362,7 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
       value="2"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -427,6 +433,7 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
       value="1"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -486,6 +493,7 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
       value="2"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -556,6 +564,7 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
       value="1"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -615,6 +624,7 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
       value="2"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -685,6 +695,7 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
       value="1"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {
@@ -744,6 +755,7 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
       value="2"
     />
     <Text
+      allowFontScaling={true}
       style={
         Array [
           Object {

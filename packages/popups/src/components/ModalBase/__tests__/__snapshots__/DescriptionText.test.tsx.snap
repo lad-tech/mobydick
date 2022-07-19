@@ -2,6 +2,7 @@
 
 exports[`@npm/mobydick-popups/DescriptionText should renders correctly 1`] = `
 <Text
+  allowFontScaling={true}
   style={
     Array [
       Object {

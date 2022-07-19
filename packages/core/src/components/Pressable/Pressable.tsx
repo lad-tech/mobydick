@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {forwardRef} from 'react';
 import {Pressable as DefaultPressable} from 'react-native';
 
-import {PressableProps} from './types';
+import {IView} from '../View';
 
-const Pressable = (props: PressableProps) => {
-  return <DefaultPressable {...props} />;
-};
+import {IPressableProps} from './types';
+
+const Pressable = forwardRef<IView, IPressableProps>((props, ref) => {
+  return <DefaultPressable ref={ref} {...props} />;
+});
 
 export default Pressable;

@@ -1,4 +1,4 @@
-import {TextProps} from '@npm/mobydick-core';
+import {ITextProps} from '@npm/mobydick-core';
 import {ITextColors} from '@npm/mobydick-styles';
 import {ReactChild} from 'react';
 import {TextStyle} from 'react-native';
@@ -9,7 +9,7 @@ type ITextStyle = TextStyle | undefined | false | null;
 
 export type IStyledTextChildren = ITextChild | ITextChild[];
 
-export interface IStyledTextProps extends TextProps {
+export interface IStyledTextProps extends ITextProps {
   children?: IStyledTextChildren;
   font?: TypographyProp;
   style?: ITextStyle | ITextStyle[];

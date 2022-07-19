@@ -1,3 +1,4 @@
-import {TextProps as DefaultTextProps} from 'react-native';
+import {TextProps as DefaultTextProps, Text as DefaultText} from 'react-native';
 
-export type TextProps = DefaultTextProps;
+export type ITextProps = DefaultTextProps;
+export type IText = DefaultText;

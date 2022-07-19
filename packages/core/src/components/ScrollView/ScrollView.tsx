@@ -1,9 +1,9 @@
-import React, {FC} from 'react';
+import React, {forwardRef} from 'react';
 import {ScrollView as DefaultScrollView} from 'react-native';
 
-import {ScrollViewProps} from './types';
+import {IScrollView, IScrollViewProps} from './types';
 
-const ScrollView: FC<ScrollViewProps> = props => {
-  return <DefaultScrollView {...props} />;
-};
+const ScrollView = forwardRef<IScrollView, IScrollViewProps>((props, ref) => {
+  return <DefaultScrollView ref={ref} {...props} />;
+});
 export default ScrollView;

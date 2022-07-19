@@ -37,7 +37,9 @@ exports[`CheckBox should renders correctly 1`] = `
     }
     value="Pepega"
   />
-  <Text>
+  <Text
+    allowFontScaling={true}
+  >
     Pepega
   </Text>
 </View>
@@ -82,7 +84,9 @@ exports[`CheckBox should renders correctly checked 1`] = `
   >
     <SvgMock />
   </View>
-  <Text>
+  <Text
+    allowFontScaling={true}
+  >
     Pepega
   </Text>
 </View>
@@ -130,7 +134,9 @@ exports[`CheckBox should renders correctly disabled 1`] = `
     }
     value="Pepega"
   />
-  <Text>
+  <Text
+    allowFontScaling={true}
+  >
     Pepega
   </Text>
 </View>

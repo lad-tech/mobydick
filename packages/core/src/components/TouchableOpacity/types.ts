@@ -3,5 +3,5 @@ import {
   TouchableOpacity as DefaultTouchableOpacity,
 } from 'react-native';
 
-export type TouchableOpacityProps = DefaultTouchableOpacityProps;
+export type ITouchableOpacityProps = DefaultTouchableOpacityProps;
 export type ITouchableOpacity = DefaultTouchableOpacity;
