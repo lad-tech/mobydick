@@ -1,8 +1,9 @@
 {
   "extends": "../../tsconfig.json",
   "include": [
-    "*.tsx?",
-    "*.json"
+    "./**/*.tsx",
+    "./**/*.ts",
+    "./**/*.json"
   ],
   "references": [
     {
