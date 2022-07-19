@@ -3,6 +3,7 @@
 exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
 <View>
   <Text
+    allowFontScaling={true}
     style={
       Array [
         Object {
@@ -37,6 +38,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
     }
   >
     <TextInput
+      allowFontScaling={true}
       editable={true}
       numberOfLines={1}
       onBlur={[Function]}
@@ -56,6 +58,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
     />
   </View>
   <Text
+    allowFontScaling={true}
     style={
       Array [
         Object {
@@ -95,6 +98,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
     }
   >
     <TextInput
+      allowFontScaling={true}
       editable={false}
       numberOfLines={1}
       onBlur={[Function]}
@@ -138,6 +142,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
     }
   >
     <TextInput
+      allowFontScaling={true}
       editable={false}
       numberOfLines={1}
       onBlur={[Function]}
@@ -181,6 +186,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
     }
   >
     <TextInput
+      allowFontScaling={true}
       editable={true}
       numberOfLines={1}
       onBlur={[Function]}
@@ -224,6 +230,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
     }
   >
     <TextInput
+      allowFontScaling={true}
       editable={true}
       numberOfLines={1}
       onBlur={[Function]}
@@ -267,6 +274,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
     }
   >
     <TextInput
+      allowFontScaling={true}
       editable={true}
       numberOfLines={1}
       onBlur={[Function]}
@@ -310,6 +318,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
     }
   >
     <TextInput
+      allowFontScaling={true}
       editable={true}
       numberOfLines={1}
       onBlur={[Function]}
@@ -353,6 +362,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
     }
   >
     <TextInput
+      allowFontScaling={true}
       editable={true}
       numberOfLines={1}
       onBlur={[Function]}
@@ -372,6 +382,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
     />
   </View>
   <Text
+    allowFontScaling={true}
     style={
       Array [
         Object {
@@ -411,6 +422,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
     }
   >
     <TextInput
+      allowFontScaling={true}
       editable={true}
       numberOfLines={1}
       onBlur={[Function]}
@@ -430,6 +442,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
     />
   </View>
   <Text
+    allowFontScaling={true}
     style={
       Array [
         Object {

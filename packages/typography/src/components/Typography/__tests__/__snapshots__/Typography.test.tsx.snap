@@ -2,6 +2,7 @@
 
 exports[`@npm/mobydick-typography/Typography renders default correctly 1`] = `
 <Text
+  allowFontScaling={true}
   style={
     Array [
       Object {

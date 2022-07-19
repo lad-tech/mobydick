@@ -1,9 +1,9 @@
-import React, {FC} from 'react';
+import React, {forwardRef} from 'react';
 import {Button as DefaultButton} from 'react-native';
 
-import {ButtonProps} from './types';
+import {IButtonProps, IButton} from './types';
 
-const Button: FC<ButtonProps> = props => {
-  return <DefaultButton {...props} />;
-};
+const Button = forwardRef<IButton, IButtonProps>((props, ref) => {
+  return <DefaultButton ref={ref} {...props} />;
+});
 export default Button;

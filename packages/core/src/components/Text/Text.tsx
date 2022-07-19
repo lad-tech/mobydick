@@ -1,9 +1,17 @@
-import React, {FC} from 'react';
+import React, {forwardRef} from 'react';
 import {Text as DefaultText} from 'react-native';
 
-import {TextProps} from './types';
+import {getConfig} from '../../config';
 
-const Text: FC<TextProps> = props => {
-  return <DefaultText {...props} />;
-};
+import {IText, ITextProps} from './types';
+
+const Text = forwardRef<IText, ITextProps>((props, ref) => {
+  return (
+    <DefaultText
+      ref={ref}
+      allowFontScaling={getConfig().allowFontScaling}
+      {...props}
+    />
+  );
+});
 export default Text;

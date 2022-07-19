@@ -1,10 +1,10 @@
 import {cloneElement, FunctionComponentElement, useState} from 'react';
-import {PressableProps} from '@npm/mobydick-core';
+import {IPressableProps} from '@npm/mobydick-core';
 
 import {IControlProps} from '../types';
 
 const cloneControls = (
-  controls: FunctionComponentElement<IControlProps & PressableProps>[],
+  controls: FunctionComponentElement<IControlProps & IPressableProps>[],
   single = false,
   disabled = false,
 ) => {
@@ -16,10 +16,10 @@ const cloneControls = (
   }, []);
   const [values, setValues] = useState<string[]>(initialValues);
   const radios = controls.map(
-    (radio: FunctionComponentElement<IControlProps & PressableProps>) => {
+    (radio: FunctionComponentElement<IControlProps & IPressableProps>) => {
       const text = radio.props.value;
       const selected = values.some(e => e === text);
-      return cloneElement<IControlProps & PressableProps>(radio, {
+      return cloneElement<IControlProps & IPressableProps>(radio, {
         key: text,
         selected,
         disabled,

@@ -1,4 +1,4 @@
-import {PressableProps} from '@npm/mobydick-core';
+import {IPressableProps} from '@npm/mobydick-core';
 
 import ControlType from './constants';
 
@@ -17,4 +17,4 @@ export interface IControl extends IControlProps {
   value: string;
 }
 
-export type TControl = IControl & PressableProps;
+export type TControl = IControl & IPressableProps;
