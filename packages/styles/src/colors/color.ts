@@ -99,6 +99,7 @@ export const defaultBgLightColor = {
   BgOverlay: 'rgba(32, 36, 45, 0.45)',
   BgBlack: '#20242D',
   BgWhite: '#FFF',
+  BgWhiteSoft: 'rgba(255, 255, 255, 0.25)',
 };
 export const defaultBgDarkColor = {
   BgPrimary: '#20242D',
@@ -115,6 +116,7 @@ export const defaultBgDarkColor = {
   BgOverlay: 'rgba(32, 36, 45, 0.45)',
   BgBlack: '#20242D',
   BgWhite: '#FFF',
+  BgWhiteSoft: 'rgba(255, 255, 255, 0.25)',
 };
 
 export const defaultCTALightColor = {

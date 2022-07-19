@@ -4,7 +4,7 @@ exports[`CheckBox should renders correctly 1`] = `
 <View
   style={
     Object {
-      "alignItems": "flex-start",
+      "alignItems": "center",
       "backgroundColor": "#FFF",
       "flexDirection": "row",
       "maxWidth": "100%",
@@ -13,11 +13,6 @@ exports[`CheckBox should renders correctly 1`] = `
   }
 >
   <View
-    accessibilityState={
-      Object {
-        "disabled": false,
-      }
-    }
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -36,10 +31,11 @@ exports[`CheckBox should renders correctly 1`] = `
         "borderRadius": 4,
         "borderWidth": 2,
         "height": 20,
-        "marginRight": 12,
+        "margin": 12,
         "width": 20,
       }
     }
+    value="Pepega"
   />
   <Text>
     Pepega
@@ -51,7 +47,7 @@ exports[`CheckBox should renders correctly checked 1`] = `
 <View
   style={
     Object {
-      "alignItems": "flex-start",
+      "alignItems": "center",
       "backgroundColor": "#FFF",
       "flexDirection": "row",
       "maxWidth": "100%",
@@ -60,11 +56,6 @@ exports[`CheckBox should renders correctly checked 1`] = `
   }
 >
   <View
-    accessibilityState={
-      Object {
-        "disabled": false,
-      }
-    }
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -83,10 +74,11 @@ exports[`CheckBox should renders correctly checked 1`] = `
         "borderRadius": 4,
         "borderWidth": 0,
         "height": 20,
-        "marginRight": 12,
+        "margin": 12,
         "width": 20,
       }
     }
+    value="Pepega"
   >
     <SvgMock />
   </View>
@@ -100,7 +92,7 @@ exports[`CheckBox should renders correctly disabled 1`] = `
 <View
   style={
     Object {
-      "alignItems": "flex-start",
+      "alignItems": "center",
       "backgroundColor": "#FFF",
       "flexDirection": "row",
       "maxWidth": "100%",
@@ -132,10 +124,11 @@ exports[`CheckBox should renders correctly disabled 1`] = `
         "borderRadius": 4,
         "borderWidth": 2,
         "height": 20,
-        "marginRight": 12,
+        "margin": 12,
         "width": 20,
       }
     }
+    value="Pepega"
   />
   <Text>
     Pepega

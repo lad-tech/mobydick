@@ -189,22 +189,7 @@ exports[`@npm/mobydick-cta/Button renders correctly loading 1`] = `
     }
   >
     <SvgMock
-      style={
-        Array [
-          Object {
-            "borderRadius": 20,
-            "elevation": 10,
-            "shadowColor": "#20242D",
-            "shadowOffset": Object {
-              "height": 0,
-              "width": 0,
-            },
-            "shadowOpacity": 0.25,
-            "shadowRadius": 4,
-          },
-          undefined,
-        ]
-      }
+      fill="#FFF"
     />
   </View>
 </View>

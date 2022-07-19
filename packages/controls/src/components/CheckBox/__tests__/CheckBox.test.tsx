@@ -7,7 +7,7 @@ import CheckBox from '../CheckBox';
 describe('CheckBox', () => {
   it('should renders correctly', function () {
     const {toJSON} = render(
-      <CheckBox>
+      <CheckBox value={'Pepega'}>
         <Text>Pepega</Text>
       </CheckBox>,
     );
@@ -16,7 +16,7 @@ describe('CheckBox', () => {
 
   it('should renders correctly checked', function () {
     const {toJSON} = render(
-      <CheckBox selected>
+      <CheckBox value={'Pepega'} selected>
         <Text>Pepega</Text>
       </CheckBox>,
     );
@@ -25,7 +25,7 @@ describe('CheckBox', () => {
 
   it('should renders correctly disabled', function () {
     const {toJSON} = render(
-      <CheckBox disabled>
+      <CheckBox value={'Pepega'} disabled>
         <Text>Pepega</Text>
       </CheckBox>,
     );

@@ -18,7 +18,7 @@ const Button: FC<ButtonProps> = props => {
     disabled = false,
     ...otherProps
   } = props;
-  const [styles] = useStyles(
+  const [styles, theme] = useStyles(
     stylesCreate,
     disabled ? ITypes.disabled : type,
     size,
@@ -41,7 +41,7 @@ const Button: FC<ButtonProps> = props => {
   if (loading || type === ITypes.loading)
     return (
       <Container>
-        <Spinner />
+        <Spinner fill={theme.colors.IconWhite} />
       </Container>
     );
 

@@ -17,6 +17,7 @@
 		9E2BEF21E9EF4B36833E0BD9 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6282E9E44477A941D5A7E /* Inter-Medium.ttf */; };
 		AD6040C5BFD34B44BCF67468 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85EEF1C3748A414C83EB4388 /* Inter-Bold.ttf */; };
 		BC11BFDA64834FA983F47089 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD9E1C35FC934272AD5243E3 /* Inter-SemiBold.ttf */; };
+		DF3425FF693342BEAF14D22F /* Neotis.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 007030EB909C43C9B37B7E19 /* Neotis.ttf */; };
 		F33D5AB7E19549ADBA8ACFC0 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6C2482001EE4876B031EABB /* Inter-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007030EB909C43C9B37B7E19 /* Neotis.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Neotis.ttf; path = "../node_modules/@npm/mobydick-styles/src/icons/font/assets/fonts/Neotis.ttf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* MobyDickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobyDickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MobyDickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobyDickTests.m; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				6DE6282E9E44477A941D5A7E /* Inter-Medium.ttf */,
 				B6C2482001EE4876B031EABB /* Inter-Regular.ttf */,
 				BD9E1C35FC934272AD5243E3 /* Inter-SemiBold.ttf */,
+				007030EB909C43C9B37B7E19 /* Neotis.ttf */,
 			);
 			name = Resources;
 			path = "";
@@ -269,6 +272,7 @@
 				9E2BEF21E9EF4B36833E0BD9 /* Inter-Medium.ttf in Resources */,
 				F33D5AB7E19549ADBA8ACFC0 /* Inter-Regular.ttf in Resources */,
 				BC11BFDA64834FA983F47089 /* Inter-SemiBold.ttf in Resources */,
+				DF3425FF693342BEAF14D22F /* Neotis.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
