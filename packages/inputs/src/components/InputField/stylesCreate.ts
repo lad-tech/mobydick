@@ -6,18 +6,13 @@ import {ITypes} from './types';
 const defaultStyle = (theme: IUseStylesTheme, focused: boolean) => {
   const {colors} = theme;
   return StyleSheet.create({
-    label: {
-      color: colors.TextTertiary,
-      fontSize: 14, // TODO: Брать из темы, когда они будут готовы,
-      fontWeight: '500', // TODO: Брать из темы, когда они будут готовы,
-    },
     textInputContainer: {
       backgroundColor: colors.BgSecondary,
-      padding: 8,
-      borderRadius: 8, // TODO: Брать из темы, когда они будут готовы
-      borderWidth: 1,
+      padding: theme.spaces.Space8,
+      borderRadius: theme.spaces.Space8,
+      borderWidth: theme.spaces.Space2,
       borderColor: focused ? colors.BorderNormal : 'transparent',
-      marginVertical: 8, // TODO: Брать из темы, когда они будут готовы
+      marginVertical: theme.spaces.Space8,
       minWidth: 120,
       flexDirection: 'row',
       justifyContent: 'space-between',
@@ -27,15 +22,6 @@ const defaultStyle = (theme: IUseStylesTheme, focused: boolean) => {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
       color: colors.TextPrimary,
-    },
-    subtitleContainer: {
-      flexDirection: 'row',
-      alignItems: 'center',
-    },
-    subtitleText: {
-      color: colors.TextMuted,
-      fontSize: 12, // TODO: Брать из темы, когда они будут готовы
-      fontWeight: '400',
     },
   });
 };
@@ -71,7 +57,6 @@ const wrongStyle = (theme: IUseStylesTheme, focused: boolean) => {
 
   textInputContainer.borderColor = focused ? colors.BorderError : 'transparent';
   textInputContainer.backgroundColor = colors.BgError;
-  defaultStyles.subtitleText.color = colors.TextError;
 
   return defaultStyles;
 };

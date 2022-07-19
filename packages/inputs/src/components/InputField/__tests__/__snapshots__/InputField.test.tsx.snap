@@ -4,29 +4,36 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
 <View>
   <Text
     style={
-      Object {
-        "color": "#5E6678",
-        "fontSize": 14,
-        "fontWeight": "500",
-      }
+      Array [
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Medium",
+          "fontSize": 14,
+          "lineHeight": 18,
+        },
+        undefined,
+      ]
     }
   >
     title
   </Text>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#EEEFF1",
-        "borderColor": "transparent",
-        "borderRadius": 8,
-        "borderWidth": 1,
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginVertical": 8,
-        "minWidth": 120,
-        "padding": 8,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "transparent",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 8,
+          "minWidth": 120,
+          "padding": 8,
+        },
+        undefined,
+      ]
     }
   >
     <TextInput
@@ -48,26 +55,21 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
       testID="TextInput"
     />
   </View>
-  <View
+  <Text
     style={
-      Object {
-        "alignItems": "center",
-        "flexDirection": "row",
-      }
-    }
-  >
-    <Text
-      style={
+      Array [
         Object {
           "color": "#9BA1B0",
+          "fontFamily": "Inter-Regular",
           "fontSize": 12,
-          "fontWeight": "400",
-        }
-      }
-    >
-      subtitle
-    </Text>
-  </View>
+          "lineHeight": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    subtitle
+  </Text>
 </View>
 `;
 
@@ -75,18 +77,21 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
 <View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#D1D4DB",
-        "borderColor": "transparent",
-        "borderRadius": 8,
-        "borderWidth": 1,
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginVertical": 8,
-        "minWidth": 120,
-        "padding": 8,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D1D4DB",
+          "borderColor": "transparent",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 8,
+          "minWidth": 120,
+          "padding": 8,
+        },
+        undefined,
+      ]
     }
   >
     <TextInput
@@ -115,18 +120,21 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
 <View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#D1D4DB",
-        "borderColor": "#D1D4DB",
-        "borderRadius": 8,
-        "borderWidth": 1,
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginVertical": 8,
-        "minWidth": 120,
-        "padding": 8,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D1D4DB",
+          "borderColor": "#D1D4DB",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 8,
+          "minWidth": 120,
+          "padding": 8,
+        },
+        undefined,
+      ]
     }
   >
     <TextInput
@@ -155,18 +163,21 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
 <View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#EEEFF1",
-        "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 8,
-        "borderWidth": 1,
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginVertical": 8,
-        "minWidth": 120,
-        "padding": 8,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 8,
+          "minWidth": 120,
+          "padding": 8,
+        },
+        undefined,
+      ]
     }
   >
     <TextInput
@@ -195,18 +206,21 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
 <View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#EEEFF1",
-        "borderColor": "transparent",
-        "borderRadius": 8,
-        "borderWidth": 1,
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginVertical": 8,
-        "minWidth": 120,
-        "padding": 8,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "transparent",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 8,
+          "minWidth": 120,
+          "padding": 8,
+        },
+        undefined,
+      ]
     }
   >
     <TextInput
@@ -235,18 +249,21 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
 <View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(43, 120, 238, 0.15)",
-        "borderColor": "transparent",
-        "borderRadius": 8,
-        "borderWidth": 1,
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginVertical": 8,
-        "minWidth": 120,
-        "padding": 8,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(43, 120, 238, 0.15)",
+          "borderColor": "transparent",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 8,
+          "minWidth": 120,
+          "padding": 8,
+        },
+        undefined,
+      ]
     }
   >
     <TextInput
@@ -275,18 +292,21 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
 <View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(43, 120, 238, 0.15)",
-        "borderColor": "#2B78EE",
-        "borderRadius": 8,
-        "borderWidth": 1,
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginVertical": 8,
-        "minWidth": 120,
-        "padding": 8,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(43, 120, 238, 0.15)",
+          "borderColor": "#2B78EE",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 8,
+          "minWidth": 120,
+          "padding": 8,
+        },
+        undefined,
+      ]
     }
   >
     <TextInput
@@ -315,18 +335,21 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
 <View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(245, 77, 61, 0.15)",
-        "borderColor": "transparent",
-        "borderRadius": 8,
-        "borderWidth": 1,
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginVertical": 8,
-        "minWidth": 120,
-        "padding": 8,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(245, 77, 61, 0.15)",
+          "borderColor": "transparent",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 8,
+          "minWidth": 120,
+          "padding": 8,
+        },
+        undefined,
+      ]
     }
   >
     <TextInput
@@ -355,18 +378,21 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
 <View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(245, 77, 61, 0.15)",
-        "borderColor": "#F54D3D",
-        "borderRadius": 8,
-        "borderWidth": 1,
-        "flexDirection": "row",
-        "justifyContent": "space-between",
-        "marginVertical": 8,
-        "minWidth": 120,
-        "padding": 8,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(245, 77, 61, 0.15)",
+          "borderColor": "#F54D3D",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 8,
+          "minWidth": 120,
+          "padding": 8,
+        },
+        undefined,
+      ]
     }
   >
     <TextInput
