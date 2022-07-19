@@ -1,7 +1,12 @@
-import {View} from '@npm/mobydick-core';
+import {
+  View,
+  TouchableHighlight,
+  TouchableOpacity,
+  ITouchableOpacity,
+  FlatList,
+} from '@npm/mobydick-core';
 import React, {FC, useRef, useState} from 'react';
 import {Arrow, useStyles} from '@npm/mobydick-styles';
-import {FlatList, TouchableHighlight, TouchableOpacity} from 'react-native';
 import {Typography} from '@npm/mobydick-typography';
 import {PopupBase, usePopups} from '@npm/mobydick-popups';
 
@@ -18,24 +23,24 @@ const Icon = ({open}: {open: ITypes}) => {
 };
 
 const DropDown: FC<DropDownProps> = props => {
-  const {title, placeholder, list} = props;
+  const {title, placeholder, list, selectedItem, onPress, rightIcon} = props;
   const [styles, theme] = useStyles(stylesCreate);
   const [chosen, setChosen] = useState('');
   const [pressedItem, setPressedItem] = useState('');
-  const dropDownRef = useRef<TouchableOpacity>(null);
+  const dropDownRef = useRef<ITouchableOpacity>(null);
   const [open, setOpen] = useState<ITypes>(ITypes.closed);
   const popupContext = usePopups();
 
   const checkPosition = () => {
     if (dropDownRef.current) {
       dropDownRef.current.measure((_x, _y, _width, _height, _pageX, pageY) => {
-        console.log(_x, _height);
-        onPress(pageY);
+        openPopup(pageY);
+        setOpen(ITypes.top);
       });
     }
   };
 
-  const onPress = (pageY: number) => {
+  const openPopup = (pageY: number) => {
     const listUnderPosition = styles.button.height + 4 + pageY;
     const listAbovePosition =
       height - (pageY + styles.button.height + 4 + styles.button.marginTop);
@@ -58,8 +63,11 @@ const DropDown: FC<DropDownProps> = props => {
       Content: props => {
         return (
           <PopupBase
-            onClose={props.onClose}
-            overlayStyle={{backgroundColor: theme.colors.BgAccentSoft}}>
+            onClose={() => {
+              setOpen(ITypes.bottom);
+              props.onClose();
+            }}
+            overlayStyle={{backgroundColor: 'transparent'}}>
             <FlatList
               bounces={false}
               style={[
@@ -73,7 +81,9 @@ const DropDown: FC<DropDownProps> = props => {
               ]}
               data={list}
               renderItem={renderItem}
-              keyExtractor={(item, index) => index.toString() + item.toString()}
+              keyExtractor={(item: string, index: number) =>
+                index.toString() + item.toString()
+              }
             />
           </PopupBase>
         );
@@ -110,9 +120,7 @@ const DropDown: FC<DropDownProps> = props => {
       <View style={{position: 'relative'}}>
         <TouchableOpacity
           style={styles.button}
-          onPress={() => {
-            checkPosition();
-          }}
+          onPress={checkPosition}
           ref={dropDownRef}>
           <Typography
             font={chosen ? 'Regular-Primary-M' : 'Regular-Muted-M'}

@@ -5,3 +5,5 @@ export * from './src/components/Text';
 export * from './src/components/Button';
 export * from './src/components/TouchableOpacity';
 export * from './src/components/Pressable';
+export * from './src/components/FlatList';
+export * from './src/components/TouchableHighlight';

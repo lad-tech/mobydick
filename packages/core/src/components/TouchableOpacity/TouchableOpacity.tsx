@@ -1,9 +1,11 @@
-import React, {FC} from 'react';
+import React, {forwardRef} from 'react';
 import {TouchableOpacity as DefaultTouchableOpacity} from 'react-native';
 
-import {TouchableOpacityProps} from './types';
+import {ITouchableOpacity, TouchableOpacityProps} from './types';
 
-const TouchableOpacity: FC<TouchableOpacityProps> = props => {
-  return <DefaultTouchableOpacity {...props} />;
-};
+const TouchableOpacity = forwardRef<ITouchableOpacity, TouchableOpacityProps>(
+  (props, ref) => {
+    return <DefaultTouchableOpacity ref={ref} {...props} />;
+  },
+);
 export default TouchableOpacity;
