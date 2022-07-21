@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick",
-  "version": "0.0.0-alpha.7",
+  "version": "0.0.0-alpha.8",
   "private": true,
   "scripts": {
     "prepare": "husky install",
@@ -21,7 +21,12 @@
     "android:build:release": "cd android && ./gradlew :app:assembleRelease",
     "android:get:aab": "cd android && ./gradlew :app:bundleRelease",
     "android:get:debug": "yarn bundleWithAssets && yarn android:build:debug",
-    "android:get:release": "yarn bundle && yarn android:build:release"
+    "android:get:release": "yarn bundle && yarn android:build:release",
+    "release": "./scripts/release.ts",
+    "release:aplpha": "yarn release minor --stage alpha --tag next",
+    "release:patch": "yarn release patch",
+    "release:minor": "yarn release minor",
+    "release:major": "yarn release major"
   },
   "workspaces": [
     "packages/*"
@@ -35,7 +40,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
-    "@npm/eslint-config": "0.0.3",
+    "@npm/eslint-config": "0.0.5",
     "@react-native-async-storage/async-storage": "^1.17.3",
     "@react-native-community/eslint-config": "^2.0.0",
     "@storybook/addon-actions": "^5.3.21",
@@ -50,6 +55,7 @@
     "@types/jest": "^26.0.23",
     "@types/react-native": "^0.67.3",
     "@types/react-test-renderer": "^17.0.1",
+    "@types/yargs": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^5.17.0",
     "@typescript-eslint/parser": "^5.17.0",
     "babel-jest": "^26.6.3",
@@ -62,7 +68,10 @@
     "prettier": "^2.6.2",
     "react-dom": "17.0.2",
     "react-test-renderer": "17.0.2",
-    "typescript": "^4.7.4"
+    "simple-git": "^3.10.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "winston": "^3.8.1"
   },
   "resolutions": {
     "@types/react": "^17"

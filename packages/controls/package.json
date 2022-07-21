@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-controls",
-  "version": "0.0.0-alpha.7",
+  "version": "0.0.0-alpha.8",
   "description": "Controls on MobyDick core",
   "main": "index.ts",
   "scripts": {
@@ -13,8 +13,8 @@
     "react": ">=17.0.2"
   },
   "dependencies": {
-    "@npm/mobydick-styles": "0.0.0-alpha.7",
-    "@npm/mobydick-core": "0.0.0-alpha.7"
+    "@npm/mobydick-styles": "0.0.0-alpha.8",
+    "@npm/mobydick-core": "0.0.0-alpha.8"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
