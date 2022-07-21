@@ -91,4 +91,6 @@ const parser = yargs(process.argv.slice(2))
   ]);
   await git.commit(`[release] Version: ${incrementedVersion}`);
   await git.push();
+  await git.addTag(`v${incrementedVersion}`);
+  await git.pushTags();
 })();
