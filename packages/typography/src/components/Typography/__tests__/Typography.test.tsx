@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
 
-import Typography from '../index';
+import {Typography} from '../Typography';
 
 describe('@npm/mobydick-typography/Typography', () => {
   it('renders default correctly', () => {
