@@ -5,6 +5,7 @@ import {useFont} from '@npm/mobydick-typography';
 
 import {ISearchProps} from './types';
 import stylesCreate from './stylesCreate';
+import {accessibilityLabels} from './constants';
 
 const Search: FC<ISearchProps> = ({
   placeholder = 'Поиск',
@@ -22,6 +23,7 @@ const Search: FC<ISearchProps> = ({
     <View style={styles.container}>
       <SimpleIcon name={'icon-search'} />
       <TextInput
+        accessibilityLabel={accessibilityLabels.search}
         style={[fontStyle, styles.textInput]}
         placeholder={placeholder}
         placeholderTextColor={fontStyle.color}
@@ -30,7 +32,10 @@ const Search: FC<ISearchProps> = ({
         {...otherProps}
       />
       {value ? (
-        <Pressable onPress={() => onChangeText('')} style={styles.cancelIcon}>
+        <Pressable
+          accessibilityLabel={accessibilityLabels.cancel}
+          onPress={() => onChangeText('')}
+          style={styles.cancelIcon}>
           <SimpleIcon name={'icon-cancel'} size={20} />
         </Pressable>
       ) : null}

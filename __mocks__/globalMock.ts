@@ -25,3 +25,6 @@ jest.mock('react-native/Libraries/Utilities/Platform', () => {
     isTesting: true,
   };
 });
+
+// we don't need logs in test's scripts
+jest.mock('../scripts/utils/logger');
