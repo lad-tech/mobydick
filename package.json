@@ -5,6 +5,7 @@
   "scripts": {
     "prepare": "husky install",
     "postversion": "npx react-native-version -a",
+    "preinstall": "npx @lad-tech/check-deps-age --cacheFile ../check-deps-age-cache.json",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
