@@ -5,10 +5,10 @@ import {useFont} from '@npm/mobydick-typography';
 
 import {ISearchProps} from './types';
 import stylesCreate from './stylesCreate';
-import {accessibilityLabels} from './constants';
+import {accessibilityLabels, strings} from './constants';
 
 const Search: FC<ISearchProps> = ({
-  placeholder = 'Поиск',
+  placeholder = strings.search,
   value,
   onChangeText = value => {
     console.log(
