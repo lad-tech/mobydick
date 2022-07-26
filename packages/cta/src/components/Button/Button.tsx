@@ -1,7 +1,8 @@
-import {Text, TouchableOpacity} from '@npm/mobydick-core';
+import {TouchableOpacity} from '@npm/mobydick-core';
 import React, {FC} from 'react';
 import {Spinner} from '@npm/mobydick-progress';
 import {useStyles} from '@npm/mobydick-styles';
+import {Typography} from '@npm/mobydick-typography';
 
 import {ButtonProps, ISize, ITypes} from './types';
 import stylesCreate from './stylesCreate';
@@ -16,6 +17,8 @@ const Button: FC<ButtonProps> = props => {
     type = ITypes.primary,
     loading = false,
     disabled = false,
+    textStyle,
+    font,
     ...otherProps
   } = props;
   const [styles, theme] = useStyles(
@@ -48,7 +51,11 @@ const Button: FC<ButtonProps> = props => {
   return (
     <Container>
       {leftIcon}
-      {Boolean(text) && <Text style={styles.text}>{text}</Text>}
+      {Boolean(text) && (
+        <Typography style={[styles.text, textStyle]} font={font}>
+          {text}
+        </Typography>
+      )}
       {rightIcon}
     </Container>
   );
