@@ -16,7 +16,6 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           list={['Русский', 'English', 'Deutsch', 'Japanese', 'Bolgarian']}
           onPress={jest.fn()}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
-          jestTest={true}
         />
         ,
       </PopupsProvider>,
@@ -32,7 +31,6 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           list={['Русский', 'English']}
           onPress={jest.fn()}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
-          jestTest={true}
         />
       </PopupsProvider>,
     );
@@ -78,7 +76,6 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           ]}
           onPress={jest.fn()}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
-          jestTest={true}
         />
       </PopupsProvider>,
     );

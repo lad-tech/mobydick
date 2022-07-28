@@ -10,8 +10,6 @@ interface IDropDownProps {
   dropDownWidth?: number;
   dropDownHeight?: number;
   navBarHeight?: number;
-  // need for ignore ref in test
-  jestTest?: boolean;
 }
 
 interface IDropDownIconProps {

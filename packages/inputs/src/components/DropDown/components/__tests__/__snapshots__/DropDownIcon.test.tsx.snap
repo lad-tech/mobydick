@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-inputs/DropDownIcon renders correctly 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#5E6678",
+      "fontFamily": "Neotis",
+      "fontSize": 24,
+      "transform": Array [
+        Object {
+          "rotateX": "180deg",
+        },
+      ],
+    }
+  }
+>
+  
+</Text>
+`;
