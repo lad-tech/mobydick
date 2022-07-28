@@ -26,6 +26,7 @@ const DropDown: FC<DropDownProps> = props => {
     dropDownWidth = 335,
     dropDownHeight = 60,
     navBarHeight = 60,
+    jestTest,
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
   const [chosen, setChosen] = useState(selectedItem || '');
@@ -131,7 +132,7 @@ const DropDown: FC<DropDownProps> = props => {
               ? {borderColor: theme.colors.BorderNormal}
               : {borderColor: theme.colors.BgSecondary},
           ]}
-          ref={dropDownRef}
+          ref={jestTest ? null : dropDownRef}
           onPress={checkPosition}>
           <Typography
             font={chosen ? 'Regular-Primary-M' : 'Regular-Muted-M'}
