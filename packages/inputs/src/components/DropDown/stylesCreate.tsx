@@ -1,33 +1,32 @@
 import {IUseStylesTheme} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
-const defaultStyle = (theme: IUseStylesTheme) => {
-  const {colors} = theme;
+const defaultStyle = ({spaces, colors}: IUseStylesTheme) => {
   return StyleSheet.create({
     container: {
       justifyContent: 'center',
     },
     button: {
       backgroundColor: colors.BgSecondary,
-      borderRadius: 8, // TODO: Брать из темы, когда они будут готовы
-      paddingHorizontal: 12,
+      borderRadius: spaces.Space8,
+      paddingHorizontal: spaces.Space12,
       borderWidth: 1,
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
-      marginTop: 8,
+      marginTop: spaces.Space8,
     },
     flatList: {
-      paddingVertical: 8,
+      paddingVertical: spaces.Space8,
       position: 'absolute',
-      borderRadius: 12,
+      borderRadius: spaces.Space12,
       borderWidth: 1,
       borderColor: colors.BorderSoft,
       backgroundColor: colors.BgPrimary,
     },
     dropDownItem: {
       justifyContent: 'center',
-      paddingHorizontal: 12,
+      paddingHorizontal: spaces.Space12,
     },
     overlay: {
       position: 'absolute',

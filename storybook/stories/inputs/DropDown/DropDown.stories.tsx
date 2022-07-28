@@ -46,7 +46,7 @@ storiesOf('Design System/Inputs/DropDown', module)
           }
         />
       }
-      addHeight={number('Height', 50)}
-      addWidth={number('Width', 250)}
+      dropDownHeight={number('Height', 50)}
+      dropDownWidth={number('Width', 250)}
     />
   ));

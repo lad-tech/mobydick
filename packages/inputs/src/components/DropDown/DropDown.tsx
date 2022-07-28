@@ -12,7 +12,7 @@ import {PopupBase, usePopups} from '@npm/mobydick-popups';
 
 import {DropDownProps} from './types';
 import stylesCreate from './stylesCreate';
-import {height, borderButtonWidth} from './constants';
+import {height, borderButtonWidth, maxVisibleFlatListItems} from './constants';
 import Icon from './components/DropDownIcon';
 
 const DropDown: FC<DropDownProps> = props => {
@@ -23,22 +23,25 @@ const DropDown: FC<DropDownProps> = props => {
     selectedItem,
     onPress,
     rightIcon,
-    addBtnWidth = 335,
-    addBtnHeight = 60,
+    dropDownWidth = 335,
+    dropDownHeight = 60,
     navBarHeight = 60,
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
   const [chosen, setChosen] = useState(selectedItem || '');
   const [pressedItem, setPressedItem] = useState('');
   const dropDownRef = useRef<ITouchableOpacity>(null);
-  const [open, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(false);
   const popupContext = usePopups();
 
-  const dropDownItemHeight = addBtnHeight / 1.3;
-  const dropDownMaxHeight = dropDownItemHeight * 6 + 16;
-  const dropDownHeight =
-    list.length > 6
-      ? dropDownItemHeight * 6 + styles.flatList.paddingVertical * 2
+  const dropDownItemHeight = dropDownHeight / 1.3;
+  const dropDownMaxHeight =
+    dropDownItemHeight * maxVisibleFlatListItems +
+    styles.flatList.paddingVertical * 2;
+  const dropDownViewHeight =
+    list.length > maxVisibleFlatListItems
+      ? dropDownItemHeight * maxVisibleFlatListItems +
+        styles.flatList.paddingVertical * 2
       : list.length * dropDownItemHeight + styles.flatList.paddingVertical * 2;
 
   const checkPosition = () => {
@@ -50,11 +53,11 @@ const DropDown: FC<DropDownProps> = props => {
     }
   };
   const openPopup = (pageY: number) => {
-    const listUnderPosition = addBtnHeight + pageY + 8;
+    const listUnderPosition = dropDownHeight + pageY + 8;
     const listAbovePosition =
-      pageY - dropDownHeight - borderButtonWidth * 2 - 8;
+      pageY - dropDownViewHeight - borderButtonWidth * 2 - 8;
     const expectedEndPositionOnScreen =
-      addBtnHeight + dropDownHeight + pageY + navBarHeight;
+      dropDownHeight + dropDownViewHeight + pageY + navBarHeight;
     popupContext.openPopup({
       id: 'DropDownPopup',
       Content: props => {
@@ -69,7 +72,7 @@ const DropDown: FC<DropDownProps> = props => {
               bounces={false}
               style={[
                 styles.flatList,
-                {width: addBtnWidth},
+                {width: dropDownWidth},
                 expectedEndPositionOnScreen > height
                   ? {top: listAbovePosition}
                   : {top: listUnderPosition},
@@ -122,9 +125,9 @@ const DropDown: FC<DropDownProps> = props => {
         <TouchableOpacity
           style={[
             styles.button,
-            {width: addBtnWidth},
-            {height: addBtnHeight},
-            open
+            {width: dropDownWidth},
+            {height: dropDownHeight},
+            isOpen
               ? {borderColor: theme.colors.BorderNormal}
               : {borderColor: theme.colors.BgSecondary},
           ]}
@@ -135,7 +138,7 @@ const DropDown: FC<DropDownProps> = props => {
             numberOfLines={1}>
             {chosen ? chosen : placeholder}
           </Typography>
-          <Icon open={open} rightIcon={rightIcon} />
+          <Icon isOpen={isOpen} rightIcon={rightIcon} />
         </TouchableOpacity>
       </View>
     </View>

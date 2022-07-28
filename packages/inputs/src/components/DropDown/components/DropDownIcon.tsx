@@ -5,20 +5,16 @@ import {View} from '@npm/mobydick-core';
 import {DropDownIconProps} from '../types';
 
 const Icon: FC<DropDownIconProps> = props => {
-  const {open, rightIcon} = props;
+  const {isOpen, rightIcon} = props;
   return rightIcon ? (
-    open ? (
-      rightIcon
-    ) : (
-      <View style={{transform: [{rotateX: '180deg'}]}}>{rightIcon}</View>
-    )
-  ) : open ? (
+    <View style={isOpen && {transform: [{rotateX: '180deg'}]}}>
+      {rightIcon}
+    </View>
+  ) : (
     <SimpleIcon
       name={'icon-arrow-down'}
-      style={{transform: [{rotateX: '180deg'}]}}
+      style={isOpen ? {transform: [{rotateX: '180deg'}]} : {}}
     />
-  ) : (
-    <SimpleIcon name={'icon-arrow-down'} />
   );
 };
 

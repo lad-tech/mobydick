@@ -7,13 +7,13 @@ interface IDropDownProps {
   list: string[];
   onPress: (item: string) => void;
   selectedItem?: string;
-  addBtnWidth?: number;
-  addBtnHeight?: number;
+  dropDownWidth?: number;
+  dropDownHeight?: number;
   navBarHeight?: number;
 }
 
 interface IDropDownIconProps {
-  open: boolean;
+  isOpen: boolean;
   rightIcon?: ReactElement | undefined;
 }
 

@@ -1,3 +1,3 @@
 import DropDown from './DropDown';
-
-export default DropDown;
+export * from './types';
+export {DropDown};
