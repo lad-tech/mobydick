@@ -30,7 +30,9 @@ exports[`@npm/mobydick-core/FlatList renders correctly 1`] = `
       onLayout={[Function]}
       style={null}
     >
-      <Text>
+      <Text
+        allowFontScaling={true}
+      >
         1
       </Text>
     </View>
@@ -38,7 +40,9 @@ exports[`@npm/mobydick-core/FlatList renders correctly 1`] = `
       onLayout={[Function]}
       style={null}
     >
-      <Text>
+      <Text
+        allowFontScaling={true}
+      >
         2
       </Text>
     </View>
@@ -46,7 +50,9 @@ exports[`@npm/mobydick-core/FlatList renders correctly 1`] = `
       onLayout={[Function]}
       style={null}
     >
-      <Text>
+      <Text
+        allowFontScaling={true}
+      >
         3
       </Text>
     </View>

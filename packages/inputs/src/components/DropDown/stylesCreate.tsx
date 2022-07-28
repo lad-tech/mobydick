@@ -7,30 +7,15 @@ const defaultStyle = (theme: IUseStylesTheme) => {
     container: {
       justifyContent: 'center',
     },
-    label: {
-      color: colors.TextTertiary,
-      fontSize: 14, // TODO: Брать из темы, когда они будут готовы,
-      fontWeight: '500', // TODO: Брать из темы, когда они будут готовы,
-      height: 15,
-    },
     button: {
       backgroundColor: colors.BgSecondary,
       borderRadius: 8, // TODO: Брать из темы, когда они будут готовы
-      borderWidth: 1,
       paddingHorizontal: 12,
-      borderColor: colors.BorderNormal,
-      marginTop: 8, // TODO: Брать из темы, когда они будут готовы
-      width: 335,
-      height: 48,
+      borderWidth: 1,
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
-    },
-    text: {
-      color: colors.TextMuted,
-    },
-    textItem: {
-      color: colors.TextSecondary,
+      marginTop: 8,
     },
     flatList: {
       paddingVertical: 8,
@@ -39,12 +24,9 @@ const defaultStyle = (theme: IUseStylesTheme) => {
       borderWidth: 1,
       borderColor: colors.BorderSoft,
       backgroundColor: colors.BgPrimary,
-      maxHeight: 38 * 6 + 16,
     },
     dropDownItem: {
       justifyContent: 'center',
-      height: 38,
-      width: 335,
       paddingHorizontal: 12,
     },
     overlay: {

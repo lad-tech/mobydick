@@ -6,65 +6,62 @@ import {
   FlatList,
 } from '@npm/mobydick-core';
 import React, {FC, useRef, useState} from 'react';
-import {Arrow, useStyles} from '@npm/mobydick-styles';
+import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 import {PopupBase, usePopups} from '@npm/mobydick-popups';
 
-import {DropDownProps, ITypes} from './types';
+import {DropDownProps} from './types';
 import stylesCreate from './stylesCreate';
-import {height} from './constants';
-
-const Icon = ({open}: {open: ITypes}) => {
-  return open !== ITypes.closed ? (
-    <Arrow style={{transform: [{rotateX: '180deg'}]}} />
-  ) : (
-    <Arrow />
-  );
-};
+import {height, borderButtonWidth} from './constants';
+import Icon from './components/DropDownIcon';
 
 const DropDown: FC<DropDownProps> = props => {
-  const {title, placeholder, list, selectedItem, onPress, rightIcon} = props;
+  const {
+    title,
+    placeholder,
+    list,
+    selectedItem,
+    onPress,
+    rightIcon,
+    addBtnWidth = 335,
+    addBtnHeight = 60,
+    navBarHeight = 60,
+  } = props;
   const [styles, theme] = useStyles(stylesCreate);
-  const [chosen, setChosen] = useState('');
+  const [chosen, setChosen] = useState(selectedItem || '');
   const [pressedItem, setPressedItem] = useState('');
   const dropDownRef = useRef<ITouchableOpacity>(null);
-  const [open, setOpen] = useState<ITypes>(ITypes.closed);
+  const [open, setOpen] = useState(false);
   const popupContext = usePopups();
+
+  const dropDownItemHeight = addBtnHeight / 1.3;
+  const dropDownMaxHeight = dropDownItemHeight * 6 + 16;
+  const dropDownHeight =
+    list.length > 6
+      ? dropDownItemHeight * 6 + styles.flatList.paddingVertical * 2
+      : list.length * dropDownItemHeight + styles.flatList.paddingVertical * 2;
 
   const checkPosition = () => {
     if (dropDownRef.current) {
       dropDownRef.current.measure((_x, _y, _width, _height, _pageX, pageY) => {
         openPopup(pageY);
-        setOpen(ITypes.top);
+        setOpen(true);
       });
     }
   };
-
   const openPopup = (pageY: number) => {
-    const listUnderPosition = styles.button.height + 4 + pageY;
+    const listUnderPosition = addBtnHeight + pageY + 8;
     const listAbovePosition =
-      height - (pageY + styles.button.height + 4 + styles.button.marginTop);
-    const lengthOfListView =
-      list.length > 6
-        ? styles.dropDownItem.height * 6 + styles.flatList.paddingVertical * 2
-        : list.length * styles.dropDownItem.height +
-          styles.flatList.paddingVertical * 2;
-    const expectedEndPosition =
-      // Считаем конечную позицию FlatList по высоте Y
-      styles.button.height +
-      styles.button.marginTop +
-      4 +
-      lengthOfListView +
-      pageY +
-      // Высота навбара, нужно подумать как заменить
-      50;
+      pageY - dropDownHeight - borderButtonWidth * 2 - 8;
+    const expectedEndPositionOnScreen =
+      addBtnHeight + dropDownHeight + pageY + navBarHeight;
     popupContext.openPopup({
       id: 'DropDownPopup',
       Content: props => {
         return (
           <PopupBase
             onClose={() => {
-              setOpen(ITypes.bottom);
+              setOpen(false);
               props.onClose();
             }}
             overlayStyle={{backgroundColor: 'transparent'}}>
@@ -72,12 +69,13 @@ const DropDown: FC<DropDownProps> = props => {
               bounces={false}
               style={[
                 styles.flatList,
-                {
-                  width: styles.button.width,
-                },
-                expectedEndPosition > height
-                  ? {bottom: listAbovePosition}
+                {width: addBtnWidth},
+                expectedEndPositionOnScreen > height
+                  ? {top: listAbovePosition}
                   : {top: listUnderPosition},
+                {
+                  maxHeight: dropDownMaxHeight,
+                },
               ]}
               data={list}
               renderItem={renderItem}
@@ -91,16 +89,19 @@ const DropDown: FC<DropDownProps> = props => {
     });
   };
 
+  const renderItemOnPress = (item: string) => {
+    onPress(item);
+    setPressedItem(item);
+    setOpen(false);
+    setChosen(item);
+    popupContext.closePopup('DropDownPopup');
+  };
+
   const renderItem = ({item}: {item: string}) => {
     return (
       <TouchableHighlight
-        style={[styles.dropDownItem]}
-        onPress={() => {
-          setPressedItem(item);
-          setOpen(ITypes.closed);
-          setChosen(item);
-          popupContext.closePopup('DropDownPopup');
-        }}
+        style={[styles.dropDownItem, {height: dropDownItemHeight}]}
+        onPress={() => renderItemOnPress(item)}
         underlayColor={theme.colors.BgAccentSoft}>
         <Typography
           font={
@@ -119,15 +120,22 @@ const DropDown: FC<DropDownProps> = props => {
       )}
       <View style={{position: 'relative'}}>
         <TouchableOpacity
-          style={styles.button}
-          onPress={checkPosition}
-          ref={dropDownRef}>
+          style={[
+            styles.button,
+            {width: addBtnWidth},
+            {height: addBtnHeight},
+            open
+              ? {borderColor: theme.colors.BorderNormal}
+              : {borderColor: theme.colors.BgSecondary},
+          ]}
+          ref={dropDownRef}
+          onPress={checkPosition}>
           <Typography
             font={chosen ? 'Regular-Primary-M' : 'Regular-Muted-M'}
             numberOfLines={1}>
             {chosen ? chosen : placeholder}
           </Typography>
-          <Icon open={open} />
+          <Icon open={open} rightIcon={rightIcon} />
         </TouchableOpacity>
       </View>
     </View>
