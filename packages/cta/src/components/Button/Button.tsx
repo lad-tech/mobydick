@@ -1,6 +1,6 @@
 import {TouchableOpacity} from '@npm/mobydick-core';
 import React, {FC} from 'react';
-import {Spinner} from '@npm/mobydick-progress';
+import {ISizeSpinner, Spinner} from '@npm/mobydick-progress';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 
@@ -27,6 +27,12 @@ const Button: FC<ButtonProps> = props => {
     size,
   );
 
+  const fontCorrection = font
+    ? font
+    : size === ISize.small
+    ? 'SemiBold-White-XS'
+    : 'SemiBold-White-L';
+
   const Container: FC = ({children}) => (
     <TouchableOpacity
       style={[styles.container, style]}
@@ -44,7 +50,10 @@ const Button: FC<ButtonProps> = props => {
   if (loading || type === ITypes.loading)
     return (
       <Container>
-        <Spinner fill={theme.colors.IconWhite} />
+        <Spinner
+          fill={theme.colors.IconWhite}
+          size={size === ISize.small ? ISizeSpinner.XXS : ISizeSpinner.XS}
+        />
       </Container>
     );
 
@@ -52,7 +61,7 @@ const Button: FC<ButtonProps> = props => {
     <Container>
       {leftIcon}
       {Boolean(text) && (
-        <Typography style={[styles.text, textStyle]} font={font}>
+        <Typography style={[styles.text, textStyle]} font={fontCorrection}>
           {text}
         </Typography>
       )}

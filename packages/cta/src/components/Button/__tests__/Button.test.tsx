@@ -6,7 +6,10 @@ import Button from '../index';
 
 describe('@npm/mobydick-cta/Button', () => {
   it('renders correctly', () => {
-    const {toJSON} = render(<Button text={'text'} />);
+    const {toJSON, rerender} = render(<Button text={'text'} />);
+    expect(toJSON()).toMatchSnapshot();
+
+    rerender(<Button text={'text'} font={'Bold-Error-L'} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly secondary', () => {
@@ -30,7 +33,10 @@ describe('@npm/mobydick-cta/Button', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly small', () => {
-    const {toJSON} = render(<Button size={ISize.small} />);
+    const {toJSON, rerender} = render(<Button size={ISize.small} />);
+    expect(toJSON()).toMatchSnapshot();
+
+    rerender(<Button size={ISize.small} loading={true} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly large', () => {

@@ -3,17 +3,31 @@
 exports[`@npm/mobydick-progress/Loader renders correctly L 1`] = `
 <SvgMock
   fill="#2B78EE"
+  height="48"
+  width="48"
 />
 `;
 
 exports[`@npm/mobydick-progress/Loader renders correctly M 1`] = `
 <SvgMock
   fill="#2B78EE"
+  height="32"
+  width="32"
 />
 `;
 
 exports[`@npm/mobydick-progress/Loader renders correctly S 1`] = `
 <SvgMock
   fill="#2B78EE"
+  height="26"
+  width="26"
+/>
+`;
+
+exports[`@npm/mobydick-progress/Loader renders correctly without size 1`] = `
+<SvgMock
+  fill="#2B78EE"
+  height="24"
+  width="24"
 />
 `;
