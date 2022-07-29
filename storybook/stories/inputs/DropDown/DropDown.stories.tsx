@@ -4,7 +4,7 @@ import {DropDown} from '@npm/mobydick-inputs';
 import {array, number, select, text} from '@storybook/addon-knobs';
 import {PopupsProvider} from '@npm/mobydick-popups';
 import {ScrollView, View} from '@npm/mobydick-core';
-import {height} from '@npm/mobydick-inputs/src/components/DropDown/constants';
+import {height} from '@npm/mobydick-inputs/src/components/DropDown/constants/constants';
 import {iconNames, SimpleIcon, SimpleIconName} from '@npm/mobydick-styles';
 import {action} from '@storybook/addon-actions';
 

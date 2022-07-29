@@ -20,9 +20,9 @@ import {
   dropDownMarginFromButton,
   dropDownListItemMultiplier,
   dropDownPopupId,
-} from './constants';
+} from './constants/constants';
 import Icon from './components/DropDownIcon';
-import getIosSafeAreaHeights from './functions';
+import getIosSafeAreaHeights from './constants/functions';
 
 const DropDown: FC<IDropDownProps> = props => {
   const {
@@ -163,7 +163,8 @@ const DropDown: FC<IDropDownProps> = props => {
               ? {borderColor: theme.colors.BorderNormal}
               : {borderColor: theme.colors.BgSecondary},
           ]}
-          onPress={checkPosition}>
+          onPress={checkPosition}
+          testID={'drop_down_button'}>
           <Typography
             font={chosen ? 'Regular-Primary-M' : 'Regular-Muted-M'}
             numberOfLines={1}>
