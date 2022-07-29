@@ -13,6 +13,8 @@ const primaryStyle = (theme: IUseStylesTheme, size: ISize) => {
       justifyContent: 'center',
       backgroundColor: colors.CtaBtnPrimary,
       borderRadius: theme.spaces.Space12,
+      minHeight:
+        size === ISize.small ? theme.spaces.Space32 : theme.spaces.Space48,
       paddingVertical:
         size === ISize.small ? theme.spaces.Space6 : theme.spaces.Space12,
       paddingHorizontal:
