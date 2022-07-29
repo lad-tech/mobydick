@@ -12,6 +12,11 @@ export interface IDropDownProps {
   navBarHeight?: number;
 }
 
+export interface IMarginsForIos {
+  topIosMargin: number;
+  bottomIosMargin: number;
+}
+
 export interface IDropDownIconProps {
   isOpen: boolean;
   rightIcon?: ReactElement | undefined;

@@ -9,11 +9,12 @@ import React, {FC, useCallback, useRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 import {PopupBase, usePopups} from '@npm/mobydick-popups';
+import {Platform} from 'react-native';
+import {useDimensions} from '@react-native-community/hooks';
 
 import {IDropDownProps} from './types';
 import stylesCreate from './stylesCreate';
 import {
-  height,
   borderButtonWidth,
   maxVisibleFlatListItems,
   dropDownMarginFromButton,
@@ -21,6 +22,7 @@ import {
   dropDownPopupId,
 } from './constants';
 import Icon from './components/DropDownIcon';
+import getIosSafeAreaHeights from './functions';
 
 const DropDown: FC<IDropDownProps> = props => {
   const {
@@ -32,8 +34,9 @@ const DropDown: FC<IDropDownProps> = props => {
     rightIcon,
     dropDownWidth = 335,
     dropDownHeight = 60,
-    navBarHeight = 60,
+    navBarHeight = 50,
   } = props;
+  const {height} = useDimensions().window;
   const [styles, theme] = useStyles(stylesCreate);
   const [chosen, setChosen] = useState(selectedItem || '');
   const [pressedItem, setPressedItem] = useState('');
@@ -54,6 +57,7 @@ const DropDown: FC<IDropDownProps> = props => {
   const checkPosition = () => {
     if (dropDownRef.current) {
       dropDownRef.current.measure((_x, _y, _width, _height, _pageX, pageY) => {
+        console.log(pageY, _x, _y);
         openPopup(pageY);
         setOpen(true);
       });
@@ -66,14 +70,23 @@ const DropDown: FC<IDropDownProps> = props => {
   );
 
   const openPopup = (pageY: number) => {
-    const listUnderPosition = dropDownHeight + pageY + dropDownMarginFromButton;
+    const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights();
+    const listUnderPosition =
+      Platform.OS === 'android'
+        ? dropDownHeight + pageY + dropDownMarginFromButton * 2
+        : pageY - topIosMargin + dropDownHeight + dropDownMarginFromButton * 2;
     const listAbovePosition =
-      pageY -
-      dropDownViewHeight -
-      borderButtonWidth * 2 -
-      dropDownMarginFromButton;
+      Platform.OS === 'android'
+        ? pageY - dropDownViewHeight - borderButtonWidth * 2
+        : pageY - topIosMargin - dropDownViewHeight - borderButtonWidth * 2;
     const expectedEndPositionOnScreen =
-      dropDownHeight + dropDownViewHeight + pageY + navBarHeight;
+      Platform.OS === 'android'
+        ? dropDownHeight + dropDownViewHeight + pageY + navBarHeight
+        : dropDownHeight +
+          dropDownViewHeight +
+          pageY +
+          navBarHeight +
+          bottomIosMargin;
     popupContext.openPopup({
       id: dropDownPopupId,
       Content: props => {
@@ -135,7 +148,10 @@ const DropDown: FC<IDropDownProps> = props => {
       {Boolean(title) && (
         <Typography font={'Medium-Tertiary-XS'}>{title}</Typography>
       )}
-      <View>
+      <View
+        collapsable={false}
+        ref={dropDownRef}
+        style={{height: dropDownHeight, width: dropDownWidth}}>
         <TouchableOpacity
           style={[
             styles.button,
@@ -145,7 +161,6 @@ const DropDown: FC<IDropDownProps> = props => {
               ? {borderColor: theme.colors.BorderNormal}
               : {borderColor: theme.colors.BgSecondary},
           ]}
-          ref={process.env.JEST_WORKER_ID === undefined ? dropDownRef : null}
           onPress={checkPosition}>
           <Typography
             font={chosen ? 'Regular-Primary-M' : 'Regular-Muted-M'}
