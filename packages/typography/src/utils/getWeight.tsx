@@ -1,4 +1,4 @@
-import {TFontWeight, TWeights} from '../components/Typography/types';
+import {TFontWeight, TWeights} from '../types';
 
 const weightsToFonts: TWeights = {
   Regular: 'Inter-Regular',
