@@ -36,7 +36,7 @@ const DropDown: FC<IDropDownProps> = props => {
     dropDownHeight = 60,
     navBarHeight = 50,
   } = props;
-  const {height} = useDimensions().window;
+  const {width, height} = useDimensions().window;
   const [styles, theme] = useStyles(stylesCreate);
   const [chosen, setChosen] = useState(selectedItem || '');
   const [pressedItem, setPressedItem] = useState('');
@@ -57,7 +57,6 @@ const DropDown: FC<IDropDownProps> = props => {
   const checkPosition = () => {
     if (dropDownRef.current) {
       dropDownRef.current.measure((_x, _y, _width, _height, _pageX, pageY) => {
-        console.log(pageY, _x, _y);
         openPopup(pageY);
         setOpen(true);
       });
@@ -70,7 +69,10 @@ const DropDown: FC<IDropDownProps> = props => {
   );
 
   const openPopup = (pageY: number) => {
-    const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights();
+    const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(
+      width,
+      height,
+    );
     const listUnderPosition =
       Platform.OS === 'android'
         ? dropDownHeight + pageY + dropDownMarginFromButton * 2
