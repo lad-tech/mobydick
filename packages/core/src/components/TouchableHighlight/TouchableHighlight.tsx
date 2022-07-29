@@ -1,9 +1,12 @@
-import React, {FC} from 'react';
+import React, {forwardRef} from 'react';
 import {TouchableHighlight as DefaultTouchableHighlight} from 'react-native';
 
-import {TouchableHighlightProps} from './types';
+import {ITouchableHighlight, TouchableHighlightProps} from './types';
 
-const TouchableHighlight: FC<TouchableHighlightProps> = props => {
-  return <DefaultTouchableHighlight {...props} />;
-};
+const TouchableHighlight = forwardRef<
+  ITouchableHighlight,
+  TouchableHighlightProps
+>((props, ref) => {
+  return <DefaultTouchableHighlight {...props} ref={ref} />;
+});
 export default TouchableHighlight;

@@ -6,6 +6,7 @@ import {PopupsProvider} from '@npm/mobydick-popups';
 import {ScrollView, View} from '@npm/mobydick-core';
 import {height} from '@npm/mobydick-inputs/src/components/DropDown/constants';
 import {iconNames, SimpleIcon, SimpleIconName} from '@npm/mobydick-styles';
+import {action} from '@storybook/addon-actions';
 
 import CenterView from '../../CenterView';
 
@@ -38,7 +39,7 @@ storiesOf('Design System/Inputs/DropDown', module)
 
         'Bolgarian',
       ])}
-      onPress={console.log}
+      onPress={action('onPress')}
       rightIcon={
         <SimpleIcon
           name={

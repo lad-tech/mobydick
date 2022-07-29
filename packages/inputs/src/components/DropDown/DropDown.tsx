@@ -5,17 +5,24 @@ import {
   ITouchableOpacity,
   FlatList,
 } from '@npm/mobydick-core';
-import React, {FC, useRef, useState} from 'react';
+import React, {FC, useCallback, useRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 import {PopupBase, usePopups} from '@npm/mobydick-popups';
 
-import {DropDownProps} from './types';
+import {IDropDownProps} from './types';
 import stylesCreate from './stylesCreate';
-import {height, borderButtonWidth, maxVisibleFlatListItems} from './constants';
+import {
+  height,
+  borderButtonWidth,
+  maxVisibleFlatListItems,
+  dropDownMarginFromButton,
+  dropDownListItemMultiplier,
+  dropDownPopupId,
+} from './constants';
 import Icon from './components/DropDownIcon';
 
-const DropDown: FC<DropDownProps> = props => {
+const DropDown: FC<IDropDownProps> = props => {
   const {
     title,
     placeholder,
@@ -34,7 +41,7 @@ const DropDown: FC<DropDownProps> = props => {
   const [isOpen, setOpen] = useState(false);
   const popupContext = usePopups();
 
-  const dropDownItemHeight = dropDownHeight / 1.3;
+  const dropDownItemHeight = dropDownHeight * dropDownListItemMultiplier;
   const dropDownMaxHeight =
     dropDownItemHeight * maxVisibleFlatListItems +
     styles.flatList.paddingVertical * 2;
@@ -52,14 +59,23 @@ const DropDown: FC<DropDownProps> = props => {
       });
     }
   };
+
+  const keyExtractor = useCallback(
+    (item: string, index: number) => index.toString() + item.toString(),
+    [],
+  );
+
   const openPopup = (pageY: number) => {
-    const listUnderPosition = dropDownHeight + pageY + 8;
+    const listUnderPosition = dropDownHeight + pageY + dropDownMarginFromButton;
     const listAbovePosition =
-      pageY - dropDownViewHeight - borderButtonWidth * 2 - 8;
+      pageY -
+      dropDownViewHeight -
+      borderButtonWidth * 2 -
+      dropDownMarginFromButton;
     const expectedEndPositionOnScreen =
       dropDownHeight + dropDownViewHeight + pageY + navBarHeight;
     popupContext.openPopup({
-      id: 'DropDownPopup',
+      id: dropDownPopupId,
       Content: props => {
         return (
           <PopupBase
@@ -82,9 +98,7 @@ const DropDown: FC<DropDownProps> = props => {
               ]}
               data={list}
               renderItem={renderItem}
-              keyExtractor={(item: string, index: number) =>
-                index.toString() + item.toString()
-              }
+              keyExtractor={keyExtractor}
             />
           </PopupBase>
         );
@@ -97,7 +111,7 @@ const DropDown: FC<DropDownProps> = props => {
     setPressedItem(item);
     setOpen(false);
     setChosen(item);
-    popupContext.closePopup('DropDownPopup');
+    popupContext.closePopup(dropDownPopupId);
   };
 
   const renderItem = ({item}: {item: string}) => {
@@ -121,7 +135,7 @@ const DropDown: FC<DropDownProps> = props => {
       {Boolean(title) && (
         <Typography font={'Medium-Tertiary-XS'}>{title}</Typography>
       )}
-      <View style={{position: 'relative'}}>
+      <View>
         <TouchableOpacity
           style={[
             styles.button,

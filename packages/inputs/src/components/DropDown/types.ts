@@ -1,6 +1,6 @@
 import {ReactElement} from 'react';
 
-interface IDropDownProps {
+export interface IDropDownProps {
   title?: string;
   rightIcon?: ReactElement;
   placeholder: string;
@@ -12,10 +12,7 @@ interface IDropDownProps {
   navBarHeight?: number;
 }
 
-interface IDropDownIconProps {
+export interface IDropDownIconProps {
   isOpen: boolean;
   rightIcon?: ReactElement | undefined;
 }
-
-export type DropDownProps = IDropDownProps;
-export type DropDownIconProps = IDropDownIconProps;

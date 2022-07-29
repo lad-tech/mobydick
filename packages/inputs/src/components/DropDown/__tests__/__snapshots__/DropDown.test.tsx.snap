@@ -24,13 +24,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 2 elements 1`] = `
   >
     Название поля
   </Text>
-  <View
-    style={
-      Object {
-        "position": "relative",
-      }
-    }
-  >
+  <View>
     <View
       accessible={true}
       collapsable={false}
@@ -121,13 +115,7 @@ Array [
     >
       Название поля
     </Text>
-    <View
-      style={
-        Object {
-          "position": "relative",
-        }
-      }
-    >
+    <View>
       <View
         accessible={true}
         collapsable={false}
@@ -219,13 +207,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 30 elements 1`] = `
   >
     Название поля
   </Text>
-  <View
-    style={
-      Object {
-        "position": "relative",
-      }
-    }
-  >
+  <View>
     <View
       accessible={true}
       collapsable={false}
