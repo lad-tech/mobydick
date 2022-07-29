@@ -1,4 +1,4 @@
-import {TFontSize, TSizes} from '../components/Typography/types';
+import {TFontSize, TSizes} from '../types';
 
 const sizes: TSizes = {
   H1: {fontSize: 36, lineHeight: 40},

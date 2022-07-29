@@ -2,8 +2,7 @@ import React, {FC} from 'react';
 import {Text} from '@npm/mobydick-core';
 
 import {useFont} from '../../hooks';
-
-import {IStyledTextProps} from './types';
+import {IStyledTextProps} from '../../types';
 
 export const Typography: FC<IStyledTextProps> = ({
   children,
