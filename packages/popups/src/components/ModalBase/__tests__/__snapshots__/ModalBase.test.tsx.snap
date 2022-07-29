@@ -42,6 +42,7 @@ exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
           "paddingBottom": 40,
           "paddingTop": 16,
         },
+        undefined,
       ]
     }
   />
