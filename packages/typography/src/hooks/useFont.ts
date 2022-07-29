@@ -6,7 +6,7 @@ import {
   TFontSize,
   TFontWeight,
   TypographyProp,
-} from '../components';
+} from '../types';
 import {getSize, getWeight} from '../utils';
 
 export const useFont = (font: TypographyProp = 'Regular-Primary-S') => {
