@@ -32,7 +32,7 @@ export interface IMarginsForIos {
   bottomIosMargin: number;
 }
 
-export enum IIPhoneModel {
+export enum IPhoneModelEnum {
   iPhoneX = 'iPhone X',
   iPhoneXS = 'iPhone XS',
   iPhoneXSMAX = 'iPhone XS Max',

@@ -1,6 +1,6 @@
 import {Platform} from 'react-native';
 
-import {IIPhoneModel, IMarginsForIos} from '../types';
+import {IPhoneModelEnum, IMarginsForIos} from '../types';
 
 import {
   BOTTOMBAR_DEFAULT_HEIGHT,
@@ -19,37 +19,37 @@ const getIosSafeAreaHeights = (model: string): IMarginsForIos => {
     return {topIosMargin: 0, bottomIosMargin: 0};
   }
   switch (model) {
-    case IIPhoneModel.iPhoneX:
-    case IIPhoneModel.iPhoneXS:
-    case IIPhoneModel.iPhone11Pro:
-    case IIPhoneModel.iPhoneXSMAX:
-    case IIPhoneModel.iPhoneXR:
-    case IIPhoneModel.iPhone11:
-    case IIPhoneModel.iPhone11ProMax:
+    case IPhoneModelEnum.iPhoneX:
+    case IPhoneModelEnum.iPhoneXS:
+    case IPhoneModelEnum.iPhone11Pro:
+    case IPhoneModelEnum.iPhoneXSMAX:
+    case IPhoneModelEnum.iPhoneXR:
+    case IPhoneModelEnum.iPhone11:
+    case IPhoneModelEnum.iPhone11ProMax:
       return {
         topIosMargin: STATUSBAR_X_XS_11PRO_HEIGHT,
         bottomIosMargin: BOTTOMBAR_IP_X_AND_AFTER_HEIGHT,
       };
-    case IIPhoneModel.iPhone12Pro:
-    case IIPhoneModel.iPhone12:
-    case IIPhoneModel.iPhone13:
-    case IIPhoneModel.iPhone13Pro:
-    case IIPhoneModel.iPhone12ProMax:
-    case IIPhoneModel.iPhone13ProMax:
-    case IIPhoneModel.iPhone14:
-    case IIPhoneModel.iPhone14Pro:
-    case IIPhoneModel.iPhone14ProMax:
-    case IIPhoneModel.iPhone15:
-    case IIPhoneModel.iPhone15Pro:
-    case IIPhoneModel.iPhone15ProMax:
+    case IPhoneModelEnum.iPhone12Pro:
+    case IPhoneModelEnum.iPhone12:
+    case IPhoneModelEnum.iPhone13:
+    case IPhoneModelEnum.iPhone13Pro:
+    case IPhoneModelEnum.iPhone12ProMax:
+    case IPhoneModelEnum.iPhone13ProMax:
+    case IPhoneModelEnum.iPhone14:
+    case IPhoneModelEnum.iPhone14Pro:
+    case IPhoneModelEnum.iPhone14ProMax:
+    case IPhoneModelEnum.iPhone15:
+    case IPhoneModelEnum.iPhone15Pro:
+    case IPhoneModelEnum.iPhone15ProMax:
       return {
         topIosMargin: STATUSBAR_IP12_13_HEIGHT,
         bottomIosMargin: BOTTOMBAR_IP_X_AND_AFTER_HEIGHT,
       };
-    case IIPhoneModel.iPhone12Mini:
-    case IIPhoneModel.iPhone13Mini:
-    case IIPhoneModel.iPhone14Mini:
-    case IIPhoneModel.iPhone15Mini:
+    case IPhoneModelEnum.iPhone12Mini:
+    case IPhoneModelEnum.iPhone13Mini:
+    case IPhoneModelEnum.iPhone14Mini:
+    case IPhoneModelEnum.iPhone15Mini:
       return {
         topIosMargin: STATUSBAR_IP12M_13_MINI_HEIGHT,
         bottomIosMargin: BOTTOMBAR_IP_X_AND_AFTER_HEIGHT,

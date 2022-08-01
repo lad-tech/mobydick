@@ -20,7 +20,7 @@ import {
   DROP_DOWN_POPUP_ID,
 } from './constants/constants';
 import Icon from './components/DropDownIcon';
-import getIosSafeAreaHeights from './constants/getIosSafeAreaHeights';
+import getIosSafeAreaHeights from './constants/GetIosSafeAreaHeights';
 import {
   getDropDownDimensions,
   getDropDownHeights,
@@ -51,13 +51,17 @@ const DropDown: FC<IDropDownProps> = props => {
     addButtonTextFontChosen,
     maxVisibleListLength = 6,
   } = props;
-  const {height} = useDimensions().window;
-  const [styles, theme] = useStyles(stylesCreate);
   const [chosen, setChosen] = useState(selectedItem || '');
   const [pressedItem, setPressedItem] = useState('');
-  const dropDownRef = useRef<ITouchableOpacity>(null);
   const [isOpen, setOpen] = useState(false);
+
   const popupContext = usePopups();
+
+  const [styles, theme] = useStyles(stylesCreate);
+  const {height} = useDimensions().window;
+
+  const dropDownRef = useRef<ITouchableOpacity>(null);
+
   const model = getModel();
   const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(model);
   const {dropDownMaxHeight, dropDownItemHeight} = getDropDownHeights({
@@ -71,6 +75,11 @@ const DropDown: FC<IDropDownProps> = props => {
     maxVisibleListLength,
   });
 
+  const keyExtractor = useCallback(
+    (item: string, index: number) => index.toString() + item.toString(),
+    [],
+  );
+
   const checkPosition = () => {
     if (dropDownRef.current) {
       dropDownRef.current.measure((_x, _y, _width, _height, _pageX, pageY) => {
@@ -80,10 +89,55 @@ const DropDown: FC<IDropDownProps> = props => {
     }
   };
 
-  const keyExtractor = useCallback(
-    (item: string, index: number) => index.toString() + item.toString(),
-    [],
-  );
+  const renderItemOnPress = (item: string) => {
+    onPress(item);
+    setPressedItem(item);
+    setOpen(false);
+    setChosen(item);
+    popupContext.closePopup(DROP_DOWN_POPUP_ID);
+  };
+
+  const renderItem = ({item}: {item: string}) => {
+    return (
+      <TouchableHighlight
+        style={[
+          styles.dropDownItem,
+          addFlatListItemStyle,
+          {
+            height: addFlatListItemStyle?.height
+              ? addFlatListItemStyle.height
+              : dropDownItemHeight,
+          },
+          item === pressedItem
+            ? selectedItemColor
+              ? {backgroundColor: selectedItemColor}
+              : {backgroundColor: theme.colors.BgAccentSoft}
+            : null,
+        ]}
+        onPress={() => renderItemOnPress(item)}
+        underlayColor={
+          selectedItemColor ? selectedItemColor : theme.colors.BgAccentSoft
+        }>
+        <Typography
+          style={
+            item === pressedItem
+              ? addFlatListTextStylePressed
+              : addFlatListTextStyle
+          }
+          font={
+            item === pressedItem
+              ? addFlatListTextFontPressed
+                ? addFlatListTextFontPressed
+                : 'Medium-Primary-M'
+              : addFlatListTextFont
+              ? addFlatListTextFont
+              : 'Regular-Secondary-M'
+          }>
+          {item}
+        </Typography>
+      </TouchableHighlight>
+    );
+  };
 
   const openPopup = (pageY: number) => {
     const {listAbovePosition, listUnderPosition, expectedEndPositionOnScreen} =
@@ -138,56 +192,6 @@ const DropDown: FC<IDropDownProps> = props => {
         );
       },
     });
-  };
-
-  const renderItemOnPress = (item: string) => {
-    onPress(item);
-    setPressedItem(item);
-    setOpen(false);
-    setChosen(item);
-    popupContext.closePopup(DROP_DOWN_POPUP_ID);
-  };
-
-  const renderItem = ({item}: {item: string}) => {
-    return (
-      <TouchableHighlight
-        style={[
-          styles.dropDownItem,
-          addFlatListItemStyle,
-          {
-            height: addFlatListItemStyle?.height
-              ? addFlatListItemStyle.height
-              : dropDownItemHeight,
-          },
-          item === pressedItem
-            ? selectedItemColor
-              ? {backgroundColor: selectedItemColor}
-              : {backgroundColor: theme.colors.BgAccentSoft}
-            : null,
-        ]}
-        onPress={() => renderItemOnPress(item)}
-        underlayColor={
-          selectedItemColor ? selectedItemColor : theme.colors.BgAccentSoft
-        }>
-        <Typography
-          style={
-            item === pressedItem
-              ? addFlatListTextStylePressed
-              : addFlatListTextStyle
-          }
-          font={
-            item === pressedItem
-              ? addFlatListTextFontPressed
-                ? addFlatListTextFontPressed
-                : 'Medium-Primary-M'
-              : addFlatListTextFont
-              ? addFlatListTextFont
-              : 'Regular-Secondary-M'
-          }>
-          {item}
-        </Typography>
-      </TouchableHighlight>
-    );
   };
 
   return (
