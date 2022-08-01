@@ -7,7 +7,7 @@ Author - Aleksei Smirnov
 4. Для **FlatList** ширина берется от кнопки стандартно, можно передать свою
 5. Для **FlatList** высота **Item** высчитывается по формуле: **Высота кнопки * 0.8 (как в дизайне)**, можно передать свою
 6. Расшифровка пропсов: 
-   * title?: string; - Тест в заголовке над **DropDown**
+   * label?: string; - Тест в заголовке над **DropDown**
    * rightIcon?: ReactElement; - Иконка для **DropDown**
    * placeholder: string; - Дефолтный текст в **DropDown**
    * list: string[]; - Массив элементов для списка **DropDown**
