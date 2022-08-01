@@ -17,12 +17,12 @@ const defaultStyle = ({spaces, colors}: IUseStylesTheme) => {
       marginTop: spaces.Space8,
     },
     flatList: {
+      backgroundColor: colors.BgSecondary,
       paddingVertical: spaces.Space8,
       position: 'absolute',
       borderRadius: spaces.Space12,
       borderWidth: 1,
       borderColor: colors.BorderSoft,
-      backgroundColor: colors.BgPrimary,
     },
     dropDownItem: {
       justifyContent: 'center',
