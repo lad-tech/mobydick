@@ -88,7 +88,7 @@
     [
       "@semantic-release/gitlab",
       {
-        "gitlabUrl": "https://glab.lad24.ru/darwin/smart-garden-mobile",
+        "gitlabUrl": "https://glab.lad24.ru/npm/mobydick",
         "assets": [
           {
             "path": "CHANGELOG.md",
