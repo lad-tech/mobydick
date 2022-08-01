@@ -15,9 +15,9 @@ import {getModel} from 'react-native-device-info';
 import {IDropDownProps} from './types';
 import stylesCreate from './stylesCreate';
 import {
-  dropDownPopupId,
-  defaultDropDownHeight,
-  defaultDropDownWidth,
+  DEFAULT_DROP_DOWN_HEIGHT,
+  DEFAULT_DROP_DOWN_WIDTH,
+  DROP_DOWN_POPUP_ID,
 } from './constants/constants';
 import Icon from './components/DropDownIcon';
 import getIosSafeAreaHeights from './constants/getIosSafeAreaHeights';
@@ -63,7 +63,7 @@ const DropDown: FC<IDropDownProps> = props => {
   const {dropDownMaxHeight, dropDownItemHeight} = getDropDownHeights({
     dropDownHeight: addButtonStyle?.height
       ? +addButtonStyle.height
-      : defaultDropDownHeight,
+      : DEFAULT_DROP_DOWN_HEIGHT,
     flatListPaddingVertical: addFlatListStyle?.paddingVertical
       ? +addFlatListStyle.paddingVertical
       : styles.flatList.paddingVertical,
@@ -95,14 +95,14 @@ const DropDown: FC<IDropDownProps> = props => {
         maxVisibleListLength,
         dropDownHeight: addButtonStyle?.height
           ? +addButtonStyle.height
-          : defaultDropDownHeight,
+          : DEFAULT_DROP_DOWN_HEIGHT,
         flatListPaddingVertical: addFlatListStyle?.paddingVertical
           ? +addFlatListStyle.paddingVertical
           : styles.flatList.paddingVertical,
         listLength: list.length,
       });
     popupContext.openPopup({
-      id: dropDownPopupId,
+      id: DROP_DOWN_POPUP_ID,
       Content: props => {
         return (
           <PopupBase
@@ -121,7 +121,7 @@ const DropDown: FC<IDropDownProps> = props => {
                     ? addFlatListStyle.width
                     : addButtonStyle?.width
                     ? addButtonStyle.width
-                    : defaultDropDownWidth,
+                    : DEFAULT_DROP_DOWN_WIDTH,
                 },
                 expectedEndPositionOnScreen > height
                   ? {top: listAbovePosition}
@@ -145,7 +145,7 @@ const DropDown: FC<IDropDownProps> = props => {
     setPressedItem(item);
     setOpen(false);
     setChosen(item);
-    popupContext.closePopup(dropDownPopupId);
+    popupContext.closePopup(DROP_DOWN_POPUP_ID);
   };
 
   const renderItem = ({item}: {item: string}) => {
@@ -200,10 +200,10 @@ const DropDown: FC<IDropDownProps> = props => {
         style={{
           height: addButtonStyle?.height
             ? addButtonStyle.height
-            : defaultDropDownHeight,
+            : DEFAULT_DROP_DOWN_HEIGHT,
           width: addButtonStyle?.width
             ? addButtonStyle.width
-            : defaultDropDownWidth,
+            : DEFAULT_DROP_DOWN_WIDTH,
         }}>
         <TouchableOpacity
           style={[
@@ -212,12 +212,12 @@ const DropDown: FC<IDropDownProps> = props => {
             {
               width: addButtonStyle?.width
                 ? addButtonStyle.width
-                : defaultDropDownWidth,
+                : DEFAULT_DROP_DOWN_WIDTH,
             },
             {
               height: addButtonStyle?.height
                 ? addButtonStyle.height
-                : defaultDropDownHeight,
+                : DEFAULT_DROP_DOWN_HEIGHT,
             },
             isOpen
               ? {
