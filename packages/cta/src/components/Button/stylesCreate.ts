@@ -12,15 +12,16 @@ const primaryStyle = (theme: IUseStylesTheme, size: ISize) => {
       alignItems: 'stretch',
       justifyContent: 'center',
       backgroundColor: colors.CtaBtnPrimary,
-      borderRadius: 12, // TODO: Брать из theme
-      padding: size === ISize.small ? 10 : 12, // TODO: Брать из theme
-      margin: 12, // TODO: Брать из theme
+      borderRadius: theme.spaces.Space12,
+      minHeight:
+        size === ISize.small ? theme.spaces.Space32 : theme.spaces.Space48,
+      paddingVertical:
+        size === ISize.small ? theme.spaces.Space6 : theme.spaces.Space12,
+      paddingHorizontal:
+        size === ISize.small ? theme.spaces.Space16 : theme.spaces.Space32,
     },
     text: {
       color: colors.TextWhite,
-      marginHorizontal: 10,
-      fontSize: 18, // TODO: Брать из theme
-      fontWeight: '600', // TODO: Брать из theme
     },
   });
 };

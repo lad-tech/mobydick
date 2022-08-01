@@ -36,6 +36,8 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly 1`] = `
   >
     <SvgMock
       fill="#2B78EE"
+      height="48"
+      width="48"
     />
   </View>
 </View>
@@ -77,6 +79,8 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
   >
     <SvgMock
       fill="#2B78EE"
+      height="48"
+      width="48"
     />
   </View>
   <View
