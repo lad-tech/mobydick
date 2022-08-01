@@ -8,6 +8,22 @@ exports[`@npm/mobydick-inputs/DropDown buttonPress 1`] = `
     }
   }
 >
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Medium",
+          "fontSize": 14,
+          "lineHeight": 18,
+        },
+        undefined,
+      ]
+    }
+  >
+    Название поля
+  </Text>
   <View
     collapsable={false}
     style={
@@ -91,6 +107,22 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 2 elements 1`] = `
     }
   }
 >
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Medium",
+          "fontSize": 14,
+          "lineHeight": 18,
+        },
+        undefined,
+      ]
+    }
+  >
+    Название поля
+  </Text>
   <View
     collapsable={false}
     style={
@@ -175,6 +207,22 @@ Array [
       }
     }
   >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 14,
+            "lineHeight": 18,
+          },
+          undefined,
+        ]
+      }
+    >
+      Название поля
+    </Text>
     <View
       collapsable={false}
       style={
@@ -260,6 +308,22 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 30 elements 1`] = `
     }
   }
 >
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Medium",
+          "fontSize": 14,
+          "lineHeight": 18,
+        },
+        undefined,
+      ]
+    }
+  >
+    Название поля
+  </Text>
   <View
     collapsable={false}
     style={

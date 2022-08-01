@@ -26,9 +26,10 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 1`] = `
         "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
-        "margin": 12,
+        "minHeight": 48,
         "opacity": 1,
-        "padding": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
       }
     }
     testID="testIdOpenPopup"
@@ -57,9 +58,10 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 1`] = `
         "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
-        "margin": 12,
+        "minHeight": 48,
         "opacity": 1,
-        "padding": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
       }
     }
     testID="testIdCloseAllPopup"
@@ -94,9 +96,10 @@ Array [
           "borderRadius": 12,
           "flexDirection": "row",
           "justifyContent": "center",
-          "margin": 12,
+          "minHeight": 48,
           "opacity": 1,
-          "padding": 12,
+          "paddingHorizontal": 32,
+          "paddingVertical": 12,
         }
       }
       testID="testIdOpenPopup"
@@ -125,9 +128,10 @@ Array [
           "borderRadius": 12,
           "flexDirection": "row",
           "justifyContent": "center",
-          "margin": 12,
+          "minHeight": 48,
           "opacity": 1,
-          "padding": 12,
+          "paddingHorizontal": 32,
+          "paddingVertical": 12,
         }
       }
       testID="testIdCloseAllPopup"
@@ -157,9 +161,10 @@ Array [
         "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
-        "margin": 12,
+        "minHeight": 48,
         "opacity": 1,
-        "padding": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
       }
     }
     testID="testIdPopup"
@@ -193,9 +198,10 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 3`] = `
         "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
-        "margin": 12,
+        "minHeight": 48,
         "opacity": 1,
-        "padding": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
       }
     }
     testID="testIdOpenPopup"
@@ -224,9 +230,10 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 3`] = `
         "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
-        "margin": 12,
+        "minHeight": 48,
         "opacity": 1,
-        "padding": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
       }
     }
     testID="testIdCloseAllPopup"
@@ -261,9 +268,10 @@ Array [
           "borderRadius": 12,
           "flexDirection": "row",
           "justifyContent": "center",
-          "margin": 12,
+          "minHeight": 48,
           "opacity": 1,
-          "padding": 12,
+          "paddingHorizontal": 32,
+          "paddingVertical": 12,
         }
       }
       testID="testIdOpenPopup"
@@ -292,9 +300,10 @@ Array [
           "borderRadius": 12,
           "flexDirection": "row",
           "justifyContent": "center",
-          "margin": 12,
+          "minHeight": 48,
           "opacity": 1,
-          "padding": 12,
+          "paddingHorizontal": 32,
+          "paddingVertical": 12,
         }
       }
       testID="testIdCloseAllPopup"
@@ -324,9 +333,10 @@ Array [
         "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
-        "margin": 12,
+        "minHeight": 48,
         "opacity": 1,
-        "padding": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
       }
     }
     testID="testIdPopup"
@@ -355,9 +365,10 @@ Array [
         "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
-        "margin": 12,
+        "minHeight": 48,
         "opacity": 1,
-        "padding": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
       }
     }
     testID="testIdPopup"
@@ -391,9 +402,10 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 5`] = `
         "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
-        "margin": 12,
+        "minHeight": 48,
         "opacity": 1,
-        "padding": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
       }
     }
     testID="testIdOpenPopup"
@@ -422,9 +434,10 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 5`] = `
         "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
-        "margin": 12,
+        "minHeight": 48,
         "opacity": 1,
-        "padding": 12,
+        "paddingHorizontal": 32,
+        "paddingVertical": 12,
       }
     }
     testID="testIdCloseAllPopup"

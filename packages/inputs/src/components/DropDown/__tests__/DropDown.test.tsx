@@ -12,7 +12,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         <DropDown
           selectedItem={'SelectedItem'}
           placeholder={'Выберите язык'}
-          title={'Название поля'}
+          label={'Название поля'}
           list={['Русский', 'English', 'Deutsch', 'Japanese', 'Bolgarian']}
           onPress={jest.fn()}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
@@ -27,7 +27,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
       <PopupsProvider>
         <DropDown
           placeholder={'Выберите язык'}
-          title={'Название поля'}
+          label={'Название поля'}
           list={['Русский', 'English']}
           onPress={jest.fn()}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
@@ -41,7 +41,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
       <PopupsProvider>
         <DropDown
           placeholder={'Выберите язык'}
-          title={'Название поля'}
+          label={'Название поля'}
           list={[
             '1',
             '2',
@@ -86,7 +86,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
       <PopupsProvider>
         <DropDown
           placeholder={'Выберите язык'}
-          title={'Название поля'}
+          label={'Название поля'}
           list={['Русский', 'English']}
           onPress={jest.fn()}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
