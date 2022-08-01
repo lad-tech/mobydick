@@ -11,12 +11,10 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       justifyContent: 'center',
       alignItems: 'center',
       zIndex: 1,
-      margin: 8,
-      backgroundColor: colors.IconFavorite,
+      marginVertical: 8,
     },
     arrow: {
       position: 'absolute',
-      borderRadius: 4,
       width: 0,
       height: 0,
       backgroundColor: 'transparent',

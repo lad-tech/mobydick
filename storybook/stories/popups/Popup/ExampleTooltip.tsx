@@ -10,15 +10,23 @@ import {
   ITooltip,
   TooltipBase,
 } from '@npm/mobydick-popups/src/components/TooltipBase';
-
+import {defaultElementLightColor} from '@npm/mobydick-styles';
 const ExampleTooltip: FC<ITooltip> = props => {
   const {isVisible, position, children} = props;
 
   const isArrow = true;
+  const placement = select('Placement', IPlacement, IPlacement.center);
+
+  const colorTooltip = select('Цвет', defaultElementLightColor, '#FAB742');
 
   return (
     <View style={{position: 'relative', alignItems: 'center'}}>
-      <TooltipBase {...props} position={position} isVisible={isVisible}>
+      <TooltipBase
+        {...props}
+        position={position}
+        isVisible={isVisible}
+        placement={placement}
+        styleContainer={{backgroundColor: colorTooltip}}>
         <Title
           title={'Войдите в приложение, чтобы\nделиться картами и скидками'}
         />
@@ -28,14 +36,16 @@ const ExampleTooltip: FC<ITooltip> = props => {
 
         {boolean('With arrow', isArrow) ? (
           <Arrow
-            placement={select('Placement', IPlacement, IPlacement.center)}
+            placement={placement}
             position={position}
+            colorTooltip={colorTooltip}
           />
         ) : null}
         <Button
           onPress={() => null}
           text={text('Text button', 'Войти')}
           size={ISize.small}
+          style={{alignSelf: 'flex-start'}}
         />
       </TooltipBase>
       {children}

@@ -23,6 +23,7 @@ export interface IArrowViewPopup {
   placement: IPlacement;
   position: IPosition;
   arrowViewStyles?: ViewStyle;
+  colorTooltip: string;
 }
 
 export interface ITooltip {
@@ -32,4 +33,5 @@ export interface ITooltip {
   styleContainer?: ViewStyle;
   titleStyles?: TextStyle;
   children: ReactNode;
+  placement?: IPlacement;
 }

@@ -5,7 +5,7 @@ import {useStyles} from '@npm/mobydick-styles';
 import stylesCreate from './stylesCreate';
 import Title from './Title';
 import DescriptionText from './DescriptionText';
-import {IPosition, ITooltip} from './types';
+import {IPlacement, IPosition, ITooltip} from './types';
 import Arrow from './Arrow';
 
 const TooltipBase: FC<ITooltip> & {
@@ -13,7 +13,7 @@ const TooltipBase: FC<ITooltip> & {
   DescriptionText: typeof DescriptionText;
   Arrow: typeof Arrow;
 } = props => {
-  const {position, styleContainer, children, isVisible} = props;
+  const {position, styleContainer, children, isVisible, placement} = props;
   const [styles] = useStyles(stylesCreate);
 
   if (!isVisible) return null;
@@ -30,6 +30,12 @@ const TooltipBase: FC<ITooltip> & {
         position === IPosition.bottom && {
           position: 'absolute',
           bottom: '100%',
+        },
+        placement === IPlacement.start && {
+          left: 0,
+        },
+        placement === IPlacement.end && {
+          right: 0,
         },
       ]}>
       {children}

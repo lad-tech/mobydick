@@ -7,8 +7,8 @@ import stylesCreate from './stylesCreate';
 import {IArrowViewPopup, IPlacement, IPosition} from './types';
 
 const Arrow: FC<IArrowViewPopup> = props => {
-  const [styles, theme] = useStyles(stylesCreate);
-  const {arrowViewStyles, placement, position} = props;
+  const [styles] = useStyles(stylesCreate);
+  const {arrowViewStyles, placement, position, colorTooltip} = props;
 
   const placementArrow = (placement: IPlacement): ViewStyle => {
     switch (placement) {
@@ -28,8 +28,6 @@ const Arrow: FC<IArrowViewPopup> = props => {
   };
 
   const positionArrow = (position: IPosition): ViewStyle => {
-    const {colors} = theme;
-
     switch (position) {
       case IPosition.top:
         return {
@@ -38,7 +36,7 @@ const Arrow: FC<IArrowViewPopup> = props => {
           borderRightWidth: 10,
           borderTopWidth: 0,
           borderLeftWidth: 10,
-          borderBottomColor: colors.IconFavorite,
+          borderBottomColor: colorTooltip,
           borderRightColor: 'transparent',
           borderTopColor: 'transparent',
           borderLeftColor: 'transparent',
@@ -50,7 +48,7 @@ const Arrow: FC<IArrowViewPopup> = props => {
           borderRightWidth: 10,
           borderBottomWidth: 0,
           borderLeftWidth: 10,
-          borderTopColor: colors.IconFavorite,
+          borderTopColor: colorTooltip,
           borderRightColor: 'transparent',
           borderBottomColor: 'transparent',
           borderLeftColor: 'transparent',
