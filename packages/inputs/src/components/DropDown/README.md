@@ -6,7 +6,17 @@ Author - Aleksei Smirnov
 3. Лучше выбирать либо **TextStyle** либо **TextFont**
 4. Для **FlatList** ширина берется от кнопки стандартно, можно передать свою
 5. Для **FlatList** высота **Item** высчитывается по формуле: **Высота кнопки * 0.8 (как в дизайне)**, можно передать свою
-6. Расшифровка пропсов: 
+6. Что за функция така **getIosSafeAreaHeights** и зачем она такая нужна:
+   * У всех устройств есть **Status Bar**, у iPhone начиная с версии iPhone X есть еще **Bottom Line**,
+   Для определения кнопки в пространстве используется ее **ref** и функция для получения позиции на экране **ref.current.measure**.
+   iPhone возвращает позицию **pageY** учитывая высоты **Status Bar** и **Bottom line** в отличие от Android, поэтому приходится принудительно в функции **getDropDownDimensions** 
+   добавлять значения отступов. Мы получаем модель телефона через **getModel** (react-native-device-info) и пробрасываем его в функцию **getIosSafeAreaHeights**.
+   Для этой функции создан enum **IIPhoneModel** и функция после перебора возвращает для определенных моделей iPhone заранее записанные значения отступов.
+
+      `!!В дальнейшем, для поддержания актуальности библиотеки, нужно будет
+      актуализировать enum IIPhoneModel и функцию getIosSafeAreaHeights!!`
+
+7. Расшифровка пропсов: 
    * label?: string; - Тест в заголовке над **DropDown**
    * rightIcon?: ReactElement; - Иконка для **DropDown**
    * placeholder: string; - Дефолтный текст в **DropDown**
@@ -28,4 +38,4 @@ Author - Aleksei Smirnov
    * addFlatListTextFont?: TypographyProp; - шрифт для текста для не выбранных элементов в списке **FlatList**
    * addFlatListTextFontPressed?: TypographyProp; шрифт для текста для не выбранного элемента в списке **FlatList** - **selectedItem**
    * selectedItemColor?: string; - цвет выбранного элемента в списке при нажатии на него - подсветка **TouchableHighLight**
-   * maxVisibleListLength?: number: - Максимальное количество видимых элементов в списке(Если элементов больше, вью у FlatList будет скроллится) - **по дефолту 6**
+   * maxVisibleListLength?: number: - Максимальное количество видимых элементов в списке(Если элементов больше, вью у FlatList будет скроллится) - **по дефолту 6** 
