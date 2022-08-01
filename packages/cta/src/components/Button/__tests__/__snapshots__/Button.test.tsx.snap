@@ -31,13 +31,25 @@ exports[`@npm/mobydick-cta/Button renders correctly 1`] = `
   }
 >
   <Text
+    allowFontScaling={true}
     style={
-      Object {
-        "color": "#FFF",
-        "fontSize": 18,
-        "fontWeight": "600",
-        "marginHorizontal": 10,
-      }
+      Array [
+        Object {
+          "color": "#20242D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 15,
+          "lineHeight": 19,
+        },
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontSize": 18,
+            "fontWeight": "600",
+            "marginHorizontal": 10,
+          },
+          undefined,
+        ],
+      ]
     }
   >
     text

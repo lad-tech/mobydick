@@ -2,23 +2,6 @@
 
 exports[`@npm/mobydick-controls/Radio renders correctly 1`] = `
 <View
-  accessibilityState={
-    Object {
-      "disabled": false,
-    }
-  }
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
   style={
     Object {
       "alignItems": "center",
@@ -29,6 +12,23 @@ exports[`@npm/mobydick-controls/Radio renders correctly 1`] = `
   }
 >
   <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
         "alignItems": "center",
@@ -38,45 +38,17 @@ exports[`@npm/mobydick-controls/Radio renders correctly 1`] = `
         "borderRadius": 11,
         "borderWidth": 2,
         "justifyContent": "center",
-        "margin": 11,
+        "margin": 12,
         "width": 22,
       }
     }
+    value="text"
   />
-  <Text
-    style={
-      Object {
-        "color": "#20242D",
-        "fontSize": 16,
-        "letterSpacing": -0.25,
-        "lineHeight": 20,
-      }
-    }
-  >
-    text
-  </Text>
 </View>
 `;
 
 exports[`@npm/mobydick-controls/Radio renders correctly disabled 1`] = `
 <View
-  accessibilityState={
-    Object {
-      "disabled": true,
-    }
-  }
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
   style={
     Object {
       "alignItems": "center",
@@ -87,6 +59,23 @@ exports[`@npm/mobydick-controls/Radio renders correctly disabled 1`] = `
   }
 >
   <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
         "alignItems": "center",
@@ -96,45 +85,17 @@ exports[`@npm/mobydick-controls/Radio renders correctly disabled 1`] = `
         "borderRadius": 11,
         "borderWidth": 2,
         "justifyContent": "center",
-        "margin": 11,
+        "margin": 12,
         "width": 22,
       }
     }
+    value="text"
   />
-  <Text
-    style={
-      Object {
-        "color": "#20242D",
-        "fontSize": 16,
-        "letterSpacing": -0.25,
-        "lineHeight": 20,
-      }
-    }
-  >
-    text
-  </Text>
 </View>
 `;
 
 exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
 <View
-  accessibilityState={
-    Object {
-      "disabled": false,
-    }
-  }
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
   style={
     Object {
       "alignItems": "center",
@@ -145,6 +106,23 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
   }
 >
   <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
         "alignItems": "center",
@@ -154,10 +132,11 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
         "borderRadius": 11,
         "borderWidth": 2,
         "justifyContent": "center",
-        "margin": 11,
+        "margin": 12,
         "width": 22,
       }
     }
+    value="text"
   >
     <View
       style={
@@ -171,40 +150,11 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
       }
     />
   </View>
-  <Text
-    style={
-      Object {
-        "color": "#20242D",
-        "fontSize": 16,
-        "letterSpacing": -0.25,
-        "lineHeight": 20,
-      }
-    }
-  >
-    text
-  </Text>
 </View>
 `;
 
 exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`] = `
 <View
-  accessibilityState={
-    Object {
-      "disabled": true,
-    }
-  }
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
   style={
     Object {
       "alignItems": "center",
@@ -215,6 +165,23 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`
   }
 >
   <View
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
         "alignItems": "center",
@@ -224,10 +191,11 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`
         "borderRadius": 11,
         "borderWidth": 2,
         "justifyContent": "center",
-        "margin": 11,
+        "margin": 12,
         "width": 22,
       }
     }
+    value="text"
   >
     <View
       style={
@@ -241,17 +209,5 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`
       }
     />
   </View>
-  <Text
-    style={
-      Object {
-        "color": "#20242D",
-        "fontSize": 16,
-        "letterSpacing": -0.25,
-        "lineHeight": 20,
-      }
-    }
-  >
-    text
-  </Text>
 </View>
 `;

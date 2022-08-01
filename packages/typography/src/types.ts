@@ -1,18 +1,12 @@
-import {TextProps} from '@npm/mobydick-core';
+import {ITextProps} from '@npm/mobydick-core';
 import {ITextColors} from '@npm/mobydick-styles';
-import {ReactChild} from 'react';
-import {TextStyle} from 'react-native';
+import {StyleProp, TextStyle} from 'react-native';
+import * as React from 'react';
 
-type ITextChild = ReactChild | string | number | false | undefined | null;
-
-type ITextStyle = TextStyle | undefined | false | null;
-
-export type IStyledTextChildren = ITextChild | ITextChild[];
-
-export interface IStyledTextProps extends TextProps {
-  children?: IStyledTextChildren;
-  font?: TypographyProp;
-  style?: ITextStyle | ITextStyle[];
+export interface IStyledTextProps extends ITextProps {
+  children?: React.ReactNode;
+  font?: TypographyProp | undefined;
+  style?: StyleProp<TextStyle>;
 }
 
 export enum TFontSize {

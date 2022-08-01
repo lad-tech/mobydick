@@ -1,7 +1,9 @@
 {
   "extends": "../../tsconfig.json",
   "include": [
-    "./src/icons/font/unicodesMap.json"
+    "./**/*.tsx",
+    "./**/*.ts",
+    "./**/*.json"
   ],
   "references": [
     {

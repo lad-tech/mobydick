@@ -1,3 +1,7 @@
-import {ButtonProps as DefaultButtonProps} from 'react-native';
+import {
+  ButtonProps as DefaultButtonProps,
+  Button as DefaultButton,
+} from 'react-native';
 
-export type ButtonProps = DefaultButtonProps;
+export type IButtonProps = DefaultButtonProps;
+export type IButton = DefaultButton;

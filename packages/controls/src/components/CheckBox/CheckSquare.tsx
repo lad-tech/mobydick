@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
-import {Pressable, PressableProps} from '@npm/mobydick-core';
+import {Pressable, IPressableProps} from '@npm/mobydick-core';
 import {Check} from '@npm/mobydick-styles';
 
 import {ICommonControlProps} from '../types';
 
-const CheckSquare: FC<ICommonControlProps & PressableProps> = ({
+const CheckSquare: FC<ICommonControlProps & IPressableProps> = ({
   selected,
   ...rest
 }) => {

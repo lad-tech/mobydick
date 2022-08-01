@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search render correctly with value 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "maxWidth": "95%",
+      "padding": 6,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#5E6678",
+        "fontFamily": "Neotis",
+        "fontSize": 24,
+      }
+    }
+  >
+    
+  </Text>
+  <TextInput
+    accessibilityLabel="search"
+    allowFontScaling={true}
+    onChangeText={[MockFunction]}
+    placeholder="Поиск"
+    placeholderTextColor="#20242D"
+    style={
+      Array [
+        Object {
+          "color": "#20242D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 15,
+          "lineHeight": 19,
+        },
+        Object {
+          "flex": 1,
+          "padding": 0,
+        },
+      ]
+    }
+    value="value"
+  />
+  <View
+    accessibilityLabel="cancel"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#D1D4DB",
+        "borderRadius": 64,
+        "padding": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Search render correctly without value 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "maxWidth": "95%",
+      "padding": 6,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#5E6678",
+        "fontFamily": "Neotis",
+        "fontSize": 24,
+      }
+    }
+  >
+    
+  </Text>
+  <TextInput
+    accessibilityLabel="search"
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Поиск"
+    placeholderTextColor="#20242D"
+    style={
+      Array [
+        Object {
+          "color": "#20242D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 15,
+          "lineHeight": 19,
+        },
+        Object {
+          "flex": 1,
+          "padding": 0,
+        },
+      ]
+    }
+  />
+</View>
+`;
