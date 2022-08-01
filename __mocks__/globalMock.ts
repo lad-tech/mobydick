@@ -1,3 +1,7 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import mockRNDeviceInfo from 'react-native-device-info/jest/react-native-device-info-mock';
+
 jest.mock('global', () => ({
   ...global,
   // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -27,4 +31,6 @@ jest.mock('react-native/Libraries/Utilities/Platform', () => {
 });
 
 // we don't need logs in test's scripts
-jest.mock('../scripts/utils/logger');
+jest.mock('../scripts/utils/logger'); // or use require
+
+jest.mock('react-native-device-info', () => mockRNDeviceInfo);

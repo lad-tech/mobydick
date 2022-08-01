@@ -9,50 +9,67 @@ import React, {FC, useCallback, useRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 import {PopupBase, usePopups} from '@npm/mobydick-popups';
-import {Platform} from 'react-native';
 import {useDimensions} from '@react-native-community/hooks';
+import {getModel} from 'react-native-device-info';
 
 import {IDropDownProps} from './types';
 import stylesCreate from './stylesCreate';
 import {
-  borderButtonWidth,
-  maxVisibleFlatListItems,
-  dropDownMarginFromButton,
-  dropDownListItemMultiplier,
   dropDownPopupId,
-} from './constants';
+  defaultDropDownHeight,
+  defaultDropDownWidth,
+} from './constants/constants';
 import Icon from './components/DropDownIcon';
-import getIosSafeAreaHeights from './functions';
+import getIosSafeAreaHeights from './constants/getIosSafeAreaHeights';
+import {
+  getDropDownDimensions,
+  getDropDownHeights,
+} from './constants/getDropDownDimensions';
 
 const DropDown: FC<IDropDownProps> = props => {
   const {
-    title,
+    label,
     placeholder,
     list,
     selectedItem,
     onPress,
     rightIcon,
-    dropDownWidth = 335,
-    dropDownHeight = 60,
+    addButtonStyle,
+    addFlatListStyle,
+    addFlatListItemStyle,
     navBarHeight = 50,
+    addLabelStyle,
+    addLabelFont,
+    addButtonTextStyle,
+    addButtonTextFont,
+    addFlatListTextStyle,
+    addFlatListTextFont,
+    addFlatListTextFontPressed,
+    addFlatListTextStylePressed,
+    selectedItemColor,
+    addButtonTextStyleChosen,
+    addButtonTextFontChosen,
+    maxVisibleListLength = 6,
   } = props;
-  const {width, height} = useDimensions().window;
+  const {height} = useDimensions().window;
   const [styles, theme] = useStyles(stylesCreate);
   const [chosen, setChosen] = useState(selectedItem || '');
   const [pressedItem, setPressedItem] = useState('');
   const dropDownRef = useRef<ITouchableOpacity>(null);
   const [isOpen, setOpen] = useState(false);
   const popupContext = usePopups();
-
-  const dropDownItemHeight = dropDownHeight * dropDownListItemMultiplier;
-  const dropDownMaxHeight =
-    dropDownItemHeight * maxVisibleFlatListItems +
-    styles.flatList.paddingVertical * 2;
-  const dropDownViewHeight =
-    list.length > maxVisibleFlatListItems
-      ? dropDownItemHeight * maxVisibleFlatListItems +
-        styles.flatList.paddingVertical * 2
-      : list.length * dropDownItemHeight + styles.flatList.paddingVertical * 2;
+  const model = getModel();
+  const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(model);
+  const {dropDownMaxHeight, dropDownItemHeight} = getDropDownHeights({
+    dropDownHeight: addButtonStyle?.height
+      ? +addButtonStyle.height
+      : defaultDropDownHeight,
+    flatListPaddingVertical: addFlatListStyle?.paddingVertical
+      ? +addFlatListStyle.paddingVertical
+      : styles.flatList.paddingVertical,
+    listLength: list.length,
+    maxVisibleListLength,
+  });
 
   const checkPosition = () => {
     if (dropDownRef.current) {
@@ -69,26 +86,21 @@ const DropDown: FC<IDropDownProps> = props => {
   );
 
   const openPopup = (pageY: number) => {
-    const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(
-      width,
-      height,
-    );
-    const listUnderPosition =
-      Platform.OS === 'android'
-        ? dropDownHeight + pageY + dropDownMarginFromButton * 2
-        : pageY - topIosMargin + dropDownHeight + dropDownMarginFromButton * 2;
-    const listAbovePosition =
-      Platform.OS === 'android'
-        ? pageY - dropDownViewHeight - borderButtonWidth * 2
-        : pageY - topIosMargin - dropDownViewHeight - borderButtonWidth * 2;
-    const expectedEndPositionOnScreen =
-      Platform.OS === 'android'
-        ? dropDownHeight + dropDownViewHeight + pageY + navBarHeight
-        : dropDownHeight +
-          dropDownViewHeight +
-          pageY +
-          navBarHeight +
-          bottomIosMargin;
+    const {listAbovePosition, listUnderPosition, expectedEndPositionOnScreen} =
+      getDropDownDimensions({
+        pageY,
+        topIosMargin,
+        navBarHeight,
+        bottomIosMargin,
+        maxVisibleListLength,
+        dropDownHeight: addButtonStyle?.height
+          ? +addButtonStyle.height
+          : defaultDropDownHeight,
+        flatListPaddingVertical: addFlatListStyle?.paddingVertical
+          ? +addFlatListStyle.paddingVertical
+          : styles.flatList.paddingVertical,
+        listLength: list.length,
+      });
     popupContext.openPopup({
       id: dropDownPopupId,
       Content: props => {
@@ -103,7 +115,14 @@ const DropDown: FC<IDropDownProps> = props => {
               bounces={false}
               style={[
                 styles.flatList,
-                {width: dropDownWidth},
+                addFlatListStyle,
+                {
+                  width: addFlatListStyle?.width
+                    ? addFlatListStyle.width
+                    : addButtonStyle?.width
+                    ? addButtonStyle.width
+                    : defaultDropDownWidth,
+                },
                 expectedEndPositionOnScreen > height
                   ? {top: listAbovePosition}
                   : {top: listUnderPosition},
@@ -132,12 +151,33 @@ const DropDown: FC<IDropDownProps> = props => {
   const renderItem = ({item}: {item: string}) => {
     return (
       <TouchableHighlight
-        style={[styles.dropDownItem, {height: dropDownItemHeight}]}
+        style={[
+          styles.dropDownItem,
+          addFlatListItemStyle,
+          {
+            height: addFlatListItemStyle?.height
+              ? addFlatListItemStyle.height
+              : dropDownItemHeight,
+          },
+        ]}
         onPress={() => renderItemOnPress(item)}
-        underlayColor={theme.colors.BgAccentSoft}>
+        underlayColor={
+          selectedItemColor ? selectedItemColor : theme.colors.BgAccentSoft
+        }>
         <Typography
+          style={
+            item === pressedItem
+              ? addFlatListTextStylePressed
+              : addFlatListTextStyle
+          }
           font={
-            item === pressedItem ? 'Medium-Primary-M' : 'Regular-Secondary-M'
+            item === pressedItem
+              ? addFlatListTextFontPressed
+                ? addFlatListTextFontPressed
+                : 'Medium-Primary-M'
+              : addFlatListTextFont
+              ? addFlatListTextFont
+              : 'Regular-Secondary-M'
           }>
           {item}
         </Typography>
@@ -147,25 +187,63 @@ const DropDown: FC<IDropDownProps> = props => {
 
   return (
     <View style={styles.container}>
-      {Boolean(title) && (
-        <Typography font={'Medium-Tertiary-XS'}>{title}</Typography>
+      {Boolean(label) && (
+        <Typography
+          font={addLabelFont ? addLabelFont : 'Medium-Tertiary-XS'}
+          style={addLabelStyle}>
+          {label}
+        </Typography>
       )}
       <View
         collapsable={false}
         ref={dropDownRef}
-        style={{height: dropDownHeight, width: dropDownWidth}}>
+        style={{
+          height: addButtonStyle?.height
+            ? addButtonStyle.height
+            : defaultDropDownHeight,
+          width: addButtonStyle?.width
+            ? addButtonStyle.width
+            : defaultDropDownWidth,
+        }}>
         <TouchableOpacity
           style={[
             styles.button,
-            {width: dropDownWidth},
-            {height: dropDownHeight},
+            addButtonStyle,
+            {
+              width: addButtonStyle?.width
+                ? addButtonStyle.width
+                : defaultDropDownWidth,
+            },
+            {
+              height: addButtonStyle?.height
+                ? addButtonStyle.height
+                : defaultDropDownHeight,
+            },
             isOpen
-              ? {borderColor: theme.colors.BorderNormal}
-              : {borderColor: theme.colors.BgSecondary},
+              ? {
+                  borderColor: addButtonStyle?.borderColor
+                    ? addButtonStyle.borderColor
+                    : theme.colors.BorderNormal,
+                }
+              : {
+                  borderColor: addButtonStyle?.backgroundColor
+                    ? addButtonStyle.backgroundColor
+                    : theme.colors.BgSecondary,
+                },
           ]}
-          onPress={checkPosition}>
+          onPress={checkPosition}
+          testID={'drop_down_button'}>
           <Typography
-            font={chosen ? 'Regular-Primary-M' : 'Regular-Muted-M'}
+            style={chosen ? addButtonTextStyleChosen : addButtonTextStyle}
+            font={
+              chosen
+                ? addButtonTextFontChosen
+                  ? addButtonTextFontChosen
+                  : 'Regular-Primary-M'
+                : addButtonTextFont
+                ? addButtonTextFont
+                : 'Regular-Muted-M'
+            }
             numberOfLines={1}>
             {chosen ? chosen : placeholder}
           </Typography>

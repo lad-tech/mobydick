@@ -1,5 +1,5 @@
 import React from 'react';
-import {render} from '@testing-library/react-native';
+import {fireEvent, render} from '@testing-library/react-native';
 import {SimpleIcon} from '@npm/mobydick-styles';
 import {PopupsProvider} from '@npm/mobydick-popups';
 
@@ -79,6 +79,23 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         />
       </PopupsProvider>,
     );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('buttonPress', () => {
+    const {toJSON, getByTestId} = render(
+      <PopupsProvider>
+        <DropDown
+          placeholder={'Выберите язык'}
+          title={'Название поля'}
+          list={['Русский', 'English']}
+          onPress={jest.fn()}
+          rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
+        />
+      </PopupsProvider>,
+    );
+    const pressable = getByTestId('drop_down_button');
+
+    fireEvent.press(pressable, {target: null, currentTarget: null});
     expect(toJSON()).toMatchSnapshot();
   });
 });
