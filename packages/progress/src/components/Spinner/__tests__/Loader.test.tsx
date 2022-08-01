@@ -17,4 +17,8 @@ describe('@npm/mobydick-progress/Loader', () => {
     const {toJSON} = render(<Loader size={ISizeSpinner.L} />);
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly without size', () => {
+    const {toJSON} = render(<Loader />);
+    expect(toJSON()).toMatchSnapshot();
+  });
 });

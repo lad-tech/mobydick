@@ -6,6 +6,8 @@ interface ISpinnerProps {
 }
 
 export enum ISizeSpinner {
+  XXS = 'XXS',
+  XS = 'XS',
   S = 'S',
   M = 'M',
   L = 'L',
@@ -13,7 +15,7 @@ export enum ISizeSpinner {
 export type SpinnerProps = ISpinnerProps & SvgProps;
 
 interface ILoaderProps {
-  size: ISizeSpinner;
+  size?: ISizeSpinner;
 }
 
 export type LoaderProps = ILoaderProps & SvgProps;
