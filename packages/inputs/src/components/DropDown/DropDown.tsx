@@ -159,6 +159,11 @@ const DropDown: FC<IDropDownProps> = props => {
               ? addFlatListItemStyle.height
               : dropDownItemHeight,
           },
+          item === pressedItem
+            ? selectedItemColor
+              ? {backgroundColor: selectedItemColor}
+              : {backgroundColor: theme.colors.BgAccentSoft}
+            : null,
         ]}
         onPress={() => renderItemOnPress(item)}
         underlayColor={
