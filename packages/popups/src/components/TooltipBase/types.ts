@@ -1,13 +1,6 @@
 import {TextStyle, ViewStyle} from 'react-native';
 import {ReactNode} from 'react';
 
-// export interface IPosition {
-//   top?: number | string;
-//   left?: number | string;
-//   bottom?: number | string;
-//   right?: number | string;
-// }
-
 export enum IPosition {
   top = 'top',
   bottom = 'bottom',
