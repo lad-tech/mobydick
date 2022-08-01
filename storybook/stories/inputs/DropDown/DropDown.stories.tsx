@@ -4,7 +4,6 @@ import {DropDown} from '@npm/mobydick-inputs';
 import {array, number, select, text} from '@storybook/addon-knobs';
 import {PopupsProvider} from '@npm/mobydick-popups';
 import {ScrollView, View} from '@npm/mobydick-core';
-import {height} from '@npm/mobydick-inputs/src/components/DropDown/constants/constants';
 import {
   defaultTextLightColor,
   iconNames,
@@ -19,9 +18,10 @@ import {
   TFontSize,
   TFontWeight,
 } from '@npm/mobydick-typography';
+import {Dimensions} from 'react-native';
 
 import CenterView from '../../CenterView';
-
+const {height} = Dimensions.get('window');
 const textColorKeys = Object.keys(
   defaultTextLightColor,
 ) as (keyof ITextColors)[];

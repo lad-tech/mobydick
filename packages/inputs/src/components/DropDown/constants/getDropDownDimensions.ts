@@ -1,10 +1,6 @@
 import {Platform} from 'react-native';
 
-import {
-  borderButtonWidth,
-  dropDownListItemMultiplier,
-  dropDownMarginFromButton,
-} from './constants';
+import {borderButtonWidth, dropDownListItemMultiplier} from './constants';
 
 interface IGetDimensionsParams {
   pageY: number;
@@ -63,8 +59,8 @@ export const getDropDownDimensions = ({
     });
   const listUnderPosition =
     Platform.OS === 'android'
-      ? dropDownHeight + pageY + dropDownMarginFromButton * 2
-      : pageY - topIosMargin + dropDownHeight + dropDownMarginFromButton * 2;
+      ? dropDownHeight + pageY + flatListPaddingVertical * 2
+      : pageY - topIosMargin + dropDownHeight + flatListPaddingVertical * 2;
   const listAbovePosition =
     pageY - topIosMargin - dropDownViewHeight - borderButtonWidth * 2;
   const expectedEndPositionOnScreen =
