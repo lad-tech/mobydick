@@ -1,6 +1,6 @@
 import {Platform} from 'react-native';
 
-import getIosSafeAreaHeights from '../GetIosSafeAreaHeights';
+import getIosSafeAreaHeights from '../getIosSafeAreaHeights';
 
 describe('@npm/mobydick-inputs/DropDownFunctions', () => {
   it('must return 0 margins for Android', () => {

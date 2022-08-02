@@ -1,6 +1,9 @@
 import {Platform} from 'react-native';
 
-import {BORDER_BUTTON_WIDTH, DROP_DOWN_LIST_ITEM_MULTIPLIER} from './constants';
+import {
+  BORDER_BUTTON_WIDTH,
+  DROP_DOWN_LIST_ITEM_MULTIPLIER,
+} from '../constants';
 
 interface IGetDimensionsParams {
   pageY: number;

@@ -1,7 +1,6 @@
 import {Platform} from 'react-native';
 
 import {IPhoneModelEnum, IMarginsForIos} from '../types';
-
 import {
   BOTTOMBAR_DEFAULT_HEIGHT,
   BOTTOMBAR_IP_X_AND_AFTER_HEIGHT,
@@ -9,7 +8,7 @@ import {
   STATUSBAR_IP12_13_HEIGHT,
   STATUSBAR_IP12M_13_MINI_HEIGHT,
   STATUSBAR_X_XS_11PRO_HEIGHT,
-} from './constants';
+} from '../constants';
 
 const getIosSafeAreaHeights = (model: string): IMarginsForIos => {
   if (

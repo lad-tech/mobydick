@@ -18,13 +18,13 @@ import {
   DEFAULT_DROP_DOWN_HEIGHT,
   DEFAULT_DROP_DOWN_WIDTH,
   DROP_DOWN_POPUP_ID,
-} from './constants/constants';
+} from './constants';
 import Icon from './components/DropDownIcon';
-import getIosSafeAreaHeights from './constants/GetIosSafeAreaHeights';
+import getIosSafeAreaHeights from './utils/getIosSafeAreaHeights';
 import {
   getDropDownDimensions,
   getDropDownHeights,
-} from './constants/getDropDownDimensions';
+} from './utils/getDropDownDimensions';
 
 const keyExtractor = (item: string, index: number) =>
   index.toString() + item.toString();
