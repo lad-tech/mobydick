@@ -52,8 +52,16 @@ const renderItem =
       addFlatListTextFont,
     } = props;
 
+    const getFont = () => {
+      if (item === selectedItem) {
+        return addFlatListTextFontPressed || 'Medium-Primary-M';
+      }
+      return addFlatListTextFont || 'Regular-Secondary-M';
+    };
+
     return (
       <TouchableHighlight
+        accessibilityLabel={item}
         style={[
           styles.dropDownItem,
           addFlatListItemStyle,
@@ -78,15 +86,7 @@ const renderItem =
               ? addFlatListTextStylePressed
               : addFlatListTextStyle
           }
-          font={
-            item === selectedItem
-              ? addFlatListTextFontPressed
-                ? addFlatListTextFontPressed
-                : 'Medium-Primary-M'
-              : addFlatListTextFont
-              ? addFlatListTextFont
-              : 'Regular-Secondary-M'
-          }>
+          font={getFont()}>
           {item}
         </Typography>
       </TouchableHighlight>
@@ -137,9 +137,7 @@ const Selector = (props: IItemsProps) => {
 
   const {height} = useDimensions().window;
 
-  const model = getModel();
-
-  const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(model);
+  const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(getModel());
 
   const {
     listAbovePosition,
