@@ -12,7 +12,7 @@ import {
   DROP_DOWN_POPUP_ID,
 } from './constants';
 import Icon from './components/DropDownIcon';
-import Items from './components/Items';
+import Selector from './components/Selector';
 
 const DropDown: FC<IDropDownProps> = props => {
   const {
@@ -70,7 +70,7 @@ const DropDown: FC<IDropDownProps> = props => {
     popupContext.openPopup({
       id: DROP_DOWN_POPUP_ID,
       Content: propsFromPopup => (
-        <Items
+        <Selector
           {...propsFromPopup}
           list={list}
           pageY={pageY}

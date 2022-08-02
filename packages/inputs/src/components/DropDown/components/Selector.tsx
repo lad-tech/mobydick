@@ -114,7 +114,7 @@ interface IItemsProps
   pageY: number;
   renderItemOnPress: (item: string) => void;
 }
-const Items = (props: IItemsProps) => {
+const Selector = (props: IItemsProps) => {
   const {
     list,
     pageY,
@@ -204,4 +204,4 @@ const Items = (props: IItemsProps) => {
   );
 };
 
-export default Items;
+export default Selector;
