@@ -26,12 +26,6 @@ exports[`@npm/mobydick-inputs/DropDown buttonPress 1`] = `
   </Text>
   <View
     collapsable={false}
-    style={
-      Object {
-        "height": 48,
-        "width": 200,
-      }
-    }
   >
     <View
       accessible={true}
@@ -125,12 +119,6 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 2 elements 1`] = `
   </Text>
   <View
     collapsable={false}
-    style={
-      Object {
-        "height": 48,
-        "width": 200,
-      }
-    }
   >
     <View
       accessible={true}
@@ -225,12 +213,6 @@ Array [
     </Text>
     <View
       collapsable={false}
-      style={
-        Object {
-          "height": 48,
-          "width": 200,
-        }
-      }
     >
       <View
         accessible={true}
@@ -326,12 +308,6 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 30 elements 1`] = `
   </Text>
   <View
     collapsable={false}
-    style={
-      Object {
-        "height": 48,
-        "width": 200,
-      }
-    }
   >
     <View
       accessible={true}

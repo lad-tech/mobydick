@@ -67,7 +67,7 @@ const DropDown: FC<IDropDownProps> = props => {
 
   const model = getModel();
   const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(model);
-  const {dropDownMaxHeight, dropDownItemHeight} = getDropDownHeights({
+  const {dropDownItemHeight} = getDropDownHeights({
     dropDownHeight: addButtonStyle?.height
       ? +addButtonStyle.height
       : DEFAULT_DROP_DOWN_HEIGHT,
@@ -138,21 +138,25 @@ const DropDown: FC<IDropDownProps> = props => {
   };
 
   const openPopup = (pageY: number) => {
-    const {listAbovePosition, listUnderPosition, expectedEndPositionOnScreen} =
-      getDropDownDimensions({
-        pageY,
-        topIosMargin,
-        navBarHeight,
-        bottomIosMargin,
-        maxVisibleListLength,
-        dropDownHeight: addButtonStyle?.height
-          ? +addButtonStyle.height
-          : DEFAULT_DROP_DOWN_HEIGHT,
-        flatListPaddingVertical: addFlatListStyle?.paddingVertical
-          ? +addFlatListStyle.paddingVertical
-          : styles.flatList.paddingVertical,
-        listLength: list.length,
-      });
+    const {
+      listAbovePosition,
+      listUnderPosition,
+      expectedEndPositionOnScreen,
+      dropDownMaxHeight,
+    } = getDropDownDimensions({
+      pageY,
+      topIosMargin,
+      navBarHeight,
+      bottomIosMargin,
+      maxVisibleListLength,
+      dropDownHeight: addButtonStyle?.height
+        ? +addButtonStyle.height
+        : DEFAULT_DROP_DOWN_HEIGHT,
+      flatListPaddingVertical: addFlatListStyle?.paddingVertical
+        ? +addFlatListStyle.paddingVertical
+        : styles.flatList.paddingVertical,
+      listLength: list.length,
+    });
     popupContext.openPopup({
       id: DROP_DOWN_POPUP_ID,
       Content: props => {
@@ -201,17 +205,7 @@ const DropDown: FC<IDropDownProps> = props => {
           {label}
         </Typography>
       )}
-      <View
-        collapsable={false}
-        ref={dropDownRef}
-        style={{
-          height: addButtonStyle?.height
-            ? addButtonStyle.height
-            : DEFAULT_DROP_DOWN_HEIGHT,
-          width: addButtonStyle?.width
-            ? addButtonStyle.width
-            : DEFAULT_DROP_DOWN_WIDTH,
-        }}>
+      <View collapsable={false} ref={dropDownRef}>
         <TouchableOpacity
           style={[
             styles.button,
@@ -252,7 +246,7 @@ const DropDown: FC<IDropDownProps> = props => {
                 : 'Regular-Muted-M'
             }
             numberOfLines={1}>
-            {chosen ? chosen : placeholder}
+            {chosen || placeholder}
           </Typography>
           <Icon isOpen={isOpen} rightIcon={rightIcon} />
         </TouchableOpacity>
