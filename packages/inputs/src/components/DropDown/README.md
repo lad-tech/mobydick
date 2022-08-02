@@ -34,7 +34,7 @@ Author - Aleksei Smirnov
    * addButtonTextFont?: TypographyProp; - кастомный шрифт для текста кнопки с дефолтным **Placeholder**
    * addButtonTextFontChosen?: TypographyProp; - кастомный шрифт для текста кнопки при выбранном элементе - **selectedItem**
    * addFlatListTextStyle?: TextStyle; - стиль текста для не выбранных элементов в списке **FlatList** 
-   * addFlatListTextStylePressed?: TextStyle; стиль текста для не выбранного элемента в списке **FlatList** - **selectedItem**
+   * addFlatListTextStylePressed?: TextStyle; стиль текста для выбранного элемента в списке **FlatList** - **selectedItem**
    * addFlatListTextFont?: TypographyProp; - шрифт для текста для не выбранных элементов в списке **FlatList**
    * addFlatListTextFontPressed?: TypographyProp; шрифт для текста для не выбранного элемента в списке **FlatList** - **selectedItem**
    * selectedItemColor?: string; - цвет выбранного элемента в списке при нажатии на него - подсветка **TouchableHighLight**
