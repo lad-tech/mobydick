@@ -1,5 +1,5 @@
 import {storiesOf} from '@storybook/react-native';
-import React from 'react';
+import React, {useState} from 'react';
 import {DropDown} from '@npm/mobydick-inputs';
 import {array, number, select, text} from '@storybook/addon-knobs';
 import {PopupsProvider} from '@npm/mobydick-popups';
@@ -11,7 +11,6 @@ import {
   SimpleIcon,
   SimpleIconName,
 } from '@npm/mobydick-styles';
-import {action} from '@storybook/addon-actions';
 import {
   TEXT,
   TFontColor,
@@ -27,22 +26,12 @@ const textColorKeys = Object.keys(
 ) as (keyof ITextColors)[];
 const fontColors = textColorKeys.map(item => item.slice(TEXT.length));
 
-// тут лютые отступы и ScrollView, чтобы потестить DropDown в боевых условиях <3
-storiesOf('Design System/Inputs/DropDown', module)
-  .addDecorator(getStory => (
-    <PopupsProvider>
-      <CenterView>
-        <ScrollView>
-          <View style={{height: height * 2}}>
-            <View style={{marginTop: height / 1.3}}>{getStory()}</View>
-          </View>
-        </ScrollView>
-      </CenterView>
-    </PopupsProvider>
-  ))
-  .add('basic', () => (
+const Example = () => {
+  const [selected, setSelected] = useState('');
+
+  return (
     <DropDown
-      selectedItem={text('SelectedItem', '')}
+      selectedItem={selected}
       placeholder={text('Placeholder', 'Выберите язык')}
       label={text('title', 'Язык')}
       list={array('list', [
@@ -56,7 +45,7 @@ storiesOf('Design System/Inputs/DropDown', module)
 
         'Bolgarian',
       ])}
-      onPress={action('onPress')}
+      onPress={setSelected}
       rightIcon={
         <SimpleIcon
           name={
@@ -136,4 +125,19 @@ storiesOf('Design System/Inputs/DropDown', module)
         TFontSize.M,
       )}`}
     />
-  ));
+  );
+};
+// тут лютые отступы и ScrollView, чтобы потестить DropDown в боевых условиях <3
+storiesOf('Design System/Inputs/DropDown', module)
+  .addDecorator(getStory => (
+    <PopupsProvider>
+      <CenterView>
+        <ScrollView>
+          <View style={{height: height * 2}}>
+            <View style={{marginTop: height / 1.3}}>{getStory()}</View>
+          </View>
+        </ScrollView>
+      </CenterView>
+    </PopupsProvider>
+  ))
+  .add('basic', () => <Example />);
