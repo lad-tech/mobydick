@@ -89,7 +89,7 @@ const parser = yargs(process.argv.slice(2))
     path.join(__dirname, '../android'),
     path.join(__dirname, '../ios'),
   ]);
-  await git.commit(`[release] Version: ${incrementedVersion}`);
+  await git.commit(`[release] Version: ${incrementedVersion} [skip ci]`);
   await git.push();
   await git.addTag(`v${incrementedVersion}`);
   await git.pushTags();
