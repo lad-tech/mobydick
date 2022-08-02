@@ -93,7 +93,10 @@
           {
             "path": "CHANGELOG.md",
             "label": "Changelog"
-          }
+          },
+          "ios/MobyDick*/Info.plist",
+          "ios/MobyDick.xcodeproj/project.pbxproj",
+          "android/app/build.gradle"
         ]
       }
     ]
