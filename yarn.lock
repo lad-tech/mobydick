@@ -1860,6 +1860,11 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
+"@react-native-community/hooks@^2.8.1":
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/hooks/-/hooks-2.8.1.tgz#6e785431db49318048fdd14b601998437b6cc200"
+  integrity sha512-DCmCIC0Gn9m6K0Mlg2MwNmTxMEpBu5lTLsI6b/XUAv/vLGa6o+X7RhCai4FWeqkjCU36+ZOwaLzDo4NBWMXaoQ==
+
 "@react-native/assets@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-native/assets/-/assets-1.0.0.tgz#c6f9bf63d274bafc8e970628de24986b30a55c8e"
@@ -2647,7 +2652,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^17":
+"@types/react@*", "@types/react@17.0.43":
   version "17.0.43"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.43.tgz#4adc142887dd4a2601ce730bc56c3436fdb07a55"
   integrity sha512-8Q+LNpdxf057brvPu1lMtC5Vn7J119xrP1aq4qiaefNioQUYANF/CYeK4NsKorSZyUGJ66g0IM+4bbjwx45o2A==
@@ -10791,6 +10796,11 @@ react-native-codegen@^0.0.13:
     flow-parser "^0.121.0"
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
+
+react-native-device-info@9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-device-info/-/react-native-device-info-9.0.2.tgz#00c7ab139a620ac9650852cd0ef0fb69d9a4418d"
+  integrity sha512-+IfYZ/OuKjnFf7SFfgIzEqynSeFngrIHc5KgHUIfXusLDXIFJ+LhRBCD7skqnraHrfmESUOMjLbNcvy4SVdwSA==
 
 react-native-gradle-plugin@^0.0.5:
   version "0.0.5"
