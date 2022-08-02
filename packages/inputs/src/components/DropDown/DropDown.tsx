@@ -1,16 +1,8 @@
-import {
-  View,
-  TouchableHighlight,
-  TouchableOpacity,
-  ITouchableOpacity,
-  FlatList,
-} from '@npm/mobydick-core';
+import {View, TouchableOpacity, ITouchableOpacity} from '@npm/mobydick-core';
 import React, {FC, useRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
-import {PopupBase, usePopups} from '@npm/mobydick-popups';
-import {useDimensions} from '@react-native-community/hooks';
-import {getModel} from 'react-native-device-info';
+import {usePopups} from '@npm/mobydick-popups';
 
 import {IDropDownProps} from './types';
 import stylesCreate from './stylesCreate';
@@ -20,14 +12,7 @@ import {
   DROP_DOWN_POPUP_ID,
 } from './constants';
 import Icon from './components/DropDownIcon';
-import getIosSafeAreaHeights from './utils/getIosSafeAreaHeights';
-import {
-  getDropDownDimensions,
-  getDropDownHeights,
-} from './utils/getDropDownDimensions';
-
-const keyExtractor = (item: string, index: number) =>
-  index.toString() + item.toString();
+import Items from './components/Items';
 
 const DropDown: FC<IDropDownProps> = props => {
   const {
@@ -37,46 +22,33 @@ const DropDown: FC<IDropDownProps> = props => {
     selectedItem,
     onPress,
     rightIcon,
+    navBarHeight = 50,
+    maxVisibleListLength = 6,
+
+    selectedItemColor,
+
     addButtonStyle,
     addFlatListStyle,
-    addFlatListItemStyle,
-    navBarHeight = 50,
     addLabelStyle,
     addLabelFont,
     addButtonTextStyle,
     addButtonTextFont,
+    addFlatListItemStyle,
     addFlatListTextStyle,
     addFlatListTextFont,
     addFlatListTextFontPressed,
     addFlatListTextStylePressed,
-    selectedItemColor,
     addButtonTextStyleChosen,
     addButtonTextFontChosen,
-    maxVisibleListLength = 6,
   } = props;
   const [chosen, setChosen] = useState(selectedItem || '');
-  const [pressedItem, setPressedItem] = useState('');
   const [isOpen, setOpen] = useState(false);
 
   const popupContext = usePopups();
 
   const [styles, theme] = useStyles(stylesCreate);
-  const {height} = useDimensions().window;
 
   const dropDownRef = useRef<ITouchableOpacity>(null);
-
-  const model = getModel();
-  const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(model);
-  const {dropDownItemHeight} = getDropDownHeights({
-    dropDownHeight: addButtonStyle?.height
-      ? +addButtonStyle.height
-      : DEFAULT_DROP_DOWN_HEIGHT,
-    flatListPaddingVertical: addFlatListStyle?.paddingVertical
-      ? +addFlatListStyle.paddingVertical
-      : styles.flatList.paddingVertical,
-    listLength: list.length,
-    maxVisibleListLength,
-  });
 
   const checkPosition = () => {
     if (dropDownRef.current) {
@@ -89,110 +61,37 @@ const DropDown: FC<IDropDownProps> = props => {
 
   const renderItemOnPress = (item: string) => {
     onPress(item);
-    setPressedItem(item);
     setOpen(false);
     setChosen(item);
     popupContext.closePopup(DROP_DOWN_POPUP_ID);
   };
 
-  const renderItem = ({item}: {item: string}) => {
-    return (
-      <TouchableHighlight
-        style={[
-          styles.dropDownItem,
-          addFlatListItemStyle,
-          {
-            height: addFlatListItemStyle?.height
-              ? addFlatListItemStyle.height
-              : dropDownItemHeight,
-          },
-          item === pressedItem
-            ? selectedItemColor
-              ? {backgroundColor: selectedItemColor}
-              : {backgroundColor: theme.colors.BgAccentSoft}
-            : null,
-        ]}
-        onPress={() => renderItemOnPress(item)}
-        underlayColor={
-          selectedItemColor ? selectedItemColor : theme.colors.BgAccentSoft
-        }>
-        <Typography
-          style={
-            item === pressedItem
-              ? addFlatListTextStylePressed
-              : addFlatListTextStyle
-          }
-          font={
-            item === pressedItem
-              ? addFlatListTextFontPressed
-                ? addFlatListTextFontPressed
-                : 'Medium-Primary-M'
-              : addFlatListTextFont
-              ? addFlatListTextFont
-              : 'Regular-Secondary-M'
-          }>
-          {item}
-        </Typography>
-      </TouchableHighlight>
-    );
-  };
-
   const openPopup = (pageY: number) => {
-    const {
-      listAbovePosition,
-      listUnderPosition,
-      expectedEndPositionOnScreen,
-      dropDownMaxHeight,
-    } = getDropDownDimensions({
-      pageY,
-      topIosMargin,
-      navBarHeight,
-      bottomIosMargin,
-      maxVisibleListLength,
-      dropDownHeight: addButtonStyle?.height
-        ? +addButtonStyle.height
-        : DEFAULT_DROP_DOWN_HEIGHT,
-      flatListPaddingVertical: addFlatListStyle?.paddingVertical
-        ? +addFlatListStyle.paddingVertical
-        : styles.flatList.paddingVertical,
-      listLength: list.length,
-    });
     popupContext.openPopup({
       id: DROP_DOWN_POPUP_ID,
-      Content: props => {
-        return (
-          <PopupBase
-            onClose={() => {
-              setOpen(false);
-              props.onClose();
-            }}
-            overlayStyle={{backgroundColor: 'transparent'}}>
-            <FlatList
-              bounces={false}
-              style={[
-                styles.flatList,
-                addFlatListStyle,
-                {
-                  width: addFlatListStyle?.width
-                    ? addFlatListStyle.width
-                    : addButtonStyle?.width
-                    ? addButtonStyle.width
-                    : DEFAULT_DROP_DOWN_WIDTH,
-                },
-                expectedEndPositionOnScreen > height
-                  ? {top: listAbovePosition}
-                  : {top: listUnderPosition},
-                {
-                  maxHeight: dropDownMaxHeight,
-                },
-              ]}
-              data={list}
-              renderItem={renderItem}
-              keyExtractor={keyExtractor}
-            />
-          </PopupBase>
-        );
-      },
+      Content: propsFromPopup => (
+        <Items
+          {...propsFromPopup}
+          list={list}
+          pageY={pageY}
+          navBarHeight={navBarHeight}
+          maxVisibleListLength={maxVisibleListLength}
+          selectedItem={selectedItem}
+          selectedItemColor={selectedItemColor}
+          renderItemOnPress={renderItemOnPress}
+          addButtonStyle={addButtonStyle}
+          addFlatListStyle={addFlatListStyle}
+          addFlatListItemStyle={addFlatListItemStyle}
+          addFlatListTextStyle={addFlatListTextStyle}
+          addFlatListTextFont={addFlatListTextFont}
+          addFlatListTextFontPressed={addFlatListTextFontPressed}
+          addFlatListTextStylePressed={addFlatListTextStylePressed}
+          onClose={() => {
+            setOpen(false);
+            propsFromPopup.onClose();
+          }}
+        />
+      ),
     });
   };
 

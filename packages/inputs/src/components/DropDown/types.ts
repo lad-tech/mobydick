@@ -8,22 +8,22 @@ export interface IDropDownProps {
   placeholder: string;
   list: string[];
   onPress: (item: string) => void;
-  selectedItem?: string;
+  selectedItem?: string | undefined;
   navBarHeight?: number;
-  addButtonStyle?: ViewStyle;
-  addFlatListStyle?: ViewStyle;
-  addFlatListItemStyle?: ViewStyle;
-  addLabelStyle?: TextStyle;
-  addLabelFont?: TypographyProp;
-  addButtonTextStyle?: TextStyle;
-  addButtonTextStyleChosen?: TextStyle;
-  addButtonTextFont?: TypographyProp;
-  addButtonTextFontChosen?: TypographyProp;
-  addFlatListTextStyle?: TextStyle;
-  addFlatListTextStylePressed?: TextStyle;
-  addFlatListTextFont?: TypographyProp;
-  addFlatListTextFontPressed?: TypographyProp;
-  selectedItemColor?: string;
+  addButtonStyle?: ViewStyle | undefined;
+  addFlatListStyle?: ViewStyle | undefined;
+  addFlatListItemStyle?: ViewStyle | undefined;
+  addLabelStyle?: TextStyle | undefined;
+  addLabelFont?: TypographyProp | undefined;
+  addButtonTextStyle?: TextStyle | undefined;
+  addButtonTextStyleChosen?: TextStyle | undefined;
+  addButtonTextFont?: TypographyProp | undefined;
+  addButtonTextFontChosen?: TypographyProp | undefined;
+  addFlatListTextStyle?: TextStyle | undefined;
+  addFlatListTextStylePressed?: TextStyle | undefined;
+  addFlatListTextFont?: TypographyProp | undefined;
+  addFlatListTextFontPressed?: TypographyProp | undefined;
+  selectedItemColor?: string | undefined;
   maxVisibleListLength?: number;
 }
 
