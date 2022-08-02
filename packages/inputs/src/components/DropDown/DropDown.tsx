@@ -7,6 +7,7 @@ import {usePopups} from '@npm/mobydick-popups';
 import {IDropDownProps} from './types';
 import stylesCreate from './stylesCreate';
 import {
+  ACCESSIBILITY_LABEL,
   DEFAULT_DROP_DOWN_HEIGHT,
   DEFAULT_DROP_DOWN_WIDTH,
   DROP_DOWN_POPUP_ID,
@@ -95,6 +96,11 @@ const DropDown: FC<IDropDownProps> = props => {
     });
   };
 
+  const getFont = () => {
+    if (chosen) return addButtonTextFontChosen || 'Regular-Primary-M';
+    return addButtonTextFont || 'Regular-Muted-M';
+  };
+
   return (
     <View style={styles.container}>
       {Boolean(label) && (
@@ -132,18 +138,10 @@ const DropDown: FC<IDropDownProps> = props => {
                 },
           ]}
           onPress={checkPosition}
-          testID={'drop_down_button'}>
+          accessibilityLabel={ACCESSIBILITY_LABEL.selector}>
           <Typography
             style={chosen ? addButtonTextStyleChosen : addButtonTextStyle}
-            font={
-              chosen
-                ? addButtonTextFontChosen
-                  ? addButtonTextFontChosen
-                  : 'Regular-Primary-M'
-                : addButtonTextFont
-                ? addButtonTextFont
-                : 'Regular-Muted-M'
-            }
+            font={getFont()}
             numberOfLines={1}>
             {chosen || placeholder}
           </Typography>
