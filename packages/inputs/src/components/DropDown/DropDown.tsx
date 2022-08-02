@@ -5,7 +5,7 @@ import {
   ITouchableOpacity,
   FlatList,
 } from '@npm/mobydick-core';
-import React, {FC, useCallback, useRef, useState} from 'react';
+import React, {FC, useRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 import {PopupBase, usePopups} from '@npm/mobydick-popups';
@@ -25,6 +25,9 @@ import {
   getDropDownDimensions,
   getDropDownHeights,
 } from './constants/getDropDownDimensions';
+
+const keyExtractor = (item: string, index: number) =>
+  index.toString() + item.toString();
 
 const DropDown: FC<IDropDownProps> = props => {
   const {
@@ -74,11 +77,6 @@ const DropDown: FC<IDropDownProps> = props => {
     listLength: list.length,
     maxVisibleListLength,
   });
-
-  const keyExtractor = useCallback(
-    (item: string, index: number) => index.toString() + item.toString(),
-    [],
-  );
 
   const checkPosition = () => {
     if (dropDownRef.current) {
