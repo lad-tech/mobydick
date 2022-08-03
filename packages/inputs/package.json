@@ -17,7 +17,7 @@
     "@npm/mobydick-core": "0.0.0-alpha.12",
     "@npm/mobydick-typography": "0.0.0-alpha.12",
     "@react-native-community/hooks": "^2.8.1",
-    "react-native-device-info": "9.0.2"
+    "react-native-device-info": "10.0.2"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
