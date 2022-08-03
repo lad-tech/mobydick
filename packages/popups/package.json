@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-popups",
-  "version": "0.0.0-alpha.12",
+  "version": "1.0.1",
   "description": "Popups on MobyDick core",
   "main": "index.ts",
   "scripts": {
@@ -13,8 +13,8 @@
     "react": ">=17.0.2"
   },
   "dependencies": {
-    "@npm/mobydick-styles": "0.0.0-alpha.12",
-    "@npm/mobydick-core": "0.0.0-alpha.12"
+    "@npm/mobydick-styles": "1.0.1",
+    "@npm/mobydick-core": "1.0.1"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
