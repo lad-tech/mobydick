@@ -158,6 +158,9 @@ const Selector = (props: IItemsProps) => {
       ? +addFlatListStyle.paddingVertical
       : styles.flatList.paddingVertical,
     listLength: list.length,
+    addFlatListItemHeight: addFlatListItemStyle?.height
+      ? +addFlatListItemStyle.height
+      : undefined,
   });
   return (
     <PopupBase

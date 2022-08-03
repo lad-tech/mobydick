@@ -13,11 +13,12 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         flatListPaddingVertical: 8,
         listLength: 6,
         maxVisibleListLength: 6,
+        addFlatListItemHeight: 32,
       }),
     ).toEqual({
-      dropDownMaxHeight: 256,
-      dropDownItemHeight: 40,
-      dropDownViewHeight: 256,
+      dropDownMaxHeight: 208,
+      dropDownItemHeight: 32,
+      dropDownViewHeight: 208,
     });
   });
   it('must actual dimensions list 5', () => {
@@ -27,6 +28,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         flatListPaddingVertical: 6,
         listLength: 5,
         maxVisibleListLength: 6,
+        addFlatListItemHeight: 32,
       }),
     ).toEqual({
       dropDownMaxHeight: 204,
@@ -41,6 +43,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         flatListPaddingVertical: 4,
         listLength: 8,
         maxVisibleListLength: 6,
+        addFlatListItemHeight: 32,
       }),
     ).toEqual({
       dropDownMaxHeight: 200,
@@ -59,13 +62,14 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         listLength: 8,
         navBarHeight: 50,
         maxVisibleListLength: 6,
+        addFlatListItemHeight: 32,
       }),
     ).toEqual({
       listUnderPosition: 472,
-      listAbovePosition: -722,
-      expectedEndPositionOnScreen: 1560,
-      dropDownMaxHeight: 976,
-      dropDownItemHeight: 160,
+      listAbovePosition: 46,
+      expectedEndPositionOnScreen: 792,
+      dropDownMaxHeight: 208,
+      dropDownItemHeight: 32,
     });
   });
   it('must return actual position list 5', () => {
@@ -79,6 +83,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         listLength: 5,
         navBarHeight: 50,
         maxVisibleListLength: 6,
+        addFlatListItemHeight: 32,
       }),
     ).toEqual({
       listUnderPosition: 140,
@@ -100,6 +105,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         listLength: 5,
         navBarHeight: 50,
         maxVisibleListLength: 6,
+        addFlatListItemHeight: 32,
       }),
     ).toEqual({
       listUnderPosition: 184,
