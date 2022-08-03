@@ -14,6 +14,7 @@ interface IGetDimensionsParams {
   flatListPaddingVertical: number;
   listLength: number;
   maxVisibleListLength: number;
+  addFlatListItemHeight: number | undefined;
 }
 
 interface IGetDropDownHeightsParams {
@@ -21,6 +22,7 @@ interface IGetDropDownHeightsParams {
   flatListPaddingVertical: number;
   listLength: number;
   maxVisibleListLength: number;
+  addFlatListItemHeight: number | undefined;
 }
 
 export const getDropDownHeights = ({
@@ -28,8 +30,11 @@ export const getDropDownHeights = ({
   flatListPaddingVertical,
   listLength,
   maxVisibleListLength,
+  addFlatListItemHeight,
 }: IGetDropDownHeightsParams) => {
-  const dropDownItemHeight = dropDownHeight * DROP_DOWN_LIST_ITEM_MULTIPLIER;
+  const dropDownItemHeight = addFlatListItemHeight
+    ? addFlatListItemHeight
+    : dropDownHeight * DROP_DOWN_LIST_ITEM_MULTIPLIER;
   const dropDownMaxHeight =
     dropDownItemHeight * maxVisibleListLength + flatListPaddingVertical * 2;
   const dropDownViewHeight =
@@ -52,6 +57,7 @@ export const getDropDownDimensions = ({
   flatListPaddingVertical,
   listLength,
   maxVisibleListLength,
+  addFlatListItemHeight,
 }: IGetDimensionsParams) => {
   const {dropDownViewHeight, dropDownMaxHeight, dropDownItemHeight} =
     getDropDownHeights({
@@ -59,6 +65,7 @@ export const getDropDownDimensions = ({
       flatListPaddingVertical,
       listLength,
       maxVisibleListLength,
+      addFlatListItemHeight,
     });
   const listUnderPosition =
     Platform.OS === 'android'

@@ -59,8 +59,8 @@ const Example = () => {
       }}
       addFlatListItemStyle={{
         height: number('Высота элемента списка', 32),
-        width: number('Ширина элемента списка', 300),
       }}
+      addFlatListStyle={{width: number('Ширина списка', 300)}}
       addButtonTextFont={`${
         select(
           'Начертание текста кнопки',
