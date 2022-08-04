@@ -13,6 +13,7 @@ export const BOTTOMBAR_IP_X_AND_AFTER_HEIGHT = 34;
 
 export const DEFAULT_DROP_DOWN_HEIGHT = 48;
 export const DEFAULT_DROP_DOWN_WIDTH = 200;
+export const DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON = 8;
 
 export const ACCESSIBILITY_LABEL = {
   selector: 'selector',

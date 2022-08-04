@@ -63,6 +63,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         navBarHeight: 50,
         maxVisibleListLength: 6,
         addFlatListItemHeight: 32,
+        dropDownBorderWidth: 1,
       }),
     ).toEqual({
       listUnderPosition: 472,
@@ -84,6 +85,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         navBarHeight: 50,
         maxVisibleListLength: 6,
         addFlatListItemHeight: 32,
+        dropDownBorderWidth: 1,
       }),
     ).toEqual({
       listUnderPosition: 140,
@@ -106,10 +108,11 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         navBarHeight: 50,
         maxVisibleListLength: 6,
         addFlatListItemHeight: 32,
+        dropDownBorderWidth: 1,
       }),
     ).toEqual({
       listUnderPosition: 184,
-      listAbovePosition: -94,
+      listAbovePosition: -92,
       expectedEndPositionOnScreen: 428,
       dropDownMaxHeight: 208,
       dropDownItemHeight: 32,

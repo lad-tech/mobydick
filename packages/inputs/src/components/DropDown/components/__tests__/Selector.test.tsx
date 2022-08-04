@@ -7,6 +7,7 @@ import * as getDropDownDimensions from '../../utils/getDropDownDimensions';
 describe('@npm/mobydick-inputs/Selector', () => {
   const list: string[] = ['list'];
   const renderItemOnPress = jest.fn();
+  const largeList: string[] = ['1', '2', '3', '4', '5', '6', '7'];
 
   it('renders correctly ', async () => {
     const {toJSON, findByLabelText} = render(
@@ -24,6 +25,18 @@ describe('@npm/mobydick-inputs/Selector', () => {
     fireEvent.press(item);
 
     expect(renderItemOnPress).toHaveBeenCalledWith('list');
+  });
+  it('renders correctly with bottom padding', async () => {
+    const {toJSON} = render(
+      <Selector
+        list={largeList}
+        onClose={jest.fn()}
+        pageY={1}
+        renderItemOnPress={renderItemOnPress}
+      />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
   });
   it('render correct renderItem TouchableHighlight with custom style', () => {
     const {toJSON, rerender} = render(
@@ -130,7 +143,9 @@ describe('@npm/mobydick-inputs/Selector', () => {
     );
 
     expect(spy).toHaveBeenLastCalledWith({
+      addFlatListItemHeight: undefined,
       bottomIosMargin: 0,
+      dropDownBorderWidth: 1,
       dropDownHeight: 48,
       flatListPaddingVertical: 2,
       listLength: 1,
@@ -153,7 +168,9 @@ describe('@npm/mobydick-inputs/Selector', () => {
     );
 
     expect(spy).toHaveBeenLastCalledWith({
+      addFlatListItemHeight: undefined,
       bottomIosMargin: 0,
+      dropDownBorderWidth: 1,
       dropDownHeight: 10,
       flatListPaddingVertical: 2,
       listLength: 1,
@@ -186,6 +203,18 @@ describe('@npm/mobydick-inputs/Selector', () => {
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
         addButtonStyle={{width: 2}}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+
+    rerender(
+      <Selector
+        list={list}
+        onClose={jest.fn()}
+        pageY={1000000}
+        renderItemOnPress={renderItemOnPress}
+        selectedItem={list[0]}
+        addButtonStyle={{width: 2, borderWidth: 2}}
       />,
     );
     expect(toJSON()).toMatchSnapshot();
