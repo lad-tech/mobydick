@@ -43,7 +43,7 @@ const Example = () => {
 
         'Japanese',
 
-        'Bolgarian',
+        'Bulgarian',
       ])}
       onPress={setSelected}
       rightIcon={

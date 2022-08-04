@@ -7,7 +7,11 @@ import {Typography} from '@npm/mobydick-typography';
 import {useStyles} from '@npm/mobydick-styles';
 import {StyleSheet, ViewStyle} from 'react-native';
 
-import {DEFAULT_DROP_DOWN_HEIGHT, DEFAULT_DROP_DOWN_WIDTH} from '../constants';
+import {
+  BORDER_BUTTON_WIDTH,
+  DEFAULT_DROP_DOWN_HEIGHT,
+  DEFAULT_DROP_DOWN_WIDTH,
+} from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
 import getIosSafeAreaHeights from '../utils/getIosSafeAreaHeights';
 import stylesCreate from '../stylesCreate';
@@ -139,6 +143,12 @@ const Selector = (props: IItemsProps) => {
 
   const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(getModel());
 
+  const isNeedFooterPadding = list.length > maxVisibleListLength;
+
+  const flatListPaddingVertical = addFlatListStyle?.paddingVertical
+    ? +addFlatListStyle.paddingVertical
+    : styles.flatList.paddingVertical;
+
   const {
     listAbovePosition,
     listUnderPosition,
@@ -154,13 +164,14 @@ const Selector = (props: IItemsProps) => {
     dropDownHeight: addButtonStyle?.height
       ? +addButtonStyle.height
       : DEFAULT_DROP_DOWN_HEIGHT,
-    flatListPaddingVertical: addFlatListStyle?.paddingVertical
-      ? +addFlatListStyle.paddingVertical
-      : styles.flatList.paddingVertical,
+    flatListPaddingVertical: flatListPaddingVertical,
     listLength: list.length,
     addFlatListItemHeight: addFlatListItemStyle?.height
       ? +addFlatListItemStyle.height
       : undefined,
+    dropDownBorderWidth: addButtonStyle?.borderWidth
+      ? addButtonStyle.borderWidth
+      : BORDER_BUTTON_WIDTH,
   });
   return (
     <PopupBase
@@ -185,6 +196,11 @@ const Selector = (props: IItemsProps) => {
             maxHeight: dropDownMaxHeight,
           },
         ]}
+        contentContainerStyle={
+          isNeedFooterPadding
+            ? {paddingBottom: flatListPaddingVertical * 2}
+            : null
+        }
         data={list}
         renderItem={renderItem({
           renderItemOnPress,
