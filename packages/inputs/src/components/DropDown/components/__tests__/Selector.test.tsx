@@ -26,7 +26,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
 
     expect(renderItemOnPress).toHaveBeenCalledWith('list');
   });
-  it('renders correctly with footer component', async () => {
+  it('renders correctly with bottom padding', async () => {
     const {toJSON} = render(
       <Selector
         list={largeList}
@@ -143,7 +143,9 @@ describe('@npm/mobydick-inputs/Selector', () => {
     );
 
     expect(spy).toHaveBeenLastCalledWith({
+      addFlatListItemHeight: undefined,
       bottomIosMargin: 0,
+      dropDownBorderWidth: 1,
       dropDownHeight: 48,
       flatListPaddingVertical: 2,
       listLength: 1,
@@ -166,7 +168,9 @@ describe('@npm/mobydick-inputs/Selector', () => {
     );
 
     expect(spy).toHaveBeenLastCalledWith({
+      addFlatListItemHeight: undefined,
       bottomIosMargin: 0,
+      dropDownBorderWidth: 1,
       dropDownHeight: 10,
       flatListPaddingVertical: 2,
       listLength: 1,
@@ -199,6 +203,18 @@ describe('@npm/mobydick-inputs/Selector', () => {
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
         addButtonStyle={{width: 2}}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+
+    rerender(
+      <Selector
+        list={list}
+        onClose={jest.fn()}
+        pageY={1000000}
+        renderItemOnPress={renderItemOnPress}
+        selectedItem={list[0]}
+        addButtonStyle={{width: 2, borderWidth: 2}}
       />,
     );
     expect(toJSON()).toMatchSnapshot();

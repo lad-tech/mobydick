@@ -32,8 +32,8 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={<ForwardRef />}
     bounces={false}
+    contentContainerStyle={null}
     data={
       Array [
         "list",
@@ -129,11 +129,6 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
           </Text>
         </View>
       </View>
-      <View
-        onLayout={[Function]}
-      >
-        <View />
-      </View>
     </View>
   </RCTScrollView>
 </View>
@@ -171,8 +166,8 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={<ForwardRef />}
     bounces={false}
+    contentContainerStyle={null}
     data={
       Array [
         "list",
@@ -266,10 +261,137 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
           </Text>
         </View>
       </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "height": "100%",
+        "justifyContent": "flex-end",
+        "position": "absolute",
+        "width": "100%",
+      },
+      Object {
+        "backgroundColor": "transparent",
+      },
+    ]
+  }
+  testID="Pressable"
+>
+  <RCTScrollView
+    bounces={false}
+    contentContainerStyle={null}
+    data={
+      Array [
+        "list",
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "rgba(32, 36, 45, 0.15)",
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "paddingVertical": 8,
+          "position": "absolute",
+        },
+        undefined,
+        Object {
+          "width": 2,
+        },
+        Object {
+          "top": 999921.6,
+        },
+        Object {
+          "maxHeight": 246.40000000000003,
+        },
+      ]
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
       <View
         onLayout={[Function]}
+        style={null}
       >
-        <View />
+        <View
+          accessibilityLabel="list"
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "justifyContent": "center",
+                "paddingHorizontal": 12,
+              },
+              undefined,
+              Object {
+                "height": 38.400000000000006,
+              },
+              Object {
+                "backgroundColor": "rgba(43, 120, 238, 0.15)",
+              },
+            ]
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Medium",
+                  "fontSize": 16,
+                  "lineHeight": 20,
+                },
+                undefined,
+              ]
+            }
+          >
+            list
+          </Text>
+        </View>
       </View>
     </View>
   </RCTScrollView>
@@ -308,8 +430,8 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={<ForwardRef />}
     bounces={false}
+    contentContainerStyle={null}
     data={
       Array [
         "list",
@@ -405,11 +527,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
           </Text>
         </View>
       </View>
-      <View
-        onLayout={[Function]}
-      >
-        <View />
-      </View>
     </View>
   </RCTScrollView>
 </View>
@@ -447,8 +564,8 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={<ForwardRef />}
     bounces={false}
+    contentContainerStyle={null}
     data={
       Array [
         "list",
@@ -544,11 +661,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
           </Text>
         </View>
       </View>
-      <View
-        onLayout={[Function]}
-      >
-        <View />
-      </View>
     </View>
   </RCTScrollView>
 </View>
@@ -586,8 +698,8 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={<ForwardRef />}
     bounces={false}
+    contentContainerStyle={null}
     data={
       Array [
         "list",
@@ -680,11 +792,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
             list
           </Text>
         </View>
-      </View>
-      <View
-        onLayout={[Function]}
-      >
-        <View />
       </View>
     </View>
   </RCTScrollView>
@@ -723,8 +830,8 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={<ForwardRef />}
     bounces={false}
+    contentContainerStyle={null}
     data={
       Array [
         "list",
@@ -818,11 +925,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
           </Text>
         </View>
       </View>
-      <View
-        onLayout={[Function]}
-      >
-        <View />
-      </View>
     </View>
   </RCTScrollView>
 </View>
@@ -860,8 +962,8 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={<ForwardRef />}
     bounces={false}
+    contentContainerStyle={null}
     data={
       Array [
         "list",
@@ -953,11 +1055,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
           </Text>
         </View>
       </View>
-      <View
-        onLayout={[Function]}
-      >
-        <View />
-      </View>
     </View>
   </RCTScrollView>
 </View>
@@ -995,8 +1092,8 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={<ForwardRef />}
     bounces={false}
+    contentContainerStyle={null}
     data={
       Array [
         "list",
@@ -1087,11 +1184,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
             list
           </Text>
         </View>
-      </View>
-      <View
-        onLayout={[Function]}
-      >
-        <View />
       </View>
     </View>
   </RCTScrollView>
@@ -1130,8 +1222,8 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={<ForwardRef />}
     bounces={false}
+    contentContainerStyle={null}
     data={
       Array [
         "list",
@@ -1222,11 +1314,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
             list
           </Text>
         </View>
-      </View>
-      <View
-        onLayout={[Function]}
-      >
-        <View />
       </View>
     </View>
   </RCTScrollView>
@@ -1265,8 +1352,8 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={<ForwardRef />}
     bounces={false}
+    contentContainerStyle={null}
     data={
       Array [
         "list",
@@ -1358,17 +1445,12 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
           </Text>
         </View>
       </View>
-      <View
-        onLayout={[Function]}
-      >
-        <View />
-      </View>
     </View>
   </RCTScrollView>
 </View>
 `;
 
-exports[`@npm/mobydick-inputs/Selector renders correctly with footer component 1`] = `
+exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`] = `
 <View
   accessible={true}
   collapsable={false}
@@ -1400,16 +1482,12 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with footer component 1
   testID="Pressable"
 >
   <RCTScrollView
-    ListFooterComponent={
-      <ForwardRef
-        style={
-          Object {
-            "height": 20,
-          }
-        }
-      />
-    }
     bounces={false}
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 16,
+      }
+    }
     data={
       Array [
         "1",
@@ -1788,17 +1866,6 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with footer component 1
             7
           </Text>
         </View>
-      </View>
-      <View
-        onLayout={[Function]}
-      >
-        <View
-          style={
-            Object {
-              "height": 20,
-            }
-          }
-        />
       </View>
     </View>
   </RCTScrollView>

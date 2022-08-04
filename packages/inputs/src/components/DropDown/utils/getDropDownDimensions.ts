@@ -1,7 +1,7 @@
 import {Platform} from 'react-native';
 
 import {
-  BORDER_BUTTON_WIDTH,
+  DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON,
   DROP_DOWN_LIST_ITEM_MULTIPLIER,
 } from '../constants';
 
@@ -15,6 +15,7 @@ interface IGetDimensionsParams {
   listLength: number;
   maxVisibleListLength: number;
   addFlatListItemHeight: number | undefined;
+  dropDownBorderWidth: number;
 }
 
 interface IGetDropDownHeightsParams {
@@ -58,6 +59,7 @@ export const getDropDownDimensions = ({
   listLength,
   maxVisibleListLength,
   addFlatListItemHeight,
+  dropDownBorderWidth,
 }: IGetDimensionsParams) => {
   const {dropDownViewHeight, dropDownMaxHeight, dropDownItemHeight} =
     getDropDownHeights({
@@ -69,10 +71,15 @@ export const getDropDownDimensions = ({
     });
   const listUnderPosition =
     Platform.OS === 'android'
-      ? dropDownHeight + pageY + flatListPaddingVertical * 2
-      : pageY - topIosMargin + dropDownHeight + flatListPaddingVertical * 2;
+      ? dropDownHeight + pageY + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2
+      : pageY -
+        topIosMargin +
+        dropDownHeight +
+        DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2;
   const listAbovePosition =
-    pageY - topIosMargin - dropDownViewHeight - BORDER_BUTTON_WIDTH * 2;
+    Platform.OS === 'android'
+      ? pageY - topIosMargin - dropDownViewHeight
+      : pageY - topIosMargin - dropDownViewHeight - dropDownBorderWidth * 2;
   const expectedEndPositionOnScreen =
     dropDownHeight +
     dropDownViewHeight +

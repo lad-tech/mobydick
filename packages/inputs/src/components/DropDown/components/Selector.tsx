@@ -1,6 +1,6 @@
 import React from 'react';
 import {IPopupProps, PopupBase} from '@npm/mobydick-popups';
-import {FlatList, TouchableHighlight, View} from '@npm/mobydick-core';
+import {FlatList, TouchableHighlight} from '@npm/mobydick-core';
 import {useDimensions} from '@react-native-community/hooks';
 import {getModel} from 'react-native-device-info';
 import {Typography} from '@npm/mobydick-typography';
@@ -8,9 +8,9 @@ import {useStyles} from '@npm/mobydick-styles';
 import {StyleSheet, ViewStyle} from 'react-native';
 
 import {
+  BORDER_BUTTON_WIDTH,
   DEFAULT_DROP_DOWN_HEIGHT,
   DEFAULT_DROP_DOWN_WIDTH,
-  DEFAULT_LIST_FOOTER_HEIGHT,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
 import getIosSafeAreaHeights from '../utils/getIosSafeAreaHeights';
@@ -19,14 +19,6 @@ import {IDropDownProps} from '../types';
 
 const keyExtractor = (item: string, index: number) =>
   index.toString() + item.toString();
-
-const renderFooterComponent = (isNeedFooterComponent: boolean) => {
-  if (isNeedFooterComponent) {
-    return <View style={{height: DEFAULT_LIST_FOOTER_HEIGHT}} />;
-  } else {
-    return <View />;
-  }
-};
 
 interface IRenderItemProps
   extends Pick<
@@ -151,7 +143,11 @@ const Selector = (props: IItemsProps) => {
 
   const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(getModel());
 
-  const isNeedFooterComponent = list.length > maxVisibleListLength;
+  const isNeedFooterPadding = list.length > maxVisibleListLength;
+
+  const flatListPaddingVertical = addFlatListStyle?.paddingVertical
+    ? +addFlatListStyle.paddingVertical
+    : styles.flatList.paddingVertical;
 
   const {
     listAbovePosition,
@@ -168,13 +164,14 @@ const Selector = (props: IItemsProps) => {
     dropDownHeight: addButtonStyle?.height
       ? +addButtonStyle.height
       : DEFAULT_DROP_DOWN_HEIGHT,
-    flatListPaddingVertical: addFlatListStyle?.paddingVertical
-      ? +addFlatListStyle.paddingVertical
-      : styles.flatList.paddingVertical,
+    flatListPaddingVertical: flatListPaddingVertical,
     listLength: list.length,
     addFlatListItemHeight: addFlatListItemStyle?.height
       ? +addFlatListItemStyle.height
       : undefined,
+    dropDownBorderWidth: addButtonStyle?.borderWidth
+      ? addButtonStyle.borderWidth
+      : BORDER_BUTTON_WIDTH,
   });
   return (
     <PopupBase
@@ -199,6 +196,11 @@ const Selector = (props: IItemsProps) => {
             maxHeight: dropDownMaxHeight,
           },
         ]}
+        contentContainerStyle={
+          isNeedFooterPadding
+            ? {paddingBottom: flatListPaddingVertical * 2}
+            : null
+        }
         data={list}
         renderItem={renderItem({
           renderItemOnPress,
@@ -214,7 +216,6 @@ const Selector = (props: IItemsProps) => {
           addFlatListTextStylePressed,
         })}
         keyExtractor={keyExtractor}
-        ListFooterComponent={renderFooterComponent(isNeedFooterComponent)}
       />
     </PopupBase>
   );
