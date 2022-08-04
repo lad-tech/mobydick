@@ -1,7 +1,6 @@
 import React from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
-import {View} from '@npm/mobydick-core';
-import {Button} from '@npm/mobydick-cta';
+import {Button, View} from '@npm/mobydick-core';
 
 import {IContentProps} from '../../types';
 import {usePopups} from '../../hooks';
@@ -12,7 +11,9 @@ const testIdOpenPopup = 'testIdOpenPopup';
 const testIdCloseAllPopup = 'testIdCloseAllPopup';
 
 const Popup = ({onClose}: IContentProps) => {
-  return <Button testID={testIdPopup} onPress={() => onClose()} />;
+  return (
+    <Button testID={testIdPopup} onPress={() => onClose()} title={'title'} />
+  );
 };
 
 const Example = () => {
@@ -23,10 +24,12 @@ const Example = () => {
       <Button
         testID={testIdOpenPopup}
         onPress={() => popupContext.openPopup({Content: Popup})}
+        title={'title'}
       />
       <Button
         testID={testIdCloseAllPopup}
         onPress={() => popupContext.closeAllPopups()}
+        title={'title'}
       />
     </View>
   );
