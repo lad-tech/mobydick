@@ -69,7 +69,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     const pressableSelect = getByLabelText(array[1]);
     fireEvent.press(pressableSelect);
 
-    expect(onPress).toHaveBeenCalledTimes(1);
+    expect(onPress).toHaveBeenCalledWith(array[1]);
   });
 
   it('selectItemClose', async () => {
