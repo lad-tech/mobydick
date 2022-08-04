@@ -17,6 +17,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
   afterEach(() => {
     jest.resetAllMocks();
   });
+
   const list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
   it('renders correctly 10 elements', () => {
     const {toJSON} = render(
@@ -51,7 +52,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         ) => cb(0, 0, 1, 1, 287, 2410),
       );
 
-    const {getByLabelText} = render(
+    const {getByLabelText, toJSON} = render(
       <PopupsProvider>
         <DropDown
           placeholder={'Выберите язык'}
@@ -67,6 +68,8 @@ describe('@npm/mobydick-inputs/DropDown', () => {
 
     const pressableSelect = getByLabelText(array[1]);
     fireEvent.press(pressableSelect);
+
+    expect(toJSON()).toMatchSnapshot();
   });
 
   it('selectItemClose', async () => {

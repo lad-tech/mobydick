@@ -93,6 +93,99 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
 </View>
 `;
 
+exports[`@npm/mobydick-inputs/DropDown selectItem 1`] = `
+<View
+  style={
+    Object {
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Medium",
+          "fontSize": 14,
+          "lineHeight": 18,
+        },
+        undefined,
+      ]
+    }
+  >
+    Название поля
+  </Text>
+  <View
+    collapsable={false}
+  >
+    <View
+      accessibilityLabel="selector"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "#EEEFF1",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "height": 48,
+          "justifyContent": "space-between",
+          "marginTop": 8,
+          "opacity": 1,
+          "paddingHorizontal": 12,
+          "width": 200,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
+            },
+            undefined,
+          ]
+        }
+      >
+        English
+      </Text>
+      <View
+        style={false}
+      >
+        <Text
+          style={
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 24,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
 <View
   style={
