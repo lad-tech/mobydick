@@ -52,7 +52,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         ) => cb(0, 0, 1, 1, 287, 2410),
       );
 
-    const {getByLabelText, toJSON} = render(
+    const {getByLabelText} = render(
       <PopupsProvider>
         <DropDown
           placeholder={'Выберите язык'}
@@ -69,7 +69,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     const pressableSelect = getByLabelText(array[1]);
     fireEvent.press(pressableSelect);
 
-    expect(toJSON()).toMatchSnapshot();
+    expect(onPress).toHaveBeenCalledTimes(1);
   });
 
   it('selectItemClose', async () => {
