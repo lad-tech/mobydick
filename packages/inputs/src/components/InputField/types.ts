@@ -3,7 +3,7 @@ import {ReactElement} from 'react';
 import {IStyledTextProps} from '@npm/mobydick-typography';
 import {StyleProp, ViewStyle} from 'react-native';
 
-interface IInputFieldsProps {
+export interface IInputFieldsProps extends ITextInputProps {
   title?: string;
   titleProps?: IStyledTextProps;
   subtitle?: string;
@@ -21,4 +21,3 @@ export enum ITypes {
   wrong = 'wrong',
   disabled = 'disabled',
 }
-export type InputFieldProps = ITextInputProps & IInputFieldsProps;
