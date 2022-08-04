@@ -1,13 +1,17 @@
 import React from 'react';
 import {IPopupProps, PopupBase} from '@npm/mobydick-popups';
-import {FlatList, TouchableHighlight} from '@npm/mobydick-core';
+import {FlatList, TouchableHighlight, View} from '@npm/mobydick-core';
 import {useDimensions} from '@react-native-community/hooks';
 import {getModel} from 'react-native-device-info';
 import {Typography} from '@npm/mobydick-typography';
 import {useStyles} from '@npm/mobydick-styles';
 import {StyleSheet, ViewStyle} from 'react-native';
 
-import {DEFAULT_DROP_DOWN_HEIGHT, DEFAULT_DROP_DOWN_WIDTH} from '../constants';
+import {
+  DEFAULT_DROP_DOWN_HEIGHT,
+  DEFAULT_DROP_DOWN_WIDTH,
+  DEFAULT_LIST_FOOTER_HEIGHT,
+} from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
 import getIosSafeAreaHeights from '../utils/getIosSafeAreaHeights';
 import stylesCreate from '../stylesCreate';
@@ -15,6 +19,14 @@ import {IDropDownProps} from '../types';
 
 const keyExtractor = (item: string, index: number) =>
   index.toString() + item.toString();
+
+const renderFooterComponent = (isNeedFooterComponent: boolean) => {
+  if (isNeedFooterComponent) {
+    return <View style={{height: DEFAULT_LIST_FOOTER_HEIGHT}} />;
+  } else {
+    return <View />;
+  }
+};
 
 interface IRenderItemProps
   extends Pick<
@@ -139,6 +151,8 @@ const Selector = (props: IItemsProps) => {
 
   const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(getModel());
 
+  const isNeedFooterComponent = list.length > maxVisibleListLength;
+
   const {
     listAbovePosition,
     listUnderPosition,
@@ -200,6 +214,7 @@ const Selector = (props: IItemsProps) => {
           addFlatListTextStylePressed,
         })}
         keyExtractor={keyExtractor}
+        ListFooterComponent={renderFooterComponent(isNeedFooterComponent)}
       />
     </PopupBase>
   );
