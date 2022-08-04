@@ -15,16 +15,19 @@ const Search: FC<ISearchProps> = ({
       `Search says: "Add onChangeText (╯°□°)╯︵ ┻━┻". Current value=${value}`,
     );
   },
+  containerStyle,
+  leftIcon,
+  textInputContainerStyle,
   ...otherProps
 }) => {
   const [styles] = useStyles(stylesCreate);
   const {fontStyle} = useFont();
   return (
-    <View style={styles.container}>
-      <SimpleIcon name={'icon-search'} />
+    <View style={[styles.container, containerStyle]}>
+      {leftIcon ? leftIcon : <SimpleIcon name={'icon-search'} />}
       <TextInput
         accessibilityLabel={accessibilityLabels.search}
-        style={[fontStyle, styles.textInput]}
+        style={[fontStyle, styles.textInput, textInputContainerStyle]}
         placeholder={placeholder}
         placeholderTextColor={fontStyle.color}
         value={value}
