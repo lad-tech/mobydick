@@ -3,7 +3,7 @@ import React, {forwardRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 
-import {InputFieldProps, ITypes} from './types';
+import {IInputFieldsProps, ITypes} from './types';
 import stylesCreate from './stylesCreate';
 import Constants from './constants';
 
@@ -21,7 +21,7 @@ import Constants from './constants';
  * };
  * ```
  */
-const InputField = forwardRef<ITextInput, InputFieldProps>((props, ref) => {
+const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
   const {
     style,
     title,
