@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-inputs/DropDownIcon renders correctly custom close 1`] = `
+<View
+  style={false}
+>
+  <Text
+    style={
+      Object {
+        "color": "#5E6678",
+        "fontFamily": "Neotis",
+        "fontSize": 24,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`@npm/mobydick-inputs/DropDownIcon renders correctly custom open 1`] = `
+<View
+  style={
+    Object {
+      "transform": Array [
+        Object {
+          "rotateX": "180deg",
+        },
+      ],
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#5E6678",
+        "fontFamily": "Neotis",
+        "fontSize": 24,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`@npm/mobydick-inputs/DropDownIcon renders correctly standart close 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#5E6678",
+      "fontFamily": "Neotis",
+      "fontSize": 24,
+    }
+  }
+>
+  
+</Text>
+`;
+
+exports[`@npm/mobydick-inputs/DropDownIcon renders correctly standart open 1`] = `
+<Text
+  style={
+    Object {
+      "color": "#5E6678",
+      "fontFamily": "Neotis",
+      "fontSize": 24,
+      "transform": Array [
+        Object {
+          "rotateX": "180deg",
+        },
+      ],
+    }
+  }
+>
+  
+</Text>
+`;
