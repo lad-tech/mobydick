@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import {storiesOf} from '@storybook/react-native';
 import {Button} from '@npm/mobydick-cta';
 import {PopupsProvider, usePopups} from '@npm/mobydick-popups';
-import {select} from '@storybook/addon-knobs';
-import {IPosition} from '@npm/mobydick-popups/src/components/TooltipBase';
 
 import CenterView from '../../CenterView';
 
@@ -28,12 +26,11 @@ const PopupExample = () => {
 
 const PopupTooltipExample = () => {
   const [isVisible, setVisible] = useState(false);
-
+  const onClose = () => setVisible(!isVisible);
+  //пока не удалось подключить через popupContext
   return (
-    <ExampleTooltip
-      isVisible={isVisible}
-      position={select('Position', IPosition, IPosition.top)}>
-      <Button text={'What is it?'} onPress={() => setVisible(!isVisible)} />
+    <ExampleTooltip isVisible={isVisible} onClose={onClose}>
+      <Button text={'What is it?'} onPress={onClose} />
     </ExampleTooltip>
   );
 };

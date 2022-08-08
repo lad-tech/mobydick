@@ -3,20 +3,29 @@ import Title from '@npm/mobydick-popups/src/components/TooltipBase/Title';
 import DescriptionText from '@npm/mobydick-popups/src/components/TooltipBase/DescriptionText';
 import {Button, ISize} from '@npm/mobydick-cta';
 import {boolean, select, text} from '@storybook/addon-knobs';
-import {View} from 'react-native';
+import {StyleProp, View, ViewStyle} from 'react-native';
 import Arrow from '@npm/mobydick-popups/src/components/TooltipBase/Arrow';
 import {
   IPlacement,
+  IPosition,
   ITooltip,
   TooltipBase,
 } from '@npm/mobydick-popups/src/components/TooltipBase';
 import {defaultElementLightColor} from '@npm/mobydick-styles';
-const ExampleTooltip: FC<ITooltip> = props => {
-  const {isVisible, position, children} = props;
+
+//тип должен быть IContentProps
+
+const ExampleTooltip: FC<
+  Omit<ITooltip, 'Content'> & {
+    onClose: () => void;
+    containerStyle?: StyleProp<ViewStyle>;
+  }
+> = props => {
+  const {isVisible, children} = props;
 
   const isArrow = true;
   const placement = select('Placement', IPlacement, IPlacement.center);
-
+  const position = select('Position', IPosition, IPosition.top);
   const colorTooltip = select('Цвет', defaultElementLightColor, '#FAB742');
 
   return (
