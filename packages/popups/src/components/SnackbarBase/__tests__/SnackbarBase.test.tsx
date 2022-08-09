@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
 
-import {SnackbarBase} from '../index';
+import SnackbarBase from '../SnackbarBase';
 
 describe('@npm/mobydick-popups/SnackbarBase', () => {
   it('should renders correctly', () => {
