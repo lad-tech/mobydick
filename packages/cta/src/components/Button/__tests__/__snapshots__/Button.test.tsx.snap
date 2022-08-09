@@ -19,7 +19,7 @@ exports[`@npm/mobydick-cta/Button renders correctly 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "stretch",
+      "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
       "borderRadius": 12,
@@ -75,7 +75,7 @@ exports[`@npm/mobydick-cta/Button renders correctly 2`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "stretch",
+      "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
       "borderRadius": 12,
@@ -131,7 +131,7 @@ exports[`@npm/mobydick-cta/Button renders correctly disabled 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "stretch",
+      "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
       "borderRadius": 12,
@@ -165,7 +165,7 @@ exports[`@npm/mobydick-cta/Button renders correctly fixed 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "stretch",
+      "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
       "borderRadius": 12,
@@ -199,7 +199,7 @@ exports[`@npm/mobydick-cta/Button renders correctly large 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "stretch",
+      "alignItems": "center",
       "alignSelf": undefined,
       "backgroundColor": "#2B78EE",
       "borderRadius": 12,
@@ -233,7 +233,7 @@ exports[`@npm/mobydick-cta/Button renders correctly loading 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "stretch",
+      "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
       "borderRadius": 12,
@@ -286,7 +286,7 @@ exports[`@npm/mobydick-cta/Button renders correctly secondary 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "stretch",
+      "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
       "borderRadius": 12,
@@ -320,7 +320,7 @@ exports[`@npm/mobydick-cta/Button renders correctly small 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "stretch",
+      "alignItems": "center",
       "alignSelf": undefined,
       "backgroundColor": "#2B78EE",
       "borderRadius": 12,
@@ -354,7 +354,7 @@ exports[`@npm/mobydick-cta/Button renders correctly small 2`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "stretch",
+      "alignItems": "center",
       "alignSelf": undefined,
       "backgroundColor": "#2B78EE",
       "borderRadius": 12,
@@ -407,7 +407,7 @@ exports[`@npm/mobydick-cta/Button renders correctly tertiary 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "stretch",
+      "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
       "borderRadius": 12,
