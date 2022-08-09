@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007030EB909C43C9B37B7E19 /* Neotis.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Neotis.ttf; path = "../node_modules/@npm/mobydick-styles/src/icons/font/assets/fonts/Neotis.ttf"; sourceTree = "<group>"; };
+		007030EB909C43C9B37B7E19 /* Neotis.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Neotis.ttf; path = "../node_modules/@npm/mobydick-styles/src/icons/font/assets/fonts/Neotis.ttf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* MobyDickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobyDickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MobyDickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobyDickTests.m; sourceTree = "<group>"; };
@@ -47,12 +47,12 @@
 		5709B34CF0A7D63546082F79 /* Pods-MobyDick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyDick.release.xcconfig"; path = "Target Support Files/Pods-MobyDick/Pods-MobyDick.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MobyDick-MobyDickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyDick-MobyDickTests.debug.xcconfig"; path = "Target Support Files/Pods-MobyDick-MobyDickTests/Pods-MobyDick-MobyDickTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-MobyDick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobyDick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DE6282E9E44477A941D5A7E /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		6DE6282E9E44477A941D5A7E /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MobyDick/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85EEF1C3748A414C83EB4388 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		85EEF1C3748A414C83EB4388 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MobyDick-MobyDickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyDick-MobyDickTests.release.xcconfig"; path = "Target Support Files/Pods-MobyDick-MobyDickTests/Pods-MobyDick-MobyDickTests.release.xcconfig"; sourceTree = "<group>"; };
-		B6C2482001EE4876B031EABB /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
-		BD9E1C35FC934272AD5243E3 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		B6C2482001EE4876B031EABB /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		BD9E1C35FC934272AD5243E3 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -169,7 +169,6 @@
 				007030EB909C43C9B37B7E19 /* Neotis.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -529,6 +528,7 @@
 				PRODUCT_NAME = MobyDick;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -554,6 +554,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobydick;
 				PRODUCT_NAME = MobyDick;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
