@@ -9,7 +9,7 @@ const primaryStyle = (theme: IUseStylesTheme, size: ISize) => {
     container: {
       alignSelf: size === ISize.fixed ? 'stretch' : undefined,
       flexDirection: 'row',
-      alignItems: 'stretch',
+      alignItems: 'center',
       justifyContent: 'center',
       backgroundColor: colors.CtaBtnPrimary,
       borderRadius: theme.spaces.Space12,
