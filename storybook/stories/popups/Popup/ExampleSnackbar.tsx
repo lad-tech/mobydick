@@ -4,14 +4,16 @@ import {boolean, select, text} from '@storybook/addon-knobs';
 import {SimpleIcon, useTheme} from '@npm/mobydick-styles';
 import {Button, ISize} from '@npm/mobydick-cta';
 
+enum IPlacement {
+  start = 'flex-start',
+  center = 'center',
+  end = 'flex-end',
+}
+
 const ExampleSnackbar: FC<IContentProps> = props => {
   const {colors} = useTheme();
   const {onClose} = props;
-  enum IPlacement {
-    start = 'flex-start',
-    center = 'center',
-    end = 'flex-end',
-  }
+
   const placement = select('Placement', IPlacement, IPlacement.end);
 
   return (
