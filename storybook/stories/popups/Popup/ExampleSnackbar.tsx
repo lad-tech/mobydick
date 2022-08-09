@@ -3,8 +3,7 @@ import React, {FC} from 'react';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {SimpleIcon, useTheme} from '@npm/mobydick-styles';
 import {Button, ISize} from '@npm/mobydick-cta';
-
-import SnackbarBase from '../../../../packages/popups/src/components/SnackbarBase/SnackbarBase';
+import {SnackbarBase} from '@npm/mobydick-popups/src/components/SnackbarBase';
 
 const ExampleSnackbar: FC<IContentProps> = props => {
   const {colors} = useTheme();
