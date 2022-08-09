@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-cta",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CTA on MobyDick core",
   "main": "index.ts",
   "scripts": {
@@ -13,10 +13,10 @@
     "react": ">=17.0.2"
   },
   "dependencies": {
-    "@npm/mobydick-styles": "1.0.2",
-    "@npm/mobydick-core": "1.0.2",
-    "@npm/mobydick-progress": "1.0.2",
-    "@npm/mobydick-typography": "1.0.2"
+    "@npm/mobydick-styles": "1.0.3",
+    "@npm/mobydick-core": "1.0.3",
+    "@npm/mobydick-progress": "1.0.3",
+    "@npm/mobydick-typography": "1.0.3"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"

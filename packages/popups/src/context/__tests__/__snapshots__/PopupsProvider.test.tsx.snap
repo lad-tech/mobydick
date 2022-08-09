@@ -3,11 +3,7 @@
 exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 1`] = `
 <View>
   <View
-    accessibilityState={
-      Object {
-        "disabled": false,
-      }
-    }
+    accessibilityRole="button"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -20,26 +16,36 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "alignItems": "stretch",
-        "alignSelf": "stretch",
-        "backgroundColor": "#2B78EE",
-        "borderRadius": 12,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "minHeight": 48,
         "opacity": 1,
-        "paddingHorizontal": 32,
-        "paddingVertical": 12,
       }
     }
     testID="testIdOpenPopup"
-  />
-  <View
-    accessibilityState={
-      Object {
-        "disabled": false,
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
       }
-    }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        title
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityRole="button"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -52,20 +58,34 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "alignItems": "stretch",
-        "alignSelf": "stretch",
-        "backgroundColor": "#2B78EE",
-        "borderRadius": 12,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "minHeight": 48,
         "opacity": 1,
-        "paddingHorizontal": 32,
-        "paddingVertical": 12,
       }
     }
     testID="testIdCloseAllPopup"
-  />
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        title
+      </Text>
+    </View>
+  </View>
 </View>
 `;
 
@@ -73,11 +93,7 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 2`] = `
 Array [
   <View>
     <View
-      accessibilityState={
-        Object {
-          "disabled": false,
-        }
-      }
+      accessibilityRole="button"
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -90,26 +106,36 @@ Array [
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "alignItems": "stretch",
-          "alignSelf": "stretch",
-          "backgroundColor": "#2B78EE",
-          "borderRadius": 12,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "minHeight": 48,
           "opacity": 1,
-          "paddingHorizontal": 32,
-          "paddingVertical": 12,
         }
       }
       testID="testIdOpenPopup"
-    />
-    <View
-      accessibilityState={
-        Object {
-          "disabled": false,
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
         }
-      }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          title
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityRole="button"
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -122,27 +148,37 @@ Array [
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "alignItems": "stretch",
-          "alignSelf": "stretch",
-          "backgroundColor": "#2B78EE",
-          "borderRadius": 12,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "minHeight": 48,
           "opacity": 1,
-          "paddingHorizontal": 32,
-          "paddingVertical": 12,
         }
       }
       testID="testIdCloseAllPopup"
-    />
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          title
+        </Text>
+      </View>
+    </View>
   </View>,
   <View
-    accessibilityState={
-      Object {
-        "disabled": false,
-      }
-    }
+    accessibilityRole="button"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -155,31 +191,41 @@ Array [
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "alignItems": "stretch",
-        "alignSelf": "stretch",
-        "backgroundColor": "#2B78EE",
-        "borderRadius": 12,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "minHeight": 48,
         "opacity": 1,
-        "paddingHorizontal": 32,
-        "paddingVertical": 12,
       }
     }
     testID="testIdPopup"
-  />,
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        title
+      </Text>
+    </View>
+  </View>,
 ]
 `;
 
 exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 3`] = `
 <View>
   <View
-    accessibilityState={
-      Object {
-        "disabled": false,
-      }
-    }
+    accessibilityRole="button"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -192,26 +238,36 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 3`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "alignItems": "stretch",
-        "alignSelf": "stretch",
-        "backgroundColor": "#2B78EE",
-        "borderRadius": 12,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "minHeight": 48,
         "opacity": 1,
-        "paddingHorizontal": 32,
-        "paddingVertical": 12,
       }
     }
     testID="testIdOpenPopup"
-  />
-  <View
-    accessibilityState={
-      Object {
-        "disabled": false,
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
       }
-    }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        title
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityRole="button"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -224,20 +280,34 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 3`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "alignItems": "stretch",
-        "alignSelf": "stretch",
-        "backgroundColor": "#2B78EE",
-        "borderRadius": 12,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "minHeight": 48,
         "opacity": 1,
-        "paddingHorizontal": 32,
-        "paddingVertical": 12,
       }
     }
     testID="testIdCloseAllPopup"
-  />
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        title
+      </Text>
+    </View>
+  </View>
 </View>
 `;
 
@@ -245,11 +315,7 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 4`] = `
 Array [
   <View>
     <View
-      accessibilityState={
-        Object {
-          "disabled": false,
-        }
-      }
+      accessibilityRole="button"
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -262,26 +328,36 @@ Array [
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "alignItems": "stretch",
-          "alignSelf": "stretch",
-          "backgroundColor": "#2B78EE",
-          "borderRadius": 12,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "minHeight": 48,
           "opacity": 1,
-          "paddingHorizontal": 32,
-          "paddingVertical": 12,
         }
       }
       testID="testIdOpenPopup"
-    />
-    <View
-      accessibilityState={
-        Object {
-          "disabled": false,
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
         }
-      }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          title
+        </Text>
+      </View>
+    </View>
+    <View
+      accessibilityRole="button"
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -294,27 +370,37 @@ Array [
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "alignItems": "stretch",
-          "alignSelf": "stretch",
-          "backgroundColor": "#2B78EE",
-          "borderRadius": 12,
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "minHeight": 48,
           "opacity": 1,
-          "paddingHorizontal": 32,
-          "paddingVertical": 12,
         }
       }
       testID="testIdCloseAllPopup"
-    />
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          title
+        </Text>
+      </View>
+    </View>
   </View>,
   <View
-    accessibilityState={
-      Object {
-        "disabled": false,
-      }
-    }
+    accessibilityRole="button"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -327,26 +413,36 @@ Array [
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "alignItems": "stretch",
-        "alignSelf": "stretch",
-        "backgroundColor": "#2B78EE",
-        "borderRadius": 12,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "minHeight": 48,
         "opacity": 1,
-        "paddingHorizontal": 32,
-        "paddingVertical": 12,
       }
     }
     testID="testIdPopup"
-  />,
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        title
+      </Text>
+    </View>
+  </View>,
   <View
-    accessibilityState={
-      Object {
-        "disabled": false,
-      }
-    }
+    accessibilityRole="button"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -359,31 +455,41 @@ Array [
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "alignItems": "stretch",
-        "alignSelf": "stretch",
-        "backgroundColor": "#2B78EE",
-        "borderRadius": 12,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "minHeight": 48,
         "opacity": 1,
-        "paddingHorizontal": 32,
-        "paddingVertical": 12,
       }
     }
     testID="testIdPopup"
-  />,
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        title
+      </Text>
+    </View>
+  </View>,
 ]
 `;
 
 exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 5`] = `
 <View>
   <View
-    accessibilityState={
-      Object {
-        "disabled": false,
-      }
-    }
+    accessibilityRole="button"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -396,26 +502,36 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 5`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "alignItems": "stretch",
-        "alignSelf": "stretch",
-        "backgroundColor": "#2B78EE",
-        "borderRadius": 12,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "minHeight": 48,
         "opacity": 1,
-        "paddingHorizontal": 32,
-        "paddingVertical": 12,
       }
     }
     testID="testIdOpenPopup"
-  />
-  <View
-    accessibilityState={
-      Object {
-        "disabled": false,
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
       }
-    }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        title
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityRole="button"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -428,19 +544,33 @@ exports[`@npm/mobydick-popups/PopupsProvider should renders correctly 5`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "alignItems": "stretch",
-        "alignSelf": "stretch",
-        "backgroundColor": "#2B78EE",
-        "borderRadius": 12,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "minHeight": 48,
         "opacity": 1,
-        "paddingHorizontal": 32,
-        "paddingVertical": 12,
       }
     }
     testID="testIdCloseAllPopup"
-  />
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        title
+      </Text>
+    </View>
+  </View>
 </View>
 `;

@@ -1,5 +1,6 @@
 import React from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
+import {View} from '@npm/mobydick-core';
 
 import Search from '../Search';
 import {accessibilityLabels} from '../constants';
@@ -8,7 +9,11 @@ describe('Search', () => {
   test('render correctly with value', () => {
     const onChangeText = jest.fn();
     const {toJSON, getByLabelText} = render(
-      <Search value={'value'} onChangeText={onChangeText} />,
+      <Search
+        value={'value'}
+        onChangeText={onChangeText}
+        leftIcon={<View />}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
 

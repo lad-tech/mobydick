@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/SnackbarBase/Title should renders correctly 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    Array [
+      Object {
+        "color": "#20242D",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 15,
+        "lineHeight": 19,
+      },
+      Array [
+        Object {
+          "fontSize": 14,
+          "lineHeight": 18,
+          "paddingRight": 20,
+          "paddingVertical": 16,
+        },
+        Object {
+          "flex": 1,
+        },
+      ],
+    ]
+  }
+>
+  title
+</Text>
+`;
