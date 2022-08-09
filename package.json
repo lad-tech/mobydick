@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "prepare": "husky install",
-    "postversion": "npx react-native-version  --never-amend",
+    "postversion": "./scripts/semantic-release.ts",
     "preinstall": "npx @lad-tech/check-deps-age --cacheFile ../check-deps-age-cache.json",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -23,11 +23,7 @@
     "android:get:aab": "cd android && ./gradlew :app:bundleRelease",
     "android:get:debug": "yarn bundleWithAssets && yarn android:build:debug",
     "android:get:release": "yarn bundle && yarn android:build:release",
-    "release": "./scripts/release.ts",
-    "release:aplpha": "yarn release minor --stage alpha --tag next",
-    "release:patch": "yarn release patch",
-    "release:minor": "yarn release minor",
-    "release:major": "yarn release major"
+    "release": "semantic-release"
   },
   "workspaces": [
     "packages/*"
@@ -43,10 +39,7 @@
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@npm/eslint-config": "0.0.5",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.1",
-    "@semantic-release/gitlab": "^9.3.2",
-    "@semantic-release/npm": "^8.0.3",
+    "@npm/semantic-release-config": "^1.0.0",
     "@react-native-async-storage/async-storage": "^1.17.3",
     "@react-native-community/eslint-config": "^2.0.0",
     "@storybook/addon-actions": "^5.3.21",
@@ -62,8 +55,6 @@
     "@types/react-native": "^0.67.3",
     "@types/react-test-renderer": "^17.0.1",
     "@types/yargs": "^17.0.10",
-    "@typescript-eslint/eslint-plugin": "^5.17.0",
-    "@typescript-eslint/parser": "^5.17.0",
     "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.4",
     "eslint": "^7.32.0",
@@ -74,6 +65,7 @@
     "prettier": "^2.6.2",
     "react-dom": "17.0.2",
     "react-test-renderer": "17.0.2",
+    "semantic-release": "^19.0.3",
     "simple-git": "^3.10.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.7.4",
