@@ -1,5 +1,6 @@
 import React, {useCallback, useMemo} from 'react';
-import {Text, TextStyle} from 'react-native';
+import {Text} from '@npm/mobydick-core';
+import {TextStyle} from 'react-native';
 
 import {useTheme} from '../../theme';
 
