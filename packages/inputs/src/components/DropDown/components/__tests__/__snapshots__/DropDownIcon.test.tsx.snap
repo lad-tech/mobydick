@@ -5,6 +5,7 @@ exports[`@npm/mobydick-inputs/DropDownIcon renders correctly custom close 1`] = 
   style={false}
 >
   <Text
+    allowFontScaling={true}
     style={
       Object {
         "color": "#5E6678",
@@ -31,6 +32,7 @@ exports[`@npm/mobydick-inputs/DropDownIcon renders correctly custom open 1`] = `
   }
 >
   <Text
+    allowFontScaling={true}
     style={
       Object {
         "color": "#5E6678",
@@ -46,6 +48,7 @@ exports[`@npm/mobydick-inputs/DropDownIcon renders correctly custom open 1`] = `
 
 exports[`@npm/mobydick-inputs/DropDownIcon renders correctly standart close 1`] = `
 <Text
+  allowFontScaling={true}
   style={
     Object {
       "color": "#5E6678",
@@ -60,6 +63,7 @@ exports[`@npm/mobydick-inputs/DropDownIcon renders correctly standart close 1`] 
 
 exports[`@npm/mobydick-inputs/DropDownIcon renders correctly standart open 1`] = `
 <Text
+  allowFontScaling={true}
   style={
     Object {
       "color": "#5E6678",

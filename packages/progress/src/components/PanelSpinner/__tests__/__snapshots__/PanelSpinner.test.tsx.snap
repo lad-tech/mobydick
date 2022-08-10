@@ -112,6 +112,7 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
     }
   >
     <Text
+      allowFontScaling={true}
       style={
         Object {
           "color": "#9BA1B0",
@@ -160,6 +161,7 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly done 1`] = `
     }
   >
     <Text
+      allowFontScaling={true}
       style={
         Object {
           "color": "#2B78EE",
@@ -213,6 +215,7 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly error 1`] = `
     }
   >
     <Text
+      allowFontScaling={true}
       style={
         Object {
           "color": "#9BA1B0",
