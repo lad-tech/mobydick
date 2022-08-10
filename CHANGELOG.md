@@ -1,3 +1,11 @@
+## [1.0.4](https://glab.lad24.ru/npm/mobydick/compare/v1.0.3...v1.0.4) (2022-08-10)
+
+
+### Bug Fixes
+
+* **Button:** changed size and position button ([82198d6](https://glab.lad24.ru/npm/mobydick/commit/82198d6817cee5a4922d73f1c4674aa032cdfb5a))
+* **Button:** deleted view ([8bd0cda](https://glab.lad24.ru/npm/mobydick/commit/8bd0cda1bca70780ebd13cd4ef39ffee04467ee3))
+
 # 1.0.0 (2022-08-02)
 
 
