@@ -20,9 +20,30 @@ import {IDropDownProps} from '../types';
 const keyExtractor = (item: string, index: number) =>
   index.toString() + item.toString();
 
-interface IRenderItemProps
+type FieldsToSelect =
+  | 'navBarHeight'
+  | 'maxVisibleListLength'
+  | 'selectedItem'
+  | 'selectedItemColor'
+  | 'addButtonStyle'
+  | 'addFlatListStyle'
+  | 'addFlatListItemStyle'
+  | 'addFlatListTextStyle'
+  | 'addFlatListTextFont'
+  | 'addFlatListTextFontPressed'
+  | 'addFlatListTextStylePressed';
+
+interface IItemsProps<T extends {label: string; value: unknown}>
+  extends IPopupProps,
+    Pick<IDropDownProps<T>, FieldsToSelect> {
+  list: T[];
+  pageY: number;
+  renderItemOnPress: (item: T) => void;
+}
+
+interface IRenderItemProps<T extends {label: string; value: unknown}>
   extends Pick<
-    IItemsProps,
+    IItemsProps<T>,
     | 'renderItemOnPress'
     | 'selectedItem'
     | 'selectedItemColor'
@@ -36,9 +57,10 @@ interface IRenderItemProps
   styles: StyleSheet.NamedStyles<{dropDownItem: ViewStyle}>;
   theme: ReturnType<typeof useStyles>[1];
 }
-const renderItem =
-  (props: IRenderItemProps) =>
-  ({item}: {item: string}) => {
+function renderItem<T extends {label: string; value: unknown}>(
+  props: IRenderItemProps<T>,
+) {
+  return ({item}: {item: T}) => {
     const {
       renderItemOnPress,
 
@@ -65,7 +87,7 @@ const renderItem =
 
     return (
       <TouchableHighlight
-        accessibilityLabel={item}
+        accessibilityLabel={item.label}
         style={[
           styles.dropDownItem,
           addFlatListItemStyle,
@@ -74,7 +96,7 @@ const renderItem =
               ? addFlatListItemStyle.height
               : dropDownItemHeight,
           },
-          item === selectedItem
+          item.label === selectedItem?.label
             ? selectedItemColor
               ? {backgroundColor: selectedItemColor}
               : {backgroundColor: theme.colors.BgAccentSoft}
@@ -91,34 +113,16 @@ const renderItem =
               : addFlatListTextStyle
           }
           font={getFont()}>
-          {item}
+          {item.label}
         </Typography>
       </TouchableHighlight>
     );
   };
-
-interface IItemsProps
-  extends IPopupProps,
-    Pick<
-      IDropDownProps,
-      | 'navBarHeight'
-      | 'maxVisibleListLength'
-      | 'list'
-      | 'selectedItem'
-      | 'selectedItemColor'
-      | 'addButtonStyle'
-      | 'addFlatListStyle'
-      | 'addFlatListItemStyle'
-      | 'addFlatListTextStyle'
-      | 'addFlatListTextFont'
-      | 'addFlatListTextFontPressed'
-      | 'addFlatListTextStylePressed'
-    > {
-  list: string[];
-  pageY: number;
-  renderItemOnPress: (item: string) => void;
 }
-const Selector = (props: IItemsProps) => {
+
+function Selector<T extends {label: string; value: unknown}>(
+  props: IItemsProps<T>,
+) {
   const {
     list,
     pageY,
@@ -219,6 +223,6 @@ const Selector = (props: IItemsProps) => {
       />
     </PopupBase>
   );
-};
+}
 
 export default Selector;

@@ -36,7 +36,10 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -170,7 +173,10 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -302,7 +308,10 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -434,7 +443,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -568,7 +580,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -702,7 +717,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -834,7 +852,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -966,7 +987,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -1096,7 +1120,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -1226,7 +1253,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -1356,7 +1386,10 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -1490,13 +1523,34 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
     }
     data={
       Array [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
       ]
     }
     getItem={[Function]}
@@ -1590,7 +1644,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="2"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1628,7 +1682,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               ]
             }
           >
-            2
+            1
           </Text>
         </View>
       </View>
@@ -1637,7 +1691,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="3"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1675,7 +1729,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               ]
             }
           >
-            3
+            1
           </Text>
         </View>
       </View>
@@ -1684,7 +1738,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="4"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1722,7 +1776,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               ]
             }
           >
-            4
+            1
           </Text>
         </View>
       </View>
@@ -1731,7 +1785,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="5"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1769,7 +1823,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               ]
             }
           >
-            5
+            1
           </Text>
         </View>
       </View>
@@ -1778,7 +1832,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="6"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1816,7 +1870,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               ]
             }
           >
-            6
+            1
           </Text>
         </View>
       </View>
@@ -1825,7 +1879,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="7"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1863,7 +1917,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               ]
             }
           >
-            7
+            1
           </Text>
         </View>
       </View>

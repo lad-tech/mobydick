@@ -36,7 +36,10 @@ describe('@npm/mobydick-inputs/DropDown', () => {
 
   it('selectItem', async () => {
     const onPress = jest.fn();
-    const array = ['Русский', 'English'] as const;
+    const array = [
+      {label: 'Русский', value: 'Русский'},
+      {label: 'English', value: 'English'},
+    ] as const;
     jest
       .spyOn(viewRef.current as View, 'measure')
       .mockImplementation(
@@ -66,7 +69,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     const pressable = getByLabelText(ACCESSIBILITY_LABEL.selector);
     fireEvent.press(pressable);
 
-    const pressableSelect = getByLabelText(array[1]);
+    const pressableSelect = getByLabelText(array[1].label);
     fireEvent.press(pressableSelect);
 
     expect(onPress).toHaveBeenCalledWith(array[1]);

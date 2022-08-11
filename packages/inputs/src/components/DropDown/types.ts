@@ -2,13 +2,15 @@ import {ReactElement} from 'react';
 import {TextStyle, ViewStyle} from 'react-native';
 import {TypographyProp} from '@npm/mobydick-typography';
 
-export interface IDropDownProps {
+export interface IDropDownProps<
+  ListItem extends string | {label: string; value: unknown},
+> {
   label?: string;
   rightIcon?: ReactElement;
   placeholder: string;
-  list: string[];
-  onPress: (item: string) => void;
-  selectedItem?: string | undefined;
+  list: ListItem[];
+  onPress: (item: ListItem) => void;
+  selectedItem?: ListItem | undefined;
   navBarHeight?: number;
   addButtonStyle?: ViewStyle | undefined;
   addFlatListStyle?: ViewStyle | undefined;

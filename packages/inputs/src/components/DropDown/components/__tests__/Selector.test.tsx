@@ -5,14 +5,23 @@ import Selector from '../Selector';
 import * as getDropDownDimensions from '../../utils/getDropDownDimensions';
 
 describe('@npm/mobydick-inputs/Selector', () => {
-  const list: string[] = ['list'];
+  const list = [{label: 'list', value: 'list'}];
   const renderItemOnPress = jest.fn();
-  const largeList: string[] = ['1', '2', '3', '4', '5', '6', '7'];
+  const largeList = [
+    {label: '1', value: '1'},
+    {label: '1', value: '1'},
+    {label: '1', value: '1'},
+    {label: '1', value: '1'},
+    {label: '1', value: '1'},
+    {label: '1', value: '1'},
+    {label: '1', value: '1'},
+  ];
 
   it('renders correctly ', async () => {
+    const inputList = [{label: 'list', value: 'list'}] as const;
     const {toJSON, findByLabelText} = render(
       <Selector
-        list={list}
+        list={[...inputList]}
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
@@ -21,10 +30,10 @@ describe('@npm/mobydick-inputs/Selector', () => {
 
     expect(toJSON()).toMatchSnapshot();
 
-    const item = await findByLabelText(list[0] as string);
+    const item = await findByLabelText(inputList[0].label);
     fireEvent.press(item);
 
-    expect(renderItemOnPress).toHaveBeenCalledWith('list');
+    expect(renderItemOnPress).toHaveBeenCalledWith(inputList[0]);
   });
   it('renders correctly with bottom padding', async () => {
     const {toJSON} = render(
