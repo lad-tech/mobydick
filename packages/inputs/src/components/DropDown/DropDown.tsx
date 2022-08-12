@@ -1,10 +1,10 @@
 import {View, TouchableOpacity, ITouchableOpacity} from '@npm/mobydick-core';
-import React, {FC, useRef, useState} from 'react';
+import React, {useRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 import {usePopups} from '@npm/mobydick-popups';
 
-import {IDropDownProps} from './types';
+import {IDropDownProps, IListItem} from './types';
 import stylesCreate from './stylesCreate';
 import {
   ACCESSIBILITY_LABEL,
@@ -15,7 +15,16 @@ import {
 import Icon from './components/DropDownIcon';
 import Selector from './components/Selector';
 
-const DropDown: FC<IDropDownProps> = props => {
+const isString = (input: unknown): input is string => typeof input === 'string';
+
+function wrapListItem<T extends IListItem>(item: T): Exclude<T, string> {
+  return (isString(item) ? {label: item, value: item} : item) as Exclude<
+    T,
+    string
+  >;
+}
+
+function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
   const {
     label,
     placeholder,
@@ -42,7 +51,8 @@ const DropDown: FC<IDropDownProps> = props => {
     addButtonTextStyleChosen,
     addButtonTextFontChosen,
   } = props;
-  const [chosen, setChosen] = useState(selectedItem || '');
+  const selected = selectedItem ? wrapListItem(selectedItem) : undefined;
+
   const [isOpen, setOpen] = useState(false);
 
   const popupContext = usePopups();
@@ -60,12 +70,13 @@ const DropDown: FC<IDropDownProps> = props => {
     }
   };
 
-  const renderItemOnPress = (item: string) => {
+  const renderItemOnPress = (item: Exclude<T, string>) => {
     onPress(item);
     setOpen(false);
-    setChosen(item);
     popupContext.closePopup(DROP_DOWN_POPUP_ID);
   };
+
+  const listItems = list.map(value => wrapListItem(value));
 
   const openPopup = (pageY: number) => {
     popupContext.openPopup({
@@ -73,11 +84,11 @@ const DropDown: FC<IDropDownProps> = props => {
       Content: propsFromPopup => (
         <Selector
           {...propsFromPopup}
-          list={list}
+          list={listItems}
           pageY={pageY}
           navBarHeight={navBarHeight}
           maxVisibleListLength={maxVisibleListLength}
-          selectedItem={selectedItem}
+          selectedItem={selected}
           selectedItemColor={selectedItemColor}
           renderItemOnPress={renderItemOnPress}
           addButtonStyle={addButtonStyle}
@@ -97,7 +108,7 @@ const DropDown: FC<IDropDownProps> = props => {
   };
 
   const getFont = () => {
-    if (chosen) return addButtonTextFontChosen || 'Regular-Primary-M';
+    if (selected) return addButtonTextFontChosen || 'Regular-Primary-M';
     return addButtonTextFont || 'Regular-Muted-M';
   };
 
@@ -140,16 +151,18 @@ const DropDown: FC<IDropDownProps> = props => {
           onPress={checkPosition}
           accessibilityLabel={ACCESSIBILITY_LABEL.selector}>
           <Typography
-            style={chosen ? addButtonTextStyleChosen : addButtonTextStyle}
+            style={
+              selected?.label ? addButtonTextStyleChosen : addButtonTextStyle
+            }
             font={getFont()}
             numberOfLines={1}>
-            {chosen || placeholder}
+            {selected?.label || placeholder}
           </Typography>
           <Icon isOpen={isOpen} rightIcon={rightIcon} />
         </TouchableOpacity>
       </View>
     </View>
   );
-};
+}
 
 export default DropDown;

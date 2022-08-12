@@ -23,9 +23,9 @@ Author - Aleksei Smirnov
    * label?: string; - Тест в заголовке над **DropDown**
    * rightIcon?: ReactElement; - Иконка для **DropDown**
    * placeholder: string; - Дефолтный текст в **DropDown**
-   * list: string[]; - Массив элементов для списка **DropDown**
-   * onPress: (item: string) => void; - Функция по нажатию на элемент массива
-   * selectedItem?: string; - Текущий выбранный элемент для окраски оного в DropDown
+   * list: ListItem; - Массив элементов для списка **DropDown**
+   * onPress: (item: ListItem) => void; - Функция по нажатию на элемент массива
+   * selectedItem?: ListItem; - Текущий выбранный элемент для окраски оного в DropDown
    * navBarHeight?: number; - Высота навигационного бара для правильной позиции, чтобы **DropDown** не заезжал под навигацию
    * addButtonStyle?: ViewStyle; - Кастомный стиль для кнопки - если передать только его, **item** в списке будут считать высоту по **"высота кнопки * 0.8"**
    * addFlatListStyle?: ViewStyle; - Кастомный стиль для вьюшки **FlatList**. Стандартно ширина берется от кнопки, высота высчитывается в функции
@@ -42,3 +42,5 @@ Author - Aleksei Smirnov
    * addFlatListTextFontPressed?: TypographyProp; шрифт для текста для не выбранного элемента в списке **FlatList** - **selectedItem**
    * selectedItemColor?: string; - цвет выбранного элемента в списке при нажатии на него - подсветка **TouchableHighLight**
    * maxVisibleListLength?: number: - Максимальное количество видимых элементов в списке(Если элементов больше, вью у FlatList будет скроллится) - **по дефолту 6** 
+   
+9. Массив элементов: можно передать массив объектов ввида {label: string; value: unknown}, либо передать массив строк, который преобразуется в вид {label: string; value: unknown}.
