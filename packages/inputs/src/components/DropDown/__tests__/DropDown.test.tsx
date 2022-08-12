@@ -62,6 +62,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           label={'Название поля'}
           list={[...array]}
           onPress={onPress}
+          selectedItem={array[1]}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
         />
       </PopupsProvider>,
