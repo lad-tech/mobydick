@@ -1,3 +1,13 @@
+## [1.0.5](https://glab.lad24.ru/npm/mobydick/compare/v1.0.4...v1.0.5) (2022-08-12)
+
+
+### Bug Fixes
+
+* **DropDown:** added the ability to use an array of objects ([bd8125e](https://glab.lad24.ru/npm/mobydick/commit/bd8125e82ba35df7b75ec291b092f3f02c89e578))
+* **DropDown:** deleted [chosen, setChosen] = useState() and added two types ([21daf40](https://glab.lad24.ru/npm/mobydick/commit/21daf40446bb0e78445521c616539f8d9fbcf3ca))
+* **DropDown:** updated readme ([e8cfb15](https://glab.lad24.ru/npm/mobydick/commit/e8cfb15150fe30051d7c8a37873f16bb05740ffc))
+* **SimpleIcon:** replaced import Text for SimpleIcon and updated jest ([5b19894](https://glab.lad24.ru/npm/mobydick/commit/5b19894f379e15a26cacc332ce1b8e38061cc7cc))
+
 ## [1.0.4](https://glab.lad24.ru/npm/mobydick/compare/v1.0.3...v1.0.4) (2022-08-10)
 
 
