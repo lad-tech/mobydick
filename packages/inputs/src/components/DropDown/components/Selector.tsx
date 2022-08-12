@@ -20,7 +20,7 @@ import {IDropDownProps} from '../types';
 const keyExtractor = (item: string, index: number) =>
   index.toString() + item.toString();
 
-type FieldsToSelect =
+type IFieldsToSelect =
   | 'navBarHeight'
   | 'maxVisibleListLength'
   | 'selectedItem'
@@ -33,15 +33,17 @@ type FieldsToSelect =
   | 'addFlatListTextFontPressed'
   | 'addFlatListTextStylePressed';
 
-interface IItemsProps<T extends {label: string; value: unknown}>
+type ISelector = {label: string; value: unknown};
+
+interface IItemsProps<T extends ISelector>
   extends IPopupProps,
-    Pick<IDropDownProps<T>, FieldsToSelect> {
+    Pick<IDropDownProps<T>, IFieldsToSelect> {
   list: T[];
   pageY: number;
   renderItemOnPress: (item: T) => void;
 }
 
-interface IRenderItemProps<T extends {label: string; value: unknown}>
+interface IRenderItemProps<T extends ISelector>
   extends Pick<
     IItemsProps<T>,
     | 'renderItemOnPress'
@@ -57,9 +59,8 @@ interface IRenderItemProps<T extends {label: string; value: unknown}>
   styles: StyleSheet.NamedStyles<{dropDownItem: ViewStyle}>;
   theme: ReturnType<typeof useStyles>[1];
 }
-function renderItem<T extends {label: string; value: unknown}>(
-  props: IRenderItemProps<T>,
-) {
+
+function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
   return ({item}: {item: T}) => {
     const {
       renderItemOnPress,
@@ -120,9 +121,7 @@ function renderItem<T extends {label: string; value: unknown}>(
   };
 }
 
-function Selector<T extends {label: string; value: unknown}>(
-  props: IItemsProps<T>,
-) {
+function Selector<T extends ISelector>(props: IItemsProps<T>) {
   const {
     list,
     pageY,

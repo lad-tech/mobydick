@@ -4,7 +4,7 @@ import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 import {usePopups} from '@npm/mobydick-popups';
 
-import {IDropDownProps} from './types';
+import {IDropDownProps, IListItem} from './types';
 import stylesCreate from './stylesCreate';
 import {
   ACCESSIBILITY_LABEL,
@@ -17,18 +17,14 @@ import Selector from './components/Selector';
 
 const isString = (input: unknown): input is string => typeof input === 'string';
 
-function wrapListItem<T extends string | {label: string; value: unknown}>(
-  item: T,
-): Exclude<T, string> {
+function wrapListItem<T extends IListItem>(item: T): Exclude<T, string> {
   return (isString(item) ? {label: item, value: item} : item) as Exclude<
     T,
     string
   >;
 }
 
-function DropDown<T extends string | {label: string; value: unknown}>(
-  props: IDropDownProps<T>,
-) {
+function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
   const {
     label,
     placeholder,
@@ -57,10 +53,6 @@ function DropDown<T extends string | {label: string; value: unknown}>(
   } = props;
   const selected = selectedItem ? wrapListItem(selectedItem) : undefined;
 
-  const [chosen, setChosen] = useState<Exclude<T, string> | undefined>(
-    selected,
-  );
-
   const [isOpen, setOpen] = useState(false);
 
   const popupContext = usePopups();
@@ -81,7 +73,6 @@ function DropDown<T extends string | {label: string; value: unknown}>(
   const renderItemOnPress = (item: Exclude<T, string>) => {
     onPress(item);
     setOpen(false);
-    setChosen(item);
     popupContext.closePopup(DROP_DOWN_POPUP_ID);
   };
 
@@ -117,7 +108,7 @@ function DropDown<T extends string | {label: string; value: unknown}>(
   };
 
   const getFont = () => {
-    if (chosen) return addButtonTextFontChosen || 'Regular-Primary-M';
+    if (selected) return addButtonTextFontChosen || 'Regular-Primary-M';
     return addButtonTextFont || 'Regular-Muted-M';
   };
 
@@ -161,11 +152,11 @@ function DropDown<T extends string | {label: string; value: unknown}>(
           accessibilityLabel={ACCESSIBILITY_LABEL.selector}>
           <Typography
             style={
-              chosen?.label ? addButtonTextStyleChosen : addButtonTextStyle
+              selected?.label ? addButtonTextStyleChosen : addButtonTextStyle
             }
             font={getFont()}
             numberOfLines={1}>
-            {chosen?.label || placeholder}
+            {selected?.label || placeholder}
           </Typography>
           <Icon isOpen={isOpen} rightIcon={rightIcon} />
         </TouchableOpacity>

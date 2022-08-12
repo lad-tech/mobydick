@@ -2,9 +2,9 @@ import {ReactElement} from 'react';
 import {TextStyle, ViewStyle} from 'react-native';
 import {TypographyProp} from '@npm/mobydick-typography';
 
-export interface IDropDownProps<
-  ListItem extends string | {label: string; value: unknown},
-> {
+export type IListItem = string | {label: string; value: unknown};
+
+export interface IDropDownProps<ListItem extends IListItem> {
   label?: string;
   rightIcon?: ReactElement;
   placeholder: string;
