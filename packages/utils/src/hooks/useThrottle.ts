@@ -2,7 +2,7 @@ import {useEffect, useRef} from 'react';
 
 const useThrottle = <T extends (...arg: never[]) => void>(
   fn: T,
-  time = 5000,
+  time = 1000,
 ) => {
   const timeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
