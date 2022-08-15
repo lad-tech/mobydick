@@ -8,6 +8,9 @@
       "path": "../core"
     },
     {
+      "path": "../cta"
+    },
+    {
       "path": "../inputs"
     },
     {
@@ -21,9 +24,6 @@
     },
     {
       "path": "../typography"
-    },
-    {
-      "path": "../utils"
     }
   ],
   "compilerOptions": {
