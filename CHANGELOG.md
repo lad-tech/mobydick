@@ -1,3 +1,10 @@
+# [1.1.0](https://glab.lad24.ru/npm/mobydick/compare/v1.0.5...v1.1.0) (2022-08-15)
+
+
+### Features
+
+* **utils:** add useThrottle ([0ea1bcb](https://glab.lad24.ru/npm/mobydick/commit/0ea1bcb1e6d9fed92e59124134dd62b04bb46a91))
+
 ## [1.0.5](https://glab.lad24.ru/npm/mobydick/compare/v1.0.4...v1.0.5) (2022-08-12)
 
 
