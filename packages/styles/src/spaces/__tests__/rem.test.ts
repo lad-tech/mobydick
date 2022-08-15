@@ -1,6 +1,6 @@
 import {Dimensions, Platform} from 'react-native';
 
-import rem from './rem';
+import rem from '../rem';
 
 describe('rem', () => {
   it('should correct ios', () => {
