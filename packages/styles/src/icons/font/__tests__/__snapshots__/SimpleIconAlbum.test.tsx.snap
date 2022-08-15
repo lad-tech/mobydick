@@ -26,7 +26,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-account"
@@ -37,7 +37,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -59,7 +59,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-down"
@@ -70,7 +70,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -92,7 +92,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-left-long"
@@ -103,7 +103,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -125,7 +125,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-left"
@@ -136,7 +136,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -158,7 +158,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-right-long"
@@ -169,7 +169,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -191,7 +191,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-right"
@@ -202,7 +202,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -224,7 +224,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-up"
@@ -235,7 +235,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -257,7 +257,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-attachment"
@@ -268,7 +268,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -290,7 +290,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-bookmark"
@@ -301,7 +301,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -323,7 +323,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-calendar"
@@ -334,7 +334,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -356,7 +356,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-call"
@@ -367,7 +367,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -389,7 +389,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-cancel"
@@ -400,7 +400,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -422,7 +422,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-check"
@@ -433,7 +433,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -455,7 +455,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-copy"
@@ -466,7 +466,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -488,7 +488,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-edit"
@@ -499,7 +499,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -521,7 +521,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-filter"
@@ -532,7 +532,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -554,7 +554,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-folder"
@@ -565,7 +565,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -587,7 +587,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-grid"
@@ -598,7 +598,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -620,7 +620,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-group"
@@ -631,7 +631,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -653,7 +653,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-hide"
@@ -664,7 +664,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -686,7 +686,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-house"
@@ -697,7 +697,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -719,7 +719,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-image"
@@ -730,7 +730,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -752,7 +752,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-kebab"
@@ -763,7 +763,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -785,7 +785,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-list"
@@ -796,7 +796,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -818,7 +818,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-lock"
@@ -829,7 +829,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -851,7 +851,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-logout"
@@ -862,7 +862,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -884,7 +884,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-notification"
@@ -895,7 +895,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -917,7 +917,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-plus"
@@ -928,7 +928,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -950,7 +950,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-search"
@@ -961,7 +961,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -983,7 +983,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-settings"
@@ -994,7 +994,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1016,7 +1016,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-share"
@@ -1027,7 +1027,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1049,7 +1049,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-show"
@@ -1060,7 +1060,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1082,7 +1082,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-sort-horizontal"
@@ -1093,7 +1093,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1115,7 +1115,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-sort-vertical"
@@ -1126,7 +1126,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1148,7 +1148,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-unlock"
@@ -1159,7 +1159,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1181,7 +1181,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-warning"
@@ -1192,7 +1192,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1228,7 +1228,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-account"
@@ -1239,7 +1239,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1261,7 +1261,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-down"
@@ -1272,7 +1272,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1294,7 +1294,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-left-long"
@@ -1305,7 +1305,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1327,7 +1327,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-left"
@@ -1338,7 +1338,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1360,7 +1360,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-right-long"
@@ -1371,7 +1371,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1393,7 +1393,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-right"
@@ -1404,7 +1404,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1426,7 +1426,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-up"
@@ -1437,7 +1437,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1459,7 +1459,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-attachment"
@@ -1470,7 +1470,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1492,7 +1492,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-bookmark"
@@ -1503,7 +1503,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1525,7 +1525,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-calendar"
@@ -1536,7 +1536,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1558,7 +1558,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-call"
@@ -1569,7 +1569,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1591,7 +1591,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-cancel"
@@ -1602,7 +1602,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1624,7 +1624,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-check"
@@ -1635,7 +1635,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1657,7 +1657,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-copy"
@@ -1668,7 +1668,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1690,7 +1690,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-edit"
@@ -1701,7 +1701,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1723,7 +1723,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-filter"
@@ -1734,7 +1734,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1756,7 +1756,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-folder"
@@ -1767,7 +1767,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1789,7 +1789,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-grid"
@@ -1800,7 +1800,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1822,7 +1822,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-group"
@@ -1833,7 +1833,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1855,7 +1855,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-hide"
@@ -1866,7 +1866,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1888,7 +1888,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-house"
@@ -1899,7 +1899,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1921,7 +1921,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-image"
@@ -1932,7 +1932,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1954,7 +1954,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-kebab"
@@ -1965,7 +1965,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -1987,7 +1987,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-list"
@@ -1998,7 +1998,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2020,7 +2020,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-lock"
@@ -2031,7 +2031,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2053,7 +2053,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-logout"
@@ -2064,7 +2064,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2086,7 +2086,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-notification"
@@ -2097,7 +2097,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2119,7 +2119,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-plus"
@@ -2130,7 +2130,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2152,7 +2152,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-search"
@@ -2163,7 +2163,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2185,7 +2185,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-settings"
@@ -2196,7 +2196,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2218,7 +2218,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-share"
@@ -2229,7 +2229,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2251,7 +2251,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-show"
@@ -2262,7 +2262,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2284,7 +2284,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-sort-horizontal"
@@ -2295,7 +2295,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2317,7 +2317,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-sort-vertical"
@@ -2328,7 +2328,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2350,7 +2350,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-unlock"
@@ -2361,7 +2361,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2383,7 +2383,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-warning"
@@ -2394,7 +2394,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2430,7 +2430,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-account"
@@ -2441,7 +2441,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2463,7 +2463,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-down"
@@ -2474,7 +2474,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2496,7 +2496,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-left-long"
@@ -2507,7 +2507,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2529,7 +2529,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-left"
@@ -2540,7 +2540,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2562,7 +2562,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-right-long"
@@ -2573,7 +2573,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2595,7 +2595,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-right"
@@ -2606,7 +2606,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2628,7 +2628,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-arrow-up"
@@ -2639,7 +2639,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2661,7 +2661,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-attachment"
@@ -2672,7 +2672,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2694,7 +2694,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-bookmark"
@@ -2705,7 +2705,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2727,7 +2727,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-calendar"
@@ -2738,7 +2738,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2760,7 +2760,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-call"
@@ -2771,7 +2771,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2793,7 +2793,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-cancel"
@@ -2804,7 +2804,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2826,7 +2826,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-check"
@@ -2837,7 +2837,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2859,7 +2859,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-copy"
@@ -2870,7 +2870,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2892,7 +2892,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-edit"
@@ -2903,7 +2903,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2925,7 +2925,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-filter"
@@ -2936,7 +2936,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2958,7 +2958,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-folder"
@@ -2969,7 +2969,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -2991,7 +2991,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-grid"
@@ -3002,7 +3002,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3024,7 +3024,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-group"
@@ -3035,7 +3035,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3057,7 +3057,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-hide"
@@ -3068,7 +3068,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3090,7 +3090,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-house"
@@ -3101,7 +3101,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3123,7 +3123,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-image"
@@ -3134,7 +3134,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3156,7 +3156,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-kebab"
@@ -3167,7 +3167,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3189,7 +3189,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-list"
@@ -3200,7 +3200,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3222,7 +3222,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-lock"
@@ -3233,7 +3233,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3255,7 +3255,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-logout"
@@ -3266,7 +3266,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3288,7 +3288,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-notification"
@@ -3299,7 +3299,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3321,7 +3321,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-plus"
@@ -3332,7 +3332,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3354,7 +3354,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-search"
@@ -3365,7 +3365,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3387,7 +3387,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-settings"
@@ -3398,7 +3398,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3420,7 +3420,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-share"
@@ -3431,7 +3431,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3453,7 +3453,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-show"
@@ -3464,7 +3464,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3486,7 +3486,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-sort-horizontal"
@@ -3497,7 +3497,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3519,7 +3519,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-sort-vertical"
@@ -3530,7 +3530,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3552,7 +3552,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-unlock"
@@ -3563,7 +3563,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -3585,7 +3585,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
     onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "padding": 10,
+        "padding": 15,
       }
     }
     testID="icon-warning"
@@ -3596,7 +3596,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         Object {
           "color": "#333",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >

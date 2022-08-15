@@ -9,8 +9,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Inter-Medium",
-          "fontSize": 14,
-          "lineHeight": 18,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         undefined,
       ]
@@ -25,13 +25,13 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 8,
-          "borderWidth": 2,
+          "borderRadius": 12,
+          "borderWidth": 3,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 8,
-          "minWidth": 120,
-          "padding": 8,
+          "marginVertical": 12,
+          "minWidth": 178.5,
+          "padding": 12,
         },
         undefined,
       ]
@@ -43,13 +43,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#5E6678"
+      placeholderTextColor="#9BA1B0"
       style={
         Array [
           Object {
             "color": "#20242D",
             "flex": 1,
             "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
           },
           undefined,
         ]
@@ -64,8 +70,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
         Object {
           "color": "#9BA1B0",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
+          "fontSize": 18,
+          "lineHeight": 24,
         },
         undefined,
       ]
@@ -85,13 +91,13 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
           "alignItems": "center",
           "backgroundColor": "#D1D4DB",
           "borderColor": "transparent",
-          "borderRadius": 8,
-          "borderWidth": 2,
+          "borderRadius": 12,
+          "borderWidth": 3,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 8,
-          "minWidth": 120,
-          "padding": 8,
+          "marginVertical": 12,
+          "minWidth": 178.5,
+          "padding": 12,
         },
         undefined,
       ]
@@ -103,13 +109,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#5E6678"
+      placeholderTextColor="#9BA1B0"
       style={
         Array [
           Object {
             "color": "#20242D",
             "flex": 1,
             "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
           },
           undefined,
         ]
@@ -129,13 +141,13 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
           "alignItems": "center",
           "backgroundColor": "#D1D4DB",
           "borderColor": "#D1D4DB",
-          "borderRadius": 8,
-          "borderWidth": 2,
+          "borderRadius": 12,
+          "borderWidth": 3,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 8,
-          "minWidth": 120,
-          "padding": 8,
+          "marginVertical": 12,
+          "minWidth": 178.5,
+          "padding": 12,
         },
         undefined,
       ]
@@ -147,13 +159,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#5E6678"
+      placeholderTextColor="#9BA1B0"
       style={
         Array [
           Object {
             "color": "#20242D",
             "flex": 1,
             "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
           },
           undefined,
         ]
@@ -173,13 +191,13 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 8,
-          "borderWidth": 2,
+          "borderRadius": 12,
+          "borderWidth": 3,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 8,
-          "minWidth": 120,
-          "padding": 8,
+          "marginVertical": 12,
+          "minWidth": 178.5,
+          "padding": 12,
         },
         undefined,
       ]
@@ -191,13 +209,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#5E6678"
+      placeholderTextColor="#9BA1B0"
       style={
         Array [
           Object {
             "color": "#20242D",
             "flex": 1,
             "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
           },
           undefined,
         ]
@@ -217,13 +241,13 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 8,
-          "borderWidth": 2,
+          "borderRadius": 12,
+          "borderWidth": 3,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 8,
-          "minWidth": 120,
-          "padding": 8,
+          "marginVertical": 12,
+          "minWidth": 178.5,
+          "padding": 12,
         },
         undefined,
       ]
@@ -235,13 +259,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#5E6678"
+      placeholderTextColor="#9BA1B0"
       style={
         Array [
           Object {
             "color": "#20242D",
             "flex": 1,
             "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
           },
           undefined,
         ]
@@ -261,13 +291,13 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(43, 120, 238, 0.15)",
           "borderColor": "transparent",
-          "borderRadius": 8,
-          "borderWidth": 2,
+          "borderRadius": 12,
+          "borderWidth": 3,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 8,
-          "minWidth": 120,
-          "padding": 8,
+          "marginVertical": 12,
+          "minWidth": 178.5,
+          "padding": 12,
         },
         undefined,
       ]
@@ -279,13 +309,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#5E6678"
+      placeholderTextColor="#9BA1B0"
       style={
         Array [
           Object {
             "color": "#20242D",
             "flex": 1,
             "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
           },
           undefined,
         ]
@@ -305,13 +341,13 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(43, 120, 238, 0.15)",
           "borderColor": "#2B78EE",
-          "borderRadius": 8,
-          "borderWidth": 2,
+          "borderRadius": 12,
+          "borderWidth": 3,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 8,
-          "minWidth": 120,
-          "padding": 8,
+          "marginVertical": 12,
+          "minWidth": 178.5,
+          "padding": 12,
         },
         undefined,
       ]
@@ -323,13 +359,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#5E6678"
+      placeholderTextColor="#9BA1B0"
       style={
         Array [
           Object {
             "color": "#20242D",
             "flex": 1,
             "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
           },
           undefined,
         ]
@@ -349,13 +391,13 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(245, 77, 61, 0.15)",
           "borderColor": "transparent",
-          "borderRadius": 8,
-          "borderWidth": 2,
+          "borderRadius": 12,
+          "borderWidth": 3,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 8,
-          "minWidth": 120,
-          "padding": 8,
+          "marginVertical": 12,
+          "minWidth": 178.5,
+          "padding": 12,
         },
         undefined,
       ]
@@ -367,13 +409,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#5E6678"
+      placeholderTextColor="#9BA1B0"
       style={
         Array [
           Object {
             "color": "#20242D",
             "flex": 1,
             "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
           },
           undefined,
         ]
@@ -388,8 +436,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
         Object {
           "color": "#F54D3D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
+          "fontSize": 18,
+          "lineHeight": 24,
         },
         undefined,
       ]
@@ -409,13 +457,13 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(245, 77, 61, 0.15)",
           "borderColor": "#F54D3D",
-          "borderRadius": 8,
-          "borderWidth": 2,
+          "borderRadius": 12,
+          "borderWidth": 3,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 8,
-          "minWidth": 120,
-          "padding": 8,
+          "marginVertical": 12,
+          "minWidth": 178.5,
+          "padding": 12,
         },
         undefined,
       ]
@@ -427,13 +475,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#5E6678"
+      placeholderTextColor="#9BA1B0"
       style={
         Array [
           Object {
             "color": "#20242D",
             "flex": 1,
             "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
           },
           undefined,
         ]
@@ -448,8 +502,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
         Object {
           "color": "#F54D3D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
+          "fontSize": 18,
+          "lineHeight": 24,
         },
         undefined,
       ]

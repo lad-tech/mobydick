@@ -8,6 +8,7 @@ import {
   iconNames,
   SimpleIconName,
 } from '@npm/mobydick-styles';
+import rem from '@npm/mobydick-styles/src/spaces/rem';
 
 import CenterView from '../../CenterView';
 
@@ -16,7 +17,7 @@ storiesOf('Design System/icons/SimpleIcon', module)
   .add('basic', () => (
     <>
       <SimpleIcon
-        style={{marginBottom: 40}}
+        style={{marginBottom: rem(40)}}
         name={select('icon name', iconNames, 'icon-image') as SimpleIconName}
         size={number('size', 200)}
         color={select(

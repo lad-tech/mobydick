@@ -1,6 +1,6 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {boolean, number, select, text} from '@storybook/addon-knobs';
+import {boolean, select, text} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
 import {Button, ISize, ITypes} from '@npm/mobydick-cta';
 
@@ -16,6 +16,5 @@ storiesOf('Design System/CTA/Button', module)
       disabled={boolean('disabled', false)}
       loading={boolean('loading', false)}
       size={select('size', ISize, ISize.small)}
-      style={{minWidth: number('minWidth', 0)}}
     />
   ));

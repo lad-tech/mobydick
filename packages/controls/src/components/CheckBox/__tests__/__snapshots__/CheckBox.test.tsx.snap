@@ -28,11 +28,11 @@ exports[`CheckBox should renders correctly 1`] = `
     style={
       Object {
         "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 4,
-        "borderWidth": 2,
-        "height": 20,
-        "margin": 12,
-        "width": 20,
+        "borderRadius": 6,
+        "borderWidth": 3,
+        "height": 29.5,
+        "margin": 18,
+        "width": 29.5,
       }
     }
     value="Pepega"
@@ -73,11 +73,11 @@ exports[`CheckBox should renders correctly checked 1`] = `
     style={
       Object {
         "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 4,
+        "borderRadius": 6,
         "borderWidth": 0,
-        "height": 20,
-        "margin": 12,
-        "width": 20,
+        "height": 29.5,
+        "margin": 18,
+        "width": 29.5,
       }
     }
     value="Pepega"
@@ -125,11 +125,11 @@ exports[`CheckBox should renders correctly disabled 1`] = `
     style={
       Object {
         "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 4,
-        "borderWidth": 2,
-        "height": 20,
-        "margin": 12,
-        "width": 20,
+        "borderRadius": 6,
+        "borderWidth": 3,
+        "height": 29.5,
+        "margin": 18,
+        "width": 29.5,
       }
     }
     value="Pepega"

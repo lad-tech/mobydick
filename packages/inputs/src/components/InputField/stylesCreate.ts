@@ -1,5 +1,6 @@
 import {IUseStylesTheme} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
+import rem from '@npm/mobydick-styles/src/spaces/rem';
 
 import {ITypes} from './types';
 
@@ -13,7 +14,7 @@ const defaultStyle = (theme: IUseStylesTheme, focused: boolean) => {
       borderWidth: theme.spaces.Space2,
       borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: theme.spaces.Space8,
-      minWidth: 120,
+      minWidth: rem(120),
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',

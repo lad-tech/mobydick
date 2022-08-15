@@ -1,7 +1,7 @@
 import {ITextInput, TextInput, View} from '@npm/mobydick-core';
 import React, {forwardRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
-import {Typography} from '@npm/mobydick-typography';
+import {Typography, useFont} from '@npm/mobydick-typography';
 
 import {IInputFieldsProps, ITypes} from './types';
 import stylesCreate from './stylesCreate';
@@ -36,6 +36,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     ...otherProps
   } = props;
   const [focused, setFocused] = useState(false);
+  const {fontStyle} = useFont('Regular-Primary-S');
   const [styles, theme] = useStyles(
     stylesCreate,
     disabled ? ITypes.disabled : type,
@@ -53,8 +54,8 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
         <TextInput
           ref={ref}
           testID={Constants.testID}
-          style={[styles.textInput, style]}
-          placeholderTextColor={theme.colors.TextTertiary}
+          style={[styles.textInput, fontStyle, style]}
+          placeholderTextColor={theme.colors.TextMuted}
           editable={!disabled}
           numberOfLines={1}
           onFocus={() => setFocused(true)}

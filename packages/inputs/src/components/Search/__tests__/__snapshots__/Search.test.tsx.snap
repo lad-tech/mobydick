@@ -7,10 +7,10 @@ exports[`Search render correctly with value 1`] = `
       Object {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 8,
+        "borderRadius": 12,
         "flexDirection": "row",
         "maxWidth": "95%",
-        "padding": 6,
+        "padding": 9,
       },
       undefined,
     ]
@@ -28,8 +28,8 @@ exports[`Search render correctly with value 1`] = `
         Object {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 15,
-          "lineHeight": 19,
+          "fontSize": 22.5,
+          "lineHeight": 28.5,
         },
         Object {
           "flex": 1,
@@ -57,8 +57,8 @@ exports[`Search render correctly with value 1`] = `
     style={
       Object {
         "backgroundColor": "#D1D4DB",
-        "borderRadius": 64,
-        "padding": 4,
+        "borderRadius": 95,
+        "padding": 6,
       }
     }
   >
@@ -68,7 +68,7 @@ exports[`Search render correctly with value 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 20,
+          "fontSize": 29.5,
         }
       }
     >
@@ -85,10 +85,10 @@ exports[`Search render correctly without value 1`] = `
       Object {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 8,
+        "borderRadius": 12,
         "flexDirection": "row",
         "maxWidth": "95%",
-        "padding": 6,
+        "padding": 9,
       },
       undefined,
     ]
@@ -100,7 +100,7 @@ exports[`Search render correctly without value 1`] = `
       Object {
         "color": "#5E6678",
         "fontFamily": "Neotis",
-        "fontSize": 24,
+        "fontSize": 35.5,
       }
     }
   >
@@ -117,8 +117,8 @@ exports[`Search render correctly without value 1`] = `
         Object {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 15,
-          "lineHeight": 19,
+          "fontSize": 22.5,
+          "lineHeight": 28.5,
         },
         Object {
           "flex": 1,

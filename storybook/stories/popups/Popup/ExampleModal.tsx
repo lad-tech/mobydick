@@ -2,6 +2,7 @@ import {select, text} from '@storybook/addon-knobs';
 import {Button, ISize} from '@npm/mobydick-cta';
 import React, {FC} from 'react';
 import {IContentProps, usePopups, ModalBase} from '@npm/mobydick-popups';
+import rem from '@npm/mobydick-styles/src/spaces/rem';
 
 import ImageModal from './icons/svg/imageModal.svg';
 
@@ -12,7 +13,7 @@ const ExampleModal: FC<IContentProps> = props => {
   return (
     <ModalBase {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
-      <ImageModal style={{marginTop: 10}} />
+      <ImageModal style={{marginTop: rem(10)}} />
       <ModalBase.Title title={text('title', 'Нет доступа к камере')} />
       <ModalBase.DescriptionText
         descriptionText={text(
