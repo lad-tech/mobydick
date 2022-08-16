@@ -13,7 +13,7 @@ const defaultStyle = (theme: IUseStylesTheme, focused: boolean) => {
       borderWidth: theme.spaces.Space2,
       borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: theme.spaces.Space8,
-      minWidth: rem(120),
+      minWidth: rem(130),
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',

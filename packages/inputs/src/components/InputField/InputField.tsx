@@ -36,7 +36,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     ...otherProps
   } = props;
   const [focused, setFocused] = useState(false);
-  const {fontStyle} = useFont('Regular-Primary-S');
+  const {fontStyle} = useFont('Regular-Primary-M');
   const [styles, theme] = useStyles(
     stylesCreate,
     disabled ? ITypes.disabled : type,

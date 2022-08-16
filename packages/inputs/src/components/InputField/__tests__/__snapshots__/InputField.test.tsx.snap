@@ -30,7 +30,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 180,
+          "minWidth": 195,
           "padding": 12,
         },
         undefined,
@@ -53,8 +53,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -95,7 +95,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 180,
+          "minWidth": 195,
           "padding": 12,
         },
         undefined,
@@ -118,8 +118,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -144,7 +144,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 180,
+          "minWidth": 195,
           "padding": 12,
         },
         undefined,
@@ -167,8 +167,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -193,7 +193,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 180,
+          "minWidth": 195,
           "padding": 12,
         },
         undefined,
@@ -216,8 +216,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -242,7 +242,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 180,
+          "minWidth": 195,
           "padding": 12,
         },
         undefined,
@@ -265,8 +265,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -291,7 +291,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 180,
+          "minWidth": 195,
           "padding": 12,
         },
         undefined,
@@ -314,8 +314,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -340,7 +340,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 180,
+          "minWidth": 195,
           "padding": 12,
         },
         undefined,
@@ -363,8 +363,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -389,7 +389,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 180,
+          "minWidth": 195,
           "padding": 12,
         },
         undefined,
@@ -412,8 +412,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -454,7 +454,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 180,
+          "minWidth": 195,
           "padding": 12,
         },
         undefined,
@@ -477,8 +477,8 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
