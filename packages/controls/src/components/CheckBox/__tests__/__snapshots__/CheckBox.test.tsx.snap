@@ -30,9 +30,9 @@ exports[`CheckBox should renders correctly 1`] = `
         "borderColor": "rgba(32, 36, 45, 0.3)",
         "borderRadius": 6,
         "borderWidth": 3,
-        "height": 30.5,
-        "margin": 18,
-        "width": 30.5,
+        "height": 31,
+        "margin": 18.5,
+        "width": 31,
       }
     }
     value="Pepega"
@@ -75,9 +75,9 @@ exports[`CheckBox should renders correctly checked 1`] = `
         "borderColor": "rgba(32, 36, 45, 0.3)",
         "borderRadius": 6,
         "borderWidth": 0,
-        "height": 30.5,
-        "margin": 18,
-        "width": 30.5,
+        "height": 31,
+        "margin": 18.5,
+        "width": 31,
       }
     }
     value="Pepega"
@@ -127,9 +127,9 @@ exports[`CheckBox should renders correctly disabled 1`] = `
         "borderColor": "rgba(32, 36, 45, 0.3)",
         "borderRadius": 6,
         "borderWidth": 3,
-        "height": 30.5,
-        "margin": 18,
-        "width": 30.5,
+        "height": 31,
+        "margin": 18.5,
+        "width": 31,
       }
     }
     value="Pepega"

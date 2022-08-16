@@ -22,13 +22,13 @@ exports[`@npm/mobydick-cta/Button renders correctly 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 18.5,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72.5,
+      "minHeight": 74,
       "opacity": 1,
-      "paddingHorizontal": 48.5,
-      "paddingVertical": 18,
+      "paddingHorizontal": 49.5,
+      "paddingVertical": 18.5,
     }
   }
 >
@@ -39,8 +39,8 @@ exports[`@npm/mobydick-cta/Button renders correctly 1`] = `
         Object {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 27,
-          "lineHeight": 33.5,
+          "fontSize": 28,
+          "lineHeight": 34,
         },
         Array [
           Object {
@@ -78,13 +78,13 @@ exports[`@npm/mobydick-cta/Button renders correctly 2`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 18.5,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72.5,
+      "minHeight": 74,
       "opacity": 1,
-      "paddingHorizontal": 48.5,
-      "paddingVertical": 18,
+      "paddingHorizontal": 49.5,
+      "paddingVertical": 18.5,
     }
   }
 >
@@ -95,8 +95,8 @@ exports[`@npm/mobydick-cta/Button renders correctly 2`] = `
         Object {
           "color": "#F54D3D",
           "fontFamily": "Inter-Bold",
-          "fontSize": 27,
-          "lineHeight": 33.5,
+          "fontSize": 28,
+          "lineHeight": 34,
         },
         Array [
           Object {
@@ -134,13 +134,13 @@ exports[`@npm/mobydick-cta/Button renders correctly disabled 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
-      "borderRadius": 18,
+      "borderRadius": 18.5,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72.5,
+      "minHeight": 74,
       "opacity": 1,
-      "paddingHorizontal": 48.5,
-      "paddingVertical": 18,
+      "paddingHorizontal": 49.5,
+      "paddingVertical": 18.5,
     }
   }
 />
@@ -168,13 +168,13 @@ exports[`@npm/mobydick-cta/Button renders correctly fixed 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 18.5,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72.5,
+      "minHeight": 74,
       "opacity": 1,
-      "paddingHorizontal": 48.5,
-      "paddingVertical": 18,
+      "paddingHorizontal": 49.5,
+      "paddingVertical": 18.5,
     }
   }
 />
@@ -202,13 +202,13 @@ exports[`@npm/mobydick-cta/Button renders correctly large 1`] = `
       "alignItems": "center",
       "alignSelf": undefined,
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 18.5,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72.5,
+      "minHeight": 74,
       "opacity": 1,
-      "paddingHorizontal": 48.5,
-      "paddingVertical": 18,
+      "paddingHorizontal": 49.5,
+      "paddingVertical": 18.5,
     }
   }
 />
@@ -236,13 +236,13 @@ exports[`@npm/mobydick-cta/Button renders correctly loading 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 18.5,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72.5,
+      "minHeight": 74,
       "opacity": 1,
-      "paddingHorizontal": 48.5,
-      "paddingVertical": 18,
+      "paddingHorizontal": 49.5,
+      "paddingVertical": 18.5,
     }
   }
 >
@@ -289,13 +289,13 @@ exports[`@npm/mobydick-cta/Button renders correctly secondary 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
-      "borderRadius": 18,
+      "borderRadius": 18.5,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72.5,
+      "minHeight": 74,
       "opacity": 1,
-      "paddingHorizontal": 48.5,
-      "paddingVertical": 18,
+      "paddingHorizontal": 49.5,
+      "paddingVertical": 18.5,
     }
   }
 />
@@ -323,13 +323,13 @@ exports[`@npm/mobydick-cta/Button renders correctly small 1`] = `
       "alignItems": "center",
       "alignSelf": undefined,
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 18.5,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 48.5,
+      "minHeight": 49.5,
       "opacity": 1,
-      "paddingHorizontal": 24,
-      "paddingVertical": 9,
+      "paddingHorizontal": 24.5,
+      "paddingVertical": 9.5,
     }
   }
 />
@@ -357,13 +357,13 @@ exports[`@npm/mobydick-cta/Button renders correctly small 2`] = `
       "alignItems": "center",
       "alignSelf": undefined,
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 18.5,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 48.5,
+      "minHeight": 49.5,
       "opacity": 1,
-      "paddingHorizontal": 24,
-      "paddingVertical": 9,
+      "paddingHorizontal": 24.5,
+      "paddingVertical": 9.5,
     }
   }
 >
@@ -410,13 +410,13 @@ exports[`@npm/mobydick-cta/Button renders correctly tertiary 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
-      "borderRadius": 18,
+      "borderRadius": 18.5,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72.5,
+      "minHeight": 74,
       "opacity": 1,
-      "paddingHorizontal": 48.5,
-      "paddingVertical": 18,
+      "paddingHorizontal": 49.5,
+      "paddingVertical": 18.5,
     }
   }
 />

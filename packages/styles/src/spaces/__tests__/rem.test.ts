@@ -6,12 +6,12 @@ describe('rem', () => {
   it('should correct ios', () => {
     Platform.OS = 'ios';
     const res = rem(10);
-    expect(res).toEqual(15);
+    expect(res).toEqual(15.5);
   });
   it('should correct android', () => {
     Platform.OS = 'android';
     const res = rem(10);
-    expect(res).toEqual(15);
+    expect(res).toEqual(15.5);
   });
   it('should correct horizontal', () => {
     Platform.OS = 'android';

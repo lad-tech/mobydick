@@ -8,15 +8,15 @@ exports[`@npm/mobydick-popups/SnackbarBase/Title should renders correctly 1`] = 
       Object {
         "color": "#20242D",
         "fontFamily": "Inter-Regular",
-        "fontSize": 22.5,
-        "lineHeight": 29,
+        "fontSize": 23,
+        "lineHeight": 29.5,
       },
       Array [
         Object {
-          "fontSize": 21,
-          "lineHeight": 27,
-          "paddingRight": 30.5,
-          "paddingVertical": 24,
+          "fontSize": 21.5,
+          "lineHeight": 28,
+          "paddingRight": 31,
+          "paddingVertical": 24.5,
         },
         Object {
           "flex": 1,
