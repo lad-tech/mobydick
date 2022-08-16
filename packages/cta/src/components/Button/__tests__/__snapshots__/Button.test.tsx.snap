@@ -25,9 +25,9 @@ exports[`@npm/mobydick-cta/Button renders correctly 1`] = `
       "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 71.5,
+      "minHeight": 72.5,
       "opacity": 1,
-      "paddingHorizontal": 47.5,
+      "paddingHorizontal": 48.5,
       "paddingVertical": 18,
     }
   }
@@ -40,7 +40,7 @@ exports[`@npm/mobydick-cta/Button renders correctly 1`] = `
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 27,
-          "lineHeight": 32.5,
+          "lineHeight": 33.5,
         },
         Array [
           Object {
@@ -81,9 +81,9 @@ exports[`@npm/mobydick-cta/Button renders correctly 2`] = `
       "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 71.5,
+      "minHeight": 72.5,
       "opacity": 1,
-      "paddingHorizontal": 47.5,
+      "paddingHorizontal": 48.5,
       "paddingVertical": 18,
     }
   }
@@ -96,7 +96,7 @@ exports[`@npm/mobydick-cta/Button renders correctly 2`] = `
           "color": "#F54D3D",
           "fontFamily": "Inter-Bold",
           "fontSize": 27,
-          "lineHeight": 32.5,
+          "lineHeight": 33.5,
         },
         Array [
           Object {
@@ -137,9 +137,9 @@ exports[`@npm/mobydick-cta/Button renders correctly disabled 1`] = `
       "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 71.5,
+      "minHeight": 72.5,
       "opacity": 1,
-      "paddingHorizontal": 47.5,
+      "paddingHorizontal": 48.5,
       "paddingVertical": 18,
     }
   }
@@ -171,9 +171,9 @@ exports[`@npm/mobydick-cta/Button renders correctly fixed 1`] = `
       "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 71.5,
+      "minHeight": 72.5,
       "opacity": 1,
-      "paddingHorizontal": 47.5,
+      "paddingHorizontal": 48.5,
       "paddingVertical": 18,
     }
   }
@@ -205,9 +205,9 @@ exports[`@npm/mobydick-cta/Button renders correctly large 1`] = `
       "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 71.5,
+      "minHeight": 72.5,
       "opacity": 1,
-      "paddingHorizontal": 47.5,
+      "paddingHorizontal": 48.5,
       "paddingVertical": 18,
     }
   }
@@ -239,9 +239,9 @@ exports[`@npm/mobydick-cta/Button renders correctly loading 1`] = `
       "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 71.5,
+      "minHeight": 72.5,
       "opacity": 1,
-      "paddingHorizontal": 47.5,
+      "paddingHorizontal": 48.5,
       "paddingVertical": 18,
     }
   }
@@ -292,9 +292,9 @@ exports[`@npm/mobydick-cta/Button renders correctly secondary 1`] = `
       "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 71.5,
+      "minHeight": 72.5,
       "opacity": 1,
-      "paddingHorizontal": 47.5,
+      "paddingHorizontal": 48.5,
       "paddingVertical": 18,
     }
   }
@@ -326,7 +326,7 @@ exports[`@npm/mobydick-cta/Button renders correctly small 1`] = `
       "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 47.5,
+      "minHeight": 48.5,
       "opacity": 1,
       "paddingHorizontal": 24,
       "paddingVertical": 9,
@@ -360,7 +360,7 @@ exports[`@npm/mobydick-cta/Button renders correctly small 2`] = `
       "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 47.5,
+      "minHeight": 48.5,
       "opacity": 1,
       "paddingHorizontal": 24,
       "paddingVertical": 9,
@@ -413,9 +413,9 @@ exports[`@npm/mobydick-cta/Button renders correctly tertiary 1`] = `
       "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 71.5,
+      "minHeight": 72.5,
       "opacity": 1,
-      "paddingHorizontal": 47.5,
+      "paddingHorizontal": 48.5,
       "paddingVertical": 18,
     }
   }

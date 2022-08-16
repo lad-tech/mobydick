@@ -29,7 +29,7 @@ exports[`Search render correctly with value 1`] = `
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
           "fontSize": 22.5,
-          "lineHeight": 28.5,
+          "lineHeight": 29,
         },
         Object {
           "flex": 1,
@@ -57,7 +57,7 @@ exports[`Search render correctly with value 1`] = `
     style={
       Object {
         "backgroundColor": "#D1D4DB",
-        "borderRadius": 95,
+        "borderRadius": 97,
         "padding": 6,
       }
     }
@@ -68,7 +68,7 @@ exports[`Search render correctly with value 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 29.5,
+          "fontSize": 30.5,
         }
       }
     >
@@ -100,7 +100,7 @@ exports[`Search render correctly without value 1`] = `
       Object {
         "color": "#5E6678",
         "fontFamily": "Neotis",
-        "fontSize": 35.5,
+        "fontSize": 36.5,
       }
     }
   >
@@ -118,7 +118,7 @@ exports[`Search render correctly without value 1`] = `
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
           "fontSize": 22.5,
-          "lineHeight": 28.5,
+          "lineHeight": 29,
         },
         Object {
           "flex": 1,

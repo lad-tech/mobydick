@@ -1,7 +1,7 @@
-import {Dimensions, PixelRatio, Platform} from 'react-native';
+import {Dimensions, PixelRatio} from 'react-native';
 const Pixel = PixelRatio;
 
-const guidelineBaseWidth = 380;
+const guidelineBaseWidth = 370;
 export const scale = (size: number): number => {
   const {width, height} = Dimensions.get('window');
 
@@ -13,10 +13,7 @@ export const scale = (size: number): number => {
 const rem = (size: number, factor = 0.5): number => {
   const newSize = size + (scale(size) - size) * factor;
 
-  if (Platform.OS === 'ios') {
-    return Pixel.roundToNearestPixel(newSize);
-  }
-  return Pixel.roundToNearestPixel(newSize) - 2;
+  return Pixel.roundToNearestPixel(newSize);
 };
 
 export default rem;

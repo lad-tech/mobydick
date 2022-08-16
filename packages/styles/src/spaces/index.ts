@@ -1,5 +1,5 @@
 import rem from './rem';
-// eslint-disable-next-line import/prefer-default-export
+
 export const defaultSpaces = {
   Space2: rem(2),
   Space4: rem(4),
@@ -15,3 +15,5 @@ export const defaultSpaces = {
   Space48: rem(48),
   Space64: rem(64),
 };
+
+export {rem};

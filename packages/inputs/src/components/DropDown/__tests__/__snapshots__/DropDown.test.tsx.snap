@@ -65,7 +65,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
               "fontSize": 24,
-              "lineHeight": 29.5,
+              "lineHeight": 30.5,
             },
             undefined,
           ]
@@ -82,7 +82,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 35.5,
+              "fontSize": 36.5,
             }
           }
         >
@@ -159,7 +159,7 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
               "fontSize": 24,
-              "lineHeight": 29.5,
+              "lineHeight": 30.5,
             },
             undefined,
           ]
@@ -176,7 +176,7 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 35.5,
+              "fontSize": 36.5,
             }
           }
         >

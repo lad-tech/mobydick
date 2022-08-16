@@ -11,7 +11,7 @@ describe('rem', () => {
   it('should correct android', () => {
     Platform.OS = 'android';
     const res = rem(10);
-    expect(res).toEqual(13);
+    expect(res).toEqual(15);
   });
   it('should correct horizontal', () => {
     Platform.OS = 'android';
@@ -22,6 +22,6 @@ describe('rem', () => {
       fontScale: 1,
     }));
     const res = rem(10);
-    expect(res).toEqual(8);
+    expect(res).toEqual(11);
   });
 });
