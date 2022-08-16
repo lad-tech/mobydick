@@ -1,6 +1,5 @@
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
-import rem from '@npm/mobydick-styles/src/spaces/rem';
 
 const defaultStyle = (theme: IUseStylesTheme) =>
   StyleSheet.create({

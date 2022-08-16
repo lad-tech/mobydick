@@ -2,7 +2,7 @@ import {select, text} from '@storybook/addon-knobs';
 import {Button, ISize} from '@npm/mobydick-cta';
 import React, {FC} from 'react';
 import {IContentProps, usePopups, ModalBase} from '@npm/mobydick-popups';
-import rem from '@npm/mobydick-styles/src/spaces/rem';
+import {rem} from '@npm/mobydick-styles';
 
 import ImageModal from './icons/svg/imageModal.svg';
 

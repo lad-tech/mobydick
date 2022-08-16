@@ -7,18 +7,18 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 308.5,
+      "borderRadius": 300,
       "borderWidth": 1,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 31,
+      "padding": 30,
       "shadowColor": "#20242D",
       "shadowOffset": Object {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 18.5,
+      "shadowRadius": 18,
     }
   }
 >
@@ -50,18 +50,18 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 308.5,
+      "borderRadius": 300,
       "borderWidth": 1,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 31,
+      "padding": 30,
       "shadowColor": "#20242D",
       "shadowOffset": Object {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 18.5,
+      "shadowRadius": 18,
     }
   }
 >
@@ -101,9 +101,9 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
         Object {
           "alignItems": "center",
           "aspectRatio": 1,
-          "borderRadius": 37,
+          "borderRadius": 36,
           "justifyContent": "center",
-          "width": 74,
+          "width": 72,
         },
         Object {
           "position": "absolute",
@@ -117,7 +117,7 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly canceled 1`] = `
         Object {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
-          "fontSize": 37,
+          "fontSize": 36,
         }
       }
     >
@@ -134,18 +134,18 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly done 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 308.5,
+      "borderRadius": 300,
       "borderWidth": 1,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 31,
+      "padding": 30,
       "shadowColor": "#20242D",
       "shadowOffset": Object {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 18.5,
+      "shadowRadius": 18,
     }
   }
 >
@@ -154,9 +154,9 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly done 1`] = `
       Object {
         "alignItems": "center",
         "aspectRatio": 1,
-        "borderRadius": 37,
+        "borderRadius": 36,
         "justifyContent": "center",
-        "width": 74,
+        "width": 72,
       }
     }
   >
@@ -166,7 +166,7 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly done 1`] = `
         Object {
           "color": "#2B78EE",
           "fontFamily": "Neotis",
-          "fontSize": 74,
+          "fontSize": 72,
         }
       }
     >
@@ -183,18 +183,18 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly error 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 308.5,
+      "borderRadius": 300,
       "borderWidth": 1,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 31,
+      "padding": 30,
       "shadowColor": "#20242D",
       "shadowOffset": Object {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 18.5,
+      "shadowRadius": 18,
     }
   }
 >
@@ -204,9 +204,9 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly error 1`] = `
         Object {
           "alignItems": "center",
           "aspectRatio": 1,
-          "borderRadius": 37,
+          "borderRadius": 36,
           "justifyContent": "center",
-          "width": 74,
+          "width": 72,
         },
         Object {
           "backgroundColor": "#EEEFF1",
@@ -220,7 +220,7 @@ exports[`@npm/mobydick-progress/PanelSpinner renders correctly error 1`] = `
         Object {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
-          "fontSize": 49.5,
+          "fontSize": 48,
         }
       }
     >

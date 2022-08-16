@@ -15,8 +15,8 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Inter-Medium",
-          "fontSize": 21.5,
-          "lineHeight": 28,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         undefined,
       ]
@@ -44,14 +44,14 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "#EEEFF1",
-          "borderRadius": 12.5,
+          "borderRadius": 12,
           "borderWidth": 1,
           "flexDirection": "row",
           "height": 48,
           "justifyContent": "space-between",
-          "marginTop": 12.5,
+          "marginTop": 12,
           "opacity": 1,
-          "paddingHorizontal": 18.5,
+          "paddingHorizontal": 18,
           "width": 200,
         }
       }
@@ -64,8 +64,8 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
             Object {
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
-              "fontSize": 24.5,
-              "lineHeight": 31,
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -82,7 +82,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 37,
+              "fontSize": 36,
             }
           }
         >
@@ -109,8 +109,8 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Inter-Medium",
-          "fontSize": 21.5,
-          "lineHeight": 28,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         undefined,
       ]
@@ -138,14 +138,14 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "#EEEFF1",
-          "borderRadius": 12.5,
+          "borderRadius": 12,
           "borderWidth": 1,
           "flexDirection": "row",
           "height": 48,
           "justifyContent": "space-between",
-          "marginTop": 12.5,
+          "marginTop": 12,
           "opacity": 1,
-          "paddingHorizontal": 18.5,
+          "paddingHorizontal": 18,
           "width": 200,
         }
       }
@@ -158,8 +158,8 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
             Object {
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
-              "fontSize": 24.5,
-              "lineHeight": 31,
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -176,7 +176,7 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 37,
+              "fontSize": 36,
             }
           }
         >

@@ -1,7 +1,7 @@
 import {Dimensions, PixelRatio} from 'react-native';
 const Pixel = PixelRatio;
 
-const guidelineBaseWidth = 360;
+const guidelineBaseWidth = 375;
 export const scale = (size: number): number => {
   const {width, height} = Dimensions.get('window');
 

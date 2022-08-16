@@ -1,9 +1,8 @@
 import {IContentProps, SnackbarBase} from '@npm/mobydick-popups';
 import React, {FC} from 'react';
 import {boolean, select, text} from '@storybook/addon-knobs';
-import {SimpleIcon, useTheme} from '@npm/mobydick-styles';
+import {rem, SimpleIcon, useTheme} from '@npm/mobydick-styles';
 import {Button, ISize} from '@npm/mobydick-cta';
-import rem from '@npm/mobydick-styles/src/spaces/rem';
 
 enum IPlacement {
   start = 'flex-start',

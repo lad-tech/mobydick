@@ -6,8 +6,8 @@ exports[`@npm/mobydick-progress/Indicator renders correctly with colors 1`] = `
     Array [
       Object {
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 31,
-        "height": 31,
+        "borderRadius": 30,
+        "height": 30,
         "width": "90%",
       },
       undefined,
@@ -19,7 +19,7 @@ exports[`@npm/mobydick-progress/Indicator renders correctly with colors 1`] = `
     style={
       Object {
         "backgroundColor": "#2B78EE",
-        "borderRadius": 31,
+        "borderRadius": 30,
         "bottom": 0,
         "left": 0,
         "position": "absolute",

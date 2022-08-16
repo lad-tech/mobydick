@@ -38,7 +38,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly 1`] = `
         "borderRadius": 11,
         "borderWidth": 3,
         "justifyContent": "center",
-        "margin": 18.5,
+        "margin": 18,
         "width": 22,
       }
     }
@@ -85,7 +85,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly disabled 1`] = `
         "borderRadius": 11,
         "borderWidth": 3,
         "justifyContent": "center",
-        "margin": 18.5,
+        "margin": 18,
         "width": 22,
       }
     }
@@ -132,7 +132,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
         "borderRadius": 11,
         "borderWidth": 3,
         "justifyContent": "center",
-        "margin": 18.5,
+        "margin": 18,
         "width": 22,
       }
     }
@@ -191,7 +191,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`
         "borderRadius": 11,
         "borderWidth": 3,
         "justifyContent": "center",
-        "margin": 18.5,
+        "margin": 18,
         "width": 22,
       }
     }

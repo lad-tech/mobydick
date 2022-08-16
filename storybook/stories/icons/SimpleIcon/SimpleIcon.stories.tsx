@@ -7,8 +7,8 @@ import {
   defaultIconLightColor,
   iconNames,
   SimpleIconName,
+  rem,
 } from '@npm/mobydick-styles';
-import rem from '@npm/mobydick-styles/src/spaces/rem';
 
 import CenterView from '../../CenterView';
 

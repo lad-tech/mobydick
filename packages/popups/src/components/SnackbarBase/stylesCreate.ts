@@ -1,6 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme} from '@npm/mobydick-styles';
-import rem from '@npm/mobydick-styles/src/spaces/rem';
+import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
 
 const stylesCreate = (theme: IUseStylesTheme) => {
   const {colors} = theme;

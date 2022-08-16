@@ -1,6 +1,5 @@
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
-import rem from '@npm/mobydick-styles/src/spaces/rem';
 
 import {ITypes} from './types';
 
@@ -22,7 +21,6 @@ const defaultStyle = (theme: IUseStylesTheme, focused: boolean) => {
     textInput: {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
-      color: colors.TextPrimary,
     },
   });
 };

@@ -5,6 +5,7 @@ import {
   defaultTextLightColor,
   iconNames,
   ITextColors,
+  rem,
   SimpleIcon,
   SimpleIconName,
 } from '@npm/mobydick-styles';
@@ -14,7 +15,7 @@ import {
   TFontSize,
   TFontWeight,
 } from '@npm/mobydick-typography';
-import rem from '@npm/mobydick-styles/src/spaces/rem';
+
 const textColorKeys = Object.keys(
   defaultTextLightColor,
 ) as (keyof ITextColors)[];

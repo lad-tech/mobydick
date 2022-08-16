@@ -1,8 +1,7 @@
 import React, {FC} from 'react';
 import {Pressable, TextInput, View} from '@npm/mobydick-core';
-import {SimpleIcon, useStyles} from '@npm/mobydick-styles';
+import {rem, SimpleIcon, useStyles} from '@npm/mobydick-styles';
 import {useFont} from '@npm/mobydick-typography';
-import rem from '@npm/mobydick-styles/src/spaces/rem';
 
 import {ISearchProps} from './types';
 import stylesCreate from './stylesCreate';
