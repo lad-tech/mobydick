@@ -6,10 +6,22 @@ import {Button, ISize, ITypes} from '@npm/mobydick-cta';
 
 import CenterView from '../../CenterView';
 
+import ButtonWithDelay from './ButtonWithDelay';
+
 storiesOf('Design System/CTA/Button', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('basic', () => (
     <Button
+      text={text('text', 'text big text')}
+      onPress={action('onPress')}
+      type={select('type', ITypes, ITypes.primary)}
+      disabled={boolean('disabled', false)}
+      loading={boolean('loading', false)}
+      size={select('size', ISize, ISize.small)}
+    />
+  ))
+  .add('button with delay', () => (
+    <ButtonWithDelay
       text={text('text', 'text big text')}
       onPress={action('onPress')}
       type={select('type', ITypes, ITypes.primary)}
