@@ -33,6 +33,8 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     subtitleProps,
     containerStyle,
     textInputContainerStyle,
+    onFocus,
+    onBlur,
     ...otherProps
   } = props;
   const [focused, setFocused] = useState(false);
@@ -58,9 +60,13 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
           placeholderTextColor={theme.colors.TextMuted}
           editable={!disabled}
           numberOfLines={1}
-          onFocus={() => setFocused(true)}
-          onBlur={() => {
+          onFocus={event => {
+            setFocused(true);
+            onFocus?.(event);
+          }}
+          onBlur={event => {
             setFocused(false);
+            onBlur?.(event);
           }}
           {...otherProps}
         />
