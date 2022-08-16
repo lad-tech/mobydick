@@ -1,3 +1,14 @@
+## [1.1.1](https://glab.lad24.ru/npm/mobydick/compare/v1.1.0...v1.1.1) (2022-08-16)
+
+
+### Bug Fixes
+
+* **rem:** changed imports and guidelineBaseWidth(taken from figma) ([9857834](https://glab.lad24.ru/npm/mobydick/commit/9857834b050dcd2e6d3f61fe727edf2080ec48de))
+* **rem:** changed index and imports, update tests and style icon InputField.stories.tsx ([a9f9e13](https://glab.lad24.ru/npm/mobydick/commit/a9f9e13adfe8e6a6e87a1dccc79aed1e29cdb4f4))
+* **rem:** changed size placeholder Input and update tests ([15a5b2d](https://glab.lad24.ru/npm/mobydick/commit/15a5b2d3552ef84365994b43a9d69e725880ee19))
+* **rem:** forgot to return value ([4529e8e](https://glab.lad24.ru/npm/mobydick/commit/4529e8ecb89984968c001893b79e2a665925b18b))
+* **Snackbar:** changed import ([f9716b0](https://glab.lad24.ru/npm/mobydick/commit/f9716b01344b4fea966ffc3710a2a1e6f7508f28))
+
 # [1.1.0](https://glab.lad24.ru/npm/mobydick/compare/v1.0.5...v1.1.0) (2022-08-15)
 
 
