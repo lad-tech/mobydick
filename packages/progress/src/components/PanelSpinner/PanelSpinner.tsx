@@ -1,5 +1,5 @@
 import {Pressable} from '@npm/mobydick-core';
-import {SimpleIcon, useStyles} from '@npm/mobydick-styles';
+import {rem, SimpleIcon, useStyles} from '@npm/mobydick-styles';
 import React, {FC} from 'react';
 import {View} from 'react-native';
 
@@ -39,7 +39,7 @@ const PanelSpinner: FC<PanelSpinnerProps> = props => {
           ]}>
           <SimpleIcon
             name="icon-cancel"
-            size={32}
+            size={rem(32)}
             color={theme.colors.IconMuted}
           />
         </View>
@@ -47,7 +47,7 @@ const PanelSpinner: FC<PanelSpinnerProps> = props => {
         <View style={styles.insideView}>
           <SimpleIcon
             name="icon-check"
-            size={48}
+            size={rem(48)}
             color={theme.colors.IconBase}
           />
         </View>

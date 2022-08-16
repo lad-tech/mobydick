@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
 
 const stylesCreate = (theme: IUseStylesTheme) => {
   const {colors} = theme;
@@ -24,7 +24,7 @@ const stylesCreate = (theme: IUseStylesTheme) => {
     },
     title: {
       fontSize: theme.spaces.Space24,
-      lineHeight: 26,
+      lineHeight: rem(26),
       fontWeight: '600',
       color: colors.TextPrimary,
       paddingHorizontal: theme.spaces.Space20,
@@ -32,7 +32,7 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       textAlign: 'center',
     },
     descriptionText: {
-      fontSize: 16,
+      fontSize: rem(16),
       lineHeight: theme.spaces.Space20,
       fontWeight: '400',
       color: colors.TextSecondary,
@@ -42,8 +42,8 @@ const stylesCreate = (theme: IUseStylesTheme) => {
     },
     closeButton: {
       alignSelf: 'flex-end',
-      marginRight: 16,
-      padding: 6,
+      marginRight: theme.spaces.Space16,
+      padding: theme.spaces.Space6,
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: colors.BgTertiary,

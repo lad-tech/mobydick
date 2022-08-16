@@ -36,9 +36,9 @@ exports[`@npm/mobydick-controls/Radio renders correctly 1`] = `
         "backgroundColor": "transparent",
         "borderColor": "rgba(32, 36, 45, 0.3)",
         "borderRadius": 11,
-        "borderWidth": 2,
+        "borderWidth": 3,
         "justifyContent": "center",
-        "margin": 12,
+        "margin": 18,
         "width": 22,
       }
     }
@@ -83,9 +83,9 @@ exports[`@npm/mobydick-controls/Radio renders correctly disabled 1`] = `
         "backgroundColor": "transparent",
         "borderColor": "rgba(32, 36, 45, 0.3)",
         "borderRadius": 11,
-        "borderWidth": 2,
+        "borderWidth": 3,
         "justifyContent": "center",
-        "margin": 12,
+        "margin": 18,
         "width": 22,
       }
     }
@@ -130,9 +130,9 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
         "backgroundColor": "#2B78EE",
         "borderColor": "#2B78EE",
         "borderRadius": 11,
-        "borderWidth": 2,
+        "borderWidth": 3,
         "justifyContent": "center",
-        "margin": 12,
+        "margin": 18,
         "width": 22,
       }
     }
@@ -189,9 +189,9 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`
         "backgroundColor": "#2B78EE",
         "borderColor": "#2B78EE",
         "borderRadius": 11,
-        "borderWidth": 2,
+        "borderWidth": 3,
         "justifyContent": "center",
-        "margin": 12,
+        "margin": 18,
         "width": 22,
       }
     }

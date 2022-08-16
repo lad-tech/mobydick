@@ -7,11 +7,11 @@ exports[`@npm/mobydick-popups/Title should renders correctly 1`] = `
     Array [
       Object {
         "color": "#20242D",
-        "fontSize": 24,
+        "fontSize": 36,
         "fontWeight": "600",
-        "lineHeight": 26,
-        "paddingHorizontal": 20,
-        "paddingVertical": 10,
+        "lineHeight": 39,
+        "paddingHorizontal": 30,
+        "paddingVertical": 15,
         "textAlign": "center",
       },
       Object {

@@ -1,7 +1,7 @@
 import {IContentProps, SnackbarBase} from '@npm/mobydick-popups';
 import React, {FC} from 'react';
 import {boolean, select, text} from '@storybook/addon-knobs';
-import {SimpleIcon, useTheme} from '@npm/mobydick-styles';
+import {rem, SimpleIcon, useTheme} from '@npm/mobydick-styles';
 import {Button, ISize} from '@npm/mobydick-cta';
 
 enum IPlacement {
@@ -23,7 +23,7 @@ const ExampleSnackbar: FC<IContentProps> = props => {
           name={'icon-check'}
           color={colors.IconFavorite}
           style={{
-            paddingRight: 8,
+            paddingRight: rem(8),
           }}
         />
       )}
@@ -33,7 +33,7 @@ const ExampleSnackbar: FC<IContentProps> = props => {
           text={text('text button', 'Поделиться')}
           onPress={onClose}
           textStyle={{
-            fontSize: 14,
+            fontSize: rem(14),
             color: colors.TextAccent,
             textAlign: 'center',
           }}

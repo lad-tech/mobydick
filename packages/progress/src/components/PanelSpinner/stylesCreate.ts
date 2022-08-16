@@ -1,4 +1,4 @@
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
 const defaultStyle = (theme: IUseStylesTheme) =>
@@ -6,11 +6,11 @@ const defaultStyle = (theme: IUseStylesTheme) =>
     container: {
       justifyContent: 'center',
       alignItems: 'center',
-      padding: 20,
+      padding: theme.spaces.Space20,
       backgroundColor: theme.colors.BgPrimary,
       borderColor: theme.colors.BorderSoft,
-      borderWidth: 0.5,
-      borderRadius: 200,
+      borderWidth: rem(0.5),
+      borderRadius: rem(200),
       shadowColor: theme.colors.BgBlack,
       // ios
       shadowOffset: {
@@ -18,7 +18,7 @@ const defaultStyle = (theme: IUseStylesTheme) =>
         height: 1,
       },
       shadowOpacity: 0.3,
-      shadowRadius: 12,
+      shadowRadius: rem(12),
       // android
       elevation: 10,
     },

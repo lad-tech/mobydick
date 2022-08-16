@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
 
 const stylesCreate = (theme: IUseStylesTheme) => {
   const {colors} = theme;
@@ -14,8 +14,8 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       marginVertical: theme.spaces.Space20,
     },
     title: {
-      fontSize: 14,
-      lineHeight: 18,
+      fontSize: rem(14),
+      lineHeight: rem(18),
       paddingRight: theme.spaces.Space20,
       paddingVertical: theme.spaces.Space16,
     },

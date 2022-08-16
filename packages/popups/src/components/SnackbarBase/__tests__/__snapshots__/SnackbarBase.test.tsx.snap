@@ -35,11 +35,11 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginVertical": 20,
-          "paddingLeft": 20,
+          "marginVertical": 30,
+          "paddingLeft": 30,
         },
         undefined,
       ]

@@ -5,6 +5,7 @@ import {
   defaultTextLightColor,
   iconNames,
   ITextColors,
+  rem,
   SimpleIcon,
   SimpleIconName,
 } from '@npm/mobydick-styles';
@@ -48,13 +49,13 @@ const ExampleArrayOfStrings = () => {
         />
       }
       addButtonStyle={{
-        height: number('Высота кнопки', 40),
-        width: number('Ширина кнопки', 300),
+        height: number('Высота кнопки', rem(40)),
+        width: number('Ширина кнопки', rem(300)),
       }}
       addFlatListItemStyle={{
-        height: number('Высота элемента списка', 32),
+        height: number('Высота элемента списка', rem(32)),
       }}
-      addFlatListStyle={{width: number('Ширина списка', 300)}}
+      addFlatListStyle={{width: number('Ширина списка', rem(300))}}
       addButtonTextFont={`${
         select(
           'Начертание текста кнопки',

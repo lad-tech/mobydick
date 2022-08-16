@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import {Pressable, TextInput, View} from '@npm/mobydick-core';
-import {SimpleIcon, useStyles} from '@npm/mobydick-styles';
+import {rem, SimpleIcon, useStyles} from '@npm/mobydick-styles';
 import {useFont} from '@npm/mobydick-typography';
 
 import {ISearchProps} from './types';
@@ -39,7 +39,7 @@ const Search: FC<ISearchProps> = ({
           accessibilityLabel={accessibilityLabels.cancel}
           onPress={() => onChangeText('')}
           style={styles.cancelIcon}>
-          <SimpleIcon name={'icon-cancel'} size={20} />
+          <SimpleIcon name={'icon-cancel'} size={rem(20)} />
         </Pressable>
       ) : null}
     </View>
