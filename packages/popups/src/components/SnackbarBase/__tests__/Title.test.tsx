@@ -12,8 +12,8 @@ describe('@npm/mobydick-popups/SnackbarBase/Title', () => {
   it('should renders correctly with titleFont', () => {
     const {toJSON} = render(
       <Title
-        title={'title'}
-        titleStyles={{flex: 1}}
+        title={'title two'}
+        titleStyles={{backgroundColor: '#000'}}
         titleFont={'Medium-Secondary-M'}
       />,
     );

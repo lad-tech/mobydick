@@ -18,13 +18,13 @@ exports[`@npm/mobydick-popups/DescriptionText should renders correctly with desc
           "textAlign": "center",
         },
         Object {
-          "flex": 1,
+          "backgroundColor": "#000",
         },
       ],
     ]
   }
 >
-  descriptionText
+  description text two
 </Text>
 `;
 

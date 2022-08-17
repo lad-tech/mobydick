@@ -18,13 +18,13 @@ exports[`@npm/mobydick-popups/Title should renders correctly with titleFont 1`] 
           "textAlign": "center",
         },
         Object {
-          "flex": 1,
+          "backgroundColor": "#000",
         },
       ],
     ]
   }
 >
-  title
+  title two
 </Text>
 `;
 

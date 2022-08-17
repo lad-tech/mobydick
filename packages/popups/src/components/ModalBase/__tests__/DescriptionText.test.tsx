@@ -17,8 +17,8 @@ describe('@npm/mobydick-popups/DescriptionText', () => {
   it('should renders correctly with descriptionFont', () => {
     const {toJSON} = render(
       <DescriptionText
-        descriptionText={'descriptionText'}
-        descriptionStyles={{flex: 1}}
+        descriptionText={'description text two'}
+        descriptionStyles={{backgroundColor: '#000'}}
         descriptionFont={'Medium-Secondary-M'}
       />,
     );

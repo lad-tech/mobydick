@@ -17,13 +17,13 @@ exports[`@npm/mobydick-popups/SnackbarBase/Title should renders correctly with t
           "paddingVertical": 24,
         },
         Object {
-          "flex": 1,
+          "backgroundColor": "#000",
         },
       ],
     ]
   }
 >
-  title
+  title two
 </Text>
 `;
 
