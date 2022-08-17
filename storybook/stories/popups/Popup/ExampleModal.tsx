@@ -4,6 +4,8 @@ import React, {FC} from 'react';
 import {IContentProps, usePopups, ModalBase} from '@npm/mobydick-popups';
 import {rem} from '@npm/mobydick-styles';
 
+import selectFont from '../../../utils/selectFont';
+
 import ImageModal from './icons/svg/imageModal.svg';
 
 const ExampleModal: FC<IContentProps> = props => {
@@ -14,11 +16,19 @@ const ExampleModal: FC<IContentProps> = props => {
     <ModalBase {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
       <ImageModal style={{marginTop: rem(10)}} />
-      <ModalBase.Title title={text('title', 'Нет доступа к камере')} />
+      <ModalBase.Title
+        title={text('Title text ', 'Нет доступа к камере')}
+        titleFont={select('Title font', selectFont, 'SemiBold-Primary-H4')}
+      />
       <ModalBase.DescriptionText
         descriptionText={text(
           'Description text',
           'Разрешите доступ к камере в настройках, чтобы сканировать штрихкод или QR-код на картах',
+        )}
+        descriptionFont={select(
+          'Description font',
+          selectFont,
+          'Regular-Secondary-M',
         )}
       />
       <Button

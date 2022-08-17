@@ -1,15 +1,21 @@
 import React, {FC} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
-import {Text} from '@npm/mobydick-core';
+import {Typography} from '@npm/mobydick-typography';
 
 import stylesCreate from '../PopupBase/stylesCreate';
 import {ITitlePopup} from '../PopupBase';
 
 const Title: FC<ITitlePopup> = props => {
   const [styles] = useStyles(stylesCreate);
-  const {title, titleStyles} = props;
+  const {title, titleStyles, titleFont} = props;
 
-  return <Text style={[styles.title, titleStyles]}>{title}</Text>;
+  return (
+    <Typography
+      style={[styles.title, titleStyles]}
+      font={titleFont ? titleFont : 'SemiBold-Primary-H4'}>
+      {title}
+    </Typography>
+  );
 };
 
 export default Title;
