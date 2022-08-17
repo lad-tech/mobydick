@@ -1,3 +1,18 @@
+## [1.1.2](https://glab.lad24.ru/npm/mobydick/compare/v1.1.1...v1.1.2) (2022-08-17)
+
+
+### Bug Fixes
+
+* **color:** replaced, added and deleted colors ([0d6d513](https://glab.lad24.ru/npm/mobydick/commit/0d6d5130172daf3b056f3ca9afe71667b938bcb6))
+* **inputs-InputField:** protect from onFocus onBlur redefinition ([660bb41](https://glab.lad24.ru/npm/mobydick/commit/660bb41e90fadaec3bcd621809f63f9aeaa3ef63))
+* **Popups:** lost string 'font' ([a836ae5](https://glab.lad24.ru/npm/mobydick/commit/a836ae5e7ddbadb4b0debd311f4122b6290cf7c5))
+* **Popups:** replaced Text with Typography, also added function selectFont and began to use it in storybook, updated snap ([0e75d42](https://glab.lad24.ru/npm/mobydick/commit/0e75d42fc2e7b5986358e2e5e2df61b337222049))
+
+
+### BREAKING CHANGES
+
+* **color:** TextBlackTransparent -> TextBlackExtra; TextWhiteTransparent -> TextWhiteExtra; IconAdditional: '#FAB742'; IconFavorite -> deleted; ElementAdditional: '#FAB742'; ElementFavorite -> deleted; ElementTransparent -> deleted; BgPrimaryTransparent -> BgPrimaryExtra; BgContrastTransparent -> BgContrastExtra; CtaBtnDestructive -> added;
+
 ## [1.1.1](https://glab.lad24.ru/npm/mobydick/compare/v1.1.0...v1.1.1) (2022-08-16)
 
 
