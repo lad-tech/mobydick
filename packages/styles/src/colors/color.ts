@@ -6,9 +6,9 @@ export const defaultTextLightColor = {
   TextAccent: '#2B78EE',
   TextError: '#F54D3D',
   TextBlack: '#20242D',
-  TextBlackTransparent: 'rgba(32, 36, 45, 0.75)',
+  TextBlackExtra: 'rgba(32, 36, 45, 0.75)',
   TextWhite: '#FFF',
-  TextWhiteTransparent: 'rgba(255, 255, 255, 0.75)',
+  TextWhiteExtra: 'rgba(255, 255, 255, 0.75)',
 };
 export const defaultTextDarkColor = {
   TextPrimary: '#FFFFFF',
@@ -18,9 +18,9 @@ export const defaultTextDarkColor = {
   TextAccent: '#4C94FF',
   TextError: '#F86B5D',
   TextBlack: '#20242D',
-  TextBlackTransparent: 'rgba(32, 36, 45, 0.75)',
+  TextBlackExtra: 'rgba(32, 36, 45, 0.75)',
   TextWhite: '#FFF',
-  TextWhiteTransparent: 'rgba(255, 255, 255, 0.75)',
+  TextWhiteExtra: 'rgba(255, 255, 255, 0.75)',
 };
 
 export const defaultIconLightColor = {
@@ -28,8 +28,7 @@ export const defaultIconLightColor = {
   IconMuted: '#9BA1B0',
   IconBase: '#2B78EE',
   IconAttention: '#F54D3D',
-  IconFavorite: '#FAB742',
-  IconAdditional: '#FA9247',
+  IconAdditional: '#FAB742',
   IconWhite: '#FFF',
   IconBlack: '#1E232F',
 };
@@ -38,8 +37,7 @@ export const defaultIconDarkColor = {
   IconMuted: '#7A8394',
   IconBase: '#4C94FF',
   IconAttention: '#F86B5D',
-  IconFavorite: '#FAB742',
-  IconAdditional: '#FA9247',
+  IconAdditional: '#FAB742',
   IconWhite: '#FFF',
   IconBlack: '#1E232F',
 };
@@ -49,22 +47,18 @@ export const defaultElementLightColor = {
   ElementMuted: '#9BA1B0',
   ElementBase: '#2B78EE',
   ElementAttention: '#F54D3D',
-  ElementFavorite: '#FAB742',
-  ElementAdditional: '#FA9247',
+  ElementAdditional: '#FAB742',
   ElementWhite: '#FFF',
   ElementBlack: '#20242D',
-  ElementTransparent: 'rgba(255, 255, 255, 0.15)',
 };
 export const defaultElementDarkColor = {
   ElementNeutral: '#B6BBC6',
   ElementMuted: '#7A8394',
   ElementBase: '#4C94FF',
   ElementAttention: '#F86B5D',
-  ElementFavorite: '#FAB742',
-  ElementAdditional: '#FA9247',
+  ElementAdditional: '#FAB742',
   ElementWhite: '#FFF',
   ElementBlack: '#20242D',
-  ElementTransparent: 'rgba(255, 255, 255, 0.15)',
 };
 
 export const defaultBorderLightColor = {
@@ -86,12 +80,12 @@ export const defaultBorderDarkColor = {
 
 export const defaultBgLightColor = {
   BgPrimary: '#FFF',
-  BgPrimaryTransparent: 'rgba(255, 255, 255, 0.75)',
+  BgPrimaryExtra: 'rgba(255, 255, 255, 0.75)',
   BgSecondary: '#EEEFF1',
   BgTertiary: '#D1D4DB',
   BgQuaternary: '#B6BBC6',
   BgContrast: '#20242D',
-  BgContrastTransparent: 'rgba(32, 36, 45, 0.75)',
+  BgContrastExtra: 'rgba(32, 36, 45, 0.75)',
   BgError: 'rgba(245, 77, 61, 0.15)',
   BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
   BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
@@ -103,12 +97,12 @@ export const defaultBgLightColor = {
 };
 export const defaultBgDarkColor = {
   BgPrimary: '#20242D',
-  BgPrimaryTransparent: 'rgba(32, 36, 45, 0.75)',
+  BgPrimaryExtra: 'rgba(32, 36, 45, 0.75)',
   BgSecondary: '#2E3442',
   BgTertiary: '#444B5A',
   BgQuaternary: '#5E6678',
   BgContrast: '#FFF',
-  BgContrastTransparent: 'rgba(255, 255, 255, 0.75)',
+  BgContrastExtra: 'rgba(255, 255, 255, 0.75)',
   BgError: 'rgba(245, 77, 61, 0.15)',
   BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
   BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
@@ -123,9 +117,11 @@ export const defaultCTALightColor = {
   CtaBtnPrimary: '#2B78EE',
   CtaBtnSecondary: 'rgba(43, 120, 238, 0.15)',
   CtaBtnMuted: '#9BA1B0',
+  CtaBtnDestructive: '#F54D3D',
 };
 export const defaultCTADarkColor = {
   CtaBtnPrimary: '#2B78EE',
   CtaBtnSecondary: 'rgba(43, 120, 238, 0.15)',
   CtaBtnMuted: '#758199',
+  CtaBtnDestructive: '#F86B5D',
 };
