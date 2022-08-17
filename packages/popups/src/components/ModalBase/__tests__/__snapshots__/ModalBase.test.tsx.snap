@@ -40,6 +40,7 @@ exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
           "marginHorizontal": 9,
           "marginVertical": 30,
           "paddingBottom": 60,
+          "paddingHorizontal": 30,
           "paddingTop": 24,
         },
         undefined,

@@ -8,9 +8,15 @@ import stylesCreate from './stylesCreate';
 
 const Title: FC<ITitlePopup> = props => {
   const [styles] = useStyles(stylesCreate);
-  const {title, titleStyles} = props;
+  const {title, titleStyles, titleFont} = props;
 
-  return <Typography style={[styles.title, titleStyles]}>{title}</Typography>;
+  return (
+    <Typography
+      style={[styles.title, titleStyles]}
+      font={titleFont ? titleFont : 'Regular-Primary-XS'}>
+      {title}
+    </Typography>
+  );
 };
 
 export default Title;

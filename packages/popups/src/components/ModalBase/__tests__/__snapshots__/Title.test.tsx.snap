@@ -1,22 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-popups/Title should renders correctly 1`] = `
+exports[`@npm/mobydick-popups/Title should renders correctly with titleFont 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    Array [
+      Object {
+        "color": "#444B5A",
+        "fontFamily": "Inter-Medium",
+        "fontSize": 24,
+        "lineHeight": 30,
+      },
+      Array [
+        Object {
+          "paddingHorizontal": 30,
+          "paddingVertical": 15,
+          "textAlign": "center",
+        },
+        Object {
+          "backgroundColor": "#000",
+        },
+      ],
+    ]
+  }
+>
+  title two
+</Text>
+`;
+
+exports[`@npm/mobydick-popups/Title should renders correctly without titleFont 1`] = `
 <Text
   allowFontScaling={true}
   style={
     Array [
       Object {
         "color": "#20242D",
+        "fontFamily": "Inter-SemiBold",
         "fontSize": 36,
-        "fontWeight": "600",
         "lineHeight": 39,
-        "paddingHorizontal": 30,
-        "paddingVertical": 15,
-        "textAlign": "center",
       },
-      Object {
-        "flex": 1,
-      },
+      Array [
+        Object {
+          "paddingHorizontal": 30,
+          "paddingVertical": 15,
+          "textAlign": "center",
+        },
+        Object {
+          "flex": 1,
+        },
+      ],
     ]
   }
 >

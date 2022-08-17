@@ -4,6 +4,8 @@ import {boolean, select, text} from '@storybook/addon-knobs';
 import {rem, SimpleIcon, useTheme} from '@npm/mobydick-styles';
 import {Button, ISize} from '@npm/mobydick-cta';
 
+import selectFont from '../../../utils/selectFont';
+
 enum IPlacement {
   start = 'flex-start',
   center = 'center',
@@ -27,7 +29,10 @@ const ExampleSnackbar: FC<IContentProps> = props => {
           }}
         />
       )}
-      <SnackbarBase.Title title={text('title', 'Подборка добавлена')} />
+      <SnackbarBase.Title
+        title={text('title', 'Подборка добавлена')}
+        titleFont={select('Snackbar font', selectFont, 'Regular-Primary-XS')}
+      />
       {boolean('show right button ', true) && (
         <Button
           text={text('text button', 'Поделиться')}
