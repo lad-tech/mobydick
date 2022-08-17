@@ -1,6 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-popups/DescriptionText should renders correctly 1`] = `
+exports[`@npm/mobydick-popups/DescriptionText should renders correctly with descriptionFont 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    Array [
+      Object {
+        "color": "#444B5A",
+        "fontFamily": "Inter-Medium",
+        "fontSize": 24,
+        "lineHeight": 30,
+      },
+      Array [
+        Object {
+          "paddingBottom": 30,
+          "paddingHorizontal": 30,
+          "textAlign": "center",
+        },
+        Object {
+          "flex": 1,
+        },
+      ],
+    ]
+  }
+>
+  descriptionText
+</Text>
+`;
+
+exports[`@npm/mobydick-popups/DescriptionText should renders correctly without descriptionFont 1`] = `
 <Text
   allowFontScaling={true}
   style={

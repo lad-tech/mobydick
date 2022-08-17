@@ -1,6 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-popups/SnackbarBase/Title should renders correctly 1`] = `
+exports[`@npm/mobydick-popups/SnackbarBase/Title should renders correctly with titleFont 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    Array [
+      Object {
+        "color": "#444B5A",
+        "fontFamily": "Inter-Medium",
+        "fontSize": 24,
+        "lineHeight": 30,
+      },
+      Array [
+        Object {
+          "paddingRight": 30,
+          "paddingVertical": 24,
+        },
+        Object {
+          "flex": 1,
+        },
+      ],
+    ]
+  }
+>
+  title
+</Text>
+`;
+
+exports[`@npm/mobydick-popups/SnackbarBase/Title should renders correctly without titleFont 1`] = `
 <Text
   allowFontScaling={true}
   style={

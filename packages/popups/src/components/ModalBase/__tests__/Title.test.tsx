@@ -8,8 +8,19 @@ describe('@npm/mobydick-popups/Title', () => {
     jest.resetAllMocks();
     jest.clearAllMocks();
   });
-  it('should renders correctly', () => {
+  it('should renders correctly without titleFont', () => {
     const {toJSON} = render(<Title title={'title'} titleStyles={{flex: 1}} />);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('should renders correctly with titleFont', () => {
+    const {toJSON} = render(
+      <Title
+        title={'title'}
+        titleStyles={{flex: 1}}
+        titleFont={'Medium-Secondary-M'}
+      />,
+    );
 
     expect(toJSON()).toMatchSnapshot();
   });
