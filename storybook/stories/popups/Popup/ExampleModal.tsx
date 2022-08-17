@@ -26,7 +26,7 @@ const ExampleModal: FC<IContentProps> = props => {
           'Разрешите доступ к камере в настройках, чтобы сканировать штрихкод или QR-код на картах',
         )}
         descriptionFont={select(
-          'Description text',
+          'Description font',
           selectFont,
           'Regular-Secondary-M',
         )}
