@@ -20,17 +20,16 @@ export const newThemeTextColor: ITextColors = {
   TextAccent: '#2B78EE',
   TextError: '#F54D3D',
   TextBlack: '#20242D',
-  TextBlackTransparent: 'rgba(32, 36, 45, 0.75)',
+  TextBlackExtra: 'rgba(32, 36, 45, 0.75)',
   TextWhite: '#FFF',
-  TextWhiteTransparent: 'rgba(255, 255, 255, 0.75)',
+  TextWhiteExtra: 'rgba(255, 255, 255, 0.75)',
 };
 export const newThemeIconColor: IIconColors = {
   IconNeutral: '#5E6678',
   IconMuted: '#9BA1B0',
   IconBase: '#283446',
   IconAttention: '#F54D3D',
-  IconFavorite: '#FAB742',
-  IconAdditional: '#FA9247',
+  IconAdditional: '#FAB742',
   IconWhite: '#FFF',
   IconBlack: '#1E232F',
 };
@@ -39,11 +38,9 @@ export const newThemeElementColor: IElementColors = {
   ElementMuted: '#9BA1B0',
   ElementBase: '#0049b9',
   ElementAttention: '#F54D3D',
-  ElementFavorite: '#FAB742',
-  ElementAdditional: '#FA9247',
+  ElementAdditional: '#FAB742',
   ElementWhite: '#FFF',
   ElementBlack: '#20242D',
-  ElementTransparent: 'rgba(255, 255, 255, 0.15)',
 };
 export const newThemeBorderColor: IBorderColors = {
   BorderExtra: 'rgba(32, 36, 45, 0.75)',
@@ -55,12 +52,12 @@ export const newThemeBorderColor: IBorderColors = {
 };
 export const newThemeBgColor: IBgColors = {
   BgPrimary: '#FFF',
-  BgPrimaryTransparent: 'rgba(255, 255, 255, 0.75)',
+  BgPrimaryExtra: 'rgba(255, 255, 255, 0.75)',
   BgSecondary: '#EEEFF1',
   BgTertiary: '#b8c0d2',
   BgQuaternary: '#B6BBC6',
   BgContrast: '#20242D',
-  BgContrastTransparent: 'rgba(32, 36, 45, 0.75)',
+  BgContrastExtra: 'rgba(32, 36, 45, 0.75)',
   BgError: 'rgba(245, 77, 61, 0.15)',
   BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
   BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
@@ -74,6 +71,7 @@ export const newThemeCTAColor: ICTAColors = {
   CtaBtnPrimary: '#2B78EE',
   CtaBtnSecondary: 'rgba(43, 120, 238, 0.15)',
   CtaBtnMuted: '#143faf',
+  CtaBtnDestructive: '#F86B5D',
 };
 
 describe('theme', () => {

@@ -23,7 +23,7 @@ const ExampleSnackbar: FC<IContentProps> = props => {
       {boolean('show icon', true) && (
         <SimpleIcon
           name={'icon-check'}
-          color={colors.IconFavorite}
+          color={colors.IconAdditional}
           style={{
             paddingRight: rem(8),
           }}
