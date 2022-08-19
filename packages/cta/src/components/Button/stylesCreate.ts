@@ -3,30 +3,30 @@ import {StyleSheet, ViewStyle} from 'react-native';
 
 import {ISize, ITypes} from './types';
 
+const sizeButtonStyle = (theme: IUseStylesTheme, size: ISize): ViewStyle => {
+  switch (size) {
+    case ISize.small:
+      return {
+        minHeight: theme.spaces.Space32,
+        paddingVertical: theme.spaces.Space6,
+        paddingHorizontal: theme.spaces.Space16,
+      };
+    case ISize.large:
+      return {
+        minHeight: theme.spaces.Space48,
+        paddingVertical: theme.spaces.Space12,
+        paddingHorizontal: theme.spaces.Space32,
+      };
+    case ISize.fixed:
+      return {
+        alignSelf: 'stretch',
+        minHeight: theme.spaces.Space48,
+      };
+  }
+};
+
 const primaryStyle = (theme: IUseStylesTheme, size: ISize) => {
   const {colors} = theme;
-
-  const sizeButtonStyle = (): ViewStyle => {
-    switch (size) {
-      case ISize.small:
-        return {
-          minHeight: theme.spaces.Space32,
-          paddingVertical: theme.spaces.Space6,
-          paddingHorizontal: theme.spaces.Space16,
-        };
-      case ISize.large:
-        return {
-          minHeight: theme.spaces.Space48,
-          paddingVertical: theme.spaces.Space12,
-          paddingHorizontal: theme.spaces.Space32,
-        };
-      case ISize.fixed:
-        return {
-          alignSelf: 'stretch',
-          minHeight: theme.spaces.Space48,
-        };
-    }
-  };
 
   return StyleSheet.create({
     container: {
@@ -36,7 +36,7 @@ const primaryStyle = (theme: IUseStylesTheme, size: ISize) => {
       backgroundColor: colors.CtaBtnPrimary,
       borderRadius: theme.spaces.Space12,
 
-      ...sizeButtonStyle(),
+      ...sizeButtonStyle(theme, size),
     },
 
     text: {
