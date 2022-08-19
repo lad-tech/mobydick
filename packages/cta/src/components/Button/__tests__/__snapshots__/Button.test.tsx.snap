@@ -27,11 +27,19 @@ exports[`@npm/mobydick-cta/Button renders correctly 1`] = `
       "justifyContent": "center",
       "minHeight": 72,
       "opacity": 1,
-      "paddingHorizontal": 48,
-      "paddingVertical": 18,
     }
   }
 >
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 9,
+        },
+        undefined,
+      ]
+    }
+  />
   <Text
     allowFontScaling={true}
     style={
@@ -53,6 +61,16 @@ exports[`@npm/mobydick-cta/Button renders correctly 1`] = `
   >
     text
   </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 9,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -83,11 +101,19 @@ exports[`@npm/mobydick-cta/Button renders correctly 2`] = `
       "justifyContent": "center",
       "minHeight": 72,
       "opacity": 1,
-      "paddingHorizontal": 48,
-      "paddingVertical": 18,
     }
   }
 >
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 9,
+        },
+        undefined,
+      ]
+    }
+  />
   <Text
     allowFontScaling={true}
     style={
@@ -109,6 +135,69 @@ exports[`@npm/mobydick-cta/Button renders correctly 2`] = `
   >
     text
   </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly destructive 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#F54D3D",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 9,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -139,11 +228,30 @@ exports[`@npm/mobydick-cta/Button renders correctly disabled 1`] = `
       "justifyContent": "center",
       "minHeight": 72,
       "opacity": 1,
-      "paddingHorizontal": 48,
-      "paddingVertical": 18,
     }
   }
-/>
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly fixed 1`] = `
@@ -173,11 +281,30 @@ exports[`@npm/mobydick-cta/Button renders correctly fixed 1`] = `
       "justifyContent": "center",
       "minHeight": 72,
       "opacity": 1,
-      "paddingHorizontal": 48,
-      "paddingVertical": 18,
     }
   }
-/>
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly large 1`] = `
@@ -200,7 +327,6 @@ exports[`@npm/mobydick-cta/Button renders correctly large 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "alignSelf": undefined,
       "backgroundColor": "#2B78EE",
       "borderRadius": 18,
       "flexDirection": "row",
@@ -211,7 +337,144 @@ exports[`@npm/mobydick-cta/Button renders correctly large 1`] = `
       "paddingVertical": 18,
     }
   }
-/>
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly left icon size large 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+      "paddingHorizontal": 48,
+      "paddingVertical": 18,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 9,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 9,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View />
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly left icon small 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+      "paddingHorizontal": 24,
+      "paddingVertical": 9,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 6,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 6,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View />
+  </View>
+</View>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly loading 1`] = `
@@ -241,8 +504,6 @@ exports[`@npm/mobydick-cta/Button renders correctly loading 1`] = `
       "justifyContent": "center",
       "minHeight": 72,
       "opacity": 1,
-      "paddingHorizontal": 48,
-      "paddingVertical": 18,
     }
   }
 >
@@ -294,11 +555,30 @@ exports[`@npm/mobydick-cta/Button renders correctly secondary 1`] = `
       "justifyContent": "center",
       "minHeight": 72,
       "opacity": 1,
-      "paddingHorizontal": 48,
-      "paddingVertical": 18,
     }
   }
-/>
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly small 1`] = `
@@ -321,7 +601,6 @@ exports[`@npm/mobydick-cta/Button renders correctly small 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "alignSelf": undefined,
       "backgroundColor": "#2B78EE",
       "borderRadius": 18,
       "flexDirection": "row",
@@ -332,7 +611,28 @@ exports[`@npm/mobydick-cta/Button renders correctly small 1`] = `
       "paddingVertical": 9,
     }
   }
-/>
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 6,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 6,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly small 2`] = `
@@ -355,7 +655,6 @@ exports[`@npm/mobydick-cta/Button renders correctly small 2`] = `
   style={
     Object {
       "alignItems": "center",
-      "alignSelf": undefined,
       "backgroundColor": "#2B78EE",
       "borderRadius": 18,
       "flexDirection": "row",
@@ -415,9 +714,28 @@ exports[`@npm/mobydick-cta/Button renders correctly tertiary 1`] = `
       "justifyContent": "center",
       "minHeight": 72,
       "opacity": 1,
-      "paddingHorizontal": 48,
-      "paddingVertical": 18,
     }
   }
-/>
+>
+  <View
+    style={
+      Array [
+        Object {
+          "paddingRight": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "paddingLeft": 9,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
 `;

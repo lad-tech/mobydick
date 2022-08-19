@@ -1,6 +1,6 @@
 import {ITouchableOpacityProps} from '@npm/mobydick-core';
 import {ReactElement} from 'react';
-import {StyleProp, TextStyle} from 'react-native';
+import {StyleProp, TextStyle, ViewStyle} from 'react-native';
 import {TypographyProp} from '@npm/mobydick-typography';
 
 interface IButtonProps {
@@ -10,6 +10,8 @@ interface IButtonProps {
   font?: TypographyProp | undefined;
   leftIcon?: ReactElement;
   rightIcon?: ReactElement;
+  leftIconStyle?: StyleProp<ViewStyle>;
+  rightIconStyle?: StyleProp<ViewStyle>;
   loading?: boolean;
   size?: ISize;
 }
@@ -20,6 +22,7 @@ export enum ITypes {
   tertiary = 'tertiary',
   disabled = 'disabled',
   loading = 'loading',
+  destructive = 'destructive',
 }
 
 export enum ISize {
