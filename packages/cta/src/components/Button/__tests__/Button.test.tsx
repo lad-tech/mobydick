@@ -10,7 +10,7 @@ describe('@npm/mobydick-cta/Button', () => {
     const {toJSON, rerender} = render(<Button text={'text'} />);
     expect(toJSON()).toMatchSnapshot();
 
-    rerender(<Button text={'text'} font={'Bold-Error-L'} />);
+    rerender(<Button text={'text'} font={'Bold-Error-L'} size={ISize.small} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly secondary', () => {
@@ -52,7 +52,12 @@ describe('@npm/mobydick-cta/Button', () => {
   });
   it('renders correctly left icon size large', () => {
     const {toJSON} = render(
-      <Button size={ISize.large} leftIcon={<View />} rightIcon={<View />} />,
+      <Button
+        size={ISize.large}
+        leftIcon={<View />}
+        rightIcon={<View />}
+        text={'text'}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
@@ -60,6 +65,10 @@ describe('@npm/mobydick-cta/Button', () => {
     const {toJSON} = render(
       <Button size={ISize.small} leftIcon={<View />} rightIcon={<View />} />,
     );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly without size', () => {
+    const {toJSON} = render(<Button size={'ISize' as unknown as ISize} />);
     expect(toJSON()).toMatchSnapshot();
   });
 });

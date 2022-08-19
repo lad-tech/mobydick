@@ -1,21 +1,31 @@
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
 import {StyleSheet, ViewStyle} from 'react-native';
 
 import {ISize, ITypes} from './types';
 
-const sizeButtonStyle = (theme: IUseStylesTheme, size: ISize): ViewStyle => {
+const sizeButtonStyle = (
+  theme: IUseStylesTheme,
+  size: ISize,
+  leftIcon: boolean,
+  rightIcon: boolean,
+  text: boolean,
+): ViewStyle => {
   switch (size) {
     case ISize.small:
       return {
         minHeight: theme.spaces.Space32,
         paddingVertical: theme.spaces.Space6,
-        paddingHorizontal: theme.spaces.Space16,
+        paddingHorizontal: text
+          ? theme.spaces.Space12
+          : leftIcon || rightIcon
+          ? rem(14)
+          : theme.spaces.Space6,
       };
     case ISize.large:
       return {
         minHeight: theme.spaces.Space48,
         paddingVertical: theme.spaces.Space12,
-        paddingHorizontal: theme.spaces.Space32,
+        paddingHorizontal: text ? rem(26) : theme.spaces.Space12,
       };
     case ISize.fixed:
       return {
@@ -27,7 +37,13 @@ const sizeButtonStyle = (theme: IUseStylesTheme, size: ISize): ViewStyle => {
   }
 };
 
-const primaryStyle = (theme: IUseStylesTheme, size: ISize) => {
+const primaryStyle = (
+  theme: IUseStylesTheme,
+  size: ISize,
+  leftIcon: boolean,
+  rightIcon: boolean,
+  text: boolean,
+) => {
   const {colors} = theme;
 
   return StyleSheet.create({
@@ -38,25 +54,25 @@ const primaryStyle = (theme: IUseStylesTheme, size: ISize) => {
       backgroundColor: colors.CtaBtnPrimary,
       borderRadius: theme.spaces.Space12,
 
-      ...sizeButtonStyle(theme, size),
+      ...sizeButtonStyle(theme, size, leftIcon, rightIcon, text),
     },
 
     text: {
       color: colors.TextWhite,
-    },
-    leftIcon: {
-      paddingRight:
-        size === ISize.small ? theme.spaces.Space4 : theme.spaces.Space6,
-    },
-    rightIcon: {
-      paddingLeft:
+      paddingHorizontal:
         size === ISize.small ? theme.spaces.Space4 : theme.spaces.Space6,
     },
   });
 };
 
-const secondaryStyle = (theme: IUseStylesTheme, size: ISize) => {
-  const defaultStyles = primaryStyle(theme, size);
+const secondaryStyle = (
+  theme: IUseStylesTheme,
+  size: ISize,
+  leftIcon: boolean,
+  rightIcon: boolean,
+  text: boolean,
+) => {
+  const defaultStyles = primaryStyle(theme, size, leftIcon, rightIcon, text);
   const {
     colors: {CtaBtnSecondary, TextAccent},
   } = theme;
@@ -67,8 +83,14 @@ const secondaryStyle = (theme: IUseStylesTheme, size: ISize) => {
   return defaultStyles;
 };
 
-const tertiaryStyle = (theme: IUseStylesTheme, size: ISize) => {
-  const defaultStyles = primaryStyle(theme, size);
+const tertiaryStyle = (
+  theme: IUseStylesTheme,
+  size: ISize,
+  leftIcon: boolean,
+  rightIcon: boolean,
+  text: boolean,
+) => {
+  const defaultStyles = primaryStyle(theme, size, leftIcon, rightIcon, text);
   const {
     colors: {TextAccent},
   } = theme;
@@ -79,8 +101,14 @@ const tertiaryStyle = (theme: IUseStylesTheme, size: ISize) => {
   return defaultStyles;
 };
 
-const disabledStyle = (theme: IUseStylesTheme, size: ISize) => {
-  const defaultStyles = primaryStyle(theme, size);
+const disabledStyle = (
+  theme: IUseStylesTheme,
+  size: ISize,
+  leftIcon: boolean,
+  rightIcon: boolean,
+  text: boolean,
+) => {
+  const defaultStyles = primaryStyle(theme, size, leftIcon, rightIcon, text);
   const {
     colors: {CtaBtnMuted, TextWhite},
   } = theme;
@@ -91,8 +119,14 @@ const disabledStyle = (theme: IUseStylesTheme, size: ISize) => {
   return defaultStyles;
 };
 
-const destructiveStyle = (theme: IUseStylesTheme, size: ISize) => {
-  const defaultStyles = primaryStyle(theme, size);
+const destructiveStyle = (
+  theme: IUseStylesTheme,
+  size: ISize,
+  leftIcon: boolean,
+  rightIcon: boolean,
+  text: boolean,
+) => {
+  const defaultStyles = primaryStyle(theme, size, leftIcon, rightIcon, text);
   const {
     colors: {CtaBtnDestructive, TextWhite},
   } = theme;
@@ -103,19 +137,26 @@ const destructiveStyle = (theme: IUseStylesTheme, size: ISize) => {
   return defaultStyles;
 };
 
-const stylesCreate = (theme: IUseStylesTheme, type: ITypes, size: ISize) => {
+const stylesCreate = (
+  theme: IUseStylesTheme,
+  type: ITypes,
+  size: ISize,
+  leftIcon: boolean,
+  rightIcon: boolean,
+  text: boolean,
+) => {
   switch (type) {
     case ITypes.secondary:
-      return secondaryStyle(theme, size);
+      return secondaryStyle(theme, size, leftIcon, rightIcon, text);
     case ITypes.tertiary:
-      return tertiaryStyle(theme, size);
+      return tertiaryStyle(theme, size, leftIcon, rightIcon, text);
     case ITypes.disabled:
-      return disabledStyle(theme, size);
+      return disabledStyle(theme, size, leftIcon, rightIcon, text);
     case ITypes.destructive:
-      return destructiveStyle(theme, size);
+      return destructiveStyle(theme, size, leftIcon, rightIcon, text);
     case ITypes.primary:
     default:
-      return primaryStyle(theme, size);
+      return primaryStyle(theme, size, leftIcon, rightIcon, text);
   }
 };
 export default stylesCreate;
