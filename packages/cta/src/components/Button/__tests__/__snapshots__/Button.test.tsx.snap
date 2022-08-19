@@ -298,7 +298,7 @@ exports[`@npm/mobydick-cta/Button renders correctly left icon size large 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-cta/Button renders correctly left icon small 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly left icon size small 1`] = `
 <View
   accessibilityState={
     Object {
@@ -325,6 +325,64 @@ exports[`@npm/mobydick-cta/Button renders correctly left icon small 1`] = `
       "minHeight": 48,
       "opacity": 1,
       "paddingHorizontal": 21,
+      "paddingVertical": 9,
+    }
+  }
+>
+  <View />
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#FFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 21,
+          "lineHeight": 27,
+        },
+        Array [
+          Object {
+            "color": "#FFF",
+            "paddingHorizontal": 6,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    text
+  </Text>
+  <View />
+</View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly left icon small 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+      "paddingHorizontal": 9,
       "paddingVertical": 9,
     }
   }
@@ -532,6 +590,62 @@ exports[`@npm/mobydick-cta/Button renders correctly tertiary 1`] = `
     }
   }
 />
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly text 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+      "paddingHorizontal": 18,
+      "paddingVertical": 9,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#FFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 21,
+          "lineHeight": 27,
+        },
+        Array [
+          Object {
+            "color": "#FFF",
+            "paddingHorizontal": 6,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly without size 1`] = `

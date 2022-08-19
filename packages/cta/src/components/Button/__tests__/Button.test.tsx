@@ -71,4 +71,19 @@ describe('@npm/mobydick-cta/Button', () => {
     const {toJSON} = render(<Button size={'ISize' as unknown as ISize} />);
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly text', () => {
+    const {toJSON} = render(<Button size={ISize.small} text={'text'} />);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly left icon size small', () => {
+    const {toJSON} = render(
+      <Button
+        size={ISize.small}
+        leftIcon={<View />}
+        rightIcon={<View />}
+        text={'text'}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
