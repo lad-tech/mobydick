@@ -1,5 +1,5 @@
 import {Button, ISize, ITypes} from '@npm/mobydick-cta';
-import {boolean, select, text} from '@storybook/addon-knobs';
+import {boolean, number, select, text} from '@storybook/addon-knobs';
 import {iconNames, SimpleIcon} from '@npm/mobydick-styles';
 import React from 'react';
 
@@ -46,6 +46,7 @@ const ExampleButton = () => {
               size={24}
             />
           }
+          style={{minWidth: number('minWidth', 0)}}
         />
       );
     case IViewButton.rightIcon:
@@ -66,6 +67,7 @@ const ExampleButton = () => {
               size={24}
             />
           }
+          style={{minWidth: number('minWidth', 0)}}
         />
       );
     case IViewButton.onlyIcon:
@@ -85,6 +87,7 @@ const ExampleButton = () => {
               size={24}
             />
           }
+          style={{minWidth: number('minWidth', 0)}}
         />
       );
     case IViewButton.noIcon:
@@ -99,6 +102,7 @@ const ExampleButton = () => {
           disabled={boolean('disabled', false)}
           loading={boolean('loading', false)}
           size={select('size', ISize, ISize.small)}
+          style={{minWidth: number('minWidth', 0)}}
         />
       );
   }
