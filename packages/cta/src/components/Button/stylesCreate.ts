@@ -22,6 +22,8 @@ const sizeButtonStyle = (theme: IUseStylesTheme, size: ISize): ViewStyle => {
         alignSelf: 'stretch',
         minHeight: theme.spaces.Space48,
       };
+    default:
+      return {};
   }
 };
 
