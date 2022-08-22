@@ -1,3 +1,19 @@
+## [1.1.3](https://glab.lad24.ru/npm/mobydick/compare/v1.1.2...v1.1.3) (2022-08-22)
+
+
+### Bug Fixes
+
+* **button:** added default ([5d100c8](https://glab.lad24.ru/npm/mobydick/commit/5d100c841a0aba33b829a5bec502e087bb6e467a))
+* **button:** added select minWidth ([ad515ab](https://glab.lad24.ru/npm/mobydick/commit/ad515ab8a9daca12e810524da3c1cfc030bd5c9c))
+* **Button:** added type destructive, iconStyles, added function that get paddings for different types button and  update storybook button's ([c7a2288](https://glab.lad24.ru/npm/mobydick/commit/c7a228824c754f522f3658343c05c0757901f6ef))
+* **button:** changed styles paddings ([048ec35](https://glab.lad24.ru/npm/mobydick/commit/048ec35598a620011e992699469a29b785e6771e))
+* **button:** changed styles paddings ([0e6c517](https://glab.lad24.ru/npm/mobydick/commit/0e6c51706c4b6ca5eea9bb57a6feff2cc1145923))
+* **button:** changed text in storybook ([a1db497](https://glab.lad24.ru/npm/mobydick/commit/a1db497710d7210f09642322b8a737630b0c84fa))
+* **button:** remove duplicate in storybook button ([393de9d](https://glab.lad24.ru/npm/mobydick/commit/393de9d556fcf755710d8d388ef24dca3c1f0571))
+* **button:** took out function ([104686c](https://glab.lad24.ru/npm/mobydick/commit/104686c744a709efae67984d0531018f5f735d44))
+* **color:** changed colors ([6c69676](https://glab.lad24.ru/npm/mobydick/commit/6c69676f84b8e16c2ce607117751e6aea3bf8899))
+* **rem:** changed import ([b80a091](https://glab.lad24.ru/npm/mobydick/commit/b80a09184cc8c626e26b6c1ea44e95762fe5bf1e))
+
 ## [1.1.2](https://glab.lad24.ru/npm/mobydick/compare/v1.1.1...v1.1.2) (2022-08-17)
 
 
