@@ -1,8 +1,8 @@
-import {useStyles} from '@npm/mobydick-styles';
 import {renderHook} from '@testing-library/react-hooks';
 import {StyleSheet} from 'react-native';
 
-import {defaultThemeContext} from '../../theme/context';
+import useStyles from '../useStyles';
+import {defaultThemeContext} from '../../context';
 
 const styles = () => StyleSheet.create({test: {flex: 1}});
 

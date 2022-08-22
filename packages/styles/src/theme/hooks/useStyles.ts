@@ -1,14 +1,14 @@
 import {StyleSheet} from 'react-native';
 
-import useTheme from '../theme/useTheme';
+import {IThemeContext} from '../types';
 
-import {IUseStylesTheme} from './types';
+import useTheme from './useTheme';
 
 const useStyles = <
   Args extends unknown[],
   FnReturn extends StyleSheet.NamedStyles<unknown>,
 >(
-  createStyleFn: (theme: IUseStylesTheme, ...arg: Args) => FnReturn,
+  createStyleFn: (theme: IThemeContext, ...arg: Args) => FnReturn,
   ...args: Args
 ) => {
   const theme = useTheme();

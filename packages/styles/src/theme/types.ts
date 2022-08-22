@@ -40,3 +40,8 @@ export interface IThemeContext {
   setTheme: (theme: IDefaultTheme) => void;
   setCurrentTheme: (theme: ICurrentTheme) => void;
 }
+
+/**
+ * @deprecated use IThemeContext
+ */
+export type IUseStylesTheme = IThemeContext;

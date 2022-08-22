@@ -1,7 +1,7 @@
-import {useTheme} from '@npm/mobydick-styles';
 import {renderHook} from '@testing-library/react-hooks';
 
-import {defaultThemeContext, MissingThemeProviderError} from '../context';
+import useTheme from '../useTheme';
+import {defaultThemeContext, MissingThemeProviderError} from '../../context';
 
 describe('useTheme', () => {
   it('throw error when change without Provider', () => {
