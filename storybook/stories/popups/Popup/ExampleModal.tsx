@@ -11,6 +11,12 @@ import ImageModal from './icons/svg/imageModal.svg';
 const ExampleModal: FC<IContentProps> = props => {
   const popupContext = usePopups();
   const {onClose} = props;
+  const titleFont = select('Title font', selectFont, 'SemiBold-Primary-H4');
+  const descriptionFont = select(
+    'Description font',
+    selectFont,
+    'Regular-Secondary-M',
+  );
 
   return (
     <ModalBase {...props}>
@@ -18,18 +24,14 @@ const ExampleModal: FC<IContentProps> = props => {
       <ImageModal style={{marginTop: rem(10)}} />
       <ModalBase.Title
         title={text('Title text ', 'Нет доступа к камере')}
-        titleFont={select('Title font', selectFont, 'SemiBold-Primary-H4')}
+        titleFont={titleFont}
       />
       <ModalBase.DescriptionText
         descriptionText={text(
           'Description text',
           'Разрешите доступ к камере в настройках, чтобы сканировать штрихкод или QR-код на картах',
         )}
-        descriptionFont={select(
-          'Description font',
-          selectFont,
-          'Regular-Secondary-M',
-        )}
+        descriptionFont={descriptionFont}
       />
       <Button
         onPress={() => popupContext.openPopup({Content: NestedExampleModal})}
