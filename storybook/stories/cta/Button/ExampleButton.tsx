@@ -2,6 +2,7 @@ import {Button, ISize, ITypes} from '@npm/mobydick-cta';
 import {boolean, number, select, text} from '@storybook/addon-knobs';
 import {iconNames, SimpleIcon} from '@npm/mobydick-styles';
 import React from 'react';
+import {action} from '@storybook/addon-actions';
 
 enum IViewButton {
   leftIcon = 'leftIcon',
@@ -26,19 +27,23 @@ const getColorICon = (type: ITypes): string => {
 
 const ExampleButton = () => {
   const type = select('type', ITypes, ITypes.primary);
+  const textButton = text('text', 'text big text');
+  const minWidth = number('minWidth', 0);
+  const onPress = action('onPress');
+  const size = select('size', ISize, ISize.small);
+  const disabled = boolean('disabled', false);
+  const loading = boolean('loading', false);
 
   switch (select('view button', IViewButton, IViewButton.noIcon)) {
     case IViewButton.leftIcon:
       return (
         <Button
-          text={text('text', 'text big text')}
-          onPress={() => {
-            console.log('onPress');
-          }}
+          text={textButton}
+          onPress={onPress}
           type={type}
-          disabled={boolean('disabled', false)}
-          loading={boolean('loading', false)}
-          size={select('size', ISize, ISize.small)}
+          disabled={disabled}
+          loading={loading}
+          size={size}
           leftIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
@@ -46,20 +51,18 @@ const ExampleButton = () => {
               size={24}
             />
           }
-          style={{minWidth: number('minWidth', 0)}}
+          style={{minWidth: minWidth}}
         />
       );
     case IViewButton.rightIcon:
       return (
         <Button
-          text={text('text', 'text big text')}
-          onPress={() => {
-            console.log('onPress');
-          }}
+          text={textButton}
+          onPress={onPress}
           type={type}
-          disabled={boolean('disabled', false)}
-          loading={boolean('loading', false)}
-          size={select('size', ISize, ISize.small)}
+          disabled={disabled}
+          loading={loading}
+          size={size}
           rightIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
@@ -67,19 +70,17 @@ const ExampleButton = () => {
               size={24}
             />
           }
-          style={{minWidth: number('minWidth', 0)}}
+          style={{minWidth: minWidth}}
         />
       );
     case IViewButton.onlyIcon:
       return (
         <Button
-          onPress={() => {
-            console.log('onPress');
-          }}
+          onPress={onPress}
           type={type}
-          disabled={boolean('disabled', false)}
-          loading={boolean('loading', false)}
-          size={select('size', ISize, ISize.small)}
+          disabled={disabled}
+          loading={loading}
+          size={size}
           rightIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
@@ -87,22 +88,20 @@ const ExampleButton = () => {
               size={24}
             />
           }
-          style={{minWidth: number('minWidth', 0)}}
+          style={{minWidth: minWidth}}
         />
       );
     case IViewButton.noIcon:
     default:
       return (
         <Button
-          text={text('text', 'text big text')}
-          onPress={() => {
-            console.log('onPress');
-          }}
+          text={textButton}
+          onPress={onPress}
           type={type}
-          disabled={boolean('disabled', false)}
-          loading={boolean('loading', false)}
-          size={select('size', ISize, ISize.small)}
-          style={{minWidth: number('minWidth', 0)}}
+          disabled={disabled}
+          loading={loading}
+          size={size}
+          style={{minWidth: minWidth}}
         />
       );
   }
