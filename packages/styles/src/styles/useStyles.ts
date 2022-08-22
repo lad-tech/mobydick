@@ -1,6 +1,5 @@
 import {StyleSheet} from 'react-native';
 
-import {getCurrentColors, getSpaces} from '../theme';
 import useTheme from '../theme/useTheme';
 
 import {IUseStylesTheme} from './types';
@@ -12,11 +11,7 @@ const useStyles = <
   createStyleFn: (theme: IUseStylesTheme, ...arg: Args) => FnReturn,
   ...args: Args
 ) => {
-  useTheme();
-  const theme = {
-    colors: getCurrentColors(),
-    spaces: getSpaces(),
-  };
+  const theme = useTheme();
 
   return [createStyleFn(theme, ...args), theme] as const;
 };

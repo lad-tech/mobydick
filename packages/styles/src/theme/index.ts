@@ -1,4 +1,8 @@
 import useTheme from './useTheme';
-export * from './theme';
+import ThemeContext from './context';
+import ThemeProvider from './ThemeProvider';
 
-export {useTheme};
+export * from './constants';
+export * from './types';
+
+export {useTheme, ThemeContext, ThemeProvider};

@@ -1,52 +1,14 @@
-import {
-  CurrentTheme,
-  getTheme,
-  setCurrentTheme,
-  useTheme,
-} from '@npm/mobydick-styles';
-import {act, renderHook} from '@testing-library/react-hooks';
+import {useTheme} from '@npm/mobydick-styles';
+import {renderHook} from '@testing-library/react-hooks';
+
+import {defaultThemeContext, MissingThemeProviderError} from '../context';
 
 describe('useTheme', () => {
-  const {colors, spaces} = getTheme();
-
-  it('light', () => {
-    setCurrentTheme(CurrentTheme.light);
-
-    const {result} = renderHook(() => useTheme());
-    expect(result.current).toStrictEqual({
-      currentTheme: CurrentTheme.light,
-      colors: colors[CurrentTheme.light],
-      spaces,
-    });
-  });
-  it('dark', () => {
-    setCurrentTheme(CurrentTheme.dark);
-
+  it('throw error when change without Provider', () => {
     const {result} = renderHook(() => useTheme());
 
-    expect(result.current).toStrictEqual({
-      currentTheme: CurrentTheme.dark,
-      colors: colors[CurrentTheme.dark],
-      spaces,
-    });
-  });
-  it('change', () => {
-    setCurrentTheme(CurrentTheme.light);
-
-    const {result} = renderHook(() => useTheme());
-
-    expect(result.current).toStrictEqual({
-      currentTheme: CurrentTheme.light,
-      colors: colors[CurrentTheme.light],
-      spaces,
-    });
-
-    act(() => setCurrentTheme(CurrentTheme.dark));
-
-    expect(result.current).toStrictEqual({
-      currentTheme: CurrentTheme.dark,
-      colors: colors[CurrentTheme.dark],
-      spaces,
-    });
+    expect(result.current).toStrictEqual(defaultThemeContext);
+    expect(result.current.setCurrentTheme).toThrow(MissingThemeProviderError);
+    expect(result.current.setTheme).toThrow(MissingThemeProviderError);
   });
 });
