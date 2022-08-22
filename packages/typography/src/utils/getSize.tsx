@@ -1,4 +1,4 @@
-import rem from '@npm/mobydick-styles/src/spaces/rem';
+import {rem} from '@npm/mobydick-styles';
 
 import {TFontSize, TSizes} from '../types';
 
