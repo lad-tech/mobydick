@@ -20,6 +20,7 @@ export enum ITypes {
   tertiary = 'tertiary',
   disabled = 'disabled',
   loading = 'loading',
+  destructive = 'destructive',
 }
 
 export enum ISize {

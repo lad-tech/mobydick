@@ -25,6 +25,9 @@ const Button: FC<ButtonProps> = props => {
     stylesCreate,
     disabled ? ITypes.disabled : type,
     size,
+    Boolean(leftIcon),
+    Boolean(rightIcon),
+    Boolean(text),
   );
 
   const fontCorrection = font
