@@ -75,7 +75,7 @@ export const defaultBorderDarkColor = {
   BorderNormal: 'rgba(255, 255, 255, 0.3)',
   BorderSoft: 'rgba(255, 255, 255, 0.15)',
   BorderError: '#F86B5D',
-  BorderSuccess: '#2B78EE',
+  BorderSuccess: '#4C94FF',
 };
 
 export const defaultBgLightColor = {
@@ -90,10 +90,10 @@ export const defaultBgLightColor = {
   BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
   BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
   BgAccentHard: 'rgba(43, 120, 238, 0.45)',
-  BgOverlay: 'rgba(32, 36, 45, 0.45)',
+  BgOverlay: 'rgba(32, 36, 45, 0.60)',
   BgBlack: '#20242D',
   BgWhite: '#FFF',
-  BgWhiteSoft: 'rgba(255, 255, 255, 0.25)',
+  BgWhiteSoft: 'rgba(255, 255, 255, 0.15)',
 };
 export const defaultBgDarkColor = {
   BgPrimary: '#20242D',
@@ -107,10 +107,10 @@ export const defaultBgDarkColor = {
   BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
   BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
   BgAccentHard: 'rgba(43, 120, 238, 0.45)',
-  BgOverlay: 'rgba(32, 36, 45, 0.45)',
+  BgOverlay: 'rgba(32, 36, 45, 0.60)',
   BgBlack: '#20242D',
   BgWhite: '#FFF',
-  BgWhiteSoft: 'rgba(255, 255, 255, 0.25)',
+  BgWhiteSoft: 'rgba(255, 255, 255, 0.15)',
 };
 
 export const defaultCTALightColor = {
