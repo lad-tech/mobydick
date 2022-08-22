@@ -14,7 +14,7 @@ storiesOf('Design System/CTA/Button', module)
   .add('basic', () => <ExampleButton />)
   .add('button with delay', () => (
     <ButtonWithDelay
-      text={text('text', 'text big text')}
+      text={text('text', 'text')}
       onPress={action('onPress')}
       type={select('type', ITypes, ITypes.primary)}
       disabled={boolean('disabled', false)}
