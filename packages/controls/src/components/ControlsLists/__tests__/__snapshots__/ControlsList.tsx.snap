@@ -10,13 +10,16 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "maxWidth": "100%",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "maxWidth": "100%",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -43,7 +46,7 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "margin": 18,
+          "marginRight": 18,
           "width": 30,
         }
       }
@@ -68,13 +71,16 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
   </View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "maxWidth": "100%",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "maxWidth": "100%",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -101,7 +107,7 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "margin": 18,
+          "marginRight": 18,
           "width": 30,
         }
       }
@@ -137,13 +143,16 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "maxWidth": "100%",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "maxWidth": "100%",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -170,7 +179,7 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "margin": 18,
+          "marginRight": 18,
           "width": 30,
         }
       }
@@ -191,64 +200,6 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       }
     >
       1
-    </Text>
-  </View>
-  <View
-    style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "maxWidth": "100%",
-        "opacity": 1,
-      }
-    }
-  >
-    <View
-      accessibilityState={
-        Object {
-          "disabled": false,
-        }
-      }
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 6,
-          "borderWidth": 3,
-          "height": 30,
-          "margin": 18,
-          "width": 30,
-        }
-      }
-      value="2"
-    />
-    <Text
-      allowFontScaling={true}
-      style={
-        Array [
-          Object {
-            "color": "#20242D",
-            "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
-          },
-          undefined,
-        ]
-      }
-    >
-      2
     </Text>
   </View>
 </View>
@@ -264,13 +215,16 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "maxWidth": "100%",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "maxWidth": "100%",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -297,7 +251,7 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "margin": 18,
+          "marginRight": 18,
           "width": 30,
         }
       }
@@ -322,13 +276,16 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
   </View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "maxWidth": "100%",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "maxWidth": "100%",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -355,7 +312,7 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "margin": 18,
+          "marginRight": 18,
           "width": 30,
         }
       }
@@ -391,12 +348,15 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -423,11 +383,11 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 11,
+          "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "margin": 18,
-          "width": 22,
+          "marginRight": 18,
+          "width": 33,
         }
       }
       value="1"
@@ -451,12 +411,15 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
   </View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -483,11 +446,11 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 11,
+          "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "margin": 18,
-          "width": 22,
+          "marginRight": 18,
+          "width": 33,
         }
       }
       value="2"
@@ -522,12 +485,15 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -554,11 +520,11 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 11,
+          "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "margin": 18,
-          "width": 22,
+          "marginRight": 18,
+          "width": 33,
         }
       }
       value="1"
@@ -582,12 +548,15 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
   </View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -614,11 +583,11 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 11,
+          "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "margin": 18,
-          "width": 22,
+          "marginRight": 18,
+          "width": 33,
         }
       }
       value="2"
@@ -653,12 +622,15 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
 >
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -685,11 +657,11 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 11,
+          "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "margin": 18,
-          "width": 22,
+          "marginRight": 18,
+          "width": 33,
         }
       }
       value="1"
@@ -713,12 +685,15 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
   </View>
   <View
     style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "opacity": 1,
-      }
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flexDirection": "row",
+          "opacity": 1,
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -745,11 +720,11 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 11,
+          "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "margin": 18,
-          "width": 22,
+          "marginRight": 18,
+          "width": 33,
         }
       }
       value="2"

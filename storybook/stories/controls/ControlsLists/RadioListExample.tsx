@@ -10,12 +10,12 @@ const RadioListExample = () => {
       single={boolean('single', false)}
       disabled={boolean('disabled', false)}
       onChange={action('pressed')}>
-      <Radio value={'Option 1'}>
-        <Typography font={'Regular-Primary-M'}>
+      <Radio value={'Option 1'} containerStyle={{padding: 12}}>
+        <Typography font={'Regular-Primary-M'} numberOfLines={1}>
           {text('Text 1', 'Option 1')}
         </Typography>
       </Radio>
-      <Radio value={'Option 2'}>
+      <Radio value={'Option 2'} containerStyle={{padding: 12}}>
         <Typography font={'Regular-Primary-M'}>
           {text('Text 2', 'Option 2')}
         </Typography>

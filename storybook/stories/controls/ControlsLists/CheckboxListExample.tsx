@@ -11,12 +11,12 @@ const CheckboxListExample = () => {
       single={boolean('single', false)}
       disabled={boolean('disabled', false)}
       onChange={action('pressed')}>
-      <CheckBox value={'Option 1'}>
+      <CheckBox value={'Option 1'} containerStyle={{padding: 12}}>
         <Typography font={'Regular-Primary-M'}>
           {text('Text 1', 'Option 1')}
         </Typography>
       </CheckBox>
-      <CheckBox value={'Option 2'}>
+      <CheckBox value={'Option 2'} containerStyle={{padding: 12}}>
         <Typography font={'Regular-Primary-M'}>
           {text('Text 2', 'Option 2')}
         </Typography>

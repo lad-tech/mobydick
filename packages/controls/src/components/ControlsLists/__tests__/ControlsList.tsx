@@ -41,7 +41,7 @@ describe('ControlsList', () => {
         <CheckBox value={'1'}>
           <Typography font={'Regular-Primary-M'}>1</Typography>
         </CheckBox>
-        <CheckBox value={'2'}>
+        <CheckBox>
           <Typography font={'Regular-Primary-M'}>2</Typography>
         </CheckBox>
       </ControlsList>,

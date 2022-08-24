@@ -1,5 +1,5 @@
 import './Radio/RadioExample';
-import './CheckBox/CheckboxExample';
+import './Checkbox/CheckboxExample';
 import './Toggle/ToggleExample';
 import './ControlsLists/RadioListExample';
 import './ControlsLists/CheckboxListExample';

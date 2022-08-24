@@ -5,7 +5,7 @@ import CenterView from '../CenterView';
 
 import CheckboxListExample from './ControlsLists/CheckboxListExample';
 import RadioListExample from './ControlsLists/RadioListExample';
-import CheckboxExample from './CheckBox/CheckboxExample';
+import CheckboxExample from './Checkbox/CheckboxExample';
 import RadioExample from './Radio/RadioExample';
 import ToggleExample from './Toggle/ToggleExample';
 
