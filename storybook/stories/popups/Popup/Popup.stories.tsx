@@ -8,6 +8,7 @@ import CenterView from '../../CenterView';
 
 import ExampleModal from './ExampleModal';
 import ExampleSnackbar from './ExampleSnackbar';
+import ExampleActionSheet from './ExampleActionSheet';
 
 const PopupExample = () => {
   const popupContext = usePopups();
@@ -44,6 +45,20 @@ const SnackbarPopupExample = () => {
   );
 };
 
+const ActionSheetPopupExample = () => {
+  const popupContext = usePopups();
+
+  const onPress = () => {
+    popupContext.openPopup({
+      Content: ExampleActionSheet,
+    });
+  };
+  return (
+    <View>
+      <Button text={'Нажми'} onPress={onPress} size={ISize.large} />
+    </View>
+  );
+};
 storiesOf('Design System/Popups/Popup', module)
   .addDecorator(getStory => (
     <PopupsProvider>
@@ -51,4 +66,5 @@ storiesOf('Design System/Popups/Popup', module)
     </PopupsProvider>
   ))
   .add('Modal', () => <PopupExample />)
-  .add('Snackbar', () => <SnackbarPopupExample />);
+  .add('Snackbar', () => <SnackbarPopupExample />)
+  .add('Action sheet', () => <ActionSheetPopupExample />);
