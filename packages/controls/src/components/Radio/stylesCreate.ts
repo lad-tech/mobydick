@@ -17,7 +17,7 @@ const stylesCreate = (
     circle: {
       width: rem(22),
       aspectRatio: 1,
-      borderRadius: rem(11),
+      borderRadius: 11,
       backgroundColor: selected ? colors.ElementBase : 'transparent',
       borderColor: selected ? colors.ElementBase : colors.BorderNormal,
       borderWidth: spaces.Space2,
@@ -28,7 +28,7 @@ const stylesCreate = (
     innerCircle: {
       width: rem(18),
       aspectRatio: 1,
-      borderWidth: rem(2),
+      borderWidth: 2,
       borderRadius: 9,
       borderColor: colors.BgPrimary,
     },
