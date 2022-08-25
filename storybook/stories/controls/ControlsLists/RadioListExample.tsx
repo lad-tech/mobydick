@@ -9,7 +9,8 @@ const RadioListExample = () => {
     <ControlsList
       single={boolean('single', false)}
       disabled={boolean('disabled', false)}
-      onChange={action('pressed')}>
+      onChange={action('pressed')}
+      initialValues={['Option 1']}>
       <Radio value={'Option 1'} containerStyle={{padding: 12}}>
         <Typography font={'Regular-Primary-M'} numberOfLines={1}>
           {text('Text 1', 'Option 1')}
@@ -18,6 +19,16 @@ const RadioListExample = () => {
       <Radio value={'Option 2'} containerStyle={{padding: 12}}>
         <Typography font={'Regular-Primary-M'}>
           {text('Text 2', 'Option 2')}
+        </Typography>
+      </Radio>
+      <Radio value={'Option 3'} containerStyle={{padding: 12}}>
+        <Typography font={'Regular-Primary-M'}>
+          {text('Text 3', 'Option 3')}
+        </Typography>
+      </Radio>
+      <Radio value={'Option 4'} containerStyle={{padding: 12}}>
+        <Typography font={'Regular-Primary-M'}>
+          {text('Text 4', 'Option 4')}
         </Typography>
       </Radio>
     </ControlsList>

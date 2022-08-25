@@ -8,7 +8,7 @@ export interface ICommonControlProps {
 }
 
 export interface IControlProps extends ICommonControlProps {
-  value?: string;
+  value: string;
   disabled?: boolean;
   onPress?(): void;
   containerStyle?: ViewStyle;

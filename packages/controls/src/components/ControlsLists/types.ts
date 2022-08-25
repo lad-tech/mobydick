@@ -9,4 +9,5 @@ export interface IControlsList {
   horizontal?: boolean;
   single?: boolean;
   disabled?: boolean;
+  initialValues?: string[];
 }

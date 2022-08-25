@@ -12,8 +12,14 @@ const ControlsList: FC<IControlsList> = ({
   onChange,
   disabled = false,
   children,
+  initialValues,
 }) => {
-  const {values, radios} = cloneControls(children, single, disabled);
+  const {values, radios} = cloneControls(
+    children,
+    single,
+    disabled,
+    initialValues,
+  );
   const [styles] = useStyles(stylesCreate, horizontal);
 
   useEffect(() => {

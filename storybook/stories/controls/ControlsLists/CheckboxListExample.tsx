@@ -10,8 +10,9 @@ const CheckboxListExample = () => {
       horizontal={boolean('horizontal', false)}
       single={boolean('single', false)}
       disabled={boolean('disabled', false)}
-      onChange={action('pressed')}>
-      <CheckBox value={'Option 1'} containerStyle={{padding: 12}}>
+      onChange={action('pressed')}
+      initialValues={['Option 1', 'Option 4']}>
+      <CheckBox value={''} containerStyle={{padding: 12}}>
         <Typography font={'Regular-Primary-M'}>
           {text('Text 1', 'Option 1')}
         </Typography>
@@ -19,6 +20,19 @@ const CheckboxListExample = () => {
       <CheckBox value={'Option 2'} containerStyle={{padding: 12}}>
         <Typography font={'Regular-Primary-M'}>
           {text('Text 2', 'Option 2')}
+        </Typography>
+      </CheckBox>
+      <CheckBox
+        value={'Option 3'}
+        containerStyle={{padding: 12}}
+        selected={true}>
+        <Typography font={'Regular-Primary-M'}>
+          {text('Text 3', 'Option 3')}
+        </Typography>
+      </CheckBox>
+      <CheckBox value={'Option 4'} containerStyle={{padding: 12}}>
+        <Typography font={'Regular-Primary-M'}>
+          {text('Text 4', 'Option 4')}
         </Typography>
       </CheckBox>
     </ControlsList>
