@@ -94,8 +94,9 @@ const Item: FC<IPropsItem> = props => {
     );
   };
 
-  if (disabled)
+  if (disabled) {
     return <View style={[styles.item, style]}>{getContents()}</View>;
+  }
 
   return (
     <TouchableOpacity

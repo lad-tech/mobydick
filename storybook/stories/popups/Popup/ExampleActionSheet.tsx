@@ -12,9 +12,9 @@ import {select} from '@storybook/addon-knobs';
 
 enum IViewActionSheet {
   defaultActions = 'defaultActions',
-  actionsWithIcon = 'actionsWithIcon',
-  options = 'options',
-  actionsSelect = 'actionsSelect',
+  withIconActions = 'withIconActions',
+  optionsActions = 'optionsActions',
+  selectActions = 'selectActions',
   deleteConfiguration = 'deleteConfiguration',
 }
 
@@ -48,7 +48,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
       IViewActionSheet.defaultActions,
     )
   ) {
-    case IViewActionSheet.actionsWithIcon:
+    case IViewActionSheet.withIconActions:
       return (
         <ActionSheetBase {...props} containerStyle={styles.containerStyle}>
           <ActionSheetBase.FirstItem
@@ -90,7 +90,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           />
         </ActionSheetBase>
       );
-    case IViewActionSheet.options:
+    case IViewActionSheet.optionsActions:
       return (
         <ActionSheetBase {...props} containerStyle={styles.containerStyle}>
           <ActionSheetBase.FirstItem
@@ -122,7 +122,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           />
         </ActionSheetBase>
       );
-    case IViewActionSheet.actionsSelect:
+    case IViewActionSheet.selectActions:
       return (
         <ActionSheetBase {...props} containerStyle={styles.containerStyle}>
           <ActionSheetBase.FirstItem

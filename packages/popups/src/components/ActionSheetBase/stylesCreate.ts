@@ -3,8 +3,8 @@ import {IThemeContext, rem} from '@npm/mobydick-styles';
 
 const stylesCreate = (
   theme: IThemeContext,
-  selected?: boolean,
-  leftIcon?: boolean,
+  selected = false,
+  leftIcon = false,
 ) => {
   const {colors, spaces} = theme;
 
