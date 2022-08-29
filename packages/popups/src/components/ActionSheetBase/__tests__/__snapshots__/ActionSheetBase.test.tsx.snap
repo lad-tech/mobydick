@@ -32,6 +32,9 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly 1`] = `
   <View
     style={
       Array [
+        Object {
+          "width": "100%",
+        },
         undefined,
       ]
     }

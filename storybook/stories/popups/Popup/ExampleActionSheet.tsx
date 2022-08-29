@@ -1,13 +1,6 @@
 import {ActionSheetBase, IContentProps} from '@npm/mobydick-popups';
 import React, {FC, useState} from 'react';
-import {
-  rem,
-  SimpleIcon,
-  SimpleIconName,
-  useStyles,
-  useTheme,
-} from '@npm/mobydick-styles';
-import stylesCreate from '@npm/mobydick-popups/src/components/ActionSheetBase/stylesCreate';
+import {rem, SimpleIcon, SimpleIconName, useTheme} from '@npm/mobydick-styles';
 import {select} from '@storybook/addon-knobs';
 
 enum IViewActionSheet {
@@ -30,7 +23,6 @@ const leftIconAccent = (name: SimpleIconName) => {
 };
 const ExampleActionSheet: FC<IContentProps> = props => {
   const {onClose} = props;
-  const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
   const [selected, setSelected] = useState<string[]>([]);
 
@@ -50,7 +42,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
   ) {
     case IViewActionSheet.withIconActions:
       return (
-        <ActionSheetBase {...props} containerStyle={styles.containerStyle}>
+        <ActionSheetBase {...props}>
           <ActionSheetBase.FirstItem
             title={'Редактировать плейлист'}
             textFont={textFontAccentM}
@@ -92,7 +84,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
       );
     case IViewActionSheet.optionsActions:
       return (
-        <ActionSheetBase {...props} containerStyle={styles.containerStyle}>
+        <ActionSheetBase {...props}>
           <ActionSheetBase.FirstItem
             title={'Качество'}
             subTitle={'Авто'}
@@ -124,7 +116,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
       );
     case IViewActionSheet.selectActions:
       return (
-        <ActionSheetBase {...props} containerStyle={styles.containerStyle}>
+        <ActionSheetBase {...props}>
           <ActionSheetBase.FirstItem
             title={'Лучшие друзья'}
             onPress={() => {
@@ -169,7 +161,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
       );
     case IViewActionSheet.deleteConfiguration:
       return (
-        <ActionSheetBase {...props} containerStyle={styles.containerStyle}>
+        <ActionSheetBase {...props}>
           <ActionSheetBase.FirstItem
             label={
               'Вы действительно хотите удалить это видео\n из Ваших видео?'
@@ -186,7 +178,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
     case IViewActionSheet.defaultActions:
     default:
       return (
-        <ActionSheetBase {...props} containerStyle={styles.containerStyle}>
+        <ActionSheetBase {...props}>
           <ActionSheetBase.FirstItem title={'Редактировать'} />
           <ActionSheetBase.InnerItem title={'Добавить в избранное'} />
           <ActionSheetBase.InnerItem title={'Поделиться'} />
