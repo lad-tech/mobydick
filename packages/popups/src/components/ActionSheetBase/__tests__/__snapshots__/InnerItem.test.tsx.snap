@@ -44,3 +44,43 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly InnerItem
   />
 </View>
 `;
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly InnerItem label 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#EEEFF1",
+        "justifyContent": "center",
+        "marginHorizontal": 12,
+        "paddingHorizontal": 30,
+        "paddingVertical": 22.5,
+      },
+      Object {
+        "borderTopColor": "rgba(32, 36, 45, 0.15)",
+        "borderTopWidth": 1,
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "lineHeight": 24,
+        },
+        Object {
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    label
+  </Text>
+</View>
+`;

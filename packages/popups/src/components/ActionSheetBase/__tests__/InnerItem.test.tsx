@@ -9,4 +9,9 @@ describe('@npm/mobydick-popups/ActionSheetBase', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  it('should renders correctly InnerItem label', () => {
+    const {toJSON} = render(<InnerItem label={'label'} />);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
