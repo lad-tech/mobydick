@@ -7,31 +7,36 @@ const cloneControls = (
   controls: FunctionComponentElement<IControlProps & IPressableProps>[],
   single = false,
   disabled = false,
+  initialValues: string[] = [],
 ) => {
-  const initialValues = controls.reduce((acc: string[], item) => {
+  const commonValues = new Set(initialValues);
+
+  controls.forEach(item => {
     if (item.props.selected) {
-      acc.push(item.props.value);
+      commonValues.add(item.props.value);
     }
-    return acc;
-  }, []);
-  const [values, setValues] = useState<string[]>(initialValues);
+  });
+
+  const [values, setValues] = useState<string[]>(Array.from(commonValues));
+
   const radios = controls.map(
     (radio: FunctionComponentElement<IControlProps & IPressableProps>) => {
-      const text = radio.props.value;
-      const selected = values.some(e => e === text);
+      const value = radio.props.value;
+
+      const selected = values.some(e => e === value);
       return cloneElement<IControlProps & IPressableProps>(radio, {
-        key: text,
+        key: value,
         selected,
         disabled,
         onPress: () => {
           let data = [...values];
           if (single) {
-            data = [text];
+            data = [value];
           } else {
             if (selected) {
-              data = data.filter(e => e !== text);
+              data = data.filter(e => e !== value);
             } else {
-              data = [...data, text];
+              data = [...data, value];
             }
           }
           setValues(data);
