@@ -20,7 +20,7 @@ exports[`@npm/mobydick-controls/Radio/Circle renders correctly 1`] = `
       "borderColor": "#FFF",
       "borderRadius": 9,
       "borderWidth": 2,
-      "width": 18,
+      "width": 27,
     }
   }
 />
@@ -46,7 +46,7 @@ exports[`@npm/mobydick-controls/Radio/Circle renders correctly selected 1`] = `
       "borderColor": "#FFF",
       "borderRadius": 9,
       "borderWidth": 2,
-      "width": 18,
+      "width": 27,
     }
   }
 >
@@ -60,8 +60,8 @@ exports[`@npm/mobydick-controls/Radio/Circle renders correctly selected 1`] = `
         "borderRadius": 11,
         "borderWidth": 3,
         "justifyContent": "center",
-        "margin": 18,
-        "width": 22,
+        "marginRight": 18,
+        "width": 33,
       }
     }
   />

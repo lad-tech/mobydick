@@ -1,15 +1,11 @@
-import {storiesOf} from '@storybook/react-native';
 import {boolean, text} from '@storybook/addon-knobs';
 import React from 'react';
 import {CheckBox} from '@npm/mobydick-controls';
 import {action} from '@storybook/addon-actions';
 import {Typography} from '@npm/mobydick-typography';
 
-import CenterView from '../../CenterView';
-
-storiesOf('Design System/Controls/CheckBox', module)
-  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
-  .add('basic', () => (
+const CheckboxExample = () => {
+  return (
     <CheckBox
       value={'Pepe'}
       selected={boolean('selected', false)}
@@ -19,4 +15,7 @@ storiesOf('Design System/Controls/CheckBox', module)
         {text('Text', 'Option1')}
       </Typography>
     </CheckBox>
-  ));
+  );
+};
+
+export default CheckboxExample;

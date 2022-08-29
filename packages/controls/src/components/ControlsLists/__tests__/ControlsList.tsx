@@ -51,7 +51,7 @@ describe('ControlsList', () => {
 
   it('should renders correctly with radio type', function () {
     const {toJSON} = render(
-      <ControlsList single onChange={jest.fn}>
+      <ControlsList single onChange={jest.fn} initialValues={['1']}>
         <Radio value={'1'}>
           <Typography font={'Regular-Primary-M'}>1</Typography>
         </Radio>

@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
 
 const stylesCreate = (
   theme: IUseStylesTheme,
@@ -11,11 +11,11 @@ const stylesCreate = (
     container: {
       flexDirection: 'row',
       alignItems: 'center',
-      backgroundColor: colors.BgPrimary,
+      backgroundColor: 'transparent',
       opacity: disabled ? 0.4 : 1,
     },
     circle: {
-      width: 22,
+      width: rem(22),
       aspectRatio: 1,
       borderRadius: 11,
       backgroundColor: selected ? colors.ElementBase : 'transparent',
@@ -23,20 +23,14 @@ const stylesCreate = (
       borderWidth: spaces.Space2,
       justifyContent: 'center',
       alignItems: 'center',
-      margin: spaces.Space12,
+      marginRight: spaces.Space12,
     },
     innerCircle: {
-      width: 18,
+      width: rem(18),
       aspectRatio: 1,
       borderWidth: 2,
       borderRadius: 9,
       borderColor: colors.BgPrimary,
-    },
-    text: {
-      fontSize: 16,
-      lineHeight: 20,
-      letterSpacing: -0.25,
-      color: colors.TextPrimary,
     },
   });
 };
