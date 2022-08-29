@@ -2,6 +2,7 @@ import React, {FC} from 'react';
 import {View} from '@npm/mobydick-core';
 import {Button, ITypes} from '@npm/mobydick-cta';
 import {ThemeProvider, useStyles, useTheme} from '@npm/mobydick-styles';
+import {PopupsProvider} from '@npm/mobydick-popups';
 
 import styleCreate from './style';
 
@@ -30,7 +31,9 @@ export default function CenterView({
 }): JSX.Element {
   return (
     <ThemeProvider>
-      <Wrapper>{children}</Wrapper>
+      <PopupsProvider>
+        <Wrapper>{children}</Wrapper>
+      </PopupsProvider>
     </ThemeProvider>
   );
 }

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {storiesOf} from '@storybook/react-native';
 import {Button, ISize} from '@npm/mobydick-cta';
-import {PopupsProvider, usePopups} from '@npm/mobydick-popups';
+import {usePopups} from '@npm/mobydick-popups';
 import {View} from '@npm/mobydick-core';
 
 import CenterView from '../../CenterView';
@@ -60,11 +60,7 @@ const ActionSheetPopupExample = () => {
   );
 };
 storiesOf('Design System/Popups/Popup', module)
-  .addDecorator(getStory => (
-    <PopupsProvider>
-      <CenterView>{getStory()}</CenterView>
-    </PopupsProvider>
-  ))
+  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('Modal', () => <PopupExample />)
   .add('Snackbar', () => <SnackbarPopupExample />)
   .add('Action sheet', () => <ActionSheetPopupExample />);
