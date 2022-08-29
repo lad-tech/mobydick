@@ -1,7 +1,7 @@
 import {TouchableOpacity, View} from '@npm/mobydick-core';
 import {ViewStyle} from 'react-native';
 import React, {FC, ReactElement} from 'react';
-import {SimpleIcon, useStyles} from '@npm/mobydick-styles';
+import {SimpleIcon, useStyles, useTheme} from '@npm/mobydick-styles';
 
 import {Typography, TypographyProp} from '../../../../typography';
 
@@ -16,7 +16,7 @@ export interface IPropsItem {
   style?: ViewStyle;
   textFont?: TypographyProp;
   leftIcon?: ReactElement;
-  selected?: string;
+  selected?: string[];
   disabled?: boolean;
 }
 
@@ -37,17 +37,30 @@ const Item: FC<IPropsItem> = props => {
     Boolean(leftIcon),
   );
 
+  const {colors} = useTheme();
+
+  const check = selected?.find(item => item === title);
+
+  const fontCorrection = () => {
+    if (subTitle || selected) {
+      return 'Regular-Primary-M';
+    }
+    return 'Regular-Primary-L';
+  };
+
   const textContent = () => {
     if (!subTitle) {
       return (
-        <Typography font={textFont ? textFont : 'Regular-Primary-L'}>
+        <Typography
+          font={textFont ? textFont : fontCorrection()}
+          style={styles.textSelected}>
           {title}
         </Typography>
       );
     }
     return (
       <View style={styles.title}>
-        <Typography font={textFont ? textFont : 'Regular-Primary-M'}>
+        <Typography font={textFont ? textFont : fontCorrection()}>
           {title}
         </Typography>
         <Typography font={'Regular-Tertiary-XXS'}>{subTitle}</Typography>
@@ -68,9 +81,13 @@ const Item: FC<IPropsItem> = props => {
     return (
       <>
         {leftIcon ? leftIconContent() : textContent()}
-        {selected === title ? (
+        {check ? (
           <View style={styles.checkIcon}>
-            <SimpleIcon name={'icon-check'} color={'#fff'} />
+            <SimpleIcon
+              name={'icon-check'}
+              color={colors.IconWhite}
+              size={20}
+            />
           </View>
         ) : null}
       </>

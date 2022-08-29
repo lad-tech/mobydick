@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Label 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#EEEFF1",
+        "justifyContent": "center",
+        "marginHorizontal": 12,
+        "paddingHorizontal": 30,
+        "paddingVertical": 22.5,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "lineHeight": 24,
+        },
+        Object {
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    label
+  </Text>
+</View>
+`;

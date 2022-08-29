@@ -2,22 +2,16 @@ import React, {FC} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 
 import stylesCreate from './stylesCreate';
-import {IPropsItem} from './Item';
-import {IPropsLabel} from './Label';
-
-import {ActionSheetBase} from './index';
+import Item, {IPropsItem} from './Item';
+import Label, {IPropsLabel} from './Label';
 
 const FirstItem: FC<IPropsItem | IPropsLabel> = props => {
   const [styles] = useStyles(stylesCreate);
   const {label, ...otherProps} = props;
   return label ? (
-    <ActionSheetBase.Label
-      style={styles.firstItem}
-      label={label}
-      {...otherProps}
-    />
+    <Label style={styles.firstItem} label={label} {...otherProps} />
   ) : (
-    <ActionSheetBase.Item style={styles.firstItem} {...otherProps} />
+    <Item style={styles.firstItem} {...otherProps} />
   );
 };
 

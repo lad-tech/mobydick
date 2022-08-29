@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly CancelItem 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "borderRadius": 18,
+      "justifyContent": "center",
+      "marginBottom": 45,
+      "marginHorizontal": 12,
+      "opacity": 1,
+      "paddingHorizontal": 30,
+      "paddingVertical": 22.5,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#20242D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 27,
+          "lineHeight": 33,
+        },
+        Object {
+          "paddingVertical": 0,
+        },
+      ]
+    }
+  />
+</View>
+`;

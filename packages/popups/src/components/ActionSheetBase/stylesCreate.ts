@@ -41,6 +41,7 @@ const stylesCreate = (
     leftIconView: {
       justifyContent: 'flex-start',
       flexDirection: 'row',
+      alignItems: 'center',
     },
     firstItem: {
       borderTopLeftRadius: spaces.Space12,
@@ -68,6 +69,9 @@ const stylesCreate = (
     },
     label: {
       textAlign: 'center',
+    },
+    textSelected: {
+      paddingVertical: selected ? 4 : 0,
     },
   });
 };
