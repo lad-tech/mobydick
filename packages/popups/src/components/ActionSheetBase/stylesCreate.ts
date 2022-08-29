@@ -1,8 +1,8 @@
 import {StyleSheet, ViewStyle} from 'react-native';
-import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 
 const stylesCreate = (
-  theme: IUseStylesTheme,
+  theme: IThemeContext,
   selected?: boolean,
   leftIcon?: boolean,
 ) => {

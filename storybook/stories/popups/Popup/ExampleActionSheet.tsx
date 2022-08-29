@@ -1,6 +1,12 @@
 import {ActionSheetBase, IContentProps} from '@npm/mobydick-popups';
 import React, {FC, useState} from 'react';
-import {rem, SimpleIcon, useStyles, useTheme} from '@npm/mobydick-styles';
+import {
+  rem,
+  SimpleIcon,
+  SimpleIconName,
+  useStyles,
+  useTheme,
+} from '@npm/mobydick-styles';
 import stylesCreate from '@npm/mobydick-popups/src/components/ActionSheetBase/stylesCreate';
 import {select} from '@storybook/addon-knobs';
 
@@ -8,7 +14,7 @@ enum IViewActionSheet {
   defaultActions = 'defaultActions',
   actionsWithIcon = 'actionsWithIcon',
   options = 'options',
-  select = 'select',
+  actionsSelect = 'actionsSelect',
   deleteConfiguration = 'deleteConfiguration',
 }
 
@@ -18,6 +24,10 @@ const textFontAccentM = 'Regular-Accent-M';
 const textFontAccentL = 'Regular-Accent-L';
 const textFontErrorL = 'Regular-Error-L';
 
+const leftIconAccent = (name: SimpleIconName) => {
+  const {colors} = useTheme();
+  return <SimpleIcon name={name} size={rem(28)} color={colors.TextAccent} />;
+};
 const ExampleActionSheet: FC<IContentProps> = props => {
   const {onClose} = props;
   const [styles] = useStyles(stylesCreate);
@@ -44,46 +54,22 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           <ActionSheetBase.FirstItem
             title={'Редактировать плейлист'}
             textFont={textFontAccentM}
-            leftIcon={
-              <SimpleIcon
-                name={'icon-edit'}
-                size={rem(28)}
-                color={colors.TextAccent}
-              />
-            }
+            leftIcon={leftIconAccent('icon-edit')}
           />
           <ActionSheetBase.InnerItem
             title={'Слушать далее'}
             textFont={textFontAccentM}
-            leftIcon={
-              <SimpleIcon
-                name={'icon-arrow-right'}
-                size={rem(28)}
-                color={colors.TextAccent}
-              />
-            }
+            leftIcon={leftIconAccent('icon-arrow-right')}
           />
           <ActionSheetBase.InnerItem
             title={'Поделиться'}
             textFont={textFontAccentM}
-            leftIcon={
-              <SimpleIcon
-                name={'icon-account'}
-                size={rem(28)}
-                color={colors.TextAccent}
-              />
-            }
+            leftIcon={leftIconAccent('icon-account')}
           />
           <ActionSheetBase.InnerItem
             title={'Скопировать ссылку'}
             textFont={textFontAccentM}
-            leftIcon={
-              <SimpleIcon
-                name={'icon-copy'}
-                size={rem(28)}
-                color={colors.TextAccent}
-              />
-            }
+            leftIcon={leftIconAccent('icon-copy')}
           />
           <ActionSheetBase.LastItem
             title={'Удалить плейлист'}
@@ -110,13 +96,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           <ActionSheetBase.FirstItem
             title={'Качество'}
             subTitle={'Авто'}
-            leftIcon={
-              <SimpleIcon
-                name={'icon-grid'}
-                size={rem(28)}
-                color={colors.TextAccent}
-              />
-            }
+            leftIcon={leftIconAccent('icon-grid')}
           />
           <ActionSheetBase.InnerItem
             title={'Субтитры'}
@@ -133,13 +113,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           <ActionSheetBase.LastItem
             title={'Скорость воспроизведения'}
             subTitle={'Обычная'}
-            leftIcon={
-              <SimpleIcon
-                name={'icon-edit'}
-                size={rem(28)}
-                color={colors.TextAccent}
-              />
-            }
+            leftIcon={leftIconAccent('icon-edit')}
           />
           <ActionSheetBase.CancelItem
             title={cancelText}
@@ -148,7 +122,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           />
         </ActionSheetBase>
       );
-    case IViewActionSheet.select:
+    case IViewActionSheet.actionsSelect:
       return (
         <ActionSheetBase {...props} containerStyle={styles.containerStyle}>
           <ActionSheetBase.FirstItem
