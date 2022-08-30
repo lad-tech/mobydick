@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly InnerItem 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "borderTopColor": "rgba(32, 36, 45, 0.15)",
+      "borderTopWidth": 1,
+      "justifyContent": "center",
+      "marginHorizontal": 12,
+      "minHeight": 75,
+      "opacity": 1,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#20242D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 27,
+          "lineHeight": 33,
+        },
+        Object {
+          "paddingVertical": 22.5,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly InnerItem label 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#EEEFF1",
+        "justifyContent": "center",
+        "marginHorizontal": 12,
+        "minHeight": 75,
+        "paddingHorizontal": 30,
+      },
+      Object {
+        "borderTopColor": "rgba(32, 36, 45, 0.15)",
+        "borderTopWidth": 1,
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "lineHeight": 24,
+        },
+        Object {
+          "paddingVertical": 22.5,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    label
+  </Text>
+</View>
+`;
