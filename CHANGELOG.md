@@ -1,3 +1,24 @@
+## [1.1.4](https://glab.lad24.ru/npm/mobydick/compare/v1.1.3...v1.1.4) (2022-08-30)
+
+
+### Bug Fixes
+
+* **ActionSheet:** moving out content and fix style ([ab062bf](https://glab.lad24.ru/npm/mobydick/commit/ab062bfbdd01bff55f750d89786478a1fdf6f7a6))
+* **ActionSheet:** replace backgroundColor with opacity ([208dd40](https://glab.lad24.ru/npm/mobydick/commit/208dd409683e6a61751497f000f121add830b199))
+* **ActionSheets:** add example actionSheets, add tests ([94ae8df](https://glab.lad24.ru/npm/mobydick/commit/94ae8df9792ed15f5081d8e215cc4a4883660e06))
+* **ActionSheets:** add example actionSheets, add tests ([c6b3a8f](https://glab.lad24.ru/npm/mobydick/commit/c6b3a8f45d67d20e20056f8222d91473f46abde9))
+* **ActionSheets:** add label in InnerItem and rename folder checkboxExample ([fbf7f81](https://glab.lad24.ru/npm/mobydick/commit/fbf7f81ca0300e694a53635557822d79b19528e7))
+* **ActionSheets:** fix comments sonar ([3fea40a](https://glab.lad24.ru/npm/mobydick/commit/3fea40aed5b4016c0e7e8ac549034a87371bfaf5))
+* **ActionSheets:** fix comments sonar ([0a2c9a1](https://glab.lad24.ru/npm/mobydick/commit/0a2c9a1094edc7655430942f8ed135d3d99ab22b))
+* **ActionSheets:** fix container style ([2d07777](https://glab.lad24.ru/npm/mobydick/commit/2d077776b75958d71746db78a2f85aebea95ce59))
+* **Controls:** add containerStyle, delete paddings and background ([eaa462c](https://glab.lad24.ru/npm/mobydick/commit/eaa462cf708342e7bdabaa11d829492578a652f1))
+* **Controls:** add field - initialValues ([f16d771](https://glab.lad24.ru/npm/mobydick/commit/f16d7710812ece0b8ee0fbf69cbc982b4a56e847))
+* **Controls:** delete duplicate ([1d2d8ce](https://glab.lad24.ru/npm/mobydick/commit/1d2d8ce0428b40dfbdc4d64c17211f9804fc263b))
+* **Controls:** fix styles ([f9f80fb](https://glab.lad24.ru/npm/mobydick/commit/f9f80fb308ee3ea6196e7dc0ff02ee02c581dceb))
+* **Controls:** unite sections in storybook ([8f8bb9b](https://glab.lad24.ru/npm/mobydick/commit/8f8bb9b3018be867266cbb1f501392e09f180165))
+* **Popups:** fix popupProvider ([3ee13fb](https://glab.lad24.ru/npm/mobydick/commit/3ee13fbabcff1273d1f8f96515772779cc5b1fb1))
+* **search:** changed paddings ([e2306c0](https://glab.lad24.ru/npm/mobydick/commit/e2306c0b72dbb16fbc9c0726c14f3c480a11cd65))
+
 ## [1.1.3](https://glab.lad24.ru/npm/mobydick/compare/v1.1.2...v1.1.3) (2022-08-22)
 
 
