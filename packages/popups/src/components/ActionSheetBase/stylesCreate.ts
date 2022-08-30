@@ -50,14 +50,14 @@ const stylesCreate = (
     },
     innerItem: {
       borderTopWidth: 1,
-      borderTopColor: colors.BorderSoft,
+      borderTopColor: colors.BgTertiary,
     },
     lastItem: {
       borderBottomLeftRadius: spaces.Space12,
       borderBottomRightRadius: spaces.Space12,
       marginBottom: spaces.Space8,
       borderTopWidth: 1,
-      borderTopColor: colors.BorderSoft,
+      borderTopColor: colors.BgTertiary,
     },
     cancelItem: {
       borderRadius: spaces.Space12,
