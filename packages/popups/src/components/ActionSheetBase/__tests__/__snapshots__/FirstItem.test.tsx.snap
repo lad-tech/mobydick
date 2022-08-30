@@ -20,9 +20,9 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly FirstItem
       "borderTopRightRadius": 18,
       "justifyContent": "center",
       "marginHorizontal": 12,
+      "minHeight": 75,
       "opacity": 1,
       "paddingHorizontal": 30,
-      "paddingVertical": 22.5,
     }
   }
 >
@@ -37,7 +37,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly FirstItem
           "lineHeight": 33,
         },
         Object {
-          "paddingVertical": 0,
+          "paddingVertical": 22.5,
         },
       ]
     }
@@ -54,8 +54,8 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly FirstItem
         "backgroundColor": "#EEEFF1",
         "justifyContent": "center",
         "marginHorizontal": 12,
+        "minHeight": 75,
         "paddingHorizontal": 30,
-        "paddingVertical": 22.5,
       },
       Object {
         "borderTopLeftRadius": 18,
@@ -75,6 +75,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly FirstItem
           "lineHeight": 28.5,
         },
         Object {
+          "paddingVertical": 22.5,
           "textAlign": "center",
         },
       ]

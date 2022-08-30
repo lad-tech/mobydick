@@ -6,8 +6,8 @@ import Item, {IPropsItem} from './Item';
 
 const LastItem: FC<IPropsItem> = props => {
   const [styles] = useStyles(stylesCreate);
-  const {...otherProps} = props;
-  return <Item style={styles.lastItem} {...otherProps} />;
+
+  return <Item style={styles.lastItem} {...props} />;
 };
 
 export default LastItem;

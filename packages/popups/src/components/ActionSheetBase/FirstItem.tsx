@@ -7,11 +7,12 @@ import Label, {IPropsLabel} from './Label';
 
 const FirstItem: FC<IPropsItem | IPropsLabel> = props => {
   const [styles] = useStyles(stylesCreate);
-  const {label, ...otherProps} = props;
+  const {label} = props;
+
   return label ? (
-    <Label style={styles.firstItem} label={label} {...otherProps} />
+    <Label style={styles.firstItem} label={label} {...props} />
   ) : (
-    <Item style={styles.firstItem} {...otherProps} />
+    <Item style={styles.firstItem} {...props} />
   );
 };
 

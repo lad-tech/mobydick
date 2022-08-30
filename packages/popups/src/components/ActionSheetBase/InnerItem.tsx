@@ -7,11 +7,12 @@ import Label, {IPropsLabel} from './Label';
 
 const InnerItem: FC<IPropsItem | IPropsLabel> = props => {
   const [styles] = useStyles(stylesCreate);
-  const {label, ...otherProps} = props;
+  const {label} = props;
+
   return label ? (
-    <Label style={styles.innerItem} label={label} {...otherProps} />
+    <Label style={styles.innerItem} label={label} {...props} />
   ) : (
-    <Item style={styles.innerItem} {...otherProps} />
+    <Item style={styles.innerItem} {...props} />
   );
 };
 

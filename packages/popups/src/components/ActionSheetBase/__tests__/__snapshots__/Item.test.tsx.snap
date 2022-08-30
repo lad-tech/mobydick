@@ -18,9 +18,9 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item 1`] 
       "backgroundColor": "#EEEFF1",
       "justifyContent": "center",
       "marginHorizontal": 12,
+      "minHeight": 75,
       "opacity": 1,
       "paddingHorizontal": 30,
-      "paddingVertical": 22.5,
     }
   }
 >
@@ -35,7 +35,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item 1`] 
           "lineHeight": 33,
         },
         Object {
-          "paddingVertical": 0,
+          "paddingVertical": 22.5,
         },
       ]
     }
@@ -62,9 +62,9 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       "flexDirection": "row",
       "justifyContent": "space-between",
       "marginHorizontal": 12,
+      "minHeight": 75,
       "opacity": 1,
       "paddingHorizontal": 30,
-      "paddingVertical": 22.5,
     }
   }
 >
@@ -79,7 +79,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
           "lineHeight": 28.5,
         },
         Object {
-          "paddingVertical": 4,
+          "paddingVertical": 22.5,
         },
       ]
     }
@@ -98,8 +98,8 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
         "backgroundColor": "#EEEFF1",
         "justifyContent": "center",
         "marginHorizontal": 12,
+        "minHeight": 75,
         "paddingHorizontal": 30,
-        "paddingVertical": 22.5,
       },
       undefined,
     ]
@@ -116,7 +116,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
           "lineHeight": 33,
         },
         Object {
-          "paddingVertical": 0,
+          "paddingVertical": 22.5,
         },
       ]
     }
@@ -145,9 +145,9 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       "flexDirection": "row",
       "justifyContent": "flex-start",
       "marginHorizontal": 12,
+      "minHeight": 75,
       "opacity": 1,
       "paddingHorizontal": 30,
-      "paddingVertical": 22.5,
     }
   }
 >
@@ -191,7 +191,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
             "lineHeight": 33,
           },
           Object {
-            "paddingVertical": 0,
+            "paddingVertical": 22.5,
           },
         ]
       }
@@ -219,9 +219,9 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       "flexDirection": "row",
       "justifyContent": "space-between",
       "marginHorizontal": 12,
+      "minHeight": 75,
       "opacity": 1,
       "paddingHorizontal": 30,
-      "paddingVertical": 22.5,
     }
   }
 >
@@ -236,7 +236,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
           "lineHeight": 30,
         },
         Object {
-          "paddingVertical": 4,
+          "paddingVertical": 22.5,
         },
       ]
     }
@@ -248,7 +248,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       Object {
         "backgroundColor": "#2B78EE",
         "borderRadius": 96,
-        "padding": 6,
+        "padding": 3,
       }
     }
   >
@@ -286,9 +286,9 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       "backgroundColor": "#EEEFF1",
       "justifyContent": "center",
       "marginHorizontal": 12,
+      "minHeight": 75,
       "opacity": 1,
       "paddingHorizontal": 30,
-      "paddingVertical": 22.5,
     }
   }
 >
@@ -297,6 +297,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       Object {
         "flexDirection": "column",
         "justifyContent": "center",
+        "paddingVertical": 22.5,
       }
     }
   >
@@ -354,9 +355,9 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       "backgroundColor": "#EEEFF1",
       "justifyContent": "center",
       "marginHorizontal": 12,
+      "minHeight": 75,
       "opacity": 1,
       "paddingHorizontal": 30,
-      "paddingVertical": 22.5,
     }
   }
 >
@@ -365,6 +366,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       Object {
         "flexDirection": "column",
         "justifyContent": "center",
+        "paddingVertical": 22.5,
       }
     }
   >

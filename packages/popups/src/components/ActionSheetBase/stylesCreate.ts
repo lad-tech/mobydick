@@ -25,15 +25,16 @@ const stylesCreate = (
     item: {
       backgroundColor: colors.BgSecondary,
       alignItems: 'center',
-      paddingVertical: rem(15),
       paddingHorizontal: rem(20),
       marginHorizontal: spaces.Space8,
+      minHeight: rem(50),
 
       ...flexStyle(),
     },
     title: {
       flexDirection: 'column',
       justifyContent: 'center',
+      paddingVertical: rem(15),
     },
     leftIcon: {
       paddingRight: rem(18),
@@ -65,13 +66,14 @@ const stylesCreate = (
     checkIcon: {
       backgroundColor: colors.IconBase,
       borderRadius: theme.spaces.Space64,
-      padding: theme.spaces.Space4,
+      padding: theme.spaces.Space2,
     },
     label: {
       textAlign: 'center',
+      paddingVertical: rem(15),
     },
     textSelected: {
-      paddingVertical: selected ? 4 : 0,
+      paddingVertical: rem(15),
     },
   });
 };

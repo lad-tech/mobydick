@@ -5,10 +5,6 @@ import {SimpleIcon} from '@npm/mobydick-styles';
 import Item from '../Item';
 
 describe('@npm/mobydick-popups/ActionSheetBase', () => {
-  afterEach(() => {
-    jest.resetAllMocks();
-    jest.clearAllMocks();
-  });
   it('should renders correctly Item', () => {
     const {toJSON} = render(<Item />);
 

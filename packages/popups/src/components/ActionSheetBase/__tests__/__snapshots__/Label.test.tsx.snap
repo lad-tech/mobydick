@@ -9,8 +9,8 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Label 1`]
         "backgroundColor": "#EEEFF1",
         "justifyContent": "center",
         "marginHorizontal": 12,
+        "minHeight": 75,
         "paddingHorizontal": 30,
-        "paddingVertical": 22.5,
       },
       undefined,
     ]
@@ -27,6 +27,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Label 1`]
           "lineHeight": 24,
         },
         Object {
+          "paddingVertical": 22.5,
           "textAlign": "center",
         },
       ]
