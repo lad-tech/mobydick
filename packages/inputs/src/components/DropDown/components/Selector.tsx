@@ -113,6 +113,7 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
               ? addFlatListTextStylePressed
               : addFlatListTextStyle
           }
+          numberOfLines={1}
           font={getFont()}>
           {item.label}
         </Typography>

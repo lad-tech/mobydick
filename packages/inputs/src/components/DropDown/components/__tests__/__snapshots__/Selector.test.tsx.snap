@@ -116,6 +116,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -251,6 +252,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -386,6 +388,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -523,6 +526,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -660,6 +664,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -795,6 +800,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -930,6 +936,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1063,6 +1070,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1196,6 +1204,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1329,6 +1338,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1462,6 +1472,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1623,6 +1634,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1670,6 +1682,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1717,6 +1730,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1764,6 +1778,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1811,6 +1826,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1858,6 +1874,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1905,6 +1922,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
