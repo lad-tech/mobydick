@@ -1,16 +1,16 @@
-import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
 import {ITypes} from './types';
 
-const defaultStyle = (theme: IUseStylesTheme, focused: boolean) => {
+const defaultStyle = (theme: IThemeContext, focused: boolean) => {
   const {colors} = theme;
   return StyleSheet.create({
     textInputContainer: {
       backgroundColor: colors.BgSecondary,
       padding: theme.spaces.Space8,
       borderRadius: theme.spaces.Space8,
-      borderWidth: theme.spaces.Space2,
+      borderWidth: 1,
       borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: theme.spaces.Space8,
       minWidth: rem(130),
@@ -25,7 +25,7 @@ const defaultStyle = (theme: IUseStylesTheme, focused: boolean) => {
   });
 };
 
-const validStyle = (theme: IUseStylesTheme, focused: boolean) => {
+const validStyle = (theme: IThemeContext, focused: boolean) => {
   const defaultStyles = defaultStyle(theme, focused);
   const {colors} = theme;
   const {textInputContainer} = defaultStyles;
@@ -38,7 +38,7 @@ const validStyle = (theme: IUseStylesTheme, focused: boolean) => {
   return defaultStyles;
 };
 
-const disabledStyle = (theme: IUseStylesTheme, focused: boolean) => {
+const disabledStyle = (theme: IThemeContext, focused: boolean) => {
   const defaultStyles = defaultStyle(theme, focused);
   const {colors} = theme;
   const {textInputContainer} = defaultStyles;
@@ -49,7 +49,7 @@ const disabledStyle = (theme: IUseStylesTheme, focused: boolean) => {
   return defaultStyles;
 };
 
-const wrongStyle = (theme: IUseStylesTheme, focused: boolean) => {
+const wrongStyle = (theme: IThemeContext, focused: boolean) => {
   const defaultStyles = defaultStyle(theme, focused);
   const {colors} = theme;
   const {textInputContainer} = defaultStyles;
@@ -60,11 +60,7 @@ const wrongStyle = (theme: IUseStylesTheme, focused: boolean) => {
   return defaultStyles;
 };
 
-const stylesCreate = (
-  theme: IUseStylesTheme,
-  type: ITypes,
-  focused: boolean,
-) => {
+const stylesCreate = (theme: IThemeContext, type: ITypes, focused: boolean) => {
   switch (type) {
     case ITypes.valid:
       return validStyle(theme, focused);
