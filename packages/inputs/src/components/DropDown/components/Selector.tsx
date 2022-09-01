@@ -2,7 +2,6 @@ import React from 'react';
 import {IPopupProps, PopupBase} from '@npm/mobydick-popups';
 import {FlatList, TouchableHighlight} from '@npm/mobydick-core';
 import {useDimensions} from '@react-native-community/hooks';
-import {getModel} from 'react-native-device-info';
 import {Typography} from '@npm/mobydick-typography';
 import {useStyles} from '@npm/mobydick-styles';
 import {StyleSheet, ViewStyle} from 'react-native';
@@ -13,7 +12,6 @@ import {
   DEFAULT_DROP_DOWN_WIDTH,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
-import getIosSafeAreaHeights from '../utils/getIosSafeAreaHeights';
 import stylesCreate from '../stylesCreate';
 import {IDropDownProps} from '../types';
 
@@ -144,8 +142,6 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
 
   const {height} = useDimensions().window;
 
-  const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(getModel());
-
   const isNeedFooterPadding = list.length > maxVisibleListLength;
 
   const flatListPaddingVertical = addFlatListStyle?.paddingVertical
@@ -160,9 +156,7 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
     dropDownItemHeight,
   } = getDropDownDimensions({
     pageY,
-    topIosMargin,
     navBarHeight,
-    bottomIosMargin,
     maxVisibleListLength,
     dropDownHeight: addButtonStyle?.height
       ? +addButtonStyle.height

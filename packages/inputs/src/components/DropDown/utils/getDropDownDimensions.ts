@@ -7,9 +7,7 @@ import {
 
 interface IGetDimensionsParams {
   pageY: number;
-  topIosMargin: number;
   navBarHeight: number;
-  bottomIosMargin: number;
   dropDownHeight: number;
   flatListPaddingVertical: number;
   listLength: number;
@@ -51,9 +49,7 @@ export const getDropDownHeights = ({
 
 export const getDropDownDimensions = ({
   pageY,
-  topIosMargin,
   navBarHeight,
-  bottomIosMargin,
   dropDownHeight,
   flatListPaddingVertical,
   listLength,
@@ -72,20 +68,13 @@ export const getDropDownDimensions = ({
   const listUnderPosition =
     Platform.OS === 'android'
       ? dropDownHeight + pageY + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2
-      : pageY -
-        topIosMargin +
-        dropDownHeight +
-        DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2;
+      : pageY + dropDownHeight + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2;
   const listAbovePosition =
     Platform.OS === 'android'
-      ? pageY - topIosMargin - dropDownViewHeight
-      : pageY - topIosMargin - dropDownViewHeight - dropDownBorderWidth * 2;
+      ? pageY - dropDownViewHeight
+      : pageY - dropDownViewHeight - dropDownBorderWidth * 2;
   const expectedEndPositionOnScreen =
-    dropDownHeight +
-    dropDownViewHeight +
-    pageY +
-    navBarHeight +
-    bottomIosMargin;
+    dropDownHeight + dropDownViewHeight + pageY + navBarHeight;
 
   return {
     listUnderPosition,
