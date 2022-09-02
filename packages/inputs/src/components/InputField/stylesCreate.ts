@@ -1,7 +1,7 @@
 import {IThemeContext, rem} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
-import {ITypes} from './types';
+import {ITypes} from '../types';
 
 const defaultStyle = (theme: IThemeContext, focused: boolean) => {
   const {colors} = theme;

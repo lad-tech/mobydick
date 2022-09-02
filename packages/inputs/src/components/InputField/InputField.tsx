@@ -3,7 +3,9 @@ import React, {forwardRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography, useFont} from '@npm/mobydick-typography';
 
-import {IInputFieldsProps, ITypes} from './types';
+import {ITypes} from '../types';
+
+import {IInputFieldsProps} from './types';
 import stylesCreate from './stylesCreate';
 import Constants from './constants';
 
