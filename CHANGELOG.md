@@ -1,3 +1,12 @@
+## [1.1.5](https://glab.lad24.ru/npm/mobydick/compare/v1.1.4...v1.1.5) (2022-09-02)
+
+
+### Bug Fixes
+
+* **dropDown:** add numberOfLines ([a648a77](https://glab.lad24.ru/npm/mobydick/commit/a648a77144d92d2e4fa7659436d219f89e39a50d))
+* **DropDown:** delete topMarginIos, react-native-device-info ([4b58df5](https://glab.lad24.ru/npm/mobydick/commit/4b58df5ace5df9d42dba26fe02485d4d7fa4e289))
+* **InputField:** replace borderWidth -> 1 ([8d615a7](https://glab.lad24.ru/npm/mobydick/commit/8d615a7bccac26565ed2dda2c556deda91e1a706))
+
 ## [1.1.4](https://glab.lad24.ru/npm/mobydick/compare/v1.1.3...v1.1.4) (2022-08-30)
 
 
