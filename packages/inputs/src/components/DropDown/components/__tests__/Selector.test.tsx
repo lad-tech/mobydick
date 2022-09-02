@@ -153,7 +153,6 @@ describe('@npm/mobydick-inputs/Selector', () => {
 
     expect(spy).toHaveBeenLastCalledWith({
       addFlatListItemHeight: undefined,
-      bottomIosMargin: 0,
       dropDownBorderWidth: 1,
       dropDownHeight: 48,
       flatListPaddingVertical: 2,
@@ -161,7 +160,6 @@ describe('@npm/mobydick-inputs/Selector', () => {
       maxVisibleListLength: 6,
       navBarHeight: 50,
       pageY: 1,
-      topIosMargin: 20,
     });
 
     rerender(
@@ -178,7 +176,6 @@ describe('@npm/mobydick-inputs/Selector', () => {
 
     expect(spy).toHaveBeenLastCalledWith({
       addFlatListItemHeight: undefined,
-      bottomIosMargin: 0,
       dropDownBorderWidth: 1,
       dropDownHeight: 10,
       flatListPaddingVertical: 2,
@@ -186,7 +183,6 @@ describe('@npm/mobydick-inputs/Selector', () => {
       maxVisibleListLength: 6,
       navBarHeight: 50,
       pageY: 1,
-      topIosMargin: 20,
     });
   });
 
