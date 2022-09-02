@@ -66,9 +66,7 @@ export const getDropDownDimensions = ({
       addFlatListItemHeight,
     });
   const listUnderPosition =
-    Platform.OS === 'android'
-      ? dropDownHeight + pageY + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2
-      : pageY + dropDownHeight + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2;
+    pageY + dropDownHeight + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2;
   const listAbovePosition =
     Platform.OS === 'android'
       ? pageY - dropDownViewHeight
