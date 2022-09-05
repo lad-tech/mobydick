@@ -4,6 +4,9 @@ import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 import {usePopups} from '@npm/mobydick-popups';
 
+import {ITypes} from '../types';
+import Subtitle from '../Subtitle';
+
 import {IDropDownProps, IListItem} from './types';
 import stylesCreate from './stylesCreate';
 import {
@@ -50,14 +53,23 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
     addFlatListTextStylePressed,
     addButtonTextStyleChosen,
     addButtonTextFontChosen,
+    type = ITypes.default,
+    disabled,
+    subtitle,
+    subtitleProps,
   } = props;
+
   const selected = selectedItem ? wrapListItem(selectedItem) : undefined;
 
   const [isOpen, setOpen] = useState(false);
 
   const popupContext = usePopups();
 
-  const [styles, theme] = useStyles(stylesCreate);
+  const [styles] = useStyles(
+    stylesCreate,
+    disabled ? ITypes.disabled : type,
+    isOpen,
+  );
 
   const dropDownRef = useRef<ITouchableOpacity>(null);
 
@@ -124,7 +136,7 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
       <View collapsable={false} ref={dropDownRef}>
         <TouchableOpacity
           style={[
-            styles.button,
+            styles.inputContainer,
             addButtonStyle,
             {
               width: addButtonStyle?.width
@@ -140,14 +152,15 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
               ? {
                   borderColor: addButtonStyle?.borderColor
                     ? addButtonStyle.borderColor
-                    : theme.colors.BorderNormal,
+                    : styles.inputContainer.borderColor,
                 }
               : {
                   borderColor: addButtonStyle?.backgroundColor
                     ? addButtonStyle.backgroundColor
-                    : theme.colors.BgSecondary,
+                    : styles.inputContainer.borderColor,
                 },
           ]}
+          disabled={disabled}
           onPress={checkPosition}
           accessibilityLabel={ACCESSIBILITY_LABEL.selector}>
           <Typography
@@ -160,6 +173,13 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
           </Typography>
           <Icon isOpen={isOpen} rightIcon={rightIcon} />
         </TouchableOpacity>
+        {subtitle ? (
+          <Subtitle
+            type={type}
+            subtitle={subtitle}
+            subtitleProps={subtitleProps}
+          />
+        ) : null}
       </View>
     </View>
   );

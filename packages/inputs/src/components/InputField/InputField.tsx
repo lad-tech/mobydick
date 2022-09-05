@@ -4,6 +4,7 @@ import {useStyles} from '@npm/mobydick-styles';
 import {Typography, useFont} from '@npm/mobydick-typography';
 
 import {ITypes} from '../types';
+import Subtitle from '../Subtitle';
 
 import {IInputFieldsProps} from './types';
 import stylesCreate from './stylesCreate';
@@ -54,7 +55,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
           {title}
         </Typography>
       )}
-      <View style={[styles.textInputContainer, textInputContainerStyle]}>
+      <View style={[styles.inputContainer, textInputContainerStyle]}>
         <TextInput
           ref={ref}
           testID={Constants.testID}
@@ -74,15 +75,13 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
         />
         {rightIcon}
       </View>
-      {Boolean(subtitle) && (
-        <Typography
-          font={
-            type === ITypes.wrong ? 'Regular-Error-XXS' : 'Regular-Muted-XXS'
-          }
-          {...subtitleProps}>
-          {subtitle}
-        </Typography>
-      )}
+      {subtitle ? (
+        <Subtitle
+          type={type}
+          subtitle={subtitle}
+          subtitleProps={subtitleProps}
+        />
+      ) : null}
     </View>
   );
 });

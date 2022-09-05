@@ -1,6 +1,8 @@
 import {ReactElement} from 'react';
 import {TextStyle, ViewStyle} from 'react-native';
-import {TypographyProp} from '@npm/mobydick-typography';
+import {IStyledTextProps, TypographyProp} from '@npm/mobydick-typography';
+
+import {ITypes} from '../types';
 
 export type IListItem = string | {label: string; value: unknown};
 
@@ -27,11 +29,10 @@ export interface IDropDownProps<ListItem extends IListItem> {
   addFlatListTextFontPressed?: TypographyProp | undefined;
   selectedItemColor?: string | undefined;
   maxVisibleListLength?: number;
-}
-
-export interface IMarginsForIos {
-  topIosMargin: number;
-  bottomIosMargin: number;
+  type?: ITypes;
+  disabled?: boolean;
+  subtitle?: string;
+  subtitleProps?: IStyledTextProps;
 }
 
 export interface IDropDownIconProps {
