@@ -21,6 +21,9 @@ const defaultStyle = (theme: IThemeContext, isOpen: boolean) => {
       alignItems: 'center',
       marginVertical: spaces.Space8,
     },
+    placeholder: {
+      flex: 1,
+    },
     overlay: {
       position: 'absolute',
       width: '100%',

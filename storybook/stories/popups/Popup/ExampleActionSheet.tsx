@@ -93,6 +93,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           <ActionSheetBase.InnerItem
             title={'Субтитры'}
             subTitle={'Отсутствуют'}
+            disabled={true}
             leftIcon={
               <SimpleIcon
                 name={'icon-attachment'}
@@ -186,6 +187,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           <ActionSheetBase.LastItem
             title={deleteText}
             textFont={textFontErrorL}
+            onPress={onClose}
           />
           <ActionSheetBase.CancelItem title={cancelText} onPress={onClose} />
         </ActionSheetBase>

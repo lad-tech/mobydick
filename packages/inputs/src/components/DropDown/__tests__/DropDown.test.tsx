@@ -105,6 +105,12 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           list={array}
           onPress={onPress}
           subtitle={'subtitle'}
+          addButtonStyle={{
+            width: 400,
+            height: 70,
+            borderColor: '#000',
+            backgroundColor: '#000',
+          }}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
         />
       </PopupsProvider>,
@@ -132,6 +138,13 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           list={list}
           onPress={jest.fn()}
           type={ITypes.wrong}
+          addLabelFont={'Medium-Tertiary-XS'}
+          addButtonStyle={{
+            width: 400,
+            height: 70,
+            borderColor: '#000',
+            backgroundColor: '#000',
+          }}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
         />
       </PopupsProvider>,

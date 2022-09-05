@@ -1,4 +1,4 @@
-import {TouchableOpacity, View} from '@npm/mobydick-core';
+import {TouchableOpacity} from '@npm/mobydick-core';
 import {ViewStyle} from 'react-native';
 import React, {FC, ReactElement} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
@@ -37,18 +37,11 @@ const Item: FC<IPropsItem> = props => {
     Boolean(leftIcon),
   );
 
-  if (disabled) {
-    return (
-      <View style={[styles.item, style]}>
-        {getContents(leftIcon, subTitle, selected, textFont, title)}
-      </View>
-    );
-  }
-
   return (
     <TouchableOpacity
       activeOpacity={0.9}
       style={[styles.item, style]}
+      disabled={disabled}
       onPress={onPress}>
       {getContents(leftIcon, subTitle, selected, textFont, title)}
     </TouchableOpacity>
