@@ -67,7 +67,12 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
               "fontSize": 24,
               "lineHeight": 30,
             },
-            undefined,
+            Array [
+              Object {
+                "flex": 1,
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -166,7 +171,12 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements disabled 1`
               "fontSize": 24,
               "lineHeight": 30,
             },
-            undefined,
+            Array [
+              Object {
+                "flex": 1,
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -260,7 +270,12 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type valid 
               "fontSize": 24,
               "lineHeight": 30,
             },
-            undefined,
+            Array [
+              Object {
+                "flex": 1,
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -329,17 +344,17 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type wrong 
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "rgba(245, 77, 61, 0.15)",
-          "borderColor": "transparent",
+          "backgroundColor": "#000",
+          "borderColor": "#000",
           "borderRadius": 12,
           "borderWidth": 1,
           "flexDirection": "row",
-          "height": 48,
+          "height": 70,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "opacity": 1,
           "paddingHorizontal": 18,
-          "width": 200,
+          "width": 400,
         }
       }
     >
@@ -354,7 +369,12 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type wrong 
               "fontSize": 24,
               "lineHeight": 30,
             },
-            undefined,
+            Array [
+              Object {
+                "flex": 1,
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -423,17 +443,17 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "transparent",
+          "backgroundColor": "#000",
+          "borderColor": "#000",
           "borderRadius": 12,
           "borderWidth": 1,
           "flexDirection": "row",
-          "height": 48,
+          "height": 70,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "opacity": 1,
           "paddingHorizontal": 18,
-          "width": 200,
+          "width": 400,
         }
       }
     >
@@ -448,7 +468,12 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
               "fontSize": 24,
               "lineHeight": 30,
             },
-            undefined,
+            Array [
+              Object {
+                "flex": 1,
+              },
+              undefined,
+            ],
           ]
         }
       >

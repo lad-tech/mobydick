@@ -164,9 +164,10 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
           onPress={checkPosition}
           accessibilityLabel={ACCESSIBILITY_LABEL.selector}>
           <Typography
-            style={
-              selected?.label ? addButtonTextStyleChosen : addButtonTextStyle
-            }
+            style={[
+              styles.placeholder,
+              selected?.label ? addButtonTextStyleChosen : addButtonTextStyle,
+            ]}
             font={getFont()}
             numberOfLines={1}>
             {selected?.label || placeholder}
