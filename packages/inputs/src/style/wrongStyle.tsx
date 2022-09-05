@@ -1,17 +1,18 @@
 import {IThemeContext} from '@npm/mobydick-styles';
-import {StyleSheet} from 'react-native';
+import {StyleSheet, ViewStyle} from 'react-native';
 
-export const wrongStyle = (
+export const wrongStyle = <
+  T extends StyleSheet.NamedStyles<{inputContainer: ViewStyle}>,
+>(
   theme: IThemeContext,
-  defaultStyles: ReturnType<typeof StyleSheet.create>,
+  defaultStyles: T,
   active: boolean,
 ) => {
   const {colors} = theme;
   const {inputContainer} = defaultStyles;
 
-  if (inputContainer) {
-    inputContainer.borderColor = active ? colors.BorderError : 'transparent';
-    inputContainer.backgroundColor = colors.BgError;
-  }
+  inputContainer.borderColor = active ? colors.BorderError : 'transparent';
+  inputContainer.backgroundColor = colors.BgError;
+
   return defaultStyles;
 };
