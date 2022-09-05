@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "@npm/mobydick-styles": "1.0.3",
-    "@npm/mobydick-core": "1.0.3"
+    "@npm/mobydick-core": "1.0.3",
+    "@npm/mobydick-typography": "1.0.3"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
