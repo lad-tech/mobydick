@@ -12,8 +12,9 @@ import {
   DEFAULT_DROP_DOWN_WIDTH,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
-import stylesCreate from '../stylesCreate';
 import {IDropDownProps} from '../types';
+
+import stylesCreate from './stylesCreate';
 
 const keyExtractor = (item: string, index: number) =>
   index.toString() + item.toString();

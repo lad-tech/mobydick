@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import {DropDown} from '@npm/mobydick-inputs';
-import {array, number, select, text} from '@storybook/addon-knobs';
+import {DropDown, ITypes} from '@npm/mobydick-inputs';
+import {array, boolean, number, select, text} from '@storybook/addon-knobs';
 import {
   defaultTextLightColor,
   iconNames,
@@ -41,6 +41,9 @@ const ExampleArrayOfStrings = () => {
         'Bulgarian',
       ])}
       onPress={setSelected}
+      disabled={boolean('disabled', false)}
+      type={select('type', ITypes, ITypes.default)}
+      subtitle={text('subtitle', '')}
       rightIcon={
         <SimpleIcon
           name={

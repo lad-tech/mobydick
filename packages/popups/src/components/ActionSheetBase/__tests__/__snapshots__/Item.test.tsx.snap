@@ -91,18 +91,31 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
 
 exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with disabled 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#EEEFF1",
-        "justifyContent": "center",
-        "marginHorizontal": 12,
-        "minHeight": 75,
-        "paddingHorizontal": 30,
-      },
-      undefined,
-    ]
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "justifyContent": "center",
+      "marginHorizontal": 12,
+      "minHeight": 75,
+      "opacity": 1,
+      "paddingHorizontal": 30,
+    }
   }
 >
   <Text
