@@ -1,9 +1,9 @@
 import React from 'react';
 import {act, render} from '@testing-library/react-native';
 
-import {ITypes} from '../types';
 import InputField from '../InputField';
 import Constants from '../constants';
+import {ITypes} from '../../types';
 
 describe('@npm/mobydick-inputs/InputField', () => {
   it('renders correctly', () => {

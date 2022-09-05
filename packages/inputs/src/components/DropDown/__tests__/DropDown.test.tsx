@@ -7,6 +7,7 @@ import Constants from '@npm/mobydick-popups/src/components/PopupBase/constants';
 
 import DropDown from '../DropDown';
 import {ACCESSIBILITY_LABEL} from '../constants';
+import {ITypes} from '../../types';
 
 describe('@npm/mobydick-inputs/DropDown', () => {
   let viewRef: React.RefObject<View>;
@@ -19,6 +20,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
   });
 
   const list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+
   it('renders correctly 10 elements', () => {
     const {toJSON} = render(
       <PopupsProvider>
@@ -63,6 +65,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           list={[...array]}
           onPress={onPress}
           selectedItem={array[1]}
+          type={ITypes.disabled}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
         />
       </PopupsProvider>,
@@ -101,6 +104,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           label={'Название поля'}
           list={array}
           onPress={onPress}
+          subtitle={'subtitle'}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
         />
       </PopupsProvider>,
@@ -117,5 +121,51 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     });
     expect(toJSON()).toMatchSnapshot();
     expect(useRefSpy).toHaveBeenCalledTimes(1);
+  });
+
+  it('renders correctly 10 elements type wrong', () => {
+    const {toJSON} = render(
+      <PopupsProvider>
+        <DropDown
+          placeholder={'Выберите язык'}
+          label={'Название поля'}
+          list={list}
+          onPress={jest.fn()}
+          type={ITypes.wrong}
+          rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
+        />
+      </PopupsProvider>,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly 10 elements type valid', () => {
+    const {toJSON} = render(
+      <PopupsProvider>
+        <DropDown
+          placeholder={'Выберите язык'}
+          label={'Название поля'}
+          list={list}
+          onPress={jest.fn()}
+          type={ITypes.valid}
+          rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
+        />
+      </PopupsProvider>,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly 10 elements disabled', () => {
+    const {toJSON} = render(
+      <PopupsProvider>
+        <DropDown
+          placeholder={'Выберите язык'}
+          label={'Название поля'}
+          list={list}
+          onPress={jest.fn()}
+          disabled={true}
+          rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
+        />
+      </PopupsProvider>,
+    );
+    expect(toJSON()).toMatchSnapshot();
   });
 });

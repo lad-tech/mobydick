@@ -2,8 +2,7 @@ import {TouchableOpacity, View} from '@npm/mobydick-core';
 import {ViewStyle} from 'react-native';
 import React, {FC, ReactElement} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
-
-import {TypographyProp} from '../../../../typography';
+import {TypographyProp} from '@npm/mobydick-typography';
 
 import stylesCreate from './stylesCreate';
 import getContents from './content/getContents';

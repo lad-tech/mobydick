@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import {DropDown} from '@npm/mobydick-inputs';
-import {number, select, text} from '@storybook/addon-knobs';
+import {DropDown, ITypes} from '@npm/mobydick-inputs';
+import {boolean, number, select, text} from '@storybook/addon-knobs';
 import {
   defaultTextLightColor,
   iconNames,
@@ -30,7 +30,10 @@ const ExampleArrayOfStrings = () => {
       placeholder={text('Placeholder', 'Выберите язык')}
       label={text('title', 'Язык')}
       list={[
-        {label: 'Русский', value: 'Русский'},
+        {
+          label: 'Русский',
+          value: 'Русский',
+        },
 
         {label: 'English', value: 'English'},
 
@@ -41,6 +44,9 @@ const ExampleArrayOfStrings = () => {
         {label: 'Bulgarian', value: 'Bulgarian'},
       ]}
       onPress={setSelected}
+      disabled={boolean('disabled', false)}
+      type={select('type', ITypes, ITypes.default)}
+      subtitle={text('subtitle', 'Подпись')}
       rightIcon={
         <SimpleIcon
           name={
