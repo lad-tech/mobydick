@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IThemeContext} from '@npm/mobydick-styles';
 
-const stylesCreate = (theme: IUseStylesTheme) => {
+const stylesCreate = (theme: IThemeContext) => {
   const {colors} = theme;
   return StyleSheet.create({
     container: {
@@ -11,9 +11,10 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       alignItems: 'center',
       flexDirection: 'row',
       paddingLeft: theme.spaces.Space20,
-      marginVertical: theme.spaces.Space20,
+      margin: theme.spaces.Space20,
     },
     title: {
+      flex: 1,
       paddingRight: theme.spaces.Space20,
       paddingVertical: theme.spaces.Space16,
     },
