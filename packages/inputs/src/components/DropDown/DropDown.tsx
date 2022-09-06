@@ -157,7 +157,7 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
               : {
                   borderColor: addButtonStyle?.backgroundColor
                     ? addButtonStyle.backgroundColor
-                    : styles.inputContainer.borderColor,
+                    : styles.inputContainer.backgroundColor,
                 },
           ]}
           disabled={disabled}
