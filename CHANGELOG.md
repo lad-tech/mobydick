@@ -1,3 +1,10 @@
+## [1.1.6](https://glab.lad24.ru/npm/mobydick/compare/v1.1.5...v1.1.6) (2022-09-06)
+
+
+### Bug Fixes
+
+* **dropdown:** add style placeholder - flex 1; ([13fe759](https://glab.lad24.ru/npm/mobydick/commit/13fe759ad744ce8a2b1b52b0615b9b5c168295ac))
+
 ## [1.1.5](https://glab.lad24.ru/npm/mobydick/compare/v1.1.4...v1.1.5) (2022-09-02)
 
 
