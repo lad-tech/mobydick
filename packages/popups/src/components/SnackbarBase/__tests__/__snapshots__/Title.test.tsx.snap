@@ -13,6 +13,7 @@ exports[`@npm/mobydick-popups/SnackbarBase/Title should renders correctly with t
       },
       Array [
         Object {
+          "flex": 1,
           "paddingRight": 30,
           "paddingVertical": 24,
         },
@@ -40,6 +41,7 @@ exports[`@npm/mobydick-popups/SnackbarBase/Title should renders correctly withou
       },
       Array [
         Object {
+          "flex": 1,
           "paddingRight": 30,
           "paddingVertical": 24,
         },
