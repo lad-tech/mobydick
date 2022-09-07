@@ -54,7 +54,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
-        addFlatListItemStyle={{height: 10}}
+        flatListItemStyle={{height: 10}}
         selectedItem={list[0]}
         selectedItemColor={'red'}
       />,
@@ -68,7 +68,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
-        addFlatListItemStyle={{height: 10}}
+        flatListItemStyle={{height: 10}}
         selectedItem={list[0]}
       />,
     );
@@ -82,7 +82,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
-        addFlatListTextStylePressed={{backgroundColor: 'red'}}
+        flatListTextStylePressed={{backgroundColor: 'red'}}
       />,
     );
 
@@ -96,7 +96,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         pageY={1}
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
-        addFlatListTextFontPressed={'Bold-Error-L'}
+        flatListTextFontPressed={'Bold-Error-L'}
       />,
     );
 
@@ -120,7 +120,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
-        addFlatListTextFont={'Regular-Error-XXS'}
+        flatListTextFont={'Regular-Error-XXS'}
       />,
     );
 
@@ -147,7 +147,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         pageY={1}
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
-        addFlatListStyle={{paddingVertical: 2}}
+        flatListStyle={{paddingVertical: 2}}
       />,
     );
 
@@ -169,8 +169,8 @@ describe('@npm/mobydick-inputs/Selector', () => {
         pageY={1}
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
-        addFlatListStyle={{paddingVertical: 2}}
-        addButtonStyle={{height: 10}}
+        flatListStyle={{paddingVertical: 2}}
+        buttonStyle={{height: 10}}
       />,
     );
 
@@ -194,7 +194,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         pageY={1}
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
-        addFlatListStyle={{width: 2}}
+        flatListStyle={{width: 2}}
       />,
     );
 
@@ -207,7 +207,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         pageY={1000000}
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
-        addButtonStyle={{width: 2}}
+        buttonStyle={{width: 2}}
       />,
     );
     expect(toJSON()).toMatchSnapshot();
@@ -219,7 +219,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         pageY={1000000}
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
-        addButtonStyle={{width: 2, borderWidth: 2}}
+        buttonStyle={{width: 2, borderWidth: 2}}
       />,
     );
     expect(toJSON()).toMatchSnapshot();

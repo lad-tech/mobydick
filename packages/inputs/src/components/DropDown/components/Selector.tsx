@@ -24,13 +24,13 @@ type IFieldsToSelect =
   | 'maxVisibleListLength'
   | 'selectedItem'
   | 'selectedItemColor'
-  | 'addButtonStyle'
-  | 'addFlatListStyle'
-  | 'addFlatListItemStyle'
-  | 'addFlatListTextStyle'
-  | 'addFlatListTextFont'
-  | 'addFlatListTextFontPressed'
-  | 'addFlatListTextStylePressed';
+  | 'buttonStyle'
+  | 'flatListStyle'
+  | 'flatListItemStyle'
+  | 'flatListTextStyle'
+  | 'flatListTextFont'
+  | 'flatListTextFontPressed'
+  | 'flatListTextStylePressed';
 
 type ISelector = {label: string; value: unknown};
 
@@ -48,13 +48,12 @@ interface IRenderItemProps<T extends ISelector>
     | 'renderItemOnPress'
     | 'selectedItem'
     | 'selectedItemColor'
-    | 'addFlatListItemStyle'
-    | 'addFlatListTextStylePressed'
-    | 'addFlatListTextFontPressed'
-    | 'addFlatListTextStyle'
-    | 'addFlatListTextFont'
+    | 'flatListItemStyle'
+    | 'flatListTextStylePressed'
+    | 'flatListTextFontPressed'
+    | 'flatListTextStyle'
+    | 'flatListTextFont'
   > {
-  dropDownItemHeight: number;
   styles: StyleSheet.NamedStyles<{dropDownItem: ViewStyle}>;
   theme: ReturnType<typeof useStyles>[1];
 }
@@ -66,23 +65,21 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
 
       styles,
       theme,
-
-      dropDownItemHeight,
       selectedItemColor,
       selectedItem,
 
-      addFlatListItemStyle,
-      addFlatListTextStylePressed,
-      addFlatListTextStyle,
-      addFlatListTextFontPressed,
-      addFlatListTextFont,
+      flatListItemStyle,
+      flatListTextStylePressed,
+      flatListTextStyle,
+      flatListTextFontPressed,
+      flatListTextFont,
     } = props;
 
     const getFont = () => {
       if (item === selectedItem) {
-        return addFlatListTextFontPressed || 'Medium-Primary-M';
+        return flatListTextFontPressed || 'Medium-Primary-M';
       }
-      return addFlatListTextFont || 'Regular-Secondary-M';
+      return flatListTextFont || 'Regular-Secondary-M';
     };
 
     return (
@@ -90,12 +87,12 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
         accessibilityLabel={item.label}
         style={[
           styles.dropDownItem,
-          addFlatListItemStyle,
-          {
-            height: addFlatListItemStyle?.height
-              ? addFlatListItemStyle.height
-              : dropDownItemHeight,
-          },
+          flatListItemStyle,
+          // {
+          //   height: addFlatListItemStyle?.height
+          //     ? addFlatListItemStyle.height
+          //     : dropDownItemHeight,
+          // },
           item.label === selectedItem?.label
             ? selectedItemColor
               ? {backgroundColor: selectedItemColor}
@@ -108,11 +105,8 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
         }>
         <Typography
           style={
-            item === selectedItem
-              ? addFlatListTextStylePressed
-              : addFlatListTextStyle
+            item === selectedItem ? flatListTextStylePressed : flatListTextStyle
           }
-          numberOfLines={1}
           font={getFont()}>
           {item.label}
         </Typography>
@@ -133,45 +127,43 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
     selectedItem,
     selectedItemColor,
 
-    addButtonStyle,
-    addFlatListStyle,
-    addFlatListTextFont,
-    addFlatListItemStyle,
-    addFlatListTextStyle,
-    addFlatListTextStylePressed,
+    buttonStyle,
+    flatListStyle,
+    flatListTextFont,
+    flatListItemStyle,
+    flatListTextStyle,
+    flatListTextStylePressed,
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
 
   const {height} = useDimensions().window;
 
-  const isNeedFooterPadding = list.length > maxVisibleListLength;
-
-  const flatListPaddingVertical = addFlatListStyle?.paddingVertical
-    ? +addFlatListStyle.paddingVertical
-    : styles.flatList.paddingVertical;
+  const flatListPaddingVertical = flatListStyle?.paddingVertical
+    ? +flatListStyle.paddingVertical
+    : styles.contentContainer.paddingVertical;
 
   const {
     listAbovePosition,
     listUnderPosition,
     expectedEndPositionOnScreen,
     dropDownMaxHeight,
-    dropDownItemHeight,
   } = getDropDownDimensions({
     pageY,
     navBarHeight,
     maxVisibleListLength,
-    dropDownHeight: addButtonStyle?.height
-      ? +addButtonStyle.height
+    dropDownHeight: buttonStyle?.height
+      ? +buttonStyle.height
       : DEFAULT_DROP_DOWN_HEIGHT,
     flatListPaddingVertical: flatListPaddingVertical,
     listLength: list.length,
-    addFlatListItemHeight: addFlatListItemStyle?.height
-      ? +addFlatListItemStyle.height
+    addFlatListItemHeight: flatListItemStyle?.height
+      ? +flatListItemStyle.height
       : undefined,
-    dropDownBorderWidth: addButtonStyle?.borderWidth
-      ? addButtonStyle.borderWidth
+    dropDownBorderWidth: buttonStyle?.borderWidth
+      ? buttonStyle.borderWidth
       : BORDER_BUTTON_WIDTH,
   });
+
   return (
     <PopupBase
       onClose={props.onClose}
@@ -180,39 +172,38 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
         bounces={false}
         style={[
           styles.flatList,
-          addFlatListStyle,
+          flatListStyle,
           {
-            width: addFlatListStyle?.width
-              ? addFlatListStyle.width
-              : addButtonStyle?.width
-              ? addButtonStyle.width
+            width: flatListStyle?.width
+              ? flatListStyle.width
+              : buttonStyle?.width
+              ? buttonStyle.width
               : DEFAULT_DROP_DOWN_WIDTH,
           },
           expectedEndPositionOnScreen > height
-            ? {top: listAbovePosition}
-            : {top: listUnderPosition},
+            ? {
+                bottom: listAbovePosition,
+              }
+            : {
+                top: listUnderPosition,
+              },
           {
             maxHeight: dropDownMaxHeight,
           },
         ]}
-        contentContainerStyle={
-          isNeedFooterPadding
-            ? {paddingBottom: flatListPaddingVertical * 2}
-            : null
-        }
+        contentContainerStyle={styles.contentContainer}
         data={list}
         renderItem={renderItem({
           renderItemOnPress,
-          dropDownItemHeight,
           selectedItemColor,
 
           selectedItem,
           styles,
           theme,
-          addFlatListItemStyle,
-          addFlatListTextFont,
-          addFlatListTextStyle,
-          addFlatListTextStylePressed,
+          flatListItemStyle: flatListItemStyle,
+          flatListTextFont: flatListTextFont,
+          flatListTextStyle: flatListTextStyle,
+          flatListTextStylePressed: flatListTextStylePressed,
         })}
         keyExtractor={keyExtractor}
       />

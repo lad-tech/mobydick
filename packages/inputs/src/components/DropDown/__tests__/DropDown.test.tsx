@@ -105,7 +105,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           list={array}
           onPress={onPress}
           subtitle={'subtitle'}
-          addButtonStyle={{
+          buttonStyle={{
             width: 400,
             height: 70,
             borderColor: '#000',
@@ -138,8 +138,8 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           list={list}
           onPress={jest.fn()}
           type={ITypes.wrong}
-          addLabelFont={'Medium-Tertiary-XS'}
-          addButtonStyle={{
+          labelFont={'Medium-Tertiary-XS'}
+          buttonStyle={{
             width: 400,
             height: 70,
             borderColor: '#000',

@@ -33,7 +33,11 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -63,7 +67,6 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         Object {
@@ -103,11 +106,9 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               Object {
                 "backgroundColor": "rgba(43, 120, 238, 0.15)",
               },
@@ -116,7 +117,6 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -171,7 +171,11 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -201,7 +205,6 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -209,7 +212,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
           "width": 2,
         },
         Object {
-          "top": 999935.6,
+          "bottom": -998754,
         },
         Object {
           "maxHeight": 254.40000000000003,
@@ -239,11 +242,9 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               Object {
                 "backgroundColor": "rgba(43, 120, 238, 0.15)",
               },
@@ -252,7 +253,6 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -307,7 +307,11 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -337,7 +341,6 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -345,7 +348,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
           "width": 2,
         },
         Object {
-          "top": 999933.6,
+          "bottom": -998754,
         },
         Object {
           "maxHeight": 254.40000000000003,
@@ -375,11 +378,9 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               Object {
                 "backgroundColor": "rgba(43, 120, 238, 0.15)",
               },
@@ -388,7 +389,6 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -443,7 +443,11 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -473,7 +477,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -511,9 +514,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
-              },
-              Object {
-                "height": 10,
+                "paddingVertical": 12,
               },
               Object {
                 "height": 10,
@@ -526,7 +527,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -581,7 +581,11 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -611,7 +615,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -649,9 +652,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
-              },
-              Object {
-                "height": 10,
+                "paddingVertical": 12,
               },
               Object {
                 "height": 10,
@@ -664,7 +665,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -719,7 +719,11 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -749,7 +753,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -787,11 +790,9 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               Object {
                 "backgroundColor": "rgba(43, 120, 238, 0.15)",
               },
@@ -800,7 +801,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -855,7 +855,11 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -885,7 +889,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -923,11 +926,9 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               Object {
                 "backgroundColor": "rgba(43, 120, 238, 0.15)",
               },
@@ -936,7 +937,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -991,7 +991,11 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -1021,7 +1025,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -1059,18 +1062,15 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1125,7 +1125,11 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -1155,7 +1159,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -1193,18 +1196,15 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1259,7 +1259,11 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -1289,7 +1293,6 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -1327,18 +1330,15 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1393,7 +1393,11 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
 >
   <RCTScrollView
     bounces={false}
-    contentContainerStyle={null}
+    contentContainerStyle={
+      Object {
+        "paddingVertical": 12,
+      }
+    }
     data={
       Array [
         Object {
@@ -1423,7 +1427,6 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -1461,18 +1464,15 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1529,7 +1529,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
     bounces={false}
     contentContainerStyle={
       Object {
-        "paddingBottom": 24,
+        "paddingVertical": 12,
       }
     }
     data={
@@ -1585,7 +1585,6 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
           "borderColor": "rgba(32, 36, 45, 0.15)",
           "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -1623,18 +1622,15 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1671,18 +1667,15 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1719,18 +1712,15 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1767,18 +1757,15 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1815,18 +1802,15 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1863,18 +1847,15 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -1911,18 +1892,15 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
               Object {
                 "justifyContent": "center",
                 "paddingHorizontal": 18,
+                "paddingVertical": 12,
               },
               undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
               null,
             ]
           }
         >
           <Text
             allowFontScaling={true}
-            numberOfLines={1}
             style={
               Array [
                 Object {

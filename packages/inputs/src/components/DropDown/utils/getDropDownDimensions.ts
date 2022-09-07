@@ -1,4 +1,4 @@
-import {Platform} from 'react-native';
+import {useDimensions} from '@react-native-community/hooks';
 
 import {
   DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON,
@@ -34,12 +34,15 @@ export const getDropDownHeights = ({
   const dropDownItemHeight = addFlatListItemHeight
     ? addFlatListItemHeight
     : dropDownHeight * DROP_DOWN_LIST_ITEM_MULTIPLIER;
+
   const dropDownMaxHeight =
     dropDownItemHeight * maxVisibleListLength + flatListPaddingVertical * 2;
+
   const dropDownViewHeight =
     listLength > maxVisibleListLength
       ? dropDownItemHeight * maxVisibleListLength + flatListPaddingVertical * 2
       : listLength * dropDownItemHeight + flatListPaddingVertical * 2;
+
   return {
     dropDownMaxHeight,
     dropDownItemHeight,
@@ -55,7 +58,6 @@ export const getDropDownDimensions = ({
   listLength,
   maxVisibleListLength,
   addFlatListItemHeight,
-  dropDownBorderWidth,
 }: IGetDimensionsParams) => {
   const {dropDownViewHeight, dropDownMaxHeight, dropDownItemHeight} =
     getDropDownHeights({
@@ -67,10 +69,15 @@ export const getDropDownDimensions = ({
     });
   const listUnderPosition =
     pageY + dropDownHeight + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2;
+  const {height} = useDimensions().window;
+
   const listAbovePosition =
-    Platform.OS === 'android'
-      ? pageY - dropDownViewHeight
-      : pageY - dropDownViewHeight - dropDownBorderWidth * 2;
+    height -
+    pageY -
+    dropDownHeight -
+    flatListPaddingVertical * 2 -
+    DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2;
+
   const expectedEndPositionOnScreen =
     dropDownHeight + dropDownViewHeight + pageY + navBarHeight;
 

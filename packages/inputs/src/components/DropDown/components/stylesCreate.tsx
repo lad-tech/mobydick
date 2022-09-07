@@ -6,15 +6,18 @@ const stylesCreate = (theme: IThemeContext) => {
   return StyleSheet.create({
     flatList: {
       backgroundColor: colors.BgSecondary,
-      paddingVertical: spaces.Space8,
       position: 'absolute',
       borderRadius: spaces.Space12,
       borderWidth: 1,
       borderColor: colors.BorderSoft,
     },
+    contentContainer: {
+      paddingVertical: spaces.Space8,
+    },
     dropDownItem: {
       justifyContent: 'center',
       paddingHorizontal: spaces.Space12,
+      paddingVertical: spaces.Space8,
     },
   });
 };

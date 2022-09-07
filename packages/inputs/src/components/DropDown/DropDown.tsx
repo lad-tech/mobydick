@@ -40,19 +40,19 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
 
     selectedItemColor,
 
-    addButtonStyle,
-    addFlatListStyle,
-    addLabelStyle,
-    addLabelFont,
-    addButtonTextStyle,
-    addButtonTextFont,
-    addFlatListItemStyle,
-    addFlatListTextStyle,
-    addFlatListTextFont,
-    addFlatListTextFontPressed,
-    addFlatListTextStylePressed,
-    addButtonTextStyleChosen,
-    addButtonTextFontChosen,
+    buttonStyle,
+    flatListStyle,
+    labelStyle,
+    labelFont,
+    buttonTextStyle,
+    buttonTextFont,
+    flatListItemStyle,
+    flatListTextStyle,
+    flatListTextFont,
+    flatListTextFontPressed,
+    flatListTextStylePressed,
+    buttonTextStyleChosen,
+    buttonTextFontChosen,
     type = ITypes.default,
     disabled,
     subtitle,
@@ -103,13 +103,13 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
           selectedItem={selected}
           selectedItemColor={selectedItemColor}
           renderItemOnPress={renderItemOnPress}
-          addButtonStyle={addButtonStyle}
-          addFlatListStyle={addFlatListStyle}
-          addFlatListItemStyle={addFlatListItemStyle}
-          addFlatListTextStyle={addFlatListTextStyle}
-          addFlatListTextFont={addFlatListTextFont}
-          addFlatListTextFontPressed={addFlatListTextFontPressed}
-          addFlatListTextStylePressed={addFlatListTextStylePressed}
+          buttonStyle={buttonStyle}
+          flatListStyle={flatListStyle}
+          flatListItemStyle={flatListItemStyle}
+          flatListTextStyle={flatListTextStyle}
+          flatListTextFont={flatListTextFont}
+          flatListTextFontPressed={flatListTextFontPressed}
+          flatListTextStylePressed={flatListTextStylePressed}
           onClose={() => {
             setOpen(false);
             propsFromPopup.onClose();
@@ -120,16 +120,16 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
   };
 
   const getFont = () => {
-    if (selected) return addButtonTextFontChosen || 'Regular-Primary-M';
-    return addButtonTextFont || 'Regular-Muted-M';
+    if (selected) return buttonTextFontChosen || 'Regular-Primary-M';
+    return buttonTextFont || 'Regular-Muted-M';
   };
 
   return (
     <View style={styles.container}>
       {Boolean(label) && (
         <Typography
-          font={addLabelFont ? addLabelFont : 'Medium-Tertiary-XS'}
-          style={addLabelStyle}>
+          font={labelFont ? labelFont : 'Medium-Tertiary-XS'}
+          style={labelStyle}>
           {label}
         </Typography>
       )}
@@ -137,27 +137,27 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
         <TouchableOpacity
           style={[
             styles.inputContainer,
-            addButtonStyle,
+            buttonStyle,
             {
-              width: addButtonStyle?.width
-                ? addButtonStyle.width
+              width: buttonStyle?.width
+                ? buttonStyle.width
                 : DEFAULT_DROP_DOWN_WIDTH,
             },
             {
-              height: addButtonStyle?.height
-                ? addButtonStyle.height
+              height: buttonStyle?.height
+                ? buttonStyle.height
                 : DEFAULT_DROP_DOWN_HEIGHT,
             },
             isOpen
               ? {
-                  borderColor: addButtonStyle?.borderColor
-                    ? addButtonStyle.borderColor
+                  borderColor: buttonStyle?.borderColor
+                    ? buttonStyle.borderColor
                     : styles.inputContainer.borderColor,
                 }
               : {
-                  borderColor: addButtonStyle?.backgroundColor
-                    ? addButtonStyle.backgroundColor
-                    : styles.inputContainer.backgroundColor,
+                  borderColor: buttonStyle?.backgroundColor
+                    ? buttonStyle.backgroundColor
+                    : 'transparent',
                 },
           ]}
           disabled={disabled}
@@ -166,7 +166,7 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
           <Typography
             style={[
               styles.placeholder,
-              selected?.label ? addButtonTextStyleChosen : addButtonTextStyle,
+              selected?.label ? buttonTextStyleChosen : buttonTextStyle,
             ]}
             font={getFont()}
             numberOfLines={1}>
