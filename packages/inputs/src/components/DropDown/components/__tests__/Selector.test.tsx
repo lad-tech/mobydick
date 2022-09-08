@@ -104,13 +104,12 @@ describe('@npm/mobydick-inputs/Selector', () => {
     );
 
     expect(spy).toHaveBeenLastCalledWith({
-      addFlatListItemHeight: undefined,
       dropDownBorderWidth: 1.5,
       dropDownHeight: 72,
       flatListPaddingVertical: 2,
       navBarHeight: 50,
       pageY: 1,
-      listHeight: 366,
+      listLength: 1,
     });
   });
 
@@ -123,6 +122,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
         flatListStyle={{width: 2}}
+        buttonStyle={{borderWidth: 1}}
       />,
     );
 

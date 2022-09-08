@@ -118,7 +118,9 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
   };
 
   const getFont = () => {
-    if (selected) return buttonTextFontChosen || 'Regular-Primary-M';
+    if (selected) {
+      return buttonTextFontChosen || 'Regular-Primary-M';
+    }
     return buttonTextFont || 'Regular-Muted-M';
   };
 

@@ -11,7 +11,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         flatListPaddingVertical: 8,
         navBarHeight: 50,
         dropDownBorderWidth: 1,
-        listHeight: 50,
+        listLength: 1,
       }),
     ).toEqual({
       underDropDownPos: 506,
@@ -27,7 +27,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         flatListPaddingVertical: 8,
         navBarHeight: 50,
         dropDownBorderWidth: 1,
-        listHeight: 50,
+        listLength: 1,
       }),
     ).toEqual({
       underDropDownPos: 174,
@@ -44,7 +44,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         flatListPaddingVertical: 8,
         navBarHeight: 50,
         dropDownBorderWidth: 1,
-        listHeight: 50,
+        listLength: 1,
       }),
     ).toEqual({
       underDropDownPos: 174,

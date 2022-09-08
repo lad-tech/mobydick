@@ -1,6 +1,9 @@
 import {Dimensions} from 'react-native';
 
-import {DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON} from '../constants';
+import {
+  DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON,
+  LIST_MAX_HEIGHT,
+} from '../constants';
 
 interface IGetDimensionsParams {
   pageY: number;
@@ -8,7 +11,7 @@ interface IGetDimensionsParams {
   dropDownHeight: number;
   flatListPaddingVertical: number;
   dropDownBorderWidth: number;
-  listHeight: number;
+  listLength: number;
 }
 
 export const getDropDownDimensions = ({
@@ -16,7 +19,7 @@ export const getDropDownDimensions = ({
   navBarHeight,
   dropDownHeight,
   flatListPaddingVertical,
-  listHeight,
+  listLength,
 }: IGetDimensionsParams) => {
   const {height} = Dimensions.get('window');
 
@@ -29,6 +32,9 @@ export const getDropDownDimensions = ({
     dropDownHeight -
     flatListPaddingVertical * 2 -
     DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2;
+
+  const listHeight =
+    listLength >= 6 ? LIST_MAX_HEIGHT : (LIST_MAX_HEIGHT / 6) * listLength;
 
   const bottomScreenPos = dropDownHeight + listHeight + pageY + navBarHeight;
 

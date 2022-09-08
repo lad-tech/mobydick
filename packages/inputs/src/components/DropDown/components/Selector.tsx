@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import {IPopupProps, PopupBase} from '@npm/mobydick-popups';
 import {FlatList, TouchableHighlight, View} from '@npm/mobydick-core';
 import {Typography} from '@npm/mobydick-typography';
@@ -129,8 +129,6 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
 
-  const listHeight = useRef(LIST_MAX_HEIGHT);
-
   const flatListPaddingVertical = flatListStyle?.paddingVertical
     ? +flatListStyle.paddingVertical
     : styles.flatList.paddingVertical;
@@ -146,14 +144,8 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
       dropDownBorderWidth: buttonStyle?.borderWidth
         ? buttonStyle.borderWidth
         : BORDER_BUTTON_WIDTH,
-      listHeight: listHeight.current,
+      listLength: list.length,
     });
-
-  const onContentSizeChange = (contentHeight: number) => {
-    if (contentHeight < LIST_MAX_HEIGHT) {
-      listHeight.current = contentHeight;
-    }
-  };
 
   return (
     <PopupBase
@@ -183,7 +175,6 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
         ]}>
         <FlatList
           bounces={false}
-          onContentSizeChange={onContentSizeChange}
           data={list}
           renderItem={renderItem({
             renderItemOnPress,
