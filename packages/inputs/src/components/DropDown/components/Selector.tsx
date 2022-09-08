@@ -1,7 +1,6 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import {IPopupProps, PopupBase} from '@npm/mobydick-popups';
-import {FlatList, TouchableHighlight} from '@npm/mobydick-core';
-import {useDimensions} from '@react-native-community/hooks';
+import {FlatList, TouchableHighlight, View} from '@npm/mobydick-core';
 import {Typography} from '@npm/mobydick-typography';
 import {useStyles} from '@npm/mobydick-styles';
 import {StyleSheet, ViewStyle} from 'react-native';
@@ -10,6 +9,7 @@ import {
   BORDER_BUTTON_WIDTH,
   DEFAULT_DROP_DOWN_HEIGHT,
   DEFAULT_DROP_DOWN_WIDTH,
+  LIST_MAX_HEIGHT,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
 import {IDropDownProps} from '../types';
@@ -21,7 +21,6 @@ const keyExtractor = (item: string, index: number) =>
 
 type IFieldsToSelect =
   | 'navBarHeight'
-  | 'maxVisibleListLength'
   | 'selectedItem'
   | 'selectedItemColor'
   | 'buttonStyle'
@@ -88,11 +87,6 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
         style={[
           styles.dropDownItem,
           flatListItemStyle,
-          // {
-          //   height: addFlatListItemStyle?.height
-          //     ? addFlatListItemStyle.height
-          //     : dropDownItemHeight,
-          // },
           item.label === selectedItem?.label
             ? selectedItemColor
               ? {backgroundColor: selectedItemColor}
@@ -120,7 +114,6 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
     list,
     pageY,
     navBarHeight = 50,
-    maxVisibleListLength = 6,
 
     renderItemOnPress,
 
@@ -136,40 +129,37 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
 
-  const {height} = useDimensions().window;
+  const listHeight = useRef(LIST_MAX_HEIGHT);
 
   const flatListPaddingVertical = flatListStyle?.paddingVertical
     ? +flatListStyle.paddingVertical
-    : styles.contentContainer.paddingVertical;
+    : styles.flatList.paddingVertical;
 
-  const {
-    listAbovePosition,
-    listUnderPosition,
-    expectedEndPositionOnScreen,
-    dropDownMaxHeight,
-  } = getDropDownDimensions({
-    pageY,
-    navBarHeight,
-    maxVisibleListLength,
-    dropDownHeight: buttonStyle?.height
-      ? +buttonStyle.height
-      : DEFAULT_DROP_DOWN_HEIGHT,
-    flatListPaddingVertical: flatListPaddingVertical,
-    listLength: list.length,
-    addFlatListItemHeight: flatListItemStyle?.height
-      ? +flatListItemStyle.height
-      : undefined,
-    dropDownBorderWidth: buttonStyle?.borderWidth
-      ? buttonStyle.borderWidth
-      : BORDER_BUTTON_WIDTH,
-  });
+  const {aboveDropDownPos, underDropDownPos, isAboveDropDown} =
+    getDropDownDimensions({
+      pageY,
+      navBarHeight,
+      dropDownHeight: buttonStyle?.height
+        ? +buttonStyle.height
+        : DEFAULT_DROP_DOWN_HEIGHT,
+      flatListPaddingVertical: flatListPaddingVertical,
+      dropDownBorderWidth: buttonStyle?.borderWidth
+        ? buttonStyle.borderWidth
+        : BORDER_BUTTON_WIDTH,
+      listHeight: listHeight.current,
+    });
+
+  const onContentSizeChange = (contentHeight: number) => {
+    if (contentHeight < LIST_MAX_HEIGHT) {
+      listHeight.current = contentHeight;
+    }
+  };
 
   return (
     <PopupBase
       onClose={props.onClose}
       overlayStyle={{backgroundColor: 'transparent'}}>
-      <FlatList
-        bounces={false}
+      <View
         style={[
           styles.flatList,
           flatListStyle,
@@ -180,33 +170,36 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
               ? buttonStyle.width
               : DEFAULT_DROP_DOWN_WIDTH,
           },
-          expectedEndPositionOnScreen > height
+          isAboveDropDown
             ? {
-                bottom: listAbovePosition,
+                bottom: aboveDropDownPos,
               }
             : {
-                top: listUnderPosition,
+                top: underDropDownPos,
               },
           {
-            maxHeight: dropDownMaxHeight,
+            maxHeight: LIST_MAX_HEIGHT,
           },
-        ]}
-        contentContainerStyle={styles.contentContainer}
-        data={list}
-        renderItem={renderItem({
-          renderItemOnPress,
-          selectedItemColor,
+        ]}>
+        <FlatList
+          bounces={false}
+          onContentSizeChange={onContentSizeChange}
+          data={list}
+          renderItem={renderItem({
+            renderItemOnPress,
+            selectedItemColor,
 
-          selectedItem,
-          styles,
-          theme,
-          flatListItemStyle: flatListItemStyle,
-          flatListTextFont: flatListTextFont,
-          flatListTextStyle: flatListTextStyle,
-          flatListTextStylePressed: flatListTextStylePressed,
-        })}
-        keyExtractor={keyExtractor}
-      />
+            selectedItem,
+            styles,
+            theme,
+            flatListItemStyle: flatListItemStyle,
+            flatListTextFont: flatListTextFont,
+            flatListTextStyle: flatListTextStyle,
+            flatListTextStylePressed: flatListTextStylePressed,
+          })}
+          keyExtractor={keyExtractor}
+        />
+      </View>
     </PopupBase>
   );
 }

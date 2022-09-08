@@ -5,15 +5,14 @@ const stylesCreate = (theme: IThemeContext) => {
   const {colors, spaces} = theme;
   return StyleSheet.create({
     flatList: {
-      backgroundColor: colors.BgSecondary,
       position: 'absolute',
+      backgroundColor: colors.BgSecondary,
       borderRadius: spaces.Space12,
       borderWidth: 1,
       borderColor: colors.BorderSoft,
-    },
-    contentContainer: {
       paddingVertical: spaces.Space8,
     },
+
     dropDownItem: {
       justifyContent: 'center',
       paddingHorizontal: spaces.Space12,

@@ -19,10 +19,13 @@ const defaultStyle = (theme: IThemeContext) => {
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
-      marginVertical: spaces.Space8,
+      marginBottom: spaces.Space8,
     },
     placeholder: {
       flex: 1,
+    },
+    label: {
+      paddingBottom: spaces.Space8,
     },
     overlay: {
       position: 'absolute',

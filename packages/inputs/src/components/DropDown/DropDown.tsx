@@ -36,7 +36,6 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
     onPress,
     rightIcon,
     navBarHeight = 50,
-    maxVisibleListLength = 6,
 
     selectedItemColor,
 
@@ -99,7 +98,6 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
           list={listItems}
           pageY={pageY}
           navBarHeight={navBarHeight}
-          maxVisibleListLength={maxVisibleListLength}
           selectedItem={selected}
           selectedItemColor={selectedItemColor}
           renderItemOnPress={renderItemOnPress}
@@ -129,7 +127,7 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
       {Boolean(label) && (
         <Typography
           font={labelFont ? labelFont : 'Medium-Tertiary-XS'}
-          style={labelStyle}>
+          style={[styles.label, labelStyle]}>
           {label}
         </Typography>
       )}
