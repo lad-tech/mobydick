@@ -106,7 +106,6 @@ describe('@npm/mobydick-inputs/Selector', () => {
     expect(spy).toHaveBeenLastCalledWith({
       dropDownBorderWidth: 1.5,
       dropDownHeight: 72,
-      flatListPaddingVertical: 2,
       navBarHeight: 50,
       pageY: 1,
       listLength: 1,

@@ -9,7 +9,6 @@ interface IGetDimensionsParams {
   pageY: number;
   navBarHeight: number;
   dropDownHeight: number;
-  flatListPaddingVertical: number;
   dropDownBorderWidth: number;
   listLength: number;
 }
@@ -18,20 +17,16 @@ export const getDropDownDimensions = ({
   pageY,
   navBarHeight,
   dropDownHeight,
-  flatListPaddingVertical,
   listLength,
 }: IGetDimensionsParams) => {
   const {height} = Dimensions.get('window');
 
+  //TODO мне нужно удостовериться в реальном проекте, что с отступами всё ок
+
   const underDropDownPos =
     pageY + dropDownHeight + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON;
 
-  const aboveDropDownPos =
-    height -
-    pageY -
-    dropDownHeight -
-    flatListPaddingVertical * 2 -
-    DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2;
+  const aboveDropDownPos = height - pageY;
 
   const listHeight =
     listLength >= 6 ? LIST_MAX_HEIGHT : (LIST_MAX_HEIGHT / 6) * listLength;

@@ -8,14 +8,13 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
       getDropDownDimensions({
         pageY: 300,
         dropDownHeight: 200,
-        flatListPaddingVertical: 8,
         navBarHeight: 50,
         dropDownBorderWidth: 1,
         listLength: 1,
       }),
     ).toEqual({
       underDropDownPos: 506,
-      aboveDropDownPos: 806,
+      aboveDropDownPos: 1034,
       isAboveDropDown: false,
     });
   });
@@ -24,14 +23,13 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
       getDropDownDimensions({
         pageY: 128,
         dropDownHeight: 40,
-        flatListPaddingVertical: 8,
         navBarHeight: 50,
         dropDownBorderWidth: 1,
         listLength: 1,
       }),
     ).toEqual({
       underDropDownPos: 174,
-      aboveDropDownPos: 1138,
+      aboveDropDownPos: 1206,
       isAboveDropDown: false,
     });
   });
@@ -41,14 +39,13 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
       getDropDownDimensions({
         pageY: 128,
         dropDownHeight: 40,
-        flatListPaddingVertical: 8,
         navBarHeight: 50,
         dropDownBorderWidth: 1,
         listLength: 1,
       }),
     ).toEqual({
       underDropDownPos: 174,
-      aboveDropDownPos: 1138,
+      aboveDropDownPos: 1206,
       isAboveDropDown: false,
     });
   });

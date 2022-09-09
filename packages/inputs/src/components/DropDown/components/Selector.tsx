@@ -129,10 +129,6 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
 
-  const flatListPaddingVertical = flatListStyle?.paddingVertical
-    ? +flatListStyle.paddingVertical
-    : styles.flatList.paddingVertical;
-
   const {aboveDropDownPos, underDropDownPos, isAboveDropDown} =
     getDropDownDimensions({
       pageY,
@@ -140,7 +136,6 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
       dropDownHeight: buttonStyle?.height
         ? +buttonStyle.height
         : DEFAULT_DROP_DOWN_HEIGHT,
-      flatListPaddingVertical: flatListPaddingVertical,
       dropDownBorderWidth: buttonStyle?.borderWidth
         ? buttonStyle.borderWidth
         : BORDER_BUTTON_WIDTH,
