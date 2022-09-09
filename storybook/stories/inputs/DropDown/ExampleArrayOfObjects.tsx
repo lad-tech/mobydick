@@ -43,11 +43,9 @@ const ExampleArrayOfStrings = () => {
 
         {label: 'Bulgarian', value: 'Bulgarian'},
 
-        {label: 'Deutsch', value: 'Deutsch'},
+        {label: 'French', value: 'French'},
 
-        {label: 'Japanese', value: 'Japanese'},
-
-        {label: 'Bulgarian', value: 'Bulgarian'},
+        {label: 'Spain', value: 'Spain'},
       ]}
       onPress={setSelected}
       disabled={boolean('disabled', false)}

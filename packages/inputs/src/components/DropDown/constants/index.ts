@@ -1,4 +1,5 @@
 import {rem} from '@npm/mobydick-styles';
+import {StatusBar} from 'react-native';
 
 export const BORDER_BUTTON_WIDTH = rem(1);
 
@@ -14,4 +15,5 @@ export const ACCESSIBILITY_LABEL = {
   selector: 'selector',
 };
 
+export const STATUS_BAR_HEIGHT = StatusBar.currentHeight;
 export const LIST_MAX_HEIGHT = rem(244);

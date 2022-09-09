@@ -14,7 +14,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
       }),
     ).toEqual({
       underDropDownPos: 506,
-      aboveDropDownPos: 1034,
+      aboveDropDownPos: 1040,
       isAboveDropDown: false,
     });
   });
@@ -29,7 +29,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
       }),
     ).toEqual({
       underDropDownPos: 174,
-      aboveDropDownPos: 1206,
+      aboveDropDownPos: 1212,
       isAboveDropDown: false,
     });
   });
@@ -45,7 +45,7 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
       }),
     ).toEqual({
       underDropDownPos: 174,
-      aboveDropDownPos: 1206,
+      aboveDropDownPos: 1212,
       isAboveDropDown: false,
     });
   });

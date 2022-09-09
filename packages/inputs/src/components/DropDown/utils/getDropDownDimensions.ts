@@ -1,8 +1,9 @@
-import {Dimensions} from 'react-native';
+import {Dimensions, Platform} from 'react-native';
 
 import {
   DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON,
   LIST_MAX_HEIGHT,
+  STATUS_BAR_HEIGHT,
 } from '../constants';
 
 interface IGetDimensionsParams {
@@ -21,15 +22,16 @@ export const getDropDownDimensions = ({
 }: IGetDimensionsParams) => {
   const {height} = Dimensions.get('window');
 
-  //TODO мне нужно удостовериться в реальном проекте, что с отступами всё ок
+  const listHeight =
+    listLength >= 6 ? LIST_MAX_HEIGHT : (LIST_MAX_HEIGHT / 6) * listLength;
 
   const underDropDownPos =
     pageY + dropDownHeight + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON;
 
-  const aboveDropDownPos = height - pageY;
-
-  const listHeight =
-    listLength >= 6 ? LIST_MAX_HEIGHT : (LIST_MAX_HEIGHT / 6) * listLength;
+  const aboveDropDownPos =
+    Platform.OS === 'android' && STATUS_BAR_HEIGHT
+      ? height - pageY - STATUS_BAR_HEIGHT + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON
+      : height - pageY + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON;
 
   const bottomScreenPos = dropDownHeight + listHeight + pageY + navBarHeight;
 

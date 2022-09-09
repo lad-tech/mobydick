@@ -55,9 +55,6 @@ const ExampleArrayOfStrings = () => {
         height: number('Высота кнопки', rem(40)),
         width: number('Ширина кнопки', rem(300)),
       }}
-      // flatListItemStyle={{
-      //   height: number('Высота элемента списка', rem(32)),
-      // }}
       flatListStyle={{width: number('Ширина списка', rem(300))}}
       buttonTextFont={`${
         select(
