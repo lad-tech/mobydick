@@ -6,7 +6,6 @@ import {Dimensions} from 'react-native';
 
 import CenterView from '../../CenterView';
 
-import ExampleArrayOfObjects from './ExampleArrayOfObjects';
 import ExampleArrayOfStrings from './ExampleArrayOfStrings';
 const {height} = Dimensions.get('window');
 
@@ -24,5 +23,4 @@ storiesOf('Design System/Inputs/DropDown', module)
       </CenterView>
     </PopupsProvider>
   ))
-  .add('basic array of strings', () => <ExampleArrayOfStrings />)
-  .add('basic array of objects', () => <ExampleArrayOfObjects />);
+  .add('basic array of strings', () => <ExampleArrayOfStrings />);

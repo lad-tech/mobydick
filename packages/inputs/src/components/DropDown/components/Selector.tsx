@@ -1,7 +1,6 @@
 import React from 'react';
 import {IPopupProps, PopupBase} from '@npm/mobydick-popups';
-import {FlatList, TouchableHighlight} from '@npm/mobydick-core';
-import {useDimensions} from '@react-native-community/hooks';
+import {FlatList, TouchableHighlight, View} from '@npm/mobydick-core';
 import {Typography} from '@npm/mobydick-typography';
 import {useStyles} from '@npm/mobydick-styles';
 import {StyleSheet, ViewStyle} from 'react-native';
@@ -10,6 +9,7 @@ import {
   BORDER_BUTTON_WIDTH,
   DEFAULT_DROP_DOWN_HEIGHT,
   DEFAULT_DROP_DOWN_WIDTH,
+  LIST_MAX_HEIGHT,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
 import {IDropDownProps} from '../types';
@@ -21,16 +21,15 @@ const keyExtractor = (item: string, index: number) =>
 
 type IFieldsToSelect =
   | 'navBarHeight'
-  | 'maxVisibleListLength'
   | 'selectedItem'
   | 'selectedItemColor'
-  | 'addButtonStyle'
-  | 'addFlatListStyle'
-  | 'addFlatListItemStyle'
-  | 'addFlatListTextStyle'
-  | 'addFlatListTextFont'
-  | 'addFlatListTextFontPressed'
-  | 'addFlatListTextStylePressed';
+  | 'buttonStyle'
+  | 'flatListStyle'
+  | 'flatListItemStyle'
+  | 'flatListTextStyle'
+  | 'flatListTextFont'
+  | 'flatListTextFontPressed'
+  | 'flatListTextStylePressed';
 
 type ISelector = {label: string; value: unknown};
 
@@ -48,13 +47,12 @@ interface IRenderItemProps<T extends ISelector>
     | 'renderItemOnPress'
     | 'selectedItem'
     | 'selectedItemColor'
-    | 'addFlatListItemStyle'
-    | 'addFlatListTextStylePressed'
-    | 'addFlatListTextFontPressed'
-    | 'addFlatListTextStyle'
-    | 'addFlatListTextFont'
+    | 'flatListItemStyle'
+    | 'flatListTextStylePressed'
+    | 'flatListTextFontPressed'
+    | 'flatListTextStyle'
+    | 'flatListTextFont'
   > {
-  dropDownItemHeight: number;
   styles: StyleSheet.NamedStyles<{dropDownItem: ViewStyle}>;
   theme: ReturnType<typeof useStyles>[1];
 }
@@ -66,23 +64,21 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
 
       styles,
       theme,
-
-      dropDownItemHeight,
       selectedItemColor,
       selectedItem,
 
-      addFlatListItemStyle,
-      addFlatListTextStylePressed,
-      addFlatListTextStyle,
-      addFlatListTextFontPressed,
-      addFlatListTextFont,
+      flatListItemStyle,
+      flatListTextStylePressed,
+      flatListTextStyle,
+      flatListTextFontPressed,
+      flatListTextFont,
     } = props;
 
     const getFont = () => {
       if (item === selectedItem) {
-        return addFlatListTextFontPressed || 'Medium-Primary-M';
+        return flatListTextFontPressed || 'Medium-Primary-M';
       }
-      return addFlatListTextFont || 'Regular-Secondary-M';
+      return flatListTextFont || 'Regular-Secondary-M';
     };
 
     return (
@@ -90,12 +86,7 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
         accessibilityLabel={item.label}
         style={[
           styles.dropDownItem,
-          addFlatListItemStyle,
-          {
-            height: addFlatListItemStyle?.height
-              ? addFlatListItemStyle.height
-              : dropDownItemHeight,
-          },
+          flatListItemStyle,
           item.label === selectedItem?.label
             ? selectedItemColor
               ? {backgroundColor: selectedItemColor}
@@ -108,11 +99,8 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
         }>
         <Typography
           style={
-            item === selectedItem
-              ? addFlatListTextStylePressed
-              : addFlatListTextStyle
+            item === selectedItem ? flatListTextStylePressed : flatListTextStyle
           }
-          numberOfLines={1}
           font={getFont()}>
           {item.label}
         </Typography>
@@ -126,96 +114,78 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
     list,
     pageY,
     navBarHeight = 50,
-    maxVisibleListLength = 6,
 
     renderItemOnPress,
 
     selectedItem,
     selectedItemColor,
 
-    addButtonStyle,
-    addFlatListStyle,
-    addFlatListTextFont,
-    addFlatListItemStyle,
-    addFlatListTextStyle,
-    addFlatListTextStylePressed,
+    buttonStyle,
+    flatListStyle,
+    flatListTextFont,
+    flatListItemStyle,
+    flatListTextStyle,
+    flatListTextStylePressed,
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
 
-  const {height} = useDimensions().window;
+  const {aboveDropDownPos, underDropDownPos, isAboveDropDown} =
+    getDropDownDimensions({
+      pageY,
+      navBarHeight,
+      dropDownHeight: buttonStyle?.height
+        ? +buttonStyle.height
+        : DEFAULT_DROP_DOWN_HEIGHT,
+      dropDownBorderWidth: buttonStyle?.borderWidth
+        ? buttonStyle.borderWidth
+        : BORDER_BUTTON_WIDTH,
+      listLength: list.length,
+    });
 
-  const isNeedFooterPadding = list.length > maxVisibleListLength;
-
-  const flatListPaddingVertical = addFlatListStyle?.paddingVertical
-    ? +addFlatListStyle.paddingVertical
-    : styles.flatList.paddingVertical;
-
-  const {
-    listAbovePosition,
-    listUnderPosition,
-    expectedEndPositionOnScreen,
-    dropDownMaxHeight,
-    dropDownItemHeight,
-  } = getDropDownDimensions({
-    pageY,
-    navBarHeight,
-    maxVisibleListLength,
-    dropDownHeight: addButtonStyle?.height
-      ? +addButtonStyle.height
-      : DEFAULT_DROP_DOWN_HEIGHT,
-    flatListPaddingVertical: flatListPaddingVertical,
-    listLength: list.length,
-    addFlatListItemHeight: addFlatListItemStyle?.height
-      ? +addFlatListItemStyle.height
-      : undefined,
-    dropDownBorderWidth: addButtonStyle?.borderWidth
-      ? addButtonStyle.borderWidth
-      : BORDER_BUTTON_WIDTH,
-  });
   return (
     <PopupBase
       onClose={props.onClose}
       overlayStyle={{backgroundColor: 'transparent'}}>
-      <FlatList
-        bounces={false}
+      <View
         style={[
           styles.flatList,
-          addFlatListStyle,
+          flatListStyle,
           {
-            width: addFlatListStyle?.width
-              ? addFlatListStyle.width
-              : addButtonStyle?.width
-              ? addButtonStyle.width
+            width: flatListStyle?.width
+              ? flatListStyle.width
+              : buttonStyle?.width
+              ? buttonStyle.width
               : DEFAULT_DROP_DOWN_WIDTH,
           },
-          expectedEndPositionOnScreen > height
-            ? {top: listAbovePosition}
-            : {top: listUnderPosition},
+          isAboveDropDown
+            ? {
+                bottom: aboveDropDownPos,
+              }
+            : {
+                top: underDropDownPos,
+              },
           {
-            maxHeight: dropDownMaxHeight,
+            maxHeight: LIST_MAX_HEIGHT,
           },
-        ]}
-        contentContainerStyle={
-          isNeedFooterPadding
-            ? {paddingBottom: flatListPaddingVertical * 2}
-            : null
-        }
-        data={list}
-        renderItem={renderItem({
-          renderItemOnPress,
-          dropDownItemHeight,
-          selectedItemColor,
+        ]}>
+        <FlatList
+          bounces={false}
+          data={list}
+          renderItem={renderItem({
+            renderItemOnPress,
+            selectedItemColor,
 
-          selectedItem,
-          styles,
-          theme,
-          addFlatListItemStyle,
-          addFlatListTextFont,
-          addFlatListTextStyle,
-          addFlatListTextStylePressed,
-        })}
-        keyExtractor={keyExtractor}
-      />
+            selectedItem,
+            styles,
+            theme,
+            flatListItemStyle: flatListItemStyle,
+            flatListTextFont: flatListTextFont,
+            flatListTextStyle: flatListTextStyle,
+            flatListTextStylePressed: flatListTextStylePressed,
+          })}
+          keyExtractor={keyExtractor}
+        />
+      </View>
     </PopupBase>
   );
 }

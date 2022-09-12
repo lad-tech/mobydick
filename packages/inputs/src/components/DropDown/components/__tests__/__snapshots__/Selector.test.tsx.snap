@@ -31,31 +31,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
   }
   testID="Pressable"
 >
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
       Array [
         Object {
@@ -73,340 +49,91 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
           "width": 2,
         },
         Object {
-          "top": 65,
+          "top": 79,
         },
         Object {
-          "maxHeight": 254.40000000000003,
+          "maxHeight": 366,
         },
       ]
     }
-    viewabilityConfigCallbackPairs={Array []}
   >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
+    <RCTScrollView
+      bounces={false}
+      data={
+        Array [
+          Object {
+            "label": "list",
+            "value": "list",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
         <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              Object {
-                "backgroundColor": "rgba(43, 120, 238, 0.15)",
-              },
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="list"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#20242D",
-                  "fontFamily": "Inter-Medium",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
-              ]
-            }
-          >
-            list
-          </Text>
-        </View>
-      </View>
-    </View>
-  </RCTScrollView>
-</View>
-`;
-
-exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
-<View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Array [
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.60)",
-        "height": "100%",
-        "justifyContent": "flex-end",
-        "position": "absolute",
-        "width": "100%",
-      },
-      Object {
-        "backgroundColor": "transparent",
-      },
-    ]
-  }
-  testID="Pressable"
->
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1,
-          "paddingVertical": 12,
-          "position": "absolute",
-        },
-        undefined,
-        Object {
-          "width": 2,
-        },
-        Object {
-          "top": 999935.6,
-        },
-        Object {
-          "maxHeight": 254.40000000000003,
-        },
-      ]
-    }
-    viewabilityConfigCallbackPairs={Array []}
-  >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              Object {
-                "backgroundColor": "rgba(43, 120, 238, 0.15)",
-              },
-            ]
-          }
-        >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
-            style={
-              Array [
                 Object {
-                  "color": "#20242D",
-                  "fontFamily": "Inter-Medium",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "backgroundColor": "rgba(43, 120, 238, 0.15)",
                 },
-                undefined,
               ]
             }
           >
-            list
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Medium",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              list
+            </Text>
+          </View>
         </View>
       </View>
-    </View>
-  </RCTScrollView>
-</View>
-`;
-
-exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
-<View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Array [
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.60)",
-        "height": "100%",
-        "justifyContent": "flex-end",
-        "position": "absolute",
-        "width": "100%",
-      },
-      Object {
-        "backgroundColor": "transparent",
-      },
-    ]
-  }
-  testID="Pressable"
->
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1,
-          "paddingVertical": 12,
-          "position": "absolute",
-        },
-        undefined,
-        Object {
-          "width": 2,
-        },
-        Object {
-          "top": 999933.6,
-        },
-        Object {
-          "maxHeight": 254.40000000000003,
-        },
-      ]
-    }
-    viewabilityConfigCallbackPairs={Array []}
-  >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              Object {
-                "backgroundColor": "rgba(43, 120, 238, 0.15)",
-              },
-            ]
-          }
-        >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
-            style={
-              Array [
-                Object {
-                  "color": "#20242D",
-                  "fontFamily": "Inter-Medium",
-                  "fontSize": 24,
-                  "lineHeight": 30,
-                },
-                undefined,
-              ]
-            }
-          >
-            list
-          </Text>
-        </View>
-      </View>
-    </View>
-  </RCTScrollView>
+    </RCTScrollView>
+  </View>
 </View>
 `;
 
@@ -441,31 +168,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
   }
   testID="Pressable"
 >
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
       Array [
         Object {
@@ -478,211 +181,96 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
         },
         undefined,
         Object {
-          "width": 200,
+          "width": 300,
         },
         Object {
-          "top": 65,
+          "top": 79,
         },
         Object {
-          "maxHeight": 84,
+          "maxHeight": 366,
         },
       ]
     }
-    viewabilityConfigCallbackPairs={Array []}
   >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
+    <RCTScrollView
+      bounces={false}
+      data={
+        Array [
+          Object {
+            "label": "list",
+            "value": "list",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
         <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              Object {
-                "height": 10,
-              },
-              Object {
-                "height": 10,
-              },
-              Object {
-                "backgroundColor": "red",
-              },
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="list"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#20242D",
-                  "fontFamily": "Inter-Medium",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
-                undefined,
-              ]
-            }
-          >
-            list
-          </Text>
-        </View>
-      </View>
-    </View>
-  </RCTScrollView>
-</View>
-`;
-
-exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighlight with custom style 2`] = `
-<View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Array [
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.60)",
-        "height": "100%",
-        "justifyContent": "flex-end",
-        "position": "absolute",
-        "width": "100%",
-      },
-      Object {
-        "backgroundColor": "transparent",
-      },
-    ]
-  }
-  testID="Pressable"
->
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1,
-          "paddingVertical": 12,
-          "position": "absolute",
-        },
-        undefined,
-        Object {
-          "width": 200,
-        },
-        Object {
-          "top": 65,
-        },
-        Object {
-          "maxHeight": 84,
-        },
-      ]
-    }
-    viewabilityConfigCallbackPairs={Array []}
-  >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              Object {
-                "height": 10,
-              },
-              Object {
-                "height": 10,
-              },
-              Object {
-                "backgroundColor": "rgba(43, 120, 238, 0.15)",
-              },
-            ]
-          }
-        >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
-            style={
-              Array [
                 Object {
-                  "color": "#20242D",
-                  "fontFamily": "Inter-Medium",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "height": 10,
                 },
-                undefined,
+                Object {
+                  "backgroundColor": "red",
+                },
               ]
             }
           >
-            list
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Medium",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              list
+            </Text>
+          </View>
         </View>
       </View>
-    </View>
-  </RCTScrollView>
+    </RCTScrollView>
+  </View>
 </View>
 `;
 
@@ -717,31 +305,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
   }
   testID="Pressable"
 >
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
       Array [
         Object {
@@ -754,475 +318,94 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         },
         undefined,
         Object {
-          "width": 200,
+          "width": 300,
         },
         Object {
-          "top": 65,
+          "top": 79,
         },
         Object {
-          "maxHeight": 254.40000000000003,
+          "maxHeight": 366,
         },
       ]
     }
-    viewabilityConfigCallbackPairs={Array []}
   >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
+    <RCTScrollView
+      bounces={false}
+      data={
+        Array [
+          Object {
+            "label": "list",
+            "value": "list",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
         <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              Object {
-                "backgroundColor": "rgba(43, 120, 238, 0.15)",
-              },
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="list"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#20242D",
-                  "fontFamily": "Inter-Medium",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
-              ]
-            }
-          >
-            list
-          </Text>
-        </View>
-      </View>
-    </View>
-  </RCTScrollView>
-</View>
-`;
-
-exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  with custom font  2`] = `
-<View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Array [
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.60)",
-        "height": "100%",
-        "justifyContent": "flex-end",
-        "position": "absolute",
-        "width": "100%",
-      },
-      Object {
-        "backgroundColor": "transparent",
-      },
-    ]
-  }
-  testID="Pressable"
->
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1,
-          "paddingVertical": 12,
-          "position": "absolute",
-        },
-        undefined,
-        Object {
-          "width": 200,
-        },
-        Object {
-          "top": 65,
-        },
-        Object {
-          "maxHeight": 254.40000000000003,
-        },
-      ]
-    }
-    viewabilityConfigCallbackPairs={Array []}
-  >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              Object {
-                "backgroundColor": "rgba(43, 120, 238, 0.15)",
-              },
-            ]
-          }
-        >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
-            style={
-              Array [
                 Object {
-                  "color": "#20242D",
-                  "fontFamily": "Inter-Medium",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "backgroundColor": "rgba(43, 120, 238, 0.15)",
                 },
-                undefined,
               ]
             }
           >
-            list
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Medium",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              list
+            </Text>
+          </View>
         </View>
       </View>
-    </View>
-  </RCTScrollView>
-</View>
-`;
-
-exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  with custom font  3`] = `
-<View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Array [
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.60)",
-        "height": "100%",
-        "justifyContent": "flex-end",
-        "position": "absolute",
-        "width": "100%",
-      },
-      Object {
-        "backgroundColor": "transparent",
-      },
-    ]
-  }
-  testID="Pressable"
->
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1,
-          "paddingVertical": 12,
-          "position": "absolute",
-        },
-        undefined,
-        Object {
-          "width": 200,
-        },
-        Object {
-          "top": 65,
-        },
-        Object {
-          "maxHeight": 254.40000000000003,
-        },
-      ]
-    }
-    viewabilityConfigCallbackPairs={Array []}
-  >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
-        >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
-            style={
-              Array [
-                Object {
-                  "color": "#F54D3D",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 18,
-                  "lineHeight": 24,
-                },
-                undefined,
-              ]
-            }
-          >
-            list
-          </Text>
-        </View>
-      </View>
-    </View>
-  </RCTScrollView>
-</View>
-`;
-
-exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  with custom font  4`] = `
-<View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Array [
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.60)",
-        "height": "100%",
-        "justifyContent": "flex-end",
-        "position": "absolute",
-        "width": "100%",
-      },
-      Object {
-        "backgroundColor": "transparent",
-      },
-    ]
-  }
-  testID="Pressable"
->
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1,
-          "paddingVertical": 12,
-          "position": "absolute",
-        },
-        undefined,
-        Object {
-          "width": 200,
-        },
-        Object {
-          "top": 65,
-        },
-        Object {
-          "maxHeight": 254.40000000000003,
-        },
-      ]
-    }
-    viewabilityConfigCallbackPairs={Array []}
-  >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
-        >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
-            style={
-              Array [
-                Object {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 24,
-                  "lineHeight": 30,
-                },
-                undefined,
-              ]
-            }
-          >
-            list
-          </Text>
-        </View>
-      </View>
-    </View>
-  </RCTScrollView>
+    </RCTScrollView>
+  </View>
 </View>
 `;
 
@@ -1257,31 +440,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
   }
   testID="Pressable"
 >
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
       Array [
         Object {
@@ -1294,69 +453,92 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
         },
         undefined,
         Object {
-          "width": 200,
+          "width": 300,
         },
         Object {
-          "top": 65,
+          "top": 79,
         },
         Object {
-          "maxHeight": 254.40000000000003,
+          "maxHeight": 366,
         },
       ]
     }
-    viewabilityConfigCallbackPairs={Array []}
   >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
+    <RCTScrollView
+      bounces={false}
+      data={
+        Array [
+          Object {
+            "label": "list",
+            "value": "list",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
         <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="list"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
+                null,
               ]
             }
           >
-            list
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#444B5A",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              list
+            </Text>
+          </View>
         </View>
       </View>
-    </View>
-  </RCTScrollView>
+    </RCTScrollView>
+  </View>
 </View>
 `;
 
@@ -1391,31 +573,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
   }
   testID="Pressable"
 >
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={null}
-    data={
-      Array [
-        Object {
-          "label": "list",
-          "value": "list",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
       Array [
         Object {
@@ -1428,73 +586,96 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
         },
         undefined,
         Object {
-          "width": 200,
+          "width": 300,
         },
         Object {
-          "top": 65,
+          "top": 79,
         },
         Object {
-          "maxHeight": 254.40000000000003,
+          "maxHeight": 366,
         },
       ]
     }
-    viewabilityConfigCallbackPairs={Array []}
   >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
+    <RCTScrollView
+      bounces={false}
+      data={
+        Array [
+          Object {
+            "label": "list",
+            "value": "list",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
         <View
-          accessibilityLabel="list"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="list"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
+                null,
               ]
             }
           >
-            list
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#444B5A",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              list
+            </Text>
+          </View>
         </View>
       </View>
-    </View>
-  </RCTScrollView>
+    </RCTScrollView>
+  </View>
 </View>
 `;
 
-exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`] = `
+exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding largeList 1`] = `
 <View
   accessible={true}
   collapsable={false}
@@ -1525,59 +706,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
   }
   testID="Pressable"
 >
-  <RCTScrollView
-    bounces={false}
-    contentContainerStyle={
-      Object {
-        "paddingBottom": 24,
-      }
-    }
-    data={
-      Array [
-        Object {
-          "label": "1",
-          "value": "1",
-        },
-        Object {
-          "label": "1",
-          "value": "1",
-        },
-        Object {
-          "label": "1",
-          "value": "1",
-        },
-        Object {
-          "label": "1",
-          "value": "1",
-        },
-        Object {
-          "label": "1",
-          "value": "1",
-        },
-        Object {
-          "label": "1",
-          "value": "1",
-        },
-        Object {
-          "label": "1",
-          "value": "1",
-        },
-      ]
-    }
-    getItem={[Function]}
-    getItemCount={[Function]}
-    keyExtractor={[Function]}
-    onContentSizeChange={[Function]}
-    onLayout={[Function]}
-    onMomentumScrollBegin={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    removeClippedSubviews={false}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
       Array [
         Object {
@@ -1590,356 +719,385 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         },
         undefined,
         Object {
-          "width": 200,
+          "width": 300,
         },
         Object {
-          "top": 65,
+          "top": 79,
         },
         Object {
-          "maxHeight": 254.40000000000003,
+          "maxHeight": 366,
         },
       ]
     }
-    viewabilityConfigCallbackPairs={Array []}
   >
-    <View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
+    <RCTScrollView
+      bounces={false}
+      data={
+        Array [
+          Object {
+            "label": "1",
+            "value": "1",
+          },
+          Object {
+            "label": "1",
+            "value": "1",
+          },
+          Object {
+            "label": "1",
+            "value": "1",
+          },
+          Object {
+            "label": "1",
+            "value": "1",
+          },
+          Object {
+            "label": "1",
+            "value": "1",
+          },
+          Object {
+            "label": "1",
+            "value": "1",
+          },
+          Object {
+            "label": "1",
+            "value": "1",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
         <View
-          accessibilityLabel="1"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="1"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
+                null,
               ]
             }
           >
-            1
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#444B5A",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              1
+            </Text>
+          </View>
         </View>
-      </View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
         <View
-          accessibilityLabel="1"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="1"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
+                null,
               ]
             }
           >
-            1
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#444B5A",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              1
+            </Text>
+          </View>
         </View>
-      </View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
         <View
-          accessibilityLabel="1"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="1"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
+                null,
               ]
             }
           >
-            1
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#444B5A",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              1
+            </Text>
+          </View>
         </View>
-      </View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
         <View
-          accessibilityLabel="1"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="1"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
+                null,
               ]
             }
           >
-            1
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#444B5A",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              1
+            </Text>
+          </View>
         </View>
-      </View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
         <View
-          accessibilityLabel="1"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="1"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
+                null,
               ]
             }
           >
-            1
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#444B5A",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              1
+            </Text>
+          </View>
         </View>
-      </View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
         <View
-          accessibilityLabel="1"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="1"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
+                null,
               ]
             }
           >
-            1
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#444B5A",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              1
+            </Text>
+          </View>
         </View>
-      </View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
         <View
-          accessibilityLabel="1"
-          accessible={true}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "justifyContent": "center",
-                "paddingHorizontal": 18,
-              },
-              undefined,
-              Object {
-                "height": 38.400000000000006,
-              },
-              null,
-            ]
-          }
+          onLayout={[Function]}
+          style={null}
         >
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
+          <View
+            accessibilityLabel="1"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
             style={
               Array [
                 Object {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 24,
-                  "lineHeight": 30,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
+                null,
               ]
             }
           >
-            1
-          </Text>
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#444B5A",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              1
+            </Text>
+          </View>
         </View>
       </View>
-    </View>
-  </RCTScrollView>
+    </RCTScrollView>
+  </View>
 </View>
 `;

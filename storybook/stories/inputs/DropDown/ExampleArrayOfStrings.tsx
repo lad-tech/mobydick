@@ -51,15 +51,12 @@ const ExampleArrayOfStrings = () => {
           }
         />
       }
-      addButtonStyle={{
+      buttonStyle={{
         height: number('Высота кнопки', rem(40)),
         width: number('Ширина кнопки', rem(300)),
       }}
-      addFlatListItemStyle={{
-        height: number('Высота элемента списка', rem(32)),
-      }}
-      addFlatListStyle={{width: number('Ширина списка', rem(300))}}
-      addButtonTextFont={`${
+      flatListStyle={{width: number('Ширина списка', rem(300))}}
+      buttonTextFont={`${
         select(
           'Начертание текста кнопки',
           TFontWeight,
@@ -70,7 +67,7 @@ const ExampleArrayOfStrings = () => {
         fontColors as TFontColor[],
         'Muted',
       )}-${select('Размер текста кнопки', TFontSize, TFontSize.M)}`}
-      addLabelFont={`${
+      labelFont={`${
         select(
           'Начертание текста заголовка',
           TFontWeight,
@@ -81,7 +78,7 @@ const ExampleArrayOfStrings = () => {
         fontColors as TFontColor[],
         'Tertiary',
       )}-${select('Размер текста заголовка', TFontSize, TFontSize.XS)}`}
-      addFlatListTextFont={`${
+      flatListTextFont={`${
         select(
           'Начертание текста элементов списка',
           TFontWeight,
@@ -92,7 +89,7 @@ const ExampleArrayOfStrings = () => {
         fontColors as TFontColor[],
         'Secondary',
       )}-${select('Размер текста элементов списка', TFontSize, TFontSize.M)}`}
-      addButtonTextFontChosen={`${
+      buttonTextFontChosen={`${
         select(
           'Начертание текста кнопки при выбранном элементе',
           TFontWeight,
@@ -107,7 +104,7 @@ const ExampleArrayOfStrings = () => {
         TFontSize,
         TFontSize.M,
       )}`}
-      addFlatListTextFontPressed={`${
+      flatListTextFontPressed={`${
         select(
           'Начертание текста выбранного элемента в списке',
           TFontWeight,
