@@ -1,3 +1,15 @@
+# [1.2.0](https://glab.lad24.ru/npm/mobydick/compare/v1.1.6...v1.2.0) (2022-09-12)
+
+
+### Bug Fixes
+
+* **snackbar:** add style title - flex: 1 ([c029da6](https://glab.lad24.ru/npm/mobydick/commit/c029da6e8b67110e489530acde6187ea6365eb99))
+
+
+### Features
+
+* **dropdown:** add possible to show two strings in the element Selector ([6015507](https://glab.lad24.ru/npm/mobydick/commit/601550719132eac1cb46ad857c14b565a00c39c9))
+
 ## [1.1.6](https://glab.lad24.ru/npm/mobydick/compare/v1.1.5...v1.1.6) (2022-09-06)
 
 
