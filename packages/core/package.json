@@ -1,8 +1,9 @@
 {
   "name": "@npm/mobydick-core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "index.ts",
+  "files": ["src"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -25,10 +25,10 @@ exports[`Toggle should renders correctly active 1`] = `
     style={
       Object {
         "backgroundColor": "rgba(43, 120, 238, 1)",
-        "borderRadius": 20,
+        "borderRadius": 30,
         "height": 30,
         "opacity": 1,
-        "padding": 2,
+        "padding": 3,
         "width": 50,
       }
     }
@@ -78,10 +78,10 @@ exports[`Toggle should renders correctly active and disabled 1`] = `
     style={
       Object {
         "backgroundColor": "rgba(43, 120, 238, 1)",
-        "borderRadius": 20,
+        "borderRadius": 30,
         "height": 30,
         "opacity": 0.4,
-        "padding": 2,
+        "padding": 3,
         "width": 50,
       }
     }
@@ -131,10 +131,10 @@ exports[`Toggle should renders correctly by default 1`] = `
     style={
       Object {
         "backgroundColor": "rgba(155, 161, 176, 1)",
-        "borderRadius": 20,
+        "borderRadius": 30,
         "height": 30,
         "opacity": 1,
-        "padding": 2,
+        "padding": 3,
         "width": 50,
       }
     }
@@ -184,10 +184,10 @@ exports[`Toggle should renders correctly disabled 1`] = `
     style={
       Object {
         "backgroundColor": "rgba(155, 161, 176, 1)",
-        "borderRadius": 20,
+        "borderRadius": 30,
         "height": 30,
         "opacity": 0.4,
-        "padding": 2,
+        "padding": 3,
         "width": 50,
       }
     }

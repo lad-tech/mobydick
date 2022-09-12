@@ -2,7 +2,6 @@ import React from 'react';
 import {IPopupProps, PopupBase} from '@npm/mobydick-popups';
 import {FlatList, TouchableHighlight} from '@npm/mobydick-core';
 import {useDimensions} from '@react-native-community/hooks';
-import {getModel} from 'react-native-device-info';
 import {Typography} from '@npm/mobydick-typography';
 import {useStyles} from '@npm/mobydick-styles';
 import {StyleSheet, ViewStyle} from 'react-native';
@@ -13,16 +12,39 @@ import {
   DEFAULT_DROP_DOWN_WIDTH,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
-import getIosSafeAreaHeights from '../utils/getIosSafeAreaHeights';
-import stylesCreate from '../stylesCreate';
 import {IDropDownProps} from '../types';
+
+import stylesCreate from './stylesCreate';
 
 const keyExtractor = (item: string, index: number) =>
   index.toString() + item.toString();
 
-interface IRenderItemProps
+type IFieldsToSelect =
+  | 'navBarHeight'
+  | 'maxVisibleListLength'
+  | 'selectedItem'
+  | 'selectedItemColor'
+  | 'addButtonStyle'
+  | 'addFlatListStyle'
+  | 'addFlatListItemStyle'
+  | 'addFlatListTextStyle'
+  | 'addFlatListTextFont'
+  | 'addFlatListTextFontPressed'
+  | 'addFlatListTextStylePressed';
+
+type ISelector = {label: string; value: unknown};
+
+interface IItemsProps<T extends ISelector>
+  extends IPopupProps,
+    Pick<IDropDownProps<T>, IFieldsToSelect> {
+  list: T[];
+  pageY: number;
+  renderItemOnPress: (item: T) => void;
+}
+
+interface IRenderItemProps<T extends ISelector>
   extends Pick<
-    IItemsProps,
+    IItemsProps<T>,
     | 'renderItemOnPress'
     | 'selectedItem'
     | 'selectedItemColor'
@@ -36,9 +58,9 @@ interface IRenderItemProps
   styles: StyleSheet.NamedStyles<{dropDownItem: ViewStyle}>;
   theme: ReturnType<typeof useStyles>[1];
 }
-const renderItem =
-  (props: IRenderItemProps) =>
-  ({item}: {item: string}) => {
+
+function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
+  return ({item}: {item: T}) => {
     const {
       renderItemOnPress,
 
@@ -65,7 +87,7 @@ const renderItem =
 
     return (
       <TouchableHighlight
-        accessibilityLabel={item}
+        accessibilityLabel={item.label}
         style={[
           styles.dropDownItem,
           addFlatListItemStyle,
@@ -74,7 +96,7 @@ const renderItem =
               ? addFlatListItemStyle.height
               : dropDownItemHeight,
           },
-          item === selectedItem
+          item.label === selectedItem?.label
             ? selectedItemColor
               ? {backgroundColor: selectedItemColor}
               : {backgroundColor: theme.colors.BgAccentSoft}
@@ -90,35 +112,16 @@ const renderItem =
               ? addFlatListTextStylePressed
               : addFlatListTextStyle
           }
+          numberOfLines={1}
           font={getFont()}>
-          {item}
+          {item.label}
         </Typography>
       </TouchableHighlight>
     );
   };
-
-interface IItemsProps
-  extends IPopupProps,
-    Pick<
-      IDropDownProps,
-      | 'navBarHeight'
-      | 'maxVisibleListLength'
-      | 'list'
-      | 'selectedItem'
-      | 'selectedItemColor'
-      | 'addButtonStyle'
-      | 'addFlatListStyle'
-      | 'addFlatListItemStyle'
-      | 'addFlatListTextStyle'
-      | 'addFlatListTextFont'
-      | 'addFlatListTextFontPressed'
-      | 'addFlatListTextStylePressed'
-    > {
-  list: string[];
-  pageY: number;
-  renderItemOnPress: (item: string) => void;
 }
-const Selector = (props: IItemsProps) => {
+
+function Selector<T extends ISelector>(props: IItemsProps<T>) {
   const {
     list,
     pageY,
@@ -141,8 +144,6 @@ const Selector = (props: IItemsProps) => {
 
   const {height} = useDimensions().window;
 
-  const {topIosMargin, bottomIosMargin} = getIosSafeAreaHeights(getModel());
-
   const isNeedFooterPadding = list.length > maxVisibleListLength;
 
   const flatListPaddingVertical = addFlatListStyle?.paddingVertical
@@ -157,9 +158,7 @@ const Selector = (props: IItemsProps) => {
     dropDownItemHeight,
   } = getDropDownDimensions({
     pageY,
-    topIosMargin,
     navBarHeight,
-    bottomIosMargin,
     maxVisibleListLength,
     dropDownHeight: addButtonStyle?.height
       ? +addButtonStyle.height
@@ -219,6 +218,6 @@ const Selector = (props: IItemsProps) => {
       />
     </PopupBase>
   );
-};
+}
 
 export default Selector;

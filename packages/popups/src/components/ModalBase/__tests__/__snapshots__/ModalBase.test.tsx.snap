@@ -18,7 +18,7 @@ exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -35,12 +35,13 @@ exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "justifyContent": "center",
-          "marginHorizontal": 6,
-          "marginVertical": 20,
-          "paddingBottom": 40,
-          "paddingTop": 16,
+          "marginHorizontal": 9,
+          "marginVertical": 30,
+          "paddingBottom": 60,
+          "paddingHorizontal": 30,
+          "paddingTop": 24,
         },
         undefined,
       ]

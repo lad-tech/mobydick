@@ -10,17 +10,16 @@ import stylesCreate from './stylesCreate';
 import {IRadioStyle} from './types';
 
 const Radio: FC<IControlProps & IRadioStyle> = ({
-  value,
   selected = false,
   disabled = false,
   children,
+  containerStyle,
   ...rest
 }) => {
   const [styles] = useStyles(stylesCreate, selected, disabled);
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, containerStyle]}>
       <Control
-        value={value}
         disabled={disabled}
         type={ControlType.radio}
         selected={selected}

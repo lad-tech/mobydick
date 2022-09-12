@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 
-const stylesCreate = (theme: IUseStylesTheme) => {
+const stylesCreate = (theme: IThemeContext) => {
   const {colors} = theme;
   return StyleSheet.create({
     overlay: {
@@ -17,38 +17,30 @@ const stylesCreate = (theme: IUseStylesTheme) => {
       borderRadius: theme.spaces.Space12,
       justifyContent: 'center',
       alignItems: 'center',
+
       paddingBottom: theme.spaces.Space40,
       paddingTop: theme.spaces.Space16,
+      paddingHorizontal: theme.spaces.Space20,
       marginVertical: theme.spaces.Space20,
       marginHorizontal: theme.spaces.Space6,
     },
     title: {
-      fontSize: theme.spaces.Space24,
-      lineHeight: 26,
-      fontWeight: '600',
-      color: colors.TextPrimary,
       paddingHorizontal: theme.spaces.Space20,
       paddingVertical: theme.spaces.Space10,
       textAlign: 'center',
     },
     descriptionText: {
-      fontSize: 16,
-      lineHeight: theme.spaces.Space20,
-      fontWeight: '400',
-      color: colors.TextSecondary,
       paddingHorizontal: theme.spaces.Space20,
       paddingBottom: theme.spaces.Space20,
       textAlign: 'center',
     },
     closeButton: {
       alignSelf: 'flex-end',
-      marginRight: 16,
-      padding: 6,
+      padding: theme.spaces.Space6,
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: colors.BgTertiary,
-      borderRadius: theme.spaces.Space12,
-      fill: colors.IconNeutral,
+      borderRadius: rem(50),
     },
   });
 };

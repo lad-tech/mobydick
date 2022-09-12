@@ -9,11 +9,14 @@ const stylesCreate = (theme: IUseStylesTheme) =>
       maxWidth: '95%',
       backgroundColor: theme.colors.BgSecondary,
       borderRadius: theme.spaces.Space8,
-      padding: theme.spaces.Space6,
+      paddingVertical: theme.spaces.Space6,
+      paddingLeft: theme.spaces.Space12,
+      paddingRight: theme.spaces.Space8,
     },
     textInput: {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
+      paddingHorizontal: theme.spaces.Space8,
     },
     cancelIcon: {
       backgroundColor: theme.colors.BgTertiary,

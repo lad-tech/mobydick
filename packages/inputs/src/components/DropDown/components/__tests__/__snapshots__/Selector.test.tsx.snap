@@ -18,7 +18,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -36,7 +36,10 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -58,9 +61,9 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         Object {
@@ -70,10 +73,10 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
           "width": 2,
         },
         Object {
-          "top": 45,
+          "top": 65,
         },
         Object {
-          "maxHeight": 246.40000000000003,
+          "maxHeight": 254.40000000000003,
         },
       ]
     }
@@ -99,7 +102,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -113,13 +116,14 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#20242D",
                   "fontFamily": "Inter-Medium",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -152,7 +156,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -170,7 +174,10 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -192,9 +199,9 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -202,10 +209,10 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
           "width": 2,
         },
         Object {
-          "top": 999923.6,
+          "top": 999935.6,
         },
         Object {
-          "maxHeight": 246.40000000000003,
+          "maxHeight": 254.40000000000003,
         },
       ]
     }
@@ -231,7 +238,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -245,13 +252,14 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 2`] = `
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#20242D",
                   "fontFamily": "Inter-Medium",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -284,7 +292,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -302,7 +310,10 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -324,9 +335,9 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -334,10 +345,10 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
           "width": 2,
         },
         Object {
-          "top": 999921.6,
+          "top": 999933.6,
         },
         Object {
-          "maxHeight": 246.40000000000003,
+          "maxHeight": 254.40000000000003,
         },
       ]
     }
@@ -363,7 +374,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -377,13 +388,14 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 3`] = `
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#20242D",
                   "fontFamily": "Inter-Medium",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -416,7 +428,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -434,7 +446,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -456,9 +471,9 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -466,10 +481,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
           "width": 200,
         },
         Object {
-          "top": 45,
+          "top": 65,
         },
         Object {
-          "maxHeight": 76,
+          "maxHeight": 84,
         },
       ]
     }
@@ -495,7 +510,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               Object {
                 "height": 10,
@@ -511,13 +526,14 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#20242D",
                   "fontFamily": "Inter-Medium",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -550,7 +566,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -568,7 +584,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -590,9 +609,9 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -600,10 +619,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
           "width": 200,
         },
         Object {
-          "top": 45,
+          "top": 65,
         },
         Object {
-          "maxHeight": 76,
+          "maxHeight": 84,
         },
       ]
     }
@@ -629,7 +648,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               Object {
                 "height": 10,
@@ -645,13 +664,14 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#20242D",
                   "fontFamily": "Inter-Medium",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -684,7 +704,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -702,7 +722,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -724,9 +747,9 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -734,10 +757,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
           "width": 200,
         },
         Object {
-          "top": 45,
+          "top": 65,
         },
         Object {
-          "maxHeight": 246.40000000000003,
+          "maxHeight": 254.40000000000003,
         },
       ]
     }
@@ -763,7 +786,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -777,13 +800,14 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#20242D",
                   "fontFamily": "Inter-Medium",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -816,7 +840,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -834,7 +858,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -856,9 +883,9 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -866,10 +893,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
           "width": 200,
         },
         Object {
-          "top": 45,
+          "top": 65,
         },
         Object {
-          "maxHeight": 246.40000000000003,
+          "maxHeight": 254.40000000000003,
         },
       ]
     }
@@ -895,7 +922,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -909,13 +936,14 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#20242D",
                   "fontFamily": "Inter-Medium",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -948,7 +976,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -966,7 +994,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -988,9 +1019,9 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -998,10 +1029,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
           "width": 200,
         },
         Object {
-          "top": 45,
+          "top": 65,
         },
         Object {
-          "maxHeight": 246.40000000000003,
+          "maxHeight": 254.40000000000003,
         },
       ]
     }
@@ -1027,7 +1058,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1039,13 +1070,14 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#F54D3D",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 12,
-                  "lineHeight": 16,
+                  "fontSize": 18,
+                  "lineHeight": 24,
                 },
                 undefined,
               ]
@@ -1078,7 +1110,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -1096,7 +1128,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -1118,9 +1153,9 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -1128,10 +1163,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
           "width": 200,
         },
         Object {
-          "top": 45,
+          "top": 65,
         },
         Object {
-          "maxHeight": 246.40000000000003,
+          "maxHeight": 254.40000000000003,
         },
       ]
     }
@@ -1157,7 +1192,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1169,13 +1204,14 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#444B5A",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -1208,7 +1244,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -1226,7 +1262,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -1248,9 +1287,9 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -1258,10 +1297,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
           "width": 200,
         },
         Object {
-          "top": 45,
+          "top": 65,
         },
         Object {
-          "maxHeight": 246.40000000000003,
+          "maxHeight": 254.40000000000003,
         },
       ]
     }
@@ -1287,7 +1326,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1299,13 +1338,14 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#444B5A",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -1338,7 +1378,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -1356,7 +1396,10 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
     contentContainerStyle={null}
     data={
       Array [
-        "list",
+        Object {
+          "label": "list",
+          "value": "list",
+        },
       ]
     }
     getItem={[Function]}
@@ -1378,9 +1421,9 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -1388,10 +1431,10 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
           "width": 200,
         },
         Object {
-          "top": 45,
+          "top": 65,
         },
         Object {
-          "maxHeight": 246.40000000000003,
+          "maxHeight": 254.40000000000003,
         },
       ]
     }
@@ -1417,7 +1460,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1429,13 +1472,14 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#444B5A",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -1468,7 +1512,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.45)",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",
@@ -1485,18 +1529,39 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
     bounces={false}
     contentContainerStyle={
       Object {
-        "paddingBottom": 16,
+        "paddingBottom": 24,
       }
     }
     data={
       Array [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
+        Object {
+          "label": "1",
+          "value": "1",
+        },
       ]
     }
     getItem={[Function]}
@@ -1518,9 +1583,9 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 12,
+          "borderRadius": 18,
           "borderWidth": 1,
-          "paddingVertical": 8,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
@@ -1528,10 +1593,10 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
           "width": 200,
         },
         Object {
-          "top": 45,
+          "top": 65,
         },
         Object {
-          "maxHeight": 246.40000000000003,
+          "maxHeight": 254.40000000000003,
         },
       ]
     }
@@ -1557,7 +1622,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1569,13 +1634,14 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#444B5A",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
@@ -1590,7 +1656,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="2"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1604,7 +1670,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1616,19 +1682,20 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#444B5A",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
             }
           >
-            2
+            1
           </Text>
         </View>
       </View>
@@ -1637,7 +1704,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="3"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1651,7 +1718,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1663,19 +1730,20 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#444B5A",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
             }
           >
-            3
+            1
           </Text>
         </View>
       </View>
@@ -1684,7 +1752,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="4"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1698,7 +1766,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1710,19 +1778,20 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#444B5A",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
             }
           >
-            4
+            1
           </Text>
         </View>
       </View>
@@ -1731,7 +1800,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="5"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1745,7 +1814,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1757,19 +1826,20 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#444B5A",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
             }
           >
-            5
+            1
           </Text>
         </View>
       </View>
@@ -1778,7 +1848,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="6"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1792,7 +1862,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1804,19 +1874,20 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#444B5A",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
             }
           >
-            6
+            1
           </Text>
         </View>
       </View>
@@ -1825,7 +1896,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         style={null}
       >
         <View
-          accessibilityLabel="7"
+          accessibilityLabel="1"
           accessible={true}
           focusable={true}
           onClick={[Function]}
@@ -1839,7 +1910,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
             Array [
               Object {
                 "justifyContent": "center",
-                "paddingHorizontal": 12,
+                "paddingHorizontal": 18,
               },
               undefined,
               Object {
@@ -1851,19 +1922,20 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding 1`]
         >
           <Text
             allowFontScaling={true}
+            numberOfLines={1}
             style={
               Array [
                 Object {
                   "color": "#444B5A",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 16,
-                  "lineHeight": 20,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 undefined,
               ]
             }
           >
-            7
+            1
           </Text>
         </View>
       </View>

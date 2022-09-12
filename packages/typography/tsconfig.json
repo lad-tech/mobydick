@@ -22,6 +22,9 @@
     {
       "path": "../styles"
     },
+    {
+      "path": "../utils"
+    }
   ],
   "compilerOptions": {
     "composite": true,

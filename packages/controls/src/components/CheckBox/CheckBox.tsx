@@ -9,10 +9,10 @@ import ControlType from '../constants';
 import stylesCreate from './stylesCreate';
 
 const CheckBox: FC<IControlProps & IPressableProps> = ({children, ...rest}) => {
-  const {disabled, selected} = rest;
+  const {disabled, selected, containerStyle} = rest;
   const [styles] = useStyles(stylesCreate, disabled, selected);
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, containerStyle]}>
       <Control type={ControlType.checkBox} style={styles.checkbox} {...rest} />
       {children}
     </View>

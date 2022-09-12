@@ -1,19 +1,20 @@
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
-import {ITypes} from './types';
+import {ITypes} from '../types';
+import {disabledStyle, validStyle, wrongStyle} from '../../style';
 
-const defaultStyle = (theme: IUseStylesTheme, focused: boolean) => {
+const defaultStyle = (theme: IThemeContext, focused: boolean) => {
   const {colors} = theme;
   return StyleSheet.create({
-    textInputContainer: {
+    inputContainer: {
       backgroundColor: colors.BgSecondary,
       padding: theme.spaces.Space8,
       borderRadius: theme.spaces.Space8,
-      borderWidth: theme.spaces.Space2,
+      borderWidth: 1,
       borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: theme.spaces.Space8,
-      minWidth: 120,
+      minWidth: rem(130),
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
@@ -21,58 +22,18 @@ const defaultStyle = (theme: IUseStylesTheme, focused: boolean) => {
     textInput: {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
-      color: colors.TextPrimary,
     },
   });
 };
 
-const validStyle = (theme: IUseStylesTheme, focused: boolean) => {
-  const defaultStyles = defaultStyle(theme, focused);
-  const {colors} = theme;
-  const {textInputContainer} = defaultStyles;
-
-  textInputContainer.borderColor = focused
-    ? colors.BorderSuccess
-    : 'transparent';
-  textInputContainer.backgroundColor = colors.BgAccentSoft;
-
-  return defaultStyles;
-};
-
-const disabledStyle = (theme: IUseStylesTheme, focused: boolean) => {
-  const defaultStyles = defaultStyle(theme, focused);
-  const {colors} = theme;
-  const {textInputContainer} = defaultStyles;
-
-  textInputContainer.borderColor = focused ? colors.BgTertiary : 'transparent';
-  textInputContainer.backgroundColor = colors.BgTertiary;
-
-  return defaultStyles;
-};
-
-const wrongStyle = (theme: IUseStylesTheme, focused: boolean) => {
-  const defaultStyles = defaultStyle(theme, focused);
-  const {colors} = theme;
-  const {textInputContainer} = defaultStyles;
-
-  textInputContainer.borderColor = focused ? colors.BorderError : 'transparent';
-  textInputContainer.backgroundColor = colors.BgError;
-
-  return defaultStyles;
-};
-
-const stylesCreate = (
-  theme: IUseStylesTheme,
-  type: ITypes,
-  focused: boolean,
-) => {
+const stylesCreate = (theme: IThemeContext, type: ITypes, focused: boolean) => {
   switch (type) {
     case ITypes.valid:
-      return validStyle(theme, focused);
+      return validStyle(theme, defaultStyle(theme, focused), focused);
     case ITypes.wrong:
-      return wrongStyle(theme, focused);
+      return wrongStyle(theme, defaultStyle(theme, focused), focused);
     case ITypes.disabled:
-      return disabledStyle(theme, focused);
+      return disabledStyle(theme, defaultStyle(theme, focused), focused);
     case ITypes.default:
     default:
       return defaultStyle(theme, focused);

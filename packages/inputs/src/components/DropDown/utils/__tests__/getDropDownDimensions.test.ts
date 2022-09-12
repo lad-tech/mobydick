@@ -55,8 +55,6 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
     expect(
       getDropDownDimensions({
         pageY: 300,
-        topIosMargin: 44,
-        bottomIosMargin: 34,
         dropDownHeight: 200,
         flatListPaddingVertical: 8,
         listLength: 8,
@@ -66,9 +64,9 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         dropDownBorderWidth: 1,
       }),
     ).toEqual({
-      listUnderPosition: 472,
-      listAbovePosition: 46,
-      expectedEndPositionOnScreen: 792,
+      listUnderPosition: 516,
+      listAbovePosition: 90,
+      expectedEndPositionOnScreen: 758,
       dropDownMaxHeight: 208,
       dropDownItemHeight: 32,
     });
@@ -77,31 +75,6 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
     expect(
       getDropDownDimensions({
         pageY: 128,
-        topIosMargin: 44,
-        bottomIosMargin: 34,
-        dropDownHeight: 40,
-        flatListPaddingVertical: 8,
-        listLength: 5,
-        navBarHeight: 50,
-        maxVisibleListLength: 6,
-        addFlatListItemHeight: 32,
-        dropDownBorderWidth: 1,
-      }),
-    ).toEqual({
-      listUnderPosition: 140,
-      listAbovePosition: -94,
-      expectedEndPositionOnScreen: 428,
-      dropDownMaxHeight: 208,
-      dropDownItemHeight: 32,
-    });
-  });
-  it('must return actual position list 5 Android', () => {
-    Platform.OS = 'android';
-    expect(
-      getDropDownDimensions({
-        pageY: 128,
-        topIosMargin: 44,
-        bottomIosMargin: 34,
         dropDownHeight: 40,
         flatListPaddingVertical: 8,
         listLength: 5,
@@ -112,8 +85,29 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
       }),
     ).toEqual({
       listUnderPosition: 184,
-      listAbovePosition: -92,
-      expectedEndPositionOnScreen: 428,
+      listAbovePosition: -50,
+      expectedEndPositionOnScreen: 394,
+      dropDownMaxHeight: 208,
+      dropDownItemHeight: 32,
+    });
+  });
+  it('must return actual position list 5 Android', () => {
+    Platform.OS = 'android';
+    expect(
+      getDropDownDimensions({
+        pageY: 128,
+        dropDownHeight: 40,
+        flatListPaddingVertical: 8,
+        listLength: 5,
+        navBarHeight: 50,
+        maxVisibleListLength: 6,
+        addFlatListItemHeight: 32,
+        dropDownBorderWidth: 1,
+      }),
+    ).toEqual({
+      listUnderPosition: 184,
+      listAbovePosition: -48,
+      expectedEndPositionOnScreen: 394,
       dropDownMaxHeight: 208,
       dropDownItemHeight: 32,
     });

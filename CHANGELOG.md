@@ -1,3 +1,107 @@
+## [1.1.6](https://glab.lad24.ru/npm/mobydick/compare/v1.1.5...v1.1.6) (2022-09-06)
+
+
+### Bug Fixes
+
+* **dropdown:** add style placeholder - flex 1; ([13fe759](https://glab.lad24.ru/npm/mobydick/commit/13fe759ad744ce8a2b1b52b0615b9b5c168295ac))
+
+## [1.1.5](https://glab.lad24.ru/npm/mobydick/compare/v1.1.4...v1.1.5) (2022-09-02)
+
+
+### Bug Fixes
+
+* **dropDown:** add numberOfLines ([a648a77](https://glab.lad24.ru/npm/mobydick/commit/a648a77144d92d2e4fa7659436d219f89e39a50d))
+* **DropDown:** delete topMarginIos, react-native-device-info ([4b58df5](https://glab.lad24.ru/npm/mobydick/commit/4b58df5ace5df9d42dba26fe02485d4d7fa4e289))
+* **InputField:** replace borderWidth -> 1 ([8d615a7](https://glab.lad24.ru/npm/mobydick/commit/8d615a7bccac26565ed2dda2c556deda91e1a706))
+
+## [1.1.4](https://glab.lad24.ru/npm/mobydick/compare/v1.1.3...v1.1.4) (2022-08-30)
+
+
+### Bug Fixes
+
+* **ActionSheet:** moving out content and fix style ([ab062bf](https://glab.lad24.ru/npm/mobydick/commit/ab062bfbdd01bff55f750d89786478a1fdf6f7a6))
+* **ActionSheet:** replace backgroundColor with opacity ([208dd40](https://glab.lad24.ru/npm/mobydick/commit/208dd409683e6a61751497f000f121add830b199))
+* **ActionSheets:** add example actionSheets, add tests ([94ae8df](https://glab.lad24.ru/npm/mobydick/commit/94ae8df9792ed15f5081d8e215cc4a4883660e06))
+* **ActionSheets:** add example actionSheets, add tests ([c6b3a8f](https://glab.lad24.ru/npm/mobydick/commit/c6b3a8f45d67d20e20056f8222d91473f46abde9))
+* **ActionSheets:** add label in InnerItem and rename folder checkboxExample ([fbf7f81](https://glab.lad24.ru/npm/mobydick/commit/fbf7f81ca0300e694a53635557822d79b19528e7))
+* **ActionSheets:** fix comments sonar ([3fea40a](https://glab.lad24.ru/npm/mobydick/commit/3fea40aed5b4016c0e7e8ac549034a87371bfaf5))
+* **ActionSheets:** fix comments sonar ([0a2c9a1](https://glab.lad24.ru/npm/mobydick/commit/0a2c9a1094edc7655430942f8ed135d3d99ab22b))
+* **ActionSheets:** fix container style ([2d07777](https://glab.lad24.ru/npm/mobydick/commit/2d077776b75958d71746db78a2f85aebea95ce59))
+* **Controls:** add containerStyle, delete paddings and background ([eaa462c](https://glab.lad24.ru/npm/mobydick/commit/eaa462cf708342e7bdabaa11d829492578a652f1))
+* **Controls:** add field - initialValues ([f16d771](https://glab.lad24.ru/npm/mobydick/commit/f16d7710812ece0b8ee0fbf69cbc982b4a56e847))
+* **Controls:** delete duplicate ([1d2d8ce](https://glab.lad24.ru/npm/mobydick/commit/1d2d8ce0428b40dfbdc4d64c17211f9804fc263b))
+* **Controls:** fix styles ([f9f80fb](https://glab.lad24.ru/npm/mobydick/commit/f9f80fb308ee3ea6196e7dc0ff02ee02c581dceb))
+* **Controls:** unite sections in storybook ([8f8bb9b](https://glab.lad24.ru/npm/mobydick/commit/8f8bb9b3018be867266cbb1f501392e09f180165))
+* **Popups:** fix popupProvider ([3ee13fb](https://glab.lad24.ru/npm/mobydick/commit/3ee13fbabcff1273d1f8f96515772779cc5b1fb1))
+* **search:** changed paddings ([e2306c0](https://glab.lad24.ru/npm/mobydick/commit/e2306c0b72dbb16fbc9c0726c14f3c480a11cd65))
+
+## [1.1.3](https://glab.lad24.ru/npm/mobydick/compare/v1.1.2...v1.1.3) (2022-08-22)
+
+
+### Bug Fixes
+
+* **button:** added default ([5d100c8](https://glab.lad24.ru/npm/mobydick/commit/5d100c841a0aba33b829a5bec502e087bb6e467a))
+* **button:** added select minWidth ([ad515ab](https://glab.lad24.ru/npm/mobydick/commit/ad515ab8a9daca12e810524da3c1cfc030bd5c9c))
+* **Button:** added type destructive, iconStyles, added function that get paddings for different types button and  update storybook button's ([c7a2288](https://glab.lad24.ru/npm/mobydick/commit/c7a228824c754f522f3658343c05c0757901f6ef))
+* **button:** changed styles paddings ([048ec35](https://glab.lad24.ru/npm/mobydick/commit/048ec35598a620011e992699469a29b785e6771e))
+* **button:** changed styles paddings ([0e6c517](https://glab.lad24.ru/npm/mobydick/commit/0e6c51706c4b6ca5eea9bb57a6feff2cc1145923))
+* **button:** changed text in storybook ([a1db497](https://glab.lad24.ru/npm/mobydick/commit/a1db497710d7210f09642322b8a737630b0c84fa))
+* **button:** remove duplicate in storybook button ([393de9d](https://glab.lad24.ru/npm/mobydick/commit/393de9d556fcf755710d8d388ef24dca3c1f0571))
+* **button:** took out function ([104686c](https://glab.lad24.ru/npm/mobydick/commit/104686c744a709efae67984d0531018f5f735d44))
+* **color:** changed colors ([6c69676](https://glab.lad24.ru/npm/mobydick/commit/6c69676f84b8e16c2ce607117751e6aea3bf8899))
+* **rem:** changed import ([b80a091](https://glab.lad24.ru/npm/mobydick/commit/b80a09184cc8c626e26b6c1ea44e95762fe5bf1e))
+
+## [1.1.2](https://glab.lad24.ru/npm/mobydick/compare/v1.1.1...v1.1.2) (2022-08-17)
+
+
+### Bug Fixes
+
+* **color:** replaced, added and deleted colors ([0d6d513](https://glab.lad24.ru/npm/mobydick/commit/0d6d5130172daf3b056f3ca9afe71667b938bcb6))
+* **inputs-InputField:** protect from onFocus onBlur redefinition ([660bb41](https://glab.lad24.ru/npm/mobydick/commit/660bb41e90fadaec3bcd621809f63f9aeaa3ef63))
+* **Popups:** lost string 'font' ([a836ae5](https://glab.lad24.ru/npm/mobydick/commit/a836ae5e7ddbadb4b0debd311f4122b6290cf7c5))
+* **Popups:** replaced Text with Typography, also added function selectFont and began to use it in storybook, updated snap ([0e75d42](https://glab.lad24.ru/npm/mobydick/commit/0e75d42fc2e7b5986358e2e5e2df61b337222049))
+
+
+### BREAKING CHANGES
+
+* **color:** TextBlackTransparent -> TextBlackExtra; TextWhiteTransparent -> TextWhiteExtra; IconAdditional: '#FAB742'; IconFavorite -> deleted; ElementAdditional: '#FAB742'; ElementFavorite -> deleted; ElementTransparent -> deleted; BgPrimaryTransparent -> BgPrimaryExtra; BgContrastTransparent -> BgContrastExtra; CtaBtnDestructive -> added;
+
+## [1.1.1](https://glab.lad24.ru/npm/mobydick/compare/v1.1.0...v1.1.1) (2022-08-16)
+
+
+### Bug Fixes
+
+* **rem:** changed imports and guidelineBaseWidth(taken from figma) ([9857834](https://glab.lad24.ru/npm/mobydick/commit/9857834b050dcd2e6d3f61fe727edf2080ec48de))
+* **rem:** changed index and imports, update tests and style icon InputField.stories.tsx ([a9f9e13](https://glab.lad24.ru/npm/mobydick/commit/a9f9e13adfe8e6a6e87a1dccc79aed1e29cdb4f4))
+* **rem:** changed size placeholder Input and update tests ([15a5b2d](https://glab.lad24.ru/npm/mobydick/commit/15a5b2d3552ef84365994b43a9d69e725880ee19))
+* **rem:** forgot to return value ([4529e8e](https://glab.lad24.ru/npm/mobydick/commit/4529e8ecb89984968c001893b79e2a665925b18b))
+* **Snackbar:** changed import ([f9716b0](https://glab.lad24.ru/npm/mobydick/commit/f9716b01344b4fea966ffc3710a2a1e6f7508f28))
+
+# [1.1.0](https://glab.lad24.ru/npm/mobydick/compare/v1.0.5...v1.1.0) (2022-08-15)
+
+
+### Features
+
+* **utils:** add useThrottle ([0ea1bcb](https://glab.lad24.ru/npm/mobydick/commit/0ea1bcb1e6d9fed92e59124134dd62b04bb46a91))
+
+## [1.0.5](https://glab.lad24.ru/npm/mobydick/compare/v1.0.4...v1.0.5) (2022-08-12)
+
+
+### Bug Fixes
+
+* **DropDown:** added the ability to use an array of objects ([bd8125e](https://glab.lad24.ru/npm/mobydick/commit/bd8125e82ba35df7b75ec291b092f3f02c89e578))
+* **DropDown:** deleted [chosen, setChosen] = useState() and added two types ([21daf40](https://glab.lad24.ru/npm/mobydick/commit/21daf40446bb0e78445521c616539f8d9fbcf3ca))
+* **DropDown:** updated readme ([e8cfb15](https://glab.lad24.ru/npm/mobydick/commit/e8cfb15150fe30051d7c8a37873f16bb05740ffc))
+* **SimpleIcon:** replaced import Text for SimpleIcon and updated jest ([5b19894](https://glab.lad24.ru/npm/mobydick/commit/5b19894f379e15a26cacc332ce1b8e38061cc7cc))
+
+## [1.0.4](https://glab.lad24.ru/npm/mobydick/compare/v1.0.3...v1.0.4) (2022-08-10)
+
+
+### Bug Fixes
+
+* **Button:** changed size and position button ([82198d6](https://glab.lad24.ru/npm/mobydick/commit/82198d6817cee5a4922d73f1c4674aa032cdfb5a))
+* **Button:** deleted view ([8bd0cda](https://glab.lad24.ru/npm/mobydick/commit/8bd0cda1bca70780ebd13cd4ef39ffee04467ee3))
+
 # 1.0.0 (2022-08-02)
 
 

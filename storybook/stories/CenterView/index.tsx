@@ -1,21 +1,15 @@
-import React from 'react';
+import React, {FC} from 'react';
 import {View} from '@npm/mobydick-core';
 import {Button, ITypes} from '@npm/mobydick-cta';
-import {
-  getCurrentTheme,
-  setCurrentTheme,
-  useStyles,
-} from '@npm/mobydick-styles';
+import {ThemeProvider, useStyles, useTheme} from '@npm/mobydick-styles';
+import {PopupsProvider} from '@npm/mobydick-popups';
 
 import styleCreate from './style';
 
-export default function CenterView({
-  children,
-}: {
-  children: React.ReactNode;
-}): JSX.Element {
+const Wrapper: FC = ({children}) => {
+  const {currentTheme, setCurrentTheme} = useTheme();
   const [styles] = useStyles(styleCreate);
-  const currentTheme = getCurrentTheme();
+
   return (
     <View style={styles.main}>
       {children}
@@ -28,5 +22,18 @@ export default function CenterView({
         }}
       />
     </View>
+  );
+};
+export default function CenterView({
+  children,
+}: {
+  children: React.ReactNode;
+}): JSX.Element {
+  return (
+    <ThemeProvider>
+      <PopupsProvider>
+        <Wrapper>{children}</Wrapper>
+      </PopupsProvider>
+    </ThemeProvider>
   );
 }

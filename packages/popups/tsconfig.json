@@ -22,6 +22,9 @@
     {
       "path": "../typography"
     },
+    {
+      "path": "../utils"
+    }
   ],
   "compilerOptions": {
     "composite": true,

@@ -3,13 +3,16 @@
 exports[`CheckBox should renders correctly 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#FFF",
-      "flexDirection": "row",
-      "maxWidth": "100%",
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "flexDirection": "row",
+        "maxWidth": "100%",
+        "opacity": 1,
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -28,11 +31,11 @@ exports[`CheckBox should renders correctly 1`] = `
     style={
       Object {
         "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 4,
-        "borderWidth": 2,
-        "height": 20,
-        "margin": 12,
-        "width": 20,
+        "borderRadius": 6,
+        "borderWidth": 3,
+        "height": 30,
+        "marginRight": 18,
+        "width": 30,
       }
     }
     value="Pepega"
@@ -48,13 +51,16 @@ exports[`CheckBox should renders correctly 1`] = `
 exports[`CheckBox should renders correctly checked 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#FFF",
-      "flexDirection": "row",
-      "maxWidth": "100%",
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "flexDirection": "row",
+        "maxWidth": "100%",
+        "opacity": 1,
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -73,11 +79,11 @@ exports[`CheckBox should renders correctly checked 1`] = `
     style={
       Object {
         "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 4,
+        "borderRadius": 6,
         "borderWidth": 0,
-        "height": 20,
-        "margin": 12,
-        "width": 20,
+        "height": 30,
+        "marginRight": 18,
+        "width": 30,
       }
     }
     value="Pepega"
@@ -95,13 +101,16 @@ exports[`CheckBox should renders correctly checked 1`] = `
 exports[`CheckBox should renders correctly disabled 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#FFF",
-      "flexDirection": "row",
-      "maxWidth": "100%",
-      "opacity": 0.4,
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "flexDirection": "row",
+        "maxWidth": "100%",
+        "opacity": 0.4,
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -125,11 +134,11 @@ exports[`CheckBox should renders correctly disabled 1`] = `
     style={
       Object {
         "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 4,
-        "borderWidth": 2,
-        "height": 20,
-        "margin": 12,
-        "width": 20,
+        "borderRadius": 6,
+        "borderWidth": 3,
+        "height": 30,
+        "marginRight": 18,
+        "width": 30,
       }
     }
     value="Pepega"

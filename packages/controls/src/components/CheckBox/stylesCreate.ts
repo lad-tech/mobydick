@@ -12,7 +12,7 @@ const stylesCreate = (
     container: {
       flexDirection: 'row',
       alignItems: 'center',
-      backgroundColor: colors.BgPrimary,
+      backgroundColor: 'transparent',
       opacity: disabled ? 0.4 : 1,
       maxWidth: '100%',
     },
@@ -22,7 +22,7 @@ const stylesCreate = (
       width: spaces.Space20,
       height: spaces.Space20,
       borderRadius: spaces.Space4,
-      margin: spaces.Space12,
+      marginRight: spaces.Space12,
     },
   });
 };

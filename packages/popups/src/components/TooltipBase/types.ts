@@ -20,7 +20,6 @@ export interface IArrowViewPopup {
 }
 
 export interface ITooltip {
-  isVisible: boolean;
   position?: IPosition;
   element?: JSX.Element;
   styleContainer?: ViewStyle;

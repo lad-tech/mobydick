@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "justifyContent": "center",
+      "marginHorizontal": 12,
+      "minHeight": 75,
+      "opacity": 1,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#20242D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 27,
+          "lineHeight": 33,
+        },
+        Object {
+          "paddingVertical": 22.5,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with !selected 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginHorizontal": 12,
+      "minHeight": 75,
+      "opacity": 1,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#FFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 22.5,
+          "lineHeight": 28.5,
+        },
+        Object {
+          "paddingVertical": 22.5,
+        },
+      ]
+    }
+  >
+    title
+  </Text>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with disabled 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "justifyContent": "center",
+      "marginHorizontal": 12,
+      "minHeight": 75,
+      "opacity": 1,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#20242D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 27,
+          "lineHeight": 33,
+        },
+        Object {
+          "paddingVertical": 22.5,
+        },
+      ]
+    }
+  >
+    title
+  </Text>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with leftIcon 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "marginHorizontal": 12,
+      "minHeight": 75,
+      "opacity": 1,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingRight": 27,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Neotis",
+            "fontSize": 36,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 27,
+            "lineHeight": 33,
+          },
+          Object {
+            "paddingVertical": 22.5,
+          },
+        ]
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with selected  1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginHorizontal": 12,
+      "minHeight": 75,
+      "opacity": 1,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#20242D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 24,
+          "lineHeight": 30,
+        },
+        Object {
+          "paddingVertical": 22.5,
+        },
+      ]
+    }
+  >
+    title
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 96,
+        "padding": 3,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#FFF",
+          "fontFamily": "Neotis",
+          "fontSize": 20,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with subtitle 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "justifyContent": "center",
+      "marginHorizontal": 12,
+      "minHeight": 75,
+      "opacity": 1,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "paddingVertical": 22.5,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 24,
+            "lineHeight": 30,
+          },
+          undefined,
+        ]
+      }
+    >
+      title
+    </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          undefined,
+        ]
+      }
+    >
+      subTitle
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with subtitle, textFont 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#EEEFF1",
+      "justifyContent": "center",
+      "marginHorizontal": 12,
+      "minHeight": 75,
+      "opacity": 1,
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "paddingVertical": 22.5,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
+          },
+          undefined,
+        ]
+      }
+    >
+      title
+    </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          undefined,
+        ]
+      }
+    >
+      subTitle
+    </Text>
+  </View>
+</View>
+`;

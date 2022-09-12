@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/SnackbarBase should renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(32, 36, 45, 0.60)",
+        "height": "100%",
+        "justifyContent": "flex-end",
+        "position": "absolute",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+  testID="Pressable"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderRadius": 18,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 30,
+          "paddingLeft": 30,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
