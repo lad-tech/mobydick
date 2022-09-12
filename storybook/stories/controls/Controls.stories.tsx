@@ -7,7 +7,7 @@ import CheckboxListExample from './ControlsLists/CheckboxListExample';
 import RadioListExample from './ControlsLists/RadioListExample';
 import RadioExample from './Radio/RadioExample';
 import ToggleExample from './Toggle/ToggleExample';
-import CheckboxExample from './CheckBox/CheckboxExample';
+import CheckboxExample from './Checkbox/CheckboxExample';
 
 storiesOf('Design System/Controls/ControlsList.tsx', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
