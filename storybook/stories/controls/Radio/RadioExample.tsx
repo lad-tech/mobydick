@@ -4,20 +4,26 @@ import {Radio} from '@npm/mobydick-controls';
 import {action} from '@storybook/addon-actions';
 import {Typography} from '@npm/mobydick-typography';
 import {View} from '@npm/mobydick-core';
+import {useStyles} from '@npm/mobydick-styles';
+
+import stylesCreate from '../stylesCreate';
+import {font, numberOfLines, optionOne, textOne} from '../constants';
 
 const RadioExample = () => {
+  const [styles] = useStyles(stylesCreate);
+
   return (
-    <View style={{width: '90%'}}>
+    <View style={styles.listStyle}>
       <Radio
-        value={'Pepe'}
+        value={optionOne}
         selected={boolean('selected', false)}
         disabled={boolean('disabled', false)}
         onPress={action('clicked radio')}>
         <Typography
-          font={'Regular-Primary-M'}
-          numberOfLines={2}
-          style={{flex: 1}}>
-          {text('Text', 'Option1 аивирсрииырисрыисрыисриыррсыичсиисисссис')}
+          font={font}
+          numberOfLines={numberOfLines}
+          style={styles.containerStyle}>
+          {text(textOne, optionOne)}
         </Typography>
       </Radio>
     </View>
