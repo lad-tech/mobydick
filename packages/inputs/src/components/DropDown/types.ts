@@ -12,27 +12,27 @@ export interface IDropDownProps<ListItem extends IListItem> {
   placeholder: string;
   list: ListItem[];
   onPress: (item: ListItem) => void;
-  selectedItem?: ListItem | undefined;
-  navBarHeight?: number;
-  addButtonStyle?: ViewStyle | undefined;
-  addFlatListStyle?: ViewStyle | undefined;
-  addFlatListItemStyle?: ViewStyle | undefined;
-  addLabelStyle?: TextStyle | undefined;
-  addLabelFont?: TypographyProp | undefined;
-  addButtonTextStyle?: TextStyle | undefined;
-  addButtonTextStyleChosen?: TextStyle | undefined;
-  addButtonTextFont?: TypographyProp | undefined;
-  addButtonTextFontChosen?: TypographyProp | undefined;
-  addFlatListTextStyle?: TextStyle | undefined;
-  addFlatListTextStylePressed?: TextStyle | undefined;
-  addFlatListTextFont?: TypographyProp | undefined;
-  addFlatListTextFontPressed?: TypographyProp | undefined;
-  selectedItemColor?: string | undefined;
-  maxVisibleListLength?: number;
   type?: ITypes;
   disabled?: boolean;
   subtitle?: string;
   subtitleProps?: IStyledTextProps;
+  selectedItem?: ListItem | undefined;
+  navBarHeight?: number;
+  buttonStyle?: ViewStyle | undefined;
+  flatListStyle?: ViewStyle | undefined;
+  flatListItemStyle?: ViewStyle | undefined;
+  labelStyle?: TextStyle | undefined;
+  labelFont?: TypographyProp | undefined;
+  buttonTextStyle?: TextStyle | undefined;
+  buttonTextStyleChosen?: TextStyle | undefined;
+  buttonTextFont?: TypographyProp | undefined;
+  buttonTextFontChosen?: TypographyProp | undefined;
+  flatListTextStyle?: TextStyle | undefined;
+  flatListTextStylePressed?: TextStyle | undefined;
+  flatListTextFont?: TypographyProp | undefined;
+  flatListTextFontPressed?: TypographyProp | undefined;
+  selectedItemColor?: string | undefined;
+  maxVisibleListLength?: number;
 }
 
 export interface IDropDownIconProps {

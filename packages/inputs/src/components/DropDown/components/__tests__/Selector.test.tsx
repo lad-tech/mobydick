@@ -35,7 +35,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
 
     expect(renderItemOnPress).toHaveBeenCalledWith(inputList[0]);
   });
-  it('renders correctly with bottom padding', async () => {
+  it('renders correctly with bottom padding largeList', async () => {
     const {toJSON} = render(
       <Selector
         list={largeList}
@@ -48,28 +48,15 @@ describe('@npm/mobydick-inputs/Selector', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('render correct renderItem TouchableHighlight with custom style', () => {
-    const {toJSON, rerender} = render(
+    const {toJSON} = render(
       <Selector
         list={list}
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
-        addFlatListItemStyle={{height: 10}}
+        flatListItemStyle={{height: 10}}
         selectedItem={list[0]}
         selectedItemColor={'red'}
-      />,
-    );
-
-    expect(toJSON()).toMatchSnapshot();
-
-    rerender(
-      <Selector
-        list={list}
-        onClose={jest.fn()}
-        pageY={1}
-        renderItemOnPress={renderItemOnPress}
-        addFlatListItemStyle={{height: 10}}
-        selectedItem={list[0]}
       />,
     );
 
@@ -82,56 +69,21 @@ describe('@npm/mobydick-inputs/Selector', () => {
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
-        addFlatListTextStylePressed={{backgroundColor: 'red'}}
+        flatListTextStylePressed={{backgroundColor: 'red'}}
       />,
     );
 
     expect(toJSON()).toMatchSnapshot();
   });
   it('render correct renderItem Typography  with custom font ', () => {
-    const {toJSON, rerender} = render(
+    const {toJSON} = render(
       <Selector
         list={list}
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
-        addFlatListTextFontPressed={'Bold-Error-L'}
-      />,
-    );
-
-    expect(toJSON()).toMatchSnapshot();
-
-    rerender(
-      <Selector
-        list={list}
-        onClose={jest.fn()}
-        pageY={1}
-        renderItemOnPress={renderItemOnPress}
-        selectedItem={list[0]}
-      />,
-    );
-
-    expect(toJSON()).toMatchSnapshot();
-
-    rerender(
-      <Selector
-        list={list}
-        onClose={jest.fn()}
-        pageY={1}
-        renderItemOnPress={renderItemOnPress}
-        addFlatListTextFont={'Regular-Error-XXS'}
-      />,
-    );
-
-    expect(toJSON()).toMatchSnapshot();
-
-    rerender(
-      <Selector
-        list={list}
-        onClose={jest.fn()}
-        pageY={1}
-        renderItemOnPress={renderItemOnPress}
+        flatListTextFontPressed={'Bold-Error-L'}
       />,
     );
 
@@ -140,88 +92,39 @@ describe('@npm/mobydick-inputs/Selector', () => {
 
   it('How props Selector affect getDropDownDimensions', () => {
     const spy = jest.spyOn(getDropDownDimensions, 'getDropDownDimensions');
-    const {rerender} = render(
+    render(
       <Selector
         list={list}
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
-        addFlatListStyle={{paddingVertical: 2}}
+        flatListStyle={{paddingVertical: 2}}
       />,
     );
 
     expect(spy).toHaveBeenLastCalledWith({
-      addFlatListItemHeight: undefined,
-      dropDownBorderWidth: 1,
-      dropDownHeight: 48,
-      flatListPaddingVertical: 2,
-      listLength: 1,
-      maxVisibleListLength: 6,
+      dropDownBorderWidth: 1.5,
+      dropDownHeight: 72,
       navBarHeight: 50,
       pageY: 1,
-    });
-
-    rerender(
-      <Selector
-        list={list}
-        onClose={jest.fn()}
-        pageY={1}
-        renderItemOnPress={renderItemOnPress}
-        selectedItem={list[0]}
-        addFlatListStyle={{paddingVertical: 2}}
-        addButtonStyle={{height: 10}}
-      />,
-    );
-
-    expect(spy).toHaveBeenLastCalledWith({
-      addFlatListItemHeight: undefined,
-      dropDownBorderWidth: 1,
-      dropDownHeight: 10,
-      flatListPaddingVertical: 2,
       listLength: 1,
-      maxVisibleListLength: 6,
-      navBarHeight: 50,
-      pageY: 1,
     });
   });
 
   it('Selector custom flatList styles', () => {
-    const {toJSON, rerender} = render(
+    const {toJSON} = render(
       <Selector
         list={list}
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
         selectedItem={list[0]}
-        addFlatListStyle={{width: 2}}
+        flatListStyle={{width: 2}}
+        buttonStyle={{borderWidth: 1}}
       />,
     );
 
-    expect(toJSON()).toMatchSnapshot();
-
-    rerender(
-      <Selector
-        list={list}
-        onClose={jest.fn()}
-        pageY={1000000}
-        renderItemOnPress={renderItemOnPress}
-        selectedItem={list[0]}
-        addButtonStyle={{width: 2}}
-      />,
-    );
-    expect(toJSON()).toMatchSnapshot();
-
-    rerender(
-      <Selector
-        list={list}
-        onClose={jest.fn()}
-        pageY={1000000}
-        renderItemOnPress={renderItemOnPress}
-        selectedItem={list[0]}
-        addButtonStyle={{width: 2, borderWidth: 2}}
-      />,
-    );
     expect(toJSON()).toMatchSnapshot();
   });
 });

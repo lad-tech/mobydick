@@ -1,84 +1,45 @@
-import {Platform} from 'react-native';
+import {Dimensions, Platform} from 'react-native';
 
 import {
   DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON,
-  DROP_DOWN_LIST_ITEM_MULTIPLIER,
+  LIST_MAX_HEIGHT,
+  STATUS_BAR_HEIGHT,
 } from '../constants';
 
 interface IGetDimensionsParams {
   pageY: number;
   navBarHeight: number;
   dropDownHeight: number;
-  flatListPaddingVertical: number;
-  listLength: number;
-  maxVisibleListLength: number;
-  addFlatListItemHeight: number | undefined;
   dropDownBorderWidth: number;
-}
-
-interface IGetDropDownHeightsParams {
-  dropDownHeight: number;
-  flatListPaddingVertical: number;
   listLength: number;
-  maxVisibleListLength: number;
-  addFlatListItemHeight: number | undefined;
 }
-
-export const getDropDownHeights = ({
-  dropDownHeight,
-  flatListPaddingVertical,
-  listLength,
-  maxVisibleListLength,
-  addFlatListItemHeight,
-}: IGetDropDownHeightsParams) => {
-  const dropDownItemHeight = addFlatListItemHeight
-    ? addFlatListItemHeight
-    : dropDownHeight * DROP_DOWN_LIST_ITEM_MULTIPLIER;
-  const dropDownMaxHeight =
-    dropDownItemHeight * maxVisibleListLength + flatListPaddingVertical * 2;
-  const dropDownViewHeight =
-    listLength > maxVisibleListLength
-      ? dropDownItemHeight * maxVisibleListLength + flatListPaddingVertical * 2
-      : listLength * dropDownItemHeight + flatListPaddingVertical * 2;
-  return {
-    dropDownMaxHeight,
-    dropDownItemHeight,
-    dropDownViewHeight,
-  };
-};
 
 export const getDropDownDimensions = ({
   pageY,
   navBarHeight,
   dropDownHeight,
-  flatListPaddingVertical,
   listLength,
-  maxVisibleListLength,
-  addFlatListItemHeight,
-  dropDownBorderWidth,
 }: IGetDimensionsParams) => {
-  const {dropDownViewHeight, dropDownMaxHeight, dropDownItemHeight} =
-    getDropDownHeights({
-      dropDownHeight,
-      flatListPaddingVertical,
-      listLength,
-      maxVisibleListLength,
-      addFlatListItemHeight,
-    });
-  const listUnderPosition =
-    pageY + dropDownHeight + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON * 2;
-  const listAbovePosition =
-    Platform.OS === 'android'
-      ? pageY - dropDownViewHeight
-      : pageY - dropDownViewHeight - dropDownBorderWidth * 2;
-  const expectedEndPositionOnScreen =
-    dropDownHeight + dropDownViewHeight + pageY + navBarHeight;
+  const {height} = Dimensions.get('window');
+
+  const listHeight =
+    listLength >= 6 ? LIST_MAX_HEIGHT : (LIST_MAX_HEIGHT / 6) * listLength;
+
+  const underDropDownPos =
+    pageY + dropDownHeight + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON;
+
+  const aboveDropDownPos =
+    Platform.OS === 'android' && STATUS_BAR_HEIGHT
+      ? height - pageY - STATUS_BAR_HEIGHT + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON
+      : height - pageY + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON;
+
+  const bottomScreenPos = dropDownHeight + listHeight + pageY + navBarHeight;
+
+  const isAboveDropDown = bottomScreenPos > height;
 
   return {
-    listUnderPosition,
-    listAbovePosition,
-    expectedEndPositionOnScreen,
-    dropDownMaxHeight,
-    dropDownItemHeight,
+    underDropDownPos: underDropDownPos,
+    aboveDropDownPos: aboveDropDownPos,
+    isAboveDropDown: isAboveDropDown,
   };
 };

@@ -4,7 +4,7 @@ import {StyleSheet} from 'react-native';
 import {ITypes} from '../types';
 import {disabledStyle, validStyle, wrongStyle} from '../../style';
 
-const defaultStyle = (theme: IThemeContext, isOpen: boolean) => {
+const defaultStyle = (theme: IThemeContext) => {
   const {colors, spaces} = theme;
   return StyleSheet.create({
     container: {
@@ -15,14 +15,17 @@ const defaultStyle = (theme: IThemeContext, isOpen: boolean) => {
       borderRadius: spaces.Space8,
       paddingHorizontal: spaces.Space12,
       borderWidth: 1,
-      borderColor: isOpen ? colors.BorderNormal : 'transparent',
+      borderColor: colors.BorderNormal,
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
-      marginVertical: spaces.Space8,
+      marginBottom: spaces.Space8,
     },
     placeholder: {
       flex: 1,
+    },
+    label: {
+      paddingBottom: spaces.Space8,
     },
     overlay: {
       position: 'absolute',
@@ -36,14 +39,14 @@ const defaultStyle = (theme: IThemeContext, isOpen: boolean) => {
 const stylesCreate = (theme: IThemeContext, type: ITypes, isOpen: boolean) => {
   switch (type) {
     case ITypes.valid:
-      return validStyle(theme, defaultStyle(theme, isOpen), isOpen);
+      return validStyle(theme, defaultStyle(theme), isOpen);
     case ITypes.wrong:
-      return wrongStyle(theme, defaultStyle(theme, isOpen), isOpen);
+      return wrongStyle(theme, defaultStyle(theme), isOpen);
     case ITypes.disabled:
-      return disabledStyle(theme, defaultStyle(theme, isOpen), isOpen);
+      return disabledStyle(theme, defaultStyle(theme), isOpen);
     case ITypes.default:
     default:
-      return defaultStyle(theme, isOpen);
+      return defaultStyle(theme);
   }
 };
 
