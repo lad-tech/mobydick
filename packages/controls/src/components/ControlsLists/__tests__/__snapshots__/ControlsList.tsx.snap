@@ -3,9 +3,12 @@
 exports[`ControlsList should renders correctly with checkbox type 1`] = `
 <View
   style={
-    Object {
-      "flexDirection": "column",
-    }
+    Array [
+      Object {
+        "flexDirection": "column",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -136,9 +139,12 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
 exports[`ControlsList should renders correctly with checkbox type and horizontal 1`] = `
 <View
   style={
-    Object {
-      "flexDirection": "row",
-    }
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -269,9 +275,12 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
 exports[`ControlsList should renders correctly with checkbox type and single 1`] = `
 <View
   style={
-    Object {
-      "flexDirection": "column",
-    }
+    Array [
+      Object {
+        "flexDirection": "column",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -402,9 +411,12 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
 exports[`ControlsList should renders correctly with radio type 1`] = `
 <View
   style={
-    Object {
-      "flexDirection": "column",
-    }
+    Array [
+      Object {
+        "flexDirection": "column",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -551,9 +563,12 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
 exports[`ControlsList should renders correctly with radio type and horizontal 1`] = `
 <View
   style={
-    Object {
-      "flexDirection": "row",
-    }
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -688,9 +703,12 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
 exports[`ControlsList should renders correctly with radio type and single 1`] = `
 <View
   style={
-    Object {
-      "flexDirection": "column",
-    }
+    Array [
+      Object {
+        "flexDirection": "column",
+      },
+      undefined,
+    ]
   }
 >
   <View
