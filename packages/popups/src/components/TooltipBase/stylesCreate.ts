@@ -1,7 +1,7 @@
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IThemeContext} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
-const stylesCreate = (theme: IUseStylesTheme) => {
+const stylesCreate = (theme: IThemeContext) => {
   const {colors} = theme;
 
   return StyleSheet.create({

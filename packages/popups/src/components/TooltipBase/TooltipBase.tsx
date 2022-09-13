@@ -27,7 +27,7 @@ const TooltipBase: FC<
   const {containerStyle, children, onClose, overlayStyle, position, placement} =
     props;
   const [styles] = useStyles(stylesCreate);
-  console.log('props.pageY.y', props.pageY);
+
   return (
     <PopupBase onClose={onClose} overlayStyle={overlayStyle}>
       <Animated.View

@@ -1,5 +1,4 @@
-import {TextStyle, ViewStyle} from 'react-native';
-import {ReactNode} from 'react';
+import {ColorValue, ViewStyle} from 'react-native';
 
 export enum IPosition {
   top = 'top',
@@ -16,14 +15,5 @@ export interface IArrowViewPopup {
   placement: IPlacement;
   position: IPosition;
   arrowViewStyles?: ViewStyle;
-  colorTooltip: string;
-}
-
-export interface ITooltip {
-  position?: IPosition;
-  element?: JSX.Element;
-  styleContainer?: ViewStyle;
-  titleStyles?: TextStyle;
-  children: ReactNode;
-  placement?: IPlacement;
+  colorTooltip: ColorValue;
 }

@@ -1,16 +1,13 @@
 import React, {FC} from 'react';
-import Title from '@npm/mobydick-popups/src/components/TooltipBase/Title';
-import DescriptionText from '@npm/mobydick-popups/src/components/TooltipBase/DescriptionText';
 import {Button, ISize} from '@npm/mobydick-cta';
 import {boolean, select, text} from '@storybook/addon-knobs';
-import Arrow from '@npm/mobydick-popups/src/components/TooltipBase/Arrow';
+import {defaultElementLightColor} from '@npm/mobydick-styles';
 import {
+  IContentProps,
   IPlacement,
   IPosition,
   TooltipBase,
-} from '@npm/mobydick-popups/src/components/TooltipBase';
-import {defaultElementLightColor} from '@npm/mobydick-styles';
-import {IContentProps} from '@npm/mobydick-popups';
+} from '@npm/mobydick-popups';
 
 const ExampleTooltip: FC<
   IContentProps & {
@@ -30,15 +27,15 @@ const ExampleTooltip: FC<
       placement={placement}
       overlayStyle={props.overlayStyle}
       containerStyle={{backgroundColor: colorTooltip}}>
-      <Title
+      <TooltipBase.Title
         title={'Войдите в приложение, чтобы\nделиться картами и скидками'}
       />
-      <DescriptionText
+      <TooltipBase.DescriptionText
         descriptionText={'Это займет меньше минуты, а\nплюшек станет больше!'}
       />
 
       {boolean('With arrow', isArrow) ? (
-        <Arrow
+        <TooltipBase.Arrow
           placement={placement}
           position={position}
           colorTooltip={colorTooltip}
