@@ -13,6 +13,7 @@ const ControlsList: FC<IControlsList> = ({
   disabled = false,
   children,
   initialValues,
+  listStyles,
 }) => {
   const {values, radios} = cloneControls(
     children,
@@ -26,7 +27,7 @@ const ControlsList: FC<IControlsList> = ({
     onChange(values);
   }, [values]);
 
-  return <View style={styles.list}>{radios}</View>;
+  return <View style={[styles.list, listStyles]}>{radios}</View>;
 };
 
 export default ControlsList;

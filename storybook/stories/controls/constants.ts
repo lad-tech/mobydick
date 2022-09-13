@@ -1,0 +1,10 @@
+export const numberOfLines = 2;
+export const optionOne = 'Option 1';
+export const optionTwo = 'Option 2';
+export const optionThree = 'Option 3';
+export const optionFour = 'Option 4';
+export const font = 'Regular-Primary-M';
+export const textOne = 'Text 1';
+export const textTwo = 'Text 2';
+export const textThree = 'Text 3';
+export const textFour = 'Text 4';
