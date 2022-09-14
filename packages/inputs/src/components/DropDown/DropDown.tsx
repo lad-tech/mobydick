@@ -54,7 +54,9 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
     buttonTextFontChosen,
     type = ITypes.default,
     disabled,
+
     subtitle,
+    subtitleIcon,
     subtitleProps,
   } = props;
 
@@ -178,6 +180,7 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
           <Subtitle
             type={type}
             subtitle={subtitle}
+            subtitleIcon={subtitleIcon}
             subtitleProps={subtitleProps}
           />
         ) : null}

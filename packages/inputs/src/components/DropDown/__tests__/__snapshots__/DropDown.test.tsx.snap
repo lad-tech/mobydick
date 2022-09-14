@@ -521,22 +521,31 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
         </Text>
       </View>
     </View>
-    <Text
-      allowFontScaling={true}
+    <View
       style={
-        Array [
-          Object {
-            "color": "#9BA1B0",
-            "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
-          },
-          undefined,
-        ]
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
       }
     >
-      subtitle
-    </Text>
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#9BA1B0",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 18,
+              "lineHeight": 24,
+            },
+            undefined,
+          ]
+        }
+      >
+        subtitle
+      </Text>
+    </View>
   </View>
 </View>
 `;

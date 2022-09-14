@@ -62,22 +62,31 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
       testID="TextInput"
     />
   </View>
-  <Text
-    allowFontScaling={true}
+  <View
     style={
-      Array [
-        Object {
-          "color": "#9BA1B0",
-          "fontFamily": "Inter-Regular",
-          "fontSize": 18,
-          "lineHeight": 24,
-        },
-        undefined,
-      ]
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
     }
   >
-    subtitle
-  </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#9BA1B0",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          undefined,
+        ]
+      }
+    >
+      subtitle
+    </Text>
+  </View>
 </View>
 `;
 
@@ -421,22 +430,31 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
       testID="TextInput"
     />
   </View>
-  <Text
-    allowFontScaling={true}
+  <View
     style={
-      Array [
-        Object {
-          "color": "#F54D3D",
-          "fontFamily": "Inter-Regular",
-          "fontSize": 18,
-          "lineHeight": 24,
-        },
-        undefined,
-      ]
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
     }
   >
-    subtitle
-  </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#F54D3D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          undefined,
+        ]
+      }
+    >
+      subtitle
+    </Text>
+  </View>
 </View>
 `;
 
@@ -486,21 +504,30 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
       testID="TextInput"
     />
   </View>
-  <Text
-    allowFontScaling={true}
+  <View
     style={
-      Array [
-        Object {
-          "color": "#F54D3D",
-          "fontFamily": "Inter-Regular",
-          "fontSize": 18,
-          "lineHeight": 24,
-        },
-        undefined,
-      ]
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
     }
   >
-    subtitle
-  </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#F54D3D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          undefined,
+        ]
+      }
+    >
+      subtitle
+    </Text>
+  </View>
 </View>
 `;

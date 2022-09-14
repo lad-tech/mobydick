@@ -1,6 +1,7 @@
 import {ReactElement} from 'react';
 import {TextStyle, ViewStyle} from 'react-native';
 import {IStyledTextProps, TypographyProp} from '@npm/mobydick-typography';
+import {SimpleIconName} from '@npm/mobydick-styles';
 
 import {ITypes} from '../types';
 
@@ -15,6 +16,7 @@ export interface IDropDownProps<ListItem extends IListItem> {
   type?: ITypes;
   disabled?: boolean;
   subtitle?: string;
+  subtitleIcon?: SimpleIconName | undefined;
   subtitleProps?: IStyledTextProps;
   selectedItem?: ListItem | undefined;
   navBarHeight?: number;
