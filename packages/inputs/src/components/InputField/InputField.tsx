@@ -33,6 +33,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     type = ITypes.default,
     disabled = false,
     titleProps,
+    subtitleIcon,
     subtitleProps,
     containerStyle,
     textInputContainerStyle,
@@ -79,6 +80,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
         <Subtitle
           type={type}
           subtitle={subtitle}
+          subtitleIcon={subtitleIcon}
           subtitleProps={subtitleProps}
         />
       ) : null}
