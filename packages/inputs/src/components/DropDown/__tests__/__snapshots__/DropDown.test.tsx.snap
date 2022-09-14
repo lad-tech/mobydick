@@ -532,6 +532,19 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
       <Text
         allowFontScaling={true}
         style={
+          Object {
+            "color": "#9BA1B0",
+            "fontFamily": "Neotis",
+            "fontSize": 24,
+            "marginRight": 6,
+          }
+        }
+      >
+        
+      </Text>
+      <Text
+        allowFontScaling={true}
+        style={
           Array [
             Object {
               "color": "#9BA1B0",

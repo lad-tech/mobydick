@@ -73,6 +73,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
     <Text
       allowFontScaling={true}
       style={
+        Object {
+          "color": "#9BA1B0",
+          "fontFamily": "Neotis",
+          "fontSize": 24,
+          "marginRight": 6,
+        }
+      }
+    >
+      
+    </Text>
+    <Text
+      allowFontScaling={true}
+      style={
         Array [
           Object {
             "color": "#9BA1B0",
@@ -441,6 +454,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
     <Text
       allowFontScaling={true}
       style={
+        Object {
+          "color": "#F54D3D",
+          "fontFamily": "Neotis",
+          "fontSize": 24,
+          "marginRight": 6,
+        }
+      }
+    >
+      
+    </Text>
+    <Text
+      allowFontScaling={true}
+      style={
         Array [
           Object {
             "color": "#F54D3D",
@@ -512,6 +538,19 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
       }
     }
   >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#F54D3D",
+          "fontFamily": "Neotis",
+          "fontSize": 24,
+          "marginRight": 6,
+        }
+      }
+    >
+      
+    </Text>
     <Text
       allowFontScaling={true}
       style={

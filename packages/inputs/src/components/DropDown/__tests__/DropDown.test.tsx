@@ -105,6 +105,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           list={array}
           onPress={onPress}
           subtitle={'subtitle'}
+          subtitleIcon={'icon-account'}
           buttonStyle={{
             width: 400,
             height: 70,
