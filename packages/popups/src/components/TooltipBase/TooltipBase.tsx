@@ -61,7 +61,9 @@ const TooltipBase: FC<
     }
   }, []);
 
-  if (!posTop && !posBottom) return null;
+  if (!posTop && !posBottom) {
+    return null;
+  }
 
   return (
     <PopupBase onClose={onClose} overlayStyle={overlayStyle}>

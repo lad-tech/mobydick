@@ -13,7 +13,7 @@ exports[`@npm/mobydick-popups/TooltipBase/DescriptionText should renders correct
       },
       Array [
         Object {
-          "paddingBottom": 24,
+          "paddingBottom": 12,
           "zIndex": 1,
         },
         undefined,
@@ -38,7 +38,7 @@ exports[`@npm/mobydick-popups/TooltipBase/DescriptionText should renders correct
       },
       Array [
         Object {
-          "paddingBottom": 24,
+          "paddingBottom": 12,
           "zIndex": 1,
         },
         Object {

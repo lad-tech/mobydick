@@ -6,7 +6,8 @@ const stylesCreate = (theme: IThemeContext) => {
 
   return StyleSheet.create({
     container: {
-      padding: spaces.Space16,
+      paddingVertical: spaces.Space8,
+      paddingHorizontal: spaces.Space16,
       borderRadius: spaces.Space8,
       justifyContent: 'center',
       alignItems: 'center',
@@ -23,11 +24,12 @@ const stylesCreate = (theme: IThemeContext) => {
     },
     title: {
       zIndex: 1,
+      paddingTop: spaces.Space4,
       paddingBottom: spaces.Space8,
     },
     descriptionText: {
       zIndex: 1,
-      paddingBottom: spaces.Space16,
+      paddingBottom: spaces.Space8,
     },
   });
 };

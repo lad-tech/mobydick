@@ -42,6 +42,7 @@ const positionArrow = (
         borderLeftColor: 'transparent',
       };
     case IPosition.bottom:
+    default:
       return {
         bottom: -7,
         borderTopWidth: 8,

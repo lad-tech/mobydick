@@ -38,7 +38,8 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly  
         "bottom": -1076,
         "justifyContent": "center",
         "marginVertical": 12,
-        "padding": 24,
+        "paddingHorizontal": 24,
+        "paddingVertical": 12,
         "position": "absolute",
         "zIndex": 1,
       }

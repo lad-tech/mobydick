@@ -5,7 +5,7 @@ import {IPopup} from '../../types';
 
 export interface ITitlePopup {
   title: string;
-  titleStyles?: ViewStyle;
+  titleStyles?: ViewStyle | ViewStyle[];
   titleFont?: TypographyProp;
 }
 
