@@ -1,13 +1,13 @@
-import {TouchableOpacity} from '@npm/mobydick-core';
-import React, {FC} from 'react';
+import {ITouchableOpacity, TouchableOpacity} from '@npm/mobydick-core';
+import React, {FC, forwardRef} from 'react';
 import {ISizeSpinner, Spinner} from '@npm/mobydick-progress';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 
-import {ButtonProps, ISize, ITypes} from './types';
+import {IButtonProps, ISize, ITypes} from './types';
 import stylesCreate from './stylesCreate';
 
-const Button: FC<ButtonProps> = props => {
+const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
   const {
     style,
     text,
@@ -38,6 +38,7 @@ const Button: FC<ButtonProps> = props => {
 
   const Container: FC = ({children}) => (
     <TouchableOpacity
+      ref={ref}
       style={[styles.container, style]}
       disabled={
         loading ||
@@ -71,5 +72,5 @@ const Button: FC<ButtonProps> = props => {
       {rightIcon}
     </Container>
   );
-};
+});
 export default Button;

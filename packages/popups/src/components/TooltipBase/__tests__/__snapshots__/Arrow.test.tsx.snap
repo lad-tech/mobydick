@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/TooltipBase/Arrow should renders correctly bottom center 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderStyle": "solid",
+        "height": 0,
+        "position": "absolute",
+        "width": 0,
+      },
+      Object {
+        "width": 20,
+      },
+      Object {
+        "alignSelf": "center",
+      },
+      Object {
+        "borderBottomColor": "transparent",
+        "borderBottomWidth": 0,
+        "borderLeftColor": "transparent",
+        "borderLeftWidth": 10,
+        "borderRightColor": "transparent",
+        "borderRightWidth": 10,
+        "borderTopColor": "#000",
+        "borderTopWidth": 8,
+        "bottom": -7,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`@npm/mobydick-popups/TooltipBase/Arrow should renders correctly bottom end 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderStyle": "solid",
+        "height": 0,
+        "position": "absolute",
+        "width": 0,
+      },
+      undefined,
+      Object {
+        "right": 10,
+      },
+      Object {
+        "borderBottomColor": "transparent",
+        "borderBottomWidth": 0,
+        "borderLeftColor": "transparent",
+        "borderLeftWidth": 10,
+        "borderRightColor": "transparent",
+        "borderRightWidth": 10,
+        "borderTopColor": "#000",
+        "borderTopWidth": 8,
+        "bottom": -7,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`@npm/mobydick-popups/TooltipBase/Arrow should renders correctly top start 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderStyle": "solid",
+        "height": 0,
+        "position": "absolute",
+        "width": 0,
+      },
+      Object {
+        "width": 20,
+      },
+      Object {
+        "left": 10,
+      },
+      Object {
+        "borderBottomColor": "#000",
+        "borderBottomWidth": 8,
+        "borderLeftColor": "transparent",
+        "borderLeftWidth": 10,
+        "borderRightColor": "transparent",
+        "borderRightWidth": 10,
+        "borderTopColor": "transparent",
+        "borderTopWidth": 0,
+        "top": -7,
+      },
+    ]
+  }
+/>
+`;

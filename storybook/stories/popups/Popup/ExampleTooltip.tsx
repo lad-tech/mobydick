@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React, {FC, RefObject} from 'react';
 import {Button, ISize} from '@npm/mobydick-cta';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {defaultElementLightColor} from '@npm/mobydick-styles';
@@ -8,10 +8,11 @@ import {
   IPosition,
   TooltipBase,
 } from '@npm/mobydick-popups';
+import {ITouchableOpacity} from '@npm/mobydick-core';
 
 const ExampleTooltip: FC<
   IContentProps & {
-    pageY: number;
+    refCurrent: RefObject<ITouchableOpacity>;
   }
 > = props => {
   const isArrow = true;

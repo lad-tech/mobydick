@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React, {RefObject, useRef, useState} from 'react';
 import {storiesOf} from '@storybook/react-native';
 import {Button, ISize} from '@npm/mobydick-cta';
 import {usePopups} from '@npm/mobydick-popups';
-import {View} from '@npm/mobydick-core';
+import {ITouchableOpacity, View} from '@npm/mobydick-core';
 
 import CenterView from '../../CenterView';
 
@@ -29,31 +29,49 @@ const PopupExample = () => {
 
 const PopupTooltipExample = () => {
   const popupContext = usePopups();
-  const [pageY, setPageY] = useState(0);
+  const viewRef = useRef<ITouchableOpacity>(null);
+  const viewRef2 = useRef<ITouchableOpacity>(null);
+  const viewRef3 = useRef<ITouchableOpacity>(null);
 
-  const openPopup = () => {
-    popupContext.openPopup({
-      id: 'TOOLTIP_POPUP_ID',
-      Content: propsFromPopup => (
-        <ExampleTooltip
-          {...propsFromPopup}
-          overlayStyle={{
-            justifyContent: undefined,
-            backgroundColor: 'transparent',
-          }}
-          pageY={pageY}
-        />
-      ),
-    });
+  const openPopup = (ref: RefObject<ITouchableOpacity>) => {
+    if (ref.current) {
+      popupContext.openPopup({
+        id: 'TOOLTIP_POPUP_ID',
+        Content: propsFromPopup => (
+          <ExampleTooltip
+            {...propsFromPopup}
+            overlayStyle={{
+              justifyContent: undefined,
+              backgroundColor: 'transparent',
+            }}
+            refCurrent={ref}
+          />
+        ),
+      });
+    }
   };
+
   return (
-    <Button
-      onLayout={e =>
-        setPageY(e.nativeEvent.layout.y + e.nativeEvent.layout.height)
-      }
-      text={'What is it?'}
-      onPress={openPopup}
-    />
+    <>
+      <Button
+        ref={viewRef}
+        text={'What is it?'}
+        onPress={() => openPopup(viewRef)}
+        style={{marginBottom: 10}}
+      />
+      <Button
+        ref={viewRef2}
+        text={'What is it1?'}
+        onPress={() => openPopup(viewRef2)}
+        style={{marginBottom: 10}}
+      />
+      <Button
+        ref={viewRef3}
+        text={'What is it2?'}
+        onPress={() => openPopup(viewRef3)}
+        style={{marginBottom: 10}}
+      />
+    </>
   );
 };
 

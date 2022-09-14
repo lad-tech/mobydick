@@ -2,16 +2,17 @@ import {IThemeContext} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
 const stylesCreate = (theme: IThemeContext) => {
-  const {colors} = theme;
+  const {spaces} = theme;
 
   return StyleSheet.create({
     container: {
-      padding: 16,
-      borderRadius: 8,
+      padding: spaces.Space16,
+      borderRadius: spaces.Space8,
       justifyContent: 'center',
       alignItems: 'center',
       zIndex: 1,
-      marginVertical: 8,
+      marginVertical: spaces.Space8,
+      position: 'absolute',
     },
     arrow: {
       position: 'absolute',
@@ -21,16 +22,12 @@ const stylesCreate = (theme: IThemeContext) => {
       borderStyle: 'solid',
     },
     title: {
-      fontSize: 14,
       zIndex: 1,
-      color: colors.TextPrimary,
-      paddingBottom: 8,
+      paddingBottom: spaces.Space8,
     },
     descriptionText: {
-      fontSize: 14,
       zIndex: 1,
-      color: colors.TextTertiary,
-      paddingBottom: 16,
+      paddingBottom: spaces.Space16,
     },
   });
 };
