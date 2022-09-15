@@ -23,7 +23,9 @@ const Toggle: FC<IToggle> = ({active, disabled, ...rest}) => {
 
   return (
     <Pressable disabled={disabled} {...rest}>
-      <Animated.View style={[styles.container, {backgroundColor}]}>
+      <Animated.View
+        style={[styles.container, {backgroundColor}]}
+        needsOffscreenAlphaCompositing={true}>
         <Animated.View style={[styles.switcher, {transform: [{translateX}]}]} />
       </Animated.View>
     </Pressable>
