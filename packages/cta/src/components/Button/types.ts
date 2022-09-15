@@ -3,7 +3,7 @@ import {ReactElement} from 'react';
 import {StyleProp, TextStyle} from 'react-native';
 import {TypographyProp} from '@npm/mobydick-typography';
 
-interface IButtonProps {
+type IProps = {
   type?: ITypes;
   text?: string;
   textStyle?: StyleProp<TextStyle>;
@@ -12,7 +12,7 @@ interface IButtonProps {
   rightIcon?: ReactElement;
   loading?: boolean;
   size?: ISize;
-}
+};
 
 export enum ITypes {
   primary = 'primary',
@@ -29,4 +29,4 @@ export enum ISize {
   fixed = 'fixed',
 }
 
-export type ButtonProps = ITouchableOpacityProps & IButtonProps;
+export type IButtonProps = ITouchableOpacityProps & IProps;

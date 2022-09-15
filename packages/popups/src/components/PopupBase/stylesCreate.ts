@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 
-const stylesCreate = (theme: IUseStylesTheme) => {
+const stylesCreate = (theme: IThemeContext) => {
   const {colors} = theme;
   return StyleSheet.create({
     overlay: {
