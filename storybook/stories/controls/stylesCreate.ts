@@ -1,10 +1,10 @@
 import {StyleSheet} from 'react-native';
 import {IThemeContext} from '@npm/mobydick-styles';
 
-const stylesCreate = (_theme: IThemeContext) =>
+const stylesCreate = (theme: IThemeContext) =>
   StyleSheet.create({
     containerStyle: {
-      padding: 12,
+      padding: theme.spaces.Space12,
     },
     typographyStyle: {
       flex: 1,

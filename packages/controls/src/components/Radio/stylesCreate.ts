@@ -1,8 +1,8 @@
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 
 const stylesCreate = (
-  theme: IUseStylesTheme,
+  theme: IThemeContext,
   selected: boolean,
   disabled: boolean,
 ) => {
@@ -17,7 +17,7 @@ const stylesCreate = (
     circle: {
       width: rem(22),
       aspectRatio: 1,
-      borderRadius: 11,
+      borderRadius: rem(11),
       backgroundColor: selected ? colors.ElementBase : 'transparent',
       borderColor: selected ? colors.ElementBase : colors.BorderNormal,
       borderWidth: spaces.Space2,
@@ -28,8 +28,8 @@ const stylesCreate = (
     innerCircle: {
       width: rem(18),
       aspectRatio: 1,
-      borderWidth: 2,
-      borderRadius: 9,
+      borderWidth: spaces.Space2,
+      borderRadius: rem(9),
       borderColor: colors.BgPrimary,
     },
   });
