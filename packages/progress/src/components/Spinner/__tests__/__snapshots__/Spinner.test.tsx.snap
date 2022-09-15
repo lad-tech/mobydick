@@ -5,6 +5,7 @@ exports[`@npm/mobydick-progress/Spinner renders correctly L 1`] = `
   collapsable={false}
   style={
     Object {
+      "alignSelf": "center",
       "transform": Array [
         Object {
           "rotate": "0deg",
@@ -26,6 +27,7 @@ exports[`@npm/mobydick-progress/Spinner renders correctly M 1`] = `
   collapsable={false}
   style={
     Object {
+      "alignSelf": "center",
       "transform": Array [
         Object {
           "rotate": "0deg",
@@ -47,6 +49,7 @@ exports[`@npm/mobydick-progress/Spinner renders correctly S 1`] = `
   collapsable={false}
   style={
     Object {
+      "alignSelf": "center",
       "transform": Array [
         Object {
           "rotate": "0deg",

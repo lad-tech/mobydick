@@ -426,6 +426,7 @@ exports[`@npm/mobydick-cta/Button renders correctly loading 1`] = `
     collapsable={false}
     style={
       Object {
+        "alignSelf": "center",
         "transform": Array [
           Object {
             "rotate": "0deg",
@@ -543,6 +544,7 @@ exports[`@npm/mobydick-cta/Button renders correctly small 2`] = `
     collapsable={false}
     style={
       Object {
+        "alignSelf": "center",
         "transform": Array [
           Object {
             "rotate": "0deg",
