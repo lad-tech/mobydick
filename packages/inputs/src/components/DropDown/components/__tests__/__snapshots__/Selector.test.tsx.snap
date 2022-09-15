@@ -514,7 +514,9 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
                   "paddingVertical": 12,
                 },
                 undefined,
-                null,
+                Object {
+                  "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                },
               ]
             }
           >
@@ -523,12 +525,14 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
               style={
                 Array [
                   Object {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-Regular",
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
                   },
-                  undefined,
+                  Object {
+                    "backgroundColor": "red",
+                  },
                 ]
               }
             >
@@ -804,7 +808,9 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding lar
                   "paddingVertical": 12,
                 },
                 undefined,
-                null,
+                Object {
+                  "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                },
               ]
             }
           >
@@ -849,7 +855,56 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding lar
                   "paddingVertical": 12,
                 },
                 undefined,
-                null,
+                Object {
+                  "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Medium",
+                    "fontSize": 24,
+                    "lineHeight": 30,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              1
+            </Text>
+          </View>
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityLabel="1"
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "justifyContent": "center",
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
+                },
+                undefined,
+                Object {
+                  "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                },
               ]
             }
           >
@@ -894,7 +949,9 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding lar
                   "paddingVertical": 12,
                 },
                 undefined,
-                null,
+                Object {
+                  "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                },
               ]
             }
           >
@@ -939,7 +996,9 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding lar
                   "paddingVertical": 12,
                 },
                 undefined,
-                null,
+                Object {
+                  "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                },
               ]
             }
           >
@@ -984,7 +1043,9 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding lar
                   "paddingVertical": 12,
                 },
                 undefined,
-                null,
+                Object {
+                  "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                },
               ]
             }
           >
@@ -1029,52 +1090,9 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding lar
                   "paddingVertical": 12,
                 },
                 undefined,
-                null,
-              ]
-            }
-          >
-            <Text
-              allowFontScaling={true}
-              style={
-                Array [
-                  Object {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-Regular",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              1
-            </Text>
-          </View>
-        </View>
-        <View
-          onLayout={[Function]}
-          style={null}
-        >
-          <View
-            accessibilityLabel="1"
-            accessible={true}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
                 Object {
-                  "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "backgroundColor": "rgba(43, 120, 238, 0.15)",
                 },
-                undefined,
-                null,
               ]
             }
           >

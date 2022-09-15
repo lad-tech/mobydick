@@ -25,6 +25,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     const {toJSON} = render(
       <PopupsProvider>
         <DropDown
+          selectedItem={list[1]}
           placeholder={'Выберите язык'}
           label={'Название поля'}
           list={list}
@@ -100,6 +101,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     const {getByLabelText, toJSON, getByTestId} = render(
       <PopupsProvider>
         <DropDown
+          selectedItem={'selectedItem'}
           placeholder={'Выберите язык'}
           label={'Название поля'}
           list={array}
@@ -134,6 +136,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     const {toJSON} = render(
       <PopupsProvider>
         <DropDown
+          selectedItem={'selectedItem'}
           placeholder={'Выберите язык'}
           label={'Название поля'}
           list={list}
@@ -156,6 +159,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     const {toJSON} = render(
       <PopupsProvider>
         <DropDown
+          selectedItem={'selectedItem'}
           placeholder={'Выберите язык'}
           label={'Название поля'}
           list={list}
@@ -171,6 +175,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     const {toJSON} = render(
       <PopupsProvider>
         <DropDown
+          selectedItem={'selectedItem'}
           placeholder={'Выберите язык'}
           label={'Название поля'}
           list={list}

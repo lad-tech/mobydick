@@ -22,6 +22,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
     const {toJSON, findByLabelText} = render(
       <Selector
         list={[...inputList]}
+        selectedItem={list[1]}
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
@@ -41,6 +42,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         list={largeList}
         onClose={jest.fn()}
         pageY={1}
+        selectedItem={largeList[1]}
         renderItemOnPress={renderItemOnPress}
       />,
     );
@@ -66,6 +68,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
     const {toJSON} = render(
       <Selector
         list={list}
+        selectedItem={list[0]}
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
