@@ -1,5 +1,6 @@
 import {FunctionComponentElement} from 'react';
 import {IPressableProps} from '@npm/mobydick-core';
+import {ViewStyle} from 'react-native';
 
 import {IControlProps} from '../types';
 
@@ -10,4 +11,5 @@ export interface IControlsList {
   single?: boolean;
   disabled?: boolean;
   initialValues?: string[];
+  listStyles?: ViewStyle;
 }

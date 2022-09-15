@@ -8,7 +8,11 @@ import {ITypes} from '../../types';
 describe('@npm/mobydick-inputs/InputField', () => {
   it('renders correctly', () => {
     const {toJSON} = render(
-      <InputField title={'title'} subtitle={'subtitle'} />,
+      <InputField
+        title={'title'}
+        subtitle={'subtitle'}
+        subtitleIcon={'icon-account'}
+      />,
     );
 
     expect(toJSON()).toMatchSnapshot();
@@ -25,7 +29,11 @@ describe('@npm/mobydick-inputs/InputField', () => {
   });
   it('renders correctly wrong', () => {
     const {toJSON, getByTestId} = render(
-      <InputField type={ITypes.wrong} subtitle={'subtitle'} />,
+      <InputField
+        type={ITypes.wrong}
+        subtitle={'subtitle'}
+        subtitleIcon={'icon-account'}
+      />,
     );
 
     expect(toJSON()).toMatchSnapshot();

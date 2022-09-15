@@ -44,6 +44,13 @@ const ExampleArrayOfStrings = () => {
       disabled={boolean('disabled', false)}
       type={select('type', ITypes, ITypes.default)}
       subtitle={text('subtitle', '')}
+      subtitleIcon={
+        select(
+          'subtitleIcon name',
+          iconNames,
+          'icon-arrow-down',
+        ) as SimpleIconName
+      }
       rightIcon={
         <SimpleIcon
           name={

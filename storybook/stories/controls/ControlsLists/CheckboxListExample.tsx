@@ -3,31 +3,66 @@ import {boolean, text} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
 import {Typography} from '@npm/mobydick-typography';
 import React from 'react';
+import {useStyles} from '@npm/mobydick-styles';
+
+import {
+  font,
+  numberOfLines,
+  optionFour,
+  optionOne,
+  optionThree,
+  optionTwo,
+  textFour,
+  textOne,
+  textThree,
+  textTwo,
+} from '../constants';
+import stylesCreate from '../stylesCreate';
 
 const CheckboxListExample = () => {
-  const font = 'Regular-Primary-M';
+  const [styles] = useStyles(stylesCreate);
 
   return (
     <ControlsList
-      horizontal={boolean('horizontal', false)}
       single={boolean('single', false)}
       disabled={boolean('disabled', false)}
       onChange={action('pressed')}
-      initialValues={['Option 1', 'Option 4']}>
-      <CheckBox value={''} containerStyle={{padding: 12}}>
-        <Typography font={font}>{text('Text 1', 'Option 1')}</Typography>
+      initialValues={[optionOne, optionFour]}
+      listStyles={styles.listStyle}>
+      <CheckBox value={''} containerStyle={styles.containerStyle}>
+        <Typography
+          font={font}
+          numberOfLines={numberOfLines}
+          style={styles.typographyStyle}>
+          {text(textOne, optionOne)}
+        </Typography>
       </CheckBox>
-      <CheckBox value={'Option 2'} containerStyle={{padding: 12}}>
-        <Typography font={font}>{text('Text 2', 'Option 2')}</Typography>
+      <CheckBox value={optionTwo} containerStyle={styles.containerStyle}>
+        <Typography
+          font={font}
+          numberOfLines={numberOfLines}
+          style={styles.typographyStyle}>
+          {text(textTwo, optionTwo)}
+        </Typography>
       </CheckBox>
       <CheckBox
-        value={'Option 3'}
-        containerStyle={{padding: 12}}
+        value={optionThree}
+        containerStyle={styles.containerStyle}
         selected={true}>
-        <Typography font={font}>{text('Text 3', 'Option 3')}</Typography>
+        <Typography
+          font={font}
+          numberOfLines={numberOfLines}
+          style={styles.typographyStyle}>
+          {text(textThree, optionThree)}
+        </Typography>
       </CheckBox>
-      <CheckBox value={'Option 4'} containerStyle={{padding: 12}}>
-        <Typography font={font}>{text('Text 4', 'Option 4')}</Typography>
+      <CheckBox value={optionFour} containerStyle={styles.containerStyle}>
+        <Typography
+          font={font}
+          numberOfLines={numberOfLines}
+          style={styles.typographyStyle}>
+          {text(textFour, optionFour)}
+        </Typography>
       </CheckBox>
     </ControlsList>
   );
