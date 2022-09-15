@@ -1,5 +1,5 @@
 import {boolean, text} from '@storybook/addon-knobs';
-import React from 'react';
+import React, {useState} from 'react';
 import {Radio} from '@npm/mobydick-controls';
 import {action} from '@storybook/addon-actions';
 import {Typography} from '@npm/mobydick-typography';
@@ -11,14 +11,18 @@ import {font, numberOfLines, optionOne, textOne} from '../constants';
 
 const RadioExample = () => {
   const [styles] = useStyles(stylesCreate);
+  const [isSelected, setSelected] = useState(false);
 
   return (
     <View style={styles.listStyle}>
       <Radio
         value={optionOne}
-        selected={boolean('selected', false)}
+        selected={isSelected}
         disabled={boolean('disabled', false)}
-        onPress={action('clicked radio')}>
+        onPress={() => {
+          action('clicked radio');
+          setSelected(!isSelected);
+        }}>
         <Typography
           font={font}
           numberOfLines={numberOfLines}

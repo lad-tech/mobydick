@@ -18,8 +18,8 @@ exports[`@npm/mobydick-controls/Radio/Circle renders correctly 1`] = `
     Object {
       "aspectRatio": 1,
       "borderColor": "#FFF",
-      "borderRadius": 9,
-      "borderWidth": 2,
+      "borderRadius": 13.5,
+      "borderWidth": 3,
       "width": 27,
     }
   }
@@ -44,8 +44,8 @@ exports[`@npm/mobydick-controls/Radio/Circle renders correctly selected 1`] = `
     Object {
       "aspectRatio": 1,
       "borderColor": "#FFF",
-      "borderRadius": 9,
-      "borderWidth": 2,
+      "borderRadius": 13.5,
+      "borderWidth": 3,
       "width": 27,
     }
   }
@@ -57,7 +57,7 @@ exports[`@npm/mobydick-controls/Radio/Circle renders correctly selected 1`] = `
         "aspectRatio": 1,
         "backgroundColor": "transparent",
         "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 11,
+        "borderRadius": 16.5,
         "borderWidth": 3,
         "justifyContent": "center",
         "marginRight": 18,

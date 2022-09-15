@@ -38,7 +38,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly 1`] = `
         "aspectRatio": 1,
         "backgroundColor": "transparent",
         "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 11,
+        "borderRadius": 16.5,
         "borderWidth": 3,
         "justifyContent": "center",
         "marginRight": 18,
@@ -88,7 +88,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly disabled 1`] = `
         "aspectRatio": 1,
         "backgroundColor": "transparent",
         "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 11,
+        "borderRadius": 16.5,
         "borderWidth": 3,
         "justifyContent": "center",
         "marginRight": 18,
@@ -138,7 +138,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
         "aspectRatio": 1,
         "backgroundColor": "#2B78EE",
         "borderColor": "#2B78EE",
-        "borderRadius": 11,
+        "borderRadius": 16.5,
         "borderWidth": 3,
         "justifyContent": "center",
         "marginRight": 18,
@@ -152,8 +152,8 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
         Object {
           "aspectRatio": 1,
           "borderColor": "#FFF",
-          "borderRadius": 9,
-          "borderWidth": 2,
+          "borderRadius": 13.5,
+          "borderWidth": 3,
           "width": 27,
         }
       }
@@ -200,7 +200,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`
         "aspectRatio": 1,
         "backgroundColor": "#2B78EE",
         "borderColor": "#2B78EE",
-        "borderRadius": 11,
+        "borderRadius": 16.5,
         "borderWidth": 3,
         "justifyContent": "center",
         "marginRight": 18,
@@ -214,8 +214,8 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`
         Object {
           "aspectRatio": 1,
           "borderColor": "#FFF",
-          "borderRadius": 9,
-          "borderWidth": 2,
+          "borderRadius": 13.5,
+          "borderWidth": 3,
           "width": 27,
         }
       }

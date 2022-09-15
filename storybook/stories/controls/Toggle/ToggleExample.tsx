@@ -3,7 +3,7 @@ import {Toggle} from '@npm/mobydick-controls';
 import {boolean} from '@storybook/addon-knobs';
 
 const ToggleExample = () => {
-  const [isActive, setActive] = useState(true);
+  const [isActive, setActive] = useState(false);
 
   return (
     <Toggle
