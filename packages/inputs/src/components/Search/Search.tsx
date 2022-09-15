@@ -20,8 +20,9 @@ const Search: FC<ISearchProps> = ({
   textInputContainerStyle,
   ...otherProps
 }) => {
-  const [styles] = useStyles(stylesCreate);
+  const [styles, theme] = useStyles(stylesCreate);
   const {fontStyle} = useFont();
+
   return (
     <View style={[styles.container, containerStyle]}>
       {leftIcon ? leftIcon : <SimpleIcon name={'icon-search'} />}
@@ -29,7 +30,7 @@ const Search: FC<ISearchProps> = ({
         accessibilityLabel={accessibilityLabels.search}
         style={[fontStyle, styles.textInput, textInputContainerStyle]}
         placeholder={placeholder}
-        placeholderTextColor={fontStyle.color}
+        placeholderTextColor={theme.colors.TextTertiary}
         value={value}
         onChangeText={onChangeText}
         {...otherProps}
