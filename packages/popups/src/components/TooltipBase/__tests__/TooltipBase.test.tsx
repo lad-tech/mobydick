@@ -13,7 +13,7 @@ describe('@npm/mobydick-popups/TooltipBase/TooltipBase', () => {
     buttonRef = React.createRef();
     render(<Button ref={buttonRef} />);
   });
-  it('should renders correctly ', () => {
+  it('should renders correctly bottom center', () => {
     jest
       .spyOn(buttonRef.current as TouchableOpacity, 'measure')
       .mockImplementation(
@@ -26,7 +26,7 @@ describe('@npm/mobydick-popups/TooltipBase/TooltipBase', () => {
             pageX: number,
             pageY: number,
           ) => void,
-        ) => cb(0, 0, 1, 1, 287, 2410),
+        ) => cb(0, 24, 1, 1, 287, 2410),
       );
 
     const {toJSON} = render(
@@ -35,6 +35,32 @@ describe('@npm/mobydick-popups/TooltipBase/TooltipBase', () => {
         onClose={() => null}
         position={IPosition.bottom}
         placement={IPlacement.center}
+        refCurrent={buttonRef}
+      />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('should renders correctly top start', () => {
+    const {toJSON} = render(
+      <TooltipBase
+        id={'id'}
+        onClose={() => null}
+        position={IPosition.top}
+        placement={IPlacement.start}
+        refCurrent={buttonRef}
+      />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('should renders correctly top end', () => {
+    const {toJSON} = render(
+      <TooltipBase
+        id={'id'}
+        onClose={() => null}
+        position={IPosition.top}
+        placement={IPlacement.end}
         refCurrent={buttonRef}
       />,
     );
