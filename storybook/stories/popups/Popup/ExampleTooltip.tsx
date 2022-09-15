@@ -8,6 +8,8 @@ import {
   TooltipBase,
 } from '@npm/mobydick-popups';
 import {ITouchableOpacity} from '@npm/mobydick-core';
+import {IThemeContext, useStyles} from '@npm/mobydick-styles';
+import {StyleSheet} from 'react-native';
 
 enum ITypeTooltip {
   onlyTitle = 'onlyTitle',
@@ -20,6 +22,8 @@ const ExampleTooltip: FC<
     refCurrent: RefObject<ITouchableOpacity>;
   }
 > = props => {
+  const [styles] = useStyles(stylesCreate);
+
   const isArrow = true;
   const placement = select('Placement', IPlacement, IPlacement.center);
   const position = select('Position', IPosition, IPosition.bottom);
@@ -58,12 +62,7 @@ const ExampleTooltip: FC<
           overlayStyle={props.overlayStyle}>
           <TooltipBase.Title
             title={titleText}
-            titleStyles={[
-              {
-                paddingTop: 4,
-                paddingBottom: 8,
-              },
-            ]}
+            titleStyles={styles.titleStyles}
           />
           <TooltipBase.DescriptionText descriptionText={descriptionText} />
           {boolean('With arrow', isArrow) ? (
@@ -83,10 +82,7 @@ const ExampleTooltip: FC<
           overlayStyle={props.overlayStyle}>
           <TooltipBase.Title
             title={titleText}
-            titleStyles={{
-              paddingTop: 4,
-              paddingBottom: 8,
-            }}
+            titleStyles={styles.titleStyles}
           />
 
           <TooltipBase.DescriptionText descriptionText={descriptionText} />
@@ -106,5 +102,13 @@ const ExampleTooltip: FC<
     }
   }
 };
+
+const stylesCreate = (theme: IThemeContext) =>
+  StyleSheet.create({
+    titleStyles: {
+      paddingTop: theme.spaces.Space4,
+      paddingBottom: theme.spaces.Space8,
+    },
+  });
 
 export default ExampleTooltip;
