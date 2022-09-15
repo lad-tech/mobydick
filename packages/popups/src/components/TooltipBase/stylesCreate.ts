@@ -56,8 +56,6 @@ const stylesCreate = (theme: IThemeContext, position?: IPosition) => {
     },
     title: {
       zIndex: 1,
-      paddingTop: spaces.Space4,
-      paddingBottom: spaces.Space8,
     },
     descriptionText: {
       zIndex: 1,

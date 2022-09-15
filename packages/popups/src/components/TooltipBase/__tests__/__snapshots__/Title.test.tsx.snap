@@ -13,8 +13,6 @@ exports[`@npm/mobydick-popups/TooltipBase/Title should renders correctly  1`] = 
       },
       Array [
         Object {
-          "paddingBottom": 12,
-          "paddingTop": 6,
           "zIndex": 1,
         },
         undefined,
@@ -39,8 +37,6 @@ exports[`@npm/mobydick-popups/TooltipBase/Title should renders correctly font 1`
       },
       Array [
         Object {
-          "paddingBottom": 12,
-          "paddingTop": 6,
           "zIndex": 1,
         },
         Object {
