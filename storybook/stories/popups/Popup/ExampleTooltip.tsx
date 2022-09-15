@@ -1,7 +1,6 @@
 import React, {FC, RefObject} from 'react';
 import {Button, ISize} from '@npm/mobydick-cta';
 import {boolean, select, text} from '@storybook/addon-knobs';
-import {defaultElementLightColor} from '@npm/mobydick-styles';
 import {
   IContentProps,
   IPlacement,
@@ -20,7 +19,6 @@ const ExampleTooltip: FC<
   const isDescriptionText = true;
   const placement = select('Placement', IPlacement, IPlacement.center);
   const position = select('Position', IPosition, IPosition.bottom);
-  const colorTooltip = select('Цвет', defaultElementLightColor, '#FFF');
 
   return (
     <TooltipBase
@@ -28,8 +26,7 @@ const ExampleTooltip: FC<
       onClose={props.onClose}
       position={position}
       placement={placement}
-      overlayStyle={props.overlayStyle}
-      containerStyle={{backgroundColor: colorTooltip}}>
+      overlayStyle={props.overlayStyle}>
       <TooltipBase.Title
         title={text(
           'Title text',
@@ -54,18 +51,14 @@ const ExampleTooltip: FC<
       ) : null}
 
       {boolean('With arrow', isArrow) ? (
-        <TooltipBase.Arrow
-          placement={placement}
-          position={position}
-          colorTooltip={colorTooltip}
-        />
+        <TooltipBase.Arrow placement={placement} position={position} />
       ) : null}
       {boolean('With button', isButton) ? (
         <Button
           onPress={() => null}
           text={text('Text button', 'Войти')}
           size={ISize.small}
-          style={{alignSelf: 'flex-start', paddingVertical: 8}}
+          style={{alignSelf: 'flex-start', marginVertical: 8}}
         />
       ) : null}
     </TooltipBase>

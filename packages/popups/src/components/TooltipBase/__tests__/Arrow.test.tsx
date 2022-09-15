@@ -10,7 +10,6 @@ describe('@npm/mobydick-popups/TooltipBase/Arrow', () => {
       <Arrow
         placement={IPlacement.start}
         position={IPosition.top}
-        colorTooltip={'#000'}
         arrowViewStyles={{width: 20}}
       />,
     );
@@ -22,7 +21,6 @@ describe('@npm/mobydick-popups/TooltipBase/Arrow', () => {
       <Arrow
         placement={IPlacement.center}
         position={IPosition.bottom}
-        colorTooltip={'#000'}
         arrowViewStyles={{width: 20}}
       />,
     );
@@ -31,11 +29,7 @@ describe('@npm/mobydick-popups/TooltipBase/Arrow', () => {
   });
   it('should renders correctly bottom end', () => {
     const {toJSON} = render(
-      <Arrow
-        placement={IPlacement.end}
-        position={IPosition.bottom}
-        colorTooltip={'#000'}
-      />,
+      <Arrow placement={IPlacement.end} position={IPosition.bottom} />,
     );
 
     expect(toJSON()).toMatchSnapshot();

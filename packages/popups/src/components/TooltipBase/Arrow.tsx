@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {View} from '@npm/mobydick-core';
-import {ColorValue, ViewStyle} from 'react-native';
+import {ViewStyle} from 'react-native';
 
 import stylesCreate from './stylesCreate';
-import {IArrowViewPopup, IPlacement, IPosition} from './types';
+import {IArrowViewPopup, IPlacement} from './types';
 
 const placementArrow = (placement: IPlacement): ViewStyle => {
   switch (placement) {
@@ -24,50 +24,16 @@ const placementArrow = (placement: IPlacement): ViewStyle => {
   }
 };
 
-const positionArrow = (
-  position: IPosition,
-  colorTooltip: ColorValue,
-): ViewStyle => {
-  switch (position) {
-    case IPosition.top:
-      return {
-        top: -7,
-        borderBottomWidth: 8,
-        borderRightWidth: 10,
-        borderTopWidth: 0,
-        borderLeftWidth: 10,
-        borderBottomColor: colorTooltip,
-        borderRightColor: 'transparent',
-        borderTopColor: 'transparent',
-        borderLeftColor: 'transparent',
-      };
-    case IPosition.bottom:
-    default:
-      return {
-        bottom: -7,
-        borderTopWidth: 8,
-        borderRightWidth: 10,
-        borderBottomWidth: 0,
-        borderLeftWidth: 10,
-        borderTopColor: colorTooltip,
-        borderRightColor: 'transparent',
-        borderBottomColor: 'transparent',
-        borderLeftColor: 'transparent',
-      };
-  }
-};
-
 const Arrow: FC<IArrowViewPopup> = props => {
-  const [styles] = useStyles(stylesCreate);
-  const {arrowViewStyles, placement, position, colorTooltip} = props;
-
+  const {arrowViewStyles, placement, position} = props;
+  const [styles] = useStyles(stylesCreate, position);
   return (
     <View
       style={[
         styles.arrow,
         arrowViewStyles,
+        styles.positionStyle,
         placementArrow(placement),
-        positionArrow(position, colorTooltip),
       ]}
     />
   );

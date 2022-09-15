@@ -3,6 +3,7 @@ import {storiesOf} from '@storybook/react-native';
 import {Button, ISize} from '@npm/mobydick-cta';
 import {usePopups} from '@npm/mobydick-popups';
 import {ITouchableOpacity, View} from '@npm/mobydick-core';
+import {ThemeProvider} from '@npm/mobydick-styles';
 
 import CenterView from '../../CenterView';
 
@@ -38,14 +39,16 @@ const PopupTooltipExample = () => {
       popupContext.openPopup({
         id: 'TOOLTIP_POPUP_ID',
         Content: propsFromPopup => (
-          <ExampleTooltip
-            {...propsFromPopup}
-            overlayStyle={{
-              justifyContent: undefined,
-              backgroundColor: 'transparent',
-            }}
-            refCurrent={ref}
-          />
+          <ThemeProvider currentTheme={'dark'}>
+            <ExampleTooltip
+              {...propsFromPopup}
+              overlayStyle={{
+                justifyContent: undefined,
+                backgroundColor: 'transparent',
+              }}
+              refCurrent={ref}
+            />
+          </ThemeProvider>
         ),
       });
     }

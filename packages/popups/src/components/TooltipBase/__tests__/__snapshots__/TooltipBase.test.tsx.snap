@@ -34,6 +34,7 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly  
     style={
       Object {
         "alignItems": "center",
+        "backgroundColor": "#FFF",
         "borderRadius": 12,
         "bottom": -1076,
         "justifyContent": "center",

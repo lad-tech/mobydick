@@ -1,4 +1,4 @@
-import {ColorValue, ViewStyle} from 'react-native';
+import {ViewStyle} from 'react-native';
 
 export enum IPosition {
   top = 'top',
@@ -14,6 +14,5 @@ export enum IPlacement {
 export interface IArrowViewPopup {
   placement: IPlacement;
   position: IPosition;
-  arrowViewStyles?: ViewStyle;
-  colorTooltip: ColorValue;
+  arrowViewStyles?: ViewStyle | ViewStyle[];
 }

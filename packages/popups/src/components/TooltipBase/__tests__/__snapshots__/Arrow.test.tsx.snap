@@ -15,18 +15,18 @@ exports[`@npm/mobydick-popups/TooltipBase/Arrow should renders correctly bottom 
         "width": 20,
       },
       Object {
-        "alignSelf": "center",
-      },
-      Object {
         "borderBottomColor": "transparent",
         "borderBottomWidth": 0,
         "borderLeftColor": "transparent",
-        "borderLeftWidth": 10,
+        "borderLeftWidth": 12,
         "borderRightColor": "transparent",
-        "borderRightWidth": 10,
-        "borderTopColor": "#000",
-        "borderTopWidth": 8,
-        "bottom": -7,
+        "borderRightWidth": 12,
+        "borderTopColor": "#FFF",
+        "borderTopWidth": 12,
+        "bottom": -12,
+      },
+      Object {
+        "alignSelf": "center",
       },
     ]
   }
@@ -46,18 +46,18 @@ exports[`@npm/mobydick-popups/TooltipBase/Arrow should renders correctly bottom 
       },
       undefined,
       Object {
-        "right": 10,
-      },
-      Object {
         "borderBottomColor": "transparent",
         "borderBottomWidth": 0,
         "borderLeftColor": "transparent",
-        "borderLeftWidth": 10,
+        "borderLeftWidth": 12,
         "borderRightColor": "transparent",
-        "borderRightWidth": 10,
-        "borderTopColor": "#000",
-        "borderTopWidth": 8,
-        "bottom": -7,
+        "borderRightWidth": 12,
+        "borderTopColor": "#FFF",
+        "borderTopWidth": 12,
+        "bottom": -12,
+      },
+      Object {
+        "right": 10,
       },
     ]
   }
@@ -79,18 +79,18 @@ exports[`@npm/mobydick-popups/TooltipBase/Arrow should renders correctly top sta
         "width": 20,
       },
       Object {
-        "left": 10,
-      },
-      Object {
-        "borderBottomColor": "#000",
-        "borderBottomWidth": 8,
+        "borderBottomColor": "#FFF",
+        "borderBottomWidth": 12,
         "borderLeftColor": "transparent",
-        "borderLeftWidth": 10,
+        "borderLeftWidth": 12,
         "borderRightColor": "transparent",
-        "borderRightWidth": 10,
+        "borderRightWidth": 12,
         "borderTopColor": "transparent",
         "borderTopWidth": 0,
-        "top": -7,
+        "top": -12,
+      },
+      Object {
+        "left": 10,
       },
     ]
   }
