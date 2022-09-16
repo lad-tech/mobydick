@@ -60,11 +60,10 @@ exports[`Search render correctly with value 1`] = `
     style={
       Object {
         "alignItems": "center",
-        "aspectRatio": 1,
         "backgroundColor": "#D1D4DB",
-        "borderRadius": 96,
+        "borderRadius": 36,
         "justifyContent": "center",
-        "width": 36,
+        "padding": 6,
       }
     }
   >

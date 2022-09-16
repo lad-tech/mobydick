@@ -1,8 +1,8 @@
 import React, {FC} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
+import {Typography} from '@npm/mobydick-typography';
 
 import {ITitlePopup} from '../PopupBase';
-import {Typography} from '../../../../typography';
 
 import stylesCreate from './stylesCreate';
 
