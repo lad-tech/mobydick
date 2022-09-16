@@ -1,15 +1,15 @@
 import {StyleSheet} from 'react-native';
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 
-const stylesCreate = (theme: IUseStylesTheme) =>
+const stylesCreate = (theme: IThemeContext) =>
   StyleSheet.create({
     container: {
       flexDirection: 'row',
       alignItems: 'center',
       maxWidth: '95%',
+      height: rem(36),
       backgroundColor: theme.colors.BgSecondary,
       borderRadius: theme.spaces.Space8,
-      paddingVertical: theme.spaces.Space6,
       paddingLeft: theme.spaces.Space12,
       paddingRight: theme.spaces.Space8,
     },
@@ -19,9 +19,12 @@ const stylesCreate = (theme: IUseStylesTheme) =>
       paddingHorizontal: theme.spaces.Space8,
     },
     cancelIcon: {
+      alignItems: 'center',
+      justifyContent: 'center',
+      width: theme.spaces.Space24,
+      aspectRatio: 1,
       backgroundColor: theme.colors.BgTertiary,
       borderRadius: theme.spaces.Space64,
-      padding: theme.spaces.Space4,
     },
   });
 

@@ -56,7 +56,8 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
           "justifyContent": "space-between",
           "marginBottom": 12,
           "opacity": 1,
-          "paddingHorizontal": 18,
+          "paddingLeft": 27,
+          "paddingRight": 18,
           "width": 300,
         }
       }
@@ -165,7 +166,8 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements disabled 1`
           "justifyContent": "space-between",
           "marginBottom": 12,
           "opacity": 1,
-          "paddingHorizontal": 18,
+          "paddingLeft": 27,
+          "paddingRight": 18,
           "width": 300,
         }
       }
@@ -269,7 +271,8 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type valid 
           "justifyContent": "space-between",
           "marginBottom": 12,
           "opacity": 1,
-          "paddingHorizontal": 18,
+          "paddingLeft": 27,
+          "paddingRight": 18,
           "width": 300,
         }
       }
@@ -373,7 +376,8 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type wrong 
           "justifyContent": "space-between",
           "marginBottom": 12,
           "opacity": 1,
-          "paddingHorizontal": 18,
+          "paddingLeft": 27,
+          "paddingRight": 18,
           "width": 400,
         }
       }
@@ -477,7 +481,8 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
           "justifyContent": "space-between",
           "marginBottom": 12,
           "opacity": 1,
-          "paddingHorizontal": 18,
+          "paddingLeft": 27,
+          "paddingRight": 18,
           "width": 400,
         }
       }

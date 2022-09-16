@@ -1,4 +1,4 @@
-import {IThemeContext} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
 import {ITypes} from '../types';
@@ -13,7 +13,8 @@ const defaultStyle = (theme: IThemeContext) => {
     inputContainer: {
       backgroundColor: colors.BgSecondary,
       borderRadius: spaces.Space8,
-      paddingHorizontal: spaces.Space12,
+      paddingLeft: rem(18),
+      paddingRight: theme.spaces.Space12,
       borderWidth: spaces.Space1,
       borderColor: colors.BorderNormal,
       flexDirection: 'row',

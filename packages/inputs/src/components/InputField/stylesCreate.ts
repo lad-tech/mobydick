@@ -9,12 +9,14 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
   return StyleSheet.create({
     inputContainer: {
       backgroundColor: colors.BgSecondary,
-      padding: theme.spaces.Space8,
+      paddingLeft: rem(18),
+      paddingRight: theme.spaces.Space16,
       borderRadius: theme.spaces.Space8,
       borderWidth: theme.spaces.Space1,
       borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: theme.spaces.Space8,
       minWidth: rem(130),
+      height: rem(48),
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',

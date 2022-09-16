@@ -40,7 +40,7 @@ const Search: FC<ISearchProps> = ({
           accessibilityLabel={accessibilityLabels.cancel}
           onPress={() => onChangeText('')}
           style={styles.cancelIcon}>
-          <SimpleIcon name={'icon-cancel'} size={rem(20)} />
+          <SimpleIcon name={'icon-cancel'} size={rem(16)} />
         </Pressable>
       ) : null}
     </View>
