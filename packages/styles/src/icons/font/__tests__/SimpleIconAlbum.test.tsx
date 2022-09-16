@@ -5,15 +5,19 @@ import SimpleIconAlbum from '../SimpleIconAlbum';
 
 describe('@npm/mobydick-styles/icons/SimpleIconAlbum', () => {
   it('renders correctly', () => {
-    const {toJSON} = render(<SimpleIconAlbum />);
+    const {toJSON} = render(<SimpleIconAlbum onPress={() => console.log()} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly with color', () => {
-    const {toJSON} = render(<SimpleIconAlbum color="#333" />);
+    const {toJSON} = render(
+      <SimpleIconAlbum color="#333" onPress={() => console.log()} />,
+    );
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly with press', () => {
-    const {toJSON, getByTestId} = render(<SimpleIconAlbum color="#333" />);
+    const {toJSON, getByTestId} = render(
+      <SimpleIconAlbum color="#333" onPress={() => console.log()} />,
+    );
     const pressable = getByTestId('icon-image');
 
     fireEvent.press(pressable, {target: null, currentTarget: null});
