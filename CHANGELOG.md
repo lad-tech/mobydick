@@ -1,3 +1,10 @@
+## [1.3.1](https://glab.lad24.ru/npm/mobydick/compare/v1.3.0...v1.3.1) (2022-09-16)
+
+
+### Bug Fixes
+
+* **tooltip:** fix import and search style ([6975269](https://glab.lad24.ru/npm/mobydick/commit/697526956cb436d4cb6207954c3b52bb59ab315c))
+
 # [1.3.0](https://glab.lad24.ru/npm/mobydick/compare/v1.2.0...v1.3.0) (2022-09-16)
 
 
