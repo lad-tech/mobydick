@@ -8,7 +8,7 @@ const stylesCreate = (theme: IThemeContext) => {
       position: 'absolute',
       backgroundColor: colors.BgSecondary,
       borderRadius: spaces.Space12,
-      borderWidth: 1,
+      borderWidth: spaces.Space1,
       borderColor: colors.BorderSoft,
       paddingVertical: spaces.Space8,
     },
