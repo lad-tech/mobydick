@@ -1,3 +1,25 @@
+# [1.3.0](https://glab.lad24.ru/npm/mobydick/compare/v1.2.0...v1.3.0) (2022-09-16)
+
+
+### Bug Fixes
+
+* **checkBox6 Radio:** add rem ([c5c740b](https://glab.lad24.ru/npm/mobydick/commit/c5c740b6239881e755e592a2dd542eb45b68e67b))
+* **dropdown:** delete optional selectedItem ([eda487f](https://glab.lad24.ru/npm/mobydick/commit/eda487fb0db8ae1fd44a83d0a6c5972a4e3671cd))
+* fix style ([692c55b](https://glab.lad24.ru/npm/mobydick/commit/692c55b350514175ae1ae4381d8013883d6f859f))
+* **Inputs:** add style height - Input: rem(48, Search: rem(36), and change paddingHorizontal ([c2fa45f](https://glab.lad24.ru/npm/mobydick/commit/c2fa45fcf83f087cb2893bbacfad4e7d36eb461b))
+* **search:** change color placeholder ([0b3add3](https://glab.lad24.ru/npm/mobydick/commit/0b3add364ff9264cb1ef7287365b42abe0d32b05))
+* **spinner:** add style ([2ed4469](https://glab.lad24.ru/npm/mobydick/commit/2ed4469f3f5dca9668d85e4c961587c499dbe5bf))
+* **toggle:** add props needsOffscreenAlphaCompositing, for fix android opacity ([4e6adf0](https://glab.lad24.ru/npm/mobydick/commit/4e6adf091342eb43985391ec3fce82ebdf3d56f8))
+* **toggle:** fix default active ([449fa51](https://glab.lad24.ru/npm/mobydick/commit/449fa51d031a4952be6a0de41a7366002ba7639f))
+* **tooltip:** add spaces ([2109021](https://glab.lad24.ru/npm/mobydick/commit/21090216c5fd32be88091a9b0e9d1fda8a67872a))
+* **Tooltip:** added popuBase and onClose ([3c5e17e](https://glab.lad24.ru/npm/mobydick/commit/3c5e17e1943ce17c43848270447af91172caa4f2))
+
+
+### Features
+
+* add tooltip without portal and tests ([11f0eb8](https://glab.lad24.ru/npm/mobydick/commit/11f0eb8b3279c07c1ecdf5f864cd82c677b7f86a))
+* **Inputfield:** add SimpleIcon for subtitle ([ccb4b71](https://glab.lad24.ru/npm/mobydick/commit/ccb4b715233aff5219962bd730764a4861ca1db0))
+
 # [1.2.0](https://glab.lad24.ru/npm/mobydick/compare/v1.1.6...v1.2.0) (2022-09-12)
 
 
