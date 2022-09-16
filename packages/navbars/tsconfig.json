@@ -2,6 +2,9 @@
   "extends": "../../tsconfig.json",
   "references": [
     {
+      "path": "../controls"
+    },
+    {
       "path": "../core"
     },
     {
@@ -30,6 +33,6 @@
     }
   ],
   "compilerOptions": {
-    "composite": true,
+    "composite": true
   }
 }

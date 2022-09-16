@@ -1,0 +1,24 @@
+{
+  "name": "@npm/mobydick-navbar",
+  "version": "1.0.3",
+  "description": "React Native components library focused on usability, accessibility and developer experience",
+  "main": "index.ts",
+  "files": ["src"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirill Lebedev <lebedevki@lad24.ru>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.66.4",
+    "react": ">=17.0.2"
+  },
+  "publishConfig": {
+    "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://glab.lad24.ru/npm/mobydick.git",
+    "directory": "packages/navbars"
+  }
+}
