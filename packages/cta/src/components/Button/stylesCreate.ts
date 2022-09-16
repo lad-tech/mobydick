@@ -1,10 +1,10 @@
-import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 import {Omit, StyleSheet, ViewStyle} from 'react-native';
 
 import {ISize, ITypes} from './types';
 
 interface IButtonContents {
-  theme: IUseStylesTheme;
+  theme: IThemeContext;
   size: ISize;
   leftIcon: boolean;
   rightIcon: boolean;
@@ -162,7 +162,7 @@ const destructiveStyle = ({
 };
 
 const stylesCreate = (
-  theme: IUseStylesTheme,
+  theme: IThemeContext,
   type: ITypes,
   size: ISize,
   leftIcon: boolean,

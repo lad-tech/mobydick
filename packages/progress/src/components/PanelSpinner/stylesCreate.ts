@@ -1,7 +1,7 @@
-import {IUseStylesTheme, rem} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
-const defaultStyle = (theme: IUseStylesTheme) =>
+const defaultStyle = (theme: IThemeContext) =>
   StyleSheet.create({
     container: {
       justifyContent: 'center',
@@ -31,7 +31,7 @@ const defaultStyle = (theme: IUseStylesTheme) =>
     },
   });
 
-const stylesCreate = (theme: IUseStylesTheme) => {
+const stylesCreate = (theme: IThemeContext) => {
   return defaultStyle(theme);
 };
 export default stylesCreate;

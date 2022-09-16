@@ -14,7 +14,7 @@ const defaultStyle = (theme: IThemeContext) => {
       backgroundColor: colors.BgSecondary,
       borderRadius: spaces.Space8,
       paddingHorizontal: spaces.Space12,
-      borderWidth: 1,
+      borderWidth: spaces.Space1,
       borderColor: colors.BorderNormal,
       flexDirection: 'row',
       justifyContent: 'space-between',

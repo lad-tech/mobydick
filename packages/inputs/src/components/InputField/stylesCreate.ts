@@ -11,7 +11,7 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
       backgroundColor: colors.BgSecondary,
       padding: theme.spaces.Space8,
       borderRadius: theme.spaces.Space8,
-      borderWidth: 1,
+      borderWidth: theme.spaces.Space1,
       borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: theme.spaces.Space8,
       minWidth: rem(130),

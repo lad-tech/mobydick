@@ -27,10 +27,10 @@ exports[`Toggle should renders correctly active 1`] = `
       Object {
         "backgroundColor": "rgba(43, 120, 238, 1)",
         "borderRadius": 30,
-        "height": 30,
+        "height": 45,
         "opacity": 1,
         "padding": 3,
-        "width": 50,
+        "width": 75,
       }
     }
   >
@@ -40,7 +40,7 @@ exports[`Toggle should renders correctly active 1`] = `
         Object {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
-          "borderRadius": 25,
+          "borderRadius": 37.5,
           "flex": 1,
           "transform": Array [
             Object {
@@ -81,10 +81,10 @@ exports[`Toggle should renders correctly active and disabled 1`] = `
       Object {
         "backgroundColor": "rgba(43, 120, 238, 1)",
         "borderRadius": 30,
-        "height": 30,
+        "height": 45,
         "opacity": 0.4,
         "padding": 3,
-        "width": 50,
+        "width": 75,
       }
     }
   >
@@ -94,7 +94,7 @@ exports[`Toggle should renders correctly active and disabled 1`] = `
         Object {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
-          "borderRadius": 25,
+          "borderRadius": 37.5,
           "flex": 1,
           "transform": Array [
             Object {
@@ -135,10 +135,10 @@ exports[`Toggle should renders correctly by default 1`] = `
       Object {
         "backgroundColor": "rgba(155, 161, 176, 1)",
         "borderRadius": 30,
-        "height": 30,
+        "height": 45,
         "opacity": 1,
         "padding": 3,
-        "width": 50,
+        "width": 75,
       }
     }
   >
@@ -148,7 +148,7 @@ exports[`Toggle should renders correctly by default 1`] = `
         Object {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
-          "borderRadius": 25,
+          "borderRadius": 37.5,
           "flex": 1,
           "transform": Array [
             Object {
@@ -189,10 +189,10 @@ exports[`Toggle should renders correctly disabled 1`] = `
       Object {
         "backgroundColor": "rgba(155, 161, 176, 1)",
         "borderRadius": 30,
-        "height": 30,
+        "height": 45,
         "opacity": 0.4,
         "padding": 3,
-        "width": 50,
+        "width": 75,
       }
     }
   >
@@ -202,7 +202,7 @@ exports[`Toggle should renders correctly disabled 1`] = `
         Object {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
-          "borderRadius": 25,
+          "borderRadius": 37.5,
           "flex": 1,
           "transform": Array [
             Object {

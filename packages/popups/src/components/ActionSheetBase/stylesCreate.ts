@@ -58,7 +58,7 @@ const stylesCreate = (
       borderBottomLeftRadius: spaces.Space12,
       borderBottomRightRadius: spaces.Space12,
       marginBottom: spaces.Space8,
-      borderTopWidth: 1,
+      borderTopWidth: spaces.Space1,
       borderTopColor: colors.BgTertiary,
     },
     cancelItem: {

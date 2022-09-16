@@ -1,7 +1,7 @@
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IThemeContext} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
-const defaultStyle = (theme: IUseStylesTheme) =>
+const defaultStyle = (theme: IThemeContext) =>
   StyleSheet.create({
     indicatorView: {
       width: '90%',
@@ -15,7 +15,7 @@ const defaultStyle = (theme: IUseStylesTheme) =>
     },
   });
 
-const stylesCreate = (theme: IUseStylesTheme) => {
+const stylesCreate = (theme: IThemeContext) => {
   return defaultStyle(theme);
 };
 export default stylesCreate;

@@ -1,6 +1,7 @@
 import rem from './rem';
 
 export const defaultSpaces = {
+  Space1: rem(1),
   Space2: rem(2),
   Space4: rem(4),
   Space6: rem(6),
