@@ -176,7 +176,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements disabled 1`
         style={
           Array [
             Object {
-              "color": "#20242D",
+              "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
               "fontSize": 24,
               "lineHeight": 30,
@@ -190,7 +190,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements disabled 1`
           ]
         }
       >
-        selectedItem
+        Выберите язык
       </Text>
       <View
         style={false}

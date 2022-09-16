@@ -175,7 +175,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     const {toJSON} = render(
       <PopupsProvider>
         <DropDown
-          selectedItem={'selectedItem'}
+          selectedItem={undefined}
           placeholder={'Выберите язык'}
           label={'Название поля'}
           list={list}
