@@ -21,10 +21,9 @@ const stylesCreate = (theme: IThemeContext) =>
     cancelIcon: {
       alignItems: 'center',
       justifyContent: 'center',
-      width: theme.spaces.Space24,
-      aspectRatio: 1,
       backgroundColor: theme.colors.BgTertiary,
-      borderRadius: theme.spaces.Space64,
+      borderRadius: rem(24),
+      padding: theme.spaces.Space4,
     },
   });
 
