@@ -8,17 +8,17 @@ import {ITypes} from '../types';
 export type IListItem = string | {label: string; value: unknown};
 
 export interface IDropDownProps<ListItem extends IListItem> {
+  selectedItem: ListItem | undefined;
+  placeholder: string;
+  onPress: (item: ListItem) => void;
+  list: ListItem[];
   label?: string;
   rightIcon?: ReactElement;
-  placeholder: string;
-  list: ListItem[];
-  onPress: (item: ListItem) => void;
   type?: ITypes;
   disabled?: boolean;
   subtitle?: string;
   subtitleIcon?: SimpleIconName | undefined;
   subtitleProps?: IStyledTextProps;
-  selectedItem?: ListItem | undefined;
   navBarHeight?: number;
   buttonStyle?: ViewStyle | undefined;
   flatListStyle?: ViewStyle | undefined;

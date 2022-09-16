@@ -67,7 +67,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
         style={
           Array [
             Object {
-              "color": "#9BA1B0",
+              "color": "#20242D",
               "fontFamily": "Inter-Regular",
               "fontSize": 24,
               "lineHeight": 30,
@@ -81,7 +81,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
           ]
         }
       >
-        Выберите язык
+        2
       </Text>
       <View
         style={false}
@@ -280,7 +280,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type valid 
         style={
           Array [
             Object {
-              "color": "#9BA1B0",
+              "color": "#20242D",
               "fontFamily": "Inter-Regular",
               "fontSize": 24,
               "lineHeight": 30,
@@ -294,7 +294,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type valid 
           ]
         }
       >
-        Выберите язык
+        selectedItem
       </Text>
       <View
         style={false}
@@ -384,7 +384,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type wrong 
         style={
           Array [
             Object {
-              "color": "#9BA1B0",
+              "color": "#20242D",
               "fontFamily": "Inter-Regular",
               "fontSize": 24,
               "lineHeight": 30,
@@ -398,7 +398,7 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type wrong 
           ]
         }
       >
-        Выберите язык
+        selectedItem
       </Text>
       <View
         style={false}
@@ -488,7 +488,7 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
         style={
           Array [
             Object {
-              "color": "#9BA1B0",
+              "color": "#20242D",
               "fontFamily": "Inter-Regular",
               "fontSize": 24,
               "lineHeight": 30,
@@ -502,7 +502,7 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
           ]
         }
       >
-        Выберите язык
+        selectedItem
       </Text>
       <View
         style={false}

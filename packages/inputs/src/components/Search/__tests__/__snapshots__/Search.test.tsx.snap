@@ -24,7 +24,7 @@ exports[`Search render correctly with value 1`] = `
     allowFontScaling={true}
     onChangeText={[MockFunction]}
     placeholder="Поиск"
-    placeholderTextColor="#20242D"
+    placeholderTextColor="#5E6678"
     style={
       Array [
         Object {
@@ -116,7 +116,7 @@ exports[`Search render correctly without value 1`] = `
     allowFontScaling={true}
     onChangeText={[Function]}
     placeholder="Поиск"
-    placeholderTextColor="#20242D"
+    placeholderTextColor="#5E6678"
     style={
       Array [
         Object {
