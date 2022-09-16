@@ -4,9 +4,12 @@ import {StyleSheet} from 'react-native';
 
 import rem from '../../spaces/rem';
 
-import SimpleIcon, {iconNames} from './SimpleIcon';
+import SimpleIcon, {iconNames, SimpleIconName} from './SimpleIcon';
 
-const SimpleIconAlbum = (props: {color?: string}): JSX.Element => {
+const SimpleIconAlbum = (props: {
+  color?: string;
+  onPress(item: SimpleIconName): void;
+}): JSX.Element => {
   return (
     <View style={styles.container}>
       {iconNames.map(item => (
@@ -14,7 +17,7 @@ const SimpleIconAlbum = (props: {color?: string}): JSX.Element => {
           testID={item}
           style={styles.item}
           key={item}
-          onPress={() => console.log(item)}>
+          onPress={() => props.onPress(item)}>
           <SimpleIcon
             key={item}
             name={item}
