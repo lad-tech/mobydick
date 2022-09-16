@@ -14,7 +14,8 @@ describe('useToggle hook', function () {
     expect(spy).toHaveBeenCalled();
   });
   it('should be false by default', function () {
-    const {result} = renderHook(useToggle);
+    const toggle = false;
+    const {result} = renderHook(() => useToggle(toggle));
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
     // RN не имеет интерфейса для Animated.Value
