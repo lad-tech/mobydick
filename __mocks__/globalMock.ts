@@ -28,3 +28,9 @@ jest.mock('react-native/Libraries/Utilities/Platform', () => {
 
 // we don't need logs in test's scripts
 jest.mock('../scripts/utils/logger'); // or use require
+
+jest.mock('react-native/Libraries/Utilities/BackHandler', () => {
+  return jest.requireActual(
+    'react-native/Libraries/Utilities/__mocks__/BackHandler.js',
+  );
+});

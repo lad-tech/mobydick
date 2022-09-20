@@ -1,51 +1,47 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
-import {renderHook} from '@testing-library/react-hooks';
+import {BackHandler} from 'react-native';
 
-import {usePopups} from '../../../hooks';
 import PopupBase from '../PopupBase';
 import Constants from '../constants';
-import {PopupsContext} from '../../../context';
-
-jest.mock('../../../hooks/usePopups');
 
 describe('@npm/mobydick-popups/PopupBase', () => {
   afterEach(() => {
     jest.resetAllMocks();
     jest.clearAllMocks();
   });
-  it('should renders correctly', () => {
-    const popupContextMock = {
-      closePopup: jest.fn(),
-    };
-    (usePopups as jest.Mock).mockReturnValue(popupContextMock);
 
-    const {toJSON, getByTestId} = render(<PopupBase onClose={() => null} />);
+  it('BackHandler', () => {
+    const onClose = jest.fn();
+    render(<PopupBase onClose={onClose} />);
+    // Оно есть вот туть node_modules/react-native/Libraries/Utilities/__mocks__/BackHandler.js
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    BackHandler.mockPressBack();
+
+    expect(onClose).toHaveBeenCalled();
+  });
+
+  it('should renders correctly', () => {
+    const onClose = jest.fn();
+
+    const {toJSON, getByTestId} = render(<PopupBase onClose={onClose} />);
     const pressable = getByTestId(Constants.testID);
 
     fireEvent.press(pressable, {target: null, currentTarget: null});
 
     expect(toJSON()).toMatchSnapshot();
   });
+
   it('should not fire onClose event', () => {
-    const {result} = renderHook(() => useContext(PopupsContext));
+    const onClose = jest.fn();
 
-    expect(result.current).toStrictEqual(
-      expect.objectContaining({
-        popups: [],
-      }),
-    );
-
-    const closePopup = jest.spyOn(result.current, 'closePopup');
-
-    const {toJSON, getByTestId} = render(
-      <PopupBase onClose={() => closePopup} />,
-    );
+    const {toJSON, getByTestId} = render(<PopupBase onClose={onClose} />);
     const pressable = getByTestId(Constants.testID);
 
     fireEvent.press(pressable, {target: {}, currentTarget: {}});
 
     expect(toJSON()).toMatchSnapshot();
-    expect(closePopup).toHaveBeenCalledTimes(0);
+    expect(onClose).toHaveBeenCalledTimes(0);
   });
 });
