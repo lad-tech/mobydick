@@ -21,8 +21,6 @@ const stylesCreate = (
   return StyleSheet.create({
     containerStyle: {
       width: '100%',
-      flex: 1,
-      justifyContent: 'flex-end',
     },
     item: {
       backgroundColor: colors.BgSecondary,
