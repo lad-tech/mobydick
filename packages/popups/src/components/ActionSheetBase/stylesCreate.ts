@@ -1,4 +1,4 @@
-import {StyleSheet, ViewStyle} from 'react-native';
+import {Platform, StyleSheet, ViewStyle} from 'react-native';
 import {IThemeContext, rem} from '@npm/mobydick-styles';
 
 const stylesCreate = (
@@ -21,6 +21,12 @@ const stylesCreate = (
   return StyleSheet.create({
     containerStyle: {
       width: '100%',
+      ...Platform.select({
+        android: {
+          flex: 1,
+          justifyContent: 'flex-end',
+        },
+      }),
     },
     item: {
       backgroundColor: colors.BgSecondary,
