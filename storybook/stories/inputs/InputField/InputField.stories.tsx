@@ -3,7 +3,13 @@ import React from 'react';
 import {InputField, ITypes} from '@npm/mobydick-inputs';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
-import {iconNames, rem, Show, SimpleIconName} from '@npm/mobydick-styles';
+import {
+  iconNames,
+  rem,
+  Show,
+  SimpleIcon,
+  SimpleIconName,
+} from '@npm/mobydick-styles';
 
 import CenterView from '../../CenterView';
 
@@ -16,11 +22,7 @@ storiesOf('Design System/Inputs/InputField', module)
       placeholder={text('Placeholder', 'Введите что-нибудь')}
       subtitle={text('subtitle', 'Подпись')}
       rightIcon={
-        <Show
-          onPress={action('onPressRightIcon')}
-          width={rem(24)}
-          height={rem(24)}
-        />
+        <SimpleIcon name={select('right Icon', iconNames, 'icon-show')} />
       }
       disabled={boolean('disabled', false)}
       onChangeText={action('onChangeText')}
