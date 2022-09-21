@@ -16,16 +16,22 @@ exports[`@npm/mobydick-popups/CloseIcon should renders correctly 1`] = `
     Object {
       "alignItems": "center",
       "alignSelf": "flex-end",
-      "backgroundColor": "#D1D4DB",
-      "borderRadius": 75,
       "justifyContent": "center",
       "opacity": 1,
-      "padding": 9,
     }
   }
 >
-  <SvgMock
-    fill="#5E6678"
-  />
+  <Text
+    allowFontScaling={true}
+    style={
+      Object {
+        "color": "#5E6678",
+        "fontFamily": "Neotis",
+        "fontSize": 36,
+      }
+    }
+  >
+    
+  </Text>
 </View>
 `;
