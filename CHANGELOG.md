@@ -1,3 +1,13 @@
+## [1.3.2](https://glab.lad24.ru/npm/mobydick/compare/v1.3.1...v1.3.2) (2022-09-21)
+
+
+### Bug Fixes
+
+* **action sheets:** добавила отдельный стиль для андроида ([5490f7f](https://glab.lad24.ru/npm/mobydick/commit/5490f7fb4105c8c994d707e4905b7fe87403845a))
+* **action sheets:** изменила стиль для починки мимоклика ([a24513a](https://glab.lad24.ru/npm/mobydick/commit/a24513ae15cef8067edc7c9fbe5f769c86d88b01))
+* **inputfield:** add select for right icon ([2e12fa7](https://glab.lad24.ru/npm/mobydick/commit/2e12fa75c2865cc8b0b167c2693763e436bc3a6d))
+* **popups:** Закрытие Popup[modal, snackbar, action sheet], DropDown, Calendar по нажатию на системную кнопку назад ([0b18e77](https://glab.lad24.ru/npm/mobydick/commit/0b18e7799e9480bc25ac5238cde4ac197d894660))
+
 ## [1.3.1](https://glab.lad24.ru/npm/mobydick/compare/v1.3.0...v1.3.1) (2022-09-16)
 
 
