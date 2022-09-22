@@ -1,24 +1,58 @@
 import {storiesOf} from '@storybook/react-native';
-import React from 'react';
-import {SimpleIcon} from '@npm/mobydick-styles';
+import React, {useState} from 'react';
 import {Tabs} from '@npm/mobydick-navbars';
 
 import CenterView from '../CenterView';
 
 const TabsExample = () => {
+  const [defaultValue, setDefaultValue] = useState('one');
+  const onPress = (value: string) => {
+    setDefaultValue(value);
+  };
+
   const list = [
     {
       value: 'one',
-      onPress: () => console.log('one'),
-      leftIcon: <SimpleIcon name={'icon-account'} size={14} />,
+      onPress: () => onPress('one'),
     },
     {
       value: 'two',
-      onPress: () => console.log('two'),
-      leftIcon: <SimpleIcon name={'icon-account'} size={14} />,
+      onPress: () => onPress('two'),
+    },
+    {
+      value: 'three',
+      onPress: () => onPress('three'),
+    },
+    {
+      value: 'four',
+      onPress: () => onPress('four'),
+    },
+    {
+      value: 'five',
+      onPress: () => onPress('five'),
+    },
+    {
+      value: 'six',
+      onPress: () => onPress('six'),
+    },
+    {
+      value: 'seven',
+      onPress: () => onPress('seven'),
+    },
+    {
+      value: 'eight',
+      onPress: () => onPress('eight'),
+    },
+    {
+      value: 'nine',
+      onPress: () => onPress('nine'),
+    },
+    {
+      value: 'ten',
+      onPress: () => onPress('ten'),
     },
   ];
-  return <Tabs list={list} />;
+  return <Tabs list={list} activeValue={defaultValue} />;
 };
 
 storiesOf('Design system/Navbars', module)

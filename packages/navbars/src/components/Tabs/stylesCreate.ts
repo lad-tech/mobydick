@@ -5,10 +5,14 @@ const stylesCreate = (theme: IThemeContext) => {
   const {colors, spaces} = theme;
 
   return StyleSheet.create({
-    container: {
+    containerStyle: {
       flex: 1,
-      justifyContent: 'center',
+      maxWidth: '100%',
+    },
+    contentContainerStyle: {
       alignItems: 'center',
+      paddingHorizontal: spaces.Space20,
+      paddingVertical: spaces.Space8,
     },
     tab: {
       flexDirection: 'row',
