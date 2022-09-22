@@ -26,7 +26,7 @@ const RadioExample = () => {
         <Typography
           font={font}
           numberOfLines={numberOfLines}
-          style={styles.containerStyle}>
+          style={styles.typographyStyle}>
           {text(textOne, optionOne)}
         </Typography>
       </Radio>

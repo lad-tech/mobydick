@@ -25,7 +25,7 @@ const CheckboxExample = () => {
         }}>
         <Typography
           font={font}
-          style={styles.containerStyle}
+          style={styles.typographyStyle}
           numberOfLines={numberOfLines}>
           {text(textOne, optionOne)}
         </Typography>
