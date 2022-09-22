@@ -17,6 +17,9 @@
       "path": "../popups"
     },
     {
+      "path": "../progress"
+    },
+    {
       "path": "../styles"
     },
     {
@@ -25,11 +28,8 @@
     {
       "path": "../utils"
     },
-    {
-      "path": "../navbars"
-    }
   ],
   "compilerOptions": {
-    "composite": true,
+    "composite": true
   }
 }

@@ -5,3 +5,4 @@ import './popups';
 import './typography';
 import './controls';
 import './icons';
+import './navbars';
