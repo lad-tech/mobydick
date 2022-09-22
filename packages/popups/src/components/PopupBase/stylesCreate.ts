@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {IThemeContext, rem} from '@npm/mobydick-styles';
+import {IThemeContext} from '@npm/mobydick-styles';
 
 const stylesCreate = (theme: IThemeContext) => {
   const {colors} = theme;
@@ -36,11 +36,8 @@ const stylesCreate = (theme: IThemeContext) => {
     },
     closeButton: {
       alignSelf: 'flex-end',
-      padding: theme.spaces.Space6,
       justifyContent: 'center',
       alignItems: 'center',
-      backgroundColor: colors.BgTertiary,
-      borderRadius: rem(50),
     },
   });
 };
