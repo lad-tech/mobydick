@@ -4,6 +4,19 @@ import {Tabs} from '@npm/mobydick-navbars';
 
 import CenterView from '../CenterView';
 
+enum exampleList {
+  one = 'one',
+  two = 'two',
+  three = 'three',
+  four = 'four',
+  five = 'five',
+  six = 'six',
+  seven = 'seven',
+  eight = 'eight',
+  nine = 'nine',
+  ten = 'ten',
+}
+
 const TabsExample = () => {
   const [defaultValue, setDefaultValue] = useState('one');
   const onPress = (value: string) => {
@@ -12,44 +25,44 @@ const TabsExample = () => {
 
   const list = [
     {
-      value: 'one',
-      onPress: () => onPress('one'),
+      value: exampleList.one,
+      onPress: () => onPress(exampleList.one),
     },
     {
-      value: 'two',
-      onPress: () => onPress('two'),
+      value: exampleList.two,
+      onPress: () => onPress(exampleList.two),
     },
     {
-      value: 'three',
-      onPress: () => onPress('three'),
+      value: exampleList.three,
+      onPress: () => onPress(exampleList.three),
     },
     {
-      value: 'four',
-      onPress: () => onPress('four'),
+      value: exampleList.four,
+      onPress: () => onPress(exampleList.four),
     },
     {
-      value: 'five',
-      onPress: () => onPress('five'),
+      value: exampleList.five,
+      onPress: () => onPress(exampleList.five),
     },
     {
-      value: 'six',
-      onPress: () => onPress('six'),
+      value: exampleList.six,
+      onPress: () => onPress(exampleList.six),
     },
     {
-      value: 'seven',
-      onPress: () => onPress('seven'),
+      value: exampleList.seven,
+      onPress: () => onPress(exampleList.seven),
     },
     {
-      value: 'eight',
-      onPress: () => onPress('eight'),
+      value: exampleList.eight,
+      onPress: () => onPress(exampleList.eight),
     },
     {
-      value: 'nine',
-      onPress: () => onPress('nine'),
+      value: exampleList.nine,
+      onPress: () => onPress(exampleList.nine),
     },
     {
-      value: 'ten',
-      onPress: () => onPress('ten'),
+      value: exampleList.ten,
+      onPress: () => onPress(exampleList.ten),
     },
   ];
   return <Tabs list={list} activeValue={defaultValue} />;
