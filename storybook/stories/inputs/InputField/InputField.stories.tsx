@@ -26,6 +26,7 @@ storiesOf('Design System/Inputs/InputField', module)
       }
       disabled={boolean('disabled', false)}
       onChangeText={action('onChangeText')}
+      textInputContainerStyle={{width: rem(250)}}
     />
   ))
   .add('with subtitleIcon', () => (
@@ -50,5 +51,6 @@ storiesOf('Design System/Inputs/InputField', module)
       }
       disabled={boolean('disabled', false)}
       onChangeText={action('onChangeText')}
+      textInputContainerStyle={{width: rem(250)}}
     />
   ));

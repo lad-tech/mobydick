@@ -5,7 +5,7 @@ const defaultStyle = (theme: IThemeContext) =>
   StyleSheet.create({
     indicatorView: {
       width: '90%',
-      height: theme.spaces.Space20,
+      height: theme.spaces.Space2,
       borderRadius: theme.spaces.Space20,
       backgroundColor: theme.colors.BgSecondary,
     },
