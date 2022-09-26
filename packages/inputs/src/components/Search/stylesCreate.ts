@@ -6,6 +6,7 @@ const stylesCreate = (theme: IThemeContext) =>
     container: {
       flexDirection: 'row',
       alignItems: 'center',
+      justifyContent: 'center',
       maxWidth: '95%',
       height: rem(36),
       backgroundColor: theme.colors.BgSecondary,
