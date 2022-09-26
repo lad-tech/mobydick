@@ -1,3 +1,5 @@
-import './InputField/InputField.stories';
+import './InputField/ExampleInput';
+import './InputField/ExampleInputWithSubtitleIcon';
 import './DropDown/DropDown.stories';
-import './Search/Search.stories';
+import './Search/ExampleSearch';
+import './Inputs.stories';
