@@ -1,3 +1,16 @@
+# [1.4.0](https://glab.lad24.ru/npm/mobydick/compare/v1.3.2...v1.4.0) (2022-09-26)
+
+
+### Bug Fixes
+
+* **progress indicator:** уменьшила высоту ([a4d06b9](https://glab.lad24.ru/npm/mobydick/commit/a4d06b92ee9dbf30daa31755b43f16cd264c52f7))
+* **search:** выравнила миллиметр до середины ([987ae70](https://glab.lad24.ru/npm/mobydick/commit/987ae70ca201acc4672971be37aee29cb041b35a))
+
+
+### Features
+
+* **Modal:** change close Icon ([c1346b1](https://glab.lad24.ru/npm/mobydick/commit/c1346b17e63d1f90d88ce5568273e65083601519))
+
 ## [1.3.2](https://glab.lad24.ru/npm/mobydick/compare/v1.3.1...v1.3.2) (2022-09-21)
 
 
