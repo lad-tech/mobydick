@@ -8,6 +8,7 @@ import {
   rem,
   SimpleIcon,
   SimpleIconName,
+  useTheme,
 } from '@npm/mobydick-styles';
 import {
   TEXT,
@@ -23,6 +24,7 @@ const fontColors = textColorKeys.map(item => item.slice(TEXT.length));
 
 const ExampleArrayOfStrings = () => {
   const [selected, setSelected] = useState<string>();
+  const {colors} = useTheme();
 
   return (
     <DropDown
@@ -56,6 +58,7 @@ const ExampleArrayOfStrings = () => {
           name={
             select('icon name', iconNames, 'icon-arrow-down') as SimpleIconName
           }
+          color={colors.IconMuted}
         />
       }
       buttonStyle={{
