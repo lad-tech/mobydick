@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import {Pressable} from '@npm/mobydick-core';
 import {Animated} from 'react-native';
-import {useStyles} from '@npm/mobydick-styles';
+import {rem, useStyles} from '@npm/mobydick-styles';
 
 import stylesCreate from './stylesCreate';
 import useToggle from './useToggle';
@@ -13,7 +13,7 @@ const Toggle: FC<IToggle> = ({active, disabled, ...rest}) => {
 
   const translateX = toggle.interpolate({
     inputRange: [0, 1],
-    outputRange: [0, 20],
+    outputRange: [0, rem(20)],
   });
 
   const backgroundColor = toggle.interpolate({
