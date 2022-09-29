@@ -18,7 +18,9 @@ const Radio: FC<IControlProps & IRadioStyle> = ({
 }) => {
   const [styles] = useStyles(stylesCreate, selected, disabled);
   return (
-    <View style={[styles.container, containerStyle]}>
+    <View
+      style={[styles.container, containerStyle]}
+      needsOffscreenAlphaCompositing={true}>
       <Control
         disabled={disabled}
         type={ControlType.radio}

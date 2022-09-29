@@ -2,6 +2,7 @@
 
 exports[`@npm/mobydick-controls/Radio renders correctly 1`] = `
 <View
+  needsOffscreenAlphaCompositing={true}
   style={
     Array [
       Object {
@@ -52,6 +53,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly 1`] = `
 
 exports[`@npm/mobydick-controls/Radio renders correctly disabled 1`] = `
 <View
+  needsOffscreenAlphaCompositing={true}
   style={
     Array [
       Object {
@@ -102,6 +104,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly disabled 1`] = `
 
 exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
 <View
+  needsOffscreenAlphaCompositing={true}
   style={
     Array [
       Object {
@@ -164,6 +167,7 @@ exports[`@npm/mobydick-controls/Radio renders correctly selected 1`] = `
 
 exports[`@npm/mobydick-controls/Radio renders correctly selected and disabled 1`] = `
 <View
+  needsOffscreenAlphaCompositing={true}
   style={
     Array [
       Object {
