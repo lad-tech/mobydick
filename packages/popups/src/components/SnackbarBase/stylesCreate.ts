@@ -10,7 +10,7 @@ const stylesCreate = (theme: IThemeContext) => {
       justifyContent: 'center',
       alignItems: 'center',
       flexDirection: 'row',
-      paddingLeft: theme.spaces.Space20,
+      paddingHorizontal: theme.spaces.Space20,
       margin: theme.spaces.Space20,
     },
     title: {

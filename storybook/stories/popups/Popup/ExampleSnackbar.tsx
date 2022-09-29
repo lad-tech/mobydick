@@ -2,7 +2,8 @@ import {IContentProps, SnackbarBase} from '@npm/mobydick-popups';
 import React, {FC} from 'react';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {rem, SimpleIcon, useTheme} from '@npm/mobydick-styles';
-import {Button, ISize} from '@npm/mobydick-cta';
+import {TouchableOpacity} from '@npm/mobydick-core';
+import {Typography} from '@npm/mobydick-typography';
 
 import selectFont from '../../../utils/selectFont';
 
@@ -34,17 +35,11 @@ const ExampleSnackbar: FC<IContentProps> = props => {
         titleFont={select('Snackbar font', selectFont, 'Regular-Primary-XS')}
       />
       {boolean('show right button ', true) && (
-        <Button
-          text={text('text button', 'Поделиться')}
-          onPress={onClose}
-          textStyle={{
-            fontSize: rem(14),
-            color: colors.TextAccent,
-            textAlign: 'center',
-          }}
-          style={{backgroundColor: 'transparent', padding: 0}}
-          size={ISize.small}
-        />
+        <TouchableOpacity onPress={onClose}>
+          <Typography font={'Medium-AccentContrast-XS'}>
+            {text('text button', 'Поделиться')}
+          </Typography>
+        </TouchableOpacity>
       )}
     </SnackbarBase>
   );
