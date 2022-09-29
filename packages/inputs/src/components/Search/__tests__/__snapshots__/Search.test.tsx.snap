@@ -36,6 +36,7 @@ exports[`Search render correctly with value 1`] = `
         },
         Object {
           "flex": 1,
+          "fontSize": 24,
           "padding": 0,
           "paddingHorizontal": 12,
         },
@@ -131,6 +132,7 @@ exports[`Search render correctly without value 1`] = `
         },
         Object {
           "flex": 1,
+          "fontSize": 24,
           "padding": 0,
           "paddingHorizontal": 12,
         },
