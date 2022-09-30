@@ -19,7 +19,9 @@ const SnackbarBase: FC<
   const [styles] = useStyles(stylesCreate);
 
   return (
-    <PopupBase onClose={onClose} overlayStyle={overlayStyle}>
+    <PopupBase
+      onClose={onClose}
+      overlayStyle={[styles.overlayStyle, overlayStyle]}>
       <View style={[styles.container, containerStyle]}>{children}</View>
     </PopupBase>
   );

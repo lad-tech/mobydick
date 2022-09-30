@@ -4,8 +4,11 @@ import {IThemeContext} from '@npm/mobydick-styles';
 const stylesCreate = (theme: IThemeContext) => {
   const {colors} = theme;
   return StyleSheet.create({
+    overlayStyle: {
+      backgroundColor: 'transparent',
+    },
     container: {
-      backgroundColor: colors.BgPrimary,
+      backgroundColor: colors.BgContrast,
       borderRadius: theme.spaces.Space12,
       justifyContent: 'center',
       alignItems: 'center',

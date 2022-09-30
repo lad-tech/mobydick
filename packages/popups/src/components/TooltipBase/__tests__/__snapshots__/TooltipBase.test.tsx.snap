@@ -34,7 +34,7 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly b
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#20242D",
         "borderRadius": 12,
         "bottom": -1076,
         "justifyContent": "center",
@@ -83,7 +83,7 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly t
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#20242D",
         "borderRadius": 12,
         "justifyContent": "center",
         "marginVertical": 12,
@@ -133,7 +133,7 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly t
     style={
       Object {
         "alignItems": "center",
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#20242D",
         "borderRadius": 12,
         "justifyContent": "center",
         "left": 0,
