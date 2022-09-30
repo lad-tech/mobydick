@@ -39,7 +39,7 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly 1`] = `
           "flexDirection": "row",
           "justifyContent": "center",
           "margin": 30,
-          "paddingLeft": 30,
+          "paddingHorizontal": 30,
         },
         undefined,
       ]

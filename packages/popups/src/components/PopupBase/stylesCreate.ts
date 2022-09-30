@@ -19,7 +19,7 @@ const stylesCreate = (theme: IThemeContext) => {
       alignItems: 'center',
 
       paddingBottom: theme.spaces.Space40,
-      paddingTop: theme.spaces.Space16,
+      paddingTop: theme.spaces.Space20,
       paddingHorizontal: theme.spaces.Space20,
       marginVertical: theme.spaces.Space20,
       marginHorizontal: theme.spaces.Space6,
