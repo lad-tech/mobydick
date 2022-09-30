@@ -12,7 +12,7 @@ const DescriptionText: FC<IDescriptionTextPopup> = props => {
 
   return (
     <Typography
-      font={descriptionFont ? descriptionFont : 'Regular-Tertiary-XS'}
+      font={descriptionFont ? descriptionFont : 'Regular-Contrast-XS'}
       style={[styles.descriptionText, descriptionStyles]}>
       {descriptionText}
     </Typography>

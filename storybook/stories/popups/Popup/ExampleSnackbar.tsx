@@ -20,7 +20,11 @@ const ExampleSnackbar: FC<IContentProps> = props => {
   const placement = select('Placement', IPlacement, IPlacement.end);
 
   return (
-    <SnackbarBase {...props} overlayStyle={{justifyContent: placement}}>
+    <SnackbarBase
+      {...props}
+      overlayStyle={{
+        justifyContent: placement,
+      }}>
       {boolean('show icon', true) && (
         <SimpleIcon
           name={'icon-check'}
@@ -32,7 +36,7 @@ const ExampleSnackbar: FC<IContentProps> = props => {
       )}
       <SnackbarBase.Title
         title={text('title', 'Подборка добавлена')}
-        titleFont={select('Snackbar font', selectFont, 'Regular-Primary-XS')}
+        titleFont={select('Snackbar font', selectFont, 'Regular-Contrast-XS')}
       />
       {boolean('show right button ', true) && (
         <TouchableOpacity onPress={onClose}>
