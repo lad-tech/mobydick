@@ -24,7 +24,12 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly 1`] = `
         "position": "absolute",
         "width": "100%",
       },
-      undefined,
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+      ],
     ]
   }
   testID="Pressable"
@@ -34,7 +39,7 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly 1`] = `
       Array [
         Object {
           "alignItems": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#20242D",
           "borderRadius": 18,
           "flexDirection": "row",
           "justifyContent": "center",
