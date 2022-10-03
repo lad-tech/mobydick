@@ -16,10 +16,13 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
     editable,
     onBackKeyPress,
     secureTextEntry,
+    fontStyleCodeField,
     ...otherProps
   } = props;
   const [focused, setFocused] = useState(false);
-  const {fontStyle} = useFont('Regular-Primary-XL');
+  const {fontStyle} = useFont(
+    fontStyleCodeField ? fontStyleCodeField : 'Regular-Primary-XL',
+  );
   const [styles, theme] = useStyles(stylesCreate, focused);
 
   return (

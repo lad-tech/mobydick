@@ -18,6 +18,7 @@ describe('@npm/mobydick-inputs/CodeField', () => {
       <CodeField
         onBackKeyPress={() => console.log('onBackKeyPress')}
         onChangeText={onChangeText}
+        fontStyleCodeField={'Regular-Primary-XL'}
       />,
     );
 
