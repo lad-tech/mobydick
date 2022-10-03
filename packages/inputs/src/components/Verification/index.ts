@@ -1,3 +1,3 @@
-import Verification from './Verification';
+import CodeField from './CodeField';
 export * from './types';
-export {Verification};
+export {CodeField};
