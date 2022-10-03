@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
 import {IThemeContext, rem} from '@npm/mobydick-styles';
 
-const stylesCreate = (theme: IThemeContext, focused?: boolean) =>
+const stylesCreate = (theme: IThemeContext, focused: boolean) =>
   StyleSheet.create({
     inputContainer: {
       backgroundColor: focused

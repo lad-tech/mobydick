@@ -39,8 +39,9 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}
         onKeyPress={e => {
-          if (onBackKeyPress && e.nativeEvent.key === 'Backspace')
+          if (onBackKeyPress && e.nativeEvent.key === 'Backspace') {
             onBackKeyPress();
+          }
         }}
         {...otherProps}
       />

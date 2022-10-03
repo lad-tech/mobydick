@@ -25,5 +25,20 @@ describe('@npm/mobydick-inputs/CodeField', () => {
     act(() => codeField.props.onBlur());
 
     expect(toJSON()).toMatchSnapshot();
+    act(() => codeField.props.onKeyPress({nativeEvent: {key: 'cancel'}}));
+  });
+  test('render correctly with value onKeyPress', () => {
+    const onChangeText = jest.fn();
+    const {toJSON, getByLabelText} = render(
+      <CodeField
+        onBackKeyPress={() => console.log('onBackKeyPress')}
+        onChangeText={onChangeText}
+      />,
+    );
+
+    const codeField = getByLabelText(accessibilityLabels.codeField);
+
+    act(() => codeField.props.onKeyPress({nativeEvent: {key: 'Backspace'}}));
+    expect(toJSON()).toMatchSnapshot();
   });
 });
