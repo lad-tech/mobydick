@@ -1,3 +1,20 @@
+# [1.5.0](https://glab.lad24.ru/npm/mobydick/compare/v1.4.0...v1.5.0) (2022-10-03)
+
+
+### Bug Fixes
+
+* **dropdown:** цвет иконки стрелочки сделала как в фигме ([ea7925e](https://glab.lad24.ru/npm/mobydick/commit/ea7925e0ba744bcaada935891f396c3bed655762))
+* **Popup:** Верхний отступ теперь тоже 20 ([3c40796](https://glab.lad24.ru/npm/mobydick/commit/3c4079624650586e4061a6eea4832cb54c65b789))
+* **radioList:** Добавила пропс needsOffscreenAlphaCompositing, чтобы в андроиде цвет кружочка был белым при disabled ([7bd6dfb](https://glab.lad24.ru/npm/mobydick/commit/7bd6dfb1e1111cf95cc4331fec4a01675d9a74ff))
+* **snackbar, tooltip:** темный на светлой, светлый на темной ([51ddda1](https://glab.lad24.ru/npm/mobydick/commit/51ddda171537fa18b6b3e3f0a5c513d197ab43db))
+* **toggle:** добавила rem, тк на планшете ехала верстка ([6e89b0b](https://glab.lad24.ru/npm/mobydick/commit/6e89b0bd084f85379c25e255ce80e80e548f8de6))
+
+
+### Features
+
+* **colors:** добавляем новые цвета ([c71e012](https://glab.lad24.ru/npm/mobydick/commit/c71e0125338f13d6ea1ceafe22ef260fdd083381))
+* **verifications:** добавляем компонент верификации ([7ef4860](https://glab.lad24.ru/npm/mobydick/commit/7ef48604c1e47e17f80b777157e4c443d82c6f9b))
+
 # [1.4.0](https://glab.lad24.ru/npm/mobydick/compare/v1.3.2...v1.4.0) (2022-09-26)
 
 
