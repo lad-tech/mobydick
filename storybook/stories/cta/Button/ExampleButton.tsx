@@ -4,6 +4,8 @@ import {iconNames, SimpleIcon} from '@npm/mobydick-styles';
 import React from 'react';
 import {action} from '@storybook/addon-actions';
 
+import selectFont from '../../../utils/selectFont';
+
 enum IViewButton {
   leftIcon = 'leftIcon',
   noIcon = 'noIcon',
@@ -33,6 +35,7 @@ const ExampleButton = () => {
   const size = select('size', ISize, ISize.small);
   const disabled = boolean('disabled', false);
   const loading = boolean('loading', false);
+  const font = select('Button font', selectFont, 'SemiBold-White-XS');
 
   switch (select('view button', IViewButton, IViewButton.noIcon)) {
     case IViewButton.leftIcon:
@@ -44,6 +47,7 @@ const ExampleButton = () => {
           disabled={disabled}
           loading={loading}
           size={size}
+          font={font}
           leftIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
@@ -63,6 +67,7 @@ const ExampleButton = () => {
           disabled={disabled}
           loading={loading}
           size={size}
+          font={font}
           rightIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
@@ -81,6 +86,7 @@ const ExampleButton = () => {
           disabled={disabled}
           loading={loading}
           size={size}
+          font={font}
           rightIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
@@ -101,6 +107,7 @@ const ExampleButton = () => {
           disabled={disabled}
           loading={loading}
           size={size}
+          font={font}
           style={{minWidth: minWidth}}
         />
       );
