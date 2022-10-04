@@ -2,7 +2,7 @@ import {IThemeContext} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
 const stylesCreate = (theme: IThemeContext) => {
-  const {colors, spaces} = theme;
+  const {spaces} = theme;
 
   return StyleSheet.create({
     containerStyle: {
@@ -19,7 +19,6 @@ const stylesCreate = (theme: IThemeContext) => {
       alignItems: 'center',
       paddingHorizontal: spaces.Space12,
       paddingVertical: spaces.Space6,
-      backgroundColor: colors.BgTertiary,
       marginRight: spaces.Space8,
       borderRadius: spaces.Space8,
     },

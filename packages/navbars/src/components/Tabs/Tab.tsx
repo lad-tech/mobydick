@@ -12,7 +12,7 @@ const Tab = (props: ITabProps): JSX.Element => {
   const [styles, theme] = useStyles(stylesCreate);
   const {active, item, fontTab, backgroundColorTab} = props;
 
-  const font = active ? 'Medium-White-XS' : 'Regular-Tertiary-XS';
+  const font = active ? 'Medium-White-XS' : 'Medium-Tertiary-XS';
   const backgroundColor = active
     ? theme.colors.ElementBase
     : theme.colors.BgTertiary;
