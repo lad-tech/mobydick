@@ -1,7 +1,6 @@
 import React, {FC} from 'react';
 import {Pressable, TextInput, View} from '@npm/mobydick-core';
 import {rem, SimpleIcon, useStyles} from '@npm/mobydick-styles';
-import {useFont} from '@npm/mobydick-typography';
 
 import {ISearchProps} from './types';
 import stylesCreate from './stylesCreate';
@@ -21,14 +20,13 @@ const Search: FC<ISearchProps> = ({
   ...otherProps
 }) => {
   const [styles, theme] = useStyles(stylesCreate);
-  const {fontStyle} = useFont();
 
   return (
     <View style={[styles.container, containerStyle]}>
       {leftIcon ? leftIcon : <SimpleIcon name={'icon-search'} />}
       <TextInput
         accessibilityLabel={accessibilityLabels.search}
-        style={[fontStyle, styles.textInput, textInputContainerStyle]}
+        style={[styles.textInput, textInputContainerStyle]}
         placeholder={placeholder}
         placeholderTextColor={theme.colors.TextTertiary}
         value={value}
