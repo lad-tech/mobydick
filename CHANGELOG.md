@@ -1,3 +1,17 @@
+# [1.6.0](https://glab.lad24.ru/npm/mobydick/compare/v1.5.0...v1.6.0) (2022-10-05)
+
+
+### Bug Fixes
+
+* **snackbar:** уменьшили правый отступ у текста ([c7f9b7e](https://glab.lad24.ru/npm/mobydick/commit/c7f9b7e0ec838cabf49143c72a235d727dcebc15))
+* **tab:** ответ от дизайнеров пришел, делаем regular ([2bbd16c](https://glab.lad24.ru/npm/mobydick/commit/2bbd16c444ad02edd9f1978b355b219ebed80c0b))
+* **tab:** пока оставим шрифт общий medium, как первое решение разъезжающихся табов ([82e96f1](https://glab.lad24.ru/npm/mobydick/commit/82e96f187d092fa4d7940ccb230f290a4bbd92be))
+
+
+### Features
+
+* **dropdown:** вывод текста, если данные не пришли для селектора ([ca91335](https://glab.lad24.ru/npm/mobydick/commit/ca91335697a18f741af8cc569f81e352226a0d06))
+
 # [1.5.0](https://glab.lad24.ru/npm/mobydick/compare/v1.4.0...v1.5.0) (2022-10-03)
 
 
