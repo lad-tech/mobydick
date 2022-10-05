@@ -58,6 +58,7 @@ exports[`@npm/mobydick-inputs/Selector Selector custom flatList styles 1`] = `
     }
   >
     <RCTScrollView
+      ListEmptyComponent={<ListEmptySelector />}
       bounces={false}
       data={
         Array [
@@ -193,6 +194,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem TouchableHighli
     }
   >
     <RCTScrollView
+      ListEmptyComponent={<ListEmptySelector />}
       bounces={false}
       data={
         Array [
@@ -330,6 +332,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
     }
   >
     <RCTScrollView
+      ListEmptyComponent={<ListEmptySelector />}
       bounces={false}
       data={
         Array [
@@ -465,6 +468,7 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography with
     }
   >
     <RCTScrollView
+      ListEmptyComponent={<ListEmptySelector />}
       bounces={false}
       data={
         Array [
@@ -602,6 +606,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly  1`] = `
     }
   >
     <RCTScrollView
+      ListEmptyComponent={<ListEmptySelector />}
       bounces={false}
       data={
         Array [
@@ -735,6 +740,7 @@ exports[`@npm/mobydick-inputs/Selector renders correctly with bottom padding lar
     }
   >
     <RCTScrollView
+      ListEmptyComponent={<ListEmptySelector />}
       bounces={false}
       data={
         Array [

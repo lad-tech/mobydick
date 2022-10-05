@@ -15,6 +15,7 @@ import {getDropDownDimensions} from '../utils/getDropDownDimensions';
 import {IDropDownProps} from '../types';
 
 import stylesCreate from './stylesCreate';
+import ListEmptySelector from './ListEmptySelector';
 
 const keyExtractor = (item: string, index: number) =>
   index.toString() + item.toString();
@@ -29,7 +30,9 @@ type IFieldsToSelect =
   | 'flatListTextStyle'
   | 'flatListTextFont'
   | 'flatListTextFontPressed'
-  | 'flatListTextStylePressed';
+  | 'flatListTextStylePressed'
+  | 'listEmptyText'
+  | 'listEmptyFont';
 
 type ISelector = {label: string; value: unknown};
 
@@ -126,6 +129,8 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
     flatListItemStyle,
     flatListTextStyle,
     flatListTextStylePressed,
+    listEmptyText,
+    listEmptyFont,
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
 
@@ -184,6 +189,12 @@ function Selector<T extends ISelector>(props: IItemsProps<T>) {
             flatListTextStylePressed: flatListTextStylePressed,
           })}
           keyExtractor={keyExtractor}
+          ListEmptyComponent={
+            <ListEmptySelector
+              listEmptyText={listEmptyText}
+              listEmptyFont={listEmptyFont}
+            />
+          }
         />
       </View>
     </PopupBase>

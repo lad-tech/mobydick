@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`npm/mobydick-inputs/ListEmptySelector renders correctly with text and font 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    Array [
+      Object {
+        "color": "#F54D3D",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 27,
+        "lineHeight": 33,
+      },
+      Object {
+        "paddingHorizontal": 12,
+      },
+    ]
+  }
+>
+  Ничего нет
+</Text>
+`;
+
+exports[`npm/mobydick-inputs/ListEmptySelector renders correctly without text and font 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    Array [
+      Object {
+        "color": "#9BA1B0",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 24,
+        "lineHeight": 30,
+      },
+      Object {
+        "paddingHorizontal": 12,
+      },
+    ]
+  }
+>
+  Данные недоступны. Повторите попытку позже.
+</Text>
+`;

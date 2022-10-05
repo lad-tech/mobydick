@@ -35,9 +35,16 @@ export interface IDropDownProps<ListItem extends IListItem> {
   flatListTextFontPressed?: TypographyProp | undefined;
   selectedItemColor?: string | undefined;
   maxVisibleListLength?: number;
+  listEmptyText?: string | undefined;
+  listEmptyFont?: TypographyProp | undefined;
 }
 
 export interface IDropDownIconProps {
   isOpen: boolean;
   rightIcon?: ReactElement | undefined;
+}
+
+export interface IListEmptySelectorProps {
+  listEmptyText?: string | undefined;
+  listEmptyFont?: TypographyProp | undefined;
 }

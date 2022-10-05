@@ -425,6 +425,216 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type wrong 
 </View>
 `;
 
+exports[`@npm/mobydick-inputs/DropDown renders correctly without array 1`] = `
+<View
+  style={
+    Object {
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Medium",
+          "fontSize": 21,
+          "lineHeight": 27,
+        },
+        Array [
+          Object {
+            "paddingBottom": 12,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    Название поля
+  </Text>
+  <View
+    collapsable={false}
+  >
+    <View
+      accessibilityLabel="selector"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "transparent",
+          "borderRadius": 12,
+          "borderWidth": 1.5,
+          "flexDirection": "row",
+          "height": 72,
+          "justifyContent": "space-between",
+          "marginBottom": 12,
+          "opacity": 1,
+          "paddingLeft": 27,
+          "paddingRight": 18,
+          "width": 300,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 24,
+              "lineHeight": 30,
+            },
+            Array [
+              Object {
+                "flex": 1,
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <View
+        style={false}
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-inputs/DropDown renders correctly without array with text and font 1`] = `
+<View
+  style={
+    Object {
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Medium",
+          "fontSize": 21,
+          "lineHeight": 27,
+        },
+        Array [
+          Object {
+            "paddingBottom": 12,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    Название поля
+  </Text>
+  <View
+    collapsable={false}
+  >
+    <View
+      accessibilityLabel="selector"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "transparent",
+          "borderRadius": 12,
+          "borderWidth": 1.5,
+          "flexDirection": "row",
+          "height": 72,
+          "justifyContent": "space-between",
+          "marginBottom": 12,
+          "opacity": 1,
+          "paddingLeft": 27,
+          "paddingRight": 18,
+          "width": 300,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 24,
+              "lineHeight": 30,
+            },
+            Array [
+              Object {
+                "flex": 1,
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        2
+      </Text>
+      <View
+        style={false}
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
 <View
   style={

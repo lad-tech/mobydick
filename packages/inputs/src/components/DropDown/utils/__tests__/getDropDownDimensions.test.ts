@@ -49,4 +49,19 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
       isAboveDropDown: false,
     });
   });
+  it('must return actual position empty list', () => {
+    expect(
+      getDropDownDimensions({
+        pageY: 128,
+        dropDownHeight: 40,
+        navBarHeight: 50,
+        dropDownBorderWidth: 1,
+        listLength: 0,
+      }),
+    ).toEqual({
+      underDropDownPos: 174,
+      aboveDropDownPos: 1212,
+      isAboveDropDown: false,
+    });
+  });
 });
