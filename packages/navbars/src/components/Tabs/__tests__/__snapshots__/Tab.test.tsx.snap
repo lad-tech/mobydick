@@ -32,7 +32,7 @@ exports[`Tab render correctly active false 1`] = `
       Array [
         Object {
           "color": "#5E6678",
-          "fontFamily": "Inter-Medium",
+          "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
         },
@@ -77,7 +77,7 @@ exports[`Tab render correctly active true 1`] = `
       Array [
         Object {
           "color": "#FFF",
-          "fontFamily": "Inter-Medium",
+          "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
         },
