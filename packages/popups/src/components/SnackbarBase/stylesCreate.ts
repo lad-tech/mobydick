@@ -18,7 +18,7 @@ const stylesCreate = (theme: IThemeContext) => {
     },
     title: {
       flex: 1,
-      paddingRight: theme.spaces.Space20,
+      paddingRight: theme.spaces.Space8,
       paddingVertical: theme.spaces.Space16,
     },
   });
