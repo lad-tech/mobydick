@@ -29,12 +29,6 @@ exports[`Search render correctly with value 1`] = `
     style={
       Array [
         Object {
-          "color": "#20242D",
-          "fontFamily": "Inter-Regular",
-          "fontSize": 22.5,
-          "lineHeight": 28.5,
-        },
-        Object {
           "flex": 1,
           "fontSize": 24,
           "padding": 0,
@@ -124,12 +118,6 @@ exports[`Search render correctly without value 1`] = `
     placeholderTextColor="#5E6678"
     style={
       Array [
-        Object {
-          "color": "#20242D",
-          "fontFamily": "Inter-Regular",
-          "fontSize": 22.5,
-          "lineHeight": 28.5,
-        },
         Object {
           "flex": 1,
           "fontSize": 24,
