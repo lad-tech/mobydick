@@ -187,4 +187,36 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly without array', () => {
+    const {toJSON} = render(
+      <PopupsProvider>
+        <DropDown
+          selectedItem={list[1]}
+          placeholder={'Выберите язык'}
+          label={'Название поля'}
+          list={[]}
+          onPress={jest.fn()}
+          rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
+        />
+      </PopupsProvider>,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly without array with text and font', () => {
+    const {toJSON} = render(
+      <PopupsProvider>
+        <DropDown
+          selectedItem={list[1]}
+          placeholder={'Выберите язык'}
+          label={'Название поля'}
+          listEmptyFont={'Regular-Error-L'}
+          listEmptyText={'Ничего нет'}
+          list={[]}
+          onPress={jest.fn()}
+          rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
+        />
+      </PopupsProvider>,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
