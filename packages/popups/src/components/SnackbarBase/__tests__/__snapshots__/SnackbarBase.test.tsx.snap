@@ -28,7 +28,6 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly 1`] = `
           "margin": 30,
           "paddingHorizontal": 30,
           "paddingVertical": 24,
-          "zIndex": 10,
         },
         undefined,
       ]
@@ -65,7 +64,6 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly with timeSho
           "margin": 30,
           "paddingHorizontal": 30,
           "paddingVertical": 24,
-          "zIndex": 10,
         },
         undefined,
       ]

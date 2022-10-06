@@ -37,7 +37,6 @@ const stylesCreate = (theme: IThemeContext, placement?: IPosition) => {
       paddingHorizontal: theme.spaces.Space20,
       paddingVertical: theme.spaces.Space16,
       margin: theme.spaces.Space20,
-      zIndex: 10,
     },
     title: {
       flex: 1,
