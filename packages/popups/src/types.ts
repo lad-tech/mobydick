@@ -13,3 +13,8 @@ export interface IPopup {
   Content: FC<IContentProps>;
   overlayStyle?: StyleProp<ViewStyle>;
 }
+
+export enum IPosition {
+  top = 'top',
+  bottom = 'bottom',
+}

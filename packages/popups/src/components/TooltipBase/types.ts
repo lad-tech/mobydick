@@ -1,9 +1,6 @@
 import {ViewStyle} from 'react-native';
 
-export enum IPosition {
-  top = 'top',
-  bottom = 'bottom',
-}
+import {IPosition} from '../../types';
 
 export enum IPlacement {
   start = 'start',
