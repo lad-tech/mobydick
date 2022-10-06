@@ -26,6 +26,7 @@ exports[`Search render correctly with value 1`] = `
     onChangeText={[MockFunction]}
     placeholder="Поиск"
     placeholderTextColor="#5E6678"
+    selectionColor="#2B78EE"
     style={
       Array [
         Object {
@@ -116,6 +117,7 @@ exports[`Search render correctly without value 1`] = `
     onChangeText={[Function]}
     placeholder="Поиск"
     placeholderTextColor="#5E6678"
+    selectionColor="#2B78EE"
     style={
       Array [
         Object {

@@ -46,6 +46,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
       style={
         Array [
           Object {
@@ -135,6 +136,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
       style={
         Array [
           Object {
@@ -186,6 +188,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
       style={
         Array [
           Object {
@@ -237,6 +240,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
       style={
         Array [
           Object {
@@ -288,6 +292,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
       style={
         Array [
           Object {
@@ -339,6 +344,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
       style={
         Array [
           Object {
@@ -390,6 +396,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
       style={
         Array [
           Object {
@@ -441,6 +448,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
       style={
         Array [
           Object {
@@ -530,6 +538,7 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
       style={
         Array [
           Object {

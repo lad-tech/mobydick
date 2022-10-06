@@ -72,6 +72,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
             setFocused(false);
             onBlur?.(event);
           }}
+          selectionColor={theme.colors.IconBase}
           {...otherProps}
         />
         {rightIcon}

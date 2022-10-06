@@ -28,6 +28,7 @@ exports[`@npm/mobydick-inputs/CodeField render correctly with value blur 1`] = `
     onFocus={[Function]}
     onKeyPress={[Function]}
     placeholderTextColor="#9BA1B0"
+    selectionColor="#2B78EE"
     style={
       Array [
         Object {
@@ -75,6 +76,7 @@ exports[`@npm/mobydick-inputs/CodeField render correctly with value focus 1`] = 
     onFocus={[Function]}
     onKeyPress={[Function]}
     placeholderTextColor="#9BA1B0"
+    selectionColor="#2B78EE"
     style={
       Array [
         Object {
@@ -123,6 +125,7 @@ exports[`@npm/mobydick-inputs/CodeField render correctly with value onKeyPress 1
     onFocus={[Function]}
     onKeyPress={[Function]}
     placeholderTextColor="#9BA1B0"
+    selectionColor="#2B78EE"
     style={
       Array [
         Object {
