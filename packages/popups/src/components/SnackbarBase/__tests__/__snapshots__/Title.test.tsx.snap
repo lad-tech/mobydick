@@ -15,7 +15,6 @@ exports[`@npm/mobydick-popups/SnackbarBase/Title should renders correctly with t
         Object {
           "flex": 1,
           "paddingRight": 12,
-          "paddingVertical": 24,
         },
         Object {
           "backgroundColor": "#000",
@@ -43,7 +42,6 @@ exports[`@npm/mobydick-popups/SnackbarBase/Title should renders correctly withou
         Object {
           "flex": 1,
           "paddingRight": 12,
-          "paddingVertical": 24,
         },
         Object {
           "flex": 1,
