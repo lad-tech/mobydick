@@ -11,13 +11,13 @@ import {useStyles} from '@npm/mobydick-styles';
 import {ITouchableOpacity} from '@npm/mobydick-core';
 
 import {PopupBase} from '../PopupBase';
-import {IPopup} from '../../types';
+import {IPopup, IPosition} from '../../types';
 
 import stylesCreate from './stylesCreate';
 import Title from './Title';
 import DescriptionText from './DescriptionText';
 import Arrow from './Arrow';
-import {IPlacement, IPosition} from './types';
+import {IPlacement} from './types';
 
 const {height} = Dimensions.get('window');
 

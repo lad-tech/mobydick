@@ -2,7 +2,8 @@ import {render} from '@testing-library/react-native';
 import React from 'react';
 
 import Arrow from '../Arrow';
-import {IPlacement, IPosition} from '../types';
+import {IPlacement} from '../types';
+import {IPosition} from '../../../types';
 
 describe('@npm/mobydick-popups/TooltipBase/Arrow', () => {
   it('should renders correctly top start', () => {

@@ -5,7 +5,8 @@ import {ITouchableOpacity} from '@npm/mobydick-core';
 import {Button} from '@npm/mobydick-cta';
 
 import TooltipBase from '../TooltipBase';
-import {IPlacement, IPosition} from '../types';
+import {IPlacement} from '../types';
+import {IPosition} from '../../../types';
 
 describe('@npm/mobydick-popups/TooltipBase/TooltipBase', () => {
   let buttonRef: React.RefObject<ITouchableOpacity>;
