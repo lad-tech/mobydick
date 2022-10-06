@@ -79,10 +79,9 @@ const SnackbarPopupExample = () => {
   const popupContext = usePopups();
 
   const onPress = () => {
-    !popupContext.popups.length &&
-      popupContext.openPopup({
-        Content: ExampleSnackbar,
-      });
+    popupContext.openPopup({
+      Content: ExampleSnackbar,
+    });
   };
 
   return (
