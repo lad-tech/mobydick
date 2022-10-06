@@ -107,7 +107,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -140,7 +140,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -173,7 +173,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -206,7 +206,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -239,7 +239,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -491,7 +491,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-edit"
+    testID="icon-discount"
   >
     <Text
       allowFontScaling={true}
@@ -524,7 +524,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-filter"
+    testID="icon-edit"
   >
     <Text
       allowFontScaling={true}
@@ -557,7 +557,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-folder"
+    testID="icon-filter"
   >
     <Text
       allowFontScaling={true}
@@ -590,7 +590,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-grid"
+    testID="icon-folder"
   >
     <Text
       allowFontScaling={true}
@@ -623,7 +623,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-group"
+    testID="icon-grid"
   >
     <Text
       allowFontScaling={true}
@@ -656,7 +656,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-hide"
+    testID="icon-group"
   >
     <Text
       allowFontScaling={true}
@@ -689,7 +689,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-house"
+    testID="icon-hide"
   >
     <Text
       allowFontScaling={true}
@@ -722,7 +722,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-image"
+    testID="icon-house"
   >
     <Text
       allowFontScaling={true}
@@ -755,7 +755,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-kebab"
+    testID="icon-image"
   >
     <Text
       allowFontScaling={true}
@@ -788,7 +788,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-list"
+    testID="icon-kebab"
   >
     <Text
       allowFontScaling={true}
@@ -801,6 +801,39 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
       }
     >
       
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-list"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
     </Text>
   </View>
   <View
@@ -866,39 +899,6 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       }
     >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 15,
-      }
-    }
-    testID="icon-notification"
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
-      }
-    >
       
     </Text>
   </View>
@@ -920,7 +920,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-plus"
+    testID="icon-noconnection"
   >
     <Text
       allowFontScaling={true}
@@ -953,7 +953,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-search"
+    testID="icon-notification"
   >
     <Text
       allowFontScaling={true}
@@ -986,40 +986,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-settings"
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 15,
-      }
-    }
-    testID="icon-share"
+    testID="icon-plus"
   >
     <Text
       allowFontScaling={true}
@@ -1052,7 +1019,40 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-show"
+    testID="icon-search"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-settings"
   >
     <Text
       allowFontScaling={true}
@@ -1085,7 +1085,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-sort-horizontal"
+    testID="icon-share"
   >
     <Text
       allowFontScaling={true}
@@ -1118,7 +1118,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-sort-vertical"
+    testID="icon-show"
   >
     <Text
       allowFontScaling={true}
@@ -1151,7 +1151,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-unlock"
+    testID="icon-sort-horizontal"
   >
     <Text
       allowFontScaling={true}
@@ -1184,7 +1184,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
         "padding": 15,
       }
     }
-    testID="icon-warning"
+    testID="icon-sort-vertical"
   >
     <Text
       allowFontScaling={true}
@@ -1197,6 +1197,72 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly 1`] = `
       }
     >
       
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-unlock"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-warning"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
     </Text>
   </View>
 </View>
@@ -1309,7 +1375,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1342,7 +1408,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1375,7 +1441,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1408,7 +1474,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1441,7 +1507,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -1693,7 +1759,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-edit"
+    testID="icon-discount"
   >
     <Text
       allowFontScaling={true}
@@ -1726,7 +1792,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-filter"
+    testID="icon-edit"
   >
     <Text
       allowFontScaling={true}
@@ -1759,7 +1825,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-folder"
+    testID="icon-filter"
   >
     <Text
       allowFontScaling={true}
@@ -1792,7 +1858,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-grid"
+    testID="icon-folder"
   >
     <Text
       allowFontScaling={true}
@@ -1825,7 +1891,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-group"
+    testID="icon-grid"
   >
     <Text
       allowFontScaling={true}
@@ -1858,7 +1924,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-hide"
+    testID="icon-group"
   >
     <Text
       allowFontScaling={true}
@@ -1891,7 +1957,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-house"
+    testID="icon-hide"
   >
     <Text
       allowFontScaling={true}
@@ -1924,7 +1990,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-image"
+    testID="icon-house"
   >
     <Text
       allowFontScaling={true}
@@ -1957,7 +2023,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-kebab"
+    testID="icon-image"
   >
     <Text
       allowFontScaling={true}
@@ -1990,7 +2056,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-list"
+    testID="icon-kebab"
   >
     <Text
       allowFontScaling={true}
@@ -2003,6 +2069,39 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
       }
     >
       
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-list"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
     </Text>
   </View>
   <View
@@ -2068,39 +2167,6 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         }
       }
     >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 15,
-      }
-    }
-    testID="icon-notification"
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
-      }
-    >
       
     </Text>
   </View>
@@ -2122,7 +2188,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-plus"
+    testID="icon-noconnection"
   >
     <Text
       allowFontScaling={true}
@@ -2155,7 +2221,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-search"
+    testID="icon-notification"
   >
     <Text
       allowFontScaling={true}
@@ -2188,40 +2254,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-settings"
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 15,
-      }
-    }
-    testID="icon-share"
+    testID="icon-plus"
   >
     <Text
       allowFontScaling={true}
@@ -2254,7 +2287,40 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-show"
+    testID="icon-search"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-settings"
   >
     <Text
       allowFontScaling={true}
@@ -2287,7 +2353,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-sort-horizontal"
+    testID="icon-share"
   >
     <Text
       allowFontScaling={true}
@@ -2320,7 +2386,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-sort-vertical"
+    testID="icon-show"
   >
     <Text
       allowFontScaling={true}
@@ -2353,7 +2419,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-unlock"
+    testID="icon-sort-horizontal"
   >
     <Text
       allowFontScaling={true}
@@ -2386,7 +2452,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
         "padding": 15,
       }
     }
-    testID="icon-warning"
+    testID="icon-sort-vertical"
   >
     <Text
       allowFontScaling={true}
@@ -2399,6 +2465,72 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with color
       }
     >
       
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-unlock"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-warning"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
     </Text>
   </View>
 </View>
@@ -2511,7 +2643,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2544,7 +2676,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2577,7 +2709,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2610,7 +2742,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2643,7 +2775,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
+      
     </Text>
   </View>
   <View
@@ -2895,7 +3027,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-edit"
+    testID="icon-discount"
   >
     <Text
       allowFontScaling={true}
@@ -2928,7 +3060,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-filter"
+    testID="icon-edit"
   >
     <Text
       allowFontScaling={true}
@@ -2961,7 +3093,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-folder"
+    testID="icon-filter"
   >
     <Text
       allowFontScaling={true}
@@ -2994,7 +3126,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-grid"
+    testID="icon-folder"
   >
     <Text
       allowFontScaling={true}
@@ -3027,7 +3159,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-group"
+    testID="icon-grid"
   >
     <Text
       allowFontScaling={true}
@@ -3060,7 +3192,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-hide"
+    testID="icon-group"
   >
     <Text
       allowFontScaling={true}
@@ -3093,7 +3225,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-house"
+    testID="icon-hide"
   >
     <Text
       allowFontScaling={true}
@@ -3126,7 +3258,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-image"
+    testID="icon-house"
   >
     <Text
       allowFontScaling={true}
@@ -3159,7 +3291,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-kebab"
+    testID="icon-image"
   >
     <Text
       allowFontScaling={true}
@@ -3192,7 +3324,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-list"
+    testID="icon-kebab"
   >
     <Text
       allowFontScaling={true}
@@ -3205,6 +3337,39 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
       }
     >
       
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-list"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
     </Text>
   </View>
   <View
@@ -3270,39 +3435,6 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         }
       }
     >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 15,
-      }
-    }
-    testID="icon-notification"
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
-      }
-    >
       
     </Text>
   </View>
@@ -3324,7 +3456,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-plus"
+    testID="icon-noconnection"
   >
     <Text
       allowFontScaling={true}
@@ -3357,7 +3489,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-search"
+    testID="icon-notification"
   >
     <Text
       allowFontScaling={true}
@@ -3390,40 +3522,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-settings"
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Object {
-          "color": "#333",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
-  <View
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "padding": 15,
-      }
-    }
-    testID="icon-share"
+    testID="icon-plus"
   >
     <Text
       allowFontScaling={true}
@@ -3456,7 +3555,40 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-show"
+    testID="icon-search"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-settings"
   >
     <Text
       allowFontScaling={true}
@@ -3489,7 +3621,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-sort-horizontal"
+    testID="icon-share"
   >
     <Text
       allowFontScaling={true}
@@ -3522,7 +3654,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-sort-vertical"
+    testID="icon-show"
   >
     <Text
       allowFontScaling={true}
@@ -3555,7 +3687,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-unlock"
+    testID="icon-sort-horizontal"
   >
     <Text
       allowFontScaling={true}
@@ -3588,7 +3720,7 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
         "padding": 15,
       }
     }
-    testID="icon-warning"
+    testID="icon-sort-vertical"
   >
     <Text
       allowFontScaling={true}
@@ -3601,6 +3733,72 @@ exports[`@npm/mobydick-styles/icons/SimpleIconAlbum renders correctly with press
       }
     >
       
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-unlock"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-warning"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
     </Text>
   </View>
 </View>
