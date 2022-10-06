@@ -33,6 +33,7 @@ const Search: FC<ISearchProps> = ({
         placeholderTextColor={theme.colors.TextTertiary}
         value={value}
         onChangeText={onChangeText}
+        selectionColor={theme.colors.IconBase}
         {...otherProps}
       />
       {value ? (

@@ -46,6 +46,7 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
             onBackKeyPress();
           }
         }}
+        selectionColor={theme.colors.IconBase}
         {...otherProps}
       />
     </View>
