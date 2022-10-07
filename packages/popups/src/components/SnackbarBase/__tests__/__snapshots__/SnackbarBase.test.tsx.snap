@@ -43,9 +43,9 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly with timeSho
       Object {
         "alignItems": "center",
         "backgroundColor": "transparent",
+        "bottom": 10,
         "flex": 1,
         "position": "absolute",
-        "top": 10,
         "width": "100%",
       },
       undefined,

@@ -20,7 +20,7 @@ describe('@npm/mobydick-popups/SnackbarBase', () => {
       <SnackbarBase
         id={'id'}
         onClose={onClose}
-        position={IPosition.top}
+        position={IPosition.bottom}
         timeShow={1000}
       />,
     );
