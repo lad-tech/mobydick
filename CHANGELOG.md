@@ -1,3 +1,12 @@
+## [1.6.1](https://glab.lad24.ru/npm/mobydick/compare/v1.6.0...v1.6.1) (2022-10-07)
+
+
+### Bug Fixes
+
+* **inputs:** цвет курсора един на всех платформах ([599d206](https://glab.lad24.ru/npm/mobydick/commit/599d206fddddf70090b199b7ddbb8cd90a0ab801))
+* **popups:** id now works correctly ([a88160c](https://glab.lad24.ru/npm/mobydick/commit/a88160c6c2b10f60cbcb3e15078c94204b00f9fc))
+* **search:** убрала fontStyle ([4f73572](https://glab.lad24.ru/npm/mobydick/commit/4f735729b015bd0306996c31cc39af78c7f6aff4))
+
 # [1.6.0](https://glab.lad24.ru/npm/mobydick/compare/v1.5.0...v1.6.0) (2022-10-05)
 
 
