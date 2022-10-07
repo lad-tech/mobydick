@@ -1,7 +1,7 @@
 import {StyleProp, ViewStyle} from 'react-native';
 import {FC} from 'react';
 
-export type IPopupId = string | symbol;
+export type IPopupId = string;
 
 export interface IContentProps extends Omit<IPopup, 'Content'> {
   onClose: () => void;
