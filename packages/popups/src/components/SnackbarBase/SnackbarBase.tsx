@@ -18,21 +18,13 @@ const SnackbarBase: FC<
     timeShow?: number;
   }
 > & {Title: typeof Title} = props => {
-  const {
-    children,
-    onClose,
-    containerStyle,
-    overlayStyle,
-    position,
-    timeShow,
-    id,
-  } = props;
+  const {children, onClose, containerStyle, overlayStyle, position, timeShow} =
+    props;
   const [styles] = useStyles(stylesCreate, position);
 
   const timeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
-    timeout.current && clearTimeout(timeout.current);
     timeout.current = setTimeout(
       () => {
         onClose();
@@ -43,7 +35,7 @@ const SnackbarBase: FC<
     return () => {
       timeout.current && clearTimeout(timeout.current);
     };
-  }, [id]);
+  }, []);
 
   return (
     <View style={[styles.overlayStyle, overlayStyle]}>
