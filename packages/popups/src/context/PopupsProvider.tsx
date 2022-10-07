@@ -11,9 +11,12 @@ import {
 
 import {IOpenPopupParams, IPopupsContext} from './types';
 import PopupsContext from './context';
+
 interface IPopupsProviderProps {
   popups?: IPopup[];
 }
+
+let popupId = 1;
 
 const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   const [state, dispatch] = useReducer(reducer, defaultState);
@@ -22,7 +25,7 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
     dispatch(
       openPopupAction({
         ...popup,
-        id: popup.id || Symbol(''),
+        id: popup.id || (popupId++).toString(),
       }),
     );
   };
@@ -45,10 +48,9 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   return (
     <PopupsContext.Provider value={context}>
       {children}
-
-      {state.popups.map((popup, index) => (
+      {state.popups.map(popup => (
         <popup.Content
-          key={popup.id.toString() + index}
+          key={popup.id}
           {...popup}
           onClose={() => closePopup(popup.id)}
         />

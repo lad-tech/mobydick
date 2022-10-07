@@ -2,37 +2,19 @@
 
 exports[`@npm/mobydick-popups/SnackbarBase should renders correctly 1`] = `
 <View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
   style={
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.60)",
-        "height": "100%",
-        "justifyContent": "flex-end",
+        "backgroundColor": "transparent",
+        "flex": 1,
         "position": "absolute",
+        "top": 10,
         "width": "100%",
       },
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
+      undefined,
     ]
   }
-  testID="Pressable"
 >
   <View
     style={
@@ -45,6 +27,43 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly 1`] = `
           "justifyContent": "center",
           "margin": 30,
           "paddingHorizontal": 30,
+          "paddingVertical": 24,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-popups/SnackbarBase should renders correctly with timeShow 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "bottom": 10,
+        "flex": 1,
+        "position": "absolute",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#20242D",
+          "borderRadius": 18,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 24,
         },
         undefined,
       ]

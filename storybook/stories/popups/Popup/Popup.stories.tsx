@@ -83,6 +83,7 @@ const SnackbarPopupExample = () => {
       Content: ExampleSnackbar,
     });
   };
+
   return (
     <View>
       <Button
