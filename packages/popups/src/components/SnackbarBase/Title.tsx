@@ -13,7 +13,7 @@ const Title: FC<ITitlePopup> = props => {
   return (
     <Typography
       style={[styles.title, titleStyles]}
-      font={titleFont ? titleFont : 'Regular-Contrast-XS'}>
+      font={titleFont ? titleFont : 'Medium-Contrast-XS'}>
       {title}
     </Typography>
   );
