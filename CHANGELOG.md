@@ -1,3 +1,10 @@
+## [1.6.2](https://glab.lad24.ru/npm/mobydick/compare/v1.6.1...v1.6.2) (2022-10-10)
+
+
+### Bug Fixes
+
+* **snackbar:** добавила тип для пропсов и обновила titleFont ([cf98d26](https://glab.lad24.ru/npm/mobydick/commit/cf98d2633b3e601a5ec22386a2a4362130fc25e5))
+
 ## [1.6.1](https://glab.lad24.ru/npm/mobydick/compare/v1.6.0...v1.6.1) (2022-10-07)
 
 
