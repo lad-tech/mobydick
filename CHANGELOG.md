@@ -1,3 +1,10 @@
+## [1.6.3](https://glab.lad24.ru/npm/mobydick/compare/v1.6.2...v1.6.3) (2022-10-11)
+
+
+### Bug Fixes
+
+* **icon:** до конца дообновила иконки ([0d33a3b](https://glab.lad24.ru/npm/mobydick/commit/0d33a3b0cea8592ce44c61a3c0ac4a866ca6e650))
+
 ## [1.6.2](https://glab.lad24.ru/npm/mobydick/compare/v1.6.1...v1.6.2) (2022-10-10)
 
 
