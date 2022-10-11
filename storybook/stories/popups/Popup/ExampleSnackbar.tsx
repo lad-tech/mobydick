@@ -13,27 +13,19 @@ const ExampleSnackbar: FC<IContentProps> = props => {
   const position = select('Position', IPosition, IPosition.bottom);
 
   return (
-    <SnackbarBase
-      {...props}
-      containerStyle={{alignItems: 'flex-start'}}
-      position={position}
-      timeShow={2000}>
+    <SnackbarBase {...props} position={position} timeShow={2000}>
       {boolean('show icon', true) && (
         <SimpleIcon
-          name={'icon-noconnection'}
-          color={colors.IconMuted}
+          name={'icon-check'}
+          color={colors.IconAdditional}
           style={{
             paddingRight: rem(8),
           }}
         />
       )}
       <SnackbarBase.Title
-        title={text(
-          'title',
-          'Для перехода нужен интернет. \n' +
-            'Когда подключение появится, HUAWEI Wallet станет доступен',
-        )}
-        titleFont={select('Snackbar font', selectFont, 'Medium-Contrast-XS')}
+        title={text('title', 'Подборка добавлена')}
+        titleFont={select('Snackbar font', selectFont, 'Regular-Contrast-XS')}
       />
       {boolean('show right button ', true) && (
         <TouchableOpacity onPress={onClose}>
