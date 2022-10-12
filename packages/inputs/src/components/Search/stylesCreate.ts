@@ -21,6 +21,7 @@ const stylesCreate = (theme: IThemeContext) => {
       padding: 0, // Android по дефолту ставит padding на input's
       paddingHorizontal: spaces.Space8,
       fontSize: spaces.Space16,
+      color: colors.TextPrimary,
     },
     cancelIcon: {
       alignItems: 'center',
