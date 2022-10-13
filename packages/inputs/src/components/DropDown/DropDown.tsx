@@ -20,14 +20,18 @@ import Selector from './components/Selector';
 
 const isString = (input: unknown): input is string => typeof input === 'string';
 
-function wrapListItem<T extends IListItem>(item: T): Exclude<T, string> {
+function wrapListItem<T extends IListItem<S>, S extends string | undefined>(
+  item: T | string,
+): T {
   return (isString(item) ? {label: item, value: item} : item) as Exclude<
     T,
     string
   >;
 }
 
-function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
+function DropDown<T extends IListItem<S>, S extends string | undefined>(
+  props: IDropDownProps<T, S>,
+) {
   const {
     label,
     placeholder,
@@ -60,7 +64,7 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
     subtitleProps,
   } = props;
 
-  const selected = selectedItem ? wrapListItem(selectedItem) : undefined;
+  const selected = selectedItem ? selectedItem : undefined;
 
   const [isOpen, setOpen] = useState(false);
 
@@ -83,7 +87,7 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
     }
   };
 
-  const renderItemOnPress = (item: Exclude<T, string>) => {
+  const renderItemOnPress = (item: T) => {
     onPress(item);
     setOpen(false);
     popupContext.closePopup(DROP_DOWN_POPUP_ID);
@@ -168,11 +172,12 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
           <Typography
             style={[
               styles.placeholder,
-              selected?.label ? buttonTextStyleChosen : buttonTextStyle,
+              selected ? buttonTextStyleChosen : buttonTextStyle,
             ]}
             font={getFont()}
             numberOfLines={1}>
-            {selected?.label || placeholder}
+            {listItems.find(value => value.value === selected)?.label ||
+              placeholder}
           </Typography>
           <Icon isOpen={isOpen} rightIcon={rightIcon} />
         </TouchableOpacity>

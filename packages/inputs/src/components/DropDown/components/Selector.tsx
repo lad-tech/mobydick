@@ -12,7 +12,7 @@ import {
   LIST_MAX_HEIGHT,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
-import {IDropDownProps} from '../types';
+import {IDropDownProps, IListItem} from '../types';
 
 import stylesCreate from './stylesCreate';
 import ListEmptySelector from './ListEmptySelector';
@@ -34,19 +34,17 @@ type IFieldsToSelect =
   | 'listEmptyText'
   | 'listEmptyFont';
 
-type ISelector = {label: string; value: unknown};
-
-interface IItemsProps<T extends ISelector>
+interface IItemsProps<T extends IListItem<S>, S extends string | undefined>
   extends IPopupProps,
-    Pick<IDropDownProps<T>, IFieldsToSelect> {
+    Pick<IDropDownProps<T, S>, IFieldsToSelect> {
   list: T[];
   pageY: number;
   renderItemOnPress: (item: T) => void;
 }
 
-interface IRenderItemProps<T extends ISelector>
+interface IRenderItemProps<T extends IListItem<S>, S extends string | undefined>
   extends Pick<
-    IItemsProps<T>,
+    IItemsProps<T, S>,
     | 'renderItemOnPress'
     | 'selectedItem'
     | 'selectedItemColor'
@@ -60,7 +58,9 @@ interface IRenderItemProps<T extends ISelector>
   theme: ReturnType<typeof useStyles>[1];
 }
 
-function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
+function renderItem<T extends IListItem<S>, S extends string | undefined>(
+  props: IRenderItemProps<T, S>,
+) {
   return ({item}: {item: T}) => {
     const {
       renderItemOnPress,
@@ -78,7 +78,7 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
     } = props;
 
     const getFont = () => {
-      if (item === selectedItem) {
+      if (item.value === selectedItem) {
         return flatListTextFontPressed || 'Medium-Primary-M';
       }
       return flatListTextFont || 'Regular-Secondary-M';
@@ -90,7 +90,7 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
         style={[
           styles.dropDownItem,
           flatListItemStyle,
-          item.label === selectedItem?.label
+          item.label === selectedItem
             ? selectedItemColor
               ? {backgroundColor: selectedItemColor}
               : {backgroundColor: theme.colors.BgAccentSoft}
@@ -102,7 +102,9 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
         }>
         <Typography
           style={
-            item === selectedItem ? flatListTextStylePressed : flatListTextStyle
+            item.value === selectedItem
+              ? flatListTextStylePressed
+              : flatListTextStyle
           }
           font={getFont()}>
           {item.label}
@@ -112,7 +114,9 @@ function renderItem<T extends ISelector>(props: IRenderItemProps<T>) {
   };
 }
 
-function Selector<T extends ISelector>(props: IItemsProps<T>) {
+function Selector<T extends IListItem<S>, S extends string | undefined>(
+  props: IItemsProps<T, S>,
+) {
   const {
     list,
     pageY,

@@ -17,12 +17,14 @@ describe('@npm/mobydick-inputs/Selector', () => {
     {label: '1', value: '1'},
   ];
 
+  const selectedItem = list[0]?.value;
+
   it('renders correctly ', async () => {
     const inputList = [{label: 'list', value: 'list'}] as const;
     const {toJSON, findByLabelText} = render(
       <Selector
         list={[...inputList]}
-        selectedItem={list[1]}
+        selectedItem={list[1]?.value}
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
@@ -42,7 +44,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         list={largeList}
         onClose={jest.fn()}
         pageY={1}
-        selectedItem={largeList[1]}
+        selectedItem={largeList[1]?.value}
         renderItemOnPress={renderItemOnPress}
       />,
     );
@@ -57,7 +59,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         pageY={1}
         renderItemOnPress={renderItemOnPress}
         flatListItemStyle={{height: 10}}
-        selectedItem={list[0]}
+        selectedItem={selectedItem}
         selectedItemColor={'red'}
       />,
     );
@@ -68,7 +70,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
     const {toJSON} = render(
       <Selector
         list={list}
-        selectedItem={list[0]}
+        selectedItem={selectedItem}
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
@@ -85,7 +87,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
-        selectedItem={list[0]}
+        selectedItem={selectedItem}
         flatListTextFontPressed={'Bold-Error-L'}
       />,
     );
@@ -101,7 +103,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
-        selectedItem={list[0]}
+        selectedItem={selectedItem}
         flatListStyle={{paddingVertical: 2}}
       />,
     );
@@ -122,7 +124,7 @@ describe('@npm/mobydick-inputs/Selector', () => {
         onClose={jest.fn()}
         pageY={1}
         renderItemOnPress={renderItemOnPress}
-        selectedItem={list[0]}
+        selectedItem={selectedItem}
         flatListStyle={{width: 2}}
         buttonStyle={{borderWidth: 1}}
       />,
