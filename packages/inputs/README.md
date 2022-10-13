@@ -33,4 +33,4 @@ Author - Aleksei Smirnov
    
 6. Массив элементов: можно передать массив объектов ввида {label: string; value: unknown}, либо передать массив строк, который преобразуется в вид {label: string; value: unknown}.
 
-7. Если в DropDown передать selectedItem, которого нет в list, то отобрахзиться placeholder
+7. Если в DropDown передать selectedItem, которого нет в list, то отобразится placeholder
