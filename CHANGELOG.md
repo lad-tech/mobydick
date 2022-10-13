@@ -1,3 +1,18 @@
+# [1.7.0](https://glab.lad24.ru/npm/mobydick/compare/v1.6.4...v1.7.0) (2022-10-13)
+
+
+### Bug Fixes
+
+* **popups:** id now works correctly ([cc09433](https://glab.lad24.ru/npm/mobydick/commit/cc09433a73c96ec1bda0fd927a2e96abba24da9e))
+* **snackbar:** fix padding top ([3239257](https://glab.lad24.ru/npm/mobydick/commit/32392575268fe8e1671edb9da98477c526cae16a))
+* **snackbar:** добавила тип для пропсов и обновила titleFont ([edff10d](https://glab.lad24.ru/npm/mobydick/commit/edff10d61c28bfdd37bb27e7ae8666d143affac5))
+* typing renaming Dick-127 ([5bb7ee0](https://glab.lad24.ru/npm/mobydick/commit/5bb7ee04f286027645749fe87fef2a3fc9ba2cfe))
+
+
+### Features
+
+* **modalBase:** добавили новые дефолтные компоненты: горизонтальное, вертикальное отображение кнопок, два вида алерта ([eb2a741](https://glab.lad24.ru/npm/mobydick/commit/eb2a741956640025fe5d823327a74287505483a2))
+
 ## [1.6.4](https://glab.lad24.ru/npm/mobydick/compare/v1.6.3...v1.6.4) (2022-10-12)
 
 
