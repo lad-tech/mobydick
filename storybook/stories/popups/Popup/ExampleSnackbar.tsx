@@ -10,15 +10,10 @@ import selectFont from '../../../utils/selectFont';
 const ExampleSnackbar: FC<IContentProps> = props => {
   const {colors} = useTheme();
   const {onClose} = props;
-
-  const position = select('Placement', IPosition, IPosition.bottom);
+  const position = select('Position', IPosition, IPosition.bottom);
 
   return (
-    <SnackbarBase
-      {...props}
-      containerStyle={{alignItems: 'flex-start'}}
-      position={position}
-      timeShow={2000}>
+    <SnackbarBase {...props} position={position} timeShow={2000}>
       {boolean('show icon', true) && (
         <SimpleIcon
           name={'icon-check'}

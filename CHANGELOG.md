@@ -1,3 +1,17 @@
+## [1.6.4](https://glab.lad24.ru/npm/mobydick/compare/v1.6.3...v1.6.4) (2022-10-12)
+
+
+### Bug Fixes
+
+* **search:** потеряла цвет ([6a3c0b9](https://glab.lad24.ru/npm/mobydick/commit/6a3c0b96c9980d5474232f38a2862f98f806a16b))
+
+## [1.6.3](https://glab.lad24.ru/npm/mobydick/compare/v1.6.2...v1.6.3) (2022-10-11)
+
+
+### Bug Fixes
+
+* **icon:** до конца дообновила иконки ([0d33a3b](https://glab.lad24.ru/npm/mobydick/commit/0d33a3b0cea8592ce44c61a3c0ac4a866ca6e650))
+
 ## [1.6.2](https://glab.lad24.ru/npm/mobydick/compare/v1.6.1...v1.6.2) (2022-10-10)
 
 
