@@ -39,10 +39,13 @@ describe('@npm/mobydick-inputs/DropDown', () => {
 
   it('selectItem', async () => {
     const onPress = jest.fn();
-    const array = [
+    const array: [
+      {label: string; value: string},
+      {label: string; value: string},
+    ] = [
       {label: 'Русский', value: 'Русский'},
       {label: 'English', value: 'English'},
-    ] as const;
+    ];
     jest
       .spyOn(viewRef.current as View, 'measure')
       .mockImplementation(
@@ -63,10 +66,10 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         <DropDown
           placeholder={'Выберите язык'}
           label={'Название поля'}
-          list={[...array]}
+          list={array}
           onPress={onPress}
-          selectedItem={array[1]}
           type={IInputsTypes.disabled}
+          selectedItem={array[1].value}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
         />
       </PopupsProvider>,
