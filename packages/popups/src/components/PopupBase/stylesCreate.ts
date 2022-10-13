@@ -16,7 +16,7 @@ const stylesCreate = (theme: IThemeContext) => {
       backgroundColor: colors.BgSecondary,
       borderRadius: spaces.Space12,
       justifyContent: 'center',
-      alignItems: 'center',
+      // alignItems: 'center',
       padding: spaces.Space20,
       marginVertical: spaces.Space20,
       marginHorizontal: spaces.Space6,

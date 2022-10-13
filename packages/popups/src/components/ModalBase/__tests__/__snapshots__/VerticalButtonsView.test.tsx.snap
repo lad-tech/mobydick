@@ -2,167 +2,63 @@
 
 exports[`@npm/mobydick-popups/modalBase should renders correctly VerticalButtonsView one button  1`] = `
 <View
-  accessibilityState={
-    Object {
-      "disabled": false,
-    }
-  }
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "center",
-      "alignSelf": "stretch",
-      "backgroundColor": "#F54D3D",
-      "borderRadius": 18,
-      "flexDirection": "row",
-      "justifyContent": "center",
       "marginTop": 36,
-      "minHeight": 72,
-      "opacity": 1,
     }
   }
 >
-  <Text
-    allowFontScaling={true}
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
-          "color": "#FFF",
-          "fontFamily": "Inter-SemiBold",
-          "fontSize": 27,
-          "lineHeight": 33,
-        },
+      Object {
+        "alignItems": "center",
+        "alignSelf": "stretch",
+        "backgroundColor": "#F54D3D",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "minHeight": 72,
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
         Array [
           Object {
             "color": "#FFF",
-            "paddingHorizontal": 9,
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 27,
+            "lineHeight": 33,
           },
-          undefined,
-        ],
-      ]
-    }
-  >
-    text
-  </Text>
+          Array [
+            Object {
+              "color": "#FFF",
+              "paddingHorizontal": 9,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      text
+    </Text>
+  </View>
 </View>
-`;
-
-exports[`@npm/mobydick-popups/modalBase should renders correctly VerticalButtonsView secondary  1`] = `
-Array [
-  <View
-    accessibilityState={
-      Object {
-        "disabled": false,
-      }
-    }
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "alignItems": "center",
-        "alignSelf": "stretch",
-        "backgroundColor": "rgba(43, 120, 238, 0.15)",
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "marginTop": 36,
-        "minHeight": 72,
-        "opacity": 1,
-      }
-    }
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Array [
-          Object {
-            "color": "#FFF",
-            "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-          },
-          Array [
-            Object {
-              "color": "#2B78EE",
-              "paddingHorizontal": 9,
-            },
-            undefined,
-          ],
-        ]
-      }
-    >
-      text
-    </Text>
-  </View>,
-  <View
-    accessibilityState={
-      Object {
-        "disabled": false,
-      }
-    }
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "alignItems": "center",
-        "alignSelf": "stretch",
-        "backgroundColor": "rgba(43, 120, 238, 0.15)",
-        "borderRadius": 18,
-        "flexDirection": "row",
-        "justifyContent": "center",
-        "marginTop": 18,
-        "minHeight": 72,
-        "opacity": 1,
-      }
-    }
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Array [
-          Object {
-            "color": "#FFF",
-            "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-          },
-          Array [
-            Object {
-              "color": "#2B78EE",
-              "paddingHorizontal": 9,
-            },
-            undefined,
-          ],
-        ]
-      }
-    >
-      text
-    </Text>
-  </View>,
-]
 `;

@@ -8,6 +8,7 @@ import {
 } from '@npm/mobydick-popups';
 import {rem} from '@npm/mobydick-styles';
 import {ITypes} from '@npm/mobydick-cta';
+import VerticalButton from '@npm/mobydick-popups/src/components/ModalBase/VerticalButton';
 
 import selectFont from '../../../utils/selectFont';
 
@@ -32,7 +33,7 @@ const ExampleModal: FC<IContentProps> = props => {
         />
       )}
       {boolean('show image', false) && (
-        <ImageModal style={{marginTop: rem(24)}} />
+        <ImageModal style={{marginTop: rem(24), alignSelf: 'center'}} />
       )}
       {boolean('show title', true) && (
         <ModalBase.Title
@@ -50,22 +51,27 @@ const ExampleModal: FC<IContentProps> = props => {
         />
       )}
       {boolean('show vertical button', false) && (
-        <ModalBase.VerticalButtonsView
-          onPressOne={() =>
-            popupContext.openPopup({Content: NestedExampleModal})
-          }
-          typeOne={select('type one vertical button', ITypes, ITypes.primary)}
-          textOne={text('text one vertical button', 'Разрешить доступ')}
-          onPressTwo={() =>
-            popupContext.openPopup({Content: NestedExampleModal})
-          }
-          typeTwo={select(
-            'type two vertical button',
-            ITypes,
-            ITypes.destructive,
-          )}
-          textTwo={text('text two vertical button', 'Разрешить доступ')}
-        />
+        <ModalBase.VerticalButtonsView>
+          <VerticalButton
+            onPress={() =>
+              popupContext.openPopup({Content: NestedExampleModal})
+            }
+            type={select('type one vertical button', ITypes, ITypes.primary)}
+            text={text('text one vertical button', 'Разрешить доступ')}
+            style={{marginBottom: rem(12)}}
+          />
+          <VerticalButton
+            onPress={() =>
+              popupContext.openPopup({Content: NestedExampleModal})
+            }
+            type={select(
+              'type two vertical button',
+              ITypes,
+              ITypes.destructive,
+            )}
+            text={text('text two vertical button', 'Разрешить доступ')}
+          />
+        </ModalBase.VerticalButtonsView>
       )}
       {boolean('show horizontal button', true) && (
         <ModalBase.HorizontalButtonsView
@@ -94,11 +100,13 @@ const NestedExampleModal: FC<IContentProps> = props => {
       <ModalBase.CloseIcon onPress={onClose} />
       <ModalBase.Title title={'Вложенная Модалка'} />
       <ModalBase.DescriptionText descriptionText={'Это просто пример'} />
-      <ModalBase.VerticalButtonsView
-        onPressOne={() => popupContext.openPopup({Content: ExampleModal})}
-        textOne={'Открыть ещё одну'}
-        typeOne={select('type one vertical button', ITypes, ITypes.primary)}
-      />
+      <ModalBase.VerticalButtonsView>
+        <VerticalButton
+          onPress={() => popupContext.openPopup({Content: ExampleModal})}
+          text={'Открыть ещё одну'}
+          type={select('type one vertical button', ITypes, ITypes.primary)}
+        />
+      </ModalBase.VerticalButtonsView>
     </ModalBase>
   );
 };

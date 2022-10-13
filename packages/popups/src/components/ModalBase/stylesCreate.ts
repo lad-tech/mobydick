@@ -13,16 +13,14 @@ const stylesCreate = (theme: IThemeContext) => {
       borderRadius: 100,
       padding: spaces.Space12,
       marginTop: spaces.Space24,
+      alignSelf: 'center',
     },
     text: {
       marginTop: spaces.Space24,
       textAlign: 'center',
     },
-    verticalButtonOne: {
+    verticalButtonsView: {
       marginTop: spaces.Space24,
-    },
-    verticalButtonTwo: {
-      marginTop: spaces.Space12,
     },
     horizontalButtonsView: {
       flexDirection: 'row',
