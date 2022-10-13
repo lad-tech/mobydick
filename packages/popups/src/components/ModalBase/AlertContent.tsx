@@ -13,7 +13,7 @@ import stylesCreate from './stylesCreate';
 
 interface IProps {
   name?: SimpleIconName;
-  color?: string | undefined;
+  color?: string;
   size?: number;
   style?: ViewStyle | ViewStyle[];
 }
