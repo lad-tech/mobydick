@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/modalBase should renders correctly AlertContent type = check 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 100,
+        "marginTop": 36,
+        "padding": 18,
+      },
+      Object {
+        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Object {
+        "color": "#2B78EE",
+        "fontFamily": "Neotis",
+        "fontSize": 54,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/modalBase should renders correctly AlertContent type = warning 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 100,
+        "marginTop": 36,
+        "padding": 18,
+      },
+      Object {
+        "backgroundColor": "rgba(245, 77, 61, 0.15)",
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Object {
+        "color": "#F54D3D",
+        "fontFamily": "Neotis",
+        "fontSize": 54,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;

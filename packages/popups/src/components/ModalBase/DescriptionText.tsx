@@ -3,7 +3,8 @@ import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 
 import {IDescriptionTextPopup} from '../PopupBase';
-import stylesCreate from '../PopupBase/stylesCreate';
+
+import stylesCreate from './stylesCreate';
 
 const DescriptionText: FC<IDescriptionTextPopup> = props => {
   const [styles] = useStyles(stylesCreate);
@@ -11,8 +12,8 @@ const DescriptionText: FC<IDescriptionTextPopup> = props => {
 
   return (
     <Typography
-      style={[styles.descriptionText, descriptionStyles]}
-      font={descriptionFont ? descriptionFont : 'Medium-Secondary-M'}>
+      style={[styles.text, descriptionStyles]}
+      font={descriptionFont ? descriptionFont : 'Regular-Tertiary-XS'}>
       {descriptionText}
     </Typography>
   );

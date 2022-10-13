@@ -30,6 +30,7 @@ exports[`Search render correctly with value 1`] = `
     style={
       Array [
         Object {
+          "color": "#20242D",
           "flex": 1,
           "fontSize": 24,
           "padding": 0,
@@ -121,6 +122,7 @@ exports[`Search render correctly without value 1`] = `
     style={
       Array [
         Object {
+          "color": "#20242D",
           "flex": 1,
           "fontSize": 24,
           "padding": 0,

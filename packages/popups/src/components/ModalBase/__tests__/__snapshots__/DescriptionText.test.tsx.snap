@@ -13,8 +13,7 @@ exports[`@npm/mobydick-popups/DescriptionText should renders correctly with desc
       },
       Array [
         Object {
-          "paddingBottom": 30,
-          "paddingHorizontal": 30,
+          "marginTop": 36,
           "textAlign": "center",
         },
         Object {
@@ -34,15 +33,14 @@ exports[`@npm/mobydick-popups/DescriptionText should renders correctly without d
   style={
     Array [
       Object {
-        "color": "#444B5A",
-        "fontFamily": "Inter-Medium",
-        "fontSize": 24,
-        "lineHeight": 30,
+        "color": "#5E6678",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 21,
+        "lineHeight": 27,
       },
       Array [
         Object {
-          "paddingBottom": 30,
-          "paddingHorizontal": 30,
+          "marginTop": 36,
           "textAlign": "center",
         },
         Object {

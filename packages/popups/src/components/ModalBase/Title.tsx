@@ -2,8 +2,9 @@ import React, {FC} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 
-import stylesCreate from '../PopupBase/stylesCreate';
 import {ITitlePopup} from '../PopupBase';
+
+import stylesCreate from './stylesCreate';
 
 const Title: FC<ITitlePopup> = props => {
   const [styles] = useStyles(stylesCreate);
@@ -11,8 +12,8 @@ const Title: FC<ITitlePopup> = props => {
 
   return (
     <Typography
-      style={[styles.title, titleStyles]}
-      font={titleFont ? titleFont : 'SemiBold-Primary-H4'}>
+      style={[styles.text, titleStyles]}
+      font={titleFont ? titleFont : 'SemiBold-Primary-XL'}>
       {title}
     </Typography>
   );
