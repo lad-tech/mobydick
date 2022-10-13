@@ -7,7 +7,7 @@ import Constants from '@npm/mobydick-popups/src/components/PopupBase/constants';
 
 import DropDown from '../DropDown';
 import {ACCESSIBILITY_LABEL} from '../constants';
-import {ITypes} from '../../types';
+import {IInputsTypes} from '../../types';
 
 describe('@npm/mobydick-inputs/DropDown', () => {
   let viewRef: React.RefObject<View>;
@@ -68,8 +68,8 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           label={'Название поля'}
           list={array}
           onPress={onPress}
+          type={IInputsTypes.disabled}
           selectedItem={array[1].value}
-          type={ITypes.disabled}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
         />
       </PopupsProvider>,
@@ -144,7 +144,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           label={'Название поля'}
           list={list}
           onPress={jest.fn()}
-          type={ITypes.wrong}
+          type={IInputsTypes.wrong}
           labelFont={'Medium-Tertiary-XS'}
           buttonStyle={{
             width: 400,
@@ -167,7 +167,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           label={'Название поля'}
           list={list}
           onPress={jest.fn()}
-          type={ITypes.valid}
+          type={IInputsTypes.valid}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
         />
       </PopupsProvider>,

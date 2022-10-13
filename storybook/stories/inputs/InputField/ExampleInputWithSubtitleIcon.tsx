@@ -1,4 +1,4 @@
-import {InputField, ITypes} from '@npm/mobydick-inputs';
+import {InputField, IInputsTypes} from '@npm/mobydick-inputs';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {iconNames, rem, Show, SimpleIconName} from '@npm/mobydick-styles';
 import {action} from '@storybook/addon-actions';
@@ -7,7 +7,7 @@ import React from 'react';
 const ExampleInputWithSubtitleIcon = () => {
   return (
     <InputField
-      type={select('type', ITypes, ITypes.default)}
+      type={select('type', IInputsTypes, IInputsTypes.default)}
       title={text('title', 'Название поля')}
       placeholder={text('Placeholder', 'Введите что-нибудь')}
       subtitle={text('subtitle', 'Подпись')}

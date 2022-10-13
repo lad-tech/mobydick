@@ -4,7 +4,7 @@ import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 import {usePopups} from '@npm/mobydick-popups';
 
-import {ITypes} from '../types';
+import {IInputsTypes} from '../types';
 import Subtitle from '../Subtitle';
 
 import {IDropDownProps, IListItem} from './types';
@@ -56,7 +56,7 @@ function DropDown<T extends IListItem<S>, S extends string | undefined>(
     flatListTextStylePressed,
     buttonTextStyleChosen,
     buttonTextFontChosen,
-    type = ITypes.default,
+    type = IInputsTypes.default,
     disabled,
 
     subtitle,
@@ -72,7 +72,7 @@ function DropDown<T extends IListItem<S>, S extends string | undefined>(
 
   const [styles] = useStyles(
     stylesCreate,
-    disabled ? ITypes.disabled : type,
+    disabled ? IInputsTypes.disabled : type,
     isOpen,
   );
 

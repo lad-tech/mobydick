@@ -3,5 +3,5 @@ import {
   Button as DefaultButton,
 } from 'react-native';
 
-export type IButtonProps = DefaultButtonProps;
-export type IButton = DefaultButton;
+export type IButtonWrapperProps = DefaultButtonProps;
+export type IButtonWrapper = DefaultButton;

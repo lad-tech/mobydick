@@ -3,7 +3,7 @@ import {act, render} from '@testing-library/react-native';
 
 import InputField from '../InputField';
 import Constants from '../constants';
-import {ITypes} from '../../types';
+import {IInputsTypes} from '../../types';
 
 describe('@npm/mobydick-inputs/InputField', () => {
   it('renders correctly', () => {
@@ -18,7 +18,9 @@ describe('@npm/mobydick-inputs/InputField', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly valid', () => {
-    const {toJSON, getByTestId} = render(<InputField type={ITypes.valid} />);
+    const {toJSON, getByTestId} = render(
+      <InputField type={IInputsTypes.valid} />,
+    );
 
     expect(toJSON()).toMatchSnapshot();
 
@@ -30,7 +32,7 @@ describe('@npm/mobydick-inputs/InputField', () => {
   it('renders correctly wrong', () => {
     const {toJSON, getByTestId} = render(
       <InputField
-        type={ITypes.wrong}
+        type={IInputsTypes.wrong}
         subtitle={'subtitle'}
         subtitleIcon={'icon-account'}
       />,
@@ -45,7 +47,7 @@ describe('@npm/mobydick-inputs/InputField', () => {
   });
   it('renders correctly disabled', () => {
     const {toJSON, getByTestId} = render(
-      <InputField type={ITypes.disabled} disabled={true} />,
+      <InputField type={IInputsTypes.disabled} disabled={true} />,
     );
 
     expect(toJSON()).toMatchSnapshot();
