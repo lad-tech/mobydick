@@ -8,7 +8,6 @@ import {
 } from '@npm/mobydick-popups';
 import {rem} from '@npm/mobydick-styles';
 import {ITypes} from '@npm/mobydick-cta';
-import VerticalButton from '@npm/mobydick-popups/src/components/ModalBase/VerticalButton';
 
 import selectFont from '../../../utils/selectFont';
 
@@ -52,7 +51,7 @@ const ExampleModal: FC<IContentProps> = props => {
       )}
       {boolean('show vertical button', false) && (
         <ModalBase.VerticalButtonsView>
-          <VerticalButton
+          <ModalBase.VerticalButton
             onPress={() =>
               popupContext.openPopup({Content: NestedExampleModal})
             }
@@ -60,7 +59,7 @@ const ExampleModal: FC<IContentProps> = props => {
             text={text('text one vertical button', 'Разрешить доступ')}
             style={{marginBottom: rem(12)}}
           />
-          <VerticalButton
+          <ModalBase.VerticalButton
             onPress={() =>
               popupContext.openPopup({Content: NestedExampleModal})
             }
@@ -101,7 +100,7 @@ const NestedExampleModal: FC<IContentProps> = props => {
       <ModalBase.Title title={'Вложенная Модалка'} />
       <ModalBase.DescriptionText descriptionText={'Это просто пример'} />
       <ModalBase.VerticalButtonsView>
-        <VerticalButton
+        <ModalBase.VerticalButton
           onPress={() => popupContext.openPopup({Content: ExampleModal})}
           text={'Открыть ещё одну'}
           type={select('type one vertical button', ITypes, ITypes.primary)}
