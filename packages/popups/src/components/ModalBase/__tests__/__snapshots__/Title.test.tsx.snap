@@ -13,8 +13,7 @@ exports[`@npm/mobydick-popups/Title should renders correctly with titleFont 1`] 
       },
       Array [
         Object {
-          "paddingHorizontal": 30,
-          "paddingVertical": 15,
+          "marginTop": 36,
           "textAlign": "center",
         },
         Object {
@@ -36,13 +35,12 @@ exports[`@npm/mobydick-popups/Title should renders correctly without titleFont 1
       Object {
         "color": "#20242D",
         "fontFamily": "Inter-SemiBold",
-        "fontSize": 36,
-        "lineHeight": 39,
+        "fontSize": 30,
+        "lineHeight": 36,
       },
       Array [
         Object {
-          "paddingHorizontal": 30,
-          "paddingVertical": 15,
+          "marginTop": 36,
           "textAlign": "center",
         },
         Object {

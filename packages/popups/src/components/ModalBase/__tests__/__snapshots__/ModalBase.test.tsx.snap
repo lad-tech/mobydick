@@ -33,15 +33,12 @@ exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderRadius": 18,
           "justifyContent": "center",
           "marginHorizontal": 9,
           "marginVertical": 30,
-          "paddingBottom": 60,
-          "paddingHorizontal": 30,
-          "paddingTop": 30,
+          "padding": 30,
         },
         undefined,
       ]

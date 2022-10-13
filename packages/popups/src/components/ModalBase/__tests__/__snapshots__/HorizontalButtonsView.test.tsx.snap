@@ -1,0 +1,481 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/modalBase should renders correctly HorizontalButtonsView destructive  1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "paddingTop": 36,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F54D3D",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginRight": 9,
+        "minHeight": 72,
+        "opacity": 1,
+        "paddingHorizontal": 39,
+        "paddingVertical": 18,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 27,
+            "lineHeight": 33,
+          },
+          Array [
+            Object {
+              "color": "#FFF",
+              "paddingHorizontal": 9,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      textLeft
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F54D3D",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginLeft": 9,
+        "minHeight": 72,
+        "opacity": 1,
+        "paddingHorizontal": 39,
+        "paddingVertical": 18,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 27,
+            "lineHeight": 33,
+          },
+          Array [
+            Object {
+              "color": "#FFF",
+              "paddingHorizontal": 9,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      textRight
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/modalBase should renders correctly HorizontalButtonsView primary  1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "paddingTop": 36,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginRight": 9,
+        "minHeight": 72,
+        "opacity": 1,
+        "paddingHorizontal": 39,
+        "paddingVertical": 18,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 27,
+            "lineHeight": 33,
+          },
+          Array [
+            Object {
+              "color": "#FFF",
+              "paddingHorizontal": 9,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      textLeft
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginLeft": 9,
+        "minHeight": 72,
+        "opacity": 1,
+        "paddingHorizontal": 39,
+        "paddingVertical": 18,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 27,
+            "lineHeight": 33,
+          },
+          Array [
+            Object {
+              "color": "#FFF",
+              "paddingHorizontal": 9,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      textRight
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/modalBase should renders correctly HorizontalButtonsView secondary  1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "paddingTop": 36,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginRight": 9,
+        "minHeight": 72,
+        "opacity": 1,
+        "paddingHorizontal": 39,
+        "paddingVertical": 18,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 27,
+            "lineHeight": 33,
+          },
+          Array [
+            Object {
+              "color": "#2B78EE",
+              "paddingHorizontal": 9,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      textLeft
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginLeft": 9,
+        "minHeight": 72,
+        "opacity": 1,
+        "paddingHorizontal": 39,
+        "paddingVertical": 18,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 27,
+            "lineHeight": 33,
+          },
+          Array [
+            Object {
+              "color": "#2B78EE",
+              "paddingHorizontal": 9,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      textRight
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/modalBase should renders correctly HorizontalButtonsView tertiary  1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "paddingTop": 36,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginRight": 9,
+        "minHeight": 72,
+        "opacity": 1,
+        "paddingHorizontal": 39,
+        "paddingVertical": 18,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 27,
+            "lineHeight": 33,
+          },
+          Array [
+            Object {
+              "color": "#2B78EE",
+              "paddingHorizontal": 9,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      textLeft
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginLeft": 9,
+        "minHeight": 72,
+        "opacity": 1,
+        "paddingHorizontal": 39,
+        "paddingVertical": 18,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 27,
+            "lineHeight": 33,
+          },
+          Array [
+            Object {
+              "color": "#2B78EE",
+              "paddingHorizontal": 9,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      textRight
+    </Text>
+  </View>
+</View>
+`;
