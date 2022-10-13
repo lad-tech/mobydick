@@ -1,7 +1,7 @@
 import {IThemeContext, rem} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
-import {ITypes} from '../types';
+import {IInputsTypes} from '../types';
 import {disabledStyle, validStyle, wrongStyle} from '../../style';
 
 const defaultStyle = (theme: IThemeContext, focused: boolean) => {
@@ -28,15 +28,19 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
   });
 };
 
-const stylesCreate = (theme: IThemeContext, type: ITypes, focused: boolean) => {
+const stylesCreate = (
+  theme: IThemeContext,
+  type: IInputsTypes,
+  focused: boolean,
+) => {
   switch (type) {
-    case ITypes.valid:
+    case IInputsTypes.valid:
       return validStyle(theme, defaultStyle(theme, focused), focused);
-    case ITypes.wrong:
+    case IInputsTypes.wrong:
       return wrongStyle(theme, defaultStyle(theme, focused), focused);
-    case ITypes.disabled:
+    case IInputsTypes.disabled:
       return disabledStyle(theme, defaultStyle(theme, focused), focused);
-    case ITypes.default:
+    case IInputsTypes.default:
     default:
       return defaultStyle(theme, focused);
   }

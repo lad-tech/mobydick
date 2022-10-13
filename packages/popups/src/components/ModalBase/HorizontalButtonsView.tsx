@@ -1,16 +1,16 @@
 import React, {FC} from 'react';
-import {Button, ISize, ITypes} from '@npm/mobydick-cta';
+import {Button, IButtonSize, IButtonTypes} from '@npm/mobydick-cta';
 import {View} from '@npm/mobydick-core';
 import {useStyles} from '@npm/mobydick-styles';
 
 import stylesCreate from './stylesCreate';
 
 interface IFilledView {
-  typeLeft: ITypes;
+  typeLeft: IButtonTypes;
   onPressLeft(): void;
   textLeft: string;
 
-  typeRight: ITypes;
+  typeRight: IButtonTypes;
   onPressRight(): void;
   textRight: string;
 }
@@ -23,14 +23,14 @@ const HorizontalButtonsView: FC<IFilledView> = props => {
   return (
     <View style={styles.horizontalButtonsView}>
       <Button
-        size={ISize.large}
+        size={IButtonSize.large}
         style={styles.horizontalLeftButton}
         type={typeLeft}
         onPress={onPressLeft}
         text={textLeft}
       />
       <Button
-        size={ISize.large}
+        size={IButtonSize.large}
         style={styles.horizontalRightButton}
         type={typeRight}
         onPress={onPressRight}

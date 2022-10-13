@@ -1,5 +1,5 @@
-import Button from './Button';
+import ButtonWrapper from './ButtonWrapper';
 
 export * from './types';
 
-export {Button};
+export {ButtonWrapper};

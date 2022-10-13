@@ -2,7 +2,7 @@ import {storiesOf} from '@storybook/react-native';
 import React from 'react';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
-import {ISize, ITypes} from '@npm/mobydick-cta';
+import {IButtonSize, IButtonTypes} from '@npm/mobydick-cta';
 
 import CenterView from '../../CenterView';
 
@@ -16,9 +16,9 @@ storiesOf('Design System/CTA/Button', module)
     <ButtonWithDelay
       text={text('text', 'text')}
       onPress={action('onPress')}
-      type={select('type', ITypes, ITypes.primary)}
+      type={select('type', IButtonTypes, IButtonTypes.primary)}
       disabled={boolean('disabled', false)}
       loading={boolean('loading', false)}
-      size={select('size', ISize, ISize.small)}
+      size={select('size', IButtonSize, IButtonSize.small)}
     />
   ));

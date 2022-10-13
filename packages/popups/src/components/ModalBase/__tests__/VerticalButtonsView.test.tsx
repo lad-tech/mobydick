@@ -1,5 +1,5 @@
 import {render} from '@testing-library/react-native';
-import {ITypes} from '@npm/mobydick-cta';
+import {IButtonTypes} from '@npm/mobydick-cta';
 import React from 'react';
 
 import VerticalButtonsView from '../VerticalButtonsView';
@@ -10,7 +10,7 @@ describe('@npm/mobydick-popups/modalBase', () => {
     const {toJSON} = render(
       <VerticalButtonsView>
         <VerticalButton
-          type={ITypes.destructive}
+          type={IButtonTypes.destructive}
           onPress={() => console.log('onPress')}
           text={'text'}
         />

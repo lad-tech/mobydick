@@ -1,6 +1,6 @@
 import React from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
-import {Button, View} from '@npm/mobydick-core';
+import {ButtonWrapper, View} from '@npm/mobydick-core';
 
 import {IContentProps} from '../../types';
 import {usePopups} from '../../hooks';
@@ -12,7 +12,11 @@ const testIdCloseAllPopup = 'testIdCloseAllPopup';
 
 const Popup = ({onClose}: IContentProps) => {
   return (
-    <Button testID={testIdPopup} onPress={() => onClose()} title={'title'} />
+    <ButtonWrapper
+      testID={testIdPopup}
+      onPress={() => onClose()}
+      title={'title'}
+    />
   );
 };
 
@@ -21,12 +25,12 @@ const Example = () => {
 
   return (
     <View>
-      <Button
+      <ButtonWrapper
         testID={testIdOpenPopup}
         onPress={() => popupContext.openPopup({Content: Popup})}
         title={'title'}
       />
-      <Button
+      <ButtonWrapper
         testID={testIdCloseAllPopup}
         onPress={() => popupContext.closeAllPopups()}
         title={'title'}

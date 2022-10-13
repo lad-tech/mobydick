@@ -2,7 +2,7 @@ import {IThemeContext} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
 const stylesCreate = (theme: IThemeContext) => {
-  const {spaces} = theme;
+  const {spaces, colors} = theme;
   return StyleSheet.create({
     closeButton: {
       alignSelf: 'flex-end',
@@ -14,6 +14,7 @@ const stylesCreate = (theme: IThemeContext) => {
       padding: spaces.Space12,
       marginTop: spaces.Space24,
       alignSelf: 'center',
+      backgroundColor: colors.BgAccentSoft,
     },
     text: {
       marginTop: spaces.Space24,

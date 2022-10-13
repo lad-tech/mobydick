@@ -6,13 +6,12 @@ exports[`@npm/mobydick-popups/modalBase should renders correctly AlertContent ty
     Array [
       Object {
         "alignSelf": "center",
+        "backgroundColor": "rgba(43, 120, 238, 0.15)",
         "borderRadius": 100,
         "marginTop": 36,
         "padding": 18,
       },
-      Object {
-        "backgroundColor": "rgba(43, 120, 238, 0.15)",
-      },
+      undefined,
     ]
   }
 >
@@ -37,12 +36,13 @@ exports[`@npm/mobydick-popups/modalBase should renders correctly AlertContent ty
     Array [
       Object {
         "alignSelf": "center",
+        "backgroundColor": "rgba(43, 120, 238, 0.15)",
         "borderRadius": 100,
         "marginTop": 36,
         "padding": 18,
       },
       Object {
-        "backgroundColor": "rgba(245, 77, 61, 0.15)",
+        "backgroundColor": "#fff",
       },
     ]
   }
@@ -51,7 +51,7 @@ exports[`@npm/mobydick-popups/modalBase should renders correctly AlertContent ty
     allowFontScaling={true}
     style={
       Object {
-        "color": "#F54D3D",
+        "color": "#fff",
         "fontFamily": "Neotis",
         "fontSize": 54,
       }

@@ -1,13 +1,8 @@
 import {boolean, select, text} from '@storybook/addon-knobs';
 import React, {FC} from 'react';
-import {
-  IAlertTypes,
-  IContentProps,
-  ModalBase,
-  usePopups,
-} from '@npm/mobydick-popups';
-import {rem} from '@npm/mobydick-styles';
-import {ITypes} from '@npm/mobydick-cta';
+import {IContentProps, ModalBase, usePopups} from '@npm/mobydick-popups';
+import {rem, useTheme} from '@npm/mobydick-styles';
+import {IButtonTypes} from '@npm/mobydick-cta';
 
 import selectFont from '../../../utils/selectFont';
 
@@ -15,6 +10,7 @@ import ImageModal from './icons/svg/imageModal.svg';
 
 const ExampleModal: FC<IContentProps> = props => {
   const popupContext = usePopups();
+  const {colors} = useTheme();
   const {onClose} = props;
   const titleFont = select('Title font', selectFont, 'SemiBold-Primary-XL');
   const descriptionFont = select(
@@ -26,9 +22,12 @@ const ExampleModal: FC<IContentProps> = props => {
   return (
     <ModalBase {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
-      {boolean('show alert', true) && (
+      {boolean('show alert check', true) && <ModalBase.AlertContent />}
+      {boolean('show alert warning', false) && (
         <ModalBase.AlertContent
-          type={select('type alert', IAlertTypes, IAlertTypes.warning)}
+          name={'icon-warning'}
+          color={colors.IconAttention}
+          style={{backgroundColor: colors.BgError}}
         />
       )}
       {boolean('show image', false) && (
@@ -55,7 +54,11 @@ const ExampleModal: FC<IContentProps> = props => {
             onPress={() =>
               popupContext.openPopup({Content: NestedExampleModal})
             }
-            type={select('type one vertical button', ITypes, ITypes.primary)}
+            type={select(
+              'type one vertical button',
+              IButtonTypes,
+              IButtonTypes.primary,
+            )}
             text={text('text one vertical button', 'Разрешить доступ')}
             style={{marginBottom: rem(12)}}
           />
@@ -65,8 +68,8 @@ const ExampleModal: FC<IContentProps> = props => {
             }
             type={select(
               'type two vertical button',
-              ITypes,
-              ITypes.destructive,
+              IButtonTypes,
+              IButtonTypes.destructive,
             )}
             text={text('text two vertical button', 'Разрешить доступ')}
           />
@@ -74,12 +77,20 @@ const ExampleModal: FC<IContentProps> = props => {
       )}
       {boolean('show horizontal button', true) && (
         <ModalBase.HorizontalButtonsView
-          typeRight={select('type right button', ITypes, ITypes.secondary)}
+          typeRight={select(
+            'type right button',
+            IButtonTypes,
+            IButtonTypes.secondary,
+          )}
           textRight={text('text right button ', 'Добавить')}
           onPressRight={() =>
             popupContext.openPopup({Content: NestedExampleModal})
           }
-          typeLeft={select('type left button', ITypes, ITypes.destructive)}
+          typeLeft={select(
+            'type left button',
+            IButtonTypes,
+            IButtonTypes.destructive,
+          )}
           textLeft={text('text left button ', 'Отмена')}
           onPressLeft={() =>
             popupContext.openPopup({Content: NestedExampleModal})
@@ -103,7 +114,11 @@ const NestedExampleModal: FC<IContentProps> = props => {
         <ModalBase.VerticalButton
           onPress={() => popupContext.openPopup({Content: ExampleModal})}
           text={'Открыть ещё одну'}
-          type={select('type one vertical button', ITypes, ITypes.primary)}
+          type={select(
+            'type one vertical button',
+            IButtonTypes,
+            IButtonTypes.primary,
+          )}
         />
       </ModalBase.VerticalButtonsView>
     </ModalBase>

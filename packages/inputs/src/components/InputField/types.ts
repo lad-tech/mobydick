@@ -4,7 +4,7 @@ import {IStyledTextProps} from '@npm/mobydick-typography';
 import {StyleProp, ViewStyle} from 'react-native';
 import {SimpleIconName} from '@npm/mobydick-styles';
 
-import {ITypes} from '../types';
+import {IInputsTypes} from '../types';
 
 export interface IInputFieldsProps extends ITextInputProps {
   title?: string;
@@ -15,6 +15,6 @@ export interface IInputFieldsProps extends ITextInputProps {
   containerStyle?: StyleProp<ViewStyle>;
   textInputContainerStyle?: StyleProp<ViewStyle>;
   rightIcon?: ReactElement;
-  type?: ITypes;
+  type?: IInputsTypes;
   disabled?: boolean;
 }
