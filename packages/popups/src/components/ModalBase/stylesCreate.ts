@@ -18,8 +18,11 @@ const stylesCreate = (theme: IThemeContext) => {
       marginTop: spaces.Space24,
       textAlign: 'center',
     },
-    verticalButton: {
+    verticalButtonOne: {
       marginTop: spaces.Space24,
+    },
+    verticalButtonTwo: {
+      marginTop: spaces.Space12,
     },
     horizontalButtonsView: {
       flexDirection: 'row',

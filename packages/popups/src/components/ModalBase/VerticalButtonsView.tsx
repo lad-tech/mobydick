@@ -5,22 +5,38 @@ import {useStyles} from '@npm/mobydick-styles';
 import stylesCreate from './stylesCreate';
 
 interface IFixedView {
-  onPress(): void;
-  text: string;
-  type?: ITypes;
+  textOne: string;
+  typeOne: ITypes;
+  onPressOne(): void;
+
+  textTwo?: string;
+  typeTwo?: ITypes;
+  onPressTwo?(): void;
 }
 
 const VerticalButtonsView: FC<IFixedView> = props => {
   const [styles] = useStyles(stylesCreate);
-  const {children, ...otherProps} = props;
+  const {textOne, typeOne, onPressOne, textTwo, typeTwo, onPressTwo} = props;
+
+  const isShowTwoButton = textTwo && typeTwo && onPressTwo;
   return (
     <>
       <Button
         size={ISize.fixed}
-        style={styles.verticalButton}
-        {...otherProps}
+        style={styles.verticalButtonOne}
+        text={textOne}
+        type={typeOne}
+        onPress={onPressOne}
       />
-      {children}
+      {isShowTwoButton && (
+        <Button
+          size={ISize.fixed}
+          style={styles.verticalButtonTwo}
+          text={textTwo}
+          type={typeTwo}
+          onPress={onPressTwo}
+        />
+      )}
     </>
   );
 };

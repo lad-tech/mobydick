@@ -7,7 +7,7 @@ import {
   usePopups,
 } from '@npm/mobydick-popups';
 import {rem} from '@npm/mobydick-styles';
-import {Button, ISize, ITypes} from '@npm/mobydick-cta';
+import {ITypes} from '@npm/mobydick-cta';
 
 import selectFont from '../../../utils/selectFont';
 
@@ -51,16 +51,21 @@ const ExampleModal: FC<IContentProps> = props => {
       )}
       {boolean('show vertical button', false) && (
         <ModalBase.VerticalButtonsView
-          onPress={() => popupContext.openPopup({Content: NestedExampleModal})}
-          type={select('type one vertical button', ITypes, ITypes.primary)}
-          text={text('text one vertical button', 'Разрешить доступ')}>
-          <Button
-            size={ISize.fixed}
-            style={{marginTop: 12}}
-            type={select('type two vertical button', ITypes, ITypes.tertiary)}
-            text={text('text two vertical button', 'Разрешить доступ')}
-          />
-        </ModalBase.VerticalButtonsView>
+          onPressOne={() =>
+            popupContext.openPopup({Content: NestedExampleModal})
+          }
+          typeOne={select('type one vertical button', ITypes, ITypes.primary)}
+          textOne={text('text one vertical button', 'Разрешить доступ')}
+          onPressTwo={() =>
+            popupContext.openPopup({Content: NestedExampleModal})
+          }
+          typeTwo={select(
+            'type two vertical button',
+            ITypes,
+            ITypes.destructive,
+          )}
+          textTwo={text('text two vertical button', 'Разрешить доступ')}
+        />
       )}
       {boolean('show horizontal button', true) && (
         <ModalBase.HorizontalButtonsView
@@ -90,8 +95,9 @@ const NestedExampleModal: FC<IContentProps> = props => {
       <ModalBase.Title title={'Вложенная Модалка'} />
       <ModalBase.DescriptionText descriptionText={'Это просто пример'} />
       <ModalBase.VerticalButtonsView
-        onPress={() => popupContext.openPopup({Content: ExampleModal})}
-        text={'Открыть ещё одну'}
+        onPressOne={() => popupContext.openPopup({Content: ExampleModal})}
+        textOne={'Открыть ещё одну'}
+        typeOne={select('type one vertical button', ITypes, ITypes.primary)}
       />
     </ModalBase>
   );

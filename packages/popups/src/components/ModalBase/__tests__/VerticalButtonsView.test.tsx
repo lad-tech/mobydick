@@ -1,16 +1,16 @@
 import {render} from '@testing-library/react-native';
-import {Button, ITypes} from '@npm/mobydick-cta';
+import {ITypes} from '@npm/mobydick-cta';
 import React from 'react';
 
 import VerticalButtonsView from '../VerticalButtonsView';
 
 describe('@npm/mobydick-popups/modalBase', () => {
-  it('should renders correctly VerticalButtonsView destructive ', () => {
+  it('should renders correctly VerticalButtonsView one button ', () => {
     const {toJSON} = render(
       <VerticalButtonsView
-        type={ITypes.destructive}
-        onPress={() => console.log('onPress')}
-        text={'text'}
+        typeOne={ITypes.destructive}
+        onPressOne={() => console.log('onPress')}
+        textOne={'text'}
       />,
     );
 
@@ -19,11 +19,13 @@ describe('@npm/mobydick-popups/modalBase', () => {
   it('should renders correctly VerticalButtonsView secondary ', () => {
     const {toJSON} = render(
       <VerticalButtonsView
-        type={ITypes.secondary}
-        onPress={() => console.log('onPress')}
-        text={'text'}>
-        <Button text={'textTwo'} />
-      </VerticalButtonsView>,
+        typeOne={ITypes.secondary}
+        onPressOne={() => console.log('onPress')}
+        textOne={'text'}
+        typeTwo={ITypes.secondary}
+        onPressTwo={() => console.log('onPress')}
+        textTwo={'text'}
+      />,
     );
 
     expect(toJSON()).toMatchSnapshot();
