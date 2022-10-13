@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from '@testing-library/react-native';
 import {View} from '@npm/mobydick-core';
 
-import {ISize, ITypes} from '../types';
+import {IButtonSize, IButtonTypes} from '../types';
 import Button from '../index';
 
 describe('@npm/mobydick-cta/Button', () => {
@@ -10,50 +10,56 @@ describe('@npm/mobydick-cta/Button', () => {
     const {toJSON, rerender} = render(<Button text={'text'} />);
     expect(toJSON()).toMatchSnapshot();
 
-    rerender(<Button text={'text'} font={'Bold-Error-L'} size={ISize.small} />);
+    rerender(
+      <Button text={'text'} font={'Bold-Error-L'} size={IButtonSize.small} />,
+    );
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly secondary', () => {
-    const {toJSON} = render(<Button type={ITypes.secondary} />);
+    const {toJSON} = render(<Button type={IButtonTypes.secondary} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly tertiary', () => {
-    const {toJSON} = render(<Button type={ITypes.tertiary} />);
+    const {toJSON} = render(<Button type={IButtonTypes.tertiary} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly disabled', () => {
-    const {toJSON} = render(<Button type={ITypes.disabled} disabled={true} />);
+    const {toJSON} = render(
+      <Button type={IButtonTypes.disabled} disabled={true} />,
+    );
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly destructive', () => {
     const {toJSON} = render(
-      <Button type={ITypes.destructive} size={ISize.fixed} />,
+      <Button type={IButtonTypes.destructive} size={IButtonSize.fixed} />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly loading', () => {
-    const {toJSON} = render(<Button type={ITypes.loading} loading={true} />);
+    const {toJSON} = render(
+      <Button type={IButtonTypes.loading} loading={true} />,
+    );
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly fixed', () => {
-    const {toJSON} = render(<Button size={ISize.fixed} />);
+    const {toJSON} = render(<Button size={IButtonSize.fixed} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly small', () => {
-    const {toJSON, rerender} = render(<Button size={ISize.small} />);
+    const {toJSON, rerender} = render(<Button size={IButtonSize.small} />);
     expect(toJSON()).toMatchSnapshot();
 
-    rerender(<Button size={ISize.small} loading={true} />);
+    rerender(<Button size={IButtonSize.small} loading={true} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly large', () => {
-    const {toJSON} = render(<Button size={ISize.large} />);
+    const {toJSON} = render(<Button size={IButtonSize.large} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly left icon size large', () => {
     const {toJSON} = render(
       <Button
-        size={ISize.large}
+        size={IButtonSize.large}
         leftIcon={<View />}
         rightIcon={<View />}
         text={'text'}
@@ -63,22 +69,28 @@ describe('@npm/mobydick-cta/Button', () => {
   });
   it('renders correctly left icon small', () => {
     const {toJSON} = render(
-      <Button size={ISize.small} leftIcon={<View />} rightIcon={<View />} />,
+      <Button
+        size={IButtonSize.small}
+        leftIcon={<View />}
+        rightIcon={<View />}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly without size', () => {
-    const {toJSON} = render(<Button size={'ISize' as unknown as ISize} />);
+    const {toJSON} = render(
+      <Button size={'ISize' as unknown as IButtonSize} />,
+    );
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly text', () => {
-    const {toJSON} = render(<Button size={ISize.small} text={'text'} />);
+    const {toJSON} = render(<Button size={IButtonSize.small} text={'text'} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly left icon size small', () => {
     const {toJSON} = render(
       <Button
-        size={ISize.small}
+        size={IButtonSize.small}
         leftIcon={<View />}
         rightIcon={<View />}
         text={'text'}

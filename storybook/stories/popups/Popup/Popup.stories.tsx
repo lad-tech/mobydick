@@ -1,6 +1,6 @@
 import React, {RefObject, useRef, useState} from 'react';
 import {storiesOf} from '@storybook/react-native';
-import {Button, ISize} from '@npm/mobydick-cta';
+import {Button, IButtonSize} from '@npm/mobydick-cta';
 import {usePopups} from '@npm/mobydick-popups';
 import {ITouchableOpacity, View} from '@npm/mobydick-core';
 
@@ -89,7 +89,7 @@ const SnackbarPopupExample = () => {
       <Button
         text={'Нажми и появится выплывашка'}
         onPress={onPress}
-        size={ISize.fixed}
+        size={IButtonSize.fixed}
       />
     </View>
   );
@@ -105,7 +105,7 @@ const ActionSheetPopupExample = () => {
   };
   return (
     <View>
-      <Button text={'Нажми'} onPress={onPress} size={ISize.large} />
+      <Button text={'Нажми'} onPress={onPress} size={IButtonSize.large} />
     </View>
   );
 };

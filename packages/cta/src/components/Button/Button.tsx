@@ -4,7 +4,7 @@ import {ISizeSpinner, Spinner} from '@npm/mobydick-progress';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 
-import {IButtonProps, ISize, ITypes} from './types';
+import {IButtonProps, IButtonSize, IButtonTypes} from './types';
 import stylesCreate from './stylesCreate';
 
 const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
@@ -13,8 +13,8 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     text,
     leftIcon,
     rightIcon,
-    size = ISize.fixed,
-    type = ITypes.primary,
+    size = IButtonSize.fixed,
+    type = IButtonTypes.primary,
     loading = false,
     disabled = false,
     textStyle,
@@ -23,7 +23,7 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
   } = props;
   const [styles, theme] = useStyles(
     stylesCreate,
-    disabled ? ITypes.disabled : type,
+    disabled ? IButtonTypes.disabled : type,
     size,
     Boolean(leftIcon),
     Boolean(rightIcon),
@@ -32,7 +32,7 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
 
   const fontCorrection = font
     ? font
-    : size === ISize.small
+    : size === IButtonSize.small
     ? 'SemiBold-White-XS'
     : 'SemiBold-White-L';
 
@@ -43,20 +43,20 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
       disabled={
         loading ||
         disabled ||
-        type === ITypes.disabled ||
-        type === ITypes.loading
+        type === IButtonTypes.disabled ||
+        type === IButtonTypes.loading
       }
       {...otherProps}>
       {children}
     </TouchableOpacity>
   );
 
-  if (loading || type === ITypes.loading)
+  if (loading || type === IButtonTypes.loading)
     return (
       <Container>
         <Spinner
           fill={theme.colors.IconWhite}
-          size={size === ISize.small ? ISizeSpinner.XXS : ISizeSpinner.XS}
+          size={size === IButtonSize.small ? ISizeSpinner.XXS : ISizeSpinner.XS}
         />
       </Container>
     );

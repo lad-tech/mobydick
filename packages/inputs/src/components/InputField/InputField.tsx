@@ -3,7 +3,7 @@ import React, {forwardRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography, useFont} from '@npm/mobydick-typography';
 
-import {ITypes} from '../types';
+import {IInputsTypes} from '../types';
 import Subtitle from '../Subtitle';
 
 import {IInputFieldsProps} from './types';
@@ -30,7 +30,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     title,
     subtitle,
     rightIcon,
-    type = ITypes.default,
+    type = IInputsTypes.default,
     disabled = false,
     titleProps,
     subtitleIcon,
@@ -45,7 +45,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
   const {fontStyle} = useFont('Regular-Primary-M');
   const [styles, theme] = useStyles(
     stylesCreate,
-    disabled ? ITypes.disabled : type,
+    disabled ? IInputsTypes.disabled : type,
     focused,
   );
 

@@ -3,7 +3,7 @@ import {TextStyle, ViewStyle} from 'react-native';
 import {IStyledTextProps, TypographyProp} from '@npm/mobydick-typography';
 import {SimpleIconName} from '@npm/mobydick-styles';
 
-import {ITypes} from '../types';
+import {IInputsTypes} from '../types';
 
 export type IListItem = string | {label: string; value: unknown};
 
@@ -14,7 +14,7 @@ export interface IDropDownProps<ListItem extends IListItem> {
   list: ListItem[];
   label?: string;
   rightIcon?: ReactElement;
-  type?: ITypes;
+  type?: IInputsTypes;
   disabled?: boolean;
   subtitle?: string;
   subtitleIcon?: SimpleIconName | undefined;

@@ -1,11 +1,11 @@
 import {IThemeContext, rem} from '@npm/mobydick-styles';
 import {Omit, StyleSheet, ViewStyle} from 'react-native';
 
-import {ISize, ITypes} from './types';
+import {IButtonSize, IButtonTypes} from './types';
 
 interface IButtonContents {
   theme: IThemeContext;
-  size: ISize;
+  size: IButtonSize;
   leftIcon: boolean;
   rightIcon: boolean;
   text: boolean;
@@ -34,7 +34,7 @@ const getButtonStyles = ({
   text,
 }: IButtonContents): ViewStyle => {
   switch (size) {
-    case ISize.small:
+    case IButtonSize.small:
       return {
         minHeight: theme.spaces.Space32,
         paddingVertical: theme.spaces.Space6,
@@ -45,13 +45,13 @@ const getButtonStyles = ({
           text,
         }),
       };
-    case ISize.large:
+    case IButtonSize.large:
       return {
         minHeight: theme.spaces.Space48,
         paddingVertical: theme.spaces.Space12,
         paddingHorizontal: text ? rem(26) : theme.spaces.Space12,
       };
-    case ISize.fixed:
+    case IButtonSize.fixed:
       return {
         alignSelf: 'stretch',
         minHeight: theme.spaces.Space48,
@@ -84,7 +84,7 @@ const primaryStyle = ({
     text: {
       color: colors.TextWhite,
       paddingHorizontal:
-        size === ISize.small ? theme.spaces.Space4 : theme.spaces.Space6,
+        size === IButtonSize.small ? theme.spaces.Space4 : theme.spaces.Space6,
     },
   });
 };
@@ -163,22 +163,22 @@ const destructiveStyle = ({
 
 const stylesCreate = (
   theme: IThemeContext,
-  type: ITypes,
-  size: ISize,
+  type: IButtonTypes,
+  size: IButtonSize,
   leftIcon: boolean,
   rightIcon: boolean,
   text: boolean,
 ) => {
   switch (type) {
-    case ITypes.secondary:
+    case IButtonTypes.secondary:
       return secondaryStyle({theme, size, leftIcon, rightIcon, text});
-    case ITypes.tertiary:
+    case IButtonTypes.tertiary:
       return tertiaryStyle({theme, size, leftIcon, rightIcon, text});
-    case ITypes.disabled:
+    case IButtonTypes.disabled:
       return disabledStyle({theme, size, leftIcon, rightIcon, text});
-    case ITypes.destructive:
+    case IButtonTypes.destructive:
       return destructiveStyle({theme, size, leftIcon, rightIcon, text});
-    case ITypes.primary:
+    case IButtonTypes.primary:
     default:
       return primaryStyle({theme, size, leftIcon, rightIcon, text});
   }
