@@ -1,6 +1,5 @@
 import React, {FC} from 'react';
 import {
-  IBgColors,
   rem,
   SimpleIcon,
   SimpleIconName,
@@ -17,7 +16,6 @@ interface IProps {
   color?: string | undefined;
   size?: number;
   style?: ViewStyle | ViewStyle[];
-  backgroundColor?: IBgColors;
 }
 
 const AlertContent: FC<IProps> = props => {
