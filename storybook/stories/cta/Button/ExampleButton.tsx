@@ -1,4 +1,4 @@
-import {Button, ISize, ITypes} from '@npm/mobydick-cta';
+import {Button, IButtonSize, IButtonTypes} from '@npm/mobydick-cta';
 import {boolean, number, select, text} from '@storybook/addon-knobs';
 import {iconNames, SimpleIcon} from '@npm/mobydick-styles';
 import React from 'react';
@@ -14,25 +14,25 @@ enum IViewButton {
   onlyIcon = 'onlyIcon',
 }
 
-const getColorICon = (type: ITypes): string => {
+const getColorICon = (type: IButtonTypes): string => {
   switch (type) {
-    case ITypes.secondary:
-    case ITypes.tertiary:
+    case IButtonTypes.secondary:
+    case IButtonTypes.tertiary:
       return '#2B78EE';
-    case ITypes.primary:
-    case ITypes.disabled:
-    case ITypes.destructive:
+    case IButtonTypes.primary:
+    case IButtonTypes.disabled:
+    case IButtonTypes.destructive:
     default:
       return '#fff';
   }
 };
 
 const ExampleButton = () => {
-  const type = select('type', ITypes, ITypes.primary);
+  const type = select('type', IButtonTypes, IButtonTypes.primary);
   const textButton = text('text', 'text big text');
   const minWidth = number('minWidth', 0);
   const onPress = action('onPress');
-  const size = select('size', ISize, ISize.small);
+  const size = select('size', IButtonSize, IButtonSize.small);
   const disabled = boolean('disabled', false);
   const loading = boolean('loading', false);
   const font = select('Button font', selectFont, 'SemiBold-White-XS');

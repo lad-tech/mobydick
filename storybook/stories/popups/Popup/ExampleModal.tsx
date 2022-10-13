@@ -1,5 +1,5 @@
 import {select, text} from '@storybook/addon-knobs';
-import {Button, ISize} from '@npm/mobydick-cta';
+import {Button, IButtonSize} from '@npm/mobydick-cta';
 import React, {FC} from 'react';
 import {IContentProps, usePopups, ModalBase} from '@npm/mobydick-popups';
 import {rem} from '@npm/mobydick-styles';
@@ -36,7 +36,7 @@ const ExampleModal: FC<IContentProps> = props => {
       <Button
         onPress={() => popupContext.openPopup({Content: NestedExampleModal})}
         text={text('Text button', 'Разрешить доступ')}
-        size={select('Size button', ISize, ISize.small)}
+        size={select('Size button', IButtonSize, IButtonSize.small)}
       />
     </ModalBase>
   );
@@ -54,7 +54,7 @@ const NestedExampleModal: FC<IContentProps> = props => {
       <Button
         onPress={() => popupContext.openPopup({Content: ExampleModal})}
         text={'Открыть ещё одну'}
-        size={select('Size button', ISize, ISize.small)}
+        size={select('Size button', IButtonSize, IButtonSize.small)}
       />
     </ModalBase>
   );

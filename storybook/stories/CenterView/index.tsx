@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import {View} from '@npm/mobydick-core';
-import {Button, ITypes} from '@npm/mobydick-cta';
+import {Button, IButtonTypes} from '@npm/mobydick-cta';
 import {ThemeProvider, useStyles, useTheme} from '@npm/mobydick-styles';
 import {PopupsProvider} from '@npm/mobydick-popups';
 
@@ -15,7 +15,7 @@ const Wrapper: FC = ({children}) => {
       {children}
       <Button
         style={styles.themeSwitcher}
-        type={ITypes.tertiary}
+        type={IButtonTypes.tertiary}
         text={currentTheme}
         onPress={() => {
           setCurrentTheme(currentTheme === 'light' ? 'dark' : 'light');
