@@ -10,7 +10,7 @@ const stylesCreate = (theme: IThemeContext, placement?: IPosition) => {
     switch (placement) {
       case IPosition.top:
         return {
-          top: 10,
+          top: 20,
         };
       case IPosition.bottom:
       default:

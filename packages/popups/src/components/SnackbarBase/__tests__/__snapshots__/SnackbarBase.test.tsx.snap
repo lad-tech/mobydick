@@ -9,7 +9,7 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly 1`] = `
         "backgroundColor": "transparent",
         "flex": 1,
         "position": "absolute",
-        "top": 10,
+        "top": 20,
         "width": "100%",
       },
       undefined,
