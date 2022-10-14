@@ -48,11 +48,24 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     </TouchableOpacity>
   );
 
+  const getColorSpinner = (): string => {
+    switch (type) {
+      case IButtonTypes.secondary:
+      case IButtonTypes.tertiary:
+        return theme.colors.IconBase;
+      case IButtonTypes.primary:
+      case IButtonTypes.disabled:
+      case IButtonTypes.destructive:
+      default:
+        return theme.colors.IconWhite;
+    }
+  };
+
   if (loading || type === IButtonTypes.loading) {
     return (
       <Container>
         <Spinner
-          fill={theme.colors.IconWhite}
+          fill={getColorSpinner()}
           size={size === IButtonSize.small ? ISizeSpinner.XXS : ISizeSpinner.XS}
         />
       </Container>
