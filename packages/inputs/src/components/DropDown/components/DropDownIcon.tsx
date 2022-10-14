@@ -4,7 +4,7 @@ import {View} from '@npm/mobydick-core';
 
 import {IDropDownIconProps} from '../types';
 
-const Icon: FC<IDropDownIconProps> = props => {
+const DropDownIcon: FC<IDropDownIconProps> = props => {
   const {isOpen, rightIcon} = props;
   const {colors} = useTheme();
   return rightIcon ? (
@@ -20,4 +20,4 @@ const Icon: FC<IDropDownIconProps> = props => {
   );
 };
 
-export default Icon;
+export default DropDownIcon;

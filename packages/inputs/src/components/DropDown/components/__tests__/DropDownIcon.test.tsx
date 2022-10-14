@@ -2,26 +2,32 @@ import React from 'react';
 import {render} from '@testing-library/react-native';
 import {SimpleIcon} from '@npm/mobydick-styles';
 
-import Icon from '../DropDownIcon';
+import DropDownIcon from '../DropDownIcon';
 
 describe('@npm/mobydick-inputs/DropDownIcon', () => {
   it('renders correctly standart open', () => {
-    const {toJSON} = render(<Icon isOpen={true} />);
+    const {toJSON} = render(<DropDownIcon isOpen={true} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly standart close', () => {
-    const {toJSON} = render(<Icon isOpen={false} />);
+    const {toJSON} = render(<DropDownIcon isOpen={false} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly custom open', () => {
     const {toJSON} = render(
-      <Icon isOpen={true} rightIcon={<SimpleIcon name={'icon-calendar'} />} />,
+      <DropDownIcon
+        isOpen={true}
+        rightIcon={<SimpleIcon name={'icon-calendar'} />}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly custom close', () => {
     const {toJSON} = render(
-      <Icon isOpen={false} rightIcon={<SimpleIcon name={'icon-calendar'} />} />,
+      <DropDownIcon
+        isOpen={false}
+        rightIcon={<SimpleIcon name={'icon-calendar'} />}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
