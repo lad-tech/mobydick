@@ -14,14 +14,11 @@ enum IViewButton {
   onlyIcon = 'onlyIcon',
 }
 
-const getColorICon = (type: IButtonTypes): string => {
+const getIconColor = (type: IButtonTypes): string => {
   switch (type) {
     case IButtonTypes.secondary:
     case IButtonTypes.tertiary:
       return '#2B78EE';
-    case IButtonTypes.primary:
-    case IButtonTypes.disabled:
-    case IButtonTypes.destructive:
     default:
       return '#fff';
   }
@@ -32,10 +29,12 @@ const ExampleButton = () => {
   const textButton = text('text', 'text big text');
   const minWidth = number('minWidth', 0);
   const onPress = action('onPress');
-  const size = select('size', IButtonSize, IButtonSize.small);
+  const size = select('size', IButtonSize, IButtonSize.fixed);
   const disabled = boolean('disabled', false);
   const loading = boolean('loading', false);
-  const font = select('Button font', selectFont, 'SemiBold-White-XS');
+  const defaultFont =
+    size === IButtonSize.small ? 'SemiBold-White-XS' : 'SemiBold-White-L';
+  const font = select('Button font', selectFont, defaultFont);
 
   switch (select('view button', IViewButton, IViewButton.noIcon)) {
     case IViewButton.leftIcon:
@@ -51,7 +50,7 @@ const ExampleButton = () => {
           leftIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
-              color={getColorICon(type)}
+              color={getIconColor(type)}
               size={24}
             />
           }
