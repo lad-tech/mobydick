@@ -30,11 +30,8 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     Boolean(text),
   );
 
-  const fontCorrection = font
-    ? font
-    : size === IButtonSize.small
-    ? 'SemiBold-White-XS'
-    : 'SemiBold-White-L';
+  const defaultFont =
+    size === IButtonSize.small ? 'SemiBold-White-XS' : 'SemiBold-White-L';
 
   const Container: FC = ({children}) => (
     <TouchableOpacity
@@ -51,7 +48,7 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     </TouchableOpacity>
   );
 
-  if (loading || type === IButtonTypes.loading)
+  if (loading || type === IButtonTypes.loading) {
     return (
       <Container>
         <Spinner
@@ -60,12 +57,13 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
         />
       </Container>
     );
+  }
 
   return (
     <Container>
       {leftIcon}
       {Boolean(text) && (
-        <Typography style={[styles.text, textStyle]} font={fontCorrection}>
+        <Typography style={[styles.text, textStyle]} font={font || defaultFont}>
           {text}
         </Typography>
       )}
