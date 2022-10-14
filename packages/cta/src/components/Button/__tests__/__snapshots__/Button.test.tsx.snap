@@ -444,6 +444,162 @@ exports[`@npm/mobydick-cta/Button renders correctly loading 1`] = `
 </View>
 `;
 
+exports[`@npm/mobydick-cta/Button renders correctly loading types 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "transparent",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "alignSelf": "center",
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <SvgMock
+      fill="#2B78EE"
+      height="24"
+      width="24"
+    />
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly loading types 2`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "alignSelf": "center",
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <SvgMock
+      fill="#2B78EE"
+      height="24"
+      width="24"
+    />
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly loading without type 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "alignSelf": "center",
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <SvgMock
+      fill="#FFF"
+      height="24"
+      width="24"
+    />
+  </View>
+</View>
+`;
+
 exports[`@npm/mobydick-cta/Button renders correctly secondary 1`] = `
 <View
   accessibilityState={

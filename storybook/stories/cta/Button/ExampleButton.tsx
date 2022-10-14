@@ -14,14 +14,11 @@ enum IViewButton {
   onlyIcon = 'onlyIcon',
 }
 
-const getColorIcon = (type: IButtonTypes): string => {
+const getIconColor = (type: IButtonTypes): string => {
   switch (type) {
     case IButtonTypes.secondary:
     case IButtonTypes.tertiary:
       return '#2B78EE';
-    case IButtonTypes.primary:
-    case IButtonTypes.disabled:
-    case IButtonTypes.destructive:
     default:
       return '#fff';
   }
@@ -53,7 +50,7 @@ const ExampleButton = () => {
           leftIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
-              color={getColorIcon(type)}
+              color={getIconColor(type)}
               size={24}
             />
           }
