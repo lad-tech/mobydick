@@ -1,8 +1,8 @@
-import {IUseStylesTheme} from '@npm/mobydick-styles';
+import {IThemeContext} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
 const stylesCreate = (
-  themeColors: IUseStylesTheme,
+  themeColors: IThemeContext,
   disabled?: boolean,
   selected?: boolean,
 ) => {

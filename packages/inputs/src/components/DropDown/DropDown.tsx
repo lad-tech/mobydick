@@ -15,7 +15,7 @@ import {
   DEFAULT_DROP_DOWN_WIDTH,
   DROP_DOWN_POPUP_ID,
 } from './constants';
-import Icon from './components/DropDownIcon';
+import DropDownIcon from './components/DropDownIcon';
 import Selector from './components/Selector';
 
 const isString = (input: unknown): input is string => typeof input === 'string';
@@ -179,7 +179,7 @@ function DropDown<T extends IListItem<S>, S extends string | undefined>(
             {listItems.find(value => value.value === selected)?.label ||
               placeholder}
           </Typography>
-          <Icon isOpen={isOpen} rightIcon={rightIcon} />
+          <DropDownIcon isOpen={isOpen} rightIcon={rightIcon} />
         </TouchableOpacity>
         {subtitle ? (
           <Subtitle

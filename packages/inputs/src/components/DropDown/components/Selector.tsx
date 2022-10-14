@@ -84,17 +84,17 @@ function renderItem<T extends IListItem<S>, S extends string | undefined>(
       return flatListTextFont || 'Regular-Secondary-M';
     };
 
+    const backgroundColorItem = selectedItemColor
+      ? {backgroundColor: selectedItemColor}
+      : {backgroundColor: theme.colors.BgAccentSoft};
+
     return (
       <TouchableHighlight
         accessibilityLabel={item.label}
         style={[
           styles.dropDownItem,
           flatListItemStyle,
-          item.label === selectedItem
-            ? selectedItemColor
-              ? {backgroundColor: selectedItemColor}
-              : {backgroundColor: theme.colors.BgAccentSoft}
-            : null,
+          item.label === selectedItem ? backgroundColorItem : null,
         ]}
         onPress={() => renderItemOnPress(item)}
         underlayColor={
@@ -145,11 +145,10 @@ function Selector<T extends IListItem<S>, S extends string | undefined>(
       dropDownHeight: buttonStyle?.height
         ? +buttonStyle.height
         : DEFAULT_DROP_DOWN_HEIGHT,
-      dropDownBorderWidth: buttonStyle?.borderWidth
-        ? buttonStyle.borderWidth
-        : BORDER_BUTTON_WIDTH,
+      dropDownBorderWidth: buttonStyle?.borderWidth || BORDER_BUTTON_WIDTH,
       listLength: list.length,
     });
+  const styleWidth = flatListStyle?.width || buttonStyle?.width;
 
   return (
     <PopupBase
@@ -160,11 +159,7 @@ function Selector<T extends IListItem<S>, S extends string | undefined>(
           styles.flatList,
           flatListStyle,
           {
-            width: flatListStyle?.width
-              ? flatListStyle.width
-              : buttonStyle?.width
-              ? buttonStyle.width
-              : DEFAULT_DROP_DOWN_WIDTH,
+            width: styleWidth || DEFAULT_DROP_DOWN_WIDTH,
           },
           isAboveDropDown
             ? {
