@@ -98,4 +98,17 @@ describe('@npm/mobydick-cta/Button', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly loading without type', () => {
+    const {toJSON} = render(
+      <Button type={'' as IButtonTypes} loading={true} />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it.each([IButtonTypes.tertiary, IButtonTypes.secondary])(
+    'renders correctly loading types',
+    type => {
+      const {toJSON} = render(<Button type={type} loading={true} />);
+      expect(toJSON()).toMatchSnapshot();
+    },
+  );
 });
