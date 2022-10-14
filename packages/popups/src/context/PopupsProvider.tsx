@@ -10,7 +10,7 @@ import {
 } from '../reducer';
 
 import {IOpenPopupParams, IPopupsContext} from './types';
-import PopupsContext from './context';
+import PopupsContext from './PopupsContext';
 
 interface IPopupsProviderProps {
   popups?: IPopup[];

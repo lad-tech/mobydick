@@ -1,4 +1,4 @@
-import PopupsContext from './context';
+import PopupsContext from './PopupsContext';
 import PopupsProvider from './PopupsProvider';
 
 export * from './types';
