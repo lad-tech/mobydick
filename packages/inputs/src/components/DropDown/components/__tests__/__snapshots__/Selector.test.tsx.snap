@@ -393,10 +393,10 @@ exports[`@npm/mobydick-inputs/Selector render correct renderItem Typography  wit
               style={
                 Array [
                   Object {
-                    "color": "#20242D",
-                    "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "color": "#F54D3D",
+                    "fontFamily": "Inter-Bold",
+                    "fontSize": 27,
+                    "lineHeight": 33,
                   },
                   undefined,
                 ]
