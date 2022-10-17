@@ -131,7 +131,15 @@ function DropDown<T extends IListItem<S>, S extends string | undefined>(
   };
 
   return (
-    <View style={styles.container}>
+    <View
+      style={[
+        styles.container,
+        {
+          width: buttonStyle?.width
+            ? buttonStyle.width
+            : DEFAULT_DROP_DOWN_WIDTH,
+        },
+      ]}>
       {Boolean(label) && (
         <Typography
           font={labelFont ? labelFont : 'Medium-Tertiary-XS'}
@@ -144,11 +152,7 @@ function DropDown<T extends IListItem<S>, S extends string | undefined>(
           style={[
             styles.inputContainer,
             buttonStyle,
-            {
-              width: buttonStyle?.width
-                ? buttonStyle.width
-                : DEFAULT_DROP_DOWN_WIDTH,
-            },
+
             {
               height: buttonStyle?.height
                 ? buttonStyle.height
