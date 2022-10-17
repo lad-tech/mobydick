@@ -96,8 +96,6 @@ function DropDown<T extends IListItem<S>, S extends string | undefined>(
   const listItems = list.map(value => wrapListItem(value));
 
   const openPopup = (pageY: number) => {
-    console.log('openPopup flatListTextFontPressed', flatListTextFontPressed);
-
     popupContext.openPopup({
       id: DROP_DOWN_POPUP_ID,
       Content: propsFromPopup => (

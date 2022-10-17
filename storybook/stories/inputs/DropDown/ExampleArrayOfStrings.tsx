@@ -18,9 +18,9 @@ const ExampleArrayOfStrings = () => {
   return (
     <DropDown
       selectedItem={selected}
-      placeholder={text('Placeholder', 'Выберите язык')}
-      label={text('Title', 'Язык')}
-      list={array('List', [
+      placeholder={text('placeholder', 'Выберите язык')}
+      label={text('title', 'Язык')}
+      list={array('list', [
         'Русский',
 
         'English',
@@ -32,12 +32,12 @@ const ExampleArrayOfStrings = () => {
         'Bulgarian',
       ])}
       onPress={item => setSelected(item.value)}
-      disabled={boolean('Disabled', false)}
-      type={select('Type', IInputsTypes, IInputsTypes.default)}
-      subtitle={text('Subtitle', '')}
+      disabled={boolean('disabled', false)}
+      type={select('type', IInputsTypes, IInputsTypes.default)}
+      subtitle={text('subtitle', '')}
       subtitleIcon={
         select(
-          'SubtitleIcon name',
+          'subtitleIcon name',
           iconNames,
           'icon-arrow-down',
         ) as SimpleIconName
@@ -45,30 +45,30 @@ const ExampleArrayOfStrings = () => {
       rightIcon={
         <SimpleIcon
           name={
-            select('Icon name', iconNames, 'icon-arrow-down') as SimpleIconName
+            select('icon name', iconNames, 'icon-arrow-down') as SimpleIconName
           }
           color={colors.IconMuted}
         />
       }
       buttonStyle={{
-        height: number('Button height', rem(40)),
-        width: number('Button width', rem(300)),
+        height: number('button height', rem(40)),
+        width: number('button width', rem(300)),
       }}
-      flatListStyle={{width: number('List width', rem(300))}}
-      buttonTextFont={select('Button font', selectFont, 'Regular-Muted-M')}
-      labelFont={select('Label font', selectFont, 'Medium-Tertiary-XS')}
+      flatListStyle={{width: number('list width', rem(300))}}
+      buttonTextFont={select('button font', selectFont, 'Regular-Muted-M')}
+      labelFont={select('label font', selectFont, 'Medium-Tertiary-XS')}
       flatListTextFont={select(
-        'Flatlist font',
+        'flatlist font',
         selectFont,
         'Regular-Secondary-M',
       )}
       buttonTextFontChosen={select(
-        'Button chosen font',
+        'button chosen font',
         selectFont,
         'Medium-Primary-M',
       )}
       flatListTextFontPressed={select(
-        'Button pressed font',
+        'button pressed font',
         selectFont,
         'Medium-Primary-M',
       )}
