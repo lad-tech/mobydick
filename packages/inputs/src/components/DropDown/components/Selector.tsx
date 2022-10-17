@@ -133,11 +133,11 @@ function Selector<T extends IListItem<S>, S extends string | undefined>(
     flatListItemStyle,
     flatListTextStyle,
     flatListTextStylePressed,
+    flatListTextFontPressed,
     listEmptyText,
     listEmptyFont,
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
-
   const {aboveDropDownPos, underDropDownPos, isAboveDropDown} =
     getDropDownDimensions({
       pageY,
@@ -186,6 +186,7 @@ function Selector<T extends IListItem<S>, S extends string | undefined>(
             flatListTextFont: flatListTextFont,
             flatListTextStyle: flatListTextStyle,
             flatListTextStylePressed: flatListTextStylePressed,
+            flatListTextFontPressed: flatListTextFontPressed,
           })}
           keyExtractor={keyExtractor}
           ListEmptyComponent={
