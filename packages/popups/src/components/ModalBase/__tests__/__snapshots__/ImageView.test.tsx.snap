@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/ImageView should renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "marginTop": 36,
+      },
+      undefined,
+    ]
+  }
+>
+  <View />
+</View>
+`;
+
+exports[`@npm/mobydick-popups/ImageView should renders correctly with styles 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "marginTop": 36,
+      },
+      Object {
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <View />
+</View>
+`;

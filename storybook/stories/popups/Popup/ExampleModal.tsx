@@ -3,6 +3,7 @@ import React, {FC} from 'react';
 import {IContentProps, ModalBase, usePopups} from '@npm/mobydick-popups';
 import {rem, useTheme} from '@npm/mobydick-styles';
 import {IButtonTypes} from '@npm/mobydick-cta';
+import ImageView from '@npm/mobydick-popups/src/components/ModalBase/ImageView';
 
 import selectFont from '../../../utils/selectFont';
 
@@ -30,9 +31,8 @@ const ExampleModal: FC<IContentProps> = props => {
           style={{backgroundColor: colors.BgError}}
         />
       )}
-      {boolean('show image', false) && (
-        <ImageModal style={{marginTop: rem(24), alignSelf: 'center'}} />
-      )}
+      {boolean('show image', false) && <ImageView image={<ImageModal />} />}
+
       {boolean('show title', true) && (
         <ModalBase.Title
           title={text('Title text ', 'Нет доступа к камере')}
