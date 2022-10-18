@@ -28,9 +28,11 @@ const stylesCreate = (theme: IThemeContext) => {
       paddingTop: spaces.Space24,
     },
     horizontalLeftButton: {
+      flex: 1,
       marginRight: spaces.Space6,
     },
     horizontalRightButton: {
+      flex: 1,
       marginLeft: spaces.Space6,
     },
   });
