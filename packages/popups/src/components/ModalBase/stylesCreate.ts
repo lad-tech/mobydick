@@ -35,6 +35,10 @@ const stylesCreate = (theme: IThemeContext) => {
       flex: 1,
       marginLeft: spaces.Space6,
     },
+    imageView: {
+      marginTop: spaces.Space24,
+      alignSelf: 'center',
+    },
   });
 };
 
