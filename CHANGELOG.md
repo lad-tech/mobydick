@@ -1,3 +1,21 @@
+# [1.8.0](https://glab.lad24.ru/npm/mobydick/compare/v1.7.0...v1.8.0) (2022-10-18)
+
+
+### Bug Fixes
+
+* **button:** fix color spinner ([997ff3b](https://glab.lad24.ru/npm/mobydick/commit/997ff3b2b1c9e1a01e688d6431d72b3380970cfa))
+* **dropDown:** new addons for dropDown + bug - flatListTextFontPressed was undefined ([9d93965](https://glab.lad24.ru/npm/mobydick/commit/9d939659b2a41594419c2fa6678590b22bf1d3b1))
+* **dropDown:** width of label and subtitle depends on button width ([44ea191](https://glab.lad24.ru/npm/mobydick/commit/44ea1912470fa1ffe827e60fb260cc06e14f65dd))
+* **Modal:** add default imageView ([f6608a2](https://glab.lad24.ru/npm/mobydick/commit/f6608a2f1c6857de083bfd508f823e6715a2e6bb))
+* **Modal:** fix horizontal button type and style ([97287fa](https://glab.lad24.ru/npm/mobydick/commit/97287facf3059c1e830747a847c657a9ac46cdba))
+* **sonar:** fix comment from sonar - part One ([1bf5edf](https://glab.lad24.ru/npm/mobydick/commit/1bf5edf0efb6b45691fbef6b6fba46a07075afca))
+* **sonar:** fix comment from sonar - part Two ([9b21244](https://glab.lad24.ru/npm/mobydick/commit/9b21244fecbf24003a4229acb4e544b2f91ff369))
+
+
+### Features
+
+* **popup:** add readme ([48b0f69](https://glab.lad24.ru/npm/mobydick/commit/48b0f697af563da282a9047bfa438afbc60cd029))
+
 # [1.7.0](https://glab.lad24.ru/npm/mobydick/compare/v1.6.4...v1.7.0) (2022-10-13)
 
 
