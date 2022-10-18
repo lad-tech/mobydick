@@ -3,9 +3,14 @@
 exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
 <View
   style={
-    Object {
-      "justifyContent": "center",
-    }
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "width": 300,
+      },
+    ]
   }
 >
   <Text
@@ -58,7 +63,6 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
           "opacity": 1,
           "paddingLeft": 27,
           "paddingRight": 18,
-          "width": 300,
         }
       }
     >
@@ -108,9 +112,14 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
 exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements disabled 1`] = `
 <View
   style={
-    Object {
-      "justifyContent": "center",
-    }
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "width": 300,
+      },
+    ]
   }
 >
   <Text
@@ -168,7 +177,6 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements disabled 1`
           "opacity": 1,
           "paddingLeft": 27,
           "paddingRight": 18,
-          "width": 300,
         }
       }
     >
@@ -218,9 +226,14 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements disabled 1`
 exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type valid 1`] = `
 <View
   style={
-    Object {
-      "justifyContent": "center",
-    }
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "width": 300,
+      },
+    ]
   }
 >
   <Text
@@ -273,7 +286,6 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type valid 
           "opacity": 1,
           "paddingLeft": 27,
           "paddingRight": 18,
-          "width": 300,
         }
       }
     >
@@ -323,9 +335,14 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type valid 
 exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type wrong 1`] = `
 <View
   style={
-    Object {
-      "justifyContent": "center",
-    }
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "width": 400,
+      },
+    ]
   }
 >
   <Text
@@ -428,9 +445,14 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type wrong 
 exports[`@npm/mobydick-inputs/DropDown renders correctly without array 1`] = `
 <View
   style={
-    Object {
-      "justifyContent": "center",
-    }
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "width": 300,
+      },
+    ]
   }
 >
   <Text
@@ -483,7 +505,6 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly without array 1`] = `
           "opacity": 1,
           "paddingLeft": 27,
           "paddingRight": 18,
-          "width": 300,
         }
       }
     >
@@ -533,9 +554,14 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly without array 1`] = `
 exports[`@npm/mobydick-inputs/DropDown renders correctly without array with text and font 1`] = `
 <View
   style={
-    Object {
-      "justifyContent": "center",
-    }
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "width": 300,
+      },
+    ]
   }
 >
   <Text
@@ -588,7 +614,6 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly without array with text
           "opacity": 1,
           "paddingLeft": 27,
           "paddingRight": 18,
-          "width": 300,
         }
       }
     >
@@ -638,9 +663,14 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly without array with text
 exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
 <View
   style={
-    Object {
-      "justifyContent": "center",
-    }
+    Array [
+      Object {
+        "justifyContent": "center",
+      },
+      Object {
+        "width": 400,
+      },
+    ]
   }
 >
   <Text
