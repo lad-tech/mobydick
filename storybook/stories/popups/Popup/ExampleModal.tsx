@@ -16,7 +16,7 @@ const ExampleModal: FC<IContentProps> = props => {
   const descriptionFont = select(
     'Description font',
     selectFont,
-    'Regular-Secondary-M',
+    'Regular-Tertiary-XS',
   );
 
   return (
