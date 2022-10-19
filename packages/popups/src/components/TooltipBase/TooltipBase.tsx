@@ -1,4 +1,4 @@
-import React, {FC, RefObject, useEffect, useState} from 'react';
+import React, {FC, RefObject, useMemo, useState} from 'react';
 import {
   Animated,
   Dimensions,
@@ -20,6 +20,7 @@ import Arrow from './Arrow';
 import {IPlacement} from './types';
 
 const {height} = Dimensions.get('window');
+const STATUS_BAR_HEIGHT = StatusBar.currentHeight;
 
 const TooltipBase: FC<
   Omit<IPopup, 'Content'> & {
@@ -44,24 +45,25 @@ const TooltipBase: FC<
     refCurrent,
   } = props;
   const [styles] = useStyles(stylesCreate);
-  const STATUS_BAR_HEIGHT = StatusBar.currentHeight;
-  const [posTop, setPosTop] = useState(0);
-  const [posBottom, setPosBottom] = useState(0);
 
-  useEffect(() => {
-    if (refCurrent.current) {
-      refCurrent.current.measure((_x, _y, _width, _height, _pageX, pageY) => {
-        if (pageY && _height) {
-          setPosTop(pageY + _height);
+  const [positionValue, setPositionValue] = useState(0);
+
+  useMemo(() => {
+    refCurrent?.current?.measure((_x, _y, _width, _height, _pageX, pageY) => {
+      if (pageY) {
+        const androidValue =
           Platform.OS === 'android' && STATUS_BAR_HEIGHT
-            ? setPosBottom(height - pageY - STATUS_BAR_HEIGHT)
-            : setPosBottom(height - pageY);
-        }
-      });
-    }
+            ? height - pageY - STATUS_BAR_HEIGHT
+            : height - pageY;
+
+        position === IPosition.top
+          ? setPositionValue(pageY + _height)
+          : setPositionValue(androidValue);
+      }
+    });
   }, []);
 
-  if (!posTop && !posBottom) {
+  if (positionValue === 0) {
     return null;
   }
 
@@ -72,10 +74,10 @@ const TooltipBase: FC<
           styles.container,
           containerStyle,
           position === IPosition.top && {
-            top: posTop,
+            top: positionValue,
           },
           position === IPosition.bottom && {
-            bottom: posBottom,
+            bottom: positionValue,
           },
           placement === IPlacement.start && {
             left: 0,
