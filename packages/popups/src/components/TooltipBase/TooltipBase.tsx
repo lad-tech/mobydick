@@ -51,11 +51,14 @@ const TooltipBase: FC<
   useMemo(() => {
     refCurrent?.current?.measure((_x, _y, _width, _height, _pageX, pageY) => {
       if (pageY) {
+        const androidValue =
+          Platform.OS === 'android' && STATUS_BAR_HEIGHT
+            ? height - pageY - STATUS_BAR_HEIGHT
+            : height - pageY;
+
         position === IPosition.top
           ? setPositionValue(pageY + _height)
-          : Platform.OS === 'android' && STATUS_BAR_HEIGHT
-          ? setPositionValue(height - pageY - STATUS_BAR_HEIGHT)
-          : setPositionValue(height - pageY);
+          : setPositionValue(androidValue);
       }
     });
   }, []);
