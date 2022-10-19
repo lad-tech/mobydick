@@ -23,14 +23,14 @@ const HorizontalButtonsView: FC<IFilledView> = props => {
   return (
     <View style={styles.horizontalButtonsView}>
       <Button
-        size={IButtonSize.large}
+        size={IButtonSize.fixed}
         style={styles.horizontalLeftButton}
         type={typeLeft}
         onPress={onPressLeft}
         text={textLeft}
       />
       <Button
-        size={IButtonSize.large}
+        size={IButtonSize.fixed}
         style={styles.horizontalRightButton}
         type={typeRight}
         onPress={onPressRight}

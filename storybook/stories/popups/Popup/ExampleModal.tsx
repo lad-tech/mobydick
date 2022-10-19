@@ -16,7 +16,7 @@ const ExampleModal: FC<IContentProps> = props => {
   const descriptionFont = select(
     'Description font',
     selectFont,
-    'Regular-Secondary-M',
+    'Regular-Tertiary-XS',
   );
 
   return (
@@ -31,8 +31,9 @@ const ExampleModal: FC<IContentProps> = props => {
         />
       )}
       {boolean('show image', false) && (
-        <ImageModal style={{marginTop: rem(24), alignSelf: 'center'}} />
+        <ModalBase.ImageView image={<ImageModal />} />
       )}
+
       {boolean('show title', true) && (
         <ModalBase.Title
           title={text('Title text ', 'Нет доступа к камере')}
