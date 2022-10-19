@@ -20,6 +20,7 @@ import Arrow from './Arrow';
 import {IPlacement} from './types';
 
 const {height} = Dimensions.get('window');
+const STATUS_BAR_HEIGHT = StatusBar.currentHeight;
 
 const TooltipBase: FC<
   Omit<IPopup, 'Content'> & {
@@ -44,18 +45,20 @@ const TooltipBase: FC<
     refCurrent,
   } = props;
   const [styles] = useStyles(stylesCreate);
-  const STATUS_BAR_HEIGHT = StatusBar.currentHeight;
 
   const [positionValue, setPositionValue] = useState(0);
 
   useMemo(() => {
     refCurrent?.current?.measure((_x, _y, _width, _height, _pageX, pageY) => {
       if (pageY) {
+        const positionBottom =
+          Platform.OS === 'android' && STATUS_BAR_HEIGHT
+            ? setPositionValue(height - pageY - STATUS_BAR_HEIGHT)
+            : setPositionValue(height - pageY);
+
         position === IPosition.top
           ? setPositionValue(pageY + _height)
-          : Platform.OS === 'android' && STATUS_BAR_HEIGHT
-          ? setPositionValue(height - pageY - STATUS_BAR_HEIGHT)
-          : setPositionValue(height - pageY);
+          : positionBottom;
       }
     });
   }, []);
