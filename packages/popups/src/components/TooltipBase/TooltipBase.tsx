@@ -1,4 +1,4 @@
-import React, {FC, RefObject, useEffect, useState} from 'react';
+import React, {FC, RefObject, useMemo, useState} from 'react';
 import {
   Animated,
   Dimensions,
@@ -45,23 +45,22 @@ const TooltipBase: FC<
   } = props;
   const [styles] = useStyles(stylesCreate);
   const STATUS_BAR_HEIGHT = StatusBar.currentHeight;
-  const [posTop, setPosTop] = useState(0);
-  const [posBottom, setPosBottom] = useState(0);
 
-  useEffect(() => {
-    if (refCurrent.current) {
-      refCurrent.current.measure((_x, _y, _width, _height, _pageX, pageY) => {
-        if (pageY && _height) {
-          setPosTop(pageY + _height);
-          Platform.OS === 'android' && STATUS_BAR_HEIGHT
-            ? setPosBottom(height - pageY - STATUS_BAR_HEIGHT)
-            : setPosBottom(height - pageY);
-        }
-      });
-    }
+  const [positionValue, setPositionValue] = useState(0);
+
+  useMemo(() => {
+    refCurrent?.current?.measure((_x, _y, _width, _height, _pageX, pageY) => {
+      if (pageY) {
+        position === IPosition.top
+          ? setPositionValue(pageY + _height)
+          : Platform.OS === 'android' && STATUS_BAR_HEIGHT
+          ? setPositionValue(height - pageY - STATUS_BAR_HEIGHT)
+          : setPositionValue(height - pageY);
+      }
+    });
   }, []);
 
-  if (!posTop && !posBottom) {
+  if (positionValue === 0) {
     return null;
   }
 
@@ -72,10 +71,10 @@ const TooltipBase: FC<
           styles.container,
           containerStyle,
           position === IPosition.top && {
-            top: posTop,
+            top: positionValue,
           },
           position === IPosition.bottom && {
-            bottom: posBottom,
+            bottom: positionValue,
           },
           placement === IPlacement.start && {
             left: 0,
