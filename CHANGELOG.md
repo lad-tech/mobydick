@@ -1,3 +1,18 @@
+# [1.9.0](https://glab.lad24.ru/npm/mobydick/compare/v1.8.0...v1.9.0) (2022-10-21)
+
+
+### Bug Fixes
+
+* **button:** fix color spinner ([1f60100](https://glab.lad24.ru/npm/mobydick/commit/1f60100e4200239b1fea556f07eb91135d451264))
+* **sonar:** fix comment from sonar - part One ([0466665](https://glab.lad24.ru/npm/mobydick/commit/04666652ef9db9c0d0f6640a2d80153fa472362a))
+* **sonar:** fix comment from sonar - part Two ([d326177](https://glab.lad24.ru/npm/mobydick/commit/d326177563b65439695b3ce89c4eb1e5138c31fc))
+* **tooltip:** replace useEffect -> useMemo ([da9311c](https://glab.lad24.ru/npm/mobydick/commit/da9311c7c9b67e3c038ec0bf98b24201e431cd09))
+
+
+### Features
+
+* **popup:** add readme ([f223fde](https://glab.lad24.ru/npm/mobydick/commit/f223fdec5f577449513f82055c5f755f469cf3b4))
+
 # [1.8.0](https://glab.lad24.ru/npm/mobydick/compare/v1.7.0...v1.8.0) (2022-10-18)
 
 
