@@ -18,7 +18,7 @@ exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
     Array [
       Object {
         "alignItems": "center",
-        "backgroundColor": "rgba(32, 36, 45, 0.60)",
+        "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
         "justifyContent": "flex-end",
         "position": "absolute",

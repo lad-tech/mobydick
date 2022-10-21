@@ -1,36 +1,44 @@
-import {ActionSheetBase, IContentProps} from '@npm/mobydick-popups';
+import {ActionSheetBase, IContentProps, IItemType} from '@npm/mobydick-popups';
 import React, {FC, useState} from 'react';
-import {rem, SimpleIcon, SimpleIconName, useTheme} from '@npm/mobydick-styles';
+import {SimpleIcon, SimpleIconName} from '@npm/mobydick-styles';
 import {select} from '@storybook/addon-knobs';
 
 enum IViewActionSheet {
   defaultActions = 'defaultActions',
   withIconActions = 'withIconActions',
   optionsActions = 'optionsActions',
-  selectActions = 'selectActions',
+  selectRadioActions = 'selectRadioActions',
+  selectCheckboxActions = 'selectCheckboxActions',
   deleteConfiguration = 'deleteConfiguration',
 }
 
+const resetText = 'Сбросить';
 const cancelText = 'Отменить';
-const deleteText = 'Удалить';
-const textFontAccentM = 'Regular-Accent-M';
-const textFontAccentL = 'Regular-Accent-L';
+const settingsText = 'Настройка';
+const applyText = 'Применить';
+const textFontAccentM = 'Medium-Accent-M';
 const textFontErrorL = 'Regular-Error-L';
 
 const leftIconAccent = (name: SimpleIconName) => {
-  const {colors} = useTheme();
-  return <SimpleIcon name={name} size={rem(28)} color={colors.TextAccent} />;
+  return <SimpleIcon name={name} />;
 };
 const ExampleActionSheet: FC<IContentProps> = props => {
   const {onClose} = props;
-  const {colors} = useTheme();
-  const [selected, setSelected] = useState<string[]>([]);
+  const [radio, setRadio] = useState<string>('');
+  const [checkboxList, setCheckboxList] = useState<string[]>([]);
 
-  const check = (title: string) => {
-    if (selected.find(item => item === title)) {
-      return setSelected(selected.filter(el => el !== title));
+  const onPressCheckbox = (title: string) => {
+    if (checkboxList.find(item => item === title)) {
+      return setCheckboxList(checkboxList.filter(el => el !== title));
     }
-    return setSelected([...selected, title]);
+    return setCheckboxList([...checkboxList, title]);
+  };
+
+  const onPressRadio = (title: string) => {
+    if (radio === title) {
+      return setRadio('');
+    }
+    return setRadio(title);
   };
 
   switch (
@@ -43,41 +51,36 @@ const ExampleActionSheet: FC<IContentProps> = props => {
     case IViewActionSheet.withIconActions:
       return (
         <ActionSheetBase {...props}>
-          <ActionSheetBase.FirstItem
-            title={'Редактировать плейлист'}
-            textFont={textFontAccentM}
-            leftIcon={leftIconAccent('icon-edit')}
+          <ActionSheetBase.Item
+            itemType={IItemType.firstItem}
+            title={settingsText}
+            leftIcon={leftIconAccent('icon-settings')}
           />
-          <ActionSheetBase.InnerItem
-            title={'Слушать далее'}
-            textFont={textFontAccentM}
-            leftIcon={leftIconAccent('icon-arrow-right')}
+          <ActionSheetBase.Item
+            itemType={IItemType.innerItem}
+            title={settingsText}
+            leftIcon={leftIconAccent('icon-settings')}
           />
-          <ActionSheetBase.InnerItem
-            title={'Поделиться'}
-            textFont={textFontAccentM}
-            leftIcon={leftIconAccent('icon-account')}
+          <ActionSheetBase.Item
+            itemType={IItemType.innerItem}
+            title={settingsText}
+            leftIcon={leftIconAccent('icon-settings')}
           />
-          <ActionSheetBase.InnerItem
-            title={'Скопировать ссылку'}
-            textFont={textFontAccentM}
-            leftIcon={leftIconAccent('icon-copy')}
+          <ActionSheetBase.Item
+            itemType={IItemType.innerItem}
+            title={settingsText}
+            leftIcon={leftIconAccent('icon-settings')}
           />
-          <ActionSheetBase.LastItem
-            title={'Удалить плейлист'}
+          <ActionSheetBase.Item
+            itemType={IItemType.lastItem}
+            title={settingsText}
             onPress={onClose}
-            leftIcon={
-              <SimpleIcon
-                name={'icon-cancel'}
-                size={rem(28)}
-                color={colors.TextError}
-              />
-            }
-            textFont={'Regular-Error-M'}
+            leftIcon={leftIconAccent('icon-settings')}
           />
-          <ActionSheetBase.CancelItem
-            title={cancelText}
-            textFont={textFontAccentL}
+          <ActionSheetBase.Item
+            itemType={IItemType.cancelItem}
+            textFont={textFontAccentM}
+            title={resetText}
             onPress={onClose}
           />
         </ActionSheetBase>
@@ -85,77 +88,88 @@ const ExampleActionSheet: FC<IContentProps> = props => {
     case IViewActionSheet.optionsActions:
       return (
         <ActionSheetBase {...props}>
-          <ActionSheetBase.FirstItem
-            title={'Качество'}
-            subTitle={'Авто'}
-            leftIcon={leftIconAccent('icon-grid')}
+          <ActionSheetBase.Item
+            itemType={IItemType.firstItem}
+            title={'Выгрузить файл'}
           />
-          <ActionSheetBase.InnerItem
-            title={'Субтитры'}
-            subTitle={'Отсутствуют'}
-            disabled={true}
-            leftIcon={
-              <SimpleIcon
-                name={'icon-attachment'}
-                size={rem(28)}
-                color={colors.IconMuted}
-              />
-            }
+          <ActionSheetBase.Item
+            itemType={IItemType.lastItem}
+            title={'Отправить HR'}
           />
-
-          <ActionSheetBase.LastItem
-            title={'Скорость воспроизведения'}
-            subTitle={'Обычная'}
-            leftIcon={leftIconAccent('icon-edit')}
-          />
-          <ActionSheetBase.CancelItem
+          <ActionSheetBase.Item
+            itemType={IItemType.cancelItem}
             title={cancelText}
-            textFont={textFontAccentL}
+            textFont={textFontAccentM}
             onPress={onClose}
           />
         </ActionSheetBase>
       );
-    case IViewActionSheet.selectActions:
+    case IViewActionSheet.selectRadioActions:
       return (
         <ActionSheetBase {...props}>
-          <ActionSheetBase.FirstItem
-            title={'Лучшие друзья'}
+          <ActionSheetBase.Item
+            itemType={IItemType.firstItem}
+            title={'Отказано'}
             onPress={() => {
-              check('Лучшие друзья');
+              onPressRadio('Отказано');
             }}
-            selected={selected}
+            radio={radio}
           />
-          <ActionSheetBase.InnerItem
-            title={'Родственники'}
+          <ActionSheetBase.Item
+            itemType={IItemType.innerItem}
+            title={'Согласование'}
             onPress={() => {
-              check('Родственники');
+              onPressRadio('Согласование');
             }}
-            selected={selected}
+            radio={radio}
           />
-          <ActionSheetBase.InnerItem
-            title={'Коллеги'}
+          <ActionSheetBase.Item
+            itemType={IItemType.lastItem}
+            title={'Согласован'}
             onPress={() => {
-              check('Коллеги');
+              onPressRadio('Согласован');
             }}
-            selected={selected}
+            radio={radio}
           />
-          <ActionSheetBase.InnerItem
-            title={'Друзья по школе'}
+          <ActionSheetBase.Item
+            itemType={IItemType.cancelItem}
+            textFont={textFontAccentM}
+            title={applyText}
+            onPress={onClose}
+          />
+        </ActionSheetBase>
+      );
+    case IViewActionSheet.selectCheckboxActions:
+      return (
+        <ActionSheetBase {...props}>
+          <ActionSheetBase.Item
+            itemType={IItemType.firstItem}
+            title={'Отказано'}
             onPress={() => {
-              check('Друзья по школе');
+              onPressCheckbox('Отказано');
             }}
-            selected={selected}
+            checkboxList={checkboxList}
           />
-          <ActionSheetBase.LastItem
-            title={'Друзья по вузу'}
+          <ActionSheetBase.Item
+            itemType={IItemType.innerItem}
+            title={'Согласование'}
             onPress={() => {
-              check('Друзья по вузу');
+              onPressCheckbox('Согласование');
             }}
-            selected={selected}
+            checkboxList={checkboxList}
           />
-          <ActionSheetBase.CancelItem
-            title={cancelText}
-            textFont={textFontAccentL}
+          <ActionSheetBase.Item
+            itemType={IItemType.lastItem}
+            title={'Согласован'}
+            onPress={() => {
+              onPressCheckbox('Согласован');
+            }}
+            checkboxList={checkboxList}
+          />
+          <ActionSheetBase.Item
+            itemType={IItemType.cancelItem}
+            textFont={textFontAccentM}
+            title={applyText}
             onPress={onClose}
           />
         </ActionSheetBase>
@@ -163,33 +177,51 @@ const ExampleActionSheet: FC<IContentProps> = props => {
     case IViewActionSheet.deleteConfiguration:
       return (
         <ActionSheetBase {...props}>
-          <ActionSheetBase.FirstItem
-            label={
-              'Вы действительно хотите удалить это видео\n из Ваших видео?'
-            }
-          />
-          <ActionSheetBase.LastItem
-            title={deleteText}
+          <ActionSheetBase.Item
+            itemType={IItemType.singleItem}
+            title={'Завершить консультацию'}
             onPress={onClose}
             textFont={textFontErrorL}
           />
-          <ActionSheetBase.CancelItem title={cancelText} onPress={onClose} />
+          <ActionSheetBase.Item
+            itemType={IItemType.cancelItem}
+            textFont={textFontAccentM}
+            title={cancelText}
+            onPress={onClose}
+          />
         </ActionSheetBase>
       );
     case IViewActionSheet.defaultActions:
     default:
       return (
         <ActionSheetBase {...props}>
-          <ActionSheetBase.FirstItem title={'Редактировать'} />
-          <ActionSheetBase.InnerItem title={'Добавить в избранное'} />
-          <ActionSheetBase.InnerItem title={'Поделиться'} />
-          <ActionSheetBase.InnerItem title={'Сообщить о проблеме'} />
-          <ActionSheetBase.LastItem
-            title={deleteText}
-            textFont={textFontErrorL}
+          <ActionSheetBase.Item
+            itemType={IItemType.firstItem}
+            title={settingsText}
+          />
+          <ActionSheetBase.Item
+            itemType={IItemType.innerItem}
+            title={settingsText}
+          />
+          <ActionSheetBase.Item
+            itemType={IItemType.innerItem}
+            title={settingsText}
+          />
+          <ActionSheetBase.Item
+            itemType={IItemType.innerItem}
+            title={settingsText}
+          />
+          <ActionSheetBase.Item
+            itemType={IItemType.lastItem}
+            title={settingsText}
             onPress={onClose}
           />
-          <ActionSheetBase.CancelItem title={cancelText} onPress={onClose} />
+          <ActionSheetBase.Item
+            itemType={IItemType.cancelItem}
+            textFont={textFontAccentM}
+            title={'Назад'}
+            onPress={onClose}
+          />
         </ActionSheetBase>
       );
   }
