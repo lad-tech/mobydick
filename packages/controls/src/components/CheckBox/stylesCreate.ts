@@ -22,7 +22,6 @@ const stylesCreate = (
       width: spaces.Space20,
       height: spaces.Space20,
       borderRadius: spaces.Space4,
-      marginRight: spaces.Space12,
     },
   });
 };

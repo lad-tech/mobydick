@@ -49,7 +49,6 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "marginRight": 18,
           "width": 30,
         }
       }
@@ -110,7 +109,6 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "marginRight": 18,
           "width": 30,
         }
       }
@@ -185,7 +183,6 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "marginRight": 18,
           "width": 30,
         }
       }
@@ -246,7 +243,6 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "marginRight": 18,
           "width": 30,
         }
       }
@@ -321,7 +317,6 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "marginRight": 18,
           "width": 30,
         }
       }
@@ -382,7 +377,6 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
           "borderRadius": 6,
           "borderWidth": 3,
           "height": 30,
-          "marginRight": 18,
           "width": 30,
         }
       }
@@ -460,7 +454,6 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
           "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "marginRight": 18,
           "width": 33,
         }
       }
@@ -536,7 +529,6 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
           "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "marginRight": 18,
           "width": 33,
         }
       }
@@ -614,7 +606,6 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
           "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "marginRight": 18,
           "width": 33,
         }
       }
@@ -678,7 +669,6 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
           "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "marginRight": 18,
           "width": 33,
         }
       }
@@ -756,7 +746,6 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
           "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "marginRight": 18,
           "width": 33,
         }
       }
@@ -820,7 +809,6 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
           "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "marginRight": 18,
           "width": 33,
         }
       }

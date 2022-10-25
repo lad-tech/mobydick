@@ -23,7 +23,6 @@ const stylesCreate = (
       borderWidth: spaces.Space2,
       justifyContent: 'center',
       alignItems: 'center',
-      marginRight: spaces.Space12,
     },
     innerCircle: {
       width: rem(18),

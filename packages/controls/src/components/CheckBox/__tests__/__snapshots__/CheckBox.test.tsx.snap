@@ -34,7 +34,6 @@ exports[`CheckBox should renders correctly 1`] = `
         "borderRadius": 6,
         "borderWidth": 3,
         "height": 30,
-        "marginRight": 18,
         "width": 30,
       }
     }
@@ -82,7 +81,6 @@ exports[`CheckBox should renders correctly checked 1`] = `
         "borderRadius": 6,
         "borderWidth": 0,
         "height": 30,
-        "marginRight": 18,
         "width": 30,
       }
     }
@@ -140,7 +138,6 @@ exports[`CheckBox should renders correctly disabled 1`] = `
         "borderRadius": 6,
         "borderWidth": 3,
         "height": 30,
-        "marginRight": 18,
         "width": 30,
       }
     }
