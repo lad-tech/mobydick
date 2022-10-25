@@ -1,3 +1,10 @@
+## [1.9.1](https://glab.lad24.ru/npm/mobydick/compare/v1.9.0...v1.9.1) (2022-10-25)
+
+
+### Bug Fixes
+
+* **controls:** remove marginRight ([36e42fe](https://glab.lad24.ru/npm/mobydick/commit/36e42fe5df397b0ded97ac4ab017abaefba47b03))
+
 # [1.9.0](https://glab.lad24.ru/npm/mobydick/compare/v1.8.0...v1.9.0) (2022-10-21)
 
 
