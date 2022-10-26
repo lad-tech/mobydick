@@ -37,6 +37,8 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "@npm/eslint-config": "0.0.5",
     "@npm/semantic-release-config": "^1.0.0",
     "@react-native-async-storage/async-storage": "^1.17.3",
