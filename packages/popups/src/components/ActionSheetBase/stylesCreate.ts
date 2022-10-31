@@ -15,7 +15,7 @@ const stylesCreate = (theme: IThemeContext, itemType?: IItemType) => {
         };
       case IItemType.innerItem:
         return {
-          borderTopWidth: 1,
+          borderTopWidth: spaces.Space1,
           borderTopColor: colors.BgTertiary,
         };
       case IItemType.lastItem:
