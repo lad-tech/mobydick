@@ -8,6 +8,7 @@ const stylesCreate = (theme: IThemeContext) =>
     },
     typographyStyle: {
       flex: 1,
+      paddingLeft: theme.spaces.Space12,
     },
     listStyle: {
       width: '90%',
