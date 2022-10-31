@@ -73,6 +73,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly with item
   testID="Pressable"
 >
   <View
+    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {
