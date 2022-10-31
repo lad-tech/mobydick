@@ -59,28 +59,13 @@ const stylesCreate = (theme: IThemeContext, itemType?: IItemType) => {
 
       ...getItemStyle(),
     },
-    title: {
-      flexDirection: 'column',
-      justifyContent: 'center',
-      paddingVertical: rem(15),
-    },
     leftIcon: {
-      paddingRight: rem(18),
+      paddingRight: spaces.Space12,
     },
     leftIconView: {
       justifyContent: 'flex-start',
       flexDirection: 'row',
       alignItems: 'center',
-    },
-
-    checkIcon: {
-      backgroundColor: colors.IconBase,
-      borderRadius: theme.spaces.Space64,
-      padding: theme.spaces.Space2,
-    },
-    label: {
-      textAlign: 'center',
-      paddingVertical: rem(15),
     },
     textSelected: {
       paddingVertical: rem(15),

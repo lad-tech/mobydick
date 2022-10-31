@@ -5,7 +5,7 @@ import {ReactElement} from 'react';
 export interface IPropsContents {
   title: string;
   textFont?: TypographyProp;
-  leftIcon?: ReactElement;
+  leftIcon?: ReactElement | undefined;
   onPress?(): void;
   radio?: string;
   checkboxList?: string[];
@@ -23,4 +23,5 @@ export interface IPropsItem extends IPropsContents {
   itemType: IItemType;
   style?: ViewStyle;
   disabled?: boolean;
+  isStatusPressedForTest?: boolean;
 }

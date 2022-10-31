@@ -41,3 +41,108 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly 1`] = `
   />
 </View>
 `;
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly with item 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "height": "100%",
+        "justifyContent": "flex-end",
+        "position": "absolute",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+  testID="Pressable"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="accessibilityLabelActionSheetsItem"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderTopColor": "#D1D4DB",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginHorizontal": 12,
+            "minHeight": 75,
+            "paddingHorizontal": 30,
+          },
+          Object {
+            "backgroundColor": "#FFF",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Array [
+              Object {
+                "color": "#FFF",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 22.5,
+                "lineHeight": 28.5,
+              },
+              Object {
+                "paddingVertical": 22.5,
+              },
+            ]
+          }
+        >
+          title
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

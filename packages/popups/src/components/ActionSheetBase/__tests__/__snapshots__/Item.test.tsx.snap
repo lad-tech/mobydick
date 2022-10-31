@@ -2,6 +2,7 @@
 
 exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item 1`] = `
 <View
+  accessibilityLabel="accessibilityLabelActionSheetsItem"
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -66,6 +67,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item 1`] 
 
 exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with  textFont 1`] = `
 <View
+  accessibilityLabel="accessibilityLabelActionSheetsItem"
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -130,6 +132,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
 
 exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with !selected 1`] = `
 <View
+  accessibilityLabel="accessibilityLabelActionSheetsItem"
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -233,7 +236,6 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
           "borderRadius": 16.5,
           "borderWidth": 3,
           "justifyContent": "center",
-          "marginRight": 18,
           "width": 33,
         }
       }
@@ -245,6 +247,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
 
 exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with disabled 1`] = `
 <View
+  accessibilityLabel="accessibilityLabelActionSheetsItem"
   accessibilityState={
     Object {
       "disabled": true,
@@ -314,6 +317,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
 
 exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with leftIcon 1`] = `
 <View
+  accessibilityLabel="accessibilityLabelActionSheetsItem"
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -339,7 +343,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
         "paddingHorizontal": 30,
       },
       Object {
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#EEEFF1",
       },
       undefined,
     ]
@@ -357,7 +361,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
     <View
       style={
         Object {
-          "paddingRight": 27,
+          "paddingRight": 18,
         }
       }
     >
@@ -398,6 +402,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
 
 exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with selected  1`] = `
 <View
+  accessibilityLabel="accessibilityLabelActionSheetsItem"
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -458,13 +463,13 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
     </Text>
   </View>
   <View
-    needsOffscreenAlphaCompositing={true}
     style={
       Array [
         Object {
           "alignItems": "center",
           "backgroundColor": "transparent",
           "flexDirection": "row",
+          "maxWidth": "100%",
           "opacity": 1,
         },
         undefined,
@@ -472,11 +477,6 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
     }
   >
     <View
-      accessibilityState={
-        Object {
-          "disabled": false,
-        }
-      }
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -491,31 +491,85 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "alignItems": "center",
-          "aspectRatio": 1,
-          "backgroundColor": "#2B78EE",
-          "borderColor": "#2B78EE",
-          "borderRadius": 16.5,
-          "borderWidth": 3,
-          "justifyContent": "center",
-          "marginRight": 18,
-          "width": 33,
+          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderRadius": 6,
+          "borderWidth": 0,
+          "height": 30,
+          "width": 30,
         }
       }
       value="title"
     >
-      <View
-        style={
-          Object {
-            "aspectRatio": 1,
-            "borderColor": "#FFF",
-            "borderRadius": 13.5,
-            "borderWidth": 3,
-            "width": 27,
-          }
-        }
+      <SvgMock
+        height={30}
+        width={30}
       />
     </View>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly inner item  1`] = `
+<View
+  accessibilityLabel="accessibilityLabelActionSheetsItem"
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderTopColor": "#D1D4DB",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginHorizontal": 12,
+        "minHeight": 75,
+        "paddingHorizontal": 30,
+      },
+      Object {
+        "backgroundColor": "#FFF",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
+          },
+          Object {
+            "paddingVertical": 22.5,
+          },
+        ]
+      }
+    >
+      title
+    </Text>
   </View>
 </View>
 `;

@@ -1,9 +1,10 @@
-import {render} from '@testing-library/react-native';
+import {fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
 import {SimpleIcon} from '@npm/mobydick-styles';
 
 import Item from '../Item';
 import {IItemType} from '../types';
+import Constants from '../../PopupBase/constants';
 
 describe('@npm/mobydick-popups/ActionSheetBase', () => {
   it('should renders correctly Item', () => {
@@ -24,7 +25,17 @@ describe('@npm/mobydick-popups/ActionSheetBase', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  it('should renders correctly inner item ', () => {
+    const {toJSON} = render(
+      <Item
+        textFont={'Regular-White-S'}
+        itemType={IItemType.innerItem}
+        title={'title'}
+      />,
+    );
 
+    expect(toJSON()).toMatchSnapshot();
+  });
   it('should renders correctly Item with !selected', () => {
     const {toJSON} = render(
       <Item
@@ -42,7 +53,7 @@ describe('@npm/mobydick-popups/ActionSheetBase', () => {
     const {toJSON} = render(
       <Item
         itemType={IItemType.singleItem}
-        radio={'title'}
+        checkboxList={['title']}
         onPress={() => null}
         title={'title'}
       />,
@@ -58,13 +69,18 @@ describe('@npm/mobydick-popups/ActionSheetBase', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('should renders correctly Item with leftIcon', () => {
-    const {toJSON} = render(
+    const {toJSON, getByLabelText} = render(
       <Item
         itemType={IItemType.cancelItem}
         title={'title'}
         leftIcon={<SimpleIcon name={'icon-copy'} />}
+        isStatusPressedForTest
       />,
     );
+    const pressableItem = getByLabelText(
+      Constants.accessibilityLabelActionSheetsItem,
+    );
+    fireEvent.press(pressableItem);
 
     expect(toJSON()).toMatchSnapshot();
   });
