@@ -6,6 +6,7 @@ import {StyleProp, ViewStyle} from 'react-native';
 import stylesCreate from '../PopupBase/stylesCreate';
 import {PopupBase} from '../PopupBase';
 import {IPopup} from '../../types';
+import {returnTrue} from '../../functions';
 
 import CloseIcon from './CloseIcon';
 import DescriptionText from './DescriptionText';
@@ -36,7 +37,11 @@ const ModalBase: FC<
 
   return (
     <PopupBase onClose={onClose} overlayStyle={overlayStyle}>
-      <View style={[styles.container, containerStyle]}>{children}</View>
+      <View
+        style={[styles.container, containerStyle]}
+        onStartShouldSetResponder={returnTrue}>
+        {children}
+      </View>
     </PopupBase>
   );
 };

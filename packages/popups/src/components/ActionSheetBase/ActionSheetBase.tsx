@@ -5,6 +5,7 @@ import {useStyles} from '@npm/mobydick-styles';
 
 import {IPopup} from '../../types';
 import {PopupBase} from '../PopupBase';
+import {returnTrue} from '../../functions';
 
 import FirstItem from './FirstItem';
 import InnerItem from './InnerItem';
@@ -28,7 +29,11 @@ const ActionSheetBase: FC<
 
   return (
     <PopupBase onClose={onClose} overlayStyle={overlayStyle}>
-      <View style={[styles.containerStyle, containerStyle]}>{children}</View>
+      <View
+        style={[styles.containerStyle, containerStyle]}
+        onStartShouldSetResponder={returnTrue}>
+        {children}
+      </View>
     </PopupBase>
   );
 };
