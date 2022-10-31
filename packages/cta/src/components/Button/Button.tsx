@@ -49,6 +49,9 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
   );
 
   const getSpinnerColor = (): string => {
+    if (disabled) {
+      return theme.colors.IconWhite;
+    }
     switch (type) {
       case IButtonTypes.secondary:
       case IButtonTypes.tertiary:

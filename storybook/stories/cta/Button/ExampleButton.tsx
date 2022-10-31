@@ -10,7 +10,6 @@ enum IViewButton {
   leftIcon = 'leftIcon',
   noIcon = 'noIcon',
   rightIcon = 'rightIcon',
-  counter = 'counter',
   onlyIcon = 'onlyIcon',
 }
 
@@ -96,7 +95,6 @@ const ExampleButton = () => {
           style={{minWidth: minWidth}}
         />
       );
-    case IViewButton.noIcon:
     default:
       return (
         <Button
