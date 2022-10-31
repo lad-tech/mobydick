@@ -36,7 +36,11 @@ const ModalBase: FC<
 
   return (
     <PopupBase onClose={onClose} overlayStyle={overlayStyle}>
-      <View style={[styles.container, containerStyle]}>{children}</View>
+      <View
+        style={[styles.container, containerStyle]}
+        onStartShouldSetResponder={() => true}>
+        {children}
+      </View>
     </PopupBase>
   );
 };

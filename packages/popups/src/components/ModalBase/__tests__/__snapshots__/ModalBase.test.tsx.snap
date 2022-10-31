@@ -30,6 +30,7 @@ exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
   testID="Pressable"
 >
   <View
+    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {

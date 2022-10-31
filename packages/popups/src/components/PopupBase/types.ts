@@ -1,17 +1,17 @@
-import {ViewStyle} from 'react-native';
+import {TextStyle} from 'react-native';
 import {TypographyProp} from '@npm/mobydick-typography';
 
 import {IPopup} from '../../types';
 
 export interface ITitlePopup {
   title: string;
-  titleStyles?: ViewStyle | ViewStyle[];
+  titleStyles?: TextStyle | TextStyle[];
   titleFont?: TypographyProp;
 }
 
 export interface IDescriptionTextPopup {
   descriptionText: string;
-  descriptionStyles?: ViewStyle;
+  descriptionStyles?: TextStyle | TextStyle[];
   descriptionFont?: TypographyProp;
 }
 
