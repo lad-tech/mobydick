@@ -1,23 +1,44 @@
 import {Platform, StyleSheet, ViewStyle} from 'react-native';
 import {IThemeContext, rem} from '@npm/mobydick-styles';
 
-const stylesCreate = (
-  theme: IThemeContext,
-  selected = false,
-  leftIcon = false,
-) => {
+import {IItemType} from './types';
+
+const stylesCreate = (theme: IThemeContext, itemType?: IItemType) => {
   const {colors, spaces} = theme;
 
-  const flexStyle = (): ViewStyle => {
-    if (leftIcon || selected) {
-      return {
-        justifyContent: selected ? 'space-between' : 'flex-start',
-        flexDirection: 'row',
-      };
+  const getItemStyle = (): ViewStyle => {
+    switch (itemType) {
+      case IItemType.firstItem:
+        return {
+          borderTopLeftRadius: spaces.Space12,
+          borderTopRightRadius: spaces.Space12,
+        };
+      case IItemType.innerItem:
+        return {
+          borderTopWidth: spaces.Space1,
+          borderTopColor: colors.BgTertiary,
+        };
+      case IItemType.lastItem:
+        return {
+          borderBottomLeftRadius: spaces.Space12,
+          borderBottomRightRadius: spaces.Space12,
+          marginBottom: spaces.Space8,
+          borderTopWidth: spaces.Space1,
+          borderTopColor: colors.BgTertiary,
+        };
+      case IItemType.cancelItem:
+        return {
+          borderRadius: spaces.Space12,
+          marginBottom: rem(30),
+          justifyContent: 'center',
+        };
+      default:
+        return {
+          borderRadius: spaces.Space12,
+          marginBottom: spaces.Space8,
+        };
     }
-    return {justifyContent: 'center'};
   };
-
   return StyleSheet.create({
     containerStyle: {
       width: '100%',
@@ -29,54 +50,22 @@ const stylesCreate = (
       }),
     },
     item: {
-      backgroundColor: colors.BgSecondary,
+      justifyContent: 'space-between',
+      flexDirection: 'row',
       alignItems: 'center',
-      paddingHorizontal: rem(20),
+      paddingHorizontal: spaces.Space20,
       marginHorizontal: spaces.Space8,
       minHeight: rem(50),
 
-      ...flexStyle(),
-    },
-    title: {
-      flexDirection: 'column',
-      justifyContent: 'center',
-      paddingVertical: rem(15),
+      ...getItemStyle(),
     },
     leftIcon: {
-      paddingRight: rem(18),
+      paddingRight: spaces.Space12,
     },
     leftIconView: {
       justifyContent: 'flex-start',
       flexDirection: 'row',
       alignItems: 'center',
-    },
-    firstItem: {
-      borderTopLeftRadius: spaces.Space12,
-      borderTopRightRadius: spaces.Space12,
-    },
-    innerItem: {
-      borderTopWidth: 1,
-      borderTopColor: colors.BgTertiary,
-    },
-    lastItem: {
-      borderBottomLeftRadius: spaces.Space12,
-      borderBottomRightRadius: spaces.Space12,
-      marginBottom: spaces.Space8,
-      borderTopWidth: spaces.Space1,
-      borderTopColor: colors.BgTertiary,
-    },
-    cancelItem: {
-      borderRadius: spaces.Space12,
-      marginBottom: rem(30),
-    },
-    checkIcon: {
-      backgroundColor: colors.IconBase,
-      borderRadius: theme.spaces.Space64,
-      padding: theme.spaces.Space2,
-    },
-    label: {
-      textAlign: 'center',
-      paddingVertical: rem(15),
     },
     textSelected: {
       paddingVertical: rem(15),
