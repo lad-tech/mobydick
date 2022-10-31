@@ -2,6 +2,8 @@ import React, {FC, useEffect, useRef} from 'react';
 import {View} from '@npm/mobydick-core';
 import {useStyles} from '@npm/mobydick-styles';
 
+import {returnTrue} from '../../functions';
+
 import Title from './Title';
 import stylesCreate from './stylesCreate';
 import {ISnackbarProps} from './types';
@@ -30,7 +32,11 @@ const SnackbarBase: FC<ISnackbarProps> & {Title: typeof Title} = props => {
 
   return (
     <View style={[styles.overlayStyle, overlayStyle]}>
-      <View style={[styles.container, containerStyle]}>{children}</View>
+      <View
+        style={[styles.container, containerStyle]}
+        onStartShouldSetResponder={returnTrue}>
+        {children}
+      </View>
     </View>
   );
 };

@@ -17,6 +17,7 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly 1`] = `
   }
 >
   <View
+    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {
@@ -53,6 +54,7 @@ exports[`@npm/mobydick-popups/SnackbarBase should renders correctly with timeSho
   }
 >
   <View
+    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {
