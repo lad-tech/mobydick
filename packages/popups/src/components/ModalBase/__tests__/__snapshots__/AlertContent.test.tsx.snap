@@ -5,7 +5,6 @@ exports[`@npm/mobydick-popups/modalBase should renders correctly AlertContent ty
   style={
     Array [
       Object {
-        "alignSelf": "center",
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
         "borderRadius": 100,
         "marginTop": 36,
@@ -35,7 +34,6 @@ exports[`@npm/mobydick-popups/modalBase should renders correctly AlertContent ty
   style={
     Array [
       Object {
-        "alignSelf": "center",
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
         "borderRadius": 100,
         "marginTop": 36,

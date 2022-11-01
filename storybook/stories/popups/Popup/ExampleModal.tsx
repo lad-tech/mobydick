@@ -2,7 +2,7 @@ import {boolean, select, text} from '@storybook/addon-knobs';
 import React, {FC} from 'react';
 import {IContentProps, ModalBase, usePopups} from '@npm/mobydick-popups';
 import {rem, useTheme} from '@npm/mobydick-styles';
-import {IButtonTypes} from '@npm/mobydick-cta';
+import {IButtonSize, IButtonTypes} from '@npm/mobydick-cta';
 
 import selectFont from '../../../utils/selectFont';
 
@@ -97,6 +97,19 @@ const ExampleModal: FC<IContentProps> = props => {
             popupContext.openPopup({Content: NestedExampleModal})
           }
         />
+      )}
+      {boolean('show one button', false) && (
+        <ModalBase.VerticalButtonsView>
+          <ModalBase.VerticalButton
+            onPress={() =>
+              popupContext.openPopup({Content: NestedExampleModal})
+            }
+            type={select('type one button', IButtonTypes, IButtonTypes.primary)}
+            text={text('text one button', 'Разрешить доступ')}
+            size={select('size one button', IButtonSize, IButtonSize.fixed)}
+            style={{marginBottom: rem(12)}}
+          />
+        </ModalBase.VerticalButtonsView>
       )}
     </ModalBase>
   );

@@ -7,13 +7,11 @@ const stylesCreate = (theme: IThemeContext) => {
     closeButton: {
       alignSelf: 'flex-end',
       justifyContent: 'center',
-      alignItems: 'center',
     },
     alertView: {
       borderRadius: 100,
       padding: spaces.Space12,
       marginTop: spaces.Space24,
-      alignSelf: 'center',
       backgroundColor: colors.BgAccentSoft,
     },
     text: {
@@ -22,6 +20,8 @@ const stylesCreate = (theme: IThemeContext) => {
     },
     verticalButtonsView: {
       marginTop: spaces.Space24,
+      alignSelf: 'stretch',
+      alignItems: 'center',
     },
     horizontalButtonsView: {
       flexDirection: 'row',
@@ -37,7 +37,6 @@ const stylesCreate = (theme: IThemeContext) => {
     },
     imageView: {
       marginTop: spaces.Space24,
-      alignSelf: 'center',
     },
   });
 };
