@@ -50,7 +50,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
   );
 
   return (
-    <View style={containerStyle}>
+    <View style={[styles.container, containerStyle]}>
       {Boolean(title) && (
         <Typography font={'Medium-Tertiary-XS'} {...titleProps}>
           {title}

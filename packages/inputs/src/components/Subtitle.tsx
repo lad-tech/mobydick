@@ -33,6 +33,7 @@ const Subtitle = (props: ISubtitle) => {
             ? 'Regular-Error-XXS'
             : 'Regular-Muted-XXS'
         }
+        style={{flex: 1}}
         {...subtitleProps}>
         {subtitle}
       </Typography>
