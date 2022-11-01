@@ -7,11 +7,8 @@ import {IPopup} from '../../types';
 import {PopupBase} from '../PopupBase';
 import {returnTrue} from '../../functions';
 
-import FirstItem from './FirstItem';
-import InnerItem from './InnerItem';
-import LastItem from './LastItem';
-import CancelItem from './CancelItem';
 import stylesCreate from './stylesCreate';
+import Item from './Item';
 
 const ActionSheetBase: FC<
   Omit<IPopup, 'Content'> & {
@@ -19,10 +16,7 @@ const ActionSheetBase: FC<
     containerStyle?: StyleProp<ViewStyle>;
   }
 > & {
-  FirstItem: typeof FirstItem;
-  InnerItem: typeof InnerItem;
-  LastItem: typeof LastItem;
-  CancelItem: typeof CancelItem;
+  Item: typeof Item;
 } = props => {
   const {children, overlayStyle, onClose, containerStyle} = props;
   const [styles] = useStyles(stylesCreate);
@@ -38,9 +32,5 @@ const ActionSheetBase: FC<
   );
 };
 
-ActionSheetBase.FirstItem = FirstItem;
-ActionSheetBase.InnerItem = InnerItem;
-ActionSheetBase.LastItem = LastItem;
-ActionSheetBase.CancelItem = CancelItem;
-
+ActionSheetBase.Item = Item;
 export default ActionSheetBase;

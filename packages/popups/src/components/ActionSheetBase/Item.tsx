@@ -1,50 +1,31 @@
-import {TouchableOpacity} from '@npm/mobydick-core';
-import {ViewStyle} from 'react-native';
-import React, {FC, ReactElement} from 'react';
-import {useStyles} from '@npm/mobydick-styles';
-import {TypographyProp} from '@npm/mobydick-typography';
+import {Pressable} from '@npm/mobydick-core';
+import React, {FC} from 'react';
+import {useStyles, useTheme} from '@npm/mobydick-styles';
+
+import Constants from '../PopupBase/constants';
 
 import stylesCreate from './stylesCreate';
-import getContents from './content/getContents';
-
-export interface IPropsItem {
-  title?: string;
-  subTitle?: string;
-  label?: string;
-  labelFont?: TypographyProp;
-  onPress?(): void;
-  style?: ViewStyle;
-  textFont?: TypographyProp;
-  leftIcon?: ReactElement;
-  selected?: string[];
-  disabled?: boolean;
-}
+import Contents from './content/Contents';
+import {IPropsItem} from './types';
 
 const Item: FC<IPropsItem> = props => {
-  const {
-    title,
-    subTitle,
-    textFont,
-    onPress,
-    style,
-    leftIcon,
-    selected,
-    disabled,
-  } = props;
-  const [styles] = useStyles(
-    stylesCreate,
-    Boolean(selected),
-    Boolean(leftIcon),
-  );
+  const {onPress, style, disabled, itemType, isStatusPressedForTest} = props;
+  const [styles] = useStyles(stylesCreate, itemType);
+  const {colors} = useTheme();
 
   return (
-    <TouchableOpacity
-      activeOpacity={0.9}
-      style={[styles.item, style]}
+    <Pressable
+      style={({pressed}) => [
+        styles.item,
+        {backgroundColor: pressed ? colors.BgSecondary : colors.BgPrimary},
+        style,
+      ]}
       disabled={disabled}
-      onPress={onPress}>
-      {getContents(leftIcon, subTitle, selected, textFont, title)}
-    </TouchableOpacity>
+      onPress={onPress}
+      accessibilityLabel={Constants.accessibilityLabelActionSheetsItem}
+      testOnly_pressed={isStatusPressedForTest}>
+      <Contents {...props} />
+    </Pressable>
   );
 };
 

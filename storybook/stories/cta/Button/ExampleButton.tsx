@@ -1,6 +1,6 @@
 import {Button, IButtonSize, IButtonTypes} from '@npm/mobydick-cta';
 import {boolean, number, select, text} from '@storybook/addon-knobs';
-import {iconNames, SimpleIcon} from '@npm/mobydick-styles';
+import {iconNames, SimpleIcon, useTheme} from '@npm/mobydick-styles';
 import React from 'react';
 import {action} from '@storybook/addon-actions';
 
@@ -10,17 +10,20 @@ enum IViewButton {
   leftIcon = 'leftIcon',
   noIcon = 'noIcon',
   rightIcon = 'rightIcon',
-  counter = 'counter',
   onlyIcon = 'onlyIcon',
 }
 
-const getIconColor = (type: IButtonTypes): string => {
+const getSpinnerColor = (type: IButtonTypes, disabled: boolean): string => {
+  const {colors} = useTheme();
+  if (disabled) {
+    return colors.IconWhite;
+  }
   switch (type) {
     case IButtonTypes.secondary:
     case IButtonTypes.tertiary:
-      return '#2B78EE';
+      return colors.IconBase;
     default:
-      return '#fff';
+      return colors.IconWhite;
   }
 };
 
@@ -50,7 +53,7 @@ const ExampleButton = () => {
           leftIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
-              color={getIconColor(type)}
+              color={getSpinnerColor(type, disabled)}
               size={24}
             />
           }
@@ -70,7 +73,7 @@ const ExampleButton = () => {
           rightIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
-              color={'#fff'}
+              color={getSpinnerColor(type, disabled)}
               size={24}
             />
           }
@@ -89,14 +92,13 @@ const ExampleButton = () => {
           rightIcon={
             <SimpleIcon
               name={select('left icon', iconNames, 'icon-plus')}
-              color={'#fff'}
+              color={getSpinnerColor(type, disabled)}
               size={24}
             />
           }
           style={{minWidth: minWidth}}
         />
       );
-    case IViewButton.noIcon:
     default:
       return (
         <Button

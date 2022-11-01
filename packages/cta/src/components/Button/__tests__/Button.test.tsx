@@ -111,4 +111,11 @@ describe('@npm/mobydick-cta/Button', () => {
       expect(toJSON()).toMatchSnapshot();
     },
   );
+
+  it('renders correctly loading disabled ', () => {
+    const {toJSON} = render(
+      <Button type={IButtonTypes.secondary} disabled={true} loading={true} />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
