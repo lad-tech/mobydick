@@ -11,6 +11,7 @@ import {returnTrue} from '../../functions';
 import CloseIcon from './CloseIcon';
 import DescriptionText from './DescriptionText';
 import Title from './Title';
+import VerticalButtonsView from './VerticalButtonsView';
 import HorizontalButtonsView from './HorizontalButtonsView';
 import AlertContent from './AlertContent';
 import VerticalButton from './VerticalButton';
@@ -25,6 +26,7 @@ const ModalBase: FC<
   Title: typeof Title;
   CloseIcon: typeof CloseIcon;
   DescriptionText: typeof DescriptionText;
+  VerticalButtonsView: typeof VerticalButtonsView;
   HorizontalButtonsView: typeof HorizontalButtonsView;
   VerticalButton: typeof VerticalButton;
   AlertContent: typeof AlertContent;
@@ -47,6 +49,7 @@ const ModalBase: FC<
 ModalBase.Title = Title;
 ModalBase.DescriptionText = DescriptionText;
 ModalBase.CloseIcon = CloseIcon;
+ModalBase.VerticalButtonsView = VerticalButtonsView;
 ModalBase.HorizontalButtonsView = HorizontalButtonsView;
 ModalBase.AlertContent = AlertContent;
 ModalBase.VerticalButton = VerticalButton;

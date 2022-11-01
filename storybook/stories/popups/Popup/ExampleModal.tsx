@@ -49,6 +49,33 @@ const ExampleModal: FC<IContentProps> = props => {
           descriptionFont={descriptionFont}
         />
       )}
+      {boolean('show vertical button', false) && (
+        <ModalBase.VerticalButtonsView>
+          <ModalBase.VerticalButton
+            onPress={() =>
+              popupContext.openPopup({Content: NestedExampleModal})
+            }
+            type={select(
+              'type one vertical button',
+              IButtonTypes,
+              IButtonTypes.primary,
+            )}
+            text={text('text one vertical button', 'Разрешить доступ')}
+            style={{marginBottom: rem(12)}}
+          />
+          <ModalBase.VerticalButton
+            onPress={() =>
+              popupContext.openPopup({Content: NestedExampleModal})
+            }
+            type={select(
+              'type two vertical button',
+              IButtonTypes,
+              IButtonTypes.destructive,
+            )}
+            text={text('text two vertical button', 'Разрешить доступ')}
+          />
+        </ModalBase.VerticalButtonsView>
+      )}
       {boolean('show horizontal button', true) && (
         <ModalBase.HorizontalButtonsView
           typeRight={select(
@@ -71,38 +98,17 @@ const ExampleModal: FC<IContentProps> = props => {
           }
         />
       )}
-      {boolean('show one vertical button', true) && (
-        <ModalBase.VerticalButton
-          onPress={() => popupContext.openPopup({Content: NestedExampleModal})}
-          type={select(
-            'type one vertical button',
-            IButtonTypes,
-            IButtonTypes.primary,
-          )}
-          text={text('text one vertical button', 'Разрешить доступ')}
-          size={select(
-            'size one vertical button',
-            IButtonSize,
-            IButtonSize.fixed,
-          )}
-          style={{marginBottom: rem(12)}}
-        />
-      )}
-      {boolean('show two vertical button', true) && (
-        <ModalBase.VerticalButton
-          onPress={() => popupContext.openPopup({Content: NestedExampleModal})}
-          type={select(
-            'type two vertical button',
-            IButtonTypes,
-            IButtonTypes.destructive,
-          )}
-          size={select(
-            'size two vertical button',
-            IButtonSize,
-            IButtonSize.fixed,
-          )}
-          text={text('text two vertical button', 'Разрешить доступ')}
-        />
+      {boolean('show one button', false) && (
+        <ModalBase.VerticalButtonsView>
+          <ModalBase.VerticalButton
+            onPress={() =>
+              popupContext.openPopup({Content: NestedExampleModal})
+            }
+            type={select('type one button', IButtonTypes, IButtonTypes.primary)}
+            text={text('text one button', 'Разрешить доступ')}
+            size={select('size one button', IButtonSize, IButtonSize.fixed)}
+          />
+        </ModalBase.VerticalButtonsView>
       )}
     </ModalBase>
   );
