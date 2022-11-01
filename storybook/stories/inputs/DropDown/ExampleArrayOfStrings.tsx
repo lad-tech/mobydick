@@ -14,6 +14,11 @@ import selectFont from '../../../utils/selectFont';
 const ExampleArrayOfStrings = () => {
   const [selected, setSelected] = useState<string>();
   const {colors} = useTheme();
+  const subtitleIconName = select(
+    'subtitleIcon name',
+    iconNames,
+    'icon-arrow-down',
+  ) as SimpleIconName;
 
   return (
     <DropDown
@@ -36,13 +41,7 @@ const ExampleArrayOfStrings = () => {
       type={select('type', IInputsTypes, IInputsTypes.default)}
       subtitle={text('subtitle', 'Подпись')}
       subtitleIcon={
-        boolean('show subtitleIcon', true)
-          ? (select(
-              'subtitleIcon name',
-              iconNames,
-              'icon-arrow-down',
-            ) as SimpleIconName)
-          : undefined
+        boolean('show subtitleIcon', false) ? subtitleIconName : undefined
       }
       rightIcon={
         <SimpleIcon

@@ -5,6 +5,12 @@ import {action} from '@storybook/addon-actions';
 import React from 'react';
 
 const ExampleInput = () => {
+  const subtitleIconName = select(
+    'subtitleIcon name',
+    iconNames,
+    'icon-arrow-down',
+  ) as SimpleIconName;
+
   return (
     <InputField
       type={select('type', IInputsTypes, IInputsTypes.default)}
@@ -12,13 +18,7 @@ const ExampleInput = () => {
       placeholder={text('Placeholder', 'Введите что-нибудь')}
       subtitle={text('subtitle', 'Подпись')}
       subtitleIcon={
-        boolean('show subtitleIcon', false)
-          ? (select(
-              'subtitleIcon name',
-              iconNames,
-              'icon-arrow-down',
-            ) as SimpleIconName)
-          : undefined
+        boolean('show subtitleIcon', false) ? subtitleIconName : undefined
       }
       rightIcon={
         <SimpleIcon name={select('right Icon', iconNames, 'icon-show')} />
