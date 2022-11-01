@@ -34,13 +34,15 @@ const ExampleArrayOfStrings = () => {
       onPress={item => setSelected(item.value)}
       disabled={boolean('disabled', false)}
       type={select('type', IInputsTypes, IInputsTypes.default)}
-      subtitle={text('subtitle', '')}
+      subtitle={text('subtitle', 'Подпись')}
       subtitleIcon={
-        select(
-          'subtitleIcon name',
-          iconNames,
-          'icon-arrow-down',
-        ) as SimpleIconName
+        boolean('show subtitleIcon', true)
+          ? (select(
+              'subtitleIcon name',
+              iconNames,
+              'icon-arrow-down',
+            ) as SimpleIconName)
+          : undefined
       }
       rightIcon={
         <SimpleIcon

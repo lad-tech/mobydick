@@ -7,6 +7,9 @@ import {disabledStyle, validStyle, wrongStyle} from '../../style';
 const defaultStyle = (theme: IThemeContext, focused: boolean) => {
   const {colors} = theme;
   return StyleSheet.create({
+    container: {
+      minWidth: rem(130),
+    },
     inputContainer: {
       backgroundColor: colors.BgSecondary,
       paddingLeft: rem(18),
@@ -15,7 +18,6 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
       borderWidth: theme.spaces.Space1,
       borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: theme.spaces.Space8,
-      minWidth: rem(130),
       height: rem(48),
       flexDirection: 'row',
       justifyContent: 'space-between',

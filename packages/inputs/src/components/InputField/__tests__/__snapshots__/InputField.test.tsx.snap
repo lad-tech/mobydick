@@ -1,7 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
-<View>
+<View
+  style={
+    Array [
+      Object {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
   <Text
     allowFontScaling={true}
     style={
@@ -31,7 +40,6 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
           "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 195,
           "paddingLeft": 27,
           "paddingRight": 24,
         },
@@ -96,7 +104,9 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
             "fontSize": 18,
             "lineHeight": 24,
           },
-          undefined,
+          Object {
+            "flex": 1,
+          },
         ]
       }
     >
@@ -107,7 +117,16 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
 `;
 
 exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
-<View>
+<View
+  style={
+    Array [
+      Object {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
@@ -121,7 +140,6 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
           "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 195,
           "paddingLeft": 27,
           "paddingRight": 24,
         },
@@ -159,7 +177,16 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
 `;
 
 exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
-<View>
+<View
+  style={
+    Array [
+      Object {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
@@ -173,7 +200,6 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
           "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 195,
           "paddingLeft": 27,
           "paddingRight": 24,
         },
@@ -211,7 +237,16 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
 `;
 
 exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
-<View>
+<View
+  style={
+    Array [
+      Object {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
@@ -225,7 +260,6 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
           "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 195,
           "paddingLeft": 27,
           "paddingRight": 24,
         },
@@ -263,7 +297,16 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
 `;
 
 exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
-<View>
+<View
+  style={
+    Array [
+      Object {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
@@ -277,7 +320,6 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
           "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 195,
           "paddingLeft": 27,
           "paddingRight": 24,
         },
@@ -315,7 +357,16 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
 `;
 
 exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
-<View>
+<View
+  style={
+    Array [
+      Object {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
@@ -329,7 +380,6 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
           "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 195,
           "paddingLeft": 27,
           "paddingRight": 24,
         },
@@ -367,7 +417,16 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
 `;
 
 exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
-<View>
+<View
+  style={
+    Array [
+      Object {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
@@ -381,7 +440,6 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
           "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 195,
           "paddingLeft": 27,
           "paddingRight": 24,
         },
@@ -419,7 +477,16 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
 `;
 
 exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
-<View>
+<View
+  style={
+    Array [
+      Object {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
@@ -433,7 +500,6 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
           "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 195,
           "paddingLeft": 27,
           "paddingRight": 24,
         },
@@ -498,7 +564,9 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
             "fontSize": 18,
             "lineHeight": 24,
           },
-          undefined,
+          Object {
+            "flex": 1,
+          },
         ]
       }
     >
@@ -509,7 +577,16 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
 `;
 
 exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
-<View>
+<View
+  style={
+    Array [
+      Object {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
@@ -523,7 +600,6 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
           "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "minWidth": 195,
           "paddingLeft": 27,
           "paddingRight": 24,
         },
@@ -588,7 +664,9 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
             "fontSize": 18,
             "lineHeight": 24,
           },
-          undefined,
+          Object {
+            "flex": 1,
+          },
         ]
       }
     >
