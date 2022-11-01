@@ -99,13 +99,17 @@ const ExampleModal: FC<IContentProps> = props => {
         />
       )}
       {boolean('show one button', false) && (
-        <ModalBase.VerticalButton
-          onPress={() => popupContext.openPopup({Content: NestedExampleModal})}
-          type={select('type one button', IButtonTypes, IButtonTypes.primary)}
-          text={text('text one button', 'Разрешить доступ')}
-          size={select('size one button', IButtonSize, IButtonSize.fixed)}
-          style={{marginBottom: rem(12)}}
-        />
+        <ModalBase.VerticalButtonsView>
+          <ModalBase.VerticalButton
+            onPress={() =>
+              popupContext.openPopup({Content: NestedExampleModal})
+            }
+            type={select('type one button', IButtonTypes, IButtonTypes.primary)}
+            text={text('text one button', 'Разрешить доступ')}
+            size={select('size one button', IButtonSize, IButtonSize.fixed)}
+            style={{marginBottom: rem(12)}}
+          />
+        </ModalBase.VerticalButtonsView>
       )}
     </ModalBase>
   );
@@ -120,10 +124,17 @@ const NestedExampleModal: FC<IContentProps> = props => {
       <ModalBase.CloseIcon onPress={onClose} />
       <ModalBase.Title title={'Вложенная Модалка'} />
       <ModalBase.DescriptionText descriptionText={'Это просто пример'} />
-      <ModalBase.VerticalButton
-        onPress={() => popupContext.openPopup({Content: ExampleModal})}
-        text={'Открыть ещё одну'}
-      />
+      <ModalBase.VerticalButtonsView>
+        <ModalBase.VerticalButton
+          onPress={() => popupContext.openPopup({Content: ExampleModal})}
+          text={'Открыть ещё одну'}
+          type={select(
+            'type one vertical button',
+            IButtonTypes,
+            IButtonTypes.primary,
+          )}
+        />
+      </ModalBase.VerticalButtonsView>
     </ModalBase>
   );
 };
