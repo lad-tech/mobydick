@@ -13,7 +13,7 @@ exports[`@npm/mobydick-popups/DescriptionText should renders correctly with desc
       },
       Array [
         Object {
-          "marginTop": 36,
+          "marginBottom": 36,
           "textAlign": "center",
         },
         Object {
@@ -40,7 +40,7 @@ exports[`@npm/mobydick-popups/DescriptionText should renders correctly without d
       },
       Array [
         Object {
-          "marginTop": 36,
+          "marginBottom": 36,
           "textAlign": "center",
         },
         Object {

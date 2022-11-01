@@ -13,7 +13,7 @@ exports[`@npm/mobydick-popups/Title should renders correctly with titleFont 1`] 
       },
       Array [
         Object {
-          "marginTop": 36,
+          "marginBottom": 36,
           "textAlign": "center",
         },
         Object {
@@ -40,7 +40,7 @@ exports[`@npm/mobydick-popups/Title should renders correctly without titleFont 1
       },
       Array [
         Object {
-          "marginTop": 36,
+          "marginBottom": 36,
           "textAlign": "center",
         },
         Object {

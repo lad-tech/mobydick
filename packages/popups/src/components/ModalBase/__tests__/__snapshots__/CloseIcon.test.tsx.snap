@@ -14,9 +14,9 @@ exports[`@npm/mobydick-popups/CloseIcon should renders correctly 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "center",
       "alignSelf": "flex-end",
       "justifyContent": "center",
+      "marginBottom": 36,
       "opacity": 1,
     }
   }

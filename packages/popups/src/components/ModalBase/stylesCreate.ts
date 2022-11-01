@@ -7,25 +7,21 @@ const stylesCreate = (theme: IThemeContext) => {
     closeButton: {
       alignSelf: 'flex-end',
       justifyContent: 'center',
-      alignItems: 'center',
+      marginBottom: spaces.Space24,
     },
     alertView: {
       borderRadius: 100,
       padding: spaces.Space12,
-      marginTop: spaces.Space24,
-      alignSelf: 'center',
+      marginBottom: spaces.Space24,
       backgroundColor: colors.BgAccentSoft,
     },
     text: {
-      marginTop: spaces.Space24,
+      marginBottom: spaces.Space24,
       textAlign: 'center',
-    },
-    verticalButtonsView: {
-      marginTop: spaces.Space24,
     },
     horizontalButtonsView: {
       flexDirection: 'row',
-      paddingTop: spaces.Space24,
+      marginBottom: spaces.Space24,
     },
     horizontalLeftButton: {
       flex: 1,
@@ -36,8 +32,7 @@ const stylesCreate = (theme: IThemeContext) => {
       marginLeft: spaces.Space6,
     },
     imageView: {
-      marginTop: spaces.Space24,
-      alignSelf: 'center',
+      marginBottom: spaces.Space24,
     },
   });
 };

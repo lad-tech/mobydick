@@ -26,11 +26,10 @@
 1. ModalBase.Title - заголовок модалки;
 2. ModalBase.DescriptionText - подзаголовок модалки;
 3. ModalBase.CloseIcon - иконка крестик в верхнем правом углу, закрывает модалку;
-4. ModalBase.VerticalButtonsView - обертка, которая принимает в себя Buttons и вертикально их отображает;
-5. ModalBase.HorizontalButtonsView - внутри себя содержит горизонтальное отображение двух кнопок, пропсы которым нужно передать: textLeft, onPressLeft, textLeft, textRight, typeRight, onPressRight;
-6. ModalBase.AlertContent - иконка внутри круга с background, по дефолту будет отображен check-alert, но можно передать пропсы - name, color, size, style - и вы получите свою иконку алерта;
-7. ModalBase.VerticalButton - кнопка, которая по дизайну используется в VerticalButtonsView, вам нужно в неё передать необходимые пропсы для кнопки, и в стиль передать: marginBottom: rem(12), для того, чтобы она подвинулась от соседней кнопки;
-8. ModalBase.ImageView - картинка, которая по дефолту имеет отступ и отцентрована, также можете передать свой стиль;
+4. ModalBase.HorizontalButtonsView - внутри себя содержит горизонтальное отображение двух кнопок, пропсы которым нужно передать: textLeft, onPressLeft, textLeft, textRight, typeRight, onPressRight;
+5. ModalBase.AlertContent - иконка внутри круга с background, по дефолту будет отображен check-alert, но можно передать пропсы - name, color, size, style - и вы получите свою иконку алерта;
+6. ModalBase.VerticalButton - кнопка, которая по дизайну занимает полностью строчку, можно использовать сколько угодно штук, вам нужно в неё передать необходимые пропсы для кнопки, чтобы подвинуть от соседней такой же кнопки, первой нужно передать стиль marginBottom: rem(12);
+7. ModalBase.ImageView - картинка, которая по дефолту имеет отступ и отцентрована, также можете передать свой стиль;
 
 По краям ModalBase имеет отступ в 20, а между элементами 24, но как известно, все стили(**containerStyle**) можно передать и всё можно заменить.
 
