@@ -1,6 +1,6 @@
 import {InputField, IInputsTypes} from '@npm/mobydick-inputs';
 import {boolean, select, text} from '@storybook/addon-knobs';
-import {iconNames, rem, SimpleIcon, SimpleIconName} from '@npm/mobydick-styles';
+import {iconNames, rem, SimpleIcon} from '@npm/mobydick-styles';
 import {action} from '@storybook/addon-actions';
 import React from 'react';
 
@@ -9,7 +9,7 @@ const ExampleInput = () => {
     'subtitleIcon name',
     iconNames,
     'icon-arrow-down',
-  ) as SimpleIconName;
+  );
 
   return (
     <InputField

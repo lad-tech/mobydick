@@ -18,7 +18,7 @@ const ExampleArrayOfStrings = () => {
     'subtitleIcon name',
     iconNames,
     'icon-arrow-down',
-  ) as SimpleIconName;
+  );
 
   return (
     <DropDown
