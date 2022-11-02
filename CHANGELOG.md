@@ -1,3 +1,10 @@
+## [2.0.1](https://glab.lad24.ru/npm/mobydick/compare/v2.0.0...v2.0.1) (2022-11-02)
+
+
+### Bug Fixes
+
+* **tooltip:** add LeftButton, overlayStyle; fix placement left and right ([ed258a5](https://glab.lad24.ru/npm/mobydick/commit/ed258a57e4bca4e0ff1ca3fa0b44e1263d4eb41d))
+
 # [2.0.0](https://glab.lad24.ru/npm/mobydick/compare/v1.9.1...v2.0.0) (2022-11-02)
 
 
