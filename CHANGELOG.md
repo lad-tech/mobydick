@@ -1,3 +1,29 @@
+# [2.0.0](https://glab.lad24.ru/npm/mobydick/compare/v1.9.1...v2.0.0) (2022-11-02)
+
+
+### Bug Fixes
+
+* **actionsSheets:** update example, styles, tests ([6d63939](https://glab.lad24.ru/npm/mobydick/commit/6d63939bbff7aabc37d25f31c896193fe477fec6))
+* **actionsSheets:** use spaces ([9d150eb](https://glab.lad24.ru/npm/mobydick/commit/9d150ebe2955a9242ec87aaa9fc09e5b518f7e65))
+* **button:** getSpinnerColor with disabled and remove type counter ([8c9ae7c](https://glab.lad24.ru/npm/mobydick/commit/8c9ae7c617f662a963535e04f6965f72029f8974))
+* **button:** update example ([3028605](https://glab.lad24.ru/npm/mobydick/commit/3028605a10332b15b9c50ceca34dba97dd2b640b))
+* **inputs:** ширина инпута также будет ограничивать и label, и subtitle ([ef041d2](https://glab.lad24.ru/npm/mobydick/commit/ef041d290e6a1adba4c95a5da7f418c784a15b7f))
+* **ModalBase:** change usage verticalButton ([8a95350](https://glab.lad24.ru/npm/mobydick/commit/8a95350535e52a8bf70bb88de894749aea92bdbf))
+* **ModalBase:** return VerticalButtonsView ([1e7e849](https://glab.lad24.ru/npm/mobydick/commit/1e7e8499cf334034aa2f9a083fbf72a91aff54b0))
+* **popups:** add onStartShouldSetResponder in View all Popups ([ff9f028](https://glab.lad24.ru/npm/mobydick/commit/ff9f028aa7e2d5462bbeb31f3ac0aa51a9ef4f9b))
+* **popups:** update type - Title and DescriptionText, add onStartShouldSetResponder in View PopupBas ([fb03ab7](https://glab.lad24.ru/npm/mobydick/commit/fb03ab7e8962e2b57ec9135538dbc7942b91609e))
+
+
+### Features
+
+* **ActionSheets:** update ActionSheet ([ebdc3b4](https://glab.lad24.ru/npm/mobydick/commit/ebdc3b426d98ca1096fe44e5fd98e22cc74c6434))
+
+
+### BREAKING CHANGES
+
+* **ModalBase:** remove verticalButtonsView, change paddings, return alignItems: 'center'
+* **ActionSheets:** change default components AS -> only item has type:   firstItem, innerItem, lastItem, singleItem, cancelItem = 'cancelItem'; add select -> radio, checkboxList; change BgOverlay;
+
 ## [1.9.1](https://glab.lad24.ru/npm/mobydick/compare/v1.9.0...v1.9.1) (2022-10-25)
 
 
