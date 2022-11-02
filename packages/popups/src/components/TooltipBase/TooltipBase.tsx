@@ -17,6 +17,7 @@ import stylesCreate from './stylesCreate';
 import Title from './Title';
 import DescriptionText from './DescriptionText';
 import Arrow from './Arrow';
+import LeftButton from './LeftButton';
 import {IPlacement} from './types';
 
 const {height} = Dimensions.get('window');
@@ -34,6 +35,7 @@ const TooltipBase: FC<
   Title: typeof Title;
   DescriptionText: typeof DescriptionText;
   Arrow: typeof Arrow;
+  LeftButton: typeof LeftButton;
 } = props => {
   const {
     containerStyle,
@@ -45,8 +47,10 @@ const TooltipBase: FC<
     refCurrent,
   } = props;
   const [styles] = useStyles(stylesCreate);
+  const {width} = Dimensions.get('window');
 
-  const [positionValue, setPositionValue] = useState(0);
+  const [positionValueY, setPositionValueY] = useState(0);
+  const [positionValueX, setPositionValueX] = useState(0);
 
   useMemo(() => {
     refCurrent?.current?.measure((_x, _y, _width, _height, _pageX, pageY) => {
@@ -57,33 +61,39 @@ const TooltipBase: FC<
             : height - pageY;
 
         position === IPosition.top
-          ? setPositionValue(pageY + _height)
-          : setPositionValue(androidValue);
+          ? setPositionValueY(pageY + _height)
+          : setPositionValueY(androidValue);
+
+        placement === IPlacement.start
+          ? setPositionValueX(_pageX)
+          : setPositionValueX(width - _pageX - _width);
       }
     });
   }, []);
 
-  if (positionValue === 0) {
+  if (positionValueY === 0) {
     return null;
   }
 
   return (
-    <PopupBase onClose={onClose} overlayStyle={overlayStyle}>
+    <PopupBase
+      onClose={onClose}
+      overlayStyle={[styles.overlayStyle, overlayStyle]}>
       <Animated.View
         style={[
           styles.container,
           containerStyle,
           position === IPosition.top && {
-            top: positionValue,
+            top: positionValueY,
           },
           position === IPosition.bottom && {
-            bottom: positionValue,
+            bottom: positionValueY,
           },
           placement === IPlacement.start && {
-            left: 0,
+            left: positionValueX,
           },
           placement === IPlacement.end && {
-            right: 0,
+            right: positionValueX,
           },
         ]}>
         {children}
@@ -95,4 +105,5 @@ const TooltipBase: FC<
 TooltipBase.Title = Title;
 TooltipBase.DescriptionText = DescriptionText;
 TooltipBase.Arrow = Arrow;
+TooltipBase.LeftButton = LeftButton;
 export default TooltipBase;

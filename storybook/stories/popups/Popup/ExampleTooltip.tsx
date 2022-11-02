@@ -1,5 +1,4 @@
 import React, {FC, RefObject} from 'react';
-import {Button, IButtonSize} from '@npm/mobydick-cta';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {
   IContentProps,
@@ -91,11 +90,9 @@ const ExampleTooltip: FC<
             <TooltipBase.Arrow placement={placement} position={position} />
           ) : null}
 
-          <Button
+          <TooltipBase.LeftButton
             onPress={() => null}
             text={text('Text button', 'Войти')}
-            size={IButtonSize.small}
-            style={{alignSelf: 'flex-start', marginVertical: 8}}
           />
         </TooltipBase>
       );

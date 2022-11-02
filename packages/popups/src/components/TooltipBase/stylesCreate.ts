@@ -35,6 +35,7 @@ const stylesCreate = (theme: IThemeContext, position?: IPosition) => {
         };
     }
   };
+
   return StyleSheet.create({
     container: {
       backgroundColor: colors.BgContrast,
@@ -46,6 +47,10 @@ const stylesCreate = (theme: IThemeContext, position?: IPosition) => {
       zIndex: 1,
       marginVertical: spaces.Space8,
       position: 'absolute',
+    },
+    overlayStyle: {
+      justifyContent: undefined,
+      backgroundColor: 'transparent',
     },
     arrow: {
       position: 'absolute',

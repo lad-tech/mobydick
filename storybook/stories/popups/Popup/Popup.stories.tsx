@@ -38,29 +38,31 @@ const PopupTooltipExample = () => {
       popupContext.openPopup({
         id: 'TOOLTIP_POPUP_ID',
         Content: propsFromPopup => (
-          <ExampleTooltip
-            {...propsFromPopup}
-            overlayStyle={{
-              justifyContent: undefined,
-              backgroundColor: 'transparent',
-            }}
-            refCurrent={ref}
-          />
+          <ExampleTooltip {...propsFromPopup} refCurrent={ref} />
         ),
       });
     }
   };
 
   return (
-    <>
+    <View
+      style={{
+        margin: 20,
+        flex: 1,
+        alignSelf: 'stretch',
+        alignItems: 'flex-start',
+        justifyContent: 'center',
+      }}>
       <Button
         ref={viewRef}
+        size={IButtonSize.small}
         text={'What is it?'}
         onPress={() => openPopup(viewRef)}
-        style={{marginBottom: 10}}
+        style={{margin: 10}}
       />
       <Button
         ref={viewRef2}
+        size={IButtonSize.large}
         text={'What is it1?'}
         onPress={() => openPopup(viewRef2)}
         style={{marginBottom: 10}}
@@ -71,7 +73,7 @@ const PopupTooltipExample = () => {
         onPress={() => openPopup(viewRef3)}
         style={{marginBottom: 10}}
       />
-    </>
+    </View>
   );
 };
 
