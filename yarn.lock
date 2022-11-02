@@ -1823,10 +1823,10 @@
     eslint-plugin-react "^7.30.1"
     prettier-eslint "^15.0.1"
 
-"@npm/semantic-release-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://glab.lad24.ru/api/v4/projects/609/packages/npm/@npm/semantic-release-config/-/@npm/semantic-release-config-1.0.0.tgz#00c3669ff349d8e3ab2186b0a2880ca3211f2374"
-  integrity sha1-AMNmn/NJ2OOrIYawoogMoyEfI3Q=
+"@npm/semantic-release-config@^1.0.1":
+  version "1.0.1"
+  resolved "https://glab.lad24.ru/api/v4/projects/609/packages/npm/@npm/semantic-release-config/-/@npm/semantic-release-config-1.0.1.tgz#23c1f37e77509004d4c210569a2a63e349ae46d5"
+  integrity sha1-I8HzfndQkATUwhBWmipj40muRtU=
   dependencies:
     "@semantic-release/changelog" "^5.0.1"
     "@semantic-release/git" "^9.0.1"

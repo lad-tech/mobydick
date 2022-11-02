@@ -1,9 +1,11 @@
 {
   "name": "@npm/mobydick-navbars",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "index.ts",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
