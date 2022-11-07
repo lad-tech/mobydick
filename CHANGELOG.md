@@ -1,3 +1,10 @@
+# [2.1.0](https://glab.lad24.ru/npm/mobydick/compare/v2.0.1...v2.1.0) (2022-11-07)
+
+
+### Features
+
+* **drop down:** dick-146 ([8b15aa8](https://glab.lad24.ru/npm/mobydick/commit/8b15aa80707aab9a720cbad9359600e0a7f1947c))
+
 ## [2.0.1](https://glab.lad24.ru/npm/mobydick/compare/v2.0.0...v2.0.1) (2022-11-02)
 
 
