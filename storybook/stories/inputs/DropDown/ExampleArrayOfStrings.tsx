@@ -36,7 +36,7 @@ const ExampleArrayOfStrings = () => {
 
         'Bulgarian',
       ])}
-      onPress={item => setSelected(item.value)}
+      onPress={item => setSelected(item)}
       disabled={boolean('disabled', false)}
       type={select('type', IInputsTypes, IInputsTypes.default)}
       subtitle={text('subtitle', 'Подпись')}

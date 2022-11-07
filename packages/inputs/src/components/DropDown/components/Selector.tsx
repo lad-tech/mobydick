@@ -34,15 +34,15 @@ type IFieldsToSelect =
   | 'listEmptyText'
   | 'listEmptyFont';
 
-interface IItemsProps<T extends IListItem<S>, S extends string | undefined>
+interface IItemsProps<T extends IListItem<S> | string, S>
   extends IPopupProps,
     Pick<IDropDownProps<T, S>, IFieldsToSelect> {
-  list: T[];
+  list: IListItem<S>[];
   pageY: number;
   renderItemOnPress: (item: T) => void;
 }
 
-interface IRenderItemProps<T extends IListItem<S>, S extends string | undefined>
+interface IRenderItemProps<T extends IListItem<S>, S>
   extends Pick<
     IItemsProps<T, S>,
     | 'renderItemOnPress'
@@ -58,9 +58,7 @@ interface IRenderItemProps<T extends IListItem<S>, S extends string | undefined>
   theme: ReturnType<typeof useStyles>[1];
 }
 
-function renderItem<T extends IListItem<S>, S extends string | undefined>(
-  props: IRenderItemProps<T, S>,
-) {
+function renderItem<T extends IListItem<S>, S>(props: IRenderItemProps<T, S>) {
   return ({item}: {item: T}) => {
     const {
       renderItemOnPress,
@@ -78,7 +76,7 @@ function renderItem<T extends IListItem<S>, S extends string | undefined>(
     } = props;
 
     const getFont = () => {
-      if (item.value === selectedItem) {
+      if (item.label === selectedItem) {
         return flatListTextFontPressed || 'Medium-Primary-M';
       }
       return flatListTextFont || 'Regular-Secondary-M';
@@ -102,7 +100,7 @@ function renderItem<T extends IListItem<S>, S extends string | undefined>(
         }>
         <Typography
           style={
-            item.value === selectedItem
+            item.label === selectedItem
               ? flatListTextStylePressed
               : flatListTextStyle
           }
@@ -114,9 +112,7 @@ function renderItem<T extends IListItem<S>, S extends string | undefined>(
   };
 }
 
-function Selector<T extends IListItem<S>, S extends string | undefined>(
-  props: IItemsProps<T, S>,
-) {
+function Selector<T extends IListItem<S>, S>(props: IItemsProps<T, S>) {
   const {
     list,
     pageY,

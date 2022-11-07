@@ -20,16 +20,14 @@ import Selector from './components/Selector';
 
 const isString = (input: unknown): input is string => typeof input === 'string';
 
-function wrapListItem<T extends IListItem<S>, S extends string | undefined>(
-  item: T | string,
-): T {
+function wrapListItem<T extends IListItem<S> | string, S>(item: T | string) {
   return (isString(item) ? {label: item, value: item} : item) as Exclude<
     T,
     string
   >;
 }
 
-function DropDown<T extends IListItem<S>, S extends string | undefined>(
+function DropDown<T extends IListItem<S> | string, S>(
   props: IDropDownProps<T, S>,
 ) {
   const {
@@ -87,8 +85,12 @@ function DropDown<T extends IListItem<S>, S extends string | undefined>(
     }
   };
 
-  const renderItemOnPress = (item: T) => {
-    onPress(item);
+  const renderItemOnPress = (item: IListItem<S>) => {
+    onPress(
+      item.value as T extends IListItem<S>
+        ? Exclude<T, string>['value']
+        : string,
+    );
     setOpen(false);
     popupContext.closePopup(DROP_DOWN_POPUP_ID);
   };
@@ -180,7 +182,7 @@ function DropDown<T extends IListItem<S>, S extends string | undefined>(
             ]}
             font={getFont()}
             numberOfLines={1}>
-            {listItems.find(value => value.value === selected)?.label ||
+            {listItems.find(item => item.label === selected)?.label ||
               placeholder}
           </Typography>
           <DropDownIcon isOpen={isOpen} rightIcon={rightIcon} />
