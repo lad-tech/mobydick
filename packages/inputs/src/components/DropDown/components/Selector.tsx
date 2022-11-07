@@ -12,7 +12,7 @@ import {
   LIST_MAX_HEIGHT,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
-import {IDropDownProps, IListItem} from '../types';
+import {IDropDownProps, IItemValue, IListItem} from '../types';
 
 import stylesCreate from './stylesCreate';
 import ListEmptySelector from './ListEmptySelector';
@@ -34,15 +34,15 @@ type IFieldsToSelect =
   | 'listEmptyText'
   | 'listEmptyFont';
 
-interface IItemsProps<T extends IListItem<S>, S extends string | undefined>
+interface IItemsProps<T extends IListItem<S> | string, S extends IItemValue>
   extends IPopupProps,
     Pick<IDropDownProps<T, S>, IFieldsToSelect> {
-  list: T[];
+  list: IListItem<S>[];
   pageY: number;
   renderItemOnPress: (item: T) => void;
 }
 
-interface IRenderItemProps<T extends IListItem<S>, S extends string | undefined>
+interface IRenderItemProps<T extends IListItem<S>, S extends IItemValue>
   extends Pick<
     IItemsProps<T, S>,
     | 'renderItemOnPress'
@@ -58,7 +58,7 @@ interface IRenderItemProps<T extends IListItem<S>, S extends string | undefined>
   theme: ReturnType<typeof useStyles>[1];
 }
 
-function renderItem<T extends IListItem<S>, S extends string | undefined>(
+function renderItem<T extends IListItem<S>, S extends IItemValue>(
   props: IRenderItemProps<T, S>,
 ) {
   return ({item}: {item: T}) => {
@@ -94,7 +94,7 @@ function renderItem<T extends IListItem<S>, S extends string | undefined>(
         style={[
           styles.dropDownItem,
           flatListItemStyle,
-          item.label === selectedItem ? backgroundColorItem : null,
+          item.value === selectedItem ? backgroundColorItem : null,
         ]}
         onPress={() => renderItemOnPress(item)}
         underlayColor={
@@ -114,7 +114,7 @@ function renderItem<T extends IListItem<S>, S extends string | undefined>(
   };
 }
 
-function Selector<T extends IListItem<S>, S extends string | undefined>(
+function Selector<T extends IListItem<S>, S extends IItemValue>(
   props: IItemsProps<T, S>,
 ) {
   const {

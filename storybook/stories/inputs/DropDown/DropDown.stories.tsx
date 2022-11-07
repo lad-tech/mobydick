@@ -7,6 +7,7 @@ import {Dimensions} from 'react-native';
 import CenterView from '../../CenterView';
 
 import ExampleArrayOfStrings from './ExampleArrayOfStrings';
+import ExampleArrayOfObjects from './ExampleArrayOfObjects';
 const {height} = Dimensions.get('window');
 
 // тут лютые отступы и ScrollView, чтобы потестить DropDown в боевых условиях <3
@@ -23,4 +24,5 @@ storiesOf('Design System/Inputs/DropDown', module)
       </CenterView>
     </PopupsProvider>
   ))
-  .add('basic array of strings', () => <ExampleArrayOfStrings />);
+  .add('basic array of strings', () => <ExampleArrayOfStrings />)
+  .add('array of objects', () => <ExampleArrayOfObjects />);
