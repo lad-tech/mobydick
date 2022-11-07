@@ -12,7 +12,7 @@ import {
   LIST_MAX_HEIGHT,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
-import {IDropDownProps, IListItem} from '../types';
+import {IDropDownProps, IItemValue, IListItem} from '../types';
 
 import stylesCreate from './stylesCreate';
 import ListEmptySelector from './ListEmptySelector';
@@ -34,7 +34,7 @@ type IFieldsToSelect =
   | 'listEmptyText'
   | 'listEmptyFont';
 
-interface IItemsProps<T extends IListItem<S> | string, S>
+interface IItemsProps<T extends IListItem<S> | string, S extends IItemValue>
   extends IPopupProps,
     Pick<IDropDownProps<T, S>, IFieldsToSelect> {
   list: IListItem<S>[];
@@ -42,7 +42,7 @@ interface IItemsProps<T extends IListItem<S> | string, S>
   renderItemOnPress: (item: T) => void;
 }
 
-interface IRenderItemProps<T extends IListItem<S>, S>
+interface IRenderItemProps<T extends IListItem<S>, S extends IItemValue>
   extends Pick<
     IItemsProps<T, S>,
     | 'renderItemOnPress'
@@ -58,7 +58,9 @@ interface IRenderItemProps<T extends IListItem<S>, S>
   theme: ReturnType<typeof useStyles>[1];
 }
 
-function renderItem<T extends IListItem<S>, S>(props: IRenderItemProps<T, S>) {
+function renderItem<T extends IListItem<S>, S extends IItemValue>(
+  props: IRenderItemProps<T, S>,
+) {
   return ({item}: {item: T}) => {
     const {
       renderItemOnPress,
@@ -76,7 +78,7 @@ function renderItem<T extends IListItem<S>, S>(props: IRenderItemProps<T, S>) {
     } = props;
 
     const getFont = () => {
-      if (item.label === selectedItem) {
+      if (item.value === selectedItem) {
         return flatListTextFontPressed || 'Medium-Primary-M';
       }
       return flatListTextFont || 'Regular-Secondary-M';
@@ -92,7 +94,7 @@ function renderItem<T extends IListItem<S>, S>(props: IRenderItemProps<T, S>) {
         style={[
           styles.dropDownItem,
           flatListItemStyle,
-          item.label === selectedItem ? backgroundColorItem : null,
+          item.value === selectedItem ? backgroundColorItem : null,
         ]}
         onPress={() => renderItemOnPress(item)}
         underlayColor={
@@ -100,7 +102,7 @@ function renderItem<T extends IListItem<S>, S>(props: IRenderItemProps<T, S>) {
         }>
         <Typography
           style={
-            item.label === selectedItem
+            item.value === selectedItem
               ? flatListTextStylePressed
               : flatListTextStyle
           }
@@ -112,7 +114,9 @@ function renderItem<T extends IListItem<S>, S>(props: IRenderItemProps<T, S>) {
   };
 }
 
-function Selector<T extends IListItem<S>, S>(props: IItemsProps<T, S>) {
+function Selector<T extends IListItem<S>, S extends IItemValue>(
+  props: IItemsProps<T, S>,
+) {
   const {
     list,
     pageY,

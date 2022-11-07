@@ -1,22 +1,16 @@
 import React, {useState} from 'react';
-import {DropDown, IInputsTypes, IListItem} from '@npm/mobydick-inputs';
+import {DropDown, IInputsTypes} from '@npm/mobydick-inputs';
 import {number, select, text} from '@storybook/addon-knobs';
 import {rem} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 
-type ILanguage = {
-  id: number;
-  code: 'ru' | 'en' | 'bn';
-  name: string;
-};
-
 const ExampleArrayOfObjects = () => {
-  const [selected, setSelected] = useState<ILanguage>();
+  const [selected, setSelected] = useState<number>();
 
-  const listObject: IListItem<ILanguage>[] = [
-    {label: 'Русский', value: {id: 1, code: 'ru', name: 'Русский'}},
-    {label: 'English', value: {id: 2, code: 'en', name: 'English'}},
-    {label: 'Bengali', value: {id: 3, code: 'bn', name: 'Bengali'}},
+  const listObject = [
+    {label: 'Русский язык', value: 1},
+    {label: 'English', value: 2},
+    {label: 'Bengali', value: 3},
   ];
 
   return (
@@ -24,9 +18,7 @@ const ExampleArrayOfObjects = () => {
       <DropDown
         list={listObject}
         onPress={item => setSelected(item)}
-        selectedItem={
-          listObject.find(item => item.value.id === selected?.id)?.label
-        }
+        selectedItem={1 as number}
         placeholder={text('placeholder', 'Выберите язык')}
         label={text('title', 'Язык')}
         type={select('type', IInputsTypes, IInputsTypes.default)}

@@ -7,12 +7,17 @@ import {IInputsTypes} from '../types';
 
 export type IListItem<T> = {label: string; value: T};
 
-export interface IDropDownProps<T extends IListItem<S> | string, S> {
-  selectedItem: string | undefined; // item label
+export type IItemValue = string | number;
+
+export interface IDropDownProps<
+  T extends IListItem<S> | string,
+  S extends IItemValue,
+> {
+  selectedItem: S | undefined;
   placeholder: string;
   list: T[];
   onPress: (
-    item: T extends IListItem<S> ? Exclude<T, string>['value'] : string, // item value
+    item: T extends IListItem<S> ? Exclude<T, string>['value'] : string,
   ) => void;
   label?: string;
   rightIcon?: ReactElement;

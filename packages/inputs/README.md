@@ -13,7 +13,7 @@ Author - Aleksei Smirnov
    * placeholder: string; - Дефолтный текст в **DropDown**
    * list: ListItem; - Массив элементов для списка **DropDown**
    * onPress: (item: ListItem) => void; - Функция по нажатию на элемент массива
-   * selectedItem?: string; - Текущий выбранный элемент для окраски оного в DropDown
+   * selectedItem?: string | number; - Текущий выбранный элемент для окраски оного в DropDown. Надо чтобы это были уникальные id-шники
    * navBarHeight?: number; - Высота навигационного бара для правильной позиции, чтобы **DropDown** не заезжал под навигацию
    * buttonStyle?: ViewStyle; - Кастомный стиль для кнопки - если передать только его, **item** в списке будут считать высоту по **"высота кнопки * 0.8"**
    * flatListStyle?: ViewStyle; - Кастомный стиль для вьюшки **FlatList**. Стандартно ширина берется от кнопки, высота высчитывается в функции
@@ -31,6 +31,6 @@ Author - Aleksei Smirnov
    * selectedItemColor?: string; - цвет выбранного элемента в списке при нажатии на него - подсветка **TouchableHighLight**
    * maxVisibleListLength?: number: - Максимальное количество видимых элементов в списке(Если элементов больше, вью у FlatList будет скроллится) - **по дефолту 6** 
    
-6. Массив элементов: можно передать массив объектов ввида {label: string; value: unknown}, либо передать массив строк, который преобразуется в вид {label: string; value: unknown}.
+6. Массив элементов(ListItem): ЛУЧШЕ передать массив объектов ввида {label: string; value: string | number}, либо передать массив строк на свой страх и риск, который преобразуется в вид {label: string; value: string}.
 
 7. Если в DropDown передать selectedItem, которого нет в list, то отобразится placeholder

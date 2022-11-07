@@ -7,7 +7,7 @@ import {usePopups} from '@npm/mobydick-popups';
 import {IInputsTypes} from '../types';
 import Subtitle from '../Subtitle';
 
-import {IDropDownProps, IListItem} from './types';
+import {IDropDownProps, IItemValue, IListItem} from './types';
 import stylesCreate from './stylesCreate';
 import {
   ACCESSIBILITY_LABEL,
@@ -27,7 +27,7 @@ function wrapListItem<T extends IListItem<S> | string, S>(item: T | string) {
   >;
 }
 
-function DropDown<T extends IListItem<S> | string, S>(
+function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
   props: IDropDownProps<T, S>,
 ) {
   const {
@@ -182,7 +182,7 @@ function DropDown<T extends IListItem<S> | string, S>(
             ]}
             font={getFont()}
             numberOfLines={1}>
-            {listItems.find(item => item.label === selected)?.label ||
+            {listItems.find(item => item.value === selected)?.label ||
               placeholder}
           </Typography>
           <DropDownIcon isOpen={isOpen} rightIcon={rightIcon} />
