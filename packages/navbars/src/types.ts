@@ -9,17 +9,20 @@ export interface ITab {
   rightIcon?: ReactElement;
 }
 
-export interface ITabProps {
+interface ITabStyle {
+  fontTab?: TypographyProp;
+  fontActiveTab?: TypographyProp;
+  backgroundColorTab?: string;
+  backgroundColorActiveTab?: string;
+}
+export interface ITabProps extends ITabStyle {
   item: ITab;
   active: boolean;
-  backgroundColorTab?: string;
-  fontTab?: TypographyProp;
 }
-export interface ITabsProps {
+
+export interface ITabsProps extends ITabStyle {
   list: ITab[];
   activeValue: string;
-  backgroundColorTab?: string;
-  fontTab?: TypographyProp;
   containerStyle?: ViewStyle | ViewStyle[];
   contentContainerStyle?: ViewStyle | ViewStyle[];
 }
