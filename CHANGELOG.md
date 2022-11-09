@@ -1,3 +1,10 @@
+## [2.1.1](https://glab.lad24.ru/npm/mobydick/compare/v2.1.0...v2.1.1) (2022-11-09)
+
+
+### Bug Fixes
+
+* **tabs:** add props fontActiveTabbackgroundColorActiveTab ([54976cd](https://glab.lad24.ru/npm/mobydick/commit/54976cdcd1082bdeb17da5119874e1da8dad525a))
+
 # [2.1.0](https://glab.lad24.ru/npm/mobydick/compare/v2.0.1...v2.1.0) (2022-11-07)
 
 
