@@ -2,6 +2,7 @@ import {storiesOf} from '@storybook/react-native';
 import React, {useState} from 'react';
 import {Tabs} from '@npm/mobydick-navbars';
 import {useTheme} from '@npm/mobydick-styles';
+import {select} from '@storybook/addon-knobs';
 
 import CenterView from '../CenterView';
 
@@ -70,8 +71,12 @@ const TabsExample = () => {
     <Tabs
       list={list}
       activeValue={defaultValue}
-      backgroundColorTab={colors.BgError}
-      backgroundColorActiveTab={colors.BgBlack}
+      backgroundColorTab={select('backgroundColorTab', colors, colors.BgError)}
+      backgroundColorActiveTab={select(
+        'backgroundColorActiveTab',
+        colors,
+        colors.BgBlack,
+      )}
     />
   );
 };
