@@ -1,8 +1,6 @@
 import {storiesOf} from '@storybook/react-native';
 import React, {useState} from 'react';
 import {Tabs} from '@npm/mobydick-navbars';
-import {useTheme} from '@npm/mobydick-styles';
-import {select} from '@storybook/addon-knobs';
 
 import CenterView from '../CenterView';
 
@@ -24,7 +22,7 @@ const TabsExample = () => {
   const onPress = (value: string) => {
     setDefaultValue(value);
   };
-  const {colors} = useTheme();
+
   const list = [
     {
       value: exampleList.one,
@@ -67,18 +65,7 @@ const TabsExample = () => {
       onPress: () => onPress(exampleList.ten),
     },
   ];
-  return (
-    <Tabs
-      list={list}
-      activeValue={defaultValue}
-      backgroundColorTab={select('backgroundColorTab', colors, colors.BgError)}
-      backgroundColorActiveTab={select(
-        'backgroundColorActiveTab',
-        colors,
-        colors.BgBlack,
-      )}
-    />
-  );
+  return <Tabs list={list} activeValue={defaultValue} />;
 };
 
 storiesOf('Design system/Navbars', module)
