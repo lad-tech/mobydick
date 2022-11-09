@@ -106,7 +106,7 @@ exports[`Tab render correctly with props 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#fff000",
+      "backgroundColor": "#2B78EE",
       "borderRadius": 12,
       "flexDirection": "row",
       "marginRight": 12,
@@ -122,10 +122,10 @@ exports[`Tab render correctly with props 1`] = `
     style={
       Array [
         Object {
-          "color": "#2B78EE",
-          "fontFamily": "Inter-Medium",
-          "fontSize": 54,
-          "lineHeight": 60,
+          "color": "#FFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         undefined,
       ]
