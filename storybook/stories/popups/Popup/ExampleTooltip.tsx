@@ -19,13 +19,16 @@ enum ITypeTooltip {
 const ExampleTooltip: FC<
   IContentProps & {
     refCurrent: RefObject<ITouchableOpacity>;
+    fixedButton: boolean;
   }
 > = props => {
   const [styles] = useStyles(stylesCreate);
 
   const isArrow = true;
-  const placement = select('Placement', IPlacement, IPlacement.center);
-  const position = select('Position', IPosition, IPosition.bottom);
+  const placement = props.fixedButton
+    ? select('Placement', IPlacement, IPlacement.start)
+    : select('Placement', [IPlacement.start, IPlacement.end], IPlacement.start);
+  const position = select('Position', IPosition, IPosition.top);
   const titleText = text(
     'Title text',
     'Войдите в приложение, чтобы\nделиться картами и скидками',
