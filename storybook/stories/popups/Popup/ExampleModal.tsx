@@ -36,13 +36,16 @@ const ExampleModal: FC<IContentProps> = props => {
 
       {boolean('show title', true) && (
         <ModalBase.Title
-          title={text('Title text ', 'Нет')}
+          title={text('Title text ', 'Нет доступа к камере')}
           titleFont={titleFont}
         />
       )}
       {boolean('show description text', true) && (
         <ModalBase.DescriptionText
-          descriptionText={text('Description text', 'Разрешите')}
+          descriptionText={text(
+            'Description text',
+            'Разрешите доступ к камере в настройках, чтобы сканировать штрихкод или QR-код на картах',
+          )}
           descriptionFont={descriptionFont}
         />
       )}
@@ -73,7 +76,7 @@ const ExampleModal: FC<IContentProps> = props => {
           />
         </ModalBase.VerticalButtonsView>
       )}
-      {boolean('show horizontal button', false) && (
+      {boolean('show horizontal button', true) && (
         <ModalBase.HorizontalButtonsView
           typeRight={select(
             'type right button',
