@@ -13,7 +13,7 @@ const stylesCreate = (theme: IThemeContext) => {
       borderRadius: spaces.Space12,
       justifyContent: 'center',
       alignItems: 'center',
-      width: width - spaces.Space6 * 2,
+      width: width - spaces.Space8 * 2,
       padding: spaces.Space20,
       marginVertical: spaces.Space20,
     },
