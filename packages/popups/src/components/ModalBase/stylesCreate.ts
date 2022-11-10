@@ -1,9 +1,22 @@
 import {IThemeContext} from '@npm/mobydick-styles';
-import {StyleSheet} from 'react-native';
+import {Dimensions, StyleSheet} from 'react-native';
 
 const stylesCreate = (theme: IThemeContext) => {
   const {spaces, colors} = theme;
+  const {width} = Dimensions.get('window');
   return StyleSheet.create({
+    overlayStyle: {
+      justifyContent: 'flex-end',
+    },
+    container: {
+      backgroundColor: colors.BgSecondary,
+      borderRadius: spaces.Space12,
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: width - spaces.Space6 * 2,
+      padding: spaces.Space20,
+      marginVertical: spaces.Space20,
+    },
     closeButton: {
       alignSelf: 'flex-end',
       justifyContent: 'center',

@@ -49,7 +49,6 @@ const stylesCreate = (theme: IThemeContext, position?: IPosition) => {
       position: 'absolute',
     },
     overlayStyle: {
-      justifyContent: undefined,
       backgroundColor: 'transparent',
     },
     arrow: {
