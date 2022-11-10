@@ -3,7 +3,7 @@ import {TouchableOpacity} from '@npm/mobydick-core';
 import {Typography} from '@npm/mobydick-typography';
 import {useStyles} from '@npm/mobydick-styles';
 
-import {ITab, ITabProps} from '../../types';
+import {ITabProps} from '../../types';
 
 import stylesCreate from './stylesCreate';
 import {accessibilityLabels} from './constants';
@@ -26,7 +26,7 @@ const Tab = (props: ITabProps): JSX.Element => {
   const font = fontTab || 'Regular-Tertiary-XS';
   const fontActive = fontActiveTab || 'Regular-White-XS';
 
-  const selectPressable = (item: ITab) => {
+  const selectPressable = () => {
     if (item.onPress) {
       item.onPress();
     } else if (onPressCommon) {
@@ -36,7 +36,7 @@ const Tab = (props: ITabProps): JSX.Element => {
 
   return (
     <TouchableOpacity
-      onPress={() => selectPressable(item)}
+      onPress={selectPressable}
       accessibilityLabel={accessibilityLabels.tab}
       style={[
         styles.tab,
