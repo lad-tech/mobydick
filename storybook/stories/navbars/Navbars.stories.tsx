@@ -18,9 +18,9 @@ enum exampleList {
 }
 
 const TabsExample = () => {
-  const [defaultValue, setDefaultValue] = useState('one');
+  const [defaultValue, setDefaultValue] = useState<string | number>(1);
   const onPress = (item: ITab) => {
-    setDefaultValue(item.label);
+    setDefaultValue(item.value);
   };
   const list = [
     {
@@ -50,11 +50,6 @@ const TabsExample = () => {
     {
       value: 7,
       label: exampleList.seven,
-      onPress: () =>
-        onPress({
-          value: 8,
-          label: exampleList.eight,
-        }),
     },
     {
       value: 8,
@@ -70,7 +65,7 @@ const TabsExample = () => {
     },
   ];
   return (
-    <Tabs list={list} activeLabel={defaultValue} onPressCommon={onPress} />
+    <Tabs list={list} activeValue={defaultValue} onPressCommon={onPress} />
   );
 };
 

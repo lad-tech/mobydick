@@ -25,7 +25,7 @@ export interface ITabProps extends ITabCommon {
 
 export interface ITabsProps extends ITabCommon {
   list: ITab[];
-  activeLabel: string;
+  activeValue: string | number;
   containerStyle?: ViewStyle | ViewStyle[];
   contentContainerStyle?: ViewStyle | ViewStyle[];
 }

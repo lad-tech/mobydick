@@ -11,7 +11,7 @@ const Tabs = (props: ITabsProps) => {
   const [styles] = useStyles(stylesCreate);
   const {
     list,
-    activeLabel,
+    activeValue,
     containerStyle,
     contentContainerStyle,
     ...otherProps
@@ -21,7 +21,7 @@ const Tabs = (props: ITabsProps) => {
     return (
       <Tab
         item={item}
-        active={Boolean(activeLabel === item.label)}
+        active={Boolean(activeValue === item.value)}
         {...otherProps}
       />
     );

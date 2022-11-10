@@ -79,7 +79,7 @@ exports[`Tabs render correctly 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#2B78EE",
+              "backgroundColor": "#D1D4DB",
               "borderRadius": 12,
               "marginRight": 12,
               "opacity": 1,
@@ -93,7 +93,7 @@ exports[`Tabs render correctly 1`] = `
             style={
               Array [
                 Object {
-                  "color": "#FFF",
+                  "color": "#5E6678",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 21,
                   "lineHeight": 27,
@@ -194,7 +194,7 @@ exports[`Tabs render correctly with props 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#ff0000",
+              "backgroundColor": "#000",
               "borderRadius": 12,
               "marginRight": 12,
               "opacity": 1,
@@ -208,7 +208,7 @@ exports[`Tabs render correctly with props 1`] = `
             style={
               Array [
                 Object {
-                  "color": "#FFF",
+                  "color": "#F54D3D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 42,
                   "lineHeight": 48,

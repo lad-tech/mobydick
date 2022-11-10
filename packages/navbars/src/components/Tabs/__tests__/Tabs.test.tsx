@@ -8,14 +8,14 @@ describe('Tabs', () => {
   const onPress = () => null;
 
   test('render correctly', () => {
-    const {toJSON} = render(<Tabs list={list} activeLabel={'1'} />);
+    const {toJSON} = render(<Tabs list={list} activeValue={'1'} />);
     expect(toJSON()).toMatchSnapshot();
   });
   test('render correctly with props', () => {
     const {toJSON} = render(
       <Tabs
         list={list}
-        activeLabel={'1'}
+        activeValue={'1'}
         onPressCommon={onPress}
         backgroundColorTab={'#000'}
         backgroundColorActiveTab={'#ff0000'}
