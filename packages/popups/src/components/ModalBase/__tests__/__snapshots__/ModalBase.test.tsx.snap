@@ -20,11 +20,15 @@ exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
-        "justifyContent": "flex-end",
         "position": "absolute",
         "width": "100%",
       },
-      undefined,
+      Array [
+        Object {
+          "justifyContent": "flex-end",
+        },
+        undefined,
+      ],
     ]
   }
   testID="Pressable"
@@ -38,9 +42,9 @@ exports[`@npm/mobydick-popups/ModalBase should renders correctly 1`] = `
           "backgroundColor": "#EEEFF1",
           "borderRadius": 18,
           "justifyContent": "center",
-          "marginHorizontal": 9,
           "marginVertical": 30,
           "padding": 30,
+          "width": 726,
         },
         undefined,
       ]

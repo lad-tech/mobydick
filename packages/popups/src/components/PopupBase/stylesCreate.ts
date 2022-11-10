@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 import {IThemeContext} from '@npm/mobydick-styles';
 
 const stylesCreate = (theme: IThemeContext) => {
-  const {colors, spaces} = theme;
+  const {colors} = theme;
   return StyleSheet.create({
     overlay: {
       position: 'absolute',
@@ -10,16 +10,6 @@ const stylesCreate = (theme: IThemeContext) => {
       width: '100%',
       backgroundColor: colors.BgOverlay,
       alignItems: 'center',
-      justifyContent: 'flex-end',
-    },
-    container: {
-      backgroundColor: colors.BgSecondary,
-      borderRadius: spaces.Space12,
-      justifyContent: 'center',
-      alignItems: 'center',
-      padding: spaces.Space20,
-      marginVertical: spaces.Space20,
-      marginHorizontal: spaces.Space6,
     },
   });
 };

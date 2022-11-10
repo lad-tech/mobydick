@@ -40,6 +40,9 @@ const stylesCreate = (theme: IThemeContext, itemType?: IItemType) => {
     }
   };
   return StyleSheet.create({
+    overlayStyle: {
+      justifyContent: 'flex-end',
+    },
     containerStyle: {
       width: '100%',
       ...Platform.select({
