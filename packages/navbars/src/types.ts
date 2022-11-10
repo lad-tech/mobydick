@@ -15,7 +15,7 @@ interface ITabCommon {
   fontActiveTab?: TypographyProp;
   backgroundColorTab?: string;
   backgroundColorActiveTab?: string;
-  onPressGeneral?(item: ITab): void;
+  onPressCommon?(item: ITab): void;
 }
 
 export interface ITabProps extends ITabCommon {

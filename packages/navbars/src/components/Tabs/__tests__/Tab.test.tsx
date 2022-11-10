@@ -35,7 +35,6 @@ describe('Tab', () => {
         item={{
           label: label,
           value: value,
-          onPress: () => null,
         }}
         active={false}
       />,
@@ -52,7 +51,7 @@ describe('Tab', () => {
           label: label,
           value: value,
         }}
-        onPressGeneral={() => null}
+        onPressCommon={item => console.log(item)}
         active={true}
       />,
     );

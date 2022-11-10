@@ -16,7 +16,7 @@ describe('Tabs', () => {
       <Tabs
         list={list}
         activeLabel={'1'}
-        onPressGeneral={onPress}
+        onPressCommon={onPress}
         backgroundColorTab={'#000'}
         backgroundColorActiveTab={'#ff0000'}
         contentContainerStyle={{flex: 1}}

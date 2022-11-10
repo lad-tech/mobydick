@@ -70,7 +70,7 @@ const TabsExample = () => {
     },
   ];
   return (
-    <Tabs list={list} activeLabel={defaultValue} onPressGeneral={onPress} />
+    <Tabs list={list} activeLabel={defaultValue} onPressCommon={onPress} />
   );
 };
 
