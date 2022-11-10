@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList} from '@npm/mobydick-core';
+import {FlatList, View} from '@npm/mobydick-core';
 import {useStyles} from '@npm/mobydick-styles';
 
 import {ITab, ITabsProps} from '../../types';
@@ -11,7 +11,7 @@ const Tabs = (props: ITabsProps) => {
   const [styles] = useStyles(stylesCreate);
   const {
     list,
-    activeValue,
+    activeLabel,
     containerStyle,
     contentContainerStyle,
     ...otherProps
@@ -21,24 +21,26 @@ const Tabs = (props: ITabsProps) => {
     return (
       <Tab
         item={item}
-        active={Boolean(activeValue === item.value)}
+        active={Boolean(activeLabel === item.label)}
         {...otherProps}
       />
     );
   };
 
   return (
-    <FlatList
-      data={list}
-      renderItem={renderItem}
-      style={[styles.containerStyle, containerStyle]}
-      showsHorizontalScrollIndicator={false}
-      contentContainerStyle={[
-        styles.contentContainerStyle,
-        contentContainerStyle,
-      ]}
-      horizontal
-    />
+    <View style={{flexDirection: 'row'}}>
+      <FlatList
+        data={list}
+        renderItem={renderItem}
+        style={[styles.containerStyle, containerStyle]}
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={[
+          styles.contentContainerStyle,
+          contentContainerStyle,
+        ]}
+        horizontal
+      />
+    </View>
   );
 };
 

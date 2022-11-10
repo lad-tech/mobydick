@@ -3,7 +3,7 @@ import {TouchableOpacity} from '@npm/mobydick-core';
 import {Typography} from '@npm/mobydick-typography';
 import {useStyles} from '@npm/mobydick-styles';
 
-import {ITabProps} from '../../types';
+import {ITab, ITabProps} from '../../types';
 
 import stylesCreate from './stylesCreate';
 import {accessibilityLabels} from './constants';
@@ -17,6 +17,7 @@ const Tab = (props: ITabProps): JSX.Element => {
     fontActiveTab,
     backgroundColorTab,
     backgroundColorActiveTab,
+    onPressGeneral,
   } = props;
 
   const backgroundColorActive =
@@ -25,9 +26,17 @@ const Tab = (props: ITabProps): JSX.Element => {
   const font = fontTab || 'Regular-Tertiary-XS';
   const fontActive = fontActiveTab || 'Regular-White-XS';
 
+  const onPress = (item: ITab) => {
+    if (item.onPress) {
+      item.onPress();
+    } else if (onPressGeneral) {
+      onPressGeneral(item);
+    }
+  };
+
   return (
     <TouchableOpacity
-      onPress={item.onPress}
+      onPress={() => onPress(item)}
       accessibilityLabel={accessibilityLabels.tab}
       style={[
         styles.tab,
@@ -36,7 +45,7 @@ const Tab = (props: ITabProps): JSX.Element => {
         },
       ]}>
       {item.leftIcon ? item.leftIcon : null}
-      <Typography font={active ? fontActive : font}>{item.value}</Typography>
+      <Typography font={active ? fontActive : font}>{item.label}</Typography>
       {item.rightIcon ? item.rightIcon : null}
     </TouchableOpacity>
   );

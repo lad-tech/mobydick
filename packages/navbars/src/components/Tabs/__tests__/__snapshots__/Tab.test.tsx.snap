@@ -15,10 +15,8 @@ exports[`Tab render correctly active false 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "center",
       "backgroundColor": "#D1D4DB",
       "borderRadius": 12,
-      "flexDirection": "row",
       "marginRight": 12,
       "opacity": 1,
       "paddingHorizontal": 18,
@@ -60,10 +58,8 @@ exports[`Tab render correctly active true 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 12,
-      "flexDirection": "row",
       "marginRight": 12,
       "opacity": 1,
       "paddingHorizontal": 18,
@@ -105,10 +101,8 @@ exports[`Tab render correctly with props 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 12,
-      "flexDirection": "row",
       "marginRight": 12,
       "opacity": 1,
       "paddingHorizontal": 18,

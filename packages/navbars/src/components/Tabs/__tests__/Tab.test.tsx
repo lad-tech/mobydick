@@ -6,11 +6,14 @@ import Tab from '../Tab';
 import {accessibilityLabels} from '../constants';
 
 describe('Tab', () => {
-  const value = '1';
+  const value = 1;
+  const label = '1';
+
   test('render correctly with props', () => {
     const {toJSON, getByLabelText} = render(
       <Tab
         item={{
+          label: label,
           value: value,
           onPress: () => null,
           leftIcon: <View />,
@@ -30,6 +33,7 @@ describe('Tab', () => {
     const {toJSON, getByLabelText} = render(
       <Tab
         item={{
+          label: label,
           value: value,
           onPress: () => null,
         }}
@@ -45,9 +49,10 @@ describe('Tab', () => {
     const {toJSON, getByLabelText} = render(
       <Tab
         item={{
+          label: label,
           value: value,
-          onPress: () => null,
         }}
+        onPressGeneral={() => null}
         active={true}
       />,
     );
