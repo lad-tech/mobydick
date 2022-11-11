@@ -7,7 +7,9 @@ export const scale = (size: number): number => {
 
   if (width < height) {
     return (width / guidelineBaseWidth) * size;
-  } else return (height / guidelineBaseWidth) * size;
+  } else {
+    return (height / guidelineBaseWidth) * size;
+  }
 };
 
 const rem = (size: number, factor = 0.5): number => {

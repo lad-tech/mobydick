@@ -30,6 +30,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
   const isShowLeftIcon = boolean('show left icon', true);
   const leftIconName = select('name left icon', iconNames, 'icon-settings');
   const disabled = boolean('disabled', false);
+  const leftIcon = isShowLeftIcon ? leftIconAccent(leftIconName) : undefined;
 
   const onPressCheckbox = (title: string) => {
     if (checkboxList.find(item => item === title)) {
@@ -81,7 +82,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
               onPressRadio(deniedText);
             }}
             radio={radio}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.innerItem}
@@ -90,7 +91,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
               onPressRadio(coordinationText);
             }}
             radio={radio}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.lastItem}
@@ -99,7 +100,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
               onPressRadio(agreedText);
             }}
             radio={radio}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.cancelItem}
@@ -119,7 +120,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
               onPressCheckbox(deniedText);
             }}
             checkboxList={checkboxList}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.innerItem}
@@ -128,7 +129,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
               onPressCheckbox(coordinationText);
             }}
             checkboxList={checkboxList}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.lastItem}
@@ -137,7 +138,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
               onPressCheckbox(agreedText);
             }}
             checkboxList={checkboxList}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.cancelItem}
@@ -171,28 +172,28 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           <ActionSheetBase.Item
             itemType={IItemType.firstItem}
             title={settingsText}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.innerItem}
             title={settingsText}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.innerItem}
             title={settingsText}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.innerItem}
             title={settingsText}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.lastItem}
             title={settingsText}
             onPress={onClose}
-            leftIcon={isShowLeftIcon ? leftIconAccent(leftIconName) : undefined}
+            leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.cancelItem}
