@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-inputs",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Inputs on MobyDick core",
   "main": "index.ts",
   "files": [
@@ -16,9 +16,9 @@
     "react-native": ">=0.66.4"
   },
   "dependencies": {
-    "@npm/mobydick-styles": "2.1.1",
-    "@npm/mobydick-core": "2.1.1",
-    "@npm/mobydick-typography": "2.1.1",
+    "@npm/mobydick-styles": "2.1.2",
+    "@npm/mobydick-core": "2.1.2",
+    "@npm/mobydick-typography": "2.1.2",
     "@react-native-community/hooks": "^2.8.1"
   },
   "publishConfig": {
