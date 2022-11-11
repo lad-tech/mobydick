@@ -48,8 +48,8 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item 1`] 
       style={
         Array [
           Object {
-            "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "color": "#2B78EE",
+            "fontFamily": "Inter-Medium",
             "fontSize": 24,
             "lineHeight": 30,
           },
@@ -298,8 +298,8 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       style={
         Array [
           Object {
-            "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "color": "#9BA1B0",
+            "fontFamily": "Inter-Medium",
             "fontSize": 24,
             "lineHeight": 30,
           },
@@ -383,8 +383,8 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
       style={
         Array [
           Object {
-            "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "color": "#2B78EE",
+            "fontFamily": "Inter-Medium",
             "fontSize": 24,
             "lineHeight": 30,
           },
