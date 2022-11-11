@@ -9,6 +9,8 @@ export interface IPropsContents {
   onPress?(): void;
   radio?: string;
   checkboxList?: string[];
+  disabled?: boolean;
+  itemType: IItemType;
 }
 
 export enum IItemType {
@@ -20,8 +22,6 @@ export enum IItemType {
 }
 
 export interface IPropsItem extends IPropsContents {
-  itemType: IItemType;
   style?: ViewStyle;
-  disabled?: boolean;
   isStatusPressedForTest?: boolean;
 }

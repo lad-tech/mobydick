@@ -18,7 +18,6 @@ const applyText = 'Применить';
 const deniedText = 'Отказано';
 const coordinationText = 'Согласование';
 const agreedText = 'Согласован';
-const textFontAccentM = 'Medium-Accent-M';
 const textFontErrorL = 'Regular-Error-L';
 
 const leftIconAccent = (name: SimpleIconName) => {
@@ -30,6 +29,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
   const [checkboxList, setCheckboxList] = useState<string[]>([]);
   const isShowLeftIcon = boolean('show left icon', true);
   const leftIconName = select('name left icon', iconNames, 'icon-settings');
+  const disabled = boolean('disabled', false);
 
   const onPressCheckbox = (title: string) => {
     if (checkboxList.find(item => item === title)) {
@@ -66,7 +66,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           <ActionSheetBase.Item
             itemType={IItemType.cancelItem}
             title={cancelText}
-            textFont={textFontAccentM}
+            disabled={disabled}
             onPress={onClose}
           />
         </ActionSheetBase>
@@ -103,7 +103,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           />
           <ActionSheetBase.Item
             itemType={IItemType.cancelItem}
-            textFont={textFontAccentM}
+            disabled={disabled}
             title={applyText}
             onPress={onClose}
           />
@@ -141,7 +141,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           />
           <ActionSheetBase.Item
             itemType={IItemType.cancelItem}
-            textFont={textFontAccentM}
+            disabled={disabled}
             title={applyText}
             onPress={onClose}
           />
@@ -158,8 +158,8 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           />
           <ActionSheetBase.Item
             itemType={IItemType.cancelItem}
-            textFont={textFontAccentM}
             title={cancelText}
+            disabled={disabled}
             onPress={onClose}
           />
         </ActionSheetBase>
@@ -196,8 +196,8 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           />
           <ActionSheetBase.Item
             itemType={IItemType.cancelItem}
-            textFont={textFontAccentM}
             title={resetText}
+            disabled={disabled}
             onPress={onClose}
           />
         </ActionSheetBase>
