@@ -17,6 +17,7 @@ const Tab = (props: ITabProps): JSX.Element => {
     fontActiveTab,
     backgroundColorTab,
     backgroundColorActiveTab,
+    onPressCommon,
   } = props;
 
   const backgroundColorActive =
@@ -25,9 +26,17 @@ const Tab = (props: ITabProps): JSX.Element => {
   const font = fontTab || 'Regular-Tertiary-XS';
   const fontActive = fontActiveTab || 'Regular-White-XS';
 
+  const selectPressable = () => {
+    if (item.onPress) {
+      item.onPress();
+    } else if (onPressCommon) {
+      onPressCommon(item);
+    }
+  };
+
   return (
     <TouchableOpacity
-      onPress={item.onPress}
+      onPress={selectPressable}
       accessibilityLabel={accessibilityLabels.tab}
       style={[
         styles.tab,
@@ -36,7 +45,7 @@ const Tab = (props: ITabProps): JSX.Element => {
         },
       ]}>
       {item.leftIcon ? item.leftIcon : null}
-      <Typography font={active ? fontActive : font}>{item.value}</Typography>
+      <Typography font={active ? fontActive : font}>{item.label}</Typography>
       {item.rightIcon ? item.rightIcon : null}
     </TouchableOpacity>
   );

@@ -6,7 +6,6 @@ const stylesCreate = (theme: IThemeContext) => {
 
   return StyleSheet.create({
     containerStyle: {
-      flex: 1,
       maxWidth: '100%',
     },
     contentContainerStyle: {
@@ -15,8 +14,6 @@ const stylesCreate = (theme: IThemeContext) => {
       paddingVertical: spaces.Space8,
     },
     tab: {
-      flexDirection: 'row',
-      alignItems: 'center',
       paddingHorizontal: spaces.Space12,
       paddingVertical: spaces.Space6,
       marginRight: spaces.Space8,

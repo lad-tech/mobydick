@@ -1,5 +1,5 @@
 import React from 'react';
-import {FlatList} from '@npm/mobydick-core';
+import {FlatList, View} from '@npm/mobydick-core';
 import {useStyles} from '@npm/mobydick-styles';
 
 import {ITab, ITabsProps} from '../../types';
@@ -28,17 +28,19 @@ const Tabs = (props: ITabsProps) => {
   };
 
   return (
-    <FlatList
-      data={list}
-      renderItem={renderItem}
-      style={[styles.containerStyle, containerStyle]}
-      showsHorizontalScrollIndicator={false}
-      contentContainerStyle={[
-        styles.contentContainerStyle,
-        contentContainerStyle,
-      ]}
-      horizontal
-    />
+    <View style={{flexDirection: 'row'}}>
+      <FlatList
+        data={list}
+        renderItem={renderItem}
+        style={[styles.containerStyle, containerStyle]}
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={[
+          styles.contentContainerStyle,
+          contentContainerStyle,
+        ]}
+        horizontal
+      />
+    </View>
   );
 };
 
