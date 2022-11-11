@@ -1,13 +1,7 @@
 import React, {useState} from 'react';
 import {DropDown, IInputsTypes} from '@npm/mobydick-inputs';
 import {array, boolean, number, select, text} from '@storybook/addon-knobs';
-import {
-  iconNames,
-  rem,
-  SimpleIcon,
-  SimpleIconName,
-  useTheme,
-} from '@npm/mobydick-styles';
+import {iconNames, rem, SimpleIcon, useTheme} from '@npm/mobydick-styles';
 
 import selectFont from '../../../utils/selectFont';
 
@@ -45,9 +39,7 @@ const ExampleArrayOfStrings = () => {
       }
       rightIcon={
         <SimpleIcon
-          name={
-            select('icon name', iconNames, 'icon-arrow-down') as SimpleIconName
-          }
+          name={select('icon name', iconNames, 'icon-arrow-down')}
           color={colors.IconMuted}
         />
       }
