@@ -8,6 +8,8 @@ import selectFont from '../../../utils/selectFont';
 
 import ImageModal from './icons/svg/imageModal.svg';
 
+const allowAccessText = 'Разрешить доступ';
+
 const ExampleModal: FC<IContentProps> = props => {
   const popupContext = usePopups();
   const {colors} = useTheme();
@@ -60,7 +62,7 @@ const ExampleModal: FC<IContentProps> = props => {
               IButtonTypes,
               IButtonTypes.primary,
             )}
-            text={text('text one vertical button', 'Разрешить доступ')}
+            text={text('text one vertical button', allowAccessText)}
             style={{marginBottom: rem(12)}}
           />
           <ModalBase.VerticalButton
@@ -72,7 +74,7 @@ const ExampleModal: FC<IContentProps> = props => {
               IButtonTypes,
               IButtonTypes.destructive,
             )}
-            text={text('text two vertical button', 'Разрешить доступ')}
+            text={text('text two vertical button', allowAccessText)}
           />
         </ModalBase.VerticalButtonsView>
       )}
@@ -105,7 +107,7 @@ const ExampleModal: FC<IContentProps> = props => {
               popupContext.openPopup({Content: NestedExampleModal})
             }
             type={select('type one button', IButtonTypes, IButtonTypes.primary)}
-            text={text('text one button', 'Разрешить доступ')}
+            text={text('text one button', allowAccessText)}
             size={select('size one button', IButtonSize, IButtonSize.fixed)}
             style={{marginBottom: rem(12)}}
           />
