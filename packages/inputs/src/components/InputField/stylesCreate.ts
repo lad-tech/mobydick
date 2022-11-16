@@ -5,7 +5,7 @@ import {IInputsTypes} from '../types';
 import {disabledStyle, validStyle, wrongStyle} from '../../style';
 
 const defaultStyle = (theme: IThemeContext, focused: boolean) => {
-  const {colors} = theme;
+  const {colors, spaces} = theme;
   return StyleSheet.create({
     container: {
       minWidth: rem(130),
@@ -13,19 +13,23 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
     inputContainer: {
       backgroundColor: colors.BgSecondary,
       paddingLeft: rem(18),
-      paddingRight: theme.spaces.Space16,
-      borderRadius: theme.spaces.Space8,
-      borderWidth: theme.spaces.Space1,
+      paddingRight: spaces.Space16,
+      borderRadius: spaces.Space8,
+      borderWidth: spaces.Space1,
       borderColor: focused ? colors.BorderNormal : 'transparent',
-      marginVertical: theme.spaces.Space8,
+      marginVertical: spaces.Space8,
       height: rem(48),
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
+      marginBottom: 50,
     },
     textInput: {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
+      fontSize: spaces.Space16,
+      color: colors.TextPrimary,
+      lineHeight: spaces.Space20,
     },
   });
 };
