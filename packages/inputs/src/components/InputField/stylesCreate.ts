@@ -22,7 +22,6 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
-      marginBottom: 50,
     },
     textInput: {
       flex: 1,
