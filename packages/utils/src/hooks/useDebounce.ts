@@ -1,24 +1,20 @@
-import {useEffect, useRef} from 'react';
+import {useMemo} from 'react';
 
-const useDebounce = <T extends (...arg: never[]) => void>(
-  fn: T,
-  time = 5000,
-) => {
-  const timeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+import {useLatest} from './index';
 
-  useEffect(() => {
-    return () => {
-      timeout.current && clearTimeout(timeout.current);
+const useDebounce = (callback: (...args: any[]) => any, delay = 1000) => {
+  const latestCallback = useLatest(callback);
+  let timeout: ReturnType<typeof setTimeout>;
+
+  return useMemo(() => {
+    return (...args: any[]) => {
+      clearTimeout(timeout);
+
+      timeout = setTimeout(() => {
+        latestCallback.current(...args);
+      }, delay);
     };
   }, []);
-
-  return {
-    debouncedFn: (...params: Parameters<T>) => {
-      timeout.current = setTimeout(() => {
-        fn(...params);
-      }, time);
-    },
-  };
 };
 
 export default useDebounce;
