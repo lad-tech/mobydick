@@ -1,3 +1,10 @@
+## [2.1.3](https://glab.lad24.ru/npm/mobydick/compare/v2.1.2...v2.1.3) (2022-11-17)
+
+
+### Bug Fixes
+
+* **input:** remove fontStyle, add style ([8e6650d](https://glab.lad24.ru/npm/mobydick/commit/8e6650db561c2ce98685577501d1875ebc433bca))
+
 ## [2.1.2](https://glab.lad24.ru/npm/mobydick/compare/v2.1.1...v2.1.2) (2022-11-11)
 
 
