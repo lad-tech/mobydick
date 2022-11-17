@@ -26,6 +26,7 @@ const ExampleInput = () => {
       disabled={boolean('disabled', false)}
       onChangeText={action('onChangeText')}
       containerStyle={{width: rem(250)}}
+      secureTextEntry={boolean('secureTextEntry', false)}
     />
   );
 };
