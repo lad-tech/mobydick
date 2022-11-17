@@ -1,10 +1,9 @@
-import {Dimensions, Platform} from 'react-native';
+import {Dimensions} from 'react-native';
 
 import {
   DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON,
   EMPTY_LIST_HEIGHT,
   LIST_MAX_HEIGHT,
-  STATUS_BAR_HEIGHT,
 } from '../constants';
 
 interface IGetDimensionsParams {
@@ -31,10 +30,7 @@ export const getDropDownDimensions = ({
   const underDropDownPos =
     pageY + dropDownHeight + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON;
 
-  const aboveDropDownPos =
-    Platform.OS === 'android' && STATUS_BAR_HEIGHT
-      ? height - pageY - STATUS_BAR_HEIGHT + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON
-      : height - pageY + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON;
+  const aboveDropDownPos = height - pageY + DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON;
 
   const bottomScreenPos = dropDownHeight + contentHeight + pageY + navBarHeight;
 

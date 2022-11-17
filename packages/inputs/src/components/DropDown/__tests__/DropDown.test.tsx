@@ -69,7 +69,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
           list={array}
           onPress={onPress}
           type={IInputsTypes.disabled}
-          selectedItem={array[1].value}
+          selectedItem={array[1].label}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
         />
       </PopupsProvider>,
@@ -80,7 +80,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
     const pressableSelect = getByLabelText(array[1].label);
     fireEvent.press(pressableSelect);
 
-    expect(onPress).toHaveBeenCalledWith(array[1]);
+    expect(onPress).toHaveBeenCalledWith(array[1].value);
   });
 
   it('selectItemClose', async () => {

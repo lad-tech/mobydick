@@ -20,14 +20,12 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly b
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
-        "justifyContent": "flex-end",
         "position": "absolute",
         "width": "100%",
       },
       Array [
         Object {
           "backgroundColor": "transparent",
-          "justifyContent": undefined,
         },
         undefined,
       ],
@@ -75,14 +73,12 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly t
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
-        "justifyContent": "flex-end",
         "position": "absolute",
         "width": "100%",
       },
       Array [
         Object {
           "backgroundColor": "transparent",
-          "justifyContent": undefined,
         },
         undefined,
       ],
@@ -131,14 +127,12 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly t
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
-        "justifyContent": "flex-end",
         "position": "absolute",
         "width": "100%",
       },
       Array [
         Object {
           "backgroundColor": "transparent",
-          "justifyContent": undefined,
         },
         undefined,
       ],

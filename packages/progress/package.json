@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-progress",
-  "version": "2.0.1",
+  "version": "2.1.3",
   "description": "Progress on MobyDick core",
   "main": "index.ts",
   "files": [
@@ -16,8 +16,8 @@
     "react": ">=17.0.2"
   },
   "dependencies": {
-    "@npm/mobydick-styles": "2.0.1",
-    "@npm/mobydick-core": "2.0.1"
+    "@npm/mobydick-styles": "2.1.3",
+    "@npm/mobydick-core": "2.1.3"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"

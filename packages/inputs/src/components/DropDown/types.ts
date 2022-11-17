@@ -5,16 +5,20 @@ import {SimpleIconName} from '@npm/mobydick-styles';
 
 import {IInputsTypes} from '../types';
 
-export type IListItem<T = unknown> = {label: string; value: T};
+export type IListItem<T> = {label: string; value: T};
+
+export type IItemValue = string | number;
 
 export interface IDropDownProps<
-  ListItem extends IListItem<S>,
-  S extends string | undefined,
+  T extends IListItem<S> | string,
+  S extends IItemValue,
 > {
-  selectedItem: S;
+  selectedItem: S | undefined;
   placeholder: string;
-  onPress: (item: ListItem) => void;
-  list: (ListItem | string)[];
+  list: T[];
+  onPress: (
+    item: T extends IListItem<S> ? Exclude<T, string>['value'] : string,
+  ) => void;
   label?: string;
   rightIcon?: ReactElement;
   type?: IInputsTypes;

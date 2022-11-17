@@ -58,14 +58,11 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
       style={
         Array [
           Object {
-            "flex": 1,
-            "padding": 0,
-          },
-          Object {
             "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "flex": 1,
             "fontSize": 24,
             "lineHeight": 30,
+            "padding": 0,
           },
           undefined,
         ]
@@ -158,14 +155,11 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
       style={
         Array [
           Object {
-            "flex": 1,
-            "padding": 0,
-          },
-          Object {
             "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "flex": 1,
             "fontSize": 24,
             "lineHeight": 30,
+            "padding": 0,
           },
           undefined,
         ]
@@ -218,14 +212,11 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
       style={
         Array [
           Object {
-            "flex": 1,
-            "padding": 0,
-          },
-          Object {
             "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "flex": 1,
             "fontSize": 24,
             "lineHeight": 30,
+            "padding": 0,
           },
           undefined,
         ]
@@ -278,14 +269,11 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
       style={
         Array [
           Object {
-            "flex": 1,
-            "padding": 0,
-          },
-          Object {
             "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "flex": 1,
             "fontSize": 24,
             "lineHeight": 30,
+            "padding": 0,
           },
           undefined,
         ]
@@ -338,14 +326,11 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
       style={
         Array [
           Object {
-            "flex": 1,
-            "padding": 0,
-          },
-          Object {
             "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "flex": 1,
             "fontSize": 24,
             "lineHeight": 30,
+            "padding": 0,
           },
           undefined,
         ]
@@ -398,14 +383,11 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
       style={
         Array [
           Object {
-            "flex": 1,
-            "padding": 0,
-          },
-          Object {
             "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "flex": 1,
             "fontSize": 24,
             "lineHeight": 30,
+            "padding": 0,
           },
           undefined,
         ]
@@ -458,14 +440,11 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
       style={
         Array [
           Object {
-            "flex": 1,
-            "padding": 0,
-          },
-          Object {
             "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "flex": 1,
             "fontSize": 24,
             "lineHeight": 30,
+            "padding": 0,
           },
           undefined,
         ]
@@ -518,14 +497,11 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
       style={
         Array [
           Object {
-            "flex": 1,
-            "padding": 0,
-          },
-          Object {
             "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "flex": 1,
             "fontSize": 24,
             "lineHeight": 30,
+            "padding": 0,
           },
           undefined,
         ]
@@ -618,14 +594,11 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
       style={
         Array [
           Object {
-            "flex": 1,
-            "padding": 0,
-          },
-          Object {
             "color": "#20242D",
-            "fontFamily": "Inter-Regular",
+            "flex": 1,
             "fontSize": 24,
             "lineHeight": 30,
+            "padding": 0,
           },
           undefined,
         ]

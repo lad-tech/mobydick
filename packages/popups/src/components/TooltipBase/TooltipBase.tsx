@@ -1,12 +1,5 @@
 import React, {FC, RefObject, useMemo, useState} from 'react';
-import {
-  Animated,
-  Dimensions,
-  Platform,
-  StatusBar,
-  StyleProp,
-  ViewStyle,
-} from 'react-native';
+import {Animated, Dimensions, StyleProp, ViewStyle} from 'react-native';
 import {useStyles} from '@npm/mobydick-styles';
 import {ITouchableOpacity} from '@npm/mobydick-core';
 
@@ -21,7 +14,6 @@ import LeftButton from './LeftButton';
 import {IPlacement} from './types';
 
 const {height} = Dimensions.get('window');
-const STATUS_BAR_HEIGHT = StatusBar.currentHeight;
 
 const TooltipBase: FC<
   Omit<IPopup, 'Content'> & {
@@ -55,10 +47,7 @@ const TooltipBase: FC<
   useMemo(() => {
     refCurrent?.current?.measure((_x, _y, _width, _height, _pageX, pageY) => {
       if (pageY) {
-        const androidValue =
-          Platform.OS === 'android' && STATUS_BAR_HEIGHT
-            ? height - pageY - STATUS_BAR_HEIGHT
-            : height - pageY;
+        const androidValue = height - pageY;
 
         position === IPosition.top
           ? setPositionValueY(pageY + _height)

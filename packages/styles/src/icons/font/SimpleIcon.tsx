@@ -21,8 +21,8 @@ const SimpleIcon = ({
   color,
 }: IProps): JSX.Element => {
   const {colors} = useTheme();
-  const resolveGlyph = useCallback((name: SimpleIconName): string => {
-    const glyph = glyphMap[name];
+  const resolveGlyph = useCallback((iconName: SimpleIconName): string => {
+    const glyph = glyphMap[iconName];
     return String.fromCodePoint(glyph);
   }, []);
 

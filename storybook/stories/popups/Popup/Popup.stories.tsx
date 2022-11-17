@@ -32,13 +32,19 @@ const PopupTooltipExample = () => {
   const viewRef = useRef<ITouchableOpacity>(null);
   const viewRef2 = useRef<ITouchableOpacity>(null);
   const viewRef3 = useRef<ITouchableOpacity>(null);
+  const viewRef4 = useRef<ITouchableOpacity>(null);
+  const viewRef5 = useRef<ITouchableOpacity>(null);
 
   const openPopup = (ref: RefObject<ITouchableOpacity>) => {
     if (ref.current) {
       popupContext.openPopup({
         id: 'TOOLTIP_POPUP_ID',
         Content: propsFromPopup => (
-          <ExampleTooltip {...propsFromPopup} refCurrent={ref} />
+          <ExampleTooltip
+            {...propsFromPopup}
+            refCurrent={ref}
+            fixedButton={ref === viewRef3}
+          />
         ),
       });
     }
@@ -69,9 +75,23 @@ const PopupTooltipExample = () => {
       />
       <Button
         ref={viewRef3}
-        text={'What is it2?'}
+        text={'What is it3?'}
         onPress={() => openPopup(viewRef3)}
         style={{marginBottom: 10}}
+      />
+      <Button
+        ref={viewRef4}
+        size={IButtonSize.large}
+        text={'What is it4?'}
+        onPress={() => openPopup(viewRef4)}
+        style={{marginBottom: 10, alignSelf: 'center'}}
+      />
+      <Button
+        ref={viewRef5}
+        size={IButtonSize.small}
+        text={'What is it5?'}
+        onPress={() => openPopup(viewRef5)}
+        style={{marginBottom: 10, alignSelf: 'center'}}
       />
     </View>
   );

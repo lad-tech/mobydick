@@ -10,27 +10,42 @@ import {accessibilityLabels} from './constants';
 
 const Tab = (props: ITabProps): JSX.Element => {
   const [styles, theme] = useStyles(stylesCreate);
-  const {active, item, fontTab, backgroundColorTab} = props;
+  const {
+    active,
+    item,
+    fontTab,
+    fontActiveTab,
+    backgroundColorTab,
+    backgroundColorActiveTab,
+    onPressCommon,
+  } = props;
 
-  const font = active ? 'Regular-White-XS' : 'Regular-Tertiary-XS';
-  const backgroundColor = active
-    ? theme.colors.ElementBase
-    : theme.colors.BgTertiary;
+  const backgroundColorActive =
+    backgroundColorActiveTab || theme.colors.ElementBase;
+  const backgroundColor = backgroundColorTab || theme.colors.BgTertiary;
+  const font = fontTab || 'Regular-Tertiary-XS';
+  const fontActive = fontActiveTab || 'Regular-White-XS';
+
+  const selectPressable = () => {
+    if (item.onPress) {
+      item.onPress();
+    } else if (onPressCommon) {
+      onPressCommon(item);
+    }
+  };
 
   return (
     <TouchableOpacity
-      onPress={item.onPress}
+      onPress={selectPressable}
       accessibilityLabel={accessibilityLabels.tab}
       style={[
         styles.tab,
         {
-          backgroundColor: backgroundColorTab
-            ? backgroundColorTab
-            : backgroundColor,
+          backgroundColor: active ? backgroundColorActive : backgroundColor,
         },
       ]}>
       {item.leftIcon ? item.leftIcon : null}
-      <Typography font={fontTab ? fontTab : font}>{item.value}</Typography>
+      <Typography font={active ? fontActive : font}>{item.label}</Typography>
       {item.rightIcon ? item.rightIcon : null}
     </TouchableOpacity>
   );

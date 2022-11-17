@@ -1,6 +1,6 @@
 import {storiesOf} from '@storybook/react-native';
 import React, {useState} from 'react';
-import {Tabs} from '@npm/mobydick-navbars';
+import {ITab, Tabs} from '@npm/mobydick-navbars';
 
 import CenterView from '../CenterView';
 
@@ -18,54 +18,55 @@ enum exampleList {
 }
 
 const TabsExample = () => {
-  const [defaultValue, setDefaultValue] = useState('one');
-  const onPress = (value: string) => {
-    setDefaultValue(value);
+  const [defaultValue, setDefaultValue] = useState<string | number>(1);
+  const onPress = (item: ITab) => {
+    setDefaultValue(item.value);
   };
-
   const list = [
     {
-      value: exampleList.one,
-      onPress: () => onPress(exampleList.one),
+      value: 1,
+      label: exampleList.one,
     },
     {
-      value: exampleList.two,
-      onPress: () => onPress(exampleList.two),
+      value: 2,
+      label: exampleList.two,
     },
     {
-      value: exampleList.three,
-      onPress: () => onPress(exampleList.three),
+      value: 3,
+      label: exampleList.three,
     },
     {
-      value: exampleList.four,
-      onPress: () => onPress(exampleList.four),
+      value: 4,
+      label: exampleList.four,
     },
     {
-      value: exampleList.five,
-      onPress: () => onPress(exampleList.five),
+      value: 5,
+      label: exampleList.five,
     },
     {
-      value: exampleList.six,
-      onPress: () => onPress(exampleList.six),
+      value: 6,
+      label: exampleList.six,
     },
     {
-      value: exampleList.seven,
-      onPress: () => onPress(exampleList.seven),
+      value: 7,
+      label: exampleList.seven,
     },
     {
-      value: exampleList.eight,
-      onPress: () => onPress(exampleList.eight),
+      value: 8,
+      label: exampleList.eight,
     },
     {
-      value: exampleList.nine,
-      onPress: () => onPress(exampleList.nine),
+      value: 9,
+      label: exampleList.nine,
     },
     {
-      value: exampleList.ten,
-      onPress: () => onPress(exampleList.ten),
+      value: 10,
+      label: exampleList.ten,
     },
   ];
-  return <Tabs list={list} activeValue={defaultValue} />;
+  return (
+    <Tabs list={list} activeValue={defaultValue} onPressCommon={onPress} />
+  );
 };
 
 storiesOf('Design system/Navbars', module)

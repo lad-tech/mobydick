@@ -1,3 +1,43 @@
+## [2.1.3](https://glab.lad24.ru/npm/mobydick/compare/v2.1.2...v2.1.3) (2022-11-17)
+
+
+### Bug Fixes
+
+* **input:** remove fontStyle, add style ([8e6650d](https://glab.lad24.ru/npm/mobydick/commit/8e6650db561c2ce98685577501d1875ebc433bca))
+
+## [2.1.2](https://glab.lad24.ru/npm/mobydick/compare/v2.1.1...v2.1.2) (2022-11-11)
+
+
+### Bug Fixes
+
+* **actionSheets:** fix font cancelItem for disabled ([5bb5582](https://glab.lad24.ru/npm/mobydick/commit/5bb55827f7203173a7bd56fd5efa706d5e519a6a))
+* **dropdown:** delete statusBar in calculation ([354c704](https://glab.lad24.ru/npm/mobydick/commit/354c704a382e8a4ce821be58d1fe2402a6fb2f87))
+* **popups:** change styles ([730b463](https://glab.lad24.ru/npm/mobydick/commit/730b463c0cb9c3d6ea26bf0e12f05343e8d57f02))
+* **popups:** fix styles ([b996a57](https://glab.lad24.ru/npm/mobydick/commit/b996a57ee01e9460ef104cd61731b3c6dcba0679))
+* **TABS:** add label and onPressGeneral(item) ([a232b24](https://glab.lad24.ru/npm/mobydick/commit/a232b2485125751b925db809745a894b0f4bd3f5))
+* **tooltip:** delete statusBarHeight in calculation ([045697b](https://glab.lad24.ru/npm/mobydick/commit/045697b53483546ddca7c3923d3af8a3959d950b))
+
+
+### BREAKING CHANGES
+
+* **TABS:** required fields - label, value
+* **popups:** spaces.Space6 -> spaces.Space8
+* **popups:** remove justifyContent: 'flex-end' in overlayStyle
+
+## [2.1.1](https://glab.lad24.ru/npm/mobydick/compare/v2.1.0...v2.1.1) (2022-11-09)
+
+
+### Bug Fixes
+
+* **tabs:** add props fontActiveTabbackgroundColorActiveTab ([54976cd](https://glab.lad24.ru/npm/mobydick/commit/54976cdcd1082bdeb17da5119874e1da8dad525a))
+
+# [2.1.0](https://glab.lad24.ru/npm/mobydick/compare/v2.0.1...v2.1.0) (2022-11-07)
+
+
+### Features
+
+* **drop down:** dick-146 ([8b15aa8](https://glab.lad24.ru/npm/mobydick/commit/8b15aa80707aab9a720cbad9359600e0a7f1947c))
+
 ## [2.0.1](https://glab.lad24.ru/npm/mobydick/compare/v2.0.0...v2.0.1) (2022-11-02)
 
 

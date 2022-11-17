@@ -3,7 +3,6 @@ import {View} from '@npm/mobydick-core';
 import {useStyles} from '@npm/mobydick-styles';
 import {StyleProp, ViewStyle} from 'react-native';
 
-import stylesCreate from '../PopupBase/stylesCreate';
 import {PopupBase} from '../PopupBase';
 import {IPopup} from '../../types';
 import {returnTrue} from '../../functions';
@@ -16,6 +15,7 @@ import HorizontalButtonsView from './HorizontalButtonsView';
 import AlertContent from './AlertContent';
 import VerticalButton from './VerticalButton';
 import ImageView from './ImageView';
+import stylesCreate from './stylesCreate';
 
 const ModalBase: FC<
   Omit<IPopup, 'Content'> & {
@@ -36,7 +36,9 @@ const ModalBase: FC<
   const [styles] = useStyles(stylesCreate);
 
   return (
-    <PopupBase onClose={onClose} overlayStyle={overlayStyle}>
+    <PopupBase
+      onClose={onClose}
+      overlayStyle={[styles.overlayStyle, overlayStyle]}>
       <View
         style={[styles.container, containerStyle]}
         onStartShouldSetResponder={returnTrue}>
