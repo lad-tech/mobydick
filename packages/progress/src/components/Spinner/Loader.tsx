@@ -8,15 +8,11 @@ const Loader: FC<LoaderProps> = props => {
   const {size, fill, ...otherProps} = props;
   const {colors} = useTheme();
 
-  const getSize = (color: Color, size?: ISizeSpinner) => {
+  const getSize = (color: Color) => {
     switch (size) {
       case ISizeSpinner.XXS:
         return (
           <LoaderSVG fill={color} width="20" height="20" {...otherProps} />
-        );
-      case ISizeSpinner.XS:
-        return (
-          <LoaderSVG fill={color} width="24" height="24" {...otherProps} />
         );
       case ISizeSpinner.S:
         return (
@@ -37,7 +33,7 @@ const Loader: FC<LoaderProps> = props => {
     }
   };
 
-  return getSize(fill || colors.ElementBase, size);
+  return getSize(fill || colors.ElementBase);
 };
 
 export default Loader;
