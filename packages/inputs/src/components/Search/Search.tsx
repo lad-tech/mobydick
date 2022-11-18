@@ -9,9 +9,9 @@ import {accessibilityLabels, strings} from './constants';
 const Search: FC<ISearchProps> = ({
   placeholder = strings.search,
   value,
-  onChangeText = value => {
+  onChangeText = text => {
     console.log(
-      `Search says: "Add onChangeText (╯°□°)╯︵ ┻━┻". Current value=${value}`,
+      `Search says: "Add onChangeText (╯°□°)╯︵ ┻━┻". Current value=${text}`,
     );
   },
   containerStyle,
