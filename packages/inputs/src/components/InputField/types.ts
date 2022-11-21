@@ -9,6 +9,7 @@ import {IInputsTypes} from '../types';
 export interface IInputFieldsProps extends ITextInputProps {
   title?: string;
   titleProps?: IStyledTextProps;
+  required?: boolean;
   subtitle?: string;
   subtitleIcon?: SimpleIconName | undefined;
   subtitleProps?: IStyledTextProps;

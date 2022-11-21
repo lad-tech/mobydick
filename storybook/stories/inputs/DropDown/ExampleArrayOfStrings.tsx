@@ -18,7 +18,7 @@ const ExampleArrayOfStrings = () => {
     <DropDown
       selectedItem={selected}
       placeholder={text('placeholder', 'Выберите язык')}
-      label={text('title', 'Язык')}
+      title={text('title', 'Язык')}
       list={array('list', [
         'Русский',
 
@@ -37,6 +37,7 @@ const ExampleArrayOfStrings = () => {
       subtitleIcon={
         boolean('show subtitleIcon', false) ? subtitleIconName : undefined
       }
+      required={boolean('required', false)}
       rightIcon={
         <SimpleIcon
           name={select('icon name', iconNames, 'icon-arrow-down')}
@@ -49,7 +50,7 @@ const ExampleArrayOfStrings = () => {
       }}
       flatListStyle={{width: number('list width', rem(300))}}
       buttonTextFont={select('button font', selectFont, 'Regular-Muted-M')}
-      labelFont={select('label font', selectFont, 'Medium-Tertiary-XS')}
+      titleFont={select('label font', selectFont, 'Medium-Tertiary-XS')}
       flatListTextFont={select(
         'flatlist font',
         selectFont,

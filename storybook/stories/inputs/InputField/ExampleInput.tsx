@@ -27,6 +27,7 @@ const ExampleInput = () => {
       onChangeText={action('onChangeText')}
       containerStyle={{width: rem(250)}}
       secureTextEntry={boolean('secureTextEntry', false)}
+      required={boolean('required', false)}
     />
   );
 };
