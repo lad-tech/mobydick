@@ -8,7 +8,7 @@ import React from 'react';
 import {TextStyle} from 'react-native';
 
 interface IInputTitle {
-  title?: string;
+  title: string;
   titleProps?: IStyledTextProps | undefined;
   titleStyle?: TextStyle | TextStyle[] | undefined;
   titleFont?: TypographyProp | undefined;
