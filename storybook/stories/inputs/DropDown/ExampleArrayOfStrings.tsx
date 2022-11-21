@@ -37,6 +37,7 @@ const ExampleArrayOfStrings = () => {
       subtitleIcon={
         boolean('show subtitleIcon', false) ? subtitleIconName : undefined
       }
+      required={boolean('required', false)}
       rightIcon={
         <SimpleIcon
           name={select('icon name', iconNames, 'icon-arrow-down')}
