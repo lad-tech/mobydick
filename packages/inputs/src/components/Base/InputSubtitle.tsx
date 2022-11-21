@@ -3,7 +3,7 @@ import React from 'react';
 import {SimpleIcon, SimpleIconName, useTheme} from '@npm/mobydick-styles';
 import {View} from '@npm/mobydick-core';
 
-import {IInputsTypes} from './types';
+import {IInputsTypes} from '../types';
 
 interface ISubtitle {
   type: IInputsTypes;
@@ -11,7 +11,8 @@ interface ISubtitle {
   subtitleIcon?: SimpleIconName | undefined;
   subtitleProps?: IStyledTextProps | undefined;
 }
-const Subtitle = (props: ISubtitle) => {
+
+const InputSubtitle = (props: ISubtitle) => {
   const {type, subtitle, subtitleIcon, subtitleProps} = props;
   const {colors, spaces} = useTheme();
 
@@ -40,4 +41,4 @@ const Subtitle = (props: ISubtitle) => {
     </View>
   );
 };
-export default Subtitle;
+export default InputSubtitle;

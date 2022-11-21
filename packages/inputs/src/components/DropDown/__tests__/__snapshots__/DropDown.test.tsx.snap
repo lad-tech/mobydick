@@ -13,27 +13,32 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements 1`] = `
     ]
   }
 >
-  <Text
-    allowFontScaling={true}
+  <View
     style={
-      Array [
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Inter-Medium",
-          "fontSize": 21,
-          "lineHeight": 27,
-        },
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
         Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
           Object {
             "paddingBottom": 12,
           },
-          undefined,
-        ],
-      ]
-    }
-  >
-    Название поля
-  </Text>
+        ]
+      }
+    >
+      Название поля
+    </Text>
+  </View>
   <View
     collapsable={false}
   >
@@ -122,27 +127,32 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements disabled 1`
     ]
   }
 >
-  <Text
-    allowFontScaling={true}
+  <View
     style={
-      Array [
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Inter-Medium",
-          "fontSize": 21,
-          "lineHeight": 27,
-        },
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
         Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
           Object {
             "paddingBottom": 12,
           },
-          undefined,
-        ],
-      ]
-    }
-  >
-    Название поля
-  </Text>
+        ]
+      }
+    >
+      Название поля
+    </Text>
+  </View>
   <View
     collapsable={false}
   >
@@ -236,27 +246,32 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type valid 
     ]
   }
 >
-  <Text
-    allowFontScaling={true}
+  <View
     style={
-      Array [
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Inter-Medium",
-          "fontSize": 21,
-          "lineHeight": 27,
-        },
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
         Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
           Object {
             "paddingBottom": 12,
           },
-          undefined,
-        ],
-      ]
-    }
-  >
-    Название поля
-  </Text>
+        ]
+      }
+    >
+      Название поля
+    </Text>
+  </View>
   <View
     collapsable={false}
   >
@@ -345,27 +360,37 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly 10 elements type wrong 
     ]
   }
 >
-  <Text
-    allowFontScaling={true}
+  <View
     style={
-      Array [
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Inter-Medium",
-          "fontSize": 21,
-          "lineHeight": 27,
-        },
-        Array [
-          Object {
-            "paddingBottom": 12,
-          },
-          undefined,
-        ],
-      ]
+      Object {
+        "flexDirection": "row",
+      }
     }
   >
-    Название поля
-  </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          Array [
+            Object {
+              "paddingBottom": 12,
+            },
+            Object {
+              "paddingBottom": 8,
+            },
+          ],
+        ]
+      }
+    >
+      Название поля
+    </Text>
+  </View>
   <View
     collapsable={false}
   >
@@ -455,27 +480,32 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly without array 1`] = `
     ]
   }
 >
-  <Text
-    allowFontScaling={true}
+  <View
     style={
-      Array [
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Inter-Medium",
-          "fontSize": 21,
-          "lineHeight": 27,
-        },
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
         Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
           Object {
             "paddingBottom": 12,
           },
-          undefined,
-        ],
-      ]
-    }
-  >
-    Название поля
-  </Text>
+        ]
+      }
+    >
+      Название поля
+    </Text>
+  </View>
   <View
     collapsable={false}
   >
@@ -564,27 +594,48 @@ exports[`@npm/mobydick-inputs/DropDown renders correctly without array with text
     ]
   }
 >
-  <Text
-    allowFontScaling={true}
+  <View
     style={
-      Array [
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Inter-Medium",
-          "fontSize": 21,
-          "lineHeight": 27,
-        },
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
         Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
           Object {
             "paddingBottom": 12,
           },
+        ]
+      }
+    >
+      Название поля
+    </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#F54D3D",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
           undefined,
-        ],
-      ]
-    }
-  >
-    Название поля
-  </Text>
+        ]
+      }
+    >
+      *
+    </Text>
+  </View>
   <View
     collapsable={false}
   >
@@ -673,27 +724,32 @@ exports[`@npm/mobydick-inputs/DropDown selectItemClose 1`] = `
     ]
   }
 >
-  <Text
-    allowFontScaling={true}
+  <View
     style={
-      Array [
-        Object {
-          "color": "#5E6678",
-          "fontFamily": "Inter-Medium",
-          "fontSize": 21,
-          "lineHeight": 27,
-        },
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
         Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
           Object {
             "paddingBottom": 12,
           },
-          undefined,
-        ],
-      ]
-    }
-  >
-    Название поля
-  </Text>
+        ]
+      }
+    >
+      Название поля
+    </Text>
+  </View>
   <View
     collapsable={false}
   >
