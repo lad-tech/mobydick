@@ -25,7 +25,7 @@ const defaultStyle = (theme: IThemeContext) => {
     placeholder: {
       flex: 1,
     },
-    label: {
+    title: {
       paddingBottom: spaces.Space8,
     },
     overlay: {

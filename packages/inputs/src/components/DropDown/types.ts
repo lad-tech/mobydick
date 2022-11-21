@@ -19,7 +19,10 @@ export interface IDropDownProps<
   onPress: (
     item: T extends IListItem<S> ? Exclude<T, string>['value'] : string,
   ) => void;
-  label?: string;
+  title?: string;
+  titleStyle?: TextStyle | undefined;
+  titleFont?: TypographyProp | undefined;
+  required?: boolean;
   rightIcon?: ReactElement;
   type?: IInputsTypes;
   disabled?: boolean;
@@ -30,8 +33,6 @@ export interface IDropDownProps<
   buttonStyle?: ViewStyle | undefined;
   flatListStyle?: ViewStyle | undefined;
   flatListItemStyle?: ViewStyle | undefined;
-  labelStyle?: TextStyle | undefined;
-  labelFont?: TypographyProp | undefined;
   buttonTextStyle?: TextStyle | undefined;
   buttonTextStyleChosen?: TextStyle | undefined;
   buttonTextFont?: TypographyProp | undefined;

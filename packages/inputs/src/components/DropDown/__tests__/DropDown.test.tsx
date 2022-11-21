@@ -27,7 +27,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         <DropDown
           selectedItem={list[1]}
           placeholder={'Выберите язык'}
-          label={'Название поля'}
+          title={'Название поля'}
           list={list}
           onPress={jest.fn()}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
@@ -65,7 +65,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
       <PopupsProvider>
         <DropDown
           placeholder={'Выберите язык'}
-          label={'Название поля'}
+          title={'Название поля'}
           list={array}
           onPress={onPress}
           type={IInputsTypes.disabled}
@@ -106,7 +106,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         <DropDown
           selectedItem={'selectedItem'}
           placeholder={'Выберите язык'}
-          label={'Название поля'}
+          title={'Название поля'}
           list={array}
           onPress={onPress}
           subtitle={'subtitle'}
@@ -141,11 +141,12 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         <DropDown
           selectedItem={'selectedItem'}
           placeholder={'Выберите язык'}
-          label={'Название поля'}
+          title={'Название поля'}
           list={list}
           onPress={jest.fn()}
           type={IInputsTypes.wrong}
-          labelFont={'Medium-Tertiary-XS'}
+          titleFont={'Medium-Tertiary-XS'}
+          titleStyle={{paddingBottom: 8}}
           buttonStyle={{
             width: 400,
             height: 70,
@@ -164,7 +165,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         <DropDown
           selectedItem={'selectedItem'}
           placeholder={'Выберите язык'}
-          label={'Название поля'}
+          title={'Название поля'}
           list={list}
           onPress={jest.fn()}
           type={IInputsTypes.valid}
@@ -180,7 +181,7 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         <DropDown
           selectedItem={undefined}
           placeholder={'Выберите язык'}
-          label={'Название поля'}
+          title={'Название поля'}
           list={list}
           onPress={jest.fn()}
           disabled={true}
@@ -196,7 +197,8 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         <DropDown
           selectedItem={list[1]}
           placeholder={'Выберите язык'}
-          label={'Название поля'}
+          title={'Название поля'}
+          required={false}
           list={[]}
           onPress={jest.fn()}
           rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
@@ -211,7 +213,8 @@ describe('@npm/mobydick-inputs/DropDown', () => {
         <DropDown
           selectedItem={list[1]}
           placeholder={'Выберите язык'}
-          label={'Название поля'}
+          title={'Название поля'}
+          required={true}
           listEmptyFont={'Regular-Error-L'}
           listEmptyText={'Ничего нет'}
           list={[]}

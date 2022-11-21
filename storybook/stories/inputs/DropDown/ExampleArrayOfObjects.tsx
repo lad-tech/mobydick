@@ -20,7 +20,7 @@ const ExampleArrayOfObjects = () => {
         onPress={item => setSelected(item)}
         selectedItem={1 as number}
         placeholder={text('placeholder', 'Выберите язык')}
-        label={text('title', 'Язык')}
+        title={text('title', 'Язык')}
         type={select('type', IInputsTypes, IInputsTypes.default)}
         buttonStyle={{
           height: number('button height', rem(40)),

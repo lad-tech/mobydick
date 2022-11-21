@@ -5,7 +5,7 @@ import {Typography} from '@npm/mobydick-typography';
 import {usePopups} from '@npm/mobydick-popups';
 
 import {IInputsTypes} from '../types';
-import Subtitle from '../Subtitle';
+import {InputSubtitle, InputTitle} from '../Base';
 
 import {IDropDownProps, IItemValue, IListItem} from './types';
 import stylesCreate from './stylesCreate';
@@ -31,7 +31,10 @@ function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
   props: IDropDownProps<T, S>,
 ) {
   const {
-    label,
+    title,
+    titleStyle,
+    titleFont,
+    required,
     placeholder,
     list,
     selectedItem,
@@ -43,8 +46,6 @@ function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
 
     buttonStyle,
     flatListStyle,
-    labelStyle,
-    labelFont,
     buttonTextStyle,
     buttonTextFont,
     flatListItemStyle,
@@ -142,19 +143,19 @@ function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
             : DEFAULT_DROP_DOWN_WIDTH,
         },
       ]}>
-      {Boolean(label) && (
-        <Typography
-          font={labelFont ? labelFont : 'Medium-Tertiary-XS'}
-          style={[styles.label, labelStyle]}>
-          {label}
-        </Typography>
+      {title && (
+        <InputTitle
+          title={title}
+          titleFont={titleFont}
+          titleStyle={titleStyle ? [styles.title, titleStyle] : styles.title}
+          required={required}
+        />
       )}
       <View collapsable={false} ref={dropDownRef}>
         <TouchableOpacity
           style={[
             styles.inputContainer,
             buttonStyle,
-
             {
               height: buttonStyle?.height
                 ? buttonStyle.height
@@ -188,7 +189,7 @@ function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
           <DropDownIcon isOpen={isOpen} rightIcon={rightIcon} />
         </TouchableOpacity>
         {subtitle ? (
-          <Subtitle
+          <InputSubtitle
             type={type}
             subtitle={subtitle}
             subtitleIcon={subtitleIcon}

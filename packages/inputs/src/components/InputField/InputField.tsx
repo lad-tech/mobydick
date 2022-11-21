@@ -1,10 +1,9 @@
 import {ITextInput, TextInput, View} from '@npm/mobydick-core';
 import React, {forwardRef, useState} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
-import {Typography} from '@npm/mobydick-typography';
 
 import {IInputsTypes} from '../types';
-import Subtitle from '../Subtitle';
+import {InputSubtitle, InputTitle} from '../Base';
 
 import {IInputFieldsProps} from './types';
 import stylesCreate from './stylesCreate';
@@ -39,6 +38,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     textInputContainerStyle,
     onFocus,
     onBlur,
+    required,
     ...otherProps
   } = props;
   const [focused, setFocused] = useState(false);
@@ -50,10 +50,8 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
 
   return (
     <View style={[styles.container, containerStyle]}>
-      {Boolean(title) && (
-        <Typography font={'Medium-Tertiary-XS'} {...titleProps}>
-          {title}
-        </Typography>
+      {title && (
+        <InputTitle title={title} titleProps={titleProps} required={required} />
       )}
       <View style={[styles.inputContainer, textInputContainerStyle]}>
         <TextInput
@@ -77,7 +75,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
         {rightIcon}
       </View>
       {subtitle ? (
-        <Subtitle
+        <InputSubtitle
           type={type}
           subtitle={subtitle}
           subtitleIcon={subtitleIcon}
