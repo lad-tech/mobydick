@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {DropDown, IInputsTypes} from '@npm/mobydick-inputs';
-import {number, select, text} from '@storybook/addon-knobs';
+import {boolean, number, select, text} from '@storybook/addon-knobs';
 import {rem} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
 
@@ -26,6 +26,7 @@ const ExampleArrayOfObjects = () => {
           height: number('button height', rem(40)),
           width: number('button width', rem(300)),
         }}
+        required={boolean('required', false)}
         flatListStyle={{width: number('list width', rem(300))}}
       />
       <Typography>{JSON.stringify(selected, null, 2)}</Typography>
