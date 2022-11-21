@@ -8,10 +8,10 @@ import {IToggle} from './types';
 const Toggle: FC<IToggle> = ({active, disabled}) => {
   const [styles, theme] = useStyles(stylesCreate, disabled);
   // const toggle = useToggle(active);
-  const pan = useRef(new Animated.Value(active ? 30 : -30)).current;
+  const leftPos = -20;
+  const rightPos = 20;
+  const pan = useRef(new Animated.Value(active ? rightPos : leftPos)).current;
 
-  const leftPos = -30;
-  const rightPos = 30;
   const panResponder = useRef(
     PanResponder.create({
       onMoveShouldSetPanResponder: () => true,
@@ -66,7 +66,7 @@ const Toggle: FC<IToggle> = ({active, disabled}) => {
     extrapolate: 'clamp',
   });
 
-  console.log('pan', pan);
+  console.log('pan', panResponder.panHandlers);
 
   const translateX = pan.interpolate({
     inputRange: [leftPos, rightPos],
