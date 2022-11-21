@@ -6,7 +6,10 @@ import {useDebounce} from '@npm/mobydick-utils';
 
 const ExampleSearch = () => {
   const [value, setValue] = useState('');
-  const debouncedFn = useDebounce(() => console.log('value', value), 1000);
+  const debouncedFn = useDebounce(
+    valueFn => console.log('value', valueFn),
+    1000,
+  );
 
   const onChangeText = (text: string) => {
     setValue(text);
