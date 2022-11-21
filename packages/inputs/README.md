@@ -8,7 +8,7 @@ Author - Aleksei Smirnov
 3. Лучше выбирать либо **TextStyle** либо **TextFont**
 4. Для **FlatList** ширина берется от кнопки стандартно, можно передать свою
 5. Расшифровка пропсов: 
-   * label?: string; - Тест в заголовке над **DropDown**
+   * title?: string; - Текст в заголовке над **DropDown**
    * rightIcon?: ReactElement; - Иконка для **DropDown**
    * placeholder: string; - Дефолтный текст в **DropDown**
    * list: ListItem; - Массив элементов для списка **DropDown**
@@ -18,8 +18,8 @@ Author - Aleksei Smirnov
    * buttonStyle?: ViewStyle; - Кастомный стиль для кнопки - если передать только его, **item** в списке будут считать высоту по **"высота кнопки * 0.8"**
    * flatListStyle?: ViewStyle; - Кастомный стиль для вьюшки **FlatList**. Стандартно ширина берется от кнопки, высота высчитывается в функции
    * flatListItemStyle?: ViewStyle; - Кастомный стиль для RenderItem у **FlatList**
-   * labelStyle?: TextStyle; - кастомный стиль для **label**, рекомендуется не использовать отступы
-   * labelFont?: TypographyProp; - кастомный шрифт из дизайн системы для **label**
+   * titleStyle?: TextStyle; - кастомный стиль для **label**, рекомендуется не использовать отступы
+   * titleFont?: TypographyProp; - кастомный шрифт из дизайн системы для **label**
    * buttonTextStyle?: TextStyle; - кастомный стиль текста для кнопки с дефолтным **Placeholder**
    * buttonTextStyleChosen?: TextStyle; - кастомный стиль текста для кнопки с выбранным элементом - **selectedItem**
    * buttonTextFont?: TypographyProp; - кастомный шрифт для текста кнопки с дефолтным **Placeholder**
