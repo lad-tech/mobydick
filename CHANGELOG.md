@@ -1,3 +1,22 @@
+# [3.0.0](https://glab.lad24.ru/npm/mobydick/compare/v2.1.3...v3.0.0) (2022-11-23)
+
+
+### Bug Fixes
+
+* **tooltip:** add rn-safe-area-context, replace height ([2e0435b](https://glab.lad24.ru/npm/mobydick/commit/2e0435ba195e41d0889339b2299e589262a6da45))
+* **tooltip:** fix style -> {alignItems: 'flex-start'} ([8fa4e43](https://glab.lad24.ru/npm/mobydick/commit/8fa4e435078ec2dcace84484bb3134b8f5f0a946))
+
+
+### Features
+
+* **inputs:** add field - required ([08ccbcb](https://glab.lad24.ru/npm/mobydick/commit/08ccbcb82ced185656ab2fad5c6d50462713a532))
+* **utils:** add useDebounce, useLatest ([ffba072](https://glab.lad24.ru/npm/mobydick/commit/ffba072cc54ce82638bfbc330c9ec23661809e75))
+
+
+### BREAKING CHANGES
+
+* **inputs:** label -> title in dropdown!
+
 ## [2.1.3](https://glab.lad24.ru/npm/mobydick/compare/v2.1.2...v2.1.3) (2022-11-17)
 
 
