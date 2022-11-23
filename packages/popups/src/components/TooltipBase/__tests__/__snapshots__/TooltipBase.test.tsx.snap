@@ -1,162 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly bottom center 1`] = `
-<View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
   style={
     Array [
       Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
-        "height": "100%",
-        "position": "absolute",
-        "width": "100%",
+        "flex": 1,
       },
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
+      undefined,
     ]
   }
-  testID="Pressable"
->
-  <View
-    collapsable={false}
-    style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#20242D",
-        "borderRadius": 12,
-        "bottom": -1076,
-        "justifyContent": "center",
-        "marginVertical": 12,
-        "paddingHorizontal": 24,
-        "paddingVertical": 12,
-        "position": "absolute",
-        "zIndex": 1,
-      }
-    }
-  />
-</View>
+/>
 `;
 
 exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly top end 1`] = `
-<View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
   style={
     Array [
       Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
-        "height": "100%",
-        "position": "absolute",
-        "width": "100%",
+        "flex": 1,
       },
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
+      undefined,
     ]
   }
-  testID="Pressable"
->
-  <View
-    collapsable={false}
-    style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#20242D",
-        "borderRadius": 12,
-        "justifyContent": "center",
-        "marginVertical": 12,
-        "paddingHorizontal": 24,
-        "paddingVertical": 12,
-        "position": "absolute",
-        "right": 462,
-        "top": 2411,
-        "zIndex": 1,
-      }
-    }
-  />
-</View>
+/>
 `;
 
 exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly top start 1`] = `
-<View
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
   style={
     Array [
       Object {
-        "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
-        "height": "100%",
-        "position": "absolute",
-        "width": "100%",
+        "flex": 1,
       },
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-        },
-        undefined,
-      ],
+      undefined,
     ]
   }
-  testID="Pressable"
->
-  <View
-    collapsable={false}
-    style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#20242D",
-        "borderRadius": 12,
-        "justifyContent": "center",
-        "left": 287,
-        "marginVertical": 12,
-        "paddingHorizontal": 24,
-        "paddingVertical": 12,
-        "position": "absolute",
-        "top": 2411,
-        "zIndex": 1,
-      }
-    }
-  />
-</View>
+/>
 `;

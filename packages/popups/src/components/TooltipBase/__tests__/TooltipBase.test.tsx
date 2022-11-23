@@ -3,6 +3,7 @@ import React from 'react';
 import {TouchableOpacity} from 'react-native';
 import {ITouchableOpacity} from '@npm/mobydick-core';
 import {Button} from '@npm/mobydick-cta';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 import TooltipBase from '../TooltipBase';
 import {IPlacement} from '../types';
@@ -31,39 +32,45 @@ describe('@npm/mobydick-popups/TooltipBase/TooltipBase', () => {
       );
 
     const {toJSON} = render(
-      <TooltipBase
-        id={'id'}
-        onClose={() => null}
-        position={IPosition.bottom}
-        placement={IPlacement.center}
-        refCurrent={buttonRef}
-      />,
+      <SafeAreaProvider>
+        <TooltipBase
+          id={'id'}
+          onClose={() => null}
+          position={IPosition.bottom}
+          placement={IPlacement.center}
+          refCurrent={buttonRef}
+        />
+      </SafeAreaProvider>,
     );
 
     expect(toJSON()).toMatchSnapshot();
   });
   it('should renders correctly top start', () => {
     const {toJSON} = render(
-      <TooltipBase
-        id={'id'}
-        onClose={() => null}
-        position={IPosition.top}
-        placement={IPlacement.start}
-        refCurrent={buttonRef}
-      />,
+      <SafeAreaProvider>
+        <TooltipBase
+          id={'id'}
+          onClose={() => null}
+          position={IPosition.top}
+          placement={IPlacement.start}
+          refCurrent={buttonRef}
+        />
+      </SafeAreaProvider>,
     );
 
     expect(toJSON()).toMatchSnapshot();
   });
   it('should renders correctly top end', () => {
     const {toJSON} = render(
-      <TooltipBase
-        id={'id'}
-        onClose={() => null}
-        position={IPosition.top}
-        placement={IPlacement.end}
-        refCurrent={buttonRef}
-      />,
+      <SafeAreaProvider>
+        <TooltipBase
+          id={'id'}
+          onClose={() => null}
+          position={IPosition.top}
+          placement={IPlacement.end}
+          refCurrent={buttonRef}
+        />
+      </SafeAreaProvider>,
     );
 
     expect(toJSON()).toMatchSnapshot();
