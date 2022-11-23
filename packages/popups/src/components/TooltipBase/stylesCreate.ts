@@ -43,7 +43,7 @@ const stylesCreate = (theme: IThemeContext, position?: IPosition) => {
       paddingHorizontal: spaces.Space16,
       borderRadius: spaces.Space8,
       justifyContent: 'center',
-      alignItems: 'center',
+      alignItems: 'flex-start',
       zIndex: 1,
       marginVertical: spaces.Space8,
       position: 'absolute',

@@ -37,7 +37,7 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly b
     collapsable={false}
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-start",
         "backgroundColor": "#20242D",
         "borderRadius": 12,
         "bottom": -1076,
@@ -90,7 +90,7 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly t
     collapsable={false}
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-start",
         "backgroundColor": "#20242D",
         "borderRadius": 12,
         "justifyContent": "center",
@@ -144,7 +144,7 @@ exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly t
     collapsable={false}
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-start",
         "backgroundColor": "#20242D",
         "borderRadius": 12,
         "justifyContent": "center",
