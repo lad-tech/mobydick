@@ -9,7 +9,7 @@ const stylesCreate = (theme: IThemeContext) => {
       justifyContent: 'flex-end',
     },
     container: {
-      backgroundColor: colors.BgSecondary,
+      backgroundColor: colors.BgPrimary,
       borderRadius: spaces.Space12,
       justifyContent: 'center',
       alignItems: 'center',

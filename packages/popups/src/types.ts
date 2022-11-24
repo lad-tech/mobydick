@@ -1,5 +1,6 @@
 import {StyleProp, ViewStyle} from 'react-native';
 import {FC} from 'react';
+import {IButtonTypes} from '@npm/mobydick-cta';
 
 export type IPopupId = string;
 
@@ -17,4 +18,14 @@ export interface IPopup {
 export enum IPosition {
   top = 'top',
   bottom = 'bottom',
+}
+
+export interface IHorizontalButtonsView {
+  typeLeft: IButtonTypes;
+  onPressLeft(): void;
+  textLeft: string;
+
+  typeRight: IButtonTypes;
+  onPressRight(): void;
+  textRight: string;
 }
