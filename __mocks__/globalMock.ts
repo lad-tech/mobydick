@@ -34,3 +34,7 @@ jest.mock('react-native/Libraries/Utilities/BackHandler', () => {
     'react-native/Libraries/Utilities/__mocks__/BackHandler.js',
   );
 });
+
+jest.mock('react-native-safe-area-context', () => {
+  return jest.requireActual('react-native-safe-area-context/jest/mock').default;
+});
