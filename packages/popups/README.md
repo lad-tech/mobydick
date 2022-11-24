@@ -18,6 +18,8 @@
 4. `SnackbarBase`
 5. `TooltipBase`
 
+В пакете используется либа `react-native-safe-area-context`, для определения высоты экрана, для того, чтобы она работала необходимо в корневом файле обернуть всё: `<SafeAreaProvider>``</SafeAreaProvider>`
+
 ### **PopupBase**
 Это обертка с дополнительным пропсом `overlayStyle`, который по дефолту занимает весь экран, вне popup действует мимоклик. Используется в каждом base кроме `SnackbarBase`. 
 
