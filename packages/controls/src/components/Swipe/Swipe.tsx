@@ -1,6 +1,12 @@
 import React, {FC, useEffect, useRef, useState} from 'react';
 import {rem, useStyles} from '@npm/mobydick-styles';
-import {Animated, Easing, PanResponder} from 'react-native';
+import {
+  Animated,
+  Easing,
+  GestureResponderEvent,
+  PanResponder,
+  PanResponderGestureState,
+} from 'react-native';
 
 import stylesCreate from '../Toggle/stylesCreate';
 
@@ -43,6 +49,27 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
       easing: Easing.ease,
     }).start();
   };
+  const handlePanResponderRelease = (
+    _: GestureResponderEvent,
+    gestureState: PanResponderGestureState,
+  ) => {
+    pan.flattenOffset();
+
+    if (gestureState.dx === 0) {
+      if (distance.current > 0) {
+        return swipeLeft();
+      } else {
+        return swipeRight();
+      }
+    }
+
+    distance.current = gestureState.dx;
+    if (distance.current > 0) {
+      return swipeRight();
+    } else {
+      return swipeLeft();
+    }
+  };
 
   const panResponder = useRef(
     PanResponder.create({
@@ -57,24 +84,7 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
         useNativeDriver: false,
       }),
 
-      onPanResponderRelease: (_event, gestureState) => {
-        pan.flattenOffset();
-
-        if (gestureState.dx === 0) {
-          if (distance.current > 0) {
-            return swipeLeft();
-          } else {
-            return swipeRight();
-          }
-        }
-
-        distance.current = gestureState.dx;
-        if (distance.current > 0) {
-          return swipeRight();
-        } else {
-          return swipeLeft();
-        }
-      },
+      onPanResponderRelease: handlePanResponderRelease,
     }),
   ).current;
 
@@ -94,6 +104,7 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
     <Animated.View
       style={[styles.container, {backgroundColor}]}
       needsOffscreenAlphaCompositing={true}
+      accessibilityLabel={'swipe'}
       {...panResponder.panHandlers}>
       <Animated.View style={[styles.switcher, {transform: [{translateX}]}]} />
     </Animated.View>
