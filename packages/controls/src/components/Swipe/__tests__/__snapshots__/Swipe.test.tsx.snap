@@ -172,7 +172,7 @@ exports[`Swipe should renders correctly disabled +  1`] = `
   onStartShouldSetPanResponder={[Function]}
   style={
     Object {
-      "backgroundColor": "rgba(43, 120, 238, 1)",
+      "backgroundColor": "rgba(155, 161, 176, 1)",
       "borderRadius": 30,
       "height": 45,
       "opacity": 0.4,
@@ -191,7 +191,7 @@ exports[`Swipe should renders correctly disabled +  1`] = `
         "flex": 1,
         "transform": Array [
           Object {
-            "translateX": 30,
+            "translateX": 0,
           },
         ],
       }
@@ -232,6 +232,46 @@ exports[`Swipe should renders correctly disabled -  1`] = `
         "transform": Array [
           Object {
             "translateX": 0,
+          },
+        ],
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Swipe should renders correctly disabled dx: 20 1`] = `
+<View
+  accessibilityLabel="swipe"
+  collapsable={false}
+  needsOffscreenAlphaCompositing={true}
+  onMoveShouldSetPanResponder={[Function]}
+  onPanResponderGrant={[Function]}
+  onPanResponderMove={[Function]}
+  onPanResponderRelease={[Function]}
+  onStartShouldSetPanResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(43, 120, 238, 1)",
+      "borderRadius": 30,
+      "height": 45,
+      "opacity": 0.4,
+      "padding": 3,
+      "width": 75,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "aspectRatio": 1,
+        "backgroundColor": "#FFF",
+        "borderRadius": 37.5,
+        "flex": 1,
+        "transform": Array [
+          Object {
+            "translateX": 30,
           },
         ],
       }

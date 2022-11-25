@@ -20,7 +20,10 @@ describe('Swipe', () => {
       <Swipe active={false} disabled={false} onPress={onPress} />,
     );
     const panHandler = getByLabelText('swipe');
-    act(() => panHandler.props.onPanResponderRelease({}, {dx: 20}));
+    act(() => {
+      panHandler.props.onPanResponderMove(eventMock, {dx: 0});
+      panHandler.props.onPanResponderRelease(eventMock, {dx: 0});
+    });
     expect(toJSON()).toMatchSnapshot();
   });
   it('should renders correctly active', function () {
@@ -38,6 +41,17 @@ describe('Swipe', () => {
 
     act(() => {
       panHandler.props.onPanResponderMove(eventMock, {dx: 0});
+      panHandler.props.onPanResponderRelease(eventMock, {dx: 0});
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('should renders correctly disabled dx: 20', function () {
+    const {getByLabelText, toJSON} = render(
+      <Swipe active={true} disabled onPress={onPress} />,
+    );
+    const panHandler = getByLabelText('swipe');
+
+    act(() => {
       panHandler.props.onPanResponderRelease(eventMock, {dx: 20});
     });
     expect(toJSON()).toMatchSnapshot();
