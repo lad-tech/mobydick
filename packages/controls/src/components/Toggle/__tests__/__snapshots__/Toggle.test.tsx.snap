@@ -2,184 +2,216 @@
 
 exports[`Toggle should renders correctly active 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
   collapsable={false}
-  needsOffscreenAlphaCompositing={true}
-  onMoveShouldSetResponder={[Function]}
-  onMoveShouldSetResponderCapture={[Function]}
-  onResponderEnd={[Function]}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
-  onResponderReject={[Function]}
   onResponderRelease={[Function]}
-  onResponderStart={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  onStartShouldSetResponderCapture={[Function]}
-  style={
-    Object {
-      "backgroundColor": "rgba(43, 120, 238, 1)",
-      "borderRadius": 30,
-      "height": 45,
-      "opacity": 1,
-      "padding": 3,
-      "width": 75,
-    }
-  }
 >
   <View
     collapsable={false}
+    needsOffscreenAlphaCompositing={true}
     style={
       Object {
-        "aspectRatio": 1,
-        "backgroundColor": "#FFF",
-        "borderRadius": 37.5,
-        "flex": 1,
-        "transform": Array [
-          Object {
-            "translateX": 30,
-          },
-        ],
+        "backgroundColor": "rgba(43, 120, 238, 1)",
+        "borderRadius": 30,
+        "height": 45,
+        "opacity": 1,
+        "padding": 3,
+        "width": 75,
       }
     }
-  />
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "aspectRatio": 1,
+          "backgroundColor": "#FFF",
+          "borderRadius": 37.5,
+          "flex": 1,
+          "transform": Array [
+            Object {
+              "translateX": 30,
+            },
+          ],
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
 exports[`Toggle should renders correctly active and disabled 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
   collapsable={false}
-  needsOffscreenAlphaCompositing={true}
-  onMoveShouldSetResponder={[Function]}
-  onMoveShouldSetResponderCapture={[Function]}
-  onResponderEnd={[Function]}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
-  onResponderReject={[Function]}
   onResponderRelease={[Function]}
-  onResponderStart={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  onStartShouldSetResponderCapture={[Function]}
-  style={
-    Object {
-      "backgroundColor": "rgba(43, 120, 238, 1)",
-      "borderRadius": 30,
-      "height": 45,
-      "opacity": 0.4,
-      "padding": 3,
-      "width": 75,
-    }
-  }
 >
   <View
     collapsable={false}
+    needsOffscreenAlphaCompositing={true}
     style={
       Object {
-        "aspectRatio": 1,
-        "backgroundColor": "#FFF",
-        "borderRadius": 37.5,
-        "flex": 1,
-        "transform": Array [
-          Object {
-            "translateX": 30,
-          },
-        ],
+        "backgroundColor": "rgba(43, 120, 238, 1)",
+        "borderRadius": 30,
+        "height": 45,
+        "opacity": 0.4,
+        "padding": 3,
+        "width": 75,
       }
     }
-  />
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "aspectRatio": 1,
+          "backgroundColor": "#FFF",
+          "borderRadius": 37.5,
+          "flex": 1,
+          "transform": Array [
+            Object {
+              "translateX": 30,
+            },
+          ],
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
 exports[`Toggle should renders correctly by default 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
   collapsable={false}
-  needsOffscreenAlphaCompositing={true}
-  onMoveShouldSetResponder={[Function]}
-  onMoveShouldSetResponderCapture={[Function]}
-  onResponderEnd={[Function]}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
-  onResponderReject={[Function]}
   onResponderRelease={[Function]}
-  onResponderStart={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  onStartShouldSetResponderCapture={[Function]}
-  style={
-    Object {
-      "backgroundColor": "rgba(155, 161, 176, 1)",
-      "borderRadius": 30,
-      "height": 45,
-      "opacity": 1,
-      "padding": 3,
-      "width": 75,
-    }
-  }
 >
   <View
     collapsable={false}
+    needsOffscreenAlphaCompositing={true}
     style={
       Object {
-        "aspectRatio": 1,
-        "backgroundColor": "#FFF",
-        "borderRadius": 37.5,
-        "flex": 1,
-        "transform": Array [
-          Object {
-            "translateX": 0,
-          },
-        ],
+        "backgroundColor": "rgba(155, 161, 176, 1)",
+        "borderRadius": 30,
+        "height": 45,
+        "opacity": 1,
+        "padding": 3,
+        "width": 75,
       }
     }
-  />
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "aspectRatio": 1,
+          "backgroundColor": "#FFF",
+          "borderRadius": 37.5,
+          "flex": 1,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
 exports[`Toggle should renders correctly disabled 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
   collapsable={false}
-  needsOffscreenAlphaCompositing={true}
-  onMoveShouldSetResponder={[Function]}
-  onMoveShouldSetResponderCapture={[Function]}
-  onResponderEnd={[Function]}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
-  onResponderReject={[Function]}
   onResponderRelease={[Function]}
-  onResponderStart={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  onStartShouldSetResponderCapture={[Function]}
-  style={
-    Object {
-      "backgroundColor": "rgba(155, 161, 176, 1)",
-      "borderRadius": 30,
-      "height": 45,
-      "opacity": 0.4,
-      "padding": 3,
-      "width": 75,
-    }
-  }
 >
   <View
     collapsable={false}
+    needsOffscreenAlphaCompositing={true}
     style={
       Object {
-        "aspectRatio": 1,
-        "backgroundColor": "#FFF",
-        "borderRadius": 37.5,
-        "flex": 1,
-        "transform": Array [
-          Object {
-            "translateX": 0,
-          },
-        ],
+        "backgroundColor": "rgba(155, 161, 176, 1)",
+        "borderRadius": 30,
+        "height": 45,
+        "opacity": 0.4,
+        "padding": 3,
+        "width": 75,
       }
     }
-  />
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "aspectRatio": 1,
+          "backgroundColor": "#FFF",
+          "borderRadius": 37.5,
+          "flex": 1,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    />
+  </View>
 </View>
 `;
