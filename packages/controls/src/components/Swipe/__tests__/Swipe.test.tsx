@@ -4,31 +4,7 @@ import React from 'react';
 import Swipe from '../Swipe';
 
 const onPress = () => null;
-// const gestureStateMOck = {
-//   dx: 0,
-//   dy: 0,
-//   moveX: 0,
-//   moveY: 0,
-//   numberActiveTouches: 0,
-//   stateID: 0.36193975836547276,
-//   vx: 0,
-//   vy: 0,
-//   x0: 0,
-//   y0: 0,
-// };
-//
-// const gestureStateMOckDx = {
-//   dx: 20,
-//   dy: 0,
-//   moveX: 0,
-//   moveY: 0,
-//   numberActiveTouches: 0,
-//   stateID: 0.36193975836547276,
-//   vx: 0,
-//   vy: 0,
-//   x0: 0,
-//   y0: 0,
-// };
+
 const eventMock = {};
 describe('Swipe', () => {
   it('should renders correctly by default -', function () {
@@ -61,9 +37,6 @@ describe('Swipe', () => {
     const panHandler = getByLabelText('swipe');
 
     act(() => {
-      panHandler.props.onStartShouldSetPanResponder(() => true);
-      panHandler.props.onMoveShouldSetPanResponder(() => true);
-      panHandler.props.onPanResponderGrant();
       panHandler.props.onPanResponderMove(eventMock, {dx: 0});
       panHandler.props.onPanResponderRelease(eventMock, {dx: 20});
     });
