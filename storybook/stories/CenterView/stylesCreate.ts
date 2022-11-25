@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
 import {IThemeContext} from '@npm/mobydick-styles';
 
-const styleCreate = (theme: IThemeContext) =>
+const stylesCreate = (theme: IThemeContext) =>
   StyleSheet.create({
     main: {
       flex: 1,
@@ -16,4 +16,4 @@ const styleCreate = (theme: IThemeContext) =>
     },
   });
 
-export default styleCreate;
+export default stylesCreate;

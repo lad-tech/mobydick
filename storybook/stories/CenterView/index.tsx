@@ -5,11 +5,11 @@ import {ThemeProvider, useStyles, useTheme} from '@npm/mobydick-styles';
 import {PopupsProvider} from '@npm/mobydick-popups';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
-import styleCreate from './style';
+import stylesCreate from './stylesCreate';
 
 const Wrapper: FC = ({children}) => {
   const {currentTheme, setCurrentTheme} = useTheme();
-  const [styles] = useStyles(styleCreate);
+  const [styles] = useStyles(stylesCreate);
 
   return (
     <View style={styles.main}>

@@ -51,7 +51,9 @@ export function getIncrementedVersion(
   const updateStage = (raw: string): string => {
     const [name, no] = (raw || '').split('.') as [string, string];
 
-    if (!raw || name !== options.stage) return `${options.stage}.0`;
+    if (!raw || name !== options.stage) {
+      return `${options.stage}.0`;
+    }
 
     return `${name}.${parseInt(no, 10) + 1}`;
   };
