@@ -5,7 +5,6 @@ import {View} from '@npm/mobydick-core';
 const SwipeExample = () => {
   const [isActive, setActive] = useState(false);
 
-  console.log('toggle', isActive);
   return (
     <>
       <Swipe onPress={setActive} active={isActive} disabled={false} />
