@@ -36,6 +36,7 @@ const stylesCreate = (theme: IThemeContext, itemType?: IItemType) => {
         return {
           borderRadius: spaces.Space12,
           marginBottom: spaces.Space8,
+          justifyContent: 'center',
         };
     }
   };

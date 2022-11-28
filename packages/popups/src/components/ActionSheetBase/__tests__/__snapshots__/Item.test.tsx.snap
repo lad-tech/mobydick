@@ -421,7 +421,7 @@ exports[`@npm/mobydick-popups/ActionSheetBase should renders correctly Item with
         "alignItems": "center",
         "borderRadius": 18,
         "flexDirection": "row",
-        "justifyContent": "space-between",
+        "justifyContent": "center",
         "marginBottom": 12,
         "marginHorizontal": 12,
         "minHeight": 75,
