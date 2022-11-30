@@ -1,4 +1,4 @@
-import {IThemeContext} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
 import {ICounterSize, ICounterTypes} from './types';
@@ -8,14 +8,13 @@ const stylesCreate = (
   size: ICounterSize,
   type?: ICounterTypes,
 ) => {
-  const defaultSize = size === ICounterSize.medium ? 24 : 18;
+  const defaultSize = size === ICounterSize.medium ? spaces.Space24 : rem(18);
 
   const getBackgroundColor = () => {
-    switch (type) {
-      case ICounterTypes.tertiary:
-        return {backgroundColor: colors.ElementBase};
-      default:
-        return {backgroundColor: colors.ElementWhite};
+    if (type === ICounterTypes.tertiary) {
+      return {backgroundColor: colors.ElementBase};
+    } else {
+      return {backgroundColor: colors.ElementWhite};
     }
   };
 
