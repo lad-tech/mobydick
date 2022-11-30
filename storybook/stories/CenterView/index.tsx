@@ -3,12 +3,13 @@ import {View} from '@npm/mobydick-core';
 import {Button, IButtonTypes} from '@npm/mobydick-cta';
 import {ThemeProvider, useStyles, useTheme} from '@npm/mobydick-styles';
 import {PopupsProvider} from '@npm/mobydick-popups';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
 
-import styleCreate from './style';
+import stylesCreate from './stylesCreate';
 
 const Wrapper: FC = ({children}) => {
   const {currentTheme, setCurrentTheme} = useTheme();
-  const [styles] = useStyles(styleCreate);
+  const [styles] = useStyles(stylesCreate);
 
   return (
     <View style={styles.main}>
@@ -30,10 +31,12 @@ export default function CenterView({
   children: React.ReactNode;
 }): JSX.Element {
   return (
-    <ThemeProvider>
-      <PopupsProvider>
-        <Wrapper>{children}</Wrapper>
-      </PopupsProvider>
-    </ThemeProvider>
+    <SafeAreaProvider>
+      <ThemeProvider>
+        <PopupsProvider>
+          <Wrapper>{children}</Wrapper>
+        </PopupsProvider>
+      </ThemeProvider>
+    </SafeAreaProvider>
   );
 }

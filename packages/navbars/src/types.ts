@@ -2,8 +2,8 @@ import {ReactElement} from 'react';
 import {ViewStyle} from 'react-native';
 import {TypographyProp} from '@npm/mobydick-typography';
 
-export interface ITab {
-  value: string | number;
+export interface ITab<T extends string | number = string | number> {
+  value: T;
   label: string;
   onPress?(): void;
   leftIcon?: ReactElement;

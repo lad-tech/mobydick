@@ -1,7 +1,8 @@
 import React, {FC, RefObject, useMemo, useState} from 'react';
-import {Animated, Dimensions, StyleProp, ViewStyle} from 'react-native';
+import {Animated, StyleProp, ViewStyle} from 'react-native';
 import {useStyles} from '@npm/mobydick-styles';
 import {ITouchableOpacity} from '@npm/mobydick-core';
+import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
 import {PopupBase} from '../PopupBase';
 import {IPopup, IPosition} from '../../types';
@@ -12,8 +13,6 @@ import DescriptionText from './DescriptionText';
 import Arrow from './Arrow';
 import LeftButton from './LeftButton';
 import {IPlacement} from './types';
-
-const {height} = Dimensions.get('window');
 
 const TooltipBase: FC<
   Omit<IPopup, 'Content'> & {
@@ -39,7 +38,7 @@ const TooltipBase: FC<
     refCurrent,
   } = props;
   const [styles] = useStyles(stylesCreate);
-  const {width} = Dimensions.get('window');
+  const {width, height} = useSafeAreaFrame();
 
   const [positionValueY, setPositionValueY] = useState(0);
   const [positionValueX, setPositionValueX] = useState(0);

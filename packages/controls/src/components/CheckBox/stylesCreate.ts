@@ -3,8 +3,8 @@ import {StyleSheet} from 'react-native';
 
 const stylesCreate = (
   themeColors: IThemeContext,
-  disabled?: boolean,
-  selected?: boolean,
+  disabled = false,
+  selected = false,
 ) => {
   const {colors, spaces} = themeColors;
 

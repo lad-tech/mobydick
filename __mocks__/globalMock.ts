@@ -34,3 +34,17 @@ jest.mock('react-native/Libraries/Utilities/BackHandler', () => {
     'react-native/Libraries/Utilities/__mocks__/BackHandler.js',
   );
 });
+
+jest.mock('react-native-safe-area-context', () => {
+  return jest.requireActual('react-native-safe-area-context/jest/mock').default;
+});
+
+jest.mock('react-native/Libraries/Interaction/PanResponder', () => {
+  const real = jest.requireActual(
+    'react-native/Libraries/Interaction/PanResponder',
+  );
+  return {
+    ...real,
+    create: (config: any) => ({panHandlers: config}),
+  };
+});

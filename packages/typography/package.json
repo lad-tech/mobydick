@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-typography",
-  "version": "2.1.3",
+  "version": "3.0.0",
   "description": "Typography on MobyDick core",
   "main": "index.ts",
   "files": [
@@ -16,8 +16,8 @@
     "react": ">=17.0.2"
   },
   "dependencies": {
-    "@npm/mobydick-styles": "2.1.3",
-    "@npm/mobydick-core": "2.1.3"
+    "@npm/mobydick-styles": "3.0.0",
+    "@npm/mobydick-core": "3.0.0"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
