@@ -214,49 +214,7 @@ exports[`@npm/mobydick-cta/Button renders correctly disabled 1`] = `
       "opacity": 1,
     }
   }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "alignSelf": "center",
-          "backgroundColor": "#FFF",
-          "borderRadius": 18,
-          "height": 36,
-          "justifyContent": "center",
-          "minWidth": 36,
-          "position": "absolute",
-          "zIndex": 1,
-        },
-        Object {
-          "marginLeft": 3,
-          "position": "relative",
-        },
-      ]
-    }
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Array [
-          Object {
-            "color": "#FFF",
-            "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-          },
-          Object {
-            "color": "#9BA1B0",
-            "paddingHorizontal": 9,
-          },
-        ]
-      }
-    >
-      6
-    </Text>
-  </View>
-</View>
+/>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly fixed 1`] = `
@@ -684,7 +642,7 @@ exports[`@npm/mobydick-cta/Button renders correctly loading types 2`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-cta/Button renders correctly loading without type 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly loading types 3`] = `
 <View
   accessibilityState={
     Object {
@@ -752,13 +710,13 @@ exports[`@npm/mobydick-cta/Button renders correctly loading without type 1`] = `
         ]
       }
     >
-      2
+      23
     </Text>
   </View>
 </View>
 `;
 
-exports[`@npm/mobydick-cta/Button renders correctly secondary 1`] = `
+exports[`@npm/mobydick-cta/Button renders correctly loading types 4`] = `
 <View
   accessibilityState={
     Object {
@@ -826,10 +784,348 @@ exports[`@npm/mobydick-cta/Button renders correctly secondary 1`] = `
         ]
       }
     >
-      2
+      23
     </Text>
   </View>
 </View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly loading types 5`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "transparent",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2B78EE",
+          "borderRadius": 18,
+          "height": 36,
+          "justifyContent": "center",
+          "minWidth": 36,
+          "position": "absolute",
+          "zIndex": 1,
+        },
+        Object {
+          "marginLeft": 3,
+          "position": "relative",
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 24,
+            "lineHeight": 30,
+          },
+          Object {
+            "color": "#FFF",
+            "paddingHorizontal": 9,
+          },
+        ]
+      }
+    >
+      23
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly loading types 6`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#9BA1B0",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#FFF",
+          "borderRadius": 18,
+          "height": 36,
+          "justifyContent": "center",
+          "minWidth": 36,
+          "position": "absolute",
+          "zIndex": 1,
+        },
+        Object {
+          "marginLeft": 3,
+          "position": "relative",
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 24,
+            "lineHeight": 30,
+          },
+          Object {
+            "color": "#9BA1B0",
+            "paddingHorizontal": 9,
+          },
+        ]
+      }
+    >
+      23
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly loading types 7`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "alignSelf": "center",
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
+    }
+  >
+    <SvgMock
+      fill="#FFF"
+      height="24"
+      width="24"
+    />
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly loading types 8`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#F54D3D",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#FFF",
+          "borderRadius": 18,
+          "height": 36,
+          "justifyContent": "center",
+          "minWidth": 36,
+          "position": "absolute",
+          "zIndex": 1,
+        },
+        Object {
+          "marginLeft": 3,
+          "position": "relative",
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 24,
+            "lineHeight": 30,
+          },
+          Object {
+            "color": "#F54D3D",
+            "paddingHorizontal": 9,
+          },
+        ]
+      }
+    >
+      23
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly loading without type 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`@npm/mobydick-cta/Button renders correctly secondary 1`] = `
+<View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+      "borderRadius": 18,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 72,
+      "opacity": 1,
+    }
+  }
+/>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly small 1`] = `
@@ -947,49 +1243,7 @@ exports[`@npm/mobydick-cta/Button renders correctly tertiary 1`] = `
       "opacity": 1,
     }
   }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
-          "borderRadius": 18,
-          "height": 36,
-          "justifyContent": "center",
-          "minWidth": 36,
-          "position": "absolute",
-          "zIndex": 1,
-        },
-        Object {
-          "marginLeft": 3,
-          "position": "relative",
-        },
-      ]
-    }
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Array [
-          Object {
-            "color": "#FFF",
-            "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-          },
-          Object {
-            "color": "#FFF",
-            "paddingHorizontal": 9,
-          },
-        ]
-      }
-    >
-      4
-    </Text>
-  </View>
-</View>
+/>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly text 1`] = `

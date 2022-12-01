@@ -16,16 +16,16 @@ describe('@npm/mobydick-cta/Button', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly secondary', () => {
-    const {toJSON} = render(<Button type={IButtonTypes.secondary} count={2} />);
+    const {toJSON} = render(<Button type={IButtonTypes.secondary} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly tertiary', () => {
-    const {toJSON} = render(<Button type={IButtonTypes.tertiary} count={4} />);
+    const {toJSON} = render(<Button type={IButtonTypes.tertiary} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly disabled', () => {
     const {toJSON} = render(
-      <Button type={IButtonTypes.disabled} disabled={true} count={6} />,
+      <Button type={IButtonTypes.disabled} disabled={true} />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
@@ -103,7 +103,7 @@ describe('@npm/mobydick-cta/Button', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly loading without type', () => {
-    const {toJSON} = render(<Button type={'' as IButtonTypes} count={2} />);
+    const {toJSON} = render(<Button type={'' as IButtonTypes} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it.each([IButtonTypes.tertiary, IButtonTypes.secondary])(
@@ -120,4 +120,11 @@ describe('@npm/mobydick-cta/Button', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
+  it.each(Object.values(IButtonTypes))(
+    'renders correctly loading types',
+    type => {
+      const {toJSON} = render(<Button type={type} count={23} />);
+      expect(toJSON()).toMatchSnapshot();
+    },
+  );
 });
