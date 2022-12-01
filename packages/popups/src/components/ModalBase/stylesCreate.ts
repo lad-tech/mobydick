@@ -15,30 +15,43 @@ const stylesCreate = (theme: IThemeContext) => {
       alignItems: 'center',
       width: width - spaces.Space8 * 2,
       padding: spaces.Space20,
-      marginVertical: spaces.Space20,
+      marginVertical: spaces.Space24,
     },
     closeButton: {
       alignSelf: 'flex-end',
       justifyContent: 'center',
+      position: 'absolute',
+      top: spaces.Space16,
+      right: spaces.Space16,
     },
     alertView: {
       borderRadius: 100,
       padding: spaces.Space12,
-      marginTop: spaces.Space24,
       backgroundColor: colors.BgAccentSoft,
     },
     text: {
       marginTop: spaces.Space24,
       textAlign: 'center',
     },
+    contentText: {
+      marginTop: spaces.Space12,
+      marginBottom: spaces.Space8,
+    },
+    title: {
+      textAlign: 'center',
+    },
+    description: {
+      textAlign: 'center',
+      paddingTop: spaces.Space8,
+    },
     verticalButtonsView: {
-      marginTop: spaces.Space24,
+      marginTop: spaces.Space20,
       alignSelf: 'stretch',
       alignItems: 'center',
     },
     horizontalButtonsView: {
       flexDirection: 'row',
-      paddingTop: spaces.Space24,
+      paddingTop: spaces.Space20,
     },
     horizontalLeftButton: {
       flex: 1,
@@ -49,7 +62,7 @@ const stylesCreate = (theme: IThemeContext) => {
       marginLeft: spaces.Space6,
     },
     imageView: {
-      marginTop: spaces.Space24,
+      marginBottom: spaces.Space4,
     },
   });
 };
