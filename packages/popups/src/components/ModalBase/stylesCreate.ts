@@ -33,7 +33,7 @@ const stylesCreate = (theme: IThemeContext) => {
       marginTop: spaces.Space24,
       textAlign: 'center',
     },
-    contentText: {
+    textContent: {
       marginTop: spaces.Space12,
       marginBottom: spaces.Space8,
     },

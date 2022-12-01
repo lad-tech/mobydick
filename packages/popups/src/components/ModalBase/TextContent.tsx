@@ -7,7 +7,7 @@ import {IContentTextProps} from '../PopupBase';
 
 import stylesCreate from './stylesCreate';
 
-const ContentText: FC<IContentTextProps> = props => {
+const TextContent: FC<IContentTextProps> = props => {
   const {
     title,
     titleStyles,
@@ -19,7 +19,7 @@ const ContentText: FC<IContentTextProps> = props => {
   const [styles] = useStyles(stylesCreate);
 
   return (
-    <View style={styles.contentText}>
+    <View style={styles.textContent}>
       {Boolean(title) && (
         <Typography
           style={[styles.title, titleStyles]}
@@ -37,4 +37,4 @@ const ContentText: FC<IContentTextProps> = props => {
     </View>
   );
 };
-export default ContentText;
+export default TextContent;

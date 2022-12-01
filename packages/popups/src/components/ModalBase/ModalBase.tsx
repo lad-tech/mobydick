@@ -16,7 +16,7 @@ import AlertContent from './AlertContent';
 import VerticalButton from './VerticalButton';
 import ImageView from './ImageView';
 import stylesCreate from './stylesCreate';
-import ContentText from './ContentText';
+import TextContent from './TextContent';
 
 const ModalBase: FC<
   Omit<IPopup, 'Content'> & {
@@ -32,7 +32,7 @@ const ModalBase: FC<
   VerticalButton: typeof VerticalButton;
   AlertContent: typeof AlertContent;
   ImageView: typeof ImageView;
-  ContentText: typeof ContentText;
+  ContentText: typeof TextContent;
 } = props => {
   const {children, overlayStyle, onClose, containerStyle} = props;
   const [styles] = useStyles(stylesCreate);
@@ -58,5 +58,5 @@ ModalBase.HorizontalButtonsView = HorizontalButtonsView;
 ModalBase.AlertContent = AlertContent;
 ModalBase.VerticalButton = VerticalButton;
 ModalBase.ImageView = ImageView;
-ModalBase.ContentText = ContentText;
+ModalBase.ContentText = TextContent;
 export default ModalBase;
