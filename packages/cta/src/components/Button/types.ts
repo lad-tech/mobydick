@@ -12,6 +12,7 @@ type IProps = {
   rightIcon?: ReactElement;
   loading?: boolean;
   size?: IButtonSize;
+  count?: number;
 };
 
 export enum IButtonTypes {
