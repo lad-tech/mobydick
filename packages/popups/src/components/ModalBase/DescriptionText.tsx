@@ -7,7 +7,7 @@ import {IDescriptionTextPopup} from '../PopupBase';
 import stylesCreate from './stylesCreate';
 
 /**
- * @deprecated use ContentText.tsx
+ * @deprecated use TextContent.tsx
  */
 const DescriptionText: FC<IDescriptionTextPopup> = props => {
   const {descriptionText, descriptionStyles, descriptionFont} = props;

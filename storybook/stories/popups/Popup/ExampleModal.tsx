@@ -119,8 +119,10 @@ const NestedExampleModal: FC<IContentProps> = props => {
   return (
     <ModalBase {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
-      <ModalBase.Title title={'Вложенная Модалка'} />
-      <ModalBase.TextContent descriptionText={'Это просто пример'} />
+      <ModalBase.TextContent
+        title={'Вложенная Модалка'}
+        descriptionText={'Это просто пример'}
+      />
       <ModalBase.VerticalButtonsView>
         <ModalBase.VerticalButton
           onPress={() => popupContext.openPopup({Content: ExampleModal})}

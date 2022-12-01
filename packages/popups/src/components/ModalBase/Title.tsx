@@ -7,7 +7,7 @@ import {ITitlePopup} from '../PopupBase';
 import stylesCreate from './stylesCreate';
 
 /**
- * @deprecated use ContentText.tsx
+ * @deprecated use TextContent.tsx
  */
 
 const Title: FC<ITitlePopup> = props => {
