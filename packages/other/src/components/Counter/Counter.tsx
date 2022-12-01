@@ -8,17 +8,19 @@ import stylesCreate from './stylesCreate';
 import {ICounterSize, ICounterTypes} from './types';
 
 interface IProps {
+  count: number;
   type?: ICounterTypes;
-  count?: number;
   style?: ViewStyle | ViewStyle[];
   size?: ICounterSize;
+  maxLength?: number;
 }
 
 const Counter: FC<IProps> = ({
-  count = 0,
+  count,
   style,
   size = ICounterSize.medium,
   type,
+  maxLength = 2,
 }) => {
   const [styles] = useStyles(stylesCreate, size, type);
   const {fontStyle} = useFont(
@@ -29,7 +31,10 @@ const Counter: FC<IProps> = ({
     return null;
   }
 
-  const text = count > 99 ? '99+' : count.toString();
+  const lastNumber = `${'9'.repeat(maxLength)}+`;
+
+  const text =
+    count.toString().length > maxLength ? lastNumber : count.toString();
 
   return (
     <View style={[styles.badge, style]}>

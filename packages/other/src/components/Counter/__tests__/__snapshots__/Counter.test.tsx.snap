@@ -84,11 +84,128 @@ exports[`Counter render counter ICounterSize.small 1`] = `
 </View>
 `;
 
-exports[`Counter render counter ICounterTypes.destructive 1`] = `null`;
+exports[`Counter render counter ICounterTypes.destructive 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 18,
+        "height": 36,
+        "justifyContent": "center",
+        "minWidth": 36,
+        "position": "absolute",
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#FFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 24,
+          "lineHeight": 30,
+        },
+        Object {
+          "color": "#F54D3D",
+          "paddingHorizontal": 9,
+        },
+      ]
+    }
+  >
+    2
+  </Text>
+</View>
+`;
 
-exports[`Counter render counter ICounterTypes.disabled 1`] = `null`;
+exports[`Counter render counter ICounterTypes.disabled 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 18,
+        "height": 36,
+        "justifyContent": "center",
+        "minWidth": 36,
+        "position": "absolute",
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#FFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 24,
+          "lineHeight": 30,
+        },
+        Object {
+          "color": "#9BA1B0",
+          "paddingHorizontal": 9,
+        },
+      ]
+    }
+  >
+    10
+  </Text>
+</View>
+`;
 
-exports[`Counter render counter ICounterTypes.primary 1`] = `null`;
+exports[`Counter render counter ICounterTypes.primary 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 18,
+        "height": 36,
+        "justifyContent": "center",
+        "minWidth": 36,
+        "position": "absolute",
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#FFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 24,
+          "lineHeight": 30,
+        },
+        Object {
+          "color": "#2B78EE",
+          "paddingHorizontal": 9,
+        },
+      ]
+    }
+  >
+    9+
+  </Text>
+</View>
+`;
 
 exports[`Counter render counter ICounterTypes.secondary 1`] = `
 <View
@@ -131,6 +248,86 @@ exports[`Counter render counter ICounterTypes.secondary 1`] = `
 </View>
 `;
 
-exports[`Counter render counter ICounterTypes.tertiary 1`] = `null`;
+exports[`Counter render counter ICounterTypes.tertiary 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 18,
+        "height": 36,
+        "justifyContent": "center",
+        "minWidth": 36,
+        "position": "absolute",
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#FFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 24,
+          "lineHeight": 30,
+        },
+        Object {
+          "color": "#FFF",
+          "paddingHorizontal": 9,
+        },
+      ]
+    }
+  >
+    10
+  </Text>
+</View>
+`;
 
-exports[`Counter render counter style 1`] = `null`;
+exports[`Counter render counter style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 18,
+        "height": 36,
+        "justifyContent": "center",
+        "minWidth": 36,
+        "position": "absolute",
+        "zIndex": 1,
+      },
+      Object {
+        "backgroundColor": "#FFF",
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#FFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 24,
+          "lineHeight": 30,
+        },
+        Object {
+          "color": "#FFF",
+          "paddingHorizontal": 9,
+        },
+      ]
+    }
+  >
+    20
+  </Text>
+</View>
+`;

@@ -34,7 +34,8 @@ const CounterExample = () => {
           bottom: number('bottom three counter', -40),
           backgroundColor: '#ff0000',
         }}
-        count={100}
+        count={number('three count', 100)}
+        maxLength={number('three counter 2 -> 99+, 3->999+', 2)}
         size={select('size three counter', ICounterSize, ICounterSize.small)}
       />
       <Button text={'Кнопка'} type={IButtonTypes.destructive} />
