@@ -3,11 +3,11 @@ import {Typography} from '@npm/mobydick-typography';
 import React, {FC} from 'react';
 import {useStyles} from '@npm/mobydick-styles';
 
-import {IContentTextProps} from '../PopupBase';
+import {ITextContentProps} from '../PopupBase';
 
 import stylesCreate from './stylesCreate';
 
-const TextContent: FC<IContentTextProps> = props => {
+const TextContent: FC<ITextContentProps> = props => {
   const {
     title,
     titleStyles,

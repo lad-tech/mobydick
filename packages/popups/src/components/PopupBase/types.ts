@@ -15,7 +15,7 @@ export interface IDescriptionTextPopup {
   descriptionFont?: TypographyProp;
 }
 
-export interface IContentTextProps {
+export interface ITextContentProps {
   title?: string;
   titleStyles?: TextStyle | TextStyle[];
   titleFont?: TypographyProp;
