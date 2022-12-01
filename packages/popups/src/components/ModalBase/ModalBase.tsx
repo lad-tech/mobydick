@@ -32,7 +32,7 @@ const ModalBase: FC<
   VerticalButton: typeof VerticalButton;
   AlertContent: typeof AlertContent;
   ImageView: typeof ImageView;
-  ContentText: typeof TextContent;
+  TextContent: typeof TextContent;
 } = props => {
   const {children, overlayStyle, onClose, containerStyle} = props;
   const [styles] = useStyles(stylesCreate);
@@ -58,5 +58,5 @@ ModalBase.HorizontalButtonsView = HorizontalButtonsView;
 ModalBase.AlertContent = AlertContent;
 ModalBase.VerticalButton = VerticalButton;
 ModalBase.ImageView = ImageView;
-ModalBase.ContentText = TextContent;
+ModalBase.TextContent = TextContent;
 export default ModalBase;

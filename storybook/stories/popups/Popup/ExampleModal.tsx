@@ -36,7 +36,7 @@ const ExampleModal: FC<IContentProps> = props => {
         <ModalBase.ImageView image={<ImageModal />} />
       )}
 
-      <ModalBase.ContentText
+      <ModalBase.TextContent
         title={text('Title text ', 'Нет доступа к камере')}
         titleFont={titleFont}
         descriptionText={text(
@@ -120,7 +120,7 @@ const NestedExampleModal: FC<IContentProps> = props => {
     <ModalBase {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
       <ModalBase.Title title={'Вложенная Модалка'} />
-      <ModalBase.DescriptionText descriptionText={'Это просто пример'} />
+      <ModalBase.TextContent descriptionText={'Это просто пример'} />
       <ModalBase.VerticalButtonsView>
         <ModalBase.VerticalButton
           onPress={() => popupContext.openPopup({Content: ExampleModal})}
