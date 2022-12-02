@@ -1,9 +1,5 @@
-import ModalErrorHorizontalButtons from './ModalErrorHorizontalButtons';
-import ModalErrorOneButton from './ModalErrorOneButton';
-import ModalErrorVerticalButtons from './ModalErrorVerticalButtons';
+import ModalError from './ModalError';
+import ModalLoading from './ModalLoading';
+import ModalSuccess from './ModalSuccess';
 
-export {
-  ModalErrorHorizontalButtons,
-  ModalErrorOneButton,
-  ModalErrorVerticalButtons,
-};
+export {ModalError, ModalLoading, ModalSuccess};

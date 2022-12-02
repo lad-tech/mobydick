@@ -1,12 +1,12 @@
 import {
-  ModalErrorHorizontalButtons,
-  ModalErrorOneButton,
-  ModalErrorVerticalButtons,
+  ModalError,
+  ModalLoading,
+  ModalSuccess,
   usePopups,
 } from '@npm/mobydick-popups';
 import React, {useState} from 'react';
 import {View} from '@npm/mobydick-core';
-import {Button, IButtonTypes} from '@npm/mobydick-cta';
+import {Button} from '@npm/mobydick-cta';
 
 import ExampleModal from './ExampleModal';
 
@@ -24,43 +24,41 @@ const PopupModalExample = () => {
     });
   };
 
-  const onPressModalErrorVerticalButtons = () => {
+  const onPressModalSuccess = () => {
     popupContext.openPopup({
       Content: propsFromPopup => (
-        <ModalErrorVerticalButtons
+        <ModalSuccess
           {...propsFromPopup}
-          title={'Ошибка при оформлении'}
-          descriptionText={'Помогите'}
+          title={'Success'}
+          descriptionText={'This is a success message'}
         />
       ),
     });
   };
 
-  const onPressModalErrorOneButton = () => {
+  const onPressModalLoading = () => {
     popupContext.openPopup({
       Content: propsFromPopup => (
-        <ModalErrorOneButton
+        <ModalLoading
           {...propsFromPopup}
-          title={'Ошибка при оформлении'}
-          descriptionText={'Помогите'}
+          title={'Loading...'}
+          descriptionText={'Please wait'}
+          buttonText={'Cancel'}
         />
       ),
     });
   };
 
-  const onPressModalErrorHorizontalButtons = () => {
+  const onPressModalError = () => {
     popupContext.openPopup({
       Content: propsFromPopup => (
-        <ModalErrorHorizontalButtons
+        <ModalError
           {...propsFromPopup}
-          title={'Ошибка при оформлении'}
-          descriptionText={'Помогите'}
-          onPressLeft={() => console.log('onPressLeft')}
+          title={'Delete account?'}
+          descriptionText={'You will permanently lose your data'}
           onPressRight={() => console.log('onPressRight')}
-          typeLeft={IButtonTypes.tertiary}
-          typeRight={IButtonTypes.destructive}
-          textLeft={'Отмена'}
-          textRight={'Выйти'}
+          textLeft={'Cancel'}
+          textRight={'Delete'}
         />
       ),
     });
@@ -69,24 +67,21 @@ const PopupModalExample = () => {
   return (
     <View>
       <Button
-        text={'Open Modal'}
+        text={'Open modal constructor'}
         onPress={onPress}
         style={{marginBottom: 10}}
       />
       <Button
-        text={'Open Modal Error One Button'}
-        onPress={onPressModalErrorOneButton}
+        text={'Open modal loading'}
+        onPress={onPressModalLoading}
         style={{marginBottom: 10}}
       />
       <Button
-        text={'Open Modal Error Vertical Buttons'}
-        onPress={onPressModalErrorVerticalButtons}
+        text={'Open modal success'}
+        onPress={onPressModalSuccess}
         style={{marginBottom: 10}}
       />
-      <Button
-        text={'Open Modal Error Horizontal Buttons'}
-        onPress={onPressModalErrorHorizontalButtons}
-      />
+      <Button text={'Open modal error'} onPress={onPressModalError} />
     </View>
   );
 };

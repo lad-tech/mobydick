@@ -1,0 +1,509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-popups/modalError should renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "justifyContent": "flex-end",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ],
+    ]
+  }
+  testID="Pressable"
+>
+  <View
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderRadius": 18,
+          "justifyContent": "center",
+          "marginVertical": 36,
+          "padding": 30,
+          "width": 726,
+        },
+        Object {
+          "maxWidth": 450,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "borderRadius": 100,
+            "padding": 18,
+          },
+          Object {
+            "backgroundColor": "rgba(245, 77, 61, 0.15)",
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Object {
+            "color": "#F54D3D",
+            "fontFamily": "Neotis",
+            "fontSize": 54,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 12,
+          "marginTop": 18,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-SemiBold",
+              "fontSize": 27,
+              "lineHeight": 33,
+            },
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        title
+      </Text>
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 21,
+              "lineHeight": 27,
+            },
+            Array [
+              Object {
+                "paddingTop": 12,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        descriptionText
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "backgroundColor": "transparent",
+            "borderRadius": 18,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginRight": 9,
+            "minHeight": 72,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Array [
+              Object {
+                "color": "#FFF",
+                "fontFamily": "Inter-SemiBold",
+                "fontSize": 27,
+                "lineHeight": 33,
+              },
+              Array [
+                Object {
+                  "color": "#2B78EE",
+                  "paddingHorizontal": 9,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Отмена
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "backgroundColor": "#F54D3D",
+            "borderRadius": 18,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginLeft": 9,
+            "minHeight": 72,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Array [
+              Object {
+                "color": "#FFF",
+                "fontFamily": "Inter-SemiBold",
+                "fontSize": 27,
+                "lineHeight": 33,
+              },
+              Array [
+                Object {
+                  "color": "#FFF",
+                  "paddingHorizontal": 9,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Удалить
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-popups/modalError should renders correctly with optional 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "justifyContent": "flex-end",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ],
+    ]
+  }
+  testID="Pressable"
+>
+  <View
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderRadius": 18,
+          "justifyContent": "center",
+          "marginVertical": 36,
+          "padding": 30,
+          "width": 726,
+        },
+        Object {
+          "maxWidth": 450,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "borderRadius": 100,
+            "padding": 18,
+          },
+          Object {
+            "backgroundColor": "rgba(245, 77, 61, 0.15)",
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Object {
+            "color": "#F54D3D",
+            "fontFamily": "Neotis",
+            "fontSize": 54,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 12,
+          "marginTop": 18,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-SemiBold",
+              "fontSize": 27,
+              "lineHeight": 33,
+            },
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        title
+      </Text>
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 21,
+              "lineHeight": 27,
+            },
+            Array [
+              Object {
+                "paddingTop": 12,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        descriptionText
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "backgroundColor": "#2B78EE",
+            "borderRadius": 18,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginRight": 9,
+            "minHeight": 72,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Array [
+              Object {
+                "color": "#FFF",
+                "fontFamily": "Inter-SemiBold",
+                "fontSize": 27,
+                "lineHeight": 33,
+              },
+              Array [
+                Object {
+                  "color": "#FFF",
+                  "paddingHorizontal": 9,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          textLeft
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "backgroundColor": "#2B78EE",
+            "borderRadius": 18,
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginLeft": 9,
+            "minHeight": 72,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Array [
+              Object {
+                "color": "#FFF",
+                "fontFamily": "Inter-SemiBold",
+                "fontSize": 27,
+                "lineHeight": 33,
+              },
+              Array [
+                Object {
+                  "color": "#FFF",
+                  "paddingHorizontal": 9,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          textRight
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
