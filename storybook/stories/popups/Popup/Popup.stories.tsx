@@ -1,4 +1,4 @@
-import React, {RefObject, useRef, useState} from 'react';
+import React, {RefObject, useRef} from 'react';
 import {storiesOf} from '@storybook/react-native';
 import {Button, IButtonSize} from '@npm/mobydick-cta';
 import {usePopups} from '@npm/mobydick-popups';
@@ -6,26 +6,10 @@ import {ITouchableOpacity, View} from '@npm/mobydick-core';
 
 import CenterView from '../../CenterView';
 
-import ExampleModal from './ExampleModal';
 import ExampleSnackbar from './ExampleSnackbar';
 import ExampleActionSheet from './ExampleActionSheet';
 import ExampleTooltip from './ExampleTooltip';
-
-const PopupExample = () => {
-  const popupContext = usePopups();
-  const [popupCount, setPopupCount] = useState(0);
-
-  const onPress = () => {
-    const newCount = popupCount + 1;
-
-    setPopupCount(newCount);
-
-    popupContext.openPopup({
-      Content: ExampleModal,
-    });
-  };
-  return <Button text={'Open Popup'} onPress={onPress} />;
-};
+import PopupModalExample from './PopupModalExample';
 
 const PopupTooltipExample = () => {
   const popupContext = usePopups();
@@ -133,7 +117,7 @@ const ActionSheetPopupExample = () => {
 };
 storiesOf('Design System/Popups/Popup', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
-  .add('Modal', () => <PopupExample />)
+  .add('Modal', () => <PopupModalExample />)
   .add('Snackbar', () => <SnackbarPopupExample />)
   .add('Action sheet', () => <ActionSheetPopupExample />)
 

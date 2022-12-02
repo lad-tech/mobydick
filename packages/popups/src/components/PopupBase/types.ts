@@ -16,11 +16,11 @@ export interface IDescriptionTextPopup {
 }
 
 export interface ITextContentProps {
-  title?: string;
+  title?: string | undefined;
   titleStyles?: TextStyle | TextStyle[];
   titleFont?: TypographyProp;
 
-  descriptionText?: string;
+  descriptionText?: string | undefined;
   descriptionStyles?: TextStyle | TextStyle[];
   descriptionFont?: TypographyProp;
 }

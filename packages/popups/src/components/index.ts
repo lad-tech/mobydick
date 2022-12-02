@@ -3,3 +3,4 @@ export * from './ModalBase';
 export * from './SnackbarBase';
 export * from './TooltipBase';
 export * from './ActionSheetBase';
+export * from './Modals';
