@@ -36,21 +36,16 @@ const ExampleModal: FC<IContentProps> = props => {
         <ModalBase.ImageView image={<ImageModal />} />
       )}
 
-      {boolean('show title', true) && (
-        <ModalBase.Title
-          title={text('Title text ', 'Нет доступа к камере')}
-          titleFont={titleFont}
-        />
-      )}
-      {boolean('show description text', true) && (
-        <ModalBase.DescriptionText
-          descriptionText={text(
-            'Description text',
-            'Разрешите доступ к камере в настройках, чтобы сканировать штрихкод или QR-код на картах',
-          )}
-          descriptionFont={descriptionFont}
-        />
-      )}
+      <ModalBase.TextContent
+        title={text('Title text ', 'Нет доступа к камере')}
+        titleFont={titleFont}
+        descriptionText={text(
+          'Description text',
+          'Разрешите доступ к камере в настройках, чтобы сканировать штрихкод или QR-код на картах',
+        )}
+        descriptionFont={descriptionFont}
+      />
+
       {boolean('show vertical button', false) && (
         <ModalBase.VerticalButtonsView>
           <ModalBase.VerticalButton
@@ -124,8 +119,10 @@ const NestedExampleModal: FC<IContentProps> = props => {
   return (
     <ModalBase {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
-      <ModalBase.Title title={'Вложенная Модалка'} />
-      <ModalBase.DescriptionText descriptionText={'Это просто пример'} />
+      <ModalBase.TextContent
+        title={'Вложенная Модалка'}
+        descriptionText={'Это просто пример'}
+      />
       <ModalBase.VerticalButtonsView>
         <ModalBase.VerticalButton
           onPress={() => popupContext.openPopup({Content: ExampleModal})}

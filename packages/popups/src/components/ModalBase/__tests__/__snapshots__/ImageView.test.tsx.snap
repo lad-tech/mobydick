@@ -5,7 +5,7 @@ exports[`@npm/mobydick-popups/ImageView should renders correctly 1`] = `
   style={
     Array [
       Object {
-        "marginTop": 36,
+        "marginBottom": 6,
       },
       undefined,
     ]
@@ -20,7 +20,7 @@ exports[`@npm/mobydick-popups/ImageView should renders correctly with styles 1`]
   style={
     Array [
       Object {
-        "marginTop": 36,
+        "marginBottom": 6,
       },
       Object {
         "flex": 1,
