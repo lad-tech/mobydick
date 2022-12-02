@@ -7,14 +7,9 @@ import {ModalBase} from '../ModalBase';
 import {IContentProps} from '../../types';
 
 import stylesCreate from './stylesCreate';
+import {IModalProps} from './types';
 
-interface IProps {
-  title: string;
-  descriptionText: string;
-  buttonText?: string;
-}
-
-const ModalLoading: FC<IContentProps & IProps> = props => {
+const ModalLoading: FC<IContentProps & IModalProps> = props => {
   const {onClose, title, descriptionText, buttonText} = props;
   const [styles] = useStyles(stylesCreate);
 

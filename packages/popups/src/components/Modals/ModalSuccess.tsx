@@ -5,14 +5,9 @@ import {ModalBase} from '../ModalBase';
 import {IContentProps} from '../../types';
 
 import stylesCreate from './stylesCreate';
+import {IModalProps} from './types';
 
-interface IProps {
-  title: string;
-  descriptionText: string;
-  buttonText?: string;
-}
-
-const ModalSuccess: FC<IContentProps & IProps> = props => {
+const ModalSuccess: FC<IContentProps & IModalProps> = props => {
   const {onClose, title, descriptionText, buttonText} = props;
   const [styles] = useStyles(stylesCreate);
 
