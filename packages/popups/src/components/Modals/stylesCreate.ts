@@ -1,4 +1,4 @@
-import {IThemeContext, rem} from '@npm/mobydick-styles';
+import {IThemeContext} from '@npm/mobydick-styles';
 import {StyleSheet} from 'react-native';
 
 const stylesCreate = (_theme: IThemeContext) => {
@@ -7,7 +7,7 @@ const stylesCreate = (_theme: IThemeContext) => {
       justifyContent: 'center',
     },
     container: {
-      maxWidth: rem(300),
+      maxWidth: '80%',
     },
   });
 };

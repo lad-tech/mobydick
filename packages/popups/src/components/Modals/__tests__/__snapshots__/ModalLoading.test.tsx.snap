@@ -49,7 +49,7 @@ exports[`@npm/mobydick-popups/modalLoading should renders correctly 1`] = `
           "width": 726,
         },
         Object {
-          "maxWidth": 450,
+          "maxWidth": "80%",
         },
       ]
     }
@@ -240,7 +240,7 @@ exports[`@npm/mobydick-popups/modalLoading should renders correctly with optiona
           "width": 726,
         },
         Object {
-          "maxWidth": 450,
+          "maxWidth": "80%",
         },
       ]
     }
