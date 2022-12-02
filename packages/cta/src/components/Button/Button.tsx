@@ -3,6 +3,9 @@ import React, {FC, forwardRef} from 'react';
 import {ISizeSpinner, Spinner} from '@npm/mobydick-progress';
 import {useStyles} from '@npm/mobydick-styles';
 import {Typography} from '@npm/mobydick-typography';
+import {Counter, ICounterSize} from '@npm/mobydick-other';
+
+import {getCounterType} from '../../utils';
 
 import {IButtonProps, IButtonSize, IButtonTypes} from './types';
 import stylesCreate from './stylesCreate';
@@ -19,6 +22,7 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     disabled = false,
     textStyle,
     font,
+    count,
     ...otherProps
   } = props;
   const [styles, theme] = useStyles(
@@ -32,6 +36,9 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
 
   const defaultFont =
     size === IButtonSize.small ? 'SemiBold-White-XS' : 'SemiBold-White-L';
+
+  const counterSize =
+    size === IButtonSize.small ? ICounterSize.small : ICounterSize.medium;
 
   const Container: FC = ({children}) => (
     <TouchableOpacity
@@ -81,6 +88,14 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
         </Typography>
       )}
       {rightIcon}
+      {count ? (
+        <Counter
+          count={count}
+          size={counterSize}
+          type={getCounterType(type)}
+          style={styles.counter}
+        />
+      ) : null}
     </Container>
   );
 });

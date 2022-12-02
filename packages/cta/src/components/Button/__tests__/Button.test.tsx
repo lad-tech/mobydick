@@ -31,7 +31,11 @@ describe('@npm/mobydick-cta/Button', () => {
   });
   it('renders correctly destructive', () => {
     const {toJSON} = render(
-      <Button type={IButtonTypes.destructive} size={IButtonSize.fixed} />,
+      <Button
+        type={IButtonTypes.destructive}
+        size={IButtonSize.fixed}
+        count={2}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
@@ -99,9 +103,7 @@ describe('@npm/mobydick-cta/Button', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly loading without type', () => {
-    const {toJSON} = render(
-      <Button type={'' as IButtonTypes} loading={true} />,
-    );
+    const {toJSON} = render(<Button type={'' as IButtonTypes} />);
     expect(toJSON()).toMatchSnapshot();
   });
   it.each([IButtonTypes.tertiary, IButtonTypes.secondary])(
@@ -118,4 +120,11 @@ describe('@npm/mobydick-cta/Button', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
+  it.each(Object.values(IButtonTypes))(
+    'renders correctly loading types',
+    type => {
+      const {toJSON} = render(<Button type={type} count={23} />);
+      expect(toJSON()).toMatchSnapshot();
+    },
+  );
 });

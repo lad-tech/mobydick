@@ -86,6 +86,10 @@ const primaryStyle = ({
       paddingHorizontal:
         size === IButtonSize.small ? theme.spaces.Space4 : theme.spaces.Space6,
     },
+    counter: {
+      position: 'relative',
+      marginLeft: theme.spaces.Space2,
+    },
   });
 };
 
