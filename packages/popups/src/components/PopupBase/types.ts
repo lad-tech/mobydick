@@ -15,6 +15,16 @@ export interface IDescriptionTextPopup {
   descriptionFont?: TypographyProp;
 }
 
+export interface ITextContentProps {
+  title?: string;
+  titleStyles?: TextStyle | TextStyle[];
+  titleFont?: TypographyProp;
+
+  descriptionText?: string;
+  descriptionStyles?: TextStyle | TextStyle[];
+  descriptionFont?: TypographyProp;
+}
+
 export interface IPopupCloseIcon {
   onPress(): void;
 }

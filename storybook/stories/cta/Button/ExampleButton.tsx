@@ -110,6 +110,7 @@ const ExampleButton = () => {
           size={size}
           font={font}
           style={{minWidth: minWidth}}
+          count={number('count', 0)}
         />
       );
   }

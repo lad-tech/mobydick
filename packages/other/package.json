@@ -1,7 +1,7 @@
 {
-  "name": "@npm/mobydick-navbars",
+  "name": "@npm/mobydick-other",
   "version": "3.0.0",
-  "description": "React Native components library focused on usability, accessibility and developer experience",
+  "description": "Other for MobyDick",
   "main": "index.ts",
   "files": [
     "src"
@@ -26,6 +26,6 @@
   "repository": {
     "type": "git",
     "url": "https://glab.lad24.ru/npm/mobydick.git",
-    "directory": "packages/navbars"
+    "directory": "packages/other"
   }
 }
