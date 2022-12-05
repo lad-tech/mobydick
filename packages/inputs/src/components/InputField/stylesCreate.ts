@@ -32,6 +32,7 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
       fontSize: spaces.Space16,
       lineHeight: spaces.Space20,
       fontWeight: '400',
+      color: colors.TextPrimary,
     },
   });
 };
