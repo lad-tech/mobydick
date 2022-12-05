@@ -29,8 +29,8 @@
     "packages/*"
   ],
   "dependencies": {
-    "react": "17.0.2",
-    "react-native": "0.68.0",
+    "react": "18.1.0",
+    "react-native": "0.70.6",
     "react-native-safe-area-context": "^4.4.1",
     "react-native-svg": "12.3.0",
     "react-native-svg-transformer": "1.0.0"
@@ -63,10 +63,10 @@
     "husky": "^7.0.4",
     "jest": "^26.6.3",
     "jest-sonar-reporter": "^2.0.0",
-    "metro-react-native-babel-preset": "^0.67.0",
+    "metro-react-native-babel-preset": "^0.72.3",
     "prettier": "^2.6.2",
     "react-dom": "17.0.2",
-    "react-test-renderer": "17.0.2",
+    "react-test-renderer": "18.1.0",
     "semantic-release": "^19.0.3",
     "simple-git": "^3.10.0",
     "ts-node": "^10.9.1",
@@ -74,11 +74,8 @@
     "winston": "^3.8.1"
   },
   "resolutions": {
-    "@types/react": "17.0.43",
-    "async": "2.6.4",
     "browserslist": "4.16.5",
     "ejs": "3.1.7",
-    "eventsource": "1.1.1",
     "glob-parent": "5.1.2",
     "highlight.js": "10.4.1",
     "immer": "9.0.6",
@@ -86,10 +83,9 @@
     "prismjs": "1.27.0",
     "react-dev-utils": "11.0.4",
     "shell-quote": "1.7.3",
-    "terser": "4.8.1",
     "parse-url": "8.1.0",
     "minimatch": "3.0.5",
-    "loader-utils": "3.2.1",
-    "deep-object-diff": "1.1.9"
+    "decode-uri-component": "0.2.1",
+    "loader-utils": "3.2.1"
   }
 }

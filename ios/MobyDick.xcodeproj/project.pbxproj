@@ -14,11 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-MobyDick-MobyDickTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MobyDick-MobyDickTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9E2BEF21E9EF4B36833E0BD9 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DE6282E9E44477A941D5A7E /* Inter-Medium.ttf */; };
-		AD6040C5BFD34B44BCF67468 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85EEF1C3748A414C83EB4388 /* Inter-Bold.ttf */; };
-		BC11BFDA64834FA983F47089 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD9E1C35FC934272AD5243E3 /* Inter-SemiBold.ttf */; };
-		DF3425FF693342BEAF14D22F /* Neotis.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 007030EB909C43C9B37B7E19 /* Neotis.ttf */; };
-		F33D5AB7E19549ADBA8ACFC0 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6C2482001EE4876B031EABB /* Inter-Regular.ttf */; };
+		5C6265A5C2814A1BAD0588DF /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3931E3800D44683AD92E347 /* Inter-Bold.ttf */; };
+		DD6B08446B5D47F8B9B60599 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF0B4CFB056B413FAF6F53CA /* Inter-Medium.ttf */; };
+		446A07771B3E4878A49AFA25 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35A8E16E16144BEE8379680C /* Inter-Regular.ttf */; };
+		B631B406539D479B8F1E97E4 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63ACB69005684CE8AEDC2A55 /* Inter-SemiBold.ttf */; };
+		A28D5A9922AA45CE98BCEE3E /* Neotis.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F90EC764829A44FEBBCF0DF1 /* Neotis.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007030EB909C43C9B37B7E19 /* Neotis.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Neotis.ttf; path = "../node_modules/@npm/mobydick-styles/src/icons/font/assets/fonts/Neotis.ttf"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* MobyDickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobyDickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MobyDickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobyDickTests.m; sourceTree = "<group>"; };
@@ -47,13 +46,14 @@
 		5709B34CF0A7D63546082F79 /* Pods-MobyDick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyDick.release.xcconfig"; path = "Target Support Files/Pods-MobyDick/Pods-MobyDick.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-MobyDick-MobyDickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyDick-MobyDickTests.debug.xcconfig"; path = "Target Support Files/Pods-MobyDick-MobyDickTests/Pods-MobyDick-MobyDickTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-MobyDick.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobyDick.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DE6282E9E44477A941D5A7E /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MobyDick/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85EEF1C3748A414C83EB4388 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MobyDick-MobyDickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyDick-MobyDickTests.release.xcconfig"; path = "Target Support Files/Pods-MobyDick-MobyDickTests/Pods-MobyDick-MobyDickTests.release.xcconfig"; sourceTree = "<group>"; };
-		B6C2482001EE4876B031EABB /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
-		BD9E1C35FC934272AD5243E3 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C3931E3800D44683AD92E347 /* Inter-Bold.ttf */ = {isa = PBXFileReference; name = "Inter-Bold.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF0B4CFB056B413FAF6F53CA /* Inter-Medium.ttf */ = {isa = PBXFileReference; name = "Inter-Medium.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		35A8E16E16144BEE8379680C /* Inter-Regular.ttf */ = {isa = PBXFileReference; name = "Inter-Regular.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63ACB69005684CE8AEDC2A55 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; name = "Inter-SemiBold.ttf"; path = "../node_modules/@npm/mobydick-typography/src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F90EC764829A44FEBBCF0DF1 /* Neotis.ttf */ = {isa = PBXFileReference; name = "Neotis.ttf"; path = "../node_modules/@npm/mobydick-styles/src/icons/font/assets/fonts/Neotis.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				C3E7227C555046F6A8508D94 /* Resources */,
+				44111AA4EE2B414D887989C0 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -159,17 +159,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C3E7227C555046F6A8508D94 /* Resources */ = {
-			isa = PBXGroup;
+		44111AA4EE2B414D887989C0 /* Resources */ = {
+			isa = "PBXGroup";
 			children = (
-				85EEF1C3748A414C83EB4388 /* Inter-Bold.ttf */,
-				6DE6282E9E44477A941D5A7E /* Inter-Medium.ttf */,
-				B6C2482001EE4876B031EABB /* Inter-Regular.ttf */,
-				BD9E1C35FC934272AD5243E3 /* Inter-SemiBold.ttf */,
-				007030EB909C43C9B37B7E19 /* Neotis.ttf */,
+				C3931E3800D44683AD92E347 /* Inter-Bold.ttf */,
+				AF0B4CFB056B413FAF6F53CA /* Inter-Medium.ttf */,
+				35A8E16E16144BEE8379680C /* Inter-Regular.ttf */,
+				63ACB69005684CE8AEDC2A55 /* Inter-SemiBold.ttf */,
+				F90EC764829A44FEBBCF0DF1 /* Neotis.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -267,11 +268,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				AD6040C5BFD34B44BCF67468 /* Inter-Bold.ttf in Resources */,
-				9E2BEF21E9EF4B36833E0BD9 /* Inter-Medium.ttf in Resources */,
-				F33D5AB7E19549ADBA8ACFC0 /* Inter-Regular.ttf in Resources */,
-				BC11BFDA64834FA983F47089 /* Inter-SemiBold.ttf in Resources */,
-				DF3425FF693342BEAF14D22F /* Neotis.ttf in Resources */,
+				5C6265A5C2814A1BAD0588DF /* Inter-Bold.ttf in Resources */,
+				DD6B08446B5D47F8B9B60599 /* Inter-Medium.ttf in Resources */,
+				446A07771B3E4878A49AFA25 /* Inter-Regular.ttf in Resources */,
+				B631B406539D479B8F1E97E4 /* Inter-SemiBold.ttf in Resources */,
+				A28D5A9922AA45CE98BCEE3E /* Neotis.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +285,15 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
 			);
 			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
 		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -464,7 +467,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MobyDickTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,7 +491,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = MobyDickTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,7 +531,6 @@
 				PRODUCT_NAME = MobyDick;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -554,7 +556,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobydick;
 				PRODUCT_NAME = MobyDick;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -608,7 +609,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -626,6 +627,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -672,7 +674,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -689,6 +691,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
