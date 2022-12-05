@@ -1,3 +1,38 @@
+# [4.0.0](https://glab.lad24.ru/npm/mobydick/compare/v3.0.0...v4.0.0) (2022-12-05)
+
+
+### Bug Fixes
+
+* **actionSheets:** if one button -> justifyContent: 'center', ([2c1df1c](https://glab.lad24.ru/npm/mobydick/commit/2c1df1c9f26e4e7083aeb213039e17f40e950ef7))
+* **modalBase:** change style ([5b4aa30](https://glab.lad24.ru/npm/mobydick/commit/5b4aa30a775e98f8591592c50eba2002f5ed6fe7))
+* **tooltip:** add rn-safe-area-context, replace height ([485bfa2](https://glab.lad24.ru/npm/mobydick/commit/485bfa2845e40c8398842285d3e590ee078969f9))
+* **tooltip:** fix style -> {alignItems: 'flex-start'} ([3db3813](https://glab.lad24.ru/npm/mobydick/commit/3db3813e4d22d37bcb18687c4b7a57404bbd675a))
+* **tooltip:** fix style -> {alignItems: 'flex-start'} ([e312e0c](https://glab.lad24.ru/npm/mobydick/commit/e312e0cc4a5ff64c0e9b6a7c7fd16d2a1c8371ea))
+* **tooltip:** update tests and readme ([2aefeb0](https://glab.lad24.ru/npm/mobydick/commit/2aefeb0168a916ab7635e1ae27ddf0aaed694a6e))
+
+
+### chore
+
+* **modal:** type, test ([ebabd0c](https://glab.lad24.ru/npm/mobydick/commit/ebabd0c531fa52dc143b934c6b4fb281b815afc4))
+
+
+### Features
+
+* **button:** add counter in button ([c4062d4](https://glab.lad24.ru/npm/mobydick/commit/c4062d478ad6a26b53c212ab72b5d11774090de4))
+* **counter:** add packages/other/counter ([d35741e](https://glab.lad24.ru/npm/mobydick/commit/d35741efe7c47b9377e46d08bdc3c566c94d1943))
+* **inputs:** add field - required ([cf51680](https://glab.lad24.ru/npm/mobydick/commit/cf516802e910b52d2df574e59a113e7f78375969))
+* **modal:** add modalError, modalLoading, modalSuccess ([3a3ac3c](https://glab.lad24.ru/npm/mobydick/commit/3a3ac3c4df55a17e6d367a7b7339721091a1a2aa))
+* **swipe:** add swipe ([fe74b21](https://glab.lad24.ru/npm/mobydick/commit/fe74b216dce349113561ad51d5ddce7f240cca43))
+* **tabs:** value: string | number -> value: T (T extends string | number = string | number) ([5b15cd6](https://glab.lad24.ru/npm/mobydick/commit/5b15cd63a82a1262ff7f6e99ae2f9b5d2f0060e3))
+* **utils:** add useDebounce, useLatest ([a122862](https://glab.lad24.ru/npm/mobydick/commit/a122862483808d018d6a44b0c1872ca14fc45fdb))
+
+
+### BREAKING CHANGES
+
+* **modal:** MODAL backgroundColor: colors.BgSecondary -> colors.BgPrimary
+* **modalBase:** change style, add ContentText
+* **inputs:** label -> title in dropdown!
+
 # [3.0.0](https://glab.lad24.ru/npm/mobydick/compare/v2.1.3...v3.0.0) (2022-11-23)
 
 

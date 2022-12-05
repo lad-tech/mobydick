@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-controls",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Controls on MobyDick core",
   "main": "index.ts",
   "files": [
@@ -16,8 +16,8 @@
     "react": ">=17.0.2"
   },
   "dependencies": {
-    "@npm/mobydick-styles": "3.0.0",
-    "@npm/mobydick-core": "3.0.0"
+    "@npm/mobydick-styles": "4.0.0",
+    "@npm/mobydick-core": "4.0.0"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
