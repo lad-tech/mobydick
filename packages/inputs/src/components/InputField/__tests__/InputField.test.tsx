@@ -1,5 +1,6 @@
 import React from 'react';
 import {act, render} from '@testing-library/react-native';
+import {Platform} from 'react-native';
 
 import InputField from '../InputField';
 import Constants from '../constants';
@@ -65,6 +66,19 @@ describe('@npm/mobydick-inputs/InputField', () => {
     expect(toJSON()).toMatchSnapshot();
 
     act(() => TextInput.props.onBlur());
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly secureTextEntry', () => {
+    Platform.OS = 'android';
+    const {toJSON} = render(
+      <InputField
+        title={'title'}
+        subtitle={'subtitle'}
+        subtitleIcon={'icon-account'}
+        secureTextEntry={true}
+      />,
+    );
 
     expect(toJSON()).toMatchSnapshot();
   });
