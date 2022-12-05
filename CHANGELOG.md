@@ -1,3 +1,10 @@
+## [4.0.1](https://glab.lad24.ru/npm/mobydick/compare/v4.0.0...v4.0.1) (2022-12-05)
+
+
+### Bug Fixes
+
+* **input:** secureTextEntry ? styles.secureTextInput : fontStyle ([af2084e](https://glab.lad24.ru/npm/mobydick/commit/af2084e4068901f6ef8c4932ac0b890e55238c4b))
+
 # [4.0.0](https://glab.lad24.ru/npm/mobydick/compare/v3.0.0...v4.0.0) (2022-12-05)
 
 
