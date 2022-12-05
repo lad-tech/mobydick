@@ -66,11 +66,14 @@ exports[`@npm/mobydick-inputs/InputField renders correctly 1`] = `
       style={
         Array [
           Object {
-            "color": "#20242D",
             "flex": 1,
+            "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
-            "padding": 0,
           },
           undefined,
         ]
@@ -163,11 +166,14 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 1`] = `
       style={
         Array [
           Object {
-            "color": "#20242D",
             "flex": 1,
+            "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
-            "padding": 0,
           },
           undefined,
         ]
@@ -220,11 +226,14 @@ exports[`@npm/mobydick-inputs/InputField renders correctly disabled 2`] = `
       style={
         Array [
           Object {
-            "color": "#20242D",
             "flex": 1,
+            "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
-            "padding": 0,
           },
           undefined,
         ]
@@ -277,11 +286,14 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 1`] = `
       style={
         Array [
           Object {
-            "color": "#20242D",
             "flex": 1,
+            "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
-            "padding": 0,
           },
           undefined,
         ]
@@ -334,17 +346,148 @@ exports[`@npm/mobydick-inputs/InputField renders correctly focused/blur 2`] = `
       style={
         Array [
           Object {
-            "color": "#20242D",
             "flex": 1,
+            "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
-            "padding": 0,
           },
           undefined,
         ]
       }
       testID="TextInput"
     />
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-inputs/InputField renders correctly secureTextEntry 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
+      }
+    >
+      title
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "transparent",
+          "borderRadius": 12,
+          "borderWidth": 1.5,
+          "flexDirection": "row",
+          "height": 72,
+          "justifyContent": "space-between",
+          "marginVertical": 12,
+          "paddingLeft": 27,
+          "paddingRight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      numberOfLines={1}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#9BA1B0"
+      secureTextEntry={true}
+      selectionColor="#2B78EE"
+      style={
+        Array [
+          Object {
+            "flex": 1,
+            "padding": 0,
+          },
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "normal",
+              "fontSize": 24,
+              "fontWeight": "400",
+              "lineHeight": 30,
+            },
+          ],
+          undefined,
+        ]
+      }
+      testID="TextInput"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#9BA1B0",
+          "fontFamily": "Neotis",
+          "fontSize": 24,
+          "marginRight": 6,
+        }
+      }
+    >
+      
+    </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#9BA1B0",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          Object {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      subtitle
+    </Text>
   </View>
 </View>
 `;
@@ -391,11 +534,14 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 1`] = `
       style={
         Array [
           Object {
-            "color": "#20242D",
             "flex": 1,
+            "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
-            "padding": 0,
           },
           undefined,
         ]
@@ -448,11 +594,14 @@ exports[`@npm/mobydick-inputs/InputField renders correctly valid 2`] = `
       style={
         Array [
           Object {
-            "color": "#20242D",
             "flex": 1,
+            "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
-            "padding": 0,
           },
           undefined,
         ]
@@ -505,11 +654,14 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 1`] = `
       style={
         Array [
           Object {
-            "color": "#20242D",
             "flex": 1,
+            "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
-            "padding": 0,
           },
           undefined,
         ]
@@ -602,11 +754,14 @@ exports[`@npm/mobydick-inputs/InputField renders correctly wrong 2`] = `
       style={
         Array [
           Object {
-            "color": "#20242D",
             "flex": 1,
+            "padding": 0,
+          },
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
-            "padding": 0,
           },
           undefined,
         ]

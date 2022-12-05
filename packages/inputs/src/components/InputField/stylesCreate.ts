@@ -26,9 +26,13 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
     textInput: {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
+    },
+    secureTextInput: {
+      fontFamily: 'normal',
       fontSize: spaces.Space16,
-      color: colors.TextPrimary,
       lineHeight: spaces.Space20,
+      fontWeight: '400',
+      color: colors.TextPrimary,
     },
   });
 };

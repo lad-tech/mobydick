@@ -1,8 +1,8 @@
 import {InputField, IInputsTypes} from '@npm/mobydick-inputs';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {iconNames, rem, SimpleIcon} from '@npm/mobydick-styles';
-import {action} from '@storybook/addon-actions';
-import React from 'react';
+import React, {useState} from 'react';
+import {Pressable} from '@npm/mobydick-core';
 
 const ExampleInput = () => {
   const subtitleIconName = select(
@@ -10,6 +10,8 @@ const ExampleInput = () => {
     iconNames,
     'icon-arrow-down',
   );
+  const [isSecureTextEntry, setSecureTextEntry] = useState(false);
+  const [value, setValue] = useState('');
 
   return (
     <InputField
@@ -21,13 +23,16 @@ const ExampleInput = () => {
         boolean('show subtitleIcon', false) ? subtitleIconName : undefined
       }
       rightIcon={
-        <SimpleIcon name={select('right Icon', iconNames, 'icon-show')} />
+        <Pressable onPress={() => setSecureTextEntry(!isSecureTextEntry)}>
+          <SimpleIcon name={select('right Icon', iconNames, 'icon-show')} />
+        </Pressable>
       }
       disabled={boolean('disabled', false)}
-      onChangeText={action('onChangeText')}
-      containerStyle={{width: rem(250)}}
-      secureTextEntry={boolean('secureTextEntry', false)}
+      onChangeText={setValue}
+      containerStyle={{width: rem(250), paddingBottom: 50}}
+      secureTextEntry={isSecureTextEntry}
       required={boolean('required', false)}
+      value={value}
     />
   );
 };
