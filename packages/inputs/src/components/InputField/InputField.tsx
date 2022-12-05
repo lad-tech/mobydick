@@ -58,7 +58,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     } else {
       return fontStyle;
     }
-  }, [secureTextEntry]);
+  }, [secureTextEntry, fontStyle.color]);
 
   return (
     <View style={[styles.container, containerStyle]}>
