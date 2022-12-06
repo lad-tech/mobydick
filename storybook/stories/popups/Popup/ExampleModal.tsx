@@ -14,7 +14,7 @@ const ExampleModal: FC<IContentProps> = props => {
   const popupContext = usePopups();
   const {colors} = useTheme();
   const {onClose} = props;
-  const titleFont = select('Title font', selectFont, 'SemiBold-Primary-XL');
+  const titleFont = select('Title font', selectFont, 'SemiBold-Primary-L');
   const descriptionFont = select(
     'Description font',
     selectFont,
