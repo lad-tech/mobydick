@@ -1,5 +1,6 @@
 import {Loader as LoaderSVG, useTheme} from '@npm/mobydick-styles';
 import React, {FC} from 'react';
+import {FillProps} from 'react-native-svg';
 
 import {ISizeSpinner, LoaderProps} from './types';
 
@@ -7,13 +8,7 @@ const Loader: FC<LoaderProps> = props => {
   const {size, fill, ...otherProps} = props;
   const {colors} = useTheme();
 
-  const getSize = (
-    color:
-      | string
-      | number
-      | ReadonlyArray<number>
-      | (symbol & {__TYPE__: 'Color'}),
-  ) => {
+  const getSize = (color: NonNullable<FillProps['fill']>) => {
     switch (size) {
       case ISizeSpinner.XXS:
         return (
