@@ -1,3 +1,10 @@
+## [4.0.2](https://glab.lad24.ru/npm/mobydick/compare/v4.0.1...v4.0.2) (2022-12-06)
+
+
+### Bug Fixes
+
+* move react-native-safe-area-context to peerDeps ([a39f7c4](https://glab.lad24.ru/npm/mobydick/commit/a39f7c4ea4d357b265d0464c63c8a3c4382735a5))
+
 ## [4.0.1](https://glab.lad24.ru/npm/mobydick/compare/v4.0.0...v4.0.1) (2022-12-05)
 
 
