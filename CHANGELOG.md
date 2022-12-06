@@ -1,3 +1,10 @@
+## [4.0.3](https://glab.lad24.ru/npm/mobydick/compare/v4.0.2...v4.0.3) (2022-12-06)
+
+
+### Bug Fixes
+
+* **Loader:** delete import {Color} from 'react-native-svg' ([0f670e4](https://glab.lad24.ru/npm/mobydick/commit/0f670e4b0cc94efa3cf44e9593c70a4a5b4cc91b))
+
 ## [4.0.2](https://glab.lad24.ru/npm/mobydick/compare/v4.0.1...v4.0.2) (2022-12-06)
 
 
