@@ -1,4 +1,4 @@
-import {useStyles} from '@npm/mobydick-styles';
+import {rem, useStyles} from '@npm/mobydick-styles';
 import React, {FC} from 'react';
 import {IButtonTypes} from '@npm/mobydick-cta';
 import {ISizeSpinner, Spinner} from '@npm/mobydick-progress';
@@ -18,7 +18,7 @@ const ModalLoading: FC<IContentProps & IModalProps> = props => {
       overlayStyle={styles.overlayStyle}
       containerStyle={styles.container}
       {...props}>
-      <Spinner size={ISizeSpinner.L} />
+      <Spinner size={ISizeSpinner.L} style={{margin: rem(6)}} />
       <ModalBase.TextContent title={title} descriptionText={descriptionText} />
 
       <ModalBase.VerticalButtonsView>

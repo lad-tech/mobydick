@@ -8,7 +8,8 @@ const stylesCreate = (
   size: ICounterSize,
   type?: ICounterTypes,
 ) => {
-  const defaultSize = size === ICounterSize.medium ? spaces.Space24 : rem(18);
+  const isMedium = size === ICounterSize.medium;
+  const defaultSize = isMedium ? spaces.Space24 : rem(18);
 
   const getBackgroundColor = () => {
     if (type === ICounterTypes.tertiary) {
@@ -45,7 +46,8 @@ const stylesCreate = (
       ...getBackgroundColor(),
     },
     text: {
-      paddingHorizontal: spaces.Space6,
+      textAlign: 'center',
+      paddingHorizontal: isMedium ? spaces.Space6 : spaces.Space4,
       ...getColorText(),
     },
   });

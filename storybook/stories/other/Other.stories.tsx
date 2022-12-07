@@ -11,13 +11,13 @@ const CounterExample = () => {
   return (
     <View>
       <Counter
+        count={number('one count', 3)}
         style={{top: number('top one counter', -40)}}
-        count={28}
         type={select('type one counter', ICounterTypes, ICounterTypes.tertiary)}
         size={select('size one counter', ICounterSize, ICounterSize.medium)}
       />
       <Counter
-        count={2}
+        count={number('two count', 2)}
         type={select(
           'type two counter',
           ICounterTypes,

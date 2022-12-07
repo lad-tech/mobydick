@@ -175,6 +175,7 @@ exports[`@npm/mobydick-cta/Button renders correctly destructive 1`] = `
           Object {
             "color": "#F54D3D",
             "paddingHorizontal": 9,
+            "textAlign": "center",
           },
         ]
       }
@@ -706,6 +707,7 @@ exports[`@npm/mobydick-cta/Button renders correctly loading types 3`] = `
           Object {
             "color": "#2B78EE",
             "paddingHorizontal": 9,
+            "textAlign": "center",
           },
         ]
       }
@@ -780,6 +782,7 @@ exports[`@npm/mobydick-cta/Button renders correctly loading types 4`] = `
           Object {
             "color": "#2B78EE",
             "paddingHorizontal": 9,
+            "textAlign": "center",
           },
         ]
       }
@@ -854,6 +857,7 @@ exports[`@npm/mobydick-cta/Button renders correctly loading types 5`] = `
           Object {
             "color": "#FFF",
             "paddingHorizontal": 9,
+            "textAlign": "center",
           },
         ]
       }
@@ -928,6 +932,7 @@ exports[`@npm/mobydick-cta/Button renders correctly loading types 6`] = `
           Object {
             "color": "#9BA1B0",
             "paddingHorizontal": 9,
+            "textAlign": "center",
           },
         ]
       }
@@ -1054,6 +1059,7 @@ exports[`@npm/mobydick-cta/Button renders correctly loading types 8`] = `
           Object {
             "color": "#F54D3D",
             "paddingHorizontal": 9,
+            "textAlign": "center",
           },
         ]
       }

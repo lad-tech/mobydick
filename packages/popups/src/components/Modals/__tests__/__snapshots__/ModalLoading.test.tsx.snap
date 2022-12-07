@@ -71,6 +71,11 @@ exports[`@npm/mobydick-popups/modalLoading should renders correctly 1`] = `
       <SvgMock
         fill="#2B78EE"
         height="48"
+        style={
+          Object {
+            "margin": 9,
+          }
+        }
         width="48"
       />
     </View>
@@ -263,6 +268,11 @@ exports[`@npm/mobydick-popups/modalLoading should renders correctly with optiona
       <SvgMock
         fill="#2B78EE"
         height="48"
+        style={
+          Object {
+            "margin": 9,
+          }
+        }
         width="48"
       />
     </View>
