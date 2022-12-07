@@ -53,12 +53,12 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
   const {fontStyle} = useFont('Regular-Primary-M');
 
   const getStyle = useMemo(() => {
-    if (secureTextEntry && Platform.OS === 'android') {
-      return [styles.secureTextInput];
+    if (Platform.OS === 'android') {
+      return [styles.androidTextInput];
     } else {
       return fontStyle;
     }
-  }, [secureTextEntry, fontStyle.color]);
+  }, [fontStyle.color]);
 
   return (
     <View style={[styles.container, containerStyle]}>

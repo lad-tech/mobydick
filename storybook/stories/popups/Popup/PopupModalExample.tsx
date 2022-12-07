@@ -7,6 +7,7 @@ import {
 import React, {useState} from 'react';
 import {View} from '@npm/mobydick-core';
 import {Button} from '@npm/mobydick-cta';
+import {text} from '@storybook/addon-knobs';
 
 import ExampleModal from './ExampleModal';
 
@@ -30,7 +31,10 @@ const PopupModalExample = () => {
         <ModalSuccess
           {...propsFromPopup}
           title={'Success'}
-          descriptionText={'This is a success message'}
+          descriptionText={text(
+            'Description text success message',
+            'This is a success message',
+          )}
         />
       ),
     });
@@ -42,7 +46,10 @@ const PopupModalExample = () => {
         <ModalLoading
           {...propsFromPopup}
           title={'Loading...'}
-          descriptionText={'Please wait'}
+          descriptionText={text(
+            'Description text loading message',
+            'Please wait',
+          )}
           buttonText={'Cancel'}
         />
       ),
@@ -55,7 +62,10 @@ const PopupModalExample = () => {
         <ModalError
           {...propsFromPopup}
           title={'Delete account?'}
-          descriptionText={'You will permanently lose your data'}
+          descriptionText={text(
+            'Description text error message',
+            'You will permanently lose your data',
+          )}
           onPressRight={() => console.log('onPressRight')}
           textLeft={'Cancel'}
           textRight={'Delete'}
