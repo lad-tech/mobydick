@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-other",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "Other for MobyDick",
   "main": "index.ts",
   "files": [
@@ -16,9 +16,9 @@
     "react": ">=17.0.2"
   },
   "dependencies": {
-    "@npm/mobydick-styles": "4.0.3",
-    "@npm/mobydick-core": "4.0.3",
-    "@npm/mobydick-typography": "4.0.3"
+    "@npm/mobydick-styles": "4.0.4",
+    "@npm/mobydick-core": "4.0.4",
+    "@npm/mobydick-typography": "4.0.4"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"

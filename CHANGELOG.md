@@ -1,3 +1,11 @@
+## [4.0.4](https://glab.lad24.ru/npm/mobydick/compare/v4.0.3...v4.0.4) (2022-12-07)
+
+
+### Bug Fixes
+
+* **input:** delete fontStyle for android and add addons in modal ([e3cb8a9](https://glab.lad24.ru/npm/mobydick/commit/e3cb8a968170054486164de6248c35cb22c2d583))
+* **Modal:** fix padding, storybook, delete _ruby ([6c8171d](https://glab.lad24.ru/npm/mobydick/commit/6c8171d8b471584ac339b2e59f2033c8a0f40973))
+
 ## [4.0.3](https://glab.lad24.ru/npm/mobydick/compare/v4.0.2...v4.0.3) (2022-12-06)
 
 
