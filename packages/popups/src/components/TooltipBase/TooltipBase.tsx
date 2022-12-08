@@ -55,13 +55,11 @@ const TooltipBase: FC<
   const timeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
-    if (!timeShow) {
-      return;
+    if (timeShow) {
+      timeout.current = setTimeout(() => {
+        onClose();
+      }, timeShow);
     }
-
-    timeout.current = setTimeout(() => {
-      onClose();
-    }, timeShow);
 
     return () => {
       timeout.current && clearTimeout(timeout.current);
