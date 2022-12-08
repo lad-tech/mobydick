@@ -1,5 +1,5 @@
 import React, {FC, RefObject} from 'react';
-import {boolean, select, text} from '@storybook/addon-knobs';
+import {boolean, number, select, text} from '@storybook/addon-knobs';
 import {
   IContentProps,
   IPlacement,
@@ -37,6 +37,7 @@ const ExampleTooltip: FC<
     'Description text',
     'Это займет меньше минуты, а\nплюшек станет больше!',
   );
+  const timeShow = number('Timeshow, ms', 0);
 
   switch (select('View tooltip', ITypeTooltip, ITypeTooltip.onlyTitle)) {
     case ITypeTooltip.onlyTitle: {
@@ -46,6 +47,7 @@ const ExampleTooltip: FC<
           onClose={props.onClose}
           position={position}
           placement={placement}
+          timeShow={timeShow}
           overlayStyle={props.overlayStyle}>
           <TooltipBase.Title title={titleText} />
           {boolean('With arrow', isArrow) ? (
@@ -61,6 +63,7 @@ const ExampleTooltip: FC<
           onClose={props.onClose}
           position={position}
           placement={placement}
+          timeShow={timeShow}
           overlayStyle={props.overlayStyle}>
           <TooltipBase.Title
             title={titleText}
@@ -81,6 +84,7 @@ const ExampleTooltip: FC<
           onClose={props.onClose}
           position={position}
           placement={placement}
+          timeShow={timeShow}
           overlayStyle={props.overlayStyle}>
           <TooltipBase.Title
             title={titleText}

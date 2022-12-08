@@ -1,5 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly Timeshow  1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+      ],
+    ]
+  }
+  testID="Pressable"
+>
+  <View
+    collapsable={false}
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#20242D",
+        "borderRadius": 12,
+        "justifyContent": "center",
+        "marginVertical": 12,
+        "paddingHorizontal": 24,
+        "paddingVertical": 12,
+        "position": "absolute",
+        "right": 32,
+        "top": 2411,
+        "zIndex": 1,
+      }
+    }
+  />
+</View>
+`;
+
 exports[`@npm/mobydick-popups/TooltipBase/TooltipBase should renders correctly bottom center 1`] = `
 <View
   accessible={true}
