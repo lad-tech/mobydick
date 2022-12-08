@@ -1,3 +1,15 @@
+# [4.1.0](https://glab.lad24.ru/npm/mobydick/compare/v4.0.4...v4.1.0) (2022-12-08)
+
+
+### Bug Fixes
+
+* **counter:** center counter, add padding in ModalLoading ([ec4b5ee](https://glab.lad24.ru/npm/mobydick/commit/ec4b5eeee672ba577ea1b290c7db0456e7acbba7))
+
+
+### Features
+
+* **tooltip:** add timeShow ([165fe14](https://glab.lad24.ru/npm/mobydick/commit/165fe147a4cf64e910b8890a16d025a35c46d652))
+
 ## [4.0.4](https://glab.lad24.ru/npm/mobydick/compare/v4.0.3...v4.0.4) (2022-12-07)
 
 
