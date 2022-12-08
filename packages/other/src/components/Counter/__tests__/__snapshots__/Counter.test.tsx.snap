@@ -34,6 +34,7 @@ exports[`Counter render counter ICounterSize.medium 1`] = `
         Object {
           "color": "#FFF",
           "paddingHorizontal": 9,
+          "textAlign": "center",
         },
       ]
     }
@@ -74,7 +75,8 @@ exports[`Counter render counter ICounterSize.small 1`] = `
         },
         Object {
           "color": "#FFF",
-          "paddingHorizontal": 9,
+          "paddingHorizontal": 6,
+          "textAlign": "center",
         },
       ]
     }
@@ -116,6 +118,7 @@ exports[`Counter render counter ICounterTypes.destructive 1`] = `
         Object {
           "color": "#F54D3D",
           "paddingHorizontal": 9,
+          "textAlign": "center",
         },
       ]
     }
@@ -157,6 +160,7 @@ exports[`Counter render counter ICounterTypes.disabled 1`] = `
         Object {
           "color": "#9BA1B0",
           "paddingHorizontal": 9,
+          "textAlign": "center",
         },
       ]
     }
@@ -198,6 +202,7 @@ exports[`Counter render counter ICounterTypes.primary 1`] = `
         Object {
           "color": "#2B78EE",
           "paddingHorizontal": 9,
+          "textAlign": "center",
         },
       ]
     }
@@ -239,6 +244,7 @@ exports[`Counter render counter ICounterTypes.secondary 1`] = `
         Object {
           "color": "#2B78EE",
           "paddingHorizontal": 9,
+          "textAlign": "center",
         },
       ]
     }
@@ -280,6 +286,7 @@ exports[`Counter render counter ICounterTypes.tertiary 1`] = `
         Object {
           "color": "#FFF",
           "paddingHorizontal": 9,
+          "textAlign": "center",
         },
       ]
     }
@@ -323,6 +330,7 @@ exports[`Counter render counter style 1`] = `
         Object {
           "color": "#FFF",
           "paddingHorizontal": 9,
+          "textAlign": "center",
         },
       ]
     }
