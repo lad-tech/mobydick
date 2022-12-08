@@ -1,4 +1,11 @@
-import React, {FC, RefObject, useMemo, useState} from 'react';
+import React, {
+  FC,
+  RefObject,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from 'react';
 import {Animated, StyleProp, ViewStyle} from 'react-native';
 import {useStyles} from '@npm/mobydick-styles';
 import {ITouchableOpacity} from '@npm/mobydick-core';
@@ -21,6 +28,7 @@ const TooltipBase: FC<
     position: IPosition;
     placement: IPlacement;
     refCurrent: RefObject<ITouchableOpacity>;
+    timeShow?: number;
   }
 > & {
   Title: typeof Title;
@@ -36,12 +44,29 @@ const TooltipBase: FC<
     position,
     placement,
     refCurrent,
+    timeShow,
   } = props;
   const [styles] = useStyles(stylesCreate);
   const {width, height} = useSafeAreaFrame();
 
   const [positionValueY, setPositionValueY] = useState(0);
   const [positionValueX, setPositionValueX] = useState(0);
+
+  const timeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    if (!timeShow) {
+      return;
+    }
+
+    timeout.current = setTimeout(() => {
+      onClose();
+    }, timeShow);
+
+    return () => {
+      timeout.current && clearTimeout(timeout.current);
+    };
+  }, []);
 
   useMemo(() => {
     refCurrent?.current?.measure((_x, _y, _width, _height, _pageX, pageY) => {
