@@ -75,7 +75,7 @@ exports[`Search render correctly with value 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
 </View>
@@ -110,7 +110,7 @@ exports[`Search render correctly without value 1`] = `
       }
     }
   >
-    
+    
   </Text>
   <TextInput
     accessibilityLabel="search"
