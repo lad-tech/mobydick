@@ -215,49 +215,7 @@ exports[`@npm/mobydick-cta/Button renders correctly disabled 1`] = `
       "opacity": 1,
     }
   }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "alignSelf": "center",
-          "backgroundColor": "#FFF",
-          "borderRadius": 18,
-          "height": 36,
-          "justifyContent": "center",
-          "minWidth": 36,
-          "position": "absolute",
-          "zIndex": 1,
-        },
-        Object {
-          "marginLeft": 3,
-          "position": "relative",
-        },
-      ]
-    }
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Array [
-          Object {
-            "color": "#FFF",
-            "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-          },
-          Object {
-            "color": "#9BA1B0",
-            "paddingHorizontal": 9,
-          },
-        ]
-      }
-    >
-      6
-    </Text>
-  </View>
-</View>
+/>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly fixed 1`] = `
@@ -989,7 +947,7 @@ exports[`@npm/mobydick-cta/Button renders correctly loading types 7`] = `
 <View
   accessibilityState={
     Object {
-      "disabled": false,
+      "disabled": true,
     }
   }
   accessible={true}
@@ -1016,45 +974,23 @@ exports[`@npm/mobydick-cta/Button renders correctly loading types 7`] = `
   }
 >
   <View
+    collapsable={false}
     style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "alignSelf": "center",
-          "backgroundColor": "#FFF",
-          "borderRadius": 18,
-          "height": 36,
-          "justifyContent": "center",
-          "minWidth": 36,
-          "position": "absolute",
-          "zIndex": 1,
-        },
-        Object {
-          "marginLeft": 3,
-          "position": "relative",
-        },
-      ]
+      Object {
+        "alignSelf": "center",
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+      }
     }
   >
-    <Text
-      allowFontScaling={true}
-      style={
-        Array [
-          Object {
-            "color": "#FFF",
-            "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-          },
-          Object {
-            "color": "#2B78EE",
-            "paddingHorizontal": 9,
-          },
-        ]
-      }
-    >
-      2
-    </Text>
+    <SvgMock
+      fill="#FFF"
+      height="24"
+      width="24"
+    />
   </View>
 </View>
 `;
@@ -1195,49 +1131,7 @@ exports[`@npm/mobydick-cta/Button renders correctly secondary 1`] = `
       "opacity": 1,
     }
   }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "alignSelf": "center",
-          "backgroundColor": "#FFF",
-          "borderRadius": 18,
-          "height": 36,
-          "justifyContent": "center",
-          "minWidth": 36,
-          "position": "absolute",
-          "zIndex": 1,
-        },
-        Object {
-          "marginLeft": 3,
-          "position": "relative",
-        },
-      ]
-    }
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Array [
-          Object {
-            "color": "#FFF",
-            "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-          },
-          Object {
-            "color": "#2B78EE",
-            "paddingHorizontal": 9,
-          },
-        ]
-      }
-    >
-      2
-    </Text>
-  </View>
-</View>
+/>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly small 1`] = `
@@ -1355,49 +1249,7 @@ exports[`@npm/mobydick-cta/Button renders correctly tertiary 1`] = `
       "opacity": 1,
     }
   }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
-          "borderRadius": 18,
-          "height": 36,
-          "justifyContent": "center",
-          "minWidth": 36,
-          "position": "absolute",
-          "zIndex": 1,
-        },
-        Object {
-          "marginLeft": 3,
-          "position": "relative",
-        },
-      ]
-    }
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        Array [
-          Object {
-            "color": "#FFF",
-            "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-          },
-          Object {
-            "color": "#FFF",
-            "paddingHorizontal": 9,
-          },
-        ]
-      }
-    >
-      4
-    </Text>
-  </View>
-</View>
+/>
 `;
 
 exports[`@npm/mobydick-cta/Button renders correctly text 1`] = `
