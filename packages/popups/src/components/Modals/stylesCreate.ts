@@ -1,13 +1,20 @@
 import {IThemeContext} from '@npm/mobydick-styles';
-import {StyleSheet} from 'react-native';
+import {Dimensions, StyleSheet} from 'react-native';
 
-const stylesCreate = (_theme: IThemeContext) => {
+const {width: WIDTH} = Dimensions.get('window');
+
+const stylesCreate = ({colors, spaces}: IThemeContext) => {
   return StyleSheet.create({
     overlayStyle: {
       justifyContent: 'center',
     },
     container: {
       maxWidth: '80%',
+    },
+    contentCalendar: {
+      width: WIDTH - spaces.Space8 * 2,
+      paddingHorizontal: 14,
+      backgroundColor: colors.BgSecondary,
     },
   });
 };

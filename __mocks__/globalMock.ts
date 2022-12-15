@@ -48,3 +48,14 @@ jest.mock('react-native/Libraries/Interaction/PanResponder', () => {
     create: (config: any) => ({panHandlers: config}),
   };
 });
+
+jest.mock('react-native-calendars', () => {
+  const real = jest.requireActual('react-native-calendars');
+
+  real.Calendar.defaultProps = {
+    initialDate: '8.01.2022',
+  };
+  return {
+    ...real,
+  };
+});
