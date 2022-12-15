@@ -45,11 +45,11 @@ describe('Calendar', () => {
     fireEvent.press(dateEnd);
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2022-05-15T00:00:00.000Z',
-      dateEnd: '2022-12-17T00:00:00.000Z',
+      dateEnd: '2022-07-17T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2022-12-17T00:00:00.000Z',
-      dateEnd: '2022-12-25T00:00:00.000Z',
+      dateStart: '2022-07-17T00:00:00.000Z',
+      dateEnd: '2022-07-25T00:00:00.000Z',
     });
   });
 
@@ -64,11 +64,11 @@ describe('Calendar', () => {
 
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2022-05-15T00:00:00.000Z',
-      dateEnd: '2022-12-17T00:00:00.000Z',
+      dateEnd: '2022-07-17T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2022-12-14T00:00:00.000Z',
-      dateEnd: '2022-12-17T00:00:00.000Z',
+      dateStart: '2022-07-14T00:00:00.000Z',
+      dateEnd: '2022-07-17T00:00:00.000Z',
     });
   });
 });
