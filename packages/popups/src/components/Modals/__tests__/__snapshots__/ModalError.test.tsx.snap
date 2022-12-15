@@ -44,8 +44,9 @@ exports[`@npm/mobydick-popups/modalError should renders correctly 1`] = `
           "backgroundColor": "#FFF",
           "borderRadius": 18,
           "justifyContent": "center",
-          "marginVertical": 36,
-          "padding": 30,
+          "marginVertical": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 36,
           "width": 726,
         },
         Object {
@@ -78,7 +79,7 @@ exports[`@npm/mobydick-popups/modalError should renders correctly 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -298,8 +299,9 @@ exports[`@npm/mobydick-popups/modalError should renders correctly with optional 
           "backgroundColor": "#FFF",
           "borderRadius": 18,
           "justifyContent": "center",
-          "marginVertical": 36,
-          "padding": 30,
+          "marginVertical": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 36,
           "width": 726,
         },
         Object {
@@ -332,7 +334,7 @@ exports[`@npm/mobydick-popups/modalError should renders correctly with optional 
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View

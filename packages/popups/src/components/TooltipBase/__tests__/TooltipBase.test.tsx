@@ -10,6 +10,7 @@ import {IPlacement} from '../types';
 import {IPosition} from '../../../types';
 
 describe('@npm/mobydick-popups/TooltipBase/TooltipBase', () => {
+  jest.useFakeTimers();
   let buttonRef: React.RefObject<ITouchableOpacity>;
   beforeEach(() => {
     buttonRef = React.createRef();
@@ -73,6 +74,23 @@ describe('@npm/mobydick-popups/TooltipBase/TooltipBase', () => {
       </SafeAreaProvider>,
     );
 
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('should renders correctly Timeshow ', () => {
+    const onClose = jest.fn();
+    const {toJSON} = render(
+      <SafeAreaProvider>
+        <TooltipBase
+          id={'id'}
+          onClose={onClose}
+          timeShow={3000}
+          position={IPosition.top}
+          placement={IPlacement.end}
+          refCurrent={buttonRef}
+        />
+      </SafeAreaProvider>,
+    );
+    jest.runAllTimers();
     expect(toJSON()).toMatchSnapshot();
   });
 });

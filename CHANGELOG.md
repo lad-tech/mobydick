@@ -1,3 +1,37 @@
+# [4.1.0](https://glab.lad24.ru/npm/mobydick/compare/v4.0.4...v4.1.0) (2022-12-08)
+
+
+### Bug Fixes
+
+* **counter:** center counter, add padding in ModalLoading ([ec4b5ee](https://glab.lad24.ru/npm/mobydick/commit/ec4b5eeee672ba577ea1b290c7db0456e7acbba7))
+
+
+### Features
+
+* **tooltip:** add timeShow ([165fe14](https://glab.lad24.ru/npm/mobydick/commit/165fe147a4cf64e910b8890a16d025a35c46d652))
+
+## [4.0.4](https://glab.lad24.ru/npm/mobydick/compare/v4.0.3...v4.0.4) (2022-12-07)
+
+
+### Bug Fixes
+
+* **input:** delete fontStyle for android and add addons in modal ([e3cb8a9](https://glab.lad24.ru/npm/mobydick/commit/e3cb8a968170054486164de6248c35cb22c2d583))
+* **Modal:** fix padding, storybook, delete _ruby ([6c8171d](https://glab.lad24.ru/npm/mobydick/commit/6c8171d8b471584ac339b2e59f2033c8a0f40973))
+
+## [4.0.3](https://glab.lad24.ru/npm/mobydick/compare/v4.0.2...v4.0.3) (2022-12-06)
+
+
+### Bug Fixes
+
+* **Loader:** delete import {Color} from 'react-native-svg' ([0f670e4](https://glab.lad24.ru/npm/mobydick/commit/0f670e4b0cc94efa3cf44e9593c70a4a5b4cc91b))
+
+## [4.0.2](https://glab.lad24.ru/npm/mobydick/compare/v4.0.1...v4.0.2) (2022-12-06)
+
+
+### Bug Fixes
+
+* move react-native-safe-area-context to peerDeps ([a39f7c4](https://glab.lad24.ru/npm/mobydick/commit/a39f7c4ea4d357b265d0464c63c8a3c4382735a5))
+
 ## [4.0.1](https://glab.lad24.ru/npm/mobydick/compare/v4.0.0...v4.0.1) (2022-12-05)
 
 

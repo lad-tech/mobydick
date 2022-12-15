@@ -14,7 +14,7 @@ const ExampleModal: FC<IContentProps> = props => {
   const popupContext = usePopups();
   const {colors} = useTheme();
   const {onClose} = props;
-  const titleFont = select('Title font', selectFont, 'SemiBold-Primary-XL');
+  const titleFont = select('Title font', selectFont, 'SemiBold-Primary-L');
   const descriptionFont = select(
     'Description font',
     selectFont,
@@ -36,15 +36,17 @@ const ExampleModal: FC<IContentProps> = props => {
         <ModalBase.ImageView image={<ImageModal />} />
       )}
 
-      <ModalBase.TextContent
-        title={text('Title text ', 'Нет доступа к камере')}
-        titleFont={titleFont}
-        descriptionText={text(
-          'Description text',
-          'Разрешите доступ к камере в настройках, чтобы сканировать штрихкод или QR-код на картах',
-        )}
-        descriptionFont={descriptionFont}
-      />
+      {boolean('show textContent', true) && (
+        <ModalBase.TextContent
+          title={text('Title text ', 'Нет доступа к камере')}
+          titleFont={titleFont}
+          descriptionText={text(
+            'Description text',
+            'Разрешите доступ к камере в настройках, чтобы сканировать штрихкод или QR-код на картах',
+          )}
+          descriptionFont={descriptionFont}
+        />
+      )}
 
       {boolean('show vertical button', false) && (
         <ModalBase.VerticalButtonsView>

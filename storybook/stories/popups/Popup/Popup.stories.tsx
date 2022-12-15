@@ -1,7 +1,7 @@
 import React, {RefObject, useRef} from 'react';
 import {storiesOf} from '@storybook/react-native';
 import {Button, IButtonSize} from '@npm/mobydick-cta';
-import {usePopups} from '@npm/mobydick-popups';
+import {IChangeDate, ModalCalendar, usePopups} from '@npm/mobydick-popups';
 import {ITouchableOpacity, View} from '@npm/mobydick-core';
 
 import CenterView from '../../CenterView';
@@ -115,10 +115,33 @@ const ActionSheetPopupExample = () => {
     </View>
   );
 };
+
+const CalendarPopupExample = () => {
+  const popupContext = usePopups();
+
+  const onPress = () => {
+    popupContext.openPopup({
+      Content: propsFromPopup => (
+        <ModalCalendar
+          onChangeDate={(date?: IChangeDate) =>
+            console.log('onChangeDate', date?.dateStart, date?.dateEnd)
+          }
+          textCalendar={'Выберите интервал, в который хотите пойти вотпуск'}
+          {...propsFromPopup}
+        />
+      ),
+    });
+  };
+  return (
+    <View>
+      <Button text={'Нажми'} onPress={onPress} size={IButtonSize.large} />
+    </View>
+  );
+};
 storiesOf('Design System/Popups/Popup', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('Modal', () => <PopupModalExample />)
   .add('Snackbar', () => <SnackbarPopupExample />)
   .add('Action sheet', () => <ActionSheetPopupExample />)
-
+  .add('Calendar', () => <CalendarPopupExample />)
   .add('Tooltip', () => <PopupTooltipExample />);

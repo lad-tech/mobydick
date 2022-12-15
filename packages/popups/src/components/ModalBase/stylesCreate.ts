@@ -14,8 +14,9 @@ const stylesCreate = (theme: IThemeContext) => {
       justifyContent: 'center',
       alignItems: 'center',
       width: width - spaces.Space8 * 2,
-      padding: spaces.Space20,
-      marginVertical: spaces.Space24,
+      paddingHorizontal: spaces.Space20,
+      paddingVertical: spaces.Space24,
+      marginVertical: spaces.Space20,
     },
     closeButton: {
       alignSelf: 'flex-end',
