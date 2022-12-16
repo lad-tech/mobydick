@@ -4,6 +4,17 @@ import useDebounce from '../useDebounce';
 
 describe('useDebounce', () => {
   jest.useFakeTimers();
+  test('typing correctly', () => {
+    const fn = (a: null, b: string) => {
+      return a + b;
+    };
+
+    const {
+      result: {current},
+    } = renderHook(() => useDebounce(fn));
+
+    current(null, 'qwe');
+  });
   test('positive case with default delay', () => {
     const fn = jest.fn();
 

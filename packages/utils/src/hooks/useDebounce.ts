@@ -2,7 +2,7 @@ import {useEffect, useMemo, useRef} from 'react';
 
 import useLatest from './useLatest';
 
-const useDebounce = <T extends (...args: unknown[]) => void>(
+const useDebounce = <T extends (...arg: never[]) => void>(
   callback: T,
   delay = 1000,
 ) => {
