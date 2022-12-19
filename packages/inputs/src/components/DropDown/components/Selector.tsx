@@ -4,6 +4,7 @@ import {FlatList, TouchableHighlight, View} from '@npm/mobydick-core';
 import {Typography} from '@npm/mobydick-typography';
 import {useStyles} from '@npm/mobydick-styles';
 import {StyleSheet, ViewStyle} from 'react-native';
+import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
 import {
   BORDER_BUTTON_WIDTH,
@@ -138,6 +139,8 @@ function Selector<T extends IListItem<S>, S extends IItemValue>(
     listEmptyFont,
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
+  const {height} = useSafeAreaFrame();
+
   const {aboveDropDownPos, underDropDownPos, isAboveDropDown} =
     getDropDownDimensions({
       pageY,
@@ -147,6 +150,7 @@ function Selector<T extends IListItem<S>, S extends IItemValue>(
         : DEFAULT_DROP_DOWN_HEIGHT,
       dropDownBorderWidth: buttonStyle?.borderWidth || BORDER_BUTTON_WIDTH,
       listLength: list.length,
+      height,
     });
   const styleWidth = flatListStyle?.width || buttonStyle?.width;
 
