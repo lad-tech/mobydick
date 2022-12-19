@@ -1,5 +1,3 @@
-import {Dimensions} from 'react-native';
-
 import {
   DEFAULT_DROPDOWN_MARGIN_FROM_BUTTON,
   EMPTY_LIST_HEIGHT,
@@ -12,6 +10,7 @@ interface IGetDimensionsParams {
   dropDownHeight: number;
   dropDownBorderWidth: number;
   listLength: number;
+  height: number;
 }
 
 export const getDropDownDimensions = ({
@@ -19,9 +18,8 @@ export const getDropDownDimensions = ({
   navBarHeight,
   dropDownHeight,
   listLength,
+  height,
 }: IGetDimensionsParams) => {
-  const {height} = Dimensions.get('window');
-
   const listHeight =
     listLength >= 6 ? LIST_MAX_HEIGHT : (LIST_MAX_HEIGHT / 6) * listLength;
 

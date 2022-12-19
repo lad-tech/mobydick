@@ -1,4 +1,5 @@
 import {Platform} from 'react-native';
+import {rem} from '@npm/mobydick-styles';
 
 import {getDropDownDimensions} from '../getDropDownDimensions';
 
@@ -11,10 +12,11 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         navBarHeight: 50,
         dropDownBorderWidth: 1,
         listLength: 1,
+        height: 700,
       }),
     ).toEqual({
       underDropDownPos: 506,
-      aboveDropDownPos: 1040,
+      aboveDropDownPos: 700 - 300 + rem(4),
       isAboveDropDown: false,
     });
   });
@@ -26,10 +28,11 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         navBarHeight: 50,
         dropDownBorderWidth: 1,
         listLength: 1,
+        height: 700,
       }),
     ).toEqual({
       underDropDownPos: 174,
-      aboveDropDownPos: 1212,
+      aboveDropDownPos: 700 - 128 + rem(4),
       isAboveDropDown: false,
     });
   });
@@ -42,10 +45,11 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         navBarHeight: 50,
         dropDownBorderWidth: 1,
         listLength: 1,
+        height: 700,
       }),
     ).toEqual({
       underDropDownPos: 174,
-      aboveDropDownPos: 1212,
+      aboveDropDownPos: 700 - 128 + rem(4),
       isAboveDropDown: false,
     });
   });
@@ -57,10 +61,11 @@ describe('@npm/mobydick-inputs/DropDownFunctions', () => {
         navBarHeight: 50,
         dropDownBorderWidth: 1,
         listLength: 0,
+        height: 700,
       }),
     ).toEqual({
       underDropDownPos: 174,
-      aboveDropDownPos: 1212,
+      aboveDropDownPos: 700 - 128 + rem(4),
       isAboveDropDown: false,
     });
   });
