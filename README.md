@@ -39,12 +39,12 @@
 ## Локальный запуск
 ### Подготовка
 - **Пакетный менеджер** [`yarn`](https://yarnpkg.com/getting-started/install), так как он быстрый.
-- Конфигурацию ESlint. Информация о ней находиться в [отдельном репозитории](https://glab.lad24.ru/npm/eslint-config), чтобы использовать ее на смежных проектах.
+- Конфигурацию ESlint. Информация о ней находится в [отдельном репозитории](https://glab.lad24.ru/npm/eslint-config), чтобы использовать ее на смежных проектах.
 
 Чтобы установить все пакеты, нужно установить ассоциации для нашего gitlab registry и закрепить accessToken. Для этого изучи пункты 1 и 2 в инструкции [“Как скачать наш пакет”](https://glab.lad24.ru/npm/registry#%D0%BA%D0%B0%D0%BA-%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0%D1%88-%D0%BF%D0%B0%D0%BA%D0%B5%D1%82).
 
 ### Установка
-1. Сначала прочитай [инструкцию](https://reactnative.dev/docs/environment-setup)
+1. Сначала прочитай [инструкцию](https://reactnative.dev/docs/environment-setup).
 2. Установить Android SDK можно через [Android Studio](https://developer.android.com/studio) (самый простой способ) или через [IDEA](https://www.jetbrains.com/ru-ru/idea/), прописав нужные переменные для `.bashrc` или аналоги:
 
 ```bash
