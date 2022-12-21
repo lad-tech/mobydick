@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-popups",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "Popups on MobyDick core",
   "main": "index.ts",
   "files": [
@@ -17,9 +17,9 @@
     "react-native-safe-area-context": ">=4.4.1"
   },
   "dependencies": {
-    "@npm/mobydick-styles": "4.1.0",
-    "@npm/mobydick-core": "4.1.0",
-    "@npm/mobydick-typography": "4.1.0"
+    "@npm/mobydick-styles": "4.2.0",
+    "@npm/mobydick-core": "4.2.0",
+    "@npm/mobydick-typography": "4.2.0"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"

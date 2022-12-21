@@ -1,3 +1,33 @@
+# [4.2.0](https://glab.lad24.ru/npm/mobydick/compare/v4.1.0...v4.2.0) (2022-12-21)
+
+
+### Bug Fixes
+
+* **dropdown:** replace height from safe-area-context ([b84209a](https://glab.lad24.ru/npm/mobydick/commit/b84209a4021fbafd09920aaf1258c2fdfe8516c1))
+* **modalBase:** change style ([ec38de0](https://glab.lad24.ru/npm/mobydick/commit/ec38de0ea67ad4ef76cbf725e9a4cfda1a2a2c8a))
+* move react-native-safe-area-context to peerDeps ([0476aaf](https://glab.lad24.ru/npm/mobydick/commit/0476aaf74cb75e0b14b8171a6979ab765b1e0742))
+* **tooltip:** update tests and readme ([cbc42cb](https://glab.lad24.ru/npm/mobydick/commit/cbc42cbd54a8c7c269accb53b201f879c434e93a))
+* useDebounce typing ([5084bf9](https://glab.lad24.ru/npm/mobydick/commit/5084bf9f5a5bc066dc9a1584ebab8850fabbb9dc))
+
+
+### chore
+
+* **modal:** type, test ([74f5cab](https://glab.lad24.ru/npm/mobydick/commit/74f5cab80eb2185ba5ba313b973b88797b6afd02))
+
+
+### Features
+
+* **button:** add counter in button ([30ed33b](https://glab.lad24.ru/npm/mobydick/commit/30ed33b7284f44491d9a20e7d2387f141070946b))
+* **calendar:** add dayjs, react-native-calendars ([b5b3fa8](https://glab.lad24.ru/npm/mobydick/commit/b5b3fa81a12e5936ab47c38f589886a148fe4fa0))
+* **icons:** add new icons ([5d32583](https://glab.lad24.ru/npm/mobydick/commit/5d32583ff7fdb60becc2339139dbe006291daa15))
+* **modal:** add modalError, modalLoading, modalSuccess ([5f6e67a](https://glab.lad24.ru/npm/mobydick/commit/5f6e67a8a7b3def34d3102db91fa5c80c6a01dc9))
+
+
+### BREAKING CHANGES
+
+* **modal:** MODAL backgroundColor: colors.BgSecondary -> colors.BgPrimary
+* **modalBase:** change style, add ContentText
+
 # [4.1.0](https://glab.lad24.ru/npm/mobydick/compare/v4.0.4...v4.1.0) (2022-12-08)
 
 
