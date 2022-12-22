@@ -1,11 +1,10 @@
-## @npm/mobydick-styles
+# @npm/mobydick-styles
 
-Пакет, который отвечает за стили, темы и иконки
+Пакет, который отвечает за стили, темы и иконки.
 
-Для использование шрифтовых иконок необходимо установить шрифт
+Чтобы использовать шрифтовые иконки, необходимо установить шрифт. Для этого в `react-native.config.js` необходимо добавить в `assets` путь к нему:
 
-Для этого в `react-native.config.js` необходимо добавить в assets путь к шрифту
-
+```
 module.exports = {
   project: {
     ios: {},
@@ -16,8 +15,9 @@ module.exports = {
     'node_modules/@npm/mobydick-styles/src/icons/font/assets/fonts/', // <--- добавить эту строчку
   ], 
 };
+```
 
-и выполнить команду `react-native link`
+и выполнить команду `react-native link`.
 
 
 
