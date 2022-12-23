@@ -1,0 +1,4795 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "center",
+      "maxWidth": "70%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-account"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-down"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-left-long"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-left"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-right-long"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-right"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-up"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-attachment"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-bar"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-bookmark"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-calendar"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-call"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-camera"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-cancel"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-check"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-copy"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-delete"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-discount"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-edit"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-filter"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-folder"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-grid"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-group"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-heart"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-hide"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-house"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-image"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-info"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-kebab"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-list"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-location"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-lock"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-logout"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-mail"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-mic"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-noconnection"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-notification"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-plus"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-qr"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-search"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-settings"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-share"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-show"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-sort-horizontal"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-sort-vertical"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-star"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-unlock"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-warning"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "center",
+      "maxWidth": "70%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-account"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-down"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-left-long"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-left"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-right-long"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-right"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-up"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-attachment"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-bar"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-bookmark"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-calendar"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-call"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-camera"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-cancel"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-check"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-copy"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-delete"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-discount"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-edit"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-filter"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-folder"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-grid"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-group"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-heart"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-hide"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-house"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-image"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-info"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-kebab"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-list"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-location"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-lock"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-logout"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-mail"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-mic"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-noconnection"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-notification"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-plus"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-qr"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-search"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-settings"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-share"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-show"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-sort-horizontal"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-sort-vertical"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-star"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-unlock"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-warning"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "center",
+      "maxWidth": "70%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-account"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-down"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-left-long"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-left"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-right-long"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-right"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-arrow-up"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-attachment"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-bar"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-bookmark"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-calendar"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-call"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-camera"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-cancel"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-check"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-copy"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-delete"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-discount"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-edit"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-filter"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-folder"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-grid"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-group"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-heart"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-hide"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-house"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-image"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-info"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-kebab"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-list"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-location"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-lock"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-logout"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-mail"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-mic"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-noconnection"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-notification"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-plus"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-qr"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-search"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-settings"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-share"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-show"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-sort-horizontal"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-sort-vertical"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-star"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-unlock"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "padding": 15,
+      }
+    }
+    testID="icon-warning"
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#333",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

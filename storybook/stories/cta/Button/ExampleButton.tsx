@@ -1,6 +1,12 @@
-import {Button, IButtonSize, IButtonTypes} from '@npm/mobydick-cta';
+import {
+  Button,
+  IButtonSize,
+  IButtonTypes,
+  iconNames,
+  SimpleIcon,
+  useTheme,
+} from '@npm/mobydick-core';
 import {boolean, number, select, text} from '@storybook/addon-knobs';
-import {iconNames, SimpleIcon, useTheme} from '@npm/mobydick-styles';
 import React from 'react';
 import {action} from '@storybook/addon-actions';
 

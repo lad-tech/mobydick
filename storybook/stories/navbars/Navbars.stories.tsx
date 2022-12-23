@@ -1,6 +1,6 @@
 import {storiesOf} from '@storybook/react-native';
 import React, {useState} from 'react';
-import {ITab, Tabs} from '@npm/mobydick-navbars';
+import {ITab, Tabs} from '@npm/mobydick-core';
 
 import CenterView from '../CenterView';
 

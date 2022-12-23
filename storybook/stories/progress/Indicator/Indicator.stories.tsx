@@ -1,6 +1,6 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {Indicator} from '@npm/mobydick-progress';
+import {Indicator} from '@npm/mobydick-core';
 import {color, number} from '@storybook/addon-knobs';
 
 import CenterView from '../../CenterView';

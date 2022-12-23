@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-core/Typography renders default correctly 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    Array [
+      Object {
+        "color": "#20242D",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 22.5,
+        "lineHeight": 28.5,
+      },
+      undefined,
+    ]
+  }
+>
+  My Text
+</Text>
+`;

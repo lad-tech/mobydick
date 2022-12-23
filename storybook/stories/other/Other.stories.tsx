@@ -1,9 +1,14 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {Button, IButtonTypes} from '@npm/mobydick-cta';
-import {View} from '@npm/mobydick-core';
+import {
+  Button,
+  IButtonTypes,
+  View,
+  Counter,
+  ICounterSize,
+  ICounterTypes,
+} from '@npm/mobydick-core';
 import {number, select} from '@storybook/addon-knobs';
-import {Counter, ICounterSize, ICounterTypes} from '@npm/mobydick-other';
 
 import CenterView from '../CenterView';
 

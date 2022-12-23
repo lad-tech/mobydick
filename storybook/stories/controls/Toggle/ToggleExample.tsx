@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Toggle} from '@npm/mobydick-controls';
+import {Toggle} from '@npm/mobydick-core';
 import {boolean} from '@storybook/addon-knobs';
 
 const ToggleExample = () => {

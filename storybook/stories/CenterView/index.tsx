@@ -1,8 +1,13 @@
 import React, {FC} from 'react';
-import {View} from '@npm/mobydick-core';
-import {Button, IButtonTypes} from '@npm/mobydick-cta';
-import {ThemeProvider, useStyles, useTheme} from '@npm/mobydick-styles';
-import {PopupsProvider} from '@npm/mobydick-popups';
+import {
+  View,
+  Button,
+  IButtonTypes,
+  ThemeProvider,
+  useStyles,
+  useTheme,
+  PopupsProvider,
+} from '@npm/mobydick-core';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 import stylesCreate from './stylesCreate';

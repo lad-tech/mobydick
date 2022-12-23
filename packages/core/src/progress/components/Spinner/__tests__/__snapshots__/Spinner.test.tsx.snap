@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-core/Spinner renders correctly L 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "alignSelf": "center",
+      "transform": Array [
+        Object {
+          "rotate": "0deg",
+        },
+      ],
+    }
+  }
+>
+  <SvgMock
+    fill="#2B78EE"
+    height="48"
+    width="48"
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-core/Spinner renders correctly M 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "alignSelf": "center",
+      "transform": Array [
+        Object {
+          "rotate": "0deg",
+        },
+      ],
+    }
+  }
+>
+  <SvgMock
+    fill="#2B78EE"
+    height="32"
+    width="32"
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-core/Spinner renders correctly S 1`] = `
+<View
+  collapsable={false}
+  style={
+    Object {
+      "alignSelf": "center",
+      "transform": Array [
+        Object {
+          "rotate": "0deg",
+        },
+      ],
+    }
+  }
+>
+  <SvgMock
+    fill="#2B78EE"
+    height="26"
+    width="26"
+  />
+</View>
+`;
