@@ -1,9 +1,15 @@
-import {IContentProps, IPosition, SnackbarBase} from '@npm/mobydick-popups';
+import {
+  IContentProps,
+  IPosition,
+  SnackbarBase,
+  rem,
+  SimpleIcon,
+  useTheme,
+  TouchableOpacity,
+  Typography,
+} from '@npm/mobydick-core';
 import React, {FC} from 'react';
 import {boolean, select, text} from '@storybook/addon-knobs';
-import {rem, SimpleIcon, useTheme} from '@npm/mobydick-styles';
-import {TouchableOpacity} from '@npm/mobydick-core';
-import {Typography} from '@npm/mobydick-typography';
 
 import selectFont from '../../../utils/selectFont';
 

@@ -5,9 +5,10 @@ import {
   IPlacement,
   IPosition,
   TooltipBase,
-} from '@npm/mobydick-popups';
-import {ITouchableOpacity} from '@npm/mobydick-core';
-import {IThemeContext, useStyles} from '@npm/mobydick-styles';
+  ITouchableOpacity,
+  IThemeContext,
+  useStyles,
+} from '@npm/mobydick-core';
 import {StyleSheet} from 'react-native';
 
 enum ITypeTooltip {

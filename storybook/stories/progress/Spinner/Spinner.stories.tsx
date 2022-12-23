@@ -1,6 +1,6 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {ISizeSpinner, Spinner} from '@npm/mobydick-progress';
+import {ISizeSpinner, Spinner} from '@npm/mobydick-core';
 import {number, select} from '@storybook/addon-knobs';
 
 import CenterView from '../../CenterView';

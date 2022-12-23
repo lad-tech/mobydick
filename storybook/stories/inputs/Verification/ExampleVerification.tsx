@@ -1,8 +1,11 @@
 import React, {useRef, useState} from 'react';
-import {TouchableOpacity, View} from '@npm/mobydick-core';
-import {CodeField} from '@npm/mobydick-inputs';
-import {Typography} from '@npm/mobydick-typography';
-import {useStyles} from '@npm/mobydick-styles';
+import {
+  TouchableOpacity,
+  View,
+  useStyles,
+  Typography,
+  CodeField,
+} from '@npm/mobydick-core';
 import {Keyboard, TextInput} from 'react-native';
 
 import stylesCreate from './stylesCreate';

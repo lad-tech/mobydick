@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-core/TooltipBase/Arrow should renders correctly bottom center 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderStyle": "solid",
+        "height": 0,
+        "position": "absolute",
+        "width": 0,
+      },
+      Object {
+        "width": 20,
+      },
+      Object {
+        "borderBottomColor": "transparent",
+        "borderBottomWidth": 0,
+        "borderLeftColor": "transparent",
+        "borderLeftWidth": 12,
+        "borderRightColor": "transparent",
+        "borderRightWidth": 12,
+        "borderTopColor": "#20242D",
+        "borderTopWidth": 12,
+        "bottom": -12,
+      },
+      Object {
+        "alignSelf": "center",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`@npm/mobydick-core/TooltipBase/Arrow should renders correctly bottom end 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderStyle": "solid",
+        "height": 0,
+        "position": "absolute",
+        "width": 0,
+      },
+      undefined,
+      Object {
+        "borderBottomColor": "transparent",
+        "borderBottomWidth": 0,
+        "borderLeftColor": "transparent",
+        "borderLeftWidth": 12,
+        "borderRightColor": "transparent",
+        "borderRightWidth": 12,
+        "borderTopColor": "#20242D",
+        "borderTopWidth": 12,
+        "bottom": -12,
+      },
+      Object {
+        "right": 10,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`@npm/mobydick-core/TooltipBase/Arrow should renders correctly top start 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "borderStyle": "solid",
+        "height": 0,
+        "position": "absolute",
+        "width": 0,
+      },
+      Object {
+        "width": 20,
+      },
+      Object {
+        "borderBottomColor": "#20242D",
+        "borderBottomWidth": 12,
+        "borderLeftColor": "transparent",
+        "borderLeftWidth": 12,
+        "borderRightColor": "transparent",
+        "borderRightWidth": 12,
+        "borderTopColor": "transparent",
+        "borderTopWidth": 0,
+        "top": -12,
+      },
+      Object {
+        "left": 10,
+      },
+    ]
+  }
+/>
+`;

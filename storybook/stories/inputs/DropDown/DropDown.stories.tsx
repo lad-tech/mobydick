@@ -1,7 +1,6 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {PopupsProvider} from '@npm/mobydick-popups';
-import {ScrollView, View} from '@npm/mobydick-core';
+import {PopupsProvider, ScrollView, View} from '@npm/mobydick-core';
 import {Dimensions} from 'react-native';
 
 import CenterView from '../../CenterView';

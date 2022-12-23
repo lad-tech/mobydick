@@ -4,7 +4,7 @@ module.exports = {
     android: {},
   },
   assets: [
-    'node_modules/@npm/mobydick-typography/src/assets/fonts/',
-    'node_modules/@npm/mobydick-styles/src/icons/font/assets/fonts/',
+    'node_modules/@npm/mobydick-core/src/typography/assets/fonts/',
+    'node_modules/@npm/mobydick-core/src/styles/icons/font/assets/fonts/',
   ],
 };

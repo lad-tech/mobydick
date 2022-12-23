@@ -2,35 +2,8 @@
   "extends": "../../tsconfig.json",
   "references": [
     {
-      "path": "../controls"
+      "path": "../utils"
     },
-    {
-      "path": "../core"
-    },
-    {
-      "path": "../cta"
-    },
-    {
-      "path": "../inputs"
-    },
-    {
-      "path": "../popups"
-    },
-    {
-      "path": "../progress"
-    },
-    {
-      "path": "../styles"
-    },
-    {
-      "path": "../typography"
-    },
-    {
-      "path": "../navbars"
-    },
-    {
-      "path": "../other"
-    }
   ],
   "compilerOptions": {
     "composite": true

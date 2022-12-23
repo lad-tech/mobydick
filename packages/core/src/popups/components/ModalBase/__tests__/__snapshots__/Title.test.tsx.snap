@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    Array [
+      Object {
+        "color": "#444B5A",
+        "fontFamily": "Inter-Medium",
+        "fontSize": 24,
+        "lineHeight": 30,
+      },
+      Array [
+        Object {
+          "marginTop": 36,
+          "textAlign": "center",
+        },
+        Object {
+          "backgroundColor": "#000",
+        },
+      ],
+    ]
+  }
+>
+  title two
+</Text>
+`;
+
+exports[`@npm/mobydick-core/Title should renders correctly without titleFont 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    Array [
+      Object {
+        "color": "#20242D",
+        "fontFamily": "Inter-SemiBold",
+        "fontSize": 27,
+        "lineHeight": 33,
+      },
+      Array [
+        Object {
+          "marginTop": 36,
+          "textAlign": "center",
+        },
+        Object {
+          "flex": 1,
+        },
+      ],
+    ]
+  }
+>
+  title
+</Text>
+`;

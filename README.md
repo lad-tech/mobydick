@@ -22,17 +22,9 @@
 
 Чтобы не тянуть все зависимости, которые могут не пригодиться, либу разделили на модули:
 
-- [@npm/mobydick-controls](./packages/controls/README.md)
-- [@npm/mobydick-core](./packages/core/README.md)
-- [@npm/mobydick-cta](./packages/cta/README.md)
-- [@npm/mobydick-inputs](./packages/inputs/README.md)
-- [@npm/mobydick-navbars](./packages/navbars/README.md)
-- [@npm/mobydick-popups](./packages/popups/README.md)
-- [@npm/mobydick-progress](./packages/progress/README.md)
-- [@npm/mobydick-styles](./packages/styles/README.md)
-- [@npm/mobydick-typography](./packages/typography/README.md)
-- [@npm/mobydick-utils](./packages/utils/README.md)
 
+- [@npm/mobydick-core](./packages/core/README.md)
+- [@npm/mobydick-utils](./packages/utils/README.md)
 
 
 # 2. Разработка

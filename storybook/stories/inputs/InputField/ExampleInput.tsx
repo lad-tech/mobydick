@@ -1,8 +1,13 @@
-import {InputField, IInputsTypes} from '@npm/mobydick-inputs';
+import {
+  InputField,
+  IInputsTypes,
+  iconNames,
+  rem,
+  SimpleIcon,
+  Pressable,
+} from '@npm/mobydick-core';
 import {boolean, select, text} from '@storybook/addon-knobs';
-import {iconNames, rem, SimpleIcon} from '@npm/mobydick-styles';
 import React, {useState} from 'react';
-import {Pressable} from '@npm/mobydick-core';
 
 const ExampleInput = () => {
   const subtitleIconName = select(

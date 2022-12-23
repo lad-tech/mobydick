@@ -1,8 +1,14 @@
 import {boolean, select, text} from '@storybook/addon-knobs';
 import React, {FC} from 'react';
-import {IContentProps, ModalBase, usePopups} from '@npm/mobydick-popups';
-import {rem, useTheme} from '@npm/mobydick-styles';
-import {IButtonSize, IButtonTypes} from '@npm/mobydick-cta';
+import {
+  IContentProps,
+  ModalBase,
+  usePopups,
+  rem,
+  useTheme,
+  IButtonSize,
+  IButtonTypes,
+} from '@npm/mobydick-core';
 
 import selectFont from '../../../utils/selectFont';
 

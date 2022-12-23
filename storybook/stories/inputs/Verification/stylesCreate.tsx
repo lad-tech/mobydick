@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {IThemeContext, rem} from '@npm/mobydick-styles';
+import {IThemeContext, rem} from '@npm/mobydick-core';
 
 const stylesCreate = (theme: IThemeContext) => {
   const {colors, spaces} = theme;

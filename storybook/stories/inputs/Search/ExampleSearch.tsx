@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import {Search} from '@npm/mobydick-inputs';
-import {iconNames, SimpleIcon} from '@npm/mobydick-styles';
+import {Search, iconNames, SimpleIcon} from '@npm/mobydick-core';
 import {select} from '@storybook/addon-knobs';
 import {useDebounce} from '@npm/mobydick-utils';
 

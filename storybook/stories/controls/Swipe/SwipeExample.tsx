@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import {Swipe} from '@npm/mobydick-controls';
-import {View} from '@npm/mobydick-core';
+import {Swipe, View} from '@npm/mobydick-core';
 
 const SwipeExample = () => {
   const [isActive, setActive] = useState(false);

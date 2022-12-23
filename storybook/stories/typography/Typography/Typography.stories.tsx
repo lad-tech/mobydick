@@ -7,8 +7,9 @@ import {
   TFontSize,
   TFontWeight,
   Typography,
-} from '@npm/mobydick-typography';
-import {defaultTextLightColor, ITextColors} from '@npm/mobydick-styles';
+  defaultTextLightColor,
+  ITextColors,
+} from '@npm/mobydick-core';
 
 import CenterView from '../../CenterView';
 
