@@ -17,7 +17,9 @@ export const Avatar = ({sender}: IAvatarProps) => {
   const [styles] = useStyles(stylesCreate);
   const [error, setError] = useState<ImageErrorEventData>();
 
-  if (!sender) return null;
+  if (!sender) {
+    return null;
+  }
 
   return (
     <View style={styles.container}>
