@@ -8,7 +8,6 @@ describe('Avatar', () => {
     const senderPhoto = {
       logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
       name: 'Иван Пушкин',
-      user_id: '1',
     };
 
     const {toJSON} = render(<Avatar sender={senderPhoto} />);
@@ -19,7 +18,6 @@ describe('Avatar', () => {
     const senderNotPhoto = {
       logo: 'https://vraki.net/',
       name: 'Иван Пушкин',
-      user_id: '1',
     };
     const {toJSON, getByLabelText} = render(<Avatar sender={senderNotPhoto} />);
 
