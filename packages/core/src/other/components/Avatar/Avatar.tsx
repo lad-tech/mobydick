@@ -7,27 +7,27 @@ import useStyles from '../../../styles/theme/hooks/useStyles';
 import rem from '../../../styles/spaces/rem';
 import {IThemeContext} from '../../../styles';
 
-import {ISender} from './types';
+import {IUser} from './types';
 
 interface IAvatarProps {
-  sender: ISender | null;
+  user: IUser | null;
 }
 
-export const Avatar = ({sender}: IAvatarProps) => {
+export const Avatar = ({user}: IAvatarProps) => {
   const [styles] = useStyles(stylesCreate);
   const [error, setError] = useState<ImageErrorEventData>();
 
-  if (!sender) {
+  if (!user) {
     return null;
   }
 
   return (
     <View style={styles.container}>
       {error ? (
-        <Typography font={'Regular-Primary-H5'}>{sender?.name[0]}</Typography>
+        <Typography font={'Regular-Primary-H5'}>{user?.name[0]}</Typography>
       ) : (
         <Image
-          source={{uri: sender?.logo, width: rem(40), height: rem(40)}}
+          source={{uri: user?.logo, width: rem(40), height: rem(40)}}
           style={{
             borderRadius: rem(64),
           }}
