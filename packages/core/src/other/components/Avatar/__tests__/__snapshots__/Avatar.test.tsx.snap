@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar render avatar not photo 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 96,
+      "height": 60,
+      "justifyContent": "center",
+      "margin": 9,
+      "width": 60,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      Array [
+        Object {
+          "color": "#20242D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 33,
+          "lineHeight": 36,
+        },
+        undefined,
+      ]
+    }
+  >
+    И
+  </Text>
+</View>
+`;
+
+exports[`Avatar render avatar with photo 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 96,
+      "height": 60,
+      "justifyContent": "center",
+      "margin": 9,
+      "width": 60,
+    }
+  }
+>
+  <Image
+    accessibilityLabel="imageAvatar"
+    onError={[Function]}
+    source={
+      Object {
+        "height": 60,
+        "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+        "width": 60,
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 96,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar render without avatar 1`] = `null`;

@@ -12,6 +12,8 @@ import {number, select} from '@storybook/addon-knobs';
 
 import CenterView from '../CenterView';
 
+import ExampleAvatar from './ExampleAvatar';
+
 const CounterExample = () => {
   return (
     <View>
@@ -50,4 +52,5 @@ const CounterExample = () => {
 
 storiesOf('Design system/Other', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
-  .add('Counter', () => <CounterExample />);
+  .add('Counter', () => <CounterExample />)
+  .add('Avatar', () => <ExampleAvatar />);
