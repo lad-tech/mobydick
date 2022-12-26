@@ -3,10 +3,10 @@ import {
   ModalLoading,
   ModalSuccess,
   usePopups,
-} from '@npm/mobydick-popups';
+  View,
+  Button,
+} from '@npm/mobydick-core';
 import React, {useState} from 'react';
-import {View} from '@npm/mobydick-core';
-import {Button} from '@npm/mobydick-cta';
 import {text} from '@storybook/addon-knobs';
 
 import ExampleModal from './ExampleModal';

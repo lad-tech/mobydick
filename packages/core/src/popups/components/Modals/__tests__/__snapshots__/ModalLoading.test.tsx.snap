@@ -1,0 +1,395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "justifyContent": "flex-end",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ],
+    ]
+  }
+  testID="Pressable"
+>
+  <View
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderRadius": 18,
+          "justifyContent": "center",
+          "marginVertical": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 36,
+          "width": 726,
+        },
+        Object {
+          "maxWidth": "80%",
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "alignSelf": "center",
+          "transform": Array [
+            Object {
+              "rotate": "0deg",
+            },
+          ],
+        }
+      }
+    >
+      <SvgMock
+        fill="#2B78EE"
+        height="48"
+        style={
+          Object {
+            "margin": 9,
+          }
+        }
+        width="48"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 12,
+          "marginTop": 18,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-SemiBold",
+              "fontSize": 27,
+              "lineHeight": 33,
+            },
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        title
+      </Text>
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 21,
+              "lineHeight": 27,
+            },
+            Array [
+              Object {
+                "paddingTop": 12,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        descriptionText
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "marginTop": 30,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "borderRadius": 18,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "minHeight": 72,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Array [
+              Object {
+                "color": "#FFF",
+                "fontFamily": "Inter-SemiBold",
+                "fontSize": 27,
+                "lineHeight": 33,
+              },
+              Array [
+                Object {
+                  "color": "#2B78EE",
+                  "paddingHorizontal": 9,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Отмена
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "height": "100%",
+        "position": "absolute",
+        "width": "100%",
+      },
+      Array [
+        Object {
+          "justifyContent": "flex-end",
+        },
+        Object {
+          "justifyContent": "center",
+        },
+      ],
+    ]
+  }
+  testID="Pressable"
+>
+  <View
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFF",
+          "borderRadius": 18,
+          "justifyContent": "center",
+          "marginVertical": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 36,
+          "width": 726,
+        },
+        Object {
+          "maxWidth": "80%",
+        },
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "alignSelf": "center",
+          "transform": Array [
+            Object {
+              "rotate": "0deg",
+            },
+          ],
+        }
+      }
+    >
+      <SvgMock
+        fill="#2B78EE"
+        height="48"
+        style={
+          Object {
+            "margin": 9,
+          }
+        }
+        width="48"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "marginBottom": 12,
+          "marginTop": 18,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-SemiBold",
+              "fontSize": 27,
+              "lineHeight": 33,
+            },
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        title
+      </Text>
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 21,
+              "lineHeight": 27,
+            },
+            Array [
+              Object {
+                "paddingTop": 12,
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        descriptionText
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "marginTop": 30,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "borderRadius": 18,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "minHeight": 72,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Array [
+              Object {
+                "color": "#FFF",
+                "fontFamily": "Inter-SemiBold",
+                "fontSize": 27,
+                "lineHeight": 33,
+              },
+              Array [
+                Object {
+                  "color": "#2B78EE",
+                  "paddingHorizontal": 9,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          buttonText
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

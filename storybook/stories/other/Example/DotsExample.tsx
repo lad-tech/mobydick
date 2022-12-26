@@ -1,21 +1,37 @@
-import {Dots} from '@npm/mobydick-other';
-import React from 'react';
+import React, {useState} from 'react';
 import {number} from '@storybook/addon-knobs';
-import {View} from '@npm/mobydick-core';
+import {Button, Dots, View} from '@npm/mobydick-core';
 
 const DotsExample = () => {
   const length = number('number length', 10);
-  const activeDot = number('number activeDot', 5);
 
+  const [activeDot, setActiveDot] = useState(0);
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        paddingHorizontal: 20,
-      }}>
-      <Dots length={length} activeDot={activeDot} />
+    <View style={{width: '100%'}}>
+      <View
+        style={{
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          paddingHorizontal: 20,
+        }}>
+        <Button
+          text={'Prev'}
+          onPress={() => {
+            if (activeDot !== 0) {
+              setActiveDot(activeDot - 1);
+            }
+          }}
+        />
+        <Dots length={length} activeDot={activeDot} />
+        <Button
+          text={'Next'}
+          onPress={() => {
+            if (activeDot !== length - 1) {
+              setActiveDot(activeDot + 1);
+            }
+          }}
+        />
+      </View>
     </View>
   );
 };

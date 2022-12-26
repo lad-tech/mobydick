@@ -1,6 +1,6 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {PanelSpinner} from '@npm/mobydick-progress';
+import {PanelSpinner} from '@npm/mobydick-core';
 import {boolean, number} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
 

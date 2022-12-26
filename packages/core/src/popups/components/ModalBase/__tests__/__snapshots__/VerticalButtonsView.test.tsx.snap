@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-core/modalBase should renders correctly VerticalButtonsView one button  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "marginTop": 30,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "stretch",
+        "backgroundColor": "#F54D3D",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "minHeight": 72,
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#FFF",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 27,
+            "lineHeight": 33,
+          },
+          Array [
+            Object {
+              "color": "#FFF",
+              "paddingHorizontal": 9,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      text
+    </Text>
+  </View>
+</View>
+`;

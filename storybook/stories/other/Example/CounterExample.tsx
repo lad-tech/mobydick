@@ -1,7 +1,12 @@
-import {View} from '@npm/mobydick-core';
-import {Counter, ICounterSize, ICounterTypes} from '@npm/mobydick-other';
+import {
+  Button,
+  Counter,
+  IButtonTypes,
+  ICounterSize,
+  ICounterTypes,
+  View,
+} from '@npm/mobydick-core';
 import {number, select} from '@storybook/addon-knobs';
-import {Button, IButtonTypes} from '@npm/mobydick-cta';
 import React from 'react';
 
 const CounterExample = () => {

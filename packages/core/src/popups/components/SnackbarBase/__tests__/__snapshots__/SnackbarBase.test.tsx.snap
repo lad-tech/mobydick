@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-core/SnackbarBase should renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "flex": 1,
+        "position": "absolute",
+        "top": 20,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#20242D",
+          "borderRadius": 18,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 24,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`@npm/mobydick-core/SnackbarBase should renders correctly with timeShow 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "bottom": 10,
+        "flex": 1,
+        "position": "absolute",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#20242D",
+          "borderRadius": 18,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "margin": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 24,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;

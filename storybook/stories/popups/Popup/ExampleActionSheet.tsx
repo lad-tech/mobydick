@@ -1,6 +1,12 @@
-import {ActionSheetBase, IContentProps, IItemType} from '@npm/mobydick-popups';
+import {
+  ActionSheetBase,
+  IContentProps,
+  IItemType,
+  iconNames,
+  SimpleIcon,
+  SimpleIconName,
+} from '@npm/mobydick-core';
 import React, {FC, useState} from 'react';
-import {iconNames, SimpleIcon, SimpleIconName} from '@npm/mobydick-styles';
 import {boolean, select} from '@storybook/addon-knobs';
 
 enum IViewActionSheet {

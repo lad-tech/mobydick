@@ -1,9 +1,7 @@
-import {ControlsList, Radio} from '@npm/mobydick-controls';
+import {ControlsList, Radio, useStyles, Typography} from '@npm/mobydick-core';
 import {boolean, text} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
-import {Typography} from '@npm/mobydick-typography';
 import React from 'react';
-import {useStyles} from '@npm/mobydick-styles';
 
 import stylesCreate from '../stylesCreate';
 import {

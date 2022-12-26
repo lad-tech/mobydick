@@ -1,7 +1,13 @@
 import React, {useState} from 'react';
-import {DropDown, IInputsTypes} from '@npm/mobydick-inputs';
+import {
+  DropDown,
+  IInputsTypes,
+  iconNames,
+  rem,
+  SimpleIcon,
+  useTheme,
+} from '@npm/mobydick-core';
 import {array, boolean, number, select, text} from '@storybook/addon-knobs';
-import {iconNames, rem, SimpleIcon, useTheme} from '@npm/mobydick-styles';
 
 import selectFont from '../../../utils/selectFont';
 

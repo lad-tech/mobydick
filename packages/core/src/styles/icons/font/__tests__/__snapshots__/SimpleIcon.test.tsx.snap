@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-core/icons/SimpleIcon renders correctly 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    Object {
+      "color": "#5E6678",
+      "fontFamily": "Neotis",
+      "fontSize": 36,
+    }
+  }
+>
+  
+</Text>
+`;

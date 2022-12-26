@@ -1,10 +1,11 @@
-import {defaultTextLightColor, ITextColors} from '@npm/mobydick-styles';
 import {
+  defaultTextLightColor,
+  ITextColors,
   TEXT,
   TFontSize,
   TFontWeight,
   TypographyProp,
-} from '@npm/mobydick-typography';
+} from '@npm/mobydick-core';
 
 const textColorKeys = Object.keys(
   defaultTextLightColor,
