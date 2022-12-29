@@ -5,10 +5,10 @@ import CenterView from '../CenterView';
 
 import CounterExample from './Example/CounterExample';
 import DotsExample from './Example/DotsExample';
-import ExampleAvatar from './ExampleAvatar';
+import AvatarExample from './Example/AvatarExample';
 
 storiesOf('Design system/Other', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('Dots', () => <DotsExample />)
   .add('Counter', () => <CounterExample />)
-  .add('Avatar', () => <ExampleAvatar />);
+  .add('Avatar', () => <AvatarExample />);

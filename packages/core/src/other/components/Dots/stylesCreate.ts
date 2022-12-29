@@ -5,7 +5,7 @@ import {IThemeContext} from '../../../styles';
 const stylesCreate = (
   {colors, spaces}: IThemeContext,
   size = spaces.Space8,
-  active?: boolean,
+  active = false,
 ) => {
   return StyleSheet.create({
     dot: {

@@ -1,10 +1,11 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {ScrollView, Animated} from 'react-native';
 
-import rem from '../../../styles/spaces/rem';
+import View from '../../../basic/components/View/View';
 
 import Dot from './Dot';
 import {
+  MARGIN_DOT,
   SIZE_LARGE,
   SIZE_MEDIUM,
   SIZE_SMALL,
@@ -35,17 +36,11 @@ const Dots = ({length, activeDot}: IDots) => {
   const currentWidth = useRef(WIDTH_SMALL);
   const halve = Math.floor((SPAN_SIZE - 1) / 2);
   const isFirstHalve = activeDot < Math.floor(length / 2);
+  const isDynamicDots = length < 7;
 
-  // const numConsumed = Math.min(activeDot + halve, length - 1) - activeDot;
   const numConsumed = isFirstHalve
     ? Math.max(activeDot - halve, 0)
     : Math.min(activeDot + halve, length - 1) - activeDot;
-  // const numConsumed = Math.max(activeDot - halve, 0);
-
-  // const i = useRef(activeDot - (SPAN_SIZE - 1 - numConsumed));
-  // const j = useRef(activeDot + numConsumed);
-
-  // const mid = i +
 
   const i = useRef(
     isFirstHalve
@@ -58,18 +53,11 @@ const Dots = ({length, activeDot}: IDots) => {
       : activeDot + numConsumed,
   );
 
-  // const i = useRef(activeDot - numConsumed);
-  // const j = useRef(activeDot + (SPAN_SIZE - 1 - numConsumed));
-
-  //   c
-  // 0,1,2,3,4,5
-  //     s
-
-  function updateIndexes(direction: number, currentIndex: number) {
-    if (direction === -1) {
+  function updateIndexes(currentDirection: number, currentIndex: number) {
+    if (currentDirection === -1) {
       i.current = Math.min(currentIndex, i.current);
       j.current = Math.min(i.current + (SPAN_SIZE - 1), j.current);
-    } else if (direction === 1) {
+    } else if (currentDirection === 1) {
       j.current = Math.max(currentIndex, j.current);
       i.current = Math.max(j.current - (SPAN_SIZE - 1), i.current);
     }
@@ -83,23 +71,28 @@ const Dots = ({length, activeDot}: IDots) => {
       currentWidth.current = WIDTH_LARGE;
     }
   }
-
-  const scrollTo = (index: number, animated: boolean) => {
-    if (!refScrollView.current) return;
-
+  function setIndexes() {
     direction.current = getDirection(activeDot, prevIndex);
 
     updateIndexes(direction.current, activeDot);
 
     setPrevIndex(activeDot);
+  }
+
+  const scrollTo = (index: number, animated: boolean) => {
+    if (!refScrollView.current) {
+      return;
+    }
+
+    setIndexes();
 
     getWidth();
 
     const indicatorRight = () => {
-      if (index <= SPAN_SIZE || index === length - 2 || index === length - 1) {
-        return index - 3;
-      } else {
+      if (index > SPAN_SIZE) {
         return index - 4;
+      } else {
+        return index - 3;
       }
     };
 
@@ -114,11 +107,8 @@ const Dots = ({length, activeDot}: IDots) => {
     const moveTo = Math.max(
       0,
       (direction.current > 0 ? indicatorRight() : indicatorLeft()) *
-        (rem(4) + rem(5) * 2),
+        (SIZE_SMALL + MARGIN_DOT),
     );
-
-    console.log('index', direction.current, index, indicatorRight(), moveTo);
-
     refScrollView.current.scrollTo({
       x: moveTo,
       y: 0,
@@ -127,7 +117,7 @@ const Dots = ({length, activeDot}: IDots) => {
   };
 
   useEffect(() => {
-    scrollTo(activeDot, true);
+    isDynamicDots ? setIndexes() : scrollTo(activeDot, true);
   }, [activeDot]);
 
   const size = useCallback(
@@ -152,19 +142,29 @@ const Dots = ({length, activeDot}: IDots) => {
     [activeDot],
   );
 
+  if (isDynamicDots) {
+    return (
+      <View
+        style={{
+          alignItems: 'center',
+          flexDirection: 'row',
+        }}>
+        {dots.map(i => (
+          <Dot key={i} active={i === activeDot} size={size(i)} />
+        ))}
+      </View>
+    );
+  }
   return (
     <Animated.View
       style={[
         {
-          backgroundColor: '#ff9000',
-          width: currentWidth.current,
+          width: WIDTH_MEDIUM,
         },
       ]}
       onLayout={() => {
         //scroll to right index on initial render
-        // сейчас костыльно работает, но есть скачок, который мне не нравится, завтра буду продолжать бороться
-        if (activeDot === 0 || activeDot === 8 || activeDot === 9)
-          scrollTo(activeDot, false);
+        scrollTo(activeDot, false);
       }}>
       <ScrollView
         ref={refScrollView}
@@ -175,8 +175,8 @@ const Dots = ({length, activeDot}: IDots) => {
         scrollEnabled={false}
         horizontal
         showsHorizontalScrollIndicator={false}>
-        {dots.map(i => (
-          <Dot key={i} active={i === activeDot} size={size(i)} />
+        {dots.map(dot => (
+          <Dot key={dot} active={dot === activeDot} size={size(dot)} />
         ))}
       </ScrollView>
     </Animated.View>
