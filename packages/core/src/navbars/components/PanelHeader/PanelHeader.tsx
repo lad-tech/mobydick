@@ -20,6 +20,7 @@ interface IProps {
   rightViewStyle?: ViewStyle;
   leftViewStyle?: ViewStyle;
   containerStyle?: ViewStyle;
+  commonViewStyle?: ViewStyle;
 }
 
 const PanelHeader = (props: IProps) => {
@@ -37,12 +38,13 @@ const PanelHeader = (props: IProps) => {
     containerStyle,
     rightViewStyle,
     leftViewStyle,
+    commonViewStyle,
   } = props;
 
   const [styles] = useStyles(createStyles);
 
   return (
-    <View style={{flex: 1, width: '100%'}}>
+    <View style={[styles.commonView, commonViewStyle]}>
       <SafeAreaView edges={['top']}>
         <View style={[styles.container, containerStyle]}>
           <View style={[styles.leftView, leftViewStyle]}>{leftView}</View>
@@ -77,6 +79,10 @@ export default PanelHeader;
 
 const createStyles = ({spaces}: IThemeContext) =>
   StyleSheet.create({
+    commonView: {
+      flex: 1,
+      width: '100%',
+    },
     container: {
       flexDirection: 'row',
       justifyContent: 'space-between',

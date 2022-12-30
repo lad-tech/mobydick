@@ -4,10 +4,6 @@ import React from 'react';
 import Dots from '../Dots';
 
 describe('Dots', () => {
-  afterEach(() => {
-    jest.resetAllMocks();
-  });
-
   test('render dots length > 7', () => {
     const {toJSON} = render(<Dots length={10} activeDot={0} />);
     expect(toJSON()).toMatchSnapshot();
@@ -43,6 +39,11 @@ describe('Dots', () => {
     rerender(<Dots length={10} activeDot={1} />);
     expect(toJSON()).toMatchSnapshot();
     rerender(<Dots length={10} activeDot={5} />);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  test('render dots = 0', () => {
+    const {toJSON} = render(<Dots length={0} activeDot={0} />);
+
     expect(toJSON()).toMatchSnapshot();
   });
 });

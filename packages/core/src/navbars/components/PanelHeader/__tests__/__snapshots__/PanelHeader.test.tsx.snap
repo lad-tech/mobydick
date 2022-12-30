@@ -3,10 +3,15 @@
 exports[`Tab render panelHeader 1`] = `
 <View
   style={
-    Object {
-      "flex": 1,
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "flex": 1,
+        "width": "100%",
+      },
+      Object {
+        "flex": 1,
+      },
+    ]
   }
 >
   <RNCSafeAreaView
@@ -102,10 +107,13 @@ exports[`Tab render panelHeader 1`] = `
 exports[`Tab render panelHeader without props 1`] = `
 <View
   style={
-    Object {
-      "flex": 1,
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "flex": 1,
+        "width": "100%",
+      },
+      undefined,
+    ]
   }
 >
   <RNCSafeAreaView

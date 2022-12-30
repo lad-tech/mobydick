@@ -16,6 +16,7 @@ describe('Tab', () => {
         titleViewStyle={{flex: 1}}
         rightViewStyle={{flex: 1}}
         leftViewStyle={{flex: 1}}
+        commonViewStyle={{flex: 1}}
         leftView={<SimpleIcon name={'icon-calendar'} />}
         rightView={<SimpleIcon name={'icon-calendar'} />}
         titleView={<></>}

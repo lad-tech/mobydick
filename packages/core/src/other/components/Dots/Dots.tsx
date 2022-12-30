@@ -32,20 +32,20 @@ const Dots = ({length, activeDot}: IDots) => {
   const [prevIndex, setPrevIndex] = useState(activeDot);
   const direction = useRef(getDirection(activeDot, prevIndex));
   const half = Math.floor((SPAN_SIZE - 1) / 2);
-  const isFirstHalve = activeDot < Math.floor(length / 2);
+  const isFirstHalf = activeDot < Math.floor(length / 2);
   const isDynamicDots = length < 7;
 
-  const numConsumed = isFirstHalve
+  const numConsumed = isFirstHalf
     ? Math.max(activeDot - half, 0)
     : Math.min(activeDot + half, length - 1) - activeDot;
 
   const i = useRef(
-    isFirstHalve
+    isFirstHalf
       ? activeDot - numConsumed
       : activeDot - (SPAN_SIZE - 1 - numConsumed),
   );
   const j = useRef(
-    isFirstHalve
+    isFirstHalf
       ? activeDot + (SPAN_SIZE - 1 - numConsumed)
       : activeDot + numConsumed,
   );

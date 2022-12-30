@@ -1,5 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Dots render dots = 0 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+/>
+`;
+
 exports[`Dots render dots activeDot left 1`] = `
 <View
   collapsable={false}
