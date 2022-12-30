@@ -4,6 +4,8 @@ import {ITab, Tabs} from '@npm/mobydick-core';
 
 import CenterView from '../CenterView';
 
+import PanelHeaderExample from './PanelHeaderExample';
+
 enum exampleList {
   one = 'one',
   two = 'two',
@@ -71,4 +73,5 @@ const TabsExample = () => {
 
 storiesOf('Design system/Navbars', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+  .add('PanelHeader', () => <PanelHeaderExample />)
   .add('Tabs', () => <TabsExample />);
