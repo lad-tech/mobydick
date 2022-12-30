@@ -10,9 +10,7 @@ import {
   SIZE_MEDIUM,
   SIZE_SMALL,
   SPAN_SIZE,
-  WIDTH_LARGE,
   WIDTH_MEDIUM,
-  WIDTH_SMALL,
 } from './constants';
 
 interface IDots {
@@ -33,7 +31,6 @@ const Dots = ({length, activeDot}: IDots) => {
   const dots = [...Array(length).keys()];
   const [prevIndex, setPrevIndex] = useState(activeDot);
   const direction = useRef(getDirection(activeDot, prevIndex));
-  const currentWidth = useRef(WIDTH_SMALL);
   const halve = Math.floor((SPAN_SIZE - 1) / 2);
   const isFirstHalve = activeDot < Math.floor(length / 2);
   const isDynamicDots = length < 7;
@@ -62,15 +59,7 @@ const Dots = ({length, activeDot}: IDots) => {
       i.current = Math.max(j.current - (SPAN_SIZE - 1), i.current);
     }
   }
-  function getWidth() {
-    if (i.current === 0 || length - 1 - j.current === 0) {
-      currentWidth.current = WIDTH_SMALL;
-    } else if (i.current === 1 || length - 1 - j.current === 1) {
-      currentWidth.current = WIDTH_MEDIUM;
-    } else {
-      currentWidth.current = WIDTH_LARGE;
-    }
-  }
+
   function setIndexes() {
     direction.current = getDirection(activeDot, prevIndex);
 
@@ -85,8 +74,6 @@ const Dots = ({length, activeDot}: IDots) => {
     }
 
     setIndexes();
-
-    getWidth();
 
     const indicatorRight = () => {
       if (index > SPAN_SIZE) {
@@ -142,6 +129,12 @@ const Dots = ({length, activeDot}: IDots) => {
     [activeDot],
   );
 
+  const renderDot = () => {
+    return dots.map(dot => (
+      <Dot key={dot} active={dot === activeDot} size={size(dot)} />
+    ));
+  };
+
   if (isDynamicDots) {
     return (
       <View
@@ -149,9 +142,7 @@ const Dots = ({length, activeDot}: IDots) => {
           alignItems: 'center',
           flexDirection: 'row',
         }}>
-        {dots.map(i => (
-          <Dot key={i} active={i === activeDot} size={size(i)} />
-        ))}
+        {renderDot()}
       </View>
     );
   }
@@ -175,9 +166,7 @@ const Dots = ({length, activeDot}: IDots) => {
         scrollEnabled={false}
         horizontal
         showsHorizontalScrollIndicator={false}>
-        {dots.map(dot => (
-          <Dot key={dot} active={dot === activeDot} size={size(dot)} />
-        ))}
+        {renderDot()}
       </ScrollView>
     </Animated.View>
   );
