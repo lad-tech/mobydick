@@ -54,13 +54,13 @@ const PanelHeader = (props: IProps) => {
               <View>
                 <Typography
                   numberOfLines={1}
-                  style={[{textAlign: 'center'}, titleStyle]}
+                  style={[styles.title, titleStyle]}
                   font={titleFont}>
                   {title}
                 </Typography>
                 <Typography
                   numberOfLines={1}
-                  style={[{textAlign: 'center'}, subtitleStyle]}
+                  style={[styles.title, subtitleStyle]}
                   font={subtitleFont}>
                   {subtitle}
                 </Typography>
@@ -99,5 +99,8 @@ const createStyles = ({spaces}: IThemeContext) =>
     rightView: {
       flex: 1,
       alignItems: 'flex-end',
+    },
+    title: {
+      textAlign: 'center',
     },
   });
