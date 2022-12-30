@@ -1,0 +1,1907 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dots render dots activeDot left 1`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Dots render dots activeDot left 2`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Dots render dots activeDot left 3`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Dots render dots activeDot left 4`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Dots render dots activeDot right 1`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Dots render dots activeDot right 2`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Dots render dots activeDot right 3`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Dots render dots activeDot right 4`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Dots render dots activeDot=2 1`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Dots render dots activeDot=10 1`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`Dots render dots length < 7 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#5E6678",
+          "borderRadius": 6,
+          "height": 12,
+          "marginHorizontal": 5,
+          "width": 12,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
+          "borderRadius": 6,
+          "height": 12,
+          "marginHorizontal": 5,
+          "width": 12,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
+          "borderRadius": 6,
+          "height": 12,
+          "marginHorizontal": 5,
+          "width": 12,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
+          "borderRadius": 4.5,
+          "height": 9,
+          "marginHorizontal": 5,
+          "width": 9,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
+          "borderRadius": 3,
+          "height": 6,
+          "marginHorizontal": 5,
+          "width": 6,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
+          "borderRadius": 3,
+          "height": 6,
+          "marginHorizontal": 5,
+          "width": 6,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Dots render dots length > 7 1`] = `
+<View
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    Object {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;

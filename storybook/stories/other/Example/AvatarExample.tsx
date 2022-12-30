@@ -1,7 +1,7 @@
 import {Avatar} from '@npm/mobydick-core';
 import React from 'react';
 
-const ExampleAvatar = () => {
+const AvatarExample = () => {
   const userWithPhoto = {
     logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
     name: 'Иван Пушкин',
@@ -19,4 +19,4 @@ const ExampleAvatar = () => {
   );
 };
 
-export default ExampleAvatar;
+export default AvatarExample;
