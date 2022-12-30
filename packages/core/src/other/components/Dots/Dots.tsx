@@ -31,13 +31,13 @@ const Dots = ({length, activeDot}: IDots) => {
   const dots = [...Array(length).keys()];
   const [prevIndex, setPrevIndex] = useState(activeDot);
   const direction = useRef(getDirection(activeDot, prevIndex));
-  const halve = Math.floor((SPAN_SIZE - 1) / 2);
+  const half = Math.floor((SPAN_SIZE - 1) / 2);
   const isFirstHalve = activeDot < Math.floor(length / 2);
   const isDynamicDots = length < 7;
 
   const numConsumed = isFirstHalve
-    ? Math.max(activeDot - halve, 0)
-    : Math.min(activeDot + halve, length - 1) - activeDot;
+    ? Math.max(activeDot - half, 0)
+    : Math.min(activeDot + half, length - 1) - activeDot;
 
   const i = useRef(
     isFirstHalve
@@ -165,6 +165,7 @@ const Dots = ({length, activeDot}: IDots) => {
         bounces={false}
         scrollEnabled={false}
         horizontal
+        accessibilityLabel={'dotsScrollView'}
         showsHorizontalScrollIndicator={false}>
         {renderDot()}
       </ScrollView>

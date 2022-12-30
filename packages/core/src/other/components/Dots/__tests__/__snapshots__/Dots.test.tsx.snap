@@ -11,6 +11,7 @@ exports[`Dots render dots activeDot left 1`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
@@ -168,6 +169,7 @@ exports[`Dots render dots activeDot left 2`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
@@ -325,6 +327,7 @@ exports[`Dots render dots activeDot left 3`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
@@ -482,6 +485,7 @@ exports[`Dots render dots activeDot left 4`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
@@ -639,6 +643,7 @@ exports[`Dots render dots activeDot right 1`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
@@ -796,6 +801,7 @@ exports[`Dots render dots activeDot right 2`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
@@ -953,6 +959,7 @@ exports[`Dots render dots activeDot right 3`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
@@ -1110,6 +1117,7 @@ exports[`Dots render dots activeDot right 4`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
@@ -1267,6 +1275,7 @@ exports[`Dots render dots activeDot=2 1`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
@@ -1502,6 +1511,7 @@ exports[`Dots render dots activeDot=10 1`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
@@ -1749,6 +1759,7 @@ exports[`Dots render dots length > 7 1`] = `
   }
 >
   <RCTScrollView
+    accessibilityLabel="dotsScrollView"
     bounces={false}
     contentContainerStyle={
       Object {
