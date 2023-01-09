@@ -1,3 +1,36 @@
+# [4.3.0](https://glab.lad24.ru/npm/mobydick/compare/v4.2.0...v4.3.0) (2023-01-09)
+
+
+### Bug Fixes
+
+* **dropdown:** replace height from safe-area-context ([4ccda4a](https://glab.lad24.ru/npm/mobydick/commit/4ccda4a3c414e041fd21ea0e2bb44c593a4b9271))
+* **modalBase:** change style ([aeb2099](https://glab.lad24.ru/npm/mobydick/commit/aeb209938e77707019c9de3f9056622ee868be6b))
+* move react-native-safe-area-context to peerDeps ([6c36037](https://glab.lad24.ru/npm/mobydick/commit/6c360377644cb0136862e55053074519bba87bf4))
+* **sonar:** add resolutions ([4aeeac0](https://glab.lad24.ru/npm/mobydick/commit/4aeeac0f982ecbff51c61ecc0db83d8da00fe568))
+* **tooltip:** update tests and readme ([1dcd086](https://glab.lad24.ru/npm/mobydick/commit/1dcd0868d8e6f995f91bbc4c6e312d0fcec17f6b))
+* useDebounce typing ([02193e5](https://glab.lad24.ru/npm/mobydick/commit/02193e592d24f7bc499e31da0cccdc5bdbc8691a))
+
+
+### chore
+
+* **modal:** type, test ([410fcb5](https://glab.lad24.ru/npm/mobydick/commit/410fcb57f4a68e0212f3d8539358c5c98165ad86))
+
+
+### Features
+
+* **avatar:** add avatar from chat ([da4b582](https://glab.lad24.ru/npm/mobydick/commit/da4b582fd7273f9a800c955ec448ad4e9b17843c))
+* **button:** add counter in button ([5426a4a](https://glab.lad24.ru/npm/mobydick/commit/5426a4a1d6decaaa76361e05a5aaca1ac70e48c6))
+* **calendar:** add dayjs, react-native-calendars ([6460983](https://glab.lad24.ru/npm/mobydick/commit/6460983ca4395c55a650e8696b1c80fbff20c7ae))
+* **dots:** add dots ([fd753fb](https://glab.lad24.ru/npm/mobydick/commit/fd753fb3fa1a06041d332e99c1f2a531879309a3))
+* **modal:** add modalError, modalLoading, modalSuccess ([a3264f4](https://glab.lad24.ru/npm/mobydick/commit/a3264f4fa7988cffcbc9d2e25856707afd486bd8))
+* **panelHeader:** add panelHeader ([0a1e838](https://glab.lad24.ru/npm/mobydick/commit/0a1e838c8375761c80bb4bc94e78655d2ad8a31a))
+
+
+### BREAKING CHANGES
+
+* **modal:** MODAL backgroundColor: colors.BgSecondary -> colors.BgPrimary
+* **modalBase:** change style, add ContentText
+
 # [4.2.0](https://glab.lad24.ru/npm/mobydick/compare/v4.1.0...v4.2.0) (2022-12-21)
 
 
