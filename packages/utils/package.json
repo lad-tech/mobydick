@@ -8,7 +8,8 @@
   "react-native": "src/index",
   "source": "src/index",
   "files": [
-    "src"
+    "src",
+    "index.ts"
   ],
   "scripts": {
     "prepublishOnly": "tsc",
