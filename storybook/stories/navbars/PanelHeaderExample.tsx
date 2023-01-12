@@ -1,25 +1,37 @@
 import {
   iconNames,
+  IThemeContext,
   PanelHeader,
+  rem,
   TouchableOpacity,
   Typography,
+  useStyles,
+  View,
 } from '@npm/mobydick-core';
 import React from 'react';
 import SimpleIcon from '@npm/mobydick-core/src/styles/icons/font/SimpleIcon';
 import {select, text} from '@storybook/addon-knobs';
+import {StyleSheet} from 'react-native';
 
 enum IPanelHeader {
   icon = 'icon',
   text = 'text',
+  buttons = 'buttons',
+  twoIcons = 'twoIcons',
 }
 const PanelHeaderExample = () => {
+  const [styles] = useStyles(createStyles);
+
+  const title = text('title', 'Title');
+  const subtitle = text('subtitle', 'Subtitle');
+
   switch (select('panelHeader', IPanelHeader, IPanelHeader.icon)) {
     case IPanelHeader.icon:
     default:
       return (
         <PanelHeader
-          title={text('title', 'Title')}
-          subtitle={text('subtitle', 'Subtitle')}
+          title={title}
+          subtitle={subtitle}
           leftView={
             <SimpleIcon
               name={select('left Icon', iconNames, 'icon-calendar')}
@@ -33,15 +45,53 @@ const PanelHeaderExample = () => {
     case IPanelHeader.text:
       return (
         <PanelHeader
-          title={text('title', 'Title')}
-          subtitle={text('subtitle', 'Subtitle')}
+          title={title}
+          subtitle={subtitle}
           leftView={
             <TouchableOpacity>
               <Typography font={'Regular-Accent-XS'}>{'Отменить'}</Typography>
             </TouchableOpacity>
           }
           rightView={
-            <Typography font={'Regular-Accent-XS'}>{'Изменить'}</Typography>
+            <TouchableOpacity>
+              <Typography font={'Regular-Accent-XS'}>{'Изменить'}</Typography>
+            </TouchableOpacity>
+          }
+        />
+      );
+    case IPanelHeader.buttons:
+      return (
+        <PanelHeader
+          title={title}
+          subtitle={subtitle}
+          leftView={
+            <TouchableOpacity style={styles.button}>
+              <SimpleIcon name={'icon-arrow-left'} />
+            </TouchableOpacity>
+          }
+          rightView={
+            <TouchableOpacity style={styles.button}>
+              <SimpleIcon name={'icon-cancel'} />
+            </TouchableOpacity>
+          }
+        />
+      );
+    case IPanelHeader.twoIcons:
+      return (
+        <PanelHeader
+          title={title}
+          subtitle={subtitle}
+          leftView={
+            <View style={{flexDirection: 'row'}}>
+              <SimpleIcon name={'icon-share'} />
+              <SimpleIcon name={'icon-copy'} style={styles.icon} />
+            </View>
+          }
+          rightView={
+            <View style={{flexDirection: 'row'}}>
+              <SimpleIcon name={'icon-share'} />
+              <SimpleIcon name={'icon-copy'} style={styles.icon} />
+            </View>
           }
         />
       );
@@ -49,3 +99,18 @@ const PanelHeaderExample = () => {
 };
 
 export default PanelHeaderExample;
+
+const createStyles = ({spaces, colors}: IThemeContext) =>
+  StyleSheet.create({
+    icon: {
+      paddingLeft: spaces.Space8,
+    },
+    button: {
+      width: rem(40),
+      height: rem(40),
+      backgroundColor: colors.BgSecondary,
+      borderRadius: spaces.Space12,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  });

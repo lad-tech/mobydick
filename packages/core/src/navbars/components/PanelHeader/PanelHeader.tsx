@@ -95,13 +95,13 @@ const createStyles = ({spaces}: IThemeContext) =>
       padding: spaces.Space10,
     },
     leftView: {
-      flex: 1,
+      alignItems: 'flex-start',
     },
     titleView: {
-      flex: 5,
+      flex: 2,
+      paddingHorizontal: spaces.Space8,
     },
     rightView: {
-      flex: 1,
       alignItems: 'flex-end',
     },
     title: {
