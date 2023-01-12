@@ -156,7 +156,13 @@ exports[`Tab render panelHeader without props 1`] = `
           ]
         }
       >
-        <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+            }
+          }
+        >
           <Text
             allowFontScaling={true}
             numberOfLines={1}
@@ -167,26 +173,6 @@ exports[`Tab render panelHeader without props 1`] = `
                   "fontFamily": "Inter-SemiBold",
                   "fontSize": 24,
                   "lineHeight": 30,
-                },
-                Array [
-                  Object {
-                    "textAlign": "center",
-                  },
-                  undefined,
-                ],
-              ]
-            }
-          />
-          <Text
-            allowFontScaling={true}
-            numberOfLines={1}
-            style={
-              Array [
-                Object {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Regular",
-                  "fontSize": 18,
-                  "lineHeight": 24,
                 },
                 Array [
                   Object {

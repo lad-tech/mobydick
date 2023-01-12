@@ -51,19 +51,21 @@ const PanelHeader = (props: IProps) => {
 
           <View style={[styles.titleView, titleViewStyle]}>
             {titleView || (
-              <View>
+              <View style={styles.defaultTitleView}>
                 <Typography
                   numberOfLines={1}
                   style={[styles.title, titleStyle]}
                   font={titleFont}>
                   {title}
                 </Typography>
-                <Typography
-                  numberOfLines={1}
-                  style={[styles.title, subtitleStyle]}
-                  font={subtitleFont}>
-                  {subtitle}
-                </Typography>
+                {subtitle && (
+                  <Typography
+                    numberOfLines={1}
+                    style={[styles.title, subtitleStyle]}
+                    font={subtitleFont}>
+                    {subtitle}
+                  </Typography>
+                )}
               </View>
             )}
           </View>
@@ -102,5 +104,8 @@ const createStyles = ({spaces}: IThemeContext) =>
     },
     title: {
       textAlign: 'center',
+    },
+    defaultTitleView: {
+      alignItems: 'center',
     },
   });
