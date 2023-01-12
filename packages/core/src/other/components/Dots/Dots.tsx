@@ -83,17 +83,9 @@ const Dots = ({length, activeDot}: IDots) => {
       }
     };
 
-    const indicatorLeft = () => {
-      if (index < SPAN_SIZE || index === length - 1) {
-        return index - 3;
-      } else {
-        return index - 2;
-      }
-    };
-
     const moveTo = Math.max(
       0,
-      (direction.current > 0 ? indicatorRight() : indicatorLeft()) *
+      (direction.current > 0 ? indicatorRight() : index - 1) *
         (SIZE_SMALL + MARGIN_DOT),
     );
     refScrollView.current.scrollTo({
