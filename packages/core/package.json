@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-core",
-  "version": "4.2.0",
+  "version": "4.3.0",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -8,10 +8,11 @@
   "react-native": "src/index",
   "source": "src/index",
   "files": [
-    "src"
+    "src",
+    "index.ts"
   ],
   "scripts": {
-    "prepublish": "tsc",
+    "prepublishOnly": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kirill Lebedev <lebedevki@lad24.ru>",
