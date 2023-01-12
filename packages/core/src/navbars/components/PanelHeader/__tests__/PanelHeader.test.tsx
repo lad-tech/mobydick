@@ -33,7 +33,7 @@ describe('Tab', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   test('render panelHeader with title', () => {
-    const {toJSON} = render(<PanelHeader title={'title'} />);
+    const {toJSON} = render(<PanelHeader subtitle={'Subtitle'} />);
 
     expect(toJSON()).toMatchSnapshot();
   });

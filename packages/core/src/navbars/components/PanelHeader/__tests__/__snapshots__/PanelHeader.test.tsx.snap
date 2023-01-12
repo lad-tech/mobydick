@@ -182,8 +182,28 @@ exports[`Tab render panelHeader with title 1`] = `
                 ],
               ]
             }
+          />
+          <Text
+            allowFontScaling={true}
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#5E6678",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 18,
+                  "lineHeight": 24,
+                },
+                Array [
+                  Object {
+                    "textAlign": "center",
+                  },
+                  undefined,
+                ],
+              ]
+            }
           >
-            title
+            Subtitle
           </Text>
         </View>
       </View>
