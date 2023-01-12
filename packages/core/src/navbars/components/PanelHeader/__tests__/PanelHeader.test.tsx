@@ -32,4 +32,14 @@ describe('Tab', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  test('render panelHeader with title', () => {
+    const {toJSON} = render(<PanelHeader title={'title'} />);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  test('render panelHeader with subtitle', () => {
+    const {toJSON} = render(<PanelHeader subtitle={'Subtitle'} />);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
