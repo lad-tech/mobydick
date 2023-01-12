@@ -52,12 +52,14 @@ const PanelHeader = (props: IProps) => {
           <View style={[styles.titleView, titleViewStyle]}>
             {titleView || (
               <View style={styles.defaultTitleView}>
-                <Typography
-                  numberOfLines={1}
-                  style={[styles.title, titleStyle]}
-                  font={titleFont}>
-                  {title}
-                </Typography>
+                {title && (
+                  <Typography
+                    numberOfLines={1}
+                    style={[styles.title, titleStyle]}
+                    font={titleFont}>
+                    {title}
+                  </Typography>
+                )}
                 {subtitle && (
                   <Typography
                     numberOfLines={1}
