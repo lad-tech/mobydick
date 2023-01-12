@@ -15,7 +15,7 @@ import {StyleSheet} from 'react-native';
 
 enum IPanelHeader {
   icon = 'icon',
-  text = 'text',
+  onlyText = 'text',
   buttons = 'buttons',
   twoIcons = 'twoIcons',
 }
@@ -26,23 +26,7 @@ const PanelHeaderExample = () => {
   const subtitle = text('subtitle', 'Subtitle');
 
   switch (select('panelHeader', IPanelHeader, IPanelHeader.icon)) {
-    case IPanelHeader.icon:
-    default:
-      return (
-        <PanelHeader
-          title={title}
-          subtitle={subtitle}
-          leftView={
-            <SimpleIcon
-              name={select('left Icon', iconNames, 'icon-calendar')}
-            />
-          }
-          rightView={
-            <SimpleIcon name={select('right Icon', iconNames, 'icon-logout')} />
-          }
-        />
-      );
-    case IPanelHeader.text:
+    case IPanelHeader.onlyText:
       return (
         <PanelHeader
           title={title}
@@ -92,6 +76,22 @@ const PanelHeaderExample = () => {
               <SimpleIcon name={'icon-share'} />
               <SimpleIcon name={'icon-copy'} style={styles.icon} />
             </View>
+          }
+        />
+      );
+    case IPanelHeader.icon:
+    default:
+      return (
+        <PanelHeader
+          title={title}
+          subtitle={subtitle}
+          leftView={
+            <SimpleIcon
+              name={select('left Icon', iconNames, 'icon-calendar')}
+            />
+          }
+          rightView={
+            <SimpleIcon name={select('right Icon', iconNames, 'icon-logout')} />
           }
         />
       );
