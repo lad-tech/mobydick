@@ -92,7 +92,8 @@ const createStyles = ({spaces}: IThemeContext) =>
       justifyContent: 'space-between',
       alignItems: 'center',
 
-      padding: spaces.Space10,
+      paddingHorizontal: spaces.Space20,
+      paddingVertical: spaces.Space10,
     },
     leftView: {
       alignItems: 'flex-start',

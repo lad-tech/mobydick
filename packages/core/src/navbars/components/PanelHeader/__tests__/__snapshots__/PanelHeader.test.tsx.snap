@@ -28,7 +28,8 @@ exports[`Tab render panelHeader 1`] = `
             "alignItems": "center",
             "flexDirection": "row",
             "justifyContent": "space-between",
-            "padding": 15,
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
           },
           Object {
             "backgroundColor": "#000",
@@ -130,7 +131,8 @@ exports[`Tab render panelHeader with subtitle 1`] = `
             "alignItems": "center",
             "flexDirection": "row",
             "justifyContent": "space-between",
-            "padding": 15,
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
           },
           undefined,
         ]
@@ -229,7 +231,8 @@ exports[`Tab render panelHeader with title 1`] = `
             "alignItems": "center",
             "flexDirection": "row",
             "justifyContent": "space-between",
-            "padding": 15,
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
           },
           undefined,
         ]
@@ -328,7 +331,8 @@ exports[`Tab render panelHeader without props 1`] = `
             "alignItems": "center",
             "flexDirection": "row",
             "justifyContent": "space-between",
-            "padding": 15,
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
           },
           undefined,
         ]

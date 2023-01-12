@@ -103,7 +103,7 @@ export default PanelHeaderExample;
 const createStyles = ({spaces, colors}: IThemeContext) =>
   StyleSheet.create({
     icon: {
-      paddingLeft: spaces.Space8,
+      paddingLeft: spaces.Space12,
     },
     button: {
       width: rem(40),
