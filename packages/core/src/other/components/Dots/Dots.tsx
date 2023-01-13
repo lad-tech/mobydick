@@ -148,7 +148,8 @@ const Dots = ({length, activeDot}: IDots) => {
       onLayout={() => {
         //scroll to right index on initial render
         scrollTo(activeDot, false);
-      }}>
+      }}
+      accessibilityLabel={'dotsAnimatedView'}>
       <ScrollView
         ref={refScrollView}
         contentContainerStyle={{

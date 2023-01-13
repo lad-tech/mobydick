@@ -12,14 +12,14 @@ describe('dots/stylesCreate', () => {
       dot: {
         width: rem(8),
         height: rem(8),
-        marginHorizontal: 5,
+        marginHorizontal: rem(5),
         borderRadius: rem(8) / 2,
         backgroundColor: '#9BA1B0',
       },
       dots: {
         flexDirection: 'row',
         alignItems: 'center',
-        paddingTop: 5,
+        paddingTop: rem(5),
       },
     });
   });

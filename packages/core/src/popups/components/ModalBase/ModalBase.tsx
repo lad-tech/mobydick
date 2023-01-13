@@ -8,8 +8,6 @@ import useStyles from '../../../styles/theme/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 
 import CloseIcon from './CloseIcon';
-import DescriptionText from './DescriptionText';
-import Title from './Title';
 import VerticalButtonsView from './VerticalButtonsView';
 import HorizontalButtonsView from './HorizontalButtonsView';
 import AlertContent from './AlertContent';
@@ -24,9 +22,7 @@ const ModalBase: FC<
     containerStyle?: StyleProp<ViewStyle>;
   }
 > & {
-  Title: typeof Title;
   CloseIcon: typeof CloseIcon;
-  DescriptionText: typeof DescriptionText;
   VerticalButtonsView: typeof VerticalButtonsView;
   HorizontalButtonsView: typeof HorizontalButtonsView;
   VerticalButton: typeof VerticalButton;
@@ -50,8 +46,6 @@ const ModalBase: FC<
   );
 };
 
-ModalBase.Title = Title;
-ModalBase.DescriptionText = DescriptionText;
 ModalBase.CloseIcon = CloseIcon;
 ModalBase.VerticalButtonsView = VerticalButtonsView;
 ModalBase.HorizontalButtonsView = HorizontalButtonsView;
