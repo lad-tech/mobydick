@@ -92,16 +92,17 @@ const createStyles = ({spaces}: IThemeContext) =>
       justifyContent: 'space-between',
       alignItems: 'center',
 
-      padding: spaces.Space10,
+      paddingHorizontal: spaces.Space20,
+      paddingVertical: spaces.Space10,
     },
     leftView: {
-      flex: 1,
+      alignItems: 'flex-start',
     },
     titleView: {
-      flex: 5,
+      flex: 2,
+      paddingHorizontal: spaces.Space8,
     },
     rightView: {
-      flex: 1,
       alignItems: 'flex-end',
     },
     title: {
