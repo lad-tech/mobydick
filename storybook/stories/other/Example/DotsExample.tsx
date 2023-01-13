@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {number} from '@storybook/addon-knobs';
-import {Button, Dots, View} from '@npm/mobydick-core';
+import {Button, Dots, rem, View} from '@npm/mobydick-core';
 
 const DotsExample = () => {
   const length = number('number length', 10);
@@ -12,7 +12,7 @@ const DotsExample = () => {
         style={{
           flexDirection: 'row',
           justifyContent: 'space-between',
-          paddingHorizontal: 20,
+          paddingHorizontal: rem(20),
         }}>
         <Button
           text={'Prev'}
