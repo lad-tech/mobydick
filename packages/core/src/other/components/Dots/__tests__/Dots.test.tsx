@@ -54,7 +54,7 @@ describe('Dots', () => {
     expect(toJSON()).toMatchSnapshot();
     act(() => {
       fireEvent(layout, 'layout', {
-        nativeEvent: {layout: {height: 100}}, // The event data you need
+        nativeEvent: {layout: {height: 100}},
       });
     });
   });
