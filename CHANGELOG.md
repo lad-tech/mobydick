@@ -1,3 +1,11 @@
+## [4.3.1](https://glab.lad24.ru/npm/mobydick/compare/v4.3.0...v4.3.1) (2023-01-13)
+
+
+### Bug Fixes
+
+* **dots:** fix indicatorLeft and add rem ([9f9b69f](https://glab.lad24.ru/npm/mobydick/commit/9f9b69f3d29fcff3575211f84a24439302ee3219))
+* **panelHeader:** if only title -> 'center' ([7c24123](https://glab.lad24.ru/npm/mobydick/commit/7c241231fb51a1e8b0884c80e4856fbe9bca7c87))
+
 # [4.3.0](https://glab.lad24.ru/npm/mobydick/compare/v4.2.0...v4.3.0) (2023-01-09)
 
 

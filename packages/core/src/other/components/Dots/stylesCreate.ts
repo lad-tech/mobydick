@@ -1,6 +1,7 @@
 import {StyleSheet} from 'react-native';
 
 import {IThemeContext} from '../../../styles';
+import rem from '../../../styles/spaces/rem';
 
 const stylesCreate = (
   {colors, spaces}: IThemeContext,
@@ -11,14 +12,14 @@ const stylesCreate = (
     dot: {
       width: size,
       height: size,
-      marginHorizontal: 5,
+      marginHorizontal: rem(5),
       borderRadius: size / 2,
       backgroundColor: active ? colors.ElementNeutral : colors.ElementMuted,
     },
     dots: {
       flexDirection: 'row',
       alignItems: 'center',
-      paddingTop: 5,
+      paddingTop: rem(5),
     },
   });
 };
