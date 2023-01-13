@@ -1,4 +1,4 @@
-import {render} from '@testing-library/react-native';
+import {act, fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
 
 import Dots from '../Dots';
@@ -45,5 +45,17 @@ describe('Dots', () => {
     const {toJSON} = render(<Dots length={0} activeDot={0} />);
 
     expect(toJSON()).toMatchSnapshot();
+  });
+  test('render dots onLayout', () => {
+    const {toJSON, getByLabelText} = render(<Dots length={10} activeDot={0} />);
+
+    const layout = getByLabelText('dotsAnimatedView');
+
+    expect(toJSON()).toMatchSnapshot();
+    act(() => {
+      fireEvent(layout, 'layout', {
+        nativeEvent: {layout: {height: 100}},
+      });
+    });
   });
 });
