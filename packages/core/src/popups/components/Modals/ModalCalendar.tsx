@@ -1,45 +1,83 @@
-import React, {FC, ReactElement, useState} from 'react';
+import React, {FC, ReactElement, useEffect, useState} from 'react';
 import {CalendarProps} from 'react-native-calendars/src';
 
-import {IContentProps} from '../../types';
+import {IContentProps, IHorizontalButtonsView} from '../../types';
 import {ModalBase} from '../ModalBase';
 import Calendar from '../Calendar/Calendar';
-import {IChangeDate} from '../Calendar';
+import {IButtonView, IChangeDate} from '../Calendar';
 import useStyles from '../../../styles/theme/hooks/useStyles';
-import {Typography} from '../../../typography/components/Typography/Typography';
-import rem from '../../../styles/spaces/rem';
-import Button from '../../../cta/components/Button/Button';
-import {IButtonSize} from '../../../cta/components/Button/types';
+import {IButtonSize, IButtonTypes} from '../../../cta/components/Button/types';
+import {TypographyProp} from '../../../typography';
 
 import stylesCreate from './stylesCreate';
 
-interface ICalendar extends CalendarProps {
+interface ICalendar extends CalendarProps, Partial<IHorizontalButtonsView> {
   onChangeDate: (dateRange?: IChangeDate) => void;
   bottomView?: ReactElement;
   textCalendar?: string;
+  textCalendarFont?: TypographyProp;
+  buttonView?: IButtonView;
 }
 
+const ACCEPT_STR = 'Применить';
+const CANCEL_STR = 'Отмена';
+
 const ModalCalendar: FC<IContentProps & ICalendar> = props => {
-  const {onClose, bottomView, onChangeDate, textCalendar} = props;
+  const {
+    onClose,
+    bottomView,
+    onChangeDate,
+    textCalendar,
+    buttonView,
+    typeLeft,
+    textLeft,
+    typeRight,
+    textRight,
+    textCalendarFont,
+  } = props;
   const [styles] = useStyles(stylesCreate);
   const [date, setDate] = useState<{dateStart: string; dateEnd: string}>();
+  const [isClear, setClear] = useState(false);
+
+  const onAccept = () => {
+    onChangeDate(date);
+    onClose();
+  };
 
   const defaultBottomView = bottomView || (
     <>
       {textCalendar && (
-        <Typography
-          font={'Regular-Secondary-M'}
-          style={{textAlign: 'center', paddingBottom: rem(32)}}>
-          {textCalendar}
-        </Typography>
+        <ModalBase.TextContent
+          descriptionText={textCalendar}
+          descriptionFont={textCalendarFont || 'Regular-Muted-M'}
+        />
       )}
-      <Button
-        text={'Применить'}
-        size={IButtonSize.small}
-        onPress={() => onChangeDate(date)}
-      />
+
+      {buttonView === IButtonView.small && (
+        <ModalBase.VerticalButtonsView>
+          <ModalBase.VerticalButton
+            text={textRight || ACCEPT_STR}
+            size={IButtonSize.small}
+            onPress={onAccept}
+          />
+        </ModalBase.VerticalButtonsView>
+      )}
+      {buttonView === IButtonView.large && (
+        <ModalBase.HorizontalButtonsView
+          typeLeft={typeLeft || IButtonTypes.secondary}
+          textLeft={textLeft || CANCEL_STR}
+          typeRight={typeRight || IButtonTypes.primary}
+          textRight={textRight || ACCEPT_STR}
+          onPressRight={onAccept}
+          onPressLeft={() => setClear(true)}
+        />
+      )}
     </>
   );
+
+  useEffect(() => {
+    setClear(false);
+  }, [date]);
 
   return (
     <ModalBase
@@ -47,7 +85,11 @@ const ModalCalendar: FC<IContentProps & ICalendar> = props => {
       overlayStyle={styles.overlayStyle}
       {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
-      <Calendar bottomView={defaultBottomView} onChangeDate={setDate} />
+      <Calendar
+        bottomView={defaultBottomView}
+        isClear={isClear}
+        onChangeDate={setDate}
+      />
     </ModalBase>
   );
 };

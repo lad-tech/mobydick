@@ -25,6 +25,7 @@ const stylesCreate = (theme: IThemeContext) => {
       position: 'absolute',
       top: spaces.Space16,
       right: spaces.Space16,
+      zIndex: 2,
     },
     alertView: {
       borderRadius: 100,

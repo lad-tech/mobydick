@@ -1,5 +1,7 @@
 import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
 
+import rem from '../../../styles/spaces/rem';
+
 export interface IMarkedTypes {
   [key: string]: MarkingProps;
 }
@@ -30,9 +32,15 @@ export const getAllDatesBetween = (
   const datesForCalendar: IMarkedTypes = {};
   datesForCalendar[getDateForCalendar(fromDate)] = {
     startingDay: true,
+    endingDay: true,
+
     color: colorPrime.color,
     textColor: colorPrime.textColor,
-    customContainerStyle: {borderRadius: 4},
+
+    customContainerStyle: {
+      borderRadius: rem(4),
+      width: '100%',
+    },
   };
 
   while (curDate < toDate) {
@@ -43,11 +51,15 @@ export const getAllDatesBetween = (
     };
   }
   datesForCalendar[getDateForCalendar(toDate)] = {
-    startingDay: fromDate.getTime() === toDate.getTime(),
+    startingDay: true,
     endingDay: true,
     textColor: colorPrime.textColor,
     color: colorPrime.color,
-    customContainerStyle: {borderRadius: 4},
+
+    customContainerStyle: {
+      borderRadius: rem(4),
+      width: '100%',
+    },
   };
   return datesForCalendar;
 };

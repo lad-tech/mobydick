@@ -1,6 +1,7 @@
 import {Dimensions, StyleSheet} from 'react-native';
 
 import {IThemeContext} from '../../../styles/theme/types';
+import rem from '../../../styles/spaces/rem';
 
 const {width: WIDTH} = Dimensions.get('window');
 
@@ -9,11 +10,8 @@ const stylesCreate = (theme: IThemeContext) => {
 
   return StyleSheet.create({
     calendar: {
-      borderRadius: spaces.Space4,
-      marginTop: spaces.Space32,
-      paddingVertical: spaces.Space8,
-      marginBottom: spaces.Space16,
-      width: WIDTH - spaces.Space8 * 2 - spaces.Space20 * 2,
+      marginTop: spaces.Space12,
+      width: WIDTH - spaces.Space8 * 2 - rem(16) * 2,
     },
   });
 };
