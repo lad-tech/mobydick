@@ -8,6 +8,7 @@ import {
   IChangeDate,
   ModalCalendar,
   usePopups,
+  IButtonView,
 } from '@npm/mobydick-core';
 
 import CenterView from '../../CenterView';
@@ -132,7 +133,8 @@ const CalendarPopupExample = () => {
           onChangeDate={(date?: IChangeDate) =>
             console.log('onChangeDate', date?.dateStart, date?.dateEnd)
           }
-          textCalendar={'Выберите интервал, в который хотите пойти вотпуск'}
+          textCalendar={'Выберите интервал, в который хотите пойти в отпуск'}
+          buttonView={IButtonView.large}
           {...propsFromPopup}
         />
       ),

@@ -1,4 +1,4 @@
-import React, {FC, ReactElement, useMemo, useState} from 'react';
+import React, {FC, ReactElement, useEffect, useMemo, useState} from 'react';
 import {
   Calendar as DefaultCalendar,
   CalendarProps,
@@ -21,14 +21,17 @@ interface ICalendar extends CalendarProps {
   onChangeDate?: (dateRange: IChangeDate) => void;
   bottomView?: ReactElement;
   defaultLocale?: string;
+  isClear?: boolean;
 }
+
 const Calendar: FC<ICalendar> = props => {
-  const {onChangeDate, defaultLocale, bottomView, ...rest} = props;
+  const {onChangeDate, defaultLocale, bottomView, isClear, ...rest} = props;
   LocaleConfig.defaultLocale = defaultLocale || 'ru';
-  const {colors, currentTheme, spaces} = useTheme();
+  const {colors, currentTheme} = useTheme();
   const today = new Date();
   const [styles] = useStyles(stylesCreate);
   const [date, setDate] = useState<DateData>();
+
   const colorsArg = useMemo(
     () => ({
       colorPrime: {
@@ -36,7 +39,7 @@ const Calendar: FC<ICalendar> = props => {
         textColor: colors.TextWhite,
       },
       colorSoft: {
-        color: colors.BgAccentSoft,
+        color: colors.BgSecondary, //жду ответ от дизайнера по цвету
         textColor: colors.TextPrimary,
       },
     }),
@@ -52,18 +55,19 @@ const Calendar: FC<ICalendar> = props => {
   const themeStyles = useMemo(
     () => ({
       theme: {
-        weekVerticalMargin: spaces.Space2,
+        calendarBackground: colors.BgPrimary,
+        textSectionTitleColor: colors.TextTertiary,
+        dayTextColor: colors.TextPrimary,
+        textDisabledColor: colors.TextMuted,
         arrowColor: colors.IconNeutral,
-        textMonthFontSize: rem(14),
-        textMonthFontFamily: 'Inter-Medium',
         monthTextColor: colors.TextPrimary,
-        textDayHeaderFontSize: rem(14),
+        textMonthFontFamily: 'Inter-Medium',
         textDayHeaderFontFamily: 'Inter-Medium',
+        textMonthFontSize: rem(14),
+        textDayHeaderFontSize: rem(14),
         textDayFontSize: rem(14),
         textDayFontFamily: 'Inter-Regular',
-        calendarBackground: colors.BgPrimary,
-        textDisabledColor: colors.TextMuted,
-        dayTextColor: colors.TextPrimary,
+        weekVerticalMargin: 0,
       },
     }),
     [currentTheme],
@@ -86,6 +90,20 @@ const Calendar: FC<ICalendar> = props => {
 
     setDate(day);
   };
+
+  const onClear = () => {
+    setDate(undefined);
+    onChangeDate && onChangeDate({dateStart: '', dateEnd: ''});
+    setMarkedDates(
+      getAllDatesBetween(new Date(todayTimestamp), new Date(''), colorsArg),
+    );
+  };
+
+  useEffect(() => {
+    if (isClear) {
+      onClear();
+    }
+  }, [isClear]);
 
   return (
     <>

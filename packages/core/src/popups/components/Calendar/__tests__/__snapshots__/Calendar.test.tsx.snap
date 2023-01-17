@@ -12,11 +12,8 @@ Array [
             "paddingRight": 5,
           },
           Object {
-            "borderRadius": 6,
-            "marginBottom": 24,
-            "marginTop": 48,
-            "paddingVertical": 12,
-            "width": 666,
+            "marginTop": 18,
+            "width": 678,
           },
         ]
       }
@@ -178,7 +175,7 @@ Array [
             style={
               Array [
                 Object {
-                  "color": "#b6c1cd",
+                  "color": "#5E6678",
                   "fontFamily": "Inter-Medium",
                   "fontSize": 21,
                   "fontWeight": undefined,
@@ -199,7 +196,7 @@ Array [
             style={
               Array [
                 Object {
-                  "color": "#b6c1cd",
+                  "color": "#5E6678",
                   "fontFamily": "Inter-Medium",
                   "fontSize": 21,
                   "fontWeight": undefined,
@@ -220,7 +217,7 @@ Array [
             style={
               Array [
                 Object {
-                  "color": "#b6c1cd",
+                  "color": "#5E6678",
                   "fontFamily": "Inter-Medium",
                   "fontSize": 21,
                   "fontWeight": undefined,
@@ -241,7 +238,7 @@ Array [
             style={
               Array [
                 Object {
-                  "color": "#b6c1cd",
+                  "color": "#5E6678",
                   "fontFamily": "Inter-Medium",
                   "fontSize": 21,
                   "fontWeight": undefined,
@@ -262,7 +259,7 @@ Array [
             style={
               Array [
                 Object {
-                  "color": "#b6c1cd",
+                  "color": "#5E6678",
                   "fontFamily": "Inter-Medium",
                   "fontSize": 21,
                   "fontWeight": undefined,
@@ -283,7 +280,7 @@ Array [
             style={
               Array [
                 Object {
-                  "color": "#b6c1cd",
+                  "color": "#5E6678",
                   "fontFamily": "Inter-Medium",
                   "fontSize": 21,
                   "fontWeight": undefined,
@@ -304,7 +301,7 @@ Array [
             style={
               Array [
                 Object {
-                  "color": "#b6c1cd",
+                  "color": "#5E6678",
                   "fontFamily": "Inter-Medium",
                   "fontSize": 21,
                   "fontWeight": undefined,
@@ -332,7 +329,7 @@ Array [
             Object {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 0,
             }
           }
         >
@@ -998,7 +995,7 @@ Array [
             Object {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 0,
             }
           }
         >
@@ -1652,7 +1649,7 @@ Array [
             Object {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 0,
             }
           }
         >
@@ -2217,7 +2214,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 17 Июль 2022 period start "
+              accessibilityLabel=" Воскресенье 17 Июль 2022 period start period end "
               accessibilityRole="button"
               accessible={true}
               focusable={true}
@@ -2274,7 +2271,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "#2B78EE",
+                        "backgroundColor": undefined,
                       },
                     ]
                   }
@@ -2294,7 +2291,8 @@ Array [
                       "overflow": "hidden",
                     },
                     Object {
-                      "borderRadius": 4,
+                      "borderRadius": 6,
+                      "width": "100%",
                     },
                     Object {
                       "backgroundColor": "#2B78EE",
@@ -2353,7 +2351,7 @@ Array [
             Object {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 0,
             }
           }
         >
@@ -2397,7 +2395,7 @@ Array [
                       "right": 0,
                     },
                     Object {
-                      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                      "backgroundColor": "#EEEFF1",
                     },
                   ]
                 }
@@ -2411,7 +2409,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -2425,7 +2423,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -2533,7 +2531,7 @@ Array [
                       "right": 0,
                     },
                     Object {
-                      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                      "backgroundColor": "#EEEFF1",
                     },
                   ]
                 }
@@ -2547,7 +2545,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -2561,7 +2559,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -2669,7 +2667,7 @@ Array [
                       "right": 0,
                     },
                     Object {
-                      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                      "backgroundColor": "#EEEFF1",
                     },
                   ]
                 }
@@ -2683,7 +2681,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -2697,7 +2695,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -2805,7 +2803,7 @@ Array [
                       "right": 0,
                     },
                     Object {
-                      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                      "backgroundColor": "#EEEFF1",
                     },
                   ]
                 }
@@ -2819,7 +2817,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -2833,7 +2831,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -2941,7 +2939,7 @@ Array [
                       "right": 0,
                     },
                     Object {
-                      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                      "backgroundColor": "#EEEFF1",
                     },
                   ]
                 }
@@ -2955,7 +2953,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -2969,7 +2967,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -3077,7 +3075,7 @@ Array [
                       "right": 0,
                     },
                     Object {
-                      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                      "backgroundColor": "#EEEFF1",
                     },
                   ]
                 }
@@ -3091,7 +3089,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -3105,7 +3103,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -3213,7 +3211,7 @@ Array [
                       "right": 0,
                     },
                     Object {
-                      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                      "backgroundColor": "#EEEFF1",
                     },
                   ]
                 }
@@ -3227,7 +3225,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -3241,7 +3239,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+                        "backgroundColor": "#EEEFF1",
                       },
                     ]
                   }
@@ -3315,7 +3313,7 @@ Array [
             Object {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 0,
             }
           }
         >
@@ -3328,7 +3326,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 25 Июль 2022 period end "
+              accessibilityLabel=" Понедельник 25 Июль 2022 period start period end "
               accessibilityRole="button"
               accessible={true}
               focusable={true}
@@ -3371,7 +3369,7 @@ Array [
                         "height": 34,
                       },
                       Object {
-                        "backgroundColor": "#2B78EE",
+                        "backgroundColor": undefined,
                       },
                     ]
                   }
@@ -3405,7 +3403,4053 @@ Array [
                       "overflow": "hidden",
                     },
                     Object {
-                      "borderRadius": 4,
+                      "borderRadius": 6,
+                      "width": "100%",
+                    },
+                    Object {
+                      "backgroundColor": "#2B78EE",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 21,
+                        "fontWeight": "300",
+                      },
+                      Object {
+                        "color": "#FFF",
+                      },
+                    ]
+                  }
+                >
+                  25
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "bottom": 3,
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 2,
+                          "height": 4,
+                          "marginHorizontal": 1,
+                          "marginTop": 1,
+                          "opacity": 0,
+                          "width": 4,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Вторник 26 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-26"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    26
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Среда 27 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-27"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    27
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Четверг 28 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-28"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    28
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Пятница 29 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-29"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    29
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Суббота 30 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-30"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    30
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Воскресенье 31 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-31"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    31
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>,
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "stretch",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "minHeight": 72,
+        "opacity": 1,
+      }
+    }
+  />,
+]
+`;
+
+exports[`Calendar press isClear  1`] = `
+Array [
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#FFF",
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          },
+          Object {
+            "marginTop": 18,
+            "width": 678,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityActions={
+          Array [
+            Object {
+              "label": "increment",
+              "name": "increment",
+            },
+            Object {
+              "label": "decrement",
+              "name": "decrement",
+            },
+          ]
+        }
+        accessibilityRole="adjustable"
+        accessible={true}
+        onAccessibilityAction={[Function]}
+        testID="undefined.header"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginTop": 6,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            hitSlop={
+              Object {
+                "bottom": 20,
+                "left": 20,
+                "right": 20,
+                "top": 20,
+              }
+            }
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+              }
+            }
+            testID="undefined.header.leftArrow"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../react-native-calendars/src/calendar/img/previous.png",
+                }
+              }
+              style={
+                Object {
+                  "tintColor": "#5E6678",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Medium",
+                  "fontSize": 21,
+                  "fontWeight": "300",
+                  "margin": 10,
+                }
+              }
+              testID="undefined.header.title"
+            >
+              Июль 2022
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            hitSlop={
+              Object {
+                "bottom": 20,
+                "left": 20,
+                "right": 20,
+                "top": 20,
+              }
+            }
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "padding": 10,
+              }
+            }
+            testID="undefined.header.rightArrow"
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../react-native-calendars/src/calendar/img/next.png",
+                }
+              }
+              style={
+                Object {
+                  "tintColor": "#5E6678",
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginTop": 7,
+              },
+              undefined,
+            ]
+          }
+          testID="undefined.header.dayNames"
+        >
+          <Text
+            accessibilityLabel=""
+            allowFontScaling={false}
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#5E6678",
+                  "fontFamily": "Inter-Medium",
+                  "fontSize": 21,
+                  "fontWeight": undefined,
+                  "marginBottom": 7,
+                  "marginTop": 2,
+                  "textAlign": "center",
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            пн
+          </Text>
+          <Text
+            accessibilityLabel=""
+            allowFontScaling={false}
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#5E6678",
+                  "fontFamily": "Inter-Medium",
+                  "fontSize": 21,
+                  "fontWeight": undefined,
+                  "marginBottom": 7,
+                  "marginTop": 2,
+                  "textAlign": "center",
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            вт
+          </Text>
+          <Text
+            accessibilityLabel=""
+            allowFontScaling={false}
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#5E6678",
+                  "fontFamily": "Inter-Medium",
+                  "fontSize": 21,
+                  "fontWeight": undefined,
+                  "marginBottom": 7,
+                  "marginTop": 2,
+                  "textAlign": "center",
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            ср
+          </Text>
+          <Text
+            accessibilityLabel=""
+            allowFontScaling={false}
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#5E6678",
+                  "fontFamily": "Inter-Medium",
+                  "fontSize": 21,
+                  "fontWeight": undefined,
+                  "marginBottom": 7,
+                  "marginTop": 2,
+                  "textAlign": "center",
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            чт
+          </Text>
+          <Text
+            accessibilityLabel=""
+            allowFontScaling={false}
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#5E6678",
+                  "fontFamily": "Inter-Medium",
+                  "fontSize": 21,
+                  "fontWeight": undefined,
+                  "marginBottom": 7,
+                  "marginTop": 2,
+                  "textAlign": "center",
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            пт
+          </Text>
+          <Text
+            accessibilityLabel=""
+            allowFontScaling={false}
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#5E6678",
+                  "fontFamily": "Inter-Medium",
+                  "fontSize": 21,
+                  "fontWeight": undefined,
+                  "marginBottom": 7,
+                  "marginTop": 2,
+                  "textAlign": "center",
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            сб
+          </Text>
+          <Text
+            accessibilityLabel=""
+            allowFontScaling={false}
+            numberOfLines={1}
+            style={
+              Array [
+                Object {
+                  "color": "#5E6678",
+                  "fontFamily": "Inter-Medium",
+                  "fontSize": 21,
+                  "fontWeight": undefined,
+                  "marginBottom": 7,
+                  "marginTop": 2,
+                  "textAlign": "center",
+                  "width": 32,
+                },
+              ]
+            }
+          >
+            вс
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Понедельник 27 Июнь 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-06-27"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                        Object {
+                          "color": "#9BA1B0",
+                        },
+                      ]
+                    }
+                  >
+                    27
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Вторник 28 Июнь 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-06-28"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                        Object {
+                          "color": "#9BA1B0",
+                        },
+                      ]
+                    }
+                  >
+                    28
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Среда 29 Июнь 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-06-29"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                        Object {
+                          "color": "#9BA1B0",
+                        },
+                      ]
+                    }
+                  >
+                    29
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Четверг 30 Июнь 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-06-30"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                        Object {
+                          "color": "#9BA1B0",
+                        },
+                      ]
+                    }
+                  >
+                    30
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Пятница 1 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-01"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    1
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Суббота 2 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-02"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    2
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Воскресенье 3 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-03"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    3
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Понедельник 4 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-04"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    4
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Вторник 5 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-05"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    5
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Среда 6 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-06"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    6
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Четверг 7 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-07"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    7
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Пятница 8 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-08"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    8
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Суббота 9 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-09"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    9
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Воскресенье 10 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-10"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    10
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Понедельник 11 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-11"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    11
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Вторник 12 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-12"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    12
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Среда 13 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-13"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    13
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Четверг 14 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-14"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    14
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Пятница 15 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-15"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    15
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Суббота 16 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-07-16"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "marginLeft": -1,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                      ]
+                    }
+                  >
+                    16
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Воскресенье 17 Июль 2022 period start period end "
+              accessibilityRole="button"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "marginLeft": -1,
+                }
+              }
+              testID="undefined.day_2022-07-17"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "height": 34,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": undefined,
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": undefined,
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 34,
+                      "justifyContent": "center",
+                      "width": 38,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 6,
+                      "width": "100%",
+                    },
+                    Object {
+                      "backgroundColor": "#2B78EE",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 21,
+                        "fontWeight": "300",
+                      },
+                      Object {
+                        "color": "#FFF",
+                      },
+                    ]
+                  }
+                >
+                  17
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "bottom": 3,
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 2,
+                          "height": 4,
+                          "marginHorizontal": 1,
+                          "marginTop": 1,
+                          "opacity": 0,
+                          "width": 4,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Понедельник 18 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "marginLeft": -1,
+                }
+              }
+              testID="undefined.day_2022-07-18"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "height": 34,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                    },
+                    Object {
+                      "backgroundColor": "#EEEFF1",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 34,
+                      "justifyContent": "center",
+                      "width": 38,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                      "overflow": "hidden",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 21,
+                        "fontWeight": "300",
+                      },
+                      Object {
+                        "color": "#20242D",
+                      },
+                    ]
+                  }
+                >
+                  18
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "bottom": 3,
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 2,
+                          "height": 4,
+                          "marginHorizontal": 1,
+                          "marginTop": 1,
+                          "opacity": 0,
+                          "width": 4,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Вторник 19 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "marginLeft": -1,
+                }
+              }
+              testID="undefined.day_2022-07-19"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "height": 34,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                    },
+                    Object {
+                      "backgroundColor": "#EEEFF1",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 34,
+                      "justifyContent": "center",
+                      "width": 38,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                      "overflow": "hidden",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 21,
+                        "fontWeight": "300",
+                      },
+                      Object {
+                        "color": "#20242D",
+                      },
+                    ]
+                  }
+                >
+                  19
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "bottom": 3,
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 2,
+                          "height": 4,
+                          "marginHorizontal": 1,
+                          "marginTop": 1,
+                          "opacity": 0,
+                          "width": 4,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Среда 20 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "marginLeft": -1,
+                }
+              }
+              testID="undefined.day_2022-07-20"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "height": 34,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                    },
+                    Object {
+                      "backgroundColor": "#EEEFF1",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 34,
+                      "justifyContent": "center",
+                      "width": 38,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                      "overflow": "hidden",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 21,
+                        "fontWeight": "300",
+                      },
+                      Object {
+                        "color": "#20242D",
+                      },
+                    ]
+                  }
+                >
+                  20
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "bottom": 3,
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 2,
+                          "height": 4,
+                          "marginHorizontal": 1,
+                          "marginTop": 1,
+                          "opacity": 0,
+                          "width": 4,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Четверг 21 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "marginLeft": -1,
+                }
+              }
+              testID="undefined.day_2022-07-21"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "height": 34,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                    },
+                    Object {
+                      "backgroundColor": "#EEEFF1",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 34,
+                      "justifyContent": "center",
+                      "width": 38,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                      "overflow": "hidden",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 21,
+                        "fontWeight": "300",
+                      },
+                      Object {
+                        "color": "#20242D",
+                      },
+                    ]
+                  }
+                >
+                  21
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "bottom": 3,
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 2,
+                          "height": 4,
+                          "marginHorizontal": 1,
+                          "marginTop": 1,
+                          "opacity": 0,
+                          "width": 4,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Пятница 22 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "marginLeft": -1,
+                }
+              }
+              testID="undefined.day_2022-07-22"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "height": 34,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                    },
+                    Object {
+                      "backgroundColor": "#EEEFF1",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 34,
+                      "justifyContent": "center",
+                      "width": 38,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                      "overflow": "hidden",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 21,
+                        "fontWeight": "300",
+                      },
+                      Object {
+                        "color": "#20242D",
+                      },
+                    ]
+                  }
+                >
+                  22
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "bottom": 3,
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 2,
+                          "height": 4,
+                          "marginHorizontal": 1,
+                          "marginTop": 1,
+                          "opacity": 0,
+                          "width": 4,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Суббота 23 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "marginLeft": -1,
+                }
+              }
+              testID="undefined.day_2022-07-23"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "height": 34,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                    },
+                    Object {
+                      "backgroundColor": "#EEEFF1",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 34,
+                      "justifyContent": "center",
+                      "width": 38,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                      "overflow": "hidden",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 21,
+                        "fontWeight": "300",
+                      },
+                      Object {
+                        "color": "#20242D",
+                      },
+                    ]
+                  }
+                >
+                  23
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "bottom": 3,
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 2,
+                          "height": 4,
+                          "marginHorizontal": 1,
+                          "marginTop": 1,
+                          "opacity": 0,
+                          "width": 4,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Воскресенье 24 Июль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "marginLeft": -1,
+                }
+              }
+              testID="undefined.day_2022-07-24"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "height": 34,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                    },
+                    Object {
+                      "backgroundColor": "#EEEFF1",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": "#EEEFF1",
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 34,
+                      "justifyContent": "center",
+                      "width": 38,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                      "overflow": "hidden",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 0)",
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 21,
+                        "fontWeight": "300",
+                      },
+                      Object {
+                        "color": "#20242D",
+                      },
+                    ]
+                  }
+                >
+                  24
+                </Text>
+                <View
+                  style={
+                    Object {
+                      "bottom": 3,
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "borderRadius": 2,
+                          "height": 4,
+                          "marginHorizontal": 1,
+                          "marginTop": 1,
+                          "opacity": 0,
+                          "width": 4,
+                        },
+                      ]
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Понедельник 25 Июль 2022 period start period end "
+              accessibilityRole="button"
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "stretch",
+                  "marginLeft": -1,
+                }
+              }
+              testID="undefined.day_2022-07-25"
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "height": 34,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": undefined,
+                      },
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "#FFF",
+                        "flex": 1,
+                        "height": 34,
+                      },
+                      Object {
+                        "backgroundColor": undefined,
+                      },
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "height": 34,
+                      "justifyContent": "center",
+                      "width": 38,
+                    },
+                    Object {
+                      "borderRadius": 17,
+                      "overflow": "hidden",
+                    },
+                    Object {
+                      "borderRadius": 6,
+                      "width": "100%",
                     },
                     Object {
                       "backgroundColor": "#2B78EE",
@@ -4057,11 +8101,8 @@ exports[`Calendar renders correctly 1`] = `
           "paddingRight": 5,
         },
         Object {
-          "borderRadius": 6,
-          "marginBottom": 24,
-          "marginTop": 48,
-          "paddingVertical": 12,
-          "width": 666,
+          "marginTop": 18,
+          "width": 678,
         },
       ]
     }
@@ -4223,7 +8264,7 @@ exports[`Calendar renders correctly 1`] = `
           style={
             Array [
               Object {
-                "color": "#b6c1cd",
+                "color": "#5E6678",
                 "fontFamily": "Inter-Medium",
                 "fontSize": 21,
                 "fontWeight": undefined,
@@ -4244,7 +8285,7 @@ exports[`Calendar renders correctly 1`] = `
           style={
             Array [
               Object {
-                "color": "#b6c1cd",
+                "color": "#5E6678",
                 "fontFamily": "Inter-Medium",
                 "fontSize": 21,
                 "fontWeight": undefined,
@@ -4265,7 +8306,7 @@ exports[`Calendar renders correctly 1`] = `
           style={
             Array [
               Object {
-                "color": "#b6c1cd",
+                "color": "#5E6678",
                 "fontFamily": "Inter-Medium",
                 "fontSize": 21,
                 "fontWeight": undefined,
@@ -4286,7 +8327,7 @@ exports[`Calendar renders correctly 1`] = `
           style={
             Array [
               Object {
-                "color": "#b6c1cd",
+                "color": "#5E6678",
                 "fontFamily": "Inter-Medium",
                 "fontSize": 21,
                 "fontWeight": undefined,
@@ -4307,7 +8348,7 @@ exports[`Calendar renders correctly 1`] = `
           style={
             Array [
               Object {
-                "color": "#b6c1cd",
+                "color": "#5E6678",
                 "fontFamily": "Inter-Medium",
                 "fontSize": 21,
                 "fontWeight": undefined,
@@ -4328,7 +8369,7 @@ exports[`Calendar renders correctly 1`] = `
           style={
             Array [
               Object {
-                "color": "#b6c1cd",
+                "color": "#5E6678",
                 "fontFamily": "Inter-Medium",
                 "fontSize": 21,
                 "fontWeight": undefined,
@@ -4349,7 +8390,7 @@ exports[`Calendar renders correctly 1`] = `
           style={
             Array [
               Object {
-                "color": "#b6c1cd",
+                "color": "#5E6678",
                 "fontFamily": "Inter-Medium",
                 "fontSize": 21,
                 "fontWeight": undefined,
@@ -4377,7 +8418,7 @@ exports[`Calendar renders correctly 1`] = `
           Object {
             "flexDirection": "row",
             "justifyContent": "space-around",
-            "marginVertical": 3,
+            "marginVertical": 0,
           }
         }
       >
@@ -5043,7 +9084,7 @@ exports[`Calendar renders correctly 1`] = `
           Object {
             "flexDirection": "row",
             "justifyContent": "space-around",
-            "marginVertical": 3,
+            "marginVertical": 0,
           }
         }
       >
@@ -5697,7 +9738,7 @@ exports[`Calendar renders correctly 1`] = `
           Object {
             "flexDirection": "row",
             "justifyContent": "space-around",
-            "marginVertical": 3,
+            "marginVertical": 0,
           }
         }
       >
@@ -6351,7 +10392,7 @@ exports[`Calendar renders correctly 1`] = `
           Object {
             "flexDirection": "row",
             "justifyContent": "space-around",
-            "marginVertical": 3,
+            "marginVertical": 0,
           }
         }
       >
@@ -7005,7 +11046,7 @@ exports[`Calendar renders correctly 1`] = `
           Object {
             "flexDirection": "row",
             "justifyContent": "space-around",
-            "marginVertical": 3,
+            "marginVertical": 0,
           }
         }
       >

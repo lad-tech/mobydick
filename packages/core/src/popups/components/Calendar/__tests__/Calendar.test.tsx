@@ -34,7 +34,23 @@ describe('Calendar', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  it('press isClear ', () => {
+    const {toJSON, getByText} = render(
+      <Calendar
+        onChangeDate={() => undefined}
+        defaultLocale={'ru'}
+        isClear={true}
+        bottomView={<Button />}
+      />,
+    );
+    const dateStart = getByText('17');
+    const dateEnd = getByText('25');
 
+    fireEvent.press(dateStart);
+    fireEvent.press(dateEnd);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
   it('on submit two', () => {
     const submit = jest.fn();
     const {getByText} = render(<Calendar onChangeDate={submit} />);
