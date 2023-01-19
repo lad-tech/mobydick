@@ -5,12 +5,10 @@ import {
   IButtonSize,
   ITouchableOpacity,
   View,
-  IChangeDate,
-  ModalCalendar,
   usePopups,
-  IButtonView,
 } from '@npm/mobydick-core';
 import {select, text} from '@storybook/addon-knobs';
+import {IButtonView, IChangeDate, ModalCalendar} from '@npm/mobydick-calendar';
 
 import CenterView from '../../CenterView';
 

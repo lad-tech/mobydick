@@ -12,10 +12,9 @@ import {
   DateData,
   LocaleConfig,
 } from 'react-native-calendars';
-
-import useTheme from '../../../styles/theme/hooks/useTheme';
-import useStyles from '../../../styles/theme/hooks/useStyles';
-import rem from '../../../styles/spaces/rem';
+import useTheme from '@npm/mobydick-core/src/styles/theme/hooks/useTheme';
+import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
+import rem from '@npm/mobydick-core/src/styles/spaces/rem';
 
 import {localeConfigRu} from './localeConfig';
 import {getAllDatesBetween} from './functions';

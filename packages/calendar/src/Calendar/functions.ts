@@ -1,4 +1,4 @@
-import rem from '../../../styles/spaces/rem';
+import rem from '@npm/mobydick-core/src/styles/spaces/rem';
 
 import {IColors, IMarkedTypes} from './types';
 
