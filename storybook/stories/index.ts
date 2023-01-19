@@ -7,3 +7,4 @@ import './controls';
 import './icons';
 import './navbars';
 import './other';
+import './check';

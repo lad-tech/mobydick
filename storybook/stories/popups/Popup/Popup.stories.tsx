@@ -10,6 +10,7 @@ import {
   usePopups,
   IButtonView,
 } from '@npm/mobydick-core';
+import {select, text} from '@storybook/addon-knobs';
 
 import CenterView from '../../CenterView';
 
@@ -133,8 +134,11 @@ const CalendarPopupExample = () => {
           onChangeDate={(date?: IChangeDate) =>
             console.log('onChangeDate', date?.dateStart, date?.dateEnd)
           }
-          textCalendar={'Выберите интервал, в который хотите пойти в отпуск'}
-          buttonView={IButtonView.large}
+          textCalendar={text(
+            'textCalendar',
+            'Выберите интервал, в который хотите пойти в отпуск',
+          )}
+          buttonView={select('buttonView', IButtonView, IButtonView.large)}
           {...propsFromPopup}
         />
       ),

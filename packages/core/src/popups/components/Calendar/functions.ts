@@ -1,20 +1,6 @@
-import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
-
 import rem from '../../../styles/spaces/rem';
 
-export interface IMarkedTypes {
-  [key: string]: MarkingProps;
-}
-
-export type colorElem = {
-  color: string;
-  textColor: string;
-};
-
-export type IColors = {
-  colorPrime: colorElem;
-  colorSoft: colorElem;
-};
+import {IColors, IMarkedTypes} from './types';
 
 export const getDateForCalendar = (date: Date): string => {
   const yr = date.getFullYear();
@@ -27,7 +13,7 @@ export const getAllDatesBetween = (
   fromDate: Date,
   toDate: Date,
   {colorPrime, colorSoft}: IColors,
-): IMarkedTypes => {
+) => {
   let curDate = new Date(fromDate.getTime());
   const datesForCalendar: IMarkedTypes = {};
   datesForCalendar[getDateForCalendar(fromDate)] = {
@@ -61,5 +47,5 @@ export const getAllDatesBetween = (
       width: '100%',
     },
   };
-  return datesForCalendar;
+  return {dates: datesForCalendar, fromDate, toDate};
 };

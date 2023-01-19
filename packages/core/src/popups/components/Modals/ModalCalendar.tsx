@@ -1,5 +1,6 @@
 import React, {FC, ReactElement, useEffect, useState} from 'react';
 import {CalendarProps} from 'react-native-calendars/src';
+import {boolean} from '@storybook/addon-knobs';
 
 import {IContentProps, IHorizontalButtonsView} from '../../types';
 import {ModalBase} from '../ModalBase';
@@ -89,6 +90,7 @@ const ModalCalendar: FC<IContentProps & ICalendar> = props => {
         bottomView={defaultBottomView}
         isClear={isClear}
         onChangeDate={setDate}
+        isShowToday={boolean('isShowToday', false)}
       />
     </ModalBase>
   );

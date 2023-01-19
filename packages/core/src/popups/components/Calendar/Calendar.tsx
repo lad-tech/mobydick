@@ -1,4 +1,11 @@
-import React, {FC, ReactElement, useEffect, useMemo, useState} from 'react';
+import React, {
+  FC,
+  ReactElement,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useState,
+} from 'react';
 import {
   Calendar as DefaultCalendar,
   CalendarProps,
@@ -11,9 +18,9 @@ import useStyles from '../../../styles/theme/hooks/useStyles';
 import rem from '../../../styles/spaces/rem';
 
 import {localeConfigRu} from './localeConfig';
-import {getAllDatesBetween, IMarkedTypes} from './functions';
+import {getAllDatesBetween} from './functions';
 import stylesCreate from './stylesCreate';
-import {IChangeDate} from './types';
+import {IChangeDate, IMarkedDates} from './types';
 
 LocaleConfig.locales['ru'] = localeConfigRu;
 
@@ -22,15 +29,22 @@ interface ICalendar extends CalendarProps {
   bottomView?: ReactElement;
   defaultLocale?: string;
   isClear?: boolean;
+  isShowToday?: boolean;
 }
 
 const Calendar: FC<ICalendar> = props => {
-  const {onChangeDate, defaultLocale, bottomView, isClear, ...rest} = props;
+  const {
+    onChangeDate,
+    defaultLocale,
+    bottomView,
+    isClear,
+    isShowToday = true,
+    ...rest
+  } = props;
   LocaleConfig.defaultLocale = defaultLocale || 'ru';
   const {colors, currentTheme} = useTheme();
   const today = new Date();
   const [styles] = useStyles(stylesCreate);
-  const [date, setDate] = useState<DateData>();
 
   const colorsArg = useMemo(
     () => ({
@@ -39,18 +53,13 @@ const Calendar: FC<ICalendar> = props => {
         textColor: colors.TextWhite,
       },
       colorSoft: {
-        color: colors.BgSecondary, //жду ответ от дизайнера по цвету
+        color: colors.BgAccent,
         textColor: colors.TextPrimary,
       },
     }),
     [],
   );
-  const [markedDates, setMarkedDates] = useState<IMarkedTypes>(
-    getAllDatesBetween(today, today, colorsArg),
-  );
-
-  const todayTimestamp =
-    today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)); // сбрасываем timestamp этого дня до 00:00:00
+  const [markedDates, setMarkedDates] = useState<IMarkedDates>();
 
   const themeStyles = useMemo(
     () => ({
@@ -74,30 +83,54 @@ const Calendar: FC<ICalendar> = props => {
   );
 
   const onDayPress = (day: DateData) => {
-    const firstDay = date?.timestamp || todayTimestamp;
-    const toDate = day.timestamp > firstDay ? day.timestamp : firstDay;
-    const fromDate = day.timestamp > firstDay ? firstDay : day.timestamp;
+    let toDate;
+    let fromDate;
+
+    if (!markedDates) {
+      fromDate = day.timestamp;
+      toDate = day.timestamp;
+    } else {
+      const {fromDate: minDate, toDate: maxDate} = markedDates;
+
+      if (day.timestamp < minDate.getTime()) {
+        fromDate = day.timestamp;
+        toDate = maxDate;
+      } else if (day.timestamp > maxDate.getTime()) {
+        toDate = day.timestamp;
+        fromDate = minDate;
+      } else if (
+        day.timestamp === minDate.getTime() ||
+        day.timestamp === maxDate.getTime()
+      ) {
+        fromDate = day.timestamp;
+        toDate = day.timestamp;
+      } else {
+        fromDate = minDate;
+        toDate = day.timestamp;
+      }
+    }
 
     setMarkedDates(
       getAllDatesBetween(new Date(fromDate), new Date(toDate), colorsArg),
     );
-
     onChangeDate &&
       onChangeDate({
         dateStart: new Date(fromDate).toISOString(),
         dateEnd: new Date(toDate).toISOString(),
       });
-
-    setDate(day);
   };
 
   const onClear = () => {
-    setDate(undefined);
     onChangeDate && onChangeDate({dateStart: '', dateEnd: ''});
-    setMarkedDates(
-      getAllDatesBetween(new Date(todayTimestamp), new Date(''), colorsArg),
-    );
+    isShowToday
+      ? setMarkedDates(getAllDatesBetween(today, today, colorsArg))
+      : setMarkedDates(undefined);
   };
+  useLayoutEffect(() => {
+    if (isShowToday) {
+      setMarkedDates(getAllDatesBetween(today, today, colorsArg));
+    }
+  }, []);
 
   useEffect(() => {
     if (isClear) {
@@ -111,7 +144,7 @@ const Calendar: FC<ICalendar> = props => {
         firstDay={1}
         style={styles.calendar}
         markingType={'period'}
-        markedDates={markedDates}
+        markedDates={markedDates?.dates || {}}
         onDayPress={onDayPress}
         onDayLongPress={onDayPress}
         theme={themeStyles.theme}
