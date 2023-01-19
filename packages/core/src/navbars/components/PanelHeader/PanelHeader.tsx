@@ -5,6 +5,7 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import View from '../../../basic/components/View/View';
 import {Typography, TypographyProp} from '../../../typography';
 import {IThemeContext, useStyles} from '../../../styles';
+import rem from '../../../styles/spaces/rem';
 
 interface IProps {
   title?: string;
@@ -94,9 +95,11 @@ const createStyles = ({spaces}: IThemeContext) =>
 
       paddingHorizontal: spaces.Space20,
       paddingVertical: spaces.Space10,
+      height: rem(60),
     },
     leftView: {
       alignItems: 'flex-start',
+      maxWidth: rem(96),
     },
     titleView: {
       flex: 2,
@@ -104,6 +107,7 @@ const createStyles = ({spaces}: IThemeContext) =>
     },
     rightView: {
       alignItems: 'flex-end',
+      maxWidth: rem(96),
     },
     title: {
       textAlign: 'center',
