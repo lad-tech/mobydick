@@ -1,8 +1,8 @@
 import {fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
+import Button from '@npm/mobydick-core/src/cta/components/Button/Button';
 
 import Calendar from '../Calendar';
-import Button from '../../../../cta/components/Button/Button';
 
 describe('Calendar', () => {
   beforeAll(() => {

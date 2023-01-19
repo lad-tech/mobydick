@@ -1,16 +1,19 @@
 import React, {FC, ReactElement, useEffect, useState} from 'react';
 import {CalendarProps} from 'react-native-calendars/src';
 import {boolean} from '@storybook/addon-knobs';
-
-import {IContentProps, IHorizontalButtonsView} from '../../types';
-import {ModalBase} from '../ModalBase';
-import Calendar from '../Calendar/Calendar';
-import {IButtonView, IChangeDate} from '../Calendar';
-import useStyles from '../../../styles/theme/hooks/useStyles';
-import {IButtonSize, IButtonTypes} from '../../../cta/components/Button/types';
-import {TypographyProp} from '../../../typography';
+import {
+  IButtonSize,
+  IButtonTypes,
+  IContentProps,
+  IHorizontalButtonsView,
+  ModalBase,
+  TypographyProp,
+  useStyles,
+} from '@npm/mobydick-core';
 
 import stylesCreate from './stylesCreate';
+import {IButtonView, IChangeDate} from './types';
+import Calendar from './Calendar';
 
 interface ICalendar extends CalendarProps, Partial<IHorizontalButtonsView> {
   onChangeDate: (dateRange?: IChangeDate) => void;
