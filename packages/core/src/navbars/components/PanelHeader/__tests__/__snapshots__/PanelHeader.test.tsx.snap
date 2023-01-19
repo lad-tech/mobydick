@@ -27,6 +27,7 @@ exports[`Tab render panelHeader 1`] = `
           Object {
             "alignItems": "center",
             "flexDirection": "row",
+            "height": 90,
             "justifyContent": "space-between",
             "paddingHorizontal": 30,
             "paddingVertical": 15,
@@ -42,6 +43,7 @@ exports[`Tab render panelHeader 1`] = `
           Array [
             Object {
               "alignItems": "flex-start",
+              "maxWidth": 144,
             },
             Object {
               "flex": 1,
@@ -80,6 +82,7 @@ exports[`Tab render panelHeader 1`] = `
           Array [
             Object {
               "alignItems": "flex-end",
+              "maxWidth": 144,
             },
             Object {
               "flex": 1,
@@ -130,6 +133,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
           Object {
             "alignItems": "center",
             "flexDirection": "row",
+            "height": 90,
             "justifyContent": "space-between",
             "paddingHorizontal": 30,
             "paddingVertical": 15,
@@ -143,6 +147,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
           Array [
             Object {
               "alignItems": "flex-start",
+              "maxWidth": 144,
             },
             undefined,
           ]
@@ -195,6 +200,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
           Array [
             Object {
               "alignItems": "flex-end",
+              "maxWidth": 144,
             },
             undefined,
           ]
@@ -230,6 +236,7 @@ exports[`Tab render panelHeader with title 1`] = `
           Object {
             "alignItems": "center",
             "flexDirection": "row",
+            "height": 90,
             "justifyContent": "space-between",
             "paddingHorizontal": 30,
             "paddingVertical": 15,
@@ -243,6 +250,7 @@ exports[`Tab render panelHeader with title 1`] = `
           Array [
             Object {
               "alignItems": "flex-start",
+              "maxWidth": 144,
             },
             undefined,
           ]
@@ -295,6 +303,7 @@ exports[`Tab render panelHeader with title 1`] = `
           Array [
             Object {
               "alignItems": "flex-end",
+              "maxWidth": 144,
             },
             undefined,
           ]
@@ -330,6 +339,7 @@ exports[`Tab render panelHeader without props 1`] = `
           Object {
             "alignItems": "center",
             "flexDirection": "row",
+            "height": 90,
             "justifyContent": "space-between",
             "paddingHorizontal": 30,
             "paddingVertical": 15,
@@ -343,6 +353,7 @@ exports[`Tab render panelHeader without props 1`] = `
           Array [
             Object {
               "alignItems": "flex-start",
+              "maxWidth": 144,
             },
             undefined,
           ]
@@ -372,6 +383,7 @@ exports[`Tab render panelHeader without props 1`] = `
           Array [
             Object {
               "alignItems": "flex-end",
+              "maxWidth": 144,
             },
             undefined,
           ]
