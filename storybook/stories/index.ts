@@ -8,3 +8,4 @@ import './icons';
 import './navbars';
 import './other';
 import './check';
+import './calendar';
