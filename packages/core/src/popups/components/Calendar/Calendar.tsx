@@ -53,7 +53,7 @@ const Calendar: FC<ICalendar> = props => {
         textColor: colors.TextWhite,
       },
       colorSoft: {
-        color: colors.BgSecondary, //жду ответ от дизайнера по цвету
+        color: colors.BgAccent,
         textColor: colors.TextPrimary,
       },
     }),
