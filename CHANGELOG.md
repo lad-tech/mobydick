@@ -1,3 +1,24 @@
+# [4.4.0](https://glab.lad24.ru/npm/mobydick/compare/v4.3.1...v4.4.0) (2023-01-19)
+
+
+### chore
+
+* **dots:** + test ([e38cb16](https://glab.lad24.ru/npm/mobydick/commit/e38cb16125a0863b8543b16ce9717b6bd3f43006))
+
+
+### Features
+
+* **calendar:** + new style calendar ([06329ab](https://glab.lad24.ru/npm/mobydick/commit/06329ab9fceeb80504b29fa6e1706d0bb061220b))
+* **calendar:** add mobydick-calendar ([3d04377](https://glab.lad24.ru/npm/mobydick/commit/3d04377e87874265afcc7974fdf7d3724521f13b))
+* **calendar:** new logic + check env ([8540f1d](https://glab.lad24.ru/npm/mobydick/commit/8540f1d056a2cc91eb194e0af4ec7dfe4d73011c))
+* **colo:** new color BgAccent ([afcdd62](https://glab.lad24.ru/npm/mobydick/commit/afcdd62cde3e1d03764cc6e050c355073d0ed314))
+* **PanelHeader:** add style ([074c9ef](https://glab.lad24.ru/npm/mobydick/commit/074c9efa1574ee2821686200e63e36ffbd5929bd))
+
+
+### BREAKING CHANGES
+
+* **dots:** delete Title, DescriptionText in Modalbase
+
 ## [4.3.1](https://glab.lad24.ru/npm/mobydick/compare/v4.3.0...v4.3.1) (2023-01-13)
 
 
