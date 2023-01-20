@@ -60,6 +60,10 @@ const Calendar: FC<ICalendar> = props => {
   );
   const [markedDates, setMarkedDates] = useState<IMarkedDates>();
 
+  const todayTimeMidnight = new Date(
+    today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)),
+  ); // сбрасываем timestamp этого дня до 00:00:00
+
   const themeStyles = useMemo(
     () => ({
       theme: {
@@ -119,15 +123,22 @@ const Calendar: FC<ICalendar> = props => {
       });
   };
 
+  const markedToday = () => {
+    setMarkedDates(
+      getAllDatesBetween(
+        new Date(todayTimeMidnight),
+        new Date(todayTimeMidnight),
+        colorsArg,
+      ),
+    );
+  };
   const onClear = () => {
     onChangeDate && onChangeDate({dateStart: '', dateEnd: ''});
-    isShowToday
-      ? setMarkedDates(getAllDatesBetween(today, today, colorsArg))
-      : setMarkedDates(undefined);
+    isShowToday ? markedToday() : setMarkedDates(undefined);
   };
   useLayoutEffect(() => {
     if (isShowToday) {
-      setMarkedDates(getAllDatesBetween(today, today, colorsArg));
+      markedToday();
     }
   }, []);
 

@@ -2,7 +2,7 @@ import {fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
 
 import ModalCalendar from '../ModalCalendar';
-import {IButtonView} from '../index';
+import {IButtonView} from '../types';
 
 describe('ModalCalendar', () => {
   beforeAll(() => {
