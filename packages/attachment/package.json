@@ -1,5 +1,5 @@
 {
-  "name": "@npm/mobydick-calendar",
+  "name": "@npm/mobydick-attachment",
   "version": "4.4.0",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "lib/commonjs/index",
@@ -29,6 +29,6 @@
   "repository": {
     "type": "git",
     "url": "https://glab.lad24.ru/npm/mobydick.git",
-    "directory": "packages/calendar"
+    "directory": "packages/attachment"
   }
 }
