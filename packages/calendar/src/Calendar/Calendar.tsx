@@ -15,11 +15,13 @@ import {
 import useTheme from '@npm/mobydick-core/src/styles/theme/hooks/useTheme';
 import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
+import {TouchableOpacity, Typography} from '@npm/mobydick-core';
 
 import {localeConfigRu} from './localeConfig';
 import {getAllDatesBetween} from './functions';
 import stylesCreate from './stylesCreate';
 import {IChangeDate, IMarkedDates} from './types';
+import Months from './Months';
 
 LocaleConfig.locales['ru'] = localeConfigRu;
 
@@ -59,6 +61,8 @@ const Calendar: FC<ICalendar> = props => {
     [],
   );
   const [markedDates, setMarkedDates] = useState<IMarkedDates>();
+  const [isDays, setIsDays] = useState(true);
+  const [month, setMonth] = useState<number>(today.getMonth());
 
   const todayTimeMidnight = new Date(
     today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)),
@@ -150,16 +154,34 @@ const Calendar: FC<ICalendar> = props => {
 
   return (
     <>
-      <DefaultCalendar
-        firstDay={1}
-        style={styles.calendar}
-        markingType={'period'}
-        markedDates={markedDates?.dates || {}}
-        onDayPress={onDayPress}
-        onDayLongPress={onDayPress}
-        theme={themeStyles.theme}
-        {...rest}
-      />
+      {isDays ? (
+        <DefaultCalendar
+          firstDay={1}
+          style={styles.calendar}
+          markingType={'period'}
+          markedDates={markedDates?.dates || {}}
+          onDayPress={onDayPress}
+          onDayLongPress={onDayPress}
+          theme={themeStyles.theme}
+          initialDate={today.getFullYear() + '-' + (month + 1)}
+          onMonthChange={month => {
+            setMonth(month.month - 1);
+          }}
+          customHeaderTitle={
+            <TouchableOpacity onPress={() => setIsDays(false)}>
+              <Typography>
+                {localeConfigRu.monthNames[month] + ', ' + today.getFullYear()}
+              </Typography>
+            </TouchableOpacity>
+          }
+          {...rest}
+        />
+      ) : (
+        <Months
+          setIsDays={() => setIsDays(true)}
+          setMonth={index => setMonth(index)}
+        />
+      )}
 
       {bottomView}
     </>

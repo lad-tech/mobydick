@@ -187,21 +187,40 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 }
               }
             >
-              <Text
-                allowFontScaling={false}
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
                 style={
                   Object {
-                    "color": "#20242D",
-                    "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
-                    "fontWeight": "300",
-                    "margin": 10,
+                    "opacity": 1,
                   }
                 }
-                testID="undefined.header.title"
               >
-                Июль 2022
-              </Text>
+                <Text
+                  allowFontScaling={true}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 22.5,
+                        "lineHeight": 28.5,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Декабрь, 2023
+                </Text>
+              </View>
             </View>
             <View
               accessible={true}
@@ -431,7 +450,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 27 Июнь 2022 "
+                accessibilityLabel=" Понедельник 27 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -448,7 +467,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-27"
+                testID="undefined.day_2023-11-27"
               >
                 <View
                   style={
@@ -526,7 +545,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 28 Июнь 2022 "
+                accessibilityLabel=" Вторник 28 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -543,7 +562,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-28"
+                testID="undefined.day_2023-11-28"
               >
                 <View
                   style={
@@ -621,7 +640,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 29 Июнь 2022 "
+                accessibilityLabel=" Среда 29 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -638,7 +657,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-29"
+                testID="undefined.day_2023-11-29"
               >
                 <View
                   style={
@@ -716,7 +735,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 30 Июнь 2022 "
+                accessibilityLabel=" Четверг 30 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -733,7 +752,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-30"
+                testID="undefined.day_2023-11-30"
               >
                 <View
                   style={
@@ -811,7 +830,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 1 Июль 2022 "
+                accessibilityLabel=" Пятница 1 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -828,7 +847,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-01"
+                testID="undefined.day_2023-12-01"
               >
                 <View
                   style={
@@ -903,7 +922,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 2 Июль 2022 "
+                accessibilityLabel=" Суббота 2 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -920,7 +939,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-02"
+                testID="undefined.day_2023-12-02"
               >
                 <View
                   style={
@@ -995,7 +1014,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 3 Июль 2022 "
+                accessibilityLabel=" Воскресенье 3 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1012,7 +1031,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-03"
+                testID="undefined.day_2023-12-03"
               >
                 <View
                   style={
@@ -1097,7 +1116,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 4 Июль 2022 "
+                accessibilityLabel=" Понедельник 4 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1114,7 +1133,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-04"
+                testID="undefined.day_2023-12-04"
               >
                 <View
                   style={
@@ -1189,7 +1208,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 5 Июль 2022 "
+                accessibilityLabel=" Вторник 5 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1206,7 +1225,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-05"
+                testID="undefined.day_2023-12-05"
               >
                 <View
                   style={
@@ -1281,7 +1300,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 6 Июль 2022 "
+                accessibilityLabel=" Среда 6 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1298,7 +1317,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-06"
+                testID="undefined.day_2023-12-06"
               >
                 <View
                   style={
@@ -1373,7 +1392,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 7 Июль 2022 "
+                accessibilityLabel=" Четверг 7 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1390,7 +1409,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-07"
+                testID="undefined.day_2023-12-07"
               >
                 <View
                   style={
@@ -1465,7 +1484,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 8 Июль 2022 "
+                accessibilityLabel=" Пятница 8 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1482,7 +1501,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-08"
+                testID="undefined.day_2023-12-08"
               >
                 <View
                   style={
@@ -1557,7 +1576,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 9 Июль 2022 "
+                accessibilityLabel=" Суббота 9 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1574,7 +1593,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-09"
+                testID="undefined.day_2023-12-09"
               >
                 <View
                   style={
@@ -1649,7 +1668,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 10 Июль 2022 "
+                accessibilityLabel=" Воскресенье 10 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1666,7 +1685,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-10"
+                testID="undefined.day_2023-12-10"
               >
                 <View
                   style={
@@ -1751,7 +1770,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 11 Июль 2022 "
+                accessibilityLabel=" Понедельник 11 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1768,7 +1787,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-11"
+                testID="undefined.day_2023-12-11"
               >
                 <View
                   style={
@@ -1843,7 +1862,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 12 Июль 2022 "
+                accessibilityLabel=" Вторник 12 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1860,7 +1879,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-12"
+                testID="undefined.day_2023-12-12"
               >
                 <View
                   style={
@@ -1935,7 +1954,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 13 Июль 2022 "
+                accessibilityLabel=" Среда 13 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1952,7 +1971,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-13"
+                testID="undefined.day_2023-12-13"
               >
                 <View
                   style={
@@ -2027,7 +2046,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 14 Июль 2022 "
+                accessibilityLabel=" Четверг 14 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2044,7 +2063,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-14"
+                testID="undefined.day_2023-12-14"
               >
                 <View
                   style={
@@ -2119,7 +2138,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 15 Июль 2022 "
+                accessibilityLabel=" Пятница 15 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2136,7 +2155,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-15"
+                testID="undefined.day_2023-12-15"
               >
                 <View
                   style={
@@ -2211,7 +2230,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 16 Июль 2022 "
+                accessibilityLabel=" Суббота 16 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2228,7 +2247,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-16"
+                testID="undefined.day_2023-12-16"
               >
                 <View
                   style={
@@ -2303,7 +2322,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 17 Июль 2022 "
+                accessibilityLabel=" Воскресенье 17 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2320,7 +2339,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-17"
+                testID="undefined.day_2023-12-17"
               >
                 <View
                   style={
@@ -2405,7 +2424,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 18 Июль 2022 "
+                accessibilityLabel=" Понедельник 18 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2422,7 +2441,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-18"
+                testID="undefined.day_2023-12-18"
               >
                 <View
                   style={
@@ -2497,7 +2516,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 19 Июль 2022 "
+                accessibilityLabel=" Вторник 19 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2514,7 +2533,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-19"
+                testID="undefined.day_2023-12-19"
               >
                 <View
                   style={
@@ -2589,7 +2608,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 20 Июль 2022 "
+                accessibilityLabel=" Среда 20 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2606,7 +2625,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-20"
+                testID="undefined.day_2023-12-20"
               >
                 <View
                   style={
@@ -2681,7 +2700,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 21 Июль 2022 "
+                accessibilityLabel=" Четверг 21 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2698,7 +2717,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-21"
+                testID="undefined.day_2023-12-21"
               >
                 <View
                   style={
@@ -2773,7 +2792,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 22 Июль 2022 "
+                accessibilityLabel=" Пятница 22 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2790,7 +2809,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-22"
+                testID="undefined.day_2023-12-22"
               >
                 <View
                   style={
@@ -2865,7 +2884,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 23 Июль 2022 "
+                accessibilityLabel=" Суббота 23 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2882,7 +2901,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-23"
+                testID="undefined.day_2023-12-23"
               >
                 <View
                   style={
@@ -2957,7 +2976,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 24 Июль 2022 "
+                accessibilityLabel=" Воскресенье 24 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2974,7 +2993,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-24"
+                testID="undefined.day_2023-12-24"
               >
                 <View
                   style={
@@ -3059,7 +3078,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 25 Июль 2022 "
+                accessibilityLabel=" Понедельник 25 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3076,7 +3095,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-25"
+                testID="undefined.day_2023-12-25"
               >
                 <View
                   style={
@@ -3151,7 +3170,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 26 Июль 2022 "
+                accessibilityLabel=" Вторник 26 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3168,7 +3187,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-26"
+                testID="undefined.day_2023-12-26"
               >
                 <View
                   style={
@@ -3243,7 +3262,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 27 Июль 2022 "
+                accessibilityLabel=" Среда 27 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3260,7 +3279,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-27"
+                testID="undefined.day_2023-12-27"
               >
                 <View
                   style={
@@ -3335,7 +3354,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 28 Июль 2022 "
+                accessibilityLabel=" Четверг 28 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3352,7 +3371,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-28"
+                testID="undefined.day_2023-12-28"
               >
                 <View
                   style={
@@ -3427,7 +3446,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 29 Июль 2022 "
+                accessibilityLabel=" Пятница 29 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3444,7 +3463,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-29"
+                testID="undefined.day_2023-12-29"
               >
                 <View
                   style={
@@ -3519,7 +3538,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 30 Июль 2022 "
+                accessibilityLabel=" Суббота 30 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3536,7 +3555,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-30"
+                testID="undefined.day_2023-12-30"
               >
                 <View
                   style={
@@ -3611,7 +3630,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 31 Июль 2022 "
+                accessibilityLabel=" Воскресенье 31 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3628,7 +3647,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-31"
+                testID="undefined.day_2023-12-31"
               >
                 <View
                   style={
@@ -4037,21 +4056,40 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                 }
               }
             >
-              <Text
-                allowFontScaling={false}
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
                 style={
                   Object {
-                    "color": "#20242D",
-                    "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
-                    "fontWeight": "300",
-                    "margin": 10,
+                    "opacity": 1,
                   }
                 }
-                testID="undefined.header.title"
               >
-                Июль 2022
-              </Text>
+                <Text
+                  allowFontScaling={true}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 22.5,
+                        "lineHeight": 28.5,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Декабрь, 2023
+                </Text>
+              </View>
             </View>
             <View
               accessible={true}
@@ -4281,7 +4319,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 27 Июнь 2022 "
+                accessibilityLabel=" Понедельник 27 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4298,7 +4336,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-27"
+                testID="undefined.day_2023-11-27"
               >
                 <View
                   style={
@@ -4376,7 +4414,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 28 Июнь 2022 "
+                accessibilityLabel=" Вторник 28 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4393,7 +4431,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-28"
+                testID="undefined.day_2023-11-28"
               >
                 <View
                   style={
@@ -4471,7 +4509,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 29 Июнь 2022 "
+                accessibilityLabel=" Среда 29 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4488,7 +4526,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-29"
+                testID="undefined.day_2023-11-29"
               >
                 <View
                   style={
@@ -4566,7 +4604,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 30 Июнь 2022 "
+                accessibilityLabel=" Четверг 30 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4583,7 +4621,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-30"
+                testID="undefined.day_2023-11-30"
               >
                 <View
                   style={
@@ -4661,7 +4699,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 1 Июль 2022 "
+                accessibilityLabel=" Пятница 1 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4678,7 +4716,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-01"
+                testID="undefined.day_2023-12-01"
               >
                 <View
                   style={
@@ -4753,7 +4791,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 2 Июль 2022 "
+                accessibilityLabel=" Суббота 2 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4770,7 +4808,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-02"
+                testID="undefined.day_2023-12-02"
               >
                 <View
                   style={
@@ -4845,7 +4883,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 3 Июль 2022 "
+                accessibilityLabel=" Воскресенье 3 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4862,7 +4900,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-03"
+                testID="undefined.day_2023-12-03"
               >
                 <View
                   style={
@@ -4947,7 +4985,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 4 Июль 2022 "
+                accessibilityLabel=" Понедельник 4 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4964,7 +5002,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-04"
+                testID="undefined.day_2023-12-04"
               >
                 <View
                   style={
@@ -5039,7 +5077,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 5 Июль 2022 "
+                accessibilityLabel=" Вторник 5 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5056,7 +5094,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-05"
+                testID="undefined.day_2023-12-05"
               >
                 <View
                   style={
@@ -5131,7 +5169,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 6 Июль 2022 "
+                accessibilityLabel=" Среда 6 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5148,7 +5186,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-06"
+                testID="undefined.day_2023-12-06"
               >
                 <View
                   style={
@@ -5223,7 +5261,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 7 Июль 2022 "
+                accessibilityLabel=" Четверг 7 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5240,7 +5278,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-07"
+                testID="undefined.day_2023-12-07"
               >
                 <View
                   style={
@@ -5315,7 +5353,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 8 Июль 2022 "
+                accessibilityLabel=" Пятница 8 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5332,7 +5370,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-08"
+                testID="undefined.day_2023-12-08"
               >
                 <View
                   style={
@@ -5407,7 +5445,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 9 Июль 2022 "
+                accessibilityLabel=" Суббота 9 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5424,7 +5462,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-09"
+                testID="undefined.day_2023-12-09"
               >
                 <View
                   style={
@@ -5499,7 +5537,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 10 Июль 2022 "
+                accessibilityLabel=" Воскресенье 10 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5516,7 +5554,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-10"
+                testID="undefined.day_2023-12-10"
               >
                 <View
                   style={
@@ -5601,7 +5639,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 11 Июль 2022 "
+                accessibilityLabel=" Понедельник 11 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5618,7 +5656,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-11"
+                testID="undefined.day_2023-12-11"
               >
                 <View
                   style={
@@ -5693,7 +5731,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 12 Июль 2022 "
+                accessibilityLabel=" Вторник 12 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5710,7 +5748,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-12"
+                testID="undefined.day_2023-12-12"
               >
                 <View
                   style={
@@ -5785,7 +5823,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 13 Июль 2022 "
+                accessibilityLabel=" Среда 13 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5802,7 +5840,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-13"
+                testID="undefined.day_2023-12-13"
               >
                 <View
                   style={
@@ -5877,7 +5915,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 14 Июль 2022 "
+                accessibilityLabel=" Четверг 14 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5894,7 +5932,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-14"
+                testID="undefined.day_2023-12-14"
               >
                 <View
                   style={
@@ -5969,7 +6007,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 15 Июль 2022 "
+                accessibilityLabel=" Пятница 15 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5986,7 +6024,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-15"
+                testID="undefined.day_2023-12-15"
               >
                 <View
                   style={
@@ -6061,7 +6099,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 16 Июль 2022 "
+                accessibilityLabel=" Суббота 16 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6078,7 +6116,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-16"
+                testID="undefined.day_2023-12-16"
               >
                 <View
                   style={
@@ -6153,7 +6191,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 17 Июль 2022 "
+                accessibilityLabel=" Воскресенье 17 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6170,7 +6208,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-17"
+                testID="undefined.day_2023-12-17"
               >
                 <View
                   style={
@@ -6255,7 +6293,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 18 Июль 2022 "
+                accessibilityLabel=" Понедельник 18 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6272,7 +6310,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-18"
+                testID="undefined.day_2023-12-18"
               >
                 <View
                   style={
@@ -6347,7 +6385,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 19 Июль 2022 "
+                accessibilityLabel=" Вторник 19 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6364,7 +6402,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-19"
+                testID="undefined.day_2023-12-19"
               >
                 <View
                   style={
@@ -6439,7 +6477,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 20 Июль 2022 "
+                accessibilityLabel=" Среда 20 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6456,7 +6494,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-20"
+                testID="undefined.day_2023-12-20"
               >
                 <View
                   style={
@@ -6531,7 +6569,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 21 Июль 2022 "
+                accessibilityLabel=" Четверг 21 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6548,7 +6586,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-21"
+                testID="undefined.day_2023-12-21"
               >
                 <View
                   style={
@@ -6623,7 +6661,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 22 Июль 2022 "
+                accessibilityLabel=" Пятница 22 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6640,7 +6678,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-22"
+                testID="undefined.day_2023-12-22"
               >
                 <View
                   style={
@@ -6715,7 +6753,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 23 Июль 2022 "
+                accessibilityLabel=" Суббота 23 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6732,7 +6770,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-23"
+                testID="undefined.day_2023-12-23"
               >
                 <View
                   style={
@@ -6807,7 +6845,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 24 Июль 2022 "
+                accessibilityLabel=" Воскресенье 24 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6824,7 +6862,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-24"
+                testID="undefined.day_2023-12-24"
               >
                 <View
                   style={
@@ -6909,7 +6947,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 25 Июль 2022 "
+                accessibilityLabel=" Понедельник 25 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6926,7 +6964,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-25"
+                testID="undefined.day_2023-12-25"
               >
                 <View
                   style={
@@ -7001,7 +7039,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 26 Июль 2022 "
+                accessibilityLabel=" Вторник 26 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -7018,7 +7056,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-26"
+                testID="undefined.day_2023-12-26"
               >
                 <View
                   style={
@@ -7093,7 +7131,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 27 Июль 2022 "
+                accessibilityLabel=" Среда 27 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -7110,7 +7148,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-27"
+                testID="undefined.day_2023-12-27"
               >
                 <View
                   style={
@@ -7185,7 +7223,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 28 Июль 2022 "
+                accessibilityLabel=" Четверг 28 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -7202,7 +7240,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-28"
+                testID="undefined.day_2023-12-28"
               >
                 <View
                   style={
@@ -7277,7 +7315,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 29 Июль 2022 "
+                accessibilityLabel=" Пятница 29 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -7294,7 +7332,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-29"
+                testID="undefined.day_2023-12-29"
               >
                 <View
                   style={
@@ -7369,7 +7407,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 30 Июль 2022 "
+                accessibilityLabel=" Суббота 30 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -7386,7 +7424,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-30"
+                testID="undefined.day_2023-12-30"
               >
                 <View
                   style={
@@ -7461,7 +7499,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 31 Июль 2022 "
+                accessibilityLabel=" Воскресенье 31 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -7478,7 +7516,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-31"
+                testID="undefined.day_2023-12-31"
               >
                 <View
                   style={
@@ -7833,21 +7871,40 @@ exports[`ModalCalendar renders correctly 1`] = `
                 }
               }
             >
-              <Text
-                allowFontScaling={false}
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
                 style={
                   Object {
-                    "color": "#20242D",
-                    "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
-                    "fontWeight": "300",
-                    "margin": 10,
+                    "opacity": 1,
                   }
                 }
-                testID="undefined.header.title"
               >
-                Июль 2022
-              </Text>
+                <Text
+                  allowFontScaling={true}
+                  style={
+                    Array [
+                      Object {
+                        "color": "#20242D",
+                        "fontFamily": "Inter-Regular",
+                        "fontSize": 22.5,
+                        "lineHeight": 28.5,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  Декабрь, 2023
+                </Text>
+              </View>
             </View>
             <View
               accessible={true}
@@ -8077,7 +8134,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 27 Июнь 2022 "
+                accessibilityLabel=" Понедельник 27 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8094,7 +8151,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-27"
+                testID="undefined.day_2023-11-27"
               >
                 <View
                   style={
@@ -8172,7 +8229,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 28 Июнь 2022 "
+                accessibilityLabel=" Вторник 28 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8189,7 +8246,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-28"
+                testID="undefined.day_2023-11-28"
               >
                 <View
                   style={
@@ -8267,7 +8324,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 29 Июнь 2022 "
+                accessibilityLabel=" Среда 29 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8284,7 +8341,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-29"
+                testID="undefined.day_2023-11-29"
               >
                 <View
                   style={
@@ -8362,7 +8419,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 30 Июнь 2022 "
+                accessibilityLabel=" Четверг 30 Ноябрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8379,7 +8436,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-06-30"
+                testID="undefined.day_2023-11-30"
               >
                 <View
                   style={
@@ -8457,7 +8514,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 1 Июль 2022 "
+                accessibilityLabel=" Пятница 1 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8474,7 +8531,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-01"
+                testID="undefined.day_2023-12-01"
               >
                 <View
                   style={
@@ -8549,7 +8606,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 2 Июль 2022 "
+                accessibilityLabel=" Суббота 2 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8566,7 +8623,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-02"
+                testID="undefined.day_2023-12-02"
               >
                 <View
                   style={
@@ -8641,7 +8698,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 3 Июль 2022 "
+                accessibilityLabel=" Воскресенье 3 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8658,7 +8715,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-03"
+                testID="undefined.day_2023-12-03"
               >
                 <View
                   style={
@@ -8743,7 +8800,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 4 Июль 2022 "
+                accessibilityLabel=" Понедельник 4 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8760,7 +8817,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-04"
+                testID="undefined.day_2023-12-04"
               >
                 <View
                   style={
@@ -8835,7 +8892,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 5 Июль 2022 "
+                accessibilityLabel=" Вторник 5 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8852,7 +8909,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-05"
+                testID="undefined.day_2023-12-05"
               >
                 <View
                   style={
@@ -8927,7 +8984,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 6 Июль 2022 "
+                accessibilityLabel=" Среда 6 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8944,7 +9001,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-06"
+                testID="undefined.day_2023-12-06"
               >
                 <View
                   style={
@@ -9019,7 +9076,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 7 Июль 2022 "
+                accessibilityLabel=" Четверг 7 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9036,7 +9093,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-07"
+                testID="undefined.day_2023-12-07"
               >
                 <View
                   style={
@@ -9111,7 +9168,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 8 Июль 2022 "
+                accessibilityLabel=" Пятница 8 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9128,7 +9185,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-08"
+                testID="undefined.day_2023-12-08"
               >
                 <View
                   style={
@@ -9203,7 +9260,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 9 Июль 2022 "
+                accessibilityLabel=" Суббота 9 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9220,7 +9277,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-09"
+                testID="undefined.day_2023-12-09"
               >
                 <View
                   style={
@@ -9295,7 +9352,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 10 Июль 2022 "
+                accessibilityLabel=" Воскресенье 10 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9312,7 +9369,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-10"
+                testID="undefined.day_2023-12-10"
               >
                 <View
                   style={
@@ -9397,7 +9454,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 11 Июль 2022 "
+                accessibilityLabel=" Понедельник 11 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9414,7 +9471,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-11"
+                testID="undefined.day_2023-12-11"
               >
                 <View
                   style={
@@ -9489,7 +9546,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 12 Июль 2022 "
+                accessibilityLabel=" Вторник 12 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9506,7 +9563,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-12"
+                testID="undefined.day_2023-12-12"
               >
                 <View
                   style={
@@ -9581,7 +9638,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 13 Июль 2022 "
+                accessibilityLabel=" Среда 13 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9598,7 +9655,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-13"
+                testID="undefined.day_2023-12-13"
               >
                 <View
                   style={
@@ -9673,7 +9730,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 14 Июль 2022 "
+                accessibilityLabel=" Четверг 14 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9690,7 +9747,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-14"
+                testID="undefined.day_2023-12-14"
               >
                 <View
                   style={
@@ -9765,7 +9822,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 15 Июль 2022 "
+                accessibilityLabel=" Пятница 15 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9782,7 +9839,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-15"
+                testID="undefined.day_2023-12-15"
               >
                 <View
                   style={
@@ -9857,7 +9914,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 16 Июль 2022 "
+                accessibilityLabel=" Суббота 16 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9874,7 +9931,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-16"
+                testID="undefined.day_2023-12-16"
               >
                 <View
                   style={
@@ -9949,7 +10006,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 17 Июль 2022 "
+                accessibilityLabel=" Воскресенье 17 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9966,7 +10023,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-17"
+                testID="undefined.day_2023-12-17"
               >
                 <View
                   style={
@@ -10051,7 +10108,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 18 Июль 2022 "
+                accessibilityLabel=" Понедельник 18 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10068,7 +10125,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-18"
+                testID="undefined.day_2023-12-18"
               >
                 <View
                   style={
@@ -10143,7 +10200,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 19 Июль 2022 "
+                accessibilityLabel=" Вторник 19 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10160,7 +10217,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-19"
+                testID="undefined.day_2023-12-19"
               >
                 <View
                   style={
@@ -10235,7 +10292,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 20 Июль 2022 "
+                accessibilityLabel=" Среда 20 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10252,7 +10309,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-20"
+                testID="undefined.day_2023-12-20"
               >
                 <View
                   style={
@@ -10327,7 +10384,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 21 Июль 2022 "
+                accessibilityLabel=" Четверг 21 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10344,7 +10401,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-21"
+                testID="undefined.day_2023-12-21"
               >
                 <View
                   style={
@@ -10419,7 +10476,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 22 Июль 2022 "
+                accessibilityLabel=" Пятница 22 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10436,7 +10493,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-22"
+                testID="undefined.day_2023-12-22"
               >
                 <View
                   style={
@@ -10511,7 +10568,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 23 Июль 2022 "
+                accessibilityLabel=" Суббота 23 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10528,7 +10585,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-23"
+                testID="undefined.day_2023-12-23"
               >
                 <View
                   style={
@@ -10603,7 +10660,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 24 Июль 2022 "
+                accessibilityLabel=" Воскресенье 24 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10620,7 +10677,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-24"
+                testID="undefined.day_2023-12-24"
               >
                 <View
                   style={
@@ -10705,7 +10762,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 25 Июль 2022 "
+                accessibilityLabel=" Понедельник 25 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10722,7 +10779,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-25"
+                testID="undefined.day_2023-12-25"
               >
                 <View
                   style={
@@ -10797,7 +10854,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 26 Июль 2022 "
+                accessibilityLabel=" Вторник 26 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10814,7 +10871,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-26"
+                testID="undefined.day_2023-12-26"
               >
                 <View
                   style={
@@ -10889,7 +10946,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 27 Июль 2022 "
+                accessibilityLabel=" Среда 27 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10906,7 +10963,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-27"
+                testID="undefined.day_2023-12-27"
               >
                 <View
                   style={
@@ -10981,7 +11038,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 28 Июль 2022 "
+                accessibilityLabel=" Четверг 28 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10998,7 +11055,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-28"
+                testID="undefined.day_2023-12-28"
               >
                 <View
                   style={
@@ -11073,7 +11130,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 29 Июль 2022 "
+                accessibilityLabel=" Пятница 29 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -11090,7 +11147,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-29"
+                testID="undefined.day_2023-12-29"
               >
                 <View
                   style={
@@ -11165,7 +11222,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 30 Июль 2022 "
+                accessibilityLabel=" Суббота 30 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -11182,7 +11239,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-30"
+                testID="undefined.day_2023-12-30"
               >
                 <View
                   style={
@@ -11257,7 +11314,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 31 Июль 2022 "
+                accessibilityLabel=" Воскресенье 31 Декабрь 2023 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -11274,7 +11331,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-07-31"
+                testID="undefined.day_2023-12-31"
               >
                 <View
                   style={
