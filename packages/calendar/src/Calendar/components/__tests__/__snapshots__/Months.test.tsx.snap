@@ -57,7 +57,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -65,12 +67,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -94,7 +101,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -102,12 +111,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -131,7 +145,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -139,12 +155,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -181,7 +202,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -189,12 +212,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -218,7 +246,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -226,12 +256,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -255,7 +290,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -263,12 +300,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -305,7 +347,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -313,12 +357,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -342,7 +391,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -350,12 +401,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -379,7 +435,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -387,12 +445,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -429,7 +492,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -437,12 +502,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -466,7 +536,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -474,12 +546,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
@@ -503,7 +580,9 @@ exports[`Months render 1`] = `
           accessible={true}
           collapsable={false}
           focusable={true}
+          onBlur={[Function]}
           onClick={[Function]}
+          onFocus={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
@@ -511,12 +590,17 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
-              "alignItems": "center",
-              "flex": 3,
-              "opacity": 1,
-              "paddingVertical": 30,
-            }
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 6,
+                "flex": 3,
+                "paddingVertical": 30,
+              },
+              Object {
+                "backgroundColor": "#FFF",
+              },
+            ]
           }
         >
           <Text
