@@ -15,13 +15,13 @@ import {
 import useTheme from '@npm/mobydick-core/src/styles/theme/hooks/useTheme';
 import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
-import {TouchableOpacity, Typography} from '@npm/mobydick-core';
 
 import {localeConfigRu} from './localeConfig';
-import {getAllDatesBetween} from './functions';
+import {calculateBoundaries, getAllDatesBetween} from './functions';
 import stylesCreate from './stylesCreate';
 import {IChangeDate, IMarkedDates} from './types';
-import Months from './Months';
+import Months from './components/Months';
+import CustomHeaderTitle from './components/CustomHeaderTitle';
 
 LocaleConfig.locales['ru'] = localeConfigRu;
 
@@ -60,9 +60,12 @@ const Calendar: FC<ICalendar> = props => {
     }),
     [],
   );
+
   const [markedDates, setMarkedDates] = useState<IMarkedDates>();
-  const [isDays, setIsDays] = useState(true);
-  const [month, setMonth] = useState<number>(today.getMonth());
+  const [isShowDays, setIsShowDays] = useState(true);
+  const [currentMonthIndex, setCurrentMonthIndex] = useState<number>(
+    today.getMonth(),
+  );
 
   const todayTimeMidnight = new Date(
     today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)),
@@ -90,32 +93,7 @@ const Calendar: FC<ICalendar> = props => {
   );
 
   const onDayPress = (day: DateData) => {
-    let toDate;
-    let fromDate;
-
-    if (!markedDates) {
-      fromDate = day.timestamp;
-      toDate = day.timestamp;
-    } else {
-      const {fromDate: minDate, toDate: maxDate} = markedDates;
-
-      if (day.timestamp < minDate.getTime()) {
-        fromDate = day.timestamp;
-        toDate = maxDate;
-      } else if (day.timestamp > maxDate.getTime()) {
-        toDate = day.timestamp;
-        fromDate = minDate;
-      } else if (
-        day.timestamp === minDate.getTime() ||
-        day.timestamp === maxDate.getTime()
-      ) {
-        fromDate = day.timestamp;
-        toDate = day.timestamp;
-      } else {
-        fromDate = minDate;
-        toDate = day.timestamp;
-      }
-    }
+    const {fromDate, toDate} = calculateBoundaries(day, markedDates);
 
     setMarkedDates(
       getAllDatesBetween(new Date(fromDate), new Date(toDate), colorsArg),
@@ -154,7 +132,7 @@ const Calendar: FC<ICalendar> = props => {
 
   return (
     <>
-      {isDays ? (
+      {isShowDays ? (
         <DefaultCalendar
           firstDay={1}
           style={styles.calendar}
@@ -163,23 +141,26 @@ const Calendar: FC<ICalendar> = props => {
           onDayPress={onDayPress}
           onDayLongPress={onDayPress}
           theme={themeStyles.theme}
-          initialDate={today.getFullYear() + '-' + (month + 1)}
+          initialDate={today.getFullYear() + '-' + (currentMonthIndex + 1)}
           onMonthChange={month => {
-            setMonth(month.month - 1);
+            setCurrentMonthIndex(month.month - 1);
           }}
           customHeaderTitle={
-            <TouchableOpacity onPress={() => setIsDays(false)}>
-              <Typography>
-                {localeConfigRu.monthNames[month] + ', ' + today.getFullYear()}
-              </Typography>
-            </TouchableOpacity>
+            <CustomHeaderTitle
+              currentMonth={
+                localeConfigRu.monthNames[currentMonthIndex] +
+                ', ' +
+                today.getFullYear()
+              }
+              onPress={() => setIsShowDays(false)}
+            />
           }
           {...rest}
         />
       ) : (
         <Months
-          setIsDays={() => setIsDays(true)}
-          setMonth={index => setMonth(index)}
+          onCloseMonths={() => setIsShowDays(true)}
+          onPressMonth={monthIndex => setCurrentMonthIndex(monthIndex)}
         />
       )}
 

@@ -1,3 +1,11 @@
+## [4.4.1](https://glab.lad24.ru/npm/mobydick/compare/v4.4.0...v4.4.1) (2023-01-23)
+
+
+### Bug Fixes
+
+* **calendar:** add patch, remove style; remove bad import ([9a9cbab](https://glab.lad24.ru/npm/mobydick/commit/9a9cbab9836e54e281b6e094f56fa5e630f7caf4))
+* **calendar:** reset the today ([d6c9e27](https://glab.lad24.ru/npm/mobydick/commit/d6c9e2763dd7323d2471005b4d8664d78905f7f9))
+
 # [4.4.0](https://glab.lad24.ru/npm/mobydick/compare/v4.3.1...v4.4.0) (2023-01-19)
 
 

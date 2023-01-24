@@ -1,0 +1,573 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Months render 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+  data={
+    Array [
+      "Янв",
+      "Фев",
+      "Март",
+      "Апр",
+      "Май",
+      "Июнь",
+      "Июль",
+      "Авг",
+      "Сен",
+      "Окт",
+      "Нояб",
+      "Дек",
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEnabled={false}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={
+    Object {
+      "alignContent": "center",
+      "width": "100%",
+    }
+  }
+  viewabilityConfigCallbackPairs={Array []}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Янв
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Фев
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Март
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Апр
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Май
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Июнь
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Июль
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Авг
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Сен
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Окт
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Нояб
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 3,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingVertical": 30,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              Array [
+                Object {
+                  "color": "#20242D",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 22.5,
+                  "lineHeight": 28.5,
+                },
+                undefined,
+              ]
+            }
+          >
+            Дек
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

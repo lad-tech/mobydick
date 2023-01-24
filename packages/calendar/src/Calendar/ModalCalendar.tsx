@@ -1,6 +1,5 @@
 import React, {FC, ReactElement, useEffect, useState} from 'react';
 import {CalendarProps} from 'react-native-calendars/src';
-import {boolean} from '@storybook/addon-knobs';
 import {
   IButtonSize,
   IButtonTypes,
@@ -21,6 +20,7 @@ interface ICalendar extends CalendarProps, Partial<IHorizontalButtonsView> {
   textCalendar?: string;
   textCalendarFont?: TypographyProp;
   buttonView?: IButtonView;
+  isShowToday?: boolean;
 }
 
 const ACCEPT_STR = 'Применить';
@@ -38,6 +38,7 @@ const ModalCalendar: FC<IContentProps & ICalendar> = props => {
     typeRight,
     textRight,
     textCalendarFont,
+    isShowToday = true,
   } = props;
   const [styles] = useStyles(stylesCreate);
   const [date, setDate] = useState<{dateStart: string; dateEnd: string}>();
@@ -93,7 +94,7 @@ const ModalCalendar: FC<IContentProps & ICalendar> = props => {
         bottomView={defaultBottomView}
         isClear={isClear}
         onChangeDate={setDate}
-        isShowToday={boolean('isShowToday', false)}
+        isShowToday={isShowToday}
       />
     </ModalBase>
   );
