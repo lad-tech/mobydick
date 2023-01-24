@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React, {FC, useCallback} from 'react';
 import {
   FlatList,
   IThemeContext,
@@ -25,18 +25,21 @@ const Months: FC<IMonths> = props => {
     props.onPressMonth(index);
   };
 
-  const renderItem = ({item, index}: {item: string; index: number}) => {
-    return (
-      <Pressable
-        style={({pressed}) => [
-          styles.month,
-          {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
-        ]}
-        onPress={() => onPress(index)}>
-        <Typography>{item}</Typography>
-      </Pressable>
-    );
-  };
+  const renderItem = useCallback(
+    ({item, index}: {item: string; index: number}) => {
+      return (
+        <Pressable
+          style={({pressed}) => [
+            styles.month,
+            {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
+          ]}
+          onPress={() => onPress(index)}>
+          <Typography>{item}</Typography>
+        </Pressable>
+      );
+    },
+    [],
+  );
 
   return (
     <FlatList
