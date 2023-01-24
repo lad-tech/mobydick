@@ -35,7 +35,6 @@ const Months: FC<IMonths> = props => {
     <FlatList
       data={localeConfigRu.monthNamesShort}
       style={styles.container}
-      contentContainerStyle={styles.contentContainer}
       renderItem={renderItem}
       numColumns={3}
       scrollEnabled={false}
@@ -50,16 +49,10 @@ const stylesCreate = ({spaces}: IThemeContext) =>
     month: {
       flex: 3,
       paddingVertical: spaces.Space20,
-      justifyContent: 'center',
-      alignSelf: 'center',
       alignItems: 'center',
     },
     container: {
       width: '100%',
       alignContent: 'center',
-    },
-    contentContainer: {
-      width: '100%',
-      justifyContent: 'center',
     },
   });

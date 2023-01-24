@@ -2,12 +2,6 @@
 
 exports[`Months render 1`] = `
 <RCTScrollView
-  contentContainerStyle={
-    Object {
-      "justifyContent": "center",
-      "width": "100%",
-    }
-  }
   data={
     Array [
       "Янв",
@@ -73,9 +67,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -112,9 +104,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -151,9 +141,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -203,9 +191,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -242,9 +228,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -281,9 +265,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -333,9 +315,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -372,9 +352,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -411,9 +389,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -463,9 +439,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -502,9 +476,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
@@ -541,9 +513,7 @@ exports[`Months render 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "alignSelf": "center",
               "flex": 3,
-              "justifyContent": "center",
               "opacity": 1,
               "paddingVertical": 30,
             }
