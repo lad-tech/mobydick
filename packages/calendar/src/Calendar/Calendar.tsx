@@ -1,6 +1,7 @@
 import React, {
   FC,
   ReactElement,
+  useCallback,
   useEffect,
   useLayoutEffect,
   useMemo,
@@ -130,6 +131,11 @@ const Calendar: FC<ICalendar> = props => {
     }
   }, [isClear]);
 
+  const onPressCurrMonth = useCallback(
+    () => setIsShowDays(!isShowDays),
+    [isShowDays],
+  );
+
   return (
     <>
       {isShowDays ? (
@@ -152,14 +158,14 @@ const Calendar: FC<ICalendar> = props => {
                 ', ' +
                 today.getFullYear()
               }
-              onPress={() => setIsShowDays(false)}
+              onPress={onPressCurrMonth}
             />
           }
           {...rest}
         />
       ) : (
         <Months
-          onCloseMonths={() => setIsShowDays(true)}
+          onCloseMonths={onPressCurrMonth}
           onPressMonth={monthIndex => setCurrentMonthIndex(monthIndex)}
         />
       )}
