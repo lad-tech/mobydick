@@ -1,5 +1,4 @@
-import React, {FC, ReactElement, useEffect, useState} from 'react';
-import {CalendarProps} from 'react-native-calendars/src';
+import React, {FC, useEffect, useState} from 'react';
 import {
   IButtonSize,
   IButtonTypes,
@@ -11,22 +10,20 @@ import {
 } from '@npm/mobydick-core';
 
 import stylesCreate from './stylesCreate';
-import {IButtonView, IChangeDate} from './types';
+import {IButtonView, ICalendar, IChangeDate} from './types';
 import Calendar from './Calendar';
 
-interface ICalendar extends CalendarProps, Partial<IHorizontalButtonsView> {
+interface IModalCalendar extends ICalendar, Partial<IHorizontalButtonsView> {
   onChangeDate: (dateRange?: IChangeDate) => void;
-  bottomView?: ReactElement;
   textCalendar?: string;
   textCalendarFont?: TypographyProp;
   buttonView?: IButtonView;
-  isShowToday?: boolean;
 }
 
 const ACCEPT_STR = 'Применить';
 const CANCEL_STR = 'Отмена';
 
-const ModalCalendar: FC<IContentProps & ICalendar> = props => {
+const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
   const {
     onClose,
     bottomView,
@@ -39,6 +36,7 @@ const ModalCalendar: FC<IContentProps & ICalendar> = props => {
     textRight,
     textCalendarFont,
     isShowToday = true,
+    localeConfig,
   } = props;
   const [styles] = useStyles(stylesCreate);
   const [date, setDate] = useState<{dateStart: string; dateEnd: string}>();
@@ -95,6 +93,7 @@ const ModalCalendar: FC<IContentProps & ICalendar> = props => {
         isClear={isClear}
         onChangeDate={setDate}
         isShowToday={isShowToday}
+        localeConfig={localeConfig}
       />
     </ModalBase>
   );

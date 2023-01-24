@@ -1,6 +1,5 @@
 import React, {
   FC,
-  ReactElement,
   useCallback,
   useEffect,
   useLayoutEffect,
@@ -9,7 +8,6 @@ import React, {
 } from 'react';
 import {
   Calendar as DefaultCalendar,
-  CalendarProps,
   DateData,
   LocaleConfig,
 } from 'react-native-calendars';
@@ -20,30 +18,23 @@ import rem from '@npm/mobydick-core/src/styles/spaces/rem';
 import {localeConfigRu} from './localeConfig';
 import {calculateBoundaries, getAllDatesBetween} from './functions';
 import stylesCreate from './stylesCreate';
-import {IChangeDate, IMarkedDates} from './types';
+import {ICalendar, IMarkedDates} from './types';
 import Months from './components/Months';
 import CustomHeaderTitle from './components/CustomHeaderTitle';
-
-LocaleConfig.locales['ru'] = localeConfigRu;
-
-interface ICalendar extends CalendarProps {
-  onChangeDate?: (dateRange: IChangeDate) => void;
-  bottomView?: ReactElement;
-  defaultLocale?: string;
-  isClear?: boolean;
-  isShowToday?: boolean;
-}
 
 const Calendar: FC<ICalendar> = props => {
   const {
     onChangeDate,
-    defaultLocale,
+    defaultLocale = 'ru',
     bottomView,
     isClear,
     isShowToday = true,
+    localeConfig = localeConfigRu,
     ...rest
   } = props;
-  LocaleConfig.defaultLocale = defaultLocale || 'ru';
+  LocaleConfig.locales[defaultLocale] = localeConfig;
+  LocaleConfig.defaultLocale = defaultLocale;
+
   const {colors, currentTheme} = useTheme();
   const today = new Date();
   const [styles] = useStyles(stylesCreate);
@@ -154,7 +145,7 @@ const Calendar: FC<ICalendar> = props => {
           customHeaderTitle={
             <CustomHeaderTitle
               currentMonth={
-                localeConfigRu.monthNames[currentMonthIndex] +
+                localeConfig.monthNames[currentMonthIndex] +
                 ', ' +
                 today.getFullYear()
               }
@@ -167,6 +158,7 @@ const Calendar: FC<ICalendar> = props => {
         <Months
           onCloseMonths={onPressCurrMonth}
           onPressMonth={monthIndex => setCurrentMonthIndex(monthIndex)}
+          localeConfig={localeConfig.monthNamesShort}
         />
       )}
 
