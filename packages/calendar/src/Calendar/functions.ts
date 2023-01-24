@@ -1,6 +1,7 @@
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
+import {DateData} from 'react-native-calendars';
 
-import {IColors, IMarkedTypes} from './types';
+import {IColors, IMarkedDates, IMarkedTypes} from './types';
 
 export const getDateForCalendar = (date: Date): string => {
   const yr = date.getFullYear();
@@ -48,4 +49,37 @@ export const getAllDatesBetween = (
     },
   };
   return {dates: datesForCalendar, fromDate, toDate};
+};
+
+export const calculateBoundaries = (
+  day: DateData,
+  markedDates: IMarkedDates | undefined,
+) => {
+  let toDate;
+  let fromDate;
+
+  if (!markedDates) {
+    fromDate = day.timestamp;
+    toDate = day.timestamp;
+  } else {
+    const {fromDate: minDate, toDate: maxDate} = markedDates;
+
+    if (day.timestamp < minDate.getTime()) {
+      fromDate = day.timestamp;
+      toDate = maxDate;
+    } else if (day.timestamp > maxDate.getTime()) {
+      toDate = day.timestamp;
+      fromDate = minDate;
+    } else if (
+      day.timestamp === minDate.getTime() ||
+      day.timestamp === maxDate.getTime()
+    ) {
+      fromDate = day.timestamp;
+      toDate = day.timestamp;
+    } else {
+      fromDate = minDate;
+      toDate = day.timestamp;
+    }
+  }
+  return {fromDate, toDate};
 };

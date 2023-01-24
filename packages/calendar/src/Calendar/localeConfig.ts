@@ -14,8 +14,8 @@ export const localeConfigRu = {
     'Декабрь',
   ],
   monthNamesShort: [
-    'Янв.',
-    'Фев.',
+    'Янв',
+    'Фев',
     'Март',
     'Апр',
     'Май',

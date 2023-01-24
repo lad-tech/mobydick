@@ -1,6 +1,7 @@
 import React, {
   FC,
   ReactElement,
+  useCallback,
   useEffect,
   useLayoutEffect,
   useMemo,
@@ -17,9 +18,11 @@ import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
 
 import {localeConfigRu} from './localeConfig';
-import {getAllDatesBetween} from './functions';
+import {calculateBoundaries, getAllDatesBetween} from './functions';
 import stylesCreate from './stylesCreate';
 import {IChangeDate, IMarkedDates} from './types';
+import Months from './components/Months';
+import CustomHeaderTitle from './components/CustomHeaderTitle';
 
 LocaleConfig.locales['ru'] = localeConfigRu;
 
@@ -58,7 +61,12 @@ const Calendar: FC<ICalendar> = props => {
     }),
     [],
   );
+
   const [markedDates, setMarkedDates] = useState<IMarkedDates>();
+  const [isShowDays, setIsShowDays] = useState(true);
+  const [currentMonthIndex, setCurrentMonthIndex] = useState<number>(
+    today.getMonth(),
+  );
 
   const todayTimeMidnight = new Date(
     today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)),
@@ -86,32 +94,7 @@ const Calendar: FC<ICalendar> = props => {
   );
 
   const onDayPress = (day: DateData) => {
-    let toDate;
-    let fromDate;
-
-    if (!markedDates) {
-      fromDate = day.timestamp;
-      toDate = day.timestamp;
-    } else {
-      const {fromDate: minDate, toDate: maxDate} = markedDates;
-
-      if (day.timestamp < minDate.getTime()) {
-        fromDate = day.timestamp;
-        toDate = maxDate;
-      } else if (day.timestamp > maxDate.getTime()) {
-        toDate = day.timestamp;
-        fromDate = minDate;
-      } else if (
-        day.timestamp === minDate.getTime() ||
-        day.timestamp === maxDate.getTime()
-      ) {
-        fromDate = day.timestamp;
-        toDate = day.timestamp;
-      } else {
-        fromDate = minDate;
-        toDate = day.timestamp;
-      }
-    }
+    const {fromDate, toDate} = calculateBoundaries(day, markedDates);
 
     setMarkedDates(
       getAllDatesBetween(new Date(fromDate), new Date(toDate), colorsArg),
@@ -148,18 +131,44 @@ const Calendar: FC<ICalendar> = props => {
     }
   }, [isClear]);
 
+  const onPressCurrMonth = useCallback(
+    () => setIsShowDays(!isShowDays),
+    [isShowDays],
+  );
+
   return (
     <>
-      <DefaultCalendar
-        firstDay={1}
-        style={styles.calendar}
-        markingType={'period'}
-        markedDates={markedDates?.dates || {}}
-        onDayPress={onDayPress}
-        onDayLongPress={onDayPress}
-        theme={themeStyles.theme}
-        {...rest}
-      />
+      {isShowDays ? (
+        <DefaultCalendar
+          firstDay={1}
+          style={styles.calendar}
+          markingType={'period'}
+          markedDates={markedDates?.dates || {}}
+          onDayPress={onDayPress}
+          onDayLongPress={onDayPress}
+          theme={themeStyles.theme}
+          initialDate={today.getFullYear() + '-' + (currentMonthIndex + 1)}
+          onMonthChange={month => {
+            setCurrentMonthIndex(month.month - 1);
+          }}
+          customHeaderTitle={
+            <CustomHeaderTitle
+              currentMonth={
+                localeConfigRu.monthNames[currentMonthIndex] +
+                ', ' +
+                today.getFullYear()
+              }
+              onPress={onPressCurrMonth}
+            />
+          }
+          {...rest}
+        />
+      ) : (
+        <Months
+          onCloseMonths={onPressCurrMonth}
+          onPressMonth={monthIndex => setCurrentMonthIndex(monthIndex)}
+        />
+      )}
 
       {bottomView}
     </>
