@@ -32,7 +32,7 @@ export enum IButtonView {
 }
 
 export interface ICalendar extends CalendarProps {
-  onChangeDate?: (dateRange?: IChangeDate) => void;
+  onChangeDate?: (dateRange: IChangeDate) => void;
   bottomView?: ReactElement;
   defaultLocale?: string;
   isClear?: boolean;

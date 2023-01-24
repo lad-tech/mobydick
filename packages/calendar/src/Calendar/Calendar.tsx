@@ -158,7 +158,7 @@ const Calendar: FC<ICalendar> = props => {
         <Months
           onCloseMonths={onPressCurrMonth}
           onPressMonth={monthIndex => setCurrentMonthIndex(monthIndex)}
-          localeConfig={localeConfig.monthNamesShort}
+          monthNamesShort={localeConfig.monthNamesShort}
         />
       )}
 

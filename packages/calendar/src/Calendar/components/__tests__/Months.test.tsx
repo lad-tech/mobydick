@@ -12,7 +12,7 @@ describe('Months', () => {
       <Months
         onCloseMonths={onCloseMonths}
         onPressMonth={onPressMonth}
-        localeConfig={localeConfigRu.monthNamesShort}
+        monthNamesShort={localeConfigRu.monthNamesShort}
       />,
     );
     expect(toJSON()).toMatchSnapshot();
@@ -24,7 +24,7 @@ describe('Months', () => {
       <Months
         onCloseMonths={onCloseMonths}
         onPressMonth={onPressMonth}
-        localeConfig={localeConfigRu.monthNamesShort}
+        monthNamesShort={localeConfigRu.monthNamesShort}
       />,
     );
 

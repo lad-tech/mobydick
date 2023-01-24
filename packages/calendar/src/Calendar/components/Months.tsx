@@ -12,11 +12,11 @@ import useTheme from '@npm/mobydick-core/src/styles/theme/hooks/useTheme';
 interface IMonths {
   onCloseMonths: () => void;
   onPressMonth: (index: number) => void;
-  localeConfig: string[];
+  monthNamesShort: string[];
 }
 
 const Months: FC<IMonths> = props => {
-  const {onCloseMonths, onPressMonth, localeConfig} = props;
+  const {onCloseMonths, onPressMonth, monthNamesShort} = props;
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
 
@@ -44,7 +44,7 @@ const Months: FC<IMonths> = props => {
 
   return (
     <FlatList
-      data={localeConfig}
+      data={monthNamesShort}
       style={styles.container}
       renderItem={renderItem}
       numColumns={3}
