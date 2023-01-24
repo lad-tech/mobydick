@@ -20,19 +20,19 @@ const Months: FC<IMonths> = props => {
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
 
-  const renderItem = ({item, index}: {item: string; index: number}) => {
-    const onPress = () => {
-      props.onCloseMonths();
-      props.onPressMonth(index);
-    };
+  const onPress = (index: number) => {
+    props.onCloseMonths();
+    props.onPressMonth(index);
+  };
 
+  const renderItem = ({item, index}: {item: string; index: number}) => {
     return (
       <Pressable
         style={({pressed}) => [
           styles.month,
           {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
         ]}
-        onPress={onPress}>
+        onPress={() => onPress(index)}>
         <Typography>{item}</Typography>
       </Pressable>
     );
