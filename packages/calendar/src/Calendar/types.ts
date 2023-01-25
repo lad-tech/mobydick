@@ -21,7 +21,7 @@ export type IColors = {
   colorSoft: colorElem;
 };
 
-export interface IChangeDate {
+export interface IDateRange {
   dateStart: string;
   dateEnd: string;
 }
@@ -32,12 +32,13 @@ export enum IButtonView {
 }
 
 export interface ICalendar extends CalendarProps {
-  onChangeDate?: (dateRange: IChangeDate) => void;
+  onDateRangeChange?: (dateRange: IDateRange) => void;
   bottomView?: ReactElement;
   defaultLocale?: string;
   isClear?: boolean;
   isShowToday?: boolean;
   localeConfig?: ILocaleConfig | undefined;
+  isPeriod?: boolean;
 }
 
 export interface ILocaleConfig {

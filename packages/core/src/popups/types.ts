@@ -25,8 +25,10 @@ export interface IHorizontalButtonsView {
   typeLeft: IButtonTypes;
   onPressLeft(): void;
   textLeft: string;
+  disabledLeft?: boolean;
 
   typeRight: IButtonTypes;
   onPressRight(): void;
   textRight: string;
+  disabledRight?: boolean;
 }

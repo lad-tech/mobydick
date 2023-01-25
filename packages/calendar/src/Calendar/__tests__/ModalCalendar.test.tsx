@@ -7,6 +7,7 @@ import {IButtonView} from '../types';
 describe('ModalCalendar', () => {
   beforeAll(() => {
     jest.useFakeTimers('modern');
+    jest.setSystemTime(new Date('2022-07-15'));
   });
   afterAll(() => {
     jest.useRealTimers();
@@ -18,7 +19,7 @@ describe('ModalCalendar', () => {
       <ModalCalendar
         id={'1'}
         onClose={() => undefined}
-        onChangeDate={submit}
+        onDateRangeChange={submit}
       />,
     );
     expect(toJSON()).toMatchSnapshot();
@@ -30,7 +31,7 @@ describe('ModalCalendar', () => {
       <ModalCalendar
         id={'1'}
         onClose={() => undefined}
-        onChangeDate={submit}
+        onDateRangeChange={submit}
         textCalendar={'textCalendar'}
         buttonView={IButtonView.small}
       />,
@@ -46,14 +47,17 @@ describe('ModalCalendar', () => {
       <ModalCalendar
         id={'1'}
         onClose={() => undefined}
-        onChangeDate={submit}
+        onDateRangeChange={submit}
         textCalendar={'textCalendar'}
         buttonView={IButtonView.large}
       />,
     );
+
+    const dateStart = getByText('11');
+    fireEvent.press(dateStart);
+
     const applyButton = getByText('Отмена');
     fireEvent.press(applyButton);
-
     expect(toJSON()).toMatchSnapshot();
   });
 });

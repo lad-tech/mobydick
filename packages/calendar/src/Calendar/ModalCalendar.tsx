@@ -10,11 +10,11 @@ import {
 } from '@npm/mobydick-core';
 
 import stylesCreate from './stylesCreate';
-import {IButtonView, ICalendar, IChangeDate} from './types';
+import {IButtonView, ICalendar, IDateRange} from './types';
 import Calendar from './Calendar';
 
 interface IModalCalendar extends ICalendar, Partial<IHorizontalButtonsView> {
-  onChangeDate: (dateRange?: IChangeDate) => void;
+  onDateRangeChange: (dateRange?: IDateRange) => void;
   textCalendar?: string;
   textCalendarFont?: TypographyProp;
   buttonView?: IButtonView;
@@ -27,7 +27,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
   const {
     onClose,
     bottomView,
-    onChangeDate,
+    onDateRangeChange,
     textCalendar,
     buttonView,
     typeLeft,
@@ -36,14 +36,14 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
     textRight,
     textCalendarFont,
     isShowToday = true,
-    localeConfig,
+    ...rest
   } = props;
   const [styles] = useStyles(stylesCreate);
   const [date, setDate] = useState<{dateStart: string; dateEnd: string}>();
   const [isClear, setClear] = useState(false);
 
   const onAccept = () => {
-    onChangeDate(date);
+    onDateRangeChange(date);
     onClose();
   };
 
@@ -71,6 +71,8 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
           textLeft={textLeft || CANCEL_STR}
           typeRight={typeRight || IButtonTypes.primary}
           textRight={textRight || ACCEPT_STR}
+          disabledLeft={!date?.dateStart && !date?.dateEnd}
+          disabledRight={!date?.dateStart && !date?.dateEnd}
           onPressRight={onAccept}
           onPressLeft={() => setClear(true)}
         />
@@ -91,9 +93,9 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
       <Calendar
         bottomView={defaultBottomView}
         isClear={isClear}
-        onChangeDate={setDate}
+        onDateRangeChange={setDate}
         isShowToday={isShowToday}
-        localeConfig={localeConfig}
+        {...rest}
       />
     </ModalBase>
   );

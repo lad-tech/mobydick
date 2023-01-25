@@ -24,12 +24,13 @@ import CustomHeaderTitle from './components/CustomHeaderTitle';
 
 const Calendar: FC<ICalendar> = props => {
   const {
-    onChangeDate,
+    onDateRangeChange,
     defaultLocale = 'ru',
     bottomView,
     isClear,
     isShowToday = true,
     localeConfig = localeConfigRu,
+    isPeriod = false,
     ...rest
   } = props;
   LocaleConfig.locales[defaultLocale] = localeConfig;
@@ -85,13 +86,13 @@ const Calendar: FC<ICalendar> = props => {
   );
 
   const onDayPress = (day: DateData) => {
-    const {fromDate, toDate} = calculateBoundaries(day, markedDates);
+    const {fromDate, toDate} = calculateBoundaries(day, markedDates, isPeriod);
 
     setMarkedDates(
       getAllDatesBetween(new Date(fromDate), new Date(toDate), colorsArg),
     );
-    onChangeDate &&
-      onChangeDate({
+    onDateRangeChange &&
+      onDateRangeChange({
         dateStart: new Date(fromDate).toISOString(),
         dateEnd: new Date(toDate).toISOString(),
       });
@@ -107,9 +108,10 @@ const Calendar: FC<ICalendar> = props => {
     );
   };
   const onClear = () => {
-    onChangeDate && onChangeDate({dateStart: '', dateEnd: ''});
+    onDateRangeChange && onDateRangeChange({dateStart: '', dateEnd: ''});
     isShowToday ? markedToday() : setMarkedDates(undefined);
   };
+
   useLayoutEffect(() => {
     if (isShowToday) {
       markedToday();

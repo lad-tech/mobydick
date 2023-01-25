@@ -10,8 +10,16 @@ import stylesCreate from './stylesCreate';
 
 const HorizontalButtonsView: FC<IHorizontalButtonsView> = props => {
   const [styles] = useStyles(stylesCreate);
-  const {typeLeft, onPressLeft, textLeft, typeRight, textRight, onPressRight} =
-    props;
+  const {
+    typeLeft,
+    onPressLeft,
+    textLeft,
+    typeRight,
+    textRight,
+    onPressRight,
+    disabledRight,
+    disabledLeft,
+  } = props;
 
   return (
     <View style={styles.horizontalButtonsView}>
@@ -21,6 +29,7 @@ const HorizontalButtonsView: FC<IHorizontalButtonsView> = props => {
         type={typeLeft}
         onPress={onPressLeft}
         text={textLeft}
+        disabled={disabledLeft}
       />
       <Button
         size={IButtonSize.fixed}
@@ -28,6 +37,7 @@ const HorizontalButtonsView: FC<IHorizontalButtonsView> = props => {
         type={typeRight}
         onPress={onPressRight}
         text={textRight}
+        disabled={disabledRight}
       />
     </View>
   );
