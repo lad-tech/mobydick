@@ -9,20 +9,20 @@ import {
 import {StyleSheet} from 'react-native';
 import useTheme from '@npm/mobydick-core/src/styles/theme/hooks/useTheme';
 
-import {localeConfigRu} from '../localeConfig';
-
 interface IMonths {
   onCloseMonths: () => void;
   onPressMonth: (index: number) => void;
+  monthNamesShort: string[];
 }
 
 const Months: FC<IMonths> = props => {
+  const {onCloseMonths, onPressMonth, monthNamesShort} = props;
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
 
   const onPress = (index: number) => {
-    props.onCloseMonths();
-    props.onPressMonth(index);
+    onCloseMonths();
+    onPressMonth(index);
   };
 
   const renderItem = useCallback(
@@ -33,6 +33,7 @@ const Months: FC<IMonths> = props => {
             styles.month,
             {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
           ]}
+          accessibilityLabel={'pressMonth'}
           onPress={() => onPress(index)}>
           <Typography>{item}</Typography>
         </Pressable>
@@ -43,7 +44,7 @@ const Months: FC<IMonths> = props => {
 
   return (
     <FlatList
-      data={localeConfigRu.monthNamesShort}
+      data={monthNamesShort}
       style={styles.container}
       renderItem={renderItem}
       numColumns={3}

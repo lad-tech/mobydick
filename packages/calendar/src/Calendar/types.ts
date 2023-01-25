@@ -1,4 +1,6 @@
 import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
+import {CalendarProps} from 'react-native-calendars';
+import {ReactElement} from 'react';
 
 export interface IMarkedTypes {
   [key: string]: MarkingProps;
@@ -27,4 +29,21 @@ export interface IChangeDate {
 export enum IButtonView {
   small = 'small',
   large = 'large',
+}
+
+export interface ICalendar extends CalendarProps {
+  onChangeDate?: (dateRange: IChangeDate) => void;
+  bottomView?: ReactElement;
+  defaultLocale?: string;
+  isClear?: boolean;
+  isShowToday?: boolean;
+  localeConfig?: ILocaleConfig | undefined;
+}
+
+export interface ILocaleConfig {
+  monthNames: string[];
+  monthNamesShort: string[];
+  dayNames: string[];
+  dayNamesShort: string[];
+  today?: string;
 }
