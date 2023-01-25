@@ -62,9 +62,13 @@ describe('Calendar', () => {
     fireEvent.press(dateEnd);
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2022-07-15T00:00:00.000Z',
-      dateEnd: '2022-12-17T00:00:00.000Z',
+      dateEnd: '2022-07-15T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
+      dateStart: '2022-07-15T00:00:00.000Z',
+      dateEnd: '2022-12-17T00:00:00.000Z',
+    });
+    expect(submit).toHaveBeenNthCalledWith(3, {
       dateStart: '2022-07-15T00:00:00.000Z',
       dateEnd: '2022-12-25T00:00:00.000Z',
     });
@@ -78,12 +82,15 @@ describe('Calendar', () => {
     fireEvent.press(dateStart);
     const dateEnd = getByText('14');
     fireEvent.press(dateEnd);
-
     expect(submit).toHaveBeenNthCalledWith(1, {
+      dateStart: '2022-07-15T00:00:00.000Z',
+      dateEnd: '2022-07-15T00:00:00.000Z',
+    });
+    expect(submit).toHaveBeenNthCalledWith(2, {
       dateStart: '2022-07-15T00:00:00.000Z',
       dateEnd: '2022-12-17T00:00:00.000Z',
     });
-    expect(submit).toHaveBeenNthCalledWith(2, {
+    expect(submit).toHaveBeenNthCalledWith(3, {
       dateStart: '2022-07-15T00:00:00.000Z',
       dateEnd: '2022-12-14T00:00:00.000Z',
     });
@@ -99,13 +106,18 @@ describe('Calendar', () => {
 
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2022-07-15T00:00:00.000Z',
-      dateEnd: '2022-12-11T00:00:00.000Z',
+      dateEnd: '2022-07-15T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
+      dateStart: '2022-07-15T00:00:00.000Z',
+      dateEnd: '2022-12-11T00:00:00.000Z',
+    });
+    expect(submit).toHaveBeenNthCalledWith(3, {
       dateStart: '2022-12-11T00:00:00.000Z',
       dateEnd: '2022-12-11T00:00:00.000Z',
     });
   });
+
   it('on submit day > max ', () => {
     jest.setSystemTime(new Date('2021-05-15'));
     const submit = jest.fn();
@@ -115,12 +127,15 @@ describe('Calendar', () => {
     fireEvent.press(dateStart);
     const dateEnd = getByText('17');
     fireEvent.press(dateEnd);
-
     expect(submit).toHaveBeenNthCalledWith(1, {
+      dateStart: '2021-05-15T00:00:00.000Z',
+      dateEnd: '2021-05-15T00:00:00.000Z',
+    });
+    expect(submit).toHaveBeenNthCalledWith(2, {
       dateStart: '2021-05-15T00:00:00.000Z',
       dateEnd: '2021-12-21T00:00:00.000Z',
     });
-    expect(submit).toHaveBeenNthCalledWith(2, {
+    expect(submit).toHaveBeenNthCalledWith(3, {
       dateStart: '2021-05-15T00:00:00.000Z',
       dateEnd: '2021-12-17T00:00:00.000Z',
     });

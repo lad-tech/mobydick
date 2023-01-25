@@ -10,11 +10,11 @@ import {
 } from '@npm/mobydick-core';
 
 import stylesCreate from './stylesCreate';
-import {IButtonView, ICalendar, IChangeDate} from './types';
+import {IButtonView, ICalendar, IRangeDate} from './types';
 import Calendar from './Calendar';
 
 interface IModalCalendar extends ICalendar, Partial<IHorizontalButtonsView> {
-  onChangeDate: (dateRange?: IChangeDate) => void;
+  onChangeDate: (dateRange?: IRangeDate) => void;
   textCalendar?: string;
   textCalendarFont?: TypographyProp;
   buttonView?: IButtonView;
@@ -36,7 +36,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
     textRight,
     textCalendarFont,
     isShowToday = true,
-    localeConfig,
+    ...rest
   } = props;
   const [styles] = useStyles(stylesCreate);
   const [date, setDate] = useState<{dateStart: string; dateEnd: string}>();
@@ -71,6 +71,8 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
           textLeft={textLeft || CANCEL_STR}
           typeRight={typeRight || IButtonTypes.primary}
           textRight={textRight || ACCEPT_STR}
+          disabledLeft={!date?.dateStart && !date?.dateEnd}
+          disabledRight={!date?.dateStart && !date?.dateEnd}
           onPressRight={onAccept}
           onPressLeft={() => setClear(true)}
         />
@@ -93,7 +95,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
         isClear={isClear}
         onChangeDate={setDate}
         isShowToday={isShowToday}
-        localeConfig={localeConfig}
+        {...rest}
       />
     </ModalBase>
   );

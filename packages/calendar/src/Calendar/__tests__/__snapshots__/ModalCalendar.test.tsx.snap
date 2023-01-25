@@ -3724,7 +3724,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
       <View
         accessibilityState={
           Object {
-            "disabled": false,
+            "disabled": true,
           }
         }
         accessible={true}
@@ -3741,7 +3741,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
           Object {
             "alignItems": "center",
             "alignSelf": "stretch",
-            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "backgroundColor": "#9BA1B0",
             "borderRadius": 18,
             "flex": 1,
             "flexDirection": "row",
@@ -3764,7 +3764,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               },
               Array [
                 Object {
-                  "color": "#2B78EE",
+                  "color": "#FFF",
                   "paddingHorizontal": 9,
                 },
                 undefined,
@@ -3778,7 +3778,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
       <View
         accessibilityState={
           Object {
-            "disabled": false,
+            "disabled": true,
           }
         }
         accessible={true}
@@ -3795,7 +3795,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
           Object {
             "alignItems": "center",
             "alignSelf": "stretch",
-            "backgroundColor": "#2B78EE",
+            "backgroundColor": "#9BA1B0",
             "borderRadius": 18,
             "flex": 1,
             "flexDirection": "row",

@@ -54,11 +54,12 @@ export const getAllDatesBetween = (
 export const calculateBoundaries = (
   day: DateData,
   markedDates: IMarkedDates | undefined,
+  periodOff: boolean,
 ) => {
   let toDate;
   let fromDate;
 
-  if (!markedDates) {
+  if (!markedDates || periodOff) {
     fromDate = day.timestamp;
     toDate = day.timestamp;
   } else {

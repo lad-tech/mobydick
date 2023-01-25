@@ -97,6 +97,8 @@ const ExampleModal: FC<IContentProps> = props => {
             IButtonTypes,
             IButtonTypes.destructive,
           )}
+          disabledLeft={boolean('disabledLeft', false)}
+          disabledRight={boolean('disabledRight', false)}
           textLeft={text('text left button ', 'Отмена')}
           onPressLeft={() =>
             popupContext.openPopup({Content: NestedExampleModal})
