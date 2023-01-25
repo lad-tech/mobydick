@@ -10,11 +10,11 @@ import {
 } from '@npm/mobydick-core';
 
 import stylesCreate from './stylesCreate';
-import {IButtonView, ICalendar, IRangeDate} from './types';
+import {IButtonView, ICalendar, IDateRange} from './types';
 import Calendar from './Calendar';
 
 interface IModalCalendar extends ICalendar, Partial<IHorizontalButtonsView> {
-  onChangeDate: (dateRange?: IRangeDate) => void;
+  onDateRangeChange: (dateRange?: IDateRange) => void;
   textCalendar?: string;
   textCalendarFont?: TypographyProp;
   buttonView?: IButtonView;
@@ -27,7 +27,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
   const {
     onClose,
     bottomView,
-    onChangeDate,
+    onDateRangeChange,
     textCalendar,
     buttonView,
     typeLeft,
@@ -43,7 +43,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
   const [isClear, setClear] = useState(false);
 
   const onAccept = () => {
-    onChangeDate(date);
+    onDateRangeChange(date);
     onClose();
   };
 
@@ -93,7 +93,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
       <Calendar
         bottomView={defaultBottomView}
         isClear={isClear}
-        onChangeDate={setDate}
+        onDateRangeChange={setDate}
         isShowToday={isShowToday}
         {...rest}
       />

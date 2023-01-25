@@ -1,7 +1,7 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
 import {Button, IButtonSize, usePopups, View} from '@npm/mobydick-core';
-import {IButtonView, IRangeDate, ModalCalendar} from '@npm/mobydick-calendar';
+import {IButtonView, IDateRange, ModalCalendar} from '@npm/mobydick-calendar';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {localeConfigRu} from '@npm/mobydick-calendar/src/Calendar/localeConfig';
 
@@ -55,7 +55,7 @@ const CalendarPopupExample = () => {
     popupContext.openPopup({
       Content: propsFromPopup => (
         <ModalCalendar
-          onChangeDate={(date?: IRangeDate) =>
+          onDateRangeChange={(date?: IDateRange) =>
             console.log('onChangeDate', date?.dateStart, date?.dateEnd)
           }
           textCalendar={text(
