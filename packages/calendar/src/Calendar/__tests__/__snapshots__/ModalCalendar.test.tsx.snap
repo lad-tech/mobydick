@@ -91,6 +91,40 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
         
       </Text>
     </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 22.5,
+              "lineHeight": 28.5,
+            },
+            undefined,
+          ]
+        }
+      >
+        Декабрь, 2022
+      </Text>
+    </View>
     <View>
       <View
         style={
@@ -140,128 +174,15 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               ]
             }
           >
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.leftArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/previous.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            <View />
             <View
               style={
                 Object {
                   "flexDirection": "row",
                 }
               }
-            >
-              <View
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-              >
-                <Text
-                  allowFontScaling={true}
-                  style={
-                    Array [
-                      Object {
-                        "color": "#20242D",
-                        "fontFamily": "Inter-Regular",
-                        "fontSize": 22.5,
-                        "lineHeight": 28.5,
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  Декабрь, 2022
-                </Text>
-              </View>
-            </View>
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.rightArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/next.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            />
+            <View />
           </View>
           <View
             style={
@@ -3925,6 +3846,40 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
         
       </Text>
     </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 22.5,
+              "lineHeight": 28.5,
+            },
+            undefined,
+          ]
+        }
+      >
+        Декабрь, 2022
+      </Text>
+    </View>
     <View>
       <View
         style={
@@ -3974,128 +3929,15 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               ]
             }
           >
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.leftArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/previous.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            <View />
             <View
               style={
                 Object {
                   "flexDirection": "row",
                 }
               }
-            >
-              <View
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-              >
-                <Text
-                  allowFontScaling={true}
-                  style={
-                    Array [
-                      Object {
-                        "color": "#20242D",
-                        "fontFamily": "Inter-Regular",
-                        "fontSize": 22.5,
-                        "lineHeight": 28.5,
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  Декабрь, 2022
-                </Text>
-              </View>
-            </View>
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.rightArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/next.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            />
+            <View />
           </View>
           <View
             style={
@@ -7705,6 +7547,40 @@ exports[`ModalCalendar renders correctly 1`] = `
         
       </Text>
     </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 22.5,
+              "lineHeight": 28.5,
+            },
+            undefined,
+          ]
+        }
+      >
+        Декабрь, 2022
+      </Text>
+    </View>
     <View>
       <View
         style={
@@ -7754,128 +7630,15 @@ exports[`ModalCalendar renders correctly 1`] = `
               ]
             }
           >
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.leftArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/previous.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            <View />
             <View
               style={
                 Object {
                   "flexDirection": "row",
                 }
               }
-            >
-              <View
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-              >
-                <Text
-                  allowFontScaling={true}
-                  style={
-                    Array [
-                      Object {
-                        "color": "#20242D",
-                        "fontFamily": "Inter-Regular",
-                        "fontSize": 22.5,
-                        "lineHeight": 28.5,
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  Декабрь, 2022
-                </Text>
-              </View>
-            </View>
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.rightArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/next.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            />
+            <View />
           </View>
           <View
             style={

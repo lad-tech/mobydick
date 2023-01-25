@@ -9,9 +9,11 @@ interface ICustomHeaderTitle {
 const CustomHeaderTitle: FC<ICustomHeaderTitle> = props => {
   const {currentMonth, onPress} = props;
   return (
-    <TouchableOpacity onPress={onPress}>
-      <Typography>{currentMonth}</Typography>
-    </TouchableOpacity>
+    <>
+      <TouchableOpacity onPress={onPress}>
+        <Typography>{currentMonth}</Typography>
+      </TouchableOpacity>
+    </>
   );
 };
 

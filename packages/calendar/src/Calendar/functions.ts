@@ -84,3 +84,13 @@ export const calculateBoundaries = (
   }
   return {fromDate, toDate};
 };
+
+export const calculateYearRange = (currentYear: number) => {
+  const yearRange = [];
+
+  for (let i = 15; i >= 0; i--) {
+    yearRange.push(currentYear - i);
+  }
+
+  return {yearRange};
+};

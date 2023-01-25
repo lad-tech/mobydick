@@ -16,11 +16,16 @@ import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
 
 import {localeConfigRu} from './localeConfig';
-import {calculateBoundaries, getAllDatesBetween} from './functions';
+import {
+  calculateBoundaries,
+  calculateYearRange,
+  getAllDatesBetween,
+} from './functions';
 import stylesCreate from './stylesCreate';
 import {ICalendar, IMarkedDates} from './types';
-import Months from './components/Months';
 import CustomHeaderTitle from './components/CustomHeaderTitle';
+import Years from './components/Years';
+import Months from './components/Months';
 
 const Calendar: FC<ICalendar> = props => {
   const {
@@ -55,11 +60,14 @@ const Calendar: FC<ICalendar> = props => {
   );
 
   const [markedDates, setMarkedDates] = useState<IMarkedDates>();
-  const [isShowDays, setIsShowDays] = useState(true);
+  const [selectionState, setSelectionState] = useState('days');
   const [currentMonthIndex, setCurrentMonthIndex] = useState<number>(
     today.getMonth(),
   );
+  const currentYear = today.getFullYear();
 
+  const {yearRange} = calculateYearRange(currentYear);
+  console.log('calendar', yearRange);
   const todayTimeMidnight = new Date(
     today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)),
   ); // сбрасываем timestamp этого дня до 00:00:00
@@ -125,13 +133,21 @@ const Calendar: FC<ICalendar> = props => {
   }, [isClear]);
 
   const onPressCurrMonth = useCallback(
-    () => setIsShowDays(!isShowDays),
-    [isShowDays],
+    () => setSelectionState('months'),
+    [selectionState],
   );
 
   return (
     <>
-      {isShowDays ? (
+      <CustomHeaderTitle
+        currentMonth={
+          localeConfig.monthNames[currentMonthIndex] +
+          ', ' +
+          today.getFullYear()
+        }
+        onPress={onPressCurrMonth}
+      />
+      {selectionState === 'days' && (
         <DefaultCalendar
           firstDay={1}
           style={styles.calendar}
@@ -144,23 +160,31 @@ const Calendar: FC<ICalendar> = props => {
           onMonthChange={month => {
             setCurrentMonthIndex(month.month - 1);
           }}
-          customHeaderTitle={
-            <CustomHeaderTitle
-              currentMonth={
-                localeConfig.monthNames[currentMonthIndex] +
-                ', ' +
-                today.getFullYear()
-              }
-              onPress={onPressCurrMonth}
-            />
-          }
+          customHeaderTitle={<></>}
+          hideArrows={true}
           {...rest}
         />
-      ) : (
-        <Months
-          onCloseMonths={onPressCurrMonth}
-          onPressMonth={monthIndex => setCurrentMonthIndex(monthIndex)}
-          monthNamesShort={localeConfig.monthNamesShort}
+      )}
+      {selectionState === 'months' && (
+        <>
+          <Months
+            onCloseMonths={() => setSelectionState('years')}
+            onPressMonth={monthIndex => {
+              setCurrentMonthIndex(monthIndex);
+              setSelectionState('years');
+            }}
+            monthNamesShort={localeConfig.monthNamesShort}
+          />
+        </>
+      )}
+      {selectionState === 'years' && (
+        <Years
+          onCloseYears={() => setSelectionState('months')}
+          onPressYear={monthIndex => {
+            setCurrentMonthIndex(monthIndex);
+            setSelectionState('months');
+          }}
+          yearRange={yearRange}
         />
       )}
 
