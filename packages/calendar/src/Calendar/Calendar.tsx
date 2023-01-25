@@ -30,7 +30,7 @@ const Calendar: FC<ICalendar> = props => {
     isClear,
     isShowToday = true,
     localeConfig = localeConfigRu,
-    periodOff = false,
+    isPeriod = false,
     ...rest
   } = props;
   LocaleConfig.locales[defaultLocale] = localeConfig;
@@ -86,7 +86,7 @@ const Calendar: FC<ICalendar> = props => {
   );
 
   const onDayPress = (day: DateData) => {
-    const {fromDate, toDate} = calculateBoundaries(day, markedDates, periodOff);
+    const {fromDate, toDate} = calculateBoundaries(day, markedDates, isPeriod);
 
     setMarkedDates(
       getAllDatesBetween(new Date(fromDate), new Date(toDate), colorsArg),

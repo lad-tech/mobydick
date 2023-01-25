@@ -38,7 +38,7 @@ export interface ICalendar extends CalendarProps {
   isClear?: boolean;
   isShowToday?: boolean;
   localeConfig?: ILocaleConfig | undefined;
-  periodOff?: boolean;
+  isPeriod?: boolean;
 }
 
 export interface ILocaleConfig {

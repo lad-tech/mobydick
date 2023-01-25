@@ -41,6 +41,7 @@ describe('Calendar', () => {
         onDateRangeChange={() => undefined}
         defaultLocale={'ru'}
         isClear={true}
+        isPeriod={true}
         bottomView={<Button />}
       />,
     );
@@ -54,7 +55,9 @@ describe('Calendar', () => {
   });
   it('on submit two', () => {
     const submit = jest.fn();
-    const {getByText} = render(<Calendar onDateRangeChange={submit} />);
+    const {getByText} = render(
+      <Calendar onDateRangeChange={submit} isPeriod={true} />,
+    );
     const dateStart = getByText('17');
     const dateEnd = getByText('25');
 
@@ -73,7 +76,9 @@ describe('Calendar', () => {
 
   it('on submit day > min ', () => {
     const submit = jest.fn();
-    const {getByText} = render(<Calendar onDateRangeChange={submit} />);
+    const {getByText} = render(
+      <Calendar onDateRangeChange={submit} isPeriod={true} />,
+    );
     const dateStart = getByText('17');
 
     fireEvent.press(dateStart);
@@ -91,7 +96,9 @@ describe('Calendar', () => {
   });
   it('on submit day < min ', () => {
     const submit = jest.fn();
-    const {getByText} = render(<Calendar onDateRangeChange={submit} />);
+    const {getByText} = render(
+      <Calendar onDateRangeChange={submit} isPeriod={true} />,
+    );
     const dateStart = getByText('11');
 
     fireEvent.press(dateStart);
@@ -111,7 +118,9 @@ describe('Calendar', () => {
   it('on submit day > max ', () => {
     jest.setSystemTime(new Date('2021-05-15'));
     const submit = jest.fn();
-    const {getByText} = render(<Calendar onDateRangeChange={submit} />);
+    const {getByText} = render(
+      <Calendar onDateRangeChange={submit} isPeriod={true} />,
+    );
     const dateStart = getByText('21');
 
     fireEvent.press(dateStart);
