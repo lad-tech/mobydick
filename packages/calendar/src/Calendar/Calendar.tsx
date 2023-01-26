@@ -20,7 +20,7 @@ import {calculateBoundaries, getAllDatesBetween} from './functions';
 import stylesCreate from './stylesCreate';
 import {ICalendar, IMarkedDates} from './types';
 import Months from './components/Months';
-import CustomHeaderTitle from './components/CustomHeaderTitle';
+import CalendarHeader from './components/CalendarHeader';
 
 const Calendar: FC<ICalendar> = props => {
   const {
@@ -59,6 +59,7 @@ const Calendar: FC<ICalendar> = props => {
   const [currentMonthIndex, setCurrentMonthIndex] = useState<number>(
     today.getMonth(),
   );
+  const [currentYear, setCurrentYear] = useState<number>(today.getFullYear());
 
   const todayTimeMidnight = new Date(
     today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)),
@@ -129,8 +130,32 @@ const Calendar: FC<ICalendar> = props => {
     [isShowDays],
   );
 
+  const onPressLeft = useCallback(() => {
+    if (currentMonthIndex) {
+      setCurrentMonthIndex(currentMonthIndex - 1);
+    } else {
+      setCurrentMonthIndex(11);
+      setCurrentYear(currentYear - 1);
+    }
+  }, [currentMonthIndex]);
+
+  const onPressRight = useCallback(() => {
+    if (currentMonthIndex + 1 < 12) {
+      setCurrentMonthIndex(currentMonthIndex + 1);
+    } else {
+      setCurrentMonthIndex(0);
+      setCurrentYear(currentYear + 1);
+    }
+  }, [currentMonthIndex]);
+
   return (
     <>
+      <CalendarHeader
+        title={localeConfig.monthNames[currentMonthIndex] + ', ' + currentYear}
+        onPressLeft={onPressLeft}
+        onPressRight={onPressRight}
+        onPress={onPressCurrMonth}
+      />
       {isShowDays ? (
         <DefaultCalendar
           firstDay={1}
@@ -140,20 +165,9 @@ const Calendar: FC<ICalendar> = props => {
           onDayPress={onDayPress}
           onDayLongPress={onDayPress}
           theme={themeStyles.theme}
-          initialDate={today.getFullYear() + '-' + (currentMonthIndex + 1)}
-          onMonthChange={month => {
-            setCurrentMonthIndex(month.month - 1);
-          }}
-          customHeaderTitle={
-            <CustomHeaderTitle
-              currentMonth={
-                localeConfig.monthNames[currentMonthIndex] +
-                ', ' +
-                today.getFullYear()
-              }
-              onPress={onPressCurrMonth}
-            />
-          }
+          initialDate={currentYear + '-' + (currentMonthIndex + 1)}
+          customHeaderTitle={<></>}
+          hideArrows={true}
           {...rest}
         />
       ) : (

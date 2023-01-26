@@ -91,6 +91,105 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
         
       </Text>
     </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "opacity": 1,
+            "width": 240,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Array [
+              Object {
+                "color": "#20242D",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 22.5,
+                "lineHeight": 28.5,
+              },
+              undefined,
+            ]
+          }
+        >
+          Июль, 2022
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View>
       <View
         style={
@@ -140,128 +239,15 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               ]
             }
           >
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.leftArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/previous.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            <View />
             <View
               style={
                 Object {
                   "flexDirection": "row",
                 }
               }
-            >
-              <View
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-              >
-                <Text
-                  allowFontScaling={true}
-                  style={
-                    Array [
-                      Object {
-                        "color": "#20242D",
-                        "fontFamily": "Inter-Regular",
-                        "fontSize": 22.5,
-                        "lineHeight": 28.5,
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  Декабрь, 2022
-                </Text>
-              </View>
-            </View>
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.rightArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/next.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            />
+            <View />
           </View>
           <View
             style={
@@ -450,7 +436,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 28 Ноябрь 2022 "
+                accessibilityLabel=" Понедельник 30 Май 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -467,195 +453,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-11-28"
-              >
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "alignSelf": "stretch",
-                    }
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "alignItems": "center",
-                          "height": 34,
-                          "justifyContent": "center",
-                          "width": 38,
-                        },
-                      ]
-                    }
-                  >
-                    <Text
-                      allowFontScaling={false}
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "rgba(255, 255, 255, 0)",
-                            "color": "#20242D",
-                            "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
-                            "fontWeight": "300",
-                          },
-                          Object {
-                            "color": "#9BA1B0",
-                          },
-                        ]
-                      }
-                    >
-                      28
-                    </Text>
-                    <View
-                      style={
-                        Object {
-                          "bottom": 3,
-                          "position": "absolute",
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "borderRadius": 2,
-                              "height": 4,
-                              "marginHorizontal": 1,
-                              "marginTop": 1,
-                              "opacity": 0,
-                              "width": 4,
-                            },
-                          ]
-                        }
-                      />
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessibilityLabel=" Вторник 29 Ноябрь 2022 "
-                accessibilityRole="button"
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-                testID="undefined.day_2022-11-29"
-              >
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "alignSelf": "stretch",
-                    }
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "alignItems": "center",
-                          "height": 34,
-                          "justifyContent": "center",
-                          "width": 38,
-                        },
-                      ]
-                    }
-                  >
-                    <Text
-                      allowFontScaling={false}
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "rgba(255, 255, 255, 0)",
-                            "color": "#20242D",
-                            "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
-                            "fontWeight": "300",
-                          },
-                          Object {
-                            "color": "#9BA1B0",
-                          },
-                        ]
-                      }
-                    >
-                      29
-                    </Text>
-                    <View
-                      style={
-                        Object {
-                          "bottom": 3,
-                          "position": "absolute",
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "borderRadius": 2,
-                              "height": 4,
-                              "marginHorizontal": 1,
-                              "marginTop": 1,
-                              "opacity": 0,
-                              "width": 4,
-                            },
-                          ]
-                        }
-                      />
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessibilityLabel=" Среда 30 Ноябрь 2022 "
-                accessibilityRole="button"
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-                testID="undefined.day_2022-11-30"
+                testID="undefined.day_2022-05-30"
               >
                 <View
                   style={
@@ -732,7 +530,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 1 Декабрь 2022 "
+                accessibilityLabel=" Вторник 31 Май 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -749,7 +547,101 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-01"
+                testID="undefined.day_2022-05-31"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 34,
+                          "justifyContent": "center",
+                          "width": 38,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(255, 255, 255, 0)",
+                            "color": "#20242D",
+                            "fontFamily": "Inter-Regular",
+                            "fontSize": 21,
+                            "fontWeight": "300",
+                          },
+                          Object {
+                            "color": "#9BA1B0",
+                          },
+                        ]
+                      }
+                    >
+                      31
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "bottom": 3,
+                          "position": "absolute",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 2,
+                              "height": 4,
+                              "marginHorizontal": 1,
+                              "marginTop": 1,
+                              "opacity": 0,
+                              "width": 4,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel=" Среда 1 Июнь 2022 "
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="undefined.day_2022-06-01"
               >
                 <View
                   style={
@@ -823,7 +715,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 2 Декабрь 2022 "
+                accessibilityLabel=" Четверг 2 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -840,7 +732,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-02"
+                testID="undefined.day_2022-06-02"
               >
                 <View
                   style={
@@ -914,7 +806,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 3 Декабрь 2022 "
+                accessibilityLabel=" Пятница 3 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -931,7 +823,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-03"
+                testID="undefined.day_2022-06-03"
               >
                 <View
                   style={
@@ -1005,7 +897,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 4 Декабрь 2022 "
+                accessibilityLabel=" Суббота 4 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1022,7 +914,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-04"
+                testID="undefined.day_2022-06-04"
               >
                 <View
                   style={
@@ -1087,16 +979,6 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -1106,7 +988,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 5 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 5 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1123,7 +1005,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-05"
+                testID="undefined.day_2022-06-05"
               >
                 <View
                   style={
@@ -1188,6 +1070,16 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -1197,7 +1089,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 6 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 6 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1214,7 +1106,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-06"
+                testID="undefined.day_2022-06-06"
               >
                 <View
                   style={
@@ -1288,7 +1180,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 7 Декабрь 2022 "
+                accessibilityLabel=" Вторник 7 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1305,7 +1197,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-07"
+                testID="undefined.day_2022-06-07"
               >
                 <View
                   style={
@@ -1379,7 +1271,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 8 Декабрь 2022 "
+                accessibilityLabel=" Среда 8 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1396,7 +1288,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-08"
+                testID="undefined.day_2022-06-08"
               >
                 <View
                   style={
@@ -1470,7 +1362,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 9 Декабрь 2022 "
+                accessibilityLabel=" Четверг 9 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1487,7 +1379,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-09"
+                testID="undefined.day_2022-06-09"
               >
                 <View
                   style={
@@ -1561,7 +1453,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 10 Декабрь 2022 "
+                accessibilityLabel=" Пятница 10 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1578,7 +1470,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-10"
+                testID="undefined.day_2022-06-10"
               >
                 <View
                   style={
@@ -1652,7 +1544,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 11 Декабрь 2022 "
+                accessibilityLabel=" Суббота 11 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1669,7 +1561,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-11"
+                testID="undefined.day_2022-06-11"
               >
                 <View
                   style={
@@ -1734,16 +1626,6 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -1753,7 +1635,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 12 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 12 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1770,7 +1652,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-12"
+                testID="undefined.day_2022-06-12"
               >
                 <View
                   style={
@@ -1835,6 +1717,16 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -1844,7 +1736,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 13 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 13 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1861,7 +1753,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-13"
+                testID="undefined.day_2022-06-13"
               >
                 <View
                   style={
@@ -1935,7 +1827,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 14 Декабрь 2022 "
+                accessibilityLabel=" Вторник 14 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -1952,7 +1844,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-14"
+                testID="undefined.day_2022-06-14"
               >
                 <View
                   style={
@@ -2026,7 +1918,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 15 Декабрь 2022 "
+                accessibilityLabel=" Среда 15 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2043,7 +1935,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-15"
+                testID="undefined.day_2022-06-15"
               >
                 <View
                   style={
@@ -2117,7 +2009,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 16 Декабрь 2022 "
+                accessibilityLabel=" Четверг 16 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2134,7 +2026,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-16"
+                testID="undefined.day_2022-06-16"
               >
                 <View
                   style={
@@ -2208,7 +2100,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 17 Декабрь 2022 "
+                accessibilityLabel=" Пятница 17 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2225,7 +2117,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-17"
+                testID="undefined.day_2022-06-17"
               >
                 <View
                   style={
@@ -2299,7 +2191,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 18 Декабрь 2022 "
+                accessibilityLabel=" Суббота 18 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2316,7 +2208,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-18"
+                testID="undefined.day_2022-06-18"
               >
                 <View
                   style={
@@ -2381,16 +2273,6 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -2400,7 +2282,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 19 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 19 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2417,7 +2299,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-19"
+                testID="undefined.day_2022-06-19"
               >
                 <View
                   style={
@@ -2482,6 +2364,16 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -2491,7 +2383,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 20 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 20 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2508,7 +2400,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-20"
+                testID="undefined.day_2022-06-20"
               >
                 <View
                   style={
@@ -2582,7 +2474,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 21 Декабрь 2022 "
+                accessibilityLabel=" Вторник 21 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2599,7 +2491,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-21"
+                testID="undefined.day_2022-06-21"
               >
                 <View
                   style={
@@ -2673,7 +2565,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 22 Декабрь 2022 "
+                accessibilityLabel=" Среда 22 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2690,7 +2582,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-22"
+                testID="undefined.day_2022-06-22"
               >
                 <View
                   style={
@@ -2764,7 +2656,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 23 Декабрь 2022 "
+                accessibilityLabel=" Четверг 23 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2781,7 +2673,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-23"
+                testID="undefined.day_2022-06-23"
               >
                 <View
                   style={
@@ -2855,7 +2747,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 24 Декабрь 2022 "
+                accessibilityLabel=" Пятница 24 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2872,7 +2764,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-24"
+                testID="undefined.day_2022-06-24"
               >
                 <View
                   style={
@@ -2946,7 +2838,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 25 Декабрь 2022 "
+                accessibilityLabel=" Суббота 25 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -2963,7 +2855,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-25"
+                testID="undefined.day_2022-06-25"
               >
                 <View
                   style={
@@ -3028,16 +2920,6 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -3047,7 +2929,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 26 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 26 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3064,7 +2946,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-26"
+                testID="undefined.day_2022-06-26"
               >
                 <View
                   style={
@@ -3129,6 +3011,16 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -3138,7 +3030,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 27 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 27 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3155,7 +3047,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-27"
+                testID="undefined.day_2022-06-27"
               >
                 <View
                   style={
@@ -3229,7 +3121,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 28 Декабрь 2022 "
+                accessibilityLabel=" Вторник 28 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3246,7 +3138,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-28"
+                testID="undefined.day_2022-06-28"
               >
                 <View
                   style={
@@ -3320,7 +3212,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 29 Декабрь 2022 "
+                accessibilityLabel=" Среда 29 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3337,7 +3229,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-29"
+                testID="undefined.day_2022-06-29"
               >
                 <View
                   style={
@@ -3411,7 +3303,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 30 Декабрь 2022 "
+                accessibilityLabel=" Четверг 30 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3428,7 +3320,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-30"
+                testID="undefined.day_2022-06-30"
               >
                 <View
                   style={
@@ -3502,7 +3394,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 31 Декабрь 2022 "
+                accessibilityLabel=" Пятница 1 Июль 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -3519,98 +3411,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-31"
-              >
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "alignSelf": "stretch",
-                    }
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "alignItems": "center",
-                          "height": 34,
-                          "justifyContent": "center",
-                          "width": 38,
-                        },
-                      ]
-                    }
-                  >
-                    <Text
-                      allowFontScaling={false}
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "rgba(255, 255, 255, 0)",
-                            "color": "#20242D",
-                            "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
-                            "fontWeight": "300",
-                          },
-                        ]
-                      }
-                    >
-                      31
-                    </Text>
-                    <View
-                      style={
-                        Object {
-                          "bottom": 3,
-                          "position": "absolute",
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "borderRadius": 2,
-                              "height": 4,
-                              "marginHorizontal": 1,
-                              "marginTop": 1,
-                              "opacity": 0,
-                              "width": 4,
-                            },
-                          ]
-                        }
-                      />
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessibilityLabel=" Воскресенье 1 Январь 2023 "
-                accessibilityRole="button"
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-                testID="undefined.day_2023-01-01"
+                testID="undefined.day_2022-07-01"
               >
                 <View
                   style={
@@ -3650,6 +3451,194 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                       }
                     >
                       1
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "bottom": 3,
+                          "position": "absolute",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 2,
+                              "height": 4,
+                              "marginHorizontal": 1,
+                              "marginTop": 1,
+                              "opacity": 0,
+                              "width": 4,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel=" Суббота 2 Июль 2022 "
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="undefined.day_2022-07-02"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 34,
+                          "justifyContent": "center",
+                          "width": 38,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(255, 255, 255, 0)",
+                            "color": "#20242D",
+                            "fontFamily": "Inter-Regular",
+                            "fontSize": 21,
+                            "fontWeight": "300",
+                          },
+                          Object {
+                            "color": "#9BA1B0",
+                          },
+                        ]
+                      }
+                    >
+                      2
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "bottom": 3,
+                          "position": "absolute",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 2,
+                              "height": 4,
+                              "marginHorizontal": 1,
+                              "marginTop": 1,
+                              "opacity": 0,
+                              "width": 4,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel=" Воскресенье 3 Июль 2022 "
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="undefined.day_2022-07-03"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 34,
+                          "justifyContent": "center",
+                          "width": 38,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(255, 255, 255, 0)",
+                            "color": "#20242D",
+                            "fontFamily": "Inter-Regular",
+                            "fontSize": 21,
+                            "fontWeight": "300",
+                          },
+                          Object {
+                            "color": "#9BA1B0",
+                          },
+                        ]
+                      }
+                    >
+                      3
                     </Text>
                     <View
                       style={
@@ -3925,6 +3914,105 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
         
       </Text>
     </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "opacity": 1,
+            "width": 240,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Array [
+              Object {
+                "color": "#20242D",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 22.5,
+                "lineHeight": 28.5,
+              },
+              undefined,
+            ]
+          }
+        >
+          Июль, 2022
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View>
       <View
         style={
@@ -3974,128 +4062,15 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               ]
             }
           >
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.leftArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/previous.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            <View />
             <View
               style={
                 Object {
                   "flexDirection": "row",
                 }
               }
-            >
-              <View
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-              >
-                <Text
-                  allowFontScaling={true}
-                  style={
-                    Array [
-                      Object {
-                        "color": "#20242D",
-                        "fontFamily": "Inter-Regular",
-                        "fontSize": 22.5,
-                        "lineHeight": 28.5,
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  Декабрь, 2022
-                </Text>
-              </View>
-            </View>
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.rightArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/next.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            />
+            <View />
           </View>
           <View
             style={
@@ -4284,7 +4259,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 28 Ноябрь 2022 "
+                accessibilityLabel=" Понедельник 30 Май 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4301,195 +4276,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-11-28"
-              >
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "alignSelf": "stretch",
-                    }
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "alignItems": "center",
-                          "height": 34,
-                          "justifyContent": "center",
-                          "width": 38,
-                        },
-                      ]
-                    }
-                  >
-                    <Text
-                      allowFontScaling={false}
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "rgba(255, 255, 255, 0)",
-                            "color": "#20242D",
-                            "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
-                            "fontWeight": "300",
-                          },
-                          Object {
-                            "color": "#9BA1B0",
-                          },
-                        ]
-                      }
-                    >
-                      28
-                    </Text>
-                    <View
-                      style={
-                        Object {
-                          "bottom": 3,
-                          "position": "absolute",
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "borderRadius": 2,
-                              "height": 4,
-                              "marginHorizontal": 1,
-                              "marginTop": 1,
-                              "opacity": 0,
-                              "width": 4,
-                            },
-                          ]
-                        }
-                      />
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessibilityLabel=" Вторник 29 Ноябрь 2022 "
-                accessibilityRole="button"
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-                testID="undefined.day_2022-11-29"
-              >
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "alignSelf": "stretch",
-                    }
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "alignItems": "center",
-                          "height": 34,
-                          "justifyContent": "center",
-                          "width": 38,
-                        },
-                      ]
-                    }
-                  >
-                    <Text
-                      allowFontScaling={false}
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "rgba(255, 255, 255, 0)",
-                            "color": "#20242D",
-                            "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
-                            "fontWeight": "300",
-                          },
-                          Object {
-                            "color": "#9BA1B0",
-                          },
-                        ]
-                      }
-                    >
-                      29
-                    </Text>
-                    <View
-                      style={
-                        Object {
-                          "bottom": 3,
-                          "position": "absolute",
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "borderRadius": 2,
-                              "height": 4,
-                              "marginHorizontal": 1,
-                              "marginTop": 1,
-                              "opacity": 0,
-                              "width": 4,
-                            },
-                          ]
-                        }
-                      />
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessibilityLabel=" Среда 30 Ноябрь 2022 "
-                accessibilityRole="button"
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-                testID="undefined.day_2022-11-30"
+                testID="undefined.day_2022-05-30"
               >
                 <View
                   style={
@@ -4566,7 +4353,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 1 Декабрь 2022 "
+                accessibilityLabel=" Вторник 31 Май 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4583,7 +4370,101 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-01"
+                testID="undefined.day_2022-05-31"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 34,
+                          "justifyContent": "center",
+                          "width": 38,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(255, 255, 255, 0)",
+                            "color": "#20242D",
+                            "fontFamily": "Inter-Regular",
+                            "fontSize": 21,
+                            "fontWeight": "300",
+                          },
+                          Object {
+                            "color": "#9BA1B0",
+                          },
+                        ]
+                      }
+                    >
+                      31
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "bottom": 3,
+                          "position": "absolute",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 2,
+                              "height": 4,
+                              "marginHorizontal": 1,
+                              "marginTop": 1,
+                              "opacity": 0,
+                              "width": 4,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel=" Среда 1 Июнь 2022 "
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="undefined.day_2022-06-01"
               >
                 <View
                   style={
@@ -4657,7 +4538,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 2 Декабрь 2022 "
+                accessibilityLabel=" Четверг 2 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4674,7 +4555,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-02"
+                testID="undefined.day_2022-06-02"
               >
                 <View
                   style={
@@ -4748,7 +4629,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 3 Декабрь 2022 "
+                accessibilityLabel=" Пятница 3 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4765,7 +4646,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-03"
+                testID="undefined.day_2022-06-03"
               >
                 <View
                   style={
@@ -4839,7 +4720,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 4 Декабрь 2022 "
+                accessibilityLabel=" Суббота 4 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4856,7 +4737,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-04"
+                testID="undefined.day_2022-06-04"
               >
                 <View
                   style={
@@ -4921,16 +4802,6 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -4940,7 +4811,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 5 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 5 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -4957,7 +4828,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-05"
+                testID="undefined.day_2022-06-05"
               >
                 <View
                   style={
@@ -5022,6 +4893,16 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -5031,7 +4912,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 6 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 6 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5048,7 +4929,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-06"
+                testID="undefined.day_2022-06-06"
               >
                 <View
                   style={
@@ -5122,7 +5003,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 7 Декабрь 2022 "
+                accessibilityLabel=" Вторник 7 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5139,7 +5020,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-07"
+                testID="undefined.day_2022-06-07"
               >
                 <View
                   style={
@@ -5213,7 +5094,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 8 Декабрь 2022 "
+                accessibilityLabel=" Среда 8 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5230,7 +5111,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-08"
+                testID="undefined.day_2022-06-08"
               >
                 <View
                   style={
@@ -5304,7 +5185,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 9 Декабрь 2022 "
+                accessibilityLabel=" Четверг 9 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5321,7 +5202,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-09"
+                testID="undefined.day_2022-06-09"
               >
                 <View
                   style={
@@ -5395,7 +5276,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 10 Декабрь 2022 "
+                accessibilityLabel=" Пятница 10 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5412,7 +5293,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-10"
+                testID="undefined.day_2022-06-10"
               >
                 <View
                   style={
@@ -5486,7 +5367,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 11 Декабрь 2022 "
+                accessibilityLabel=" Суббота 11 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5503,7 +5384,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-11"
+                testID="undefined.day_2022-06-11"
               >
                 <View
                   style={
@@ -5568,16 +5449,6 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -5587,7 +5458,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 12 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 12 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5604,7 +5475,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-12"
+                testID="undefined.day_2022-06-12"
               >
                 <View
                   style={
@@ -5669,6 +5540,16 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -5678,7 +5559,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 13 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 13 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5695,7 +5576,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-13"
+                testID="undefined.day_2022-06-13"
               >
                 <View
                   style={
@@ -5769,7 +5650,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 14 Декабрь 2022 "
+                accessibilityLabel=" Вторник 14 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5786,7 +5667,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-14"
+                testID="undefined.day_2022-06-14"
               >
                 <View
                   style={
@@ -5860,7 +5741,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 15 Декабрь 2022 "
+                accessibilityLabel=" Среда 15 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5877,7 +5758,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-15"
+                testID="undefined.day_2022-06-15"
               >
                 <View
                   style={
@@ -5951,7 +5832,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 16 Декабрь 2022 "
+                accessibilityLabel=" Четверг 16 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -5968,7 +5849,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-16"
+                testID="undefined.day_2022-06-16"
               >
                 <View
                   style={
@@ -6042,7 +5923,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 17 Декабрь 2022 "
+                accessibilityLabel=" Пятница 17 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6059,7 +5940,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-17"
+                testID="undefined.day_2022-06-17"
               >
                 <View
                   style={
@@ -6133,7 +6014,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 18 Декабрь 2022 "
+                accessibilityLabel=" Суббота 18 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6150,7 +6031,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-18"
+                testID="undefined.day_2022-06-18"
               >
                 <View
                   style={
@@ -6215,16 +6096,6 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -6234,7 +6105,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 19 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 19 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6251,7 +6122,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-19"
+                testID="undefined.day_2022-06-19"
               >
                 <View
                   style={
@@ -6316,6 +6187,16 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -6325,7 +6206,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 20 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 20 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6342,7 +6223,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-20"
+                testID="undefined.day_2022-06-20"
               >
                 <View
                   style={
@@ -6416,7 +6297,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 21 Декабрь 2022 "
+                accessibilityLabel=" Вторник 21 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6433,7 +6314,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-21"
+                testID="undefined.day_2022-06-21"
               >
                 <View
                   style={
@@ -6507,7 +6388,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 22 Декабрь 2022 "
+                accessibilityLabel=" Среда 22 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6524,7 +6405,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-22"
+                testID="undefined.day_2022-06-22"
               >
                 <View
                   style={
@@ -6598,7 +6479,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 23 Декабрь 2022 "
+                accessibilityLabel=" Четверг 23 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6615,7 +6496,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-23"
+                testID="undefined.day_2022-06-23"
               >
                 <View
                   style={
@@ -6689,7 +6570,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 24 Декабрь 2022 "
+                accessibilityLabel=" Пятница 24 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6706,7 +6587,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-24"
+                testID="undefined.day_2022-06-24"
               >
                 <View
                   style={
@@ -6780,7 +6661,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 25 Декабрь 2022 "
+                accessibilityLabel=" Суббота 25 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6797,7 +6678,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-25"
+                testID="undefined.day_2022-06-25"
               >
                 <View
                   style={
@@ -6862,16 +6743,6 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -6881,7 +6752,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 26 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 26 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6898,7 +6769,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-26"
+                testID="undefined.day_2022-06-26"
               >
                 <View
                   style={
@@ -6963,6 +6834,16 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -6972,7 +6853,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 27 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 27 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -6989,7 +6870,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-27"
+                testID="undefined.day_2022-06-27"
               >
                 <View
                   style={
@@ -7063,7 +6944,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 28 Декабрь 2022 "
+                accessibilityLabel=" Вторник 28 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -7080,7 +6961,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-28"
+                testID="undefined.day_2022-06-28"
               >
                 <View
                   style={
@@ -7154,7 +7035,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 29 Декабрь 2022 "
+                accessibilityLabel=" Среда 29 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -7171,7 +7052,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-29"
+                testID="undefined.day_2022-06-29"
               >
                 <View
                   style={
@@ -7245,7 +7126,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 30 Декабрь 2022 "
+                accessibilityLabel=" Четверг 30 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -7262,7 +7143,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-30"
+                testID="undefined.day_2022-06-30"
               >
                 <View
                   style={
@@ -7336,7 +7217,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 31 Декабрь 2022 "
+                accessibilityLabel=" Пятница 1 Июль 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -7353,98 +7234,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-31"
-              >
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "alignSelf": "stretch",
-                    }
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "alignItems": "center",
-                          "height": 34,
-                          "justifyContent": "center",
-                          "width": 38,
-                        },
-                      ]
-                    }
-                  >
-                    <Text
-                      allowFontScaling={false}
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "rgba(255, 255, 255, 0)",
-                            "color": "#20242D",
-                            "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
-                            "fontWeight": "300",
-                          },
-                        ]
-                      }
-                    >
-                      31
-                    </Text>
-                    <View
-                      style={
-                        Object {
-                          "bottom": 3,
-                          "position": "absolute",
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "borderRadius": 2,
-                              "height": 4,
-                              "marginHorizontal": 1,
-                              "marginTop": 1,
-                              "opacity": 0,
-                              "width": 4,
-                            },
-                          ]
-                        }
-                      />
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessibilityLabel=" Воскресенье 1 Январь 2023 "
-                accessibilityRole="button"
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-                testID="undefined.day_2023-01-01"
+                testID="undefined.day_2022-07-01"
               >
                 <View
                   style={
@@ -7484,6 +7274,194 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                       }
                     >
                       1
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "bottom": 3,
+                          "position": "absolute",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 2,
+                              "height": 4,
+                              "marginHorizontal": 1,
+                              "marginTop": 1,
+                              "opacity": 0,
+                              "width": 4,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel=" Суббота 2 Июль 2022 "
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="undefined.day_2022-07-02"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 34,
+                          "justifyContent": "center",
+                          "width": 38,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(255, 255, 255, 0)",
+                            "color": "#20242D",
+                            "fontFamily": "Inter-Regular",
+                            "fontSize": 21,
+                            "fontWeight": "300",
+                          },
+                          Object {
+                            "color": "#9BA1B0",
+                          },
+                        ]
+                      }
+                    >
+                      2
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "bottom": 3,
+                          "position": "absolute",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 2,
+                              "height": 4,
+                              "marginHorizontal": 1,
+                              "marginTop": 1,
+                              "opacity": 0,
+                              "width": 4,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel=" Воскресенье 3 Июль 2022 "
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="undefined.day_2022-07-03"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 34,
+                          "justifyContent": "center",
+                          "width": 38,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(255, 255, 255, 0)",
+                            "color": "#20242D",
+                            "fontFamily": "Inter-Regular",
+                            "fontSize": 21,
+                            "fontWeight": "300",
+                          },
+                          Object {
+                            "color": "#9BA1B0",
+                          },
+                        ]
+                      }
+                    >
+                      3
                     </Text>
                     <View
                       style={
@@ -7705,6 +7683,105 @@ exports[`ModalCalendar renders correctly 1`] = `
         
       </Text>
     </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "opacity": 1,
+            "width": 240,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Array [
+              Object {
+                "color": "#20242D",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 22.5,
+                "lineHeight": 28.5,
+              },
+              undefined,
+            ]
+          }
+        >
+          Июль, 2022
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            Object {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View>
       <View
         style={
@@ -7754,128 +7831,15 @@ exports[`ModalCalendar renders correctly 1`] = `
               ]
             }
           >
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.leftArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/previous.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            <View />
             <View
               style={
                 Object {
                   "flexDirection": "row",
                 }
               }
-            >
-              <View
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-              >
-                <Text
-                  allowFontScaling={true}
-                  style={
-                    Array [
-                      Object {
-                        "color": "#20242D",
-                        "fontFamily": "Inter-Regular",
-                        "fontSize": 22.5,
-                        "lineHeight": 28.5,
-                      },
-                      undefined,
-                    ]
-                  }
-                >
-                  Декабрь, 2022
-                </Text>
-              </View>
-            </View>
-            <View
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              hitSlop={
-                Object {
-                  "bottom": 20,
-                  "left": 20,
-                  "right": 20,
-                  "top": 20,
-                }
-              }
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                  "padding": 10,
-                }
-              }
-              testID="undefined.header.rightArrow"
-            >
-              <Image
-                source={
-                  Object {
-                    "testUri": "../../react-native-calendars/src/calendar/img/next.png",
-                  }
-                }
-                style={
-                  Object {
-                    "tintColor": "#5E6678",
-                  }
-                }
-              />
-            </View>
+            />
+            <View />
           </View>
           <View
             style={
@@ -8064,7 +8028,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 28 Ноябрь 2022 "
+                accessibilityLabel=" Понедельник 30 Май 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8081,195 +8045,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-11-28"
-              >
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "alignSelf": "stretch",
-                    }
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "alignItems": "center",
-                          "height": 34,
-                          "justifyContent": "center",
-                          "width": 38,
-                        },
-                      ]
-                    }
-                  >
-                    <Text
-                      allowFontScaling={false}
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "rgba(255, 255, 255, 0)",
-                            "color": "#20242D",
-                            "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
-                            "fontWeight": "300",
-                          },
-                          Object {
-                            "color": "#9BA1B0",
-                          },
-                        ]
-                      }
-                    >
-                      28
-                    </Text>
-                    <View
-                      style={
-                        Object {
-                          "bottom": 3,
-                          "position": "absolute",
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "borderRadius": 2,
-                              "height": 4,
-                              "marginHorizontal": 1,
-                              "marginTop": 1,
-                              "opacity": 0,
-                              "width": 4,
-                            },
-                          ]
-                        }
-                      />
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessibilityLabel=" Вторник 29 Ноябрь 2022 "
-                accessibilityRole="button"
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-                testID="undefined.day_2022-11-29"
-              >
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "alignSelf": "stretch",
-                    }
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "alignItems": "center",
-                          "height": 34,
-                          "justifyContent": "center",
-                          "width": 38,
-                        },
-                      ]
-                    }
-                  >
-                    <Text
-                      allowFontScaling={false}
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "rgba(255, 255, 255, 0)",
-                            "color": "#20242D",
-                            "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
-                            "fontWeight": "300",
-                          },
-                          Object {
-                            "color": "#9BA1B0",
-                          },
-                        ]
-                      }
-                    >
-                      29
-                    </Text>
-                    <View
-                      style={
-                        Object {
-                          "bottom": 3,
-                          "position": "absolute",
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "borderRadius": 2,
-                              "height": 4,
-                              "marginHorizontal": 1,
-                              "marginTop": 1,
-                              "opacity": 0,
-                              "width": 4,
-                            },
-                          ]
-                        }
-                      />
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessibilityLabel=" Среда 30 Ноябрь 2022 "
-                accessibilityRole="button"
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-                testID="undefined.day_2022-11-30"
+                testID="undefined.day_2022-05-30"
               >
                 <View
                   style={
@@ -8346,7 +8122,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 1 Декабрь 2022 "
+                accessibilityLabel=" Вторник 31 Май 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8363,7 +8139,101 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-01"
+                testID="undefined.day_2022-05-31"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 34,
+                          "justifyContent": "center",
+                          "width": 38,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(255, 255, 255, 0)",
+                            "color": "#20242D",
+                            "fontFamily": "Inter-Regular",
+                            "fontSize": 21,
+                            "fontWeight": "300",
+                          },
+                          Object {
+                            "color": "#9BA1B0",
+                          },
+                        ]
+                      }
+                    >
+                      31
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "bottom": 3,
+                          "position": "absolute",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 2,
+                              "height": 4,
+                              "marginHorizontal": 1,
+                              "marginTop": 1,
+                              "opacity": 0,
+                              "width": 4,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel=" Среда 1 Июнь 2022 "
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="undefined.day_2022-06-01"
               >
                 <View
                   style={
@@ -8437,7 +8307,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 2 Декабрь 2022 "
+                accessibilityLabel=" Четверг 2 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8454,7 +8324,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-02"
+                testID="undefined.day_2022-06-02"
               >
                 <View
                   style={
@@ -8528,7 +8398,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 3 Декабрь 2022 "
+                accessibilityLabel=" Пятница 3 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8545,7 +8415,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-03"
+                testID="undefined.day_2022-06-03"
               >
                 <View
                   style={
@@ -8619,7 +8489,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 4 Декабрь 2022 "
+                accessibilityLabel=" Суббота 4 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8636,7 +8506,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-04"
+                testID="undefined.day_2022-06-04"
               >
                 <View
                   style={
@@ -8701,16 +8571,6 @@ exports[`ModalCalendar renders correctly 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -8720,7 +8580,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 5 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 5 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8737,7 +8597,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-05"
+                testID="undefined.day_2022-06-05"
               >
                 <View
                   style={
@@ -8802,6 +8662,16 @@ exports[`ModalCalendar renders correctly 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -8811,7 +8681,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 6 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 6 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8828,7 +8698,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-06"
+                testID="undefined.day_2022-06-06"
               >
                 <View
                   style={
@@ -8902,7 +8772,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 7 Декабрь 2022 "
+                accessibilityLabel=" Вторник 7 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -8919,7 +8789,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-07"
+                testID="undefined.day_2022-06-07"
               >
                 <View
                   style={
@@ -8993,7 +8863,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 8 Декабрь 2022 "
+                accessibilityLabel=" Среда 8 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9010,7 +8880,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-08"
+                testID="undefined.day_2022-06-08"
               >
                 <View
                   style={
@@ -9084,7 +8954,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 9 Декабрь 2022 "
+                accessibilityLabel=" Четверг 9 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9101,7 +8971,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-09"
+                testID="undefined.day_2022-06-09"
               >
                 <View
                   style={
@@ -9175,7 +9045,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 10 Декабрь 2022 "
+                accessibilityLabel=" Пятница 10 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9192,7 +9062,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-10"
+                testID="undefined.day_2022-06-10"
               >
                 <View
                   style={
@@ -9266,7 +9136,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 11 Декабрь 2022 "
+                accessibilityLabel=" Суббота 11 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9283,7 +9153,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-11"
+                testID="undefined.day_2022-06-11"
               >
                 <View
                   style={
@@ -9348,16 +9218,6 @@ exports[`ModalCalendar renders correctly 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -9367,7 +9227,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 12 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 12 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9384,7 +9244,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-12"
+                testID="undefined.day_2022-06-12"
               >
                 <View
                   style={
@@ -9449,6 +9309,16 @@ exports[`ModalCalendar renders correctly 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -9458,7 +9328,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 13 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 13 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9475,7 +9345,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-13"
+                testID="undefined.day_2022-06-13"
               >
                 <View
                   style={
@@ -9549,7 +9419,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 14 Декабрь 2022 "
+                accessibilityLabel=" Вторник 14 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9566,7 +9436,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-14"
+                testID="undefined.day_2022-06-14"
               >
                 <View
                   style={
@@ -9640,7 +9510,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 15 Декабрь 2022 "
+                accessibilityLabel=" Среда 15 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9657,7 +9527,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-15"
+                testID="undefined.day_2022-06-15"
               >
                 <View
                   style={
@@ -9731,7 +9601,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 16 Декабрь 2022 "
+                accessibilityLabel=" Четверг 16 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9748,7 +9618,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-16"
+                testID="undefined.day_2022-06-16"
               >
                 <View
                   style={
@@ -9822,7 +9692,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 17 Декабрь 2022 "
+                accessibilityLabel=" Пятница 17 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9839,7 +9709,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-17"
+                testID="undefined.day_2022-06-17"
               >
                 <View
                   style={
@@ -9913,7 +9783,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 18 Декабрь 2022 "
+                accessibilityLabel=" Суббота 18 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -9930,7 +9800,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-18"
+                testID="undefined.day_2022-06-18"
               >
                 <View
                   style={
@@ -9995,16 +9865,6 @@ exports[`ModalCalendar renders correctly 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -10014,7 +9874,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 19 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 19 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10031,7 +9891,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-19"
+                testID="undefined.day_2022-06-19"
               >
                 <View
                   style={
@@ -10096,6 +9956,16 @@ exports[`ModalCalendar renders correctly 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -10105,7 +9975,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 20 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 20 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10122,7 +9992,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-20"
+                testID="undefined.day_2022-06-20"
               >
                 <View
                   style={
@@ -10196,7 +10066,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 21 Декабрь 2022 "
+                accessibilityLabel=" Вторник 21 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10213,7 +10083,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-21"
+                testID="undefined.day_2022-06-21"
               >
                 <View
                   style={
@@ -10287,7 +10157,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 22 Декабрь 2022 "
+                accessibilityLabel=" Среда 22 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10304,7 +10174,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-22"
+                testID="undefined.day_2022-06-22"
               >
                 <View
                   style={
@@ -10378,7 +10248,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 23 Декабрь 2022 "
+                accessibilityLabel=" Четверг 23 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10395,7 +10265,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-23"
+                testID="undefined.day_2022-06-23"
               >
                 <View
                   style={
@@ -10469,7 +10339,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 24 Декабрь 2022 "
+                accessibilityLabel=" Пятница 24 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10486,7 +10356,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-24"
+                testID="undefined.day_2022-06-24"
               >
                 <View
                   style={
@@ -10560,7 +10430,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Воскресенье 25 Декабрь 2022 "
+                accessibilityLabel=" Суббота 25 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10577,7 +10447,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-25"
+                testID="undefined.day_2022-06-25"
               >
                 <View
                   style={
@@ -10642,16 +10512,6 @@ exports[`ModalCalendar renders correctly 1`] = `
                 </View>
               </View>
             </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flexDirection": "row",
-                "justifyContent": "space-around",
-                "marginVertical": 0,
-              }
-            }
-          >
             <View
               style={
                 Object {
@@ -10661,7 +10521,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Понедельник 26 Декабрь 2022 "
+                accessibilityLabel=" Воскресенье 26 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10678,7 +10538,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-26"
+                testID="undefined.day_2022-06-26"
               >
                 <View
                   style={
@@ -10743,6 +10603,16 @@ exports[`ModalCalendar renders correctly 1`] = `
                 </View>
               </View>
             </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "justifyContent": "space-around",
+                "marginVertical": 0,
+              }
+            }
+          >
             <View
               style={
                 Object {
@@ -10752,7 +10622,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Вторник 27 Декабрь 2022 "
+                accessibilityLabel=" Понедельник 27 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10769,7 +10639,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-27"
+                testID="undefined.day_2022-06-27"
               >
                 <View
                   style={
@@ -10843,7 +10713,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Среда 28 Декабрь 2022 "
+                accessibilityLabel=" Вторник 28 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10860,7 +10730,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-28"
+                testID="undefined.day_2022-06-28"
               >
                 <View
                   style={
@@ -10934,7 +10804,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Четверг 29 Декабрь 2022 "
+                accessibilityLabel=" Среда 29 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -10951,7 +10821,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-29"
+                testID="undefined.day_2022-06-29"
               >
                 <View
                   style={
@@ -11025,7 +10895,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Пятница 30 Декабрь 2022 "
+                accessibilityLabel=" Четверг 30 Июнь 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -11042,7 +10912,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-30"
+                testID="undefined.day_2022-06-30"
               >
                 <View
                   style={
@@ -11116,7 +10986,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               }
             >
               <View
-                accessibilityLabel=" Суббота 31 Декабрь 2022 "
+                accessibilityLabel=" Пятница 1 Июль 2022 "
                 accessibilityRole="button"
                 accessible={true}
                 collapsable={false}
@@ -11133,98 +11003,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                     "opacity": 1,
                   }
                 }
-                testID="undefined.day_2022-12-31"
-              >
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "alignSelf": "stretch",
-                    }
-                  }
-                >
-                  <View
-                    style={
-                      Array [
-                        Object {
-                          "alignItems": "center",
-                          "height": 34,
-                          "justifyContent": "center",
-                          "width": 38,
-                        },
-                      ]
-                    }
-                  >
-                    <Text
-                      allowFontScaling={false}
-                      style={
-                        Array [
-                          Object {
-                            "backgroundColor": "rgba(255, 255, 255, 0)",
-                            "color": "#20242D",
-                            "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
-                            "fontWeight": "300",
-                          },
-                        ]
-                      }
-                    >
-                      31
-                    </Text>
-                    <View
-                      style={
-                        Object {
-                          "bottom": 3,
-                          "position": "absolute",
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Array [
-                            Object {
-                              "borderRadius": 2,
-                              "height": 4,
-                              "marginHorizontal": 1,
-                              "marginTop": 1,
-                              "opacity": 0,
-                              "width": 4,
-                            },
-                          ]
-                        }
-                      />
-                    </View>
-                  </View>
-                </View>
-              </View>
-            </View>
-            <View
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessibilityLabel=" Воскресенье 1 Январь 2023 "
-                accessibilityRole="button"
-                accessible={true}
-                collapsable={false}
-                focusable={true}
-                onClick={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Object {
-                    "opacity": 1,
-                  }
-                }
-                testID="undefined.day_2023-01-01"
+                testID="undefined.day_2022-07-01"
               >
                 <View
                   style={
@@ -11264,6 +11043,194 @@ exports[`ModalCalendar renders correctly 1`] = `
                       }
                     >
                       1
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "bottom": 3,
+                          "position": "absolute",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 2,
+                              "height": 4,
+                              "marginHorizontal": 1,
+                              "marginTop": 1,
+                              "opacity": 0,
+                              "width": 4,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel=" Суббота 2 Июль 2022 "
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="undefined.day_2022-07-02"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 34,
+                          "justifyContent": "center",
+                          "width": 38,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(255, 255, 255, 0)",
+                            "color": "#20242D",
+                            "fontFamily": "Inter-Regular",
+                            "fontSize": 21,
+                            "fontWeight": "300",
+                          },
+                          Object {
+                            "color": "#9BA1B0",
+                          },
+                        ]
+                      }
+                    >
+                      2
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "bottom": 3,
+                          "position": "absolute",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "borderRadius": 2,
+                              "height": 4,
+                              "marginHorizontal": 1,
+                              "marginTop": 1,
+                              "opacity": 0,
+                              "width": 4,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                accessibilityLabel=" Воскресенье 3 Июль 2022 "
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="undefined.day_2022-07-03"
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "stretch",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "height": 34,
+                          "justifyContent": "center",
+                          "width": 38,
+                        },
+                      ]
+                    }
+                  >
+                    <Text
+                      allowFontScaling={false}
+                      style={
+                        Array [
+                          Object {
+                            "backgroundColor": "rgba(255, 255, 255, 0)",
+                            "color": "#20242D",
+                            "fontFamily": "Inter-Regular",
+                            "fontSize": 21,
+                            "fontWeight": "300",
+                          },
+                          Object {
+                            "color": "#9BA1B0",
+                          },
+                        ]
+                      }
+                    >
+                      3
                     </Text>
                     <View
                       style={
