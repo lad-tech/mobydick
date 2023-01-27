@@ -134,4 +134,31 @@ describe('Calendar', () => {
       dateEnd: '2021-05-15T00:00:00.000Z',
     });
   });
+  it('press calendarLeftArrow', () => {
+    const {toJSON, getByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarLeftArrow = getByLabelText('calendarLeftArrow');
+
+    fireEvent.press(calendarLeftArrow);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('press calendarRightArrow', () => {
+    const {toJSON, getByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarRightArrow = getByLabelText('calendarRightArrow');
+
+    fireEvent.press(calendarRightArrow);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('press calendarPressTitle', () => {
+    const {toJSON, getByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarPressTitle = getByLabelText('calendarPressTitle');
+
+    fireEvent.press(calendarPressTitle);
+    expect(toJSON()).toMatchSnapshot();
+  });
 });

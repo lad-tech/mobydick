@@ -22,14 +22,19 @@ const CalendarHeader: FC<ICustomHeaderTitle> = props => {
   const [styles] = useStyles(stylesCreate);
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} accessibilityLabel={'calendarLeftArrow'}>
       <Pressable onPress={onPressLeft}>
         <SimpleIcon name={'icon-arrow-left'} />
       </Pressable>
-      <TouchableOpacity onPress={onPress} style={styles.title}>
+      <TouchableOpacity
+        onPress={onPress}
+        style={styles.title}
+        accessibilityLabel={'calendarPressTitle'}>
         <Typography>{title}</Typography>
       </TouchableOpacity>
-      <Pressable onPress={onPressRight}>
+      <Pressable
+        onPress={onPressRight}
+        accessibilityLabel={'calendarRightArrow'}>
         <SimpleIcon name={'icon-arrow-right'} />
       </Pressable>
     </View>
