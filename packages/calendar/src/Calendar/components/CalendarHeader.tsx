@@ -22,8 +22,8 @@ const CalendarHeader: FC<ICustomHeaderTitle> = props => {
   const [styles] = useStyles(stylesCreate);
 
   return (
-    <View style={styles.container} accessibilityLabel={'calendarLeftArrow'}>
-      <Pressable onPress={onPressLeft}>
+    <View style={styles.container}>
+      <Pressable onPress={onPressLeft} accessibilityLabel={'calendarLeftArrow'}>
         <SimpleIcon name={'icon-arrow-left'} />
       </Pressable>
       <TouchableOpacity

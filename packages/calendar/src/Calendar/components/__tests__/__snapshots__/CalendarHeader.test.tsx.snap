@@ -2,7 +2,6 @@
 
 exports[`CalendarHeader render 1`] = `
 <View
-  accessibilityLabel="calendarLeftArrow"
   style={
     Object {
       "alignItems": "center",
@@ -11,6 +10,7 @@ exports[`CalendarHeader render 1`] = `
   }
 >
   <View
+    accessibilityLabel="calendarLeftArrow"
     accessible={true}
     collapsable={false}
     focusable={true}

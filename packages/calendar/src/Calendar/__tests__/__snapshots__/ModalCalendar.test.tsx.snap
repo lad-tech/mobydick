@@ -92,7 +92,6 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
       </Text>
     </View>
     <View
-      accessibilityLabel="calendarLeftArrow"
       style={
         Object {
           "alignItems": "center",
@@ -101,6 +100,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
       }
     >
       <View
+        accessibilityLabel="calendarLeftArrow"
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3918,7 +3918,6 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
       </Text>
     </View>
     <View
-      accessibilityLabel="calendarLeftArrow"
       style={
         Object {
           "alignItems": "center",
@@ -3927,6 +3926,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
       }
     >
       <View
+        accessibilityLabel="calendarLeftArrow"
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7690,7 +7690,6 @@ exports[`ModalCalendar renders correctly 1`] = `
       </Text>
     </View>
     <View
-      accessibilityLabel="calendarLeftArrow"
       style={
         Object {
           "alignItems": "center",
@@ -7699,6 +7698,7 @@ exports[`ModalCalendar renders correctly 1`] = `
       }
     >
       <View
+        accessibilityLabel="calendarLeftArrow"
         accessible={true}
         collapsable={false}
         focusable={true}
