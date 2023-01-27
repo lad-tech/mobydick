@@ -4,9 +4,11 @@ import {
   SimpleIcon,
   TouchableOpacity,
   Typography,
+  useStyles,
   View,
 } from '@npm/mobydick-core';
 import React, {FC} from 'react';
+import {StyleSheet} from 'react-native';
 
 interface ICustomHeaderTitle {
   title: string;
@@ -17,15 +19,14 @@ interface ICustomHeaderTitle {
 
 const CalendarHeader: FC<ICustomHeaderTitle> = props => {
   const {title, onPress, onPressLeft, onPressRight} = props;
+  const [styles] = useStyles(stylesCreate);
 
   return (
-    <View style={{flexDirection: 'row', alignItems: 'center'}}>
+    <View style={styles.container}>
       <Pressable onPress={onPressLeft}>
         <SimpleIcon name={'icon-arrow-left'} />
       </Pressable>
-      <TouchableOpacity
-        onPress={onPress}
-        style={{width: rem(160), alignItems: 'center'}}>
+      <TouchableOpacity onPress={onPress} style={styles.title}>
         <Typography>{title}</Typography>
       </TouchableOpacity>
       <Pressable onPress={onPressRight}>
@@ -36,3 +37,15 @@ const CalendarHeader: FC<ICustomHeaderTitle> = props => {
 };
 
 export default CalendarHeader;
+
+const stylesCreate = () =>
+  StyleSheet.create({
+    container: {
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    title: {
+      width: rem(160),
+      alignItems: 'center',
+    },
+  });
