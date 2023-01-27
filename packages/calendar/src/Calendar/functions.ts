@@ -58,8 +58,7 @@ export const calculateBoundaries = (
 ) => {
   let toDate;
   let fromDate;
-  // console.log('day', day);
-  // console.log('markedDates', markedDates);
+
   if (!markedDates || !isPeriod) {
     fromDate = day.timestamp;
     toDate = day.timestamp;
@@ -83,7 +82,6 @@ export const calculateBoundaries = (
       toDate = day.timestamp;
     }
   }
-  // console.log('fromDate', fromDate);
-  // console.log('toDate', toDate);
+
   return {fromDate, toDate};
 };
