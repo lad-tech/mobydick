@@ -22,8 +22,8 @@ import {
   getAllDatesBetween,
 } from './functions';
 import stylesCreate from './stylesCreate';
-import {ICalendar, IMarkedDates} from './types';
-import CustomHeaderTitle from './components/CustomHeaderTitle';
+import {ICalendar, IMarkedDates, ISelectionState} from './types';
+import CalendarHeader from './components/CalendarHeader';
 import Years from './components/Years';
 import Months from './components/Months';
 
@@ -60,14 +60,16 @@ const Calendar: FC<ICalendar> = props => {
   );
 
   const [markedDates, setMarkedDates] = useState<IMarkedDates>();
-  const [selectionState, setSelectionState] = useState('days');
+  const [selectionState, setSelectionState] = useState<ISelectionState>(
+    ISelectionState.days,
+  );
   const [currentMonthIndex, setCurrentMonthIndex] = useState<number>(
     today.getMonth(),
   );
-  const currentYear = today.getFullYear();
+  const [currentYear, setCurrentYear] = useState<number>(today.getFullYear());
 
   const {yearRange} = calculateYearRange(currentYear);
-  console.log('calendar', yearRange);
+
   const todayTimeMidnight = new Date(
     today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)),
   ); // сбрасываем timestamp этого дня до 00:00:00
@@ -132,22 +134,56 @@ const Calendar: FC<ICalendar> = props => {
     }
   }, [isClear]);
 
-  const onPressCurrMonth = useCallback(
-    () => setSelectionState('months'),
-    [selectionState],
-  );
+  const onPressCurrMonth = useCallback(() => {
+    if (selectionState === ISelectionState.days) {
+      setSelectionState(ISelectionState.months);
+    } else if (selectionState === ISelectionState.months) {
+      setSelectionState(ISelectionState.years);
+    } else if (selectionState === ISelectionState.years) {
+      setSelectionState(ISelectionState.months);
+    }
+  }, [selectionState]);
+
+  const onPressLeft = useCallback(() => {
+    if (currentMonthIndex) {
+      setCurrentMonthIndex(currentMonthIndex - 1);
+    } else {
+      setCurrentMonthIndex(11);
+      setCurrentYear(currentYear - 1);
+    }
+  }, [currentMonthIndex]);
+
+  const onPressRight = useCallback(() => {
+    if (currentMonthIndex + 1 < 12) {
+      setCurrentMonthIndex(currentMonthIndex + 1);
+    } else {
+      setCurrentMonthIndex(0);
+      setCurrentYear(currentYear + 1);
+    }
+  }, [currentMonthIndex]);
+
+  const getCalenderTitle = () => {
+    if (selectionState === ISelectionState.months) {
+      return currentYear.toString();
+    } else if (selectionState === ISelectionState.years) {
+      return (
+        yearRange[0]?.toString() +
+        '-' +
+        yearRange[yearRange.length - 1]?.toString()
+      );
+    }
+    return localeConfig.monthNames[currentMonthIndex] + ', ' + currentYear;
+  };
 
   return (
     <>
-      <CustomHeaderTitle
-        currentMonth={
-          localeConfig.monthNames[currentMonthIndex] +
-          ', ' +
-          today.getFullYear()
-        }
+      <CalendarHeader
+        title={getCalenderTitle()}
+        onPressLeft={onPressLeft}
+        onPressRight={onPressRight}
         onPress={onPressCurrMonth}
       />
-      {selectionState === 'days' && (
+      {selectionState === ISelectionState.days && (
         <DefaultCalendar
           firstDay={1}
           style={styles.calendar}
@@ -156,33 +192,30 @@ const Calendar: FC<ICalendar> = props => {
           onDayPress={onDayPress}
           onDayLongPress={onDayPress}
           theme={themeStyles.theme}
-          initialDate={today.getFullYear() + '-' + (currentMonthIndex + 1)}
-          onMonthChange={month => {
-            setCurrentMonthIndex(month.month - 1);
-          }}
+          initialDate={currentYear + '-' + (currentMonthIndex + 1)}
           customHeaderTitle={<></>}
           hideArrows={true}
           {...rest}
         />
       )}
-      {selectionState === 'months' && (
+      {selectionState === ISelectionState.months && (
         <>
           <Months
-            onCloseMonths={() => setSelectionState('years')}
+            onCloseMonths={() => setSelectionState(ISelectionState.days)}
             onPressMonth={monthIndex => {
               setCurrentMonthIndex(monthIndex);
-              setSelectionState('years');
+              setSelectionState(ISelectionState.days);
             }}
             monthNamesShort={localeConfig.monthNamesShort}
           />
         </>
       )}
-      {selectionState === 'years' && (
+      {selectionState === ISelectionState.years && (
         <Years
-          onCloseYears={() => setSelectionState('months')}
+          onCloseYears={() => setSelectionState(ISelectionState.months)}
           onPressYear={monthIndex => {
             setCurrentMonthIndex(monthIndex);
-            setSelectionState('months');
+            setSelectionState(ISelectionState.months);
           }}
           yearRange={yearRange}
         />
