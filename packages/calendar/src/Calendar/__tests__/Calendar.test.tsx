@@ -28,10 +28,8 @@ describe('Calendar', () => {
       />,
     );
     const dateStart = getByText('17');
-    const dateEnd = getByText('25');
 
     fireEvent.press(dateStart);
-    fireEvent.press(dateEnd);
 
     expect(toJSON()).toMatchSnapshot();
   });
@@ -46,9 +44,9 @@ describe('Calendar', () => {
       />,
     );
     const dateStart = getByText('17');
-    const dateEnd = getByText('25');
 
     fireEvent.press(dateStart);
+    const dateEnd = getByText('25');
     fireEvent.press(dateEnd);
 
     expect(toJSON()).toMatchSnapshot();
@@ -59,18 +57,18 @@ describe('Calendar', () => {
       <Calendar onDateRangeChange={submit} isPeriod={true} />,
     );
     const dateStart = getByText('17');
-    const dateEnd = getByText('25');
 
     fireEvent.press(dateStart);
+    const dateEnd = getByText('11');
     fireEvent.press(dateEnd);
 
     expect(submit).toHaveBeenNthCalledWith(1, {
-      dateStart: '2022-07-15T00:00:00.000Z',
-      dateEnd: '2022-12-17T00:00:00.000Z',
+      dateStart: '2022-06-17T00:00:00.000Z',
+      dateEnd: '2022-07-15T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2022-07-15T00:00:00.000Z',
-      dateEnd: '2022-12-25T00:00:00.000Z',
+      dateStart: '2022-06-11T00:00:00.000Z',
+      dateEnd: '2022-07-15T00:00:00.000Z',
     });
   });
 
@@ -86,12 +84,12 @@ describe('Calendar', () => {
     fireEvent.press(dateEnd);
 
     expect(submit).toHaveBeenNthCalledWith(1, {
-      dateStart: '2022-07-15T00:00:00.000Z',
-      dateEnd: '2022-12-17T00:00:00.000Z',
+      dateStart: '2022-06-17T00:00:00.000Z',
+      dateEnd: '2022-07-15T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2022-07-15T00:00:00.000Z',
-      dateEnd: '2022-12-14T00:00:00.000Z',
+      dateStart: '2022-06-14T00:00:00.000Z',
+      dateEnd: '2022-07-15T00:00:00.000Z',
     });
   });
   it('on submit day < min ', () => {
@@ -106,12 +104,12 @@ describe('Calendar', () => {
     fireEvent.press(dateEnd);
 
     expect(submit).toHaveBeenNthCalledWith(1, {
-      dateStart: '2022-07-15T00:00:00.000Z',
-      dateEnd: '2022-12-11T00:00:00.000Z',
+      dateStart: '2022-06-11T00:00:00.000Z',
+      dateEnd: '2022-07-15T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2022-12-11T00:00:00.000Z',
-      dateEnd: '2022-12-11T00:00:00.000Z',
+      dateStart: '2022-06-11T00:00:00.000Z',
+      dateEnd: '2022-06-11T00:00:00.000Z',
     });
   });
 
@@ -128,12 +126,59 @@ describe('Calendar', () => {
     fireEvent.press(dateEnd);
 
     expect(submit).toHaveBeenNthCalledWith(1, {
-      dateStart: '2021-05-15T00:00:00.000Z',
-      dateEnd: '2021-12-21T00:00:00.000Z',
+      dateStart: '2021-04-21T00:00:00.000Z',
+      dateEnd: '2021-05-15T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2021-05-15T00:00:00.000Z',
-      dateEnd: '2021-12-17T00:00:00.000Z',
+      dateStart: '2021-04-17T00:00:00.000Z',
+      dateEnd: '2021-05-15T00:00:00.000Z',
     });
+  });
+  it('press calendarLeftArrow', () => {
+    const {toJSON, getByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarLeftArrow = getByLabelText('calendarLeftArrow');
+
+    fireEvent.press(calendarLeftArrow);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('press calendarLeftArrow 01 -> 12', () => {
+    jest.setSystemTime(new Date('2023-01-15'));
+    const {toJSON, getByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarLeftArrow = getByLabelText('calendarLeftArrow');
+
+    fireEvent.press(calendarLeftArrow);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('press calendarRightArrow', () => {
+    const {toJSON, getByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarRightArrow = getByLabelText('calendarRightArrow');
+
+    fireEvent.press(calendarRightArrow);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('press calendarRightArrow 12 -> 1 ', () => {
+    jest.setSystemTime(new Date('2022-12-15'));
+    const {toJSON, getByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarRightArrow = getByLabelText('calendarRightArrow');
+
+    fireEvent.press(calendarRightArrow);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('press calendarPressTitle', () => {
+    const {toJSON, getByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarPressTitle = getByLabelText('calendarPressTitle');
+
+    fireEvent.press(calendarPressTitle);
+    expect(toJSON()).toMatchSnapshot();
   });
 });

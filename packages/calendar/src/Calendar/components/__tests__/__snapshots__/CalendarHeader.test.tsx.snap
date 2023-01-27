@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarHeader render 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    accessibilityLabel="calendarLeftArrow"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 36,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="calendarPressTitle"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "opacity": 1,
+        "width": 240,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Array [
+          Object {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
+          },
+          undefined,
+        ]
+      }
+    >
+      CalendarHeader
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="calendarRightArrow"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        Object {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 36,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

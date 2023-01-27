@@ -82,5 +82,6 @@ export const calculateBoundaries = (
       toDate = day.timestamp;
     }
   }
+
   return {fromDate, toDate};
 };
