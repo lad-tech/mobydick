@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React, {FC, useCallback} from 'react';
 
 import Constants from '../PopupBase/constants';
 import useStyles from '../../../styles/theme/hooks/useStyles';
@@ -14,13 +14,18 @@ const Item: FC<IPropsItem> = props => {
   const [styles] = useStyles(stylesCreate, itemType);
   const {colors} = useTheme();
 
+  const getStyle = useCallback(
+    ({pressed}) => [
+      styles.item,
+      {backgroundColor: pressed ? colors.BgSecondary : colors.BgPrimary},
+      style,
+    ],
+    [],
+  );
+
   return (
     <Pressable
-      style={({pressed}) => [
-        styles.item,
-        {backgroundColor: pressed ? colors.BgSecondary : colors.BgPrimary},
-        style,
-      ]}
+      style={getStyle}
       disabled={disabled}
       onPress={onPress}
       accessibilityLabel={Constants.accessibilityLabelActionSheetsItem}

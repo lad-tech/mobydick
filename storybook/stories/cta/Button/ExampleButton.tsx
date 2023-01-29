@@ -7,7 +7,7 @@ import {
   useTheme,
 } from '@npm/mobydick-core';
 import {boolean, number, select, text} from '@storybook/addon-knobs';
-import React from 'react';
+import React, {useCallback} from 'react';
 import {action} from '@storybook/addon-actions';
 
 import selectFont from '../../../utils/selectFont';
@@ -19,21 +19,8 @@ enum IViewButton {
   onlyIcon = 'onlyIcon',
 }
 
-const getSpinnerColor = (type: IButtonTypes, disabled: boolean): string => {
-  const {colors} = useTheme();
-  if (disabled) {
-    return colors.IconWhite;
-  }
-  switch (type) {
-    case IButtonTypes.secondary:
-    case IButtonTypes.tertiary:
-      return colors.IconBase;
-    default:
-      return colors.IconWhite;
-  }
-};
-
 const ExampleButton = () => {
+  const {colors} = useTheme();
   const type = select('type', IButtonTypes, IButtonTypes.primary);
   const textButton = text('text', 'text big text');
   const minWidth = number('minWidth', 0);
@@ -44,6 +31,22 @@ const ExampleButton = () => {
   const defaultFont =
     size === IButtonSize.small ? 'SemiBold-White-XS' : 'SemiBold-White-L';
   const font = select('Button font', selectFont, defaultFont);
+
+  const getSpinnerColor = useCallback(
+    (type: IButtonTypes, disabled: boolean): string => {
+      if (disabled) {
+        return colors.IconWhite;
+      }
+      switch (type) {
+        case IButtonTypes.secondary:
+        case IButtonTypes.tertiary:
+          return colors.IconBase;
+        default:
+          return colors.IconWhite;
+      }
+    },
+    [type, disabled],
+  );
 
   switch (select('view button', IViewButton, IViewButton.noIcon)) {
     case IViewButton.leftIcon:

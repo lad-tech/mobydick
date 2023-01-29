@@ -1,7 +1,7 @@
 import React from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
 
-import {Avatar} from '../Avatar';
+import Avatar from '../Avatar';
 
 describe('Avatar', () => {
   test('render avatar with photo', () => {
