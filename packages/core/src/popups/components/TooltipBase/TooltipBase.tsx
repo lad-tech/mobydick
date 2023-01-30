@@ -1,5 +1,6 @@
 import React, {
   FC,
+  PropsWithChildren,
   RefObject,
   useEffect,
   useMemo,
@@ -22,14 +23,16 @@ import LeftButton from './LeftButton';
 import {IPlacement} from './types';
 
 const TooltipBase: FC<
-  Omit<IPopup, 'Content'> & {
-    onClose: () => void;
-    containerStyle?: StyleProp<ViewStyle>;
-    position: IPosition;
-    placement: IPlacement;
-    refCurrent: RefObject<ITouchableOpacity>;
-    timeShow?: number;
-  }
+  PropsWithChildren<
+    Omit<IPopup, 'Content'> & {
+      onClose: () => void;
+      containerStyle?: StyleProp<ViewStyle>;
+      position: IPosition;
+      placement: IPlacement;
+      refCurrent: RefObject<ITouchableOpacity>;
+      timeShow?: number;
+    }
+  >
 > & {
   Title: typeof Title;
   DescriptionText: typeof DescriptionText;

@@ -5,7 +5,9 @@ import useStyles from '../../../styles/theme/hooks/useStyles';
 
 import stylesCreate from './stylesCreate';
 
-const VerticalButtonsView: FC = props => {
+const VerticalButtonsView: FC<{
+  children: React.ReactNode;
+}> = props => {
   const [styles] = useStyles(stylesCreate);
   const {children} = props;
 
