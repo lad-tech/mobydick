@@ -22,7 +22,7 @@ import {
   getAllDatesBetween,
 } from './functions';
 import stylesCreate from './stylesCreate';
-import {ICalendar, IMarkedDates, ISelectionState} from './types';
+import {ICalendar, IDirection, IMarkedDates, ISelectionState} from './types';
 import CalendarHeader from './components/CalendarHeader';
 import Years from './components/Years';
 import Months from './components/Months';
@@ -177,7 +177,8 @@ const Calendar: FC<ICalendar> = props => {
     } else if (selectionState === ISelectionState.months) {
       setCurrentYear(currentYear - 1);
     } else if (selectionState === ISelectionState.years) {
-      yearRange[0] && setYearRange(calculateYearRange(yearRange[0]));
+      yearRange[0] &&
+        setYearRange(calculateYearRange(yearRange[0], IDirection.left));
     }
   }, [currentMonthIndex, currentYear, yearRange]);
 
@@ -194,9 +195,9 @@ const Calendar: FC<ICalendar> = props => {
     } else if (selectionState === ISelectionState.years) {
       const lastYear = yearRange[yearRange?.length - 1];
 
-      lastYear && setYearRange(calculateYearRange(lastYear, true));
+      lastYear && setYearRange(calculateYearRange(lastYear, IDirection.right));
     }
-  }, [currentMonthIndex, yearRange, currentMonthIndex, currentYear]);
+  }, [currentMonthIndex, yearRange, currentYear]);
 
   const getCalenderTitle = () => {
     if (selectionState === ISelectionState.months) {

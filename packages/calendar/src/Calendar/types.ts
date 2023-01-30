@@ -54,3 +54,9 @@ export enum ISelectionState {
   months = 'months',
   years = 'years',
 }
+
+export enum IDirection {
+  right = 'right',
+  left = 'left',
+  none = 'none',
+}

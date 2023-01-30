@@ -1,4 +1,5 @@
 import {calculateBoundaries, calculateYearRange} from '../functions';
+import {IDirection} from '../types';
 
 describe('Calendar-functions', () => {
   it('calculateBoundaries', () => {
@@ -74,8 +75,15 @@ describe('Calendar-functions', () => {
       2020, 2021, 2022, 2023,
     ]);
   });
-  it('calculateYearRange next', () => {
-    expect(calculateYearRange(2007, true)).toEqual([
+
+  it('calculateYearRange right', () => {
+    expect(calculateYearRange(2007, IDirection.right)).toEqual([
+      2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
+      2020, 2021, 2022, 2023,
+    ]);
+  });
+  it('calculateYearRange left', () => {
+    expect(calculateYearRange(2024, IDirection.left)).toEqual([
       2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
       2020, 2021, 2022, 2023,
     ]);
