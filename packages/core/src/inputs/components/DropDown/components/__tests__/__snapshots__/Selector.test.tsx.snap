@@ -36,9 +36,9 @@ exports[`@npm/mobydick-core/Selector Selector custom flatList styles 1`] = `
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 36,
+          "borderWidth": 3,
+          "paddingVertical": 24,
           "position": "absolute",
         },
         Object {
@@ -48,10 +48,10 @@ exports[`@npm/mobydick-core/Selector Selector custom flatList styles 1`] = `
           "width": 2,
         },
         Object {
-          "top": 79,
+          "top": 157,
         },
         Object {
-          "maxHeight": 366,
+          "maxHeight": 732,
         },
       ]
     }
@@ -103,8 +103,8 @@ exports[`@npm/mobydick-core/Selector Selector custom flatList styles 1`] = `
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 Object {
@@ -120,8 +120,8 @@ exports[`@npm/mobydick-core/Selector Selector custom flatList styles 1`] = `
                   Object {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   undefined,
                 ]
@@ -173,20 +173,20 @@ exports[`@npm/mobydick-core/Selector render correct renderItem TouchableHighligh
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 36,
+          "borderWidth": 3,
+          "paddingVertical": 24,
           "position": "absolute",
         },
         undefined,
         Object {
-          "width": 300,
+          "width": 600,
         },
         Object {
-          "top": 79,
+          "top": 157,
         },
         Object {
-          "maxHeight": 366,
+          "maxHeight": 732,
         },
       ]
     }
@@ -238,8 +238,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem TouchableHighligh
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 Object {
                   "height": 10,
@@ -257,8 +257,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem TouchableHighligh
                   Object {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   undefined,
                 ]
@@ -310,20 +310,20 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography  with 
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 36,
+          "borderWidth": 3,
+          "paddingVertical": 24,
           "position": "absolute",
         },
         undefined,
         Object {
-          "width": 300,
+          "width": 600,
         },
         Object {
-          "top": 79,
+          "top": 157,
         },
         Object {
-          "maxHeight": 366,
+          "maxHeight": 732,
         },
       ]
     }
@@ -375,8 +375,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography  with 
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 Object {
@@ -392,8 +392,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography  with 
                   Object {
                     "color": "#F54D3D",
                     "fontFamily": "Inter-Bold",
-                    "fontSize": 27,
-                    "lineHeight": 33,
+                    "fontSize": 54,
+                    "lineHeight": 66,
                   },
                   undefined,
                 ]
@@ -445,20 +445,20 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography with c
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 36,
+          "borderWidth": 3,
+          "paddingVertical": 24,
           "position": "absolute",
         },
         undefined,
         Object {
-          "width": 300,
+          "width": 600,
         },
         Object {
-          "top": 79,
+          "top": 157,
         },
         Object {
-          "maxHeight": 366,
+          "maxHeight": 732,
         },
       ]
     }
@@ -510,8 +510,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography with c
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 Object {
@@ -527,8 +527,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography with c
                   Object {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   Object {
                     "backgroundColor": "red",
@@ -582,20 +582,20 @@ exports[`@npm/mobydick-core/Selector renders correctly  1`] = `
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 36,
+          "borderWidth": 3,
+          "paddingVertical": 24,
           "position": "absolute",
         },
         undefined,
         Object {
-          "width": 300,
+          "width": 600,
         },
         Object {
-          "top": 79,
+          "top": 157,
         },
         Object {
-          "maxHeight": 366,
+          "maxHeight": 732,
         },
       ]
     }
@@ -647,8 +647,8 @@ exports[`@npm/mobydick-core/Selector renders correctly  1`] = `
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 null,
@@ -662,8 +662,8 @@ exports[`@npm/mobydick-core/Selector renders correctly  1`] = `
                   Object {
                     "color": "#444B5A",
                     "fontFamily": "Inter-Regular",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   undefined,
                 ]
@@ -715,20 +715,20 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
         Object {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 36,
+          "borderWidth": 3,
+          "paddingVertical": 24,
           "position": "absolute",
         },
         undefined,
         Object {
-          "width": 300,
+          "width": 600,
         },
         Object {
-          "top": 79,
+          "bottom": 651,
         },
         Object {
-          "maxHeight": 366,
+          "maxHeight": 732,
         },
       ]
     }
@@ -804,8 +804,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 Object {
@@ -821,8 +821,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   Object {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   undefined,
                 ]
@@ -851,8 +851,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 Object {
@@ -868,8 +868,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   Object {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   undefined,
                 ]
@@ -898,8 +898,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 Object {
@@ -915,8 +915,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   Object {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   undefined,
                 ]
@@ -945,8 +945,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 Object {
@@ -962,8 +962,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   Object {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   undefined,
                 ]
@@ -992,8 +992,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 Object {
@@ -1009,8 +1009,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   Object {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   undefined,
                 ]
@@ -1039,8 +1039,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 Object {
@@ -1056,8 +1056,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   Object {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   undefined,
                 ]
@@ -1086,8 +1086,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               Array [
                 Object {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 36,
+                  "paddingVertical": 24,
                 },
                 undefined,
                 Object {
@@ -1103,8 +1103,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   Object {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
+                    "fontSize": 48,
+                    "lineHeight": 60,
                   },
                   undefined,
                 ]

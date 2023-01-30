@@ -40,12 +40,12 @@ exports[`@npm/mobydick-core/ModalBase should renders correctly 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
+          "borderRadius": 36,
           "justifyContent": "center",
-          "marginVertical": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 36,
-          "width": 726,
+          "marginVertical": 60,
+          "paddingHorizontal": 60,
+          "paddingVertical": 72,
+          "width": 702,
         },
         undefined,
       ]

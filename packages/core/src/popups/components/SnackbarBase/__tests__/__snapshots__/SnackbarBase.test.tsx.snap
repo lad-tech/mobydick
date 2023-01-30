@@ -23,12 +23,12 @@ exports[`@npm/mobydick-core/SnackbarBase should renders correctly 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "#20242D",
-          "borderRadius": 18,
+          "borderRadius": 36,
           "flexDirection": "row",
           "justifyContent": "center",
-          "margin": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 24,
+          "margin": 60,
+          "paddingHorizontal": 60,
+          "paddingVertical": 48,
         },
         undefined,
       ]
@@ -60,12 +60,12 @@ exports[`@npm/mobydick-core/SnackbarBase should renders correctly with timeShow 
         Object {
           "alignItems": "center",
           "backgroundColor": "#20242D",
-          "borderRadius": 18,
+          "borderRadius": 36,
           "flexDirection": "row",
           "justifyContent": "center",
-          "margin": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 24,
+          "margin": 60,
+          "paddingHorizontal": 60,
+          "paddingVertical": 48,
         },
         undefined,
       ]

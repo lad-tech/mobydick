@@ -8,8 +8,8 @@ exports[`@npm/mobydick-core/TooltipBase/Title should renders correctly  1`] = `
       Object {
         "color": "#FFF",
         "fontFamily": "Inter-SemiBold",
-        "fontSize": 21,
-        "lineHeight": 27,
+        "fontSize": 42,
+        "lineHeight": 54,
       },
       Array [
         Object {
@@ -32,8 +32,8 @@ exports[`@npm/mobydick-core/TooltipBase/Title should renders correctly font 1`] 
       Object {
         "color": "#20242D",
         "fontFamily": "Inter-Regular",
-        "fontSize": 21,
-        "lineHeight": 27,
+        "fontSize": 42,
+        "lineHeight": 54,
       },
       Array [
         Object {

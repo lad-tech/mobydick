@@ -8,13 +8,13 @@ exports[`@npm/mobydick-core/SnackbarBase/Title should renders correctly with tit
       Object {
         "color": "#444B5A",
         "fontFamily": "Inter-Medium",
-        "fontSize": 24,
-        "lineHeight": 30,
+        "fontSize": 48,
+        "lineHeight": 60,
       },
       Array [
         Object {
           "flex": 1,
-          "paddingRight": 12,
+          "paddingRight": 24,
         },
         Object {
           "backgroundColor": "#000",
@@ -35,13 +35,13 @@ exports[`@npm/mobydick-core/SnackbarBase/Title should renders correctly without 
       Object {
         "color": "#FFF",
         "fontFamily": "Inter-Medium",
-        "fontSize": 21,
-        "lineHeight": 27,
+        "fontSize": 42,
+        "lineHeight": 54,
       },
       Array [
         Object {
           "flex": 1,
-          "paddingRight": 12,
+          "paddingRight": 24,
         },
         Object {
           "flex": 1,

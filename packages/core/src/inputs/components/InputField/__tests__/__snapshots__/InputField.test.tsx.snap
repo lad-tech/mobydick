@@ -5,7 +5,7 @@ exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
   style={
     Array [
       Object {
-        "minWidth": 195,
+        "minWidth": 390,
       },
       undefined,
     ]
@@ -25,8 +25,8 @@ exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
           Object {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 21,
-            "lineHeight": 27,
+            "fontSize": 42,
+            "lineHeight": 54,
           },
           undefined,
         ]
@@ -42,14 +42,14 @@ exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 24,
+          "borderWidth": 3,
           "flexDirection": "row",
-          "height": 72,
+          "height": 144,
           "justifyContent": "space-between",
-          "marginVertical": 12,
-          "paddingLeft": 27,
-          "paddingRight": 24,
+          "marginVertical": 24,
+          "paddingLeft": 54,
+          "paddingRight": 48,
         },
         undefined,
       ]
@@ -72,8 +72,8 @@ exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           undefined,
         ]
@@ -95,8 +95,8 @@ exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
         Object {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
-          "fontSize": 24,
-          "marginRight": 6,
+          "fontSize": 48,
+          "marginRight": 12,
         }
       }
     >
@@ -109,8 +109,8 @@ exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
           Object {
             "color": "#9BA1B0",
             "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
+            "fontSize": 36,
+            "lineHeight": 48,
           },
           Object {
             "flex": 1,
@@ -129,7 +129,7 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 1`] = `
   style={
     Array [
       Object {
-        "minWidth": 195,
+        "minWidth": 390,
       },
       undefined,
     ]
@@ -142,14 +142,14 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 1`] = `
           "alignItems": "center",
           "backgroundColor": "#D1D4DB",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 24,
+          "borderWidth": 3,
           "flexDirection": "row",
-          "height": 72,
+          "height": 144,
           "justifyContent": "space-between",
-          "marginVertical": 12,
-          "paddingLeft": 27,
-          "paddingRight": 24,
+          "marginVertical": 24,
+          "paddingLeft": 54,
+          "paddingRight": 48,
         },
         undefined,
       ]
@@ -172,8 +172,8 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           undefined,
         ]
@@ -189,7 +189,7 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 2`] = `
   style={
     Array [
       Object {
-        "minWidth": 195,
+        "minWidth": 390,
       },
       undefined,
     ]
@@ -202,14 +202,14 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 2`] = `
           "alignItems": "center",
           "backgroundColor": "#D1D4DB",
           "borderColor": "#D1D4DB",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 24,
+          "borderWidth": 3,
           "flexDirection": "row",
-          "height": 72,
+          "height": 144,
           "justifyContent": "space-between",
-          "marginVertical": 12,
-          "paddingLeft": 27,
-          "paddingRight": 24,
+          "marginVertical": 24,
+          "paddingLeft": 54,
+          "paddingRight": 48,
         },
         undefined,
       ]
@@ -232,8 +232,8 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 2`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           undefined,
         ]
@@ -249,7 +249,7 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 1`] = `
   style={
     Array [
       Object {
-        "minWidth": 195,
+        "minWidth": 390,
       },
       undefined,
     ]
@@ -262,14 +262,14 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 1`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 24,
+          "borderWidth": 3,
           "flexDirection": "row",
-          "height": 72,
+          "height": 144,
           "justifyContent": "space-between",
-          "marginVertical": 12,
-          "paddingLeft": 27,
-          "paddingRight": 24,
+          "marginVertical": 24,
+          "paddingLeft": 54,
+          "paddingRight": 48,
         },
         undefined,
       ]
@@ -292,8 +292,8 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           undefined,
         ]
@@ -309,7 +309,7 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 2`] = `
   style={
     Array [
       Object {
-        "minWidth": 195,
+        "minWidth": 390,
       },
       undefined,
     ]
@@ -322,14 +322,14 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 2`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 24,
+          "borderWidth": 3,
           "flexDirection": "row",
-          "height": 72,
+          "height": 144,
           "justifyContent": "space-between",
-          "marginVertical": 12,
-          "paddingLeft": 27,
-          "paddingRight": 24,
+          "marginVertical": 24,
+          "paddingLeft": 54,
+          "paddingRight": 48,
         },
         undefined,
       ]
@@ -352,8 +352,8 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 2`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           undefined,
         ]
@@ -369,7 +369,7 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
   style={
     Array [
       Object {
-        "minWidth": 195,
+        "minWidth": 390,
       },
       undefined,
     ]
@@ -389,8 +389,8 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
           Object {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 21,
-            "lineHeight": 27,
+            "fontSize": 42,
+            "lineHeight": 54,
           },
           undefined,
         ]
@@ -406,14 +406,14 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 24,
+          "borderWidth": 3,
           "flexDirection": "row",
-          "height": 72,
+          "height": 144,
           "justifyContent": "space-between",
-          "marginVertical": 12,
-          "paddingLeft": 27,
-          "paddingRight": 24,
+          "marginVertical": 24,
+          "paddingLeft": 54,
+          "paddingRight": 48,
         },
         undefined,
       ]
@@ -437,7 +437,7 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
           Array [
             Object {
               "color": "#20242D",
-              "fontSize": 24,
+              "fontSize": 48,
             },
           ],
           undefined,
@@ -460,8 +460,8 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
         Object {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
-          "fontSize": 24,
-          "marginRight": 6,
+          "fontSize": 48,
+          "marginRight": 12,
         }
       }
     >
@@ -474,8 +474,8 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
           Object {
             "color": "#9BA1B0",
             "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
+            "fontSize": 36,
+            "lineHeight": 48,
           },
           Object {
             "flex": 1,
@@ -494,7 +494,7 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 1`] = `
   style={
     Array [
       Object {
-        "minWidth": 195,
+        "minWidth": 390,
       },
       undefined,
     ]
@@ -507,14 +507,14 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 1`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(43, 120, 238, 0.15)",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 24,
+          "borderWidth": 3,
           "flexDirection": "row",
-          "height": 72,
+          "height": 144,
           "justifyContent": "space-between",
-          "marginVertical": 12,
-          "paddingLeft": 27,
-          "paddingRight": 24,
+          "marginVertical": 24,
+          "paddingLeft": 54,
+          "paddingRight": 48,
         },
         undefined,
       ]
@@ -537,8 +537,8 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           undefined,
         ]
@@ -554,7 +554,7 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 2`] = `
   style={
     Array [
       Object {
-        "minWidth": 195,
+        "minWidth": 390,
       },
       undefined,
     ]
@@ -567,14 +567,14 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 2`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(43, 120, 238, 0.15)",
           "borderColor": "#2B78EE",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 24,
+          "borderWidth": 3,
           "flexDirection": "row",
-          "height": 72,
+          "height": 144,
           "justifyContent": "space-between",
-          "marginVertical": 12,
-          "paddingLeft": 27,
-          "paddingRight": 24,
+          "marginVertical": 24,
+          "paddingLeft": 54,
+          "paddingRight": 48,
         },
         undefined,
       ]
@@ -597,8 +597,8 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 2`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           undefined,
         ]
@@ -614,7 +614,7 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 1`] = `
   style={
     Array [
       Object {
-        "minWidth": 195,
+        "minWidth": 390,
       },
       undefined,
     ]
@@ -627,14 +627,14 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 1`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(245, 77, 61, 0.15)",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 24,
+          "borderWidth": 3,
           "flexDirection": "row",
-          "height": 72,
+          "height": 144,
           "justifyContent": "space-between",
-          "marginVertical": 12,
-          "paddingLeft": 27,
-          "paddingRight": 24,
+          "marginVertical": 24,
+          "paddingLeft": 54,
+          "paddingRight": 48,
         },
         undefined,
       ]
@@ -657,8 +657,8 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           undefined,
         ]
@@ -680,8 +680,8 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 1`] = `
         Object {
           "color": "#F54D3D",
           "fontFamily": "Neotis",
-          "fontSize": 24,
-          "marginRight": 6,
+          "fontSize": 48,
+          "marginRight": 12,
         }
       }
     >
@@ -694,8 +694,8 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 1`] = `
           Object {
             "color": "#F54D3D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
+            "fontSize": 36,
+            "lineHeight": 48,
           },
           Object {
             "flex": 1,
@@ -714,7 +714,7 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 2`] = `
   style={
     Array [
       Object {
-        "minWidth": 195,
+        "minWidth": 390,
       },
       undefined,
     ]
@@ -727,14 +727,14 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 2`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(245, 77, 61, 0.15)",
           "borderColor": "#F54D3D",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 24,
+          "borderWidth": 3,
           "flexDirection": "row",
-          "height": 72,
+          "height": 144,
           "justifyContent": "space-between",
-          "marginVertical": 12,
-          "paddingLeft": 27,
-          "paddingRight": 24,
+          "marginVertical": 24,
+          "paddingLeft": 54,
+          "paddingRight": 48,
         },
         undefined,
       ]
@@ -757,8 +757,8 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 2`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           undefined,
         ]
@@ -780,8 +780,8 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 2`] = `
         Object {
           "color": "#F54D3D",
           "fontFamily": "Neotis",
-          "fontSize": 24,
-          "marginRight": 6,
+          "fontSize": 48,
+          "marginRight": 12,
         }
       }
     >
@@ -794,8 +794,8 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 2`] = `
           Object {
             "color": "#F54D3D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
+            "fontSize": 36,
+            "lineHeight": 48,
           },
           Object {
             "flex": 1,

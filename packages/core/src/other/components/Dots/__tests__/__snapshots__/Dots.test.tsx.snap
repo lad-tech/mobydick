@@ -18,7 +18,7 @@ exports[`Dots render dots activeDot left 1`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -40,10 +40,10 @@ exports[`Dots render dots activeDot left 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
             },
           ]
         }
@@ -53,10 +53,10 @@ exports[`Dots render dots activeDot left 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
             },
           ]
         }
@@ -66,10 +66,10 @@ exports[`Dots render dots activeDot left 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
             },
           ]
         }
@@ -79,9 +79,35 @@ exports[`Dots render dots activeDot left 1`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -92,10 +118,10 @@ exports[`Dots render dots activeDot left 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -105,10 +131,10 @@ exports[`Dots render dots activeDot left 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -118,10 +144,10 @@ exports[`Dots render dots activeDot left 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -131,36 +157,10 @@ exports[`Dots render dots activeDot left 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -177,7 +177,7 @@ exports[`Dots render dots activeDot left 2`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -199,9 +199,61 @@ exports[`Dots render dots activeDot left 2`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -214,7 +266,7 @@ exports[`Dots render dots activeDot left 2`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -227,7 +279,7 @@ exports[`Dots render dots activeDot left 2`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -238,10 +290,10 @@ exports[`Dots render dots activeDot left 2`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -251,10 +303,10 @@ exports[`Dots render dots activeDot left 2`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -264,62 +316,10 @@ exports[`Dots render dots activeDot left 2`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -336,7 +336,7 @@ exports[`Dots render dots activeDot left 3`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -358,10 +358,10 @@ exports[`Dots render dots activeDot left 3`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
             },
           ]
         }
@@ -371,9 +371,48 @@ exports[`Dots render dots activeDot left 3`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -386,7 +425,7 @@ exports[`Dots render dots activeDot left 3`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -397,10 +436,10 @@ exports[`Dots render dots activeDot left 3`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -410,10 +449,10 @@ exports[`Dots render dots activeDot left 3`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -423,10 +462,10 @@ exports[`Dots render dots activeDot left 3`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -436,49 +475,10 @@ exports[`Dots render dots activeDot left 3`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -495,7 +495,7 @@ exports[`Dots render dots activeDot left 4`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -517,48 +517,9 @@ exports[`Dots render dots activeDot left 4`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -571,8 +532,47 @@ exports[`Dots render dots activeDot left 4`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
             },
           ]
         }
@@ -582,9 +582,35 @@ exports[`Dots render dots activeDot left 4`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -595,10 +621,10 @@ exports[`Dots render dots activeDot left 4`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -608,36 +634,10 @@ exports[`Dots render dots activeDot left 4`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -654,7 +654,7 @@ exports[`Dots render dots activeDot right 1`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -676,100 +676,9 @@ exports[`Dots render dots activeDot right 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -782,8 +691,99 @@ exports[`Dots render dots activeDot right 1`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
             },
           ]
         }
@@ -793,10 +793,10 @@ exports[`Dots render dots activeDot right 1`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
             },
           ]
         }
@@ -813,7 +813,7 @@ exports[`Dots render dots activeDot right 2`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -835,10 +835,10 @@ exports[`Dots render dots activeDot right 2`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -848,10 +848,10 @@ exports[`Dots render dots activeDot right 2`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
             },
           ]
         }
@@ -861,9 +861,61 @@ exports[`Dots render dots activeDot right 2`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -876,7 +928,7 @@ exports[`Dots render dots activeDot right 2`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -889,7 +941,7 @@ exports[`Dots render dots activeDot right 2`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -900,62 +952,10 @@ exports[`Dots render dots activeDot right 2`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -972,7 +972,7 @@ exports[`Dots render dots activeDot right 3`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -994,10 +994,10 @@ exports[`Dots render dots activeDot right 3`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
             },
           ]
         }
@@ -1007,9 +1007,61 @@ exports[`Dots render dots activeDot right 3`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1022,7 +1074,7 @@ exports[`Dots render dots activeDot right 3`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1035,7 +1087,7 @@ exports[`Dots render dots activeDot right 3`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1046,10 +1098,10 @@ exports[`Dots render dots activeDot right 3`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1059,62 +1111,10 @@ exports[`Dots render dots activeDot right 3`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1131,7 +1131,7 @@ exports[`Dots render dots activeDot right 4`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -1153,9 +1153,61 @@ exports[`Dots render dots activeDot right 4`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1168,7 +1220,7 @@ exports[`Dots render dots activeDot right 4`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1181,7 +1233,7 @@ exports[`Dots render dots activeDot right 4`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1192,10 +1244,10 @@ exports[`Dots render dots activeDot right 4`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1205,10 +1257,10 @@ exports[`Dots render dots activeDot right 4`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1218,62 +1270,10 @@ exports[`Dots render dots activeDot right 4`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1290,7 +1290,7 @@ exports[`Dots render dots activeDot=2 1`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -1312,10 +1312,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
             },
           ]
         }
@@ -1325,10 +1325,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
             },
           ]
         }
@@ -1338,9 +1338,48 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1353,7 +1392,7 @@ exports[`Dots render dots activeDot=2 1`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1364,10 +1403,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1377,10 +1416,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1390,10 +1429,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1403,10 +1442,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1416,10 +1455,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1429,10 +1468,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1442,10 +1481,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1455,10 +1494,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1468,49 +1507,10 @@ exports[`Dots render dots activeDot=2 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1527,7 +1527,7 @@ exports[`Dots render dots activeDot=10 1`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -1549,100 +1549,9 @@ exports[`Dots render dots activeDot=10 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1655,8 +1564,99 @@ exports[`Dots render dots activeDot=10 1`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
             },
           ]
         }
@@ -1666,10 +1666,10 @@ exports[`Dots render dots activeDot=10 1`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
             },
           ]
         }
@@ -1693,9 +1693,61 @@ exports[`Dots render dots length < 7 1`] = `
       Array [
         Object {
           "backgroundColor": "#5E6678",
+          "borderRadius": 12,
+          "height": 24,
+          "marginHorizontal": 15,
+          "width": 24,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
+          "borderRadius": 12,
+          "height": 24,
+          "marginHorizontal": 15,
+          "width": 24,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
+          "borderRadius": 12,
+          "height": 24,
+          "marginHorizontal": 15,
+          "width": 24,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
+          "borderRadius": 9,
+          "height": 18,
+          "marginHorizontal": 15,
+          "width": 18,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#9BA1B0",
           "borderRadius": 6,
           "height": 12,
-          "marginHorizontal": 7.5,
+          "marginHorizontal": 15,
           "width": 12,
         },
       ]
@@ -1708,60 +1760,8 @@ exports[`Dots render dots length < 7 1`] = `
           "backgroundColor": "#9BA1B0",
           "borderRadius": 6,
           "height": 12,
-          "marginHorizontal": 7.5,
+          "marginHorizontal": 15,
           "width": 12,
-        },
-      ]
-    }
-  />
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#9BA1B0",
-          "borderRadius": 6,
-          "height": 12,
-          "marginHorizontal": 7.5,
-          "width": 12,
-        },
-      ]
-    }
-  />
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#9BA1B0",
-          "borderRadius": 4.5,
-          "height": 9,
-          "marginHorizontal": 7.5,
-          "width": 9,
-        },
-      ]
-    }
-  />
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#9BA1B0",
-          "borderRadius": 3,
-          "height": 6,
-          "marginHorizontal": 7.5,
-          "width": 6,
-        },
-      ]
-    }
-  />
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#9BA1B0",
-          "borderRadius": 3,
-          "height": 6,
-          "marginHorizontal": 7.5,
-          "width": 6,
         },
       ]
     }
@@ -1776,7 +1776,7 @@ exports[`Dots render dots length > 7 1`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -1798,9 +1798,61 @@ exports[`Dots render dots length > 7 1`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1813,7 +1865,7 @@ exports[`Dots render dots length > 7 1`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1826,7 +1878,7 @@ exports[`Dots render dots length > 7 1`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1837,10 +1889,10 @@ exports[`Dots render dots length > 7 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1850,10 +1902,10 @@ exports[`Dots render dots length > 7 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1863,62 +1915,10 @@ exports[`Dots render dots length > 7 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -1935,7 +1935,7 @@ exports[`Dots render dots onLayout 1`] = `
   onLayout={[Function]}
   style={
     Object {
-      "width": 150,
+      "width": 300,
     }
   }
 >
@@ -1957,9 +1957,61 @@ exports[`Dots render dots onLayout 1`] = `
           Array [
             Object {
               "backgroundColor": "#5E6678",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 12,
+              "height": 24,
+              "marginHorizontal": 15,
+              "width": 24,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
+              "borderRadius": 9,
+              "height": 18,
+              "marginHorizontal": 15,
+              "width": 18,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1972,7 +2024,7 @@ exports[`Dots render dots onLayout 1`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1985,7 +2037,7 @@ exports[`Dots render dots onLayout 1`] = `
               "backgroundColor": "#9BA1B0",
               "borderRadius": 6,
               "height": 12,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 15,
               "width": 12,
             },
           ]
@@ -1996,10 +2048,10 @@ exports[`Dots render dots onLayout 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -2009,10 +2061,10 @@ exports[`Dots render dots onLayout 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }
@@ -2022,62 +2074,10 @@ exports[`Dots render dots onLayout 1`] = `
           Array [
             Object {
               "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "#9BA1B0",
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 15,
+              "width": 12,
             },
           ]
         }

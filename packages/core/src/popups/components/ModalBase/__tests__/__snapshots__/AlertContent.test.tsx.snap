@@ -7,7 +7,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type
       Object {
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
         "borderRadius": 100,
-        "padding": 18,
+        "padding": 36,
       },
       undefined,
     ]
@@ -19,7 +19,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type
       Object {
         "color": "#2B78EE",
         "fontFamily": "Neotis",
-        "fontSize": 54,
+        "fontSize": 108,
       }
     }
   >
@@ -35,7 +35,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type
       Object {
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
         "borderRadius": 100,
-        "padding": 18,
+        "padding": 36,
       },
       Object {
         "backgroundColor": "#fff",
@@ -49,7 +49,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type
       Object {
         "color": "#fff",
         "fontFamily": "Neotis",
-        "fontSize": 54,
+        "fontSize": 108,
       }
     }
   >
