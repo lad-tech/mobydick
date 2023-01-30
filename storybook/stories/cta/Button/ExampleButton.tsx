@@ -45,7 +45,7 @@ const ExampleButton = () => {
           return colors.IconWhite;
       }
     },
-    [type, disabled],
+    [],
   );
 
   switch (select('view button', IViewButton, IViewButton.noIcon)) {
