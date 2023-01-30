@@ -7,10 +7,9 @@ exports[`Avatar render avatar not photo 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 192,
+      "borderRadius": 60,
       "height": 120,
       "justifyContent": "center",
-      "margin": 18,
       "width": 120,
     }
   }
@@ -41,10 +40,9 @@ exports[`Avatar render avatar with photo 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 192,
+      "borderRadius": 60,
       "height": 120,
       "justifyContent": "center",
-      "margin": 18,
       "width": 120,
     }
   }
@@ -54,14 +52,14 @@ exports[`Avatar render avatar with photo 1`] = `
     onError={[Function]}
     source={
       Object {
-        "height": 120,
         "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
-        "width": 120,
       }
     }
     style={
       Object {
-        "borderRadius": 192,
+        "borderRadius": 60,
+        "height": 120,
+        "width": 120,
       }
     }
   />
