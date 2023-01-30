@@ -42,12 +42,12 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
+          "borderRadius": 36,
           "justifyContent": "center",
-          "marginVertical": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 36,
-          "width": 726,
+          "marginVertical": 60,
+          "paddingHorizontal": 60,
+          "paddingVertical": 72,
+          "width": 702,
         },
         Object {
           "maxWidth": "80%",
@@ -61,7 +61,7 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly 1`] = `
           Object {
             "backgroundColor": "rgba(43, 120, 238, 0.15)",
             "borderRadius": 100,
-            "padding": 18,
+            "padding": 36,
           },
           undefined,
         ]
@@ -73,7 +73,7 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly 1`] = `
           Object {
             "color": "#2B78EE",
             "fontFamily": "Neotis",
-            "fontSize": 54,
+            "fontSize": 108,
           }
         }
       >
@@ -83,8 +83,8 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly 1`] = `
     <View
       style={
         Object {
-          "marginBottom": 12,
-          "marginTop": 18,
+          "marginBottom": 24,
+          "marginTop": 36,
         }
       }
     >
@@ -95,8 +95,8 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly 1`] = `
             Object {
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
-              "fontSize": 27,
-              "lineHeight": 33,
+              "fontSize": 54,
+              "lineHeight": 66,
             },
             Array [
               Object {
@@ -116,12 +116,12 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
-              "fontSize": 21,
-              "lineHeight": 27,
+              "fontSize": 42,
+              "lineHeight": 54,
             },
             Array [
               Object {
-                "paddingTop": 12,
+                "paddingTop": 24,
                 "textAlign": "center",
               },
               undefined,
@@ -137,7 +137,7 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly 1`] = `
         Object {
           "alignItems": "center",
           "alignSelf": "stretch",
-          "marginTop": 30,
+          "marginTop": 60,
         }
       }
     >
@@ -162,10 +162,10 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly 1`] = `
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "#2B78EE",
-            "borderRadius": 18,
+            "borderRadius": 36,
             "flexDirection": "row",
             "justifyContent": "center",
-            "minHeight": 72,
+            "minHeight": 144,
             "opacity": 1,
           }
         }
@@ -177,13 +177,13 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly 1`] = `
               Object {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 27,
-                "lineHeight": 33,
+                "fontSize": 54,
+                "lineHeight": 66,
               },
               Array [
                 Object {
                   "color": "#FFF",
-                  "paddingHorizontal": 9,
+                  "paddingHorizontal": 18,
                 },
                 undefined,
               ],
@@ -240,12 +240,12 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly with optional 
         Object {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
+          "borderRadius": 36,
           "justifyContent": "center",
-          "marginVertical": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 36,
-          "width": 726,
+          "marginVertical": 60,
+          "paddingHorizontal": 60,
+          "paddingVertical": 72,
+          "width": 702,
         },
         Object {
           "maxWidth": "80%",
@@ -259,7 +259,7 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly with optional 
           Object {
             "backgroundColor": "rgba(43, 120, 238, 0.15)",
             "borderRadius": 100,
-            "padding": 18,
+            "padding": 36,
           },
           undefined,
         ]
@@ -271,7 +271,7 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly with optional 
           Object {
             "color": "#2B78EE",
             "fontFamily": "Neotis",
-            "fontSize": 54,
+            "fontSize": 108,
           }
         }
       >
@@ -281,8 +281,8 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly with optional 
     <View
       style={
         Object {
-          "marginBottom": 12,
-          "marginTop": 18,
+          "marginBottom": 24,
+          "marginTop": 36,
         }
       }
     >
@@ -293,8 +293,8 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly with optional 
             Object {
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
-              "fontSize": 27,
-              "lineHeight": 33,
+              "fontSize": 54,
+              "lineHeight": 66,
             },
             Array [
               Object {
@@ -314,12 +314,12 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly with optional 
             Object {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
-              "fontSize": 21,
-              "lineHeight": 27,
+              "fontSize": 42,
+              "lineHeight": 54,
             },
             Array [
               Object {
-                "paddingTop": 12,
+                "paddingTop": 24,
                 "textAlign": "center",
               },
               undefined,
@@ -335,7 +335,7 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly with optional 
         Object {
           "alignItems": "center",
           "alignSelf": "stretch",
-          "marginTop": 30,
+          "marginTop": 60,
         }
       }
     >
@@ -360,10 +360,10 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly with optional 
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "#2B78EE",
-            "borderRadius": 18,
+            "borderRadius": 36,
             "flexDirection": "row",
             "justifyContent": "center",
-            "minHeight": 72,
+            "minHeight": 144,
             "opacity": 1,
           }
         }
@@ -375,13 +375,13 @@ exports[`@npm/mobydick-core/modalSuccess should renders correctly with optional 
               Object {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 27,
-                "lineHeight": 33,
+                "fontSize": 54,
+                "lineHeight": 66,
               },
               Array [
                 Object {
                   "color": "#FFF",
-                  "paddingHorizontal": 9,
+                  "paddingHorizontal": 18,
                 },
                 undefined,
               ],

@@ -19,13 +19,13 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item 1`] = 
     Array [
       Object {
         "alignItems": "center",
-        "borderRadius": 18,
+        "borderRadius": 36,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginBottom": 45,
-        "marginHorizontal": 12,
-        "minHeight": 75,
-        "paddingHorizontal": 30,
+        "marginBottom": 90,
+        "marginHorizontal": 24,
+        "minHeight": 150,
+        "paddingHorizontal": 60,
       },
       Object {
         "backgroundColor": "#FFF",
@@ -50,11 +50,11 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item 1`] = 
           Object {
             "color": "#2B78EE",
             "fontFamily": "Inter-Medium",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           Object {
-            "paddingVertical": 22.5,
+            "paddingVertical": 45,
           },
         ]
       }
@@ -84,13 +84,13 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with  
     Array [
       Object {
         "alignItems": "center",
-        "borderTopLeftRadius": 18,
-        "borderTopRightRadius": 18,
+        "borderTopLeftRadius": 36,
+        "borderTopRightRadius": 36,
         "flexDirection": "row",
         "justifyContent": "space-between",
-        "marginHorizontal": 12,
-        "minHeight": 75,
-        "paddingHorizontal": 30,
+        "marginHorizontal": 24,
+        "minHeight": 150,
+        "paddingHorizontal": 60,
       },
       Object {
         "backgroundColor": "#FFF",
@@ -115,11 +115,11 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with  
           Object {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 45,
+            "lineHeight": 57,
           },
           Object {
-            "paddingVertical": 22.5,
+            "paddingVertical": 45,
           },
         ]
       }
@@ -149,16 +149,16 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
     Array [
       Object {
         "alignItems": "center",
-        "borderBottomLeftRadius": 18,
-        "borderBottomRightRadius": 18,
+        "borderBottomLeftRadius": 36,
+        "borderBottomRightRadius": 36,
         "borderTopColor": "#D1D4DB",
-        "borderTopWidth": 1.5,
+        "borderTopWidth": 3,
         "flexDirection": "row",
         "justifyContent": "space-between",
-        "marginBottom": 12,
-        "marginHorizontal": 12,
-        "minHeight": 75,
-        "paddingHorizontal": 30,
+        "marginBottom": 24,
+        "marginHorizontal": 24,
+        "minHeight": 150,
+        "paddingHorizontal": 60,
       },
       Object {
         "backgroundColor": "#FFF",
@@ -183,11 +183,11 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
           Object {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 45,
+            "lineHeight": 57,
           },
           Object {
-            "paddingVertical": 22.5,
+            "paddingVertical": 45,
           },
         ]
       }
@@ -233,10 +233,10 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 16.5,
-          "borderWidth": 3,
+          "borderRadius": 33,
+          "borderWidth": 6,
           "justifyContent": "center",
-          "width": 33,
+          "width": 66,
         }
       }
       value="title"
@@ -269,13 +269,13 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with d
     Array [
       Object {
         "alignItems": "center",
-        "borderRadius": 18,
+        "borderRadius": 36,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginBottom": 45,
-        "marginHorizontal": 12,
-        "minHeight": 75,
-        "paddingHorizontal": 30,
+        "marginBottom": 90,
+        "marginHorizontal": 24,
+        "minHeight": 150,
+        "paddingHorizontal": 60,
       },
       Object {
         "backgroundColor": "#FFF",
@@ -300,11 +300,11 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with d
           Object {
             "color": "#9BA1B0",
             "fontFamily": "Inter-Medium",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           Object {
-            "paddingVertical": 22.5,
+            "paddingVertical": 45,
           },
         ]
       }
@@ -334,13 +334,13 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
     Array [
       Object {
         "alignItems": "center",
-        "borderRadius": 18,
+        "borderRadius": 36,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginBottom": 45,
-        "marginHorizontal": 12,
-        "minHeight": 75,
-        "paddingHorizontal": 30,
+        "marginBottom": 90,
+        "marginHorizontal": 24,
+        "minHeight": 150,
+        "paddingHorizontal": 60,
       },
       Object {
         "backgroundColor": "#EEEFF1",
@@ -361,7 +361,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
     <View
       style={
         Object {
-          "paddingRight": 18,
+          "paddingRight": 36,
         }
       }
     >
@@ -371,7 +371,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
           Object {
             "color": "#5E6678",
             "fontFamily": "Neotis",
-            "fontSize": 36,
+            "fontSize": 72,
           }
         }
       >
@@ -385,11 +385,11 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
           Object {
             "color": "#2B78EE",
             "fontFamily": "Inter-Medium",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           Object {
-            "paddingVertical": 22.5,
+            "paddingVertical": 45,
           },
         ]
       }
@@ -419,13 +419,13 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
     Array [
       Object {
         "alignItems": "center",
-        "borderRadius": 18,
+        "borderRadius": 36,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginBottom": 12,
-        "marginHorizontal": 12,
-        "minHeight": 75,
-        "paddingHorizontal": 30,
+        "marginBottom": 24,
+        "marginHorizontal": 24,
+        "minHeight": 150,
+        "paddingHorizontal": 60,
       },
       Object {
         "backgroundColor": "#FFF",
@@ -450,11 +450,11 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
+            "fontSize": 48,
+            "lineHeight": 60,
           },
           Object {
-            "paddingVertical": 22.5,
+            "paddingVertical": 45,
           },
         ]
       }
@@ -492,17 +492,17 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
       style={
         Object {
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 6,
+          "borderRadius": 12,
           "borderWidth": 0,
-          "height": 30,
-          "width": 30,
+          "height": 60,
+          "width": 60,
         }
       }
       value="title"
     >
       <SvgMock
-        height={30}
-        width={30}
+        height={60}
+        width={60}
       />
     </View>
   </View>
@@ -529,12 +529,12 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly inner item 
       Object {
         "alignItems": "center",
         "borderTopColor": "#D1D4DB",
-        "borderTopWidth": 1.5,
+        "borderTopWidth": 3,
         "flexDirection": "row",
         "justifyContent": "space-between",
-        "marginHorizontal": 12,
-        "minHeight": 75,
-        "paddingHorizontal": 30,
+        "marginHorizontal": 24,
+        "minHeight": 150,
+        "paddingHorizontal": 60,
       },
       Object {
         "backgroundColor": "#FFF",
@@ -559,11 +559,11 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly inner item 
           Object {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 45,
+            "lineHeight": 57,
           },
           Object {
-            "paddingVertical": 22.5,
+            "paddingVertical": 45,
           },
         ]
       }

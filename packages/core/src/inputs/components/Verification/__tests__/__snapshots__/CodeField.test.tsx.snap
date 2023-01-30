@@ -7,11 +7,11 @@ exports[`@npm/mobydick-core/CodeField render correctly with value blur 1`] = `
       Object {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 12,
+        "borderRadius": 24,
         "flexDirection": "row",
         "justifyContent": "center",
-        "minHeight": 72,
-        "minWidth": 102,
+        "minHeight": 144,
+        "minWidth": 204,
       },
       undefined,
     ]
@@ -39,8 +39,8 @@ exports[`@npm/mobydick-core/CodeField render correctly with value blur 1`] = `
         Object {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 30,
-          "lineHeight": 36,
+          "fontSize": 60,
+          "lineHeight": 72,
         },
         undefined,
       ]
@@ -56,11 +56,11 @@ exports[`@npm/mobydick-core/CodeField render correctly with value focus 1`] = `
       Object {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 12,
+        "borderRadius": 24,
         "flexDirection": "row",
         "justifyContent": "center",
-        "minHeight": 72,
-        "minWidth": 102,
+        "minHeight": 144,
+        "minWidth": 204,
       },
       undefined,
     ]
@@ -87,8 +87,8 @@ exports[`@npm/mobydick-core/CodeField render correctly with value focus 1`] = `
         Object {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 30,
-          "lineHeight": 36,
+          "fontSize": 60,
+          "lineHeight": 72,
         },
         undefined,
       ]
@@ -104,11 +104,11 @@ exports[`@npm/mobydick-core/CodeField render correctly with value onKeyPress 1`]
       Object {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 12,
+        "borderRadius": 24,
         "flexDirection": "row",
         "justifyContent": "center",
-        "minHeight": 72,
-        "minWidth": 102,
+        "minHeight": 144,
+        "minWidth": 204,
       },
       undefined,
     ]
@@ -136,8 +136,8 @@ exports[`@npm/mobydick-core/CodeField render correctly with value onKeyPress 1`]
         Object {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 30,
-          "lineHeight": 36,
+          "fontSize": 60,
+          "lineHeight": 72,
         },
         undefined,
       ]
