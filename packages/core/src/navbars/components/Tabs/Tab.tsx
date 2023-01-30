@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useCallback} from 'react';
 
 import {ITabProps} from '../../types';
 import useStyles from '../../../styles/theme/hooks/useStyles';
@@ -26,13 +26,13 @@ const Tab = (props: ITabProps): JSX.Element => {
   const font = fontTab || 'Regular-Tertiary-XS';
   const fontActive = fontActiveTab || 'Regular-White-XS';
 
-  const selectPressable = () => {
+  const selectPressable = useCallback(() => {
     if (item.onPress) {
       item.onPress();
     } else if (onPressCommon) {
       onPressCommon(item);
     }
-  };
+  }, [item.onPress, onPressCommon]);
 
   return (
     <TouchableOpacity
