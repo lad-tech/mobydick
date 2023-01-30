@@ -14,7 +14,6 @@ import {
 import useTheme from '@npm/mobydick-core/src/styles/theme/hooks/useTheme';
 import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
-import {View} from '@npm/mobydick-core';
 
 import {localeConfigRu} from './localeConfig';
 import {
@@ -112,7 +111,6 @@ const Calendar: FC<ICalendar> = props => {
   };
 
   const markedToday = () => {
-    console.log('TODAY', new Date(todayTimeMidnight));
     setMarkedDates(
       getAllDatesBetween(
         new Date(todayTimeMidnight),
@@ -137,6 +135,26 @@ const Calendar: FC<ICalendar> = props => {
       onClear();
     }
   }, [isClear]);
+
+  const onPressMonth = useCallback(monthIndex => {
+    setCurrentMonthIndex(monthIndex);
+    setSelectionState(ISelectionState.days);
+  }, []);
+
+  const onCloseMonths = useCallback(
+    () => setSelectionState(ISelectionState.days),
+    [],
+  );
+
+  const onPressYear = useCallback(year => {
+    setCurrentYear(year);
+    setSelectionState(ISelectionState.months);
+  }, []);
+
+  const onCloseYears = useCallback(
+    () => setSelectionState(ISelectionState.months),
+    [],
+  );
 
   const onPressCurrMonth = useCallback(() => {
     if (selectionState === ISelectionState.days) {
@@ -194,7 +212,7 @@ const Calendar: FC<ICalendar> = props => {
   };
 
   return (
-    <View style={styles.calendar}>
+    <>
       <CalendarHeader
         title={getCalenderTitle()}
         onPressLeft={onPressLeft}
@@ -217,30 +235,22 @@ const Calendar: FC<ICalendar> = props => {
         />
       )}
       {selectionState === ISelectionState.months && (
-        <>
-          <Months
-            onCloseMonths={() => setSelectionState(ISelectionState.days)}
-            onPressMonth={monthIndex => {
-              setCurrentMonthIndex(monthIndex);
-              setSelectionState(ISelectionState.days);
-            }}
-            monthNamesShort={localeConfig.monthNamesShort}
-          />
-        </>
+        <Months
+          onCloseMonths={onCloseMonths}
+          onPressMonth={onPressMonth}
+          monthNamesShort={localeConfig.monthNamesShort}
+        />
       )}
       {selectionState === ISelectionState.years && (
         <Years
-          onCloseYears={() => setSelectionState(ISelectionState.months)}
-          onPressYear={year => {
-            setCurrentYear(year);
-            setSelectionState(ISelectionState.months);
-          }}
+          onCloseYears={onCloseYears}
+          onPressYear={onPressYear}
           yearRange={yearRange}
         />
       )}
 
       {bottomView}
-    </View>
+    </>
   );
 };
 

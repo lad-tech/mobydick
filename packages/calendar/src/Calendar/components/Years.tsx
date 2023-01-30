@@ -20,18 +20,23 @@ const Years: FC<IYears> = props => {
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
 
-  const onPress = (item: number) => {
+  const onPress = useCallback((item: number) => {
     onCloseYears();
     onPressYear(item);
-  };
+  }, []);
+
+  const getStyle = useCallback(
+    ({pressed}) => [
+      styles.year,
+      {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
+    ],
+    [],
+  );
 
   const renderItem = useCallback(({item}: {item: number}) => {
     return (
       <Pressable
-        style={({pressed}) => [
-          styles.year,
-          {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
-        ]}
+        style={getStyle}
         accessibilityLabel={'pressYear'}
         onPress={() => onPress(item)}>
         <Typography>{item}</Typography>

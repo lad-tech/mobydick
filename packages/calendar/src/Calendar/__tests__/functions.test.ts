@@ -1,4 +1,4 @@
-import {calculateBoundaries} from '../functions';
+import {calculateBoundaries, calculateYearRange} from '../functions';
 
 describe('Calendar-functions', () => {
   it('calculateBoundaries', () => {
@@ -31,7 +31,7 @@ describe('Calendar-functions', () => {
       toDate: new Date('2023-01-20T00:00:00.000Z'),
     });
   });
-  it('day > max', () => {
+  it('calculateBoundaries day > max', () => {
     expect(
       calculateBoundaries(
         {
@@ -67,5 +67,17 @@ describe('Calendar-functions', () => {
       fromDate: new Date('2023-01-18T00:00:00.000Z'),
       toDate: 1674172800000,
     });
+  });
+  it('calculateYearRange', () => {
+    expect(calculateYearRange(2023)).toEqual([
+      2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
+      2020, 2021, 2022, 2023,
+    ]);
+  });
+  it('calculateYearRange next', () => {
+    expect(calculateYearRange(2007, true)).toEqual([
+      2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
+      2020, 2021, 2022, 2023,
+    ]);
   });
 });

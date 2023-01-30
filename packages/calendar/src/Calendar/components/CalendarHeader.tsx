@@ -49,6 +49,7 @@ const stylesCreate = () =>
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'center',
+      paddingTop: rem(12),
     },
     title: {
       width: rem(160),

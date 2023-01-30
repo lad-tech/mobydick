@@ -1,19 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Calendar press 1`] = `
-<View
-  style={
-    Object {
-      "paddingTop": 18,
-    }
-  }
->
+Array [
   <View
     style={
       Object {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "center",
+        "paddingTop": 18,
       }
     }
   >
@@ -110,7 +105,7 @@ exports[`Calendar press 1`] = `
         
       </Text>
     </View>
-  </View>
+  </View>,
   <View>
     <View
       style={
@@ -3639,7 +3634,7 @@ exports[`Calendar press 1`] = `
         </View>
       </View>
     </View>
-  </View>
+  </View>,
   <View
     accessibilityState={
       Object {
@@ -3668,24 +3663,19 @@ exports[`Calendar press 1`] = `
         "opacity": 1,
       }
     }
-  />
-</View>
+  />,
+]
 `;
 
 exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
-<View
-  style={
-    Object {
-      "paddingTop": 18,
-    }
-  }
->
+Array [
   <View
     style={
       Object {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "center",
+        "paddingTop": 18,
       }
     }
   >
@@ -3782,7 +3772,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
         
       </Text>
     </View>
-  </View>
+  </View>,
   <View>
     <View
       style={
@@ -7260,24 +7250,19 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
         </View>
       </View>
     </View>
-  </View>
-</View>
+  </View>,
+]
 `;
 
 exports[`Calendar press calendarLeftArrow 1`] = `
-<View
-  style={
-    Object {
-      "paddingTop": 18,
-    }
-  }
->
+Array [
   <View
     style={
       Object {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "center",
+        "paddingTop": 18,
       }
     }
   >
@@ -7374,7 +7359,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
         
       </Text>
     </View>
-  </View>
+  </View>,
   <View>
     <View
       style={
@@ -10852,24 +10837,19 @@ exports[`Calendar press calendarLeftArrow 1`] = `
         </View>
       </View>
     </View>
-  </View>
-</View>
+  </View>,
+]
 `;
 
 exports[`Calendar press calendarPressTitle 1`] = `
-<View
-  style={
-    Object {
-      "paddingTop": 18,
-    }
-  }
->
+Array [
   <View
     style={
       Object {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "center",
+        "paddingTop": 18,
       }
     }
   >
@@ -10966,7 +10946,7 @@ exports[`Calendar press calendarPressTitle 1`] = `
         
       </Text>
     </View>
-  </View>
+  </View>,
   <RCTScrollView
     data={
       Array [
@@ -11601,24 +11581,19 @@ exports[`Calendar press calendarPressTitle 1`] = `
         </View>
       </View>
     </View>
-  </RCTScrollView>
-</View>
+  </RCTScrollView>,
+]
 `;
 
 exports[`Calendar press calendarRightArrow 1`] = `
-<View
-  style={
-    Object {
-      "paddingTop": 18,
-    }
-  }
->
+Array [
   <View
     style={
       Object {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "center",
+        "paddingTop": 18,
       }
     }
   >
@@ -11715,7 +11690,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
         
       </Text>
     </View>
-  </View>
+  </View>,
   <View>
     <View
       style={
@@ -15868,24 +15843,19 @@ exports[`Calendar press calendarRightArrow 1`] = `
         </View>
       </View>
     </View>
-  </View>
-</View>
+  </View>,
+]
 `;
 
 exports[`Calendar press calendarRightArrow 12 -> 1  1`] = `
-<View
-  style={
-    Object {
-      "paddingTop": 18,
-    }
-  }
->
+Array [
   <View
     style={
       Object {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "center",
+        "paddingTop": 18,
       }
     }
   >
@@ -15982,7 +15952,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1  1`] = `
         
       </Text>
     </View>
-  </View>
+  </View>,
   <View>
     <View
       style={
@@ -19460,24 +19430,19 @@ exports[`Calendar press calendarRightArrow 12 -> 1  1`] = `
         </View>
       </View>
     </View>
-  </View>
-</View>
+  </View>,
+]
 `;
 
 exports[`Calendar press isClear  1`] = `
-<View
-  style={
-    Object {
-      "paddingTop": 18,
-    }
-  }
->
+Array [
   <View
     style={
       Object {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "center",
+        "paddingTop": 18,
       }
     }
   >
@@ -19574,7 +19539,7 @@ exports[`Calendar press isClear  1`] = `
         
       </Text>
     </View>
-  </View>
+  </View>,
   <View>
     <View
       style={
@@ -23459,7 +23424,7 @@ exports[`Calendar press isClear  1`] = `
         </View>
       </View>
     </View>
-  </View>
+  </View>,
   <View
     accessibilityState={
       Object {
@@ -23488,24 +23453,19 @@ exports[`Calendar press isClear  1`] = `
         "opacity": 1,
       }
     }
-  />
-</View>
+  />,
+]
 `;
 
 exports[`Calendar renders correctly 1`] = `
-<View
-  style={
-    Object {
-      "paddingTop": 18,
-    }
-  }
->
+Array [
   <View
     style={
       Object {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "center",
+        "paddingTop": 18,
       }
     }
   >
@@ -23602,7 +23562,7 @@ exports[`Calendar renders correctly 1`] = `
         
       </Text>
     </View>
-  </View>
+  </View>,
   <View>
     <View
       style={
@@ -27083,6 +27043,6 @@ exports[`Calendar renders correctly 1`] = `
         </View>
       </View>
     </View>
-  </View>
-</View>
+  </View>,
+]
 `;

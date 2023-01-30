@@ -92,7 +92,7 @@ export const calculateYearRange = (currentYear: number, next?: boolean) => {
       yearRange.push(currentYear + i);
     }
   } else {
-    for (let i = 16; i >= 1; i--) {
+    for (let i = 15; i >= 0; i--) {
       yearRange.push(currentYear - i);
     }
   }

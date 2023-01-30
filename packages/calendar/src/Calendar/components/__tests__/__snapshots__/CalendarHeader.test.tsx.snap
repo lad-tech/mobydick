@@ -7,6 +7,7 @@ exports[`CalendarHeader render 1`] = `
       "alignItems": "center",
       "flexDirection": "row",
       "justifyContent": "center",
+      "paddingTop": 18,
     }
   }
 >
