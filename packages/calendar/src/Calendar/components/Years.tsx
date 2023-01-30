@@ -20,27 +20,24 @@ const Years: FC<IYears> = props => {
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
 
-  const onPress = (index: number) => {
+  const onPress = (item: number) => {
     onCloseYears();
-    onPressYear(index);
+    onPressYear(item);
   };
 
-  const renderItem = useCallback(
-    ({item, index}: {item: string; index: number}) => {
-      return (
-        <Pressable
-          style={({pressed}) => [
-            styles.year,
-            {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
-          ]}
-          accessibilityLabel={'pressYear'}
-          onPress={() => onPress(index)}>
-          <Typography>{item}</Typography>
-        </Pressable>
-      );
-    },
-    [],
-  );
+  const renderItem = useCallback(({item}: {item: number}) => {
+    return (
+      <Pressable
+        style={({pressed}) => [
+          styles.year,
+          {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
+        ]}
+        accessibilityLabel={'pressYear'}
+        onPress={() => onPress(item)}>
+        <Typography>{item}</Typography>
+      </Pressable>
+    );
+  }, []);
 
   return (
     <FlatList

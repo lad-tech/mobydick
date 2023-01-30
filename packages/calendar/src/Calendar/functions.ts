@@ -85,12 +85,17 @@ export const calculateBoundaries = (
   return {fromDate, toDate};
 };
 
-export const calculateYearRange = (currentYear: number) => {
+export const calculateYearRange = (currentYear: number, next?: boolean) => {
   const yearRange = [];
-
-  for (let i = 15; i >= 0; i--) {
-    yearRange.push(currentYear - i);
+  if (next) {
+    for (let i = 1; i <= 16; i++) {
+      yearRange.push(currentYear + i);
+    }
+  } else {
+    for (let i = 16; i >= 1; i--) {
+      yearRange.push(currentYear - i);
+    }
   }
 
-  return {yearRange};
+  return yearRange;
 };

@@ -14,6 +14,7 @@ import {
 import useTheme from '@npm/mobydick-core/src/styles/theme/hooks/useTheme';
 import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
+import {View} from '@npm/mobydick-core';
 
 import {localeConfigRu} from './localeConfig';
 import {
@@ -68,7 +69,9 @@ const Calendar: FC<ICalendar> = props => {
   );
   const [currentYear, setCurrentYear] = useState<number>(today.getFullYear());
 
-  const {yearRange} = calculateYearRange(currentYear);
+  const [yearRange, setYearRange] = useState<number[]>(
+    calculateYearRange(currentYear),
+  );
 
   const todayTimeMidnight = new Date(
     today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)),
@@ -109,6 +112,7 @@ const Calendar: FC<ICalendar> = props => {
   };
 
   const markedToday = () => {
+    console.log('TODAY', new Date(todayTimeMidnight));
     setMarkedDates(
       getAllDatesBetween(
         new Date(todayTimeMidnight),
@@ -145,22 +149,36 @@ const Calendar: FC<ICalendar> = props => {
   }, [selectionState]);
 
   const onPressLeft = useCallback(() => {
-    if (currentMonthIndex) {
-      setCurrentMonthIndex(currentMonthIndex - 1);
-    } else {
-      setCurrentMonthIndex(11);
+    if (selectionState === ISelectionState.days) {
+      if (currentMonthIndex) {
+        setCurrentMonthIndex(currentMonthIndex - 1);
+      } else {
+        setCurrentMonthIndex(11);
+        setCurrentYear(currentYear - 1);
+      }
+    } else if (selectionState === ISelectionState.months) {
       setCurrentYear(currentYear - 1);
+    } else if (selectionState === ISelectionState.years) {
+      yearRange[0] && setYearRange(calculateYearRange(yearRange[0]));
     }
-  }, [currentMonthIndex]);
+  }, [currentMonthIndex, currentYear, yearRange]);
 
   const onPressRight = useCallback(() => {
-    if (currentMonthIndex + 1 < 12) {
-      setCurrentMonthIndex(currentMonthIndex + 1);
-    } else {
-      setCurrentMonthIndex(0);
+    if (selectionState === ISelectionState.days) {
+      if (currentMonthIndex + 1 < 12) {
+        setCurrentMonthIndex(currentMonthIndex + 1);
+      } else {
+        setCurrentMonthIndex(0);
+        setCurrentYear(currentYear + 1);
+      }
+    } else if (selectionState === ISelectionState.months) {
       setCurrentYear(currentYear + 1);
+    } else if (selectionState === ISelectionState.years) {
+      const lastYear = yearRange[yearRange?.length - 1];
+
+      lastYear && setYearRange(calculateYearRange(lastYear, true));
     }
-  }, [currentMonthIndex]);
+  }, [currentMonthIndex, yearRange, currentMonthIndex, currentYear]);
 
   const getCalenderTitle = () => {
     if (selectionState === ISelectionState.months) {
@@ -176,7 +194,7 @@ const Calendar: FC<ICalendar> = props => {
   };
 
   return (
-    <>
+    <View style={styles.calendar}>
       <CalendarHeader
         title={getCalenderTitle()}
         onPressLeft={onPressLeft}
@@ -186,7 +204,7 @@ const Calendar: FC<ICalendar> = props => {
       {selectionState === ISelectionState.days && (
         <DefaultCalendar
           firstDay={1}
-          style={styles.calendar}
+          style={styles.daysView}
           markingType={'period'}
           markedDates={markedDates?.dates || {}}
           onDayPress={onDayPress}
@@ -213,8 +231,8 @@ const Calendar: FC<ICalendar> = props => {
       {selectionState === ISelectionState.years && (
         <Years
           onCloseYears={() => setSelectionState(ISelectionState.months)}
-          onPressYear={monthIndex => {
-            setCurrentMonthIndex(monthIndex);
+          onPressYear={year => {
+            setCurrentYear(year);
             setSelectionState(ISelectionState.months);
           }}
           yearRange={yearRange}
@@ -222,7 +240,7 @@ const Calendar: FC<ICalendar> = props => {
       )}
 
       {bottomView}
-    </>
+    </View>
   );
 };
 

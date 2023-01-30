@@ -48,6 +48,7 @@ const stylesCreate = () =>
     container: {
       flexDirection: 'row',
       alignItems: 'center',
+      justifyContent: 'center',
     },
     title: {
       width: rem(160),
