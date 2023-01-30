@@ -32,7 +32,7 @@ const Tab = (props: ITabProps): JSX.Element => {
     } else if (onPressCommon) {
       onPressCommon(item);
     }
-  }, [item]);
+  }, [item.onPress, onPressCommon]);
 
   return (
     <TouchableOpacity

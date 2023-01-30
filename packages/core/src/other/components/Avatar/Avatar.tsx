@@ -1,5 +1,5 @@
 import {Image, ImageErrorEventData, StyleSheet} from 'react-native';
-import React, {useState} from 'react';
+import React, {useCallback, useState} from 'react';
 
 import {Typography} from '../../../typography';
 import View from '../../../basic/components/View/View';
@@ -17,6 +17,10 @@ const Avatar = ({user}: IAvatarProps) => {
   const [styles] = useStyles(stylesCreate);
   const [error, setError] = useState<ImageErrorEventData>();
 
+  const onError = useCallback(e => {
+    setError(e.nativeEvent);
+  }, []);
+
   if (!user) {
     return null;
   }
@@ -31,9 +35,7 @@ const Avatar = ({user}: IAvatarProps) => {
           style={{
             borderRadius: rem(64),
           }}
-          onError={e => {
-            setError(e.nativeEvent);
-          }}
+          onError={onError}
           accessibilityLabel={'imageAvatar'}
         />
       )}
