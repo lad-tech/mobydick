@@ -10841,7 +10841,7 @@ Array [
 ]
 `;
 
-exports[`Calendar press calendarPressTitle 1`] = `
+exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
 Array [
   <View
     style={
@@ -10915,7 +10915,2423 @@ Array [
           ]
         }
       >
-        2022
+        2009
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="calendarRightArrow"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Neotis",
+            "fontSize": 36,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>,
+  <RCTScrollView
+    data={
+      Array [
+        "Янв",
+        "Фев",
+        "Март",
+        "Апр",
+        "Май",
+        "Июнь",
+        "Июль",
+        "Авг",
+        "Сен",
+        "Окт",
+        "Нояб",
+        "Дек",
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEnabled={false}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "alignContent": "center",
+        "width": "100%",
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Янв
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Фев
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Март
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Апр
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Май
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Июнь
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Июль
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Авг
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Сен
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Окт
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Нояб
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Дек
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;
+
+exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingTop": 18,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="calendarLeftArrow"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Neotis",
+            "fontSize": 36,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="calendarPressTitle"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "opacity": 1,
+          "width": 240,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 22.5,
+              "lineHeight": 28.5,
+            },
+            undefined,
+          ]
+        }
+      >
+        2021
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="calendarRightArrow"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Neotis",
+            "fontSize": 36,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>,
+  <RCTScrollView
+    data={
+      Array [
+        "Янв",
+        "Фев",
+        "Март",
+        "Апр",
+        "Май",
+        "Июнь",
+        "Июль",
+        "Авг",
+        "Сен",
+        "Окт",
+        "Нояб",
+        "Дек",
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEnabled={false}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "alignContent": "center",
+        "width": "100%",
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Янв
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Фев
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Март
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Апр
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Май
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Июнь
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Июль
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Авг
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Сен
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Окт
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Нояб
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Дек
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;
+
+exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingTop": 18,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="calendarLeftArrow"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Neotis",
+            "fontSize": 36,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="calendarPressTitle"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "opacity": 1,
+          "width": 240,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 22.5,
+              "lineHeight": 28.5,
+            },
+            undefined,
+          ]
+        }
+      >
+        2007-2022
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="calendarRightArrow"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Neotis",
+            "fontSize": 36,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>,
+  <RCTScrollView
+    data={
+      Array [
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEnabled={false}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "alignContent": "center",
+        "width": "100%",
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2007
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2008
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2009
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2010
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2011
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2012
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2013
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2014
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2015
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2016
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2017
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2018
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2019
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2020
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2021
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressYear"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 4,
+                  "paddingVertical": 30,
+                },
+                Object {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              2022
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;
+
+exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "paddingTop": 18,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="calendarLeftArrow"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Object {
+            "color": "#5E6678",
+            "fontFamily": "Neotis",
+            "fontSize": 36,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="calendarPressTitle"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "opacity": 1,
+          "width": 240,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          Array [
+            Object {
+              "color": "#20242D",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 22.5,
+              "lineHeight": 28.5,
+            },
+            undefined,
+          ]
+        }
+      >
+        2024
       </Text>
     </View>
     <View

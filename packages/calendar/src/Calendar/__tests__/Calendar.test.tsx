@@ -172,13 +172,81 @@ describe('Calendar', () => {
     fireEvent.press(calendarRightArrow);
     expect(toJSON()).toMatchSnapshot();
   });
-  it('press calendarPressTitle', () => {
+  it('press calendarPressTitle calendarRightArrow', () => {
+    const {toJSON, getByLabelText, getAllByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarPressTitle = getByLabelText('calendarPressTitle');
+    fireEvent.press(calendarPressTitle);
+
+    const calendarRightArrow = getByLabelText('calendarRightArrow');
+    fireEvent.press(calendarRightArrow);
+
+    const pressMonth = getAllByLabelText('pressMonth')[5];
+    pressMonth && fireEvent.press(pressMonth);
+
+    fireEvent.press(calendarPressTitle);
+    fireEvent.press(calendarPressTitle);
+
+    fireEvent.press(calendarRightArrow);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+
+  it('press calendarPressTitle*2 calendarRightArrow', () => {
     const {toJSON, getByLabelText} = render(
       <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
     );
     const calendarPressTitle = getByLabelText('calendarPressTitle');
+    fireEvent.press(calendarPressTitle);
+
+    const calendarRightArrow = getByLabelText('calendarRightArrow');
+    fireEvent.press(calendarRightArrow);
 
     fireEvent.press(calendarPressTitle);
+
+    fireEvent.press(calendarRightArrow);
+
+    fireEvent.press(calendarPressTitle);
+
+    fireEvent.press(calendarRightArrow);
+    expect(toJSON()).toMatchSnapshot();
+  });
+
+  it('press calendarPressTitle * 2 calendarLeftArrow', () => {
+    const {toJSON, getByLabelText, getAllByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarPressTitle = getByLabelText('calendarPressTitle');
+    fireEvent.press(calendarPressTitle);
+
+    const calendarLeftArrow = getByLabelText('calendarLeftArrow');
+    fireEvent.press(calendarLeftArrow);
+
+    fireEvent.press(calendarPressTitle);
+    fireEvent.press(calendarLeftArrow);
+
+    const pressYear = getAllByLabelText('pressYear')[2];
+    pressYear && fireEvent.press(pressYear);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+
+  it('press calendarPressTitle * 3 calendarLeftArrow', () => {
+    const {toJSON, getByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarPressTitle = getByLabelText('calendarPressTitle');
+    fireEvent.press(calendarPressTitle);
+
+    const calendarLeftArrow = getByLabelText('calendarLeftArrow');
+    fireEvent.press(calendarLeftArrow);
+
+    fireEvent.press(calendarPressTitle);
+    fireEvent.press(calendarLeftArrow);
+
+    fireEvent.press(calendarPressTitle);
+    fireEvent.press(calendarLeftArrow);
     expect(toJSON()).toMatchSnapshot();
   });
 });
