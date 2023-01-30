@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useCallback} from 'react';
 
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import {ITab, ITabsProps} from '../../types';
@@ -18,15 +18,18 @@ const Tabs = (props: ITabsProps) => {
     ...otherProps
   } = props;
 
-  const renderItem = ({item}: {item: ITab}) => {
-    return (
-      <Tab
-        item={item}
-        active={Boolean(activeValue === item.value)}
-        {...otherProps}
-      />
-    );
-  };
+  const renderItem = useCallback(
+    ({item}: {item: ITab}) => {
+      return (
+        <Tab
+          item={item}
+          active={Boolean(activeValue === item.value)}
+          {...otherProps}
+        />
+      );
+    },
+    [activeValue, otherProps],
+  );
 
   return (
     <View style={{flexDirection: 'row'}}>

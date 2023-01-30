@@ -127,6 +127,11 @@ const Dots = ({length, activeDot}: IDots) => {
     ));
   };
 
+  const onLayout = useCallback(() => {
+    //scroll to right index on initial render
+    scrollTo(activeDot, false);
+  }, [activeDot]);
+
   if (isDynamicDots) {
     return (
       <View
@@ -138,6 +143,7 @@ const Dots = ({length, activeDot}: IDots) => {
       </View>
     );
   }
+
   return (
     <Animated.View
       style={[
@@ -145,10 +151,7 @@ const Dots = ({length, activeDot}: IDots) => {
           width: WIDTH_MEDIUM,
         },
       ]}
-      onLayout={() => {
-        //scroll to right index on initial render
-        scrollTo(activeDot, false);
-      }}
+      onLayout={onLayout}
       accessibilityLabel={'dotsAnimatedView'}>
       <ScrollView
         ref={refScrollView}
