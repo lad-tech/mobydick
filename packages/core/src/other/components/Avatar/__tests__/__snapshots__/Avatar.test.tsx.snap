@@ -33,7 +33,106 @@ exports[`Avatar render avatar not photo 1`] = `
 </View>
 `;
 
-exports[`Avatar render avatar with photo 1`] = `
+exports[`Avatar render avatar with photo L 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 90,
+      "height": 180,
+      "justifyContent": "center",
+      "width": 180,
+    }
+  }
+>
+  <Image
+    accessibilityLabel="imageAvatar"
+    onError={[Function]}
+    source={
+      Object {
+        "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 90,
+        "height": 180,
+        "width": 180,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar render avatar with photo S 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 36,
+      "height": 72,
+      "justifyContent": "center",
+      "width": 72,
+    }
+  }
+>
+  <Image
+    accessibilityLabel="imageAvatar"
+    onError={[Function]}
+    source={
+      Object {
+        "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 36,
+        "height": 72,
+        "width": 72,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar render avatar with photo XL 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 120,
+      "height": 240,
+      "justifyContent": "center",
+      "width": 240,
+    }
+  }
+>
+  <Image
+    accessibilityLabel="imageAvatar"
+    onError={[Function]}
+    source={
+      Object {
+        "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 120,
+        "height": 240,
+        "width": 240,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar render avatar with photo without size 1`] = `
 <View
   style={
     Object {

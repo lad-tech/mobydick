@@ -33,8 +33,6 @@ const stylesCreate = (theme: IThemeContext, size: ISizeAvatar) => {
           height: rem(80),
           borderRadius: rem(40),
         };
-      default:
-        return {};
     }
   };
 
