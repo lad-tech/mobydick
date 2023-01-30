@@ -15079,7 +15079,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel="Сегодня Воскресенье 29 Январь 2023 "
+              accessibilityLabel=" Воскресенье 29 Январь 2023 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15115,9 +15115,6 @@ Array [
                         "justifyContent": "center",
                         "width": 38,
                       },
-                      Object {
-                        "backgroundColor": undefined,
-                      },
                     ]
                   }
                 >
@@ -15131,10 +15128,6 @@ Array [
                           "fontFamily": "Inter-Regular",
                           "fontSize": 21,
                           "fontWeight": "300",
-                        },
-                        Object {
-                          "color": "#20242D",
-                          "fontWeight": "500",
                         },
                       ]
                     }
@@ -15187,7 +15180,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 30 Январь 2023 "
+              accessibilityLabel="Сегодня Понедельник 30 Январь 2023 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15223,6 +15216,9 @@ Array [
                         "justifyContent": "center",
                         "width": 38,
                       },
+                      Object {
+                        "backgroundColor": undefined,
+                      },
                     ]
                   }
                 >
@@ -15236,6 +15232,10 @@ Array [
                           "fontFamily": "Inter-Regular",
                           "fontSize": 21,
                           "fontWeight": "300",
+                        },
+                        Object {
+                          "color": "#20242D",
+                          "fontWeight": "500",
                         },
                       ]
                     }
