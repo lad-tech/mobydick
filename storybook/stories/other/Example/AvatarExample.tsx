@@ -1,4 +1,5 @@
-import {Avatar} from '@npm/mobydick-core';
+import {Avatar, ISizeAvatar} from '@npm/mobydick-core';
+import {select} from '@storybook/addon-knobs';
 import React from 'react';
 
 const AvatarExample = () => {
@@ -13,8 +14,14 @@ const AvatarExample = () => {
 
   return (
     <>
-      <Avatar user={userWithPhoto} />
-      <Avatar user={userWithoutPhoto} />
+      <Avatar
+        user={userWithPhoto}
+        size={select('size', ISizeAvatar, ISizeAvatar.M)}
+      />
+      <Avatar
+        user={userWithoutPhoto}
+        size={select('size', ISizeAvatar, ISizeAvatar.M)}
+      />
     </>
   );
 };
