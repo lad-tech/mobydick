@@ -20,6 +20,15 @@ const CounterExample = () => {
         size={select('size one counter', ICounterSize, ICounterSize.medium)}
       />
       <Counter
+        style={{
+          top: number('top notification', -4),
+          left: number('left notification', 4),
+        }}
+        count={0}
+        type={select('type one counter', ICounterTypes, ICounterTypes.tertiary)}
+        size={select('size one counter', ICounterSize, ICounterSize.medium)}
+      />
+      <Counter
         count={2}
         type={select(
           'type two counter',

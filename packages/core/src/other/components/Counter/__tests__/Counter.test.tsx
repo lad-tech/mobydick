@@ -53,4 +53,8 @@ describe('Counter', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
+  test('render notification', () => {
+    const {toJSON} = render(<Counter />);
+    expect(toJSON()).toMatchSnapshot();
+  });
 });

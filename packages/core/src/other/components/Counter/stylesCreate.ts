@@ -47,6 +47,16 @@ const stylesCreate = (
       justifyContent: 'center',
       ...getBackgroundColor(),
     },
+    notification: {
+      position: 'absolute',
+      zIndex: 1,
+      borderColor: colors.BgPrimary,
+      minWidth: spaces.Space8,
+      height: spaces.Space8,
+      borderRadius: spaces.Space8 / 2,
+      borderWidth: spaces.Space1,
+      backgroundColor: colors.ElementAttention,
+    },
     text: {
       textAlign: 'center',
       paddingHorizontal: isMedium ? spaces.Space6 : spaces.Space4,

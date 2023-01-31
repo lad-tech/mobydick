@@ -10,7 +10,7 @@ import stylesCreate from './stylesCreate';
 import {ICounterSize, ICounterTypes} from './types';
 
 interface IProps {
-  count: number;
+  count?: number;
   type?: ICounterTypes;
   style?: ViewStyle | ViewStyle[];
   size?: ICounterSize;
@@ -30,7 +30,7 @@ const Counter: FC<IProps> = ({
   );
 
   if (!count) {
-    return null;
+    return <View style={[styles.notification, style]} />;
   }
 
   const lastNumber = `${'9'.repeat(maxLength)}+`;
