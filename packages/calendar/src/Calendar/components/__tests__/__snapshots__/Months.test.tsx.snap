@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Months press month  1`] = `
+exports[`Months press month 1`] = `
 <RCTScrollView
   data={
-    Array [
+    [
       "Янв",
       "Фев",
       "Март",
@@ -32,14 +32,14 @@ exports[`Months press month  1`] = `
   renderItem={[Function]}
   scrollEnabled={false}
   scrollEventThrottle={50}
-  stickyHeaderIndices={Array []}
+  stickyHeaderIndices={[]}
   style={
-    Object {
+    {
       "alignContent": "center",
       "width": "100%",
     }
   }
-  viewabilityConfigCallbackPairs={Array []}
+  viewabilityConfigCallbackPairs={[]}
 >
   <View>
     <View
@@ -48,7 +48,7 @@ exports[`Months press month  1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -68,14 +68,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -84,8 +84,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -113,14 +113,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -129,8 +129,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -158,14 +158,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -174,8 +174,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -196,7 +196,7 @@ exports[`Months press month  1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -216,14 +216,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -232,8 +232,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -261,14 +261,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -277,8 +277,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -306,14 +306,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -322,8 +322,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -344,7 +344,7 @@ exports[`Months press month  1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -364,14 +364,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -380,8 +380,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -409,14 +409,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -425,8 +425,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -454,14 +454,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -470,8 +470,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -492,7 +492,7 @@ exports[`Months press month  1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -512,14 +512,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -528,8 +528,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -557,14 +557,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -573,8 +573,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -602,14 +602,14 @@ exports[`Months press month  1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -618,8 +618,8 @@ exports[`Months press month  1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -641,7 +641,7 @@ exports[`Months press month  1`] = `
 exports[`Months render 1`] = `
 <RCTScrollView
   data={
-    Array [
+    [
       "Янв",
       "Фев",
       "Март",
@@ -670,14 +670,14 @@ exports[`Months render 1`] = `
   renderItem={[Function]}
   scrollEnabled={false}
   scrollEventThrottle={50}
-  stickyHeaderIndices={Array []}
+  stickyHeaderIndices={[]}
   style={
-    Object {
+    {
       "alignContent": "center",
       "width": "100%",
     }
   }
-  viewabilityConfigCallbackPairs={Array []}
+  viewabilityConfigCallbackPairs={[]}
 >
   <View>
     <View
@@ -686,7 +686,7 @@ exports[`Months render 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -706,14 +706,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -722,8 +722,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -751,14 +751,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -767,8 +767,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -796,14 +796,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -812,8 +812,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -834,7 +834,7 @@ exports[`Months render 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -854,14 +854,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -870,8 +870,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -899,14 +899,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -915,8 +915,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -944,14 +944,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -960,8 +960,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -982,7 +982,7 @@ exports[`Months render 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -1002,14 +1002,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1018,8 +1018,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1047,14 +1047,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1063,8 +1063,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1092,14 +1092,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1108,8 +1108,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1130,7 +1130,7 @@ exports[`Months render 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -1150,14 +1150,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1166,8 +1166,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1195,14 +1195,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1211,8 +1211,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1240,14 +1240,14 @@ exports[`Months render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 3,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1256,8 +1256,8 @@ exports[`Months render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,

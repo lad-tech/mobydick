@@ -114,7 +114,7 @@ describe('@npm/mobydick-core/Button', () => {
     },
   );
 
-  it('renders correctly loading disabled ', () => {
+  it('renders correctly loading disabled', () => {
     const {toJSON} = render(
       <Button type={IButtonTypes.secondary} disabled={true} loading={true} />,
     );

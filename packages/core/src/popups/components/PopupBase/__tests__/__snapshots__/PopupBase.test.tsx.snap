@@ -15,8 +15,8 @@ exports[`@npm/mobydick-core/PopupBase should not fire onClose event 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
@@ -45,8 +45,8 @@ exports[`@npm/mobydick-core/PopupBase should renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",

@@ -1,9 +1,3 @@
-import {
-  CheckBox,
-  ControlsList,
-  useStyles,
-  Typography,
-} from '@npm/mobydick-core';
 import {boolean, text} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
 import React from 'react';
@@ -21,6 +15,13 @@ import {
   textTwo,
 } from '../constants';
 import stylesCreate from '../stylesCreate';
+
+import {
+  CheckBox,
+  ControlsList,
+  useStyles,
+  Typography,
+} from '@npm/mobydick-core';
 
 const CheckboxListExample = () => {
   const [styles] = useStyles(stylesCreate);

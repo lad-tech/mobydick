@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import {DropDown, IInputsTypes, rem, Typography} from '@npm/mobydick-core';
 import {boolean, number, select, text} from '@storybook/addon-knobs';
+
+import {DropDown, IInputsTypes, rem, Typography} from '@npm/mobydick-core';
 
 const ExampleArrayOfObjects = () => {
   const [selected, setSelected] = useState<number>();

@@ -1,3 +1,8 @@
+import React, {useState} from 'react';
+import {text} from '@storybook/addon-knobs';
+
+import ExampleModal from './ExampleModal';
+
 import {
   ModalError,
   ModalLoading,
@@ -6,10 +11,6 @@ import {
   View,
   Button,
 } from '@npm/mobydick-core';
-import React, {useState} from 'react';
-import {text} from '@storybook/addon-knobs';
-
-import ExampleModal from './ExampleModal';
 
 const PopupModalExample = () => {
   const popupContext = usePopups();

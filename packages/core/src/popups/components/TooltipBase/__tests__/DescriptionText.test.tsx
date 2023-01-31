@@ -15,7 +15,7 @@ describe('@npm/mobydick-core/TooltipBase/DescriptionText', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  it('should renders correctly ', () => {
+  it('should renders correctly', () => {
     const {toJSON} = render(
       <DescriptionText descriptionText={'descriptionText'} />,
     );

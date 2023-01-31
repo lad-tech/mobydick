@@ -1,6 +1,9 @@
 import {storiesOf} from '@storybook/react-native';
 import React, {useState} from 'react';
 import {number, select} from '@storybook/addon-knobs';
+
+import CenterView from '../../CenterView';
+
 import {
   SimpleIcon,
   SimpleIconAlbum,
@@ -8,8 +11,6 @@ import {
   SimpleIconName,
   rem,
 } from '@npm/mobydick-core';
-
-import CenterView from '../../CenterView';
 
 const ExampleSimpleIcon = () => {
   const [name, setName] = useState<SimpleIconName>('icon-image');

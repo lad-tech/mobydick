@@ -14,7 +14,7 @@ exports[`Tab render correctly active false 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "#D1D4DB",
       "borderRadius": 24,
       "marginRight": 24,
@@ -27,8 +27,8 @@ exports[`Tab render correctly active false 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
           "fontSize": 42,
@@ -57,7 +57,7 @@ exports[`Tab render correctly active true 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "#2B78EE",
       "borderRadius": 24,
       "marginRight": 24,
@@ -70,8 +70,8 @@ exports[`Tab render correctly active true 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
           "fontSize": 42,
@@ -100,7 +100,7 @@ exports[`Tab render correctly with props 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "#2B78EE",
       "borderRadius": 24,
       "marginRight": 24,
@@ -114,8 +114,8 @@ exports[`Tab render correctly with props 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
           "fontSize": 42,

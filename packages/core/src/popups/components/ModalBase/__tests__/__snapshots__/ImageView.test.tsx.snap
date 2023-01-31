@@ -3,8 +3,8 @@
 exports[`@npm/mobydick-core/ImageView should renders correctly 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "marginBottom": 12,
       },
       undefined,
@@ -18,11 +18,11 @@ exports[`@npm/mobydick-core/ImageView should renders correctly 1`] = `
 exports[`@npm/mobydick-core/ImageView should renders correctly with styles 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "marginBottom": 12,
       },
-      Object {
+      {
         "flex": 1,
       },
     ]

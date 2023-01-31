@@ -15,7 +15,7 @@ describe('Swipe', () => {
     act(() => panHandler.props.onPanResponderRelease({}, {dx: -10}));
     expect(toJSON()).toMatchSnapshot();
   });
-  it('should renders correctly by default + ', function () {
+  it('should renders correctly by default +', function () {
     const {getByLabelText, toJSON} = render(
       <Swipe active={false} disabled={false} onPress={onPress} />,
     );
@@ -33,7 +33,7 @@ describe('Swipe', () => {
     expect(toJSON()).toMatchSnapshot();
   });
 
-  it('should renders correctly disabled + ', function () {
+  it('should renders correctly disabled +', function () {
     const {getByLabelText, toJSON} = render(
       <Swipe active={true} disabled onPress={onPress} />,
     );
@@ -56,7 +56,7 @@ describe('Swipe', () => {
     });
     expect(toJSON()).toMatchSnapshot();
   });
-  it('should renders correctly disabled - ', function () {
+  it('should renders correctly disabled -', function () {
     const {getByLabelText, toJSON} = render(
       <Swipe active={true} disabled onPress={onPress} />,
     );

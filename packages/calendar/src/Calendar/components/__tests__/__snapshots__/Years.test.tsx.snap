@@ -3,7 +3,7 @@
 exports[`Years press year 1`] = `
 <RCTScrollView
   data={
-    Array [
+    [
       2008,
       2009,
       2010,
@@ -36,14 +36,14 @@ exports[`Years press year 1`] = `
   renderItem={[Function]}
   scrollEnabled={false}
   scrollEventThrottle={50}
-  stickyHeaderIndices={Array []}
+  stickyHeaderIndices={[]}
   style={
-    Object {
+    {
       "alignContent": "center",
       "width": "100%",
     }
   }
-  viewabilityConfigCallbackPairs={Array []}
+  viewabilityConfigCallbackPairs={[]}
 >
   <View>
     <View
@@ -52,7 +52,7 @@ exports[`Years press year 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -72,14 +72,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -88,8 +88,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -117,14 +117,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -133,8 +133,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -162,14 +162,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -178,8 +178,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -207,14 +207,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -223,8 +223,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -245,7 +245,7 @@ exports[`Years press year 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -265,14 +265,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -281,8 +281,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -310,14 +310,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -326,8 +326,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -355,14 +355,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -371,8 +371,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -400,14 +400,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -416,8 +416,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -438,7 +438,7 @@ exports[`Years press year 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -458,14 +458,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -474,8 +474,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -503,14 +503,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -519,8 +519,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -548,14 +548,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -564,8 +564,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -593,14 +593,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -609,8 +609,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -631,7 +631,7 @@ exports[`Years press year 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -651,14 +651,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -667,8 +667,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -696,14 +696,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -712,8 +712,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -741,14 +741,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -757,8 +757,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -786,14 +786,14 @@ exports[`Years press year 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -802,8 +802,8 @@ exports[`Years press year 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -825,7 +825,7 @@ exports[`Years press year 1`] = `
 exports[`Years render 1`] = `
 <RCTScrollView
   data={
-    Array [
+    [
       2008,
       2009,
       2010,
@@ -858,14 +858,14 @@ exports[`Years render 1`] = `
   renderItem={[Function]}
   scrollEnabled={false}
   scrollEventThrottle={50}
-  stickyHeaderIndices={Array []}
+  stickyHeaderIndices={[]}
   style={
-    Object {
+    {
       "alignContent": "center",
       "width": "100%",
     }
   }
-  viewabilityConfigCallbackPairs={Array []}
+  viewabilityConfigCallbackPairs={[]}
 >
   <View>
     <View
@@ -874,7 +874,7 @@ exports[`Years render 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -894,14 +894,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -910,8 +910,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -939,14 +939,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -955,8 +955,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -984,14 +984,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1000,8 +1000,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1029,14 +1029,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1045,8 +1045,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1067,7 +1067,7 @@ exports[`Years render 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -1087,14 +1087,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1103,8 +1103,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1132,14 +1132,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1148,8 +1148,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1177,14 +1177,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1193,8 +1193,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1222,14 +1222,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1238,8 +1238,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1260,7 +1260,7 @@ exports[`Years render 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -1280,14 +1280,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1296,8 +1296,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1325,14 +1325,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1341,8 +1341,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1370,14 +1370,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1386,8 +1386,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1415,14 +1415,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1431,8 +1431,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1453,7 +1453,7 @@ exports[`Years render 1`] = `
     >
       <View
         style={
-          Object {
+          {
             "flexDirection": "row",
           }
         }
@@ -1473,14 +1473,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1489,8 +1489,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1518,14 +1518,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1534,8 +1534,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1563,14 +1563,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1579,8 +1579,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,
@@ -1608,14 +1608,14 @@ exports[`Years render 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "borderRadius": 12,
                 "flex": 4,
                 "paddingVertical": 60,
               },
-              Object {
+              {
                 "backgroundColor": "#FFF",
               },
             ]
@@ -1624,8 +1624,8 @@ exports[`Years render 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#20242D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 45,

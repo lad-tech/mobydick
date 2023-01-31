@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/modalBase should renders correctly VerticalButtonsView one button  1`] = `
+exports[`@npm/mobydick-core/modalBase should renders correctly VerticalButtonsView one button 1`] = `
 <View
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "marginTop": 60,
@@ -12,7 +12,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly VerticalButtonsVi
 >
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -27,7 +27,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly VerticalButtonsVi
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#F54D3D",
@@ -42,15 +42,15 @@ exports[`@npm/mobydick-core/modalBase should renders correctly VerticalButtonsVi
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 54,
             "lineHeight": 66,
           },
-          Array [
-            Object {
+          [
+            {
               "color": "#FFF",
               "paddingHorizontal": 18,
             },

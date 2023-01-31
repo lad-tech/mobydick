@@ -1,4 +1,3 @@
-import {ControlsList, Radio, useStyles, Typography} from '@npm/mobydick-core';
 import {boolean, text} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
 import React from 'react';
@@ -16,6 +15,8 @@ import {
   textThree,
   textTwo,
 } from '../constants';
+
+import {ControlsList, Radio, useStyles, Typography} from '@npm/mobydick-core';
 
 const RadioListExample = () => {
   const [styles] = useStyles(stylesCreate);

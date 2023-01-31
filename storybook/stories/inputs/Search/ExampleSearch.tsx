@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import {Search, iconNames, SimpleIcon} from '@npm/mobydick-core';
 import {select} from '@storybook/addon-knobs';
+
+import {Search, iconNames, SimpleIcon} from '@npm/mobydick-core';
 import {useDebounce} from '@npm/mobydick-utils';
 
 const ExampleSearch = () => {

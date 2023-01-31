@@ -20,7 +20,7 @@ describe('@npm/mobydick-core/Selector', () => {
 
   const selectedItem = list[0]?.value;
 
-  it('renders correctly ', async () => {
+  it('renders correctly', async () => {
     const inputList = [{label: 'list', value: 'list'}] as const;
     const {toJSON, findByLabelText} = render(
       <SafeAreaProvider>
@@ -73,7 +73,7 @@ describe('@npm/mobydick-core/Selector', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  it('render correct renderItem Typography with custom style ', () => {
+  it('render correct renderItem Typography with custom style', () => {
     const {toJSON} = render(
       <SafeAreaProvider>
         <Selector
@@ -89,7 +89,7 @@ describe('@npm/mobydick-core/Selector', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  it('render correct renderItem Typography  with custom font ', () => {
+  it('render correct renderItem Typography  with custom font', () => {
     const {toJSON} = render(
       <SafeAreaProvider>
         <Selector

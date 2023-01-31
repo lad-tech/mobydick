@@ -3,8 +3,8 @@
 exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type = check 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
         "borderRadius": 100,
         "padding": 36,
@@ -16,7 +16,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type
   <Text
     allowFontScaling={true}
     style={
-      Object {
+      {
         "color": "#2B78EE",
         "fontFamily": "Neotis",
         "fontSize": 108,
@@ -31,13 +31,13 @@ exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type
 exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type = warning 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
         "borderRadius": 100,
         "padding": 36,
       },
-      Object {
+      {
         "backgroundColor": "#fff",
       },
     ]
@@ -46,7 +46,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type
   <Text
     allowFontScaling={true}
     style={
-      Object {
+      {
         "color": "#fff",
         "fontFamily": "Neotis",
         "fontSize": 108,

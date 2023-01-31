@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+
 import {Swipe, View} from '@npm/mobydick-core';
 
 const SwipeExample = () => {

@@ -1,15 +1,16 @@
 import {storiesOf} from '@storybook/react-native';
+import {boolean, color, number, select} from '@storybook/addon-knobs';
+import React from 'react';
+import {action} from '@storybook/addon-actions';
+
+import CenterView from '../CenterView';
+
 import {
   Indicator,
   ISizeSpinner,
   PanelSpinner,
   Spinner,
 } from '@npm/mobydick-core';
-import {boolean, color, number, select} from '@storybook/addon-knobs';
-import React from 'react';
-import {action} from '@storybook/addon-actions';
-
-import CenterView from '../CenterView';
 
 storiesOf('Design System/Progress/', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)

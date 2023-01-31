@@ -1,8 +1,10 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {Typography, View} from '@npm/mobydick-core';
 
 import CenterView from '../CenterView';
+
+import {Typography, View} from '@npm/mobydick-core';
+
 storiesOf('Check', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('CHECK', () => (

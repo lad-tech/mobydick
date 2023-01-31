@@ -1,5 +1,10 @@
 import {boolean, select, text} from '@storybook/addon-knobs';
 import React, {FC} from 'react';
+
+import selectFont from '../../../utils/selectFont';
+
+import ImageModal from './icons/svg/imageModal.svg';
+
 import {
   IContentProps,
   ModalBase,
@@ -9,10 +14,6 @@ import {
   IButtonSize,
   IButtonTypes,
 } from '@npm/mobydick-core';
-
-import selectFont from '../../../utils/selectFont';
-
-import ImageModal from './icons/svg/imageModal.svg';
 
 const allowAccessText = 'Разрешить доступ';
 

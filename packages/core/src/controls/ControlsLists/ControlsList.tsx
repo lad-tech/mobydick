@@ -4,7 +4,7 @@ import useStyles from '../../styles/theme/hooks/useStyles';
 import View from '../../basic/components/View/View';
 
 import {IControlsList} from './types';
-import cloneControls from './cloneControls';
+import useCloneControls from './useCloneControls';
 import stylesCreate from './stylesCreate';
 
 const ControlsList: FC<IControlsList> = ({
@@ -16,7 +16,7 @@ const ControlsList: FC<IControlsList> = ({
   initialValues,
   listStyles,
 }) => {
-  const {values, radios} = cloneControls(
+  const {values, radios} = useCloneControls(
     children,
     single,
     disabled,

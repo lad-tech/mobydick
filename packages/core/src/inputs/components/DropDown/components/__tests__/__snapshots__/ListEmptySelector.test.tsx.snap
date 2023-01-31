@@ -4,14 +4,14 @@ exports[`npm/mobydick-inputs/ListEmptySelector renders correctly with text and f
 <Text
   allowFontScaling={true}
   style={
-    Array [
-      Object {
+    [
+      {
         "color": "#F54D3D",
         "fontFamily": "Inter-Regular",
         "fontSize": 54,
         "lineHeight": 66,
       },
-      Object {
+      {
         "paddingHorizontal": 12,
       },
     ]
@@ -25,14 +25,14 @@ exports[`npm/mobydick-inputs/ListEmptySelector renders correctly without text an
 <Text
   allowFontScaling={true}
   style={
-    Array [
-      Object {
+    [
+      {
         "color": "#9BA1B0",
         "fontFamily": "Inter-Regular",
         "fontSize": 48,
         "lineHeight": 60,
       },
-      Object {
+      {
         "paddingHorizontal": 12,
       },
     ]

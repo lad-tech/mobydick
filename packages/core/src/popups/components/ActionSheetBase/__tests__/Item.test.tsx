@@ -25,7 +25,7 @@ describe('@npm/mobydick-core/ActionSheetBase', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  it('should renders correctly inner item ', () => {
+  it('should renders correctly inner item', () => {
     const {toJSON} = render(
       <Item
         textFont={'Regular-White-S'}
@@ -49,7 +49,7 @@ describe('@npm/mobydick-core/ActionSheetBase', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  it('should renders correctly Item with selected ', () => {
+  it('should renders correctly Item with selected', () => {
     const {toJSON} = render(
       <Item
         itemType={IItemType.singleItem}

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly Timeshow  1`] = `
+exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly Timeshow 1`] = `
 <View
   accessible={true}
   collapsable={false}
@@ -15,16 +15,16 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly Tim
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
       },
-      Array [
-        Object {
+      [
+        {
           "backgroundColor": "transparent",
         },
         undefined,
@@ -36,7 +36,7 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly Tim
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignItems": "flex-start",
         "backgroundColor": "#20242D",
         "borderRadius": 24,
@@ -69,16 +69,16 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly bot
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
       },
-      Array [
-        Object {
+      [
+        {
           "backgroundColor": "transparent",
         },
         undefined,
@@ -90,7 +90,7 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly bot
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignItems": "flex-start",
         "backgroundColor": "#20242D",
         "borderRadius": 24,
@@ -122,16 +122,16 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly top
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
       },
-      Array [
-        Object {
+      [
+        {
           "backgroundColor": "transparent",
         },
         undefined,
@@ -143,7 +143,7 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly top
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignItems": "flex-start",
         "backgroundColor": "#20242D",
         "borderRadius": 24,
@@ -176,16 +176,16 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly top
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
       },
-      Array [
-        Object {
+      [
+        {
           "backgroundColor": "transparent",
         },
         undefined,
@@ -197,7 +197,7 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly top
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignItems": "flex-start",
         "backgroundColor": "#20242D",
         "borderRadius": 24,

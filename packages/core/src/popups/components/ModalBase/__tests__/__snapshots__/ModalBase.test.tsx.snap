@@ -15,16 +15,16 @@ exports[`@npm/mobydick-core/ModalBase should renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
       },
-      Array [
-        Object {
+      [
+        {
           "justifyContent": "flex-end",
         },
         undefined,
@@ -36,8 +36,8 @@ exports[`@npm/mobydick-core/ModalBase should renders correctly 1`] = `
   <View
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "backgroundColor": "#FFF",
           "borderRadius": 36,

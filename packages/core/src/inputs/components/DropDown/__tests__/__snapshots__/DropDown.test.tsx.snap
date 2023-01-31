@@ -3,11 +3,11 @@
 exports[`@npm/mobydick-core/DropDown renders correctly 10 elements 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "justifyContent": "center",
       },
-      Object {
+      {
         "width": 600,
       },
     ]
@@ -15,7 +15,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements 1`] = `
 >
   <View
     style={
-      Object {
+      {
         "flexDirection": "row",
       }
     }
@@ -23,14 +23,14 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
             "fontSize": 42,
             "lineHeight": 54,
           },
-          Object {
+          {
             "paddingBottom": 24,
           },
         ]
@@ -55,7 +55,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
@@ -75,15 +75,15 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements 1`] = `
         allowFontScaling={true}
         numberOfLines={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#20242D",
               "fontFamily": "Inter-Regular",
               "fontSize": 48,
               "lineHeight": 60,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
               },
               undefined,
@@ -99,7 +99,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements 1`] = `
         <Text
           allowFontScaling={true}
           style={
-            Object {
+            {
               "color": "#5E6678",
               "fontFamily": "Neotis",
               "fontSize": 72,
@@ -117,11 +117,11 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements 1`] = `
 exports[`@npm/mobydick-core/DropDown renders correctly 10 elements disabled 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "justifyContent": "center",
       },
-      Object {
+      {
         "width": 600,
       },
     ]
@@ -129,7 +129,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements disabled 1`] 
 >
   <View
     style={
-      Object {
+      {
         "flexDirection": "row",
       }
     }
@@ -137,14 +137,14 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements disabled 1`] 
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
             "fontSize": 42,
             "lineHeight": 54,
           },
-          Object {
+          {
             "paddingBottom": 24,
           },
         ]
@@ -159,7 +159,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements disabled 1`] 
     <View
       accessibilityLabel="selector"
       accessibilityState={
-        Object {
+        {
           "disabled": true,
         }
       }
@@ -174,7 +174,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements disabled 1`] 
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "alignItems": "center",
           "backgroundColor": "#D1D4DB",
           "borderColor": "transparent",
@@ -194,15 +194,15 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements disabled 1`] 
         allowFontScaling={true}
         numberOfLines={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
               "fontSize": 48,
               "lineHeight": 60,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
               },
               undefined,
@@ -218,7 +218,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements disabled 1`] 
         <Text
           allowFontScaling={true}
           style={
-            Object {
+            {
               "color": "#5E6678",
               "fontFamily": "Neotis",
               "fontSize": 72,
@@ -236,11 +236,11 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements disabled 1`] 
 exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type valid 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "justifyContent": "center",
       },
-      Object {
+      {
         "width": 600,
       },
     ]
@@ -248,7 +248,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type valid 1`
 >
   <View
     style={
-      Object {
+      {
         "flexDirection": "row",
       }
     }
@@ -256,14 +256,14 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type valid 1`
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
             "fontSize": 42,
             "lineHeight": 54,
           },
-          Object {
+          {
             "paddingBottom": 24,
           },
         ]
@@ -288,7 +288,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type valid 1`
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "alignItems": "center",
           "backgroundColor": "rgba(43, 120, 238, 0.15)",
           "borderColor": "transparent",
@@ -308,15 +308,15 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type valid 1`
         allowFontScaling={true}
         numberOfLines={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#20242D",
               "fontFamily": "Inter-Regular",
               "fontSize": 48,
               "lineHeight": 60,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
               },
               undefined,
@@ -332,7 +332,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type valid 1`
         <Text
           allowFontScaling={true}
           style={
-            Object {
+            {
               "color": "#5E6678",
               "fontFamily": "Neotis",
               "fontSize": 72,
@@ -350,11 +350,11 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type valid 1`
 exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type wrong 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "justifyContent": "center",
       },
-      Object {
+      {
         "width": 400,
       },
     ]
@@ -362,7 +362,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type wrong 1`
 >
   <View
     style={
-      Object {
+      {
         "flexDirection": "row",
       }
     }
@@ -370,18 +370,18 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type wrong 1`
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
             "fontSize": 42,
             "lineHeight": 54,
           },
-          Array [
-            Object {
+          [
+            {
               "paddingBottom": 24,
             },
-            Object {
+            {
               "paddingBottom": 8,
             },
           ],
@@ -407,7 +407,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type wrong 1`
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "alignItems": "center",
           "backgroundColor": "#000",
           "borderColor": "#000",
@@ -428,15 +428,15 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type wrong 1`
         allowFontScaling={true}
         numberOfLines={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#20242D",
               "fontFamily": "Inter-Regular",
               "fontSize": 48,
               "lineHeight": 60,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
               },
               undefined,
@@ -452,7 +452,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type wrong 1`
         <Text
           allowFontScaling={true}
           style={
-            Object {
+            {
               "color": "#5E6678",
               "fontFamily": "Neotis",
               "fontSize": 72,
@@ -470,11 +470,11 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type wrong 1`
 exports[`@npm/mobydick-core/DropDown renders correctly without array 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "justifyContent": "center",
       },
-      Object {
+      {
         "width": 600,
       },
     ]
@@ -482,7 +482,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array 1`] = `
 >
   <View
     style={
-      Object {
+      {
         "flexDirection": "row",
       }
     }
@@ -490,14 +490,14 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
             "fontSize": 42,
             "lineHeight": 54,
           },
-          Object {
+          {
             "paddingBottom": 24,
           },
         ]
@@ -522,7 +522,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
@@ -542,15 +542,15 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array 1`] = `
         allowFontScaling={true}
         numberOfLines={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#20242D",
               "fontFamily": "Inter-Regular",
               "fontSize": 48,
               "lineHeight": 60,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
               },
               undefined,
@@ -566,7 +566,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array 1`] = `
         <Text
           allowFontScaling={true}
           style={
-            Object {
+            {
               "color": "#5E6678",
               "fontFamily": "Neotis",
               "fontSize": 72,
@@ -584,11 +584,11 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array 1`] = `
 exports[`@npm/mobydick-core/DropDown renders correctly without array with text and font 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "justifyContent": "center",
       },
-      Object {
+      {
         "width": 600,
       },
     ]
@@ -596,7 +596,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array with text a
 >
   <View
     style={
-      Object {
+      {
         "flexDirection": "row",
       }
     }
@@ -604,14 +604,14 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array with text a
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
             "fontSize": 42,
             "lineHeight": 54,
           },
-          Object {
+          {
             "paddingBottom": 24,
           },
         ]
@@ -622,8 +622,8 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array with text a
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#F54D3D",
             "fontFamily": "Inter-Medium",
             "fontSize": 42,
@@ -652,7 +652,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array with text a
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
@@ -672,15 +672,15 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array with text a
         allowFontScaling={true}
         numberOfLines={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#20242D",
               "fontFamily": "Inter-Regular",
               "fontSize": 48,
               "lineHeight": 60,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
               },
               undefined,
@@ -696,7 +696,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array with text a
         <Text
           allowFontScaling={true}
           style={
-            Object {
+            {
               "color": "#5E6678",
               "fontFamily": "Neotis",
               "fontSize": 72,
@@ -714,11 +714,11 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array with text a
 exports[`@npm/mobydick-core/DropDown selectItemClose 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "justifyContent": "center",
       },
-      Object {
+      {
         "width": 400,
       },
     ]
@@ -726,7 +726,7 @@ exports[`@npm/mobydick-core/DropDown selectItemClose 1`] = `
 >
   <View
     style={
-      Object {
+      {
         "flexDirection": "row",
       }
     }
@@ -734,14 +734,14 @@ exports[`@npm/mobydick-core/DropDown selectItemClose 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
             "fontSize": 42,
             "lineHeight": 54,
           },
-          Object {
+          {
             "paddingBottom": 24,
           },
         ]
@@ -766,7 +766,7 @@ exports[`@npm/mobydick-core/DropDown selectItemClose 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "alignItems": "center",
           "backgroundColor": "#000",
           "borderColor": "#000",
@@ -787,15 +787,15 @@ exports[`@npm/mobydick-core/DropDown selectItemClose 1`] = `
         allowFontScaling={true}
         numberOfLines={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#20242D",
               "fontFamily": "Inter-Regular",
               "fontSize": 48,
               "lineHeight": 60,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
               },
               undefined,
@@ -811,7 +811,7 @@ exports[`@npm/mobydick-core/DropDown selectItemClose 1`] = `
         <Text
           allowFontScaling={true}
           style={
-            Object {
+            {
               "color": "#5E6678",
               "fontFamily": "Neotis",
               "fontSize": 72,
@@ -824,7 +824,7 @@ exports[`@npm/mobydick-core/DropDown selectItemClose 1`] = `
     </View>
     <View
       style={
-        Object {
+        {
           "alignItems": "center",
           "flexDirection": "row",
         }
@@ -833,7 +833,7 @@ exports[`@npm/mobydick-core/DropDown selectItemClose 1`] = `
       <Text
         allowFontScaling={true}
         style={
-          Object {
+          {
             "color": "#9BA1B0",
             "fontFamily": "Neotis",
             "fontSize": 48,
@@ -846,14 +846,14 @@ exports[`@npm/mobydick-core/DropDown selectItemClose 1`] = `
       <Text
         allowFontScaling={true}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
               "fontSize": 36,
               "lineHeight": 48,
             },
-            Object {
+            {
               "flex": 1,
             },
           ]

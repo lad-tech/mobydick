@@ -2,12 +2,13 @@ import {storiesOf} from '@storybook/react-native';
 import React from 'react';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {action} from '@storybook/addon-actions';
-import {IButtonSize, IButtonTypes} from '@npm/mobydick-core';
 
 import CenterView from '../../CenterView';
 
 import ButtonWithDelay from './ButtonWithDelay';
 import ExampleButton from './ExampleButton';
+
+import {IButtonSize, IButtonTypes} from '@npm/mobydick-core';
 
 storiesOf('Design System/CTA/Button', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)

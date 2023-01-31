@@ -3,7 +3,7 @@
 exports[`@npm/mobydick-core/Title should renders correctly with descriptionFont 1`] = `
 <View
   style={
-    Object {
+    {
       "marginBottom": 24,
       "marginTop": 36,
     }
@@ -12,19 +12,19 @@ exports[`@npm/mobydick-core/Title should renders correctly with descriptionFont 
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#444B5A",
           "fontFamily": "Inter-Medium",
           "fontSize": 48,
           "lineHeight": 60,
         },
-        Array [
-          Object {
+        [
+          {
             "paddingTop": 24,
             "textAlign": "center",
           },
-          Object {
+          {
             "backgroundColor": "#000",
           },
         ],
@@ -39,7 +39,7 @@ exports[`@npm/mobydick-core/Title should renders correctly with descriptionFont 
 exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = `
 <View
   style={
-    Object {
+    {
       "marginBottom": 24,
       "marginTop": 36,
     }
@@ -48,18 +48,18 @@ exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = 
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#444B5A",
           "fontFamily": "Inter-Medium",
           "fontSize": 48,
           "lineHeight": 60,
         },
-        Array [
-          Object {
+        [
+          {
             "textAlign": "center",
           },
-          Object {
+          {
             "backgroundColor": "#000",
           },
         ],
@@ -71,19 +71,19 @@ exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = 
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
           "fontSize": 42,
           "lineHeight": 54,
         },
-        Array [
-          Object {
+        [
+          {
             "paddingTop": 24,
             "textAlign": "center",
           },
-          Object {
+          {
             "flex": 1,
           },
         ],
@@ -98,7 +98,7 @@ exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = 
 exports[`@npm/mobydick-core/Title should renders correctly without descriptionFont 1`] = `
 <View
   style={
-    Object {
+    {
       "marginBottom": 24,
       "marginTop": 36,
     }
@@ -107,18 +107,18 @@ exports[`@npm/mobydick-core/Title should renders correctly without descriptionFo
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#20242D",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 54,
           "lineHeight": 66,
         },
-        Array [
-          Object {
+        [
+          {
             "textAlign": "center",
           },
-          Object {
+          {
             "flex": 1,
           },
         ],
@@ -130,19 +130,19 @@ exports[`@npm/mobydick-core/Title should renders correctly without descriptionFo
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
           "fontSize": 42,
           "lineHeight": 54,
         },
-        Array [
-          Object {
+        [
+          {
             "paddingTop": 24,
             "textAlign": "center",
           },
-          Object {
+          {
             "flex": 1,
           },
         ],
@@ -157,7 +157,7 @@ exports[`@npm/mobydick-core/Title should renders correctly without descriptionFo
 exports[`@npm/mobydick-core/Title should renders correctly without titleFont 1`] = `
 <View
   style={
-    Object {
+    {
       "marginBottom": 24,
       "marginTop": 36,
     }
@@ -166,18 +166,18 @@ exports[`@npm/mobydick-core/Title should renders correctly without titleFont 1`]
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#20242D",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 54,
           "lineHeight": 66,
         },
-        Array [
-          Object {
+        [
+          {
             "textAlign": "center",
           },
-          Object {
+          {
             "flex": 1,
           },
         ],

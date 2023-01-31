@@ -4,19 +4,19 @@ exports[`@npm/mobydick-core/SnackbarBase/Title should renders correctly with tit
 <Text
   allowFontScaling={true}
   style={
-    Array [
-      Object {
+    [
+      {
         "color": "#444B5A",
         "fontFamily": "Inter-Medium",
         "fontSize": 48,
         "lineHeight": 60,
       },
-      Array [
-        Object {
+      [
+        {
           "flex": 1,
           "paddingRight": 24,
         },
-        Object {
+        {
           "backgroundColor": "#000",
         },
       ],
@@ -31,19 +31,19 @@ exports[`@npm/mobydick-core/SnackbarBase/Title should renders correctly without 
 <Text
   allowFontScaling={true}
   style={
-    Array [
-      Object {
+    [
+      {
         "color": "#FFF",
         "fontFamily": "Inter-Medium",
         "fontSize": 42,
         "lineHeight": 54,
       },
-      Array [
-        Object {
+      [
+        {
           "flex": 1,
           "paddingRight": 24,
         },
-        Object {
+        {
           "flex": 1,
         },
       ],

@@ -1,12 +1,5 @@
 import React, {RefObject, useRef} from 'react';
 import {storiesOf} from '@storybook/react-native';
-import {
-  Button,
-  IButtonSize,
-  ITouchableOpacity,
-  View,
-  usePopups,
-} from '@npm/mobydick-core';
 
 import CenterView from '../../CenterView';
 
@@ -14,6 +7,14 @@ import ExampleSnackbar from './ExampleSnackbar';
 import ExampleActionSheet from './ExampleActionSheet';
 import ExampleTooltip from './ExampleTooltip';
 import PopupModalExample from './PopupModalExample';
+
+import {
+  Button,
+  IButtonSize,
+  ITouchableOpacity,
+  View,
+  usePopups,
+} from '@npm/mobydick-core';
 
 const PopupTooltipExample = () => {
   const popupContext = usePopups();

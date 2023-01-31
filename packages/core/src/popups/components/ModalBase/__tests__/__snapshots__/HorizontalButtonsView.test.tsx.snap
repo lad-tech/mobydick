@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView destructive  1`] = `
+exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView destructive 1`] = `
 <View
   style={
-    Object {
+    {
       "flexDirection": "row",
       "paddingTop": 60,
     }
@@ -11,7 +11,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
 >
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -26,7 +26,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#F54D3D",
@@ -43,15 +43,15 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 54,
             "lineHeight": 66,
           },
-          Array [
-            Object {
+          [
+            {
               "color": "#FFF",
               "paddingHorizontal": 18,
             },
@@ -65,7 +65,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
   </View>
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -80,7 +80,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#F54D3D",
@@ -97,15 +97,15 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 54,
             "lineHeight": 66,
           },
-          Array [
-            Object {
+          [
+            {
               "color": "#FFF",
               "paddingHorizontal": 18,
             },
@@ -120,10 +120,10 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
 </View>
 `;
 
-exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView primary  1`] = `
+exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView primary 1`] = `
 <View
   style={
-    Object {
+    {
       "flexDirection": "row",
       "paddingTop": 60,
     }
@@ -131,7 +131,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
 >
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -146,7 +146,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#2B78EE",
@@ -163,15 +163,15 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 54,
             "lineHeight": 66,
           },
-          Array [
-            Object {
+          [
+            {
               "color": "#FFF",
               "paddingHorizontal": 18,
             },
@@ -185,7 +185,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
   </View>
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -200,7 +200,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#2B78EE",
@@ -217,15 +217,15 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 54,
             "lineHeight": 66,
           },
-          Array [
-            Object {
+          [
+            {
               "color": "#FFF",
               "paddingHorizontal": 18,
             },
@@ -240,10 +240,10 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
 </View>
 `;
 
-exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView secondary  1`] = `
+exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView secondary 1`] = `
 <View
   style={
-    Object {
+    {
       "flexDirection": "row",
       "paddingTop": 60,
     }
@@ -251,7 +251,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
 >
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -266,7 +266,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
@@ -283,15 +283,15 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 54,
             "lineHeight": 66,
           },
-          Array [
-            Object {
+          [
+            {
               "color": "#2B78EE",
               "paddingHorizontal": 18,
             },
@@ -305,7 +305,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
   </View>
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -320,7 +320,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
@@ -337,15 +337,15 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 54,
             "lineHeight": 66,
           },
-          Array [
-            Object {
+          [
+            {
               "color": "#2B78EE",
               "paddingHorizontal": 18,
             },
@@ -360,10 +360,10 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
 </View>
 `;
 
-exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView tertiary  1`] = `
+exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView tertiary 1`] = `
 <View
   style={
-    Object {
+    {
       "flexDirection": "row",
       "paddingTop": 60,
     }
@@ -371,7 +371,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
 >
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -386,7 +386,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "transparent",
@@ -403,15 +403,15 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 54,
             "lineHeight": 66,
           },
-          Array [
-            Object {
+          [
+            {
               "color": "#2B78EE",
               "paddingHorizontal": 18,
             },
@@ -425,7 +425,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
   </View>
   <View
     accessibilityState={
-      Object {
+      {
         "disabled": false,
       }
     }
@@ -440,7 +440,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "transparent",
@@ -457,15 +457,15 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 54,
             "lineHeight": 66,
           },
-          Array [
-            Object {
+          [
+            {
               "color": "#2B78EE",
               "paddingHorizontal": 18,
             },

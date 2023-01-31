@@ -3,8 +3,8 @@
 exports[`@npm/mobydick-core/SnackbarBase should renders correctly 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "transparent",
         "flex": 1,
@@ -19,8 +19,8 @@ exports[`@npm/mobydick-core/SnackbarBase should renders correctly 1`] = `
   <View
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "backgroundColor": "#20242D",
           "borderRadius": 36,
@@ -40,8 +40,8 @@ exports[`@npm/mobydick-core/SnackbarBase should renders correctly 1`] = `
 exports[`@npm/mobydick-core/SnackbarBase should renders correctly with timeShow 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "transparent",
         "bottom": 10,
@@ -56,8 +56,8 @@ exports[`@npm/mobydick-core/SnackbarBase should renders correctly with timeShow 
   <View
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "backgroundColor": "#20242D",
           "borderRadius": 36,

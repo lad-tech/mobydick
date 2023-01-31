@@ -15,7 +15,7 @@ exports[`@npm/mobydick-core/Radio/Circle renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "aspectRatio": 1,
       "borderColor": "#FFF",
       "borderRadius": 27,
@@ -41,7 +41,7 @@ exports[`@npm/mobydick-core/Radio/Circle renders correctly selected 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "aspectRatio": 1,
       "borderColor": "#FFF",
       "borderRadius": 27,
@@ -52,7 +52,7 @@ exports[`@npm/mobydick-core/Radio/Circle renders correctly selected 1`] = `
 >
   <View
     style={
-      Object {
+      {
         "alignItems": "center",
         "aspectRatio": 1,
         "backgroundColor": "transparent",

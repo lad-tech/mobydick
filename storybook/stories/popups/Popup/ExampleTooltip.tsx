@@ -1,5 +1,7 @@
 import React, {FC, RefObject} from 'react';
 import {boolean, number, select, text} from '@storybook/addon-knobs';
+import {StyleSheet} from 'react-native';
+
 import {
   IContentProps,
   IPlacement,
@@ -9,7 +11,6 @@ import {
   IThemeContext,
   useStyles,
 } from '@npm/mobydick-core';
-import {StyleSheet} from 'react-native';
 
 enum ITypeTooltip {
   onlyTitle = 'onlyTitle',
