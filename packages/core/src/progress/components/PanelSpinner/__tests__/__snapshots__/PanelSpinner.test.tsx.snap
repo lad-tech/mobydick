@@ -3,7 +3,7 @@
 exports[`@npm/mobydick-core/PanelSpinner renders correctly 1`] = `
 <View
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
@@ -13,7 +13,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly 1`] = `
       "justifyContent": "center",
       "padding": 60,
       "shadowColor": "#20242D",
-      "shadowOffset": Object {
+      "shadowOffset": {
         "height": 1,
         "width": 0,
       },
@@ -25,10 +25,10 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly 1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignSelf": "center",
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "rotate": "0deg",
           },
         ],
@@ -47,7 +47,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly 1`] = `
 exports[`@npm/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
 <View
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
@@ -57,7 +57,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
       "justifyContent": "center",
       "padding": 60,
       "shadowColor": "#20242D",
-      "shadowOffset": Object {
+      "shadowOffset": {
         "height": 1,
         "width": 0,
       },
@@ -69,10 +69,10 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignSelf": "center",
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "rotate": "0deg",
           },
         ],
@@ -99,15 +99,15 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "aspectRatio": 1,
           "borderRadius": 72,
           "justifyContent": "center",
           "width": 144,
         },
-        Object {
+        {
           "position": "absolute",
         },
       ]
@@ -116,7 +116,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        Object {
+        {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
           "fontSize": 72,
@@ -132,7 +132,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
 exports[`@npm/mobydick-core/PanelSpinner renders correctly done 1`] = `
 <View
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
@@ -142,7 +142,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly done 1`] = `
       "justifyContent": "center",
       "padding": 60,
       "shadowColor": "#20242D",
-      "shadowOffset": Object {
+      "shadowOffset": {
         "height": 1,
         "width": 0,
       },
@@ -153,7 +153,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly done 1`] = `
 >
   <View
     style={
-      Object {
+      {
         "alignItems": "center",
         "aspectRatio": 1,
         "borderRadius": 72,
@@ -165,7 +165,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly done 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        Object {
+        {
           "color": "#2B78EE",
           "fontFamily": "Neotis",
           "fontSize": 144,
@@ -181,7 +181,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly done 1`] = `
 exports[`@npm/mobydick-core/PanelSpinner renders correctly error 1`] = `
 <View
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
@@ -191,7 +191,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly error 1`] = `
       "justifyContent": "center",
       "padding": 60,
       "shadowColor": "#20242D",
-      "shadowOffset": Object {
+      "shadowOffset": {
         "height": 1,
         "width": 0,
       },
@@ -202,15 +202,15 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly error 1`] = `
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "aspectRatio": 1,
           "borderRadius": 72,
           "justifyContent": "center",
           "width": 144,
         },
-        Object {
+        {
           "backgroundColor": "#EEEFF1",
         },
       ]
@@ -219,7 +219,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly error 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        Object {
+        {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
           "fontSize": 96,

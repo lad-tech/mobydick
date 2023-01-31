@@ -1,12 +1,13 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {PopupsProvider, ScrollView, View} from '@npm/mobydick-core';
 import {Dimensions} from 'react-native';
 
 import CenterView from '../../CenterView';
 
 import ExampleArrayOfStrings from './ExampleArrayOfStrings';
 import ExampleArrayOfObjects from './ExampleArrayOfObjects';
+
+import {PopupsProvider, ScrollView, View} from '@npm/mobydick-core';
 const {height} = Dimensions.get('window');
 
 // тут лютые отступы и ScrollView, чтобы потестить DropDown в боевых условиях <3

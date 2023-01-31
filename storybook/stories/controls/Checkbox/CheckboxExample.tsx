@@ -1,10 +1,11 @@
 import {boolean, text} from '@storybook/addon-knobs';
 import React, {useState} from 'react';
-import {CheckBox, View, useStyles, Typography} from '@npm/mobydick-core';
 import {action} from '@storybook/addon-actions';
 
 import {font, numberOfLines, optionOne, textOne} from '../constants';
 import stylesCreate from '../stylesCreate';
+
+import {CheckBox, View, useStyles, Typography} from '@npm/mobydick-core';
 
 const CheckboxExample = () => {
   const [styles] = useStyles(stylesCreate);

@@ -19,7 +19,7 @@ const ThemeProvider: FC<
         currentTheme: currentThemeState,
         colors: themeState.colors[
           currentThemeState
-        ] as typeof defaultTheme.colors[0], // I think no one don't be setting currentTheme to not keys of colors,
+        ] as (typeof defaultTheme.colors)[0], // I think no one don't be setting currentTheme to not keys of colors,
         spaces: themeState.spaces,
 
         setTheme: setThemeState,

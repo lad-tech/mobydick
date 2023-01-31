@@ -3,8 +3,8 @@
 exports[`@npm/mobydick-core/CodeField render correctly with value blur 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
         "borderRadius": 24,
@@ -30,13 +30,13 @@ exports[`@npm/mobydick-core/CodeField render correctly with value blur 1`] = `
     placeholderTextColor="#9BA1B0"
     selectionColor="#2B78EE"
     style={
-      Array [
-        Object {
+      [
+        {
           "flex": 1,
           "padding": 0,
           "textAlign": "center",
         },
-        Object {
+        {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
           "fontSize": 60,
@@ -52,8 +52,8 @@ exports[`@npm/mobydick-core/CodeField render correctly with value blur 1`] = `
 exports[`@npm/mobydick-core/CodeField render correctly with value focus 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
         "borderRadius": 24,
@@ -78,13 +78,13 @@ exports[`@npm/mobydick-core/CodeField render correctly with value focus 1`] = `
     placeholderTextColor="#9BA1B0"
     selectionColor="#2B78EE"
     style={
-      Array [
-        Object {
+      [
+        {
           "flex": 1,
           "padding": 0,
           "textAlign": "center",
         },
-        Object {
+        {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
           "fontSize": 60,
@@ -100,8 +100,8 @@ exports[`@npm/mobydick-core/CodeField render correctly with value focus 1`] = `
 exports[`@npm/mobydick-core/CodeField render correctly with value onKeyPress 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
         "borderRadius": 24,
@@ -127,13 +127,13 @@ exports[`@npm/mobydick-core/CodeField render correctly with value onKeyPress 1`]
     placeholderTextColor="#9BA1B0"
     selectionColor="#2B78EE"
     style={
-      Array [
-        Object {
+      [
+        {
           "flex": 1,
           "padding": 0,
           "textAlign": "center",
         },
-        Object {
+        {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
           "fontSize": 60,

@@ -1,6 +1,7 @@
-import {Avatar, ISizeAvatar} from '@npm/mobydick-core';
 import {select} from '@storybook/addon-knobs';
 import React from 'react';
+
+import {Avatar, ISizeAvatar} from '@npm/mobydick-core';
 
 const AvatarExample = () => {
   const userWithPhoto = {

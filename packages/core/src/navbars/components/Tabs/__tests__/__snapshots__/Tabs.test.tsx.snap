@@ -3,15 +3,15 @@
 exports[`Tabs render correctly 1`] = `
 <View
   style={
-    Object {
+    {
       "flexDirection": "row",
     }
   }
 >
   <RCTScrollView
     contentContainerStyle={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "paddingHorizontal": 60,
           "paddingVertical": 24,
@@ -20,8 +20,8 @@ exports[`Tabs render correctly 1`] = `
       ]
     }
     data={
-      Array [
-        Object {
+      [
+        {
           "label": "1",
           "value": 1,
         },
@@ -42,23 +42,23 @@ exports[`Tabs render correctly 1`] = `
     renderItem={[Function]}
     scrollEventThrottle={50}
     showsHorizontalScrollIndicator={false}
-    stickyHeaderIndices={Array []}
+    stickyHeaderIndices={[]}
     style={
-      Array [
-        Object {
+      [
+        {
           "maxWidth": "100%",
         },
         undefined,
       ]
     }
-    viewabilityConfigCallbackPairs={Array []}
+    viewabilityConfigCallbackPairs={[]}
   >
     <View>
       <View
         onLayout={[Function]}
         style={
-          Array [
-            Object {
+          [
+            {
               "flexDirection": "row",
             },
             null,
@@ -78,7 +78,7 @@ exports[`Tabs render correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "backgroundColor": "#D1D4DB",
               "borderRadius": 24,
               "marginRight": 24,
@@ -91,8 +91,8 @@ exports[`Tabs render correctly 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#5E6678",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 42,
@@ -114,27 +114,27 @@ exports[`Tabs render correctly 1`] = `
 exports[`Tabs render correctly with props 1`] = `
 <View
   style={
-    Object {
+    {
       "flexDirection": "row",
     }
   }
 >
   <RCTScrollView
     contentContainerStyle={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "paddingHorizontal": 60,
           "paddingVertical": 24,
         },
-        Object {
+        {
           "flex": 1,
         },
       ]
     }
     data={
-      Array [
-        Object {
+      [
+        {
           "label": "1",
           "value": 1,
         },
@@ -155,25 +155,25 @@ exports[`Tabs render correctly with props 1`] = `
     renderItem={[Function]}
     scrollEventThrottle={50}
     showsHorizontalScrollIndicator={false}
-    stickyHeaderIndices={Array []}
+    stickyHeaderIndices={[]}
     style={
-      Array [
-        Object {
+      [
+        {
           "maxWidth": "100%",
         },
-        Object {
+        {
           "flex": 2,
         },
       ]
     }
-    viewabilityConfigCallbackPairs={Array []}
+    viewabilityConfigCallbackPairs={[]}
   >
     <View>
       <View
         onLayout={[Function]}
         style={
-          Array [
-            Object {
+          [
+            {
               "flexDirection": "row",
             },
             null,
@@ -193,7 +193,7 @@ exports[`Tabs render correctly with props 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "backgroundColor": "#000",
               "borderRadius": 24,
               "marginRight": 24,
@@ -206,8 +206,8 @@ exports[`Tabs render correctly with props 1`] = `
           <Text
             allowFontScaling={true}
             style={
-              Array [
-                Object {
+              [
+                {
                   "color": "#F54D3D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 84,

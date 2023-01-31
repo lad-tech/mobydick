@@ -76,7 +76,7 @@ describe('@npm/mobydick-core/TooltipBase/TooltipBase', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  it('should renders correctly Timeshow ', () => {
+  it('should renders correctly Timeshow', () => {
     const onClose = jest.fn();
     const {toJSON} = render(
       <SafeAreaProvider>

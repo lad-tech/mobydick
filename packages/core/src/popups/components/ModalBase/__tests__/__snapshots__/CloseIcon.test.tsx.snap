@@ -13,7 +13,7 @@ exports[`@npm/mobydick-core/CloseIcon should renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignSelf": "flex-end",
       "justifyContent": "center",
       "opacity": 1,
@@ -27,7 +27,7 @@ exports[`@npm/mobydick-core/CloseIcon should renders correctly 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      Object {
+      {
         "color": "#5E6678",
         "fontFamily": "Neotis",
         "fontSize": 72,

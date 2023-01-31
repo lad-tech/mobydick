@@ -7,7 +7,7 @@ exports[`@npm/mobydick-core/DropDownIcon renders correctly custom close 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      Object {
+      {
         "color": "#5E6678",
         "fontFamily": "Neotis",
         "fontSize": 72,
@@ -22,9 +22,9 @@ exports[`@npm/mobydick-core/DropDownIcon renders correctly custom close 1`] = `
 exports[`@npm/mobydick-core/DropDownIcon renders correctly custom open 1`] = `
 <View
   style={
-    Object {
-      "transform": Array [
-        Object {
+    {
+      "transform": [
+        {
           "rotateX": "180deg",
         },
       ],
@@ -34,7 +34,7 @@ exports[`@npm/mobydick-core/DropDownIcon renders correctly custom open 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      Object {
+      {
         "color": "#5E6678",
         "fontFamily": "Neotis",
         "fontSize": 72,
@@ -50,7 +50,7 @@ exports[`@npm/mobydick-core/DropDownIcon renders correctly standart close 1`] = 
 <Text
   allowFontScaling={true}
   style={
-    Object {
+    {
       "color": "#9BA1B0",
       "fontFamily": "Neotis",
       "fontSize": 72,
@@ -65,12 +65,12 @@ exports[`@npm/mobydick-core/DropDownIcon renders correctly standart open 1`] = `
 <Text
   allowFontScaling={true}
   style={
-    Object {
+    {
       "color": "#9BA1B0",
       "fontFamily": "Neotis",
       "fontSize": 72,
-      "transform": Array [
-        Object {
+      "transform": [
+        {
           "rotateX": "180deg",
         },
       ],

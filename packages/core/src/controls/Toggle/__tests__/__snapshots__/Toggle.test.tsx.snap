@@ -3,7 +3,7 @@
 exports[`Toggle should renders correctly active 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -24,7 +24,7 @@ exports[`Toggle should renders correctly active 1`] = `
     collapsable={false}
     needsOffscreenAlphaCompositing={true}
     style={
-      Object {
+      {
         "backgroundColor": "rgba(43, 120, 238, 1)",
         "borderRadius": 60,
         "height": 90,
@@ -37,13 +37,13 @@ exports[`Toggle should renders correctly active 1`] = `
     <View
       collapsable={false}
       style={
-        Object {
+        {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
           "borderRadius": 75,
           "flex": 1,
-          "transform": Array [
-            Object {
+          "transform": [
+            {
               "translateX": 60,
             },
           ],
@@ -57,7 +57,7 @@ exports[`Toggle should renders correctly active 1`] = `
 exports[`Toggle should renders correctly active and disabled 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -78,7 +78,7 @@ exports[`Toggle should renders correctly active and disabled 1`] = `
     collapsable={false}
     needsOffscreenAlphaCompositing={true}
     style={
-      Object {
+      {
         "backgroundColor": "rgba(43, 120, 238, 1)",
         "borderRadius": 60,
         "height": 90,
@@ -91,13 +91,13 @@ exports[`Toggle should renders correctly active and disabled 1`] = `
     <View
       collapsable={false}
       style={
-        Object {
+        {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
           "borderRadius": 75,
           "flex": 1,
-          "transform": Array [
-            Object {
+          "transform": [
+            {
               "translateX": 60,
             },
           ],
@@ -111,7 +111,7 @@ exports[`Toggle should renders correctly active and disabled 1`] = `
 exports[`Toggle should renders correctly by default 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -132,7 +132,7 @@ exports[`Toggle should renders correctly by default 1`] = `
     collapsable={false}
     needsOffscreenAlphaCompositing={true}
     style={
-      Object {
+      {
         "backgroundColor": "rgba(155, 161, 176, 1)",
         "borderRadius": 60,
         "height": 90,
@@ -145,13 +145,13 @@ exports[`Toggle should renders correctly by default 1`] = `
     <View
       collapsable={false}
       style={
-        Object {
+        {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
           "borderRadius": 75,
           "flex": 1,
-          "transform": Array [
-            Object {
+          "transform": [
+            {
               "translateX": 0,
             },
           ],
@@ -165,7 +165,7 @@ exports[`Toggle should renders correctly by default 1`] = `
 exports[`Toggle should renders correctly disabled 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -186,7 +186,7 @@ exports[`Toggle should renders correctly disabled 1`] = `
     collapsable={false}
     needsOffscreenAlphaCompositing={true}
     style={
-      Object {
+      {
         "backgroundColor": "rgba(155, 161, 176, 1)",
         "borderRadius": 60,
         "height": 90,
@@ -199,13 +199,13 @@ exports[`Toggle should renders correctly disabled 1`] = `
     <View
       collapsable={false}
       style={
-        Object {
+        {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
           "borderRadius": 75,
           "flex": 1,
-          "transform": Array [
-            Object {
+          "transform": [
+            {
               "translateX": 0,
             },
           ],

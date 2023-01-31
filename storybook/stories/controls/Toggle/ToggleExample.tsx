@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import {Toggle} from '@npm/mobydick-core';
 import {boolean} from '@storybook/addon-knobs';
+
+import {Toggle} from '@npm/mobydick-core';
 
 const ToggleExample = () => {
   const [isActive, setActive] = useState(false);

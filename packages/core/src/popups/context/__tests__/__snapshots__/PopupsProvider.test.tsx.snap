@@ -15,7 +15,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 1`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -23,15 +23,15 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 1`] = `
   >
     <View
       style={
-        Array [
-          Object {},
+        [
+          {},
         ]
       }
     >
       <Text
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#007AFF",
               "fontSize": 18,
               "margin": 8,
@@ -57,7 +57,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 1`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -65,15 +65,15 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 1`] = `
   >
     <View
       style={
-        Array [
-          Object {},
+        [
+          {},
         ]
       }
     >
       <Text
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#007AFF",
               "fontSize": 18,
               "margin": 8,
@@ -90,7 +90,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 1`] = `
 `;
 
 exports[`@npm/mobydick-core/PopupsProvider should renders correctly 2`] = `
-Array [
+[
   <View>
     <View
       accessibilityRole="button"
@@ -105,7 +105,7 @@ Array [
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -113,15 +113,15 @@ Array [
     >
       <View
         style={
-          Array [
-            Object {},
+          [
+            {},
           ]
         }
       >
         <Text
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "#007AFF",
                 "fontSize": 18,
                 "margin": 8,
@@ -147,7 +147,7 @@ Array [
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -155,15 +155,15 @@ Array [
     >
       <View
         style={
-          Array [
-            Object {},
+          [
+            {},
           ]
         }
       >
         <Text
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "#007AFF",
                 "fontSize": 18,
                 "margin": 8,
@@ -190,7 +190,7 @@ Array [
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -198,15 +198,15 @@ Array [
   >
     <View
       style={
-        Array [
-          Object {},
+        [
+          {},
         ]
       }
     >
       <Text
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#007AFF",
               "fontSize": 18,
               "margin": 8,
@@ -237,7 +237,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 3`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -245,15 +245,15 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 3`] = `
   >
     <View
       style={
-        Array [
-          Object {},
+        [
+          {},
         ]
       }
     >
       <Text
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#007AFF",
               "fontSize": 18,
               "margin": 8,
@@ -279,7 +279,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 3`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -287,15 +287,15 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 3`] = `
   >
     <View
       style={
-        Array [
-          Object {},
+        [
+          {},
         ]
       }
     >
       <Text
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#007AFF",
               "fontSize": 18,
               "margin": 8,
@@ -312,7 +312,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 3`] = `
 `;
 
 exports[`@npm/mobydick-core/PopupsProvider should renders correctly 4`] = `
-Array [
+[
   <View>
     <View
       accessibilityRole="button"
@@ -327,7 +327,7 @@ Array [
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -335,15 +335,15 @@ Array [
     >
       <View
         style={
-          Array [
-            Object {},
+          [
+            {},
           ]
         }
       >
         <Text
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "#007AFF",
                 "fontSize": 18,
                 "margin": 8,
@@ -369,7 +369,7 @@ Array [
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "opacity": 1,
         }
       }
@@ -377,15 +377,15 @@ Array [
     >
       <View
         style={
-          Array [
-            Object {},
+          [
+            {},
           ]
         }
       >
         <Text
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "#007AFF",
                 "fontSize": 18,
                 "margin": 8,
@@ -412,7 +412,7 @@ Array [
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -420,15 +420,15 @@ Array [
   >
     <View
       style={
-        Array [
-          Object {},
+        [
+          {},
         ]
       }
     >
       <Text
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#007AFF",
               "fontSize": 18,
               "margin": 8,
@@ -454,7 +454,7 @@ Array [
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -462,15 +462,15 @@ Array [
   >
     <View
       style={
-        Array [
-          Object {},
+        [
+          {},
         ]
       }
     >
       <Text
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#007AFF",
               "fontSize": 18,
               "margin": 8,
@@ -501,7 +501,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 5`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -509,15 +509,15 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 5`] = `
   >
     <View
       style={
-        Array [
-          Object {},
+        [
+          {},
         ]
       }
     >
       <Text
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#007AFF",
               "fontSize": 18,
               "margin": 8,
@@ -543,7 +543,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 5`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "opacity": 1,
       }
     }
@@ -551,15 +551,15 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 5`] = `
   >
     <View
       style={
-        Array [
-          Object {},
+        [
+          {},
         ]
       }
     >
       <Text
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#007AFF",
               "fontSize": 18,
               "margin": 8,

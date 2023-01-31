@@ -1,4 +1,8 @@
 import React, {useRef, useState} from 'react';
+import {Keyboard, TextInput} from 'react-native';
+
+import stylesCreate from './stylesCreate';
+
 import {
   TouchableOpacity,
   View,
@@ -6,9 +10,6 @@ import {
   Typography,
   CodeField,
 } from '@npm/mobydick-core';
-import {Keyboard, TextInput} from 'react-native';
-
-import stylesCreate from './stylesCreate';
 
 const ExampleVerification = () => {
   const [styles] = useStyles(stylesCreate);

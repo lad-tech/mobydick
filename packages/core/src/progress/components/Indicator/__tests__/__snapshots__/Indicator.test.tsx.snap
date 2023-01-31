@@ -3,8 +3,8 @@
 exports[`@npm/mobydick-core/Indicator renders correctly with colors 1`] = `
 <View
   style={
-    Array [
-      Object {
+    [
+      {
         "backgroundColor": "#EEEFF1",
         "borderRadius": 60,
         "height": 6,
@@ -17,7 +17,7 @@ exports[`@npm/mobydick-core/Indicator renders correctly with colors 1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "backgroundColor": "#2B78EE",
         "borderRadius": 60,
         "bottom": 0,

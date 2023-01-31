@@ -1,4 +1,8 @@
 import React, {FC, PropsWithChildren} from 'react';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
+
+import stylesCreate from './stylesCreate';
+
 import {
   View,
   Button,
@@ -8,9 +12,6 @@ import {
   useTheme,
   PopupsProvider,
 } from '@npm/mobydick-core';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
-
-import stylesCreate from './stylesCreate';
 
 const Wrapper: FC<PropsWithChildren<unknown>> = ({children}) => {
   const {currentTheme, setCurrentTheme} = useTheme();

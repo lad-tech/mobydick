@@ -1,4 +1,8 @@
 import React, {useState} from 'react';
+import {array, boolean, number, select, text} from '@storybook/addon-knobs';
+
+import selectFont from '../../../utils/selectFont';
+
 import {
   DropDown,
   IInputsTypes,
@@ -7,9 +11,6 @@ import {
   SimpleIcon,
   useTheme,
 } from '@npm/mobydick-core';
-import {array, boolean, number, select, text} from '@storybook/addon-knobs';
-
-import selectFont from '../../../utils/selectFont';
 
 const ExampleArrayOfStrings = () => {
   const [selected, setSelected] = useState<string>();

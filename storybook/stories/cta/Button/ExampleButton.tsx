@@ -1,3 +1,9 @@
+import {boolean, number, select, text} from '@storybook/addon-knobs';
+import React, {useCallback} from 'react';
+import {action} from '@storybook/addon-actions';
+
+import selectFont from '../../../utils/selectFont';
+
 import {
   Button,
   IButtonSize,
@@ -6,11 +12,6 @@ import {
   SimpleIcon,
   useTheme,
 } from '@npm/mobydick-core';
-import {boolean, number, select, text} from '@storybook/addon-knobs';
-import React, {useCallback} from 'react';
-import {action} from '@storybook/addon-actions';
-
-import selectFont from '../../../utils/selectFont';
 
 enum IViewButton {
   leftIcon = 'leftIcon',

@@ -5,7 +5,7 @@ import Counter from '../Counter';
 import {ICounterSize, ICounterTypes} from '../types';
 
 describe('Counter', () => {
-  test('render counter ', () => {
+  test('render counter', () => {
     const {toJSON} = render(<Counter count={0} />);
     expect(toJSON()).toMatchSnapshot();
   });

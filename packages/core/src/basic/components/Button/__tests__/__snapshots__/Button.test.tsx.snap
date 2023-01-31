@@ -14,22 +14,22 @@ exports[`@npm/mobydick-core/Button renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
 >
   <View
     style={
-      Array [
-        Object {},
+      [
+        {},
       ]
     }
   >
     <Text
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#007AFF",
             "fontSize": 18,
             "margin": 8,

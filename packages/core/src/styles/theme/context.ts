@@ -16,7 +16,7 @@ export const defaultThemeContext: IThemeContext = {
   spaces: defaultTheme.spaces,
   colors: defaultTheme.colors[
     defaultTheme.currentTheme
-  ] as typeof defaultTheme.colors[0],
+  ] as (typeof defaultTheme.colors)[0],
   currentTheme: defaultTheme.currentTheme,
   setTheme: missingFunc,
   setCurrentTheme: missingFunc,

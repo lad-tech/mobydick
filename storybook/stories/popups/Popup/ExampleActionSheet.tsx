@@ -1,3 +1,6 @@
+import React, {FC, useState} from 'react';
+import {boolean, select} from '@storybook/addon-knobs';
+
 import {
   ActionSheetBase,
   IContentProps,
@@ -6,8 +9,6 @@ import {
   SimpleIcon,
   SimpleIconName,
 } from '@npm/mobydick-core';
-import React, {FC, useState} from 'react';
-import {boolean, select} from '@storybook/addon-knobs';
 
 enum IViewActionSheet {
   defaultActions = 'defaultActions',

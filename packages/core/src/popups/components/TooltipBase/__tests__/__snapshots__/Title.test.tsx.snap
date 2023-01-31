@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/TooltipBase/Title should renders correctly  1`] = `
+exports[`@npm/mobydick-core/TooltipBase/Title should renders correctly 1`] = `
 <Text
   allowFontScaling={true}
   style={
-    Array [
-      Object {
+    [
+      {
         "color": "#FFF",
         "fontFamily": "Inter-SemiBold",
         "fontSize": 42,
         "lineHeight": 54,
       },
-      Array [
-        Object {
+      [
+        {
           "zIndex": 1,
         },
         undefined,
@@ -28,18 +28,18 @@ exports[`@npm/mobydick-core/TooltipBase/Title should renders correctly font 1`] 
 <Text
   allowFontScaling={true}
   style={
-    Array [
-      Object {
+    [
+      {
         "color": "#20242D",
         "fontFamily": "Inter-Regular",
         "fontSize": 42,
         "lineHeight": 54,
       },
-      Array [
-        Object {
+      [
+        {
           "zIndex": 1,
         },
-        Object {
+        {
           "width": 100,
         },
       ],

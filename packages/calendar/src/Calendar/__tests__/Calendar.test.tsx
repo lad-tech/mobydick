@@ -33,7 +33,7 @@ describe('Calendar', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  it('press isClear ', () => {
+  it('press isClear', () => {
     const {toJSON, getByText} = render(
       <Calendar
         onDateRangeChange={() => undefined}
@@ -72,7 +72,7 @@ describe('Calendar', () => {
     });
   });
 
-  it('on submit day > min ', () => {
+  it('on submit day > min', () => {
     const submit = jest.fn();
     const {getByText} = render(
       <Calendar onDateRangeChange={submit} isPeriod={true} />,
@@ -92,7 +92,7 @@ describe('Calendar', () => {
       dateEnd: '2022-07-15T00:00:00.000Z',
     });
   });
-  it('on submit day < min ', () => {
+  it('on submit day < min', () => {
     const submit = jest.fn();
     const {getByText} = render(
       <Calendar onDateRangeChange={submit} isPeriod={true} />,
@@ -113,7 +113,7 @@ describe('Calendar', () => {
     });
   });
 
-  it('on submit day > max ', () => {
+  it('on submit day > max', () => {
     jest.setSystemTime(new Date('2021-05-15'));
     const submit = jest.fn();
     const {getByText} = render(
@@ -162,7 +162,7 @@ describe('Calendar', () => {
     fireEvent.press(calendarRightArrow);
     expect(toJSON()).toMatchSnapshot();
   });
-  it('press calendarRightArrow 12 -> 1 ', () => {
+  it('press calendarRightArrow 12 -> 1', () => {
     jest.setSystemTime(new Date('2022-11-15'));
     const {toJSON, getByLabelText} = render(
       <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,

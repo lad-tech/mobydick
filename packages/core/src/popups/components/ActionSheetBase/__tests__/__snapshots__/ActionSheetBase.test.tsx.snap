@@ -15,16 +15,16 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
       },
-      Array [
-        Object {
+      [
+        {
           "justifyContent": "flex-end",
         },
         undefined,
@@ -36,8 +36,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly 1`] = `
   <View
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
+      [
+        {
           "width": "100%",
         },
         undefined,
@@ -62,16 +62,16 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly with item 1
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
       },
-      Array [
-        Object {
+      [
+        {
           "justifyContent": "flex-end",
         },
         undefined,
@@ -83,8 +83,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly with item 1
   <View
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
+      [
+        {
           "width": "100%",
         },
         undefined,
@@ -106,8 +106,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly with item 1
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Array [
-          Object {
+        [
+          {
             "alignItems": "center",
             "borderTopColor": "#D1D4DB",
             "borderTopWidth": 3,
@@ -117,7 +117,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly with item 1
             "minHeight": 150,
             "paddingHorizontal": 60,
           },
-          Object {
+          {
             "backgroundColor": "#FFF",
           },
           undefined,
@@ -126,7 +126,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly with item 1
     >
       <View
         style={
-          Object {
+          {
             "alignItems": "center",
             "flexDirection": "row",
             "justifyContent": "flex-start",
@@ -136,14 +136,14 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly with item 1
         <Text
           allowFontScaling={true}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "#FFF",
                 "fontFamily": "Inter-Regular",
                 "fontSize": 45,
                 "lineHeight": 57,
               },
-              Object {
+              {
                 "paddingVertical": 45,
               },
             ]

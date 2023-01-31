@@ -1,6 +1,9 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
 import {select, text} from '@storybook/addon-knobs';
+
+import CenterView from '../../CenterView';
+
 import {
   TEXT,
   TFontColor,
@@ -10,8 +13,6 @@ import {
   defaultTextLightColor,
   ITextColors,
 } from '@npm/mobydick-core';
-
-import CenterView from '../../CenterView';
 
 const textColorKeys = Object.keys(
   defaultTextLightColor,

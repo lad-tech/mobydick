@@ -1,11 +1,12 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {Button, IButtonSize, usePopups, View} from '@npm/mobydick-core';
-import {IButtonView, IDateRange, ModalCalendar} from '@npm/mobydick-calendar';
 import {boolean, select, text} from '@storybook/addon-knobs';
-import {localeConfigRu} from '@npm/mobydick-calendar/src/Calendar/localeConfig';
 
 import CenterView from '../CenterView';
+
+import {Button, IButtonSize, usePopups, View} from '@npm/mobydick-core';
+import {IButtonView, IDateRange, ModalCalendar} from '@npm/mobydick-calendar';
+import {localeConfigRu} from '@npm/mobydick-calendar/src/Calendar/localeConfig';
 
 export const localeConfigEn = {
   monthNames: [

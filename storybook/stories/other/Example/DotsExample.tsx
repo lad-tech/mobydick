@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {number} from '@storybook/addon-knobs';
+
 import {Button, Dots, rem, View} from '@npm/mobydick-core';
 
 const DotsExample = () => {

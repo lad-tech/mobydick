@@ -3,7 +3,7 @@ import {cloneElement, FunctionComponentElement, useState} from 'react';
 import {IControlProps} from '../types';
 import {IPressableProps} from '../../basic/components/Pressable';
 
-const cloneControls = (
+const useCloneControls = (
   controls: FunctionComponentElement<IControlProps & IPressableProps>[],
   single = false,
   disabled = false,
@@ -47,4 +47,4 @@ const cloneControls = (
   return {values, radios};
 };
 
-export default cloneControls;
+export default useCloneControls;

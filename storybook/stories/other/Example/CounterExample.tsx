@@ -1,3 +1,6 @@
+import {number, select} from '@storybook/addon-knobs';
+import React from 'react';
+
 import {
   Button,
   Counter,
@@ -6,8 +9,6 @@ import {
   ICounterTypes,
   View,
 } from '@npm/mobydick-core';
-import {number, select} from '@storybook/addon-knobs';
-import React from 'react';
 
 const CounterExample = () => {
   return (

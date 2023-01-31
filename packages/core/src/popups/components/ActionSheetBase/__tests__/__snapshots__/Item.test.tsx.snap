@@ -16,8 +16,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item 1`] = 
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "borderRadius": 36,
         "flexDirection": "row",
@@ -27,7 +27,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item 1`] = 
         "minHeight": 150,
         "paddingHorizontal": 60,
       },
-      Object {
+      {
         "backgroundColor": "#FFF",
       },
       undefined,
@@ -36,7 +36,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item 1`] = 
 >
   <View
     style={
-      Object {
+      {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -46,14 +46,14 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item 1`] = 
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#2B78EE",
             "fontFamily": "Inter-Medium",
             "fontSize": 48,
             "lineHeight": 60,
           },
-          Object {
+          {
             "paddingVertical": 45,
           },
         ]
@@ -81,8 +81,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with  
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "borderTopLeftRadius": 36,
         "borderTopRightRadius": 36,
@@ -92,7 +92,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with  
         "minHeight": 150,
         "paddingHorizontal": 60,
       },
-      Object {
+      {
         "backgroundColor": "#FFF",
       },
       undefined,
@@ -101,7 +101,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with  
 >
   <View
     style={
-      Object {
+      {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -111,14 +111,14 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with  
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 45,
             "lineHeight": 57,
           },
-          Object {
+          {
             "paddingVertical": 45,
           },
         ]
@@ -146,8 +146,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "borderBottomLeftRadius": 36,
         "borderBottomRightRadius": 36,
@@ -160,7 +160,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
         "minHeight": 150,
         "paddingHorizontal": 60,
       },
-      Object {
+      {
         "backgroundColor": "#FFF",
       },
       undefined,
@@ -169,7 +169,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
 >
   <View
     style={
-      Object {
+      {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -179,14 +179,14 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 45,
             "lineHeight": 57,
           },
-          Object {
+          {
             "paddingVertical": 45,
           },
         ]
@@ -198,8 +198,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
   <View
     needsOffscreenAlphaCompositing={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "backgroundColor": "transparent",
           "flexDirection": "row",
@@ -211,7 +211,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
   >
     <View
       accessibilityState={
-        Object {
+        {
           "disabled": false,
         }
       }
@@ -228,7 +228,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "alignItems": "center",
           "aspectRatio": 1,
           "backgroundColor": "transparent",
@@ -249,7 +249,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with d
 <View
   accessibilityLabel="accessibilityLabelActionSheetsItem"
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -266,8 +266,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with d
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "borderRadius": 36,
         "flexDirection": "row",
@@ -277,7 +277,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with d
         "minHeight": 150,
         "paddingHorizontal": 60,
       },
-      Object {
+      {
         "backgroundColor": "#FFF",
       },
       undefined,
@@ -286,7 +286,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with d
 >
   <View
     style={
-      Object {
+      {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -296,14 +296,14 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with d
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#9BA1B0",
             "fontFamily": "Inter-Medium",
             "fontSize": 48,
             "lineHeight": 60,
           },
-          Object {
+          {
             "paddingVertical": 45,
           },
         ]
@@ -331,8 +331,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "borderRadius": 36,
         "flexDirection": "row",
@@ -342,7 +342,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
         "minHeight": 150,
         "paddingHorizontal": 60,
       },
-      Object {
+      {
         "backgroundColor": "#EEEFF1",
       },
       undefined,
@@ -351,7 +351,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
 >
   <View
     style={
-      Object {
+      {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -360,7 +360,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
   >
     <View
       style={
-        Object {
+        {
           "paddingRight": 36,
         }
       }
@@ -368,7 +368,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
       <Text
         allowFontScaling={true}
         style={
-          Object {
+          {
             "color": "#5E6678",
             "fontFamily": "Neotis",
             "fontSize": 72,
@@ -381,14 +381,14 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#2B78EE",
             "fontFamily": "Inter-Medium",
             "fontSize": 48,
             "lineHeight": 60,
           },
-          Object {
+          {
             "paddingVertical": 45,
           },
         ]
@@ -400,7 +400,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
 </View>
 `;
 
-exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with selected  1`] = `
+exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with selected 1`] = `
 <View
   accessibilityLabel="accessibilityLabelActionSheetsItem"
   accessible={true}
@@ -416,8 +416,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "borderRadius": 36,
         "flexDirection": "row",
@@ -427,7 +427,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
         "minHeight": 150,
         "paddingHorizontal": 60,
       },
-      Object {
+      {
         "backgroundColor": "#FFF",
       },
       undefined,
@@ -436,7 +436,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
 >
   <View
     style={
-      Object {
+      {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -446,14 +446,14 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
             "fontSize": 48,
             "lineHeight": 60,
           },
-          Object {
+          {
             "paddingVertical": 45,
           },
         ]
@@ -464,8 +464,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
   </View>
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "backgroundColor": "transparent",
           "flexDirection": "row",
@@ -490,7 +490,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Object {
+        {
           "borderColor": "rgba(32, 36, 45, 0.3)",
           "borderRadius": 12,
           "borderWidth": 0,
@@ -509,7 +509,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
 </View>
 `;
 
-exports[`@npm/mobydick-core/ActionSheetBase should renders correctly inner item  1`] = `
+exports[`@npm/mobydick-core/ActionSheetBase should renders correctly inner item 1`] = `
 <View
   accessibilityLabel="accessibilityLabelActionSheetsItem"
   accessible={true}
@@ -525,8 +525,8 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly inner item 
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "borderTopColor": "#D1D4DB",
         "borderTopWidth": 3,
@@ -536,7 +536,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly inner item 
         "minHeight": 150,
         "paddingHorizontal": 60,
       },
-      Object {
+      {
         "backgroundColor": "#FFF",
       },
       undefined,
@@ -545,7 +545,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly inner item 
 >
   <View
     style={
-      Object {
+      {
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -555,14 +555,14 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly inner item 
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 45,
             "lineHeight": 57,
           },
-          Object {
+          {
             "paddingVertical": 45,
           },
         ]

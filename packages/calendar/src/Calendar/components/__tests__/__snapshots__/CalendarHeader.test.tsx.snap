@@ -3,7 +3,7 @@
 exports[`CalendarHeader render 1`] = `
 <View
   style={
-    Object {
+    {
       "alignItems": "center",
       "flexDirection": "row",
       "justifyContent": "center",
@@ -29,7 +29,7 @@ exports[`CalendarHeader render 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        Object {
+        {
           "color": "#5E6678",
           "fontFamily": "Neotis",
           "fontSize": 72,
@@ -52,7 +52,7 @@ exports[`CalendarHeader render 1`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      Object {
+      {
         "alignItems": "center",
         "opacity": 1,
         "width": 480,
@@ -62,8 +62,8 @@ exports[`CalendarHeader render 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
             "fontSize": 45,
@@ -94,7 +94,7 @@ exports[`CalendarHeader render 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        Object {
+        {
           "color": "#5E6678",
           "fontFamily": "Neotis",
           "fontSize": 72,

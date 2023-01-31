@@ -15,19 +15,19 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
       },
-      Array [
-        Object {
+      [
+        {
           "justifyContent": "flex-end",
         },
-        Object {
+        {
           "justifyContent": "center",
         },
       ],
@@ -38,8 +38,8 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
   <View
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "backgroundColor": "#FFF",
           "borderRadius": 36,
@@ -49,7 +49,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
           "paddingVertical": 72,
           "width": 702,
         },
-        Object {
+        {
           "maxWidth": "80%",
         },
       ]
@@ -58,10 +58,10 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
     <View
       collapsable={false}
       style={
-        Object {
+        {
           "alignSelf": "center",
-          "transform": Array [
-            Object {
+          "transform": [
+            {
               "rotate": "0deg",
             },
           ],
@@ -72,7 +72,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
         fill="#2B78EE"
         height="48"
         style={
-          Object {
+          {
             "margin": 18,
           }
         }
@@ -81,7 +81,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
     </View>
     <View
       style={
-        Object {
+        {
           "marginBottom": 24,
           "marginTop": 36,
         }
@@ -90,15 +90,15 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
       <Text
         allowFontScaling={true}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
               "fontSize": 54,
               "lineHeight": 66,
             },
-            Array [
-              Object {
+            [
+              {
                 "textAlign": "center",
               },
               undefined,
@@ -111,15 +111,15 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
       <Text
         allowFontScaling={true}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
               "fontSize": 42,
               "lineHeight": 54,
             },
-            Array [
-              Object {
+            [
+              {
                 "paddingTop": 24,
                 "textAlign": "center",
               },
@@ -133,7 +133,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
     </View>
     <View
       style={
-        Object {
+        {
           "alignItems": "center",
           "alignSelf": "stretch",
           "marginTop": 60,
@@ -142,7 +142,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
     >
       <View
         accessibilityState={
-          Object {
+          {
             "disabled": false,
           }
         }
@@ -157,7 +157,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         style={
-          Object {
+          {
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "rgba(43, 120, 238, 0.15)",
@@ -172,15 +172,15 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
         <Text
           allowFontScaling={true}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 54,
                 "lineHeight": 66,
               },
-              Array [
-                Object {
+              [
+                {
                   "color": "#2B78EE",
                   "paddingHorizontal": 18,
                 },
@@ -212,19 +212,19 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "alignItems": "center",
         "backgroundColor": "rgba(0, 0, 0, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
       },
-      Array [
-        Object {
+      [
+        {
           "justifyContent": "flex-end",
         },
-        Object {
+        {
           "justifyContent": "center",
         },
       ],
@@ -235,8 +235,8 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
   <View
     onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "backgroundColor": "#FFF",
           "borderRadius": 36,
@@ -246,7 +246,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
           "paddingVertical": 72,
           "width": 702,
         },
-        Object {
+        {
           "maxWidth": "80%",
         },
       ]
@@ -255,10 +255,10 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
     <View
       collapsable={false}
       style={
-        Object {
+        {
           "alignSelf": "center",
-          "transform": Array [
-            Object {
+          "transform": [
+            {
               "rotate": "0deg",
             },
           ],
@@ -269,7 +269,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
         fill="#2B78EE"
         height="48"
         style={
-          Object {
+          {
             "margin": 18,
           }
         }
@@ -278,7 +278,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
     </View>
     <View
       style={
-        Object {
+        {
           "marginBottom": 24,
           "marginTop": 36,
         }
@@ -287,15 +287,15 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
       <Text
         allowFontScaling={true}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
               "fontSize": 54,
               "lineHeight": 66,
             },
-            Array [
-              Object {
+            [
+              {
                 "textAlign": "center",
               },
               undefined,
@@ -308,15 +308,15 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
       <Text
         allowFontScaling={true}
         style={
-          Array [
-            Object {
+          [
+            {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
               "fontSize": 42,
               "lineHeight": 54,
             },
-            Array [
-              Object {
+            [
+              {
                 "paddingTop": 24,
                 "textAlign": "center",
               },
@@ -330,7 +330,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
     </View>
     <View
       style={
-        Object {
+        {
           "alignItems": "center",
           "alignSelf": "stretch",
           "marginTop": 60,
@@ -339,7 +339,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
     >
       <View
         accessibilityState={
-          Object {
+          {
             "disabled": false,
           }
         }
@@ -354,7 +354,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         style={
-          Object {
+          {
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "rgba(43, 120, 238, 0.15)",
@@ -369,15 +369,15 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
         <Text
           allowFontScaling={true}
           style={
-            Array [
-              Object {
+            [
+              {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 54,
                 "lineHeight": 66,
               },
-              Array [
-                Object {
+              [
+                {
                   "color": "#2B78EE",
                   "paddingHorizontal": 18,
                 },

@@ -3,7 +3,7 @@
 exports[`@npm/mobydick-core/Button renders correctly 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -18,7 +18,7 @@ exports[`@npm/mobydick-core/Button renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
@@ -33,15 +33,15 @@ exports[`@npm/mobydick-core/Button renders correctly 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 54,
           "lineHeight": 66,
         },
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "paddingHorizontal": 18,
           },
@@ -58,7 +58,7 @@ exports[`@npm/mobydick-core/Button renders correctly 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly 2`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -73,7 +73,7 @@ exports[`@npm/mobydick-core/Button renders correctly 2`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 36,
@@ -89,15 +89,15 @@ exports[`@npm/mobydick-core/Button renders correctly 2`] = `
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#F54D3D",
           "fontFamily": "Inter-Bold",
           "fontSize": 54,
           "lineHeight": 66,
         },
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "paddingHorizontal": 12,
           },
@@ -114,7 +114,7 @@ exports[`@npm/mobydick-core/Button renders correctly 2`] = `
 exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -129,7 +129,7 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#F54D3D",
@@ -143,8 +143,8 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
@@ -155,7 +155,7 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
           "position": "absolute",
           "zIndex": 1,
         },
-        Object {
+        {
           "marginLeft": 6,
           "position": "relative",
         },
@@ -165,14 +165,14 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 48,
             "lineHeight": 60,
           },
-          Object {
+          {
             "color": "#F54D3D",
             "paddingHorizontal": 18,
             "textAlign": "center",
@@ -189,7 +189,7 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly disabled 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -204,7 +204,7 @@ exports[`@npm/mobydick-core/Button renders correctly disabled 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
@@ -221,7 +221,7 @@ exports[`@npm/mobydick-core/Button renders correctly disabled 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly fixed 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -236,7 +236,7 @@ exports[`@npm/mobydick-core/Button renders correctly fixed 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
@@ -253,7 +253,7 @@ exports[`@npm/mobydick-core/Button renders correctly fixed 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly large 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -268,7 +268,7 @@ exports[`@npm/mobydick-core/Button renders correctly large 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 36,
@@ -286,7 +286,7 @@ exports[`@npm/mobydick-core/Button renders correctly large 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly left icon size large 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -301,7 +301,7 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size large 1`] = 
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 36,
@@ -318,15 +318,15 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size large 1`] = 
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 54,
           "lineHeight": 66,
         },
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "paddingHorizontal": 18,
           },
@@ -344,7 +344,7 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size large 1`] = 
 exports[`@npm/mobydick-core/Button renders correctly left icon size small 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -359,7 +359,7 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size small 1`] = 
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 36,
@@ -376,15 +376,15 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size small 1`] = 
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 42,
           "lineHeight": 54,
         },
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "paddingHorizontal": 12,
           },
@@ -402,7 +402,7 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size small 1`] = 
 exports[`@npm/mobydick-core/Button renders correctly left icon small 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -417,7 +417,7 @@ exports[`@npm/mobydick-core/Button renders correctly left icon small 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 36,
@@ -438,7 +438,7 @@ exports[`@npm/mobydick-core/Button renders correctly left icon small 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly loading 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -453,7 +453,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
@@ -468,10 +468,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading 1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignSelf": "center",
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "rotate": "0deg",
           },
         ],
@@ -487,10 +487,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading disabled  1`] = `
+exports[`@npm/mobydick-core/Button renders correctly loading disabled 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -505,7 +505,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading disabled  1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
@@ -520,10 +520,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading disabled  1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignSelf": "center",
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "rotate": "0deg",
           },
         ],
@@ -542,7 +542,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading disabled  1`] = `
 exports[`@npm/mobydick-core/Button renders correctly loading types 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -557,7 +557,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
@@ -572,10 +572,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignSelf": "center",
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "rotate": "0deg",
           },
         ],
@@ -594,7 +594,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly loading types 2`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -609,7 +609,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 2`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
@@ -624,10 +624,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 2`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignSelf": "center",
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "rotate": "0deg",
           },
         ],
@@ -646,7 +646,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 2`] = `
 exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -661,7 +661,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
@@ -675,8 +675,8 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
@@ -687,7 +687,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
           "position": "absolute",
           "zIndex": 1,
         },
-        Object {
+        {
           "marginLeft": 6,
           "position": "relative",
         },
@@ -697,14 +697,14 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 48,
             "lineHeight": 60,
           },
-          Object {
+          {
             "color": "#2B78EE",
             "paddingHorizontal": 18,
             "textAlign": "center",
@@ -721,7 +721,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
 exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -736,7 +736,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
@@ -750,8 +750,8 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
@@ -762,7 +762,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
           "position": "absolute",
           "zIndex": 1,
         },
-        Object {
+        {
           "marginLeft": 6,
           "position": "relative",
         },
@@ -772,14 +772,14 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 48,
             "lineHeight": 60,
           },
-          Object {
+          {
             "color": "#2B78EE",
             "paddingHorizontal": 18,
             "textAlign": "center",
@@ -796,7 +796,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
 exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -811,7 +811,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
@@ -825,8 +825,8 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#2B78EE",
@@ -837,7 +837,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
           "position": "absolute",
           "zIndex": 1,
         },
-        Object {
+        {
           "marginLeft": 6,
           "position": "relative",
         },
@@ -847,14 +847,14 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 48,
             "lineHeight": 60,
           },
-          Object {
+          {
             "color": "#FFF",
             "paddingHorizontal": 18,
             "textAlign": "center",
@@ -871,7 +871,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
 exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -886,7 +886,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
@@ -900,8 +900,8 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
@@ -912,7 +912,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
           "position": "absolute",
           "zIndex": 1,
         },
-        Object {
+        {
           "marginLeft": 6,
           "position": "relative",
         },
@@ -922,14 +922,14 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 48,
             "lineHeight": 60,
           },
-          Object {
+          {
             "color": "#9BA1B0",
             "paddingHorizontal": 18,
             "textAlign": "center",
@@ -946,7 +946,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
 exports[`@npm/mobydick-core/Button renders correctly loading types 7`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -961,7 +961,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 7`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
@@ -976,10 +976,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 7`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignSelf": "center",
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "rotate": "0deg",
           },
         ],
@@ -998,7 +998,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 7`] = `
 exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -1013,7 +1013,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#F54D3D",
@@ -1027,8 +1027,8 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
 >
   <View
     style={
-      Array [
-        Object {
+      [
+        {
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
@@ -1039,7 +1039,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
           "position": "absolute",
           "zIndex": 1,
         },
-        Object {
+        {
           "marginLeft": 6,
           "position": "relative",
         },
@@ -1049,14 +1049,14 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
     <Text
       allowFontScaling={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 48,
             "lineHeight": 60,
           },
-          Object {
+          {
             "color": "#F54D3D",
             "paddingHorizontal": 18,
             "textAlign": "center",
@@ -1073,7 +1073,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
 exports[`@npm/mobydick-core/Button renders correctly loading without type 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -1088,7 +1088,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading without type 1`] = 
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
@@ -1105,7 +1105,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading without type 1`] = 
 exports[`@npm/mobydick-core/Button renders correctly secondary 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -1120,7 +1120,7 @@ exports[`@npm/mobydick-core/Button renders correctly secondary 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
@@ -1137,7 +1137,7 @@ exports[`@npm/mobydick-core/Button renders correctly secondary 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly small 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -1152,7 +1152,7 @@ exports[`@npm/mobydick-core/Button renders correctly small 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 36,
@@ -1170,7 +1170,7 @@ exports[`@npm/mobydick-core/Button renders correctly small 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly small 2`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": true,
     }
   }
@@ -1185,7 +1185,7 @@ exports[`@npm/mobydick-core/Button renders correctly small 2`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 36,
@@ -1201,10 +1201,10 @@ exports[`@npm/mobydick-core/Button renders correctly small 2`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "alignSelf": "center",
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "rotate": "0deg",
           },
         ],
@@ -1223,7 +1223,7 @@ exports[`@npm/mobydick-core/Button renders correctly small 2`] = `
 exports[`@npm/mobydick-core/Button renders correctly tertiary 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -1238,7 +1238,7 @@ exports[`@npm/mobydick-core/Button renders correctly tertiary 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
@@ -1255,7 +1255,7 @@ exports[`@npm/mobydick-core/Button renders correctly tertiary 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly text 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -1270,7 +1270,7 @@ exports[`@npm/mobydick-core/Button renders correctly text 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 36,
@@ -1286,15 +1286,15 @@ exports[`@npm/mobydick-core/Button renders correctly text 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 42,
           "lineHeight": 54,
         },
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "paddingHorizontal": 12,
           },
@@ -1311,7 +1311,7 @@ exports[`@npm/mobydick-core/Button renders correctly text 1`] = `
 exports[`@npm/mobydick-core/Button renders correctly without size 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -1326,7 +1326,7 @@ exports[`@npm/mobydick-core/Button renders correctly without size 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
       "borderRadius": 36,

@@ -3,7 +3,7 @@
 exports[`@npm/mobydick-core/TooltipBase/LeftButton should renders correctly 1`] = `
 <View
   accessibilityState={
-    Object {
+    {
       "disabled": false,
     }
   }
@@ -18,7 +18,7 @@ exports[`@npm/mobydick-core/TooltipBase/LeftButton should renders correctly 1`] 
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
+    {
       "alignItems": "center",
       "alignSelf": "flex-start",
       "backgroundColor": "#2B78EE",
@@ -34,15 +34,15 @@ exports[`@npm/mobydick-core/TooltipBase/LeftButton should renders correctly 1`] 
   <Text
     allowFontScaling={true}
     style={
-      Array [
-        Object {
+      [
+        {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 54,
           "lineHeight": 66,
         },
-        Array [
-          Object {
+        [
+          {
             "color": "#FFF",
             "paddingHorizontal": 18,
           },

@@ -17,7 +17,7 @@ describe('Months', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
-  it('press month ', () => {
+  it('press month', () => {
     const onCloseMonths = jest.fn();
     const onPressMonth = jest.fn();
     const {toJSON, getAllByLabelText} = render(

@@ -1,3 +1,8 @@
+import React from 'react';
+import {select, text} from '@storybook/addon-knobs';
+import {StyleSheet} from 'react-native';
+
+import SimpleIcon from '@npm/mobydick-core/src/styles/icons/font/SimpleIcon';
 import {
   iconNames,
   IThemeContext,
@@ -8,10 +13,6 @@ import {
   useStyles,
   View,
 } from '@npm/mobydick-core';
-import React from 'react';
-import SimpleIcon from '@npm/mobydick-core/src/styles/icons/font/SimpleIcon';
-import {select, text} from '@storybook/addon-knobs';
-import {StyleSheet} from 'react-native';
 
 enum IPanelHeader {
   icon = 'icon',

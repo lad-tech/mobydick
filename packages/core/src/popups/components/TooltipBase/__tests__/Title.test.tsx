@@ -15,7 +15,7 @@ describe('@npm/mobydick-core/TooltipBase/Title', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  it('should renders correctly ', () => {
+  it('should renders correctly', () => {
     const {toJSON} = render(<Title title={'title'} />);
 
     expect(toJSON()).toMatchSnapshot();

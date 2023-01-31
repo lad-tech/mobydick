@@ -11,7 +11,7 @@ exports[`Swipe should renders correctly active 1`] = `
   onPanResponderRelease={[Function]}
   onStartShouldSetPanResponder={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "rgba(155, 161, 176, 1)",
       "borderRadius": 60,
       "height": 90,
@@ -24,13 +24,13 @@ exports[`Swipe should renders correctly active 1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "aspectRatio": 1,
         "backgroundColor": "#FFF",
         "borderRadius": 75,
         "flex": 1,
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "translateX": 0,
           },
         ],
@@ -51,7 +51,7 @@ exports[`Swipe should renders correctly active and disabled 1`] = `
   onPanResponderRelease={[Function]}
   onStartShouldSetPanResponder={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "rgba(43, 120, 238, 1)",
       "borderRadius": 60,
       "height": 90,
@@ -64,13 +64,13 @@ exports[`Swipe should renders correctly active and disabled 1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "aspectRatio": 1,
         "backgroundColor": "#FFF",
         "borderRadius": 75,
         "flex": 1,
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "translateX": 60,
           },
         ],
@@ -80,7 +80,7 @@ exports[`Swipe should renders correctly active and disabled 1`] = `
 </View>
 `;
 
-exports[`Swipe should renders correctly by default +  1`] = `
+exports[`Swipe should renders correctly by default + 1`] = `
 <View
   accessibilityLabel="swipe"
   collapsable={false}
@@ -91,7 +91,7 @@ exports[`Swipe should renders correctly by default +  1`] = `
   onPanResponderRelease={[Function]}
   onStartShouldSetPanResponder={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "rgba(43, 120, 238, 1)",
       "borderRadius": 60,
       "height": 90,
@@ -104,13 +104,13 @@ exports[`Swipe should renders correctly by default +  1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "aspectRatio": 1,
         "backgroundColor": "#FFF",
         "borderRadius": 75,
         "flex": 1,
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "translateX": 60,
           },
         ],
@@ -131,7 +131,7 @@ exports[`Swipe should renders correctly by default - 1`] = `
   onPanResponderRelease={[Function]}
   onStartShouldSetPanResponder={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "rgba(155, 161, 176, 1)",
       "borderRadius": 60,
       "height": 90,
@@ -144,13 +144,13 @@ exports[`Swipe should renders correctly by default - 1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "aspectRatio": 1,
         "backgroundColor": "#FFF",
         "borderRadius": 75,
         "flex": 1,
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "translateX": 0,
           },
         ],
@@ -160,7 +160,7 @@ exports[`Swipe should renders correctly by default - 1`] = `
 </View>
 `;
 
-exports[`Swipe should renders correctly disabled +  1`] = `
+exports[`Swipe should renders correctly disabled + 1`] = `
 <View
   accessibilityLabel="swipe"
   collapsable={false}
@@ -171,7 +171,7 @@ exports[`Swipe should renders correctly disabled +  1`] = `
   onPanResponderRelease={[Function]}
   onStartShouldSetPanResponder={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "rgba(155, 161, 176, 1)",
       "borderRadius": 60,
       "height": 90,
@@ -184,13 +184,13 @@ exports[`Swipe should renders correctly disabled +  1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "aspectRatio": 1,
         "backgroundColor": "#FFF",
         "borderRadius": 75,
         "flex": 1,
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "translateX": 0,
           },
         ],
@@ -200,7 +200,7 @@ exports[`Swipe should renders correctly disabled +  1`] = `
 </View>
 `;
 
-exports[`Swipe should renders correctly disabled -  1`] = `
+exports[`Swipe should renders correctly disabled - 1`] = `
 <View
   accessibilityLabel="swipe"
   collapsable={false}
@@ -211,7 +211,7 @@ exports[`Swipe should renders correctly disabled -  1`] = `
   onPanResponderRelease={[Function]}
   onStartShouldSetPanResponder={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "rgba(155, 161, 176, 1)",
       "borderRadius": 60,
       "height": 90,
@@ -224,13 +224,13 @@ exports[`Swipe should renders correctly disabled -  1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "aspectRatio": 1,
         "backgroundColor": "#FFF",
         "borderRadius": 75,
         "flex": 1,
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "translateX": 0,
           },
         ],
@@ -251,7 +251,7 @@ exports[`Swipe should renders correctly disabled dx: 20 1`] = `
   onPanResponderRelease={[Function]}
   onStartShouldSetPanResponder={[Function]}
   style={
-    Object {
+    {
       "backgroundColor": "rgba(43, 120, 238, 1)",
       "borderRadius": 60,
       "height": 90,
@@ -264,13 +264,13 @@ exports[`Swipe should renders correctly disabled dx: 20 1`] = `
   <View
     collapsable={false}
     style={
-      Object {
+      {
         "aspectRatio": 1,
         "backgroundColor": "#FFF",
         "borderRadius": 75,
         "flex": 1,
-        "transform": Array [
-          Object {
+        "transform": [
+          {
             "translateX": 60,
           },
         ],

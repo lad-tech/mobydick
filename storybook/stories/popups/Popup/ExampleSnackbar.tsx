@@ -1,3 +1,8 @@
+import React, {FC} from 'react';
+import {boolean, select, text} from '@storybook/addon-knobs';
+
+import selectFont from '../../../utils/selectFont';
+
 import {
   IContentProps,
   IPosition,
@@ -8,10 +13,6 @@ import {
   TouchableOpacity,
   Typography,
 } from '@npm/mobydick-core';
-import React, {FC} from 'react';
-import {boolean, select, text} from '@storybook/addon-knobs';
-
-import selectFont from '../../../utils/selectFont';
 
 const ExampleSnackbar: FC<IContentProps> = props => {
   const {colors} = useTheme();

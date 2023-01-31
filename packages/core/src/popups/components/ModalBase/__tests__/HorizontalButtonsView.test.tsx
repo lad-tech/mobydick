@@ -5,7 +5,7 @@ import {IButtonTypes} from '../../../../cta/components/Button/types';
 import HorizontalButtonsView from '../HorizontalButtonsView';
 
 describe('@npm/mobydick-core/modalBase', () => {
-  it('should renders correctly HorizontalButtonsView destructive ', () => {
+  it('should renders correctly HorizontalButtonsView destructive', () => {
     const {toJSON} = render(
       <HorizontalButtonsView
         typeLeft={IButtonTypes.destructive}
@@ -19,7 +19,7 @@ describe('@npm/mobydick-core/modalBase', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  it('should renders correctly HorizontalButtonsView secondary ', () => {
+  it('should renders correctly HorizontalButtonsView secondary', () => {
     const {toJSON} = render(
       <HorizontalButtonsView
         typeLeft={IButtonTypes.secondary}
@@ -34,7 +34,7 @@ describe('@npm/mobydick-core/modalBase', () => {
     expect(toJSON()).toMatchSnapshot();
   });
 
-  it('should renders correctly HorizontalButtonsView tertiary ', () => {
+  it('should renders correctly HorizontalButtonsView tertiary', () => {
     const {toJSON} = render(
       <HorizontalButtonsView
         typeLeft={IButtonTypes.tertiary}
@@ -48,7 +48,7 @@ describe('@npm/mobydick-core/modalBase', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  it('should renders correctly HorizontalButtonsView primary ', () => {
+  it('should renders correctly HorizontalButtonsView primary', () => {
     const {toJSON} = render(
       <HorizontalButtonsView
         typeLeft={IButtonTypes.primary}

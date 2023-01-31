@@ -4,10 +4,10 @@ exports[`@npm/mobydick-core/Spinner renders correctly L 1`] = `
 <View
   collapsable={false}
   style={
-    Object {
+    {
       "alignSelf": "center",
-      "transform": Array [
-        Object {
+      "transform": [
+        {
           "rotate": "0deg",
         },
       ],
@@ -26,10 +26,10 @@ exports[`@npm/mobydick-core/Spinner renders correctly M 1`] = `
 <View
   collapsable={false}
   style={
-    Object {
+    {
       "alignSelf": "center",
-      "transform": Array [
-        Object {
+      "transform": [
+        {
           "rotate": "0deg",
         },
       ],
@@ -48,10 +48,10 @@ exports[`@npm/mobydick-core/Spinner renders correctly S 1`] = `
 <View
   collapsable={false}
   style={
-    Object {
+    {
       "alignSelf": "center",
-      "transform": Array [
-        Object {
+      "transform": [
+        {
           "rotate": "0deg",
         },
       ],
