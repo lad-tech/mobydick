@@ -1,7 +1,6 @@
 export enum ICounterSize {
   medium = 'medium',
   small = 'small',
-  badge = 'badge',
 }
 
 export enum ICounterTypes {
