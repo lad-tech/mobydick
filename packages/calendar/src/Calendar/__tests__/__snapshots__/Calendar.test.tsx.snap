@@ -3737,7 +3737,7 @@ Array [
           ]
         }
       >
-        Декабрь, 2022
+        Декабрь, 2021
       </Text>
     </View>
     <View
@@ -4015,7 +4015,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 28 Ноябрь 2022 "
+              accessibilityLabel=" Понедельник 29 Ноябрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -4032,101 +4032,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-11-28"
-            >
-              <View
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "alignSelf": "stretch",
-                  }
-                }
-              >
-                <View
-                  style={
-                    Array [
-                      Object {
-                        "alignItems": "center",
-                        "height": 34,
-                        "justifyContent": "center",
-                        "width": 38,
-                      },
-                    ]
-                  }
-                >
-                  <Text
-                    allowFontScaling={false}
-                    style={
-                      Array [
-                        Object {
-                          "backgroundColor": "rgba(255, 255, 255, 0)",
-                          "color": "#20242D",
-                          "fontFamily": "Inter-Regular",
-                          "fontSize": 42,
-                          "fontWeight": "300",
-                        },
-                        Object {
-                          "color": "#9BA1B0",
-                        },
-                      ]
-                    }
-                  >
-                    28
-                  </Text>
-                  <View
-                    style={
-                      Object {
-                        "bottom": 3,
-                        "position": "absolute",
-                      }
-                    }
-                  >
-                    <View
-                      style={
-                        Array [
-                          Object {
-                            "borderRadius": 2,
-                            "height": 4,
-                            "marginHorizontal": 1,
-                            "marginTop": 1,
-                            "opacity": 0,
-                            "width": 4,
-                          },
-                        ]
-                      }
-                    />
-                  </View>
-                </View>
-              </View>
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "flex": 1,
-              }
-            }
-          >
-            <View
-              accessibilityLabel=" Вторник 29 Ноябрь 2022 "
-              accessibilityRole="button"
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                }
-              }
-              testID="undefined.day_2022-11-29"
+              testID="undefined.day_2021-11-29"
             >
               <View
                 style={
@@ -4203,7 +4109,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 30 Ноябрь 2022 "
+              accessibilityLabel=" Вторник 30 Ноябрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -4220,7 +4126,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-11-30"
+              testID="undefined.day_2021-11-30"
             >
               <View
                 style={
@@ -4297,7 +4203,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 1 Декабрь 2022 "
+              accessibilityLabel=" Среда 1 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -4314,7 +4220,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-01"
+              testID="undefined.day_2021-12-01"
             >
               <View
                 style={
@@ -4388,7 +4294,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 2 Декабрь 2022 "
+              accessibilityLabel=" Четверг 2 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -4405,7 +4311,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-02"
+              testID="undefined.day_2021-12-02"
             >
               <View
                 style={
@@ -4479,7 +4385,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 3 Декабрь 2022 "
+              accessibilityLabel=" Пятница 3 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -4496,7 +4402,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-03"
+              testID="undefined.day_2021-12-03"
             >
               <View
                 style={
@@ -4570,7 +4476,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 4 Декабрь 2022 "
+              accessibilityLabel=" Суббота 4 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -4587,7 +4493,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-04"
+              testID="undefined.day_2021-12-04"
             >
               <View
                 style={
@@ -4652,16 +4558,6 @@ Array [
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 0,
-            }
-          }
-        >
           <View
             style={
               Object {
@@ -4671,7 +4567,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 5 Декабрь 2022 "
+              accessibilityLabel=" Воскресенье 5 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -4688,7 +4584,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-05"
+              testID="undefined.day_2021-12-05"
             >
               <View
                 style={
@@ -4753,6 +4649,16 @@ Array [
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
           <View
             style={
               Object {
@@ -4762,7 +4668,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Вторник 6 Декабрь 2022 "
+              accessibilityLabel=" Понедельник 6 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -4779,7 +4685,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-06"
+              testID="undefined.day_2021-12-06"
             >
               <View
                 style={
@@ -4853,7 +4759,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 7 Декабрь 2022 "
+              accessibilityLabel=" Вторник 7 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -4870,7 +4776,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-07"
+              testID="undefined.day_2021-12-07"
             >
               <View
                 style={
@@ -4944,7 +4850,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 8 Декабрь 2022 "
+              accessibilityLabel=" Среда 8 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -4961,7 +4867,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-08"
+              testID="undefined.day_2021-12-08"
             >
               <View
                 style={
@@ -5035,7 +4941,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 9 Декабрь 2022 "
+              accessibilityLabel=" Четверг 9 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5052,7 +4958,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-09"
+              testID="undefined.day_2021-12-09"
             >
               <View
                 style={
@@ -5126,7 +5032,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 10 Декабрь 2022 "
+              accessibilityLabel=" Пятница 10 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5143,7 +5049,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-10"
+              testID="undefined.day_2021-12-10"
             >
               <View
                 style={
@@ -5217,7 +5123,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 11 Декабрь 2022 "
+              accessibilityLabel=" Суббота 11 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5234,7 +5140,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-11"
+              testID="undefined.day_2021-12-11"
             >
               <View
                 style={
@@ -5299,16 +5205,6 @@ Array [
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 0,
-            }
-          }
-        >
           <View
             style={
               Object {
@@ -5318,7 +5214,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 12 Декабрь 2022 "
+              accessibilityLabel=" Воскресенье 12 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5335,7 +5231,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-12"
+              testID="undefined.day_2021-12-12"
             >
               <View
                 style={
@@ -5400,6 +5296,16 @@ Array [
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
           <View
             style={
               Object {
@@ -5409,7 +5315,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Вторник 13 Декабрь 2022 "
+              accessibilityLabel=" Понедельник 13 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5426,7 +5332,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-13"
+              testID="undefined.day_2021-12-13"
             >
               <View
                 style={
@@ -5500,7 +5406,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 14 Декабрь 2022 "
+              accessibilityLabel=" Вторник 14 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5517,7 +5423,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-14"
+              testID="undefined.day_2021-12-14"
             >
               <View
                 style={
@@ -5591,7 +5497,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 15 Декабрь 2022 "
+              accessibilityLabel=" Среда 15 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5608,7 +5514,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-15"
+              testID="undefined.day_2021-12-15"
             >
               <View
                 style={
@@ -5682,7 +5588,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 16 Декабрь 2022 "
+              accessibilityLabel=" Четверг 16 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5699,7 +5605,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-16"
+              testID="undefined.day_2021-12-16"
             >
               <View
                 style={
@@ -5773,7 +5679,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 17 Декабрь 2022 "
+              accessibilityLabel=" Пятница 17 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5790,7 +5696,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-17"
+              testID="undefined.day_2021-12-17"
             >
               <View
                 style={
@@ -5864,7 +5770,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 18 Декабрь 2022 "
+              accessibilityLabel=" Суббота 18 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5881,7 +5787,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-18"
+              testID="undefined.day_2021-12-18"
             >
               <View
                 style={
@@ -5946,16 +5852,6 @@ Array [
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 0,
-            }
-          }
-        >
           <View
             style={
               Object {
@@ -5965,7 +5861,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 19 Декабрь 2022 "
+              accessibilityLabel=" Воскресенье 19 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -5982,7 +5878,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-19"
+              testID="undefined.day_2021-12-19"
             >
               <View
                 style={
@@ -6047,6 +5943,16 @@ Array [
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
           <View
             style={
               Object {
@@ -6056,7 +5962,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Вторник 20 Декабрь 2022 "
+              accessibilityLabel=" Понедельник 20 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6073,7 +5979,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-20"
+              testID="undefined.day_2021-12-20"
             >
               <View
                 style={
@@ -6147,7 +6053,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 21 Декабрь 2022 "
+              accessibilityLabel=" Вторник 21 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6164,7 +6070,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-21"
+              testID="undefined.day_2021-12-21"
             >
               <View
                 style={
@@ -6238,7 +6144,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 22 Декабрь 2022 "
+              accessibilityLabel=" Среда 22 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6255,7 +6161,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-22"
+              testID="undefined.day_2021-12-22"
             >
               <View
                 style={
@@ -6329,7 +6235,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 23 Декабрь 2022 "
+              accessibilityLabel=" Четверг 23 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6346,7 +6252,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-23"
+              testID="undefined.day_2021-12-23"
             >
               <View
                 style={
@@ -6420,7 +6326,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 24 Декабрь 2022 "
+              accessibilityLabel=" Пятница 24 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6437,7 +6343,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-24"
+              testID="undefined.day_2021-12-24"
             >
               <View
                 style={
@@ -6511,7 +6417,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 25 Декабрь 2022 "
+              accessibilityLabel=" Суббота 25 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6528,7 +6434,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-25"
+              testID="undefined.day_2021-12-25"
             >
               <View
                 style={
@@ -6593,16 +6499,6 @@ Array [
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 0,
-            }
-          }
-        >
           <View
             style={
               Object {
@@ -6612,7 +6508,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 26 Декабрь 2022 "
+              accessibilityLabel=" Воскресенье 26 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6629,7 +6525,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-26"
+              testID="undefined.day_2021-12-26"
             >
               <View
                 style={
@@ -6694,6 +6590,16 @@ Array [
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
           <View
             style={
               Object {
@@ -6703,7 +6609,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Вторник 27 Декабрь 2022 "
+              accessibilityLabel=" Понедельник 27 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6720,7 +6626,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-27"
+              testID="undefined.day_2021-12-27"
             >
               <View
                 style={
@@ -6794,7 +6700,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 28 Декабрь 2022 "
+              accessibilityLabel=" Вторник 28 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6811,7 +6717,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-28"
+              testID="undefined.day_2021-12-28"
             >
               <View
                 style={
@@ -6885,7 +6791,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 29 Декабрь 2022 "
+              accessibilityLabel=" Среда 29 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6902,7 +6808,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-29"
+              testID="undefined.day_2021-12-29"
             >
               <View
                 style={
@@ -6976,7 +6882,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 30 Декабрь 2022 "
+              accessibilityLabel=" Четверг 30 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -6993,7 +6899,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-30"
+              testID="undefined.day_2021-12-30"
             >
               <View
                 style={
@@ -7067,7 +6973,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 31 Декабрь 2022 "
+              accessibilityLabel=" Пятница 31 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -7084,7 +6990,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-31"
+              testID="undefined.day_2021-12-31"
             >
               <View
                 style={
@@ -7158,7 +7064,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 1 Январь 2023 "
+              accessibilityLabel=" Суббота 1 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -7175,7 +7081,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-01"
+              testID="undefined.day_2022-01-01"
             >
               <View
                 style={
@@ -7215,6 +7121,100 @@ Array [
                     }
                   >
                     1
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Воскресенье 2 Январь 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-01-02"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 42,
+                          "fontWeight": "300",
+                        },
+                        Object {
+                          "color": "#9BA1B0",
+                        },
+                      ]
+                    }
+                  >
+                    2
                   </Text>
                   <View
                     style={
@@ -10907,7 +10907,7 @@ Array [
           ]
         }
       >
-        Декабрь, 2022
+        Ноябрь, 2022
       </Text>
     </View>
     <View
@@ -11649,7 +11649,7 @@ Array [
           ]
         }
       >
-        Февраль, 2023
+        Февраль, 2022
       </Text>
     </View>
     <View
@@ -11927,7 +11927,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 26 Декабрь 2022 "
+              accessibilityLabel=" Понедельник 27 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -11944,101 +11944,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-26"
-            >
-              <View
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "alignSelf": "stretch",
-                  }
-                }
-              >
-                <View
-                  style={
-                    Array [
-                      Object {
-                        "alignItems": "center",
-                        "height": 34,
-                        "justifyContent": "center",
-                        "width": 38,
-                      },
-                    ]
-                  }
-                >
-                  <Text
-                    allowFontScaling={false}
-                    style={
-                      Array [
-                        Object {
-                          "backgroundColor": "rgba(255, 255, 255, 0)",
-                          "color": "#20242D",
-                          "fontFamily": "Inter-Regular",
-                          "fontSize": 42,
-                          "fontWeight": "300",
-                        },
-                        Object {
-                          "color": "#9BA1B0",
-                        },
-                      ]
-                    }
-                  >
-                    26
-                  </Text>
-                  <View
-                    style={
-                      Object {
-                        "bottom": 3,
-                        "position": "absolute",
-                      }
-                    }
-                  >
-                    <View
-                      style={
-                        Array [
-                          Object {
-                            "borderRadius": 2,
-                            "height": 4,
-                            "marginHorizontal": 1,
-                            "marginTop": 1,
-                            "opacity": 0,
-                            "width": 4,
-                          },
-                        ]
-                      }
-                    />
-                  </View>
-                </View>
-              </View>
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "flex": 1,
-              }
-            }
-          >
-            <View
-              accessibilityLabel=" Вторник 27 Декабрь 2022 "
-              accessibilityRole="button"
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                Object {
-                  "opacity": 1,
-                }
-              }
-              testID="undefined.day_2022-12-27"
+              testID="undefined.day_2021-12-27"
             >
               <View
                 style={
@@ -12115,7 +12021,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 28 Декабрь 2022 "
+              accessibilityLabel=" Вторник 28 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -12132,7 +12038,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-28"
+              testID="undefined.day_2021-12-28"
             >
               <View
                 style={
@@ -12209,7 +12115,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 29 Декабрь 2022 "
+              accessibilityLabel=" Среда 29 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -12226,7 +12132,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-29"
+              testID="undefined.day_2021-12-29"
             >
               <View
                 style={
@@ -12303,7 +12209,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 30 Декабрь 2022 "
+              accessibilityLabel=" Четверг 30 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -12320,7 +12226,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-30"
+              testID="undefined.day_2021-12-30"
             >
               <View
                 style={
@@ -12397,7 +12303,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 31 Декабрь 2022 "
+              accessibilityLabel=" Пятница 31 Декабрь 2021 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -12414,7 +12320,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2022-12-31"
+              testID="undefined.day_2021-12-31"
             >
               <View
                 style={
@@ -12491,7 +12397,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 1 Январь 2023 "
+              accessibilityLabel=" Суббота 1 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -12508,7 +12414,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-01"
+              testID="undefined.day_2022-01-01"
             >
               <View
                 style={
@@ -12573,16 +12479,6 @@ Array [
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 0,
-            }
-          }
-        >
           <View
             style={
               Object {
@@ -12592,7 +12488,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 2 Январь 2023 "
+              accessibilityLabel=" Воскресенье 2 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -12609,7 +12505,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-02"
+              testID="undefined.day_2022-01-02"
             >
               <View
                 style={
@@ -12674,6 +12570,16 @@ Array [
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
           <View
             style={
               Object {
@@ -12683,7 +12589,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Вторник 3 Январь 2023 "
+              accessibilityLabel=" Понедельник 3 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -12700,7 +12606,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-03"
+              testID="undefined.day_2022-01-03"
             >
               <View
                 style={
@@ -12774,7 +12680,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 4 Январь 2023 "
+              accessibilityLabel=" Вторник 4 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -12791,7 +12697,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-04"
+              testID="undefined.day_2022-01-04"
             >
               <View
                 style={
@@ -12865,7 +12771,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 5 Январь 2023 "
+              accessibilityLabel=" Среда 5 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -12882,7 +12788,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-05"
+              testID="undefined.day_2022-01-05"
             >
               <View
                 style={
@@ -12956,7 +12862,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 6 Январь 2023 "
+              accessibilityLabel=" Четверг 6 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -12973,7 +12879,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-06"
+              testID="undefined.day_2022-01-06"
             >
               <View
                 style={
@@ -13047,7 +12953,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 7 Январь 2023 "
+              accessibilityLabel=" Пятница 7 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13064,7 +12970,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-07"
+              testID="undefined.day_2022-01-07"
             >
               <View
                 style={
@@ -13138,7 +13044,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 8 Январь 2023 "
+              accessibilityLabel=" Суббота 8 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13155,7 +13061,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-08"
+              testID="undefined.day_2022-01-08"
             >
               <View
                 style={
@@ -13220,16 +13126,6 @@ Array [
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 0,
-            }
-          }
-        >
           <View
             style={
               Object {
@@ -13239,7 +13135,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 9 Январь 2023 "
+              accessibilityLabel=" Воскресенье 9 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13256,7 +13152,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-09"
+              testID="undefined.day_2022-01-09"
             >
               <View
                 style={
@@ -13321,6 +13217,16 @@ Array [
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
           <View
             style={
               Object {
@@ -13330,7 +13236,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Вторник 10 Январь 2023 "
+              accessibilityLabel=" Понедельник 10 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13347,7 +13253,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-10"
+              testID="undefined.day_2022-01-10"
             >
               <View
                 style={
@@ -13421,7 +13327,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 11 Январь 2023 "
+              accessibilityLabel=" Вторник 11 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13438,7 +13344,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-11"
+              testID="undefined.day_2022-01-11"
             >
               <View
                 style={
@@ -13512,7 +13418,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 12 Январь 2023 "
+              accessibilityLabel=" Среда 12 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13529,7 +13435,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-12"
+              testID="undefined.day_2022-01-12"
             >
               <View
                 style={
@@ -13603,7 +13509,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 13 Январь 2023 "
+              accessibilityLabel=" Четверг 13 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13620,7 +13526,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-13"
+              testID="undefined.day_2022-01-13"
             >
               <View
                 style={
@@ -13694,7 +13600,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 14 Январь 2023 "
+              accessibilityLabel=" Пятница 14 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13711,7 +13617,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-14"
+              testID="undefined.day_2022-01-14"
             >
               <View
                 style={
@@ -13785,7 +13691,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 15 Январь 2023 "
+              accessibilityLabel=" Суббота 15 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13802,7 +13708,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-15"
+              testID="undefined.day_2022-01-15"
             >
               <View
                 style={
@@ -13867,16 +13773,6 @@ Array [
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 0,
-            }
-          }
-        >
           <View
             style={
               Object {
@@ -13886,7 +13782,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 16 Январь 2023 "
+              accessibilityLabel=" Воскресенье 16 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13903,7 +13799,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-16"
+              testID="undefined.day_2022-01-16"
             >
               <View
                 style={
@@ -13968,6 +13864,16 @@ Array [
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
           <View
             style={
               Object {
@@ -13977,7 +13883,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Вторник 17 Январь 2023 "
+              accessibilityLabel=" Понедельник 17 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -13994,7 +13900,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-17"
+              testID="undefined.day_2022-01-17"
             >
               <View
                 style={
@@ -14068,7 +13974,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 18 Январь 2023 "
+              accessibilityLabel=" Вторник 18 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -14085,7 +13991,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-18"
+              testID="undefined.day_2022-01-18"
             >
               <View
                 style={
@@ -14159,7 +14065,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 19 Январь 2023 "
+              accessibilityLabel=" Среда 19 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -14176,7 +14082,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-19"
+              testID="undefined.day_2022-01-19"
             >
               <View
                 style={
@@ -14250,7 +14156,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 20 Январь 2023 "
+              accessibilityLabel=" Четверг 20 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -14267,7 +14173,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-20"
+              testID="undefined.day_2022-01-20"
             >
               <View
                 style={
@@ -14341,7 +14247,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 21 Январь 2023 "
+              accessibilityLabel=" Пятница 21 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -14358,7 +14264,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-21"
+              testID="undefined.day_2022-01-21"
             >
               <View
                 style={
@@ -14432,7 +14338,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 22 Январь 2023 "
+              accessibilityLabel=" Суббота 22 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -14449,7 +14355,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-22"
+              testID="undefined.day_2022-01-22"
             >
               <View
                 style={
@@ -14514,16 +14420,6 @@ Array [
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 0,
-            }
-          }
-        >
           <View
             style={
               Object {
@@ -14533,7 +14429,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Понедельник 23 Январь 2023 "
+              accessibilityLabel=" Воскресенье 23 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -14550,7 +14446,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-23"
+              testID="undefined.day_2022-01-23"
             >
               <View
                 style={
@@ -14615,6 +14511,16 @@ Array [
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
           <View
             style={
               Object {
@@ -14624,7 +14530,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Вторник 24 Январь 2023 "
+              accessibilityLabel=" Понедельник 24 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -14641,7 +14547,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-24"
+              testID="undefined.day_2022-01-24"
             >
               <View
                 style={
@@ -14715,7 +14621,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 25 Январь 2023 "
+              accessibilityLabel=" Вторник 25 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -14732,7 +14638,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-25"
+              testID="undefined.day_2022-01-25"
             >
               <View
                 style={
@@ -14806,7 +14712,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 26 Январь 2023 "
+              accessibilityLabel=" Среда 26 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -14823,7 +14729,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-26"
+              testID="undefined.day_2022-01-26"
             >
               <View
                 style={
@@ -14897,7 +14803,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 27 Январь 2023 "
+              accessibilityLabel=" Четверг 27 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -14914,7 +14820,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-27"
+              testID="undefined.day_2022-01-27"
             >
               <View
                 style={
@@ -14988,7 +14894,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 28 Январь 2023 "
+              accessibilityLabel=" Пятница 28 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15005,7 +14911,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-28"
+              testID="undefined.day_2022-01-28"
             >
               <View
                 style={
@@ -15079,7 +14985,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 29 Январь 2023 "
+              accessibilityLabel=" Суббота 29 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15096,7 +15002,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-29"
+              testID="undefined.day_2022-01-29"
             >
               <View
                 style={
@@ -15161,16 +15067,6 @@ Array [
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 0,
-            }
-          }
-        >
           <View
             style={
               Object {
@@ -15180,7 +15076,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel="Сегодня Понедельник 30 Январь 2023 "
+              accessibilityLabel=" Воскресенье 30 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15197,7 +15093,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-30"
+              testID="undefined.day_2022-01-30"
             >
               <View
                 style={
@@ -15216,9 +15112,6 @@ Array [
                         "justifyContent": "center",
                         "width": 38,
                       },
-                      Object {
-                        "backgroundColor": undefined,
-                      },
                     ]
                   }
                 >
@@ -15232,10 +15125,6 @@ Array [
                           "fontFamily": "Inter-Regular",
                           "fontSize": 42,
                           "fontWeight": "300",
-                        },
-                        Object {
-                          "color": "#20242D",
-                          "fontWeight": "500",
                         },
                       ]
                     }
@@ -15269,6 +15158,16 @@ Array [
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 0,
+            }
+          }
+        >
           <View
             style={
               Object {
@@ -15278,7 +15177,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Вторник 31 Январь 2023 "
+              accessibilityLabel=" Понедельник 31 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15295,7 +15194,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-31"
+              testID="undefined.day_2022-01-31"
             >
               <View
                 style={
@@ -15369,7 +15268,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Среда 1 Февраль 2023 "
+              accessibilityLabel=" Вторник 1 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15386,7 +15285,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-01"
+              testID="undefined.day_2022-02-01"
             >
               <View
                 style={
@@ -15463,7 +15362,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Четверг 2 Февраль 2023 "
+              accessibilityLabel=" Среда 2 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15480,7 +15379,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-02"
+              testID="undefined.day_2022-02-02"
             >
               <View
                 style={
@@ -15557,7 +15456,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Пятница 3 Февраль 2023 "
+              accessibilityLabel=" Четверг 3 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15574,7 +15473,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-03"
+              testID="undefined.day_2022-02-03"
             >
               <View
                 style={
@@ -15651,7 +15550,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Суббота 4 Февраль 2023 "
+              accessibilityLabel=" Пятница 4 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15668,7 +15567,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-04"
+              testID="undefined.day_2022-02-04"
             >
               <View
                 style={
@@ -15745,7 +15644,7 @@ Array [
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 5 Февраль 2023 "
+              accessibilityLabel=" Суббота 5 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -15762,7 +15661,7 @@ Array [
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-05"
+              testID="undefined.day_2022-02-05"
             >
               <View
                 style={
@@ -15802,6 +15701,100 @@ Array [
                     }
                   >
                     5
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Воскресенье 6 Февраль 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-02-06"
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      Array [
+                        Object {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 42,
+                          "fontWeight": "300",
+                        },
+                        Object {
+                          "color": "#9BA1B0",
+                        },
+                      ]
+                    }
+                  >
+                    6
                   </Text>
                   <View
                     style={
@@ -15909,7 +15902,7 @@ Array [
           ]
         }
       >
-        Январь, 2023
+        Декабрь, 2022
       </Text>
     </View>
     <View

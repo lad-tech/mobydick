@@ -144,7 +144,7 @@ describe('Calendar', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('press calendarLeftArrow 01 -> 12', () => {
-    jest.setSystemTime(new Date('2023-01-15'));
+    jest.setSystemTime(new Date('2022-01-15'));
     const {toJSON, getByLabelText} = render(
       <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
     );
@@ -163,7 +163,7 @@ describe('Calendar', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('press calendarRightArrow 12 -> 1 ', () => {
-    jest.setSystemTime(new Date('2022-12-15'));
+    jest.setSystemTime(new Date('2022-11-15'));
     const {toJSON, getByLabelText} = render(
       <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
     );
