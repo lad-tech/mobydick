@@ -1,3 +1,11 @@
+# [4.6.0](https://glab.lad24.ru/npm/mobydick/compare/v4.5.0...v4.6.0) (2023-01-31)
+
+
+### Features
+
+* add avatar size ([53dd9c9](https://glab.lad24.ru/npm/mobydick/commit/53dd9c9bc02d657ecf34a0396e4950f9db0acf93))
+* **calendar:** add years component ([ed9bccc](https://glab.lad24.ru/npm/mobydick/commit/ed9bcccb0519c33532298d1493c2b57fd5f747d1))
+
 # [4.5.0](https://glab.lad24.ru/npm/mobydick/compare/v4.4.1...v4.5.0) (2023-01-31)
 
 
