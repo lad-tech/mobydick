@@ -27,15 +27,19 @@ const Months: FC<IMonths> = props => {
     },
     [onCloseMonths, onPressMonth],
   );
+  const getStyle = useCallback(
+    ({pressed}) => [
+      styles.month,
+      {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
+    ],
+    [colors.BgAccentSoft, colors.BgPrimary],
+  );
 
   const renderItem = useCallback(
     ({item, index}: {item: string; index: number}) => {
       return (
         <Pressable
-          style={({pressed}) => [
-            styles.month,
-            {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
-          ]}
+          style={getStyle}
           accessibilityLabel={'pressMonth'}
           onPress={() => onPress(index)}>
           <Typography>{item}</Typography>

@@ -95,18 +95,25 @@ const Calendar: FC<ICalendar> = props => {
     [currentTheme],
   );
 
-  const onDayPress = (day: DateData) => {
-    const {fromDate, toDate} = calculateBoundaries(day, markedDates, isPeriod);
+  const onDayPress = useCallback(
+    (day: DateData) => {
+      const {fromDate, toDate} = calculateBoundaries(
+        day,
+        markedDates,
+        isPeriod,
+      );
 
-    setMarkedDates(
-      getAllDatesBetween(new Date(fromDate), new Date(toDate), colorsArg),
-    );
-    onDateRangeChange &&
-      onDateRangeChange({
-        dateStart: new Date(fromDate).toISOString(),
-        dateEnd: new Date(toDate).toISOString(),
-      });
-  };
+      setMarkedDates(
+        getAllDatesBetween(new Date(fromDate), new Date(toDate), colorsArg),
+      );
+      onDateRangeChange &&
+        onDateRangeChange({
+          dateStart: new Date(fromDate).toISOString(),
+          dateEnd: new Date(toDate).toISOString(),
+        });
+    },
+    [markedDates, isPeriod, colorsArg, onDateRangeChange],
+  );
 
   const markedToday = () => {
     setMarkedDates(

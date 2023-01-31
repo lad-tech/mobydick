@@ -1,4 +1,4 @@
-import React, {FC, useEffect, useState} from 'react';
+import React, {FC, useCallback, useEffect, useState} from 'react';
 import {
   IButtonSize,
   IButtonTypes,
@@ -42,10 +42,12 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
   const [date, setDate] = useState<{dateStart: string; dateEnd: string}>();
   const [isClear, setClear] = useState(false);
 
-  const onAccept = () => {
+  const onAccept = useCallback(() => {
     onDateRangeChange(date);
     onClose();
-  };
+  }, [date, onClose, onDateRangeChange]);
+
+  const onClear = useCallback(() => setClear(true), []);
 
   const defaultBottomView = bottomView || (
     <>
@@ -74,7 +76,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
           disabledLeft={!date?.dateStart && !date?.dateEnd}
           disabledRight={!date?.dateStart && !date?.dateEnd}
           onPressRight={onAccept}
-          onPressLeft={() => setClear(true)}
+          onPressLeft={onClear}
         />
       )}
     </>
