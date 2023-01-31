@@ -1,3 +1,28 @@
+# [4.5.0](https://glab.lad24.ru/npm/mobydick/compare/v4.4.1...v4.5.0) (2023-01-31)
+
+
+### Bug Fixes
+
+* **sonar:** fix comments about arrow functions ([0ada6d4](https://glab.lad24.ru/npm/mobydick/commit/0ada6d4a64d7125a6f64789a7b9a790435ec33e6))
+
+
+### chore
+
+* **calendar:** when showToday -> delete onDateRangeChange today ([91158ee](https://glab.lad24.ru/npm/mobydick/commit/91158ee796c2bad3859126fab135d5bbcae3ca8a))
+
+
+### Features
+
+* **calendar:** add custom arrow ([1da89a8](https://glab.lad24.ru/npm/mobydick/commit/1da89a875ba223f3b093464ababbca64d5c4faf3))
+* **calendar:** add disabled, periodOff ([ebc48a5](https://glab.lad24.ru/npm/mobydick/commit/ebc48a5185359805aeec0679a418c3896273ca37))
+* **calendar:** add Month Component ([2a6fa70](https://glab.lad24.ru/npm/mobydick/commit/2a6fa700a521f6f9f3d4bd53e3b93990ce9ac66d))
+* **calendar:** add props localeConfig ([6658a1e](https://glab.lad24.ru/npm/mobydick/commit/6658a1e7a4f31f304936392daeaec509ec5ca94d))
+
+
+### BREAKING CHANGES
+
+* **calendar:** in Calendar onChangeDate -> onDateRangeChange
+
 ## [4.4.1](https://glab.lad24.ru/npm/mobydick/compare/v4.4.0...v4.4.1) (2023-01-23)
 
 
