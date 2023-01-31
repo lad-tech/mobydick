@@ -1,7 +1,7 @@
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
 import {DateData} from 'react-native-calendars';
 
-import {IColors, IMarkedDates, IMarkedTypes} from './types';
+import {IColors, IDirection, IMarkedDates, IMarkedTypes} from './types';
 
 export const getDateForCalendar = (date: Date): string => {
   const yr = date.getFullYear();
@@ -82,6 +82,36 @@ export const calculateBoundaries = (
       toDate = day.timestamp;
     }
   }
-
   return {fromDate, toDate};
+};
+
+export const calculateYearRange = (
+  currentYear: number,
+  direction?: IDirection,
+) => {
+  const yearRange = [];
+
+  switch (direction) {
+    case IDirection.left: {
+      for (let i = 16; i > 0; i--) {
+        yearRange.push(currentYear - i);
+      }
+      break;
+    }
+
+    case IDirection.right: {
+      for (let i = 1; i <= 16; i++) {
+        yearRange.push(currentYear + i);
+      }
+      break;
+    }
+    default: {
+      for (let i = 15; i >= 0; i--) {
+        yearRange.push(currentYear - i);
+      }
+      break;
+    }
+  }
+
+  return yearRange;
 };

@@ -48,3 +48,15 @@ export interface ILocaleConfig {
   dayNamesShort: string[];
   today?: string;
 }
+
+export enum ISelectionState {
+  days = 'days',
+  months = 'months',
+  years = 'years',
+}
+
+export enum IDirection {
+  right = 'right',
+  left = 'left',
+  none = 'none',
+}

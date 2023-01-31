@@ -20,10 +20,13 @@ const Months: FC<IMonths> = props => {
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
 
-  const onPress = (index: number) => {
-    onCloseMonths();
-    onPressMonth(index);
-  };
+  const onPress = useCallback(
+    (index: number) => {
+      onCloseMonths();
+      onPressMonth(index);
+    },
+    [onCloseMonths, onPressMonth],
+  );
 
   const renderItem = useCallback(
     ({item, index}: {item: string; index: number}) => {

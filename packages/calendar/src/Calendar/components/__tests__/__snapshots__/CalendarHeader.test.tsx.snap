@@ -6,6 +6,8 @@ exports[`CalendarHeader render 1`] = `
     Object {
       "alignItems": "center",
       "flexDirection": "row",
+      "justifyContent": "center",
+      "paddingTop": 36,
     }
   }
 >

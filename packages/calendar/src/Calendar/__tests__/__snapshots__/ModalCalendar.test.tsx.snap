@@ -96,6 +96,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
         Object {
           "alignItems": "center",
           "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 36,
         }
       }
     >
@@ -3922,6 +3924,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
         Object {
           "alignItems": "center",
           "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 36,
         }
       }
     >
@@ -7694,6 +7698,8 @@ exports[`ModalCalendar renders correctly 1`] = `
         Object {
           "alignItems": "center",
           "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 36,
         }
       }
     >

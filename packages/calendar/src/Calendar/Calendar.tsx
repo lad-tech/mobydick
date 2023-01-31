@@ -16,11 +16,16 @@ import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
 
 import {localeConfigRu} from './localeConfig';
-import {calculateBoundaries, getAllDatesBetween} from './functions';
+import {
+  calculateBoundaries,
+  calculateYearRange,
+  getAllDatesBetween,
+} from './functions';
 import stylesCreate from './stylesCreate';
-import {ICalendar, IMarkedDates} from './types';
-import Months from './components/Months';
+import {ICalendar, IDirection, IMarkedDates, ISelectionState} from './types';
 import CalendarHeader from './components/CalendarHeader';
+import Years from './components/Years';
+import Months from './components/Months';
 
 const Calendar: FC<ICalendar> = props => {
   const {
@@ -55,11 +60,17 @@ const Calendar: FC<ICalendar> = props => {
   );
 
   const [markedDates, setMarkedDates] = useState<IMarkedDates>();
-  const [isShowDays, setIsShowDays] = useState(true);
+  const [selectionState, setSelectionState] = useState<ISelectionState>(
+    ISelectionState.days,
+  );
   const [currentMonthIndex, setCurrentMonthIndex] = useState<number>(
     today.getMonth(),
   );
   const [currentYear, setCurrentYear] = useState<number>(today.getFullYear());
+
+  const [yearRange, setYearRange] = useState<number[]>(
+    calculateYearRange(currentYear),
+  );
 
   const todayTimeMidnight = new Date(
     today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)),
@@ -125,41 +136,93 @@ const Calendar: FC<ICalendar> = props => {
     }
   }, [isClear]);
 
-  const onPressCurrMonth = useCallback(
-    () => setIsShowDays(!isShowDays),
-    [isShowDays],
+  const onPressMonth = useCallback(monthIndex => {
+    setCurrentMonthIndex(monthIndex);
+    setSelectionState(ISelectionState.days);
+  }, []);
+
+  const onCloseMonths = useCallback(
+    () => setSelectionState(ISelectionState.days),
+    [],
   );
 
-  const onPressLeft = useCallback(() => {
-    if (currentMonthIndex) {
-      setCurrentMonthIndex(currentMonthIndex - 1);
-    } else {
-      setCurrentMonthIndex(11);
-      setCurrentYear(currentYear - 1);
+  const onPressYear = useCallback(year => {
+    setCurrentYear(year);
+    setSelectionState(ISelectionState.months);
+  }, []);
+
+  const onCloseYears = useCallback(
+    () => setSelectionState(ISelectionState.months),
+    [],
+  );
+
+  const onPressCurrMonth = useCallback(() => {
+    if (selectionState === ISelectionState.days) {
+      setSelectionState(ISelectionState.months);
+    } else if (selectionState === ISelectionState.months) {
+      setSelectionState(ISelectionState.years);
+    } else if (selectionState === ISelectionState.years) {
+      setSelectionState(ISelectionState.months);
     }
-  }, [currentMonthIndex]);
+  }, [selectionState]);
+
+  const onPressLeft = useCallback(() => {
+    if (selectionState === ISelectionState.days) {
+      if (currentMonthIndex) {
+        setCurrentMonthIndex(currentMonthIndex - 1);
+      } else {
+        setCurrentMonthIndex(11);
+        setCurrentYear(currentYear - 1);
+      }
+    } else if (selectionState === ISelectionState.months) {
+      setCurrentYear(currentYear - 1);
+    } else if (selectionState === ISelectionState.years) {
+      yearRange[0] &&
+        setYearRange(calculateYearRange(yearRange[0], IDirection.left));
+    }
+  }, [currentMonthIndex, currentYear, yearRange, selectionState]);
 
   const onPressRight = useCallback(() => {
-    if (currentMonthIndex + 1 < 12) {
-      setCurrentMonthIndex(currentMonthIndex + 1);
-    } else {
-      setCurrentMonthIndex(0);
+    if (selectionState === ISelectionState.days) {
+      if (currentMonthIndex + 1 < 12) {
+        setCurrentMonthIndex(currentMonthIndex + 1);
+      } else {
+        setCurrentMonthIndex(0);
+        setCurrentYear(currentYear + 1);
+      }
+    } else if (selectionState === ISelectionState.months) {
       setCurrentYear(currentYear + 1);
+    } else if (selectionState === ISelectionState.years) {
+      const lastYear = yearRange[yearRange?.length - 1];
+      lastYear && setYearRange(calculateYearRange(lastYear, IDirection.right));
     }
-  }, [currentMonthIndex]);
+  }, [currentMonthIndex, yearRange, currentYear, selectionState]);
+
+  const getCalenderTitle = () => {
+    if (selectionState === ISelectionState.months) {
+      return currentYear.toString();
+    } else if (selectionState === ISelectionState.years) {
+      return (
+        yearRange[0]?.toString() +
+        '-' +
+        yearRange[yearRange.length - 1]?.toString()
+      );
+    }
+    return localeConfig.monthNames[currentMonthIndex] + ', ' + currentYear;
+  };
 
   return (
     <>
       <CalendarHeader
-        title={localeConfig.monthNames[currentMonthIndex] + ', ' + currentYear}
+        title={getCalenderTitle()}
         onPressLeft={onPressLeft}
         onPressRight={onPressRight}
         onPress={onPressCurrMonth}
       />
-      {isShowDays ? (
+      {selectionState === ISelectionState.days && (
         <DefaultCalendar
           firstDay={1}
-          style={styles.calendar}
+          style={styles.daysView}
           markingType={'period'}
           markedDates={markedDates?.dates || {}}
           onDayPress={onDayPress}
@@ -170,11 +233,19 @@ const Calendar: FC<ICalendar> = props => {
           hideArrows={true}
           {...rest}
         />
-      ) : (
+      )}
+      {selectionState === ISelectionState.months && (
         <Months
-          onCloseMonths={onPressCurrMonth}
-          onPressMonth={monthIndex => setCurrentMonthIndex(monthIndex)}
+          onCloseMonths={onCloseMonths}
+          onPressMonth={onPressMonth}
           monthNamesShort={localeConfig.monthNamesShort}
+        />
+      )}
+      {selectionState === ISelectionState.years && (
+        <Years
+          onCloseYears={onCloseYears}
+          onPressYear={onPressYear}
+          yearRange={yearRange}
         />
       )}
 

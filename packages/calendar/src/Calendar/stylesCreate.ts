@@ -9,6 +9,9 @@ const stylesCreate = (theme: IThemeContext) => {
 
   return StyleSheet.create({
     calendar: {
+      paddingTop: spaces.Space12,
+    },
+    daysView: {
       marginTop: spaces.Space12,
       width: WIDTH - spaces.Space8 * 2 - rem(16) * 2,
     },
