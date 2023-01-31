@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React, {FC, PropsWithChildren} from 'react';
 import {StyleProp, ViewStyle} from 'react-native';
 
 import {PopupBase} from '../PopupBase';
@@ -17,10 +17,12 @@ import stylesCreate from './stylesCreate';
 import TextContent from './TextContent';
 
 const ModalBase: FC<
-  Omit<IPopup, 'Content'> & {
-    onClose: () => void;
-    containerStyle?: StyleProp<ViewStyle>;
-  }
+  PropsWithChildren<
+    Omit<IPopup, 'Content'> & {
+      onClose: () => void;
+      containerStyle?: StyleProp<ViewStyle>;
+    }
+  >
 > & {
   CloseIcon: typeof CloseIcon;
   VerticalButtonsView: typeof VerticalButtonsView;

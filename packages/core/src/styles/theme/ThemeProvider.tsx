@@ -1,11 +1,11 @@
-import React, {FC, useState} from 'react';
+import React, {FC, PropsWithChildren, useState} from 'react';
 
 import {defaultTheme} from './constants';
 import {IThemeContext} from './types';
 import ThemeContext from './context';
 
 const ThemeProvider: FC<
-  Pick<Partial<IThemeContext>, 'theme' | 'currentTheme'>
+  PropsWithChildren<Pick<Partial<IThemeContext>, 'theme' | 'currentTheme'>>
 > = ({theme, currentTheme, children}) => {
   const [themeState, setThemeState] = useState(theme ?? defaultTheme);
   const [currentThemeState, setCurrentThemeState] = useState(

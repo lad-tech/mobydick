@@ -1,4 +1,5 @@
 import {ViewStyle} from 'react-native';
+import {PropsWithChildren} from 'react';
 
 import {IPressableProps} from '../basic/components/Pressable/types';
 
@@ -8,7 +9,7 @@ export interface ICommonControlProps {
   selected?: boolean;
 }
 
-export interface IControlProps extends ICommonControlProps {
+export interface IControlProps extends PropsWithChildren<ICommonControlProps> {
   value: string;
   disabled?: boolean;
   onPress?(): void;

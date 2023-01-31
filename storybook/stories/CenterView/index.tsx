@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React, {FC, PropsWithChildren} from 'react';
 import {
   View,
   Button,
@@ -12,7 +12,7 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 import stylesCreate from './stylesCreate';
 
-const Wrapper: FC = ({children}) => {
+const Wrapper: FC<PropsWithChildren<unknown>> = ({children}) => {
   const {currentTheme, setCurrentTheme} = useTheme();
   const [styles] = useStyles(stylesCreate);
 

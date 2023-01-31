@@ -14,6 +14,7 @@ import PopupsContext from './PopupsContext';
 
 interface IPopupsProviderProps {
   popups?: IPopup[];
+  children: React.ReactNode;
 }
 
 let popupId = 1;

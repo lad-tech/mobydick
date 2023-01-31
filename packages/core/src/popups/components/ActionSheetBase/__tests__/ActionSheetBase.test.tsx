@@ -6,7 +6,11 @@ import {IItemType} from '../types';
 
 describe('@npm/mobydick-core/ActionSheetBase', () => {
   it('should renders correctly', () => {
-    const {toJSON} = render(<ActionSheetBase id={'id'} onClose={() => null} />);
+    const {toJSON} = render(
+      <ActionSheetBase id={'id'} onClose={() => null}>
+        <></>
+      </ActionSheetBase>,
+    );
 
     expect(toJSON()).toMatchSnapshot();
   });
