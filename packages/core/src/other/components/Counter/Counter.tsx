@@ -30,7 +30,7 @@ const Counter: FC<IProps> = ({
   );
 
   if (!count) {
-    return <View style={[styles.notification, style]} />;
+    return <View style={[styles.indicator, style]} />;
   }
 
   const lastNumber = `${'9'.repeat(maxLength)}+`;
@@ -39,7 +39,7 @@ const Counter: FC<IProps> = ({
     count.toString().length > maxLength ? lastNumber : count.toString();
 
   return (
-    <View style={[styles.badge, style]}>
+    <View style={[styles.counter, style]}>
       <Text style={[fontStyle, styles.text]}>{text}</Text>
     </View>
   );

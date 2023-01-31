@@ -36,7 +36,7 @@ const stylesCreate = (
   };
 
   return StyleSheet.create({
-    badge: {
+    counter: {
       position: 'absolute',
       zIndex: 1,
       alignSelf: 'center',
@@ -47,7 +47,7 @@ const stylesCreate = (
       justifyContent: 'center',
       ...getBackgroundColor(),
     },
-    notification: {
+    indicator: {
       position: 'absolute',
       zIndex: 1,
       borderColor: colors.BgPrimary,
