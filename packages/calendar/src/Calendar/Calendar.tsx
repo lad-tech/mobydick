@@ -180,7 +180,7 @@ const Calendar: FC<ICalendar> = props => {
       yearRange[0] &&
         setYearRange(calculateYearRange(yearRange[0], IDirection.left));
     }
-  }, [currentMonthIndex, currentYear, yearRange]);
+  }, [currentMonthIndex, currentYear, yearRange, selectionState]);
 
   const onPressRight = useCallback(() => {
     if (selectionState === ISelectionState.days) {
@@ -194,10 +194,9 @@ const Calendar: FC<ICalendar> = props => {
       setCurrentYear(currentYear + 1);
     } else if (selectionState === ISelectionState.years) {
       const lastYear = yearRange[yearRange?.length - 1];
-
       lastYear && setYearRange(calculateYearRange(lastYear, IDirection.right));
     }
-  }, [currentMonthIndex, yearRange, currentYear]);
+  }, [currentMonthIndex, yearRange, currentYear, selectionState]);
 
   const getCalenderTitle = () => {
     if (selectionState === ISelectionState.months) {

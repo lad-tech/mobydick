@@ -20,10 +20,13 @@ const Years: FC<IYears> = props => {
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
 
-  const onPress = useCallback((item: number) => {
-    onCloseYears();
-    onPressYear(item);
-  }, []);
+  const onPress = useCallback(
+    (item: number) => {
+      onCloseYears();
+      onPressYear(item);
+    },
+    [onCloseYears, onPressYear],
+  );
 
   const getStyle = useCallback(
     ({pressed}) => [
