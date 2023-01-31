@@ -8,8 +8,8 @@ export interface IMarkedTypes {
 
 export interface IMarkedDates {
   dates: IMarkedTypes;
-  fromDate: Date;
-  toDate: Date;
+  fromDate: Date | null;
+  toDate: Date | null;
 }
 export type colorElem = {
   color: string;
@@ -19,6 +19,7 @@ export type colorElem = {
 export type IColors = {
   colorPrime: colorElem;
   colorSoft: colorElem;
+  colorToday: colorElem;
 };
 
 export interface IDateRange {

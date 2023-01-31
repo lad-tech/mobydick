@@ -13,10 +13,26 @@ export const getDateForCalendar = (date: Date): string => {
 export const getAllDatesBetween = (
   fromDate: Date,
   toDate: Date,
-  {colorPrime, colorSoft}: IColors,
+  {colorPrime, colorSoft, colorToday}: IColors,
+  isShowToday: boolean,
 ) => {
   let curDate = new Date(fromDate.getTime());
   const datesForCalendar: IMarkedTypes = {};
+
+  if (isShowToday) {
+    datesForCalendar[getDateForCalendar(new Date())] = {
+      startingDay: true,
+      endingDay: true,
+
+      color: colorToday.color,
+      textColor: colorToday.textColor,
+
+      customContainerStyle: {
+        borderRadius: rem(4),
+        width: '100%',
+      },
+    };
+  }
   datesForCalendar[getDateForCalendar(fromDate)] = {
     startingDay: true,
     endingDay: true,
@@ -51,6 +67,24 @@ export const getAllDatesBetween = (
   return {dates: datesForCalendar, fromDate, toDate};
 };
 
+export const getMarkedToday = ({colorToday}: IColors) => {
+  const datesForCalendar: IMarkedTypes = {};
+  datesForCalendar[getDateForCalendar(new Date())] = {
+    startingDay: true,
+    endingDay: true,
+
+    color: colorToday.color,
+    textColor: colorToday.textColor,
+
+    customContainerStyle: {
+      borderRadius: rem(4),
+      width: '100%',
+    },
+  };
+
+  return {dates: datesForCalendar, fromDate: null, toDate: null};
+};
+
 export const calculateBoundaries = (
   day: DateData,
   markedDates: IMarkedDates | undefined,
@@ -59,7 +93,12 @@ export const calculateBoundaries = (
   let toDate;
   let fromDate;
 
-  if (!markedDates || !isPeriod) {
+  if (
+    !markedDates ||
+    !isPeriod ||
+    !markedDates.fromDate ||
+    !markedDates.toDate
+  ) {
     fromDate = day.timestamp;
     toDate = day.timestamp;
   } else {
