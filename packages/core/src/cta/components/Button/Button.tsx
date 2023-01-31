@@ -1,4 +1,4 @@
-import React, {FC, forwardRef} from 'react';
+import React, {FC, forwardRef, PropsWithChildren} from 'react';
 
 import {getCounterType} from '../../utils';
 import {ITouchableOpacity, TouchableOpacity} from '../../../basic';
@@ -42,7 +42,7 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
   const counterSize =
     size === IButtonSize.small ? ICounterSize.small : ICounterSize.medium;
 
-  const Container: FC = ({children}) => (
+  const Container: FC<PropsWithChildren<unknown>> = ({children}) => (
     <TouchableOpacity
       ref={ref}
       style={[styles.container, style]}

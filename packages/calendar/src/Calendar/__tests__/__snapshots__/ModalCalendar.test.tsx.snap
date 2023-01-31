@@ -42,15 +42,15 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
+          "borderRadius": 36,
           "justifyContent": "center",
-          "marginVertical": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 36,
-          "width": 726,
+          "marginVertical": 60,
+          "paddingHorizontal": 60,
+          "paddingVertical": 72,
+          "width": 702,
         },
         Object {
-          "width": 726,
+          "width": 702,
         },
       ]
     }
@@ -72,8 +72,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
           "justifyContent": "center",
           "opacity": 1,
           "position": "absolute",
-          "right": 24,
-          "top": 24,
+          "right": 48,
+          "top": 48,
           "zIndex": 2,
         }
       }
@@ -84,7 +84,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
           Object {
             "color": "#5E6678",
             "fontFamily": "Neotis",
-            "fontSize": 36,
+            "fontSize": 72,
           }
         }
       >
@@ -97,7 +97,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
           "alignItems": "center",
           "flexDirection": "row",
           "justifyContent": "center",
-          "paddingTop": 18,
+          "paddingTop": 36,
         }
       }
     >
@@ -122,7 +122,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 36,
+              "fontSize": 72,
             }
           }
         >
@@ -145,7 +145,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
           Object {
             "alignItems": "center",
             "opacity": 1,
-            "width": 240,
+            "width": 480,
           }
         }
       >
@@ -156,8 +156,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               Object {
                 "color": "#20242D",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 22.5,
-                "lineHeight": 28.5,
+                "fontSize": 45,
+                "lineHeight": 57,
               },
               undefined,
             ]
@@ -187,7 +187,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 36,
+              "fontSize": 72,
             }
           }
         >
@@ -205,8 +205,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               "paddingRight": 5,
             },
             Object {
-              "marginTop": 18,
-              "width": 678,
+              "marginTop": 36,
+              "width": 606,
             },
           ]
         }
@@ -276,7 +276,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -297,7 +297,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -318,7 +318,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -339,7 +339,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -360,7 +360,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -381,7 +381,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -402,7 +402,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -488,7 +488,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -582,7 +582,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -676,7 +676,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -767,7 +767,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -858,7 +858,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -949,7 +949,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1040,7 +1040,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1141,7 +1141,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1232,7 +1232,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1323,7 +1323,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1414,7 +1414,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1505,7 +1505,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1596,7 +1596,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1687,7 +1687,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1788,7 +1788,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1879,7 +1879,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -1970,7 +1970,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2061,7 +2061,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2152,7 +2152,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2243,7 +2243,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2334,7 +2334,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2435,7 +2435,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2526,7 +2526,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2617,7 +2617,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2708,7 +2708,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2799,7 +2799,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2890,7 +2890,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -2981,7 +2981,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -3082,7 +3082,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -3173,7 +3173,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -3264,7 +3264,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -3355,7 +3355,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -3446,7 +3446,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -3540,7 +3540,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -3634,7 +3634,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -3679,8 +3679,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
     <View
       style={
         Object {
-          "marginBottom": 12,
-          "marginTop": 18,
+          "marginBottom": 24,
+          "marginTop": 36,
         }
       }
     >
@@ -3691,12 +3691,12 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
             Object {
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
-              "fontSize": 24,
-              "lineHeight": 30,
+              "fontSize": 48,
+              "lineHeight": 60,
             },
             Array [
               Object {
-                "paddingTop": 12,
+                "paddingTop": 24,
                 "textAlign": "center",
               },
               undefined,
@@ -3711,7 +3711,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
       style={
         Object {
           "flexDirection": "row",
-          "paddingTop": 30,
+          "paddingTop": 60,
         }
       }
     >
@@ -3736,12 +3736,12 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "#9BA1B0",
-            "borderRadius": 18,
+            "borderRadius": 36,
             "flex": 1,
             "flexDirection": "row",
             "justifyContent": "center",
-            "marginRight": 9,
-            "minHeight": 72,
+            "marginRight": 18,
+            "minHeight": 144,
             "opacity": 1,
           }
         }
@@ -3753,13 +3753,13 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               Object {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 27,
-                "lineHeight": 33,
+                "fontSize": 54,
+                "lineHeight": 66,
               },
               Array [
                 Object {
                   "color": "#FFF",
-                  "paddingHorizontal": 9,
+                  "paddingHorizontal": 18,
                 },
                 undefined,
               ],
@@ -3790,12 +3790,12 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "#9BA1B0",
-            "borderRadius": 18,
+            "borderRadius": 36,
             "flex": 1,
             "flexDirection": "row",
             "justifyContent": "center",
-            "marginLeft": 9,
-            "minHeight": 72,
+            "marginLeft": 18,
+            "minHeight": 144,
             "opacity": 1,
           }
         }
@@ -3807,13 +3807,13 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               Object {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 27,
-                "lineHeight": 33,
+                "fontSize": 54,
+                "lineHeight": 66,
               },
               Array [
                 Object {
                   "color": "#FFF",
-                  "paddingHorizontal": 9,
+                  "paddingHorizontal": 18,
                 },
                 undefined,
               ],
@@ -3870,15 +3870,15 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
+          "borderRadius": 36,
           "justifyContent": "center",
-          "marginVertical": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 36,
-          "width": 726,
+          "marginVertical": 60,
+          "paddingHorizontal": 60,
+          "paddingVertical": 72,
+          "width": 702,
         },
         Object {
-          "width": 726,
+          "width": 702,
         },
       ]
     }
@@ -3900,8 +3900,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
           "justifyContent": "center",
           "opacity": 1,
           "position": "absolute",
-          "right": 24,
-          "top": 24,
+          "right": 48,
+          "top": 48,
           "zIndex": 2,
         }
       }
@@ -3912,7 +3912,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
           Object {
             "color": "#5E6678",
             "fontFamily": "Neotis",
-            "fontSize": 36,
+            "fontSize": 72,
           }
         }
       >
@@ -3925,7 +3925,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
           "alignItems": "center",
           "flexDirection": "row",
           "justifyContent": "center",
-          "paddingTop": 18,
+          "paddingTop": 36,
         }
       }
     >
@@ -3950,7 +3950,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 36,
+              "fontSize": 72,
             }
           }
         >
@@ -3973,7 +3973,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
           Object {
             "alignItems": "center",
             "opacity": 1,
-            "width": 240,
+            "width": 480,
           }
         }
       >
@@ -3984,8 +3984,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               Object {
                 "color": "#20242D",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 22.5,
-                "lineHeight": 28.5,
+                "fontSize": 45,
+                "lineHeight": 57,
               },
               undefined,
             ]
@@ -4015,7 +4015,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 36,
+              "fontSize": 72,
             }
           }
         >
@@ -4033,8 +4033,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               "paddingRight": 5,
             },
             Object {
-              "marginTop": 18,
-              "width": 678,
+              "marginTop": 36,
+              "width": 606,
             },
           ]
         }
@@ -4104,7 +4104,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -4125,7 +4125,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -4146,7 +4146,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -4167,7 +4167,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -4188,7 +4188,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -4209,7 +4209,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -4230,7 +4230,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -4316,7 +4316,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -4410,7 +4410,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -4504,7 +4504,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -4595,7 +4595,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -4686,7 +4686,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -4777,7 +4777,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -4868,7 +4868,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -4969,7 +4969,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5060,7 +5060,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5151,7 +5151,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5242,7 +5242,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5333,7 +5333,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5424,7 +5424,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5515,7 +5515,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5616,7 +5616,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5707,7 +5707,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5798,7 +5798,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5889,7 +5889,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -5980,7 +5980,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -6071,7 +6071,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -6162,7 +6162,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -6263,7 +6263,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -6354,7 +6354,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -6445,7 +6445,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -6536,7 +6536,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -6627,7 +6627,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -6718,7 +6718,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -6809,7 +6809,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -6910,7 +6910,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -7001,7 +7001,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -7092,7 +7092,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -7183,7 +7183,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -7274,7 +7274,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -7368,7 +7368,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -7462,7 +7462,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -7507,8 +7507,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
     <View
       style={
         Object {
-          "marginBottom": 12,
-          "marginTop": 18,
+          "marginBottom": 24,
+          "marginTop": 36,
         }
       }
     >
@@ -7519,12 +7519,12 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
             Object {
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
-              "fontSize": 24,
-              "lineHeight": 30,
+              "fontSize": 48,
+              "lineHeight": 60,
             },
             Array [
               Object {
-                "paddingTop": 12,
+                "paddingTop": 24,
                 "textAlign": "center",
               },
               undefined,
@@ -7540,7 +7540,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
         Object {
           "alignItems": "center",
           "alignSelf": "stretch",
-          "marginTop": 30,
+          "marginTop": 60,
         }
       }
     >
@@ -7564,13 +7564,13 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
           Object {
             "alignItems": "center",
             "backgroundColor": "#2B78EE",
-            "borderRadius": 18,
+            "borderRadius": 36,
             "flexDirection": "row",
             "justifyContent": "center",
-            "minHeight": 48,
+            "minHeight": 96,
             "opacity": 1,
-            "paddingHorizontal": 18,
-            "paddingVertical": 9,
+            "paddingHorizontal": 36,
+            "paddingVertical": 18,
           }
         }
       >
@@ -7581,13 +7581,13 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               Object {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 21,
-                "lineHeight": 27,
+                "fontSize": 42,
+                "lineHeight": 54,
               },
               Array [
                 Object {
                   "color": "#FFF",
-                  "paddingHorizontal": 6,
+                  "paddingHorizontal": 12,
                 },
                 undefined,
               ],
@@ -7644,15 +7644,15 @@ exports[`ModalCalendar renders correctly 1`] = `
         Object {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
+          "borderRadius": 36,
           "justifyContent": "center",
-          "marginVertical": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 36,
-          "width": 726,
+          "marginVertical": 60,
+          "paddingHorizontal": 60,
+          "paddingVertical": 72,
+          "width": 702,
         },
         Object {
-          "width": 726,
+          "width": 702,
         },
       ]
     }
@@ -7674,8 +7674,8 @@ exports[`ModalCalendar renders correctly 1`] = `
           "justifyContent": "center",
           "opacity": 1,
           "position": "absolute",
-          "right": 24,
-          "top": 24,
+          "right": 48,
+          "top": 48,
           "zIndex": 2,
         }
       }
@@ -7686,7 +7686,7 @@ exports[`ModalCalendar renders correctly 1`] = `
           Object {
             "color": "#5E6678",
             "fontFamily": "Neotis",
-            "fontSize": 36,
+            "fontSize": 72,
           }
         }
       >
@@ -7699,7 +7699,7 @@ exports[`ModalCalendar renders correctly 1`] = `
           "alignItems": "center",
           "flexDirection": "row",
           "justifyContent": "center",
-          "paddingTop": 18,
+          "paddingTop": 36,
         }
       }
     >
@@ -7724,7 +7724,7 @@ exports[`ModalCalendar renders correctly 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 36,
+              "fontSize": 72,
             }
           }
         >
@@ -7747,7 +7747,7 @@ exports[`ModalCalendar renders correctly 1`] = `
           Object {
             "alignItems": "center",
             "opacity": 1,
-            "width": 240,
+            "width": 480,
           }
         }
       >
@@ -7758,8 +7758,8 @@ exports[`ModalCalendar renders correctly 1`] = `
               Object {
                 "color": "#20242D",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 22.5,
-                "lineHeight": 28.5,
+                "fontSize": 45,
+                "lineHeight": 57,
               },
               undefined,
             ]
@@ -7789,7 +7789,7 @@ exports[`ModalCalendar renders correctly 1`] = `
             Object {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 36,
+              "fontSize": 72,
             }
           }
         >
@@ -7807,8 +7807,8 @@ exports[`ModalCalendar renders correctly 1`] = `
               "paddingRight": 5,
             },
             Object {
-              "marginTop": 18,
-              "width": 678,
+              "marginTop": 36,
+              "width": 606,
             },
           ]
         }
@@ -7878,7 +7878,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -7899,7 +7899,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -7920,7 +7920,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -7941,7 +7941,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -7962,7 +7962,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -7983,7 +7983,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -8004,7 +8004,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                   Object {
                     "color": "#5E6678",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 21,
+                    "fontSize": 42,
                     "fontWeight": undefined,
                     "marginBottom": 7,
                     "marginTop": 2,
@@ -8090,7 +8090,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -8184,7 +8184,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -8278,7 +8278,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -8369,7 +8369,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -8460,7 +8460,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -8551,7 +8551,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -8642,7 +8642,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -8743,7 +8743,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -8834,7 +8834,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -8925,7 +8925,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9016,7 +9016,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9107,7 +9107,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9198,7 +9198,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9289,7 +9289,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9390,7 +9390,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9481,7 +9481,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9572,7 +9572,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9663,7 +9663,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9754,7 +9754,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9845,7 +9845,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -9936,7 +9936,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10037,7 +10037,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10128,7 +10128,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10219,7 +10219,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10310,7 +10310,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10401,7 +10401,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10492,7 +10492,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10583,7 +10583,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10684,7 +10684,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10775,7 +10775,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10866,7 +10866,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -10957,7 +10957,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                         ]
@@ -11048,7 +11048,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -11142,7 +11142,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {
@@ -11236,7 +11236,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                             "backgroundColor": "rgba(255, 255, 255, 0)",
                             "color": "#20242D",
                             "fontFamily": "Inter-Regular",
-                            "fontSize": 21,
+                            "fontSize": 42,
                             "fontWeight": "300",
                           },
                           Object {

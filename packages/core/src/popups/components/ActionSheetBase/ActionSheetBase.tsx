@@ -14,6 +14,7 @@ const ActionSheetBase: FC<
   Omit<IPopup, 'Content'> & {
     onClose: () => void;
     containerStyle?: StyleProp<ViewStyle>;
+    children: React.ReactNode;
   }
 > & {
   Item: typeof Item;

@@ -4,8 +4,8 @@ exports[`@npm/mobydick-core/Title should renders correctly with descriptionFont 
 <View
   style={
     Object {
-      "marginBottom": 12,
-      "marginTop": 18,
+      "marginBottom": 24,
+      "marginTop": 36,
     }
   }
 >
@@ -16,12 +16,12 @@ exports[`@npm/mobydick-core/Title should renders correctly with descriptionFont 
         Object {
           "color": "#444B5A",
           "fontFamily": "Inter-Medium",
-          "fontSize": 24,
-          "lineHeight": 30,
+          "fontSize": 48,
+          "lineHeight": 60,
         },
         Array [
           Object {
-            "paddingTop": 12,
+            "paddingTop": 24,
             "textAlign": "center",
           },
           Object {
@@ -40,8 +40,8 @@ exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = 
 <View
   style={
     Object {
-      "marginBottom": 12,
-      "marginTop": 18,
+      "marginBottom": 24,
+      "marginTop": 36,
     }
   }
 >
@@ -52,8 +52,8 @@ exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = 
         Object {
           "color": "#444B5A",
           "fontFamily": "Inter-Medium",
-          "fontSize": 24,
-          "lineHeight": 30,
+          "fontSize": 48,
+          "lineHeight": 60,
         },
         Array [
           Object {
@@ -75,12 +75,12 @@ exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = 
         Object {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
+          "fontSize": 42,
+          "lineHeight": 54,
         },
         Array [
           Object {
-            "paddingTop": 12,
+            "paddingTop": 24,
             "textAlign": "center",
           },
           Object {
@@ -99,8 +99,8 @@ exports[`@npm/mobydick-core/Title should renders correctly without descriptionFo
 <View
   style={
     Object {
-      "marginBottom": 12,
-      "marginTop": 18,
+      "marginBottom": 24,
+      "marginTop": 36,
     }
   }
 >
@@ -111,8 +111,8 @@ exports[`@npm/mobydick-core/Title should renders correctly without descriptionFo
         Object {
           "color": "#20242D",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 27,
-          "lineHeight": 33,
+          "fontSize": 54,
+          "lineHeight": 66,
         },
         Array [
           Object {
@@ -134,12 +134,12 @@ exports[`@npm/mobydick-core/Title should renders correctly without descriptionFo
         Object {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
+          "fontSize": 42,
+          "lineHeight": 54,
         },
         Array [
           Object {
-            "paddingTop": 12,
+            "paddingTop": 24,
             "textAlign": "center",
           },
           Object {
@@ -158,8 +158,8 @@ exports[`@npm/mobydick-core/Title should renders correctly without titleFont 1`]
 <View
   style={
     Object {
-      "marginBottom": 12,
-      "marginTop": 18,
+      "marginBottom": 24,
+      "marginTop": 36,
     }
   }
 >
@@ -170,8 +170,8 @@ exports[`@npm/mobydick-core/Title should renders correctly without titleFont 1`]
         Object {
           "color": "#20242D",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 27,
-          "lineHeight": 33,
+          "fontSize": 54,
+          "lineHeight": 66,
         },
         Array [
           Object {

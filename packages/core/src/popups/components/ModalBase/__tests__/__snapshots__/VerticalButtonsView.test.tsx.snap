@@ -6,7 +6,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly VerticalButtonsVi
     Object {
       "alignItems": "center",
       "alignSelf": "stretch",
-      "marginTop": 30,
+      "marginTop": 60,
     }
   }
 >
@@ -31,10 +31,10 @@ exports[`@npm/mobydick-core/modalBase should renders correctly VerticalButtonsVi
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#F54D3D",
-        "borderRadius": 18,
+        "borderRadius": 36,
         "flexDirection": "row",
         "justifyContent": "center",
-        "minHeight": 72,
+        "minHeight": 144,
         "opacity": 1,
       }
     }
@@ -46,13 +46,13 @@ exports[`@npm/mobydick-core/modalBase should renders correctly VerticalButtonsVi
           Object {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
+            "fontSize": 54,
+            "lineHeight": 66,
           },
           Array [
             Object {
               "color": "#FFF",
-              "paddingHorizontal": 9,
+              "paddingHorizontal": 18,
             },
             undefined,
           ],

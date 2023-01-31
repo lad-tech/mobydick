@@ -1,4 +1,4 @@
-import {Omit, StyleSheet, ViewStyle} from 'react-native';
+import {StyleSheet, ViewStyle} from 'react-native';
 
 import {IThemeContext} from '../../../styles/theme';
 import rem from '../../../styles/spaces/rem';

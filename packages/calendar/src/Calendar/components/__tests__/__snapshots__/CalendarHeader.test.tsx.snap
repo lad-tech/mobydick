@@ -7,7 +7,7 @@ exports[`CalendarHeader render 1`] = `
       "alignItems": "center",
       "flexDirection": "row",
       "justifyContent": "center",
-      "paddingTop": 18,
+      "paddingTop": 36,
     }
   }
 >
@@ -32,7 +32,7 @@ exports[`CalendarHeader render 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 36,
+          "fontSize": 72,
         }
       }
     >
@@ -55,7 +55,7 @@ exports[`CalendarHeader render 1`] = `
       Object {
         "alignItems": "center",
         "opacity": 1,
-        "width": 240,
+        "width": 480,
       }
     }
   >
@@ -66,8 +66,8 @@ exports[`CalendarHeader render 1`] = `
           Object {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontSize": 45,
+            "lineHeight": 57,
           },
           undefined,
         ]
@@ -97,7 +97,7 @@ exports[`CalendarHeader render 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 36,
+          "fontSize": 72,
         }
       }
     >

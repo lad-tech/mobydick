@@ -7,13 +7,13 @@ exports[`Search render correctly with value 1`] = `
       Object {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 12,
+        "borderRadius": 24,
         "flexDirection": "row",
-        "height": 54,
+        "height": 108,
         "justifyContent": "center",
         "maxWidth": "95%",
-        "paddingLeft": 18,
-        "paddingRight": 12,
+        "paddingLeft": 36,
+        "paddingRight": 24,
       },
       undefined,
     ]
@@ -32,9 +32,9 @@ exports[`Search render correctly with value 1`] = `
         Object {
           "color": "#20242D",
           "flex": 1,
-          "fontSize": 24,
+          "fontSize": 48,
           "padding": 0,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 24,
         },
         undefined,
       ]
@@ -59,9 +59,9 @@ exports[`Search render correctly with value 1`] = `
       Object {
         "alignItems": "center",
         "backgroundColor": "#D1D4DB",
-        "borderRadius": 36,
+        "borderRadius": 72,
         "justifyContent": "center",
-        "padding": 6,
+        "padding": 12,
       }
     }
   >
@@ -71,7 +71,7 @@ exports[`Search render correctly with value 1`] = `
         Object {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 24,
+          "fontSize": 48,
         }
       }
     >
@@ -88,13 +88,13 @@ exports[`Search render correctly without value 1`] = `
       Object {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 12,
+        "borderRadius": 24,
         "flexDirection": "row",
-        "height": 54,
+        "height": 108,
         "justifyContent": "center",
         "maxWidth": "95%",
-        "paddingLeft": 18,
-        "paddingRight": 12,
+        "paddingLeft": 36,
+        "paddingRight": 24,
       },
       undefined,
     ]
@@ -106,7 +106,7 @@ exports[`Search render correctly without value 1`] = `
       Object {
         "color": "#5E6678",
         "fontFamily": "Neotis",
-        "fontSize": 36,
+        "fontSize": 72,
       }
     }
   >
@@ -124,9 +124,9 @@ exports[`Search render correctly without value 1`] = `
         Object {
           "color": "#20242D",
           "flex": 1,
-          "fontSize": 24,
+          "fontSize": 48,
           "padding": 0,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 24,
         },
         undefined,
       ]
