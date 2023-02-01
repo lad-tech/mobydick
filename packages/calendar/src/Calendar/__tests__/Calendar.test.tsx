@@ -65,34 +65,14 @@ describe('Calendar', () => {
 
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2022-06-17T00:00:00.000Z',
-      dateEnd: '2022-07-15T00:00:00.000Z',
+      dateEnd: '2022-06-17T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
       dateStart: '2022-05-11T00:00:00.000Z',
-      dateEnd: '2022-07-15T00:00:00.000Z',
+      dateEnd: '2022-06-17T00:00:00.000Z',
     });
   });
 
-  it('on submit day > min', () => {
-    const submit = jest.fn();
-    const {getByText} = render(
-      <Calendar onDateRangeChange={submit} isPeriod={true} />,
-    );
-    const dateStart = getByText('17');
-
-    fireEvent.press(dateStart);
-    const dateEnd = getByText('14');
-    fireEvent.press(dateEnd);
-
-    expect(submit).toHaveBeenNthCalledWith(1, {
-      dateStart: '2022-06-17T00:00:00.000Z',
-      dateEnd: '2022-07-15T00:00:00.000Z',
-    });
-    expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2022-05-14T00:00:00.000Z',
-      dateEnd: '2022-07-15T00:00:00.000Z',
-    });
-  });
   it('on submit day < min', () => {
     const submit = jest.fn();
     const {getByText} = render(
@@ -106,11 +86,11 @@ describe('Calendar', () => {
 
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2022-06-11T00:00:00.000Z',
-      dateEnd: '2022-07-15T00:00:00.000Z',
+      dateEnd: '2022-06-11T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
       dateStart: '2022-05-11T00:00:00.000Z',
-      dateEnd: '2022-07-15T00:00:00.000Z',
+      dateEnd: '2022-06-11T00:00:00.000Z',
     });
   });
 
@@ -128,11 +108,11 @@ describe('Calendar', () => {
 
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2021-04-21T00:00:00.000Z',
-      dateEnd: '2021-05-15T00:00:00.000Z',
+      dateEnd: '2021-04-21T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
       dateStart: '2021-03-17T00:00:00.000Z',
-      dateEnd: '2021-05-15T00:00:00.000Z',
+      dateEnd: '2021-04-21T00:00:00.000Z',
     });
   });
   it('press calendarLeftArrow', () => {

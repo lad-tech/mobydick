@@ -18,6 +18,7 @@ import {
   calculateBoundaries,
   calculateYearRange,
   getAllDatesBetween,
+  getMarkedToday,
 } from './functions';
 import stylesCreate from './stylesCreate';
 import {ICalendar, IDirection, IMarkedDates, ISelectionState} from './types';
@@ -53,6 +54,10 @@ const Calendar: FC<ICalendar> = props => {
         color: colors.BgAccent,
         textColor: colors.TextPrimary,
       },
+      colorToday: {
+        color: colors.BgSecondary,
+        textColor: colors.TextPrimary,
+      },
     }),
     [],
   );
@@ -69,10 +74,6 @@ const Calendar: FC<ICalendar> = props => {
   const [yearRange, setYearRange] = useState<number[]>(
     calculateYearRange(currentYear),
   );
-
-  const todayTimeMidnight = new Date(
-    today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)),
-  ); // сбрасываем timestamp этого дня до 00:00:00
 
   const themeStyles = useMemo(
     () => ({
@@ -107,8 +108,14 @@ const Calendar: FC<ICalendar> = props => {
       setCurrentMonthIndex(day.month - 1);
 
       setMarkedDates(
-        getAllDatesBetween(new Date(fromDate), new Date(toDate), colorsArg),
+        getAllDatesBetween(
+          new Date(fromDate),
+          new Date(toDate),
+          colorsArg,
+          isShowToday,
+        ),
       );
+
       onDateRangeChange &&
         onDateRangeChange({
           dateStart: new Date(fromDate).toISOString(),
@@ -125,23 +132,16 @@ const Calendar: FC<ICalendar> = props => {
     ],
   );
 
-  const markedToday = () => {
-    setMarkedDates(
-      getAllDatesBetween(
-        new Date(todayTimeMidnight),
-        new Date(todayTimeMidnight),
-        colorsArg,
-      ),
-    );
-  };
   const onClear = () => {
     onDateRangeChange && onDateRangeChange({dateStart: '', dateEnd: ''});
-    isShowToday ? markedToday() : setMarkedDates(undefined);
+    isShowToday
+      ? setMarkedDates(getMarkedToday(colorsArg))
+      : setMarkedDates(undefined);
   };
 
   useLayoutEffect(() => {
     if (isShowToday) {
-      markedToday();
+      setMarkedDates(getMarkedToday(colorsArg));
     }
   }, []);
 
