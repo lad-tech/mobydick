@@ -104,6 +104,9 @@ const Calendar: FC<ICalendar> = props => {
         isPeriod,
       );
 
+      setCurrentYear(day.year);
+      setCurrentMonthIndex(day.month - 1);
+
       setMarkedDates(
         getAllDatesBetween(
           new Date(fromDate),
@@ -119,7 +122,14 @@ const Calendar: FC<ICalendar> = props => {
           dateEnd: new Date(toDate).toISOString(),
         });
     },
-    [markedDates, isPeriod, colorsArg, onDateRangeChange],
+    [
+      markedDates,
+      isPeriod,
+      colorsArg,
+      onDateRangeChange,
+      currentYear,
+      currentMonthIndex,
+    ],
   );
 
   const onClear = () => {

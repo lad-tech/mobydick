@@ -67,6 +67,15 @@ export const getAllDatesBetween = (
       color: colorSoft.color,
       textColor: colorSoft.textColor,
     };
+    if (isShowToday) {
+      datesForCalendar[getDateForCalendar(new Date())] = {
+        color: colorSoft.color,
+        textColor: colorSoft.textColor,
+        customTextStyle: {
+          fontWeight: '600',
+        },
+      };
+    }
   }
   datesForCalendar[getDateForCalendar(toDate)] = {
     startingDay: true,
