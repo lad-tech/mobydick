@@ -107,33 +107,28 @@ const Calendar: FC<ICalendar> = props => {
       setCurrentYear(day.year);
       setCurrentMonthIndex(day.month - 1);
 
-      setMarkedDates(
-        getAllDatesBetween(
-          new Date(fromDate),
-          new Date(toDate),
-          colorsArg,
-          isShowToday,
-        ),
+      const dateRange = getAllDatesBetween(
+        new Date(fromDate),
+        new Date(toDate),
+        colorsArg,
+        isShowToday,
       );
+
+      setMarkedDates(dateRange);
 
       onDateRangeChange &&
         onDateRangeChange({
           dateStart: new Date(fromDate).toISOString(),
           dateEnd: new Date(toDate).toISOString(),
+          lengthDateRange: dateRange.lengthDateRange || 0,
         });
     },
-    [
-      markedDates,
-      isPeriod,
-      colorsArg,
-      onDateRangeChange,
-      currentYear,
-      currentMonthIndex,
-    ],
+    [isPeriod, colorsArg, onDateRangeChange, currentYear, currentMonthIndex],
   );
 
   const onClear = () => {
-    onDateRangeChange && onDateRangeChange({dateStart: '', dateEnd: ''});
+    onDateRangeChange &&
+      onDateRangeChange({dateStart: '', dateEnd: '', lengthDateRange: 0});
     isShowToday
       ? setMarkedDates(getMarkedToday(colorsArg))
       : setMarkedDates(undefined);

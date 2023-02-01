@@ -15,46 +15,64 @@ import Calendar from './Calendar';
 
 interface IModalCalendar extends ICalendar, Partial<IHorizontalButtonsView> {
   onDateRangeChange: (dateRange?: IDateRange) => void;
-  textCalendar?: string;
-  textCalendarFont?: TypographyProp;
+  titlePrefix?: string;
+  titleSuffix?: string;
+  titleFont?: TypographyProp;
+  descriptionText?: string;
+  descriptionFont?: TypographyProp;
   buttonView?: IButtonView;
+  isCounter?: boolean;
 }
 
 const ACCEPT_STR = 'Применить';
-const CANCEL_STR = 'Отмена';
+const CANCEL_STR = 'Сбросить';
 
 const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
   const {
     onClose,
     bottomView,
     onDateRangeChange,
-    textCalendar,
+    descriptionText,
     buttonView,
     typeLeft,
     textLeft,
     typeRight,
     textRight,
-    textCalendarFont,
+    descriptionFont = 'Regular-Muted-M',
     isShowToday = true,
+    titleFont = 'Medium-Primary-M',
+    titlePrefix = 'Выбрано ',
+    titleSuffix = ' д',
+    isCounter = true,
     ...rest
   } = props;
   const [styles] = useStyles(stylesCreate);
-  const [date, setDate] = useState<{dateStart: string; dateEnd: string}>();
+  const [date, setDate] = useState<{
+    dateStart: string;
+    dateEnd: string;
+    lengthDateRange: number;
+  }>({dateStart: '', dateEnd: '', lengthDateRange: 0});
   const [isClear, setClear] = useState(false);
 
   const onAccept = useCallback(() => {
     onDateRangeChange(date);
     onClose();
-  }, [date, onClose, onDateRangeChange]);
+  }, [date, onClose, onDateRangeChange, date]);
 
   const onClear = useCallback(() => setClear(true), []);
 
   const defaultBottomView = bottomView || (
     <>
-      {textCalendar && (
+      {descriptionText && (
         <ModalBase.TextContent
-          descriptionText={textCalendar}
-          descriptionFont={textCalendarFont || 'Regular-Muted-M'}
+          title={
+            isCounter
+              ? titlePrefix + date.lengthDateRange + titleSuffix
+              : undefined
+          }
+          titleFont={titleFont}
+          descriptionText={descriptionText}
+          descriptionFont={descriptionFont}
         />
       )}
 

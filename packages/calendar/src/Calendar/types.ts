@@ -10,6 +10,7 @@ export interface IMarkedDates {
   dates: IMarkedTypes;
   fromDate: Date | null;
   toDate: Date | null;
+  lengthMarkedDates?: number;
 }
 export type colorElem = {
   color: string;
@@ -25,6 +26,7 @@ export type IColors = {
 export interface IDateRange {
   dateStart: string;
   dateEnd: string;
+  lengthDateRange: number;
 }
 
 export enum IButtonView {

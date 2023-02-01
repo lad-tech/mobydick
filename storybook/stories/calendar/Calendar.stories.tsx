@@ -59,7 +59,7 @@ const CalendarPopupExample = () => {
           onDateRangeChange={(date?: IDateRange) =>
             console.log('onChangeDate', date?.dateStart, date?.dateEnd)
           }
-          textCalendar={text(
+          descriptionText={text(
             'textCalendar',
             'Выберите интервал, в который хотите пойти в отпуск',
           )}
@@ -67,6 +67,7 @@ const CalendarPopupExample = () => {
           isShowToday={boolean('isShowToday', true)}
           localeConfig={isShowLocaleConfigEn ? localeConfigEn : localeConfigRu}
           isPeriod={boolean('isPeriod', false)}
+          isCounter={boolean('isCounter', true)}
           {...propsFromPopup}
         />
       ),

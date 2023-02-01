@@ -1,8 +1,8 @@
 import {fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
 
-import ModalCalendar from '../ModalCalendar';
 import {IButtonView} from '../types';
+import ModalCalendar from '../ModalCalendar';
 
 describe('ModalCalendar', () => {
   beforeAll(() => {
@@ -32,7 +32,7 @@ describe('ModalCalendar', () => {
         id={'1'}
         onClose={() => undefined}
         onDateRangeChange={submit}
-        textCalendar={'textCalendar'}
+        descriptionText={'textCalendar'}
         buttonView={IButtonView.small}
       />,
     );
@@ -48,7 +48,11 @@ describe('ModalCalendar', () => {
         id={'1'}
         onClose={() => undefined}
         onDateRangeChange={submit}
-        textCalendar={'textCalendar'}
+        descriptionText={'textCalendar'}
+        titlePrefix={'titlePrefix'}
+        titleSuffix={'titleSuffix'}
+        titleFont={'Regular-Muted-M'}
+        descriptionFont={'Medium-Primary-M'}
         buttonView={IButtonView.large}
       />,
     );
@@ -56,7 +60,7 @@ describe('ModalCalendar', () => {
     const dateStart = getByText('11');
     fireEvent.press(dateStart);
 
-    const applyButton = getByText('Отмена');
+    const applyButton = getByText('Сбросить');
     fireEvent.press(applyButton);
     expect(toJSON()).toMatchSnapshot();
   });

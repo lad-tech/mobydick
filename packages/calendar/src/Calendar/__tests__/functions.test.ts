@@ -69,6 +69,44 @@ describe('Calendar-functions', () => {
       toDate: 1674172800000,
     });
   });
+  it('calculateBoundaries day between', () => {
+    expect(
+      calculateBoundaries(
+        {
+          dateString: '2023-01-18',
+          day: 20,
+          month: 1,
+          timestamp: 1673913600000,
+          year: 2023,
+        },
+        {
+          dates: {
+            '2023-01-17': {
+              color: '#2B78EE',
+              customContainerStyle: [{}],
+              endingDay: true,
+              startingDay: true,
+              textColor: '#FFF',
+            },
+            '2023-01-19': {
+              color: '#2B78EE',
+              customContainerStyle: [{}],
+              endingDay: true,
+              startingDay: true,
+              textColor: '#FFF',
+            },
+          },
+          fromDate: new Date('2023-01-17T00:00:00.000Z'),
+          toDate: new Date('2023-01-19T00:00:00.000Z'),
+        },
+        true,
+      ),
+    ).toEqual({
+      fromDate: 1673913600000,
+      toDate: 1673913600000,
+    });
+  });
+
   it('calculateYearRange', () => {
     expect(calculateYearRange(2023)).toEqual([
       2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
