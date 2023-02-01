@@ -8,12 +8,12 @@ exports[`@npm/mobydick-core/TooltipBase/DescriptionText should renders correctly
       {
         "color": "#FFF",
         "fontFamily": "Inter-Regular",
-        "fontSize": 42,
-        "lineHeight": 54,
+        "fontSize": 21,
+        "lineHeight": 27,
       },
       [
         {
-          "paddingBottom": 24,
+          "paddingBottom": 12,
           "zIndex": 1,
         },
         undefined,
@@ -33,12 +33,12 @@ exports[`@npm/mobydick-core/TooltipBase/DescriptionText should renders correctly
       {
         "color": "#20242D",
         "fontFamily": "Inter-Regular",
-        "fontSize": 42,
-        "lineHeight": 54,
+        "fontSize": 21,
+        "lineHeight": 27,
       },
       [
         {
-          "paddingBottom": 24,
+          "paddingBottom": 12,
           "zIndex": 1,
         },
         {

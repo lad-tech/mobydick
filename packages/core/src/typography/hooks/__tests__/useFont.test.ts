@@ -11,8 +11,8 @@ describe('useFont', () => {
     expect(current.fontStyle).toStrictEqual({
       color: '#20242D',
       fontFamily: 'Inter-Regular',
-      fontSize: 45,
-      lineHeight: 57,
+      fontSize: 22.5,
+      lineHeight: 28.5,
     });
   });
   test('positive case custom font', () => {
@@ -23,8 +23,8 @@ describe('useFont', () => {
     expect(current.fontStyle).toStrictEqual({
       color: '#20242D',
       fontFamily: 'Inter-Medium',
-      fontSize: 45,
-      lineHeight: 57,
+      fontSize: 22.5,
+      lineHeight: 28.5,
     });
   });
 });

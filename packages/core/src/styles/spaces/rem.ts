@@ -1,4 +1,5 @@
 import {Dimensions, PixelRatio} from 'react-native';
+const Pixel = PixelRatio;
 
 const guidelineBaseWidth = 375;
 export const scale = (size: number): number => {
@@ -11,10 +12,10 @@ export const scale = (size: number): number => {
   }
 };
 
-const rem = (size: number, factor = PixelRatio.get()): number => {
+const rem = (size: number, factor = 0.5): number => {
   const newSize = size + (scale(size) - size) * factor;
 
-  return PixelRatio.roundToNearestPixel(newSize);
+  return Pixel.roundToNearestPixel(newSize);
 };
 
 export default rem;

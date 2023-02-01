@@ -110,12 +110,12 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly with item 1
           {
             "alignItems": "center",
             "borderTopColor": "#D1D4DB",
-            "borderTopWidth": 3,
+            "borderTopWidth": 1.5,
             "flexDirection": "row",
             "justifyContent": "space-between",
-            "marginHorizontal": 24,
-            "minHeight": 150,
-            "paddingHorizontal": 60,
+            "marginHorizontal": 12,
+            "minHeight": 75,
+            "paddingHorizontal": 30,
           },
           {
             "backgroundColor": "#FFF",
@@ -140,11 +140,11 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly with item 1
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 45,
-                "lineHeight": 57,
+                "fontSize": 22.5,
+                "lineHeight": 28.5,
               },
               {
-                "paddingVertical": 45,
+                "paddingVertical": 22.5,
               },
             ]
           }

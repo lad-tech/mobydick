@@ -42,12 +42,12 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
         {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 36,
+          "borderRadius": 18,
           "justifyContent": "center",
-          "marginVertical": 60,
-          "paddingHorizontal": 60,
-          "paddingVertical": 72,
-          "width": 702,
+          "marginVertical": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 36,
+          "width": 726,
         },
         {
           "maxWidth": "80%",
@@ -61,7 +61,7 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
           {
             "backgroundColor": "rgba(43, 120, 238, 0.15)",
             "borderRadius": 100,
-            "padding": 36,
+            "padding": 18,
           },
           {
             "backgroundColor": "rgba(245, 77, 61, 0.15)",
@@ -75,7 +75,7 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
           {
             "color": "#F54D3D",
             "fontFamily": "Neotis",
-            "fontSize": 108,
+            "fontSize": 54,
           }
         }
       >
@@ -85,8 +85,8 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
     <View
       style={
         {
-          "marginBottom": 24,
-          "marginTop": 36,
+          "marginBottom": 12,
+          "marginTop": 18,
         }
       }
     >
@@ -97,8 +97,8 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
             {
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
-              "fontSize": 54,
-              "lineHeight": 66,
+              "fontSize": 27,
+              "lineHeight": 33,
             },
             [
               {
@@ -118,12 +118,12 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
             {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
-              "fontSize": 42,
-              "lineHeight": 54,
+              "fontSize": 21,
+              "lineHeight": 27,
             },
             [
               {
-                "paddingTop": 24,
+                "paddingTop": 12,
                 "textAlign": "center",
               },
               undefined,
@@ -138,7 +138,7 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
       style={
         {
           "flexDirection": "row",
-          "paddingTop": 60,
+          "paddingTop": 30,
         }
       }
     >
@@ -163,12 +163,12 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "transparent",
-            "borderRadius": 36,
+            "borderRadius": 18,
             "flex": 1,
             "flexDirection": "row",
             "justifyContent": "center",
-            "marginRight": 18,
-            "minHeight": 144,
+            "marginRight": 9,
+            "minHeight": 72,
             "opacity": 1,
           }
         }
@@ -180,13 +180,13 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 54,
-                "lineHeight": 66,
+                "fontSize": 27,
+                "lineHeight": 33,
               },
               [
                 {
                   "color": "#2B78EE",
-                  "paddingHorizontal": 18,
+                  "paddingHorizontal": 9,
                 },
                 undefined,
               ],
@@ -217,12 +217,12 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "#F54D3D",
-            "borderRadius": 36,
+            "borderRadius": 18,
             "flex": 1,
             "flexDirection": "row",
             "justifyContent": "center",
-            "marginLeft": 18,
-            "minHeight": 144,
+            "marginLeft": 9,
+            "minHeight": 72,
             "opacity": 1,
           }
         }
@@ -234,13 +234,13 @@ exports[`@npm/mobydick-core/modalError should renders correctly 1`] = `
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 54,
-                "lineHeight": 66,
+                "fontSize": 27,
+                "lineHeight": 33,
               },
               [
                 {
                   "color": "#FFF",
-                  "paddingHorizontal": 18,
+                  "paddingHorizontal": 9,
                 },
                 undefined,
               ],
@@ -297,12 +297,12 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
         {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 36,
+          "borderRadius": 18,
           "justifyContent": "center",
-          "marginVertical": 60,
-          "paddingHorizontal": 60,
-          "paddingVertical": 72,
-          "width": 702,
+          "marginVertical": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 36,
+          "width": 726,
         },
         {
           "maxWidth": "80%",
@@ -316,7 +316,7 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
           {
             "backgroundColor": "rgba(43, 120, 238, 0.15)",
             "borderRadius": 100,
-            "padding": 36,
+            "padding": 18,
           },
           {
             "backgroundColor": "rgba(245, 77, 61, 0.15)",
@@ -330,7 +330,7 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
           {
             "color": "#F54D3D",
             "fontFamily": "Neotis",
-            "fontSize": 108,
+            "fontSize": 54,
           }
         }
       >
@@ -340,8 +340,8 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
     <View
       style={
         {
-          "marginBottom": 24,
-          "marginTop": 36,
+          "marginBottom": 12,
+          "marginTop": 18,
         }
       }
     >
@@ -352,8 +352,8 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
             {
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
-              "fontSize": 54,
-              "lineHeight": 66,
+              "fontSize": 27,
+              "lineHeight": 33,
             },
             [
               {
@@ -373,12 +373,12 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
             {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
-              "fontSize": 42,
-              "lineHeight": 54,
+              "fontSize": 21,
+              "lineHeight": 27,
             },
             [
               {
-                "paddingTop": 24,
+                "paddingTop": 12,
                 "textAlign": "center",
               },
               undefined,
@@ -393,7 +393,7 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
       style={
         {
           "flexDirection": "row",
-          "paddingTop": 60,
+          "paddingTop": 30,
         }
       }
     >
@@ -418,12 +418,12 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "#2B78EE",
-            "borderRadius": 36,
+            "borderRadius": 18,
             "flex": 1,
             "flexDirection": "row",
             "justifyContent": "center",
-            "marginRight": 18,
-            "minHeight": 144,
+            "marginRight": 9,
+            "minHeight": 72,
             "opacity": 1,
           }
         }
@@ -435,13 +435,13 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 54,
-                "lineHeight": 66,
+                "fontSize": 27,
+                "lineHeight": 33,
               },
               [
                 {
                   "color": "#FFF",
-                  "paddingHorizontal": 18,
+                  "paddingHorizontal": 9,
                 },
                 undefined,
               ],
@@ -472,12 +472,12 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "#2B78EE",
-            "borderRadius": 36,
+            "borderRadius": 18,
             "flex": 1,
             "flexDirection": "row",
             "justifyContent": "center",
-            "marginLeft": 18,
-            "minHeight": 144,
+            "marginLeft": 9,
+            "minHeight": 72,
             "opacity": 1,
           }
         }
@@ -489,13 +489,13 @@ exports[`@npm/mobydick-core/modalError should renders correctly with optional 1`
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 54,
-                "lineHeight": 66,
+                "fontSize": 27,
+                "lineHeight": 33,
               },
               [
                 {
                   "color": "#FFF",
-                  "paddingHorizontal": 18,
+                  "paddingHorizontal": 9,
                 },
                 undefined,
               ],

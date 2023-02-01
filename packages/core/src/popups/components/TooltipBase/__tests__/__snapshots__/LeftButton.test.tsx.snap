@@ -22,11 +22,11 @@ exports[`@npm/mobydick-core/TooltipBase/LeftButton should renders correctly 1`] 
       "alignItems": "center",
       "alignSelf": "flex-start",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "marginVertical": 24,
-      "minHeight": 144,
+      "marginVertical": 12,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -38,13 +38,13 @@ exports[`@npm/mobydick-core/TooltipBase/LeftButton should renders correctly 1`] 
         {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 54,
-          "lineHeight": 66,
+          "fontSize": 27,
+          "lineHeight": 33,
         },
         [
           {
             "color": "#FFF",
-            "paddingHorizontal": 18,
+            "paddingHorizontal": 9,
           },
           undefined,
         ],

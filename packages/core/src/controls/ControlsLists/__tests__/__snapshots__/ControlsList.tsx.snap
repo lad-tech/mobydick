@@ -46,10 +46,10 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
       style={
         {
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 12,
-          "borderWidth": 6,
-          "height": 60,
-          "width": 60,
+          "borderRadius": 6,
+          "borderWidth": 3,
+          "height": 30,
+          "width": 30,
         }
       }
       value="1"
@@ -61,8 +61,8 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -106,10 +106,10 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
       style={
         {
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 12,
-          "borderWidth": 6,
-          "height": 60,
-          "width": 60,
+          "borderRadius": 6,
+          "borderWidth": 3,
+          "height": 30,
+          "width": 30,
         }
       }
       value="2"
@@ -121,8 +121,8 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -180,10 +180,10 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       style={
         {
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 12,
-          "borderWidth": 6,
-          "height": 60,
-          "width": 60,
+          "borderRadius": 6,
+          "borderWidth": 3,
+          "height": 30,
+          "width": 30,
         }
       }
       value="1"
@@ -195,8 +195,8 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -240,10 +240,10 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       style={
         {
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 12,
-          "borderWidth": 6,
-          "height": 60,
-          "width": 60,
+          "borderRadius": 6,
+          "borderWidth": 3,
+          "height": 30,
+          "width": 30,
         }
       }
       value="2"
@@ -255,8 +255,8 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -314,10 +314,10 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
       style={
         {
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 12,
-          "borderWidth": 6,
-          "height": 60,
-          "width": 60,
+          "borderRadius": 6,
+          "borderWidth": 3,
+          "height": 30,
+          "width": 30,
         }
       }
       value="1"
@@ -329,8 +329,8 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -374,10 +374,10 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
       style={
         {
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 12,
-          "borderWidth": 6,
-          "height": 60,
-          "width": 60,
+          "borderRadius": 6,
+          "borderWidth": 3,
+          "height": 30,
+          "width": 30,
         }
       }
       value="2"
@@ -389,8 +389,8 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -451,10 +451,10 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
           "aspectRatio": 1,
           "backgroundColor": "#2B78EE",
           "borderColor": "#2B78EE",
-          "borderRadius": 33,
-          "borderWidth": 6,
+          "borderRadius": 16.5,
+          "borderWidth": 3,
           "justifyContent": "center",
-          "width": 66,
+          "width": 33,
         }
       }
       value="1"
@@ -464,9 +464,9 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
           {
             "aspectRatio": 1,
             "borderColor": "#FFF",
-            "borderRadius": 27,
-            "borderWidth": 6,
-            "width": 54,
+            "borderRadius": 13.5,
+            "borderWidth": 3,
+            "width": 27,
           }
         }
       />
@@ -478,8 +478,8 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -526,10 +526,10 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 33,
-          "borderWidth": 6,
+          "borderRadius": 16.5,
+          "borderWidth": 3,
           "justifyContent": "center",
-          "width": 66,
+          "width": 33,
         }
       }
       value="2"
@@ -541,8 +541,8 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -603,10 +603,10 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 33,
-          "borderWidth": 6,
+          "borderRadius": 16.5,
+          "borderWidth": 3,
           "justifyContent": "center",
-          "width": 66,
+          "width": 33,
         }
       }
       value="1"
@@ -618,8 +618,8 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -666,10 +666,10 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 33,
-          "borderWidth": 6,
+          "borderRadius": 16.5,
+          "borderWidth": 3,
           "justifyContent": "center",
-          "width": 66,
+          "width": 33,
         }
       }
       value="2"
@@ -681,8 +681,8 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -743,10 +743,10 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 33,
-          "borderWidth": 6,
+          "borderRadius": 16.5,
+          "borderWidth": 3,
           "justifyContent": "center",
-          "width": 66,
+          "width": 33,
         }
       }
       value="1"
@@ -758,8 +758,8 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]
@@ -806,10 +806,10 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
           "aspectRatio": 1,
           "backgroundColor": "transparent",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 33,
-          "borderWidth": 6,
+          "borderRadius": 16.5,
+          "borderWidth": 3,
           "justifyContent": "center",
-          "width": 66,
+          "width": 33,
         }
       }
       value="2"
@@ -821,8 +821,8 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]

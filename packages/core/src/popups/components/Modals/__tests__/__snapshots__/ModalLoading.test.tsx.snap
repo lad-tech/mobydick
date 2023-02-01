@@ -42,12 +42,12 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
         {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 36,
+          "borderRadius": 18,
           "justifyContent": "center",
-          "marginVertical": 60,
-          "paddingHorizontal": 60,
-          "paddingVertical": 72,
-          "width": 702,
+          "marginVertical": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 36,
+          "width": 726,
         },
         {
           "maxWidth": "80%",
@@ -73,7 +73,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
         height="48"
         style={
           {
-            "margin": 18,
+            "margin": 9,
           }
         }
         width="48"
@@ -82,8 +82,8 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
     <View
       style={
         {
-          "marginBottom": 24,
-          "marginTop": 36,
+          "marginBottom": 12,
+          "marginTop": 18,
         }
       }
     >
@@ -94,8 +94,8 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
             {
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
-              "fontSize": 54,
-              "lineHeight": 66,
+              "fontSize": 27,
+              "lineHeight": 33,
             },
             [
               {
@@ -115,12 +115,12 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
             {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
-              "fontSize": 42,
-              "lineHeight": 54,
+              "fontSize": 21,
+              "lineHeight": 27,
             },
             [
               {
-                "paddingTop": 24,
+                "paddingTop": 12,
                 "textAlign": "center",
               },
               undefined,
@@ -136,7 +136,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "stretch",
-          "marginTop": 60,
+          "marginTop": 30,
         }
       }
     >
@@ -161,10 +161,10 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "rgba(43, 120, 238, 0.15)",
-            "borderRadius": 36,
+            "borderRadius": 18,
             "flexDirection": "row",
             "justifyContent": "center",
-            "minHeight": 144,
+            "minHeight": 72,
             "opacity": 1,
           }
         }
@@ -176,13 +176,13 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly 1`] = `
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 54,
-                "lineHeight": 66,
+                "fontSize": 27,
+                "lineHeight": 33,
               },
               [
                 {
                   "color": "#2B78EE",
-                  "paddingHorizontal": 18,
+                  "paddingHorizontal": 9,
                 },
                 undefined,
               ],
@@ -239,12 +239,12 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
         {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 36,
+          "borderRadius": 18,
           "justifyContent": "center",
-          "marginVertical": 60,
-          "paddingHorizontal": 60,
-          "paddingVertical": 72,
-          "width": 702,
+          "marginVertical": 30,
+          "paddingHorizontal": 30,
+          "paddingVertical": 36,
+          "width": 726,
         },
         {
           "maxWidth": "80%",
@@ -270,7 +270,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
         height="48"
         style={
           {
-            "margin": 18,
+            "margin": 9,
           }
         }
         width="48"
@@ -279,8 +279,8 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
     <View
       style={
         {
-          "marginBottom": 24,
-          "marginTop": 36,
+          "marginBottom": 12,
+          "marginTop": 18,
         }
       }
     >
@@ -291,8 +291,8 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
             {
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
-              "fontSize": 54,
-              "lineHeight": 66,
+              "fontSize": 27,
+              "lineHeight": 33,
             },
             [
               {
@@ -312,12 +312,12 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
             {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
-              "fontSize": 42,
-              "lineHeight": 54,
+              "fontSize": 21,
+              "lineHeight": 27,
             },
             [
               {
-                "paddingTop": 24,
+                "paddingTop": 12,
                 "textAlign": "center",
               },
               undefined,
@@ -333,7 +333,7 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
         {
           "alignItems": "center",
           "alignSelf": "stretch",
-          "marginTop": 60,
+          "marginTop": 30,
         }
       }
     >
@@ -358,10 +358,10 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "rgba(43, 120, 238, 0.15)",
-            "borderRadius": 36,
+            "borderRadius": 18,
             "flexDirection": "row",
             "justifyContent": "center",
-            "minHeight": 144,
+            "minHeight": 72,
             "opacity": 1,
           }
         }
@@ -373,13 +373,13 @@ exports[`@npm/mobydick-core/modalLoading should renders correctly with optional 
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 54,
-                "lineHeight": 66,
+                "fontSize": 27,
+                "lineHeight": 33,
               },
               [
                 {
                   "color": "#2B78EE",
-                  "paddingHorizontal": 18,
+                  "paddingHorizontal": 9,
                 },
                 undefined,
               ],

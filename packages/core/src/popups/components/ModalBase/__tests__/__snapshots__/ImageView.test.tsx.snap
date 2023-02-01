@@ -5,7 +5,7 @@ exports[`@npm/mobydick-core/ImageView should renders correctly 1`] = `
   style={
     [
       {
-        "marginBottom": 12,
+        "marginBottom": 6,
       },
       undefined,
     ]
@@ -20,7 +20,7 @@ exports[`@npm/mobydick-core/ImageView should renders correctly with styles 1`] =
   style={
     [
       {
-        "marginBottom": 12,
+        "marginBottom": 6,
       },
       {
         "flex": 1,

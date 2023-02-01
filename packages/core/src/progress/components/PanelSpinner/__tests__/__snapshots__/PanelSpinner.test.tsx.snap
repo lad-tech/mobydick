@@ -7,18 +7,18 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 600,
-      "borderWidth": 1.5,
+      "borderRadius": 300,
+      "borderWidth": 1,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 60,
+      "padding": 30,
       "shadowColor": "#20242D",
       "shadowOffset": {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 36,
+      "shadowRadius": 18,
     }
   }
 >
@@ -51,18 +51,18 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 600,
-      "borderWidth": 1.5,
+      "borderRadius": 300,
+      "borderWidth": 1,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 60,
+      "padding": 30,
       "shadowColor": "#20242D",
       "shadowOffset": {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 36,
+      "shadowRadius": 18,
     }
   }
 >
@@ -103,9 +103,9 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
         {
           "alignItems": "center",
           "aspectRatio": 1,
-          "borderRadius": 72,
+          "borderRadius": 36,
           "justifyContent": "center",
-          "width": 144,
+          "width": 72,
         },
         {
           "position": "absolute",
@@ -119,7 +119,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
         {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
-          "fontSize": 72,
+          "fontSize": 36,
         }
       }
     >
@@ -136,18 +136,18 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly done 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 600,
-      "borderWidth": 1.5,
+      "borderRadius": 300,
+      "borderWidth": 1,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 60,
+      "padding": 30,
       "shadowColor": "#20242D",
       "shadowOffset": {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 36,
+      "shadowRadius": 18,
     }
   }
 >
@@ -156,9 +156,9 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly done 1`] = `
       {
         "alignItems": "center",
         "aspectRatio": 1,
-        "borderRadius": 72,
+        "borderRadius": 36,
         "justifyContent": "center",
-        "width": 144,
+        "width": 72,
       }
     }
   >
@@ -168,7 +168,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly done 1`] = `
         {
           "color": "#2B78EE",
           "fontFamily": "Neotis",
-          "fontSize": 144,
+          "fontSize": 72,
         }
       }
     >
@@ -185,18 +185,18 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly error 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 600,
-      "borderWidth": 1.5,
+      "borderRadius": 300,
+      "borderWidth": 1,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 60,
+      "padding": 30,
       "shadowColor": "#20242D",
       "shadowOffset": {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 36,
+      "shadowRadius": 18,
     }
   }
 >
@@ -206,9 +206,9 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly error 1`] = `
         {
           "alignItems": "center",
           "aspectRatio": 1,
-          "borderRadius": 72,
+          "borderRadius": 36,
           "justifyContent": "center",
-          "width": 144,
+          "width": 72,
         },
         {
           "backgroundColor": "#EEEFF1",
@@ -222,7 +222,7 @@ exports[`@npm/mobydick-core/PanelSpinner renders correctly error 1`] = `
         {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
-          "fontSize": 96,
+          "fontSize": 48,
         }
       }
     >

@@ -26,11 +26,11 @@ exports[`Toggle should renders correctly active 1`] = `
     style={
       {
         "backgroundColor": "rgba(43, 120, 238, 1)",
-        "borderRadius": 60,
-        "height": 90,
+        "borderRadius": 30,
+        "height": 45,
         "opacity": 1,
-        "padding": 6,
-        "width": 150,
+        "padding": 3,
+        "width": 75,
       }
     }
   >
@@ -40,11 +40,11 @@ exports[`Toggle should renders correctly active 1`] = `
         {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
-          "borderRadius": 75,
+          "borderRadius": 37.5,
           "flex": 1,
           "transform": [
             {
-              "translateX": 60,
+              "translateX": 30,
             },
           ],
         }
@@ -80,11 +80,11 @@ exports[`Toggle should renders correctly active and disabled 1`] = `
     style={
       {
         "backgroundColor": "rgba(43, 120, 238, 1)",
-        "borderRadius": 60,
-        "height": 90,
+        "borderRadius": 30,
+        "height": 45,
         "opacity": 0.4,
-        "padding": 6,
-        "width": 150,
+        "padding": 3,
+        "width": 75,
       }
     }
   >
@@ -94,11 +94,11 @@ exports[`Toggle should renders correctly active and disabled 1`] = `
         {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
-          "borderRadius": 75,
+          "borderRadius": 37.5,
           "flex": 1,
           "transform": [
             {
-              "translateX": 60,
+              "translateX": 30,
             },
           ],
         }
@@ -134,11 +134,11 @@ exports[`Toggle should renders correctly by default 1`] = `
     style={
       {
         "backgroundColor": "rgba(155, 161, 176, 1)",
-        "borderRadius": 60,
-        "height": 90,
+        "borderRadius": 30,
+        "height": 45,
         "opacity": 1,
-        "padding": 6,
-        "width": 150,
+        "padding": 3,
+        "width": 75,
       }
     }
   >
@@ -148,7 +148,7 @@ exports[`Toggle should renders correctly by default 1`] = `
         {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
-          "borderRadius": 75,
+          "borderRadius": 37.5,
           "flex": 1,
           "transform": [
             {
@@ -188,11 +188,11 @@ exports[`Toggle should renders correctly disabled 1`] = `
     style={
       {
         "backgroundColor": "rgba(155, 161, 176, 1)",
-        "borderRadius": 60,
-        "height": 90,
+        "borderRadius": 30,
+        "height": 45,
         "opacity": 0.4,
-        "padding": 6,
-        "width": 150,
+        "padding": 3,
+        "width": 75,
       }
     }
   >
@@ -202,7 +202,7 @@ exports[`Toggle should renders correctly disabled 1`] = `
         {
           "aspectRatio": 1,
           "backgroundColor": "#FFF",
-          "borderRadius": 75,
+          "borderRadius": 37.5,
           "flex": 1,
           "transform": [
             {
