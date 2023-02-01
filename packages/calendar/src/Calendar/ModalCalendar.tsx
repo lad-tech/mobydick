@@ -63,7 +63,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
 
   const defaultBottomView = bottomView || (
     <>
-      {descriptionText && (
+      {Boolean(descriptionText) && (
         <ModalBase.TextContent
           title={
             isCounter
