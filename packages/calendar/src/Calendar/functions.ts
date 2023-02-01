@@ -1,7 +1,14 @@
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
 import {DateData} from 'react-native-calendars';
+import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
 
-import {IColors, IDirection, IMarkedDates, IMarkedTypes} from './types';
+import {
+  colorElem,
+  IColors,
+  IDirection,
+  IMarkedDates,
+  IMarkedTypes,
+} from './types';
 
 export const getDateForCalendar = (date: Date): string => {
   const yr = date.getFullYear();
@@ -9,14 +16,38 @@ export const getDateForCalendar = (date: Date): string => {
   const d = `${date.getDate() < 10 ? 0 : ''}${date.getDate()}`;
   return `${yr}-${month}-${d}`;
 };
+const getStyleToday = (colorToday: colorElem): MarkingProps => {
+  return {
+    startingDay: true,
+    endingDay: true,
+
+    color: colorToday.color,
+    textColor: colorToday.textColor,
+
+    customContainerStyle: {
+      borderRadius: rem(4),
+      width: '100%',
+    },
+    customTextStyle: {
+      fontWeight: '600',
+    },
+  };
+};
 
 export const getAllDatesBetween = (
   fromDate: Date,
   toDate: Date,
-  {colorPrime, colorSoft}: IColors,
+  {colorPrime, colorSoft, colorToday}: IColors,
+  isShowToday: boolean,
 ) => {
   let curDate = new Date(fromDate.getTime());
   const datesForCalendar: IMarkedTypes = {};
+
+  if (isShowToday) {
+    datesForCalendar[getDateForCalendar(new Date())] =
+      getStyleToday(colorToday);
+  }
+
   datesForCalendar[getDateForCalendar(fromDate)] = {
     startingDay: true,
     endingDay: true,
@@ -51,6 +82,14 @@ export const getAllDatesBetween = (
   return {dates: datesForCalendar, fromDate, toDate};
 };
 
+export const getMarkedToday = ({colorToday}: IColors) => {
+  const datesForCalendar: IMarkedTypes = {};
+
+  datesForCalendar[getDateForCalendar(new Date())] = getStyleToday(colorToday);
+
+  return {dates: datesForCalendar, fromDate: null, toDate: null};
+};
+
 export const calculateBoundaries = (
   day: DateData,
   markedDates: IMarkedDates | undefined,
@@ -59,7 +98,12 @@ export const calculateBoundaries = (
   let toDate;
   let fromDate;
 
-  if (!markedDates || !isPeriod) {
+  if (
+    !markedDates ||
+    !isPeriod ||
+    !markedDates.fromDate ||
+    !markedDates.toDate
+  ) {
     fromDate = day.timestamp;
     toDate = day.timestamp;
   } else {
