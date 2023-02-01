@@ -90,7 +90,7 @@ const Calendar: FC<ICalendar> = props => {
         textDayHeaderFontSize: rem(14),
         textDayFontSize: rem(14),
         textDayFontFamily: 'Inter-Regular',
-        weekVerticalMargin: 0,
+        weekVerticalMargin: rem(2),
       },
     }),
     [currentTheme],
