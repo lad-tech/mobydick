@@ -22,10 +22,10 @@ exports[`@npm/mobydick-core/Button renders correctly 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -37,13 +37,13 @@ exports[`@npm/mobydick-core/Button renders correctly 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 54,
-          "lineHeight": 66,
+          "fontSize": 27,
+          "lineHeight": 33,
         },
         [
           {
             "color": "#FFF",
-            "paddingHorizontal": 18,
+            "paddingHorizontal": 9,
           },
           undefined,
         ],
@@ -76,13 +76,13 @@ exports[`@npm/mobydick-core/Button renders correctly 2`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 96,
+      "minHeight": 48,
       "opacity": 1,
-      "paddingHorizontal": 36,
-      "paddingVertical": 18,
+      "paddingHorizontal": 18,
+      "paddingVertical": 9,
     }
   }
 >
@@ -93,13 +93,13 @@ exports[`@npm/mobydick-core/Button renders correctly 2`] = `
         {
           "color": "#F54D3D",
           "fontFamily": "Inter-Bold",
-          "fontSize": 54,
-          "lineHeight": 66,
+          "fontSize": 27,
+          "lineHeight": 33,
         },
         [
           {
             "color": "#FFF",
-            "paddingHorizontal": 12,
+            "paddingHorizontal": 6,
           },
           undefined,
         ],
@@ -133,10 +133,10 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#F54D3D",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -148,15 +148,15 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 36,
-          "height": 72,
+          "borderRadius": 18,
+          "height": 36,
           "justifyContent": "center",
-          "minWidth": 72,
+          "minWidth": 36,
           "position": "absolute",
           "zIndex": 1,
         },
         {
-          "marginLeft": 6,
+          "marginLeft": 3,
           "position": "relative",
         },
       ]
@@ -169,12 +169,12 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           {
             "color": "#F54D3D",
-            "paddingHorizontal": 18,
+            "paddingHorizontal": 9,
             "textAlign": "center",
           },
         ]
@@ -208,10 +208,10 @@ exports[`@npm/mobydick-core/Button renders correctly disabled 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -240,10 +240,10 @@ exports[`@npm/mobydick-core/Button renders correctly fixed 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -271,13 +271,13 @@ exports[`@npm/mobydick-core/Button renders correctly large 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
-      "paddingHorizontal": 36,
-      "paddingVertical": 36,
+      "paddingHorizontal": 18,
+      "paddingVertical": 18,
     }
   }
 />
@@ -304,13 +304,13 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size large 1`] = 
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
-      "paddingHorizontal": 78,
-      "paddingVertical": 36,
+      "paddingHorizontal": 39,
+      "paddingVertical": 18,
     }
   }
 >
@@ -322,13 +322,13 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size large 1`] = 
         {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 54,
-          "lineHeight": 66,
+          "fontSize": 27,
+          "lineHeight": 33,
         },
         [
           {
             "color": "#FFF",
-            "paddingHorizontal": 18,
+            "paddingHorizontal": 9,
           },
           undefined,
         ],
@@ -362,13 +362,13 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size small 1`] = 
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 96,
+      "minHeight": 48,
       "opacity": 1,
-      "paddingHorizontal": 42,
-      "paddingVertical": 18,
+      "paddingHorizontal": 21,
+      "paddingVertical": 9,
     }
   }
 >
@@ -380,13 +380,13 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size small 1`] = 
         {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 42,
-          "lineHeight": 54,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         [
           {
             "color": "#FFF",
-            "paddingHorizontal": 12,
+            "paddingHorizontal": 6,
           },
           undefined,
         ],
@@ -420,13 +420,13 @@ exports[`@npm/mobydick-core/Button renders correctly left icon small 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 96,
+      "minHeight": 48,
       "opacity": 1,
-      "paddingHorizontal": 18,
-      "paddingVertical": 18,
+      "paddingHorizontal": 9,
+      "paddingVertical": 9,
     }
   }
 >
@@ -457,10 +457,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -509,10 +509,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading disabled 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -561,10 +561,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -613,10 +613,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 2`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -665,10 +665,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -680,15 +680,15 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 36,
-          "height": 72,
+          "borderRadius": 18,
+          "height": 36,
           "justifyContent": "center",
-          "minWidth": 72,
+          "minWidth": 36,
           "position": "absolute",
           "zIndex": 1,
         },
         {
-          "marginLeft": 6,
+          "marginLeft": 3,
           "position": "relative",
         },
       ]
@@ -701,12 +701,12 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           {
             "color": "#2B78EE",
-            "paddingHorizontal": 18,
+            "paddingHorizontal": 9,
             "textAlign": "center",
           },
         ]
@@ -740,10 +740,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -755,15 +755,15 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 36,
-          "height": 72,
+          "borderRadius": 18,
+          "height": 36,
           "justifyContent": "center",
-          "minWidth": 72,
+          "minWidth": 36,
           "position": "absolute",
           "zIndex": 1,
         },
         {
-          "marginLeft": 6,
+          "marginLeft": 3,
           "position": "relative",
         },
       ]
@@ -776,12 +776,12 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           {
             "color": "#2B78EE",
-            "paddingHorizontal": 18,
+            "paddingHorizontal": 9,
             "textAlign": "center",
           },
         ]
@@ -815,10 +815,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -830,15 +830,15 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#2B78EE",
-          "borderRadius": 36,
-          "height": 72,
+          "borderRadius": 18,
+          "height": 36,
           "justifyContent": "center",
-          "minWidth": 72,
+          "minWidth": 36,
           "position": "absolute",
           "zIndex": 1,
         },
         {
-          "marginLeft": 6,
+          "marginLeft": 3,
           "position": "relative",
         },
       ]
@@ -851,12 +851,12 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           {
             "color": "#FFF",
-            "paddingHorizontal": 18,
+            "paddingHorizontal": 9,
             "textAlign": "center",
           },
         ]
@@ -890,10 +890,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -905,15 +905,15 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 36,
-          "height": 72,
+          "borderRadius": 18,
+          "height": 36,
           "justifyContent": "center",
-          "minWidth": 72,
+          "minWidth": 36,
           "position": "absolute",
           "zIndex": 1,
         },
         {
-          "marginLeft": 6,
+          "marginLeft": 3,
           "position": "relative",
         },
       ]
@@ -926,12 +926,12 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           {
             "color": "#9BA1B0",
-            "paddingHorizontal": 18,
+            "paddingHorizontal": 9,
             "textAlign": "center",
           },
         ]
@@ -965,10 +965,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 7`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -1017,10 +1017,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#F54D3D",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -1032,15 +1032,15 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 36,
-          "height": 72,
+          "borderRadius": 18,
+          "height": 36,
           "justifyContent": "center",
-          "minWidth": 72,
+          "minWidth": 36,
           "position": "absolute",
           "zIndex": 1,
         },
         {
-          "marginLeft": 6,
+          "marginLeft": 3,
           "position": "relative",
         },
       ]
@@ -1053,12 +1053,12 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 48,
-            "lineHeight": 60,
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           {
             "color": "#F54D3D",
-            "paddingHorizontal": 18,
+            "paddingHorizontal": 9,
             "textAlign": "center",
           },
         ]
@@ -1092,10 +1092,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading without type 1`] = 
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -1124,10 +1124,10 @@ exports[`@npm/mobydick-core/Button renders correctly secondary 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -1155,13 +1155,13 @@ exports[`@npm/mobydick-core/Button renders correctly small 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 96,
+      "minHeight": 48,
       "opacity": 1,
-      "paddingHorizontal": 18,
-      "paddingVertical": 18,
+      "paddingHorizontal": 9,
+      "paddingVertical": 9,
     }
   }
 />
@@ -1188,13 +1188,13 @@ exports[`@npm/mobydick-core/Button renders correctly small 2`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 96,
+      "minHeight": 48,
       "opacity": 1,
-      "paddingHorizontal": 18,
-      "paddingVertical": 18,
+      "paddingHorizontal": 9,
+      "paddingVertical": 9,
     }
   }
 >
@@ -1242,10 +1242,10 @@ exports[`@npm/mobydick-core/Button renders correctly tertiary 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 144,
+      "minHeight": 72,
       "opacity": 1,
     }
   }
@@ -1273,13 +1273,13 @@ exports[`@npm/mobydick-core/Button renders correctly text 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 96,
+      "minHeight": 48,
       "opacity": 1,
-      "paddingHorizontal": 36,
-      "paddingVertical": 18,
+      "paddingHorizontal": 18,
+      "paddingVertical": 9,
     }
   }
 >
@@ -1290,13 +1290,13 @@ exports[`@npm/mobydick-core/Button renders correctly text 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 42,
-          "lineHeight": 54,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         [
           {
             "color": "#FFF",
-            "paddingHorizontal": 12,
+            "paddingHorizontal": 6,
           },
           undefined,
         ],
@@ -1329,7 +1329,7 @@ exports[`@npm/mobydick-core/Button renders correctly without size 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 36,
+      "borderRadius": 18,
       "flexDirection": "row",
       "justifyContent": "center",
       "opacity": 1,

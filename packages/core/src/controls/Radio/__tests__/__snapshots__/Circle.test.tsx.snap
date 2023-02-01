@@ -18,9 +18,9 @@ exports[`@npm/mobydick-core/Radio/Circle renders correctly 1`] = `
     {
       "aspectRatio": 1,
       "borderColor": "#FFF",
-      "borderRadius": 27,
-      "borderWidth": 6,
-      "width": 54,
+      "borderRadius": 13.5,
+      "borderWidth": 3,
+      "width": 27,
     }
   }
 />
@@ -44,9 +44,9 @@ exports[`@npm/mobydick-core/Radio/Circle renders correctly selected 1`] = `
     {
       "aspectRatio": 1,
       "borderColor": "#FFF",
-      "borderRadius": 27,
-      "borderWidth": 6,
-      "width": 54,
+      "borderRadius": 13.5,
+      "borderWidth": 3,
+      "width": 27,
     }
   }
 >
@@ -57,10 +57,10 @@ exports[`@npm/mobydick-core/Radio/Circle renders correctly selected 1`] = `
         "aspectRatio": 1,
         "backgroundColor": "transparent",
         "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 33,
-        "borderWidth": 6,
+        "borderRadius": 16.5,
+        "borderWidth": 3,
         "justifyContent": "center",
-        "width": 66,
+        "width": 33,
       }
     }
   />

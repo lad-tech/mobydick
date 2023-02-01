@@ -27,10 +27,10 @@ exports[`Tab render panelHeader 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 180,
+            "height": 90,
             "justifyContent": "space-between",
-            "paddingHorizontal": 60,
-            "paddingVertical": 30,
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
           },
           {
             "backgroundColor": "#000",
@@ -43,7 +43,7 @@ exports[`Tab render panelHeader 1`] = `
           [
             {
               "alignItems": "flex-start",
-              "maxWidth": 288,
+              "maxWidth": 144,
             },
             {
               "flex": 1,
@@ -57,7 +57,7 @@ exports[`Tab render panelHeader 1`] = `
             {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 72,
+              "fontSize": 36,
             }
           }
         >
@@ -69,7 +69,7 @@ exports[`Tab render panelHeader 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 24,
+              "paddingHorizontal": 12,
             },
             {
               "flex": 1,
@@ -82,7 +82,7 @@ exports[`Tab render panelHeader 1`] = `
           [
             {
               "alignItems": "flex-end",
-              "maxWidth": 288,
+              "maxWidth": 144,
             },
             {
               "flex": 1,
@@ -96,7 +96,7 @@ exports[`Tab render panelHeader 1`] = `
             {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 72,
+              "fontSize": 36,
             }
           }
         >
@@ -133,10 +133,10 @@ exports[`Tab render panelHeader with subtitle 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 180,
+            "height": 90,
             "justifyContent": "space-between",
-            "paddingHorizontal": 60,
-            "paddingVertical": 30,
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
           },
           undefined,
         ]
@@ -147,7 +147,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
           [
             {
               "alignItems": "flex-start",
-              "maxWidth": 288,
+              "maxWidth": 144,
             },
             undefined,
           ]
@@ -158,7 +158,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 24,
+              "paddingHorizontal": 12,
             },
             undefined,
           ]
@@ -179,8 +179,8 @@ exports[`Tab render panelHeader with subtitle 1`] = `
                 {
                   "color": "#5E6678",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 36,
-                  "lineHeight": 48,
+                  "fontSize": 18,
+                  "lineHeight": 24,
                 },
                 [
                   {
@@ -200,7 +200,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
           [
             {
               "alignItems": "flex-end",
-              "maxWidth": 288,
+              "maxWidth": 144,
             },
             undefined,
           ]
@@ -236,10 +236,10 @@ exports[`Tab render panelHeader with title 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 180,
+            "height": 90,
             "justifyContent": "space-between",
-            "paddingHorizontal": 60,
-            "paddingVertical": 30,
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
           },
           undefined,
         ]
@@ -250,7 +250,7 @@ exports[`Tab render panelHeader with title 1`] = `
           [
             {
               "alignItems": "flex-start",
-              "maxWidth": 288,
+              "maxWidth": 144,
             },
             undefined,
           ]
@@ -261,7 +261,7 @@ exports[`Tab render panelHeader with title 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 24,
+              "paddingHorizontal": 12,
             },
             undefined,
           ]
@@ -282,8 +282,8 @@ exports[`Tab render panelHeader with title 1`] = `
                 {
                   "color": "#444B5A",
                   "fontFamily": "Inter-SemiBold",
-                  "fontSize": 48,
-                  "lineHeight": 60,
+                  "fontSize": 24,
+                  "lineHeight": 30,
                 },
                 [
                   {
@@ -303,7 +303,7 @@ exports[`Tab render panelHeader with title 1`] = `
           [
             {
               "alignItems": "flex-end",
-              "maxWidth": 288,
+              "maxWidth": 144,
             },
             undefined,
           ]
@@ -339,10 +339,10 @@ exports[`Tab render panelHeader without props 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 180,
+            "height": 90,
             "justifyContent": "space-between",
-            "paddingHorizontal": 60,
-            "paddingVertical": 30,
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
           },
           undefined,
         ]
@@ -353,7 +353,7 @@ exports[`Tab render panelHeader without props 1`] = `
           [
             {
               "alignItems": "flex-start",
-              "maxWidth": 288,
+              "maxWidth": 144,
             },
             undefined,
           ]
@@ -364,7 +364,7 @@ exports[`Tab render panelHeader without props 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 24,
+              "paddingHorizontal": 12,
             },
             undefined,
           ]
@@ -383,7 +383,7 @@ exports[`Tab render panelHeader without props 1`] = `
           [
             {
               "alignItems": "flex-end",
-              "maxWidth": 288,
+              "maxWidth": 144,
             },
             undefined,
           ]

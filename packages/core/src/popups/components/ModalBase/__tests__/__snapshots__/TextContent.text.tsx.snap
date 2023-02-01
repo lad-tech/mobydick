@@ -4,8 +4,8 @@ exports[`@npm/mobydick-core/Title should renders correctly with descriptionFont 
 <View
   style={
     {
-      "marginBottom": 24,
-      "marginTop": 36,
+      "marginBottom": 12,
+      "marginTop": 18,
     }
   }
 >
@@ -16,12 +16,12 @@ exports[`@npm/mobydick-core/Title should renders correctly with descriptionFont 
         {
           "color": "#444B5A",
           "fontFamily": "Inter-Medium",
-          "fontSize": 48,
-          "lineHeight": 60,
+          "fontSize": 24,
+          "lineHeight": 30,
         },
         [
           {
-            "paddingTop": 24,
+            "paddingTop": 12,
             "textAlign": "center",
           },
           {
@@ -40,8 +40,8 @@ exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = 
 <View
   style={
     {
-      "marginBottom": 24,
-      "marginTop": 36,
+      "marginBottom": 12,
+      "marginTop": 18,
     }
   }
 >
@@ -52,8 +52,8 @@ exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = 
         {
           "color": "#444B5A",
           "fontFamily": "Inter-Medium",
-          "fontSize": 48,
-          "lineHeight": 60,
+          "fontSize": 24,
+          "lineHeight": 30,
         },
         [
           {
@@ -75,12 +75,12 @@ exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = 
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 42,
-          "lineHeight": 54,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         [
           {
-            "paddingTop": 24,
+            "paddingTop": 12,
             "textAlign": "center",
           },
           {
@@ -99,8 +99,8 @@ exports[`@npm/mobydick-core/Title should renders correctly without descriptionFo
 <View
   style={
     {
-      "marginBottom": 24,
-      "marginTop": 36,
+      "marginBottom": 12,
+      "marginTop": 18,
     }
   }
 >
@@ -111,8 +111,8 @@ exports[`@npm/mobydick-core/Title should renders correctly without descriptionFo
         {
           "color": "#20242D",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 54,
-          "lineHeight": 66,
+          "fontSize": 27,
+          "lineHeight": 33,
         },
         [
           {
@@ -134,12 +134,12 @@ exports[`@npm/mobydick-core/Title should renders correctly without descriptionFo
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 42,
-          "lineHeight": 54,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         [
           {
-            "paddingTop": 24,
+            "paddingTop": 12,
             "textAlign": "center",
           },
           {
@@ -158,8 +158,8 @@ exports[`@npm/mobydick-core/Title should renders correctly without titleFont 1`]
 <View
   style={
     {
-      "marginBottom": 24,
-      "marginTop": 36,
+      "marginBottom": 12,
+      "marginTop": 18,
     }
   }
 >
@@ -170,8 +170,8 @@ exports[`@npm/mobydick-core/Title should renders correctly without titleFont 1`]
         {
           "color": "#20242D",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 54,
-          "lineHeight": 66,
+          "fontSize": 27,
+          "lineHeight": 33,
         },
         [
           {

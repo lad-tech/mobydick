@@ -1,3 +1,17 @@
+# [4.7.0](https://glab.lad24.ru/npm/mobydick/compare/v4.6.0...v4.7.0) (2023-02-01)
+
+
+### Bug Fixes
+
+* **calendar:** update month and year ([903028c](https://glab.lad24.ru/npm/mobydick/commit/903028c7b8bcbf51be0762f5a27c62e1f6b66010))
+
+
+### Features
+
+* **calendar:** add vertical margin ([1abd1a7](https://glab.lad24.ru/npm/mobydick/commit/1abd1a7fe31c8a19c5d53fc77505b4a75bcc9db7))
+* **calendar:** new style for today ([e9e570b](https://glab.lad24.ru/npm/mobydick/commit/e9e570bbf5c3d98fbec2dc3dab6c5fc920cda5fe))
+* **counter:** handle case when the optional counter ([2b08b33](https://glab.lad24.ru/npm/mobydick/commit/2b08b330db48d1a79844a7cdf07e03c1ced4dc0a))
+
 # [4.6.0](https://glab.lad24.ru/npm/mobydick/compare/v4.5.0...v4.6.0) (2023-01-31)
 
 

@@ -36,9 +36,9 @@ exports[`@npm/mobydick-core/Selector Selector custom flatList styles 1`] = `
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 36,
-          "borderWidth": 3,
-          "paddingVertical": 24,
+          "borderRadius": 18,
+          "borderWidth": 1.5,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         {
@@ -48,10 +48,10 @@ exports[`@npm/mobydick-core/Selector Selector custom flatList styles 1`] = `
           "width": 2,
         },
         {
-          "top": 157,
+          "top": 79,
         },
         {
-          "maxHeight": 732,
+          "maxHeight": 366,
         },
       ]
     }
@@ -103,8 +103,8 @@ exports[`@npm/mobydick-core/Selector Selector custom flatList styles 1`] = `
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 {
@@ -120,8 +120,8 @@ exports[`@npm/mobydick-core/Selector Selector custom flatList styles 1`] = `
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   undefined,
                 ]
@@ -173,20 +173,20 @@ exports[`@npm/mobydick-core/Selector render correct renderItem TouchableHighligh
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 36,
-          "borderWidth": 3,
-          "paddingVertical": 24,
+          "borderRadius": 18,
+          "borderWidth": 1.5,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 600,
+          "width": 300,
         },
         {
-          "top": 157,
+          "top": 79,
         },
         {
-          "maxHeight": 732,
+          "maxHeight": 366,
         },
       ]
     }
@@ -238,8 +238,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem TouchableHighligh
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 {
                   "height": 10,
@@ -257,8 +257,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem TouchableHighligh
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   undefined,
                 ]
@@ -310,20 +310,20 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography  with 
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 36,
-          "borderWidth": 3,
-          "paddingVertical": 24,
+          "borderRadius": 18,
+          "borderWidth": 1.5,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 600,
+          "width": 300,
         },
         {
-          "top": 157,
+          "top": 79,
         },
         {
-          "maxHeight": 732,
+          "maxHeight": 366,
         },
       ]
     }
@@ -375,8 +375,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography  with 
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 {
@@ -392,8 +392,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography  with 
                   {
                     "color": "#F54D3D",
                     "fontFamily": "Inter-Bold",
-                    "fontSize": 54,
-                    "lineHeight": 66,
+                    "fontSize": 27,
+                    "lineHeight": 33,
                   },
                   undefined,
                 ]
@@ -445,20 +445,20 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography with c
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 36,
-          "borderWidth": 3,
-          "paddingVertical": 24,
+          "borderRadius": 18,
+          "borderWidth": 1.5,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 600,
+          "width": 300,
         },
         {
-          "top": 157,
+          "top": 79,
         },
         {
-          "maxHeight": 732,
+          "maxHeight": 366,
         },
       ]
     }
@@ -510,8 +510,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography with c
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 {
@@ -527,8 +527,8 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography with c
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   {
                     "backgroundColor": "red",
@@ -582,20 +582,20 @@ exports[`@npm/mobydick-core/Selector renders correctly 1`] = `
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 36,
-          "borderWidth": 3,
-          "paddingVertical": 24,
+          "borderRadius": 18,
+          "borderWidth": 1.5,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 600,
+          "width": 300,
         },
         {
-          "top": 157,
+          "top": 79,
         },
         {
-          "maxHeight": 732,
+          "maxHeight": 366,
         },
       ]
     }
@@ -647,8 +647,8 @@ exports[`@npm/mobydick-core/Selector renders correctly 1`] = `
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 null,
@@ -662,8 +662,8 @@ exports[`@npm/mobydick-core/Selector renders correctly 1`] = `
                   {
                     "color": "#444B5A",
                     "fontFamily": "Inter-Regular",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   undefined,
                 ]
@@ -715,20 +715,20 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 36,
-          "borderWidth": 3,
-          "paddingVertical": 24,
+          "borderRadius": 18,
+          "borderWidth": 1.5,
+          "paddingVertical": 12,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 600,
+          "width": 300,
         },
         {
-          "bottom": 651,
+          "top": 79,
         },
         {
-          "maxHeight": 732,
+          "maxHeight": 366,
         },
       ]
     }
@@ -804,8 +804,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 {
@@ -821,8 +821,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   undefined,
                 ]
@@ -851,8 +851,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 {
@@ -868,8 +868,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   undefined,
                 ]
@@ -898,8 +898,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 {
@@ -915,8 +915,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   undefined,
                 ]
@@ -945,8 +945,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 {
@@ -962,8 +962,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   undefined,
                 ]
@@ -992,8 +992,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 {
@@ -1009,8 +1009,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   undefined,
                 ]
@@ -1039,8 +1039,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 {
@@ -1056,8 +1056,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   undefined,
                 ]
@@ -1086,8 +1086,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 36,
-                  "paddingVertical": 24,
+                  "paddingHorizontal": 18,
+                  "paddingVertical": 12,
                 },
                 undefined,
                 {
@@ -1103,8 +1103,8 @@ exports[`@npm/mobydick-core/Selector renders correctly with bottom padding large
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 48,
-                    "lineHeight": 60,
+                    "fontSize": 24,
+                    "lineHeight": 30,
                   },
                   undefined,
                 ]

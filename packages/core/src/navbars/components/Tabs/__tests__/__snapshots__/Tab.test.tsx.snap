@@ -16,11 +16,11 @@ exports[`Tab render correctly active false 1`] = `
   style={
     {
       "backgroundColor": "#D1D4DB",
-      "borderRadius": 24,
-      "marginRight": 24,
+      "borderRadius": 12,
+      "marginRight": 12,
       "opacity": 1,
-      "paddingHorizontal": 36,
-      "paddingVertical": 18,
+      "paddingHorizontal": 18,
+      "paddingVertical": 9,
     }
   }
 >
@@ -31,8 +31,8 @@ exports[`Tab render correctly active false 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 42,
-          "lineHeight": 54,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         undefined,
       ]
@@ -59,11 +59,11 @@ exports[`Tab render correctly active true 1`] = `
   style={
     {
       "backgroundColor": "#2B78EE",
-      "borderRadius": 24,
-      "marginRight": 24,
+      "borderRadius": 12,
+      "marginRight": 12,
       "opacity": 1,
-      "paddingHorizontal": 36,
-      "paddingVertical": 18,
+      "paddingHorizontal": 18,
+      "paddingVertical": 9,
     }
   }
 >
@@ -74,8 +74,8 @@ exports[`Tab render correctly active true 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 42,
-          "lineHeight": 54,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         undefined,
       ]
@@ -102,11 +102,11 @@ exports[`Tab render correctly with props 1`] = `
   style={
     {
       "backgroundColor": "#2B78EE",
-      "borderRadius": 24,
-      "marginRight": 24,
+      "borderRadius": 12,
+      "marginRight": 12,
       "opacity": 1,
-      "paddingHorizontal": 36,
-      "paddingVertical": 18,
+      "paddingHorizontal": 18,
+      "paddingVertical": 9,
     }
   }
 >
@@ -118,8 +118,8 @@ exports[`Tab render correctly with props 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 42,
-          "lineHeight": 54,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         undefined,
       ]

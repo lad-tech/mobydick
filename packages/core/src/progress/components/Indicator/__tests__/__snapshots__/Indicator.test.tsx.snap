@@ -6,8 +6,8 @@ exports[`@npm/mobydick-core/Indicator renders correctly with colors 1`] = `
     [
       {
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 60,
-        "height": 6,
+        "borderRadius": 30,
+        "height": 3,
         "width": "90%",
       },
       undefined,
@@ -19,7 +19,7 @@ exports[`@npm/mobydick-core/Indicator renders correctly with colors 1`] = `
     style={
       {
         "backgroundColor": "#2B78EE",
-        "borderRadius": 60,
+        "borderRadius": 30,
         "bottom": 0,
         "left": 0,
         "position": "absolute",

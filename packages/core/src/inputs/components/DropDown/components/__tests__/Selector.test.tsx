@@ -122,8 +122,8 @@ describe('@npm/mobydick-core/Selector', () => {
     );
 
     expect(spy).toHaveBeenLastCalledWith({
-      dropDownBorderWidth: 3,
-      dropDownHeight: 144,
+      dropDownBorderWidth: 1.5,
+      dropDownHeight: 72,
       height: 640,
       navBarHeight: 50,
       pageY: 1,
