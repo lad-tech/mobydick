@@ -1,3 +1,15 @@
+# [4.8.0](https://glab.lad24.ru/npm/mobydick/compare/v4.7.0...v4.8.0) (2023-02-01)
+
+
+### Features
+
+* **calendar:** add counter in calendar ([cbd1f20](https://glab.lad24.ru/npm/mobydick/commit/cbd1f203a2775bb4cccf451cf94b5827fdb9ecdc))
+
+
+### Reverts
+
+* rem calculation ([c7b7d5b](https://glab.lad24.ru/npm/mobydick/commit/c7b7d5bdf6dc3bceb63b5e43d381dc068d02f4f0))
+
 # [4.7.0](https://glab.lad24.ru/npm/mobydick/compare/v4.6.0...v4.7.0) (2023-02-01)
 
 
