@@ -66,10 +66,12 @@ describe('Calendar', () => {
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2022-06-17T00:00:00.000Z',
       dateEnd: '2022-06-17T00:00:00.000Z',
+      lengthDateRange: 1,
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
       dateStart: '2022-05-11T00:00:00.000Z',
       dateEnd: '2022-06-17T00:00:00.000Z',
+      lengthDateRange: 38,
     });
   });
 
@@ -87,10 +89,12 @@ describe('Calendar', () => {
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2022-06-11T00:00:00.000Z',
       dateEnd: '2022-06-11T00:00:00.000Z',
+      lengthDateRange: 1,
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
       dateStart: '2022-05-11T00:00:00.000Z',
       dateEnd: '2022-06-11T00:00:00.000Z',
+      lengthDateRange: 32,
     });
   });
 
@@ -109,10 +113,12 @@ describe('Calendar', () => {
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2021-04-21T00:00:00.000Z',
       dateEnd: '2021-04-21T00:00:00.000Z',
+      lengthDateRange: 1,
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
       dateStart: '2021-03-17T00:00:00.000Z',
       dateEnd: '2021-04-21T00:00:00.000Z',
+      lengthDateRange: 36,
     });
   });
   it('press calendarLeftArrow', () => {

@@ -4361,6 +4361,27 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
             },
             [
               {
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        titlePrefix0titleSuffix
+      </Text>
+      <Text
+        allowFontScaling={true}
+        style={
+          [
+            {
+              "color": "#20242D",
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
+            },
+            [
+              {
                 "paddingTop": 12,
                 "textAlign": "center",
               },
@@ -4431,7 +4452,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
             ]
           }
         >
-          Отмена
+          Сбросить
         </Text>
       </View>
       <View
@@ -8177,6 +8198,27 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
         }
       }
     >
+      <Text
+        allowFontScaling={true}
+        style={
+          [
+            {
+              "color": "#20242D",
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
+            },
+            [
+              {
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        Выбрано 0 д
+      </Text>
       <Text
         allowFontScaling={true}
         style={

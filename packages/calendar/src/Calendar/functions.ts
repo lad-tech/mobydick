@@ -43,6 +43,7 @@ export const getAllDatesBetween = (
   let curDate = new Date(fromDate.getTime());
   const datesForCalendar: IMarkedTypes = {};
 
+  let lengthDateRange = 1;
   if (isShowToday) {
     datesForCalendar[getDateForCalendar(new Date())] =
       getStyleToday(colorToday);
@@ -62,6 +63,7 @@ export const getAllDatesBetween = (
   };
 
   while (curDate < toDate) {
+    lengthDateRange = lengthDateRange + 1;
     curDate = new Date(curDate.setDate(curDate.getDate() + 1));
     datesForCalendar[getDateForCalendar(curDate)] = {
       color: colorSoft.color,
@@ -88,7 +90,8 @@ export const getAllDatesBetween = (
       width: '100%',
     },
   };
-  return {dates: datesForCalendar, fromDate, toDate};
+
+  return {dates: datesForCalendar, fromDate, toDate, lengthDateRange};
 };
 
 export const getMarkedToday = ({colorToday}: IColors) => {
