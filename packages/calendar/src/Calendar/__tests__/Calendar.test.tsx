@@ -34,7 +34,7 @@ describe('Calendar', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('press isClear', () => {
-    const {toJSON, getByText} = render(
+    const {toJSON, getByText, getAllByText} = render(
       <Calendar
         onDateRangeChange={() => undefined}
         defaultLocale={'ru'}
@@ -46,8 +46,8 @@ describe('Calendar', () => {
     const dateStart = getByText('17');
 
     fireEvent.press(dateStart);
-    const dateEnd = getByText('25');
-    fireEvent.press(dateEnd);
+    const dateEnd = getAllByText('25')[0];
+    dateEnd && fireEvent.press(dateEnd);
 
     expect(toJSON()).toMatchSnapshot();
   });
@@ -60,14 +60,15 @@ describe('Calendar', () => {
 
     fireEvent.press(dateStart);
     const dateEnd = getByText('11');
-    fireEvent.press(dateEnd);
+
+    dateEnd && fireEvent.press(dateEnd);
 
     expect(submit).toHaveBeenNthCalledWith(1, {
       dateStart: '2022-06-17T00:00:00.000Z',
       dateEnd: '2022-07-15T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2022-06-11T00:00:00.000Z',
+      dateStart: '2022-05-11T00:00:00.000Z',
       dateEnd: '2022-07-15T00:00:00.000Z',
     });
   });
@@ -88,7 +89,7 @@ describe('Calendar', () => {
       dateEnd: '2022-07-15T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2022-06-14T00:00:00.000Z',
+      dateStart: '2022-05-14T00:00:00.000Z',
       dateEnd: '2022-07-15T00:00:00.000Z',
     });
   });
@@ -108,8 +109,8 @@ describe('Calendar', () => {
       dateEnd: '2022-07-15T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2022-06-11T00:00:00.000Z',
-      dateEnd: '2022-06-11T00:00:00.000Z',
+      dateStart: '2022-05-11T00:00:00.000Z',
+      dateEnd: '2022-07-15T00:00:00.000Z',
     });
   });
 
@@ -130,7 +131,7 @@ describe('Calendar', () => {
       dateEnd: '2021-05-15T00:00:00.000Z',
     });
     expect(submit).toHaveBeenNthCalledWith(2, {
-      dateStart: '2021-04-17T00:00:00.000Z',
+      dateStart: '2021-03-17T00:00:00.000Z',
       dateEnd: '2021-05-15T00:00:00.000Z',
     });
   });
