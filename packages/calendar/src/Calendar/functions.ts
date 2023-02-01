@@ -31,6 +31,9 @@ export const getAllDatesBetween = (
         borderRadius: rem(4),
         width: '100%',
       },
+      customTextStyle: {
+        fontWeight: '600',
+      },
     };
   }
   datesForCalendar[getDateForCalendar(fromDate)] = {
@@ -78,7 +81,11 @@ export const getMarkedToday = ({colorToday}: IColors) => {
 
     customContainerStyle: {
       borderRadius: rem(4),
+
       width: '100%',
+    },
+    customTextStyle: {
+      fontWeight: '600',
     },
   };
 
