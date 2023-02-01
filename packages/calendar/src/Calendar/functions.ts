@@ -1,13 +1,37 @@
 import rem from '@npm/mobydick-core/src/styles/spaces/rem';
 import {DateData} from 'react-native-calendars';
+import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
 
-import {IColors, IDirection, IMarkedDates, IMarkedTypes} from './types';
+import {
+  colorElem,
+  IColors,
+  IDirection,
+  IMarkedDates,
+  IMarkedTypes,
+} from './types';
 
 export const getDateForCalendar = (date: Date): string => {
   const yr = date.getFullYear();
   const month = `${date.getMonth() + 1 < 10 ? 0 : ''}${date.getMonth() + 1}`;
   const d = `${date.getDate() < 10 ? 0 : ''}${date.getDate()}`;
   return `${yr}-${month}-${d}`;
+};
+const getStyleToday = (colorToday: colorElem): MarkingProps => {
+  return {
+    startingDay: true,
+    endingDay: true,
+
+    color: colorToday.color,
+    textColor: colorToday.textColor,
+
+    customContainerStyle: {
+      borderRadius: rem(4),
+      width: '100%',
+    },
+    customTextStyle: {
+      fontWeight: '600',
+    },
+  };
 };
 
 export const getAllDatesBetween = (
@@ -20,22 +44,10 @@ export const getAllDatesBetween = (
   const datesForCalendar: IMarkedTypes = {};
 
   if (isShowToday) {
-    datesForCalendar[getDateForCalendar(new Date())] = {
-      startingDay: true,
-      endingDay: true,
-
-      color: colorToday.color,
-      textColor: colorToday.textColor,
-
-      customContainerStyle: {
-        borderRadius: rem(4),
-        width: '100%',
-      },
-      customTextStyle: {
-        fontWeight: '600',
-      },
-    };
+    datesForCalendar[getDateForCalendar(new Date())] =
+      getStyleToday(colorToday);
   }
+
   datesForCalendar[getDateForCalendar(fromDate)] = {
     startingDay: true,
     endingDay: true,
@@ -72,22 +84,8 @@ export const getAllDatesBetween = (
 
 export const getMarkedToday = ({colorToday}: IColors) => {
   const datesForCalendar: IMarkedTypes = {};
-  datesForCalendar[getDateForCalendar(new Date())] = {
-    startingDay: true,
-    endingDay: true,
 
-    color: colorToday.color,
-    textColor: colorToday.textColor,
-
-    customContainerStyle: {
-      borderRadius: rem(4),
-
-      width: '100%',
-    },
-    customTextStyle: {
-      fontWeight: '600',
-    },
-  };
+  datesForCalendar[getDateForCalendar(new Date())] = getStyleToday(colorToday);
 
   return {dates: datesForCalendar, fromDate: null, toDate: null};
 };
