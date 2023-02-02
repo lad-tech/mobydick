@@ -1,3 +1,10 @@
+## [4.8.1](https://glab.lad24.ru/npm/mobydick/compare/v4.8.0...v4.8.1) (2023-02-02)
+
+
+### Bug Fixes
+
+* **calendar:** forget deps ([99d03ad](https://glab.lad24.ru/npm/mobydick/commit/99d03ad7a0a6d4c97a59f07ae035e5d3f8941d2a))
+
 # [4.8.0](https://glab.lad24.ru/npm/mobydick/compare/v4.7.0...v4.8.0) (2023-02-01)
 
 
