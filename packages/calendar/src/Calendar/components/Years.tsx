@@ -9,6 +9,8 @@ import {
 import {StyleSheet} from 'react-native';
 import useTheme from '@npm/mobydick-core/src/styles/theme/hooks/useTheme';
 
+import {LABELS} from '../constants';
+
 interface IYears {
   onCloseYears: () => void;
   onPressYear: (index: number) => void;
@@ -40,7 +42,7 @@ const Years: FC<IYears> = props => {
     return (
       <Pressable
         style={getStyle}
-        accessibilityLabel={'pressYear'}
+        accessibilityLabel={LABELS.pressYear}
         onPress={() => onPress(item)}>
         <Typography>{item}</Typography>
       </Pressable>
