@@ -66,7 +66,7 @@ const CalendarPopupExample = () => {
           buttonView={select('buttonView', IButtonView, IButtonView.large)}
           isShowToday={boolean('isShowToday', true)}
           localeConfig={isShowLocaleConfigEn ? localeConfigEn : localeConfigRu}
-          isPeriod={boolean('isPeriod', false)}
+          isPeriod={boolean('isPeriod', true)}
           isCounter={boolean('isCounter', true)}
           {...propsFromPopup}
         />

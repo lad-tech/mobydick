@@ -36,6 +36,7 @@ exports[`Years press year 1`] = `
   renderItem={[Function]}
   scrollEnabled={false}
   scrollEventThrottle={50}
+  showsVerticalScrollIndicator={false}
   stickyHeaderIndices={[]}
   style={
     {
@@ -858,6 +859,7 @@ exports[`Years render 1`] = `
   renderItem={[Function]}
   scrollEnabled={false}
   scrollEventThrottle={50}
+  showsVerticalScrollIndicator={false}
   stickyHeaderIndices={[]}
   style={
     {

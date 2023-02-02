@@ -58,6 +58,7 @@ const Months: FC<IMonths> = props => {
       renderItem={renderItem}
       numColumns={3}
       scrollEnabled={false}
+      showsVerticalScrollIndicator={false}
     />
   );
 };

@@ -56,6 +56,7 @@ const Years: FC<IYears> = props => {
       renderItem={renderItem}
       numColumns={4}
       scrollEnabled={false}
+      showsVerticalScrollIndicator={false}
     />
   );
 };

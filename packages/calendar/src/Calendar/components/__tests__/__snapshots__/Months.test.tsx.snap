@@ -32,6 +32,7 @@ exports[`Months press month 1`] = `
   renderItem={[Function]}
   scrollEnabled={false}
   scrollEventThrottle={50}
+  showsVerticalScrollIndicator={false}
   stickyHeaderIndices={[]}
   style={
     {
@@ -670,6 +671,7 @@ exports[`Months render 1`] = `
   renderItem={[Function]}
   scrollEnabled={false}
   scrollEventThrottle={50}
+  showsVerticalScrollIndicator={false}
   stickyHeaderIndices={[]}
   style={
     {

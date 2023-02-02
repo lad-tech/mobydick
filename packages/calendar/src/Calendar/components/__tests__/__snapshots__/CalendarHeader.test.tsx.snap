@@ -65,9 +65,9 @@ exports[`CalendarHeader render 1`] = `
         [
           {
             "color": "#20242D",
-            "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
+            "fontFamily": "Inter-Medium",
+            "fontSize": 24,
+            "lineHeight": 30,
           },
           undefined,
         ]

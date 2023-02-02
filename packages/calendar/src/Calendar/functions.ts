@@ -30,6 +30,7 @@ const getStyleToday = (colorToday: colorElem): MarkingProps => {
     },
     customTextStyle: {
       fontWeight: '600',
+      fontFamily: 'Inter-SemiBold',
     },
   };
 };
@@ -49,6 +50,10 @@ export const getAllDatesBetween = (
       getStyleToday(colorToday);
   }
 
+  const today = new Date();
+  const todayTimeMidnight =
+    today.getTime() - (today.getTime() % (1000 * 60 * 60 * 24)); // сбрасываем timestamp этого дня до 00:00:00
+
   datesForCalendar[getDateForCalendar(fromDate)] = {
     startingDay: true,
     endingDay: true,
@@ -60,6 +65,14 @@ export const getAllDatesBetween = (
       borderRadius: rem(4),
       width: '100%',
     },
+    customTextStyle:
+      isShowToday && fromDate.getTime() === todayTimeMidnight
+        ? {
+            fontWeight: '600',
+            fontFamily: 'Inter-SemiBold',
+            color: colorPrime.textColor,
+          }
+        : undefined,
   };
 
   while (curDate < toDate) {
@@ -70,12 +83,12 @@ export const getAllDatesBetween = (
       textColor: colorSoft.textColor,
     };
 
-    if (isShowToday && curDate.getTime() === new Date().getTime()) {
+    if (isShowToday && curDate.getTime() === todayTimeMidnight) {
       datesForCalendar[getDateForCalendar(new Date())] = {
         color: colorSoft.color,
-        textColor: colorSoft.textColor,
         customTextStyle: {
           fontWeight: '600',
+          fontFamily: 'Inter-SemiBold',
         },
       };
     }
@@ -85,11 +98,19 @@ export const getAllDatesBetween = (
     endingDay: true,
     textColor: colorPrime.textColor,
     color: colorPrime.color,
-
     customContainerStyle: {
       borderRadius: rem(4),
       width: '100%',
     },
+
+    customTextStyle:
+      isShowToday && toDate.getTime() === todayTimeMidnight
+        ? {
+            fontWeight: '600',
+            fontFamily: 'Inter-SemiBold',
+            color: colorPrime.textColor,
+          }
+        : undefined,
   };
 
   return {dates: datesForCalendar, fromDate, toDate, lengthDateRange};

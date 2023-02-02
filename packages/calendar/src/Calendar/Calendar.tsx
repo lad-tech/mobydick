@@ -79,15 +79,14 @@ const Calendar: FC<ICalendar> = props => {
     () => ({
       theme: {
         calendarBackground: colors.BgPrimary,
-        textSectionTitleColor: colors.TextTertiary,
+        textSectionTitleColor: colors.TextSecondary,
         dayTextColor: colors.TextPrimary,
         textDisabledColor: colors.TextMuted,
         arrowColor: colors.IconNeutral,
         monthTextColor: colors.TextPrimary,
-        textMonthFontFamily: 'Inter-Medium',
-        textDayHeaderFontFamily: 'Inter-Medium',
-        textMonthFontSize: rem(14),
+        textDayHeaderFontFamily: 'Inter-SemiBold',
         textDayHeaderFontSize: rem(14),
+        selectedDayTextColor: colors.IconNeutral,
         textDayFontSize: rem(14),
         textDayFontFamily: 'Inter-Regular',
         weekVerticalMargin: rem(2),
