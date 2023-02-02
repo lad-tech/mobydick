@@ -10,6 +10,8 @@ import {
 import React, {FC} from 'react';
 import {StyleSheet} from 'react-native';
 
+import {LABELS} from '../constants';
+
 interface ICustomHeaderTitle {
   title: string;
   onPress: () => void;
@@ -23,18 +25,20 @@ const CalendarHeader: FC<ICustomHeaderTitle> = props => {
 
   return (
     <View style={styles.container}>
-      <Pressable onPress={onPressLeft} accessibilityLabel={'calendarLeftArrow'}>
+      <Pressable
+        onPress={onPressLeft}
+        accessibilityLabel={LABELS.calendarLeftArrow}>
         <SimpleIcon name={'icon-arrow-left'} />
       </Pressable>
       <TouchableOpacity
         onPress={onPress}
         style={styles.title}
-        accessibilityLabel={'calendarPressTitle'}>
+        accessibilityLabel={LABELS.calendarPressTitle}>
         <Typography>{title}</Typography>
       </TouchableOpacity>
       <Pressable
         onPress={onPressRight}
-        accessibilityLabel={'calendarRightArrow'}>
+        accessibilityLabel={LABELS.calendarRightArrow}>
         <SimpleIcon name={'icon-arrow-right'} />
       </Pressable>
     </View>

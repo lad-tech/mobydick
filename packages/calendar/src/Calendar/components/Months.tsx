@@ -9,6 +9,8 @@ import {
 import {StyleSheet} from 'react-native';
 import useTheme from '@npm/mobydick-core/src/styles/theme/hooks/useTheme';
 
+import {LABELS} from '../constants';
+
 interface IMonths {
   onCloseMonths: () => void;
   onPressMonth: (index: number) => void;
@@ -40,7 +42,7 @@ const Months: FC<IMonths> = props => {
       return (
         <Pressable
           style={getStyle}
-          accessibilityLabel={'pressMonth'}
+          accessibilityLabel={LABELS.pressMonth}
           onPress={() => onPress(index)}>
           <Typography>{item}</Typography>
         </Pressable>
