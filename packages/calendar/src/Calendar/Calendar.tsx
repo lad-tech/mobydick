@@ -86,7 +86,6 @@ const Calendar: FC<ICalendar> = props => {
         monthTextColor: colors.TextPrimary,
         textDayHeaderFontFamily: 'Inter-SemiBold',
         textDayHeaderFontSize: rem(14),
-        selectedDayTextColor: colors.IconNeutral,
         textDayFontSize: rem(14),
         textDayFontFamily: 'Inter-Regular',
         weekVerticalMargin: rem(2),
