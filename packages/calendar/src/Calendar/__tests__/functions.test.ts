@@ -231,6 +231,7 @@ describe('Calendar-functions', () => {
         '2022-01-20': {
           color: '#fff',
           customContainerStyle: {borderRadius: 6, width: '100%'},
+          customTextStyle: undefined,
           endingDay: true,
           startingDay: true,
           textColor: '#000',
@@ -241,8 +242,7 @@ describe('Calendar-functions', () => {
         },
         '2022-01-22': {
           color: '#fff',
-          customTextStyle: {fontWeight: '600'},
-          textColor: '#000',
+          customTextStyle: {fontWeight: '600', fontFamily: 'Inter-SemiBold'},
         },
         '2022-01-23': {
           color: '#fff',
@@ -251,6 +251,7 @@ describe('Calendar-functions', () => {
         '2022-01-24': {
           color: '#fff',
           customContainerStyle: {borderRadius: 6, width: '100%'},
+          customTextStyle: undefined,
           endingDay: true,
           startingDay: true,
           textColor: '#000',

@@ -66,9 +66,9 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
           [
             {
               "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 22.5,
-              "lineHeight": 28.5,
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -185,8 +185,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -206,8 +206,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -227,8 +227,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -248,8 +248,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -269,8 +269,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -290,8 +290,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -311,8 +311,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -3653,9 +3653,9 @@ exports[`Calendar press calendarLeftArrow 1`] = `
           [
             {
               "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 22.5,
-              "lineHeight": 28.5,
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -3772,8 +3772,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -3793,8 +3793,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -3814,8 +3814,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -3835,8 +3835,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -3856,8 +3856,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -3877,8 +3877,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -3898,8 +3898,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -7908,9 +7908,9 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
           [
             {
               "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 22.5,
-              "lineHeight": 28.5,
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -7979,6 +7979,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
     renderItem={[Function]}
     scrollEnabled={false}
     scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
     stickyHeaderIndices={[]}
     style={
       {
@@ -8652,9 +8653,9 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
           [
             {
               "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 22.5,
-              "lineHeight": 28.5,
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -8723,6 +8724,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
     renderItem={[Function]}
     scrollEnabled={false}
     scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
     stickyHeaderIndices={[]}
     style={
       {
@@ -9396,9 +9398,9 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
           [
             {
               "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 22.5,
-              "lineHeight": 28.5,
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -9471,6 +9473,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
     renderItem={[Function]}
     scrollEnabled={false}
     scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
     stickyHeaderIndices={[]}
     style={
       {
@@ -10324,9 +10327,9 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
           [
             {
               "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 22.5,
-              "lineHeight": 28.5,
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -10395,6 +10398,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
     renderItem={[Function]}
     scrollEnabled={false}
     scrollEventThrottle={50}
+    showsVerticalScrollIndicator={false}
     stickyHeaderIndices={[]}
     style={
       {
@@ -11068,9 +11072,9 @@ exports[`Calendar press calendarRightArrow 1`] = `
           [
             {
               "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 22.5,
-              "lineHeight": 28.5,
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -11187,8 +11191,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -11208,8 +11212,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -11229,8 +11233,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -11250,8 +11254,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -11271,8 +11275,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -11292,8 +11296,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -11313,8 +11317,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -15323,9 +15327,9 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
           [
             {
               "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 22.5,
-              "lineHeight": 28.5,
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -15442,8 +15446,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -15463,8 +15467,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -15484,8 +15488,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -15505,8 +15509,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -15526,8 +15530,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -15547,8 +15551,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -15568,8 +15572,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -18910,9 +18914,9 @@ exports[`Calendar renders correctly 1`] = `
           [
             {
               "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 22.5,
-              "lineHeight": 28.5,
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
             },
             undefined,
           ]
@@ -19029,8 +19033,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -19050,8 +19054,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -19071,8 +19075,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -19092,8 +19096,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -19113,8 +19117,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -19134,8 +19138,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,
@@ -19155,8 +19159,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#5E6678",
-                  "fontFamily": "Inter-Medium",
+                  "color": "#444B5A",
+                  "fontFamily": "Inter-SemiBold",
                   "fontSize": 21,
                   "fontWeight": undefined,
                   "marginBottom": 7,

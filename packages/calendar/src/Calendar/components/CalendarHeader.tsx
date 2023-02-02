@@ -34,7 +34,7 @@ const CalendarHeader: FC<ICustomHeaderTitle> = props => {
         onPress={onPress}
         style={styles.title}
         accessibilityLabel={LABELS.calendarPressTitle}>
-        <Typography>{title}</Typography>
+        <Typography font={'Medium-Primary-M'}>{title}</Typography>
       </TouchableOpacity>
       <Pressable
         onPress={onPressRight}
