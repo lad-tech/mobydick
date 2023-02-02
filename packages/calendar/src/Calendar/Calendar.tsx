@@ -123,7 +123,14 @@ const Calendar: FC<ICalendar> = props => {
           lengthDateRange: dateRange.lengthDateRange || 0,
         });
     },
-    [isPeriod, colorsArg, onDateRangeChange, currentYear, currentMonthIndex],
+    [
+      isPeriod,
+      colorsArg,
+      onDateRangeChange,
+      currentYear,
+      currentMonthIndex,
+      markedDates,
+    ],
   );
 
   const onClear = () => {
