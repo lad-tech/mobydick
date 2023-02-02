@@ -1,3 +1,10 @@
+## [4.8.2](https://glab.lad24.ru/npm/mobydick/compare/v4.8.1...v4.8.2) (2023-02-02)
+
+
+### Bug Fixes
+
+* **calendar:** update styles ([74b6319](https://glab.lad24.ru/npm/mobydick/commit/74b63196b22cad06b1b44170e5b7f0b8a72e9eca))
+
 ## [4.8.1](https://glab.lad24.ru/npm/mobydick/compare/v4.8.0...v4.8.1) (2023-02-02)
 
 
