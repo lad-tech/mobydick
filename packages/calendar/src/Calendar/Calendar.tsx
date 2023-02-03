@@ -22,7 +22,7 @@ import {
 } from './functions';
 import stylesCreate from './stylesCreate';
 import {ICalendar, IDirection, IMarkedDates, ISelectionState} from './types';
-import CalendarHeader from './components/CalendarHeader';
+import CalendarHeader, {ITitle} from './components/CalendarHeader';
 import Years from './components/Years';
 import Months from './components/Months';
 
@@ -172,9 +172,14 @@ const Calendar: FC<ICalendar> = props => {
   );
 
   const onPressCurrMonth = useCallback(() => {
-    if (selectionState === ISelectionState.days) {
-      setSelectionState(ISelectionState.months);
-    } else if (selectionState === ISelectionState.months) {
+    setSelectionState(ISelectionState.months);
+  }, []);
+
+  const onPressCurrYear = useCallback(() => {
+    if (
+      selectionState === ISelectionState.days ||
+      selectionState === ISelectionState.months
+    ) {
       setSelectionState(ISelectionState.years);
     } else if (selectionState === ISelectionState.years) {
       setSelectionState(ISelectionState.months);
@@ -213,17 +218,24 @@ const Calendar: FC<ICalendar> = props => {
     }
   }, [currentMonthIndex, yearRange, currentYear, selectionState]);
 
-  const getCalenderTitle = () => {
+  const getCalenderTitle = (): ITitle => {
     if (selectionState === ISelectionState.months) {
-      return currentYear.toString();
+      return {
+        currYear: currentYear.toString(),
+      };
     } else if (selectionState === ISelectionState.years) {
-      return (
-        yearRange[0]?.toString() +
-        '-' +
-        yearRange[yearRange.length - 1]?.toString()
-      );
+      return {
+        currYear:
+          yearRange[0]?.toString() +
+          '-' +
+          yearRange[yearRange.length - 1]?.toString(),
+      };
     }
-    return localeConfig.monthNames[currentMonthIndex] + ', ' + currentYear;
+
+    return {
+      currMonth: localeConfig.monthNames[currentMonthIndex] + ' ',
+      currYear: currentYear.toString(),
+    };
   };
 
   return (
@@ -232,7 +244,8 @@ const Calendar: FC<ICalendar> = props => {
         title={getCalenderTitle()}
         onPressLeft={onPressLeft}
         onPressRight={onPressRight}
-        onPress={onPressCurrMonth}
+        onPressMonth={onPressCurrMonth}
+        onPressYear={onPressCurrYear}
       />
       {selectionState === ISelectionState.days && (
         <DefaultCalendar
