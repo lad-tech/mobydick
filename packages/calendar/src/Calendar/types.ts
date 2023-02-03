@@ -63,3 +63,8 @@ export enum IDirection {
   left = 'left',
   none = 'none',
 }
+
+export interface ITitle {
+  currMonth?: string | undefined;
+  currYear?: string | undefined;
+}
