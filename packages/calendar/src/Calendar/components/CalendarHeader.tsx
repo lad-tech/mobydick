@@ -11,16 +11,18 @@ import React, {FC} from 'react';
 import {StyleSheet} from 'react-native';
 
 import {LABELS} from '../constants';
+import {ITitle} from '../types';
 
-interface ICustomHeaderTitle {
-  title: string;
-  onPress: () => void;
+interface ICustomHeader {
+  title: ITitle;
+  onPressMonth?: () => void;
+  onPressYear: () => void;
   onPressLeft: () => void;
   onPressRight: () => void;
 }
 
-const CalendarHeader: FC<ICustomHeaderTitle> = props => {
-  const {title, onPress, onPressLeft, onPressRight} = props;
+const CalendarHeader: FC<ICustomHeader> = props => {
+  const {title, onPressMonth, onPressYear, onPressLeft, onPressRight} = props;
   const [styles] = useStyles(stylesCreate);
 
   return (
@@ -30,12 +32,23 @@ const CalendarHeader: FC<ICustomHeaderTitle> = props => {
         accessibilityLabel={LABELS.calendarLeftArrow}>
         <SimpleIcon name={'icon-arrow-left'} />
       </Pressable>
-      <TouchableOpacity
-        onPress={onPress}
-        style={styles.title}
-        accessibilityLabel={LABELS.calendarPressTitle}>
-        <Typography font={'Medium-Primary-M'}>{title}</Typography>
-      </TouchableOpacity>
+      <View style={styles.title}>
+        {Boolean(title.currMonth) && (
+          <TouchableOpacity
+            onPress={onPressMonth}
+            accessibilityLabel={LABELS.calendarPressTitleMonth}>
+            <Typography font={'Medium-Primary-M'}>{title.currMonth}</Typography>
+          </TouchableOpacity>
+        )}
+        {Boolean(title.currYear) && (
+          <TouchableOpacity
+            onPress={onPressYear}
+            accessibilityLabel={LABELS.calendarPressTitleYear}>
+            <Typography font={'Medium-Primary-M'}>{title.currYear}</Typography>
+          </TouchableOpacity>
+        )}
+      </View>
+
       <Pressable
         onPress={onPressRight}
         accessibilityLabel={LABELS.calendarRightArrow}>
@@ -57,6 +70,8 @@ const stylesCreate = () =>
     },
     title: {
       width: rem(160),
+      flexDirection: 'row',
       alignItems: 'center',
+      justifyContent: 'center',
     },
   });

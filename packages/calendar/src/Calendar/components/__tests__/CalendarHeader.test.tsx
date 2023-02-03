@@ -5,14 +5,19 @@ import CalendarHeader from '../CalendarHeader';
 
 describe('CalendarHeader', () => {
   it('render', () => {
-    const onPress = jest.fn();
+    const onPressMonth = jest.fn();
+    const onPressYear = jest.fn();
     const onPressRight = jest.fn();
     const onPressLeft = jest.fn();
 
     const {toJSON} = render(
       <CalendarHeader
-        title={'CalendarHeader'}
-        onPress={onPress}
+        title={{
+          currMonth: 'currMonth',
+          currYear: 'currentYear',
+        }}
+        onPressMonth={onPressMonth}
+        onPressYear={onPressYear}
         onPressRight={onPressRight}
         onPressLeft={onPressLeft}
       />,

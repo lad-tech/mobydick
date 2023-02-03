@@ -41,13 +41,18 @@ describe('Calendar', () => {
     const {toJSON, getByLabelText, getAllByLabelText} = render(
       <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
     );
-    const calendarPressTitle = getByLabelText(LABELS.calendarPressTitle);
-    fireEvent.press(calendarPressTitle);
+    const calendarPressTitleMonth = getByLabelText(
+      LABELS.calendarPressTitleMonth,
+    );
+    fireEvent.press(calendarPressTitleMonth);
 
+    const calendarPressTitleYear = getByLabelText(
+      LABELS.calendarPressTitleYear,
+    );
     const calendarLeftArrow = getByLabelText(LABELS.calendarLeftArrow);
     fireEvent.press(calendarLeftArrow);
 
-    fireEvent.press(calendarPressTitle);
+    fireEvent.press(calendarPressTitleYear);
     fireEvent.press(calendarLeftArrow);
 
     const pressYear = getAllByLabelText(LABELS.pressYear)[2];
@@ -59,16 +64,21 @@ describe('Calendar', () => {
     const {toJSON, getByLabelText} = render(
       <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
     );
-    const calendarPressTitle = getByLabelText(LABELS.calendarPressTitle);
-    fireEvent.press(calendarPressTitle);
+    const calendarPressTitleMonth = getByLabelText(
+      LABELS.calendarPressTitleMonth,
+    );
+    fireEvent.press(calendarPressTitleMonth);
 
+    const calendarPressTitleYear = getByLabelText(
+      LABELS.calendarPressTitleYear,
+    );
     const calendarLeftArrow = getByLabelText(LABELS.calendarLeftArrow);
     fireEvent.press(calendarLeftArrow);
 
-    fireEvent.press(calendarPressTitle);
+    fireEvent.press(calendarPressTitleYear);
     fireEvent.press(calendarLeftArrow);
 
-    fireEvent.press(calendarPressTitle);
+    fireEvent.press(calendarPressTitleYear);
     fireEvent.press(calendarLeftArrow);
     expect(toJSON()).toMatchSnapshot();
   });
@@ -96,17 +106,22 @@ describe('Calendar', () => {
     const {toJSON, getByLabelText, getAllByLabelText} = render(
       <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
     );
-    const calendarPressTitle = getByLabelText(LABELS.calendarPressTitle);
-    fireEvent.press(calendarPressTitle);
+    const calendarPressTitleMonth = getByLabelText(
+      LABELS.calendarPressTitleMonth,
+    );
+    fireEvent.press(calendarPressTitleMonth);
 
+    const calendarPressTitleYear = getByLabelText(
+      LABELS.calendarPressTitleYear,
+    );
     const calendarRightArrow = getByLabelText(LABELS.calendarRightArrow);
     fireEvent.press(calendarRightArrow);
 
     const pressMonth = getAllByLabelText(LABELS.pressMonth)[5];
     pressMonth && fireEvent.press(pressMonth);
 
-    fireEvent.press(calendarPressTitle);
-    fireEvent.press(calendarPressTitle);
+    fireEvent.press(calendarPressTitleYear);
+    fireEvent.press(calendarPressTitleYear);
 
     fireEvent.press(calendarRightArrow);
 
@@ -117,19 +132,36 @@ describe('Calendar', () => {
     const {toJSON, getByLabelText} = render(
       <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
     );
-    const calendarPressTitle = getByLabelText(LABELS.calendarPressTitle);
-    fireEvent.press(calendarPressTitle);
+    const calendarPressTitleMonth = getByLabelText(
+      LABELS.calendarPressTitleMonth,
+    );
+    fireEvent.press(calendarPressTitleMonth);
+
+    const calendarPressTitleYear = getByLabelText(
+      LABELS.calendarPressTitleYear,
+    );
 
     const calendarRightArrow = getByLabelText(LABELS.calendarRightArrow);
     fireEvent.press(calendarRightArrow);
 
-    fireEvent.press(calendarPressTitle);
+    fireEvent.press(calendarPressTitleYear);
 
     fireEvent.press(calendarRightArrow);
 
-    fireEvent.press(calendarPressTitle);
+    fireEvent.press(calendarPressTitleYear);
 
     fireEvent.press(calendarRightArrow);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('press calendarPressTitleYear', () => {
+    const {toJSON, getByLabelText} = render(
+      <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,
+    );
+    const calendarPressTitleYear = getByLabelText(
+      LABELS.calendarPressTitleYear,
+    );
+    fireEvent.press(calendarPressTitleYear);
+
     expect(toJSON()).toMatchSnapshot();
   });
 });
