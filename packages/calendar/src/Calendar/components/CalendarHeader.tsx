@@ -11,13 +11,9 @@ import React, {FC} from 'react';
 import {StyleSheet} from 'react-native';
 
 import {LABELS} from '../constants';
+import {ITitle} from '../types';
 
-export interface ITitle {
-  currMonth?: string | undefined;
-  currYear?: string | undefined;
-}
-
-interface ICustomHeaderTitle {
+interface ICustomHeader {
   title: ITitle;
   onPressMonth?: () => void;
   onPressYear: () => void;
@@ -25,7 +21,7 @@ interface ICustomHeaderTitle {
   onPressRight: () => void;
 }
 
-const CalendarHeader: FC<ICustomHeaderTitle> = props => {
+const CalendarHeader: FC<ICustomHeader> = props => {
   const {title, onPressMonth, onPressYear, onPressLeft, onPressRight} = props;
   const [styles] = useStyles(stylesCreate);
 

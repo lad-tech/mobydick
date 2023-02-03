@@ -21,8 +21,14 @@ import {
   getMarkedToday,
 } from './functions';
 import stylesCreate from './stylesCreate';
-import {ICalendar, IDirection, IMarkedDates, ISelectionState} from './types';
-import CalendarHeader, {ITitle} from './components/CalendarHeader';
+import {
+  ICalendar,
+  IDirection,
+  IMarkedDates,
+  ISelectionState,
+  ITitle,
+} from './types';
+import CalendarHeader from './components/CalendarHeader';
 import Years from './components/Years';
 import Months from './components/Months';
 
