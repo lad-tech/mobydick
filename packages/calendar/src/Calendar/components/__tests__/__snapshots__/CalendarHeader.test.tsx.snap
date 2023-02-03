@@ -40,41 +40,85 @@ exports[`CalendarHeader render 1`] = `
     </Text>
   </View>
   <View
-    accessibilityLabel="calendarPressTitle"
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
     style={
       {
         "alignItems": "center",
-        "opacity": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
         "width": 240,
       }
     }
   >
-    <Text
-      allowFontScaling={true}
+    <View
+      accessibilityLabel="calendarPressTitleMonth"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
-        [
-          {
-            "color": "#20242D",
-            "fontFamily": "Inter-Medium",
-            "fontSize": 24,
-            "lineHeight": 30,
-          },
-          undefined,
-        ]
+        {
+          "opacity": 1,
+        }
       }
     >
-      CalendarHeader
-    </Text>
+      <Text
+        allowFontScaling={true}
+        style={
+          [
+            {
+              "color": "#20242D",
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
+            },
+            undefined,
+          ]
+        }
+      >
+        currMonth
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="calendarPressTitleYear"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          [
+            {
+              "color": "#20242D",
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
+            },
+            undefined,
+          ]
+        }
+      >
+        currentYear
+      </Text>
+    </View>
   </View>
   <View
     accessibilityLabel="calendarRightArrow"

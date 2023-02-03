@@ -1,6 +1,7 @@
 export const LABELS = {
   calendarLeftArrow: 'calendarLeftArrow',
-  calendarPressTitle: 'calendarPressTitle',
+  calendarPressTitleMonth: 'calendarPressTitleMonth',
+  calendarPressTitleYear: 'calendarPressTitleYear',
   calendarRightArrow: 'calendarRightArrow',
   pressMonth: 'pressMonth',
   pressYear: 'pressYear',
