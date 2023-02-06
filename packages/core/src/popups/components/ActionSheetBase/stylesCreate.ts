@@ -1,4 +1,4 @@
-import {Platform, StyleSheet, ViewStyle} from 'react-native';
+import {StyleSheet, ViewStyle} from 'react-native';
 
 import rem from '../../../styles/spaces/rem';
 import {IThemeContext} from '../../../styles/theme/types';
@@ -48,12 +48,6 @@ const stylesCreate = (theme: IThemeContext, itemType?: IItemType) => {
     },
     containerStyle: {
       width: '100%',
-      ...Platform.select({
-        android: {
-          flex: 1,
-          justifyContent: 'flex-end',
-        },
-      }),
     },
     item: {
       justifyContent: 'space-between',
