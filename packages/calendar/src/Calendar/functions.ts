@@ -171,21 +171,21 @@ export const calculateYearRange = (
 
   switch (direction) {
     case IDirection.left: {
-      for (let i = 16; i > 0; i--) {
+      for (let i = 12; i > 0; i--) {
         yearRange.push(currentYear - i);
       }
       break;
     }
 
     case IDirection.right: {
-      for (let i = 1; i <= 16; i++) {
+      for (let i = 1; i <= 12; i++) {
         yearRange.push(currentYear + i);
       }
       break;
     }
     default: {
-      for (let i = 15; i >= 0; i--) {
-        yearRange.push(currentYear - i);
+      for (let i = -4; i <= 7; i++) {
+        yearRange.push(currentYear + i);
       }
       break;
     }
