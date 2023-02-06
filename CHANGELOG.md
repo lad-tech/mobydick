@@ -1,3 +1,17 @@
+# [4.9.0](https://glab.lad24.ru/npm/mobydick/compare/v4.8.2...v4.9.0) (2023-02-06)
+
+
+### Bug Fixes
+
+* **actionSheets:** fix mimoclick -> remove style ([32b65f8](https://glab.lad24.ru/npm/mobydick/commit/32b65f85a0ff9f12ce0caa98895052f382e7f343))
+
+
+### Features
+
+* **calendar:** new prop InitialRange -> marked initial range ([5477ecc](https://glab.lad24.ru/npm/mobydick/commit/5477ecc960dfe9997a1c4813669a077c89831cc1))
+* **calendar:** new view years ([4177478](https://glab.lad24.ru/npm/mobydick/commit/417747874a2a87e997245617282b3fff3195d715))
+* **calendar:** two buttons in calendarHeader ([fc9467b](https://glab.lad24.ru/npm/mobydick/commit/fc9467be862b875785c3064ba8073e807b8d6080))
+
 ## [4.8.2](https://glab.lad24.ru/npm/mobydick/compare/v4.8.1...v4.8.2) (2023-02-02)
 
 
