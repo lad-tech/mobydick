@@ -6,9 +6,11 @@ import CenterView from '../CenterView';
 import CounterExample from './Example/CounterExample';
 import DotsExample from './Example/DotsExample';
 import AvatarExample from './Example/AvatarExample';
+import BadgeIndicatorExample from './Example/BadgeIndicatorExample';
 
 storiesOf('Design system/Other', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('Dots', () => <DotsExample />)
   .add('Counter', () => <CounterExample />)
+  .add('Badge indicator', () => <BadgeIndicatorExample />)
   .add('Avatar', () => <AvatarExample />);

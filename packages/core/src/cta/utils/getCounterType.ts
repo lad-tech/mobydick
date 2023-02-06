@@ -1,5 +1,5 @@
-import {ICounterTypes} from '../../other/components/Counter/types';
 import {IButtonTypes} from '../components/Button/types';
+import {ICounterTypes} from '../../other';
 
 const getCounterType = (type: IButtonTypes) => {
   switch (type) {
