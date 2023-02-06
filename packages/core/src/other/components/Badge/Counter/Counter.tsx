@@ -1,10 +1,10 @@
 import React, {FC} from 'react';
 import {ViewStyle} from 'react-native';
 
-import View from '../../../basic/components/View/View';
-import Text from '../../../basic/components/Text/Text';
-import useStyles from '../../../styles/theme/hooks/useStyles';
-import {useFont} from '../../../typography';
+import View from '../../../../basic/components/View/View';
+import Text from '../../../../basic/components/Text/Text';
+import useStyles from '../../../../styles/theme/hooks/useStyles';
+import {useFont} from '../../../../typography';
 
 import stylesCreate from './stylesCreate';
 import {ICounterSize, ICounterTypes} from './types';
@@ -30,7 +30,7 @@ const Counter: FC<IProps> = ({
   );
 
   if (!count) {
-    return <View style={[styles.indicator, style]} />;
+    return null;
   }
 
   const lastNumber = `${'9'.repeat(maxLength)}+`;

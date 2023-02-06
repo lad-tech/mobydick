@@ -1,24 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Counter render counter 1`] = `
-<View
-  style={
-    [
-      {
-        "backgroundColor": "#F54D3D",
-        "borderColor": "#FFF",
-        "borderRadius": 6,
-        "borderWidth": 1.5,
-        "height": 12,
-        "minWidth": 12,
-        "position": "absolute",
-        "zIndex": 1,
-      },
-      undefined,
-    ]
-  }
-/>
-`;
+exports[`Counter render counter 1`] = `null`;
 
 exports[`Counter render counter ICounterSize.medium 1`] = `
 <View
@@ -358,22 +340,4 @@ exports[`Counter render counter style 1`] = `
 </View>
 `;
 
-exports[`Counter render notification 1`] = `
-<View
-  style={
-    [
-      {
-        "backgroundColor": "#F54D3D",
-        "borderColor": "#FFF",
-        "borderRadius": 6,
-        "borderWidth": 1.5,
-        "height": 12,
-        "minWidth": 12,
-        "position": "absolute",
-        "zIndex": 1,
-      },
-      undefined,
-    ]
-  }
-/>
-`;
+exports[`Counter render notification 1`] = `null`;

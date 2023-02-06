@@ -6,8 +6,8 @@ import useStyles from '../../../styles/theme/hooks/useStyles';
 import {Typography} from '../../../typography';
 import {Spinner} from '../../../progress/components/Spinner';
 import {ISizeSpinner} from '../../../progress/components/Spinner/types';
-import {ICounterSize} from '../../../other/components/Counter/types';
-import Counter from '../../../other/components/Counter/Counter';
+import {ICounterSize} from '../../../other';
+import Counter from '../../../other/components/Badge/Counter/Counter';
 
 import {IButtonProps, IButtonSize, IButtonTypes} from './types';
 import stylesCreate from './stylesCreate';
