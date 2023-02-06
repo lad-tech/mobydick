@@ -193,6 +193,19 @@ exports[`Years press year 1`] = `
             2010
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -238,19 +251,6 @@ exports[`Years press year 1`] = `
             2011
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -341,6 +341,19 @@ exports[`Years press year 1`] = `
             2013
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -431,19 +444,6 @@ exports[`Years press year 1`] = `
             2015
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -489,6 +489,19 @@ exports[`Years press year 1`] = `
             2016
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -772,6 +785,19 @@ exports[`Years press year 1`] = `
             2022
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -1016,6 +1042,19 @@ exports[`Years render 1`] = `
             2010
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -1061,19 +1100,6 @@ exports[`Years render 1`] = `
             2011
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -1164,6 +1190,19 @@ exports[`Years render 1`] = `
             2013
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -1254,19 +1293,6 @@ exports[`Years render 1`] = `
             2015
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -1312,6 +1338,19 @@ exports[`Years render 1`] = `
             2016
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
@@ -1595,6 +1634,19 @@ exports[`Years render 1`] = `
             2022
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityLabel="pressYear"
           accessible={true}
