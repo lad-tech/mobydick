@@ -32,6 +32,7 @@ describe('ModalCalendar', () => {
         id={'1'}
         onClose={() => undefined}
         onDateRangeChange={submit}
+        isCounter={false}
         descriptionText={'textCalendar'}
         buttonView={IButtonView.small}
       />,
@@ -49,6 +50,7 @@ describe('ModalCalendar', () => {
         onClose={() => undefined}
         onDateRangeChange={submit}
         descriptionText={'textCalendar'}
+        isCounter={true}
         titlePrefix={'titlePrefix'}
         titleSuffix={'titleSuffix'}
         titleFont={'Regular-Muted-M'}
@@ -72,6 +74,18 @@ describe('ModalCalendar', () => {
         onClose={() => undefined}
         onDateRangeChange={submit}
         initialRange={{fromDate: '2022-02-16', toDate: '2022-02-17'}}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly initialRange only fromDate', () => {
+    const submit = jest.fn();
+    const {toJSON} = render(
+      <ModalCalendar
+        id={'1'}
+        onClose={() => undefined}
+        onDateRangeChange={submit}
+        initialRange={{fromDate: '2022-02-16'}}
       />,
     );
     expect(toJSON()).toMatchSnapshot();
