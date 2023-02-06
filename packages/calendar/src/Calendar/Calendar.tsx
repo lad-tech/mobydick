@@ -41,6 +41,7 @@ const Calendar: FC<ICalendar> = props => {
     isShowToday = true,
     localeConfig = localeConfigRu,
     isPeriod = false,
+    initialRange,
     ...rest
   } = props;
   LocaleConfig.locales[defaultLocale] = localeConfig;
@@ -146,7 +147,16 @@ const Calendar: FC<ICalendar> = props => {
   };
 
   useLayoutEffect(() => {
-    if (isShowToday) {
+    if (initialRange?.fromDate) {
+      setMarkedDates(
+        getAllDatesBetween(
+          new Date(initialRange?.fromDate),
+          new Date(initialRange?.toDate || initialRange?.fromDate),
+          colorsArg,
+          isShowToday,
+        ),
+      );
+    } else if (isShowToday) {
       setMarkedDates(getMarkedToday(colorsArg));
     }
   }, []);

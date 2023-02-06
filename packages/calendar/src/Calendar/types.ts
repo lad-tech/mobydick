@@ -42,6 +42,7 @@ export interface ICalendar extends CalendarProps {
   isShowToday?: boolean;
   localeConfig?: ILocaleConfig | undefined;
   isPeriod?: boolean;
+  initialRange?: {fromDate: string; toDate?: string};
 }
 
 export interface ILocaleConfig {
