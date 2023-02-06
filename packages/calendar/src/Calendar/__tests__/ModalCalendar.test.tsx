@@ -64,4 +64,16 @@ describe('ModalCalendar', () => {
     fireEvent.press(applyButton);
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly initialRange', () => {
+    const submit = jest.fn();
+    const {toJSON} = render(
+      <ModalCalendar
+        id={'1'}
+        onClose={() => undefined}
+        onDateRangeChange={submit}
+        initialRange={{fromDate: '2022-02-16', toDate: '2022-02-17'}}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
 });

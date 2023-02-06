@@ -52,6 +52,8 @@ export const localeConfigEn = {
 const CalendarPopupExample = () => {
   const popupContext = usePopups();
   const isShowLocaleConfigEn = boolean('is show locale config En', false);
+  const initialDate = text('initial marked date', '2023-02-16');
+
   const onPress = () => {
     popupContext.openPopup({
       Content: propsFromPopup => (
@@ -68,6 +70,9 @@ const CalendarPopupExample = () => {
           localeConfig={isShowLocaleConfigEn ? localeConfigEn : localeConfigRu}
           isPeriod={boolean('isPeriod', true)}
           isCounter={boolean('isCounter', true)}
+          initialRange={{
+            fromDate: initialDate,
+          }}
           {...propsFromPopup}
         />
       ),
