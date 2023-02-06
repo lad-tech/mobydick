@@ -1,4 +1,4 @@
-import React, {FC, useState} from 'react';
+import React, {FC, useCallback, useState} from 'react';
 import {boolean, select} from '@storybook/addon-knobs';
 
 import {
@@ -46,12 +46,27 @@ const ExampleActionSheet: FC<IContentProps> = props => {
     return setCheckboxList([...checkboxList, title]);
   };
 
-  const onPressRadio = (title: string) => {
-    if (radio === title) {
-      return setRadio('');
-    }
-    return setRadio(title);
-  };
+  const onPressRadio = useCallback(
+    (title: string) => {
+      if (radio === title) {
+        return setRadio('');
+      }
+      return setRadio(title);
+    },
+    [radio],
+  );
+
+  const onPressFirstItem = useCallback(() => {
+    onPressRadio(deniedText);
+  }, [onPressRadio]);
+
+  const onPressInnerItem = useCallback(() => {
+    onPressRadio(coordinationText);
+  }, [onPressRadio]);
+
+  const onPressLastItem = useCallback(() => {
+    onPressRadio(agreedText);
+  }, [onPressRadio]);
 
   switch (
     select(
@@ -85,27 +100,21 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           <ActionSheetBase.Item
             itemType={IItemType.firstItem}
             title={deniedText}
-            onPress={() => {
-              onPressRadio(deniedText);
-            }}
+            onPress={onPressFirstItem}
             radio={radio}
             leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.innerItem}
             title={coordinationText}
-            onPress={() => {
-              onPressRadio(coordinationText);
-            }}
+            onPress={onPressInnerItem}
             radio={radio}
             leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.lastItem}
             title={agreedText}
-            onPress={() => {
-              onPressRadio(agreedText);
-            }}
+            onPress={onPressLastItem}
             radio={radio}
             leftIcon={leftIcon}
           />

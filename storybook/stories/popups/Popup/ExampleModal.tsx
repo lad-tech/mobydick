@@ -1,5 +1,5 @@
 import {boolean, select, text} from '@storybook/addon-knobs';
-import React, {FC} from 'react';
+import React, {FC, useCallback} from 'react';
 
 import selectFont from '../../../utils/selectFont';
 
@@ -27,7 +27,10 @@ const ExampleModal: FC<IContentProps> = props => {
     selectFont,
     'Regular-Tertiary-XS',
   );
-
+  const onPress = useCallback(
+    () => popupContext.openPopup({Content: NestedExampleModal}),
+    [],
+  );
   return (
     <ModalBase {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
@@ -58,9 +61,7 @@ const ExampleModal: FC<IContentProps> = props => {
       {boolean('show vertical button', false) && (
         <ModalBase.VerticalButtonsView>
           <ModalBase.VerticalButton
-            onPress={() =>
-              popupContext.openPopup({Content: NestedExampleModal})
-            }
+            onPress={onPress}
             type={select(
               'type one vertical button',
               IButtonTypes,
@@ -70,9 +71,7 @@ const ExampleModal: FC<IContentProps> = props => {
             style={{marginBottom: rem(12)}}
           />
           <ModalBase.VerticalButton
-            onPress={() =>
-              popupContext.openPopup({Content: NestedExampleModal})
-            }
+            onPress={onPress}
             type={select(
               'type two vertical button',
               IButtonTypes,
@@ -90,9 +89,7 @@ const ExampleModal: FC<IContentProps> = props => {
             IButtonTypes.secondary,
           )}
           textRight={text('text right button ', 'Добавить')}
-          onPressRight={() =>
-            popupContext.openPopup({Content: NestedExampleModal})
-          }
+          onPressRight={onPress}
           typeLeft={select(
             'type left button',
             IButtonTypes,
@@ -101,9 +98,7 @@ const ExampleModal: FC<IContentProps> = props => {
           disabledLeft={boolean('disabledLeft', false)}
           disabledRight={boolean('disabledRight', false)}
           textLeft={text('text left button ', 'Отмена')}
-          onPressLeft={() =>
-            popupContext.openPopup({Content: NestedExampleModal})
-          }
+          onPressLeft={onClose}
         />
       )}
       {boolean('show one button', false) && (
@@ -127,6 +122,10 @@ const NestedExampleModal: FC<IContentProps> = props => {
   const popupContext = usePopups();
   const {onClose} = props;
 
+  const onPress = useCallback(
+    () => popupContext.openPopup({Content: ExampleModal}),
+    [],
+  );
   return (
     <ModalBase {...props}>
       <ModalBase.CloseIcon onPress={onClose} />
@@ -136,7 +135,7 @@ const NestedExampleModal: FC<IContentProps> = props => {
       />
       <ModalBase.VerticalButtonsView>
         <ModalBase.VerticalButton
-          onPress={() => popupContext.openPopup({Content: ExampleModal})}
+          onPress={onPress}
           text={'Открыть ещё одну'}
           type={select(
             'type one vertical button',

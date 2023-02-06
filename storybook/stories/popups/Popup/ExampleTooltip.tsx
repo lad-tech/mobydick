@@ -100,7 +100,7 @@ const ExampleTooltip: FC<
           ) : null}
 
           <TooltipBase.LeftButton
-            onPress={() => null}
+            onPress={undefined}
             text={text('Text button', 'Войти')}
           />
         </TooltipBase>
