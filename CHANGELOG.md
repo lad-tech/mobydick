@@ -1,3 +1,10 @@
+## [4.9.1](https://glab.lad24.ru/npm/mobydick/compare/v4.9.0...v4.9.1) (2023-02-07)
+
+
+### Bug Fixes
+
+* **calendar:** lengthDateRange for initialRange ([02e7b9b](https://glab.lad24.ru/npm/mobydick/commit/02e7b9bebaf29e5b87e9c38943a67f051adc3ee1))
+
 # [4.9.0](https://glab.lad24.ru/npm/mobydick/compare/v4.8.2...v4.9.0) (2023-02-06)
 
 
