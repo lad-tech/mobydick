@@ -148,14 +148,23 @@ const Calendar: FC<ICalendar> = props => {
 
   useLayoutEffect(() => {
     if (initialRange?.fromDate) {
-      setMarkedDates(
-        getAllDatesBetween(
-          new Date(initialRange?.fromDate),
-          new Date(initialRange?.toDate || initialRange?.fromDate),
-          colorsArg,
-          isShowToday,
-        ),
+      const dateRange = getAllDatesBetween(
+        new Date(initialRange?.fromDate),
+        new Date(initialRange?.toDate || initialRange?.fromDate),
+        colorsArg,
+        isShowToday,
       );
+
+      setMarkedDates(dateRange);
+
+      onDateRangeChange &&
+        onDateRangeChange({
+          dateStart: new Date(initialRange?.fromDate).toISOString(),
+          dateEnd: new Date(
+            initialRange?.toDate || initialRange?.fromDate,
+          ).toISOString(),
+          lengthDateRange: dateRange.lengthDateRange || 0,
+        });
     } else if (isShowToday) {
       setMarkedDates(getMarkedToday(colorsArg));
     }
