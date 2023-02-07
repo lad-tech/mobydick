@@ -11028,7 +11028,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
             ]
           }
         >
-          2018-2029
+          2022
         </Text>
       </View>
     </View>
@@ -11064,18 +11064,18 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
   <RCTScrollView
     data={
       [
-        2018,
-        2019,
-        2020,
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026,
-        2027,
-        2028,
-        2029,
+        "Янв",
+        "Фев",
+        "Март",
+        "Апр",
+        "Май",
+        "Июнь",
+        "Июль",
+        "Авг",
+        "Сен",
+        "Окт",
+        "Нояб",
+        "Дек",
       ]
     }
     getItem={[Function]}
@@ -11115,7 +11115,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
           }
         >
           <View
-            accessibilityLabel="pressYear"
+            accessibilityLabel="pressMonth"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -11133,7 +11133,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 {
                   "alignItems": "center",
                   "borderRadius": 6,
-                  "flex": 4,
+                  "flex": 3,
                   "paddingVertical": 30,
                 },
                 {
@@ -11156,11 +11156,11 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 ]
               }
             >
-              2018
+              Янв
             </Text>
           </View>
           <View
-            accessibilityLabel="pressYear"
+            accessibilityLabel="pressMonth"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -11178,7 +11178,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 {
                   "alignItems": "center",
                   "borderRadius": 6,
-                  "flex": 4,
+                  "flex": 3,
                   "paddingVertical": 30,
                 },
                 {
@@ -11201,11 +11201,11 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 ]
               }
             >
-              2019
+              Фев
             </Text>
           </View>
           <View
-            accessibilityLabel="pressYear"
+            accessibilityLabel="pressMonth"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -11223,7 +11223,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 {
                   "alignItems": "center",
                   "borderRadius": 6,
-                  "flex": 4,
+                  "flex": 3,
                   "paddingVertical": 30,
                 },
                 {
@@ -11246,155 +11246,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 ]
               }
             >
-              2020
-            </Text>
-          </View>
-        </View>
-      </View>
-      <View
-        onLayout={[Function]}
-        style={null}
-      >
-        <View
-          style={
-            {
-              "flexDirection": "row",
-            }
-          }
-        >
-          <View
-            accessibilityLabel="pressYear"
-            accessible={true}
-            collapsable={false}
-            focusable={true}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              [
-                {
-                  "alignItems": "center",
-                  "borderRadius": 6,
-                  "flex": 4,
-                  "paddingVertical": 30,
-                },
-                {
-                  "backgroundColor": "#FFF",
-                },
-              ]
-            }
-          >
-            <Text
-              allowFontScaling={true}
-              style={
-                [
-                  {
-                    "color": "#20242D",
-                    "fontFamily": "Inter-Regular",
-                    "fontSize": 22.5,
-                    "lineHeight": 28.5,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              2021
-            </Text>
-          </View>
-          <View
-            accessibilityLabel="pressYear"
-            accessible={true}
-            collapsable={false}
-            focusable={true}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              [
-                {
-                  "alignItems": "center",
-                  "borderRadius": 6,
-                  "flex": 4,
-                  "paddingVertical": 30,
-                },
-                {
-                  "backgroundColor": "#FFF",
-                },
-              ]
-            }
-          >
-            <Text
-              allowFontScaling={true}
-              style={
-                [
-                  {
-                    "color": "#20242D",
-                    "fontFamily": "Inter-Regular",
-                    "fontSize": 22.5,
-                    "lineHeight": 28.5,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              2022
-            </Text>
-          </View>
-          <View
-            accessibilityLabel="pressYear"
-            accessible={true}
-            collapsable={false}
-            focusable={true}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              [
-                {
-                  "alignItems": "center",
-                  "borderRadius": 6,
-                  "flex": 4,
-                  "paddingVertical": 30,
-                },
-                {
-                  "backgroundColor": "#FFF",
-                },
-              ]
-            }
-          >
-            <Text
-              allowFontScaling={true}
-              style={
-                [
-                  {
-                    "color": "#20242D",
-                    "fontFamily": "Inter-Regular",
-                    "fontSize": 22.5,
-                    "lineHeight": 28.5,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              2023
+              Март
             </Text>
           </View>
         </View>
@@ -11411,7 +11263,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
           }
         >
           <View
-            accessibilityLabel="pressYear"
+            accessibilityLabel="pressMonth"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -11429,7 +11281,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 {
                   "alignItems": "center",
                   "borderRadius": 6,
-                  "flex": 4,
+                  "flex": 3,
                   "paddingVertical": 30,
                 },
                 {
@@ -11452,11 +11304,11 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 ]
               }
             >
-              2024
+              Апр
             </Text>
           </View>
           <View
-            accessibilityLabel="pressYear"
+            accessibilityLabel="pressMonth"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -11474,7 +11326,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 {
                   "alignItems": "center",
                   "borderRadius": 6,
-                  "flex": 4,
+                  "flex": 3,
                   "paddingVertical": 30,
                 },
                 {
@@ -11497,11 +11349,11 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 ]
               }
             >
-              2025
+              Май
             </Text>
           </View>
           <View
-            accessibilityLabel="pressYear"
+            accessibilityLabel="pressMonth"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -11519,7 +11371,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 {
                   "alignItems": "center",
                   "borderRadius": 6,
-                  "flex": 4,
+                  "flex": 3,
                   "paddingVertical": 30,
                 },
                 {
@@ -11542,7 +11394,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 ]
               }
             >
-              2026
+              Июнь
             </Text>
           </View>
         </View>
@@ -11559,7 +11411,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
           }
         >
           <View
-            accessibilityLabel="pressYear"
+            accessibilityLabel="pressMonth"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -11577,7 +11429,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 {
                   "alignItems": "center",
                   "borderRadius": 6,
-                  "flex": 4,
+                  "flex": 3,
                   "paddingVertical": 30,
                 },
                 {
@@ -11600,11 +11452,11 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 ]
               }
             >
-              2027
+              Июль
             </Text>
           </View>
           <View
-            accessibilityLabel="pressYear"
+            accessibilityLabel="pressMonth"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -11622,7 +11474,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 {
                   "alignItems": "center",
                   "borderRadius": 6,
-                  "flex": 4,
+                  "flex": 3,
                   "paddingVertical": 30,
                 },
                 {
@@ -11645,11 +11497,11 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 ]
               }
             >
-              2028
+              Авг
             </Text>
           </View>
           <View
-            accessibilityLabel="pressYear"
+            accessibilityLabel="pressMonth"
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -11667,7 +11519,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 {
                   "alignItems": "center",
                   "borderRadius": 6,
-                  "flex": 4,
+                  "flex": 3,
                   "paddingVertical": 30,
                 },
                 {
@@ -11690,7 +11542,155 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 ]
               }
             >
-              2029
+              Сен
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                [
+                  {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Окт
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                [
+                  {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Нояб
+            </Text>
+          </View>
+          <View
+            accessibilityLabel="pressMonth"
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "borderRadius": 6,
+                  "flex": 3,
+                  "paddingVertical": 30,
+                },
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <Text
+              allowFontScaling={true}
+              style={
+                [
+                  {
+                    "color": "#20242D",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 22.5,
+                    "lineHeight": 28.5,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Дек
             </Text>
           </View>
         </View>
