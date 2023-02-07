@@ -59,7 +59,10 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
     onClose();
   }, [date, onClose, onDateRangeChange, date]);
 
-  const onClear = useCallback(() => setClear(true), []);
+  const onClear = useCallback(() => {
+    setClear(true);
+    onDateRangeChange(date);
+  }, []);
 
   const defaultBottomView = bottomView || (
     <>
