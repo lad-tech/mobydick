@@ -1,3 +1,10 @@
+## [4.9.2](https://glab.lad24.ru/npm/mobydick/compare/v4.9.1...v4.9.2) (2023-02-07)
+
+
+### Bug Fixes
+
+* **calendar:** add onChangeDate in onClear ([c03ec6d](https://glab.lad24.ru/npm/mobydick/commit/c03ec6dda7751240c140d19d04912747f5320de8))
+
 ## [4.9.1](https://glab.lad24.ru/npm/mobydick/compare/v4.9.0...v4.9.1) (2023-02-07)
 
 
