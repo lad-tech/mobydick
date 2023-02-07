@@ -1,3 +1,4 @@
-export * from './Counter';
+export * from './Badge/';
+
 export * from './Dots';
 export * from './Avatar';

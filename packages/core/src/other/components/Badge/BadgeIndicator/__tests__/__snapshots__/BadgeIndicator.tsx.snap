@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BadgeIndicator render BadgeIndicator primary 1`] = `
+<View
+  style={
+    [
+      {
+        "borderColor": "#FFF",
+        "borderRadius": 6,
+        "borderWidth": 1.5,
+        "height": 12,
+        "minWidth": 12,
+        "position": "absolute",
+        "zIndex": 1,
+      },
+      {
+        "backgroundColor": "#F54D3D",
+      },
+      {
+        "top": 0,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`BadgeIndicator render BadgeIndicator secondary 1`] = `
+<View
+  style={
+    [
+      {
+        "borderColor": "#FFF",
+        "borderRadius": 6,
+        "borderWidth": 1.5,
+        "height": 12,
+        "minWidth": 12,
+        "position": "absolute",
+        "zIndex": 1,
+      },
+      {
+        "backgroundColor": "#FAB742",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
