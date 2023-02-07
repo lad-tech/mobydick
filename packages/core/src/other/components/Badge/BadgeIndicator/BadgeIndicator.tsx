@@ -35,7 +35,7 @@ const BadgeIndicator: FC<IProps> = ({type, style}) => {
 };
 export default BadgeIndicator;
 
-const stylesCreate = ({spaces}: IThemeContext) =>
+const stylesCreate = ({spaces, colors}: IThemeContext) =>
   StyleSheet.create({
     indicator: {
       position: 'absolute',
@@ -43,5 +43,7 @@ const stylesCreate = ({spaces}: IThemeContext) =>
       minWidth: spaces.Space8,
       height: spaces.Space8,
       borderRadius: spaces.Space8 / 2,
+      borderColor: colors.BgPrimary,
+      borderWidth: spaces.Space1,
     },
   });
