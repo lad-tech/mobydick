@@ -2,6 +2,7 @@ import {
   calculateBoundaries,
   calculateYearRange,
   getAllDatesBetween,
+  getDateForCalendar,
 } from '../functions';
 import {IDirection} from '../types';
 
@@ -258,5 +259,118 @@ describe('Calendar-functions', () => {
       toDate: new Date('2022-01-24T00:00:00.000Z'),
       lengthDateRange: 5,
     });
+  });
+
+  it('getAllDatesBetween isShowToday === fromDate', () => {
+    jest.setSystemTime(new Date('2022-01-22'));
+    expect(
+      getAllDatesBetween(
+        new Date('2022-01-22T00:00:00.000Z'),
+        new Date('2022-01-24T00:00:00.000Z'),
+        {
+          colorPrime: {
+            color: '#fff',
+            textColor: '#000',
+          },
+          colorSoft: {
+            color: '#fff',
+            textColor: '#000',
+          },
+          colorToday: {
+            color: '#fff',
+            textColor: '#000',
+          },
+        },
+        true,
+      ),
+    ).toEqual({
+      dates: {
+        '2022-01-22': {
+          color: '#fff',
+          customContainerStyle: {borderRadius: 6, width: '100%'},
+          endingDay: true,
+          startingDay: true,
+          textColor: '#000',
+          customTextStyle: {
+            fontWeight: '600',
+            fontFamily: 'Inter-SemiBold',
+            color: '#000',
+          },
+        },
+        '2022-01-23': {
+          color: '#fff',
+          textColor: '#000',
+        },
+        '2022-01-24': {
+          color: '#fff',
+          customContainerStyle: {borderRadius: 6, width: '100%'},
+          customTextStyle: undefined,
+          endingDay: true,
+          startingDay: true,
+          textColor: '#000',
+        },
+      },
+      fromDate: new Date('2022-01-22T00:00:00.000Z'),
+      toDate: new Date('2022-01-24T00:00:00.000Z'),
+      lengthDateRange: 3,
+    });
+  });
+  it('getAllDatesBetween isShowToday === toDate', () => {
+    jest.setSystemTime(new Date('2022-01-24'));
+    expect(
+      getAllDatesBetween(
+        new Date('2022-01-22T00:00:00.000Z'),
+        new Date('2022-01-24T00:00:00.000Z'),
+        {
+          colorPrime: {
+            color: '#fff',
+            textColor: '#000',
+          },
+          colorSoft: {
+            color: '#fff',
+            textColor: '#000',
+          },
+          colorToday: {
+            color: '#fff',
+            textColor: '#000',
+          },
+        },
+        true,
+      ),
+    ).toEqual({
+      dates: {
+        '2022-01-22': {
+          color: '#fff',
+          customContainerStyle: {borderRadius: 6, width: '100%'},
+          endingDay: true,
+          startingDay: true,
+          textColor: '#000',
+          customTextStyle: undefined,
+        },
+        '2022-01-23': {
+          color: '#fff',
+          textColor: '#000',
+        },
+        '2022-01-24': {
+          color: '#fff',
+          customContainerStyle: {borderRadius: 6, width: '100%'},
+
+          endingDay: true,
+          startingDay: true,
+          textColor: '#000',
+          customTextStyle: {
+            fontWeight: '600',
+            fontFamily: 'Inter-SemiBold',
+            color: '#000',
+          },
+        },
+      },
+      fromDate: new Date('2022-01-22T00:00:00.000Z'),
+      toDate: new Date('2022-01-24T00:00:00.000Z'),
+      lengthDateRange: 3,
+    });
+  });
+  it('getDateForCalendar', () => {
+    expect(getDateForCalendar(new Date('2022-01-09'))).toEqual('2022-01-09');
   });
 });
