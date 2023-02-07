@@ -44,7 +44,7 @@ describe('Calendar', () => {
     const calendarPressTitleMonth = getByLabelText(
       LABELS.calendarPressTitleMonth,
     );
-    fireEvent.press(calendarPressTitleMonth);
+    fireEvent.press(calendarPressTitleMonth); //months
 
     const calendarPressTitleYear = getByLabelText(
       LABELS.calendarPressTitleYear,
@@ -52,7 +52,7 @@ describe('Calendar', () => {
     const calendarLeftArrow = getByLabelText(LABELS.calendarLeftArrow);
     fireEvent.press(calendarLeftArrow);
 
-    fireEvent.press(calendarPressTitleYear);
+    fireEvent.press(calendarPressTitleYear); //years
     fireEvent.press(calendarLeftArrow);
 
     const pressYear = getAllByLabelText(LABELS.pressYear)[2];
@@ -67,7 +67,7 @@ describe('Calendar', () => {
     const calendarPressTitleMonth = getByLabelText(
       LABELS.calendarPressTitleMonth,
     );
-    fireEvent.press(calendarPressTitleMonth);
+    fireEvent.press(calendarPressTitleMonth); //months
 
     const calendarPressTitleYear = getByLabelText(
       LABELS.calendarPressTitleYear,
@@ -75,10 +75,10 @@ describe('Calendar', () => {
     const calendarLeftArrow = getByLabelText(LABELS.calendarLeftArrow);
     fireEvent.press(calendarLeftArrow);
 
-    fireEvent.press(calendarPressTitleYear);
+    fireEvent.press(calendarPressTitleYear); //years
     fireEvent.press(calendarLeftArrow);
 
-    fireEvent.press(calendarPressTitleYear);
+    fireEvent.press(calendarPressTitleYear); //range years
     fireEvent.press(calendarLeftArrow);
     expect(toJSON()).toMatchSnapshot();
   });
@@ -109,7 +109,7 @@ describe('Calendar', () => {
     const calendarPressTitleMonth = getByLabelText(
       LABELS.calendarPressTitleMonth,
     );
-    fireEvent.press(calendarPressTitleMonth);
+    fireEvent.press(calendarPressTitleMonth); //months
 
     const calendarPressTitleYear = getByLabelText(
       LABELS.calendarPressTitleYear,
@@ -120,8 +120,8 @@ describe('Calendar', () => {
     const pressMonth = getAllByLabelText(LABELS.pressMonth)[5];
     pressMonth && fireEvent.press(pressMonth);
 
-    fireEvent.press(calendarPressTitleYear);
-    fireEvent.press(calendarPressTitleYear);
+    fireEvent.press(calendarPressTitleYear); // years
+    fireEvent.press(calendarPressTitleYear); // range years
 
     fireEvent.press(calendarRightArrow);
 
@@ -135,7 +135,7 @@ describe('Calendar', () => {
     const calendarPressTitleMonth = getByLabelText(
       LABELS.calendarPressTitleMonth,
     );
-    fireEvent.press(calendarPressTitleMonth);
+    fireEvent.press(calendarPressTitleMonth); //months
 
     const calendarPressTitleYear = getByLabelText(
       LABELS.calendarPressTitleYear,
@@ -144,11 +144,11 @@ describe('Calendar', () => {
     const calendarRightArrow = getByLabelText(LABELS.calendarRightArrow);
     fireEvent.press(calendarRightArrow);
 
-    fireEvent.press(calendarPressTitleYear);
+    fireEvent.press(calendarPressTitleYear); //years
 
     fireEvent.press(calendarRightArrow);
 
-    fireEvent.press(calendarPressTitleYear);
+    fireEvent.press(calendarPressTitleYear); //range years
 
     fireEvent.press(calendarRightArrow);
     expect(toJSON()).toMatchSnapshot();
@@ -160,8 +160,8 @@ describe('Calendar', () => {
     const calendarPressTitleYear = getByLabelText(
       LABELS.calendarPressTitleYear,
     );
-    fireEvent.press(calendarPressTitleYear);
-
+    fireEvent.press(calendarPressTitleYear); // years
+    fireEvent.press(calendarPressTitleYear); // range years
     expect(toJSON()).toMatchSnapshot();
   });
 });
