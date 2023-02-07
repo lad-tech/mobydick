@@ -17,7 +17,22 @@ describe('Calendar', () => {
     const {toJSON} = render(<Calendar />);
     expect(toJSON()).toMatchSnapshot();
   });
-
+  it('renders correctly isClear', () => {
+    const {toJSON} = render(
+      <Calendar
+        isClear={true}
+        initialRange={{fromDate: '2022-02-16'}}
+        isShowToday={false}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly isClear isShowToday', () => {
+    const {toJSON} = render(
+      <Calendar isClear={true} initialRange={{fromDate: '2022-02-16'}} />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
   it('press calendarLeftArrow', () => {
     const {toJSON, getByLabelText} = render(
       <Calendar onDateRangeChange={() => undefined} isShowToday={false} />,

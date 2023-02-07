@@ -68,7 +68,7 @@ describe('ModalCalendar', () => {
   });
   it('renders correctly initialRange', () => {
     const submit = jest.fn();
-    const {toJSON} = render(
+    const {toJSON, getByText} = render(
       <ModalCalendar
         id={'1'}
         onClose={() => undefined}
@@ -76,18 +76,26 @@ describe('ModalCalendar', () => {
         initialRange={{fromDate: '2022-02-16', toDate: '2022-02-17'}}
       />,
     );
+    const dateStart = getByText('16');
+    fireEvent.press(dateStart);
     expect(toJSON()).toMatchSnapshot();
   });
-  it('renders correctly initialRange only fromDate', () => {
+  it('renders correctly initialRange only fromDate isShowToday', () => {
     const submit = jest.fn();
-    const {toJSON} = render(
+    const {toJSON, getByText} = render(
       <ModalCalendar
         id={'1'}
         onClose={() => undefined}
         onDateRangeChange={submit}
         initialRange={{fromDate: '2022-02-16'}}
+        isShowToday={true}
+        isCounter={true}
+        buttonView={IButtonView.large}
       />,
     );
+
+    const applyButton = getByText('Сбросить');
+    fireEvent.press(applyButton);
     expect(toJSON()).toMatchSnapshot();
   });
 });

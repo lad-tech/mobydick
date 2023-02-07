@@ -100,6 +100,26 @@ const Calendar: FC<ICalendar> = props => {
     }),
     [currentTheme],
   );
+  const updateDateRange = (
+    fromDate: number | string | Date,
+    toDate: number | string | Date,
+  ) => {
+    const dateRange = getAllDatesBetween(
+      new Date(fromDate),
+      new Date(toDate),
+      colorsArg,
+      isShowToday,
+    );
+
+    setMarkedDates(dateRange);
+
+    onDateRangeChange &&
+      onDateRangeChange({
+        dateStart: new Date(fromDate).toISOString(),
+        dateEnd: new Date(toDate).toISOString(),
+        lengthDateRange: dateRange.lengthDateRange,
+      });
+  };
 
   const onDayPress = useCallback(
     (day: DateData) => {
@@ -112,21 +132,7 @@ const Calendar: FC<ICalendar> = props => {
       setCurrentYear(day.year);
       setCurrentMonthIndex(day.month - 1);
 
-      const dateRange = getAllDatesBetween(
-        new Date(fromDate),
-        new Date(toDate),
-        colorsArg,
-        isShowToday,
-      );
-
-      setMarkedDates(dateRange);
-
-      onDateRangeChange &&
-        onDateRangeChange({
-          dateStart: new Date(fromDate).toISOString(),
-          dateEnd: new Date(toDate).toISOString(),
-          lengthDateRange: dateRange.lengthDateRange || 0,
-        });
+      updateDateRange(fromDate, toDate);
     },
     [
       isPeriod,
@@ -148,23 +154,10 @@ const Calendar: FC<ICalendar> = props => {
 
   useLayoutEffect(() => {
     if (initialRange?.fromDate) {
-      const dateRange = getAllDatesBetween(
-        new Date(initialRange?.fromDate),
-        new Date(initialRange?.toDate || initialRange?.fromDate),
-        colorsArg,
-        isShowToday,
+      updateDateRange(
+        initialRange?.fromDate,
+        initialRange?.toDate || initialRange?.fromDate,
       );
-
-      setMarkedDates(dateRange);
-
-      onDateRangeChange &&
-        onDateRangeChange({
-          dateStart: new Date(initialRange?.fromDate).toISOString(),
-          dateEnd: new Date(
-            initialRange?.toDate || initialRange?.fromDate,
-          ).toISOString(),
-          lengthDateRange: dateRange.lengthDateRange || 0,
-        });
     } else if (isShowToday) {
       setMarkedDates(getMarkedToday(colorsArg));
     }
