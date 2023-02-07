@@ -165,15 +165,6 @@ const Calendar: FC<ICalendar> = props => {
           ).toISOString(),
           lengthDateRange: dateRange.lengthDateRange || 0,
         });
-
-      setMarkedDates(
-        getAllDatesBetween(
-          new Date(initialRange?.fromDate),
-          new Date(initialRange?.toDate || initialRange?.fromDate),
-          colorsArg,
-          isShowToday,
-        ),
-      );
     } else if (isShowToday) {
       setMarkedDates(getMarkedToday(colorsArg));
     }
