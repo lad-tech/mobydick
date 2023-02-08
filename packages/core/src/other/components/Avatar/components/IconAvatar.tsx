@@ -6,28 +6,30 @@ import useTheme from '../../../../styles/theme/hooks/useTheme';
 import rem from '../../../../styles/spaces/rem';
 
 interface IProps {
-  size?: ISizeAvatar;
+  size: ISizeAvatar;
 }
-const IconAvatar: FC<IProps> = ({size = ISizeAvatar.M}) => {
+
+const getSizeIcon = (size: ISizeAvatar) => {
+  switch (size) {
+    case ISizeAvatar.S:
+      return rem(12);
+    case ISizeAvatar.L:
+      return rem(30);
+    case ISizeAvatar.XL:
+      return rem(40);
+    case ISizeAvatar.M:
+    default:
+      return rem(20);
+  }
+};
+
+const IconAvatar: FC<IProps> = ({size}) => {
   const {colors} = useTheme();
 
-  const getSizeIcon = () => {
-    switch (size) {
-      case ISizeAvatar.S:
-        return rem(12);
-      case ISizeAvatar.L:
-        return rem(30);
-      case ISizeAvatar.XL:
-        return rem(40);
-      case ISizeAvatar.M:
-      default:
-        return rem(20);
-    }
-  };
   return (
     <SimpleIcon
       name={'icon-account'}
-      size={getSizeIcon()}
+      size={getSizeIcon(size)}
       color={colors.IconWhite}
     />
   );

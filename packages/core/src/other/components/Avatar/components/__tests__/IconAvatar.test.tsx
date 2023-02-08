@@ -6,7 +6,7 @@ import {ISizeAvatar} from '../../types';
 
 describe('IconAvatar', () => {
   test('render IconAvatar', () => {
-    const {toJSON} = render(<IconAvatar />);
+    const {toJSON} = render(<IconAvatar size={ISizeAvatar.S} />);
     expect(toJSON()).toMatchSnapshot();
   });
   test('render IconAvatar size S', () => {

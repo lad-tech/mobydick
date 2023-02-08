@@ -16,6 +16,7 @@ describe('TextAvatar', () => {
       <TextAvatar
         firstName={userWithPhoto.firstName}
         lastName={userWithPhoto.lastName}
+        size={ISizeAvatar.S}
       />,
     );
     expect(toJSON()).toMatchSnapshot();
