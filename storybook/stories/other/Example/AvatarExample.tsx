@@ -41,6 +41,7 @@ const AvatarExample = () => {
       <TouchableOpacity style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithoutPhoto}
+          type={ITypeAvatar.text}
           size={select('size user 2', ISizeAvatar, ISizeAvatar.M)}
         />
       </TouchableOpacity>
