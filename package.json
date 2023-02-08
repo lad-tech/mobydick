@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "prepare": "husky install",
-    "preinstall": "npx @lad-tech/check-deps-age@0.0.6 --cacheFile ../check-deps-age-cache.json",
+    "preinstall": "./scripts/env.sh && npx @lad-tech/check-deps-age@0.0.6 --cacheFile ../check-deps-age-cache.json",
     "postinstall": "npx patch-package",
     "postversion": "./scripts/semantic-release.ts",
     "android": "react-native run-android",
