@@ -154,14 +154,18 @@ const Calendar: FC<ICalendar> = props => {
   };
 
   useLayoutEffect(() => {
-    if (initialRange?.fromDate && isValidDate(initialRange?.fromDate)) {
-      const toDate =
-        initialRange?.toDate && isValidDate(initialRange?.toDate)
-          ? initialRange?.toDate
-          : initialRange?.fromDate;
+    if (initialRange?.fromDate) {
+      const startDate = initialRange.fromDate;
+      const endDate = initialRange?.toDate || startDate;
 
-      updateDateRange(initialRange?.fromDate, toDate);
-    } else if (isShowToday) {
+      if (isValidDate(startDate) && isValidDate(endDate)) {
+        updateDateRange(startDate, endDate);
+
+        return;
+      }
+    }
+
+    if (isShowToday) {
       setMarkedDates(getMarkedToday(colorsArg));
     }
   }, []);
