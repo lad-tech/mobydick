@@ -4,7 +4,11 @@ import {IThemeContext, rem} from '../../../styles';
 
 import {ISizeAvatar} from './types';
 
-const stylesCreate = (theme: IThemeContext, size: ISizeAvatar) => {
+const stylesCreate = (
+  theme: IThemeContext,
+  size: ISizeAvatar,
+  backgroundColor?: string,
+) => {
   const {spaces, colors} = theme;
 
   const getSizeStyles = (sizeAvatar: ISizeAvatar): ImageStyle => {
@@ -38,7 +42,7 @@ const stylesCreate = (theme: IThemeContext, size: ISizeAvatar) => {
 
   return StyleSheet.create({
     container: {
-      backgroundColor: colors.ElementBase,
+      backgroundColor: backgroundColor || colors.ElementBase,
       alignSelf: 'center',
       justifyContent: 'center',
       alignItems: 'center',
