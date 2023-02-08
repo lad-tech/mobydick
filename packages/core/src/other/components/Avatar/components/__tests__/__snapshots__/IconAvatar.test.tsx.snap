@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconAvatar render IconAvatar 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    {
+      "color": "#FFF",
+      "fontFamily": "Neotis",
+      "fontSize": 30,
+    }
+  }
+>
+  
+</Text>
+`;
+
+exports[`IconAvatar render IconAvatar size L background 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    {
+      "color": "#FFF",
+      "fontFamily": "Neotis",
+      "fontSize": 45,
+    }
+  }
+>
+  
+</Text>
+`;
+
+exports[`IconAvatar render IconAvatar size M background 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    {
+      "color": "#FFF",
+      "fontFamily": "Neotis",
+      "fontSize": 30,
+    }
+  }
+>
+  
+</Text>
+`;
+
+exports[`IconAvatar render IconAvatar size S 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    {
+      "color": "#FFF",
+      "fontFamily": "Neotis",
+      "fontSize": 18,
+    }
+  }
+>
+  
+</Text>
+`;
+
+exports[`IconAvatar render IconAvatar size XL background 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    {
+      "color": "#FFF",
+      "fontFamily": "Neotis",
+      "fontSize": 60,
+    }
+  }
+>
+  
+</Text>
+`;

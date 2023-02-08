@@ -1,0 +1,38 @@
+import React, {FC} from 'react';
+
+import {Typography} from '../../../../typography';
+import {ISizeAvatar} from '../types';
+
+interface IProps {
+  size?: ISizeAvatar;
+  firstName: string;
+  lastName?: string | undefined;
+}
+
+const TextAvatar: FC<IProps> = ({
+  firstName,
+  lastName,
+  size = ISizeAvatar.M,
+}) => {
+  const firstLetter = firstName[0];
+  const secondLetter = lastName && lastName[0];
+  const initials = secondLetter ? firstLetter + secondLetter : firstLetter;
+
+  const getFont = () => {
+    switch (size) {
+      case ISizeAvatar.S:
+        return 'Regular-White-XXXS';
+      case ISizeAvatar.L:
+        return 'Regular-White-L';
+      case ISizeAvatar.XL:
+        return 'Regular-White-H5';
+      case ISizeAvatar.M:
+      default:
+        return 'Regular-White-XS';
+    }
+  };
+
+  return <Typography font={getFont()}>{initials}</Typography>;
+};
+
+export default TextAvatar;

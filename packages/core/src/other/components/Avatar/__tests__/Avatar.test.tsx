@@ -2,16 +2,18 @@ import React from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
 
 import Avatar from '../Avatar';
-import {ISizeAvatar} from '../types';
+import {ISizeAvatar, ITypeAvatar} from '../types';
 
 const userWithPhoto = {
   logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
-  name: 'Иван Пушкин',
+  firstName: 'Иван',
+  lastName: 'Пушкин',
 };
 
 const userWithoutPhoto = {
   logo: 'https://vraki.net/',
-  name: 'Иван Пушкин',
+  firstName: 'Иван',
+  lastName: 'Пушкин',
 };
 
 describe('Avatar', () => {
@@ -22,7 +24,11 @@ describe('Avatar', () => {
 
   test('render avatar with photo S', () => {
     const {toJSON} = render(
-      <Avatar user={userWithPhoto} size={ISizeAvatar.S} />,
+      <Avatar
+        user={userWithPhoto}
+        size={ISizeAvatar.S}
+        type={ITypeAvatar.icon}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
@@ -42,13 +48,29 @@ describe('Avatar', () => {
   });
 
   test('render avatar not photo', () => {
-    const {toJSON, getByLabelText} = render(<Avatar user={userWithoutPhoto} />);
+    const {toJSON, getByLabelText} = render(
+      <Avatar user={userWithoutPhoto} type={ITypeAvatar.icon} />,
+    );
 
     fireEvent(getByLabelText('imageAvatar'), 'onError', {nativeEvent: {}});
 
     expect(toJSON()).toMatchSnapshot();
   });
+  test('render avatar ITypeAvatar.icon', () => {
+    const {toJSON} = render(
+      <Avatar user={userWithoutPhoto} type={ITypeAvatar.icon} />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  test('render avatar ITypeAvatar.text', () => {
+    const {toJSON, getByLabelText} = render(
+      <Avatar user={userWithoutPhoto} type={ITypeAvatar.text} />,
+    );
 
+    fireEvent(getByLabelText('imageAvatar'), 'onError', {nativeEvent: {}});
+
+    expect(toJSON()).toMatchSnapshot();
+  });
   test('render without avatar', () => {
     const userEmpty = null;
     const {toJSON} = render(<Avatar user={userEmpty} />);

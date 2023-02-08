@@ -1,17 +1,22 @@
-import {Image, ImageErrorEventData} from 'react-native';
 import React, {FC, useCallback, useState} from 'react';
+import {Image, ImageErrorEventData} from 'react-native';
 
-import {Typography} from '../../../typography';
 import View from '../../../basic/components/View/View';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 
-import {AvatarProps, ISizeAvatar} from './types';
+import {AvatarProps, ISizeAvatar, ITypeAvatar} from './types';
 import stylesCreate from './stylesCreate';
+import AvatarWithoutImage from './components/AvatarWithoutImage';
 
 const Avatar: FC<AvatarProps> = props => {
-  const {user, size = ISizeAvatar.M} = props;
+  const {
+    user,
+    backgroundColor,
+    size = ISizeAvatar.M,
+    type = ITypeAvatar.icon,
+  } = props;
+  const [styles] = useStyles(stylesCreate, size, backgroundColor);
 
-  const [styles] = useStyles(stylesCreate, size);
   const [error, setError] = useState<ImageErrorEventData>();
 
   const onError = useCallback(e => {
@@ -25,7 +30,12 @@ const Avatar: FC<AvatarProps> = props => {
   return (
     <View style={styles.container}>
       {error ? (
-        <Typography font={'Regular-White-H5'}>{user?.name[0]}</Typography>
+        <AvatarWithoutImage
+          size={size}
+          firstName={user.firstName}
+          lastName={user.lastName}
+          type={type}
+        />
       ) : (
         <Image
           source={{uri: user?.logo}}
