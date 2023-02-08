@@ -17,13 +17,13 @@
     "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook",
     "bundle": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
-    "bundleWithAssets": "react-native bundle --platform android --dev true --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/",
+    "bundleWithAssets": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/",
     "android:clean": "cd android && ./gradlew clean",
     "android:build:debug": "cd android && ./gradlew :app:assembleDebug",
     "android:build:release": "cd android && ./gradlew :app:assembleRelease",
     "android:get:aab": "cd android && ./gradlew :app:bundleRelease",
     "android:get:debug": "yarn bundleWithAssets && yarn android:build:debug",
-    "android:get:release": "NODE_ENV=development yarn bundle && yarn android:build:release",
+    "android:get:release": "yarn bundle && yarn android:build:release",
     "release": "semantic-release"
   },
   "workspaces": [
