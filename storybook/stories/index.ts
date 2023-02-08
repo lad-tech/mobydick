@@ -7,5 +7,5 @@ import './controls';
 import './icons';
 import './navbars';
 import './other';
-import './check';
+import './env';
 import './calendar';
