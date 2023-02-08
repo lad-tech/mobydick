@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAvatar render TextAvatar 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#FFF",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 21,
+        "lineHeight": 27,
+      },
+      undefined,
+    ]
+  }
+>
+  ИП
+</Text>
+`;
+
+exports[`TextAvatar render TextAvatar size L 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#FFF",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 27,
+        "lineHeight": 33,
+      },
+      undefined,
+    ]
+  }
+>
+  И
+</Text>
+`;
+
+exports[`TextAvatar render TextAvatar size M 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#FFF",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 21,
+        "lineHeight": 27,
+      },
+      undefined,
+    ]
+  }
+>
+  И
+</Text>
+`;
+
+exports[`TextAvatar render TextAvatar size S 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#FFF",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 15,
+        "lineHeight": 21,
+      },
+      undefined,
+    ]
+  }
+>
+  И
+</Text>
+`;
+
+exports[`TextAvatar render TextAvatar size XL 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#FFF",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 33,
+        "lineHeight": 36,
+      },
+      undefined,
+    ]
+  }
+>
+  И
+</Text>
+`;
