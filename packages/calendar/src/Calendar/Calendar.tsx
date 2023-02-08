@@ -155,12 +155,12 @@ const Calendar: FC<ICalendar> = props => {
 
   useLayoutEffect(() => {
     if (initialRange?.fromDate && isValidDate(initialRange?.fromDate)) {
-      Date.parse(initialRange?.fromDate);
+      const toDate =
+        initialRange?.toDate && isValidDate(initialRange?.toDate)
+          ? initialRange?.toDate
+          : initialRange?.fromDate;
 
-      updateDateRange(
-        initialRange?.fromDate,
-        initialRange?.toDate || initialRange?.fromDate,
-      );
+      updateDateRange(initialRange?.fromDate, toDate);
     } else if (isShowToday) {
       setMarkedDates(getMarkedToday(colorsArg));
     }
