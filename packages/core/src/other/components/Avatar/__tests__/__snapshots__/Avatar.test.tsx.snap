@@ -1,6 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Avatar render avatar not photo 1`] = `
+exports[`Avatar render avatar ITypeAvatar.icon 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 30,
+      "height": 60,
+      "justifyContent": "center",
+      "width": 60,
+    }
+  }
+>
+  <Image
+    accessibilityLabel="imageAvatar"
+    onError={[Function]}
+    source={
+      {
+        "uri": "https://vraki.net/",
+      }
+    }
+    style={
+      {
+        "borderRadius": 30,
+        "height": 60,
+        "width": 60,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar render avatar ITypeAvatar.text 1`] = `
 <View
   style={
     {
@@ -21,14 +54,43 @@ exports[`Avatar render avatar not photo 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 33,
-          "lineHeight": 36,
+          "fontSize": 21,
+          "lineHeight": 27,
         },
         undefined,
       ]
     }
   >
-    И
+    ИП
+  </Text>
+</View>
+`;
+
+exports[`Avatar render avatar not photo 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#2B78EE",
+      "borderRadius": 30,
+      "height": 60,
+      "justifyContent": "center",
+      "width": 60,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      {
+        "color": "#FFF",
+        "fontFamily": "Neotis",
+        "fontSize": 30,
+      }
+    }
+  >
+    
   </Text>
 </View>
 `;
