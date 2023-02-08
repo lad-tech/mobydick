@@ -193,3 +193,7 @@ export const calculateYearRange = (
 
   return yearRange;
 };
+
+export const isValidDate = (date: string) => {
+  return Boolean(Date.parse(date));
+};

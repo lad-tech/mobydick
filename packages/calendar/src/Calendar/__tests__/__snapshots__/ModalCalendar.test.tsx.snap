@@ -12096,6 +12096,36 @@ exports[`ModalCalendar renders correctly 1`] = `
         </View>
       </View>
     </View>
+    <View
+      style={
+        {
+          "marginBottom": 12,
+          "marginTop": 18,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          [
+            {
+              "color": "#20242D",
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
+            },
+            [
+              {
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        Выбрано 0 д
+      </Text>
+    </View>
   </View>
 </View>
 `;
@@ -16485,6 +16515,36 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
         </View>
       </View>
     </View>
+    <View
+      style={
+        {
+          "marginBottom": 12,
+          "marginTop": 18,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          [
+            {
+              "color": "#20242D",
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
+            },
+            [
+              {
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        Выбрано 1 д
+      </Text>
+    </View>
   </View>
 </View>
 `;
@@ -20208,6 +20268,36 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
           </View>
         </View>
       </View>
+    </View>
+    <View
+      style={
+        {
+          "marginBottom": 12,
+          "marginTop": 18,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          [
+            {
+              "color": "#20242D",
+              "fontFamily": "Inter-Medium",
+              "fontSize": 24,
+              "lineHeight": 30,
+            },
+            [
+              {
+                "textAlign": "center",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        Выбрано 0 д
+      </Text>
     </View>
     <View
       style={

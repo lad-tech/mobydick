@@ -3,6 +3,7 @@ import {
   calculateYearRange,
   getAllDatesBetween,
   getDateForCalendar,
+  isValidDate,
 } from '../functions';
 import {IDirection} from '../types';
 
@@ -372,5 +373,11 @@ describe('Calendar-functions', () => {
   });
   it('getDateForCalendar', () => {
     expect(getDateForCalendar(new Date('2022-01-09'))).toEqual('2022-01-09');
+  });
+  it('isValidDate true', () => {
+    expect(isValidDate('2022-01-09')).toBe(true);
+  });
+  it('isValidDate false', () => {
+    expect(isValidDate('string')).toBe(false);
   });
 });
