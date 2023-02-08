@@ -1,11 +1,11 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {BIBA} from '@env';
 
+import envJson from '../../../env.json';
 import CenterView from '../CenterView';
 
 import {Typography} from '@npm/mobydick-core';
 
 storiesOf('ENV', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
-  .add('basic', () => <Typography>{JSON.stringify(BIBA)}</Typography>);
+  .add('basic', () => <Typography>{JSON.stringify(envJson)}</Typography>);
