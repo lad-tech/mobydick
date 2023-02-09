@@ -10,6 +10,9 @@ import {
   View,
 } from '@npm/mobydick-core';
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const ImageAvatar = require('./images/ImageAvatar.png');
+
 const AvatarExample = () => {
   const {colors, spaces} = useTheme();
 
@@ -18,13 +21,16 @@ const AvatarExample = () => {
     firstName: 'Иван',
     lastName: 'Пушкин',
   };
+  const userWithPhotoLocal = {
+    logo: ImageAvatar,
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  };
   const userWithoutPhoto = {
-    logo: 'https://vraki.net/sites/default/files/inline/imagecs/30_55.jpg',
     firstName: 'Иван',
     lastName: 'Пушкин',
   };
   const userIcon = {
-    logo: 'https://vraki.net/sites/default/files/inline/imagecs/30_55.jpg',
     firstName: 'Иван',
     lastName: 'Пушкин',
   };
@@ -34,22 +40,30 @@ const AvatarExample = () => {
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithPhoto}
-          size={select('size user 1', ISizeAvatar, ISizeAvatar.M)}
+          size={select('size user photo', ISizeAvatar, ISizeAvatar.M)}
           type={ITypeAvatar.icon}
+        />
+      </View>
+      <View style={{paddingVertical: spaces.Space8}}>
+        <Avatar
+          user={userWithPhotoLocal}
+          size={select('size user logo', ISizeAvatar, ISizeAvatar.M)}
+          type={ITypeAvatar.icon}
+          backgroundColor={colors.ElementAdditional}
         />
       </View>
       <TouchableOpacity style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithoutPhoto}
           type={ITypeAvatar.text}
-          size={select('size user 2', ISizeAvatar, ISizeAvatar.M)}
+          size={select('size user text', ISizeAvatar, ISizeAvatar.M)}
         />
       </TouchableOpacity>
 
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userIcon}
-          size={select('size user 3', ISizeAvatar, ISizeAvatar.M)}
+          size={select('size user icon', ISizeAvatar, ISizeAvatar.M)}
           type={ITypeAvatar.icon}
           backgroundColor={colors.ElementAdditional}
         />

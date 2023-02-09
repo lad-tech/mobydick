@@ -10,8 +10,13 @@ const userWithPhoto = {
   lastName: 'Пушкин',
 };
 
-const userWithoutPhoto = {
+const userWithPhotoError = {
   logo: 'https://vraki.net/',
+  firstName: 'Иван',
+  lastName: 'Пушкин',
+};
+
+const userWithoutPhoto = {
   firstName: 'Иван',
   lastName: 'Пушкин',
 };
@@ -48,11 +53,9 @@ describe('Avatar', () => {
   });
 
   test('render avatar not photo', () => {
-    const {toJSON, getByLabelText} = render(
-      <Avatar user={userWithoutPhoto} type={ITypeAvatar.icon} />,
+    const {toJSON} = render(
+      <Avatar user={userWithPhotoError} type={ITypeAvatar.icon} />,
     );
-
-    fireEvent(getByLabelText('imageAvatar'), 'onError', {nativeEvent: {}});
 
     expect(toJSON()).toMatchSnapshot();
   });
@@ -64,7 +67,7 @@ describe('Avatar', () => {
   });
   test('render avatar ITypeAvatar.text', () => {
     const {toJSON, getByLabelText} = render(
-      <Avatar user={userWithoutPhoto} type={ITypeAvatar.text} />,
+      <Avatar user={userWithPhotoError} type={ITypeAvatar.text} />,
     );
 
     fireEvent(getByLabelText('imageAvatar'), 'onError', {nativeEvent: {}});
