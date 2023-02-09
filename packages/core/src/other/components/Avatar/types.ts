@@ -1,7 +1,7 @@
 export interface IUser {
-  logo?: string; // https://vraki.net/sites/default/files/inline/images/30_55.jpg
-  firstName: string; // "Иван"
-  lastName?: string; // "Пушкин"
+  logo?: string;
+  firstName: string;
+  lastName?: string;
 }
 
 export enum ISizeAvatar {
