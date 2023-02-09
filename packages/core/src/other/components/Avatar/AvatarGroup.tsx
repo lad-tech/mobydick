@@ -21,7 +21,7 @@ const AvatarGroup: FC<IProps> = props => {
   const count = groups.length - 3;
 
   return (
-    <View style={{flexDirection: 'row'}}>
+    <View style={styles.container}>
       {groups[0] && (
         <Avatar user={groups[0]} style={styles.avatarOne} {...otherProps} />
       )}
@@ -49,6 +49,9 @@ export default AvatarGroup;
 
 const stylesCreate = ({colors, spaces}: IThemeContext) => {
   return StyleSheet.create({
+    container: {
+      flexDirection: 'row',
+    },
     countView: {
       width: spaces.Space40,
       height: spaces.Space40,
