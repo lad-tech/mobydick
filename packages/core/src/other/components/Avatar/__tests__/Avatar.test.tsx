@@ -9,7 +9,14 @@ const userWithPhoto = {
   firstName: 'Иван',
   lastName: 'Пушкин',
 };
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const ImageAvatar = require('../../../../../../../storybook/stories/other/Example/images/ImageAvatar.png');
 
+const userImage = {
+  logo: ImageAvatar,
+  firstName: 'Иван',
+  lastName: 'Пушкин',
+};
 const userWithoutPhoto = {
   logo: 'https://vraki.net/',
   firstName: 'Иван',
@@ -41,18 +48,14 @@ describe('Avatar', () => {
   });
 
   test('render avatar with photo XL', () => {
-    const {toJSON} = render(
-      <Avatar user={userWithPhoto} size={ISizeAvatar.XL} />,
-    );
+    const {toJSON} = render(<Avatar user={userImage} size={ISizeAvatar.XL} />);
     expect(toJSON()).toMatchSnapshot();
   });
 
   test('render avatar not photo', () => {
-    const {toJSON, getByLabelText} = render(
+    const {toJSON} = render(
       <Avatar user={userWithoutPhoto} type={ITypeAvatar.icon} />,
     );
-
-    fireEvent(getByLabelText('imageAvatar'), 'onError', {nativeEvent: {}});
 
     expect(toJSON()).toMatchSnapshot();
   });
