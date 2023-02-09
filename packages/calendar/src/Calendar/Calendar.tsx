@@ -19,6 +19,7 @@ import {
   calculateYearRange,
   getAllDatesBetween,
   getMarkedToday,
+  isValidDate,
 } from './functions';
 import stylesCreate from './stylesCreate';
 import {
@@ -154,11 +155,17 @@ const Calendar: FC<ICalendar> = props => {
 
   useLayoutEffect(() => {
     if (initialRange?.fromDate) {
-      updateDateRange(
-        initialRange?.fromDate,
-        initialRange?.toDate || initialRange?.fromDate,
-      );
-    } else if (isShowToday) {
+      const startDate = initialRange.fromDate;
+      const endDate = initialRange?.toDate || startDate;
+
+      if (isValidDate(startDate) && isValidDate(endDate)) {
+        updateDateRange(startDate, endDate);
+
+        return;
+      }
+    }
+
+    if (isShowToday) {
       setMarkedDates(getMarkedToday(colorsArg));
     }
   }, []);

@@ -66,7 +66,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
 
   const defaultBottomView = bottomView || (
     <>
-      {Boolean(descriptionText) && (
+      {
         <ModalBase.TextContent
           title={
             isCounter
@@ -77,7 +77,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
           descriptionText={descriptionText}
           descriptionFont={descriptionFont}
         />
-      )}
+      }
 
       {buttonView === IButtonView.small && (
         <ModalBase.VerticalButtonsView>
