@@ -14,22 +14,18 @@ exports[`Avatar render avatar ITypeAvatar.icon 1`] = `
     }
   }
 >
-  <Image
-    accessibilityLabel="imageAvatar"
-    onError={[Function]}
-    source={
-      {
-        "uri": "https://vraki.net/",
-      }
-    }
+  <Text
+    allowFontScaling={true}
     style={
       {
-        "borderRadius": 30,
-        "height": 60,
-        "width": 60,
+        "color": "#FFF",
+        "fontFamily": "Neotis",
+        "fontSize": 30,
       }
     }
-  />
+  >
+    
+  </Text>
 </View>
 `;
 
@@ -184,9 +180,7 @@ exports[`Avatar render avatar with photo XL 1`] = `
     onError={[Function]}
     source={
       {
-        "uri": {
-          "testUri": "../../../storybook/stories/other/Example/images/ImageAvatar.png",
-        },
+        "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
       }
     }
     style={
