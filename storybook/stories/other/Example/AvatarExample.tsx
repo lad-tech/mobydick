@@ -3,6 +3,7 @@ import React from 'react';
 
 import {
   Avatar,
+  AvatarGroup,
   ISizeAvatar,
   ITypeAvatar,
   TouchableOpacity,
@@ -11,32 +12,67 @@ import {
 } from '@npm/mobydick-core';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const ImageAvatar = require('./images/ImageAvatar.png');
+const ImageAvatar = require('./image/ImageAvatar.png');
 
-const AvatarExample = () => {
-  const {colors, spaces} = useTheme();
+const userWithPhoto = {
+  logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
+  firstName: 'Иван',
+  lastName: 'Пушкин',
+};
+const userWithPhotoLocal = {
+  logo: ImageAvatar,
+  firstName: 'Иван',
+  lastName: 'Пушкин',
+};
+const userWithoutPhoto = {
+  firstName: 'Иван',
+  lastName: 'Пушкин',
+};
+const userIcon = {
+  firstName: 'Иван',
+  lastName: 'Пушкин',
+};
 
-  const userWithPhoto = {
-    logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  };
-  const userWithPhotoLocal = {
+const groupDate = [
+  {
     logo: ImageAvatar,
     firstName: 'Иван',
     lastName: 'Пушкин',
-  };
-  const userWithoutPhoto = {
+  },
+  {
     firstName: 'Иван',
     lastName: 'Пушкин',
-  };
-  const userIcon = {
+  },
+  {
+    logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
     firstName: 'Иван',
     lastName: 'Пушкин',
-  };
+  },
+  {
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
+  {
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
+  {
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
+  {
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
+];
+const AvatarExample = () => {
+  const {colors, spaces} = useTheme();
 
   return (
     <>
+      <View style={{paddingVertical: spaces.Space8}}>
+        <AvatarGroup groups={groupDate} />
+      </View>
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithPhoto}

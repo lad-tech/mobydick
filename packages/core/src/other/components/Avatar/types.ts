@@ -1,7 +1,9 @@
+import {ViewStyle} from 'react-native';
+
 export interface IUser {
-  logo?: string;
   firstName: string;
   lastName?: string;
+  logo?: string;
 }
 
 export enum ISizeAvatar {
@@ -20,6 +22,7 @@ interface IAvatarProps {
   type?: ITypeAvatar;
   size?: ISizeAvatar;
   backgroundColor?: string;
+  style?: ViewStyle[] | ViewStyle;
 }
 
 export type AvatarProps = IAvatarProps;
