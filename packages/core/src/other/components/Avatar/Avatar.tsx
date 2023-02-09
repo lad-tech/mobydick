@@ -7,6 +7,7 @@ import useStyles from '../../../styles/theme/hooks/useStyles';
 import {AvatarProps, ISizeAvatar, ITypeAvatar} from './types';
 import stylesCreate from './stylesCreate';
 import AvatarWithoutImage from './components/AvatarWithoutImage';
+import {isNumber} from './functions/isNumber';
 
 const Avatar: FC<AvatarProps> = props => {
   const {
@@ -29,7 +30,7 @@ const Avatar: FC<AvatarProps> = props => {
 
   return (
     <View style={styles.container}>
-      {error ? (
+      {error || !user.logo ? (
         <AvatarWithoutImage
           size={size}
           firstName={user.firstName}
@@ -38,7 +39,7 @@ const Avatar: FC<AvatarProps> = props => {
         />
       ) : (
         <Image
-          source={{uri: user?.logo}}
+          source={isNumber(user?.logo) ? user.logo : {uri: user?.logo}}
           style={styles.image}
           onError={onError}
           accessibilityLabel={'imageAvatar'}
