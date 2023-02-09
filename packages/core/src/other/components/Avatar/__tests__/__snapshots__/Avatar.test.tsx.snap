@@ -3,15 +3,20 @@
 exports[`Avatar render avatar ITypeAvatar.icon 1`] = `
 <View
   style={
-    {
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#2B78EE",
-      "borderRadius": 30,
-      "height": 60,
-      "justifyContent": "center",
-      "width": 60,
-    }
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderColor": "#FFF",
+        "borderRadius": 30,
+        "borderWidth": 1.5,
+        "height": 60,
+        "justifyContent": "center",
+        "width": 60,
+      },
+      undefined,
+    ]
   }
 >
   <Text
@@ -32,15 +37,20 @@ exports[`Avatar render avatar ITypeAvatar.icon 1`] = `
 exports[`Avatar render avatar ITypeAvatar.text 1`] = `
 <View
   style={
-    {
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#2B78EE",
-      "borderRadius": 30,
-      "height": 60,
-      "justifyContent": "center",
-      "width": 60,
-    }
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderColor": "#FFF",
+        "borderRadius": 30,
+        "borderWidth": 1.5,
+        "height": 60,
+        "justifyContent": "center",
+        "width": 60,
+      },
+      undefined,
+    ]
   }
 >
   <Text
@@ -65,15 +75,20 @@ exports[`Avatar render avatar ITypeAvatar.text 1`] = `
 exports[`Avatar render avatar not photo 1`] = `
 <View
   style={
-    {
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#2B78EE",
-      "borderRadius": 30,
-      "height": 60,
-      "justifyContent": "center",
-      "width": 60,
-    }
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderColor": "#FFF",
+        "borderRadius": 30,
+        "borderWidth": 1.5,
+        "height": 60,
+        "justifyContent": "center",
+        "width": 60,
+      },
+      undefined,
+    ]
   }
 >
   <Image
@@ -86,7 +101,9 @@ exports[`Avatar render avatar not photo 1`] = `
     }
     style={
       {
+        "borderColor": "#FFF",
         "borderRadius": 30,
+        "borderWidth": 1.5,
         "height": 60,
         "width": 60,
       }
@@ -98,15 +115,20 @@ exports[`Avatar render avatar not photo 1`] = `
 exports[`Avatar render avatar with photo L 1`] = `
 <View
   style={
-    {
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#2B78EE",
-      "borderRadius": 45,
-      "height": 90,
-      "justifyContent": "center",
-      "width": 90,
-    }
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderColor": "#FFF",
+        "borderRadius": 45,
+        "borderWidth": 1.5,
+        "height": 90,
+        "justifyContent": "center",
+        "width": 90,
+      },
+      undefined,
+    ]
   }
 >
   <Image
@@ -119,7 +141,9 @@ exports[`Avatar render avatar with photo L 1`] = `
     }
     style={
       {
+        "borderColor": "#FFF",
         "borderRadius": 45,
+        "borderWidth": 1.5,
         "height": 90,
         "width": 90,
       }
@@ -131,15 +155,20 @@ exports[`Avatar render avatar with photo L 1`] = `
 exports[`Avatar render avatar with photo S 1`] = `
 <View
   style={
-    {
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
-      "height": 36,
-      "justifyContent": "center",
-      "width": 36,
-    }
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderColor": "#FFF",
+        "borderRadius": 18,
+        "borderWidth": 1.5,
+        "height": 36,
+        "justifyContent": "center",
+        "width": 36,
+      },
+      undefined,
+    ]
   }
 >
   <Image
@@ -152,7 +181,9 @@ exports[`Avatar render avatar with photo S 1`] = `
     }
     style={
       {
+        "borderColor": "#FFF",
         "borderRadius": 18,
+        "borderWidth": 1.5,
         "height": 36,
         "width": 36,
       }
@@ -164,15 +195,20 @@ exports[`Avatar render avatar with photo S 1`] = `
 exports[`Avatar render avatar with photo XL 1`] = `
 <View
   style={
-    {
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#2B78EE",
-      "borderRadius": 60,
-      "height": 120,
-      "justifyContent": "center",
-      "width": 120,
-    }
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderColor": "#FFF",
+        "borderRadius": 60,
+        "borderWidth": 1.5,
+        "height": 120,
+        "justifyContent": "center",
+        "width": 120,
+      },
+      undefined,
+    ]
   }
 >
   <Image
@@ -185,7 +221,9 @@ exports[`Avatar render avatar with photo XL 1`] = `
     }
     style={
       {
+        "borderColor": "#FFF",
         "borderRadius": 60,
+        "borderWidth": 1.5,
         "height": 120,
         "width": 120,
       }
@@ -197,15 +235,20 @@ exports[`Avatar render avatar with photo XL 1`] = `
 exports[`Avatar render avatar with photo without size 1`] = `
 <View
   style={
-    {
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#2B78EE",
-      "borderRadius": 30,
-      "height": 60,
-      "justifyContent": "center",
-      "width": 60,
-    }
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderColor": "#FFF",
+        "borderRadius": 30,
+        "borderWidth": 1.5,
+        "height": 60,
+        "justifyContent": "center",
+        "width": 60,
+      },
+      undefined,
+    ]
   }
 >
   <Image
@@ -218,7 +261,9 @@ exports[`Avatar render avatar with photo without size 1`] = `
     }
     style={
       {
+        "borderColor": "#FFF",
         "borderRadius": 30,
+        "borderWidth": 1.5,
         "height": 60,
         "width": 60,
       }

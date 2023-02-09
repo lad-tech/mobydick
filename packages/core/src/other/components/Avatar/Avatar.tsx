@@ -15,6 +15,7 @@ const Avatar: FC<AvatarProps> = props => {
     backgroundColor,
     size = ISizeAvatar.M,
     type = ITypeAvatar.icon,
+    style,
   } = props;
   const [styles] = useStyles(stylesCreate, size, backgroundColor);
 
@@ -29,7 +30,7 @@ const Avatar: FC<AvatarProps> = props => {
   }
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, style]}>
       {error || !user.logo ? (
         <AvatarWithoutImage
           size={size}
