@@ -40,7 +40,7 @@ const AvatarExample = () => {
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithPhoto}
-          size={select('size user 1', ISizeAvatar, ISizeAvatar.M)}
+          size={select('size user photo', ISizeAvatar, ISizeAvatar.M)}
           type={ITypeAvatar.icon}
         />
       </View>
@@ -56,14 +56,14 @@ const AvatarExample = () => {
         <Avatar
           user={userWithoutPhoto}
           type={ITypeAvatar.text}
-          size={select('size user 2', ISizeAvatar, ISizeAvatar.M)}
+          size={select('size user text', ISizeAvatar, ISizeAvatar.M)}
         />
       </TouchableOpacity>
 
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userIcon}
-          size={select('size user 3', ISizeAvatar, ISizeAvatar.M)}
+          size={select('size user icon', ISizeAvatar, ISizeAvatar.M)}
           type={ITypeAvatar.icon}
           backgroundColor={colors.ElementAdditional}
         />
