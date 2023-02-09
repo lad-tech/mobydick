@@ -21,8 +21,17 @@ describe('Calendar', () => {
     const {toJSON} = render(
       <Calendar
         isClear={true}
-        initialRange={{fromDate: '2022-02-16'}}
+        initialRange={{fromDate: '2022-02-16', toDate: '2022-02-19'}}
         isShowToday={false}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly not isValidDate', () => {
+    const {toJSON} = render(
+      <Calendar
+        isClear={true}
+        initialRange={{fromDate: 'jijk', toDate: 'lklk'}}
       />,
     );
     expect(toJSON()).toMatchSnapshot();
