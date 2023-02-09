@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarGroup render AvatarGroup 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2B78EE",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 1.5,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 54,
+          "zIndex": 4,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2B78EE",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 1.5,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 36,
+          "zIndex": 3,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2B78EE",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 1.5,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 18,
+          "zIndex": 2,
+        },
+      ]
+    }
+  >
+    <Image
+      accessibilityLabel="imageAvatar"
+      onError={[Function]}
+      source={
+        {
+          "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+        }
+      }
+      style={
+        {
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 1.5,
+          "height": 60,
+          "width": 60,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2B78EE",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 1.5,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`AvatarGroup render AvatarGroup with props 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#ff0000",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 1.5,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 54,
+          "zIndex": 4,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
+      }
+    >
+      ИП
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#ff0000",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 1.5,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 36,
+          "zIndex": 3,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
+      }
+    >
+      ИП
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#ff0000",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 1.5,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 18,
+          "zIndex": 2,
+        },
+      ]
+    }
+  >
+    <Image
+      accessibilityLabel="imageAvatar"
+      onError={[Function]}
+      source={
+        {
+          "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+        }
+      }
+      style={
+        {
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 1.5,
+          "height": 60,
+          "width": 60,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "#EEEFF1",
+        "borderRadius": 30,
+        "height": 60,
+        "justifyContent": "center",
+        "width": 60,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#444B5A",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          {
+            "alignSelf": "center",
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      +4
+    </Text>
+  </View>
+</View>
+`;

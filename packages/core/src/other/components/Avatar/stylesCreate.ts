@@ -46,9 +46,13 @@ const stylesCreate = (
       alignSelf: 'center',
       justifyContent: 'center',
       alignItems: 'center',
+      borderWidth: spaces.Space1,
+      borderColor: colors.BgPrimary,
       ...getSizeStyles(size),
     },
     image: {
+      borderWidth: spaces.Space1,
+      borderColor: colors.BgPrimary,
       ...getSizeStyles(size),
     },
   });
