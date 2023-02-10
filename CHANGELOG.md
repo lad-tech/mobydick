@@ -1,3 +1,17 @@
+# [4.10.0](https://glab.lad24.ru/npm/mobydick/compare/v4.9.2...v4.10.0) (2023-02-10)
+
+
+### Bug Fixes
+
+* **calendar:** add isValidDate and remove check text ([19c537a](https://glab.lad24.ru/npm/mobydick/commit/19c537adeea9b355d521f7e647d08aa5f8821cd7))
+* **calendar:** update yearRange ([a863219](https://glab.lad24.ru/npm/mobydick/commit/a8632196689b5c63bd4084605fd66db164ae0387))
+
+
+### Features
+
+* **avatar:** add types for avatar ([045693e](https://glab.lad24.ru/npm/mobydick/commit/045693e8222f8fb08a9818f995f92227cdecccc0))
+* **avatarGroup:** add avatarGroup ([8c5415e](https://glab.lad24.ru/npm/mobydick/commit/8c5415eca2bbefc667c87c0148472fb937c818d8))
+
 ## [4.9.2](https://glab.lad24.ru/npm/mobydick/compare/v4.9.1...v4.9.2) (2023-02-07)
 
 
