@@ -1,10 +1,12 @@
 import React from 'react';
+import {StyleSheet} from 'react-native';
 
 import {IBadge, IBadgeTypes} from '../types';
 import {BadgeIndicator, ICounterSize} from '../../Badge';
 import Counter from '../../Badge/Counter/Counter';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
-import View from '../../../../basic/components/View/View';
+import useStyles from '../../../../styles/theme/hooks/useStyles';
+import useTheme from '../../../../styles/theme/hooks/useTheme';
 
 interface IProps {
   badge?: IBadge;
@@ -12,28 +14,18 @@ interface IProps {
 
 const AvatarBadge = (props: IProps): JSX.Element | null => {
   const {badge} = props;
+  const [styles] = useStyles(stylesCreate);
+  const {colors} = useTheme();
 
   if (badge?.type === IBadgeTypes.indicator) {
-    return (
-      <BadgeIndicator
-        type={badge.value}
-        style={{
-          bottom: 2,
-          right: 2,
-        }}
-      />
-    );
+    return <BadgeIndicator type={badge.value} style={styles.indicator} />;
   }
 
   if (badge?.type === IBadgeTypes.counter) {
     return (
       <Counter
         type={badge.value}
-        style={{
-          bottom: -3,
-          right: -3,
-          zIndex: 20,
-        }}
+        style={styles.counter}
         size={ICounterSize.small}
         count={badge.count}
       />
@@ -41,13 +33,33 @@ const AvatarBadge = (props: IProps): JSX.Element | null => {
   }
   if (badge?.type === IBadgeTypes.status) {
     return (
-      <View style={{position: 'absolute', zIndex: 1, bottom: 0, right: 0}}>
-        <SimpleIcon name={badge.value} size={12} />
-      </View>
+      <SimpleIcon
+        name={badge.value}
+        size={12}
+        color={colors.IconAdditional}
+        style={styles.status}
+      />
     );
   }
 
   return null;
 };
+const stylesCreate = () =>
+  StyleSheet.create({
+    indicator: {
+      bottom: 2,
+      right: 2,
+    },
+    counter: {
+      bottom: -3,
+      right: -3,
+    },
+    status: {
+      position: 'absolute',
+      zIndex: 1,
+      bottom: 0,
+      right: 0,
+    },
+  });
 
 export default AvatarBadge;

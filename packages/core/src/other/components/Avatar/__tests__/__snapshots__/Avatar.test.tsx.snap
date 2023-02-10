@@ -108,7 +108,6 @@ exports[`Avatar render avatar badge counter 1`] = `
         {
           "bottom": -3,
           "right": -3,
-          "zIndex": 20,
         },
       ]
     }
@@ -258,29 +257,22 @@ exports[`Avatar render avatar badge status 1`] = `
     ]
   }
 >
-  <View
+  <Text
+    allowFontScaling={true}
     style={
       {
         "bottom": 0,
+        "color": "#FAB742",
+        "fontFamily": "Neotis",
+        "fontSize": 12,
         "position": "absolute",
         "right": 0,
         "zIndex": 1,
       }
     }
   >
-    <Text
-      allowFontScaling={true}
-      style={
-        {
-          "color": "#5E6678",
-          "fontFamily": "Neotis",
-          "fontSize": 12,
-        }
-      }
-    >
-      
-    </Text>
-  </View>
+    
+  </Text>
   <Text
     allowFontScaling={true}
     style={
