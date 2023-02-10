@@ -209,7 +209,8 @@ const Calendar: FC<ICalendar> = props => {
     } else if (selectionState === ISelectionState.years) {
       setSelectionState(ISelectionState.months);
     }
-  }, [selectionState]);
+    setYearRange(calculateYearRange(currentYear));
+  }, [selectionState, currentYear]);
 
   const onPressLeft = useCallback(() => {
     if (selectionState === ISelectionState.days) {
