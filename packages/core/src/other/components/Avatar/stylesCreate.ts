@@ -2,36 +2,36 @@ import {ImageStyle, StyleSheet} from 'react-native';
 
 import {IThemeContext, rem} from '../../../styles';
 
-import {ISizeAvatar} from './types';
+import {IAvatarSize} from './types';
 
 const stylesCreate = (
   theme: IThemeContext,
-  size: ISizeAvatar,
+  size: IAvatarSize,
   backgroundColor?: string,
 ) => {
   const {spaces, colors} = theme;
 
-  const getSizeStyles = (sizeAvatar: ISizeAvatar): ImageStyle => {
+  const getSizeStyles = (sizeAvatar: IAvatarSize): ImageStyle => {
     switch (sizeAvatar) {
-      case ISizeAvatar.S:
+      case IAvatarSize.S:
         return {
           width: spaces.Space24,
           height: spaces.Space24,
           borderRadius: spaces.Space12,
         };
-      case ISizeAvatar.M:
+      case IAvatarSize.M:
         return {
           width: spaces.Space40,
           height: spaces.Space40,
           borderRadius: spaces.Space20,
         };
-      case ISizeAvatar.L:
+      case IAvatarSize.L:
         return {
           width: rem(60),
           height: rem(60),
           borderRadius: rem(30),
         };
-      case ISizeAvatar.XL:
+      case IAvatarSize.XL:
         return {
           width: rem(80),
           height: rem(80),

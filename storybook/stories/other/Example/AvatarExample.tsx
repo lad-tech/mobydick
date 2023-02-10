@@ -4,8 +4,12 @@ import React from 'react';
 import {
   Avatar,
   AvatarGroup,
-  ISizeAvatar,
-  ITypeAvatar,
+  IAvatarSize,
+  IAvatarTypes,
+  IBadgeTypes,
+  ICounterTypes,
+  IIndicatorTypes,
+  IStatusTypes,
   TouchableOpacity,
   useTheme,
   View,
@@ -76,31 +80,52 @@ const AvatarExample = () => {
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithPhoto}
-          size={select('size user photo', ISizeAvatar, ISizeAvatar.M)}
-          type={ITypeAvatar.icon}
+          size={select('size user photo', IAvatarSize, IAvatarSize.M)}
+          type={IAvatarTypes.icon}
+          badge={{
+            type: IBadgeTypes.status,
+            value: IStatusTypes.star,
+          }}
         />
       </View>
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithPhotoLocal}
-          size={select('size user logo', ISizeAvatar, ISizeAvatar.M)}
-          type={ITypeAvatar.icon}
+          size={select('size user logo', IAvatarSize, IAvatarSize.M)}
+          type={IAvatarTypes.icon}
           backgroundColor={colors.ElementAdditional}
+          badge={{
+            type: IBadgeTypes.indicator,
+            value: select(
+              'Indicator types',
+              IIndicatorTypes,
+              IIndicatorTypes.primary,
+            ),
+          }}
         />
       </View>
       <TouchableOpacity style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithoutPhoto}
-          type={ITypeAvatar.text}
-          size={select('size user text', ISizeAvatar, ISizeAvatar.M)}
+          type={IAvatarTypes.text}
+          size={select('size user text', IAvatarSize, IAvatarSize.M)}
+          badge={{
+            type: IBadgeTypes.counter,
+            value: select(
+              'Counter types',
+              ICounterTypes,
+              ICounterTypes.destructive,
+            ),
+            count: 5,
+          }}
         />
       </TouchableOpacity>
 
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userIcon}
-          size={select('size user icon', ISizeAvatar, ISizeAvatar.M)}
-          type={ITypeAvatar.icon}
+          size={select('size user icon', IAvatarSize, IAvatarSize.M)}
+          type={IAvatarTypes.icon}
           backgroundColor={colors.ElementAdditional}
         />
       </View>

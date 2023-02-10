@@ -8,12 +8,12 @@ import {IThemeContext} from '../../../styles';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 
 import Avatar from './Avatar';
-import {ITypeAvatar, IUser} from './types';
+import {IAvatarTypes, IUser} from './types';
 
 interface IProps {
   groups: IUser[];
   backgroundColor?: string;
-  type?: ITypeAvatar;
+  type?: IAvatarTypes;
 }
 const AvatarGroup: FC<IProps> = props => {
   const {groups, ...otherProps} = props;
