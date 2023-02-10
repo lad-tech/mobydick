@@ -2,7 +2,7 @@ import {render} from '@testing-library/react-native';
 import React from 'react';
 
 import AvatarGroup from '../AvatarGroup';
-import {ITypeAvatar} from '../types';
+import {IAvatarTypes} from '../types';
 
 const smallGroupDate = [
   {
@@ -68,7 +68,7 @@ describe('AvatarGroup', () => {
       <AvatarGroup
         groups={bigGroupDate}
         backgroundColor={'#ff0000'}
-        type={ITypeAvatar.text}
+        type={IAvatarTypes.text}
       />,
     );
     expect(toJSON()).toMatchSnapshot();

@@ -1,7 +1,7 @@
 import {render} from '@testing-library/react-native';
 import React from 'react';
 
-import {ISizeAvatar} from '../../types';
+import {IAvatarSize} from '../../types';
 import TextAvatar from '../TextAvatar';
 
 const userWithPhoto = {
@@ -16,32 +16,32 @@ describe('TextAvatar', () => {
       <TextAvatar
         firstName={userWithPhoto.firstName}
         lastName={userWithPhoto.lastName}
-        size={ISizeAvatar.S}
+        size={IAvatarSize.S}
       />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
   test('render TextAvatar size S', () => {
     const {toJSON} = render(
-      <TextAvatar firstName={userWithPhoto.firstName} size={ISizeAvatar.S} />,
+      <TextAvatar firstName={userWithPhoto.firstName} size={IAvatarSize.S} />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
   test('render TextAvatar size M', () => {
     const {toJSON} = render(
-      <TextAvatar firstName={userWithPhoto.firstName} size={ISizeAvatar.M} />,
+      <TextAvatar firstName={userWithPhoto.firstName} size={IAvatarSize.M} />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
   test('render TextAvatar size L', () => {
     const {toJSON} = render(
-      <TextAvatar firstName={userWithPhoto.firstName} size={ISizeAvatar.L} />,
+      <TextAvatar firstName={userWithPhoto.firstName} size={IAvatarSize.L} />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
   test('render TextAvatar size XL', () => {
     const {toJSON} = render(
-      <TextAvatar firstName={userWithPhoto.firstName} size={ISizeAvatar.XL} />,
+      <TextAvatar firstName={userWithPhoto.firstName} size={IAvatarSize.XL} />,
     );
     expect(toJSON()).toMatchSnapshot();
   });

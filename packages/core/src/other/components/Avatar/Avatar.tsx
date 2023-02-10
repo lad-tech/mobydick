@@ -4,18 +4,20 @@ import {Image, ImageErrorEventData} from 'react-native';
 import View from '../../../basic/components/View/View';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 
-import {AvatarProps, ISizeAvatar, ITypeAvatar} from './types';
+import {AvatarProps, IAvatarSize, IAvatarTypes} from './types';
 import stylesCreate from './stylesCreate';
 import AvatarWithoutImage from './components/AvatarWithoutImage';
 import {isNumber} from './functions/isNumber';
+import AvatarBadge from './components/AvatarBadge';
 
 const Avatar: FC<AvatarProps> = props => {
   const {
     user,
     backgroundColor,
-    size = ISizeAvatar.M,
-    type = ITypeAvatar.icon,
+    size = IAvatarSize.M,
+    type = IAvatarTypes.icon,
     style,
+    badge,
   } = props;
   const [styles] = useStyles(stylesCreate, size, backgroundColor);
 
@@ -31,6 +33,7 @@ const Avatar: FC<AvatarProps> = props => {
 
   return (
     <View style={[styles.container, style]}>
+      {!!badge && <AvatarBadge badge={badge} />}
       {error || !user.logo ? (
         <AvatarWithoutImage
           size={size}
