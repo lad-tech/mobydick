@@ -68,6 +68,18 @@ const ExampleActionSheet: FC<IContentProps> = props => {
     onPressRadio(agreedText);
   }, [onPressRadio]);
 
+  const onPressFirstItemCheckbox = useCallback(() => {
+    onPressCheckbox(deniedText);
+  }, [onPressCheckbox]);
+
+  const onPressInnerItemCheckbox = useCallback(() => {
+    onPressCheckbox(coordinationText);
+  }, [onPressCheckbox]);
+
+  const onPressLastItemCheckbox = useCallback(() => {
+    onPressCheckbox(agreedText);
+  }, [onPressCheckbox]);
+
   switch (
     select(
       'View action sheets',
@@ -132,27 +144,21 @@ const ExampleActionSheet: FC<IContentProps> = props => {
           <ActionSheetBase.Item
             itemType={IItemType.firstItem}
             title={deniedText}
-            onPress={() => {
-              onPressCheckbox(deniedText);
-            }}
+            onPress={onPressFirstItemCheckbox}
             checkboxList={checkboxList}
             leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.innerItem}
             title={coordinationText}
-            onPress={() => {
-              onPressCheckbox(coordinationText);
-            }}
+            onPress={onPressInnerItemCheckbox}
             checkboxList={checkboxList}
             leftIcon={leftIcon}
           />
           <ActionSheetBase.Item
             itemType={IItemType.lastItem}
             title={agreedText}
-            onPress={() => {
-              onPressCheckbox(agreedText);
-            }}
+            onPress={onPressLastItemCheckbox}
             checkboxList={checkboxList}
             leftIcon={leftIcon}
           />
