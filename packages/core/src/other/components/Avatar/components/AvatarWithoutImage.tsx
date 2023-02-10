@@ -1,25 +1,25 @@
 import React, {FC} from 'react';
 
-import {ISizeAvatar, ITypeAvatar} from '../types';
+import {IAvatarSize, IAvatarTypes} from '../types';
 
 import TextAvatar from './TextAvatar';
 import IconAvatar from './IconAvatar';
 
 interface IProps {
-  size: ISizeAvatar;
+  size: IAvatarSize;
   firstName: string;
   lastName?: string | undefined;
-  type: ITypeAvatar;
+  type: IAvatarTypes;
 }
 
 const AvatarWithoutImage: FC<IProps> = props => {
   const {size, firstName, lastName, type} = props;
   switch (type) {
-    case ITypeAvatar.text:
+    case IAvatarTypes.text:
       return (
         <TextAvatar firstName={firstName} lastName={lastName} size={size} />
       );
-    case ITypeAvatar.icon:
+    case IAvatarTypes.icon:
     default:
       return <IconAvatar size={size} />;
   }

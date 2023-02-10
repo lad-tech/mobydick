@@ -1,23 +1,23 @@
 import React, {FC} from 'react';
 
 import {Typography} from '../../../../typography';
-import {ISizeAvatar} from '../types';
+import {IAvatarSize} from '../types';
 
 interface IProps {
-  size: ISizeAvatar;
+  size: IAvatarSize;
   firstName: string;
   lastName?: string | undefined;
 }
 
-const getFont = (size: ISizeAvatar) => {
+const getFont = (size: IAvatarSize) => {
   switch (size) {
-    case ISizeAvatar.S:
+    case IAvatarSize.S:
       return 'Regular-White-XXXS';
-    case ISizeAvatar.L:
+    case IAvatarSize.L:
       return 'Regular-White-L';
-    case ISizeAvatar.XL:
+    case IAvatarSize.XL:
       return 'Regular-White-H5';
-    case ISizeAvatar.M:
+    case IAvatarSize.M:
     default:
       return 'Regular-White-XS';
   }

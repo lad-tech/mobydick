@@ -1,23 +1,23 @@
 import React, {FC} from 'react';
 
-import {ISizeAvatar} from '../types';
+import {IAvatarSize} from '../types';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
 import useTheme from '../../../../styles/theme/hooks/useTheme';
 import rem from '../../../../styles/spaces/rem';
 
 interface IProps {
-  size: ISizeAvatar;
+  size: IAvatarSize;
 }
 
-const getSizeIcon = (size: ISizeAvatar) => {
+const getSizeIcon = (size: IAvatarSize) => {
   switch (size) {
-    case ISizeAvatar.S:
+    case IAvatarSize.S:
       return rem(12);
-    case ISizeAvatar.L:
+    case IAvatarSize.L:
       return rem(30);
-    case ISizeAvatar.XL:
+    case IAvatarSize.XL:
       return rem(40);
-    case ISizeAvatar.M:
+    case IAvatarSize.M:
     default:
       return rem(20);
   }
