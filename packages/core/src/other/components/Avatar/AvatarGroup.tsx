@@ -21,39 +21,23 @@ const AvatarGroup: FC<IProps> = props => {
   const count = groups.length - 3;
 
   return (
-    <View style={[styles.container, styles.shadow]}>
+    <View style={styles.container}>
       {groups[0] && (
-        <Avatar
-          user={groups[0]}
-          style={[styles.avatarOne, styles.shadow]}
-          {...otherProps}
-        />
+        <Avatar user={groups[0]} style={styles.avatarOne} {...otherProps} />
       )}
       {groups[1] && (
-        <Avatar
-          user={groups[1]}
-          style={[styles.avatarTwo, styles.shadow]}
-          {...otherProps}
-        />
+        <Avatar user={groups[1]} style={styles.avatarTwo} {...otherProps} />
       )}
       {groups[2] && (
-        <Avatar
-          user={groups[2]}
-          style={[styles.avatarThree, styles.shadow]}
-          {...otherProps}
-        />
+        <Avatar user={groups[2]} style={styles.avatarThree} {...otherProps} />
       )}
 
       {count < 3 ? (
         groups[3] && (
-          <Avatar
-            user={groups[3]}
-            style={[styles.avatarFour, styles.shadow]}
-            {...otherProps}
-          />
+          <Avatar user={groups[3]} style={styles.avatarFour} {...otherProps} />
         )
       ) : (
-        <View style={[styles.countView, styles.shadow]}>
+        <View style={styles.countView}>
           <Typography font={'Medium-Secondary-XXS'} style={styles.countText}>
             {'+' + count.toString()}
           </Typography>
@@ -78,7 +62,7 @@ const stylesCreate = ({colors, spaces}: IThemeContext) => {
       justifyContent: 'center',
       zIndex: 4,
 
-      borderWidth: spaces.Space1,
+      borderWidth: spaces.Space2,
       borderColor: colors.BgPrimary,
     },
     countText: {
@@ -100,17 +84,6 @@ const stylesCreate = ({colors, spaces}: IThemeContext) => {
     avatarFour: {
       left: spaces.Space12,
       zIndex: 4,
-    },
-    shadow: {
-      shadowColor: colors.IconNeutral,
-      shadowOffset: {
-        width: 0,
-        height: 1,
-      },
-      shadowOpacity: 0.2,
-      shadowRadius: 1.41,
-
-      elevation: 2,
     },
   });
 };
