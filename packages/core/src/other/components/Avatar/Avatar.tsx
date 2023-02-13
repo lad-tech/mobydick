@@ -18,6 +18,7 @@ const Avatar: FC<AvatarProps> = props => {
     type = IAvatarTypes.icon,
     style,
     badge,
+    disabled = false,
   } = props;
   const [styles] = useStyles(stylesCreate, size, backgroundColor);
 
@@ -32,7 +33,7 @@ const Avatar: FC<AvatarProps> = props => {
   }
 
   return (
-    <View style={[styles.container, style]}>
+    <View style={[styles.container, style, {opacity: disabled ? 0.6 : 1}]}>
       {!!badge && <AvatarBadge badge={badge} />}
       {error || !user.logo ? (
         <AvatarWithoutImage

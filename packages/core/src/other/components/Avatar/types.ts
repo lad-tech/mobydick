@@ -52,6 +52,7 @@ interface IAvatarProps {
   style?: ViewStyle[] | ViewStyle;
   badge?: IBadge;
   backgroundColorBadge?: string;
+  disabled?: boolean;
 }
 
 export type AvatarProps = IAvatarProps;
