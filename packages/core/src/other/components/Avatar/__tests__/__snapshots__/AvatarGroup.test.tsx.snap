@@ -3,21 +3,9 @@
 exports[`AvatarGroup render AvatarGroup 1`] = `
 <View
   style={
-    [
-      {
-        "flexDirection": "row",
-      },
-      {
-        "elevation": 2,
-        "shadowColor": "#5E6678",
-        "shadowOffset": {
-          "height": 1,
-          "width": 0,
-        },
-        "shadowOpacity": 0.2,
-        "shadowRadius": 1.41,
-      },
-    ]
+    {
+      "flexDirection": "row",
+    }
   }
 >
   <View
@@ -29,27 +17,15 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
-        [
-          {
-            "left": 54,
-            "zIndex": 1,
-          },
-          {
-            "elevation": 2,
-            "shadowColor": "#5E6678",
-            "shadowOffset": {
-              "height": 1,
-              "width": 0,
-            },
-            "shadowOpacity": 0.2,
-            "shadowRadius": 1.41,
-          },
-        ],
+        {
+          "left": 54,
+          "zIndex": 1,
+        },
         {
           "opacity": 1,
         },
@@ -78,27 +54,15 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
-        [
-          {
-            "left": 36,
-            "zIndex": 2,
-          },
-          {
-            "elevation": 2,
-            "shadowColor": "#5E6678",
-            "shadowOffset": {
-              "height": 1,
-              "width": 0,
-            },
-            "shadowOpacity": 0.2,
-            "shadowRadius": 1.41,
-          },
-        ],
+        {
+          "left": 36,
+          "zIndex": 2,
+        },
         {
           "opacity": 1,
         },
@@ -127,27 +91,15 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
-        [
-          {
-            "left": 18,
-            "zIndex": 3,
-          },
-          {
-            "elevation": 2,
-            "shadowColor": "#5E6678",
-            "shadowOffset": {
-              "height": 1,
-              "width": 0,
-            },
-            "shadowOpacity": 0.2,
-            "shadowRadius": 1.41,
-          },
-        ],
+        {
+          "left": 18,
+          "zIndex": 3,
+        },
         {
           "opacity": 1,
         },
@@ -166,7 +118,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "width": 60,
         }
@@ -182,27 +134,15 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
-        [
-          {
-            "left": 18,
-            "zIndex": 4,
-          },
-          {
-            "elevation": 2,
-            "shadowColor": "#5E6678",
-            "shadowOffset": {
-              "height": 1,
-              "width": 0,
-            },
-            "shadowOpacity": 0.2,
-            "shadowRadius": 1.41,
-          },
-        ],
+        {
+          "left": 18,
+          "zIndex": 4,
+        },
         {
           "opacity": 1,
         },
@@ -228,21 +168,9 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
 exports[`AvatarGroup render AvatarGroup with props 1`] = `
 <View
   style={
-    [
-      {
-        "flexDirection": "row",
-      },
-      {
-        "elevation": 2,
-        "shadowColor": "#5E6678",
-        "shadowOffset": {
-          "height": 1,
-          "width": 0,
-        },
-        "shadowOpacity": 0.2,
-        "shadowRadius": 1.41,
-      },
-    ]
+    {
+      "flexDirection": "row",
+    }
   }
 >
   <View
@@ -254,27 +182,15 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
-        [
-          {
-            "left": 54,
-            "zIndex": 1,
-          },
-          {
-            "elevation": 2,
-            "shadowColor": "#5E6678",
-            "shadowOffset": {
-              "height": 1,
-              "width": 0,
-            },
-            "shadowOpacity": 0.2,
-            "shadowRadius": 1.41,
-          },
-        ],
+        {
+          "left": 54,
+          "zIndex": 1,
+        },
         {
           "opacity": 1,
         },
@@ -307,27 +223,15 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
-        [
-          {
-            "left": 36,
-            "zIndex": 2,
-          },
-          {
-            "elevation": 2,
-            "shadowColor": "#5E6678",
-            "shadowOffset": {
-              "height": 1,
-              "width": 0,
-            },
-            "shadowOpacity": 0.2,
-            "shadowRadius": 1.41,
-          },
-        ],
+        {
+          "left": 36,
+          "zIndex": 2,
+        },
         {
           "opacity": 1,
         },
@@ -360,27 +264,15 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
-        [
-          {
-            "left": 18,
-            "zIndex": 3,
-          },
-          {
-            "elevation": 2,
-            "shadowColor": "#5E6678",
-            "shadowOffset": {
-              "height": 1,
-              "width": 0,
-            },
-            "shadowOpacity": 0.2,
-            "shadowRadius": 1.41,
-          },
-        ],
+        {
+          "left": 18,
+          "zIndex": 3,
+        },
         {
           "opacity": 1,
         },
@@ -399,7 +291,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "width": 60,
         }
@@ -408,28 +300,16 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
   </View>
   <View
     style={
-      [
-        {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 1.5,
-          "height": 60,
-          "justifyContent": "center",
-          "width": 60,
-          "zIndex": 4,
-        },
-        {
-          "elevation": 2,
-          "shadowColor": "#5E6678",
-          "shadowOffset": {
-            "height": 1,
-            "width": 0,
-          },
-          "shadowOpacity": 0.2,
-          "shadowRadius": 1.41,
-        },
-      ]
+      {
+        "backgroundColor": "#EEEFF1",
+        "borderColor": "#FFF",
+        "borderRadius": 30,
+        "borderWidth": 3,
+        "height": 60,
+        "justifyContent": "center",
+        "width": 60,
+        "zIndex": 4,
+      }
     }
   >
     <Text
