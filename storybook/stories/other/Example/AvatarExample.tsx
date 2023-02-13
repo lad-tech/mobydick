@@ -68,6 +68,22 @@ const groupDate = [
     firstName: 'Иван',
     lastName: 'Пушкин',
   },
+  {
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
+  {
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
+  {
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
+  {
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
 ];
 const AvatarExample = () => {
   const {colors, spaces} = useTheme();
@@ -77,6 +93,25 @@ const AvatarExample = () => {
     <>
       <View style={{paddingVertical: spaces.Space8}}>
         <AvatarGroup groups={groupDate} />
+      </View>
+      <View style={{paddingVertical: spaces.Space8}}>
+        <AvatarGroup groups={groupDate.concat(groupDate)} />
+      </View>
+      <View style={{paddingVertical: spaces.Space8}}>
+        <AvatarGroup
+          groups={groupDate
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)}
+        />
       </View>
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar

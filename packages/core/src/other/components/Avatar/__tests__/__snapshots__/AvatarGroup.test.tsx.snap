@@ -17,14 +17,14 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
         {
           "left": 54,
-          "zIndex": 4,
+          "zIndex": 1,
         },
         {
           "opacity": 1,
@@ -54,14 +54,14 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
         {
           "left": 36,
-          "zIndex": 3,
+          "zIndex": 2,
         },
         {
           "opacity": 1,
@@ -91,14 +91,14 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
         {
           "left": 18,
-          "zIndex": 2,
+          "zIndex": 3,
         },
         {
           "opacity": 1,
@@ -118,7 +118,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "width": 60,
         }
@@ -134,12 +134,15 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
-        undefined,
+        {
+          "left": 18,
+          "zIndex": 4,
+        },
         {
           "opacity": 1,
         },
@@ -179,14 +182,14 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
         {
           "left": 54,
-          "zIndex": 4,
+          "zIndex": 1,
         },
         {
           "opacity": 1,
@@ -220,14 +223,14 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
         {
           "left": 36,
-          "zIndex": 3,
+          "zIndex": 2,
         },
         {
           "opacity": 1,
@@ -261,14 +264,14 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
         },
         {
           "left": 18,
-          "zIndex": 2,
+          "zIndex": 3,
         },
         {
           "opacity": 1,
@@ -288,7 +291,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "borderColor": "#FFF",
           "borderRadius": 30,
-          "borderWidth": 1.5,
+          "borderWidth": 3,
           "height": 60,
           "width": 60,
         }
@@ -299,10 +302,13 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
     style={
       {
         "backgroundColor": "#EEEFF1",
+        "borderColor": "#FFF",
         "borderRadius": 30,
+        "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
+        "zIndex": 4,
       }
     }
   >

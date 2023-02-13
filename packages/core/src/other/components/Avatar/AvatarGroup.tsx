@@ -33,7 +33,9 @@ const AvatarGroup: FC<IProps> = props => {
       )}
 
       {count < 3 ? (
-        groups[3] && <Avatar user={groups[3]} {...otherProps} />
+        groups[3] && (
+          <Avatar user={groups[3]} style={styles.avatarFour} {...otherProps} />
+        )
       ) : (
         <View style={styles.countView}>
           <Typography font={'Medium-Secondary-XXS'} style={styles.countText}>
@@ -58,6 +60,10 @@ const stylesCreate = ({colors, spaces}: IThemeContext) => {
       borderRadius: spaces.Space20,
       backgroundColor: colors.BgSecondary,
       justifyContent: 'center',
+      zIndex: 4,
+
+      borderWidth: spaces.Space2,
+      borderColor: colors.BgPrimary,
     },
     countText: {
       alignSelf: 'center',
@@ -65,15 +71,19 @@ const stylesCreate = ({colors, spaces}: IThemeContext) => {
     },
     avatarOne: {
       left: rem(36),
-      zIndex: 4,
+      zIndex: 1,
     },
     avatarTwo: {
       left: spaces.Space24,
-      zIndex: 3,
+      zIndex: 2,
     },
     avatarThree: {
       left: spaces.Space12,
-      zIndex: 2,
+      zIndex: 3,
+    },
+    avatarFour: {
+      left: spaces.Space12,
+      zIndex: 4,
     },
   });
 };
