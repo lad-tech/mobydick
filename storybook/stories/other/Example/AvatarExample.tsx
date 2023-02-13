@@ -1,4 +1,4 @@
-import {select} from '@storybook/addon-knobs';
+import {boolean, select} from '@storybook/addon-knobs';
 import React from 'react';
 
 import {
@@ -71,6 +71,7 @@ const groupDate = [
 ];
 const AvatarExample = () => {
   const {colors, spaces} = useTheme();
+  const disabled = boolean('disabled', true);
 
   return (
     <>
@@ -88,7 +89,9 @@ const AvatarExample = () => {
           }}
         />
       </View>
-      <View style={{paddingVertical: spaces.Space8}}>
+      <TouchableOpacity
+        style={{paddingVertical: spaces.Space8}}
+        disabled={disabled}>
         <Avatar
           user={userWithPhotoLocal}
           size={select('size user logo', IAvatarSize, IAvatarSize.M)}
@@ -102,9 +105,12 @@ const AvatarExample = () => {
               IIndicatorTypes.primary,
             ),
           }}
+          disabled={disabled}
         />
-      </View>
-      <TouchableOpacity style={{paddingVertical: spaces.Space8}}>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={{paddingVertical: spaces.Space8}}
+        disabled={disabled}>
         <Avatar
           user={userWithoutPhoto}
           type={IAvatarTypes.text}
@@ -118,6 +124,7 @@ const AvatarExample = () => {
             ),
             count: 5,
           }}
+          disabled={disabled}
         />
       </TouchableOpacity>
 

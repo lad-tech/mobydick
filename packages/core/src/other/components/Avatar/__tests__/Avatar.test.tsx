@@ -116,6 +116,7 @@ describe('Avatar', () => {
       <Avatar
         user={userWithoutPhoto}
         badge={{type: IBadgeTypes.status, value: IStatusTypes.star}}
+        disabled={false}
       />,
     );
 
@@ -132,6 +133,7 @@ describe('Avatar', () => {
             value: IStatusTypes.star,
           } as unknown as IBadge
         }
+        disabled={true}
       />,
     );
 
