@@ -5,7 +5,6 @@ exports[`Tab render panelHeader 1`] = `
   style={
     [
       {
-        "flex": 1,
         "width": "100%",
       },
       {
@@ -113,7 +112,6 @@ exports[`Tab render panelHeader with subtitle 1`] = `
   style={
     [
       {
-        "flex": 1,
         "width": "100%",
       },
       undefined,
@@ -216,7 +214,6 @@ exports[`Tab render panelHeader with title 1`] = `
   style={
     [
       {
-        "flex": 1,
         "width": "100%",
       },
       undefined,
@@ -319,7 +316,6 @@ exports[`Tab render panelHeader without props 1`] = `
   style={
     [
       {
-        "flex": 1,
         "width": "100%",
       },
       undefined,
