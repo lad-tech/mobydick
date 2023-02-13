@@ -26,6 +26,9 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "left": 54,
           "zIndex": 4,
         },
+        {
+          "opacity": 1,
+        },
       ]
     }
   >
@@ -60,6 +63,9 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "left": 36,
           "zIndex": 3,
         },
+        {
+          "opacity": 1,
+        },
       ]
     }
   >
@@ -93,6 +99,9 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "left": 18,
           "zIndex": 2,
+        },
+        {
+          "opacity": 1,
         },
       ]
     }
@@ -131,6 +140,9 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "width": 60,
         },
         undefined,
+        {
+          "opacity": 1,
+        },
       ]
     }
   >
@@ -176,6 +188,9 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "left": 54,
           "zIndex": 4,
         },
+        {
+          "opacity": 1,
+        },
       ]
     }
   >
@@ -214,6 +229,9 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "left": 36,
           "zIndex": 3,
         },
+        {
+          "opacity": 1,
+        },
       ]
     }
   >
@@ -251,6 +269,9 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "left": 18,
           "zIndex": 2,
+        },
+        {
+          "opacity": 1,
         },
       ]
     }
