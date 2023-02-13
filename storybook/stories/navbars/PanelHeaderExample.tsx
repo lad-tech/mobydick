@@ -42,6 +42,7 @@ const PanelHeaderExample = () => {
               <Typography font={'Regular-Accent-XS'}>{'Изменить'}</Typography>
             </TouchableOpacity>
           }
+          commonViewStyle={styles.commonView}
         />
       );
     case IPanelHeader.buttons:
@@ -59,6 +60,7 @@ const PanelHeaderExample = () => {
               <SimpleIcon name={'icon-cancel'} />
             </TouchableOpacity>
           }
+          commonViewStyle={styles.commonView}
         />
       );
     case IPanelHeader.twoIcons:
@@ -78,6 +80,7 @@ const PanelHeaderExample = () => {
               <SimpleIcon name={'icon-copy'} style={styles.icon} />
             </View>
           }
+          commonViewStyle={styles.commonView}
         />
       );
     case IPanelHeader.icon:
@@ -94,6 +97,7 @@ const PanelHeaderExample = () => {
           rightView={
             <SimpleIcon name={select('right Icon', iconNames, 'icon-logout')} />
           }
+          commonViewStyle={styles.commonView}
         />
       );
   }
@@ -103,6 +107,9 @@ export default PanelHeaderExample;
 
 const createStyles = ({spaces, colors}: IThemeContext) =>
   StyleSheet.create({
+    commonView: {
+      flex: 1,
+    },
     icon: {
       paddingLeft: spaces.Space12,
     },

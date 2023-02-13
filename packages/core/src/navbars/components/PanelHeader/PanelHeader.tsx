@@ -85,7 +85,6 @@ export default PanelHeader;
 const createStyles = ({spaces}: IThemeContext) =>
   StyleSheet.create({
     commonView: {
-      flex: 1,
       width: '100%',
     },
     container: {
