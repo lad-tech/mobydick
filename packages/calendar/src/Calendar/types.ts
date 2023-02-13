@@ -43,6 +43,7 @@ export interface ICalendar extends CalendarProps {
   localeConfig?: ILocaleConfig | undefined;
   isPeriod?: boolean;
   initialRange?: {fromDate: string; toDate?: string};
+  dottedDates?: Date[];
 }
 
 export interface ILocaleConfig {

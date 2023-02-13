@@ -16,6 +16,7 @@ export const getDateForCalendar = (date: Date): string => {
   const d = `${date.getDate() < 10 ? 0 : ''}${date.getDate()}`;
   return `${yr}-${month}-${d}`;
 };
+
 const getStyleToday = (colorToday: colorElem): MarkingProps => {
   return {
     startingDay: true,
@@ -114,6 +115,22 @@ export const getAllDatesBetween = (
   };
 
   return {dates: datesForCalendar, fromDate, toDate, lengthDateRange};
+};
+
+export const getDotsDates = (dots: Date[]) => {
+  const datesForCalendar: IMarkedTypes = {};
+
+  for (let i = 0; i < dots.length; i++) {
+    const dot = dots[i];
+    if (dot) {
+      datesForCalendar[getDateForCalendar(dot)] = {
+        marked: true,
+        dotColor: '#2B78EE',
+      };
+    }
+  }
+
+  return {dates: datesForCalendar};
 };
 
 export const getMarkedToday = ({colorToday}: IColors) => {

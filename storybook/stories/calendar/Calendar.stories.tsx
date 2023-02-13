@@ -73,6 +73,11 @@ const CalendarPopupExample = () => {
           initialRange={{
             fromDate: initialDate,
           }}
+          dottedDates={[
+            new Date('2023-02-08'),
+            new Date('2023-02-28'),
+            new Date('2023-02-16'),
+          ]}
           {...propsFromPopup}
         />
       ),
