@@ -1,3 +1,15 @@
+# [4.11.0](https://glab.lad24.ru/npm/mobydick/compare/v4.10.0...v4.11.0) (2023-02-13)
+
+
+### Bug Fixes
+
+* **panelHeader:** remove flex: 1 from style ([439a5e1](https://glab.lad24.ru/npm/mobydick/commit/439a5e1f5366e01539434b750d01bcad50087642))
+
+
+### Features
+
+* **avatar:** add badge to the avatar ([f96c9a4](https://glab.lad24.ru/npm/mobydick/commit/f96c9a4a10294fd9ca358d9eeb9edf3599f536b4))
+
 # [4.10.0](https://glab.lad24.ru/npm/mobydick/compare/v4.9.2...v4.10.0) (2023-02-10)
 
 
