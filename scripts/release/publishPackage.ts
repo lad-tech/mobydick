@@ -12,6 +12,7 @@ export async function publishPackage({
   tag: string;
 }) {
   try {
+    execSync(`yarn --cwd ${path} build`);
     execSync(`npm publish ${path} --tag ${tag}`);
     logger.info(`Package ${name} was published`);
   } catch (error: any) {
