@@ -1,3 +1,17 @@
+## [4.12.1](https://glab.lad24.ru/npm/mobydick/compare/v4.12.0...v4.12.1) (2023-02-14)
+
+
+### Bug Fixes
+
+* build packages fixup ([2d9278d](https://glab.lad24.ru/npm/mobydick/commit/2d9278dbafe58aa1d7c8e26058777c34feeee46c))
+
+# [4.12.0](https://glab.lad24.ru/npm/mobydick/compare/v4.11.0...v4.12.0) (2023-02-14)
+
+
+### Features
+
+* **calendar:** add dottedDates ([f589c27](https://glab.lad24.ru/npm/mobydick/commit/f589c279b3b983d19d92437542db1a853fe4f277))
+
 # [4.11.0](https://glab.lad24.ru/npm/mobydick/compare/v4.10.0...v4.11.0) (2023-02-13)
 
 

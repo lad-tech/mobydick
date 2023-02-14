@@ -1,18 +1,19 @@
 {
   "name": "@npm/mobydick-attachment",
-  "version": "4.11.0",
+  "version": "4.12.1",
   "description": "React Native components library focused on usability, accessibility and developer experience",
-  "main": "lib/commonjs/index",
-  "module": "lib/module/index",
-  "types": "lib/typescript/index.d.ts",
+  "main": "lib/index",
+  "module": "lib/index",
+  "types": "lib/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
   "files": [
+    "lib",
     "src",
     "index.ts"
   ],
   "scripts": {
-    "prepublishOnly": "tsc",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kirill Lebedev <lebedevki@lad24.ru>",
@@ -21,7 +22,7 @@
     "react-native": ">=0.66.4",
     "react": ">=17.0.2",
     "react-native-calendars": "^1.1292.0",
-    "@npm/mobydick-core": "4.11.0"
+    "@npm/mobydick-core": "4.12.1"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
