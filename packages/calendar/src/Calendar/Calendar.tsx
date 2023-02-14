@@ -178,12 +178,29 @@ const Calendar: FC<ICalendar> = props => {
     ],
   );
 
+  const markTodayAndDots = () => {
+    const result = mergeObjects(
+      dateDots.dates,
+      dateToday.dates,
+      (key, first, second) => {
+        return {
+          ...first[key],
+          ...second[key],
+        };
+      },
+    );
+
+    setMarkedDates({
+      dates: isShowToday ? result : dateDots.dates,
+      fromDate: dateToday.fromDate,
+      toDate: dateToday.toDate,
+    });
+  };
+
   const onClear = () => {
     onDateRangeChange &&
       onDateRangeChange({dateStart: '', dateEnd: '', lengthDateRange: 0});
-    isShowToday
-      ? setMarkedDates(getMarkedToday(colorsArg))
-      : setMarkedDates(undefined);
+    markTodayAndDots();
   };
 
   useLayoutEffect(() => {
@@ -195,25 +212,8 @@ const Calendar: FC<ICalendar> = props => {
         updateDateRange(startDate, endDate);
         return;
       }
-    }
-
-    if (isShowToday) {
-      const result = mergeObjects(
-        dateDots.dates,
-        dateToday.dates,
-        (key, first, second) => {
-          return {
-            ...first[key],
-            ...second[key],
-          };
-        },
-      );
-
-      setMarkedDates({
-        dates: result,
-        fromDate: dateToday.fromDate,
-        toDate: dateToday.toDate,
-      });
+    } else {
+      markTodayAndDots();
     }
   }, []);
 
