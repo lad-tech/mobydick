@@ -1,3 +1,10 @@
+## [4.12.1](https://glab.lad24.ru/npm/mobydick/compare/v4.12.0...v4.12.1) (2023-02-14)
+
+
+### Bug Fixes
+
+* build packages fixup ([2d9278d](https://glab.lad24.ru/npm/mobydick/commit/2d9278dbafe58aa1d7c8e26058777c34feeee46c))
+
 # [4.12.0](https://glab.lad24.ru/npm/mobydick/compare/v4.11.0...v4.12.0) (2023-02-14)
 
 
