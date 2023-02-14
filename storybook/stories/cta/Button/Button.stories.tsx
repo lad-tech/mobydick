@@ -13,7 +13,7 @@ import {IButtonSize, IButtonTypes} from '@npm/mobydick-core';
 storiesOf('Design System/CTA/Button', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('basic', () => <ExampleButton />)
-  .add('button with delay', () => (
+  .add('button with delay and hitSlop', () => (
     <ButtonWithDelay
       text={text('text', 'text')}
       onPress={action('onPress')}
