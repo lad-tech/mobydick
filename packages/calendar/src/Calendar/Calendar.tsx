@@ -18,6 +18,8 @@ import {
   calculateBoundaries,
   calculateYearRange,
   getAllDatesBetween,
+  getDateForCalendar,
+  getDottedDates,
   getMarkedToday,
   isValidDate,
 } from './functions';
@@ -32,6 +34,7 @@ import {
 import CalendarHeader from './components/CalendarHeader';
 import Years from './components/Years';
 import Months from './components/Months';
+import mergeObjects from './helpers/mergeObjects';
 
 const Calendar: FC<ICalendar> = props => {
   const {
@@ -43,6 +46,7 @@ const Calendar: FC<ICalendar> = props => {
     localeConfig = localeConfigRu,
     isPeriod = false,
     initialRange,
+    dottedDates = [],
     ...rest
   } = props;
   LocaleConfig.locales[defaultLocale] = localeConfig;
@@ -82,6 +86,8 @@ const Calendar: FC<ICalendar> = props => {
   const [yearRange, setYearRange] = useState<number[]>(
     calculateYearRange(currentYear),
   );
+  const dateDots = getDottedDates(dottedDates, colors.ElementBase);
+  const dateToday = getMarkedToday(colorsArg);
 
   const themeStyles = useMemo(
     () => ({
@@ -112,7 +118,34 @@ const Calendar: FC<ICalendar> = props => {
       isShowToday,
     );
 
-    setMarkedDates(dateRange);
+    const result = mergeObjects(
+      dateDots.dates,
+      dateRange.dates,
+      (key, first, second) => {
+        return {
+          ...first[key],
+          ...second[key],
+        };
+      },
+    );
+
+    const startDate = result[getDateForCalendar(dateRange.fromDate)];
+
+    if (startDate) {
+      startDate.dotColor = colors.ElementWhite;
+    }
+    const endDate = result[getDateForCalendar(dateRange.toDate)];
+
+    if (endDate) {
+      endDate.dotColor = colors.ElementWhite;
+    }
+
+    setMarkedDates({
+      dates: result,
+      fromDate: dateRange.fromDate,
+      toDate: dateRange.toDate,
+      lengthMarkedDates: dateRange.lengthDateRange,
+    });
 
     onDateRangeChange &&
       onDateRangeChange({
@@ -145,12 +178,29 @@ const Calendar: FC<ICalendar> = props => {
     ],
   );
 
+  const markTodayAndDots = () => {
+    const result = mergeObjects(
+      dateDots.dates,
+      dateToday.dates,
+      (key, first, second) => {
+        return {
+          ...first[key],
+          ...second[key],
+        };
+      },
+    );
+
+    setMarkedDates({
+      dates: isShowToday ? result : dateDots.dates,
+      fromDate: dateToday.fromDate,
+      toDate: dateToday.toDate,
+    });
+  };
+
   const onClear = () => {
     onDateRangeChange &&
       onDateRangeChange({dateStart: '', dateEnd: '', lengthDateRange: 0});
-    isShowToday
-      ? setMarkedDates(getMarkedToday(colorsArg))
-      : setMarkedDates(undefined);
+    markTodayAndDots();
   };
 
   useLayoutEffect(() => {
@@ -160,13 +210,10 @@ const Calendar: FC<ICalendar> = props => {
 
       if (isValidDate(startDate) && isValidDate(endDate)) {
         updateDateRange(startDate, endDate);
-
         return;
       }
-    }
-
-    if (isShowToday) {
-      setMarkedDates(getMarkedToday(colorsArg));
+    } else {
+      markTodayAndDots();
     }
   }, []);
 
