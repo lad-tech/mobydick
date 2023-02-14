@@ -44,7 +44,7 @@ const ButtonWithDelay = ({
         style={[
           styles.button,
           {
-            paddingVertical: 10,
+            padding: 10,
           },
         ]}>
         <Pressable style={getStyle} hitSlop={HIT_SLOP.small}>
@@ -55,7 +55,7 @@ const ButtonWithDelay = ({
         style={[
           styles.button,
           {
-            paddingVertical: 20,
+            padding: 20,
           },
         ]}>
         <Pressable style={getStyle} hitSlop={HIT_SLOP.medium}>
@@ -66,7 +66,7 @@ const ButtonWithDelay = ({
         style={[
           styles.button,
           {
-            paddingVertical: 30,
+            padding: 30,
           },
         ]}>
         <Pressable style={getStyle} hitSlop={HIT_SLOP.large}>
