@@ -1,7 +1,8 @@
 import React from 'react';
-import {render} from '@testing-library/react-native';
+import {fireEvent, render} from '@testing-library/react-native';
 
 import {Toggle} from '../index';
+import {LABELS} from '../../../other';
 
 describe('Toggle', () => {
   it('should renders correctly by default', function () {
@@ -14,7 +15,12 @@ describe('Toggle', () => {
 
   it('should renders correctly active', function () {
     const fn = jest.fn();
-    const {toJSON} = render(<Toggle active disabled={false} onPress={fn} />);
+    const {toJSON, getByLabelText} = render(
+      <Toggle active disabled={false} onPress={fn} />,
+    );
+
+    const onPress = getByLabelText(LABELS.togglePress);
+    fireEvent.press(onPress);
     expect(toJSON()).toMatchSnapshot();
   });
 
