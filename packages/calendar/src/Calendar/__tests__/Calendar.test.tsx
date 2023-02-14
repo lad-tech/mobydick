@@ -192,12 +192,27 @@ describe('Calendar', () => {
     const {toJSON} = render(
       <Calendar
         isClear={true}
-        initialRange={{fromDate: '2022-02-16', toDate: '2022-02-19'}}
+        initialRange={{fromDate: '2022-01-16', toDate: '2022-01-19'}}
         isShowToday={false}
         dottedDates={[
-          new Date('2023-02-08'),
-          new Date('2023-02-28'),
-          new Date('2023-02-16'),
+          new Date('2022-02-08'),
+          new Date('2022-02-28'),
+          new Date('2022-02-16'),
+        ]}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly dottedDates cc', () => {
+    const {toJSON} = render(
+      <Calendar
+        isClear={true}
+        initialRange={{fromDate: '2022-01-16', toDate: '2022-01-19'}}
+        isShowToday={false}
+        dottedDates={[
+          new Date('2022-02-08'),
+          new Date('2022-02-28'),
+          new Date('2022-02-16'),
         ]}
       />,
     );
