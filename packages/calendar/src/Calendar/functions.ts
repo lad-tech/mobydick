@@ -117,17 +117,14 @@ export const getAllDatesBetween = (
   return {dates: datesForCalendar, fromDate, toDate, lengthDateRange};
 };
 
-export const getDotsDates = (dots: Date[]) => {
+export const getDottedDates = (dots: Date[], dotColor: string) => {
   const datesForCalendar: IMarkedTypes = {};
 
-  for (let i = 0; i < dots.length; i++) {
-    const dot = dots[i];
-    if (dot) {
-      datesForCalendar[getDateForCalendar(dot)] = {
-        marked: true,
-        dotColor: '#2B78EE',
-      };
-    }
+  for (const dot of dots) {
+    datesForCalendar[getDateForCalendar(dot)] = {
+      marked: true,
+      dotColor: dotColor,
+    };
   }
 
   return {dates: datesForCalendar};
