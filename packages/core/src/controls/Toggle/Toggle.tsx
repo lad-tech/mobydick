@@ -1,30 +1,50 @@
-import React, {FC} from 'react';
-import {Animated} from 'react-native';
+import React, {FC, useEffect, useRef} from 'react';
+import {Animated, Easing} from 'react-native';
+import {useToggle} from '@npm/mobydick-utils';
 
 import useStyles from '../../styles/theme/hooks/useStyles';
 import rem from '../../styles/spaces/rem';
 import Pressable from '../../basic/components/Pressable/Pressable';
 
 import stylesCreate from './stylesCreate';
-import useToggle from './useToggle';
 import {IToggle} from './types';
 
-const Toggle: FC<IToggle> = ({active, disabled, ...rest}) => {
+const Toggle: FC<IToggle> = ({active, disabled, onPress, ...rest}) => {
   const [styles, theme] = useStyles(stylesCreate, disabled);
-  const toggle = useToggle(active);
+  const [state, toggle] = useToggle(active);
+  const toValue = state ? 1 : 0;
+  const animatedValue = useRef(new Animated.Value(toValue)).current;
 
-  const translateX = toggle.interpolate({
+  useEffect(() => {
+    Animated.timing(animatedValue, {
+      toValue: toValue,
+      duration: 300,
+      useNativeDriver: false,
+      easing: Easing.ease,
+    }).start();
+  }, [toValue]);
+
+  useEffect(() => {
+    onPress(state);
+  }, [state]);
+
+  const translateX = animatedValue.interpolate({
     inputRange: [0, 1],
     outputRange: [0, rem(20)],
   });
 
-  const backgroundColor = toggle.interpolate({
+  const backgroundColor = animatedValue.interpolate({
     inputRange: [0, 1],
     outputRange: [theme.colors.ElementMuted, theme.colors.ElementBase],
   });
 
   return (
-    <Pressable disabled={disabled} {...rest}>
+    <Pressable
+      disabled={disabled}
+      onPress={() => {
+        toggle();
+      }}
+      {...rest}>
       <Animated.View
         style={[styles.container, {backgroundColor}]}
         needsOffscreenAlphaCompositing={true}>

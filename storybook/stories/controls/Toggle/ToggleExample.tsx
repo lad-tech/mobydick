@@ -8,7 +8,7 @@ const ToggleExample = () => {
 
   return (
     <Toggle
-      onPress={() => setActive(!isActive)}
+      onPress={setActive}
       active={isActive}
       disabled={boolean('disabled', false)}
     />
