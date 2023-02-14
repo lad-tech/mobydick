@@ -19,7 +19,7 @@ import {
   calculateYearRange,
   getAllDatesBetween,
   getDateForCalendar,
-  getDotsDates,
+  getDottedDates,
   getMarkedToday,
   isValidDate,
 } from './functions';
@@ -86,7 +86,7 @@ const Calendar: FC<ICalendar> = props => {
   const [yearRange, setYearRange] = useState<number[]>(
     calculateYearRange(currentYear),
   );
-  const dateDots = getDotsDates(dottedDates);
+  const dateDots = getDottedDates(dottedDates, colors.ElementBase);
   const dateToday = getMarkedToday(colorsArg);
 
   const themeStyles = useMemo(

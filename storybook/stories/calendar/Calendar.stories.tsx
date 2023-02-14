@@ -77,6 +77,7 @@ const CalendarPopupExample = () => {
             new Date('2023-02-08'),
             new Date('2023-02-28'),
             new Date('2023-02-16'),
+            new Date('2023-02-14'),
           ]}
           {...propsFromPopup}
         />
