@@ -12,7 +12,7 @@
     "index.ts"
   ],
   "scripts": {
-    "prepublishOnly": "tsc",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kirill Lebedev <lebedevki@lad24.ru>",
