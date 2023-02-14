@@ -5,6 +5,7 @@ import {useToggle} from '@npm/mobydick-utils';
 import useStyles from '../../styles/theme/hooks/useStyles';
 import rem from '../../styles/spaces/rem';
 import Pressable from '../../basic/components/Pressable/Pressable';
+import {LABELS} from '../../other';
 
 import stylesCreate from './stylesCreate';
 import {IToggle} from './types';
@@ -44,6 +45,7 @@ const Toggle: FC<IToggle> = ({active, disabled, onPress, ...rest}) => {
       onPress={() => {
         toggle();
       }}
+      accessibilityLabel={LABELS.togglePress}
       {...rest}>
       <Animated.View
         style={[styles.container, {backgroundColor}]}
