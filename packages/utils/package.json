@@ -2,12 +2,13 @@
   "name": "@npm/mobydick-utils",
   "version": "4.12.1",
   "description": "Utils for MobyDick",
-  "main": "lib/commonjs/index",
-  "module": "lib/module/index",
-  "types": "lib/typescript/index.d.ts",
+  "main": "lib/index",
+  "module": "lib/index",
+  "types": "lib/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
   "files": [
+    "lib",
     "src",
     "index.ts"
   ],
