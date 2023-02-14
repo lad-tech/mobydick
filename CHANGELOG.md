@@ -1,3 +1,10 @@
+# [4.12.0](https://glab.lad24.ru/npm/mobydick/compare/v4.11.0...v4.12.0) (2023-02-14)
+
+
+### Features
+
+* **calendar:** add dottedDates ([f589c27](https://glab.lad24.ru/npm/mobydick/commit/f589c279b3b983d19d92437542db1a853fe4f277))
+
 # [4.11.0](https://glab.lad24.ru/npm/mobydick/compare/v4.10.0...v4.11.0) (2023-02-13)
 
 
