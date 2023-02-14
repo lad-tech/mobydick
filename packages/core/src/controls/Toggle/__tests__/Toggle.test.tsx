@@ -5,22 +5,28 @@ import {Toggle} from '../index';
 
 describe('Toggle', () => {
   it('should renders correctly by default', function () {
-    const {toJSON} = render(<Toggle active={false} disabled={false} />);
+    const fn = jest.fn();
+    const {toJSON} = render(
+      <Toggle active={false} disabled={false} onPress={fn} />,
+    );
     expect(toJSON()).toMatchSnapshot();
   });
 
   it('should renders correctly active', function () {
-    const {toJSON} = render(<Toggle active disabled={false} />);
+    const fn = jest.fn();
+    const {toJSON} = render(<Toggle active disabled={false} onPress={fn} />);
     expect(toJSON()).toMatchSnapshot();
   });
 
   it('should renders correctly disabled', function () {
-    const {toJSON} = render(<Toggle active={false} disabled />);
+    const fn = jest.fn();
+    const {toJSON} = render(<Toggle active={false} disabled onPress={fn} />);
     expect(toJSON()).toMatchSnapshot();
   });
 
   it('should renders correctly active and disabled', function () {
-    const {toJSON} = render(<Toggle active disabled />);
+    const fn = jest.fn();
+    const {toJSON} = render(<Toggle active disabled onPress={fn} />);
     expect(toJSON()).toMatchSnapshot();
   });
 });

@@ -1,6 +1,5 @@
-import {IPressableProps} from '../../basic/components/Pressable/types';
-
-export interface IToggle extends IPressableProps {
+export interface IToggle {
   active: boolean;
   disabled: boolean;
+  onPress: (event: boolean) => void;
 }
