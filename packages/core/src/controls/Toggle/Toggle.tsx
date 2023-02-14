@@ -1,4 +1,4 @@
-import React, {FC, useEffect, useRef} from 'react';
+import React, {FC, useCallback, useEffect, useRef} from 'react';
 import {Animated, Easing} from 'react-native';
 import {useToggle} from '@npm/mobydick-utils';
 
@@ -39,12 +39,14 @@ const Toggle: FC<IToggle> = ({active, disabled, onPress, ...rest}) => {
     outputRange: [theme.colors.ElementMuted, theme.colors.ElementBase],
   });
 
+  const onPressToggle = useCallback(() => {
+    toggle();
+  }, [toggle]);
+
   return (
     <Pressable
       disabled={disabled}
-      onPress={() => {
-        toggle();
-      }}
+      onPress={onPressToggle}
       accessibilityLabel={LABELS.togglePress}
       {...rest}>
       <Animated.View
