@@ -9,12 +9,11 @@ exports[`Counter render counter ICounterSize.medium 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#2B78EE",
         "borderRadius": 18,
         "height": 36,
         "justifyContent": "center",
         "minWidth": 36,
-        "position": "absolute",
         "zIndex": 1,
       },
       undefined,
@@ -31,11 +30,13 @@ exports[`Counter render counter ICounterSize.medium 1`] = `
           "fontSize": 24,
           "lineHeight": 30,
         },
-        {
-          "color": "#FFF",
-          "paddingHorizontal": 9,
-          "textAlign": "center",
-        },
+        [
+          {
+            "color": "#FFF",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
+        ],
       ]
     }
   >
@@ -51,12 +52,11 @@ exports[`Counter render counter ICounterSize.small 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#2B78EE",
         "borderRadius": 13.5,
         "height": 27,
         "justifyContent": "center",
         "minWidth": 27,
-        "position": "absolute",
         "zIndex": 1,
       },
       undefined,
@@ -73,11 +73,13 @@ exports[`Counter render counter ICounterSize.small 1`] = `
           "fontSize": 18,
           "lineHeight": 24,
         },
-        {
-          "color": "#FFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "color": "#FFF",
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+        ],
       ]
     }
   >
@@ -98,7 +100,6 @@ exports[`Counter render counter ICounterTypes.destructive 1`] = `
         "height": 36,
         "justifyContent": "center",
         "minWidth": 36,
-        "position": "absolute",
         "zIndex": 1,
       },
       undefined,
@@ -115,11 +116,13 @@ exports[`Counter render counter ICounterTypes.destructive 1`] = `
           "fontSize": 24,
           "lineHeight": 30,
         },
-        {
-          "color": "#F54D3D",
-          "paddingHorizontal": 9,
-          "textAlign": "center",
-        },
+        [
+          {
+            "color": "#F54D3D",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
+        ],
       ]
     }
   >
@@ -140,7 +143,6 @@ exports[`Counter render counter ICounterTypes.disabled 1`] = `
         "height": 36,
         "justifyContent": "center",
         "minWidth": 36,
-        "position": "absolute",
         "zIndex": 1,
       },
       undefined,
@@ -157,11 +159,13 @@ exports[`Counter render counter ICounterTypes.disabled 1`] = `
           "fontSize": 24,
           "lineHeight": 30,
         },
-        {
-          "color": "#9BA1B0",
-          "paddingHorizontal": 9,
-          "textAlign": "center",
-        },
+        [
+          {
+            "color": "#9BA1B0",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
+        ],
       ]
     }
   >
@@ -182,7 +186,6 @@ exports[`Counter render counter ICounterTypes.primary 1`] = `
         "height": 36,
         "justifyContent": "center",
         "minWidth": 36,
-        "position": "absolute",
         "zIndex": 1,
       },
       undefined,
@@ -199,11 +202,13 @@ exports[`Counter render counter ICounterTypes.primary 1`] = `
           "fontSize": 24,
           "lineHeight": 30,
         },
-        {
-          "color": "#2B78EE",
-          "paddingHorizontal": 9,
-          "textAlign": "center",
-        },
+        [
+          {
+            "color": "#2B78EE",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
+        ],
       ]
     }
   >
@@ -224,7 +229,6 @@ exports[`Counter render counter ICounterTypes.secondary 1`] = `
         "height": 36,
         "justifyContent": "center",
         "minWidth": 36,
-        "position": "absolute",
         "zIndex": 1,
       },
       undefined,
@@ -241,11 +245,13 @@ exports[`Counter render counter ICounterTypes.secondary 1`] = `
           "fontSize": 24,
           "lineHeight": 30,
         },
-        {
-          "color": "#2B78EE",
-          "paddingHorizontal": 9,
-          "textAlign": "center",
-        },
+        [
+          {
+            "color": "#2B78EE",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
+        ],
       ]
     }
   >
@@ -266,7 +272,6 @@ exports[`Counter render counter ICounterTypes.tertiary 1`] = `
         "height": 36,
         "justifyContent": "center",
         "minWidth": 36,
-        "position": "absolute",
         "zIndex": 1,
       },
       undefined,
@@ -283,11 +288,13 @@ exports[`Counter render counter ICounterTypes.tertiary 1`] = `
           "fontSize": 24,
           "lineHeight": 30,
         },
-        {
-          "color": "#FFF",
-          "paddingHorizontal": 9,
-          "textAlign": "center",
-        },
+        [
+          {
+            "color": "#FFF",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
+        ],
       ]
     }
   >
@@ -303,12 +310,11 @@ exports[`Counter render counter style 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#2B78EE",
         "borderRadius": 18,
         "height": 36,
         "justifyContent": "center",
         "minWidth": 36,
-        "position": "absolute",
         "zIndex": 1,
       },
       {
@@ -327,11 +333,13 @@ exports[`Counter render counter style 1`] = `
           "fontSize": 24,
           "lineHeight": 30,
         },
-        {
-          "color": "#FFF",
-          "paddingHorizontal": 9,
-          "textAlign": "center",
-        },
+        [
+          {
+            "color": "#FFF",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
+        ],
       ]
     }
   >
