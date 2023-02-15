@@ -37,7 +37,6 @@ const stylesCreate = (
 
   return StyleSheet.create({
     counter: {
-      position: 'absolute',
       zIndex: 1,
       alignSelf: 'center',
       minWidth: defaultSize,
