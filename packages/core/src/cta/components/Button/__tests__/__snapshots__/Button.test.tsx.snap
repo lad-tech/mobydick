@@ -152,12 +152,10 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
           "height": 36,
           "justifyContent": "center",
           "minWidth": 36,
-          "position": "absolute",
           "zIndex": 1,
         },
         {
           "marginLeft": 3,
-          "position": "relative",
         },
       ]
     }
@@ -684,12 +682,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
           "height": 36,
           "justifyContent": "center",
           "minWidth": 36,
-          "position": "absolute",
           "zIndex": 1,
         },
         {
           "marginLeft": 3,
-          "position": "relative",
         },
       ]
     }
@@ -759,12 +755,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
           "height": 36,
           "justifyContent": "center",
           "minWidth": 36,
-          "position": "absolute",
           "zIndex": 1,
         },
         {
           "marginLeft": 3,
-          "position": "relative",
         },
       ]
     }
@@ -834,12 +828,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
           "height": 36,
           "justifyContent": "center",
           "minWidth": 36,
-          "position": "absolute",
           "zIndex": 1,
         },
         {
           "marginLeft": 3,
-          "position": "relative",
         },
       ]
     }
@@ -909,12 +901,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
           "height": 36,
           "justifyContent": "center",
           "minWidth": 36,
-          "position": "absolute",
           "zIndex": 1,
         },
         {
           "marginLeft": 3,
-          "position": "relative",
         },
       ]
     }
@@ -1036,12 +1026,10 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
           "height": 36,
           "justifyContent": "center",
           "minWidth": 36,
-          "position": "absolute",
           "zIndex": 1,
         },
         {
           "marginLeft": 3,
-          "position": "relative",
         },
       ]
     }

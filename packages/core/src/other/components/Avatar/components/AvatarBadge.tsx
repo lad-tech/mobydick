@@ -51,6 +51,7 @@ const stylesCreate = () =>
       right: 2,
     },
     counter: {
+      position: 'absolute',
       bottom: -3,
       right: -3,
     },

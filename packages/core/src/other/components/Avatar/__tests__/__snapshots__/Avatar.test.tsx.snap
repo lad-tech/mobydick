@@ -111,11 +111,11 @@ exports[`Avatar render avatar badge counter 1`] = `
           "height": 27,
           "justifyContent": "center",
           "minWidth": 27,
-          "position": "absolute",
           "zIndex": 1,
         },
         {
           "bottom": -3,
+          "position": "absolute",
           "right": -3,
         },
       ]
