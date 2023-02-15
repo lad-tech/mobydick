@@ -170,13 +170,11 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
             "fontSize": 24,
             "lineHeight": 30,
           },
-          [
-            {
-              "color": "#F54D3D",
-              "paddingHorizontal": 9,
-              "textAlign": "center",
-            },
-          ],
+          {
+            "color": "#F54D3D",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
         ]
       }
     >
@@ -702,13 +700,11 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
             "fontSize": 24,
             "lineHeight": 30,
           },
-          [
-            {
-              "color": "#2B78EE",
-              "paddingHorizontal": 9,
-              "textAlign": "center",
-            },
-          ],
+          {
+            "color": "#2B78EE",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
         ]
       }
     >
@@ -777,13 +773,11 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
             "fontSize": 24,
             "lineHeight": 30,
           },
-          [
-            {
-              "color": "#2B78EE",
-              "paddingHorizontal": 9,
-              "textAlign": "center",
-            },
-          ],
+          {
+            "color": "#2B78EE",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
         ]
       }
     >
@@ -852,13 +846,11 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
             "fontSize": 24,
             "lineHeight": 30,
           },
-          [
-            {
-              "color": "#FFF",
-              "paddingHorizontal": 9,
-              "textAlign": "center",
-            },
-          ],
+          {
+            "color": "#FFF",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
         ]
       }
     >
@@ -927,13 +919,11 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
             "fontSize": 24,
             "lineHeight": 30,
           },
-          [
-            {
-              "color": "#9BA1B0",
-              "paddingHorizontal": 9,
-              "textAlign": "center",
-            },
-          ],
+          {
+            "color": "#9BA1B0",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
         ]
       }
     >
@@ -1054,13 +1044,11 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
             "fontSize": 24,
             "lineHeight": 30,
           },
-          [
-            {
-              "color": "#F54D3D",
-              "paddingHorizontal": 9,
-              "textAlign": "center",
-            },
-          ],
+          {
+            "color": "#F54D3D",
+            "paddingHorizontal": 9,
+            "textAlign": "center",
+          },
         ]
       }
     >

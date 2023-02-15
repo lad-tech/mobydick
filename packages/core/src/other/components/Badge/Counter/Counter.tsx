@@ -38,7 +38,7 @@ const Counter: FC<IProps> = ({
 
   return (
     <View style={[styles.counter, style]}>
-      <Typography style={[styles.text]} font={font}>
+      <Typography style={styles.text} font={font}>
         {text}
       </Typography>
     </View>
