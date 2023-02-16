@@ -8,7 +8,7 @@ exports[`Avatar render avatar ITypeAvatar.icon 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderRadius": 60,
+        "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -43,7 +43,7 @@ exports[`Avatar render avatar ITypeAvatar.text 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderRadius": 60,
+        "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -82,7 +82,7 @@ exports[`Avatar render avatar badge counter 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderRadius": 60,
+        "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -159,7 +159,7 @@ exports[`Avatar render avatar badge indicator 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderRadius": 60,
+        "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -216,7 +216,7 @@ exports[`Avatar render avatar badge null 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderRadius": 60,
+        "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -251,7 +251,7 @@ exports[`Avatar render avatar badge status 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderRadius": 60,
+        "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -302,7 +302,7 @@ exports[`Avatar render avatar not photo 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderRadius": 60,
+        "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -324,7 +324,7 @@ exports[`Avatar render avatar not photo 1`] = `
     }
     style={
       {
-        "borderRadius": 60,
+        "borderRadius": 30,
         "height": 60,
         "width": 60,
       }
@@ -458,7 +458,7 @@ exports[`Avatar render avatar with photo without size 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderRadius": 60,
+        "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -480,7 +480,7 @@ exports[`Avatar render avatar with photo without size 1`] = `
     }
     style={
       {
-        "borderRadius": 60,
+        "borderRadius": 30,
         "height": 60,
         "width": 60,
       }

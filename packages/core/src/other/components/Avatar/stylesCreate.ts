@@ -16,7 +16,7 @@ const getSizeStyles = (sizeAvatar: IAvatarSize): ImageStyle => {
       return {
         width: rem(40),
         height: rem(40),
-        borderRadius: rem(40),
+        borderRadius: rem(20),
       };
     case IAvatarSize.L:
       return {
