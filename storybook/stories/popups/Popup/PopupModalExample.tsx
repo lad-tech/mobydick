@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useCallback, useState} from 'react';
 import {text} from '@storybook/addon-knobs';
 
 import ExampleModal from './ExampleModal';
@@ -11,12 +11,13 @@ import {
   View,
   Button,
 } from '@npm/mobydick-core';
+import ModalAsk from '@npm/mobydick-core/src/popups/components/Modals/ModalAsk';
 
 const PopupModalExample = () => {
   const popupContext = usePopups();
   const [popupCount, setPopupCount] = useState(0);
 
-  const onPress = () => {
+  const onPress = useCallback(() => {
     const newCount = popupCount + 1;
 
     setPopupCount(newCount);
@@ -24,9 +25,9 @@ const PopupModalExample = () => {
     popupContext.openPopup({
       Content: ExampleModal,
     });
-  };
+  }, [popupContext, popupCount]);
 
-  const onPressModalSuccess = () => {
+  const onPressModalSuccess = useCallback(() => {
     popupContext.openPopup({
       Content: propsFromPopup => (
         <ModalSuccess
@@ -39,7 +40,7 @@ const PopupModalExample = () => {
         />
       ),
     });
-  };
+  }, [popupContext]);
 
   const onPressModalLoading = () => {
     popupContext.openPopup({
@@ -56,11 +57,26 @@ const PopupModalExample = () => {
       ),
     });
   };
-
-  const onPressModalError = () => {
+  const onPressModalError = useCallback(() => {
     popupContext.openPopup({
       Content: propsFromPopup => (
         <ModalError
+          {...propsFromPopup}
+          title={'Error...'}
+          descriptionText={text(
+            'Description text error message',
+            'This is a error message',
+          )}
+          buttonText={'Cancel'}
+        />
+      ),
+    });
+  }, [popupContext]);
+
+  const onPressModalAsk = useCallback(() => {
+    popupContext.openPopup({
+      Content: propsFromPopup => (
+        <ModalAsk
           {...propsFromPopup}
           title={'Delete account?'}
           descriptionText={text(
@@ -73,7 +89,7 @@ const PopupModalExample = () => {
         />
       ),
     });
-  };
+  }, [popupContext]);
 
   return (
     <View>
@@ -92,7 +108,12 @@ const PopupModalExample = () => {
         onPress={onPressModalSuccess}
         style={{marginBottom: 10}}
       />
-      <Button text={'Open modal error'} onPress={onPressModalError} />
+      <Button
+        text={'Open modal error'}
+        onPress={onPressModalError}
+        style={{marginBottom: 10}}
+      />
+      <Button text={'Open modal ask'} onPress={onPressModalAsk} />
     </View>
   );
 };
