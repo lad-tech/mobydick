@@ -1,14 +1,16 @@
 import {render} from '@testing-library/react-native';
 import React from 'react';
 
-import ModalError from '../ModalError';
+import {IButtonTypes} from '../../../../cta/components/Button/types';
+import ModalAsk from '../ModalAsk';
 
-describe('@npm/mobydick-core/modalError', () => {
+describe('@npm/mobydick-core/modalAsk', () => {
   it('should renders correctly', () => {
     const {toJSON} = render(
-      <ModalError
+      <ModalAsk
         title={'title'}
         descriptionText={'descriptionText'}
+        onPressRight={() => null}
         id={'id'}
         onClose={() => null}
       />,
@@ -18,10 +20,14 @@ describe('@npm/mobydick-core/modalError', () => {
   });
   it('should renders correctly with optional', () => {
     const {toJSON} = render(
-      <ModalError
+      <ModalAsk
         title={'title'}
         descriptionText={'descriptionText'}
-        buttonText={'buttonText'}
+        onPressRight={() => null}
+        typeRight={IButtonTypes.primary}
+        textRight={'textRight'}
+        typeLeft={IButtonTypes.primary}
+        textLeft={'textLeft'}
         id={'id'}
         onClose={() => null}
       />,
