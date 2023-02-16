@@ -53,6 +53,7 @@ interface IAvatarProps {
   badge?: IBadge;
   backgroundColorBadge?: string;
   disabled?: boolean;
+  border?: boolean;
 }
 
 export type AvatarProps = IAvatarProps;

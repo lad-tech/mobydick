@@ -23,18 +23,38 @@ const AvatarGroup: FC<IProps> = props => {
   return (
     <View style={styles.container}>
       {groups[0] && (
-        <Avatar user={groups[0]} style={styles.avatarOne} {...otherProps} />
+        <Avatar
+          user={groups[0]}
+          style={styles.avatarOne}
+          border
+          {...otherProps}
+        />
       )}
       {groups[1] && (
-        <Avatar user={groups[1]} style={styles.avatarTwo} {...otherProps} />
+        <Avatar
+          user={groups[1]}
+          style={styles.avatarTwo}
+          border
+          {...otherProps}
+        />
       )}
       {groups[2] && (
-        <Avatar user={groups[2]} style={styles.avatarThree} {...otherProps} />
+        <Avatar
+          user={groups[2]}
+          style={styles.avatarThree}
+          border
+          {...otherProps}
+        />
       )}
 
       {count < 3 ? (
         groups[3] && (
-          <Avatar user={groups[3]} style={styles.avatarFour} {...otherProps} />
+          <Avatar
+            user={groups[3]}
+            style={styles.avatarFour}
+            border
+            {...otherProps}
+          />
         )
       ) : (
         <View style={styles.countView}>

@@ -8,9 +8,7 @@ exports[`Avatar render avatar ITypeAvatar.icon 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 30,
-        "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -45,9 +43,7 @@ exports[`Avatar render avatar ITypeAvatar.text 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 30,
-        "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -86,9 +82,7 @@ exports[`Avatar render avatar badge counter 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 30,
-        "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -165,9 +159,7 @@ exports[`Avatar render avatar badge indicator 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 30,
-        "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -224,16 +216,14 @@ exports[`Avatar render avatar badge null 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 30,
-        "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
       },
       undefined,
       {
-        "opacity": 0.6,
+        "opacity": 0.5,
       },
     ]
   }
@@ -261,9 +251,7 @@ exports[`Avatar render avatar badge status 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 30,
-        "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -314,9 +302,7 @@ exports[`Avatar render avatar not photo 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 30,
-        "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -338,9 +324,7 @@ exports[`Avatar render avatar not photo 1`] = `
     }
     style={
       {
-        "borderColor": "#FFF",
         "borderRadius": 30,
-        "borderWidth": 3,
         "height": 60,
         "width": 60,
       }
@@ -357,9 +341,7 @@ exports[`Avatar render avatar with photo L 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 45,
-        "borderWidth": 3,
         "height": 90,
         "justifyContent": "center",
         "width": 90,
@@ -381,9 +363,7 @@ exports[`Avatar render avatar with photo L 1`] = `
     }
     style={
       {
-        "borderColor": "#FFF",
         "borderRadius": 45,
-        "borderWidth": 3,
         "height": 90,
         "width": 90,
       }
@@ -400,9 +380,7 @@ exports[`Avatar render avatar with photo S 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 18,
-        "borderWidth": 3,
         "height": 36,
         "justifyContent": "center",
         "width": 36,
@@ -424,9 +402,7 @@ exports[`Avatar render avatar with photo S 1`] = `
     }
     style={
       {
-        "borderColor": "#FFF",
         "borderRadius": 18,
-        "borderWidth": 3,
         "height": 36,
         "width": 36,
       }
@@ -443,9 +419,7 @@ exports[`Avatar render avatar with photo XL 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 60,
-        "borderWidth": 3,
         "height": 120,
         "justifyContent": "center",
         "width": 120,
@@ -467,9 +441,7 @@ exports[`Avatar render avatar with photo XL 1`] = `
     }
     style={
       {
-        "borderColor": "#FFF",
         "borderRadius": 60,
-        "borderWidth": 3,
         "height": 120,
         "width": 120,
       }
@@ -486,9 +458,7 @@ exports[`Avatar render avatar with photo without size 1`] = `
         "alignItems": "center",
         "alignSelf": "center",
         "backgroundColor": "#2B78EE",
-        "borderColor": "#FFF",
         "borderRadius": 30,
-        "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
@@ -510,9 +480,7 @@ exports[`Avatar render avatar with photo without size 1`] = `
     }
     style={
       {
-        "borderColor": "#FFF",
         "borderRadius": 30,
-        "borderWidth": 3,
         "height": 60,
         "width": 60,
       }
@@ -521,4 +489,4 @@ exports[`Avatar render avatar with photo without size 1`] = `
 </View>
 `;
 
-exports[`Avatar render without avatar 1`] = `null`;
+exports[`Avatar render without avatar border 1`] = `null`;
