@@ -1,25 +1,22 @@
 import {ImageStyle, StyleSheet} from 'react-native';
 
-import {defaultSpaces, IThemeContext, rem} from '../../../styles';
+import {IThemeContext, rem} from '../../../styles';
 
 import {IAvatarSize} from './types';
 
-const getSizeStyles = (
-  sizeAvatar: IAvatarSize,
-  spaces: typeof defaultSpaces,
-): ImageStyle => {
+const getSizeStyles = (sizeAvatar: IAvatarSize): ImageStyle => {
   switch (sizeAvatar) {
     case IAvatarSize.S:
       return {
-        width: spaces.Space24,
-        height: spaces.Space24,
-        borderRadius: spaces.Space12,
+        width: rem(24),
+        height: rem(24),
+        borderRadius: rem(12),
       };
     case IAvatarSize.M:
       return {
-        width: spaces.Space40,
-        height: spaces.Space40,
-        borderRadius: spaces.Space20,
+        width: rem(40),
+        height: rem(40),
+        borderRadius: rem(40),
       };
     case IAvatarSize.L:
       return {
@@ -35,6 +32,14 @@ const getSizeStyles = (
       };
   }
 };
+const getBorderStyles = (color: string, border?: boolean) => {
+  return (
+    border && {
+      borderWidth: rem(2),
+      borderColor: color,
+    }
+  );
+};
 
 const stylesCreate = (
   theme: IThemeContext,
@@ -42,7 +47,7 @@ const stylesCreate = (
   backgroundColor?: string,
   border?: boolean,
 ) => {
-  const {spaces, colors} = theme;
+  const {colors} = theme;
 
   return StyleSheet.create({
     container: {
@@ -50,14 +55,13 @@ const stylesCreate = (
       alignSelf: 'center',
       justifyContent: 'center',
       alignItems: 'center',
-      borderWidth: border ? spaces.Space2 : 0,
-      borderColor: colors.BgPrimary,
-      ...getSizeStyles(size, spaces),
+
+      ...getSizeStyles(size),
+      ...getBorderStyles(colors.BgPrimary, border),
     },
     image: {
-      borderWidth: border ? spaces.Space2 : 0,
-      borderColor: colors.BgPrimary,
-      ...getSizeStyles(size, spaces),
+      ...getSizeStyles(size),
+      ...getBorderStyles(colors.BgPrimary, border),
     },
   });
 };
