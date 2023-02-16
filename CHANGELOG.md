@@ -1,3 +1,24 @@
+# [5.0.0](https://glab.lad24.ru/npm/mobydick/compare/v4.12.1...v5.0.0) (2023-02-16)
+
+
+### Bug Fixes
+
+* **Counter:** update style ([2e756f0](https://glab.lad24.ru/npm/mobydick/commit/2e756f07a8cf2a5841745cd756baa3f0b45e9290))
+
+
+### Features
+
+* **hitSlop:** add hitSlop ([320a35d](https://glab.lad24.ru/npm/mobydick/commit/320a35dff96e944882e71e3866299c48481132eb))
+* **hitSlop:** add style ([e4f7501](https://glab.lad24.ru/npm/mobydick/commit/e4f75017bdd7efa779a7648b9ed7af8578e61731))
+* **Modal:** add new ModalError ([a37ef74](https://glab.lad24.ru/npm/mobydick/commit/a37ef74d24ae5a84b7b67af1424bf5ee356947dd))
+* **toggle:** add useIsForeground ([ab00b3d](https://glab.lad24.ru/npm/mobydick/commit/ab00b3d326f880035a814a2561f20f2c71c87780))
+* **useToggle:** add useToggle ([a821581](https://glab.lad24.ru/npm/mobydick/commit/a82158176a5ee78a73c40f9d170bd16be593bb1e))
+
+
+### BREAKING CHANGES
+
+* **useToggle:** remove old useToggle, onPress required in toggle now
+
 ## [4.12.1](https://glab.lad24.ru/npm/mobydick/compare/v4.12.0...v4.12.1) (2023-02-14)
 
 
