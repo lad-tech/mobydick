@@ -81,9 +81,9 @@ describe('Avatar', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
-  test('render without avatar', () => {
+  test('render without avatar border', () => {
     const userEmpty = null;
-    const {toJSON} = render(<Avatar user={userEmpty} />);
+    const {toJSON} = render(<Avatar user={userEmpty} border />);
 
     expect(toJSON()).toMatchSnapshot();
   });

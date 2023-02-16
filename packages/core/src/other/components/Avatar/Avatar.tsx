@@ -19,8 +19,9 @@ const Avatar: FC<AvatarProps> = props => {
     style,
     badge,
     disabled = false,
+    border = false,
   } = props;
-  const [styles] = useStyles(stylesCreate, size, backgroundColor);
+  const [styles] = useStyles(stylesCreate, size, backgroundColor, border);
 
   const [error, setError] = useState<ImageErrorEventData>();
 
@@ -33,7 +34,7 @@ const Avatar: FC<AvatarProps> = props => {
   }
 
   return (
-    <View style={[styles.container, style, {opacity: disabled ? 0.6 : 1}]}>
+    <View style={[styles.container, style, {opacity: disabled ? 0.5 : 1}]}>
       {!!badge && <AvatarBadge badge={badge} />}
       {error || !user.logo ? (
         <AvatarWithoutImage
