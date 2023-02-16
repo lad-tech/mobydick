@@ -37,6 +37,22 @@ const userIcon = {
   lastName: 'Пушкин',
 };
 
+const groupDateThree = [
+  {
+    logo: ImageAvatar,
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
+  {
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
+  {
+    logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
+    firstName: 'Иван',
+    lastName: 'Пушкин',
+  },
+];
 const groupDate = [
   {
     logo: ImageAvatar,
@@ -95,7 +111,17 @@ const AvatarExample = () => {
         <AvatarGroup groups={groupDate} />
       </View>
       <View style={{paddingVertical: spaces.Space8}}>
-        <AvatarGroup groups={groupDate.concat(groupDate)} />
+        <AvatarGroup
+          groups={groupDateThree
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)
+            .concat(groupDate)}
+        />
       </View>
       <View style={{paddingVertical: spaces.Space8}}>
         <AvatarGroup

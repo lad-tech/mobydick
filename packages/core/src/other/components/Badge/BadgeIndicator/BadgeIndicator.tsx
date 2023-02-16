@@ -5,6 +5,7 @@ import View from '../../../../basic/components/View/View';
 import useStyles from '../../../../styles/theme/hooks/useStyles';
 import {IThemeContext} from '../../../../styles';
 import useTheme from '../../../../styles/theme/hooks/useTheme';
+import rem from '../../../../styles/spaces/rem';
 
 import {IIndicatorTypes} from './types';
 
@@ -40,9 +41,9 @@ const stylesCreate = ({spaces, colors}: IThemeContext) =>
     indicator: {
       position: 'absolute',
       zIndex: 1,
-      minWidth: spaces.Space8,
-      height: spaces.Space8,
-      borderRadius: spaces.Space8 / 2,
+      width: rem(9),
+      height: rem(9),
+      borderRadius: rem(9) / 2,
       borderColor: colors.BgPrimary,
       borderWidth: spaces.Space1,
     },

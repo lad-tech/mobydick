@@ -176,11 +176,11 @@ exports[`Avatar render avatar badge indicator 1`] = `
       [
         {
           "borderColor": "#FFF",
-          "borderRadius": 6,
+          "borderRadius": 6.75,
           "borderWidth": 1.5,
-          "height": 12,
-          "minWidth": 12,
+          "height": 13.5,
           "position": "absolute",
+          "width": 13.5,
           "zIndex": 1,
         },
         {
