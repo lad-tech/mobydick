@@ -1,6 +1,5 @@
 import {boolean, text} from '@storybook/addon-knobs';
-import {action} from '@storybook/addon-actions';
-import React from 'react';
+import React, {useState} from 'react';
 
 import {
   font,
@@ -25,13 +24,14 @@ import {
 
 const CheckboxListExample = () => {
   const [styles] = useStyles(stylesCreate);
+  const [values, setValues] = useState([optionOne, optionFour]);
 
   return (
     <ControlsList
       single={boolean('single', false)}
       disabled={boolean('disabled', false)}
-      onChange={action('pressed')}
-      initialValues={[optionOne, optionFour]}
+      onChange={setValues}
+      values={values}
       listStyles={styles.listStyle}>
       <CheckBox value={''} containerStyle={styles.containerStyle}>
         <Typography
