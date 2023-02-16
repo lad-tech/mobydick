@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useCallback, useState} from 'react';
 import {text} from '@storybook/addon-knobs';
 
 import ExampleModal from './ExampleModal';
@@ -17,7 +17,7 @@ const PopupModalExample = () => {
   const popupContext = usePopups();
   const [popupCount, setPopupCount] = useState(0);
 
-  const onPress = () => {
+  const onPress = useCallback(() => {
     const newCount = popupCount + 1;
 
     setPopupCount(newCount);
@@ -25,9 +25,9 @@ const PopupModalExample = () => {
     popupContext.openPopup({
       Content: ExampleModal,
     });
-  };
+  }, [popupContext, popupCount]);
 
-  const onPressModalSuccess = () => {
+  const onPressModalSuccess = useCallback(() => {
     popupContext.openPopup({
       Content: propsFromPopup => (
         <ModalSuccess
@@ -40,7 +40,7 @@ const PopupModalExample = () => {
         />
       ),
     });
-  };
+  }, [popupContext]);
 
   const onPressModalLoading = () => {
     popupContext.openPopup({
@@ -57,7 +57,7 @@ const PopupModalExample = () => {
       ),
     });
   };
-  const onPressModalError = () => {
+  const onPressModalError = useCallback(() => {
     popupContext.openPopup({
       Content: propsFromPopup => (
         <ModalError
@@ -71,8 +71,9 @@ const PopupModalExample = () => {
         />
       ),
     });
-  };
-  const onPressModalAsk = () => {
+  }, [popupContext]);
+
+  const onPressModalAsk = useCallback(() => {
     popupContext.openPopup({
       Content: propsFromPopup => (
         <ModalAsk
@@ -88,7 +89,7 @@ const PopupModalExample = () => {
         />
       ),
     });
-  };
+  }, [popupContext]);
 
   return (
     <View>
