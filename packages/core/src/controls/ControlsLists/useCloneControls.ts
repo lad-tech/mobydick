@@ -1,24 +1,17 @@
-import {cloneElement, FunctionComponentElement, useState} from 'react';
+import {cloneElement, FunctionComponentElement} from 'react';
 
 import {IControlProps} from '../types';
 import {IPressableProps} from '../../basic/components/Pressable';
 
+import {IControlsList} from './types';
+
 const useCloneControls = (
   controls: FunctionComponentElement<IControlProps & IPressableProps>[],
+  values: string[],
+  onChange: IControlsList['onChange'],
   single = false,
   disabled = false,
-  initialValues: string[] = [],
 ) => {
-  const commonValues = new Set(initialValues);
-
-  controls.forEach(item => {
-    if (item.props.selected) {
-      commonValues.add(item.props.value);
-    }
-  });
-
-  const [values, setValues] = useState<string[]>(Array.from(commonValues));
-
   const radios = controls.map(
     (radio: FunctionComponentElement<IControlProps & IPressableProps>) => {
       const value = radio.props.value;
@@ -39,7 +32,7 @@ const useCloneControls = (
               data = [...data, value];
             }
           }
-          setValues(data);
+          onChange(data);
         },
       });
     },

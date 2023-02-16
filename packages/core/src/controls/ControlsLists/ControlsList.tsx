@@ -1,4 +1,4 @@
-import React, {FC, useEffect} from 'react';
+import React, {FC} from 'react';
 
 import useStyles from '../../styles/theme/hooks/useStyles';
 import View from '../../basic/components/View/View';
@@ -13,20 +13,17 @@ const ControlsList: FC<IControlsList> = ({
   onChange,
   disabled = false,
   children,
-  initialValues,
+  values,
   listStyles,
 }) => {
-  const {values, radios} = useCloneControls(
+  const {radios} = useCloneControls(
     children,
+    values,
+    onChange,
     single,
     disabled,
-    initialValues,
   );
   const [styles] = useStyles(stylesCreate, horizontal);
-
-  useEffect(() => {
-    onChange(values);
-  }, [values]);
 
   return <View style={[styles.list, listStyles]}>{radios}</View>;
 };
