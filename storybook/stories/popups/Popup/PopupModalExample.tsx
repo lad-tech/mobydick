@@ -11,6 +11,7 @@ import {
   View,
   Button,
 } from '@npm/mobydick-core';
+import ModalAsk from '@npm/mobydick-core/src/popups/components/Modals/ModalAsk';
 
 const PopupModalExample = () => {
   const popupContext = usePopups();
@@ -56,11 +57,25 @@ const PopupModalExample = () => {
       ),
     });
   };
-
   const onPressModalError = () => {
     popupContext.openPopup({
       Content: propsFromPopup => (
         <ModalError
+          {...propsFromPopup}
+          title={'Error...'}
+          descriptionText={text(
+            'Description text error message',
+            'This is a error message',
+          )}
+          buttonText={'Cancel'}
+        />
+      ),
+    });
+  };
+  const onPressModalAsk = () => {
+    popupContext.openPopup({
+      Content: propsFromPopup => (
+        <ModalAsk
           {...propsFromPopup}
           title={'Delete account?'}
           descriptionText={text(
@@ -92,7 +107,12 @@ const PopupModalExample = () => {
         onPress={onPressModalSuccess}
         style={{marginBottom: 10}}
       />
-      <Button text={'Open modal error'} onPress={onPressModalError} />
+      <Button
+        text={'Open modal error'}
+        onPress={onPressModalError}
+        style={{marginBottom: 10}}
+      />
+      <Button text={'Open modal ask'} onPress={onPressModalAsk} />
     </View>
   );
 };

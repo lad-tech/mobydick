@@ -7,10 +7,30 @@ import useTheme from '../../../styles/theme/hooks/useTheme';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 
 import stylesCreate from './stylesCreate';
-import {IModalProps} from './types';
 
-const ModalError: FC<IContentProps & IModalProps> = props => {
-  const {title, descriptionText, buttonText, onClose} = props;
+interface IProps {
+  title: string;
+  descriptionText: string;
+
+  typeLeft?: IButtonTypes;
+  textLeft?: string;
+
+  onPressRight(): void;
+  typeRight?: IButtonTypes;
+  textRight?: string;
+}
+
+const ModalAsk: FC<IContentProps & IProps> = props => {
+  const {
+    title,
+    descriptionText,
+    typeLeft,
+    textLeft,
+    typeRight,
+    textRight,
+    onPressRight,
+    onClose,
+  } = props;
   const {colors} = useTheme();
   const [styles] = useStyles(stylesCreate);
 
@@ -26,15 +46,16 @@ const ModalError: FC<IContentProps & IModalProps> = props => {
       />
 
       <ModalBase.TextContent title={title} descriptionText={descriptionText} />
-      <ModalBase.VerticalButtonsView>
-        <ModalBase.VerticalButton
-          type={IButtonTypes.destructive}
-          onPress={onClose}
-          text={buttonText || 'Ok'}
-        />
-      </ModalBase.VerticalButtonsView>
+      <ModalBase.HorizontalButtonsView
+        typeLeft={typeLeft || IButtonTypes.tertiary}
+        textLeft={textLeft || 'Отмена'}
+        onPressLeft={onClose}
+        typeRight={typeRight || IButtonTypes.destructive}
+        textRight={textRight || 'Удалить'}
+        onPressRight={onPressRight}
+      />
     </ModalBase>
   );
 };
 
-export default ModalError;
+export default ModalAsk;
