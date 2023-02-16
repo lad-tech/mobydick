@@ -1,6 +1,5 @@
 import {boolean, text} from '@storybook/addon-knobs';
-import {action} from '@storybook/addon-actions';
-import React from 'react';
+import React, {useState} from 'react';
 
 import stylesCreate from '../stylesCreate';
 import {
@@ -20,13 +19,14 @@ import {ControlsList, Radio, useStyles, Typography} from '@npm/mobydick-core';
 
 const RadioListExample = () => {
   const [styles] = useStyles(stylesCreate);
+  const [values, setValues] = useState([optionOne]);
 
   return (
     <ControlsList
-      single={boolean('single', false)}
+      single={boolean('single', true)}
       disabled={boolean('disabled', false)}
-      onChange={action('pressed')}
-      initialValues={[optionOne]}
+      onChange={setValues}
+      values={values}
       listStyles={styles.listStyle}>
       <Radio value={optionOne} containerStyle={styles.containerStyle}>
         <Typography
