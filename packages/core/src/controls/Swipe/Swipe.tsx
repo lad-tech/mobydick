@@ -7,10 +7,10 @@ import {
   PanResponderGestureState,
 } from 'react-native';
 
-import stylesCreate from '../Toggle/stylesCreate';
 import useStyles from '../../styles/theme/hooks/useStyles';
 import rem from '../../styles/spaces/rem';
 
+import stylesCreate from './stylesCreate';
 import {ISwipe} from './types';
 
 const leftPos = -20;
