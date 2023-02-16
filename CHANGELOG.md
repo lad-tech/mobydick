@@ -1,3 +1,10 @@
+## [5.0.1](https://glab.lad24.ru/npm/mobydick/compare/v5.0.0...v5.0.1) (2023-02-16)
+
+
+### Bug Fixes
+
+* **avatar:** border is optional ([35c4650](https://glab.lad24.ru/npm/mobydick/commit/35c4650264bbd76b52ee0d3adf30a378ab36c623))
+
 # [5.0.0](https://glab.lad24.ru/npm/mobydick/compare/v4.12.1...v5.0.0) (2023-02-16)
 
 
