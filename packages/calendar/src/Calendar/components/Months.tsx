@@ -39,11 +39,13 @@ const Months: FC<IMonths> = props => {
 
   const renderItem = useCallback(
     ({item, index}: {item: string; index: number}) => {
+      const outerOnPress = () => onPress(index);
+
       return (
         <Pressable
           style={getStyle}
           accessibilityLabel={LABELS.pressMonth}
-          onPress={() => onPress(index)}>
+          onPress={outerOnPress}>
           <Typography>{item}</Typography>
         </Pressable>
       );
