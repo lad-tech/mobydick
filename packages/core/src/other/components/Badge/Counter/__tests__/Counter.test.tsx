@@ -17,34 +17,36 @@ describe('Counter', () => {
     const {toJSON} = render(<Counter size={ICounterSize.small} count={12} />);
     expect(toJSON()).toMatchSnapshot();
   });
-  test('render counter ICounterTypes.secondary', () => {
+  test('render counter ICounterTypes.accentLight', () => {
     const {toJSON} = render(
-      <Counter type={ICounterTypes.secondary} count={123} />,
+      <Counter type={ICounterTypes.accentLight} count={123} />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
-  test('render counter ICounterTypes.destructive', () => {
+  test('render counter ICounterTypes.attentionLight', () => {
     const {toJSON} = render(
-      <Counter type={ICounterTypes.destructive} count={2} />,
+      <Counter type={ICounterTypes.attentionLight} count={2} />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
-  test('render counter ICounterTypes.primary', () => {
+  test('render counter ICounterTypes.attention', () => {
     const {toJSON} = render(
-      <Counter type={ICounterTypes.primary} count={99} maxLength={1} />,
+      <Counter type={ICounterTypes.attention} count={99} maxLength={1} />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
-  test('render counter ICounterTypes.tertiary', () => {
+  test('render counter ICounterTypes.accent', () => {
+    const {toJSON} = render(<Counter type={ICounterTypes.accent} count={10} />);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  test('render counter ICounterTypes.mutedLight', () => {
     const {toJSON} = render(
-      <Counter type={ICounterTypes.tertiary} count={10} />,
+      <Counter type={ICounterTypes.mutedLight} count={10} />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
-  test('render counter ICounterTypes.disabled', () => {
-    const {toJSON} = render(
-      <Counter type={ICounterTypes.disabled} count={10} />,
-    );
+  test('render counter ICounterTypes.muted', () => {
+    const {toJSON} = render(<Counter type={ICounterTypes.muted} count={10} />);
     expect(toJSON()).toMatchSnapshot();
   });
   test('render counter style', () => {

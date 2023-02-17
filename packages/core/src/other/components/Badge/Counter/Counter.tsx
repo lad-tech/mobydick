@@ -20,7 +20,7 @@ const Counter: FC<IProps> = ({
   count,
   style,
   size = ICounterSize.medium,
-  type = ICounterTypes.tertiary,
+  type = ICounterTypes.accent,
   maxLength = 2,
 }) => {
   const [styles] = useStyles(stylesCreate, size, type);

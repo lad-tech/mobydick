@@ -14,21 +14,25 @@ const stylesCreate = (
   const defaultSize = isMedium ? spaces.Space24 : rem(18);
 
   const getBackgroundColor = () => {
-    if (type === ICounterTypes.tertiary) {
-      return {backgroundColor: colors.ElementBase};
-    } else {
-      return {backgroundColor: colors.ElementWhite};
+    switch (type) {
+      case ICounterTypes.attention:
+        return {backgroundColor: colors.ElementAttention};
+      case ICounterTypes.accent:
+        return {backgroundColor: colors.ElementBase};
+      case ICounterTypes.muted:
+        return {backgroundColor: colors.ElementMuted};
+      default:
+        return {backgroundColor: colors.ElementWhite};
     }
   };
 
   const getColorText = () => {
     switch (type) {
-      case ICounterTypes.primary:
-      case ICounterTypes.secondary:
+      case ICounterTypes.accentLight:
         return {color: colors.TextAccent};
-      case ICounterTypes.destructive:
+      case ICounterTypes.attentionLight:
         return {color: colors.TextError};
-      case ICounterTypes.disabled:
+      case ICounterTypes.mutedLight:
         return {color: colors.TextMuted};
       default:
         return {color: colors.TextWhite};

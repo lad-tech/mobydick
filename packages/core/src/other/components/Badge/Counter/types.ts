@@ -4,9 +4,11 @@ export enum ICounterSize {
 }
 
 export enum ICounterTypes {
-  primary = 'primary',
-  secondary = 'secondary',
-  tertiary = 'tertiary',
-  disabled = 'disabled',
-  destructive = 'destructive',
+  accentLight = 'accentLight',
+  accent = 'accent',
+  mutedLight = 'mutedLight',
+  attentionLight = 'attentionLight',
+
+  attention = 'attention',
+  muted = 'muted',
 }

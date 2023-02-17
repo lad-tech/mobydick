@@ -84,14 +84,14 @@ exports[`Counter render counter ICounterSize.small 1`] = `
 </View>
 `;
 
-exports[`Counter render counter ICounterTypes.destructive 1`] = `
+exports[`Counter render counter ICounterTypes.accent 1`] = `
 <View
   style={
     [
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#2B78EE",
         "borderRadius": 18,
         "height": 36,
         "justifyContent": "center",
@@ -113,48 +113,7 @@ exports[`Counter render counter ICounterTypes.destructive 1`] = `
           "lineHeight": 30,
         },
         {
-          "color": "#F54D3D",
-          "paddingHorizontal": 9,
-          "textAlign": "center",
-        },
-      ]
-    }
-  >
-    2
-  </Text>
-</View>
-`;
-
-exports[`Counter render counter ICounterTypes.disabled 1`] = `
-<View
-  style={
-    [
-      {
-        "alignItems": "center",
-        "alignSelf": "center",
-        "backgroundColor": "#FFF",
-        "borderRadius": 18,
-        "height": 36,
-        "justifyContent": "center",
-        "minWidth": 36,
-        "zIndex": 1,
-      },
-      undefined,
-    ]
-  }
->
-  <Text
-    allowFontScaling={true}
-    style={
-      [
-        {
           "color": "#FFF",
-          "fontFamily": "Inter-SemiBold",
-          "fontSize": 24,
-          "lineHeight": 30,
-        },
-        {
-          "color": "#9BA1B0",
           "paddingHorizontal": 9,
           "textAlign": "center",
         },
@@ -166,48 +125,7 @@ exports[`Counter render counter ICounterTypes.disabled 1`] = `
 </View>
 `;
 
-exports[`Counter render counter ICounterTypes.primary 1`] = `
-<View
-  style={
-    [
-      {
-        "alignItems": "center",
-        "alignSelf": "center",
-        "backgroundColor": "#FFF",
-        "borderRadius": 18,
-        "height": 36,
-        "justifyContent": "center",
-        "minWidth": 36,
-        "zIndex": 1,
-      },
-      undefined,
-    ]
-  }
->
-  <Text
-    allowFontScaling={true}
-    style={
-      [
-        {
-          "color": "#FFF",
-          "fontFamily": "Inter-SemiBold",
-          "fontSize": 24,
-          "lineHeight": 30,
-        },
-        {
-          "color": "#2B78EE",
-          "paddingHorizontal": 9,
-          "textAlign": "center",
-        },
-      ]
-    }
-  >
-    9+
-  </Text>
-</View>
-`;
-
-exports[`Counter render counter ICounterTypes.secondary 1`] = `
+exports[`Counter render counter ICounterTypes.accentLight 1`] = `
 <View
   style={
     [
@@ -248,14 +166,14 @@ exports[`Counter render counter ICounterTypes.secondary 1`] = `
 </View>
 `;
 
-exports[`Counter render counter ICounterTypes.tertiary 1`] = `
+exports[`Counter render counter ICounterTypes.attention 1`] = `
 <View
   style={
     [
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
+        "backgroundColor": "#F54D3D",
         "borderRadius": 18,
         "height": 36,
         "justifyContent": "center",
@@ -278,6 +196,129 @@ exports[`Counter render counter ICounterTypes.tertiary 1`] = `
         },
         {
           "color": "#FFF",
+          "paddingHorizontal": 9,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    9+
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.attentionLight 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 18,
+        "height": 36,
+        "justifyContent": "center",
+        "minWidth": 36,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 24,
+          "lineHeight": 30,
+        },
+        {
+          "color": "#F54D3D",
+          "paddingHorizontal": 9,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    2
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.muted 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#9BA1B0",
+        "borderRadius": 18,
+        "height": 36,
+        "justifyContent": "center",
+        "minWidth": 36,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 24,
+          "lineHeight": 30,
+        },
+        {
+          "color": "#FFF",
+          "paddingHorizontal": 9,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    10
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.mutedLight 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 18,
+        "height": 36,
+        "justifyContent": "center",
+        "minWidth": 36,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 24,
+          "lineHeight": 30,
+        },
+        {
+          "color": "#9BA1B0",
           "paddingHorizontal": 9,
           "textAlign": "center",
         },

@@ -181,7 +181,7 @@ const AvatarExample = () => {
             value: select(
               'Counter types',
               ICounterTypes,
-              ICounterTypes.destructive,
+              ICounterTypes.attentionLight,
             ),
             count: 5,
           }}

@@ -21,51 +21,64 @@ const CounterExample = () => {
       style={{
         backgroundColor: colors.BgAccentSoft,
         padding: spaces.Space10,
-        width: rem(150),
+        width: rem(200),
       }}>
       <View style={styles.viewCounter}>
-        <Typography>{'primary: '}</Typography>
+        <Typography>{'accentLight: '}</Typography>
         <Counter
-          count={number('primary count', 8)}
+          count={number('accentLight count', 8)}
           style={styles.styleCounter}
-          type={ICounterTypes.primary}
-          size={select('primary size', ICounterSize, ICounterSize.medium)}
+          type={ICounterTypes.accentLight}
+          size={select('accentLight size', ICounterSize, ICounterSize.medium)}
         />
       </View>
       <View style={styles.viewCounter}>
-        <Typography>{'secondary: '}</Typography>
+        <Typography>{'attention: '}</Typography>
         <Counter
-          count={number('secondary count', 28)}
+          count={number('attention count', 28)}
           style={styles.styleCounter}
-          type={ICounterTypes.secondary}
-          size={select('secondary size', ICounterSize, ICounterSize.medium)}
+          type={ICounterTypes.attention}
+          size={select('attention size', ICounterSize, ICounterSize.medium)}
         />
       </View>
       <View style={styles.viewCounter}>
-        <Typography>{'tertiary: '}</Typography>
+        <Typography>{'accent: '}</Typography>
         <Counter
           style={styles.styleCounter}
-          count={number('tertiary count', 88)}
-          size={select('tertiary size', ICounterSize, ICounterSize.medium)}
+          count={number('accent count', 88)}
+          size={select('accent size', ICounterSize, ICounterSize.medium)}
         />
       </View>
 
       <View style={styles.viewCounter}>
-        <Typography>{'disabled: '}</Typography>
+        <Typography>{'mutedLight: '}</Typography>
         <Counter
-          count={number('disabled count', 2)}
+          count={number('mutedLight count', 2)}
           style={styles.styleCounter}
-          type={ICounterTypes.disabled}
-          size={select('disabled size', ICounterSize, ICounterSize.medium)}
+          type={ICounterTypes.mutedLight}
+          size={select('mutedLight size', ICounterSize, ICounterSize.medium)}
         />
       </View>
       <View style={styles.viewCounter}>
-        <Typography>{'destructive: '}</Typography>
+        <Typography>{'attentionLight: '}</Typography>
         <Counter
-          count={number('destructive count', 132)}
+          count={number('attentionLight count', 132)}
           style={styles.styleCounter}
-          type={ICounterTypes.destructive}
-          size={select('destructive size', ICounterSize, ICounterSize.medium)}
+          type={ICounterTypes.attentionLight}
+          size={select(
+            'attentionLight size',
+            ICounterSize,
+            ICounterSize.medium,
+          )}
+        />
+      </View>
+      <View style={styles.viewCounter}>
+        <Typography>{'muted: '}</Typography>
+        <Counter
+          count={number('muted count', 132)}
+          style={styles.styleCounter}
+          type={ICounterTypes.muted}
+          size={select('muted size', ICounterSize, ICounterSize.medium)}
         />
       </View>
       <View style={styles.viewCounter}>
