@@ -1,4 +1,4 @@
-import React, {forwardRef, useState} from 'react';
+import React, {forwardRef, useCallback, useState} from 'react';
 
 import {ITextInput} from '../../../basic/components/TextInput/types';
 import {useFont} from '../../../typography';
@@ -28,6 +28,9 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
   );
   const [styles, theme] = useStyles(stylesCreate, focused);
 
+  const onFocus = useCallback(() => setFocused(true), []);
+  const onBlur = useCallback(() => setFocused(false), []);
+
   return (
     <View style={[styles.inputContainer, textInputContainerStyle]}>
       <TextInput
@@ -42,8 +45,8 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
         editable={editable}
         secureTextEntry={secureTextEntry}
         allowFontScaling={false}
-        onFocus={() => setFocused(true)}
-        onBlur={() => setFocused(false)}
+        onFocus={onFocus}
+        onBlur={onBlur}
         onKeyPress={e => {
           if (onBackKeyPress && e.nativeEvent.key === 'Backspace') {
             onBackKeyPress();

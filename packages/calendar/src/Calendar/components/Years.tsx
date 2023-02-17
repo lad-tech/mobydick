@@ -39,11 +39,13 @@ const Years: FC<IYears> = props => {
   );
 
   const renderItem = useCallback(({item}: {item: number}) => {
+    const outerOnPress = () => onPress(item);
+
     return (
       <Pressable
         style={getStyle}
         accessibilityLabel={LABELS.pressYear}
-        onPress={() => onPress(item)}>
+        onPress={outerOnPress}>
         <Typography>{item}</Typography>
       </Pressable>
     );

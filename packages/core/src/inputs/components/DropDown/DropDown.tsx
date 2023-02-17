@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, {useCallback, useRef, useState} from 'react';
 
 import {IInputsTypes} from '../types';
 import {InputSubtitle, InputTitle} from '../Base';
@@ -79,24 +79,18 @@ function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
 
   const dropDownRef = useRef<ITouchableOpacity>(null);
 
-  const checkPosition = () => {
-    if (dropDownRef.current) {
-      dropDownRef.current.measure((_x, _y, _width, _height, _pageX, pageY) => {
-        openPopup(pageY);
-        setOpen(true);
-      });
-    }
-  };
-
-  const renderItemOnPress = (item: IListItem<S>) => {
-    onPress(
-      item.value as T extends IListItem<S>
-        ? Exclude<T, string>['value']
-        : string,
-    );
-    setOpen(false);
-    popupContext.closePopup(DROP_DOWN_POPUP_ID);
-  };
+  const renderItemOnPress = useCallback(
+    (item: IListItem<S>) => {
+      onPress(
+        item.value as T extends IListItem<S>
+          ? Exclude<T, string>['value']
+          : string,
+      );
+      setOpen(false);
+      popupContext.closePopup(DROP_DOWN_POPUP_ID);
+    },
+    [onPress, popupContext],
+  );
 
   const listItems = list.map(value => wrapListItem(value));
 
@@ -127,6 +121,14 @@ function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
       ),
     });
   };
+  const checkPosition = useCallback(() => {
+    if (dropDownRef.current) {
+      dropDownRef.current.measure((_x, _y, _width, _height, _pageX, pageY) => {
+        openPopup(pageY);
+        setOpen(true);
+      });
+    }
+  }, [openPopup]);
 
   const getFont = () => {
     if (selected) {

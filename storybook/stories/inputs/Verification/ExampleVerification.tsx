@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, {useCallback, useRef, useState} from 'react';
 import {Keyboard, TextInput} from 'react-native';
 
 import stylesCreate from './stylesCreate';
@@ -23,9 +23,11 @@ const ExampleVerification = () => {
   const [char2, writeChar2] = useState<string>('');
   const [char3, writeChar3] = useState<string>('');
 
+  const onLayout = useCallback(() => input0?.current?.focus(), []);
+
   return (
     <View>
-      <View style={styles.container} onLayout={() => input0?.current?.focus()}>
+      <View style={styles.container} onLayout={onLayout}>
         <CodeField
           value={char0}
           ref={input0}
