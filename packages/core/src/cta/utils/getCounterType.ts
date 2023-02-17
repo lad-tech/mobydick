@@ -4,16 +4,16 @@ import {ICounterTypes} from '../../other';
 const getCounterType = (type: IButtonTypes) => {
   switch (type) {
     case IButtonTypes.secondary:
-      return ICounterTypes.secondary;
+      return ICounterTypes.accentLight;
     case IButtonTypes.tertiary:
-      return ICounterTypes.tertiary;
+      return ICounterTypes.accent;
     case IButtonTypes.disabled:
-      return ICounterTypes.disabled;
+      return ICounterTypes.mutedLight;
     case IButtonTypes.destructive:
-      return ICounterTypes.destructive;
+      return ICounterTypes.attentionLight;
     case IButtonTypes.primary:
     default:
-      return ICounterTypes.primary;
+      return ICounterTypes.accentLight;
   }
 };
 

@@ -103,7 +103,7 @@ describe('Avatar', () => {
         user={userWithoutPhoto}
         badge={{
           type: IBadgeTypes.counter,
-          value: ICounterTypes.destructive,
+          value: ICounterTypes.attentionLight,
           count: 6,
         }}
       />,
