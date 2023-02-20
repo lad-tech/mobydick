@@ -30,7 +30,7 @@ const ButtonWithDelay = ({
         backgroundColor: pressed ? colors.BgError : colors.BgPrimary,
       },
     ],
-    [],
+    [colors.BgPrimary, colors.BgError],
   );
   return (
     <>
