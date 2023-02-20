@@ -318,14 +318,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -339,14 +333,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -360,14 +348,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -381,14 +363,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -402,14 +378,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -423,14 +393,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -444,14 +408,8 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -472,7 +430,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -1137,7 +1095,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -1784,7 +1742,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -2431,7 +2389,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -3078,7 +3036,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -3725,7 +3683,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -4876,14 +4834,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -4897,14 +4849,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -4918,14 +4864,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -4939,14 +4879,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -4960,14 +4894,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -4981,14 +4909,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -5002,14 +4924,8 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -5030,7 +4946,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -5683,7 +5599,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -6330,7 +6246,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -6977,7 +6893,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -7624,7 +7540,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -8694,14 +8610,8 @@ exports[`ModalCalendar renders correctly 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -8715,14 +8625,8 @@ exports[`ModalCalendar renders correctly 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -8736,14 +8640,8 @@ exports[`ModalCalendar renders correctly 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -8757,14 +8655,8 @@ exports[`ModalCalendar renders correctly 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -8778,14 +8670,8 @@ exports[`ModalCalendar renders correctly 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -8799,14 +8685,8 @@ exports[`ModalCalendar renders correctly 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -8820,14 +8700,8 @@ exports[`ModalCalendar renders correctly 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -8848,7 +8722,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -9501,7 +9375,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -10148,7 +10022,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -10795,7 +10669,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -11442,7 +11316,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -12448,14 +12322,8 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -12469,14 +12337,8 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -12490,14 +12352,8 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -12511,14 +12367,8 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -12532,14 +12382,8 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -12553,14 +12397,8 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -12574,14 +12412,8 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -12602,7 +12434,7 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -13267,7 +13099,7 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -13914,7 +13746,7 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -14561,7 +14393,7 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -15208,7 +15040,7 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -15855,7 +15687,7 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -16867,14 +16699,8 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -16888,14 +16714,8 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -16909,14 +16729,8 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -16930,14 +16744,8 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -16951,14 +16759,8 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -16972,14 +16774,8 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -16993,14 +16789,8 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               style={
                 [
                   {
-                    "color": "#444B5A",
-                    "fontFamily": "Inter-SemiBold",
-                    "fontSize": 21,
-                    "fontWeight": undefined,
-                    "marginBottom": 7,
-                    "marginTop": 2,
-                    "textAlign": "center",
-                    "width": 32,
+                    "marginBottom": 7.5,
+                    "marginTop": 0,
                   },
                 ]
               }
@@ -17021,7 +16811,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -17674,7 +17464,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -18321,7 +18111,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -18968,7 +18758,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >
@@ -19615,7 +19405,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               {
                 "flexDirection": "row",
                 "justifyContent": "space-around",
-                "marginVertical": 3,
+                "marginVertical": 1.5,
               }
             }
           >

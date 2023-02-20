@@ -229,14 +229,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -250,14 +244,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -271,14 +259,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -292,14 +274,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -313,14 +289,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -334,14 +304,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -355,14 +319,8 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -383,7 +341,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -1036,7 +994,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -1683,7 +1641,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -2330,7 +2288,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -2977,7 +2935,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -3860,14 +3818,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -3881,14 +3833,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -3902,14 +3848,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -3923,14 +3863,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -3944,14 +3878,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -3965,14 +3893,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -3986,14 +3908,8 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -4014,7 +3930,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -4679,7 +4595,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -5326,7 +5242,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -5973,7 +5889,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -6620,7 +6536,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -7267,7 +7183,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -11929,14 +11845,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -11950,14 +11860,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -11971,14 +11875,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -11992,14 +11890,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -12013,14 +11905,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -12034,14 +11920,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -12055,14 +11935,8 @@ exports[`Calendar press calendarRightArrow 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -12083,7 +11957,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -12745,7 +12619,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -13392,7 +13266,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -14039,7 +13913,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -14686,7 +14560,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -15333,7 +15207,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -16228,14 +16102,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -16249,14 +16117,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -16270,14 +16132,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -16291,14 +16147,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -16312,14 +16162,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -16333,14 +16177,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -16354,14 +16192,8 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -16382,7 +16214,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -17038,7 +16870,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -17685,7 +17517,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -18332,7 +18164,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -18979,7 +18811,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -19859,14 +19691,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -19880,14 +19706,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -19901,14 +19721,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -19922,14 +19736,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -19943,14 +19751,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -19964,14 +19766,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -19985,14 +19781,8 @@ exports[`Calendar renders correctly 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -20013,7 +19803,7 @@ exports[`Calendar renders correctly 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -20666,7 +20456,7 @@ exports[`Calendar renders correctly 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -21313,7 +21103,7 @@ exports[`Calendar renders correctly 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -21960,7 +21750,7 @@ exports[`Calendar renders correctly 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -22607,7 +22397,7 @@ exports[`Calendar renders correctly 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -23493,14 +23283,8 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -23514,14 +23298,8 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -23535,14 +23313,8 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -23556,14 +23328,8 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -23577,14 +23343,8 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -23598,14 +23358,8 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -23619,14 +23373,8 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -23647,7 +23395,7 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -24303,7 +24051,7 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -24950,7 +24698,7 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -25597,7 +25345,7 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -26244,7 +25992,7 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -27124,14 +26872,8 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -27145,14 +26887,8 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -27166,14 +26902,8 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -27187,14 +26917,8 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -27208,14 +26932,8 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -27229,14 +26947,8 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -27250,14 +26962,8 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -27278,7 +26984,7 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -27934,7 +27640,7 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -28581,7 +28287,7 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -29228,7 +28934,7 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -29875,7 +29581,7 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -30755,14 +30461,8 @@ exports[`Calendar renders correctly isClear 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -30776,14 +30476,8 @@ exports[`Calendar renders correctly isClear 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -30797,14 +30491,8 @@ exports[`Calendar renders correctly isClear 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -30818,14 +30506,8 @@ exports[`Calendar renders correctly isClear 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -30839,14 +30521,8 @@ exports[`Calendar renders correctly isClear 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -30860,14 +30536,8 @@ exports[`Calendar renders correctly isClear 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -30881,14 +30551,8 @@ exports[`Calendar renders correctly isClear 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -30909,7 +30573,7 @@ exports[`Calendar renders correctly isClear 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -31562,7 +31226,7 @@ exports[`Calendar renders correctly isClear 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -32209,7 +31873,7 @@ exports[`Calendar renders correctly isClear 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -32856,7 +32520,7 @@ exports[`Calendar renders correctly isClear 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -33503,7 +33167,7 @@ exports[`Calendar renders correctly isClear 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -34389,14 +34053,8 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -34410,14 +34068,8 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -34431,14 +34083,8 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -34452,14 +34098,8 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -34473,14 +34113,8 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -34494,14 +34128,8 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -34515,14 +34143,8 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -34543,7 +34165,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -35196,7 +34818,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -35843,7 +35465,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -36490,7 +36112,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -37137,7 +36759,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -38023,14 +37645,8 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -38044,14 +37660,8 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -38065,14 +37675,8 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -38086,14 +37690,8 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -38107,14 +37705,8 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -38128,14 +37720,8 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -38149,14 +37735,8 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
-                  "fontFamily": "Inter-SemiBold",
-                  "fontSize": 21,
-                  "fontWeight": undefined,
-                  "marginBottom": 7,
-                  "marginTop": 2,
-                  "textAlign": "center",
-                  "width": 32,
+                  "marginBottom": 7.5,
+                  "marginTop": 0,
                 },
               ]
             }
@@ -38177,7 +37757,7 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -38830,7 +38410,7 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -39477,7 +39057,7 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -40124,7 +39704,7 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
@@ -40771,7 +40351,7 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             {
               "flexDirection": "row",
               "justifyContent": "space-around",
-              "marginVertical": 3,
+              "marginVertical": 1.5,
             }
           }
         >
