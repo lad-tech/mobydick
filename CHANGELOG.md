@@ -1,3 +1,15 @@
+# [5.1.0](https://glab.lad24.ru/npm/mobydick/compare/v5.0.1...v5.1.0) (2023-02-20)
+
+
+### Bug Fixes
+
+* **Avatar:** if disabled -> remove avatarBadge ([254c45f](https://glab.lad24.ru/npm/mobydick/commit/254c45f0fd7ca3c64557c849fc8fbdfc30d3520c))
+
+
+### Features
+
+* **Counter:** extended version counter ([5bd8741](https://glab.lad24.ru/npm/mobydick/commit/5bd87414f4d4eaf7cf5bc33abc1877f494bed514))
+
 ## [5.0.1](https://glab.lad24.ru/npm/mobydick/compare/v5.0.0...v5.0.1) (2023-02-16)
 
 
