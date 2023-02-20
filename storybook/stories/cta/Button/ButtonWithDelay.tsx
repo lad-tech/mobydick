@@ -8,6 +8,7 @@ import {
   IButtonProps,
   IThemeContext,
   Pressable,
+  rem,
   Typography,
   useTheme,
   View,
@@ -30,7 +31,7 @@ const ButtonWithDelay = ({
         backgroundColor: pressed ? colors.BgError : colors.BgPrimary,
       },
     ],
-    [],
+    [colors.BgPrimary, colors.BgError],
   );
   return (
     <>
@@ -44,7 +45,7 @@ const ButtonWithDelay = ({
         style={[
           styles.button,
           {
-            padding: 10,
+            padding: rem(10),
           },
         ]}>
         <Pressable style={getStyle} hitSlop={HIT_SLOP.small}>
@@ -55,7 +56,7 @@ const ButtonWithDelay = ({
         style={[
           styles.button,
           {
-            padding: 20,
+            padding: rem(20),
           },
         ]}>
         <Pressable style={getStyle} hitSlop={HIT_SLOP.medium}>
@@ -66,7 +67,7 @@ const ButtonWithDelay = ({
         style={[
           styles.button,
           {
-            padding: 30,
+            padding: rem(30),
           },
         ]}>
         <Pressable style={getStyle} hitSlop={HIT_SLOP.large}>
