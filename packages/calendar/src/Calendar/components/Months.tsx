@@ -23,12 +23,13 @@ const Months: FC<IMonths> = props => {
   const {colors} = useTheme();
 
   const onPress = useCallback(
-    (index: number) => {
+    (index: number) => () => {
       onCloseMonths();
       onPressMonth(index);
     },
     [onCloseMonths, onPressMonth],
   );
+
   const getStyle = useCallback(
     ({pressed}) => [
       styles.month,
@@ -43,7 +44,7 @@ const Months: FC<IMonths> = props => {
         <Pressable
           style={getStyle}
           accessibilityLabel={LABELS.pressMonth}
-          onPress={() => onPress(index)}>
+          onPress={onPress(index)}>
           <Typography>{item}</Typography>
         </Pressable>
       );
