@@ -249,7 +249,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               "paddingRight": 5,
             },
             {
-              "marginTop": 18,
+              "height": 390,
               "width": 678,
             },
           ]
@@ -4765,7 +4765,7 @@ exports[`ModalCalendar bottomView IButtonView.small 1`] = `
               "paddingRight": 5,
             },
             {
-              "marginTop": 18,
+              "height": 390,
               "width": 678,
             },
           ]
@@ -8541,7 +8541,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               "paddingRight": 5,
             },
             {
-              "marginTop": 18,
+              "height": 390,
               "width": 678,
             },
           ]
@@ -12253,7 +12253,7 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               "paddingRight": 5,
             },
             {
-              "marginTop": 18,
+              "height": 390,
               "width": 678,
             },
           ]
@@ -16630,7 +16630,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               "paddingRight": 5,
             },
             {
-              "marginTop": 18,
+              "height": 390,
               "width": 678,
             },
           ]

@@ -8,15 +8,15 @@ const stylesCreate = (theme: IThemeContext) => {
   const {spaces} = theme;
 
   return StyleSheet.create({
-    daysView: {
-      marginTop: spaces.Space12,
-      width: WIDTH - spaces.Space8 * 2 - rem(16) * 2,
-    },
     overlayStyle: {
       justifyContent: 'center',
     },
     contentCalendar: {
       width: WIDTH - spaces.Space8 * 2,
+    },
+    daysView: {
+      width: WIDTH - spaces.Space8 * 2 - rem(16) * 2,
+      height: rem(260),
     },
   });
 };

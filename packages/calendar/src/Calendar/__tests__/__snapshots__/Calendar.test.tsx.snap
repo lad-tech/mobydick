@@ -160,7 +160,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
             "paddingRight": 5,
           },
           {
-            "marginTop": 18,
+            "height": 390,
             "width": 678,
           },
         ]
@@ -3749,7 +3749,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
             "paddingRight": 5,
           },
           {
-            "marginTop": 18,
+            "height": 390,
             "width": 678,
           },
         ]
@@ -11776,7 +11776,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
             "paddingRight": 5,
           },
           {
-            "marginTop": 18,
+            "height": 390,
             "width": 678,
           },
         ]
@@ -16033,7 +16033,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
             "paddingRight": 5,
           },
           {
-            "marginTop": 18,
+            "height": 390,
             "width": 678,
           },
         ]
@@ -19622,7 +19622,7 @@ exports[`Calendar renders correctly 1`] = `
             "paddingRight": 5,
           },
           {
-            "marginTop": 18,
+            "height": 390,
             "width": 678,
           },
         ]
@@ -23214,7 +23214,7 @@ exports[`Calendar renders correctly dottedDates 1`] = `
             "paddingRight": 5,
           },
           {
-            "marginTop": 18,
+            "height": 390,
             "width": 678,
           },
         ]
@@ -26803,7 +26803,7 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
             "paddingRight": 5,
           },
           {
-            "marginTop": 18,
+            "height": 390,
             "width": 678,
           },
         ]
@@ -30392,7 +30392,7 @@ exports[`Calendar renders correctly isClear 1`] = `
             "paddingRight": 5,
           },
           {
-            "marginTop": 18,
+            "height": 390,
             "width": 678,
           },
         ]
@@ -33984,7 +33984,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             "paddingRight": 5,
           },
           {
-            "marginTop": 18,
+            "height": 390,
             "width": 678,
           },
         ]
@@ -37576,7 +37576,7 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
             "paddingRight": 5,
           },
           {
-            "marginTop": 18,
+            "height": 390,
             "width": 678,
           },
         ]
