@@ -1,3 +1,5 @@
+## [6.0.1](https://glab.lad24.ru/npm/mobydick/compare/v6.0.0...v6.0.1) (2023-02-21)
+
 # [6.0.0](https://glab.lad24.ru/npm/mobydick/compare/v5.1.0...v6.0.0) (2023-02-21)
 
 
