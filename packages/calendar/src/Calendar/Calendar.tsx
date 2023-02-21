@@ -107,6 +107,7 @@ const Calendar: FC<ICalendar> = props => {
           dayHeader: {
             marginTop: 0,
             marginBottom: rem(5),
+            color: colors.TextSecondary,
           },
         },
       },
