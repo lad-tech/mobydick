@@ -1,3 +1,41 @@
+# [6.0.0](https://glab.lad24.ru/npm/mobydick/compare/v5.1.0...v6.0.0) (2023-02-21)
+
+
+### Bug Fixes
+
+* **actionSheets:** fix mimoclick -> remove style ([28f135e](https://glab.lad24.ru/npm/mobydick/commit/28f135eb77ab2d02fa5395864087ec9686690112))
+* **avatar:** border is optional ([5583329](https://glab.lad24.ru/npm/mobydick/commit/5583329c059645f6525dee2ad8f27dae181743bf))
+* build packages fixup ([e305d74](https://glab.lad24.ru/npm/mobydick/commit/e305d747d7ff52cc958fec614f41f544464e3675))
+* **calendar:** add isValidDate and remove check text ([5046ea6](https://glab.lad24.ru/npm/mobydick/commit/5046ea6aa4879f9b593a0d8fa900e7a04232bdc6))
+* **calendar:** add onChangeDate in onClear ([0fba832](https://glab.lad24.ru/npm/mobydick/commit/0fba83234074de6cabd34abe212f2afb498c7d32))
+* **Calendar:** change height ([e74cb97](https://glab.lad24.ru/npm/mobydick/commit/e74cb971c5fe2eb64a5778a58426736d7b426db2))
+* **calendar:** lengthDateRange for initialRange ([72acc17](https://glab.lad24.ru/npm/mobydick/commit/72acc17906d84ede4c70906a9ccb4e2d25fc7c4f))
+* **calendar:** update yearRange ([c7479f2](https://glab.lad24.ru/npm/mobydick/commit/c7479f2bf612da91a7f60c7a3706a66b4b8bf64e))
+* **Counter:** update style ([ab97cb0](https://glab.lad24.ru/npm/mobydick/commit/ab97cb079b1d960b8fd7199d4726f045bf09d85a))
+* **panelHeader:** remove flex: 1 from style ([3c068f9](https://glab.lad24.ru/npm/mobydick/commit/3c068f9e4b4fb009cde74b0d29a546ccb552a11e))
+
+
+### Features
+
+* **avatar:** add badge to the avatar ([3596180](https://glab.lad24.ru/npm/mobydick/commit/3596180f352d36410dc4696a997251e91d32d7bf))
+* **avatar:** add types for avatar ([096e500](https://glab.lad24.ru/npm/mobydick/commit/096e500b05af7d93fce918d76222d7e7d3526ca1))
+* **avatarGroup:** add avatarGroup ([7e448ac](https://glab.lad24.ru/npm/mobydick/commit/7e448acb1c3769ff52ddec7e33511d859ef80789))
+* **calendar:** add dottedDates ([c563577](https://glab.lad24.ru/npm/mobydick/commit/c563577005f2917c64884ab9451af992351c65cf))
+* **calendar:** new prop InitialRange -> marked initial range ([7afc35b](https://glab.lad24.ru/npm/mobydick/commit/7afc35b067d2f3f3536bcd62cfb81ecffe744fb5))
+* **calendar:** new view years ([549813e](https://glab.lad24.ru/npm/mobydick/commit/549813ec402019ccf66a26b5cee4ce24da1d41d6))
+* **calendar:** two buttons in calendarHeader ([c4c459a](https://glab.lad24.ru/npm/mobydick/commit/c4c459a4dca9d6ad1aa0b85ac308b8df8b173bc2))
+* **Counter:** extended version counter ([fe04cd4](https://glab.lad24.ru/npm/mobydick/commit/fe04cd4851ba6dd04307e8d02d4312e38ca13e73))
+* **hitSlop:** add hitSlop ([95e3238](https://glab.lad24.ru/npm/mobydick/commit/95e3238aaf8734355398700caaea4e7b7698de20))
+* **hitSlop:** add style ([e2d58c7](https://glab.lad24.ru/npm/mobydick/commit/e2d58c777f1f202ddca04273ac22039a26bb8448))
+* **Modal:** add new ModalError ([49dc447](https://glab.lad24.ru/npm/mobydick/commit/49dc4476ba8547d91528cc22c7fd0879a68af556))
+* **toggle:** add useIsForeground ([3ded2e8](https://glab.lad24.ru/npm/mobydick/commit/3ded2e829e1c1ef20f3f7e0a86cd944c42648b24))
+* **useToggle:** add useToggle ([c5312ab](https://glab.lad24.ru/npm/mobydick/commit/c5312ab858992b4d9ac9881b73af56b3cbfdf33b))
+
+
+### BREAKING CHANGES
+
+* **useToggle:** remove old useToggle, onPress required in toggle now
+
 # [5.1.0](https://glab.lad24.ru/npm/mobydick/compare/v5.0.1...v5.1.0) (2023-02-20)
 
 
