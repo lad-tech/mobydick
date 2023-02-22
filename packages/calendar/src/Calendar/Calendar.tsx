@@ -336,7 +336,6 @@ const Calendar: FC<ICalendar> = props => {
           onDayPress={onDayPress}
           onDayLongPress={onDayPress}
           theme={themeStyles.theme}
-          initialDate={currentYear + '-' + (currentMonthIndex + 1)}
           customHeaderTitle={<></>}
           hideArrows={true}
           {...rest}
