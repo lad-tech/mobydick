@@ -1,3 +1,11 @@
+## [6.0.2](https://glab.lad24.ru/npm/mobydick/compare/v6.0.1...v6.0.2) (2023-02-22)
+
+
+### Bug Fixes
+
+* **Calendar:** remove initialDate ([82225c2](https://glab.lad24.ru/npm/mobydick/commit/82225c210c3a3b2c33871c5ceef1505cda618dcd))
+* **Calendar:** update initialDate ([cbcfddc](https://glab.lad24.ru/npm/mobydick/commit/cbcfddcb753f5f502ab66fdc99334281385362a9))
+
 ## [6.0.1](https://glab.lad24.ru/npm/mobydick/compare/v6.0.0...v6.0.1) (2023-02-21)
 
 # [6.0.0](https://glab.lad24.ru/npm/mobydick/compare/v5.1.0...v6.0.0) (2023-02-21)
