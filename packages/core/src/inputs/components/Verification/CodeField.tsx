@@ -30,6 +30,14 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
 
   const onFocus = useCallback(() => setFocused(true), []);
   const onBlur = useCallback(() => setFocused(false), []);
+  const onKeyPress = useCallback(
+    e => {
+      if (onBackKeyPress && e.nativeEvent.key === 'Backspace') {
+        onBackKeyPress();
+      }
+    },
+    [onBackKeyPress],
+  );
 
   return (
     <View style={[styles.inputContainer, textInputContainerStyle]}>
@@ -47,11 +55,7 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
         allowFontScaling={false}
         onFocus={onFocus}
         onBlur={onBlur}
-        onKeyPress={e => {
-          if (onBackKeyPress && e.nativeEvent.key === 'Backspace') {
-            onBackKeyPress();
-          }
-        }}
+        onKeyPress={onKeyPress}
         selectionColor={theme.colors.IconBase}
         {...otherProps}
       />

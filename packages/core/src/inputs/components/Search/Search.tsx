@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React, {FC, useCallback} from 'react';
 
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import View from '../../../basic/components/View/View';
@@ -26,6 +26,10 @@ const Search: FC<ISearchProps> = ({
 }) => {
   const [styles, theme] = useStyles(stylesCreate);
 
+  const onCancel = useCallback(() => {
+    onChangeText('');
+  }, [onChangeText]);
+
   return (
     <View style={[styles.container, containerStyle]}>
       {leftIcon ? leftIcon : <SimpleIcon name={'icon-search'} />}
@@ -42,7 +46,7 @@ const Search: FC<ISearchProps> = ({
       {value ? (
         <Pressable
           accessibilityLabel={accessibilityLabels.cancel}
-          onPress={() => onChangeText('')}
+          onPress={onCancel}
           style={styles.cancelIcon}>
           <SimpleIcon name={'icon-cancel'} size={rem(16)} />
         </Pressable>
