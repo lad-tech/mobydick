@@ -47,13 +47,14 @@ const Calendar: FC<ICalendar> = props => {
     isPeriod = false,
     initialRange,
     dottedDates = [],
+    initialDate,
     ...rest
   } = props;
   LocaleConfig.locales[defaultLocale] = localeConfig;
   LocaleConfig.defaultLocale = defaultLocale;
 
   const {colors, currentTheme} = useTheme();
-  const today = new Date();
+  const currentDay = initialDate ? new Date(initialDate) : new Date();
   const [styles] = useStyles(stylesCreate);
 
   const colorsArg = useMemo(
@@ -79,9 +80,11 @@ const Calendar: FC<ICalendar> = props => {
     ISelectionState.days,
   );
   const [currentMonthIndex, setCurrentMonthIndex] = useState<number>(
-    today.getMonth(),
+    currentDay.getMonth(),
   );
-  const [currentYear, setCurrentYear] = useState<number>(today.getFullYear());
+  const [currentYear, setCurrentYear] = useState<number>(
+    currentDay.getFullYear(),
+  );
 
   const [yearRange, setYearRange] = useState<number[]>(
     calculateYearRange(currentYear),
@@ -317,7 +320,6 @@ const Calendar: FC<ICalendar> = props => {
       currYear: currentYear.toString(),
     };
   };
-
   return (
     <>
       <CalendarHeader
@@ -336,7 +338,11 @@ const Calendar: FC<ICalendar> = props => {
           onDayPress={onDayPress}
           onDayLongPress={onDayPress}
           theme={themeStyles.theme}
-          initialDate={currentYear + '-' + (currentMonthIndex + 1)}
+          initialDate={
+            currentYear +
+            '-' +
+            `${currentMonthIndex + 1 < 10 ? 0 : ''}${currentMonthIndex + 1}`
+          }
           customHeaderTitle={<></>}
           hideArrows={true}
           {...rest}

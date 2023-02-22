@@ -38,7 +38,11 @@ describe('Calendar', () => {
   });
   it('renders correctly isClear isShowToday', () => {
     const {toJSON} = render(
-      <Calendar isClear={true} initialRange={{fromDate: '2022-02-16'}} />,
+      <Calendar
+        isClear={true}
+        initialRange={{fromDate: '2022-02-16'}}
+        initialDate={'2023-02'}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
