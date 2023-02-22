@@ -1,4 +1,4 @@
-import React, {forwardRef, useMemo, useState} from 'react';
+import React, {forwardRef, useCallback, useMemo, useState} from 'react';
 import {Platform} from 'react-native';
 
 import {IInputsTypes} from '../types';
@@ -62,6 +62,16 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     }
   }, [fontStyle.color]);
 
+  const onFocusInput = useCallback(event => {
+    setFocused(true);
+    onFocus?.(event);
+  }, []);
+
+  const onBlurInput = useCallback(event => {
+    setFocused(false);
+    onBlur?.(event);
+  }, []);
+
   return (
     <View style={[styles.container, containerStyle]}>
       {title && (
@@ -76,14 +86,8 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
           placeholderTextColor={theme.colors.TextMuted}
           editable={!disabled}
           numberOfLines={1}
-          onFocus={event => {
-            setFocused(true);
-            onFocus?.(event);
-          }}
-          onBlur={event => {
-            setFocused(false);
-            onBlur?.(event);
-          }}
+          onFocus={onFocusInput}
+          onBlur={onBlurInput}
           selectionColor={theme.colors.IconBase}
           secureTextEntry={secureTextEntry}
           {...otherProps}

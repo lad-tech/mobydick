@@ -1,4 +1,4 @@
-import React, {FC, PropsWithChildren, useEffect} from 'react';
+import React, {FC, PropsWithChildren, useCallback, useEffect} from 'react';
 import {BackHandler} from 'react-native';
 
 import useStyles from '../../../styles/theme/hooks/useStyles';
@@ -26,15 +26,20 @@ const PopupBase: FC<PropsWithChildren<IPopupProps>> = ({
       BackHandler.removeEventListener('hardwareBackPress', onBackPress);
   }, []);
 
+  const onPressClickOut = useCallback(
+    event => {
+      if (event.target === event.currentTarget) {
+        onClose();
+      }
+    },
+    [onClose],
+  );
+
   return (
     <Pressable
       style={[styles.overlay, overlayStyle]}
       testID={Constants.testID}
-      onPress={event => {
-        if (event.target === event.currentTarget) {
-          onClose();
-        }
-      }}>
+      onPress={onPressClickOut}>
       {children}
     </Pressable>
   );
