@@ -1,16 +1,17 @@
 import React from 'react';
 
-import {CrossedText, useTheme, View} from '@npm/mobydick-core';
+import {CrossedText, Typography, useTheme, View} from '@npm/mobydick-core';
 
 const CrossedTextExample = () => {
   const {colors} = useTheme();
   return (
     <View>
-      <CrossedText
-        lineColor={colors.TextPrimary}
-        style={{backgroundColor: colors.BgError}}>
+      <CrossedText lineColor={colors.TextError}>
         {'Зачеркнутый текст'}
       </CrossedText>
+      <Typography style={{textDecorationLine: 'line-through'}}>
+        {'Default props for crossed text'}
+      </Typography>
     </View>
   );
 };
