@@ -1,3 +1,15 @@
+# [6.1.0](https://glab.lad24.ru/npm/mobydick/compare/v6.0.2...v6.1.0) (2023-02-27)
+
+
+### Bug Fixes
+
+* **ModalAsk:** fix import ([989b112](https://glab.lad24.ru/npm/mobydick/commit/989b112f16d448800d5d5ae628767dbf997879e2))
+
+
+### Features
+
+* **Slider:** add Slider ([9c51c25](https://glab.lad24.ru/npm/mobydick/commit/9c51c2554580089700ff73d8915d7b6f0912c98a))
+
 ## [6.0.2](https://glab.lad24.ru/npm/mobydick/compare/v6.0.1...v6.0.2) (2023-02-22)
 
 
