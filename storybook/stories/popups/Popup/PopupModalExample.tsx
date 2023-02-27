@@ -10,8 +10,8 @@ import {
   usePopups,
   View,
   Button,
+  ModalAsk,
 } from '@npm/mobydick-core';
-import ModalAsk from '@npm/mobydick-core/src/popups/components/Modals/ModalAsk';
 
 const PopupModalExample = () => {
   const popupContext = usePopups();
