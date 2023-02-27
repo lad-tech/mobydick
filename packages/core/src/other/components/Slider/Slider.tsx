@@ -9,6 +9,7 @@ import {
 
 import View from '../../../basic/components/View/View';
 import useStyles from '../../../styles/theme/hooks/useStyles';
+import {LABELS} from '../../constants';
 
 import {clamp, getValueForPosition, isLowCloser} from './helpers';
 import stylesCreate from './stylesCreate';
@@ -16,13 +17,12 @@ import {useLowHigh, useSelectedRail, useWidthLayout} from './hooks';
 import Thumb from './Thumb';
 
 const trueFunc = () => true;
-// const falseFunc = () => false;
 
 export interface ISliderProps extends ViewProps {
   min: number;
   max: number;
-  minRange?: number;
   step: number;
+  minRange?: number;
   low?: number;
   high?: number;
   disableRange?: boolean;
@@ -249,6 +249,7 @@ const Slider: React.FC<ISliderProps> = ({
         <View
           {...panHandlers}
           style={styles.touchableArea}
+          accessibilityLabel={LABELS.slider}
           collapsable={false}
         />
       </View>
