@@ -7,7 +7,7 @@ const CrossedTextExample = () => {
   return (
     <View>
       <CrossedText
-        lineColor={colors.BgBlack}
+        lineColor={colors.TextPrimary}
         style={{backgroundColor: colors.BgError}}>
         {'Зачеркнутый текст'}
       </CrossedText>
