@@ -1,4 +1,4 @@
-import {boolean, select} from '@storybook/addon-knobs';
+import {boolean, number, select} from '@storybook/addon-knobs';
 import React from 'react';
 
 import {
@@ -18,93 +18,27 @@ import {
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const ImageAvatar = require('./image/ImageAvatar.png');
 
-const userWithPhoto = {
-  logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
+const defaultUser = {
   firstName: 'Иван',
   lastName: 'Пушкин',
+};
+const userWithPhoto = {
+  logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
+  ...defaultUser,
 };
 const userWithPhotoLocal = {
   logo: ImageAvatar,
-  firstName: 'Иван',
-  lastName: 'Пушкин',
-};
-const userWithoutPhoto = {
-  firstName: 'Иван',
-  lastName: 'Пушкин',
-};
-const userIcon = {
-  firstName: 'Иван',
-  lastName: 'Пушкин',
+  ...defaultUser,
 };
 
-const groupDateThree = [
-  {
-    logo: ImageAvatar,
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-];
-const groupDate = [
-  {
-    logo: ImageAvatar,
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-  {
-    firstName: 'Иван',
-    lastName: 'Пушкин',
-  },
-];
+const groupDateThree = [userWithPhotoLocal, userWithPhoto, defaultUser];
+
+const groupDate = groupDateThree.concat(Array(8).fill(defaultUser));
+
 const AvatarExample = () => {
   const {colors, spaces} = useTheme();
-  const disabled = boolean('disabled', true);
-
+  const disabled = boolean('disabled', false);
+  const lengthGroup = number('lengthGroup ', 88);
   return (
     <>
       <View style={{paddingVertical: spaces.Space8}}>
@@ -112,33 +46,10 @@ const AvatarExample = () => {
       </View>
       <View style={{paddingVertical: spaces.Space8}}>
         <AvatarGroup
-          groups={groupDateThree
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)}
+          groups={groupDateThree.concat(Array(lengthGroup).fill(defaultUser))}
         />
       </View>
-      <View style={{paddingVertical: spaces.Space8}}>
-        <AvatarGroup
-          groups={groupDate
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)
-            .concat(groupDate)}
-        />
-      </View>
+
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithPhoto}
@@ -173,7 +84,7 @@ const AvatarExample = () => {
         style={{paddingVertical: spaces.Space8}}
         disabled={disabled}>
         <Avatar
-          user={userWithoutPhoto}
+          user={defaultUser}
           type={IAvatarTypes.text}
           size={select('size user text', IAvatarSize, IAvatarSize.M)}
           badge={{
@@ -191,7 +102,7 @@ const AvatarExample = () => {
 
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
-          user={userIcon}
+          user={defaultUser}
           size={select('size user icon', IAvatarSize, IAvatarSize.M)}
           type={IAvatarTypes.icon}
           backgroundColor={colors.ElementAdditional}

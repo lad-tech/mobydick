@@ -41,7 +41,7 @@ describe('Calendar', () => {
       <Calendar
         isClear={true}
         initialRange={{fromDate: '2022-02-16'}}
-        initialDate={'2023-02'}
+        initialDate={'2022-02'}
       />,
     );
     expect(toJSON()).toMatchSnapshot();
