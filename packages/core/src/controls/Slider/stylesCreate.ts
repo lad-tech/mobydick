@@ -1,6 +1,6 @@
 import {I18nManager, StyleSheet} from 'react-native';
 
-import {IThemeContext} from '../../../styles';
+import {IThemeContext} from '../../styles';
 
 const stylesCreate = ({colors, spaces}: IThemeContext) => {
   return StyleSheet.create({

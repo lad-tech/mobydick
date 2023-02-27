@@ -1,7 +1,7 @@
 import {Animated} from 'react-native';
 import React, {useMemo} from 'react';
 
-import useStyles from '../../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/theme/hooks/useStyles';
 import stylesCreate from '../stylesCreate';
 
 import Thumb from './Thumb';

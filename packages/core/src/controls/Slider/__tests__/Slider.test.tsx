@@ -2,7 +2,7 @@ import {act, fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
 
 import Slider from '../Slider';
-import {LABELS} from '../../../constants';
+import {LABELS} from '../../../other/constants';
 const eventMock = {};
 describe('Slider', () => {
   it('should renders correctly by default', function () {

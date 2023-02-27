@@ -7,9 +7,9 @@ import {
   ViewProps,
 } from 'react-native';
 
-import View from '../../../basic/components/View/View';
-import useStyles from '../../../styles/theme/hooks/useStyles';
-import {LABELS} from '../../constants';
+import View from '../../basic/components/View/View';
+import useStyles from '../../styles/theme/hooks/useStyles';
+import {LABELS} from '../../other/constants';
 
 import {clamp, getValueForPosition, isLowCloser} from './helpers';
 import stylesCreate from './stylesCreate';
@@ -85,15 +85,7 @@ const Slider: React.FC<ISliderProps> = ({
     lowThumbX.setValue(lowPosition);
     updateSelectedRail();
     onValueChanged?.(low, high, false);
-  }, [
-    disableRange,
-    inPropsRef,
-    max,
-    min,
-    onValueChanged,
-    thumbWidth,
-    updateSelectedRail,
-  ]);
+  }, [disableRange, inPropsRef, max, min, thumbWidth, updateSelectedRail]);
 
   useEffect(() => {
     const {lowPrev, highPrev} = inPropsRefPrev;

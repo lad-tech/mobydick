@@ -1,9 +1,9 @@
-import React, {memo} from 'react';
+import React from 'react';
 import {View, StyleSheet} from 'react-native';
 
-import rem from '../../../../styles/spaces/rem';
-import {IThemeContext} from '../../../../styles';
-import useStyles from '../../../../styles/theme/hooks/useStyles';
+import rem from '../../../styles/spaces/rem';
+import {IThemeContext} from '../../../styles';
+import useStyles from '../../../styles/theme/hooks/useStyles';
 
 const THUMB_RADIUS_LOW = rem(12);
 const THUMB_RADIUS_HIGH = rem(16);
@@ -34,4 +34,4 @@ const stylesCreate = ({colors, spaces}: IThemeContext) => {
   });
 };
 
-export default memo(Thumb);
+export default Thumb;
