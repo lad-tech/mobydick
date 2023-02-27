@@ -130,6 +130,43 @@ const Slider: React.FC<ISliderProps> = ({
     return [styles.railsContainer, {marginHorizontal: thumbWidth / 2}];
   }, [thumbWidth]);
 
+  function getLow(downX: number, lowPosition: number, highPosition: number) {
+    return disableRange || isLowCloser(downX, lowPosition, highPosition);
+  }
+
+  const handlePositionChange = (
+    positionInView: number,
+    isLow: boolean,
+    containerWidth: number,
+  ) => {
+    const {low, high, min, max, step} = inPropsRef.current;
+    const minValue = isLow ? min : low + minRange;
+    const maxValue = isLow ? high - minRange : max;
+    const value = clamp(
+      getValueForPosition(
+        positionInView,
+        containerWidth,
+        thumbWidth,
+        min,
+        max,
+        step,
+      ),
+      minValue,
+      maxValue,
+    );
+    if (gestureStateRef.current.lastValue === value) {
+      return;
+    }
+    const availableSpace = containerWidth - thumbWidth;
+    const absolutePosition = ((value - min) / (max - min)) * availableSpace;
+    gestureStateRef.current.lastValue = value;
+    gestureStateRef.current.lastPosition = absolutePosition + thumbWidth / 2;
+    (isLow ? lowThumbX : highThumbX).setValue(absolutePosition);
+    onValueChanged?.(isLow ? value : low, isLow ? high : value, true);
+    (isLow ? setLow : setHigh)(value);
+    updateSelectedRail();
+  };
+
   const {panHandlers} = useMemo(
     () =>
       PanResponder.create({
@@ -148,8 +185,7 @@ const Slider: React.FC<ISliderProps> = ({
           if (numberActiveTouches > 1) {
             return;
           }
-          const {current: lowThumbX} = lowThumbXRef;
-          const {current: highThumbX} = highThumbXRef;
+
           const {locationX: downX, pageX} = nativeEvent;
           const containerX = pageX - downX;
 
@@ -162,46 +198,15 @@ const Slider: React.FC<ISliderProps> = ({
           const highPosition =
             thumbWidth / 2 +
             ((high - min) / (max - min)) * (containerWidth - thumbWidth);
+          const isLow = getLow(downX, lowPosition, highPosition);
 
-          const isLow =
-            disableRange || isLowCloser(downX, lowPosition, highPosition);
           gestureStateRef.current.isLow = isLow;
 
-          const handlePositionChange = (positionInView: number) => {
-            const {low, high, min, max, step} = inPropsRef.current;
-            const minValue = isLow ? min : low + minRange;
-            const maxValue = isLow ? high - minRange : max;
-            const value = clamp(
-              getValueForPosition(
-                positionInView,
-                containerWidth,
-                thumbWidth,
-                min,
-                max,
-                step,
-              ),
-              minValue,
-              maxValue,
-            );
-            if (gestureStateRef.current.lastValue === value) {
-              return;
-            }
-            const availableSpace = containerWidth - thumbWidth;
-            const absolutePosition =
-              ((value - min) / (max - min)) * availableSpace;
-            gestureStateRef.current.lastValue = value;
-            gestureStateRef.current.lastPosition =
-              absolutePosition + thumbWidth / 2;
-            (isLow ? lowThumbX : highThumbX).setValue(absolutePosition);
-            onValueChanged?.(isLow ? value : low, isLow ? high : value, true);
-            (isLow ? setLow : setHigh)(value);
-            updateSelectedRail();
-          };
-          handlePositionChange(downX);
+          handlePositionChange(downX, isLow, containerWidth);
           pointerX.removeAllListeners();
           pointerX.addListener(({value: pointerPosition}) => {
             const positionInView = pointerPosition - containerX;
-            handlePositionChange(positionInView);
+            handlePositionChange(positionInView, isLow, containerWidth);
           });
         },
 
