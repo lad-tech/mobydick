@@ -32,10 +32,10 @@ const Avatar: FC<AvatarProps> = props => {
   if (!user) {
     return null;
   }
-
+  const isAvatarBadge = !!badge && !disabled && size === IAvatarSize.M;
   return (
     <View style={[styles.container, style, {opacity: disabled ? 0.5 : 1}]}>
-      {!!badge && !disabled && <AvatarBadge badge={badge} />}
+      {isAvatarBadge && <AvatarBadge badge={badge} />}
       {error || !user.logo ? (
         <AvatarWithoutImage
           size={size}

@@ -35757,7 +35757,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel="Сегодня Среда 22 Февраль 2023 "
+              accessibilityLabel=" Среда 22 Февраль 2023 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35793,9 +35793,6 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                         "justifyContent": "center",
                         "width": 38,
                       },
-                      {
-                        "backgroundColor": undefined,
-                      },
                     ]
                   }
                 >
@@ -35809,10 +35806,6 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                           "fontFamily": "Inter-Regular",
                           "fontSize": 21,
                           "fontWeight": "300",
-                        },
-                        {
-                          "color": "#20242D",
-                          "fontWeight": "500",
                         },
                       ]
                     }
@@ -36229,7 +36222,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Понедельник 27 Февраль 2023 "
+              accessibilityLabel="Сегодня Понедельник 27 Февраль 2023 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -36265,6 +36258,9 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                         "justifyContent": "center",
                         "width": 38,
                       },
+                      {
+                        "backgroundColor": undefined,
+                      },
                     ]
                   }
                 >
@@ -36278,6 +36274,10 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                           "fontFamily": "Inter-Regular",
                           "fontSize": 21,
                           "fontWeight": "300",
+                        },
+                        {
+                          "color": "#20242D",
+                          "fontWeight": "500",
                         },
                       ]
                     }
