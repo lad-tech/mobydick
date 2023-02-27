@@ -2,6 +2,7 @@ import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {ScrollView, Animated} from 'react-native';
 
 import View from '../../../basic/components/View/View';
+import {LABELS} from '../../constants';
 
 import Dot from './Dot';
 import {
@@ -152,7 +153,7 @@ const Dots = ({length, activeDot}: IDots) => {
         },
       ]}
       onLayout={onLayout}
-      accessibilityLabel={'dotsAnimatedView'}>
+      accessibilityLabel={LABELS.dotsAnimatedView}>
       <ScrollView
         ref={refScrollView}
         contentContainerStyle={{
@@ -161,7 +162,7 @@ const Dots = ({length, activeDot}: IDots) => {
         bounces={false}
         scrollEnabled={false}
         horizontal
-        accessibilityLabel={'dotsScrollView'}
+        accessibilityLabel={LABELS.dotsScrollView}
         showsHorizontalScrollIndicator={false}>
         {renderDot()}
       </ScrollView>

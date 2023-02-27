@@ -2,8 +2,8 @@ import React from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
 
 import Search from '../Search';
-import {accessibilityLabels} from '../constants';
 import View from '../../../../basic/components/View/View';
+import {LABELS} from '../../../../other';
 
 describe('Search', () => {
   test('render correctly with value', () => {
@@ -17,7 +17,7 @@ describe('Search', () => {
     );
     expect(toJSON()).toMatchSnapshot();
 
-    const cancel = getByLabelText(accessibilityLabels.cancel);
+    const cancel = getByLabelText(LABELS.cancelSearch);
     fireEvent.press(cancel);
 
     expect(onChangeText).toHaveBeenCalledWith('');
@@ -27,7 +27,7 @@ describe('Search', () => {
     expect(toJSON()).toMatchSnapshot();
 
     const log = jest.spyOn(console, 'log');
-    const search = getByLabelText(accessibilityLabels.search);
+    const search = getByLabelText(LABELS.search);
 
     fireEvent.changeText(search, 'search');
 

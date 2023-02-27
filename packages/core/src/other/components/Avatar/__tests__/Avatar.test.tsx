@@ -10,6 +10,7 @@ import {
   IStatusTypes,
 } from '../types';
 import {ICounterTypes, IIndicatorTypes} from '../../Badge';
+import {LABELS} from '../../../constants';
 
 const userWithPhoto = {
   logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
@@ -77,7 +78,7 @@ describe('Avatar', () => {
       <Avatar user={userWithPhotoError} type={IAvatarTypes.text} />,
     );
 
-    fireEvent(getByLabelText('imageAvatar'), 'onError', {nativeEvent: {}});
+    fireEvent(getByLabelText(LABELS.imageAvatar), 'onError', {nativeEvent: {}});
 
     expect(toJSON()).toMatchSnapshot();
   });

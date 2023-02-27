@@ -2,8 +2,8 @@ import {fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
 
 import Tab from '../Tab';
-import {accessibilityLabels} from '../constants';
 import View from '../../../../basic/components/View/View';
+import {LABELS} from '../../../../other';
 
 describe('Tab', () => {
   const value = 1;
@@ -24,7 +24,7 @@ describe('Tab', () => {
         fontTab={'Medium-Accent-H1'}
       />,
     );
-    const tab = getByLabelText(accessibilityLabels.tab);
+    const tab = getByLabelText(LABELS.tab);
 
     fireEvent.press(tab);
     expect(toJSON()).toMatchSnapshot();
@@ -39,7 +39,7 @@ describe('Tab', () => {
         active={false}
       />,
     );
-    const tab = getByLabelText(accessibilityLabels.tab);
+    const tab = getByLabelText(LABELS.tab);
 
     fireEvent.press(tab);
     expect(toJSON()).toMatchSnapshot();
@@ -55,7 +55,7 @@ describe('Tab', () => {
         active={true}
       />,
     );
-    const tab = getByLabelText(accessibilityLabels.tab);
+    const tab = getByLabelText(LABELS.tab);
 
     fireEvent.press(tab);
     expect(toJSON()).toMatchSnapshot();

@@ -8,11 +8,11 @@ import {ITouchableOpacity} from '../../../basic/components/TouchableOpacity/type
 import View from '../../../basic/components/View/View';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import {Typography} from '../../../typography/components/Typography/Typography';
+import {LABELS} from '../../../other';
 
 import Selector from './components/Selector';
 import DropDownIcon from './components/DropDownIcon';
 import {
-  ACCESSIBILITY_LABEL,
   DEFAULT_DROP_DOWN_HEIGHT,
   DEFAULT_DROP_DOWN_WIDTH,
   DROP_DOWN_POPUP_ID,
@@ -179,7 +179,7 @@ function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
           ]}
           disabled={disabled}
           onPress={checkPosition}
-          accessibilityLabel={ACCESSIBILITY_LABEL.selector}>
+          accessibilityLabel={LABELS.selector}>
           <Typography
             style={[
               styles.placeholder,

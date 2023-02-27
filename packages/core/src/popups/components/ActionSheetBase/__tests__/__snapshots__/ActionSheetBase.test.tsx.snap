@@ -92,7 +92,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly with item 1
     }
   >
     <View
-      accessibilityLabel="accessibilityLabelActionSheetsItem"
+      accessibilityLabel="actionSheetsItem"
       accessible={true}
       collapsable={false}
       focusable={true}

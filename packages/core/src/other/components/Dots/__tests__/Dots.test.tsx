@@ -2,6 +2,7 @@ import {act, fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
 
 import Dots from '../Dots';
+import {LABELS} from '../../../constants';
 
 describe('Dots', () => {
   test('render dots length > 7', () => {
@@ -49,7 +50,7 @@ describe('Dots', () => {
   test('render dots onLayout', () => {
     const {toJSON, getByLabelText} = render(<Dots length={10} activeDot={0} />);
 
-    const layout = getByLabelText('dotsAnimatedView');
+    const layout = getByLabelText(LABELS.dotsAnimatedView);
 
     expect(toJSON()).toMatchSnapshot();
     act(() => {
