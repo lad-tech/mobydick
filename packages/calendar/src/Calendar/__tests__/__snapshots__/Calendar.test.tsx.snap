@@ -33384,7 +33384,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             ]
           }
         >
-          2023
+          2022
         </Text>
       </View>
     </View>
@@ -33628,7 +33628,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Понедельник 30 Январь 2023 "
+              accessibilityLabel=" Понедельник 31 Январь 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -33645,101 +33645,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-01-30"
-            >
-              <View
-                style={
-                  {
-                    "alignItems": "center",
-                    "alignSelf": "stretch",
-                  }
-                }
-              >
-                <View
-                  style={
-                    [
-                      {
-                        "alignItems": "center",
-                        "height": 34,
-                        "justifyContent": "center",
-                        "width": 38,
-                      },
-                    ]
-                  }
-                >
-                  <Text
-                    allowFontScaling={false}
-                    style={
-                      [
-                        {
-                          "backgroundColor": "rgba(255, 255, 255, 0)",
-                          "color": "#20242D",
-                          "fontFamily": "Inter-Regular",
-                          "fontSize": 21,
-                          "fontWeight": "300",
-                        },
-                        {
-                          "color": "#9BA1B0",
-                        },
-                      ]
-                    }
-                  >
-                    30
-                  </Text>
-                  <View
-                    style={
-                      {
-                        "bottom": 3,
-                        "position": "absolute",
-                      }
-                    }
-                  >
-                    <View
-                      style={
-                        [
-                          {
-                            "borderRadius": 2,
-                            "height": 4,
-                            "marginHorizontal": 1,
-                            "marginTop": 1,
-                            "opacity": 0,
-                            "width": 4,
-                          },
-                        ]
-                      }
-                    />
-                  </View>
-                </View>
-              </View>
-            </View>
-          </View>
-          <View
-            style={
-              {
-                "alignItems": "center",
-                "flex": 1,
-              }
-            }
-          >
-            <View
-              accessibilityLabel=" Вторник 31 Январь 2023 "
-              accessibilityRole="button"
-              accessible={true}
-              collapsable={false}
-              focusable={true}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
-              style={
-                {
-                  "opacity": 1,
-                }
-              }
-              testID="undefined.day_2023-01-31"
+              testID="undefined.day_2022-01-31"
             >
               <View
                 style={
@@ -33816,7 +33722,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Среда 1 Февраль 2023 "
+              accessibilityLabel=" Вторник 1 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -33833,7 +33739,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-01"
+              testID="undefined.day_2022-02-01"
             >
               <View
                 style={
@@ -33907,7 +33813,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Четверг 2 Февраль 2023 "
+              accessibilityLabel=" Среда 2 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -33924,7 +33830,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-02"
+              testID="undefined.day_2022-02-02"
             >
               <View
                 style={
@@ -33998,7 +33904,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Пятница 3 Февраль 2023 "
+              accessibilityLabel=" Четверг 3 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34015,7 +33921,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-03"
+              testID="undefined.day_2022-02-03"
             >
               <View
                 style={
@@ -34089,7 +33995,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Суббота 4 Февраль 2023 "
+              accessibilityLabel=" Пятница 4 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34106,7 +34012,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-04"
+              testID="undefined.day_2022-02-04"
             >
               <View
                 style={
@@ -34180,7 +34086,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 5 Февраль 2023 "
+              accessibilityLabel=" Суббота 5 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34197,7 +34103,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-05"
+              testID="undefined.day_2022-02-05"
             >
               <View
                 style={
@@ -34262,16 +34168,6 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 1.5,
-            }
-          }
-        >
           <View
             style={
               {
@@ -34281,7 +34177,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Понедельник 6 Февраль 2023 "
+              accessibilityLabel=" Воскресенье 6 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34298,7 +34194,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-06"
+              testID="undefined.day_2022-02-06"
             >
               <View
                 style={
@@ -34363,6 +34259,16 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 1.5,
+            }
+          }
+        >
           <View
             style={
               {
@@ -34372,7 +34278,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Вторник 7 Февраль 2023 "
+              accessibilityLabel=" Понедельник 7 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34389,7 +34295,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-07"
+              testID="undefined.day_2022-02-07"
             >
               <View
                 style={
@@ -34463,7 +34369,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Среда 8 Февраль 2023 "
+              accessibilityLabel=" Вторник 8 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34480,7 +34386,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-08"
+              testID="undefined.day_2022-02-08"
             >
               <View
                 style={
@@ -34554,7 +34460,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Четверг 9 Февраль 2023 "
+              accessibilityLabel=" Среда 9 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34571,7 +34477,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-09"
+              testID="undefined.day_2022-02-09"
             >
               <View
                 style={
@@ -34645,7 +34551,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Пятница 10 Февраль 2023 "
+              accessibilityLabel=" Четверг 10 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34662,7 +34568,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-10"
+              testID="undefined.day_2022-02-10"
             >
               <View
                 style={
@@ -34736,7 +34642,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Суббота 11 Февраль 2023 "
+              accessibilityLabel=" Пятница 11 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34753,7 +34659,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-11"
+              testID="undefined.day_2022-02-11"
             >
               <View
                 style={
@@ -34827,7 +34733,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 12 Февраль 2023 "
+              accessibilityLabel=" Суббота 12 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34844,7 +34750,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-12"
+              testID="undefined.day_2022-02-12"
             >
               <View
                 style={
@@ -34909,16 +34815,6 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 1.5,
-            }
-          }
-        >
           <View
             style={
               {
@@ -34928,7 +34824,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Понедельник 13 Февраль 2023 "
+              accessibilityLabel=" Воскресенье 13 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -34945,7 +34841,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-13"
+              testID="undefined.day_2022-02-13"
             >
               <View
                 style={
@@ -35010,6 +34906,16 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 1.5,
+            }
+          }
+        >
           <View
             style={
               {
@@ -35019,7 +34925,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Вторник 14 Февраль 2023 "
+              accessibilityLabel=" Понедельник 14 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35036,7 +34942,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-14"
+              testID="undefined.day_2022-02-14"
             >
               <View
                 style={
@@ -35110,7 +35016,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Среда 15 Февраль 2023 "
+              accessibilityLabel=" Вторник 15 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35127,7 +35033,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-15"
+              testID="undefined.day_2022-02-15"
             >
               <View
                 style={
@@ -35201,7 +35107,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Четверг 16 Февраль 2023 "
+              accessibilityLabel=" Среда 16 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35218,7 +35124,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-16"
+              testID="undefined.day_2022-02-16"
             >
               <View
                 style={
@@ -35292,7 +35198,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Пятница 17 Февраль 2023 "
+              accessibilityLabel=" Четверг 17 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35309,7 +35215,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-17"
+              testID="undefined.day_2022-02-17"
             >
               <View
                 style={
@@ -35383,7 +35289,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Суббота 18 Февраль 2023 "
+              accessibilityLabel=" Пятница 18 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35400,7 +35306,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-18"
+              testID="undefined.day_2022-02-18"
             >
               <View
                 style={
@@ -35474,7 +35380,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 19 Февраль 2023 "
+              accessibilityLabel=" Суббота 19 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35491,7 +35397,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-19"
+              testID="undefined.day_2022-02-19"
             >
               <View
                 style={
@@ -35556,16 +35462,6 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 1.5,
-            }
-          }
-        >
           <View
             style={
               {
@@ -35575,7 +35471,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Понедельник 20 Февраль 2023 "
+              accessibilityLabel=" Воскресенье 20 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35592,7 +35488,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-20"
+              testID="undefined.day_2022-02-20"
             >
               <View
                 style={
@@ -35657,6 +35553,16 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 1.5,
+            }
+          }
+        >
           <View
             style={
               {
@@ -35666,7 +35572,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Вторник 21 Февраль 2023 "
+              accessibilityLabel=" Понедельник 21 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35683,7 +35589,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-21"
+              testID="undefined.day_2022-02-21"
             >
               <View
                 style={
@@ -35757,7 +35663,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Среда 22 Февраль 2023 "
+              accessibilityLabel=" Вторник 22 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35774,7 +35680,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-22"
+              testID="undefined.day_2022-02-22"
             >
               <View
                 style={
@@ -35848,7 +35754,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Четверг 23 Февраль 2023 "
+              accessibilityLabel=" Среда 23 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35865,7 +35771,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-23"
+              testID="undefined.day_2022-02-23"
             >
               <View
                 style={
@@ -35939,7 +35845,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Пятница 24 Февраль 2023 "
+              accessibilityLabel=" Четверг 24 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -35956,7 +35862,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-24"
+              testID="undefined.day_2022-02-24"
             >
               <View
                 style={
@@ -36030,7 +35936,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Суббота 25 Февраль 2023 "
+              accessibilityLabel=" Пятница 25 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -36047,7 +35953,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-25"
+              testID="undefined.day_2022-02-25"
             >
               <View
                 style={
@@ -36121,7 +36027,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 26 Февраль 2023 "
+              accessibilityLabel=" Суббота 26 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -36138,7 +36044,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-26"
+              testID="undefined.day_2022-02-26"
             >
               <View
                 style={
@@ -36203,16 +36109,6 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            {
-              "flexDirection": "row",
-              "justifyContent": "space-around",
-              "marginVertical": 1.5,
-            }
-          }
-        >
           <View
             style={
               {
@@ -36222,7 +36118,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel="Сегодня Понедельник 27 Февраль 2023 "
+              accessibilityLabel=" Воскресенье 27 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -36239,7 +36135,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-27"
+              testID="undefined.day_2022-02-27"
             >
               <View
                 style={
@@ -36258,9 +36154,6 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                         "justifyContent": "center",
                         "width": 38,
                       },
-                      {
-                        "backgroundColor": undefined,
-                      },
                     ]
                   }
                 >
@@ -36274,10 +36167,6 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                           "fontFamily": "Inter-Regular",
                           "fontSize": 21,
                           "fontWeight": "300",
-                        },
-                        {
-                          "color": "#20242D",
-                          "fontWeight": "500",
                         },
                       ]
                     }
@@ -36311,6 +36200,16 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
               </View>
             </View>
           </View>
+        </View>
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginVertical": 1.5,
+            }
+          }
+        >
           <View
             style={
               {
@@ -36320,7 +36219,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Вторник 28 Февраль 2023 "
+              accessibilityLabel=" Понедельник 28 Февраль 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -36337,7 +36236,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-02-28"
+              testID="undefined.day_2022-02-28"
             >
               <View
                 style={
@@ -36411,7 +36310,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Среда 1 Март 2023 "
+              accessibilityLabel=" Вторник 1 Март 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -36428,7 +36327,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-03-01"
+              testID="undefined.day_2022-03-01"
             >
               <View
                 style={
@@ -36505,7 +36404,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Четверг 2 Март 2023 "
+              accessibilityLabel=" Среда 2 Март 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -36522,7 +36421,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-03-02"
+              testID="undefined.day_2022-03-02"
             >
               <View
                 style={
@@ -36599,7 +36498,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Пятница 3 Март 2023 "
+              accessibilityLabel=" Четверг 3 Март 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -36616,7 +36515,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-03-03"
+              testID="undefined.day_2022-03-03"
             >
               <View
                 style={
@@ -36693,7 +36592,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Суббота 4 Март 2023 "
+              accessibilityLabel=" Пятница 4 Март 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -36710,7 +36609,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-03-04"
+              testID="undefined.day_2022-03-04"
             >
               <View
                 style={
@@ -36787,7 +36686,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
             }
           >
             <View
-              accessibilityLabel=" Воскресенье 5 Март 2023 "
+              accessibilityLabel=" Суббота 5 Март 2022 "
               accessibilityRole="button"
               accessible={true}
               collapsable={false}
@@ -36804,7 +36703,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                   "opacity": 1,
                 }
               }
-              testID="undefined.day_2023-03-05"
+              testID="undefined.day_2022-03-05"
             >
               <View
                 style={
@@ -36844,6 +36743,100 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                     }
                   >
                     5
+                  </Text>
+                  <View
+                    style={
+                      {
+                        "bottom": 3,
+                        "position": "absolute",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "borderRadius": 2,
+                            "height": 4,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                            "opacity": 0,
+                            "width": 4,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessibilityLabel=" Воскресенье 6 Март 2022 "
+              accessibilityRole="button"
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "opacity": 1,
+                }
+              }
+              testID="undefined.day_2022-03-06"
+            >
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                  }
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "height": 34,
+                        "justifyContent": "center",
+                        "width": 38,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    allowFontScaling={false}
+                    style={
+                      [
+                        {
+                          "backgroundColor": "rgba(255, 255, 255, 0)",
+                          "color": "#20242D",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 21,
+                          "fontWeight": "300",
+                        },
+                        {
+                          "color": "#9BA1B0",
+                        },
+                      ]
+                    }
+                  >
+                    6
                   </Text>
                   <View
                     style={
