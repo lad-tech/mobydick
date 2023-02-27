@@ -62,6 +62,7 @@ exports[`Slider should renders correctly by default 1`] = `
       </View>
     </View>
     <View
+      accessibilityLabel="sliderLayoutLowThumb"
       collapsable={false}
       onLayout={[Function]}
       style={
@@ -77,8 +78,8 @@ exports[`Slider should renders correctly by default 1`] = `
       <View
         style={
           {
-            "backgroundColor": "#aaaaaa",
-            "borderColor": "#7f7f7f",
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
             "borderRadius": 18,
             "borderWidth": 3,
             "height": 36,
@@ -103,8 +104,8 @@ exports[`Slider should renders correctly by default 1`] = `
       <View
         style={
           {
-            "backgroundColor": "#ffffff",
-            "borderColor": "#7f7f7f",
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
             "borderRadius": 24,
             "borderWidth": 3,
             "height": 48,
@@ -197,6 +198,7 @@ exports[`Slider should renders correctly disableRange panHandler 1`] = `
       </View>
     </View>
     <View
+      accessibilityLabel="sliderLayoutLowThumb"
       collapsable={false}
       onLayout={[Function]}
       style={
@@ -212,8 +214,8 @@ exports[`Slider should renders correctly disableRange panHandler 1`] = `
       <View
         style={
           {
-            "backgroundColor": "#aaaaaa",
-            "borderColor": "#7f7f7f",
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
             "borderRadius": 18,
             "borderWidth": 3,
             "height": 36,
@@ -306,6 +308,7 @@ exports[`Slider should renders correctly disabled 1`] = `
       </View>
     </View>
     <View
+      accessibilityLabel="sliderLayoutLowThumb"
       collapsable={false}
       onLayout={[Function]}
       style={
@@ -321,8 +324,8 @@ exports[`Slider should renders correctly disabled 1`] = `
       <View
         style={
           {
-            "backgroundColor": "#aaaaaa",
-            "borderColor": "#7f7f7f",
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
             "borderRadius": 18,
             "borderWidth": 3,
             "height": 36,
@@ -414,6 +417,7 @@ exports[`Slider should renders correctly panHandler 1`] = `
       </View>
     </View>
     <View
+      accessibilityLabel="sliderLayoutLowThumb"
       collapsable={false}
       onLayout={[Function]}
       style={
@@ -429,8 +433,8 @@ exports[`Slider should renders correctly panHandler 1`] = `
       <View
         style={
           {
-            "backgroundColor": "#aaaaaa",
-            "borderColor": "#7f7f7f",
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
             "borderRadius": 18,
             "borderWidth": 3,
             "height": 36,
@@ -455,8 +459,8 @@ exports[`Slider should renders correctly panHandler 1`] = `
       <View
         style={
           {
-            "backgroundColor": "#ffffff",
-            "borderColor": "#7f7f7f",
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
             "borderRadius": 24,
             "borderWidth": 3,
             "height": 48,
@@ -549,36 +553,11 @@ exports[`Slider should renders correctly updateThumbs 1`] = `
       </View>
     </View>
     <View
+      accessibilityLabel="sliderLayoutLowThumb"
       collapsable={false}
       onLayout={[Function]}
       style={
         {
-          "transform": [
-            {
-              "translateX": 0,
-            },
-          ],
-        }
-      }
-    >
-      <View
-        style={
-          {
-            "backgroundColor": "#aaaaaa",
-            "borderColor": "#7f7f7f",
-            "borderRadius": 18,
-            "borderWidth": 3,
-            "height": 36,
-            "width": 36,
-          }
-        }
-      />
-    </View>
-    <View
-      collapsable={false}
-      style={
-        {
-          "position": "absolute",
           "transform": [
             {
               "translateX": NaN,
@@ -590,12 +569,12 @@ exports[`Slider should renders correctly updateThumbs 1`] = `
       <View
         style={
           {
-            "backgroundColor": "#ffffff",
-            "borderColor": "#7f7f7f",
-            "borderRadius": 24,
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
+            "borderRadius": 18,
             "borderWidth": 3,
-            "height": 48,
-            "width": 48,
+            "height": 36,
+            "width": 36,
           }
         }
       />
@@ -684,6 +663,7 @@ exports[`Slider should renders correctly with more props 1`] = `
       </View>
     </View>
     <View
+      accessibilityLabel="sliderLayoutLowThumb"
       collapsable={false}
       onLayout={[Function]}
       style={
@@ -699,8 +679,8 @@ exports[`Slider should renders correctly with more props 1`] = `
       <View
         style={
           {
-            "backgroundColor": "#aaaaaa",
-            "borderColor": "#7f7f7f",
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
             "borderRadius": 18,
             "borderWidth": 3,
             "height": 36,

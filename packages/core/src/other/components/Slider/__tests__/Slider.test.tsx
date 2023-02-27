@@ -1,7 +1,8 @@
-import {act, render} from '@testing-library/react-native';
+import {act, fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
 
 import Slider from '../Slider';
+import {LABELS} from '../../../constants';
 const eventMock = {};
 describe('Slider', () => {
   it('should renders correctly by default', function () {
@@ -107,9 +108,10 @@ describe('Slider', () => {
   });
   it('should renders correctly updateThumbs', function () {
     const {getByLabelText, toJSON} = render(
-      <Slider min={0} max={100} step={1} low={20} high={60} />,
+      <Slider min={20} max={100} step={1} disableRange={true} />,
     );
-    const panHandler = getByLabelText('slider');
+    const panHandler = getByLabelText(LABELS.slider);
+    const layout = getByLabelText(LABELS.sliderLayoutLowThumb);
 
     act(() => {
       panHandler.props.onPanResponderTerminate(() => true);
@@ -130,5 +132,10 @@ describe('Slider', () => {
       panHandler.props.onPanResponderMove(eventMock, {moveX: 40});
     });
     expect(toJSON()).toMatchSnapshot();
+    act(() => {
+      fireEvent(layout, 'layout', {
+        nativeEvent: {layout: {width: 100}},
+      });
+    });
   });
 });

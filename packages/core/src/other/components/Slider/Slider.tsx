@@ -14,7 +14,8 @@ import {LABELS} from '../../constants';
 import {clamp, getValueForPosition, isLowCloser} from './helpers';
 import stylesCreate from './stylesCreate';
 import {useLowHigh, useSelectedRail, useWidthLayout} from './hooks';
-import Thumb from './Thumb';
+import Thumb from './components/Thumb';
+import HighThumb from './components/HighThumb';
 
 const trueFunc = () => true;
 
@@ -70,9 +71,7 @@ const Slider: React.FC<ISliderProps> = ({
 
   const updateThumbs = useCallback(() => {
     const {current: containerWidth} = containerWidthRef;
-    if (!thumbWidth || !containerWidth) {
-      return;
-    }
+
     const {low, high} = inPropsRef.current;
     if (!disableRange) {
       const {current: highThumbX} = highThumbXRef;
@@ -126,12 +125,6 @@ const Slider: React.FC<ISliderProps> = ({
   const lowStyles = useMemo(() => {
     return {transform: [{translateX: lowThumbX}]};
   }, [lowThumbX]);
-
-  const highStyles = useMemo(() => {
-    return disableRange
-      ? null
-      : [styles.highThumbContainer, {transform: [{translateX: highThumbX}]}];
-  }, [disableRange, highThumbX]);
 
   const railContainerStyles = useMemo(() => {
     return [styles.railsContainer, {marginHorizontal: thumbWidth / 2}];
@@ -238,14 +231,13 @@ const Slider: React.FC<ISliderProps> = ({
             <View style={styles.selectedRail} />
           </Animated.View>
         </View>
-        <Animated.View style={lowStyles} onLayout={handleThumbLayout}>
+        <Animated.View
+          style={lowStyles}
+          onLayout={handleThumbLayout}
+          accessibilityLabel={LABELS.sliderLayoutLowThumb}>
           <Thumb name={'low'} />
         </Animated.View>
-        {!disableRange && (
-          <Animated.View style={highStyles}>
-            <Thumb name={'high'} />
-          </Animated.View>
-        )}
+        {!disableRange && <HighThumb highThumbX={highThumbX} />}
         <View
           {...panHandlers}
           style={styles.touchableArea}
