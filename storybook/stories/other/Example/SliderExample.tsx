@@ -22,7 +22,6 @@ const SliderExample = () => {
         paddingHorizontal: 12,
         paddingTop: 100,
         flex: 1,
-        // backgroundColor: '#555',
         width: '100%',
       }}>
       <Slider
