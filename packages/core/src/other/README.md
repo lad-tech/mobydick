@@ -12,6 +12,6 @@ style — можно передать свой backgroundColor, и через to
 size — medium(24), small(18), по default — medium;
 maxLength —— по default 2, отображает максимальное заданное количество чисел;
 
-## ***Slider***
+## ***CrossedText***
 
-Взяла за основу слайдет из вот этой либы https://github.com/githuboftigran/rn-range-slider
+Использовать, когда цвет зачеркнутой линии отличается от цвета текста, в противном случае используйте дефолтный пропс textDecorationLine: 'line-through'.
