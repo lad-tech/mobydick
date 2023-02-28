@@ -93,7 +93,6 @@ export const useSelectedRail = (
   }, [inPropsRef, containerWidthRef, disableRange, thumbWidth, left, right]);
   const styles = useMemo(
     () => ({
-      position: 'absolute' as const,
       left: I18nManager.isRTL ? right : left,
       right: I18nManager.isRTL ? left : right,
     }),

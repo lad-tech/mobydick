@@ -118,10 +118,13 @@ exports[`Slider should renders correctly by default 1`] = `
       accessibilityLabel="slider"
       collapsable={false}
       onMoveShouldSetPanResponder={[Function]}
+      onMoveShouldSetPanResponderCapture={[Function]}
       onPanResponderGrant={[Function]}
       onPanResponderMove={[Function]}
       onPanResponderTerminate={[Function]}
+      onPanResponderTerminationRequest={[Function]}
       onShouldBlockNativeResponder={[Function]}
+      onStartShouldSetPanResponderCapture={[Function]}
       style={
         {
           "bottom": 0,
@@ -228,9 +231,12 @@ exports[`Slider should renders correctly disabled 1`] = `
       accessibilityLabel="slider"
       collapsable={false}
       onMoveShouldSetPanResponder={[Function]}
+      onMoveShouldSetPanResponderCapture={[Function]}
       onPanResponderGrant={[Function]}
       onPanResponderTerminate={[Function]}
+      onPanResponderTerminationRequest={[Function]}
       onShouldBlockNativeResponder={[Function]}
+      onStartShouldSetPanResponderCapture={[Function]}
       style={
         {
           "bottom": 0,
@@ -363,10 +369,13 @@ exports[`Slider should renders correctly panHandler 1`] = `
       accessibilityLabel="slider"
       collapsable={false}
       onMoveShouldSetPanResponder={[Function]}
+      onMoveShouldSetPanResponderCapture={[Function]}
       onPanResponderGrant={[Function]}
       onPanResponderMove={[Function]}
       onPanResponderTerminate={[Function]}
+      onPanResponderTerminationRequest={[Function]}
       onShouldBlockNativeResponder={[Function]}
+      onStartShouldSetPanResponderCapture={[Function]}
       style={
         {
           "bottom": 0,
@@ -473,10 +482,13 @@ exports[`Slider should renders correctly updateThumbs 1`] = `
       accessibilityLabel="slider"
       collapsable={false}
       onMoveShouldSetPanResponder={[Function]}
+      onMoveShouldSetPanResponderCapture={[Function]}
       onPanResponderGrant={[Function]}
       onPanResponderMove={[Function]}
       onPanResponderTerminate={[Function]}
+      onPanResponderTerminationRequest={[Function]}
       onShouldBlockNativeResponder={[Function]}
+      onStartShouldSetPanResponderCapture={[Function]}
       style={
         {
           "bottom": 0,
@@ -583,10 +595,13 @@ exports[`Slider should renders correctly with more props 1`] = `
       accessibilityLabel="slider"
       collapsable={false}
       onMoveShouldSetPanResponder={[Function]}
+      onMoveShouldSetPanResponderCapture={[Function]}
       onPanResponderGrant={[Function]}
       onPanResponderMove={[Function]}
       onPanResponderTerminate={[Function]}
+      onPanResponderTerminationRequest={[Function]}
       onShouldBlockNativeResponder={[Function]}
+      onStartShouldSetPanResponderCapture={[Function]}
       style={
         {
           "bottom": 0,
