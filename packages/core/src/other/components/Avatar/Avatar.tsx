@@ -3,6 +3,7 @@ import {Image, ImageErrorEventData} from 'react-native';
 
 import View from '../../../basic/components/View/View';
 import useStyles from '../../../styles/theme/hooks/useStyles';
+import {LABELS} from '../../constants';
 
 import {AvatarProps, IAvatarSize, IAvatarTypes} from './types';
 import stylesCreate from './stylesCreate';
@@ -48,7 +49,7 @@ const Avatar: FC<AvatarProps> = props => {
           source={isNumber(user?.logo) ? user.logo : {uri: user?.logo}}
           style={styles.image}
           onError={onError}
-          accessibilityLabel={'imageAvatar'}
+          accessibilityLabel={LABELS.imageAvatar}
         />
       )}
     </View>

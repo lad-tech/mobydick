@@ -3,8 +3,8 @@ import React from 'react';
 
 import Item from '../Item';
 import {IItemType} from '../types';
-import Constants from '../../PopupBase/constants';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
+import {LABELS} from '../../../../other';
 
 describe('@npm/mobydick-core/ActionSheetBase', () => {
   it('should renders correctly Item', () => {
@@ -77,9 +77,7 @@ describe('@npm/mobydick-core/ActionSheetBase', () => {
         isStatusPressedForTest
       />,
     );
-    const pressableItem = getByLabelText(
-      Constants.accessibilityLabelActionSheetsItem,
-    );
+    const pressableItem = getByLabelText(LABELS.actionSheetsItem);
     fireEvent.press(pressableItem);
 
     expect(toJSON()).toMatchSnapshot();

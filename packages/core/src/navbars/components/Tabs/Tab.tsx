@@ -4,8 +4,8 @@ import {ITabProps} from '../../types';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import {Typography} from '../../../typography/components/Typography/Typography';
+import {LABELS} from '../../../other';
 
-import {accessibilityLabels} from './constants';
 import stylesCreate from './stylesCreate';
 
 const Tab = (props: ITabProps): JSX.Element => {
@@ -37,7 +37,7 @@ const Tab = (props: ITabProps): JSX.Element => {
   return (
     <TouchableOpacity
       onPress={selectPressable}
-      accessibilityLabel={accessibilityLabels.tab}
+      accessibilityLabel={LABELS.tab}
       style={[
         styles.tab,
         {

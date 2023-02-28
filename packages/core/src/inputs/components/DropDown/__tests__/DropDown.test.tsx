@@ -4,11 +4,11 @@ import {View} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 import DropDown from '../DropDown';
-import {ACCESSIBILITY_LABEL} from '../constants';
 import {IInputsTypes} from '../../types';
 import PopupsProvider from '../../../../popups/context/PopupsProvider';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
 import Constants from '../../../../popups/components/PopupBase/constants';
+import {LABELS} from '../../../../other';
 
 describe('@npm/mobydick-core/DropDown', () => {
   let viewRef: React.RefObject<View>;
@@ -79,7 +79,7 @@ describe('@npm/mobydick-core/DropDown', () => {
         </PopupsProvider>
       </SafeAreaProvider>,
     );
-    const pressable = getByLabelText(ACCESSIBILITY_LABEL.selector);
+    const pressable = getByLabelText(LABELS.selector);
     fireEvent.press(pressable);
 
     const pressableSelect = getByLabelText(array[1].label);
@@ -128,7 +128,7 @@ describe('@npm/mobydick-core/DropDown', () => {
         </PopupsProvider>
       </SafeAreaProvider>,
     );
-    const pressable = getByLabelText(ACCESSIBILITY_LABEL.selector);
+    const pressable = getByLabelText(LABELS.selector);
 
     fireEvent.press(pressable);
 

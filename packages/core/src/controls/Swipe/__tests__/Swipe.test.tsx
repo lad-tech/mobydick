@@ -2,6 +2,7 @@ import {act, render} from '@testing-library/react-native';
 import React from 'react';
 
 import Swipe from '../Swipe';
+import {LABELS} from '../../../other';
 
 const onPress = () => null;
 
@@ -11,7 +12,7 @@ describe('Swipe', () => {
     const {getByLabelText, toJSON} = render(
       <Swipe active={false} disabled={false} onPress={onPress} />,
     );
-    const panHandler = getByLabelText('swipe');
+    const panHandler = getByLabelText(LABELS.swipe);
     act(() => panHandler.props.onPanResponderRelease({}, {dx: -10}));
     expect(toJSON()).toMatchSnapshot();
   });
@@ -19,7 +20,7 @@ describe('Swipe', () => {
     const {getByLabelText, toJSON} = render(
       <Swipe active={false} disabled={false} onPress={onPress} />,
     );
-    const panHandler = getByLabelText('swipe');
+    const panHandler = getByLabelText(LABELS.swipe);
     act(() => {
       panHandler.props.onPanResponderMove(eventMock, {dx: 0});
       panHandler.props.onPanResponderRelease(eventMock, {dx: 0});
@@ -37,7 +38,7 @@ describe('Swipe', () => {
     const {getByLabelText, toJSON} = render(
       <Swipe active={true} disabled onPress={onPress} />,
     );
-    const panHandler = getByLabelText('swipe');
+    const panHandler = getByLabelText(LABELS.swipe);
 
     act(() => {
       panHandler.props.onPanResponderMove(eventMock, {dx: 0});
@@ -49,7 +50,7 @@ describe('Swipe', () => {
     const {getByLabelText, toJSON} = render(
       <Swipe active={true} disabled onPress={onPress} />,
     );
-    const panHandler = getByLabelText('swipe');
+    const panHandler = getByLabelText(LABELS.swipe);
 
     act(() => {
       panHandler.props.onPanResponderRelease(eventMock, {dx: 20});
@@ -60,7 +61,7 @@ describe('Swipe', () => {
     const {getByLabelText, toJSON} = render(
       <Swipe active={true} disabled onPress={onPress} />,
     );
-    const panHandler = getByLabelText('swipe');
+    const panHandler = getByLabelText(LABELS.swipe);
 
     act(() => {
       panHandler.props.onStartShouldSetPanResponder(() => true);

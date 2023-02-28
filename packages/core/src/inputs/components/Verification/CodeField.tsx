@@ -5,8 +5,8 @@ import {useFont} from '../../../typography';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 import TextInput from '../../../basic/components/TextInput/TextInput';
+import {LABELS} from '../../../other';
 
-import {accessibilityLabels} from './constants';
 import {ICodeFieldProps} from './types';
 import stylesCreate from './stylesCreate';
 
@@ -43,7 +43,7 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
     <View style={[styles.inputContainer, textInputContainerStyle]}>
       <TextInput
         ref={ref}
-        accessibilityLabel={accessibilityLabels.codeField}
+        accessibilityLabel={LABELS.codeField}
         importantForAutofill={'no'}
         onChangeText={onChangeText}
         style={[styles.textInput, fontStyle, style]}

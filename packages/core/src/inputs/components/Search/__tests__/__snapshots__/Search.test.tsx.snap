@@ -42,7 +42,7 @@ exports[`Search render correctly with value 1`] = `
     value="value"
   />
   <View
-    accessibilityLabel="cancel"
+    accessibilityLabel="cancelSearch"
     accessible={true}
     collapsable={false}
     focusable={true}

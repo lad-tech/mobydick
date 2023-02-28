@@ -1,9 +1,9 @@
 import React, {FC, useCallback} from 'react';
 
-import Constants from '../PopupBase/constants';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import useTheme from '../../../styles/theme/hooks/useTheme';
 import Pressable from '../../../basic/components/Pressable/Pressable';
+import {LABELS} from '../../../other';
 
 import stylesCreate from './stylesCreate';
 import Contents from './content/Contents';
@@ -28,7 +28,7 @@ const Item: FC<IPropsItem> = props => {
       style={getStyle}
       disabled={disabled}
       onPress={onPress}
-      accessibilityLabel={Constants.accessibilityLabelActionSheetsItem}
+      accessibilityLabel={LABELS.actionSheetsItem}
       testOnly_pressed={isStatusPressedForTest}>
       <Contents {...props} />
     </Pressable>

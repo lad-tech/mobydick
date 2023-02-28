@@ -2,14 +2,14 @@ import React from 'react';
 import {act, render} from '@testing-library/react-native';
 
 import CodeField from '../CodeField';
-import {accessibilityLabels} from '../constants';
+import {LABELS} from '../../../../other';
 
 describe('@npm/mobydick-core/CodeField', () => {
   test('render correctly with value focus', () => {
     const {toJSON, getByLabelText} = render(<CodeField />);
     expect(toJSON()).toMatchSnapshot();
 
-    const codeField = getByLabelText(accessibilityLabels.codeField);
+    const codeField = getByLabelText(LABELS.codeField);
     act(() => codeField.props.onFocus());
   });
   test('render correctly with value blur', () => {
@@ -22,7 +22,7 @@ describe('@npm/mobydick-core/CodeField', () => {
       />,
     );
 
-    const codeField = getByLabelText(accessibilityLabels.codeField);
+    const codeField = getByLabelText(LABELS.codeField);
     act(() => codeField.props.onBlur());
 
     expect(toJSON()).toMatchSnapshot();
@@ -37,7 +37,7 @@ describe('@npm/mobydick-core/CodeField', () => {
       />,
     );
 
-    const codeField = getByLabelText(accessibilityLabels.codeField);
+    const codeField = getByLabelText(LABELS.codeField);
 
     act(() => codeField.props.onKeyPress({nativeEvent: {key: 'Backspace'}}));
     expect(toJSON()).toMatchSnapshot();

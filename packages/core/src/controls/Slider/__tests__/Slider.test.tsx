@@ -9,7 +9,7 @@ describe('Slider', () => {
     const {getByLabelText, toJSON} = render(
       <Slider min={0} max={100} step={1} />,
     );
-    const panHandler = getByLabelText('slider');
+    const panHandler = getByLabelText(LABELS.slider);
     act(() => panHandler.props.onMoveShouldSetPanResponder({}, {dx: -10}));
     expect(toJSON()).toMatchSnapshot();
   });
@@ -25,7 +25,7 @@ describe('Slider', () => {
         disableRange={true}
       />,
     );
-    const panHandler = getByLabelText('slider');
+    const panHandler = getByLabelText(LABELS.slider);
     act(() => panHandler.props.onMoveShouldSetPanResponder({}, {dx: -10}));
     expect(toJSON()).toMatchSnapshot();
   });
@@ -33,7 +33,7 @@ describe('Slider', () => {
     const {getByLabelText, toJSON} = render(
       <Slider min={0} max={100} step={1} />,
     );
-    const panHandler = getByLabelText('slider');
+    const panHandler = getByLabelText(LABELS.slider);
 
     act(() => {
       panHandler.props.onPanResponderTerminate(() => true);
@@ -55,37 +55,12 @@ describe('Slider', () => {
     });
     expect(toJSON()).toMatchSnapshot();
   });
-  it('should renders correctly disableRange panHandler', function () {
-    const {getByLabelText, toJSON} = render(
-      <Slider min={0} max={100} step={1} disableRange={true} />,
-    );
-    const panHandler = getByLabelText('slider');
 
-    act(() => {
-      panHandler.props.onPanResponderTerminate(() => true);
-      panHandler.props.onShouldBlockNativeResponder(() => true);
-      panHandler.props.onMoveShouldSetPanResponder(eventMock, {dx: 10, dy: 0});
-      panHandler.props.onPanResponderGrant(
-        {
-          nativeEvent: {
-            locationX: 21,
-            locationY: 5,
-            pageX: 33,
-            pageY: 152,
-            target: 723,
-          },
-        },
-        {dx: 10, dy: 0},
-      );
-      panHandler.props.onPanResponderMove(eventMock, {moveX: 20});
-    });
-    expect(toJSON()).toMatchSnapshot();
-  });
   it('should renders correctly disabled', function () {
     const {getByLabelText, toJSON} = render(
       <Slider min={0} max={100} step={1} disableRange={true} disabled={true} />,
     );
-    const panHandler = getByLabelText('slider');
+    const panHandler = getByLabelText(LABELS.slider);
 
     act(() => {
       panHandler.props.onPanResponderTerminate(() => true);

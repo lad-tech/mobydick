@@ -9,6 +9,7 @@ import {
 
 import useStyles from '../../styles/theme/hooks/useStyles';
 import rem from '../../styles/spaces/rem';
+import {LABELS} from '../../other';
 
 import stylesCreate from './stylesCreate';
 import {ISwipe} from './types';
@@ -105,7 +106,7 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
     <Animated.View
       style={[styles.container, {backgroundColor}]}
       needsOffscreenAlphaCompositing={true}
-      accessibilityLabel={'swipe'}
+      accessibilityLabel={LABELS.swipe}
       {...panResponder.panHandlers}>
       <Animated.View style={[styles.switcher, {transform: [{translateX}]}]} />
     </Animated.View>
