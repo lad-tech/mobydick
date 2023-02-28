@@ -15,6 +15,9 @@ const stylesCreate = ({colors, spaces}: IThemeContext) => {
       borderRadius: spaces.Space2,
       backgroundColor: colors.IconMuted,
     },
+    selectedRailContainer: {
+      position: 'absolute',
+    },
     selectedRail: {
       height: spaces.Space4,
       backgroundColor: colors.IconBase,

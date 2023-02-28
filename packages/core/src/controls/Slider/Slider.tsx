@@ -14,10 +14,12 @@ import {LABELS} from '../../other/constants';
 import {clamp, getValueForPosition, isLowCloser} from './helpers';
 import stylesCreate from './stylesCreate';
 import {useLowHigh, useSelectedRail, useWidthLayout} from './hooks';
-import Thumb from './components/Thumb';
 import HighThumb from './components/HighThumb';
+import Rail from './components/Rail';
+import LowThumb from './components/LowThumb';
 
 const trueFunc = () => true;
+const falseFunc = () => false;
 
 export interface ISliderProps extends ViewProps {
   min: number;
@@ -114,14 +116,6 @@ const Slider: React.FC<ISliderProps> = ({
     [thumbWidth],
   );
 
-  const lowStyles = useMemo(() => {
-    return {transform: [{translateX: lowThumbX}]};
-  }, [lowThumbX]);
-
-  const railContainerStyles = useMemo(() => {
-    return [styles.railsContainer, {marginHorizontal: thumbWidth / 2}];
-  }, [thumbWidth]);
-
   function getLow(downX: number, lowPosition: number, highPosition: number) {
     return disableRange || isLowCloser(downX, lowPosition, highPosition);
   }
@@ -162,6 +156,9 @@ const Slider: React.FC<ISliderProps> = ({
   const {panHandlers} = useMemo(
     () =>
       PanResponder.create({
+        onStartShouldSetPanResponderCapture: falseFunc,
+        onMoveShouldSetPanResponderCapture: falseFunc,
+        onPanResponderTerminationRequest: falseFunc,
         onPanResponderTerminate: trueFunc,
         onShouldBlockNativeResponder: trueFunc,
         onMoveShouldSetPanResponder: (
@@ -222,18 +219,8 @@ const Slider: React.FC<ISliderProps> = ({
   return (
     <View {...restProps}>
       <View onLayout={handleContainerLayout} style={styles.controlsContainer}>
-        <View style={railContainerStyles}>
-          <View style={styles.rail} />
-          <Animated.View style={selectedRailStyle}>
-            <View style={styles.selectedRail} />
-          </Animated.View>
-        </View>
-        <Animated.View
-          style={lowStyles}
-          onLayout={handleThumbLayout}
-          accessibilityLabel={LABELS.sliderLayoutLowThumb}>
-          <Thumb name={'low'} />
-        </Animated.View>
+        <Rail selectedRailStyle={selectedRailStyle} thumbWidth={thumbWidth} />
+        <LowThumb handleThumbLayout={handleThumbLayout} lowThumbX={lowThumbX} />
         {!disableRange && <HighThumb highThumbX={highThumbX} />}
         <View
           {...panHandlers}

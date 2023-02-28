@@ -3,7 +3,11 @@ import React from 'react';
 
 import Slider from '../Slider';
 import {LABELS} from '../../../other/constants';
+
 const eventMock = {};
+const trueFunc = () => true;
+const falseFunc = () => false;
+
 describe('Slider', () => {
   it('should renders correctly by default', function () {
     const {getByLabelText, toJSON} = render(
@@ -36,8 +40,11 @@ describe('Slider', () => {
     const panHandler = getByLabelText(LABELS.slider);
 
     act(() => {
-      panHandler.props.onPanResponderTerminate(() => true);
-      panHandler.props.onShouldBlockNativeResponder(() => true);
+      panHandler.props.onStartShouldSetPanResponderCapture(falseFunc);
+      panHandler.props.onMoveShouldSetPanResponderCapture(falseFunc);
+      panHandler.props.onPanResponderTerminationRequest(falseFunc);
+      panHandler.props.onPanResponderTerminate(trueFunc);
+      panHandler.props.onShouldBlockNativeResponder(trueFunc);
       panHandler.props.onMoveShouldSetPanResponder(eventMock, {dx: 10, dy: 0});
       panHandler.props.onPanResponderGrant(
         {
@@ -63,8 +70,8 @@ describe('Slider', () => {
     const panHandler = getByLabelText(LABELS.slider);
 
     act(() => {
-      panHandler.props.onPanResponderTerminate(() => true);
-      panHandler.props.onShouldBlockNativeResponder(() => true);
+      panHandler.props.onPanResponderTerminate(trueFunc);
+      panHandler.props.onShouldBlockNativeResponder(trueFunc);
       panHandler.props.onMoveShouldSetPanResponder(eventMock, {dx: 10, dy: 0});
       panHandler.props.onPanResponderGrant(
         {
@@ -89,8 +96,8 @@ describe('Slider', () => {
     const layout = getByLabelText(LABELS.sliderLayoutLowThumb);
 
     act(() => {
-      panHandler.props.onPanResponderTerminate(() => true);
-      panHandler.props.onShouldBlockNativeResponder(() => true);
+      panHandler.props.onPanResponderTerminate(trueFunc);
+      panHandler.props.onShouldBlockNativeResponder(trueFunc);
       panHandler.props.onMoveShouldSetPanResponder(eventMock, {dx: 10, dy: 0});
       panHandler.props.onPanResponderGrant(
         {
