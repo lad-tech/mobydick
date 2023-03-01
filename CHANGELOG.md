@@ -1,3 +1,10 @@
+# [6.2.0](https://glab.lad24.ru/npm/mobydick/compare/v6.1.0...v6.2.0) (2023-03-01)
+
+
+### Features
+
+* **CrossedText:** add CrossedText ([e70d797](https://glab.lad24.ru/npm/mobydick/commit/e70d7976aa6e50ec6495ba2cb4318b884b79d098))
+
 # [6.1.0](https://glab.lad24.ru/npm/mobydick/compare/v6.0.2...v6.1.0) (2023-02-27)
 
 
