@@ -1,10 +1,12 @@
 import React, {useCallback, useRef, useState} from 'react';
-import {Dimensions, FlatList} from 'react-native';
+import {FlatList} from 'react-native';
 
 import rem from '../../../styles/spaces/rem';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
-import useTheme from '../../../styles/theme/hooks/useTheme';
 import {LABELS} from '../../constants';
+import useStyles from '../../../styles/theme/hooks/useStyles';
+
+import stylesCreate from './stylesCreate';
 
 interface IProps<T> {
   data: Array<T>;
@@ -18,8 +20,6 @@ interface IProps<T> {
   animateAutoScroll?: boolean;
 }
 
-const {width} = Dimensions.get('window');
-
 const Carousel = <T,>({
   data = [],
   sliderItem,
@@ -32,7 +32,7 @@ const Carousel = <T,>({
   animateAutoScroll = false,
 }: IProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
-  const {colors} = useTheme();
+  const [styles] = useStyles(stylesCreate, sideMargin);
   const [slidePosition, setSlidePosition] = useState<number>(0);
 
   const initScroll = useCallback(() => {
@@ -54,43 +54,54 @@ const Carousel = <T,>({
     initScroll();
   }, [initScroll]);
 
-  const renderItem = ({item, index}: {item: T; index: number}) => {
-    return (
-      <TouchableOpacity
-        onPress={() => !loading && onPressItem && onPressItem(item)}
-        accessibilityLabel={LABELS.carouselItem}
-        style={{
-          marginHorizontal: sideMargin,
-          width: width - sideMargin * 2,
-          backgroundColor: colors.BgAccent,
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}>
-        {sliderItem(item, index, data)}
-      </TouchableOpacity>
-    );
-  };
+  const onPress = useCallback(
+    item => () => {
+      !loading && onPressItem && onPressItem(item);
+    },
+    [loading, onPressItem],
+  );
+
+  const keExtractorDefault = useCallback(
+    item => keyExtractor(item),
+    [keyExtractor],
+  );
+
+  const renderItem = useCallback(
+    ({item, index}: {item: T; index: number}) => {
+      return (
+        <TouchableOpacity
+          onPress={onPress(item)}
+          accessibilityLabel={LABELS.carouselItem}
+          style={styles.item}>
+          {sliderItem(item, index, data)}
+        </TouchableOpacity>
+      );
+    },
+    [data, onPress],
+  );
+
+  const onScrollToIndexFailed = useCallback(error => {
+    if (averageItemLength) {
+      ref.current?.scrollToOffset({
+        offset: averageItemLength * error.index,
+        animated: animateAutoScroll,
+      });
+    }
+  }, []);
 
   return (
     <FlatList
       ref={ref}
       data={data}
-      extraData={true}
-      keyExtractor={item => keyExtractor(item)}
+      extraData={loading}
+      keyExtractor={keExtractorDefault}
       horizontal
       pagingEnabled
       onLayout={onLayout}
       accessibilityLabel={LABELS.carousel}
       showsHorizontalScrollIndicator={false}
       renderItem={renderItem}
-      onScrollToIndexFailed={error => {
-        if (averageItemLength) {
-          ref.current?.scrollToOffset({
-            offset: averageItemLength * error.index,
-            animated: animateAutoScroll,
-          });
-        }
-      }}
+      onScrollToIndexFailed={onScrollToIndexFailed}
     />
   );
 };

@@ -31,7 +31,7 @@ exports[`Carousel render Carousel 1`] = `
       },
     ]
   }
-  extraData={true}
+  extraData={false}
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
@@ -376,7 +376,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       },
     ]
   }
-  extraData={true}
+  extraData={false}
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
@@ -721,7 +721,7 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
       },
     ]
   }
-  extraData={true}
+  extraData={false}
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
@@ -1066,7 +1066,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
       },
     ]
   }
-  extraData={true}
+  extraData={false}
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
@@ -1411,7 +1411,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
       },
     ]
   }
-  extraData={true}
+  extraData={false}
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
@@ -2101,7 +2101,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       },
     ]
   }
-  extraData={true}
+  extraData={false}
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
@@ -2446,7 +2446,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       },
     ]
   }
-  extraData={true}
+  extraData={false}
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
