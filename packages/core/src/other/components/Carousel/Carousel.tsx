@@ -21,7 +21,7 @@ interface IProps<T> {
 }
 
 const Carousel = <T,>({
-  data = [],
+  data,
   sliderItem,
   keyExtractor,
   loading = false,
@@ -36,23 +36,21 @@ const Carousel = <T,>({
   const [slidePosition, setSlidePosition] = useState<number>(0);
 
   const initScroll = useCallback(() => {
-    if (activeItemId) {
-      const selectedIndex = data.findIndex(
-        item => keyExtractor(item) === activeItemId,
-      );
-      if (selectedIndex > -1 && selectedIndex !== slidePosition) {
-        setSlidePosition(selectedIndex);
-        ref.current?.scrollToIndex({
-          animated: animateAutoScroll,
-          index: selectedIndex,
-        });
-      }
+    const selectedIndex = data.findIndex(
+      item => keyExtractor(item) === activeItemId,
+    );
+    if (selectedIndex > -1 && selectedIndex !== slidePosition) {
+      setSlidePosition(selectedIndex);
+      ref.current?.scrollToIndex({
+        animated: animateAutoScroll,
+        index: selectedIndex,
+      });
     }
-  }, [activeItemId]);
+  }, [activeItemId, slidePosition, data, keyExtractor]);
 
   const onLayout = useCallback(() => {
-    initScroll();
-  }, [initScroll]);
+    activeItemId && initScroll();
+  }, [initScroll, activeItemId]);
 
   const onPress = useCallback(
     item => () => {
@@ -80,14 +78,17 @@ const Carousel = <T,>({
     [data, onPress],
   );
 
-  const onScrollToIndexFailed = useCallback(error => {
-    if (averageItemLength) {
-      ref.current?.scrollToOffset({
-        offset: averageItemLength * error.index,
-        animated: animateAutoScroll,
-      });
-    }
-  }, []);
+  const onScrollToIndexFailed = useCallback(
+    error => {
+      if (averageItemLength) {
+        ref.current?.scrollToOffset({
+          offset: averageItemLength * error.index,
+          animated: animateAutoScroll,
+        });
+      }
+    },
+    [averageItemLength],
+  );
 
   return (
     <FlatList

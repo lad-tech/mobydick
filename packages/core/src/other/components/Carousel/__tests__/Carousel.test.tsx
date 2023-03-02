@@ -87,17 +87,37 @@ describe('Carousel', () => {
         />
       </SafeAreaProvider>,
     );
-    const layout = getByLabelText(LABELS.carousel);
+    const carousel = getByLabelText(LABELS.carousel);
 
     expect(toJSON()).toMatchSnapshot();
     act(() => {
-      fireEvent(layout, 'layout', {
+      fireEvent(carousel, 'layout', {
+        nativeEvent: {layout: {height: 100}},
+      });
+    });
+  });
+  it('render Carousel not activeItemId', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          activeItemId={'20'}
+        />
+      </SafeAreaProvider>,
+    );
+    const carousel = getByLabelText(LABELS.carousel);
+
+    expect(toJSON()).toMatchSnapshot();
+    act(() => {
+      fireEvent(carousel, 'layout', {
         nativeEvent: {layout: {height: 100}},
       });
     });
   });
   it('render Carousel averageItemLength', () => {
-    const {toJSON} = render(
+    const {toJSON, getByLabelText} = render(
       <SafeAreaProvider>
         <Carousel
           data={data}
@@ -107,8 +127,13 @@ describe('Carousel', () => {
         />
       </SafeAreaProvider>,
     );
-
     expect(toJSON()).toMatchSnapshot();
+    const carousel = getByLabelText(LABELS.carousel);
+    act(() => {
+      fireEvent(carousel, 'onScrollToIndexFailed', {
+        error: {index: 7},
+      });
+    });
   });
   it('render Carousel averageItemLength onScrollToIndexFailed', () => {
     const {toJSON} = render(
