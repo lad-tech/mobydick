@@ -38,7 +38,8 @@ const groupDate = groupDateThree.concat(Array(8).fill(defaultUser));
 const AvatarExample = () => {
   const {colors, spaces} = useTheme();
   const disabled = boolean('disabled', false);
-  const lengthGroup = number('lengthGroup ', 88);
+  const plusNumber = number('plusNumber ', 88);
+
   return (
     <>
       <View style={{paddingVertical: spaces.Space8}}>
@@ -46,7 +47,7 @@ const AvatarExample = () => {
       </View>
       <View style={{paddingVertical: spaces.Space8}}>
         <AvatarGroup
-          groups={groupDateThree.concat(Array(lengthGroup).fill(defaultUser))}
+          groups={groupDateThree.concat(Array(plusNumber).fill(defaultUser))}
         />
       </View>
 

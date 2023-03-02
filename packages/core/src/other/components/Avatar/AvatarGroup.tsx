@@ -102,7 +102,6 @@ const stylesCreate = ({colors, spaces}: IThemeContext) => {
       zIndex: 3,
     },
     avatarFour: {
-      left: spaces.Space12,
       zIndex: 4,
     },
   });
