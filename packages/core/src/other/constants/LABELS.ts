@@ -11,4 +11,6 @@ export const LABELS = {
   codeField: 'codeField',
   selector: 'selector',
   actionSheetsItem: 'actionSheetsItem',
+  carousel: 'carousel',
+  carouselItem: 'carouselItem',
 };
