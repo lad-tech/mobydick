@@ -29,6 +29,10 @@ exports[`Carousel render Carousel 1`] = `
         "id": "6",
         "name": "icon-star",
       },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
     ]
   }
   extraData={false}
@@ -50,7 +54,17 @@ exports[`Carousel render Carousel 1`] = `
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
   stickyHeaderIndices={[]}
-  viewabilityConfigCallbackPairs={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
 >
   <View>
     <View
@@ -79,7 +93,6 @@ exports[`Carousel render Carousel 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -127,7 +140,6 @@ exports[`Carousel render Carousel 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -175,7 +187,6 @@ exports[`Carousel render Carousel 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -223,7 +234,6 @@ exports[`Carousel render Carousel 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -271,7 +281,6 @@ exports[`Carousel render Carousel 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -319,7 +328,53 @@ exports[`Carousel render Carousel 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -374,6 +429,10 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         "id": "6",
         "name": "icon-star",
       },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
     ]
   }
   extraData={false}
@@ -395,7 +454,17 @@ exports[`Carousel render Carousel activeItemId 1`] = `
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
   stickyHeaderIndices={[]}
-  viewabilityConfigCallbackPairs={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
 >
   <View>
     <View
@@ -424,7 +493,6 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -472,7 +540,6 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -520,7 +587,6 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -568,7 +634,6 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -616,7 +681,6 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -664,7 +728,53 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -719,6 +829,10 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
         "id": "6",
         "name": "icon-star",
       },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
     ]
   }
   extraData={false}
@@ -740,7 +854,17 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
   stickyHeaderIndices={[]}
-  viewabilityConfigCallbackPairs={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
 >
   <View>
     <View
@@ -769,7 +893,6 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -817,7 +940,6 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -865,7 +987,6 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -913,7 +1034,6 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -961,7 +1081,6 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1009,7 +1128,53 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1064,6 +1229,10 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         "id": "6",
         "name": "icon-star",
       },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
     ]
   }
   extraData={false}
@@ -1085,7 +1254,17 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
   stickyHeaderIndices={[]}
-  viewabilityConfigCallbackPairs={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
 >
   <View>
     <View
@@ -1114,7 +1293,6 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1162,7 +1340,6 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1210,7 +1387,6 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1258,7 +1434,6 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1306,7 +1481,6 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1354,7 +1528,53 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1409,6 +1629,10 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         "id": "6",
         "name": "icon-star",
       },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
     ]
   }
   extraData={false}
@@ -1430,7 +1654,17 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
   stickyHeaderIndices={[]}
-  viewabilityConfigCallbackPairs={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
 >
   <View>
     <View
@@ -1459,7 +1693,6 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1507,7 +1740,6 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1555,7 +1787,6 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1603,7 +1834,6 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1651,7 +1881,6 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1699,7 +1928,53 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1723,6 +1998,525 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
     </View>
   </View>
 </RCTScrollView>
+`;
+
+exports[`Carousel render Carousel isDots 1`] = `
+[
+  <RCTScrollView
+    accessibilityLabel="carousel"
+    data={
+      [
+        {
+          "id": "1",
+          "name": "icon-star",
+        },
+        {
+          "id": "2",
+          "name": "icon-star",
+        },
+        {
+          "id": "3",
+          "name": "icon-star",
+        },
+        {
+          "id": "4",
+          "name": "icon-star",
+        },
+        {
+          "id": "5",
+          "name": "icon-star",
+        },
+        {
+          "id": "6",
+          "name": "icon-star",
+        },
+        {
+          "id": "7",
+          "name": "icon-star",
+        },
+      ]
+    }
+    extraData={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollToIndexFailed={[Function]}
+    pagingEnabled={true}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={
+      [
+        {
+          "onViewableItemsChanged": [Function],
+          "viewabilityConfig": {
+            "itemVisiblePercentThreshold": 40,
+            "waitForInteraction": true,
+          },
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 18,
+              "opacity": 1,
+              "width": 714,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 18,
+              "opacity": 1,
+              "width": 714,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 18,
+              "opacity": 1,
+              "width": 714,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 18,
+              "opacity": 1,
+              "width": 714,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 18,
+              "opacity": 1,
+              "width": 714,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 18,
+              "opacity": 1,
+              "width": 714,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 18,
+              "opacity": 1,
+              "width": 714,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+  <View
+    accessibilityLabel="dotsAnimatedView"
+    collapsable={false}
+    onLayout={[Function]}
+    style={
+      {
+        "width": 150,
+      }
+    }
+  >
+    <RCTScrollView
+      accessibilityLabel="dotsScrollView"
+      bounces={false}
+      contentContainerStyle={
+        {
+          "alignItems": "center",
+        }
+      }
+      horizontal={true}
+      scrollEnabled={false}
+      showsHorizontalScrollIndicator={false}
+    >
+      <View>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#5E6678",
+                "borderRadius": 6,
+                "height": 12,
+                "marginHorizontal": 7.5,
+                "width": 12,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#9BA1B0",
+                "borderRadius": 6,
+                "height": 12,
+                "marginHorizontal": 7.5,
+                "width": 12,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#9BA1B0",
+                "borderRadius": 6,
+                "height": 12,
+                "marginHorizontal": 7.5,
+                "width": 12,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#9BA1B0",
+                "borderRadius": 4.5,
+                "height": 9,
+                "marginHorizontal": 7.5,
+                "width": 9,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#9BA1B0",
+                "borderRadius": 3,
+                "height": 6,
+                "marginHorizontal": 7.5,
+                "width": 6,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#9BA1B0",
+                "borderRadius": 3,
+                "height": 6,
+                "marginHorizontal": 7.5,
+                "width": 6,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#9BA1B0",
+                "borderRadius": 3,
+                "height": 6,
+                "marginHorizontal": 7.5,
+                "width": 6,
+              },
+            ]
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>,
+]
 `;
 
 exports[`Carousel render Carousel loading 1`] = `
@@ -1754,6 +2548,10 @@ exports[`Carousel render Carousel loading 1`] = `
         "id": "6",
         "name": "icon-star",
       },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
     ]
   }
   extraData={true}
@@ -1775,7 +2573,17 @@ exports[`Carousel render Carousel loading 1`] = `
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
   stickyHeaderIndices={[]}
-  viewabilityConfigCallbackPairs={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
 >
   <View>
     <View
@@ -1804,7 +2612,6 @@ exports[`Carousel render Carousel loading 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1852,7 +2659,6 @@ exports[`Carousel render Carousel loading 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1900,7 +2706,6 @@ exports[`Carousel render Carousel loading 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1948,7 +2753,6 @@ exports[`Carousel render Carousel loading 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -1996,7 +2800,6 @@ exports[`Carousel render Carousel loading 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2044,7 +2847,53 @@ exports[`Carousel render Carousel loading 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2099,6 +2948,10 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         "id": "6",
         "name": "icon-star",
       },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
     ]
   }
   extraData={false}
@@ -2120,7 +2973,17 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
   stickyHeaderIndices={[]}
-  viewabilityConfigCallbackPairs={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
 >
   <View>
     <View
@@ -2149,7 +3012,6 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2197,7 +3059,6 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2245,7 +3106,6 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2293,7 +3153,6 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2341,7 +3200,6 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2389,7 +3247,453 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Carousel render Carousel onActiveChange 1`] = `
+<RCTScrollView
+  accessibilityLabel="carousel"
+  data={
+    [
+      {
+        "id": "1",
+        "name": "icon-star",
+      },
+      {
+        "id": "2",
+        "name": "icon-star",
+      },
+      {
+        "id": "3",
+        "name": "icon-star",
+      },
+      {
+        "id": "4",
+        "name": "icon-star",
+      },
+      {
+        "id": "5",
+        "name": "icon-star",
+      },
+      {
+        "id": "6",
+        "name": "icon-star",
+      },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
+    ]
+  }
+  extraData={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onScrollToIndexFailed={[Function]}
+  pagingEnabled={true}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsHorizontalScrollIndicator={false}
+  stickyHeaderIndices={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2444,6 +3748,10 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         "id": "6",
         "name": "icon-star",
       },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
     ]
   }
   extraData={false}
@@ -2465,7 +3773,17 @@ exports[`Carousel render Carousel onPressItem 1`] = `
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
   stickyHeaderIndices={[]}
-  viewabilityConfigCallbackPairs={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
 >
   <View>
     <View
@@ -2494,7 +3812,6 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2542,7 +3859,6 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2590,7 +3906,6 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2638,7 +3953,6 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2686,7 +4000,6 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2734,7 +4047,453 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Carousel render Carousel scroll 1`] = `
+<RCTScrollView
+  accessibilityLabel="carousel"
+  data={
+    [
+      {
+        "id": "1",
+        "name": "icon-star",
+      },
+      {
+        "id": "2",
+        "name": "icon-star",
+      },
+      {
+        "id": "3",
+        "name": "icon-star",
+      },
+      {
+        "id": "4",
+        "name": "icon-star",
+      },
+      {
+        "id": "5",
+        "name": "icon-star",
+      },
+      {
+        "id": "6",
+        "name": "icon-star",
+      },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
+    ]
+  }
+  extraData={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onScrollToIndexFailed={[Function]}
+  pagingEnabled={true}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsHorizontalScrollIndicator={false}
+  stickyHeaderIndices={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
             "justifyContent": "center",
             "marginHorizontal": 18,
             "opacity": 1,
@@ -2789,6 +4548,10 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         "id": "6",
         "name": "icon-star",
       },
+      {
+        "id": "7",
+        "name": "icon-star",
+      },
     ]
   }
   extraData={false}
@@ -2810,7 +4573,17 @@ exports[`Carousel render Carousel sideMargin 1`] = `
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
   stickyHeaderIndices={[]}
-  viewabilityConfigCallbackPairs={[]}
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
 >
   <View>
     <View
@@ -2839,7 +4612,6 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 20,
             "opacity": 1,
@@ -2887,7 +4659,6 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 20,
             "opacity": 1,
@@ -2935,7 +4706,6 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 20,
             "opacity": 1,
@@ -2983,7 +4753,6 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 20,
             "opacity": 1,
@@ -3031,7 +4800,6 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
             "justifyContent": "center",
             "marginHorizontal": 20,
             "opacity": 1,
@@ -3079,7 +4847,53 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         style={
           {
             "alignItems": "center",
-            "backgroundColor": "#E5F0FF",
+            "justifyContent": "center",
+            "marginHorizontal": 20,
+            "opacity": 1,
+            "width": 710,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
             "justifyContent": "center",
             "marginHorizontal": 20,
             "opacity": 1,

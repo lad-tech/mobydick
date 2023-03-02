@@ -1,10 +1,11 @@
 import React, {useCallback, useRef, useState} from 'react';
-import {FlatList} from 'react-native';
+import {FlatList, ViewToken} from 'react-native';
 
 import rem from '../../../styles/spaces/rem';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import {LABELS} from '../../constants';
 import useStyles from '../../../styles/theme/hooks/useStyles';
+import Dots from '../Dots/Dots';
 
 import stylesCreate from './stylesCreate';
 
@@ -16,8 +17,10 @@ interface IProps<T> {
   loading?: boolean;
   onPressItem?: (item: T) => void;
   activeItemId?: string;
+  isDots?: boolean; // на данный момент некорректно работает с activeItemId > 0
   averageItemLength?: number;
   animateAutoScroll?: boolean;
+  onActiveChange?: (item: T) => void;
 }
 
 const Carousel = <T,>({
@@ -30,10 +33,17 @@ const Carousel = <T,>({
   activeItemId,
   averageItemLength,
   animateAutoScroll = false,
+  isDots = false,
+  onActiveChange,
 }: IProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
   const [styles] = useStyles(stylesCreate, sideMargin);
   const [slidePosition, setSlidePosition] = useState<number>(0);
+
+  const viewabilityConfig = {
+    itemVisiblePercentThreshold: 40,
+    waitForInteraction: true,
+  };
 
   const initScroll = useCallback(() => {
     const selectedIndex = data.findIndex(
@@ -89,21 +99,37 @@ const Carousel = <T,>({
     },
     [averageItemLength],
   );
+  const onViewableItemsChanged = (info: {
+    viewableItems: ViewToken[];
+    changed: ViewToken[];
+  }) => {
+    info.viewableItems[0]?.index &&
+      setSlidePosition(info.viewableItems[0].index);
+    typeof onActiveChange === 'function' &&
+      onActiveChange(info.viewableItems[0]?.item);
+  };
+  const viewabilityConfigCallbackPairs = useRef([
+    {viewabilityConfig, onViewableItemsChanged},
+  ]);
 
   return (
-    <FlatList
-      ref={ref}
-      data={data}
-      extraData={loading}
-      keyExtractor={keExtractorDefault}
-      horizontal
-      pagingEnabled
-      onLayout={onLayout}
-      accessibilityLabel={LABELS.carousel}
-      showsHorizontalScrollIndicator={false}
-      renderItem={renderItem}
-      onScrollToIndexFailed={onScrollToIndexFailed}
-    />
+    <>
+      <FlatList
+        ref={ref}
+        data={data}
+        extraData={loading}
+        keyExtractor={keExtractorDefault}
+        horizontal
+        pagingEnabled
+        onLayout={onLayout}
+        accessibilityLabel={LABELS.carousel}
+        showsHorizontalScrollIndicator={false}
+        renderItem={renderItem}
+        viewabilityConfigCallbackPairs={viewabilityConfigCallbackPairs.current}
+        onScrollToIndexFailed={onScrollToIndexFailed}
+      />
+      {isDots && <Dots length={data.length} activeDot={slidePosition} />}
+    </>
   );
 };
 

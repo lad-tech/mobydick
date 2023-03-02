@@ -5,20 +5,21 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 import Carousel from '../Carousel';
 import {SimpleIcon, SimpleIconName} from '../../../../styles';
 import {LABELS} from '../../../constants';
-interface IInterface {
+interface IData {
   name: SimpleIconName;
   id: string;
 }
-const data: IInterface[] = [
+const data: IData[] = [
   {name: 'icon-star', id: '1'},
   {name: 'icon-star', id: '2'},
   {name: 'icon-star', id: '3'},
   {name: 'icon-star', id: '4'},
   {name: 'icon-star', id: '5'},
   {name: 'icon-star', id: '6'},
+  {name: 'icon-star', id: '7'},
 ];
-const sliderItem = (item: IInterface) => <SimpleIcon name={item.name} />;
-const keyExtractor = (item: IInterface) => item.id;
+const sliderItem = (item: IData) => <SimpleIcon name={item.name} />;
+const keyExtractor = (item: IData) => item.id;
 
 describe('Carousel', () => {
   it('render Carousel', () => {
@@ -161,5 +162,95 @@ describe('Carousel', () => {
       </SafeAreaProvider>,
     );
     expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel isDots', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          isDots={true}
+        />
+      </SafeAreaProvider>,
+    );
+    expect(toJSON()).toMatchSnapshot();
+    const carousel = getByLabelText(LABELS.carousel);
+    fireEvent(carousel, 'onScroll', {
+      nativeEvent: {
+        contentSize: {height: 600, width: 400},
+        contentOffset: {y: 150, x: 0},
+        layoutMeasurement: {height: 100, width: 100},
+      },
+    });
+  });
+  it('render Carousel onActiveChange', () => {
+    const {toJSON} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+        />
+      </SafeAreaProvider>,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel scroll', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+          activeItemId={'3'}
+        />
+      </SafeAreaProvider>,
+    );
+
+    const carousel = getByLabelText(LABELS.carousel);
+
+    expect(toJSON()).toMatchSnapshot();
+
+    fireEvent(carousel, 'onScroll', {
+      nativeEvent: {
+        contentSize: {height: 600, width: 400},
+        contentOffset: {y: 150, x: 0},
+        layoutMeasurement: {height: 100, width: 100},
+        info: {
+          viewableItems: {
+            index: 7,
+            isViewable: true,
+            item: {name: 'icon-star', id: '7'},
+            key: '6',
+          },
+          changed: [
+            {
+              index: 7,
+              isViewable: true,
+              item: {name: 'icon-star', id: '7'},
+              key: '6',
+            },
+            {
+              index: 1,
+              isViewable: true,
+              item: {name: 'icon-star', id: '1'},
+              key: '1',
+            },
+          ],
+        },
+      },
+    });
+
+    fireEvent(carousel, 'onScroll', {
+      nativeEvent: {
+        contentSize: {height: 600, width: 400},
+        contentOffset: {y: 150, x: 0},
+        layoutMeasurement: {height: 100, width: 100},
+      },
+    });
   });
 });

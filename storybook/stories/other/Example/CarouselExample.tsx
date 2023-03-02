@@ -1,10 +1,15 @@
 import React, {useCallback} from 'react';
 import {StyleSheet} from 'react-native';
+import {boolean} from '@storybook/addon-knobs';
 
-import {Carousel, SimpleIcon, View} from '@npm/mobydick-core';
+import {Carousel, SimpleIcon, SimpleIconName, View} from '@npm/mobydick-core';
 import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 
-const data = [
+interface IData {
+  name: SimpleIconName;
+  id: string;
+}
+const data: IData[] = [
   {name: 'icon-star', id: '0'},
   {name: 'icon-account', id: '1'},
   {name: 'icon-calendar', id: '2'},
@@ -17,11 +22,13 @@ const data = [
   {name: 'icon-edit', id: '9'},
   {name: 'icon-heart', id: '10'},
 ];
+
 const CarouselExample = () => {
   const [styles] = useStyles(stylesCreate);
 
   const sliderItem = useCallback(item => <SimpleIcon name={item.name} />, []);
   const keyExtractor = useCallback(item => item.id, []);
+  const isDots = boolean('isDots', true);
 
   return (
     <View style={styles.container}>
@@ -30,6 +37,7 @@ const CarouselExample = () => {
         sliderItem={sliderItem}
         keyExtractor={keyExtractor}
         animateAutoScroll={true}
+        isDots={isDots}
       />
     </View>
   );
