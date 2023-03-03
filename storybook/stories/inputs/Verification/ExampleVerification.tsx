@@ -25,63 +25,74 @@ const ExampleVerification = () => {
 
   const onLayout = useCallback(() => input0?.current?.focus(), []);
 
+  const onChangeText0 = useCallback((text: string) => {
+    writeChar0(text);
+    text.length && input1.current?.focus();
+  }, []);
+  const onBackKeyPress0 = useCallback(() => {
+    if (char0 === '') {
+      Keyboard.dismiss();
+    }
+  }, [char0]);
+
+  const onChangeText1 = useCallback((text: string) => {
+    writeChar1(text);
+    text.length && input2.current?.focus();
+  }, []);
+  const onBackKeyPress1 = useCallback(() => {
+    if (char1 === '') {
+      input0.current?.focus();
+    }
+  }, [char1]);
+
+  const onChangeText2 = useCallback((text: string) => {
+    writeChar2(text);
+    text.length && input3.current?.focus();
+  }, []);
+  const onBackKeyPress2 = useCallback(() => {
+    if (char2 === '') {
+      input1.current?.focus();
+    }
+  }, [char2]);
+
+  const onChangeText3 = useCallback((text: string) => {
+    writeChar3(text);
+    text.length && Keyboard.dismiss();
+  }, []);
+  const onBackKeyPress3 = useCallback(() => {
+    if (char3 === '') {
+      input2.current?.focus();
+    }
+  }, [char3]);
   return (
     <View>
       <View style={styles.container} onLayout={onLayout}>
         <CodeField
           value={char0}
           ref={input0}
-          onChangeText={(text: string) => {
-            writeChar0(text);
-            text.length && input1.current?.focus();
-          }}
-          onBackKeyPress={() => {
-            if (char0 === '') {
-              Keyboard.dismiss();
-            }
-          }}
+          onChangeText={onChangeText0}
+          onBackKeyPress={onBackKeyPress0}
           textInputContainerStyle={styles.textInputContainerStyle}
         />
         <CodeField
           value={char1}
           ref={input1}
-          onChangeText={(text: string) => {
-            writeChar1(text);
-            text.length && input2.current?.focus();
-          }}
-          onBackKeyPress={() => {
-            if (char1 === '') {
-              input0.current?.focus();
-            }
-          }}
+          onChangeText={onChangeText1}
+          onBackKeyPress={onBackKeyPress1}
         />
         <View style={styles.borderStyle} />
         <CodeField
           value={char2}
           ref={input2}
-          onChangeText={(text: string) => {
-            writeChar2(text);
-            text.length && input3.current?.focus();
-          }}
-          onBackKeyPress={() => {
-            if (char2 === '') {
-              input1.current?.focus();
-            }
-          }}
+          onChangeText={onChangeText2}
+          onBackKeyPress={onBackKeyPress2}
           textInputContainerStyle={styles.textInputContainerStyle}
         />
         <CodeField
           value={char3}
           ref={input3}
-          onChangeText={(text: string) => {
-            writeChar3(text);
-            text.length && Keyboard.dismiss();
-          }}
-          onBackKeyPress={() => {
-            if (char3 === '') {
-              input2.current?.focus();
-            }
-          }}
+          onChangeText={onChangeText3}
+          onBackKeyPress={onBackKeyPress3}
         />
       </View>
       <View style={styles.stringView}>

@@ -29,7 +29,11 @@ const ExampleModal: FC<IContentProps> = props => {
   );
   const onPress = useCallback(
     () => popupContext.openPopup({Content: NestedExampleModal}),
-    [],
+    [popupContext],
+  );
+  const onPressVerticalButton = useCallback(
+    () => popupContext.openPopup({Content: NestedExampleModal}),
+    [popupContext],
   );
   return (
     <ModalBase {...props}>
@@ -104,9 +108,7 @@ const ExampleModal: FC<IContentProps> = props => {
       {boolean('show one button', false) && (
         <ModalBase.VerticalButtonsView>
           <ModalBase.VerticalButton
-            onPress={() =>
-              popupContext.openPopup({Content: NestedExampleModal})
-            }
+            onPress={onPressVerticalButton}
             type={select('type one button', IButtonTypes, IButtonTypes.primary)}
             text={text('text one button', allowAccessText)}
             size={select('size one button', IButtonSize, IButtonSize.fixed)}
