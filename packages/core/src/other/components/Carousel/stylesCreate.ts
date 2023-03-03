@@ -4,12 +4,11 @@ import {IThemeContext} from '../../../styles';
 
 const {width} = Dimensions.get('window');
 
-const stylesCreate = ({colors}: IThemeContext, sideMargin: number) => {
+const stylesCreate = (_theme: IThemeContext, sideMargin: number) => {
   return StyleSheet.create({
     item: {
       marginHorizontal: sideMargin,
       width: width - sideMargin * 2,
-      backgroundColor: colors.BgAccent,
       justifyContent: 'center',
       alignItems: 'center',
     },

@@ -5,11 +5,12 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 import Carousel from '../Carousel';
 import {SimpleIcon, SimpleIconName} from '../../../../styles';
 import {LABELS} from '../../../constants';
-interface IInterface {
+interface IData {
   name: SimpleIconName;
   id: string;
 }
-const data: IInterface[] = [
+const data: IData[] = [
+  {name: 'icon-star', id: '0'},
   {name: 'icon-star', id: '1'},
   {name: 'icon-star', id: '2'},
   {name: 'icon-star', id: '3'},
@@ -17,8 +18,8 @@ const data: IInterface[] = [
   {name: 'icon-star', id: '5'},
   {name: 'icon-star', id: '6'},
 ];
-const sliderItem = (item: IInterface) => <SimpleIcon name={item.name} />;
-const keyExtractor = (item: IInterface) => item.id;
+const sliderItem = (item: IData) => <SimpleIcon name={item.name} />;
+const keyExtractor = (item: IData) => item.id;
 
 describe('Carousel', () => {
   it('render Carousel', () => {
@@ -160,6 +161,100 @@ describe('Carousel', () => {
         />
       </SafeAreaProvider>,
     );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel isDots', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          isDots={true}
+          activeItemId={'5'}
+        />
+      </SafeAreaProvider>,
+    );
+    expect(toJSON()).toMatchSnapshot();
+    const carousel = getByLabelText(LABELS.carousel);
+
+    fireEvent(carousel, 'onScroll', {
+      nativeEvent: {
+        contentSize: {height: 600, width: 500},
+        contentOffset: {x: 150, y: 0},
+        layoutMeasurement: {height: 100, width: 500},
+      },
+    });
+  });
+  it('render Carousel onActiveChange', () => {
+    const {toJSON} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+        />
+      </SafeAreaProvider>,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel scroll', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+          activeItemId={'3'}
+        />
+      </SafeAreaProvider>,
+    );
+
+    const carousel = getByLabelText(LABELS.carousel);
+
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [
+          {
+            index: 7,
+            isViewable: true,
+            item: {name: 'icon-star', id: '7'},
+            key: '7',
+          },
+        ],
+      });
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel not scroll', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+        />
+      </SafeAreaProvider>,
+    );
+
+    const carousel = getByLabelText(LABELS.carousel);
+
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [
+          {
+            index: 15,
+            isViewable: true,
+            item: {name: 'icon-star', id: '15'},
+            key: '15',
+          },
+        ],
+      });
+    });
     expect(toJSON()).toMatchSnapshot();
   });
 });
