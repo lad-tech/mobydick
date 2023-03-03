@@ -45,6 +45,8 @@ const contentError = (propsFromPopup: IContentProps) => (
   />
 );
 
+const onPressRight = () => console.log('onPressRight');
+
 const contentAsk = (propsFromPopup: IContentProps) => (
   <ModalAsk
     {...propsFromPopup}
@@ -53,7 +55,7 @@ const contentAsk = (propsFromPopup: IContentProps) => (
       'Description text error message',
       'You will permanently lose your data',
     )}
-    onPressRight={() => console.log('onPressRight')}
+    onPressRight={onPressRight}
     textLeft={'Cancel'}
     textRight={'Delete'}
   />
