@@ -11,8 +11,53 @@ import {
   View,
   Button,
   ModalAsk,
+  IContentProps,
 } from '@npm/mobydick-core';
 
+const contentSuccess = (propsFromPopup: IContentProps) => (
+  <ModalSuccess
+    {...propsFromPopup}
+    title={'Success'}
+    descriptionText={text(
+      'Description text success message',
+      'This is a success message',
+    )}
+  />
+);
+const contentLoading = (propsFromPopup: IContentProps) => (
+  <ModalLoading
+    {...propsFromPopup}
+    title={'Loading...'}
+    descriptionText={text('Description text loading message', 'Please wait')}
+    buttonText={'Cancel'}
+  />
+);
+
+const contentError = (propsFromPopup: IContentProps) => (
+  <ModalError
+    {...propsFromPopup}
+    title={'Error...'}
+    descriptionText={text(
+      'Description text error message',
+      'This is a error message',
+    )}
+    buttonText={'Cancel'}
+  />
+);
+
+const contentAsk = (propsFromPopup: IContentProps) => (
+  <ModalAsk
+    {...propsFromPopup}
+    title={'Delete account?'}
+    descriptionText={text(
+      'Description text error message',
+      'You will permanently lose your data',
+    )}
+    onPressRight={() => console.log('onPressRight')}
+    textLeft={'Cancel'}
+    textRight={'Delete'}
+  />
+);
 const PopupModalExample = () => {
   const popupContext = usePopups();
   const [popupCount, setPopupCount] = useState(0);
@@ -29,65 +74,25 @@ const PopupModalExample = () => {
 
   const onPressModalSuccess = useCallback(() => {
     popupContext.openPopup({
-      Content: propsFromPopup => (
-        <ModalSuccess
-          {...propsFromPopup}
-          title={'Success'}
-          descriptionText={text(
-            'Description text success message',
-            'This is a success message',
-          )}
-        />
-      ),
+      Content: contentSuccess,
     });
   }, [popupContext]);
 
-  const onPressModalLoading = () => {
+  const onPressModalLoading = useCallback(() => {
     popupContext.openPopup({
-      Content: propsFromPopup => (
-        <ModalLoading
-          {...propsFromPopup}
-          title={'Loading...'}
-          descriptionText={text(
-            'Description text loading message',
-            'Please wait',
-          )}
-          buttonText={'Cancel'}
-        />
-      ),
+      Content: contentLoading,
     });
-  };
+  }, [popupContext]);
+
   const onPressModalError = useCallback(() => {
     popupContext.openPopup({
-      Content: propsFromPopup => (
-        <ModalError
-          {...propsFromPopup}
-          title={'Error...'}
-          descriptionText={text(
-            'Description text error message',
-            'This is a error message',
-          )}
-          buttonText={'Cancel'}
-        />
-      ),
+      Content: contentError,
     });
   }, [popupContext]);
 
   const onPressModalAsk = useCallback(() => {
     popupContext.openPopup({
-      Content: propsFromPopup => (
-        <ModalAsk
-          {...propsFromPopup}
-          title={'Delete account?'}
-          descriptionText={text(
-            'Description text error message',
-            'You will permanently lose your data',
-          )}
-          onPressRight={() => console.log('onPressRight')}
-          textLeft={'Cancel'}
-          textRight={'Delete'}
-        />
-      ),
+      Content: contentAsk,
     });
   }, [popupContext]);
 
