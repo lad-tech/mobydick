@@ -40,10 +40,10 @@ const Carousel = <T,>({
   const [styles] = useStyles(stylesCreate, sideMargin);
   const [slidePosition, setSlidePosition] = useState<number>(0);
 
-  const viewabilityConfig = {
+  const viewabilityConfig = useRef({
     itemVisiblePercentThreshold: 40,
     waitForInteraction: true,
-  };
+  }).current;
 
   const initScroll = useCallback(() => {
     const selectedIndex = data.findIndex(
@@ -99,18 +99,14 @@ const Carousel = <T,>({
     },
     [averageItemLength],
   );
-  const onViewableItemsChanged = (info: {
-    viewableItems: ViewToken[];
-    changed: ViewToken[];
-  }) => {
-    info.viewableItems[0]?.index &&
-      setSlidePosition(info.viewableItems[0].index);
-    typeof onActiveChange === 'function' &&
-      onActiveChange(info.viewableItems[0]?.item);
-  };
-  const viewabilityConfigCallbackPairs = useRef([
-    {viewabilityConfig, onViewableItemsChanged},
-  ]);
+
+  const handleOnViewableItemsChanged = useRef(
+    ({viewableItems}: {viewableItems: ViewToken[]}) => {
+      viewableItems[0]?.index && setSlidePosition(viewableItems[0].index);
+      typeof onActiveChange === 'function' &&
+        onActiveChange(viewableItems[0]?.item);
+    },
+  ).current;
 
   return (
     <>
@@ -123,9 +119,11 @@ const Carousel = <T,>({
         pagingEnabled
         onLayout={onLayout}
         accessibilityLabel={LABELS.carousel}
+        snapToAlignment={'center'}
         showsHorizontalScrollIndicator={false}
         renderItem={renderItem}
-        viewabilityConfigCallbackPairs={viewabilityConfigCallbackPairs.current}
+        onViewableItemsChanged={handleOnViewableItemsChanged}
+        viewabilityConfig={viewabilityConfig}
         onScrollToIndexFailed={onScrollToIndexFailed}
       />
       {isDots && <Dots length={data.length} activeDot={slidePosition} />}

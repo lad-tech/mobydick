@@ -10,13 +10,13 @@ interface IData {
   id: string;
 }
 const data: IData[] = [
+  {name: 'icon-star', id: '0'},
   {name: 'icon-star', id: '1'},
   {name: 'icon-star', id: '2'},
   {name: 'icon-star', id: '3'},
   {name: 'icon-star', id: '4'},
   {name: 'icon-star', id: '5'},
   {name: 'icon-star', id: '6'},
-  {name: 'icon-star', id: '7'},
 ];
 const sliderItem = (item: IData) => <SimpleIcon name={item.name} />;
 const keyExtractor = (item: IData) => item.id;
@@ -171,16 +171,18 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           isDots={true}
+          activeItemId={'5'}
         />
       </SafeAreaProvider>,
     );
     expect(toJSON()).toMatchSnapshot();
     const carousel = getByLabelText(LABELS.carousel);
+
     fireEvent(carousel, 'onScroll', {
       nativeEvent: {
-        contentSize: {height: 600, width: 400},
-        contentOffset: {y: 150, x: 0},
-        layoutMeasurement: {height: 100, width: 100},
+        contentSize: {height: 600, width: 500},
+        contentOffset: {x: 150, y: 0},
+        layoutMeasurement: {height: 100, width: 500},
       },
     });
   });
@@ -213,44 +215,46 @@ describe('Carousel', () => {
 
     const carousel = getByLabelText(LABELS.carousel);
 
-    expect(toJSON()).toMatchSnapshot();
-
-    fireEvent(carousel, 'onScroll', {
-      nativeEvent: {
-        contentSize: {height: 600, width: 400},
-        contentOffset: {y: 150, x: 0},
-        layoutMeasurement: {height: 100, width: 100},
-        info: {
-          viewableItems: {
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [
+          {
             index: 7,
             isViewable: true,
             item: {name: 'icon-star', id: '7'},
-            key: '6',
+            key: '7',
           },
-          changed: [
-            {
-              index: 7,
-              isViewable: true,
-              item: {name: 'icon-star', id: '7'},
-              key: '6',
-            },
-            {
-              index: 1,
-              isViewable: true,
-              item: {name: 'icon-star', id: '1'},
-              key: '1',
-            },
-          ],
-        },
-      },
+        ],
+      });
     });
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel not scroll', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+        />
+      </SafeAreaProvider>,
+    );
 
-    fireEvent(carousel, 'onScroll', {
-      nativeEvent: {
-        contentSize: {height: 600, width: 400},
-        contentOffset: {y: 150, x: 0},
-        layoutMeasurement: {height: 100, width: 100},
-      },
+    const carousel = getByLabelText(LABELS.carousel);
+
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [
+          {
+            index: 15,
+            isViewable: true,
+            item: {name: 'icon-star', id: '15'},
+            key: '15',
+          },
+        ],
+      });
     });
+    expect(toJSON()).toMatchSnapshot();
   });
 });

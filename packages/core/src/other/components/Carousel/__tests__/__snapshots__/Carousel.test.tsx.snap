@@ -6,6 +6,10 @@ exports[`Carousel render Carousel 1`] = `
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -29,10 +33,6 @@ exports[`Carousel render Carousel 1`] = `
         "id": "6",
         "name": "icon-star",
       },
-      {
-        "id": "7",
-        "name": "icon-star",
-      },
     ]
   }
   extraData={false}
@@ -48,12 +48,20 @@ exports[`Carousel render Carousel 1`] = `
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
@@ -406,6 +414,10 @@ exports[`Carousel render Carousel activeItemId 1`] = `
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -429,10 +441,6 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         "id": "6",
         "name": "icon-star",
       },
-      {
-        "id": "7",
-        "name": "icon-star",
-      },
     ]
   }
   extraData={false}
@@ -448,12 +456,20 @@ exports[`Carousel render Carousel activeItemId 1`] = `
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
@@ -806,6 +822,10 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -829,10 +849,6 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
         "id": "6",
         "name": "icon-star",
       },
-      {
-        "id": "7",
-        "name": "icon-star",
-      },
     ]
   }
   extraData={false}
@@ -848,12 +864,20 @@ exports[`Carousel render Carousel animateAutoScroll 1`] = `
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
@@ -1206,6 +1230,10 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -1229,10 +1257,6 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         "id": "6",
         "name": "icon-star",
       },
-      {
-        "id": "7",
-        "name": "icon-star",
-      },
     ]
   }
   extraData={false}
@@ -1248,12 +1272,20 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
@@ -1606,6 +1638,10 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -1629,10 +1665,6 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         "id": "6",
         "name": "icon-star",
       },
-      {
-        "id": "7",
-        "name": "icon-star",
-      },
     ]
   }
   extraData={false}
@@ -1648,12 +1680,20 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
@@ -2007,6 +2047,10 @@ exports[`Carousel render Carousel isDots 1`] = `
     data={
       [
         {
+          "id": "0",
+          "name": "icon-star",
+        },
+        {
           "id": "1",
           "name": "icon-star",
         },
@@ -2030,10 +2074,6 @@ exports[`Carousel render Carousel isDots 1`] = `
           "id": "6",
           "name": "icon-star",
         },
-        {
-          "id": "7",
-          "name": "icon-star",
-        },
       ]
     }
     extraData={false}
@@ -2049,12 +2089,20 @@ exports[`Carousel render Carousel isDots 1`] = `
     onScrollBeginDrag={[Function]}
     onScrollEndDrag={[Function]}
     onScrollToIndexFailed={[Function]}
+    onViewableItemsChanged={[Function]}
     pagingEnabled={true}
     removeClippedSubviews={false}
     renderItem={[Function]}
     scrollEventThrottle={50}
     showsHorizontalScrollIndicator={false}
+    snapToAlignment="center"
     stickyHeaderIndices={[]}
+    viewabilityConfig={
+      {
+        "itemVisiblePercentThreshold": 40,
+        "waitForInteraction": true,
+      }
+    }
     viewabilityConfigCallbackPairs={
       [
         {
@@ -2525,6 +2573,10 @@ exports[`Carousel render Carousel loading 1`] = `
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -2548,10 +2600,6 @@ exports[`Carousel render Carousel loading 1`] = `
         "id": "6",
         "name": "icon-star",
       },
-      {
-        "id": "7",
-        "name": "icon-star",
-      },
     ]
   }
   extraData={true}
@@ -2567,12 +2615,20 @@ exports[`Carousel render Carousel loading 1`] = `
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
@@ -2925,6 +2981,10 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -2948,8 +3008,412 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         "id": "6",
         "name": "icon-star",
       },
+    ]
+  }
+  extraData={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
+  pagingEnabled={true}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
+  stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
+  viewabilityConfigCallbackPairs={
+    [
       {
-        "id": "7",
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 40,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 18,
+            "opacity": 1,
+            "width": 714,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Carousel render Carousel not scroll 1`] = `
+<RCTScrollView
+  accessibilityLabel="carousel"
+  data={
+    [
+      {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
+        "id": "1",
+        "name": "icon-star",
+      },
+      {
+        "id": "2",
+        "name": "icon-star",
+      },
+      {
+        "id": "3",
+        "name": "icon-star",
+      },
+      {
+        "id": "4",
+        "name": "icon-star",
+      },
+      {
+        "id": "5",
+        "name": "icon-star",
+      },
+      {
+        "id": "6",
         "name": "icon-star",
       },
     ]
@@ -2967,12 +3431,20 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
@@ -3325,6 +3797,10 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -3348,10 +3824,6 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         "id": "6",
         "name": "icon-star",
       },
-      {
-        "id": "7",
-        "name": "icon-star",
-      },
     ]
   }
   extraData={false}
@@ -3367,12 +3839,20 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
@@ -3725,6 +4205,10 @@ exports[`Carousel render Carousel onPressItem 1`] = `
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -3748,10 +4232,6 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         "id": "6",
         "name": "icon-star",
       },
-      {
-        "id": "7",
-        "name": "icon-star",
-      },
     ]
   }
   extraData={false}
@@ -3767,12 +4247,20 @@ exports[`Carousel render Carousel onPressItem 1`] = `
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
@@ -4125,6 +4613,10 @@ exports[`Carousel render Carousel scroll 1`] = `
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -4148,10 +4640,6 @@ exports[`Carousel render Carousel scroll 1`] = `
         "id": "6",
         "name": "icon-star",
       },
-      {
-        "id": "7",
-        "name": "icon-star",
-      },
     ]
   }
   extraData={false}
@@ -4167,12 +4655,20 @@ exports[`Carousel render Carousel scroll 1`] = `
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
@@ -4525,6 +5021,10 @@ exports[`Carousel render Carousel sideMargin 1`] = `
   data={
     [
       {
+        "id": "0",
+        "name": "icon-star",
+      },
+      {
         "id": "1",
         "name": "icon-star",
       },
@@ -4548,10 +5048,6 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         "id": "6",
         "name": "icon-star",
       },
-      {
-        "id": "7",
-        "name": "icon-star",
-      },
     ]
   }
   extraData={false}
@@ -4567,12 +5063,20 @@ exports[`Carousel render Carousel sideMargin 1`] = `
   onScrollBeginDrag={[Function]}
   onScrollEndDrag={[Function]}
   onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
   pagingEnabled={true}
   removeClippedSubviews={false}
   renderItem={[Function]}
   scrollEventThrottle={50}
   showsHorizontalScrollIndicator={false}
+  snapToAlignment="center"
   stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 40,
+      "waitForInteraction": true,
+    }
+  }
   viewabilityConfigCallbackPairs={
     [
       {
