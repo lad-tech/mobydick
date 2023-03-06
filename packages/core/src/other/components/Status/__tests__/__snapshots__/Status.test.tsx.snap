@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Status render not state 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#5E6678",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 18,
+        "lineHeight": 24,
+      },
+      [
+        {
+          "borderRadius": 6,
+          "paddingHorizontal": 9,
+          "paddingVertical": 3,
+        },
+        {
+          "backgroundColor": "#EEEFF1",
+        },
+      ],
+    ]
+  }
+>
+  text
+</Text>
+`;
+
+exports[`Status render type dot blue 1`] = `
+<View
+  style={
+    [
+      {
+        "borderRadius": 6,
+        "height": 12,
+        "width": 12,
+      },
+      {
+        "backgroundColor": "#2B78EE",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Status render type dot gray 1`] = `
+<View
+  style={
+    [
+      {
+        "borderRadius": 6,
+        "height": 12,
+        "width": 12,
+      },
+      {
+        "backgroundColor": "#9BA1B0",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Status render type dot green 1`] = `
+<View
+  style={
+    [
+      {
+        "borderRadius": 6,
+        "height": 12,
+        "width": 12,
+      },
+      {
+        "backgroundColor": "#4ABA79",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Status render type dot orange 1`] = `
+<View
+  style={
+    [
+      {
+        "borderRadius": 6,
+        "height": 12,
+        "width": 12,
+      },
+      {
+        "backgroundColor": "#FAB742",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Status render type dot red 1`] = `
+<View
+  style={
+    [
+      {
+        "borderRadius": 6,
+        "height": 12,
+        "width": 12,
+      },
+      {
+        "backgroundColor": "#F54D3D",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Status render type tag blue 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#2B78EE",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 18,
+        "lineHeight": 24,
+      },
+      [
+        {
+          "borderRadius": 6,
+          "paddingHorizontal": 9,
+          "paddingVertical": 3,
+        },
+        {
+          "backgroundColor": "rgba(43, 120, 238, 0.15)",
+        },
+      ],
+    ]
+  }
+>
+  text
+</Text>
+`;
+
+exports[`Status render type tag gray 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#5E6678",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 18,
+        "lineHeight": 24,
+      },
+      [
+        {
+          "borderRadius": 6,
+          "paddingHorizontal": 9,
+          "paddingVertical": 3,
+        },
+        {
+          "backgroundColor": "#EEEFF1",
+        },
+      ],
+    ]
+  }
+>
+  text
+</Text>
+`;
+
+exports[`Status render type tag green 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#29A35C",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 18,
+        "lineHeight": 24,
+      },
+      [
+        {
+          "borderRadius": 6,
+          "paddingHorizontal": 9,
+          "paddingVertical": 3,
+        },
+        {
+          "backgroundColor": "rgba(74, 186, 121, 0.15)",
+        },
+      ],
+    ]
+  }
+>
+  text
+</Text>
+`;
+
+exports[`Status render type tag orange 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#F97A1F",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 18,
+        "lineHeight": 24,
+      },
+      [
+        {
+          "borderRadius": 6,
+          "paddingHorizontal": 9,
+          "paddingVertical": 3,
+        },
+        {
+          "backgroundColor": "rgba(250, 183, 66, 0.15)",
+        },
+      ],
+    ]
+  }
+>
+  text
+</Text>
+`;
+
+exports[`Status render type tag red 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#F54D3D",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 18,
+        "lineHeight": 24,
+      },
+      [
+        {
+          "borderRadius": 6,
+          "paddingHorizontal": 9,
+          "paddingVertical": 3,
+        },
+        {
+          "backgroundColor": "rgba(245, 77, 61, 0.15)",
+        },
+      ],
+    ]
+  }
+>
+  text
+</Text>
+`;
