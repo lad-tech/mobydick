@@ -11,6 +11,8 @@ export const defaultTextLightColor = {
   TextBlackExtra: 'rgba(32, 36, 45, 0.75)',
   TextWhite: '#FFF',
   TextWhiteExtra: 'rgba(255, 255, 255, 0.75)',
+  TextSuccess: '#29A35C',
+  TextWarning: '#F97A1F',
 };
 export const defaultTextDarkColor = {
   TextPrimary: '#FFFFFF',
@@ -25,6 +27,8 @@ export const defaultTextDarkColor = {
   TextBlackExtra: 'rgba(32, 36, 45, 0.75)',
   TextWhite: '#FFF',
   TextWhiteExtra: 'rgba(255, 255, 255, 0.75)',
+  TextSuccess: '#4ABA79',
+  TextWarning: '#FA9247',
 };
 
 export const defaultIconLightColor = {
@@ -35,6 +39,7 @@ export const defaultIconLightColor = {
   IconAdditional: '#FAB742',
   IconWhite: '#FFF',
   IconBlack: '#1E232F',
+  IconSuccess: '#4ABA79',
 };
 export const defaultIconDarkColor = {
   IconNeutral: '#B6BBC6',
@@ -44,6 +49,7 @@ export const defaultIconDarkColor = {
   IconAdditional: '#FAB742',
   IconWhite: '#FFF',
   IconBlack: '#1E232F',
+  IconSuccess: '#4ABA79',
 };
 
 export const defaultElementLightColor = {
@@ -54,6 +60,7 @@ export const defaultElementLightColor = {
   ElementAdditional: '#FAB742',
   ElementWhite: '#FFF',
   ElementBlack: '#20242D',
+  ElementSuccess: '#4ABA79',
 };
 export const defaultElementDarkColor = {
   ElementNeutral: '#B6BBC6',
@@ -63,6 +70,7 @@ export const defaultElementDarkColor = {
   ElementAdditional: '#FAB742',
   ElementWhite: '#FFF',
   ElementBlack: '#20242D',
+  ElementSuccess: '#4ABA79',
 };
 
 export const defaultBorderLightColor = {
@@ -99,6 +107,8 @@ export const defaultBgLightColor = {
   BgBlack: '#20242D',
   BgWhite: '#FFF',
   BgWhiteSoft: 'rgba(255, 255, 255, 0.15)',
+  BgSuccess: 'rgba(74, 186, 121, 0.15)',
+  BgWarning: 'rgba(250, 183, 66, 0.15)',
 };
 export const defaultBgDarkColor = {
   BgPrimary: '#20242D',
@@ -117,6 +127,8 @@ export const defaultBgDarkColor = {
   BgBlack: '#20242D',
   BgWhite: '#FFF',
   BgWhiteSoft: 'rgba(255, 255, 255, 0.15)',
+  BgSuccess: 'rgba(74, 186, 121, 0.15)',
+  BgWarning: 'rgba(250, 183, 66, 0.15)',
 };
 
 export const defaultCTALightColor = {
