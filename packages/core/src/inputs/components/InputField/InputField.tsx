@@ -62,15 +62,21 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     }
   }, [fontStyle.color]);
 
-  const onFocusInput = useCallback(event => {
-    setFocused(true);
-    onFocus?.(event);
-  }, []);
+  const onFocusInput = useCallback(
+    event => {
+      setFocused(true);
+      onFocus?.(event);
+    },
+    [onFocus],
+  );
 
-  const onBlurInput = useCallback(event => {
-    setFocused(false);
-    onBlur?.(event);
-  }, []);
+  const onBlurInput = useCallback(
+    event => {
+      setFocused(false);
+      onBlur?.(event);
+    },
+    [onBlur],
+  );
 
   return (
     <View style={[styles.container, containerStyle]}>
