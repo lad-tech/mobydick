@@ -5,7 +5,7 @@ import {Button, Dots, rem, View} from '@npm/mobydick-core';
 
 const DotsExample = () => {
   const length = number('number length', 10);
-  const [activeDot, setActiveDot] = useState(0);
+  const [activeDot, setActiveDot] = useState(3);
 
   const onPressPrev = useCallback(() => {
     if (activeDot !== 0) {

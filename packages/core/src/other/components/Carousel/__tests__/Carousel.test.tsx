@@ -84,7 +84,7 @@ describe('Carousel', () => {
           data={data}
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
-          activeItemId={'6'}
+          activeItemId={6}
         />
       </SafeAreaProvider>,
     );
@@ -104,7 +104,7 @@ describe('Carousel', () => {
           data={data}
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
-          activeItemId={'20'}
+          activeItemId={20}
         />
       </SafeAreaProvider>,
     );
@@ -143,7 +143,7 @@ describe('Carousel', () => {
           data={data}
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
-          activeItemId={'20'}
+          activeItemId={20}
           averageItemLength={20}
         />
       </SafeAreaProvider>,
@@ -171,7 +171,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           isDots={true}
-          activeItemId={'5'}
+          activeItemId={5}
         />
       </SafeAreaProvider>,
     );
@@ -208,7 +208,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           onActiveChange={(item: IData) => console.log('item', item)}
-          activeItemId={'3'}
+          activeItemId={3}
         />
       </SafeAreaProvider>,
     );
