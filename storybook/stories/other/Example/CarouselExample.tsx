@@ -38,7 +38,7 @@ const CarouselExample = () => {
         keyExtractor={keyExtractor}
         animateAutoScroll={true}
         isDots={isDots}
-        activeItemId={3}
+        activeItemId={'3'}
       />
     </View>
   );

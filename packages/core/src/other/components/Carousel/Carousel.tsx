@@ -16,7 +16,7 @@ interface IProps<T> {
   sideMargin?: number;
   loading?: boolean;
   onPressItem?: (item: T) => void;
-  activeItemId?: number;
+  activeItemId?: string;
   isDots?: boolean;
   averageItemLength?: number;
   animateAutoScroll?: boolean;
@@ -47,7 +47,7 @@ const Carousel = <T,>({
 
   const initScroll = useCallback(() => {
     const selectedIndex = data.findIndex(
-      item => keyExtractor(item) === activeItemId?.toString(),
+      item => keyExtractor(item) === activeItemId,
     );
     if (selectedIndex > -1 && selectedIndex !== slidePosition) {
       setSlidePosition(selectedIndex);
