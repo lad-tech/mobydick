@@ -1,3 +1,16 @@
+# [6.3.0](https://glab.lad24.ru/npm/mobydick/compare/v6.2.0...v6.3.0) (2023-03-06)
+
+
+### Bug Fixes
+
+* **InputField:** add deps in useCallback ([096bf30](https://glab.lad24.ru/npm/mobydick/commit/096bf307c902d547ec4a39a5186ee2a85fa3fdbc))
+
+
+### Features
+
+* **Carousel:** add dots in carousel ([98451e3](https://glab.lad24.ru/npm/mobydick/commit/98451e3c6dcef70a4aba333c3d364b859bd4518c))
+* **Carousel:** add simple form carousel ([38114cd](https://glab.lad24.ru/npm/mobydick/commit/38114cd7d49e25b1f005f9c73ee9aa21ec4b639b))
+
 # [6.2.0](https://glab.lad24.ru/npm/mobydick/compare/v6.1.0...v6.2.0) (2023-03-01)
 
 
