@@ -86,7 +86,7 @@ const Dots = ({length, activeDot}: IDots) => {
 
     const moveTo = Math.max(
       0,
-      (direction.current > 0 ? indicatorRight() : index - 1) *
+      (direction.current > 0 || activeDot > 0 ? indicatorRight() : index - 1) *
         (SIZE_SMALL + MARGIN_DOT),
     );
     refScrollView.current.scrollTo({

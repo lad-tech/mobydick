@@ -17,7 +17,7 @@ interface IProps<T> {
   loading?: boolean;
   onPressItem?: (item: T) => void;
   activeItemId?: string;
-  isDots?: boolean; // на данный момент некорректно работает с activeItemId > 0
+  isDots?: boolean;
   averageItemLength?: number;
   animateAutoScroll?: boolean;
   onActiveChange?: (item: T) => void;
@@ -102,7 +102,7 @@ const Carousel = <T,>({
 
   const handleOnViewableItemsChanged = useRef(
     ({viewableItems}: {viewableItems: ViewToken[]}) => {
-      viewableItems[0]?.index && setSlidePosition(viewableItems[0].index);
+      setSlidePosition(viewableItems[0]?.index || 0);
       typeof onActiveChange === 'function' &&
         onActiveChange(viewableItems[0]?.item);
     },

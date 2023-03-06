@@ -257,4 +257,25 @@ describe('Carousel', () => {
     });
     expect(toJSON()).toMatchSnapshot();
   });
+  it('render Carousel not index', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+        />
+      </SafeAreaProvider>,
+    );
+
+    const carousel = getByLabelText(LABELS.carousel);
+
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [],
+      });
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
