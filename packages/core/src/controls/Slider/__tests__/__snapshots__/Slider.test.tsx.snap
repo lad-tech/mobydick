@@ -117,6 +117,14 @@ exports[`Slider should renders correctly by default 1`] = `
     <View
       accessibilityLabel="slider"
       collapsable={false}
+      hitSlop={
+        {
+          "bottom": 45,
+          "left": 45,
+          "right": 45,
+          "top": 45,
+        }
+      }
       onMoveShouldSetPanResponder={[Function]}
       onMoveShouldSetPanResponderCapture={[Function]}
       onPanResponderGrant={[Function]}
@@ -230,6 +238,14 @@ exports[`Slider should renders correctly disabled 1`] = `
     <View
       accessibilityLabel="slider"
       collapsable={false}
+      hitSlop={
+        {
+          "bottom": 45,
+          "left": 45,
+          "right": 45,
+          "top": 45,
+        }
+      }
       onMoveShouldSetPanResponder={[Function]}
       onMoveShouldSetPanResponderCapture={[Function]}
       onPanResponderGrant={[Function]}
@@ -368,6 +384,14 @@ exports[`Slider should renders correctly panHandler 1`] = `
     <View
       accessibilityLabel="slider"
       collapsable={false}
+      hitSlop={
+        {
+          "bottom": 45,
+          "left": 45,
+          "right": 45,
+          "top": 45,
+        }
+      }
       onMoveShouldSetPanResponder={[Function]}
       onMoveShouldSetPanResponderCapture={[Function]}
       onPanResponderGrant={[Function]}
@@ -481,6 +505,14 @@ exports[`Slider should renders correctly updateThumbs 1`] = `
     <View
       accessibilityLabel="slider"
       collapsable={false}
+      hitSlop={
+        {
+          "bottom": 45,
+          "left": 45,
+          "right": 45,
+          "top": 45,
+        }
+      }
       onMoveShouldSetPanResponder={[Function]}
       onMoveShouldSetPanResponderCapture={[Function]}
       onPanResponderGrant={[Function]}
@@ -594,6 +626,14 @@ exports[`Slider should renders correctly with more props 1`] = `
     <View
       accessibilityLabel="slider"
       collapsable={false}
+      hitSlop={
+        {
+          "bottom": 15,
+          "left": 15,
+          "right": 15,
+          "top": 15,
+        }
+      }
       onMoveShouldSetPanResponder={[Function]}
       onMoveShouldSetPanResponderCapture={[Function]}
       onPanResponderGrant={[Function]}
