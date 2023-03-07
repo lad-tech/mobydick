@@ -60,6 +60,30 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 - `yarn start`
 - `yarn android` или `yarn ios`
 - `yarn storybook`
+- 
+### Для debugging
+Чтобы пользоваться React Native Debugger нужно добавить patch для StyleSheet у React Native 
+```bash
+702 bytes
+diff --git a/node_modules/react-native/Libraries/StyleSheet/StyleSheet.js b/node_modules/react-native/Libraries/StyleSheet/StyleSheet.js
+index 785fbfe..1d3b93c 100644
+--- a/node_modules/react-native/Libraries/StyleSheet/StyleSheet.js
++++ b/node_modules/react-native/Libraries/StyleSheet/StyleSheet.js
+@@ -360,13 +360,6 @@ module.exports = {
+     // TODO: This should return S as the return type. But first,
+     // we need to codemod all the callsites that are typing this
+     // return value as a number (even though it was opaque).
+-    if (__DEV__) {
+-      for (const key in obj) {
+-        if (obj[key]) {
+-          Object.freeze(obj[key]);
+-        }
+-      }
+-    }
+     return obj;
+   },
+ };
+```
 
 ## Code style
 1. Константы
@@ -94,7 +118,7 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 
 **Несколько простых правил для readme**
 1. Основная структура readme-файла нерушима.
-2. Технические писатели обеспечивают структуру и читаемость. Если ты что-то меняешь в readme-файле, тегай Аню (@nazolinaas) и Катю (@kaliaevaev).
+2. Технические писатели обеспечивают структуру и читаемость. Если ты что-то меняешь в readme-файле, тегай Аню (@nazolinaas).
 3. Если ты считаешь, что твоей команде не хватает какой-то информации, пиши в #docs.
 4. Для каждой новой темы используй новый заголовок. Максимальный уровень вложенности заголовков равен 3.
 5. Если на чём-то нужно заострить внимание, пиши полужирным “важно” и “примечание”. 
