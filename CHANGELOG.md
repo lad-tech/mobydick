@@ -1,3 +1,10 @@
+## [6.4.1](https://glab.lad24.ru/npm/mobydick/compare/v6.4.0...v6.4.1) (2023-03-07)
+
+
+### Bug Fixes
+
+* **status:** borderRadius in ios, add props style ([c193c21](https://glab.lad24.ru/npm/mobydick/commit/c193c21f008b63085269ad8de2173fb7a3674398))
+
 # [6.4.0](https://glab.lad24.ru/npm/mobydick/compare/v6.3.0...v6.4.0) (2023-03-07)
 
 
