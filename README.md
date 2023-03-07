@@ -62,15 +62,27 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 - `yarn storybook`
 - 
 ### Для debugging
-Чтобы пользоваться React Native Debugger нужно добавить patch: закомментировать строчки в StyleSheet у React Native 
+Чтобы пользоваться React Native Debugger нужно добавить patch для StyleSheet у React Native 
 ```bash
-if (__DEV__) {
-  for (const key in obj) {
-    if (obj[key]) {
-      Object.freeze(obj[key]);
-    }
-  }
-}
+702 bytes
+diff --git a/node_modules/react-native/Libraries/StyleSheet/StyleSheet.js b/node_modules/react-native/Libraries/StyleSheet/StyleSheet.js
+index 785fbfe..1d3b93c 100644
+--- a/node_modules/react-native/Libraries/StyleSheet/StyleSheet.js
++++ b/node_modules/react-native/Libraries/StyleSheet/StyleSheet.js
+@@ -360,13 +360,6 @@ module.exports = {
+     // TODO: This should return S as the return type. But first,
+     // we need to codemod all the callsites that are typing this
+     // return value as a number (even though it was opaque).
+-    if (__DEV__) {
+-      for (const key in obj) {
+-        if (obj[key]) {
+-          Object.freeze(obj[key]);
+-        }
+-      }
+-    }
+     return obj;
+   },
+ };
 ```
 
 ## Code style
