@@ -2,6 +2,7 @@ import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {
   Animated,
   GestureResponderEvent,
+  Insets,
   PanResponder,
   PanResponderGestureState,
   ViewProps,
@@ -10,6 +11,7 @@ import {
 import View from '../../basic/components/View/View';
 import useStyles from '../../styles/theme/hooks/useStyles';
 import {LABELS} from '../../other/constants';
+import {HIT_SLOP} from '../../styles';
 
 import {clamp, getValueForPosition, isLowCloser} from './helpers';
 import stylesCreate from './stylesCreate';
@@ -31,6 +33,7 @@ export interface ISliderProps extends ViewProps {
   disableRange?: boolean;
   disabled?: boolean;
   onValueChanged?: (low: number, high: number, byUser: boolean) => void;
+  hitSlop?: Insets;
 }
 const Slider: React.FC<ISliderProps> = ({
   min,
@@ -42,6 +45,7 @@ const Slider: React.FC<ISliderProps> = ({
   disableRange = false,
   disabled = false,
   onValueChanged,
+  hitSlop = HIT_SLOP.large,
   ...restProps
 }) => {
   const {inPropsRef, inPropsRefPrev, setLow, setHigh} = useLowHigh(
@@ -224,6 +228,7 @@ const Slider: React.FC<ISliderProps> = ({
         {!disableRange && <HighThumb highThumbX={highThumbX} />}
         <View
           {...panHandlers}
+          hitSlop={hitSlop}
           style={styles.touchableArea}
           accessibilityLabel={LABELS.slider}
           collapsable={false}

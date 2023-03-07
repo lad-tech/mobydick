@@ -3,6 +3,7 @@ import React from 'react';
 
 import Slider from '../Slider';
 import {LABELS} from '../../../other/constants';
+import HIT_SLOP from '../../../styles/constants/HIT_SLOP';
 
 const eventMock = {};
 const trueFunc = () => true;
@@ -27,6 +28,7 @@ describe('Slider', () => {
         low={20}
         high={60}
         disableRange={true}
+        hitSlop={HIT_SLOP.small}
       />,
     );
     const panHandler = getByLabelText(LABELS.slider);
