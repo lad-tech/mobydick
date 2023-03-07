@@ -1,3 +1,16 @@
+# [6.4.0](https://glab.lad24.ru/npm/mobydick/compare/v6.3.0...v6.4.0) (2023-03-07)
+
+
+### Bug Fixes
+
+* **Dots:** initial correct active dot ([332c50c](https://glab.lad24.ru/npm/mobydick/commit/332c50c86effb4a949441b433326a6ab226cedaa))
+
+
+### Features
+
+* **Color:** add new colors ([56a6f98](https://glab.lad24.ru/npm/mobydick/commit/56a6f988b19cb97073cdba1327ae6e1a59b06169))
+* **Status:** add status ([b27230b](https://glab.lad24.ru/npm/mobydick/commit/b27230bd0f5a74479450f49e970a758b7a801f8b))
+
 # [6.3.0](https://glab.lad24.ru/npm/mobydick/compare/v6.2.0...v6.3.0) (2023-03-06)
 
 

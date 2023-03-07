@@ -138,8 +138,8 @@ android {
         applicationId "com.mobydick"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 78
-        versionName "6.3.0"
+        versionCode 79
+        versionName "6.4.0"
         buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
 
         if (isNewArchitectureEnabled()) {
