@@ -1,31 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Status render not state 1`] = `
-<Text
-  allowFontScaling={true}
+<View
   style={
     [
       {
-        "color": "#5E6678",
-        "fontFamily": "Inter-Regular",
-        "fontSize": 18,
-        "lineHeight": 24,
+        "borderRadius": 6,
+        "paddingHorizontal": 9,
+        "paddingVertical": 3,
       },
-      [
-        {
-          "borderRadius": 6,
-          "paddingHorizontal": 9,
-          "paddingVertical": 3,
-        },
-        {
-          "backgroundColor": "#EEEFF1",
-        },
-      ],
+      {
+        "backgroundColor": "#EEEFF1",
+      },
+      undefined,
     ]
   }
 >
-  text
-</Text>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
 `;
 
 exports[`Status render type dot blue 1`] = `
@@ -40,6 +47,7 @@ exports[`Status render type dot blue 1`] = `
       {
         "backgroundColor": "#2B78EE",
       },
+      undefined,
     ]
   }
 />
@@ -57,6 +65,7 @@ exports[`Status render type dot gray 1`] = `
       {
         "backgroundColor": "#9BA1B0",
       },
+      undefined,
     ]
   }
 />
@@ -73,6 +82,9 @@ exports[`Status render type dot green 1`] = `
       },
       {
         "backgroundColor": "#4ABA79",
+      },
+      {
+        "flex": 1,
       },
     ]
   }
@@ -91,6 +103,7 @@ exports[`Status render type dot orange 1`] = `
       {
         "backgroundColor": "#FAB742",
       },
+      undefined,
     ]
   }
 />
@@ -108,147 +121,185 @@ exports[`Status render type dot red 1`] = `
       {
         "backgroundColor": "#F54D3D",
       },
+      undefined,
     ]
   }
 />
 `;
 
 exports[`Status render type tag blue 1`] = `
-<Text
-  allowFontScaling={true}
+<View
   style={
     [
       {
-        "color": "#2B78EE",
-        "fontFamily": "Inter-Regular",
-        "fontSize": 18,
-        "lineHeight": 24,
+        "borderRadius": 6,
+        "paddingHorizontal": 9,
+        "paddingVertical": 3,
       },
-      [
-        {
-          "borderRadius": 6,
-          "paddingHorizontal": 9,
-          "paddingVertical": 3,
-        },
-        {
-          "backgroundColor": "rgba(43, 120, 238, 0.15)",
-        },
-      ],
+      {
+        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+      },
+      {
+        "flex": 1,
+      },
     ]
   }
 >
-  text
-</Text>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#2B78EE",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
 `;
 
 exports[`Status render type tag gray 1`] = `
-<Text
-  allowFontScaling={true}
+<View
   style={
     [
       {
-        "color": "#5E6678",
-        "fontFamily": "Inter-Regular",
-        "fontSize": 18,
-        "lineHeight": 24,
+        "borderRadius": 6,
+        "paddingHorizontal": 9,
+        "paddingVertical": 3,
       },
-      [
-        {
-          "borderRadius": 6,
-          "paddingHorizontal": 9,
-          "paddingVertical": 3,
-        },
-        {
-          "backgroundColor": "#EEEFF1",
-        },
-      ],
+      {
+        "backgroundColor": "#EEEFF1",
+      },
+      undefined,
     ]
   }
 >
-  text
-</Text>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#5E6678",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
 `;
 
 exports[`Status render type tag green 1`] = `
-<Text
-  allowFontScaling={true}
+<View
   style={
     [
       {
-        "color": "#29A35C",
-        "fontFamily": "Inter-Regular",
-        "fontSize": 18,
-        "lineHeight": 24,
+        "borderRadius": 6,
+        "paddingHorizontal": 9,
+        "paddingVertical": 3,
       },
-      [
-        {
-          "borderRadius": 6,
-          "paddingHorizontal": 9,
-          "paddingVertical": 3,
-        },
-        {
-          "backgroundColor": "rgba(74, 186, 121, 0.15)",
-        },
-      ],
+      {
+        "backgroundColor": "rgba(74, 186, 121, 0.15)",
+      },
+      undefined,
     ]
   }
 >
-  text
-</Text>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#29A35C",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
 `;
 
 exports[`Status render type tag orange 1`] = `
-<Text
-  allowFontScaling={true}
+<View
   style={
     [
       {
-        "color": "#F97A1F",
-        "fontFamily": "Inter-Regular",
-        "fontSize": 18,
-        "lineHeight": 24,
+        "borderRadius": 6,
+        "paddingHorizontal": 9,
+        "paddingVertical": 3,
       },
-      [
-        {
-          "borderRadius": 6,
-          "paddingHorizontal": 9,
-          "paddingVertical": 3,
-        },
-        {
-          "backgroundColor": "rgba(250, 183, 66, 0.15)",
-        },
-      ],
+      {
+        "backgroundColor": "rgba(250, 183, 66, 0.15)",
+      },
+      undefined,
     ]
   }
 >
-  text
-</Text>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#F97A1F",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
 `;
 
 exports[`Status render type tag red 1`] = `
-<Text
-  allowFontScaling={true}
+<View
   style={
     [
       {
-        "color": "#F54D3D",
-        "fontFamily": "Inter-Regular",
-        "fontSize": 18,
-        "lineHeight": 24,
+        "borderRadius": 6,
+        "paddingHorizontal": 9,
+        "paddingVertical": 3,
       },
-      [
-        {
-          "borderRadius": 6,
-          "paddingHorizontal": 9,
-          "paddingVertical": 3,
-        },
-        {
-          "backgroundColor": "rgba(245, 77, 61, 0.15)",
-        },
-      ],
+      {
+        "backgroundColor": "rgba(245, 77, 61, 0.15)",
+      },
+      undefined,
     ]
   }
 >
-  text
-</Text>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#F54D3D",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "lineHeight": 24,
+        },
+        undefined,
+      ]
+    }
+  >
+    text
+  </Text>
+</View>
 `;

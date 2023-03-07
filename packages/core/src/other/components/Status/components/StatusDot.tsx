@@ -1,5 +1,5 @@
 import React, {useCallback} from 'react';
-import {StyleSheet} from 'react-native';
+import {StyleSheet, ViewStyle} from 'react-native';
 
 import {IStatusState} from '../types';
 import useTheme from '../../../../styles/theme/hooks/useTheme';
@@ -9,8 +9,9 @@ import {IThemeContext} from '../../../../styles';
 
 interface IProps {
   state: IStatusState;
+  style?: ViewStyle | ViewStyle[] | undefined;
 }
-const StatusDot = ({state}: IProps) => {
+const StatusDot = ({state, style}: IProps) => {
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
 
@@ -30,7 +31,11 @@ const StatusDot = ({state}: IProps) => {
     }
   }, [state]);
 
-  return <View style={[styles.dot, {backgroundColor: getBackgroundColor()}]} />;
+  return (
+    <View
+      style={[styles.dot, {backgroundColor: getBackgroundColor()}, style]}
+    />
+  );
 };
 
 const stylesCreate = ({spaces}: IThemeContext) =>

@@ -7,7 +7,11 @@ import {IStatusState, IStatusType} from '../types';
 describe('Status', () => {
   it('render type dot green', () => {
     const {toJSON} = render(
-      <Status type={IStatusType.dot} state={IStatusState.green} />,
+      <Status
+        type={IStatusType.dot}
+        state={IStatusState.green}
+        style={{flex: 1}}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
@@ -47,7 +51,12 @@ describe('Status', () => {
   });
   it('render type tag blue', () => {
     const {toJSON} = render(
-      <Status type={IStatusType.tag} state={IStatusState.blue} text={'text'} />,
+      <Status
+        type={IStatusType.tag}
+        state={IStatusState.blue}
+        text={'text'}
+        style={{flex: 1}}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
