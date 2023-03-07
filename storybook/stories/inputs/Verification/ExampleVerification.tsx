@@ -39,6 +39,7 @@ const ExampleVerification = () => {
     writeChar1(text);
     text.length && input2.current?.focus();
   }, []);
+
   const onBackKeyPress1 = useCallback(() => {
     if (char1 === '') {
       input0.current?.focus();
@@ -64,6 +65,7 @@ const ExampleVerification = () => {
       input2.current?.focus();
     }
   }, [char3]);
+
   return (
     <View>
       <View style={styles.container} onLayout={onLayout}>
@@ -73,12 +75,14 @@ const ExampleVerification = () => {
           onChangeText={onChangeText0}
           onBackKeyPress={onBackKeyPress0}
           textInputContainerStyle={styles.textInputContainerStyle}
+          selection={{start: char0.length, end: char0.length}}
         />
         <CodeField
           value={char1}
           ref={input1}
           onChangeText={onChangeText1}
           onBackKeyPress={onBackKeyPress1}
+          selection={{start: char1.length, end: char1.length}}
         />
         <View style={styles.borderStyle} />
         <CodeField
@@ -87,12 +91,14 @@ const ExampleVerification = () => {
           onChangeText={onChangeText2}
           onBackKeyPress={onBackKeyPress2}
           textInputContainerStyle={styles.textInputContainerStyle}
+          selection={{start: char2.length, end: char2.length}}
         />
         <CodeField
           value={char3}
           ref={input3}
           onChangeText={onChangeText3}
           onBackKeyPress={onBackKeyPress3}
+          selection={{start: char3.length, end: char3.length}}
         />
       </View>
       <View style={styles.stringView}>
