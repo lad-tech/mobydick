@@ -1,17 +1,19 @@
 import React, {useCallback} from 'react';
-import {StyleSheet} from 'react-native';
+import {StyleSheet, ViewStyle} from 'react-native';
 
 import {IStatusState} from '../types';
 import useStyles from '../../../../styles/theme/hooks/useStyles';
 import useTheme from '../../../../styles/theme/hooks/useTheme';
 import {Typography} from '../../../../typography';
 import {IThemeContext} from '../../../../styles';
+import View from '../../../../basic/components/View/View';
 
 interface IProps {
   state: IStatusState;
   text: string;
+  style?: ViewStyle | ViewStyle[] | undefined;
 }
-const StatusTag = ({state, text}: IProps) => {
+const StatusTag = ({state, text, style}: IProps) => {
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
 
@@ -48,16 +50,16 @@ const StatusTag = ({state, text}: IProps) => {
   }, [state]);
 
   return (
-    <Typography
-      font={getFont()}
+    <View
       style={[
         styles.tag,
         {
           backgroundColor: getBackgroundColorText(),
         },
+        style,
       ]}>
-      {text}
-    </Typography>
+      <Typography font={getFont()}>{text}</Typography>
+    </View>
   );
 };
 

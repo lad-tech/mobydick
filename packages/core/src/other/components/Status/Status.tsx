@@ -1,4 +1,5 @@
 import React from 'react';
+import {ViewStyle} from 'react-native';
 
 import {IStatusState, IStatusType} from './types';
 import StatusDot from './components/StatusDot';
@@ -8,15 +9,21 @@ type IProps =
   | {
       type: IStatusType.dot;
       state: IStatusState;
+      style?: ViewStyle | ViewStyle[];
     }
-  | {type: IStatusType.tag; state: IStatusState; text: string};
+  | {
+      type: IStatusType.tag;
+      state: IStatusState;
+      text: string;
+      style?: ViewStyle | ViewStyle[];
+    };
 
 const Status = (props: IProps) => {
-  const {type, state} = props;
+  const {type, state, style} = props;
   return type === IStatusType.dot ? (
-    <StatusDot state={state} />
+    <StatusDot state={state} style={style} />
   ) : (
-    <StatusTag state={state} text={props.text} />
+    <StatusTag state={state} text={props.text} style={style} />
   );
 };
 
