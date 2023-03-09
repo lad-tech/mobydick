@@ -57,10 +57,10 @@ const stylesCreate = ({spaces}: IThemeContext) => {
     subtitle: {
       flexDirection: 'row',
       justifyContent: 'space-between',
-      marginTop: 20,
+      marginTop: spaces.Space20,
     },
     text: {
-      width: 50,
+      width: rem(50),
     },
   });
 };
