@@ -30,7 +30,7 @@ function getDirection(newIdx: number, prevIdx: number): number {
 const Dots = ({length, activeDot}: IDots) => {
   const refScrollView = useRef<ScrollView>(null);
   const dots = [...Array(length).keys()];
-  const [prevIndex, setPrevIndex] = useState(activeDot);
+  const [prevIndex, setPrevIndex] = useState(activeDot - 1);
   const direction = useRef(getDirection(activeDot, prevIndex));
   const half = Math.floor((SPAN_SIZE - 1) / 2);
   const isFirstHalf = activeDot < Math.floor(length / 2);
@@ -86,9 +86,10 @@ const Dots = ({length, activeDot}: IDots) => {
 
     const moveTo = Math.max(
       0,
-      (direction.current > 0 || activeDot > 0 ? indicatorRight() : index - 1) *
+      (direction.current > 0 ? indicatorRight() : index - 1) *
         (SIZE_SMALL + MARGIN_DOT),
     );
+
     refScrollView.current.scrollTo({
       x: moveTo,
       y: 0,

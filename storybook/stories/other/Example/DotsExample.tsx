@@ -4,10 +4,10 @@ import {number} from '@storybook/addon-knobs';
 import {Button, Dots, rem, View} from '@npm/mobydick-core';
 
 const DotsExample = () => {
-  const length = number('number length', 10);
+  const length = number('number length', 17);
   const [activeDot, setActiveDot] = useState(0);
   const [activeDotFirstHalf, setActiveDotFirstHalf] = useState(2);
-  const [activeDotSecondHalf, setActiveDotSecondHalf] = useState(6);
+  const [activeDotSecondHalf, setActiveDotSecondHalf] = useState(7);
 
   const onPressPrevFirstHalf = useCallback(() => {
     if (activeDotFirstHalf !== 0) {
