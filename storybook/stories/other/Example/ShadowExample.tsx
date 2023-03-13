@@ -17,7 +17,8 @@ const ShadowExample = () => {
   const elevation = number('android elevation', 1);
   const shadowOpacity = number('ios shadowOpacity', 0.5);
   const shadowRadius = number('ios shadowRadius', 4.27);
-
+  const heightShadowOffset = number('ios shadowOffset height', 1);
+  const widthShadowOffset = number('ios shadowOffset width', 0);
   return (
     <View style={styles.container}>
       <View
@@ -28,6 +29,10 @@ const ShadowExample = () => {
             elevation,
             shadowOpacity,
             shadowRadius,
+            shadowOffset: {
+              width: widthShadowOffset,
+              height: heightShadowOffset,
+            },
           },
         ]}
       />
@@ -40,6 +45,10 @@ const ShadowExample = () => {
             elevation,
             shadowOpacity,
             shadowRadius,
+            shadowOffset: {
+              width: widthShadowOffset,
+              height: heightShadowOffset,
+            },
           },
         ]}
       />
@@ -51,6 +60,10 @@ const ShadowExample = () => {
             elevation,
             shadowOpacity,
             shadowRadius,
+            shadowOffset: {
+              width: widthShadowOffset,
+              height: heightShadowOffset,
+            },
           },
         ]}
       />
@@ -61,6 +74,10 @@ const ShadowExample = () => {
             elevation,
             shadowOpacity,
             shadowRadius,
+            shadowOffset: {
+              width: widthShadowOffset,
+              height: heightShadowOffset,
+            },
           },
         ]}>
         <SimpleIcon
@@ -82,8 +99,6 @@ const stylesCreate = ({colors, spaces}: IThemeContext) =>
     shadow: {
       marginVertical: spaces.Space10,
       backgroundColor: 'transparent',
-
-      shadowOffset: {width: 0, height: 1},
     },
     box: {
       width: rem(200),
