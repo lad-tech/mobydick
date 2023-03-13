@@ -10,13 +10,13 @@ interface IData {
   id: string;
 }
 const data: IData[] = [
-  {name: 'icon-star', id: '0'},
+  {name: 'icon-starfill', id: '0'},
   {name: 'icon-account', id: '1'},
   {name: 'icon-calendar', id: '2'},
   {name: 'icon-camera', id: '3'},
   {name: 'icon-check', id: '4'},
-  {name: 'icon-arrow-left-long', id: '5'},
-  {name: 'icon-arrow-right-long', id: '6'},
+  {name: 'icon-arrow-left-1', id: '5'},
+  {name: 'icon-arrow-right-1', id: '6'},
   {name: 'icon-bookmark', id: '7'},
   {name: 'icon-copy', id: '8'},
   {name: 'icon-edit', id: '9'},
