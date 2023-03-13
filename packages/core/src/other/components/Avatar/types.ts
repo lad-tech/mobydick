@@ -21,7 +21,7 @@ export enum IAvatarTypes {
 }
 
 export enum IStatusTypes {
-  star = 'icon-star',
+  star = 'icon-starfill',
 }
 
 export enum IBadgeTypes {

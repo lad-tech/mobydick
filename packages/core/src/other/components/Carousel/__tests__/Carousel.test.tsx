@@ -10,13 +10,13 @@ interface IData {
   id: string;
 }
 const data: IData[] = [
-  {name: 'icon-star', id: '0'},
-  {name: 'icon-star', id: '1'},
-  {name: 'icon-star', id: '2'},
-  {name: 'icon-star', id: '3'},
-  {name: 'icon-star', id: '4'},
-  {name: 'icon-star', id: '5'},
-  {name: 'icon-star', id: '6'},
+  {name: 'icon-starfill', id: '0'},
+  {name: 'icon-starfill', id: '1'},
+  {name: 'icon-starfill', id: '2'},
+  {name: 'icon-starfill', id: '3'},
+  {name: 'icon-starfill', id: '4'},
+  {name: 'icon-starfill', id: '5'},
+  {name: 'icon-starfill', id: '6'},
 ];
 const sliderItem = (item: IData) => <SimpleIcon name={item.name} />;
 const keyExtractor = (item: IData) => item.id;
@@ -221,7 +221,7 @@ describe('Carousel', () => {
           {
             index: 7,
             isViewable: true,
-            item: {name: 'icon-star', id: '7'},
+            item: {name: 'icon-starfill', id: '7'},
             key: '7',
           },
         ],
@@ -249,7 +249,7 @@ describe('Carousel', () => {
           {
             index: 15,
             isViewable: true,
-            item: {name: 'icon-star', id: '15'},
+            item: {name: 'icon-starfill', id: '15'},
             key: '15',
           },
         ],
