@@ -12,7 +12,7 @@ exports[`Swipe should renders correctly active 1`] = `
   onStartShouldSetPanResponder={[Function]}
   style={
     {
-      "backgroundColor": "rgba(155, 161, 176, 1)",
+      "backgroundColor": "rgba(182, 187, 198, 1)",
       "borderRadius": 30,
       "height": 45,
       "opacity": 1,
@@ -132,7 +132,7 @@ exports[`Swipe should renders correctly by default - 1`] = `
   onStartShouldSetPanResponder={[Function]}
   style={
     {
-      "backgroundColor": "rgba(155, 161, 176, 1)",
+      "backgroundColor": "rgba(182, 187, 198, 1)",
       "borderRadius": 30,
       "height": 45,
       "opacity": 1,
@@ -172,7 +172,7 @@ exports[`Swipe should renders correctly disabled + 1`] = `
   onStartShouldSetPanResponder={[Function]}
   style={
     {
-      "backgroundColor": "rgba(155, 161, 176, 1)",
+      "backgroundColor": "rgba(182, 187, 198, 1)",
       "borderRadius": 30,
       "height": 45,
       "opacity": 0.4,
@@ -212,7 +212,7 @@ exports[`Swipe should renders correctly disabled - 1`] = `
   onStartShouldSetPanResponder={[Function]}
   style={
     {
-      "backgroundColor": "rgba(155, 161, 176, 1)",
+      "backgroundColor": "rgba(182, 187, 198, 1)",
       "borderRadius": 30,
       "height": 45,
       "opacity": 0.4,

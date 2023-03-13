@@ -54,7 +54,7 @@ export const defaultIconDarkColor = {
 
 export const defaultElementLightColor = {
   ElementNeutral: '#5E6678',
-  ElementMuted: '#9BA1B0',
+  ElementMuted: '#B6BBC6',
   ElementBase: '#2B78EE',
   ElementAttention: '#F54D3D',
   ElementAdditional: '#FAB742',
@@ -64,7 +64,7 @@ export const defaultElementLightColor = {
 };
 export const defaultElementDarkColor = {
   ElementNeutral: '#B6BBC6',
-  ElementMuted: '#7A8394',
+  ElementMuted: '#5E6678',
   ElementBase: '#4C94FF',
   ElementAttention: '#F86B5D',
   ElementAdditional: '#FAB742',
