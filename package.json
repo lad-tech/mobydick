@@ -24,7 +24,16 @@
     "android:get:aab": "cd android && ./gradlew :app:bundleRelease",
     "android:get:debug": "yarn bundleWithAssets && yarn android:build:debug",
     "android:get:release": "yarn bundle && yarn android:build:release",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "e2e:ios:debug:build": "detox build --configuration ios.sim.debug",
+    "e2e:ios:debug:test": "detox test --configuration ios.sim.debug",
+    "e2e:ios:debug": "yarn e2e:ios:debug:build && yarn e2e:ios:debug:test",
+    "e2e:android:build": "yarn bundle && detox build --configuration android.emu.release",
+    "e2e:android:test": "detox test --configuration android.emu.release",
+    "e2e:android": "yarn e2e:android:build && yarn e2e:android:test",
+    "e2e:android:debug:build": "yarn bundleWithAssets && detox build --configuration android.emu.debug",
+    "e2e:android:debug:test": "detox test --configuration android.emu.debug",
+    "e2e:android:debug": "yarn e2e:android:debug:build && yarn e2e:android:debug:test"
   },
   "workspaces": [
     "packages/*"
@@ -61,6 +70,7 @@
     "@types/yargs": "^17.0.10",
     "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.4",
+    "detox": "^20.5.0",
     "eslint": "^8.33.0",
     "husky": "^7.0.4",
     "jest": "^29.4.1",
