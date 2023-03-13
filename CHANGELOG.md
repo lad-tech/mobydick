@@ -1,3 +1,16 @@
+# [7.0.0](https://glab.lad24.ru/npm/mobydick/compare/v6.4.2...v7.0.0) (2023-03-13)
+
+
+### Features
+
+* **detox:** add e2e ([3b7812d](https://glab.lad24.ru/npm/mobydick/commit/3b7812d78e009075cdf50f44a34914d11dd69f69))
+* **icons:** new icons ([1df3231](https://glab.lad24.ru/npm/mobydick/commit/1df3231d36cb8129daf85ec5f3d2ab997a17e024))
+
+
+### BREAKING CHANGES
+
+* **icons:** change names in icons
+
 ## [6.4.2](https://glab.lad24.ru/npm/mobydick/compare/v6.4.1...v6.4.2) (2023-03-09)
 
 ## [6.4.1](https://glab.lad24.ru/npm/mobydick/compare/v6.4.0...v6.4.1) (2023-03-07)
