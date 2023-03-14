@@ -5,6 +5,8 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 import Carousel from '../Carousel';
 import {SimpleIcon, SimpleIconName} from '../../../../styles';
 import {LABELS} from '../../../constants';
+import {ICarouselAlign} from '../types';
+
 interface IData {
   name: SimpleIconName;
   id: string;
@@ -20,6 +22,7 @@ const data: IData[] = [
 ];
 const sliderItem = (item: IData) => <SimpleIcon name={item.name} />;
 const keyExtractor = (item: IData) => item.id;
+const itemWidth = 100;
 
 describe('Carousel', () => {
   it('render Carousel', () => {
@@ -29,6 +32,7 @@ describe('Carousel', () => {
           data={data}
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -42,6 +46,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           sideMargin={20}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -55,6 +60,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           loading={true}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -68,6 +74,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           onPressItem={item => console.log(item)}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -85,6 +92,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           activeItemId={'6'}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -105,6 +113,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           activeItemId={'20'}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -125,6 +134,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           averageItemLength={6}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -145,6 +155,7 @@ describe('Carousel', () => {
           keyExtractor={keyExtractor}
           activeItemId={'20'}
           averageItemLength={20}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -158,6 +169,8 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           animateAutoScroll={true}
+          itemWidth={itemWidth}
+          align={ICarouselAlign.center}
         />
       </SafeAreaProvider>,
     );
@@ -172,6 +185,8 @@ describe('Carousel', () => {
           keyExtractor={keyExtractor}
           isDots={true}
           activeItemId={'5'}
+          itemWidth={itemWidth}
+          align={ICarouselAlign.start}
         />
       </SafeAreaProvider>,
     );
@@ -194,6 +209,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           onActiveChange={(item: IData) => console.log('item', item)}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -209,6 +225,7 @@ describe('Carousel', () => {
           keyExtractor={keyExtractor}
           onActiveChange={(item: IData) => console.log('item', item)}
           activeItemId={'3'}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -237,6 +254,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           onActiveChange={(item: IData) => console.log('item', item)}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -265,6 +283,7 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           onActiveChange={(item: IData) => console.log('item', item)}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );

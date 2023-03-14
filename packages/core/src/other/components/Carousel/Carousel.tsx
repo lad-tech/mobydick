@@ -1,19 +1,25 @@
 import React, {useCallback, useRef, useState} from 'react';
-import {FlatList, ViewToken} from 'react-native';
+import {Dimensions, FlatList, ViewToken} from 'react-native';
 
 import rem from '../../../styles/spaces/rem';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import {LABELS} from '../../constants';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import Dots from '../Dots/Dots';
+import View from '../../../basic/components/View/View';
 
 import stylesCreate from './stylesCreate';
+import {ICarouselAlign} from './types';
+import EmptyFirstItem from './components/EmptyFirstItem';
+
+const {width} = Dimensions.get('window');
 
 interface IProps<T> {
   data: Array<T>;
   sliderItem: (item: T, index: number, data: Array<T>) => JSX.Element;
   keyExtractor: (item: T) => string;
   sideMargin?: number;
+  itemWidth: number;
   loading?: boolean;
   onPressItem?: (item: T) => void;
   activeItemId?: string;
@@ -21,6 +27,7 @@ interface IProps<T> {
   averageItemLength?: number;
   animateAutoScroll?: boolean;
   onActiveChange?: (item: T) => void;
+  align?: ICarouselAlign;
 }
 
 const Carousel = <T,>({
@@ -28,17 +35,24 @@ const Carousel = <T,>({
   sliderItem,
   keyExtractor,
   loading = false,
-  sideMargin = rem(12),
+  sideMargin = rem(10),
+  itemWidth,
   onPressItem,
   activeItemId,
   averageItemLength,
   animateAutoScroll = false,
   isDots = false,
   onActiveChange,
+  align = ICarouselAlign.start,
 }: IProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
   const [styles] = useStyles(stylesCreate, sideMargin);
   const [slidePosition, setSlidePosition] = useState<number>(0);
+
+  const EMPTY_SPACE = width - itemWidth - sideMargin * 2;
+  const EMPTY_SPACE_FIRST_ITEM = EMPTY_SPACE / 2;
+  const EMPTY_SPACE_LAST_ITEM =
+    align === ICarouselAlign.center ? EMPTY_SPACE_FIRST_ITEM : EMPTY_SPACE;
 
   const viewabilityConfig = useRef({
     itemVisiblePercentThreshold: 40,
@@ -97,7 +111,7 @@ const Carousel = <T,>({
         });
       }
     },
-    [averageItemLength],
+    [averageItemLength, animateAutoScroll],
   );
 
   const handleOnViewableItemsChanged = useRef(
@@ -119,12 +133,20 @@ const Carousel = <T,>({
         pagingEnabled
         onLayout={onLayout}
         accessibilityLabel={LABELS.carousel}
-        snapToAlignment={'center'}
+        snapToAlignment={ICarouselAlign.start}
         showsHorizontalScrollIndicator={false}
         renderItem={renderItem}
         onViewableItemsChanged={handleOnViewableItemsChanged}
         viewabilityConfig={viewabilityConfig}
         onScrollToIndexFailed={onScrollToIndexFailed}
+        snapToInterval={itemWidth + sideMargin * 2}
+        decelerationRate={0}
+        bounces={false}
+        scrollEventThrottle={16}
+        ListHeaderComponent={
+          <EmptyFirstItem align={align} width={EMPTY_SPACE_FIRST_ITEM} />
+        }
+        ListFooterComponent={<View style={{width: EMPTY_SPACE_LAST_ITEM}} />}
       />
       {isDots && <Dots length={data.length} activeDot={slidePosition} />}
     </>
