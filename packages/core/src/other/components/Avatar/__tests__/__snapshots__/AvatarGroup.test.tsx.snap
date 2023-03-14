@@ -1,6 +1,99 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AvatarGroup render AvatarGroup 1`] = `
+exports[`AvatarGroup render AvatarGroup < 3 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#ff0000",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 54,
+          "zIndex": 1,
+        },
+        {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
+      }
+    >
+      ИП
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#ff0000",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 36,
+          "zIndex": 2,
+        },
+        {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
+      }
+    >
+      ИП
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`AvatarGroup render AvatarGroup = 4 1`] = `
 <View
   style={
     {
@@ -106,24 +199,18 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
       ]
     }
   >
-    <Image
-      accessibilityLabel="imageAvatar"
-      onError={[Function]}
-      source={
-        {
-          "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
-        }
-      }
+    <Text
+      allowFontScaling={true}
       style={
         {
-          "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
-          "width": 60,
+          "color": "#FFF",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
         }
       }
-    />
+    >
+      
+    </Text>
   </View>
   <View
     style={
@@ -164,6 +251,168 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
 </View>
 `;
 
+exports[`AvatarGroup render AvatarGroup 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2B78EE",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 54,
+          "zIndex": 1,
+        },
+        {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <Image
+      accessibilityLabel="imageAvatar"
+      onError={[Function]}
+      source={
+        {
+          "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+        }
+      }
+      style={
+        {
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "width": 60,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2B78EE",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 36,
+          "zIndex": 2,
+        },
+        {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#2B78EE",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "left": 18,
+          "zIndex": 3,
+        },
+        {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Neotis",
+          "fontSize": 30,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "#EEEFF1",
+        "borderColor": "#FFF",
+        "borderRadius": 30,
+        "borderWidth": 3,
+        "height": 60,
+        "justifyContent": "center",
+        "width": 60,
+        "zIndex": 4,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#444B5A",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          {
+            "alignSelf": "center",
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      +8
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`AvatarGroup render AvatarGroup with props 1`] = `
 <View
   style={
@@ -196,22 +445,24 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
       ]
     }
   >
-    <Text
-      allowFontScaling={true}
-      style={
-        [
-          {
-            "color": "#FFF",
-            "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-          },
-          undefined,
-        ]
+    <Image
+      accessibilityLabel="imageAvatar"
+      onError={[Function]}
+      source={
+        {
+          "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+        }
       }
-    >
-      ИП
-    </Text>
+      style={
+        {
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "width": 60,
+        }
+      }
+    />
   </View>
   <View
     style={
@@ -278,24 +529,22 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
       ]
     }
   >
-    <Image
-      accessibilityLabel="imageAvatar"
-      onError={[Function]}
-      source={
-        {
-          "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
-        }
-      }
+    <Text
+      allowFontScaling={true}
       style={
-        {
-          "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
-          "width": 60,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
-    />
+    >
+      ИП
+    </Text>
   </View>
   <View
     style={
@@ -328,7 +577,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         ]
       }
     >
-      +4
+      +99
     </Text>
   </View>
 </View>

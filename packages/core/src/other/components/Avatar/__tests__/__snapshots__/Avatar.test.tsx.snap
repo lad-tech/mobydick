@@ -223,7 +223,7 @@ exports[`Avatar render avatar badge null 1`] = `
       },
       undefined,
       {
-        "opacity": 0.5,
+        "opacity": 1,
       },
     ]
   }
@@ -279,6 +279,41 @@ exports[`Avatar render avatar badge status 1`] = `
   >
     
   </Text>
+  <Text
+    allowFontScaling={true}
+    style={
+      {
+        "color": "#FFF",
+        "fontFamily": "Neotis",
+        "fontSize": 30,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Avatar render avatar disabled 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 30,
+        "height": 60,
+        "justifyContent": "center",
+        "width": 60,
+      },
+      undefined,
+      {
+        "opacity": 0.5,
+      },
+    ]
+  }
+>
   <Text
     allowFontScaling={true}
     style={
