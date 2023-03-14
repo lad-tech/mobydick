@@ -1,3 +1,11 @@
+## [7.0.1](https://glab.lad24.ru/npm/mobydick/compare/v7.0.0...v7.0.1) (2023-03-14)
+
+
+### Bug Fixes
+
+* **Avatar:** limit in count group ([590cad6](https://glab.lad24.ru/npm/mobydick/commit/590cad656b53c9a9e17b3af61ec896f5fd2e4a48))
+* **Color:** change color ElementMuted ([a9732e9](https://glab.lad24.ru/npm/mobydick/commit/a9732e9bcc9128693eeb8fe97b76a22fb60c66b5))
+
 # [7.0.0](https://glab.lad24.ru/npm/mobydick/compare/v6.4.2...v7.0.0) (2023-03-13)
 
 
