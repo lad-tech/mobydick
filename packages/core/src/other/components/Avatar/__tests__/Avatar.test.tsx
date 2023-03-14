@@ -134,9 +134,13 @@ describe('Avatar', () => {
             value: IStatusTypes.star,
           } as unknown as IBadge
         }
-        disabled={true}
       />,
     );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  test('render avatar disabled', () => {
+    const {toJSON} = render(<Avatar user={userWithoutPhoto} disabled={true} />);
 
     expect(toJSON()).toMatchSnapshot();
   });

@@ -19,6 +19,9 @@ const AvatarGroup: FC<IProps> = props => {
   const {groups, ...otherProps} = props;
   const [styles] = useStyles(stylesCreate);
   const count = groups.length - 3;
+  const maxCount = 99;
+
+  const text = count > maxCount ? maxCount : count;
 
   return (
     <View style={styles.container}>
@@ -59,7 +62,7 @@ const AvatarGroup: FC<IProps> = props => {
       ) : (
         <View style={styles.countView}>
           <Typography font={'Medium-Secondary-XXS'} style={styles.countText}>
-            {'+' + count.toString()}
+            {'+' + text.toString()}
           </Typography>
         </View>
       )}
