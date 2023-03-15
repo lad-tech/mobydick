@@ -1,9 +1,15 @@
 import {defaultSpaces} from '../spaces';
 import {
+  defaultBannerDarkColor,
+  defaultBannerLightColor,
   defaultBgDarkColor,
   defaultBgLightColor,
   defaultBorderDarkColor,
   defaultBorderLightColor,
+  defaultCategoryDarkColor,
+  defaultCategoryLightColor,
+  defaultChartDarkColor,
+  defaultChartLightColor,
   defaultCTADarkColor,
   defaultCTALightColor,
   defaultElementDarkColor,
@@ -31,6 +37,9 @@ export const defaultTheme: IDefaultTheme = {
       ...defaultBgLightColor,
       ...defaultCTALightColor,
       ...defaultBorderLightColor,
+      ...defaultChartLightColor,
+      ...defaultCategoryLightColor,
+      ...defaultBannerLightColor,
     },
     [CurrentTheme.dark]: {
       ...defaultTextDarkColor,
@@ -39,6 +48,9 @@ export const defaultTheme: IDefaultTheme = {
       ...defaultBgDarkColor,
       ...defaultCTADarkColor,
       ...defaultBorderDarkColor,
+      ...defaultChartDarkColor,
+      ...defaultCategoryDarkColor,
+      ...defaultBannerDarkColor,
     },
   },
   spaces: {

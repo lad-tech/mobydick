@@ -1,6 +1,9 @@
 import {
+  defaultBannerLightColor,
   defaultBgLightColor,
   defaultBorderLightColor,
+  defaultCategoryLightColor,
+  defaultChartLightColor,
   defaultCTALightColor,
   defaultElementLightColor,
   defaultIconLightColor,
@@ -21,7 +24,10 @@ export interface IDefaultTheme {
       typeof defaultIconLightColor &
       typeof defaultBgLightColor &
       typeof defaultCTALightColor &
-      typeof defaultBorderLightColor
+      typeof defaultBorderLightColor &
+      typeof defaultChartLightColor &
+      typeof defaultCategoryLightColor &
+      typeof defaultBannerLightColor
   >;
   spaces: typeof defaultSpaces;
 }
@@ -34,7 +40,10 @@ export interface IThemeContext {
     typeof defaultIconLightColor &
     typeof defaultBgLightColor &
     typeof defaultCTALightColor &
-    typeof defaultBorderLightColor;
+    typeof defaultBorderLightColor &
+    typeof defaultChartLightColor &
+    typeof defaultCategoryLightColor &
+    typeof defaultBannerLightColor;
   spaces: typeof defaultSpaces;
 
   setTheme: (theme: IDefaultTheme) => void;
