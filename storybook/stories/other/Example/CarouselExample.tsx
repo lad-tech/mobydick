@@ -1,45 +1,82 @@
-import React, {useCallback} from 'react';
+import React, {useCallback, useState} from 'react';
 import {StyleSheet} from 'react-native';
-import {boolean} from '@storybook/addon-knobs';
+import {boolean, number, select} from '@storybook/addon-knobs';
 
-import {Carousel, SimpleIcon, SimpleIconName, View} from '@npm/mobydick-core';
+import {
+  Button,
+  Carousel,
+  IButtonSize,
+  ICarouselAlign,
+  rem,
+  Typography,
+  useTheme,
+  View,
+} from '@npm/mobydick-core';
 import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 
-interface IData {
-  name: SimpleIconName;
-  id: string;
+function range(from: number, to: number) {
+  const offset = from;
+  const length = to - from + 1;
+
+  if (length < 0) {
+    return [];
+  }
+
+  return [...Array(length).keys()].map(value => value + offset);
 }
-const data: IData[] = [
-  {name: 'icon-starfill', id: '0'},
-  {name: 'icon-account', id: '1'},
-  {name: 'icon-calendar', id: '2'},
-  {name: 'icon-camera', id: '3'},
-  {name: 'icon-check', id: '4'},
-  {name: 'icon-arrow-left-1', id: '5'},
-  {name: 'icon-arrow-right-1', id: '6'},
-  {name: 'icon-bookmark', id: '7'},
-  {name: 'icon-copy', id: '8'},
-  {name: 'icon-edit', id: '9'},
-  {name: 'icon-heart', id: '10'},
-];
 
 const CarouselExample = () => {
   const [styles] = useStyles(stylesCreate);
+  const {colors} = useTheme();
+  const [isOpen, setOpen] = useState(true);
 
-  const sliderItem = useCallback(item => <SimpleIcon name={item.name} />, []);
-  const keyExtractor = useCallback(item => item.id, []);
+  const itemWidth = number('itemWidth', 200);
+  const itemHeight = number('itemHeight', 100);
+  const sideMargin = number('sideMargin', 12);
+  const activeItemId = number('activeItemId', 1);
+  const data = number('length data', 4);
+  const keyExtractor = useCallback(item => item.toString(), []);
   const isDots = boolean('isDots', true);
+  const align = select('align', ICarouselAlign, ICarouselAlign.start);
+
+  const sliderItem = useCallback(
+    item => {
+      return (
+        <View
+          style={{
+            width: rem(itemWidth),
+            height: rem(itemHeight),
+            backgroundColor: colors.ElementBase,
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}>
+          <Typography font={'Medium-White-H4'}>{item}</Typography>
+        </View>
+      );
+    },
+    [itemWidth, itemHeight],
+  );
 
   return (
     <View style={styles.container}>
-      <Carousel
-        data={data}
-        sliderItem={sliderItem}
-        keyExtractor={keyExtractor}
-        animateAutoScroll={true}
-        isDots={isDots}
-        activeItemId={'3'}
+      <Button
+        text={'open/close carousel'}
+        onPress={() => setOpen(!isOpen)}
+        size={IButtonSize.large}
       />
+      {isOpen && (
+        <Carousel
+          data={range(1, data)}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          animateAutoScroll={true}
+          isDots={isDots}
+          sideMargin={rem(sideMargin)}
+          itemWidth={rem(itemWidth)}
+          activeItemId={activeItemId.toString()}
+          align={align}
+        />
+      )}
     </View>
   );
 };
@@ -49,7 +86,6 @@ export default CarouselExample;
 const stylesCreate = () =>
   StyleSheet.create({
     container: {
-      justifyContent: 'center',
       alignItems: 'center',
       width: '100%',
       aspectRatio: 2,
