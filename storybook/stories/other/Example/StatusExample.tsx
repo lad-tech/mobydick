@@ -12,7 +12,7 @@ import {
 
 const StatusExample = () => {
   const [styles] = useStyles(stylesCreate);
-  const state = select('state', IStatusState, IStatusState.green);
+  const state = select('state', IStatusState, IStatusState.gray);
   return (
     <View style={styles.container}>
       <Status type={IStatusType.dot} state={state} />
