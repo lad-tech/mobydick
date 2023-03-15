@@ -29,7 +29,14 @@ const StatusDot = ({state, style}: IProps) => {
       default:
         return colors.ElementMuted;
     }
-  }, [state]);
+  }, [
+    state,
+    colors.ElementAdditional,
+    colors.ElementBase,
+    colors.ElementAttention,
+    colors.ElementSuccess,
+    colors.ElementMuted,
+  ]);
 
   return (
     <View

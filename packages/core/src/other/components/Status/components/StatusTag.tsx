@@ -47,7 +47,14 @@ const StatusTag = ({state, text, style}: IProps) => {
       default:
         return colors.BgSecondary;
     }
-  }, [state]);
+  }, [
+    state,
+    colors.BgAccentSoft,
+    colors.BgError,
+    colors.BgSuccess,
+    colors.BgWarning,
+    colors.BgSecondary,
+  ]);
 
   return (
     <View
