@@ -18,7 +18,6 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
       borderWidth: spaces.Space1,
       borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: spaces.Space8,
-      height: rem(48),
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',

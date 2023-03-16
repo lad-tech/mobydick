@@ -39,6 +39,7 @@ const ExampleInput = () => {
       secureTextEntry={isSecureTextEntry}
       required={boolean('required', false)}
       value={value}
+      multiline={boolean('multiline', false)}
     />
   );
 };

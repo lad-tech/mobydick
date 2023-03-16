@@ -82,4 +82,16 @@ describe('@npm/mobydick-core/InputField', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly multiline = true', () => {
+    Platform.OS = 'android';
+    const {toJSON} = render(<InputField title={'title'} multiline={true} />);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly multiline = false', () => {
+    Platform.OS = 'android';
+    const {toJSON} = render(<InputField title={'title'} multiline={false} />);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
