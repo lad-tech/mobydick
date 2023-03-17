@@ -8,6 +8,7 @@ import View from '../../../basic/components/View/View';
 import TextInput from '../../../basic/components/TextInput/TextInput';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import {useFont} from '../../../typography/hooks/useFont';
+import rem from '../../../styles/spaces/rem';
 
 import {IInputFieldsProps} from './types';
 import stylesCreate from './stylesCreate';
@@ -44,6 +45,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     onBlur,
     required,
     secureTextEntry,
+    multiline = false,
     ...otherProps
   } = props;
   const [focused, setFocused] = useState(false);
@@ -51,6 +53,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     stylesCreate,
     disabled ? IInputsTypes.disabled : type,
     focused,
+    multiline,
   );
   const {fontStyle} = useFont('Regular-Primary-M');
 
@@ -77,14 +80,17 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     },
     [onBlur],
   );
-
+  const getHeight = () => {
+    return multiline ? {minHeight: rem(80)} : {height: rem(48)};
+  };
   return (
     <View style={[styles.container, containerStyle]}>
       {title && (
         <InputTitle title={title} titleProps={titleProps} required={required} />
       )}
 
-      <View style={[styles.inputContainer, textInputContainerStyle]}>
+      <View
+        style={[styles.inputContainer, getHeight(), textInputContainerStyle]}>
         <TextInput
           ref={ref}
           testID={Constants.testID}
@@ -96,6 +102,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
           onBlur={onBlurInput}
           selectionColor={theme.colors.IconBase}
           secureTextEntry={secureTextEntry}
+          multiline={multiline}
           {...otherProps}
         />
         {rightIcon}

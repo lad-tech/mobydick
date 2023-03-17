@@ -4,7 +4,11 @@ import {IInputsTypes} from '../types';
 import {disabledStyle, validStyle, wrongStyle} from '../../style';
 import {IThemeContext, rem} from '../../../styles';
 
-const defaultStyle = (theme: IThemeContext, focused: boolean) => {
+const defaultStyle = (
+  theme: IThemeContext,
+  focused: boolean,
+  multiline: boolean,
+) => {
   const {colors, spaces} = theme;
   return StyleSheet.create({
     container: {
@@ -18,18 +22,20 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
       borderWidth: spaces.Space1,
       borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: spaces.Space8,
-      height: rem(48),
       flexDirection: 'row',
       justifyContent: 'space-between',
-      alignItems: 'center',
+      alignItems: multiline ? 'flex-start' : 'center',
+      paddingVertical: multiline ? spaces.Space12 : 0,
     },
     textInput: {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
     },
+
     androidTextInput: {
       fontSize: spaces.Space16,
       color: colors.TextPrimary,
+      padding: 0, // Android по дефолту ставит padding на input's
     },
   });
 };
@@ -38,17 +44,30 @@ const stylesCreate = (
   theme: IThemeContext,
   type: IInputsTypes,
   focused: boolean,
+  multiline: boolean,
 ) => {
   switch (type) {
     case IInputsTypes.valid:
-      return validStyle(theme, defaultStyle(theme, focused), focused);
+      return validStyle(
+        theme,
+        defaultStyle(theme, focused, multiline),
+        focused,
+      );
     case IInputsTypes.wrong:
-      return wrongStyle(theme, defaultStyle(theme, focused), focused);
+      return wrongStyle(
+        theme,
+        defaultStyle(theme, focused, multiline),
+        focused,
+      );
     case IInputsTypes.disabled:
-      return disabledStyle(theme, defaultStyle(theme, focused), focused);
+      return disabledStyle(
+        theme,
+        defaultStyle(theme, focused, multiline),
+        focused,
+      );
     case IInputsTypes.default:
     default:
-      return defaultStyle(theme, focused);
+      return defaultStyle(theme, focused, multiline);
   }
 };
 export default stylesCreate;

@@ -45,11 +45,14 @@ exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
         },
         undefined,
       ]
@@ -58,6 +61,7 @@ exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
     <TextInput
       allowFontScaling={true}
       editable={true}
+      multiline={false}
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -145,11 +149,14 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
         },
         undefined,
       ]
@@ -158,6 +165,7 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 1`] = `
     <TextInput
       allowFontScaling={true}
       editable={false}
+      multiline={false}
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -205,11 +213,14 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 2`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
         },
         undefined,
       ]
@@ -218,6 +229,7 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 2`] = `
     <TextInput
       allowFontScaling={true}
       editable={false}
+      multiline={false}
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -265,11 +277,14 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
         },
         undefined,
       ]
@@ -278,6 +293,7 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 1`] = `
     <TextInput
       allowFontScaling={true}
       editable={true}
+      multiline={false}
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -325,11 +341,14 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 2`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
         },
         undefined,
       ]
@@ -338,6 +357,7 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 2`] = `
     <TextInput
       allowFontScaling={true}
       editable={true}
+      multiline={false}
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -355,6 +375,184 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 2`] = `
             "fontSize": 24,
             "lineHeight": 30,
           },
+          undefined,
+        ]
+      }
+      testID="TextInput"
+    />
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-core/InputField renders correctly multiline = false 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
+      }
+    >
+      title
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "transparent",
+          "borderRadius": 12,
+          "borderWidth": 1.5,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 12,
+          "paddingLeft": 27,
+          "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
+        },
+        undefined,
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      multiline={false}
+      numberOfLines={1}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
+      style={
+        [
+          {
+            "flex": 1,
+            "padding": 0,
+          },
+          [
+            {
+              "color": "#20242D",
+              "fontSize": 24,
+              "padding": 0,
+            },
+          ],
+          undefined,
+        ]
+      }
+      testID="TextInput"
+    />
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-core/InputField renders correctly multiline = true 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
+      }
+    >
+      title
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "flex-start",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "transparent",
+          "borderRadius": 12,
+          "borderWidth": 1.5,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 12,
+          "paddingLeft": 27,
+          "paddingRight": 24,
+          "paddingVertical": 18,
+        },
+        {
+          "minHeight": 120,
+        },
+        undefined,
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      multiline={true}
+      numberOfLines={1}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
+      style={
+        [
+          {
+            "flex": 1,
+            "padding": 0,
+          },
+          [
+            {
+              "color": "#20242D",
+              "fontSize": 24,
+              "padding": 0,
+            },
+          ],
           undefined,
         ]
       }
@@ -409,11 +607,14 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
         },
         undefined,
       ]
@@ -422,6 +623,7 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
     <TextInput
       allowFontScaling={true}
       editable={true}
+      multiline={false}
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -438,6 +640,7 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
             {
               "color": "#20242D",
               "fontSize": 24,
+              "padding": 0,
             },
           ],
           undefined,
@@ -510,11 +713,14 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
         },
         undefined,
       ]
@@ -523,6 +729,7 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 1`] = `
     <TextInput
       allowFontScaling={true}
       editable={true}
+      multiline={false}
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -570,11 +777,14 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 2`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
         },
         undefined,
       ]
@@ -583,6 +793,7 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 2`] = `
     <TextInput
       allowFontScaling={true}
       editable={true}
+      multiline={false}
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -630,11 +841,14 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
         },
         undefined,
       ]
@@ -643,6 +857,7 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 1`] = `
     <TextInput
       allowFontScaling={true}
       editable={true}
+      multiline={false}
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -730,11 +945,14 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 2`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
         },
         undefined,
       ]
@@ -743,6 +961,7 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 2`] = `
     <TextInput
       allowFontScaling={true}
       editable={true}
+      multiline={false}
       numberOfLines={1}
       onBlur={[Function]}
       onFocus={[Function]}
