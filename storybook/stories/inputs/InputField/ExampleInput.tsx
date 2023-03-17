@@ -18,14 +18,20 @@ const ExampleInput = () => {
   );
   const [isSecureTextEntry, setSecureTextEntry] = useState(false);
   const [value, setValue] = useState('');
+  const type = select('type', IInputsTypes, IInputsTypes.default);
+  const title = text('title', 'Название поля');
+  const placeholder = text('Placeholder', 'Введите что-нибудь');
+  const subtitle = text('subtitle', 'Подпись');
+  const disabled = boolean('disabled', false);
+  const required = boolean('required', false);
 
   return (
     <>
       <InputField
-        type={select('type', IInputsTypes, IInputsTypes.default)}
-        title={text('title', 'Название поля')}
-        placeholder={text('Placeholder', 'Введите что-нибудь')}
-        subtitle={text('subtitle', 'Подпись')}
+        type={type}
+        title={title}
+        placeholder={placeholder}
+        subtitle={subtitle}
         subtitleIcon={
           boolean('show subtitleIcon', false) ? subtitleIconName : undefined
         }
@@ -34,26 +40,26 @@ const ExampleInput = () => {
             <SimpleIcon name={select('right Icon', iconNames, 'icon-show')} />
           </Pressable>
         }
-        disabled={boolean('disabled', false)}
+        disabled={disabled}
         onChangeText={setValue}
         containerStyle={{width: rem(250), paddingBottom: 50}}
         secureTextEntry={isSecureTextEntry}
-        required={boolean('required', false)}
+        required={required}
         value={value}
       />
       <InputField
-        type={select('type', IInputsTypes, IInputsTypes.default)}
-        title={text('title', 'Название поля')}
-        placeholder={text('Placeholder', 'Введите что-нибудь')}
-        subtitle={text('subtitle', 'Подпись')}
+        type={type}
+        title={title}
+        placeholder={placeholder}
+        subtitle={subtitle}
         subtitleIcon={
           boolean('show subtitleIcon', false) ? subtitleIconName : undefined
         }
-        disabled={boolean('disabled', false)}
+        disabled={disabled}
         onChangeText={setValue}
         containerStyle={{width: rem(250), paddingBottom: 50}}
         secureTextEntry={isSecureTextEntry}
-        required={boolean('required', false)}
+        required={required}
         value={value}
         multiline={true}
       />
