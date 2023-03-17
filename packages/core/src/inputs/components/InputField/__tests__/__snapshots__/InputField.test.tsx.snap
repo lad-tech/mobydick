@@ -45,13 +45,11 @@ exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]
@@ -147,13 +145,11 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]
@@ -209,13 +205,11 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 2`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]
@@ -271,13 +265,11 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]
@@ -333,13 +325,11 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 2`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]
@@ -419,13 +409,11 @@ exports[`@npm/mobydick-core/InputField renders correctly multiline = false 1`] =
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]
@@ -500,19 +488,16 @@ exports[`@npm/mobydick-core/InputField renders correctly multiline = true 1`] = 
     style={
       [
         {
-          "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
-          "justifyContent": "space-between",
           "marginVertical": 12,
+          "minHeight": 120,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "minHeight": 72,
+          "paddingVertical": 18,
         },
         undefined,
       ]
@@ -593,13 +578,11 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]
@@ -696,13 +679,11 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]
@@ -758,13 +739,11 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 2`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]
@@ -820,13 +799,11 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 1`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]
@@ -922,13 +899,11 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 2`] = `
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
+          "height": 72,
           "justifyContent": "space-between",
           "marginVertical": 12,
           "paddingLeft": 27,
           "paddingRight": 24,
-        },
-        {
-          "height": 72,
         },
         undefined,
       ]

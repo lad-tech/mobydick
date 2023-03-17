@@ -20,27 +20,44 @@ const ExampleInput = () => {
   const [value, setValue] = useState('');
 
   return (
-    <InputField
-      type={select('type', IInputsTypes, IInputsTypes.default)}
-      title={text('title', 'Название поля')}
-      placeholder={text('Placeholder', 'Введите что-нибудь')}
-      subtitle={text('subtitle', 'Подпись')}
-      subtitleIcon={
-        boolean('show subtitleIcon', false) ? subtitleIconName : undefined
-      }
-      rightIcon={
-        <Pressable onPress={() => setSecureTextEntry(!isSecureTextEntry)}>
-          <SimpleIcon name={select('right Icon', iconNames, 'icon-show')} />
-        </Pressable>
-      }
-      disabled={boolean('disabled', false)}
-      onChangeText={setValue}
-      containerStyle={{width: rem(250), paddingBottom: 50}}
-      secureTextEntry={isSecureTextEntry}
-      required={boolean('required', false)}
-      value={value}
-      multiline={boolean('multiline', false)}
-    />
+    <>
+      <InputField
+        type={select('type', IInputsTypes, IInputsTypes.default)}
+        title={text('title', 'Название поля')}
+        placeholder={text('Placeholder', 'Введите что-нибудь')}
+        subtitle={text('subtitle', 'Подпись')}
+        subtitleIcon={
+          boolean('show subtitleIcon', false) ? subtitleIconName : undefined
+        }
+        rightIcon={
+          <Pressable onPress={() => setSecureTextEntry(!isSecureTextEntry)}>
+            <SimpleIcon name={select('right Icon', iconNames, 'icon-show')} />
+          </Pressable>
+        }
+        disabled={boolean('disabled', false)}
+        onChangeText={setValue}
+        containerStyle={{width: rem(250), paddingBottom: 50}}
+        secureTextEntry={isSecureTextEntry}
+        required={boolean('required', false)}
+        value={value}
+      />
+      <InputField
+        type={select('type', IInputsTypes, IInputsTypes.default)}
+        title={text('title', 'Название поля')}
+        placeholder={text('Placeholder', 'Введите что-нибудь')}
+        subtitle={text('subtitle', 'Подпись')}
+        subtitleIcon={
+          boolean('show subtitleIcon', false) ? subtitleIconName : undefined
+        }
+        disabled={boolean('disabled', false)}
+        onChangeText={setValue}
+        containerStyle={{width: rem(250), paddingBottom: 50}}
+        secureTextEntry={isSecureTextEntry}
+        required={boolean('required', false)}
+        value={value}
+        multiline={true}
+      />
+    </>
   );
 };
 export default ExampleInput;

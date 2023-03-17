@@ -1,5 +1,5 @@
 import React, {forwardRef, useCallback, useMemo, useState} from 'react';
-import {Platform, ViewStyle} from 'react-native';
+import {Platform} from 'react-native';
 
 import {IInputsTypes} from '../types';
 import {InputSubtitle, InputTitle} from '../Base';
@@ -8,7 +8,6 @@ import View from '../../../basic/components/View/View';
 import TextInput from '../../../basic/components/TextInput/TextInput';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import {useFont} from '../../../typography/hooks/useFont';
-import {rem} from '../../../styles';
 
 import {IInputFieldsProps} from './types';
 import stylesCreate from './stylesCreate';
@@ -79,9 +78,6 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     },
     [onBlur],
   );
-  const getHeight = (): ViewStyle => {
-    return multiline ? {minHeight: rem(48)} : {height: rem(48)};
-  };
 
   return (
     <View style={[styles.container, containerStyle]}>
@@ -90,7 +86,10 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
       )}
 
       <View
-        style={[styles.inputContainer, getHeight(), textInputContainerStyle]}>
+        style={[
+          multiline ? styles.InputMultilineContainer : styles.inputContainer,
+          textInputContainerStyle,
+        ]}>
         <TextInput
           ref={ref}
           testID={Constants.testID}

@@ -12,6 +12,7 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
     },
     inputContainer: {
       backgroundColor: colors.BgSecondary,
+      height: rem(48),
       paddingLeft: rem(18),
       paddingRight: spaces.Space16,
       borderRadius: spaces.Space8,
@@ -25,6 +26,18 @@ const defaultStyle = (theme: IThemeContext, focused: boolean) => {
     textInput: {
       flex: 1,
       padding: 0, // Android по дефолту ставит padding на input's
+    },
+    InputMultilineContainer: {
+      backgroundColor: colors.BgSecondary,
+      minHeight: rem(80),
+      paddingLeft: rem(18),
+      paddingRight: spaces.Space16,
+      borderRadius: spaces.Space8,
+      borderWidth: spaces.Space1,
+      borderColor: focused ? colors.BorderNormal : 'transparent',
+      marginVertical: spaces.Space8,
+      flexDirection: 'row',
+      paddingVertical: spaces.Space12,
     },
     androidTextInput: {
       fontSize: spaces.Space16,
