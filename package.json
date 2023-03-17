@@ -63,6 +63,7 @@
     "@storybook/react-native-server": "^5.3.23",
     "@testing-library/react-hooks": "^8.0.0",
     "@testing-library/react-native": "^9.1.0",
+    "@types/detox": "^18.1.0",
     "@types/jest": "^26.0.23",
     "@types/react-native": "^0.67.3",
     "@types/react-test-renderer": "^17.0.1",
@@ -82,6 +83,7 @@
     "semantic-release": "^19.0.3",
     "simple-git": "^3.10.0",
     "ts-node": "^10.9.1",
+    "ts-jest": "^29.0.5",
     "typescript": "^4.9.5",
     "winston": "^3.8.1"
   },
