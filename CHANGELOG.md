@@ -1,3 +1,18 @@
+# [7.1.0](https://glab.lad24.ru/npm/mobydick/compare/v7.0.1...v7.1.0) (2023-03-17)
+
+
+### Bug Fixes
+
+* **AvatarBadge:** add rem for size status ([66d79cd](https://glab.lad24.ru/npm/mobydick/commit/66d79cd0c6aff6a529c92f3c6ffe24dc3271ed6a))
+* **colors:** add Chart, Category, Banner in files ([25b8ec1](https://glab.lad24.ru/npm/mobydick/commit/25b8ec14e57876d265e755547323441f10e0699e))
+* **Input:** add props multiline ([ed93373](https://glab.lad24.ru/npm/mobydick/commit/ed93373f7ea8dfc080fd36769361be833bec199f))
+* **Status:** add deps in useCallback ([c42b843](https://glab.lad24.ru/npm/mobydick/commit/c42b8431bb1ce8efc68e03a5d706e1d76c59bb2c))
+
+
+### Features
+
+* **Carousel:** add view align(start, center) + addons ([31290d9](https://glab.lad24.ru/npm/mobydick/commit/31290d9995d99b5305a2f657bfb431b719e0d917))
+
 ## [7.0.1](https://glab.lad24.ru/npm/mobydick/compare/v7.0.0...v7.0.1) (2023-03-14)
 
 
