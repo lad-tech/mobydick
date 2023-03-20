@@ -50,7 +50,7 @@ const Calendar: FC<ICalendar> = props => {
     initialRange,
     dottedDates = [],
     initialDate,
-    maxLengthDateRange, //не учитывается, если приходит minDate или maxDate
+    maxLengthDateRange,
     maxDate,
     minDate,
     ...rest
