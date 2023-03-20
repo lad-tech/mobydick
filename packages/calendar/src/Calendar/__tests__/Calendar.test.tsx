@@ -222,4 +222,78 @@ describe('Calendar', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly maxLengthDateRange', () => {
+    const {toJSON} = render(
+      <Calendar
+        isClear={true}
+        initialRange={{fromDate: '2022-01-16', toDate: '2022-01-19'}}
+        initialDate={'2022-01-16'}
+        isShowToday={false}
+        isPeriod={true}
+        maxLengthDateRange={10}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly minDate maxLengthDateRange', () => {
+    const {toJSON} = render(
+      <Calendar
+        initialRange={{fromDate: '2022-01-16', toDate: '2022-01-19'}}
+        isShowToday={false}
+        isPeriod={true}
+        minDate={'2022-01-16'}
+        maxLengthDateRange={10}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly maxDate maxLengthDateRange', () => {
+    const {toJSON} = render(
+      <Calendar
+        initialRange={{fromDate: '2022-01-16', toDate: '2022-01-19'}}
+        isShowToday={false}
+        isPeriod={true}
+        maxDate={'2022-01-19'}
+        maxLengthDateRange={10}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly maxDate minDate maxLengthDateRange', () => {
+    const {toJSON} = render(
+      <Calendar
+        initialRange={{fromDate: '2022-01-16', toDate: '2022-01-19'}}
+        isShowToday={false}
+        isPeriod={true}
+        maxDate={'2022-01-29'}
+        minDate={'2022-01-16'}
+        maxLengthDateRange={10}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly maxDate minDate maxLengthDateRange isPeriod = false', () => {
+    const {toJSON} = render(
+      <Calendar
+        initialRange={{fromDate: '2022-01-16', toDate: '2022-01-19'}}
+        isShowToday={false}
+        maxDate={'2022-01-29'}
+        minDate={'2022-01-14'}
+        maxLengthDateRange={10}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly maxDate minDate maxLengthDateRange fromDate = toDate', () => {
+    const {toJSON} = render(
+      <Calendar
+        initialRange={{fromDate: '2022-02-16', toDate: '2022-02-16'}}
+        isShowToday={false}
+        maxDate={'2022-03-29'}
+        minDate={'2022-01-01'}
+        maxLengthDateRange={10}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
 });

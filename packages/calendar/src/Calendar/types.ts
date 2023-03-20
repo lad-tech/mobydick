@@ -44,6 +44,7 @@ export interface ICalendar extends CalendarProps {
   isPeriod?: boolean;
   initialRange?: {fromDate: string; toDate?: string};
   dottedDates?: Date[];
+  maxLengthDateRange?: number;
 }
 
 export interface ILocaleConfig {
