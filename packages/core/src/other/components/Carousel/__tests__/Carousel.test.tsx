@@ -161,7 +161,26 @@ describe('Carousel', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
-  it('render Carousel animateAutoScroll', () => {
+  it('render Carousel onScrollToIndexFailed', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          itemWidth={itemWidth}
+        />
+      </SafeAreaProvider>,
+    );
+    expect(toJSON()).toMatchSnapshot();
+    const carousel = getByLabelText(LABELS.carousel);
+    act(() => {
+      fireEvent(carousel, 'onScrollToIndexFailed', {
+        error: {index: 7},
+      });
+    });
+  });
+  it('render Carousel animateAutoScroll true', () => {
     const {toJSON} = render(
       <SafeAreaProvider>
         <Carousel
