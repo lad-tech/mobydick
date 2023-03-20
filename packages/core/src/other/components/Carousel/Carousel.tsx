@@ -53,6 +53,7 @@ const Carousel = <T,>({
   const EMPTY_SPACE_FIRST_ITEM = EMPTY_SPACE / 2;
   const EMPTY_SPACE_LAST_ITEM =
     align === ICarouselAlign.center ? EMPTY_SPACE_FIRST_ITEM : EMPTY_SPACE;
+  const WIDTH_SNAP = itemWidth + sideMargin * 2;
 
   const viewabilityConfig = useRef({
     itemVisiblePercentThreshold: 40,
@@ -65,12 +66,19 @@ const Carousel = <T,>({
     );
     if (selectedIndex > -1 && selectedIndex !== slidePosition) {
       setSlidePosition(selectedIndex);
-      ref.current?.scrollToIndex({
+      ref.current?.scrollToOffset({
+        offset: WIDTH_SNAP * selectedIndex,
         animated: animateAutoScroll,
-        index: selectedIndex,
       });
     }
-  }, [activeItemId, slidePosition, data, keyExtractor]);
+  }, [
+    activeItemId,
+    slidePosition,
+    data,
+    keyExtractor,
+    WIDTH_SNAP,
+    animateAutoScroll,
+  ]);
 
   const onLayout = useCallback(() => {
     activeItemId && initScroll();
@@ -139,7 +147,7 @@ const Carousel = <T,>({
         onViewableItemsChanged={handleOnViewableItemsChanged}
         viewabilityConfig={viewabilityConfig}
         onScrollToIndexFailed={onScrollToIndexFailed}
-        snapToInterval={itemWidth + sideMargin * 2}
+        snapToInterval={WIDTH_SNAP}
         decelerationRate={0}
         bounces={false}
         scrollEventThrottle={16}
