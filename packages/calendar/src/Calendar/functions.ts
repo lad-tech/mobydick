@@ -211,3 +211,19 @@ export const calculateYearRange = (
 export const isValidDate = (date: string) => {
   return Boolean(Date.parse(date));
 };
+
+export const getMaxDate = (fromDate: Date, maxLengthDateRange: number) => {
+  const date = new Date(fromDate);
+
+  return getDateForCalendar(
+    new Date(date?.setDate(fromDate.getDate() + maxLengthDateRange - 1)),
+  );
+};
+
+export const getMinDate = (toDate: Date, maxLengthDateRange: number) => {
+  const date = new Date(toDate);
+
+  return getDateForCalendar(
+    new Date(date?.setDate(toDate.getDate() - (maxLengthDateRange - 1))),
+  );
+};

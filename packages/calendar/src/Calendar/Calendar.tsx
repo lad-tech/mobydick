@@ -21,6 +21,8 @@ import {
   getDateForCalendar,
   getDottedDates,
   getMarkedToday,
+  getMaxDate,
+  getMinDate,
   isValidDate,
 } from './functions';
 import stylesCreate from './stylesCreate';
@@ -48,6 +50,9 @@ const Calendar: FC<ICalendar> = props => {
     initialRange,
     dottedDates = [],
     initialDate,
+    maxLengthDateRange, //не учитывается, если приходит minDate или maxDate
+    maxDate,
+    minDate,
     ...rest
   } = props;
   LocaleConfig.locales[defaultLocale] = localeConfig;
@@ -76,6 +81,8 @@ const Calendar: FC<ICalendar> = props => {
   );
 
   const [markedDates, setMarkedDates] = useState<IMarkedDates>();
+  const [currMaxDate, setCurrMaxDate] = useState(maxDate || '');
+  const [currMinDate, setCurrMinDate] = useState(minDate || '');
   const [selectionState, setSelectionState] = useState<ISelectionState>(
     ISelectionState.days,
   );
@@ -301,7 +308,7 @@ const Calendar: FC<ICalendar> = props => {
     }
   }, [currentMonthIndex, yearRange, currentYear, selectionState]);
 
-  const getCalenderTitle = (): ITitle => {
+  const getCalendarTitle = (): ITitle => {
     if (selectionState === ISelectionState.months) {
       return {
         currYear: currentYear.toString(),
@@ -320,10 +327,51 @@ const Calendar: FC<ICalendar> = props => {
       currYear: currentYear.toString(),
     };
   };
+
+  useEffect(() => {
+    const fromDate = markedDates?.fromDate;
+    const toDate = markedDates?.toDate;
+
+    if (!fromDate || !toDate || !maxLengthDateRange || !isPeriod) {
+      setCurrMaxDate(maxDate || '');
+      setCurrMinDate(minDate || '');
+      return;
+    }
+
+    const narrowMin = getMinDate(toDate, maxLengthDateRange);
+    const narrowMax = getMaxDate(fromDate, maxLengthDateRange);
+
+    if (!minDate) {
+      setCurrMinDate(narrowMin);
+    } else {
+      setCurrMinDate(
+        new Date(minDate).getTime() < new Date(narrowMin).getTime()
+          ? narrowMin
+          : minDate,
+      );
+    }
+    if (!maxDate) {
+      setCurrMaxDate(narrowMax);
+    } else {
+      setCurrMaxDate(
+        new Date(maxDate).getTime() > new Date(narrowMax).getTime()
+          ? narrowMax
+          : maxDate,
+      );
+    }
+  }, [
+    markedDates?.fromDate,
+    markedDates?.toDate,
+    isPeriod,
+    maxDate,
+    minDate,
+    maxLengthDateRange,
+  ]);
+
   return (
     <>
       <CalendarHeader
-        title={getCalenderTitle()}
+        title={getCalendarTitle()}
         onPressLeft={onPressLeft}
         onPressRight={onPressRight}
         onPressMonth={onPressCurrMonth}
@@ -345,6 +393,8 @@ const Calendar: FC<ICalendar> = props => {
           }
           customHeaderTitle={<></>}
           hideArrows={true}
+          maxDate={currMaxDate}
+          minDate={currMinDate}
           {...rest}
         />
       )}

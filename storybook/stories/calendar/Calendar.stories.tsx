@@ -1,6 +1,6 @@
 import {storiesOf} from '@storybook/react-native';
 import React from 'react';
-import {boolean, select, text} from '@storybook/addon-knobs';
+import {boolean, number, select, text} from '@storybook/addon-knobs';
 
 import CenterView from '../CenterView';
 
@@ -52,7 +52,7 @@ export const localeConfigEn = {
 const CalendarPopupExample = () => {
   const popupContext = usePopups();
   const isShowLocaleConfigEn = boolean('is show locale config En', false);
-  const initialDate = text('initial marked date', '2023-02-16');
+  const initialDate = text('initial marked date', '2023-03-16');
 
   const onPress = () => {
     popupContext.openPopup({
@@ -73,13 +73,14 @@ const CalendarPopupExample = () => {
           initialRange={{
             fromDate: initialDate,
           }}
-          initialDate={text('initial date', '2023-02-16')}
+          initialDate={text('initial date', new Date().toString())}
           dottedDates={[
             new Date('2023-02-08'),
             new Date('2023-02-28'),
             new Date('2023-02-16'),
             new Date('2023-02-14'),
           ]}
+          maxLengthDateRange={number('maxLengthDateRange', 30)}
           {...propsFromPopup}
         />
       ),
