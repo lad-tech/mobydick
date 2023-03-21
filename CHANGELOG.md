@@ -1,3 +1,17 @@
+# [7.2.0](https://glab.lad24.ru/npm/mobydick/compare/v7.1.0...v7.2.0) (2023-03-21)
+
+
+### Bug Fixes
+
+* **Carousel:** update handleOnViewableItemsChanged ([f40ee24](https://glab.lad24.ru/npm/mobydick/commit/f40ee24c16b07182db9625b8a1f61650827cc926))
+* **Carousel:** update initial scroll ([35869ad](https://glab.lad24.ru/npm/mobydick/commit/35869add494d3ff90ad73850c6a81932be11c088))
+* **detox:** js->ts ([b2cb57a](https://glab.lad24.ru/npm/mobydick/commit/b2cb57a9cbf8e24c85428fa36a01f690cd4d14b8))
+
+
+### Features
+
+* **Calendar:** add max length dateRange ([43bd433](https://glab.lad24.ru/npm/mobydick/commit/43bd4330e3e6ee1abda9d62cd2022cce6849b5ea))
+
 # [7.1.0](https://glab.lad24.ru/npm/mobydick/compare/v7.0.1...v7.1.0) (2023-03-17)
 
 
