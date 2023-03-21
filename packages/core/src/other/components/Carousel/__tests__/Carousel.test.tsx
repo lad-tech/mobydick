@@ -265,6 +265,148 @@ describe('Carousel', () => {
     });
     expect(toJSON()).toMatchSnapshot();
   });
+  it('render Carousel scroll align = center', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+          activeItemId={'3'}
+          itemWidth={itemWidth}
+          align={ICarouselAlign.center}
+        />
+      </SafeAreaProvider>,
+    );
+
+    const carousel = getByLabelText(LABELS.carousel);
+
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [
+          {
+            index: 0,
+            isViewable: true,
+            item: {name: 'icon-starfill', id: '0'},
+            key: '0',
+          },
+        ],
+      });
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel scroll align = center honest', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+          activeItemId={'6'}
+          itemWidth={itemWidth}
+          align={ICarouselAlign.center}
+        />
+      </SafeAreaProvider>,
+    );
+
+    const carousel = getByLabelText(LABELS.carousel);
+
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [
+          {
+            index: 0,
+            isViewable: true,
+            item: {name: 'icon-starfill', id: '0'},
+            key: '0',
+          },
+        ],
+      });
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel scroll align = center honest count', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+          activeItemId={'6'}
+          itemWidth={250}
+          align={ICarouselAlign.center}
+        />
+      </SafeAreaProvider>,
+    );
+
+    const carousel = getByLabelText(LABELS.carousel);
+
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [
+          {
+            index: 5,
+            isViewable: true,
+            item: {name: 'icon-starfill', id: '5'},
+            key: '5',
+          },
+          {
+            index: 6,
+            isViewable: true,
+            item: {name: 'icon-starfill', id: '6'},
+            key: '6',
+          },
+        ],
+      });
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel scroll align = center count', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+          activeItemId={'5'}
+          itemWidth={itemWidth}
+          align={ICarouselAlign.center}
+        />
+      </SafeAreaProvider>,
+    );
+
+    const carousel = getByLabelText(LABELS.carousel);
+
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [
+          {
+            index: 4,
+            isViewable: true,
+            item: {name: 'icon-starfill', id: '4'},
+            key: '4',
+          },
+          {
+            index: 5,
+            isViewable: true,
+            item: {name: 'icon-starfill', id: '5'},
+            key: '5',
+          },
+          {
+            index: 6,
+            isViewable: true,
+            item: {name: 'icon-starfill', id: '6'},
+            key: '6',
+          },
+        ],
+      });
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
   it('render Carousel not scroll', () => {
     const {toJSON, getByLabelText} = render(
       <SafeAreaProvider>
