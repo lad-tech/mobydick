@@ -49,14 +49,14 @@ const Carousel = <T,>({
   const [styles] = useStyles(stylesCreate, sideMargin);
   const [slidePosition, setSlidePosition] = useState<number>(0);
 
-  const EMPTY_SPACE = width - itemWidth - sideMargin * 2;
-  const EMPTY_SPACE_FIRST_ITEM = EMPTY_SPACE / 2;
-  const EMPTY_SPACE_LAST_ITEM =
-    align === ICarouselAlign.center ? EMPTY_SPACE_FIRST_ITEM : EMPTY_SPACE;
-  const WIDTH_SNAP = itemWidth + sideMargin * 2;
+  const emptySpace = width - itemWidth - sideMargin * 2;
+  const emptySpaceFistItem = emptySpace / 2;
+  const emptySpaceLastItem =
+    align === ICarouselAlign.center ? emptySpaceFistItem : emptySpace;
+  const widthSnap = itemWidth + sideMargin * 2;
 
   const viewabilityConfig = useRef({
-    itemVisiblePercentThreshold: 40,
+    itemVisiblePercentThreshold: 60,
     waitForInteraction: true,
   }).current;
 
@@ -67,7 +67,7 @@ const Carousel = <T,>({
     if (selectedIndex > -1 && selectedIndex !== slidePosition) {
       setSlidePosition(selectedIndex);
       ref.current?.scrollToOffset({
-        offset: WIDTH_SNAP * selectedIndex,
+        offset: widthSnap * selectedIndex,
         animated: animateAutoScroll,
       });
     }
@@ -76,7 +76,7 @@ const Carousel = <T,>({
     slidePosition,
     data,
     keyExtractor,
-    WIDTH_SNAP,
+    widthSnap,
     animateAutoScroll,
   ]);
 
@@ -122,11 +122,29 @@ const Carousel = <T,>({
     [averageItemLength, animateAutoScroll],
   );
 
+  const visibleElementsCount = Math.floor(width / widthSnap);
+
   const handleOnViewableItemsChanged = useRef(
     ({viewableItems}: {viewableItems: ViewToken[]}) => {
-      setSlidePosition(viewableItems[0]?.index || 0);
-      typeof onActiveChange === 'function' &&
-        onActiveChange(viewableItems[0]?.item);
+      if (align === ICarouselAlign.start) {
+        setSlidePosition(viewableItems[0]?.index || 0);
+        typeof onActiveChange === 'function' &&
+          onActiveChange(viewableItems[0]?.item);
+      } else {
+        const length = viewableItems.length;
+        const count = viewableItems[0]?.index === 0 ? length - 1 : length + 1;
+        const currLength = visibleElementsCount > length ? count : length;
+        const isEven = currLength % 2 === 0;
+
+        const middleVisibleElement =
+          isEven && viewableItems[0]?.index === 0
+            ? Math.floor(currLength / 2) - 1
+            : Math.floor(currLength / 2);
+
+        setSlidePosition(viewableItems[middleVisibleElement]?.index || 0);
+        typeof onActiveChange === 'function' &&
+          onActiveChange(viewableItems[middleVisibleElement]?.item);
+      }
     },
   ).current;
 
@@ -147,14 +165,14 @@ const Carousel = <T,>({
         onViewableItemsChanged={handleOnViewableItemsChanged}
         viewabilityConfig={viewabilityConfig}
         onScrollToIndexFailed={onScrollToIndexFailed}
-        snapToInterval={WIDTH_SNAP}
+        snapToInterval={widthSnap}
         decelerationRate={0}
         bounces={false}
         scrollEventThrottle={16}
         ListHeaderComponent={
-          <EmptyFirstItem align={align} width={EMPTY_SPACE_FIRST_ITEM} />
+          <EmptyFirstItem align={align} width={emptySpaceFistItem} />
         }
-        ListFooterComponent={<View style={{width: EMPTY_SPACE_LAST_ITEM}} />}
+        ListFooterComponent={<View style={{width: emptySpaceLastItem}} />}
       />
       {isDots && <Dots length={data.length} activeDot={slidePosition} />}
     </>
