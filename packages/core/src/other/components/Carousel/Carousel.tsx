@@ -134,10 +134,10 @@ const Carousel = <T,>({
         const length = viewableItems.length;
         const count = viewableItems[0]?.index === 0 ? length - 1 : length + 1;
         const currLength = visibleElementsCount > length ? count : length;
-        const honest = currLength % 2 === 0;
+        const isEven = currLength % 2 === 0;
 
         const middleVisibleElement =
-          honest && viewableItems[0]?.index === 0
+          isEven && viewableItems[0]?.index === 0
             ? Math.floor(currLength / 2) - 1
             : Math.floor(currLength / 2);
 
