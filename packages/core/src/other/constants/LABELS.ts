@@ -13,4 +13,5 @@ export const LABELS = {
   actionSheetsItem: 'actionSheetsItem',
   carousel: 'carousel',
   carouselItem: 'carouselItem',
+  collapsed: 'collapsed',
 };

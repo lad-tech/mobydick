@@ -1,0 +1,63 @@
+import {fireEvent, render} from '@testing-library/react-native';
+import React from 'react';
+import {Platform} from 'react-native';
+
+import Collapsible from '../Collapsible';
+import View from '../../../../basic/components/View/View';
+import {LABELS} from '../../../constants';
+
+describe('Collapsible', () => {
+  test('render crossed onPress - 1', () => {
+    const {toJSON, getByLabelText} = render(
+      <Collapsible
+        title={'title'}
+        duration={1000}
+        containerStyle={{backgroundColor: 'red'}}
+        headerStyle={{backgroundColor: 'red'}}
+        fontTitle={'Regular-Black-S'}>
+        <>
+          <View />
+        </>
+      </Collapsible>,
+    );
+
+    const onPress = getByLabelText(LABELS.collapsed);
+
+    fireEvent.press(onPress);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  test('render crossed onPress - 1 android', () => {
+    Platform.OS = 'android';
+
+    const {toJSON, getByLabelText} = render(
+      <Collapsible title={'title'} duration={1000}>
+        <>
+          <View />
+        </>
+      </Collapsible>,
+    );
+
+    const onPress = getByLabelText(LABELS.collapsed);
+
+    fireEvent.press(onPress);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  test('render crossed onPress - 2', () => {
+    const {toJSON, getByLabelText} = render(
+      <Collapsible title={'title'}>
+        <>
+          <View />
+        </>
+      </Collapsible>,
+    );
+
+    const onPress = getByLabelText(LABELS.collapsed);
+
+    fireEvent.press(onPress);
+    fireEvent.press(onPress);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+});

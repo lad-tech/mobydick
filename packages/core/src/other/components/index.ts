@@ -4,3 +4,4 @@ export * from './Dots';
 export * from './Avatar';
 export * from './Carousel';
 export * from './Status';
+export * from './Collapsible';
