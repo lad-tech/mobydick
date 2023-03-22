@@ -27,10 +27,11 @@ interface IProps extends TouchableOpacityProps {
   fontTitle?: TypographyProp;
 }
 
-if (Platform.OS === 'android') {
-  if (UIManager.setLayoutAnimationEnabledExperimental) {
-    UIManager.setLayoutAnimationEnabledExperimental(true);
-  }
+if (
+  Platform.OS === 'android' &&
+  UIManager.setLayoutAnimationEnabledExperimental
+) {
+  UIManager.setLayoutAnimationEnabledExperimental(true);
 }
 
 const Collapsible = (props: IProps) => {
