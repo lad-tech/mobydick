@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapsible render crossed onPress - 1 1`] = `
+<View
+  style={
+    [
+      {
+        "padding": 30,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "red",
+      },
+    ]
+  }
+>
+  <View
+    accessibilityLabel="collapsed"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "red",
+        "flexDirection": "row",
+        "height": 66,
+        "justifyContent": "space-between",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
+          },
+          undefined,
+        ]
+      }
+    >
+      title
+    </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 36,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View />
+</View>
+`;
+
+exports[`Collapsible render crossed onPress - 1 android 1`] = `
+<View
+  style={
+    [
+      {
+        "padding": 30,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityLabel="collapsed"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 66,
+        "justifyContent": "space-between",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#444B5A",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 24,
+            "lineHeight": 30,
+          },
+          undefined,
+        ]
+      }
+    >
+      title
+    </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 36,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+  <View />
+</View>
+`;
+
+exports[`Collapsible render crossed onPress - 2 1`] = `
+<View
+  style={
+    [
+      {
+        "padding": 30,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityLabel="collapsed"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "height": 66,
+        "justifyContent": "space-between",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#444B5A",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 24,
+            "lineHeight": 30,
+          },
+          undefined,
+        ]
+      }
+    >
+      title
+    </Text>
+    <Text
+      allowFontScaling={true}
+      style={
+        {
+          "color": "#5E6678",
+          "fontFamily": "Neotis",
+          "fontSize": 36,
+        }
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

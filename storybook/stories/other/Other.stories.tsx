@@ -11,6 +11,7 @@ import CrossedTextExample from './Example/CrossedTextExample';
 import CarouselExample from './Example/CarouselExample';
 import StatusExample from './Example/StatusExample';
 import ShadowExample from './Example/ShadowExample';
+import CollapsibleExample from './Example/CollapsibleExample';
 
 storiesOf('Design system/Other', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
@@ -21,4 +22,5 @@ storiesOf('Design system/Other', module)
   .add('Carousel', () => <CarouselExample />)
   .add('Avatar', () => <AvatarExample />)
   .add('Shadow', () => <ShadowExample />)
+  .add('Collapsible', () => <CollapsibleExample />)
   .add('Status', () => <StatusExample />);
