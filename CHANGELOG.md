@@ -1,3 +1,10 @@
+# [7.3.0](https://glab.lad24.ru/npm/mobydick/compare/v7.2.0...v7.3.0) (2023-03-24)
+
+
+### Features
+
+* **Collapsible:** add component ([3c40ddc](https://glab.lad24.ru/npm/mobydick/commit/3c40ddcf775097e58a2544f612e32135207cd20b))
+
 # [7.2.0](https://glab.lad24.ru/npm/mobydick/compare/v7.1.0...v7.2.0) (2023-03-21)
 
 
