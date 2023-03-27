@@ -44,7 +44,7 @@ export type IBadge =
       value: ICounterTypes;
       count: number;
     };
-interface IAvatarProps {
+export interface IAvatarProps {
   user: IUser | null;
   type?: IAvatarTypes;
   size?: IAvatarSize;
@@ -55,8 +55,6 @@ interface IAvatarProps {
   disabled?: boolean;
   border?: boolean;
 }
-
-export type AvatarProps = IAvatarProps;
 
 export interface IAvatarGroupProps {
   groups: IUser[];
