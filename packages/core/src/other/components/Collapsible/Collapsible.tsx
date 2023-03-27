@@ -28,6 +28,8 @@ const Collapsible = (props: ICollapsibleProps) => {
     containerStyle,
     fontTitle = 'SemiBold-Secondary-M',
     headerStyle,
+    typeAnimation = 'easeInEaseOut',
+    creationPropAnimation = 'opacity',
   } = props;
   const [styles] = useStyles(createStyles);
   const {colors} = useTheme();
@@ -36,7 +38,7 @@ const Collapsible = (props: ICollapsibleProps) => {
   const onPress = useCallback(() => {
     setCollapsed(!collapsed);
     LayoutAnimation.configureNext(
-      LayoutAnimation.create(duration, 'linear', 'opacity'),
+      LayoutAnimation.create(duration, typeAnimation, creationPropAnimation),
     );
   }, [collapsed, duration]);
 
