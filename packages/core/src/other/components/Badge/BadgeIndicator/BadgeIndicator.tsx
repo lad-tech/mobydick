@@ -1,5 +1,5 @@
 import React, {FC, useCallback} from 'react';
-import {StyleSheet, ViewStyle} from 'react-native';
+import {StyleSheet} from 'react-native';
 
 import View from '../../../../basic/components/View/View';
 import useStyles from '../../../../styles/theme/hooks/useStyles';
@@ -7,14 +7,9 @@ import {IThemeContext} from '../../../../styles';
 import useTheme from '../../../../styles/theme/hooks/useTheme';
 import rem from '../../../../styles/spaces/rem';
 
-import {IIndicatorTypes} from './types';
+import {IBadgeIndicatorProps, IIndicatorTypes} from './types';
 
-interface IProps {
-  style?: ViewStyle | ViewStyle[];
-  type?: IIndicatorTypes;
-}
-
-const BadgeIndicator: FC<IProps> = ({type, style}) => {
+const BadgeIndicator: FC<IBadgeIndicatorProps> = ({type, style}) => {
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
 

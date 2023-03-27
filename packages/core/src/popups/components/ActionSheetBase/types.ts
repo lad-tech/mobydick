@@ -1,7 +1,8 @@
-import {ViewStyle} from 'react-native';
-import {ReactElement} from 'react';
+import {StyleProp, ViewStyle} from 'react-native';
+import React, {PropsWithChildren, ReactElement} from 'react';
 
 import {TypographyProp} from '../../../typography/types';
+import {IPopup} from '../../types';
 
 export interface IPropsContents {
   title: string;
@@ -25,4 +26,11 @@ export enum IItemType {
 export interface IPropsItem extends IPropsContents {
   style?: ViewStyle;
   isStatusPressedForTest?: boolean;
+}
+
+export interface IActionSheetBaseProps
+  extends PropsWithChildren<Omit<IPopup, 'Content'>> {
+  onClose: () => void;
+  containerStyle?: StyleProp<ViewStyle>;
+  children: React.ReactNode;
 }

@@ -1,16 +1,7 @@
-import React, {ReactChild, useCallback, useMemo, useState} from 'react';
-import {
-  LayoutAnimation,
-  LayoutAnimationProperty,
-  LayoutAnimationType,
-  Platform,
-  StyleSheet,
-  TouchableOpacityProps,
-  UIManager,
-  ViewStyle,
-} from 'react-native';
+import React, {useCallback, useMemo, useState} from 'react';
+import {LayoutAnimation, Platform, StyleSheet, UIManager} from 'react-native';
 
-import {Typography, TypographyProp} from '../../../typography';
+import {Typography} from '../../../typography';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import SimpleIcon from '../../../styles/icons/font/SimpleIcon';
 import View from '../../../basic/components/View/View';
@@ -20,16 +11,7 @@ import useStyles from '../../../styles/theme/hooks/useStyles';
 import {LABELS} from '../../constants';
 import rem from '../../../styles/spaces/rem';
 
-interface IProps extends TouchableOpacityProps {
-  title?: string;
-  children?: ReactChild;
-  duration?: number;
-  containerStyle?: ViewStyle | ViewStyle[];
-  headerStyle?: ViewStyle | ViewStyle[];
-  fontTitle?: TypographyProp;
-  typeAnimation?: LayoutAnimationType;
-  creationPropAnimation?: LayoutAnimationProperty;
-}
+import {ICollapsibleProps} from './types';
 
 if (
   Platform.OS === 'android' &&
@@ -38,7 +20,7 @@ if (
   UIManager.setLayoutAnimationEnabledExperimental(true);
 }
 
-const Collapsible = (props: IProps) => {
+const Collapsible = (props: ICollapsibleProps) => {
   const {
     title,
     children,

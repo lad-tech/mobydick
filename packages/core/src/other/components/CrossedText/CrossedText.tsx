@@ -2,12 +2,18 @@ import React, {FC} from 'react';
 import {StyleSheet} from 'react-native';
 
 import View from '../../../basic/components/View/View';
-import {IStyledTextProps, Typography} from '../../../typography';
+import {Typography} from '../../../typography';
 import rem from '../../../styles/spaces/rem';
 
-const CrossedText: FC<
-  IStyledTextProps & {lineColor: string; lineHeight?: number}
-> = ({children, style, lineColor, lineHeight = rem(1), ...props}) => (
+import {ICrossedTextProps} from './types';
+
+const CrossedText: FC<ICrossedTextProps> = ({
+  children,
+  style,
+  lineColor,
+  lineHeight = rem(1),
+  ...props
+}) => (
   <View style={style}>
     <Typography {...props}>{children}</Typography>
     <View style={styles.crossed}>
