@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import React, {FC, useState} from 'react';
 import {StyleSheet} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 
@@ -7,6 +7,7 @@ import {Typography} from '../../../typography';
 import {IThemeContext, useStyles} from '../../../styles';
 import rem from '../../../styles/spaces/rem';
 import {IPanelHeaderProps} from '../../types';
+import {LABELS} from '../../../other';
 
 const PanelHeader: FC<IPanelHeaderProps> = props => {
   const {
@@ -27,12 +28,21 @@ const PanelHeader: FC<IPanelHeaderProps> = props => {
   } = props;
 
   const [styles] = useStyles(createStyles);
+  const [widthLeftView, setWidthLeftView] = useState(rem(24));
 
   return (
     <View style={[styles.commonView, commonViewStyle]}>
       <SafeAreaView edges={['top']}>
         <View style={[styles.container, containerStyle]}>
-          <View style={[styles.leftView, leftViewStyle]}>{leftView}</View>
+          <View
+            style={[styles.leftView, leftViewStyle]}
+            onLayout={event => {
+              event.nativeEvent.layout;
+              setWidthLeftView(rem(event.nativeEvent.layout.width));
+            }}
+            accessibilityLabel={LABELS.panelHeaderLeftView}>
+            {leftView}
+          </View>
 
           <View style={[styles.titleView, titleViewStyle]}>
             {titleView || (
@@ -57,7 +67,11 @@ const PanelHeader: FC<IPanelHeaderProps> = props => {
             )}
           </View>
 
-          <View style={[styles.rightView, rightViewStyle]}>{rightView}</View>
+          {rightView ? (
+            <View style={[styles.rightView, rightViewStyle]}>{rightView}</View>
+          ) : (
+            <View style={{width: widthLeftView}} />
+          )}
         </View>
       </SafeAreaView>
     </View>
