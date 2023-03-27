@@ -5,13 +5,13 @@ import View from '../../../basic/components/View/View';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import {LABELS} from '../../constants';
 
-import {AvatarProps, IAvatarSize, IAvatarTypes} from './types';
+import {IAvatarProps, IAvatarSize, IAvatarTypes} from './types';
 import stylesCreate from './stylesCreate';
 import AvatarWithoutImage from './components/AvatarWithoutImage';
 import {isNumber} from './functions/isNumber';
 import AvatarBadge from './components/AvatarBadge';
 
-const Avatar: FC<AvatarProps> = props => {
+const Avatar: FC<IAvatarProps> = props => {
   const {
     user,
     backgroundColor,
