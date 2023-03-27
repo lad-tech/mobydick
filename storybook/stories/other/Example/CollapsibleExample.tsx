@@ -1,4 +1,5 @@
 import React from 'react';
+import {number, select} from '@storybook/addon-knobs';
 
 import {Collapsible, Typography, View} from '@npm/mobydick-core';
 
@@ -12,15 +13,38 @@ const ChildrenView = () => {
   );
 };
 const CollapsibleExample = () => {
+  const duration = number('duration', 250);
+  const typeAnimation = select(
+    'typeAnimation',
+    ['spring', 'linear', 'easeInEaseOut', 'easeIn', 'easeOut', 'keyboard'],
+    'easeInEaseOut',
+  );
+  const creationPropAnimation = select(
+    'creationPropAnimation',
+    ['opacity', 'scaleX', 'scaleY', 'scaleXY'],
+    'opacity',
+  );
   return (
     <>
-      <Collapsible title={'Collapsible 1'}>
+      <Collapsible
+        title={'Collapsible 1'}
+        duration={duration}
+        typeAnimation={typeAnimation}
+        creationPropAnimation={creationPropAnimation}>
         <ChildrenView />
       </Collapsible>
-      <Collapsible title={'Collapsible 2'}>
+      <Collapsible
+        title={'Collapsible 2'}
+        duration={duration}
+        typeAnimation={typeAnimation}
+        creationPropAnimation={creationPropAnimation}>
         <ChildrenView />
       </Collapsible>
-      <Collapsible title={'Collapsible 3'}>
+      <Collapsible
+        title={'Collapsible 3'}
+        duration={duration}
+        typeAnimation={typeAnimation}
+        creationPropAnimation={creationPropAnimation}>
         <ChildrenView />
       </Collapsible>
     </>

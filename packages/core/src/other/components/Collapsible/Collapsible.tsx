@@ -1,6 +1,8 @@
 import React, {ReactChild, useCallback, useMemo, useState} from 'react';
 import {
   LayoutAnimation,
+  LayoutAnimationProperty,
+  LayoutAnimationType,
   Platform,
   StyleSheet,
   TouchableOpacityProps,
@@ -25,6 +27,8 @@ interface IProps extends TouchableOpacityProps {
   containerStyle?: ViewStyle | ViewStyle[];
   headerStyle?: ViewStyle | ViewStyle[];
   fontTitle?: TypographyProp;
+  typeAnimation?: LayoutAnimationType;
+  creationPropAnimation?: LayoutAnimationProperty;
 }
 
 if (
@@ -42,6 +46,8 @@ const Collapsible = (props: IProps) => {
     containerStyle,
     fontTitle = 'SemiBold-Secondary-M',
     headerStyle,
+    typeAnimation = 'easeInEaseOut',
+    creationPropAnimation = 'opacity',
   } = props;
   const [styles] = useStyles(createStyles);
   const {colors} = useTheme();
@@ -50,7 +56,7 @@ const Collapsible = (props: IProps) => {
   const onPress = useCallback(() => {
     setCollapsed(!collapsed);
     LayoutAnimation.configureNext(
-      LayoutAnimation.create(duration, 'linear', 'opacity'),
+      LayoutAnimation.create(duration, typeAnimation, creationPropAnimation),
     );
   }, [collapsed, duration]);
 
