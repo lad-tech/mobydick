@@ -9,26 +9,10 @@ import Dots from '../Dots/Dots';
 import View from '../../../basic/components/View/View';
 
 import stylesCreate from './stylesCreate';
-import {ICarouselAlign} from './types';
+import {ICarouselAlign, ICarouselProps} from './types';
 import EmptyFirstItem from './components/EmptyFirstItem';
 
 const {width} = Dimensions.get('window');
-
-interface IProps<T> {
-  data: Array<T>;
-  sliderItem: (item: T, index: number, data: Array<T>) => JSX.Element;
-  keyExtractor: (item: T) => string;
-  sideMargin?: number;
-  itemWidth: number;
-  loading?: boolean;
-  onPressItem?: (item: T) => void;
-  activeItemId?: string;
-  isDots?: boolean;
-  averageItemLength?: number;
-  animateAutoScroll?: boolean;
-  onActiveChange?: (item: T) => void;
-  align?: ICarouselAlign;
-}
 
 const Carousel = <T,>({
   data,
@@ -44,7 +28,7 @@ const Carousel = <T,>({
   isDots = false,
   onActiveChange,
   align = ICarouselAlign.start,
-}: IProps<T>): JSX.Element => {
+}: ICarouselProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
   const [styles] = useStyles(stylesCreate, sideMargin);
   const [slidePosition, setSlidePosition] = useState<number>(0);

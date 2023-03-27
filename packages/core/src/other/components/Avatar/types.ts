@@ -57,3 +57,9 @@ interface IAvatarProps {
 }
 
 export type AvatarProps = IAvatarProps;
+
+export interface IAvatarGroupProps {
+  groups: IUser[];
+  backgroundColor?: string;
+  type?: IAvatarTypes;
+}

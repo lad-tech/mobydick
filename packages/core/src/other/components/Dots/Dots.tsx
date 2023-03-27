@@ -13,12 +13,7 @@ import {
   SPAN_SIZE,
   WIDTH_MEDIUM,
 } from './constants';
-
-interface IDots {
-  length: number;
-  activeDot: number;
-  maxDots?: number;
-}
+import {IDotsProps} from './types';
 
 function getDirection(newIdx: number, prevIdx: number): number {
   if (newIdx === prevIdx) {
@@ -27,7 +22,7 @@ function getDirection(newIdx: number, prevIdx: number): number {
   return newIdx < prevIdx ? -1 : 1;
 }
 
-const Dots = ({length, activeDot}: IDots) => {
+const Dots = ({length, activeDot}: IDotsProps) => {
   const refScrollView = useRef<ScrollView>(null);
   const dots = [...Array(length).keys()];
   const [prevIndex, setPrevIndex] = useState(activeDot - 1);

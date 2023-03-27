@@ -1,5 +1,5 @@
-import {ReactElement} from 'react';
-import {ViewStyle} from 'react-native';
+import {ReactElement, ReactNode} from 'react';
+import {TextStyle, ViewStyle} from 'react-native';
 
 import {TypographyProp} from '../typography/types';
 
@@ -29,4 +29,21 @@ export interface ITabsProps extends ITabCommon {
   activeValue: string | number;
   containerStyle?: ViewStyle | ViewStyle[];
   contentContainerStyle?: ViewStyle | ViewStyle[];
+}
+
+export interface IPanelHeaderProps {
+  title?: string;
+  subtitle?: string;
+  titleView?: ReactNode;
+  titleStyle?: TextStyle;
+  titleFont?: TypographyProp;
+  subtitleStyle?: TextStyle;
+  subtitleFont?: TypographyProp;
+  titleViewStyle?: ViewStyle;
+  rightView?: ReactNode;
+  leftView?: ReactNode;
+  rightViewStyle?: ViewStyle;
+  leftViewStyle?: ViewStyle;
+  containerStyle?: ViewStyle;
+  commonViewStyle?: ViewStyle;
 }
