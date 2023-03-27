@@ -1,5 +1,5 @@
 import React from 'react';
-import {select, text} from '@storybook/addon-knobs';
+import {boolean, select, text} from '@storybook/addon-knobs';
 import {StyleSheet} from 'react-native';
 
 import SimpleIcon from '@npm/mobydick-core/src/styles/icons/font/SimpleIcon';
@@ -25,6 +25,7 @@ const PanelHeaderExample = () => {
 
   const title = text('title', 'Title');
   const subtitle = text('subtitle', 'Subtitle');
+  const isRightView = boolean('isRightView', false);
 
   switch (select('panelHeader', IPanelHeader, IPanelHeader.icon)) {
     case IPanelHeader.onlyText:
@@ -38,9 +39,11 @@ const PanelHeaderExample = () => {
             </TouchableOpacity>
           }
           rightView={
-            <TouchableOpacity>
-              <Typography font={'Regular-Accent-XS'}>{'Изменить'}</Typography>
-            </TouchableOpacity>
+            isRightView && (
+              <TouchableOpacity>
+                <Typography font={'Regular-Accent-XS'}>{'Изменить'}</Typography>
+              </TouchableOpacity>
+            )
           }
           commonViewStyle={styles.commonView}
         />
@@ -56,9 +59,11 @@ const PanelHeaderExample = () => {
             </TouchableOpacity>
           }
           rightView={
-            <TouchableOpacity style={styles.button}>
-              <SimpleIcon name={'icon-cancel'} />
-            </TouchableOpacity>
+            isRightView && (
+              <TouchableOpacity style={styles.button}>
+                <SimpleIcon name={'icon-cancel'} />
+              </TouchableOpacity>
+            )
           }
           commonViewStyle={styles.commonView}
         />
@@ -75,10 +80,12 @@ const PanelHeaderExample = () => {
             </View>
           }
           rightView={
-            <View style={{flexDirection: 'row'}}>
-              <SimpleIcon name={'icon-share'} />
-              <SimpleIcon name={'icon-copy'} style={styles.icon} />
-            </View>
+            isRightView && (
+              <View style={{flexDirection: 'row'}}>
+                <SimpleIcon name={'icon-share'} />
+                <SimpleIcon name={'icon-copy'} style={styles.icon} />
+              </View>
+            )
           }
           commonViewStyle={styles.commonView}
         />
@@ -95,7 +102,11 @@ const PanelHeaderExample = () => {
             />
           }
           rightView={
-            <SimpleIcon name={select('right Icon', iconNames, 'icon-logout')} />
+            isRightView && (
+              <SimpleIcon
+                name={select('right Icon', iconNames, 'icon-logout')}
+              />
+            )
           }
           commonViewStyle={styles.commonView}
         />

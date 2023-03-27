@@ -14,4 +14,5 @@ export const LABELS = {
   carousel: 'carousel',
   carouselItem: 'carouselItem',
   collapsed: 'collapsed',
+  panelHeaderLeftView: 'panelHeaderLeftView',
 };
