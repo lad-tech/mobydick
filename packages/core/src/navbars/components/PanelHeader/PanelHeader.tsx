@@ -1,4 +1,4 @@
-import React, {FC, useState} from 'react';
+import React, {FC, useCallback, useState} from 'react';
 import {StyleSheet} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 
@@ -30,16 +30,18 @@ const PanelHeader: FC<IPanelHeaderProps> = props => {
   const [styles] = useStyles(createStyles);
   const [widthLeftView, setWidthLeftView] = useState(rem(24));
 
+  const onLayoutLeftView = useCallback(event => {
+    event.nativeEvent.layout;
+    setWidthLeftView(rem(event.nativeEvent.layout.width));
+  }, []);
+
   return (
     <View style={[styles.commonView, commonViewStyle]}>
       <SafeAreaView edges={['top']}>
         <View style={[styles.container, containerStyle]}>
           <View
             style={[styles.leftView, leftViewStyle]}
-            onLayout={event => {
-              event.nativeEvent.layout;
-              setWidthLeftView(rem(event.nativeEvent.layout.width));
-            }}
+            onLayout={onLayoutLeftView}
             accessibilityLabel={LABELS.panelHeaderLeftView}>
             {leftView}
           </View>
