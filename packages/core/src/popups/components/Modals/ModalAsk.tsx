@@ -7,20 +7,9 @@ import useTheme from '../../../styles/theme/hooks/useTheme';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 
 import stylesCreate from './stylesCreate';
+import {IModalAskProps} from './types';
 
-interface IProps {
-  title: string;
-  descriptionText: string;
-
-  typeLeft?: IButtonTypes;
-  textLeft?: string;
-
-  onPressRight(): void;
-  typeRight?: IButtonTypes;
-  textRight?: string;
-}
-
-const ModalAsk: FC<IContentProps & IProps> = props => {
+const ModalAsk: FC<IContentProps & IModalAskProps> = props => {
   const {
     title,
     descriptionText,

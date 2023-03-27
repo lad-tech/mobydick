@@ -1,30 +1,14 @@
-import React, {ReactNode} from 'react';
-import {StyleSheet, TextStyle, ViewStyle} from 'react-native';
+import React, {FC} from 'react';
+import {StyleSheet} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 
 import View from '../../../basic/components/View/View';
-import {Typography, TypographyProp} from '../../../typography';
+import {Typography} from '../../../typography';
 import {IThemeContext, useStyles} from '../../../styles';
 import rem from '../../../styles/spaces/rem';
+import {IPanelHeaderProps} from '../../types';
 
-interface IProps {
-  title?: string;
-  subtitle?: string;
-  titleView?: ReactNode;
-  titleStyle?: TextStyle;
-  titleFont?: TypographyProp;
-  subtitleStyle?: TextStyle;
-  subtitleFont?: TypographyProp;
-  titleViewStyle?: ViewStyle;
-  rightView?: ReactNode;
-  leftView?: ReactNode;
-  rightViewStyle?: ViewStyle;
-  leftViewStyle?: ViewStyle;
-  containerStyle?: ViewStyle;
-  commonViewStyle?: ViewStyle;
-}
-
-const PanelHeader = (props: IProps) => {
+const PanelHeader: FC<IPanelHeaderProps> = props => {
   const {
     title,
     titleFont = 'SemiBold-Secondary-M',

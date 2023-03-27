@@ -8,14 +8,9 @@ import {IThemeContext} from '../../../styles';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 
 import Avatar from './Avatar';
-import {IAvatarTypes, IUser} from './types';
+import {IAvatarGroupProps} from './types';
 
-interface IProps {
-  groups: IUser[];
-  backgroundColor?: string;
-  type?: IAvatarTypes;
-}
-const AvatarGroup: FC<IProps> = props => {
+const AvatarGroup: FC<IAvatarGroupProps> = props => {
   const {groups, ...otherProps} = props;
   const [styles] = useStyles(stylesCreate);
   const count = groups.length - 3;

@@ -1,18 +1,9 @@
-import React, {
-  FC,
-  PropsWithChildren,
-  RefObject,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from 'react';
-import {Animated, StyleProp, ViewStyle} from 'react-native';
+import React, {FC, useEffect, useMemo, useRef, useState} from 'react';
+import {Animated} from 'react-native';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
 import {PopupBase} from '../PopupBase';
-import {IPopup, IPosition} from '../../types';
-import {ITouchableOpacity} from '../../../basic/components/TouchableOpacity/types';
+import {IPosition} from '../../types';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 
 import stylesCreate from './stylesCreate';
@@ -20,20 +11,9 @@ import Title from './Title';
 import DescriptionText from './DescriptionText';
 import Arrow from './Arrow';
 import LeftButton from './LeftButton';
-import {IPlacement} from './types';
+import {IPlacement, ITooltipBaseProps} from './types';
 
-const TooltipBase: FC<
-  PropsWithChildren<
-    Omit<IPopup, 'Content'> & {
-      onClose: () => void;
-      containerStyle?: StyleProp<ViewStyle>;
-      position: IPosition;
-      placement: IPlacement;
-      refCurrent: RefObject<ITouchableOpacity>;
-      timeShow?: number;
-    }
-  >
-> & {
+const TooltipBase: FC<ITooltipBaseProps> & {
   Title: typeof Title;
   DescriptionText: typeof DescriptionText;
   Arrow: typeof Arrow;
