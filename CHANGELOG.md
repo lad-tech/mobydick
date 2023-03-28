@@ -1,3 +1,12 @@
+## [7.3.1](https://glab.lad24.ru/npm/mobydick/compare/v7.3.0...v7.3.1) (2023-03-28)
+
+
+### Bug Fixes
+
+* **Collapsible:** add props for animation ([f6f06d9](https://glab.lad24.ru/npm/mobydick/commit/f6f06d93acdbbea2f205d7cb69bbdf06fc366e71))
+* **PanelHeader:** fix the center of the title ([63f467b](https://glab.lad24.ru/npm/mobydick/commit/63f467b38b45efcd8bcd85d6ac37f2630308d020))
+* **types:** moved interfaces to types ([3c309ab](https://glab.lad24.ru/npm/mobydick/commit/3c309abf2984063f095934db686884b38a17e291))
+
 # [7.3.0](https://glab.lad24.ru/npm/mobydick/compare/v7.2.0...v7.3.0) (2023-03-24)
 
 
