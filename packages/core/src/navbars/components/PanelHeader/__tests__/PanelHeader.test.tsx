@@ -1,8 +1,9 @@
-import {render} from '@testing-library/react-native';
+import {act, fireEvent, render} from '@testing-library/react-native';
 import React from 'react';
 
 import {PanelHeader} from '../index';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
+import {LABELS} from '../../../../other';
 
 describe('Tab', () => {
   test('render panelHeader', () => {
@@ -41,5 +42,31 @@ describe('Tab', () => {
     const {toJSON} = render(<PanelHeader subtitle={'Subtitle'} />);
 
     expect(toJSON()).toMatchSnapshot();
+  });
+  test('render panelHeader only leftView', () => {
+    const {toJSON, getByLabelText} = render(
+      <PanelHeader
+        title={'title'}
+        subtitle={'Subtitle'}
+        containerStyle={{backgroundColor: '#000'}}
+        titleStyle={{flex: 1}}
+        subtitleStyle={{flex: 1}}
+        titleViewStyle={{flex: 1}}
+        rightViewStyle={{flex: 1}}
+        leftViewStyle={{flex: 1}}
+        commonViewStyle={{flex: 1}}
+        leftView={<SimpleIcon name={'icon-calendar'} />}
+        titleView={<></>}
+        titleFont={'SemiBold-Secondary-L'}
+        subtitleFont={'SemiBold-Secondary-M'}
+      />,
+    );
+    const layout = getByLabelText(LABELS.panelHeaderLeftView);
+    expect(toJSON()).toMatchSnapshot();
+    act(() => {
+      fireEvent(layout, 'layout', {
+        nativeEvent: {layout: {width: 100}},
+      });
+    });
   });
 });
