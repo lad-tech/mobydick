@@ -190,7 +190,7 @@ exports[`Tab render panelHeader only leftView 1`] = `
       <View
         style={
           {
-            "width": undefined,
+            "width": 36,
           }
         }
       />
@@ -290,7 +290,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
       <View
         style={
           {
-            "width": undefined,
+            "width": 36,
           }
         }
       />
@@ -390,7 +390,7 @@ exports[`Tab render panelHeader with title 1`] = `
       <View
         style={
           {
-            "width": undefined,
+            "width": 36,
           }
         }
       />
@@ -467,7 +467,7 @@ exports[`Tab render panelHeader without props 1`] = `
       <View
         style={
           {
-            "width": undefined,
+            "width": 36,
           }
         }
       />
