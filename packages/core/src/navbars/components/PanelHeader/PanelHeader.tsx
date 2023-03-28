@@ -28,7 +28,7 @@ const PanelHeader: FC<IPanelHeaderProps> = props => {
   } = props;
 
   const [styles] = useStyles(createStyles);
-  const [widthLeftView, setWidthLeftView] = useState();
+  const [widthLeftView, setWidthLeftView] = useState(rem(24));
 
   const onLayoutLeftView = useCallback(event => {
     setWidthLeftView(event.nativeEvent.layout.width);
