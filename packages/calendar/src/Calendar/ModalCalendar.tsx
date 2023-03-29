@@ -3,26 +3,13 @@ import {
   IButtonSize,
   IButtonTypes,
   IContentProps,
-  IHorizontalButtonsView,
   ModalBase,
-  TypographyProp,
   useStyles,
 } from '@npm/mobydick-core';
 
 import stylesCreate from './stylesCreate';
-import {IButtonView, ICalendar, IDateRange} from './types';
+import {IButtonView, IModalCalendar} from './types';
 import Calendar from './Calendar';
-
-interface IModalCalendar extends ICalendar, Partial<IHorizontalButtonsView> {
-  onDateRangeChange: (dateRange?: IDateRange) => void;
-  titlePrefix?: string;
-  titleSuffix?: string;
-  titleFont?: TypographyProp;
-  descriptionText?: string;
-  descriptionFont?: TypographyProp;
-  buttonView?: IButtonView;
-  isCounter?: boolean;
-}
 
 const ACCEPT_STR = 'Применить';
 const CANCEL_STR = 'Сбросить';
@@ -44,6 +31,7 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
     titlePrefix = 'Выбрано ',
     titleSuffix = ' д',
     isCounter = true,
+    onAcceptDateRangeChange,
     ...rest
   } = props;
   const [styles] = useStyles(stylesCreate);
@@ -55,13 +43,14 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
   const [isClear, setClear] = useState(false);
 
   const onAccept = useCallback(() => {
-    onDateRangeChange(date);
+    onDateRangeChange && onDateRangeChange(date);
+    onAcceptDateRangeChange && onAcceptDateRangeChange(date);
     onClose();
   }, [date, onClose, onDateRangeChange, date]);
 
   const onClear = useCallback(() => {
     setClear(true);
-    onDateRangeChange(date);
+    onDateRangeChange && onDateRangeChange(date);
   }, []);
 
   const defaultBottomView = bottomView || (

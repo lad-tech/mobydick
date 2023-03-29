@@ -25,7 +25,24 @@ describe('ModalCalendar', () => {
     expect(toJSON()).toMatchSnapshot();
   });
 
-  it('bottomView IButtonView.small', () => {
+  it('bottomView IButtonView.small onAcceptDateRangeChange', () => {
+    const submit = jest.fn();
+    const {toJSON, getByText} = render(
+      <ModalCalendar
+        id={'1'}
+        onClose={() => undefined}
+        onAcceptDateRangeChange={submit}
+        isCounter={false}
+        descriptionText={'textCalendar'}
+        buttonView={IButtonView.small}
+      />,
+    );
+    const applyButton = getByText('Применить');
+    fireEvent.press(applyButton);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('bottomView IButtonView.small onDateRangeChange', () => {
     const submit = jest.fn();
     const {toJSON, getByText} = render(
       <ModalCalendar
