@@ -58,9 +58,9 @@ const CalendarPopupExample = () => {
     popupContext.openPopup({
       Content: propsFromPopup => (
         <ModalCalendar
-          // onDateRangeChange={(date?: IDateRange) =>
-          //   console.log('onChangeDate', date?.dateStart, date?.dateEnd)
-          // }
+          onDateRangeChange={(date?: IDateRange) =>
+            console.log('onChangeDate', date?.dateStart, date?.dateEnd)
+          }
           onAcceptDateRangeChange={(date?: IDateRange) =>
             console.log(
               'onAcceptDateRangeChange',
