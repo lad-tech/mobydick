@@ -16,7 +16,9 @@ describe('Collapsible', () => {
         headerStyle={{backgroundColor: 'red'}}
         typeAnimation={'linear'}
         creationPropAnimation={'opacity'}
-        fontTitle={'Regular-Black-S'}>
+        fontTitle={'Regular-Black-S'}
+        titleStyle={{flex: 1}}
+        numberOfLines={1}>
         <>
           <View />
         </>
