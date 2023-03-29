@@ -1,3 +1,12 @@
+## [7.3.2](https://glab.lad24.ru/npm/mobydick/compare/v7.3.1...v7.3.2) (2023-03-29)
+
+
+### Bug Fixes
+
+* **Calendar:** demarcated onAccept and Cancel ([0877e7f](https://glab.lad24.ru/npm/mobydick/commit/0877e7f67df7a1c062a8a03b3c3c2c56890188b1))
+* **Collapsible:** add numberOfLines, titleStyle, default creationPropAnimation = 'scaleY', ([a66ea2c](https://glab.lad24.ru/npm/mobydick/commit/a66ea2c6af2aaaed8ab3e44a2ecafd9342a1be25))
+* **PanelHeader:** remove rem ([c15cddc](https://glab.lad24.ru/npm/mobydick/commit/c15cddc0150084ee145ac9b719b4097ddb415244))
+
 ## [7.3.1](https://glab.lad24.ru/npm/mobydick/compare/v7.3.0...v7.3.1) (2023-03-28)
 
 
