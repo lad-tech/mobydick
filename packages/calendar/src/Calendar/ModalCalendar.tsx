@@ -43,14 +43,14 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
   const [isClear, setClear] = useState(false);
 
   const onAccept = useCallback(() => {
-    onDateRangeChange && onDateRangeChange(date);
-    onAcceptDateRangeChange && onAcceptDateRangeChange(date);
+    onDateRangeChange?.(date);
+    onAcceptDateRangeChange?.(date);
     onClose();
   }, [date, onClose, onDateRangeChange, date]);
 
   const onClear = useCallback(() => {
     setClear(true);
-    onDateRangeChange && onDateRangeChange(date);
+    onDateRangeChange?.(date);
   }, []);
 
   const defaultBottomView = bottomView || (
