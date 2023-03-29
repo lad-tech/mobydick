@@ -1,6 +1,7 @@
 import {
   LayoutAnimationProperty,
   LayoutAnimationType,
+  TextStyle,
   TouchableOpacityProps,
   ViewStyle,
 } from 'react-native';
@@ -14,7 +15,9 @@ export interface ICollapsibleProps extends TouchableOpacityProps {
   duration?: number;
   containerStyle?: ViewStyle | ViewStyle[];
   headerStyle?: ViewStyle | ViewStyle[];
+  titleStyle?: TextStyle | TextStyle[];
   fontTitle?: TypographyProp;
   typeAnimation?: LayoutAnimationType;
   creationPropAnimation?: LayoutAnimationProperty;
+  numberOfLines?: number;
 }

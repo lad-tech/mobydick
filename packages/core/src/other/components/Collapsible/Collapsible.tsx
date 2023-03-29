@@ -28,8 +28,10 @@ const Collapsible = (props: ICollapsibleProps) => {
     containerStyle,
     fontTitle = 'SemiBold-Secondary-M',
     headerStyle,
+    titleStyle,
     typeAnimation = 'easeInEaseOut',
-    creationPropAnimation = 'opacity',
+    creationPropAnimation = 'scaleY',
+    numberOfLines = 2,
   } = props;
   const [styles] = useStyles(createStyles);
   const {colors} = useTheme();
@@ -52,7 +54,12 @@ const Collapsible = (props: ICollapsibleProps) => {
         onPress={onPress}
         style={[styles.header, headerStyle]}
         accessibilityLabel={LABELS.collapsed}>
-        <Typography font={fontTitle}>{title}</Typography>
+        <Typography
+          font={fontTitle}
+          numberOfLines={numberOfLines}
+          style={[styles.title, titleStyle]}>
+          {title}
+        </Typography>
         <SimpleIcon name={name} color={colors.IconNeutral} />
       </TouchableOpacity>
       {collapsed && children}
@@ -71,6 +78,9 @@ const createStyles = ({spaces}: IThemeContext) =>
       height: rem(44),
       alignItems: 'center',
       justifyContent: 'space-between',
+    },
+    title: {
+      flex: 1,
     },
   });
 
