@@ -94,6 +94,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
 >
   <View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -105,6 +106,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -138,6 +156,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -171,6 +206,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -204,6 +256,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -237,6 +306,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -270,6 +356,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -305,6 +408,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -316,6 +420,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -349,6 +470,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -382,6 +520,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -415,6 +570,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -448,6 +620,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -481,6 +670,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -516,6 +722,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -527,6 +734,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -560,6 +784,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -593,6 +834,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -626,6 +884,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -659,6 +934,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -692,6 +984,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -727,6 +1036,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -738,6 +1048,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -771,6 +1098,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -804,6 +1148,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -837,6 +1198,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -870,6 +1248,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -903,6 +1298,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -938,6 +1350,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -949,6 +1362,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -982,6 +1412,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1015,6 +1462,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1048,6 +1512,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1081,6 +1562,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1114,6 +1612,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1149,6 +1664,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -1160,6 +1676,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1193,6 +1726,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1226,6 +1776,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1259,6 +1826,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1292,6 +1876,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1325,6 +1926,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1360,6 +1978,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -1371,6 +1990,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1404,6 +2040,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1437,6 +2090,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1470,6 +2140,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1503,6 +2190,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1536,6 +2240,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1571,6 +2292,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -1582,6 +2304,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1615,6 +2354,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1648,6 +2404,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1681,6 +2454,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1714,6 +2504,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1747,6 +2554,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1782,6 +2606,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -1793,6 +2618,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1826,6 +2668,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1859,6 +2718,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1892,6 +2768,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1925,6 +2818,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1958,6 +2868,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -1993,6 +2920,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -2004,6 +2932,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2037,6 +2982,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2070,6 +3032,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2103,6 +3082,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2136,6 +3132,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2169,6 +3182,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2308,6 +3338,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
 >
   <View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -2319,6 +3350,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2352,6 +3400,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2385,6 +3450,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2418,6 +3500,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2451,6 +3550,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2484,6 +3600,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2519,6 +3652,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -2530,6 +3664,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2563,6 +3714,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2596,6 +3764,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2629,6 +3814,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2662,6 +3864,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2695,6 +3914,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2730,6 +3966,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -2741,6 +3978,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2774,6 +4028,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2807,6 +4078,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2840,6 +4128,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2873,6 +4178,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2906,6 +4228,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2941,6 +4280,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -2952,6 +4292,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2985,6 +4342,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3018,6 +4392,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3051,6 +4442,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3084,6 +4492,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3117,6 +4542,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3152,6 +4594,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -3163,6 +4606,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3196,6 +4656,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3229,6 +4706,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3262,6 +4756,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3295,6 +4806,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3328,6 +4856,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3363,6 +4908,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -3374,6 +4920,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3407,6 +4970,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3440,6 +5020,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3473,6 +5070,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3506,6 +5120,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3539,6 +5170,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3574,6 +5222,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -3585,6 +5234,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3618,6 +5284,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3651,6 +5334,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3684,6 +5384,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3717,6 +5434,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3750,6 +5484,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3785,6 +5536,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -3796,6 +5548,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3829,6 +5598,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3862,6 +5648,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3895,6 +5698,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3928,6 +5748,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3961,6 +5798,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -3996,6 +5850,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -4007,6 +5862,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4040,6 +5912,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4073,6 +5962,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4106,6 +6012,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4139,6 +6062,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4172,6 +6112,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4207,6 +6164,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -4218,6 +6176,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4251,6 +6226,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4284,6 +6276,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4317,6 +6326,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4350,6 +6376,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4383,6 +6426,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4522,6 +6582,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
 >
   <View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -4533,6 +6594,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4566,6 +6644,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4599,6 +6694,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4632,6 +6744,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4665,6 +6794,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4698,6 +6844,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4733,6 +6896,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -4744,6 +6908,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4777,6 +6958,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4810,6 +7008,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4843,6 +7058,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4876,6 +7108,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4909,6 +7158,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4944,6 +7210,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -4955,6 +7222,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -4988,6 +7272,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5021,6 +7322,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5054,6 +7372,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5087,6 +7422,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5120,6 +7472,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5155,6 +7524,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -5166,6 +7536,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5199,6 +7586,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5232,6 +7636,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5265,6 +7686,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5298,6 +7736,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5331,6 +7786,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5366,6 +7838,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -5377,6 +7850,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5410,6 +7900,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5443,6 +7950,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5476,6 +8000,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5509,6 +8050,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5542,6 +8100,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5577,6 +8152,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -5588,6 +8164,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5621,6 +8214,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5654,6 +8264,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5687,6 +8314,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5720,6 +8364,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5753,6 +8414,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5788,6 +8466,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -5799,6 +8478,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5832,6 +8528,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5865,6 +8578,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5898,6 +8628,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5931,6 +8678,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5964,6 +8728,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -5999,6 +8780,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -6010,6 +8792,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6043,6 +8842,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6076,6 +8892,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6109,6 +8942,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6142,6 +8992,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6175,6 +9042,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6210,6 +9094,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -6221,6 +9106,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6254,6 +9156,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6287,6 +9206,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6320,6 +9256,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6353,6 +9306,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6386,6 +9356,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6421,6 +9408,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -6432,6 +9420,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
         }
       >
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6465,6 +9470,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6498,6 +9520,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6531,6 +9570,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6564,6 +9620,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -6597,6 +9670,23 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
           </Text>
         </View>
         <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}

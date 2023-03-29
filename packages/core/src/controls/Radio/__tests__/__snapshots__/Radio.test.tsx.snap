@@ -18,7 +18,19 @@ exports[`@npm/mobydick-core/Radio renders correctly 1`] = `
   <View
     accessibilityState={
       {
+        "busy": undefined,
+        "checked": undefined,
         "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
       }
     }
     accessible={true}
@@ -68,7 +80,19 @@ exports[`@npm/mobydick-core/Radio renders correctly disabled 1`] = `
   <View
     accessibilityState={
       {
+        "busy": undefined,
+        "checked": undefined,
         "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
       }
     }
     accessible={true}
@@ -118,7 +142,19 @@ exports[`@npm/mobydick-core/Radio renders correctly selected 1`] = `
   <View
     accessibilityState={
       {
+        "busy": undefined,
+        "checked": undefined,
         "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
       }
     }
     accessible={true}
@@ -180,7 +216,19 @@ exports[`@npm/mobydick-core/Radio renders correctly selected and disabled 1`] = 
   <View
     accessibilityState={
       {
+        "busy": undefined,
+        "checked": undefined,
         "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
       }
     }
     accessible={true}
