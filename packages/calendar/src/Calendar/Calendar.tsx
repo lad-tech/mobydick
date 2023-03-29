@@ -164,12 +164,11 @@ const Calendar: FC<ICalendar> = props => {
       lengthMarkedDates: dateRange.lengthDateRange,
     });
 
-    onDateRangeChange &&
-      onDateRangeChange({
-        dateStart: new Date(fromDate).toISOString(),
-        dateEnd: new Date(toDate).toISOString(),
-        lengthDateRange: dateRange.lengthDateRange,
-      });
+    onDateRangeChange?.({
+      dateStart: new Date(fromDate).toISOString(),
+      dateEnd: new Date(toDate).toISOString(),
+      lengthDateRange: dateRange.lengthDateRange,
+    });
   };
 
   const onDayPress = useCallback(
@@ -215,8 +214,7 @@ const Calendar: FC<ICalendar> = props => {
   };
 
   const onClear = () => {
-    onDateRangeChange &&
-      onDateRangeChange({dateStart: '', dateEnd: '', lengthDateRange: 0});
+    onDateRangeChange?.({dateStart: '', dateEnd: '', lengthDateRange: 0});
     markTodayAndDots();
   };
 

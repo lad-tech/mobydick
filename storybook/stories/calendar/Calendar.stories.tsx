@@ -61,6 +61,13 @@ const CalendarPopupExample = () => {
           onDateRangeChange={(date?: IDateRange) =>
             console.log('onChangeDate', date?.dateStart, date?.dateEnd)
           }
+          onAcceptDateRangeChange={(date?: IDateRange) =>
+            console.log(
+              'onAcceptDateRangeChange',
+              date?.dateStart,
+              date?.dateEnd,
+            )
+          }
           descriptionText={text(
             'textCalendar',
             'Выберите интервал, в который хотите пойти в отпуск',
