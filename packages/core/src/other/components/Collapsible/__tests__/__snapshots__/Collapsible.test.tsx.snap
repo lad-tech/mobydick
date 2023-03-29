@@ -39,6 +39,7 @@ exports[`Collapsible render crossed onPress - 1 1`] = `
   >
     <Text
       allowFontScaling={true}
+      numberOfLines={1}
       style={
         [
           {
@@ -47,7 +48,14 @@ exports[`Collapsible render crossed onPress - 1 1`] = `
             "fontSize": 22.5,
             "lineHeight": 28.5,
           },
-          undefined,
+          [
+            {
+              "flex": 1,
+            },
+            {
+              "flex": 1,
+            },
+          ],
         ]
       }
     >
@@ -106,6 +114,7 @@ exports[`Collapsible render crossed onPress - 1 android 1`] = `
   >
     <Text
       allowFontScaling={true}
+      numberOfLines={2}
       style={
         [
           {
@@ -114,7 +123,12 @@ exports[`Collapsible render crossed onPress - 1 android 1`] = `
             "fontSize": 24,
             "lineHeight": 30,
           },
-          undefined,
+          [
+            {
+              "flex": 1,
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -173,6 +187,7 @@ exports[`Collapsible render crossed onPress - 2 1`] = `
   >
     <Text
       allowFontScaling={true}
+      numberOfLines={2}
       style={
         [
           {
@@ -181,7 +196,12 @@ exports[`Collapsible render crossed onPress - 2 1`] = `
             "fontSize": 24,
             "lineHeight": 30,
           },
-          undefined,
+          [
+            {
+              "flex": 1,
+            },
+            undefined,
+          ],
         ]
       }
     >
