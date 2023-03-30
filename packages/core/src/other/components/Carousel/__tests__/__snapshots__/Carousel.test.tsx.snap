@@ -109,6 +109,11 @@ exports[`Carousel render Carousel 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -155,6 +160,11 @@ exports[`Carousel render Carousel 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -201,6 +211,11 @@ exports[`Carousel render Carousel 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -247,6 +262,11 @@ exports[`Carousel render Carousel 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -293,6 +313,11 @@ exports[`Carousel render Carousel 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -339,6 +364,11 @@ exports[`Carousel render Carousel 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -385,6 +415,11 @@ exports[`Carousel render Carousel 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -439,7 +474,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
     <ForwardRef
       style={
         {
-          "width": 620,
+          "width": 0,
         }
       }
     />
@@ -447,13 +482,69 @@ exports[`Carousel render Carousel activeItemId 1`] = `
   ListHeaderComponent={
     <EmptyFirstItem
       align="start"
-      width={310}
+      width={0}
     />
   }
   accessibilityLabel="carousel"
   bounces={false}
   data={
     [
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
       {
         "id": "0",
         "name": "icon-starfill",
@@ -542,6 +633,11 @@ exports[`Carousel render Carousel activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -588,6 +684,11 @@ exports[`Carousel render Carousel activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -634,6 +735,11 @@ exports[`Carousel render Carousel activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -680,6 +786,11 @@ exports[`Carousel render Carousel activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -726,6 +837,11 @@ exports[`Carousel render Carousel activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -772,6 +888,11 @@ exports[`Carousel render Carousel activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -818,6 +939,11 @@ exports[`Carousel render Carousel activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -853,11 +979,171 @@ exports[`Carousel render Carousel activeItemId 1`] = `
     </View>
     <View
       onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "width": 0,
+        }
+      }
+    />
+    <View
+      onLayout={[Function]}
     >
       <View
         style={
           {
-            "width": 620,
+            "width": 0,
           }
         }
       />
@@ -983,6 +1269,11 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1029,6 +1320,11 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1075,6 +1371,11 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1121,6 +1422,11 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1167,6 +1473,11 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1213,6 +1524,11 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1259,6 +1575,11 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1416,6 +1737,11 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1462,6 +1788,11 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1508,6 +1839,11 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1554,6 +1890,11 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1600,6 +1941,11 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1646,6 +1992,11 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1692,6 +2043,11 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1849,6 +2205,11 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1895,6 +2256,11 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1941,6 +2307,11 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -1987,6 +2358,11 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -2033,6 +2409,11 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -2079,6 +2460,11 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -2125,6 +2511,11 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -2165,6 +2556,1374 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         style={
           {
             "width": 620,
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Carousel render Carousel contentOffset = 0 1`] = `
+<RCTScrollView
+  ListFooterComponent={
+    <ForwardRef
+      style={
+        {
+          "width": 0,
+        }
+      }
+    />
+  }
+  ListHeaderComponent={
+    <EmptyFirstItem
+      align="start"
+      width={0}
+    />
+  }
+  accessibilityLabel="carousel"
+  bounces={false}
+  data={
+    [
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+    ]
+  }
+  decelerationRate={0}
+  extraData={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
+  pagingEnabled={true}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={16}
+  showsHorizontalScrollIndicator={false}
+  snapToAlignment="start"
+  snapToInterval={130}
+  stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 60,
+      "waitForInteraction": true,
+    }
+  }
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 60,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      onLayout={[Function]}
+    />
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "width": 0,
+        }
+      }
+    />
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          {
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
+<RCTScrollView
+  ListFooterComponent={
+    <ForwardRef
+      style={
+        {
+          "width": 0,
+        }
+      }
+    />
+  }
+  ListHeaderComponent={
+    <EmptyFirstItem
+      align="start"
+      width={0}
+    />
+  }
+  accessibilityLabel="carousel"
+  bounces={false}
+  data={
+    [
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+    ]
+  }
+  decelerationRate={0}
+  extraData={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
+  pagingEnabled={true}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={16}
+  showsHorizontalScrollIndicator={false}
+  snapToAlignment="start"
+  snapToInterval={130}
+  stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 60,
+      "waitForInteraction": true,
+    }
+  }
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 60,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      onLayout={[Function]}
+    />
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "width": 0,
+        }
+      }
+    />
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          {
+            "width": 0,
           }
         }
       />
@@ -2283,6 +4042,11 @@ exports[`Carousel render Carousel isDots 1`] = `
       >
         <View
           accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "disabled": true,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2329,6 +4093,11 @@ exports[`Carousel render Carousel isDots 1`] = `
       >
         <View
           accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "disabled": true,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2375,6 +4144,11 @@ exports[`Carousel render Carousel isDots 1`] = `
       >
         <View
           accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "disabled": true,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2421,6 +4195,11 @@ exports[`Carousel render Carousel isDots 1`] = `
       >
         <View
           accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "disabled": true,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2467,6 +4246,11 @@ exports[`Carousel render Carousel isDots 1`] = `
       >
         <View
           accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "disabled": true,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2513,6 +4297,11 @@ exports[`Carousel render Carousel isDots 1`] = `
       >
         <View
           accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "disabled": true,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2559,6 +4348,11 @@ exports[`Carousel render Carousel isDots 1`] = `
       >
         <View
           accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "disabled": true,
+            }
+          }
           accessible={true}
           collapsable={false}
           focusable={true}
@@ -2834,6 +4628,11 @@ exports[`Carousel render Carousel loading 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -2880,6 +4679,11 @@ exports[`Carousel render Carousel loading 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -2926,6 +4730,11 @@ exports[`Carousel render Carousel loading 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -2972,6 +4781,11 @@ exports[`Carousel render Carousel loading 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3018,6 +4832,11 @@ exports[`Carousel render Carousel loading 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3064,6 +4883,11 @@ exports[`Carousel render Carousel loading 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3110,6 +4934,11 @@ exports[`Carousel render Carousel loading 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3267,6 +5096,11 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3313,6 +5147,11 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3359,6 +5198,11 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3405,6 +5249,11 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3451,6 +5300,11 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3497,6 +5351,11 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3543,6 +5402,11 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3700,6 +5564,11 @@ exports[`Carousel render Carousel not index 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3746,6 +5615,11 @@ exports[`Carousel render Carousel not index 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3792,6 +5666,11 @@ exports[`Carousel render Carousel not index 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3838,6 +5717,11 @@ exports[`Carousel render Carousel not index 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3884,6 +5768,11 @@ exports[`Carousel render Carousel not index 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3930,6 +5819,11 @@ exports[`Carousel render Carousel not index 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -3976,6 +5870,11 @@ exports[`Carousel render Carousel not index 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4133,6 +6032,11 @@ exports[`Carousel render Carousel not scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4179,6 +6083,11 @@ exports[`Carousel render Carousel not scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4225,6 +6134,11 @@ exports[`Carousel render Carousel not scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4271,6 +6185,11 @@ exports[`Carousel render Carousel not scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4317,6 +6236,11 @@ exports[`Carousel render Carousel not scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4363,6 +6287,11 @@ exports[`Carousel render Carousel not scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4409,6 +6338,11 @@ exports[`Carousel render Carousel not scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4566,6 +6500,11 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4612,6 +6551,11 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4658,6 +6602,11 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4704,6 +6653,11 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4750,6 +6704,11 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4796,6 +6755,11 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4842,6 +6806,11 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -4896,7 +6865,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
     <ForwardRef
       style={
         {
-          "width": 620,
+          "width": 0,
         }
       }
     />
@@ -4904,13 +6873,69 @@ exports[`Carousel render Carousel onPressItem 1`] = `
   ListHeaderComponent={
     <EmptyFirstItem
       align="start"
-      width={310}
+      width={0}
     />
   }
   accessibilityLabel="carousel"
   bounces={false}
   data={
     [
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
       {
         "id": "0",
         "name": "icon-starfill",
@@ -4999,6 +7024,11 @@ exports[`Carousel render Carousel onPressItem 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5045,6 +7075,11 @@ exports[`Carousel render Carousel onPressItem 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5091,6 +7126,11 @@ exports[`Carousel render Carousel onPressItem 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5137,6 +7177,11 @@ exports[`Carousel render Carousel onPressItem 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5183,6 +7228,11 @@ exports[`Carousel render Carousel onPressItem 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5229,6 +7279,11 @@ exports[`Carousel render Carousel onPressItem 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5275,6 +7330,11 @@ exports[`Carousel render Carousel onPressItem 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5310,11 +7370,855 @@ exports[`Carousel render Carousel onPressItem 1`] = `
     </View>
     <View
       onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "width": 0,
+        }
+      }
+    />
+    <View
+      onLayout={[Function]}
     >
       <View
         style={
           {
-            "width": 620,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Carousel render Carousel onPressItem onScroll 1`] = `
+<RCTScrollView
+  ListFooterComponent={
+    <ForwardRef
+      style={
+        {
+          "width": 0,
+        }
+      }
+    />
+  }
+  ListHeaderComponent={
+    <EmptyFirstItem
+      align="start"
+      width={0}
+    />
+  }
+  accessibilityLabel="carousel"
+  bounces={false}
+  data={
+    [
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+    ]
+  }
+  decelerationRate={0}
+  extraData={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={true}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  onScrollToIndexFailed={[Function]}
+  onViewableItemsChanged={[Function]}
+  pagingEnabled={true}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={16}
+  showsHorizontalScrollIndicator={false}
+  snapToAlignment="start"
+  snapToInterval={130}
+  stickyHeaderIndices={[]}
+  viewabilityConfig={
+    {
+      "itemVisiblePercentThreshold": 60,
+      "waitForInteraction": true,
+    }
+  }
+  viewabilityConfigCallbackPairs={
+    [
+      {
+        "onViewableItemsChanged": [Function],
+        "viewabilityConfig": {
+          "itemVisiblePercentThreshold": 60,
+          "waitForInteraction": true,
+        },
+      },
+    ]
+  }
+>
+  <View>
+    <View
+      onLayout={[Function]}
+    />
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "width": 0,
+        }
+      }
+    />
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          {
+            "width": 0,
           }
         }
       />
@@ -5432,6 +8336,11 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5478,6 +8387,11 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5524,6 +8438,11 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5570,6 +8489,11 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5616,6 +8540,11 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5662,6 +8591,11 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5708,6 +8642,11 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5865,6 +8804,11 @@ exports[`Carousel render Carousel scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5911,6 +8855,11 @@ exports[`Carousel render Carousel scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -5957,6 +8906,11 @@ exports[`Carousel render Carousel scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6003,6 +8957,11 @@ exports[`Carousel render Carousel scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6049,6 +9008,11 @@ exports[`Carousel render Carousel scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6095,6 +9059,11 @@ exports[`Carousel render Carousel scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6141,6 +9110,11 @@ exports[`Carousel render Carousel scroll 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6306,6 +9280,11 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6352,6 +9331,11 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6398,6 +9382,11 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6444,6 +9433,11 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6490,6 +9484,11 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6536,6 +9535,11 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6582,6 +9586,11 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6747,6 +9756,11 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6793,6 +9807,11 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6839,6 +9858,11 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6885,6 +9909,11 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6931,6 +9960,11 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -6977,6 +10011,11 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7023,6 +10062,11 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7188,6 +10232,11 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7234,6 +10283,11 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7280,6 +10334,11 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7326,6 +10385,11 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7372,6 +10436,11 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7418,6 +10487,11 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7464,6 +10538,11 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7629,6 +10708,11 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7675,6 +10759,11 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7721,6 +10810,11 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7767,6 +10861,11 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7813,6 +10912,11 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7859,6 +10963,11 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7905,6 +11014,11 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -7959,7 +11073,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
     <ForwardRef
       style={
         {
-          "width": 610,
+          "width": 0,
         }
       }
     />
@@ -7967,13 +11081,69 @@ exports[`Carousel render Carousel sideMargin 1`] = `
   ListHeaderComponent={
     <EmptyFirstItem
       align="start"
-      width={305}
+      width={0}
     />
   }
   accessibilityLabel="carousel"
   bounces={false}
   data={
     [
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "0",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "1",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "2",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "3",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "4",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "5",
+        "name": "icon-starfill",
+      },
+      {
+        "id": "6",
+        "name": "icon-starfill",
+      },
       {
         "id": "0",
         "name": "icon-starfill",
@@ -8062,6 +11232,11 @@ exports[`Carousel render Carousel sideMargin 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -8108,6 +11283,11 @@ exports[`Carousel render Carousel sideMargin 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -8154,6 +11334,11 @@ exports[`Carousel render Carousel sideMargin 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -8200,6 +11385,11 @@ exports[`Carousel render Carousel sideMargin 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -8246,6 +11436,11 @@ exports[`Carousel render Carousel sideMargin 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -8292,6 +11487,11 @@ exports[`Carousel render Carousel sideMargin 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -8338,6 +11538,11 @@ exports[`Carousel render Carousel sideMargin 1`] = `
     >
       <View
         accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
         accessible={true}
         collapsable={false}
         focusable={true}
@@ -8373,11 +11578,171 @@ exports[`Carousel render Carousel sideMargin 1`] = `
     </View>
     <View
       onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 20,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 20,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 20,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "width": 0,
+        }
+      }
+    />
+    <View
+      onLayout={[Function]}
     >
       <View
         style={
           {
-            "width": 610,
+            "width": 0,
           }
         }
       />
