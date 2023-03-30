@@ -1,5 +1,6 @@
 import {boolean, number, select, text} from '@storybook/addon-knobs';
 import React, {useState} from 'react';
+import {StyleSheet} from 'react-native';
 
 import {
   InputField,
@@ -8,9 +9,11 @@ import {
   rem,
   SimpleIcon,
   Pressable,
+  useStyles,
 } from '@npm/mobydick-core';
 
 const ExampleInput = () => {
+  const [styles] = useStyles(createStyles);
   const subtitleIconName = select(
     'subtitleIcon name',
     iconNames,
@@ -44,7 +47,7 @@ const ExampleInput = () => {
         }
         disabled={disabled}
         onChangeText={setValueInput}
-        containerStyle={{width: rem(250), paddingBottom: 50}}
+        containerStyle={styles.containerStyle}
         secureTextEntry={isSecureTextEntry}
         required={required}
         value={valueInput}
@@ -59,11 +62,12 @@ const ExampleInput = () => {
         }
         disabled={disabled}
         onChangeText={setValueMultiline}
-        containerStyle={{
-          width: rem(250),
-          paddingBottom: rem(50),
-          maxHeight: rem(maxHeightMultiline),
-        }}
+        containerStyle={[
+          styles.containerStyle,
+          {
+            maxHeight: rem(maxHeightMultiline),
+          },
+        ]}
         secureTextEntry={isSecureTextEntry}
         required={required}
         value={valueMultiline}
@@ -72,4 +76,13 @@ const ExampleInput = () => {
     </>
   );
 };
+
+const createStyles = () =>
+  StyleSheet.create({
+    containerStyle: {
+      width: rem(250),
+      paddingBottom: rem(50),
+    },
+  });
+
 export default ExampleInput;
