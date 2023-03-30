@@ -17,4 +17,5 @@ export interface ICarouselProps<T> {
   animateAutoScroll?: boolean;
   onActiveChange?: (item: T) => void;
   align?: ICarouselAlign;
+  isLoop?: boolean;
 }
