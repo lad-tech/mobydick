@@ -9,7 +9,6 @@ import {IThemeContext} from '../../../styles';
 import useTheme from '../../../styles/theme/hooks/useTheme';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import {LABELS} from '../../constants';
-import rem from '../../../styles/spaces/rem';
 
 import {ICollapsibleProps} from './types';
 
@@ -66,7 +65,6 @@ const createStyles = ({spaces}: IThemeContext) =>
     },
     header: {
       flexDirection: 'row',
-      height: rem(44),
       alignItems: 'center',
       justifyContent: 'space-between',
     },
