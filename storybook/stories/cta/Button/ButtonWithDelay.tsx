@@ -26,7 +26,7 @@ const ButtonWithDelay = ({
   const {colors} = useTheme();
 
   const getStyle = useCallback(
-    ({pressed}) => [
+    ({pressed}: {pressed: boolean}) => [
       {
         backgroundColor: pressed ? colors.BgError : colors.BgPrimary,
       },

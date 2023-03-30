@@ -9,7 +9,7 @@ import {IDirection} from '../types';
 
 describe('Calendar-functions', () => {
   beforeAll(() => {
-    jest.useFakeTimers('modern');
+    jest.useFakeTimers();
   });
   afterAll(() => {
     jest.useRealTimers();

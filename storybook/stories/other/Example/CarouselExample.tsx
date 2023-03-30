@@ -35,12 +35,12 @@ const CarouselExample = () => {
   const sideMargin = number('sideMargin', 12);
   const activeItemId = number('activeItemId', 1);
   const data = number('length data', 6);
-  const keyExtractor = useCallback(item => item.toString(), []);
+  const keyExtractor = useCallback((item: number) => item.toString(), []);
   const isDots = boolean('isDots', true);
   const align = select('align', ICarouselAlign, ICarouselAlign.start);
 
   const sliderItem = useCallback(
-    item => {
+    (item: number) => {
       return (
         <View
           style={{

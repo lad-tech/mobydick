@@ -6,6 +6,7 @@ import {
   PanResponder,
   PanResponderGestureState,
   ViewProps,
+  LayoutChangeEvent,
 } from 'react-native';
 
 import View from '../../basic/components/View/View';
@@ -109,10 +110,10 @@ const Slider: React.FC<ISliderProps> = ({
 
   const handleContainerLayout = useWidthLayout(containerWidthRef, updateThumbs);
   const handleThumbLayout = useCallback(
-    ({nativeEvent}) => {
+    (event: LayoutChangeEvent) => {
       const {
         layout: {width},
-      } = nativeEvent;
+      } = event.nativeEvent;
       if (thumbWidth !== width) {
         setThumbWidth(width);
       }

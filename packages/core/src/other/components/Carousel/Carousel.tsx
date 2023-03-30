@@ -12,6 +12,12 @@ import stylesCreate from './stylesCreate';
 import {ICarouselAlign, ICarouselProps} from './types';
 import EmptyFirstItem from './components/EmptyFirstItem';
 
+interface IError {
+  index: number;
+  highestMeasuredFrameIndex: number;
+  averageItemLength: number;
+}
+
 const {width} = Dimensions.get('window');
 
 const Carousel = <T,>({
@@ -69,14 +75,14 @@ const Carousel = <T,>({
   }, [initScroll, activeItemId]);
 
   const onPress = useCallback(
-    item => () => {
+    (item: T) => () => {
       !loading && onPressItem && onPressItem(item);
     },
     [loading, onPressItem],
   );
 
   const keExtractorDefault = useCallback(
-    item => keyExtractor(item),
+    (item: T) => keyExtractor(item),
     [keyExtractor],
   );
 
@@ -95,7 +101,7 @@ const Carousel = <T,>({
   );
 
   const onScrollToIndexFailed = useCallback(
-    error => {
+    (error: IError) => {
       if (averageItemLength) {
         ref.current?.scrollToOffset({
           offset: averageItemLength * error.index,

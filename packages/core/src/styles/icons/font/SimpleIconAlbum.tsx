@@ -11,7 +11,7 @@ const SimpleIconAlbum = (props: {
   color?: string;
   onPress(item: SimpleIconName): void;
 }): JSX.Element => {
-  const renderItem = useCallback(({item}) => {
+  const renderItem = useCallback(({item}: {item: SimpleIconName}) => {
     return (
       <Pressable
         testID={item}
