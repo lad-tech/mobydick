@@ -1,5 +1,5 @@
 import React, {useCallback, useRef, useState} from 'react';
-import {Dimensions, FlatList, ViewToken} from 'react-native';
+import {Dimensions, FlatList, NativeScrollEvent, ViewToken} from 'react-native';
 
 import rem from '../../../styles/spaces/rem';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
@@ -28,15 +28,16 @@ const Carousel = <T,>({
   isDots = false,
   onActiveChange,
   align = ICarouselAlign.start,
+  isLoop = false,
 }: ICarouselProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
   const [styles] = useStyles(stylesCreate, sideMargin);
   const [slidePosition, setSlidePosition] = useState<number>(0);
-
-  const emptySpace = width - itemWidth - sideMargin * 2;
-  const emptySpaceFistItem = emptySpace / 2;
+  const [infinityData] = useState([...data, ...data, ...data]);
+  const emptySpace = isLoop ? 0 : width - itemWidth - sideMargin * 2;
+  const emptySpaceFirstItem = emptySpace / 2;
   const emptySpaceLastItem =
-    align === ICarouselAlign.center ? emptySpaceFistItem : emptySpace;
+    align === ICarouselAlign.center ? emptySpaceFirstItem : emptySpace;
   const widthSnap = itemWidth + sideMargin * 2;
 
   const viewabilityConfig = useRef({
@@ -54,6 +55,11 @@ const Carousel = <T,>({
         offset: widthSnap * selectedIndex,
         animated: animateAutoScroll,
       });
+    } else if (isLoop) {
+      ref.current?.scrollToOffset({
+        offset: widthSnap * data.length,
+        animated: false,
+      });
     }
   }, [
     activeItemId,
@@ -62,8 +68,29 @@ const Carousel = <T,>({
     keyExtractor,
     widthSnap,
     animateAutoScroll,
+    isLoop,
   ]);
 
+  const checkScroll = useCallback(
+    ({layoutMeasurement, contentOffset, contentSize}: NativeScrollEvent) => {
+      if (!contentOffset.x) {
+        ref.current?.scrollToOffset({
+          offset: widthSnap * data.length,
+          animated: false,
+        });
+      }
+      if (
+        Math.floor(contentOffset.x + layoutMeasurement.width) ===
+        Math.floor(contentSize.width)
+      ) {
+        ref.current?.scrollToOffset({
+          offset: widthSnap * data.length,
+          animated: false,
+        });
+      }
+    },
+    [],
+  );
   const onLayout = useCallback(() => {
     activeItemId && initScroll();
   }, [initScroll, activeItemId]);
@@ -76,8 +103,10 @@ const Carousel = <T,>({
   );
 
   const keExtractorDefault = useCallback(
-    item => keyExtractor(item),
-    [keyExtractor],
+    (item, index) => {
+      return isLoop ? String(index) : keyExtractor(item);
+    },
+    [keyExtractor, isLoop],
   );
 
   const renderItem = useCallback(
@@ -85,6 +114,7 @@ const Carousel = <T,>({
       return (
         <TouchableOpacity
           onPress={onPress(item)}
+          disabled={Boolean(onPress)}
           accessibilityLabel={LABELS.carouselItem}
           style={styles.item}>
           {sliderItem(item, index, data)}
@@ -93,7 +123,6 @@ const Carousel = <T,>({
     },
     [data, onPress],
   );
-
   const onScrollToIndexFailed = useCallback(
     error => {
       if (averageItemLength) {
@@ -104,6 +133,12 @@ const Carousel = <T,>({
       }
     },
     [averageItemLength, animateAutoScroll],
+  );
+  const onScroll = useCallback(
+    ({nativeEvent}) => {
+      isLoop && checkScroll(nativeEvent);
+    },
+    [isLoop, checkScroll],
   );
 
   const visibleElementsCount = Math.floor(width / widthSnap);
@@ -136,7 +171,7 @@ const Carousel = <T,>({
     <>
       <FlatList
         ref={ref}
-        data={data}
+        data={isLoop ? infinityData : data}
         extraData={loading}
         keyExtractor={keExtractorDefault}
         horizontal
@@ -153,8 +188,9 @@ const Carousel = <T,>({
         decelerationRate={0}
         bounces={false}
         scrollEventThrottle={16}
+        onScroll={onScroll}
         ListHeaderComponent={
-          <EmptyFirstItem align={align} width={emptySpaceFistItem} />
+          <EmptyFirstItem align={align} width={emptySpaceFirstItem} />
         }
         ListFooterComponent={<View style={{width: emptySpaceLastItem}} />}
       />
