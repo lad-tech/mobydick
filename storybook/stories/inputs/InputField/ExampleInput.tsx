@@ -1,4 +1,4 @@
-import {boolean, select, text} from '@storybook/addon-knobs';
+import {boolean, number, select, text} from '@storybook/addon-knobs';
 import React, {useState} from 'react';
 
 import {
@@ -17,13 +17,15 @@ const ExampleInput = () => {
     'icon-arrow-down',
   );
   const [isSecureTextEntry, setSecureTextEntry] = useState(false);
-  const [value, setValue] = useState('');
+  const [valueInput, setValueInput] = useState('');
+  const [valueMultiline, setValueMultiline] = useState('');
   const type = select('type', IInputsTypes, IInputsTypes.default);
   const title = text('title', 'Название поля');
   const placeholder = text('Placeholder', 'Введите что-нибудь');
   const subtitle = text('subtitle', 'Подпись');
   const disabled = boolean('disabled', false);
   const required = boolean('required', false);
+  const maxHeightMultiline = number('maxHeight', 200);
 
   return (
     <>
@@ -41,11 +43,11 @@ const ExampleInput = () => {
           </Pressable>
         }
         disabled={disabled}
-        onChangeText={setValue}
+        onChangeText={setValueInput}
         containerStyle={{width: rem(250), paddingBottom: 50}}
         secureTextEntry={isSecureTextEntry}
         required={required}
-        value={value}
+        value={valueInput}
       />
       <InputField
         type={type}
@@ -56,11 +58,15 @@ const ExampleInput = () => {
           boolean('show subtitleIcon', false) ? subtitleIconName : undefined
         }
         disabled={disabled}
-        onChangeText={setValue}
-        containerStyle={{width: rem(250), paddingBottom: 50}}
+        onChangeText={setValueMultiline}
+        containerStyle={{
+          width: rem(250),
+          paddingBottom: rem(50),
+          maxHeight: rem(maxHeightMultiline),
+        }}
         secureTextEntry={isSecureTextEntry}
         required={required}
-        value={value}
+        value={valueMultiline}
         multiline={true}
       />
     </>
