@@ -1,6 +1,6 @@
 {
   "name": "@npm/mobydick-attachment",
-  "version": "7.3.2",
+  "version": "7.4.0",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "lib/index",
   "module": "lib/index",
@@ -22,7 +22,7 @@
     "react-native": ">=0.66.4",
     "react": ">=17.0.2",
     "react-native-calendars": "^1.1292.0",
-    "@npm/mobydick-core": "7.3.2"
+    "@npm/mobydick-core": "7.4.0"
   },
   "publishConfig": {
     "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"

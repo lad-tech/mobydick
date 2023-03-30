@@ -1,3 +1,10 @@
+# [7.4.0](https://glab.lad24.ru/npm/mobydick/compare/v7.3.2...v7.4.0) (2023-03-30)
+
+
+### Features
+
+* **Carousel:** add loop infinity data ([fcf5608](https://glab.lad24.ru/npm/mobydick/commit/fcf5608b52efdcaa46a026bbd90de8f9e247ff2e))
+
 ## [7.3.2](https://glab.lad24.ru/npm/mobydick/compare/v7.3.1...v7.3.2) (2023-03-29)
 
 
