@@ -18,10 +18,13 @@ const SliderExample = () => {
   const [low, setLow] = useState(0);
   const [high, setHigh] = useState(100);
 
-  const handleValueChange = useCallback((lowValue, highValue) => {
-    setLow(lowValue);
-    setHigh(highValue);
-  }, []);
+  const handleValueChange = useCallback(
+    (lowValue: number, highValue: number) => {
+      setLow(lowValue);
+      setHigh(highValue);
+    },
+    [],
+  );
 
   return (
     <View style={styles.container}>

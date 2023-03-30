@@ -1,5 +1,5 @@
 import {useCallback, useRef, useMemo, MutableRefObject} from 'react';
-import {Animated, I18nManager} from 'react-native';
+import {Animated, I18nManager, LayoutChangeEvent} from 'react-native';
 
 import {clamp} from './helpers';
 
@@ -48,10 +48,10 @@ export const useWidthLayout = (
   callback?: (width: number) => void,
 ) => {
   return useCallback(
-    ({nativeEvent}) => {
+    (event: LayoutChangeEvent) => {
       const {
         layout: {width},
-      } = nativeEvent;
+      } = event.nativeEvent;
       const {current: w} = widthRef;
       if (w !== width) {
         widthRef.current = width;

@@ -1,5 +1,5 @@
 import React, {FC, PropsWithChildren, useCallback, useEffect} from 'react';
-import {BackHandler} from 'react-native';
+import {BackHandler, GestureResponderEvent} from 'react-native';
 
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import Pressable from '../../../basic/components/Pressable/Pressable';
@@ -27,7 +27,7 @@ const PopupBase: FC<PropsWithChildren<IPopupProps>> = ({
   }, []);
 
   const onPressClickOut = useCallback(
-    event => {
+    (event: GestureResponderEvent) => {
       if (event.target === event.currentTarget) {
         onClose();
       }
