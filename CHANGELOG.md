@@ -1,3 +1,14 @@
+## [7.4.1](https://glab.lad24.ru/npm/mobydick/compare/v7.4.0...v7.4.1) (2023-03-31)
+
+
+### Bug Fixes
+
+* add types for fix ts errors ([a665c36](https://glab.lad24.ru/npm/mobydick/commit/a665c363a217d433e059fc485b90289abe23f300))
+* **Carousel:** add state for right scroll ([8829e79](https://glab.lad24.ru/npm/mobydick/commit/8829e7932e7d0d2760762061d025874c6db95b61))
+* **Collapsible:** delete height to header ([1b3ebed](https://glab.lad24.ru/npm/mobydick/commit/1b3ebedd688007bd14e98abc5fc7cbf45e4d5b6e))
+* **PanelHeader:** case, when only rightView ([ded1f6b](https://glab.lad24.ru/npm/mobydick/commit/ded1f6b20954ae2955d441302a4d8fdd4dd975c3))
+* ref type DropDown ([bbfb4bc](https://glab.lad24.ru/npm/mobydick/commit/bbfb4bcb6bdf9f8b9a18e7331de7eedd40bb0fd7))
+
 # [7.4.0](https://glab.lad24.ru/npm/mobydick/compare/v7.3.2...v7.4.0) (2023-03-30)
 
 
