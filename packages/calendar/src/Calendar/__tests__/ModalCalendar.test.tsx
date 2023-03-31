@@ -6,7 +6,7 @@ import ModalCalendar from '../ModalCalendar';
 
 describe('ModalCalendar', () => {
   beforeAll(() => {
-    jest.useFakeTimers('modern');
+    jest.useFakeTimers();
     jest.setSystemTime(new Date('2022-07-15'));
   });
   afterAll(() => {

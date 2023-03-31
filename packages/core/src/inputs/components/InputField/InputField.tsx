@@ -1,5 +1,9 @@
 import React, {forwardRef, useCallback, useMemo, useState} from 'react';
-import {Platform} from 'react-native';
+import {
+  NativeSyntheticEvent,
+  Platform,
+  TextInputFocusEventData,
+} from 'react-native';
 
 import {IInputsTypes} from '../types';
 import {InputSubtitle, InputTitle} from '../Base';
@@ -66,7 +70,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
   }, [fontStyle.color]);
 
   const onFocusInput = useCallback(
-    event => {
+    (event: NativeSyntheticEvent<TextInputFocusEventData>) => {
       setFocused(true);
       onFocus?.(event);
     },
@@ -74,7 +78,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
   );
 
   const onBlurInput = useCallback(
-    event => {
+    (event: NativeSyntheticEvent<TextInputFocusEventData>) => {
       setFocused(false);
       onBlur?.(event);
     },

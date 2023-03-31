@@ -99,6 +99,7 @@ exports[`Carousel render Carousel 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -113,7 +114,19 @@ exports[`Carousel render Carousel 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -150,6 +163,7 @@ exports[`Carousel render Carousel 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -164,7 +178,19 @@ exports[`Carousel render Carousel 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -201,6 +227,7 @@ exports[`Carousel render Carousel 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -215,7 +242,19 @@ exports[`Carousel render Carousel 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -252,6 +291,7 @@ exports[`Carousel render Carousel 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -266,7 +306,19 @@ exports[`Carousel render Carousel 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -303,6 +355,7 @@ exports[`Carousel render Carousel 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -317,7 +370,19 @@ exports[`Carousel render Carousel 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -354,6 +419,7 @@ exports[`Carousel render Carousel 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -368,7 +434,19 @@ exports[`Carousel render Carousel 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -405,6 +483,7 @@ exports[`Carousel render Carousel 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -419,7 +498,19 @@ exports[`Carousel render Carousel 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -625,6 +716,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -639,7 +731,19 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -676,6 +780,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -690,7 +795,19 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -727,6 +844,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -741,7 +859,19 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -778,6 +908,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -792,7 +923,19 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -829,6 +972,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -843,7 +987,19 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -880,6 +1036,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -894,7 +1051,19 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -931,6 +1100,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -945,7 +1115,19 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -982,6 +1164,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -996,7 +1179,19 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1033,6 +1228,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1047,7 +1243,19 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1084,6 +1292,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1098,7 +1307,19 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1263,6 +1484,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
       />
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1277,7 +1499,19 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1314,6 +1548,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1328,7 +1563,19 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1365,6 +1612,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1379,7 +1627,19 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1416,6 +1676,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1430,7 +1691,19 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1467,6 +1740,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1481,7 +1755,19 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1518,6 +1804,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1532,7 +1819,19 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1569,6 +1868,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1583,7 +1883,19 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1733,6 +2045,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1747,7 +2060,19 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1784,6 +2109,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1798,7 +2124,19 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1835,6 +2173,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1849,7 +2188,19 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1886,6 +2237,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1900,7 +2252,19 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1937,6 +2301,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -1951,7 +2316,19 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -1988,6 +2365,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2002,7 +2380,19 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2039,6 +2429,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2053,7 +2444,19 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2203,6 +2606,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2217,7 +2621,19 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2254,6 +2670,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2268,7 +2685,19 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2305,6 +2734,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2319,7 +2749,19 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2356,6 +2798,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2370,7 +2813,19 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2407,6 +2862,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2421,7 +2877,19 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2458,6 +2926,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2472,7 +2941,19 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2509,6 +2990,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2523,7 +3005,19 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2729,6 +3223,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2743,7 +3238,19 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2780,6 +3287,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2794,7 +3302,19 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2831,6 +3351,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2845,7 +3366,19 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2882,6 +3415,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2896,7 +3430,19 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2933,6 +3479,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2947,7 +3494,19 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -2984,6 +3543,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -2998,7 +3558,19 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3035,6 +3607,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3049,7 +3622,19 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3086,6 +3671,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3100,7 +3686,19 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3137,6 +3735,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3151,7 +3750,19 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3188,6 +3799,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3202,7 +3814,19 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3415,6 +4039,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3429,7 +4054,19 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3466,6 +4103,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3480,7 +4118,19 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3517,6 +4167,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3531,7 +4182,19 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3568,6 +4231,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3582,7 +4246,19 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3619,6 +4295,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3633,7 +4310,19 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3670,6 +4359,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3684,7 +4374,19 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3721,6 +4423,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3735,7 +4438,19 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3772,6 +4487,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3786,7 +4502,19 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3823,6 +4551,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3837,7 +4566,19 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -3874,6 +4615,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -3888,7 +4630,19 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -4046,6 +4800,7 @@ exports[`Carousel render Carousel isDots 1`] = `
         onLayout={[Function]}
       />
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={
           [
@@ -4060,7 +4815,19 @@ exports[`Carousel render Carousel isDots 1`] = `
           accessibilityLabel="carouselItem"
           accessibilityState={
             {
+              "busy": undefined,
+              "checked": undefined,
               "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -4097,6 +4864,7 @@ exports[`Carousel render Carousel isDots 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={
           [
@@ -4111,7 +4879,19 @@ exports[`Carousel render Carousel isDots 1`] = `
           accessibilityLabel="carouselItem"
           accessibilityState={
             {
+              "busy": undefined,
+              "checked": undefined,
               "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -4148,6 +4928,7 @@ exports[`Carousel render Carousel isDots 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={
           [
@@ -4162,7 +4943,19 @@ exports[`Carousel render Carousel isDots 1`] = `
           accessibilityLabel="carouselItem"
           accessibilityState={
             {
+              "busy": undefined,
+              "checked": undefined,
               "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -4199,6 +4992,7 @@ exports[`Carousel render Carousel isDots 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={
           [
@@ -4213,7 +5007,19 @@ exports[`Carousel render Carousel isDots 1`] = `
           accessibilityLabel="carouselItem"
           accessibilityState={
             {
+              "busy": undefined,
+              "checked": undefined,
               "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -4250,6 +5056,7 @@ exports[`Carousel render Carousel isDots 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={
           [
@@ -4264,7 +5071,19 @@ exports[`Carousel render Carousel isDots 1`] = `
           accessibilityLabel="carouselItem"
           accessibilityState={
             {
+              "busy": undefined,
+              "checked": undefined,
               "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -4301,6 +5120,7 @@ exports[`Carousel render Carousel isDots 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={
           [
@@ -4315,7 +5135,19 @@ exports[`Carousel render Carousel isDots 1`] = `
           accessibilityLabel="carouselItem"
           accessibilityState={
             {
+              "busy": undefined,
+              "checked": undefined,
               "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -4352,6 +5184,7 @@ exports[`Carousel render Carousel isDots 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={
           [
@@ -4366,7 +5199,19 @@ exports[`Carousel render Carousel isDots 1`] = `
           accessibilityLabel="carouselItem"
           accessibilityState={
             {
+              "busy": undefined,
+              "checked": undefined,
               "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -4634,6 +5479,7 @@ exports[`Carousel render Carousel loading 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -4648,7 +5494,19 @@ exports[`Carousel render Carousel loading 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -4685,6 +5543,7 @@ exports[`Carousel render Carousel loading 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -4699,7 +5558,19 @@ exports[`Carousel render Carousel loading 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -4736,6 +5607,7 @@ exports[`Carousel render Carousel loading 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -4750,7 +5622,19 @@ exports[`Carousel render Carousel loading 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -4787,6 +5671,7 @@ exports[`Carousel render Carousel loading 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -4801,7 +5686,19 @@ exports[`Carousel render Carousel loading 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -4838,6 +5735,7 @@ exports[`Carousel render Carousel loading 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -4852,7 +5750,19 @@ exports[`Carousel render Carousel loading 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -4889,6 +5799,7 @@ exports[`Carousel render Carousel loading 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -4903,7 +5814,19 @@ exports[`Carousel render Carousel loading 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -4940,6 +5863,7 @@ exports[`Carousel render Carousel loading 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -4954,7 +5878,19 @@ exports[`Carousel render Carousel loading 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5104,6 +6040,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5118,7 +6055,19 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5155,6 +6104,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5169,7 +6119,19 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5206,6 +6168,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5220,7 +6183,19 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5257,6 +6232,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5271,7 +6247,19 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5308,6 +6296,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5322,7 +6311,19 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5359,6 +6360,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5373,7 +6375,19 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5410,6 +6424,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5424,7 +6439,19 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5574,6 +6601,7 @@ exports[`Carousel render Carousel not index 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5588,7 +6616,19 @@ exports[`Carousel render Carousel not index 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5625,6 +6665,7 @@ exports[`Carousel render Carousel not index 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5639,7 +6680,19 @@ exports[`Carousel render Carousel not index 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5676,6 +6729,7 @@ exports[`Carousel render Carousel not index 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5690,7 +6744,19 @@ exports[`Carousel render Carousel not index 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5727,6 +6793,7 @@ exports[`Carousel render Carousel not index 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5741,7 +6808,19 @@ exports[`Carousel render Carousel not index 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5778,6 +6857,7 @@ exports[`Carousel render Carousel not index 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5792,7 +6872,19 @@ exports[`Carousel render Carousel not index 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5829,6 +6921,7 @@ exports[`Carousel render Carousel not index 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5843,7 +6936,19 @@ exports[`Carousel render Carousel not index 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -5880,6 +6985,7 @@ exports[`Carousel render Carousel not index 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -5894,7 +7000,19 @@ exports[`Carousel render Carousel not index 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6044,6 +7162,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6058,7 +7177,19 @@ exports[`Carousel render Carousel not scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6095,6 +7226,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6109,7 +7241,19 @@ exports[`Carousel render Carousel not scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6146,6 +7290,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6160,7 +7305,19 @@ exports[`Carousel render Carousel not scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6197,6 +7354,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6211,7 +7369,19 @@ exports[`Carousel render Carousel not scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6248,6 +7418,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6262,7 +7433,19 @@ exports[`Carousel render Carousel not scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6299,6 +7482,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6313,7 +7497,19 @@ exports[`Carousel render Carousel not scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6350,6 +7546,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6364,7 +7561,19 @@ exports[`Carousel render Carousel not scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6514,6 +7723,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6528,7 +7738,19 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6565,6 +7787,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6579,7 +7802,19 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6616,6 +7851,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6630,7 +7866,19 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6667,6 +7915,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6681,7 +7930,19 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6718,6 +7979,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6732,7 +7994,19 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6769,6 +8043,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6783,7 +8058,19 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -6820,6 +8107,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -6834,7 +8122,19 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7040,6 +8340,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7054,7 +8355,19 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7091,6 +8404,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7105,7 +8419,19 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7142,6 +8468,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7156,7 +8483,19 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7193,6 +8532,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7207,7 +8547,19 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7244,6 +8596,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7258,7 +8611,19 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7295,6 +8660,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7309,7 +8675,19 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7346,6 +8724,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7360,7 +8739,19 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7397,6 +8788,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7411,7 +8803,19 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7448,6 +8852,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7462,7 +8867,19 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7499,6 +8916,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7513,7 +8931,19 @@ exports[`Carousel render Carousel onPressItem 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7726,6 +9156,7 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7740,7 +9171,19 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7777,6 +9220,7 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7791,7 +9235,19 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7828,6 +9284,7 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7842,7 +9299,19 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7879,6 +9348,7 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7893,7 +9363,19 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7930,6 +9412,7 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7944,7 +9427,19 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -7981,6 +9476,7 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -7995,7 +9491,19 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8032,6 +9540,7 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8046,7 +9555,19 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8083,6 +9604,7 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8097,7 +9619,19 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8134,6 +9668,7 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8148,7 +9683,19 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8185,6 +9732,7 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8199,7 +9747,19 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8356,6 +9916,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8370,7 +9931,19 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8407,6 +9980,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8421,7 +9995,19 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8458,6 +10044,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8472,7 +10059,19 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8509,6 +10108,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8523,7 +10123,19 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8560,6 +10172,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8574,7 +10187,19 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8611,6 +10236,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8625,7 +10251,19 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8662,6 +10300,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8676,7 +10315,19 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8826,6 +10477,7 @@ exports[`Carousel render Carousel scroll 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8840,7 +10492,19 @@ exports[`Carousel render Carousel scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8877,6 +10541,7 @@ exports[`Carousel render Carousel scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8891,7 +10556,19 @@ exports[`Carousel render Carousel scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8928,6 +10605,7 @@ exports[`Carousel render Carousel scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8942,7 +10620,19 @@ exports[`Carousel render Carousel scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -8979,6 +10669,7 @@ exports[`Carousel render Carousel scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -8993,7 +10684,19 @@ exports[`Carousel render Carousel scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9030,6 +10733,7 @@ exports[`Carousel render Carousel scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9044,7 +10748,19 @@ exports[`Carousel render Carousel scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9081,6 +10797,7 @@ exports[`Carousel render Carousel scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9095,7 +10812,19 @@ exports[`Carousel render Carousel scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9132,6 +10861,7 @@ exports[`Carousel render Carousel scroll 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9146,7 +10876,19 @@ exports[`Carousel render Carousel scroll 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9304,6 +11046,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
       />
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9318,7 +11061,19 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9355,6 +11110,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9369,7 +11125,19 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9406,6 +11174,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9420,7 +11189,19 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9457,6 +11238,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9471,7 +11253,19 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9508,6 +11302,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9522,7 +11317,19 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9559,6 +11366,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9573,7 +11381,19 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9610,6 +11430,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9624,7 +11445,19 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9782,6 +11615,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
       />
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9796,7 +11630,19 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9833,6 +11679,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9847,7 +11694,19 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9884,6 +11743,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9898,7 +11758,19 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9935,6 +11807,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -9949,7 +11822,19 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -9986,6 +11871,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10000,7 +11886,19 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10037,6 +11935,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10051,7 +11950,19 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10088,6 +11999,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10102,7 +12014,19 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10260,6 +12184,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
       />
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10274,7 +12199,19 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10311,6 +12248,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10325,7 +12263,19 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10362,6 +12312,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10376,7 +12327,19 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10413,6 +12376,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10427,7 +12391,19 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10464,6 +12440,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10478,7 +12455,19 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10515,6 +12504,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10529,7 +12519,19 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10566,6 +12568,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10580,7 +12583,19 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10738,6 +12753,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
       />
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10752,7 +12768,19 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10789,6 +12817,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10803,7 +12832,19 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10840,6 +12881,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10854,7 +12896,19 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10891,6 +12945,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10905,7 +12960,19 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10942,6 +13009,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -10956,7 +13024,19 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -10993,6 +13073,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11007,7 +13088,19 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11044,6 +13137,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11058,7 +13152,19 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11264,6 +13370,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       onLayout={[Function]}
     />
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11278,7 +13385,19 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11315,6 +13434,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11329,7 +13449,19 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11366,6 +13498,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11380,7 +13513,19 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11417,6 +13562,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11431,7 +13577,19 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11468,6 +13626,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11482,7 +13641,19 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11519,6 +13690,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11533,7 +13705,19 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11570,6 +13754,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11584,7 +13769,19 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11621,6 +13818,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11635,7 +13833,19 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11672,6 +13882,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11686,7 +13897,19 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}
@@ -11723,6 +13946,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
       </View>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={
         [
@@ -11737,7 +13961,19 @@ exports[`Carousel render Carousel sideMargin 1`] = `
         accessibilityLabel="carouselItem"
         accessibilityState={
           {
+            "busy": undefined,
+            "checked": undefined,
             "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
           }
         }
         accessible={true}

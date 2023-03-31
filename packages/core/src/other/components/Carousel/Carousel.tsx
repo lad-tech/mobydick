@@ -1,5 +1,11 @@
 import React, {useCallback, useRef, useState} from 'react';
-import {Dimensions, FlatList, NativeScrollEvent, ViewToken} from 'react-native';
+import {
+  Dimensions,
+  FlatList,
+  NativeScrollEvent,
+  NativeSyntheticEvent,
+  ViewToken,
+} from 'react-native';
 
 import rem from '../../../styles/spaces/rem';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
@@ -11,6 +17,12 @@ import View from '../../../basic/components/View/View';
 import stylesCreate from './stylesCreate';
 import {ICarouselAlign, ICarouselProps} from './types';
 import EmptyFirstItem from './components/EmptyFirstItem';
+
+interface IError {
+  index: number;
+  highestMeasuredFrameIndex: number;
+  averageItemLength: number;
+}
 
 const {width} = Dimensions.get('window');
 
@@ -88,14 +100,14 @@ const Carousel = <T,>({
   }, [initScroll, activeItemId]);
 
   const onPress = useCallback(
-    item => () => {
+    (item: T) => () => {
       !loading && onPressItem && onPressItem(item);
     },
     [loading, onPressItem],
   );
 
   const keExtractorDefault = useCallback(
-    (item, index) => {
+    (item: T, index: number) => {
       return isLoop ? String(index) : keyExtractor(item);
     },
     [keyExtractor, isLoop],
@@ -116,7 +128,7 @@ const Carousel = <T,>({
     [data, onPress],
   );
   const onScrollToIndexFailed = useCallback(
-    error => {
+    (error: IError) => {
       if (averageItemLength) {
         ref.current?.scrollToOffset({
           offset: averageItemLength * error.index,
@@ -127,8 +139,8 @@ const Carousel = <T,>({
     [averageItemLength, animateAutoScroll],
   );
   const onScroll = useCallback(
-    ({nativeEvent}) => {
-      isLoop && checkScroll(nativeEvent);
+    (event: NativeSyntheticEvent<NativeScrollEvent>) => {
+      isLoop && checkScroll(event.nativeEvent);
     },
     [isLoop, checkScroll],
   );

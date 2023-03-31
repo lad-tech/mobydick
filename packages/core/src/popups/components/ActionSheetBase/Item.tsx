@@ -15,7 +15,7 @@ const Item: FC<IPropsItem> = props => {
   const {colors} = useTheme();
 
   const getStyle = useCallback(
-    ({pressed}) => [
+    ({pressed}: {pressed: boolean}) => [
       styles.item,
       {backgroundColor: pressed ? colors.BgSecondary : colors.BgPrimary},
       style,

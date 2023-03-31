@@ -3,6 +3,23 @@
 exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -68,6 +85,23 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item 1`] = 
 exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with  textFont 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -133,6 +167,23 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with  
 exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !selected 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -212,7 +263,19 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
     <View
       accessibilityState={
         {
+          "busy": undefined,
+          "checked": undefined,
           "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
         }
       }
       accessible={true}
@@ -250,7 +313,19 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with d
   accessibilityLabel="actionSheetsItem"
   accessibilityState={
     {
+      "busy": undefined,
+      "checked": undefined,
       "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
     }
   }
   accessible={true}
@@ -318,6 +393,23 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with d
 exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with leftIcon 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -403,6 +495,23 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
 exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with selected 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
   accessible={true}
   collapsable={false}
   focusable={true}
@@ -477,6 +586,23 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
     }
   >
     <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
       accessible={true}
       collapsable={false}
       focusable={true}
@@ -512,6 +638,23 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
 exports[`@npm/mobydick-core/ActionSheetBase should renders correctly inner item 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
   accessible={true}
   collapsable={false}
   focusable={true}
