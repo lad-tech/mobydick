@@ -26,6 +26,7 @@ const PanelHeaderExample = () => {
   const title = text('title', 'Title');
   const subtitle = text('subtitle', 'Subtitle');
   const isRightView = boolean('isRightView', false);
+  const isLeftView = boolean('isLeftView', false);
 
   switch (select('panelHeader', IPanelHeader, IPanelHeader.icon)) {
     case IPanelHeader.onlyText:
@@ -34,9 +35,11 @@ const PanelHeaderExample = () => {
           title={title}
           subtitle={subtitle}
           leftView={
-            <TouchableOpacity>
-              <Typography font={'Regular-Accent-XS'}>{'Отменить'}</Typography>
-            </TouchableOpacity>
+            isLeftView && (
+              <TouchableOpacity>
+                <Typography font={'Regular-Accent-XS'}>{'Отменить'}</Typography>
+              </TouchableOpacity>
+            )
           }
           rightView={
             isRightView && (
@@ -54,9 +57,11 @@ const PanelHeaderExample = () => {
           title={title}
           subtitle={subtitle}
           leftView={
-            <TouchableOpacity style={styles.button}>
-              <SimpleIcon name={'icon-arrow-left'} />
-            </TouchableOpacity>
+            isLeftView && (
+              <TouchableOpacity style={styles.button}>
+                <SimpleIcon name={'icon-arrow-left'} />
+              </TouchableOpacity>
+            )
           }
           rightView={
             isRightView && (
@@ -74,10 +79,12 @@ const PanelHeaderExample = () => {
           title={title}
           subtitle={subtitle}
           leftView={
-            <View style={{flexDirection: 'row'}}>
-              <SimpleIcon name={'icon-share'} />
-              <SimpleIcon name={'icon-copy'} style={styles.icon} />
-            </View>
+            isLeftView && (
+              <View style={{flexDirection: 'row'}}>
+                <SimpleIcon name={'icon-share'} />
+                <SimpleIcon name={'icon-copy'} style={styles.icon} />
+              </View>
+            )
           }
           rightView={
             isRightView && (
@@ -97,9 +104,11 @@ const PanelHeaderExample = () => {
           title={title}
           subtitle={subtitle}
           leftView={
-            <SimpleIcon
-              name={select('left Icon', iconNames, 'icon-calendar')}
-            />
+            isLeftView && (
+              <SimpleIcon
+                name={select('left Icon', iconNames, 'icon-calendar')}
+              />
+            )
           }
           rightView={
             isRightView && (

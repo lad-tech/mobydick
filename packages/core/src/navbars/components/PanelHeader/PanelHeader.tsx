@@ -29,21 +29,30 @@ const PanelHeader: FC<IPanelHeaderProps> = props => {
 
   const [styles] = useStyles(createStyles);
   const [widthLeftView, setWidthLeftView] = useState(rem(24));
+  const [widthRightView, setWidthRightView] = useState(rem(24));
 
   const onLayoutLeftView = useCallback((event: LayoutChangeEvent) => {
     setWidthLeftView(event.nativeEvent.layout.width);
+  }, []);
+
+  const onLayoutRightView = useCallback((event: LayoutChangeEvent) => {
+    setWidthRightView(event.nativeEvent.layout.width);
   }, []);
 
   return (
     <View style={[styles.commonView, commonViewStyle]}>
       <SafeAreaView edges={['top']}>
         <View style={[styles.container, containerStyle]}>
-          <View
-            style={[styles.leftView, leftViewStyle]}
-            onLayout={onLayoutLeftView}
-            accessibilityLabel={LABELS.panelHeaderLeftView}>
-            {leftView}
-          </View>
+          {leftView ? (
+            <View
+              style={[styles.leftView, leftViewStyle]}
+              onLayout={onLayoutLeftView}
+              accessibilityLabel={LABELS.panelHeaderLeftView}>
+              {leftView}
+            </View>
+          ) : (
+            <View style={{width: widthRightView}} />
+          )}
 
           <View style={[styles.titleView, titleViewStyle]}>
             {titleView || (
@@ -69,7 +78,12 @@ const PanelHeader: FC<IPanelHeaderProps> = props => {
           </View>
 
           {rightView ? (
-            <View style={[styles.rightView, rightViewStyle]}>{rightView}</View>
+            <View
+              style={[styles.rightView, rightViewStyle]}
+              onLayout={onLayoutRightView}
+              accessibilityLabel={LABELS.panelHeaderRightView}>
+              {rightView}
+            </View>
           ) : (
             <View style={{width: widthLeftView}} />
           )}

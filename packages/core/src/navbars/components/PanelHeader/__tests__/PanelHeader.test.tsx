@@ -69,4 +69,29 @@ describe('Tab', () => {
       });
     });
   });
+  test('render panelHeader only rightView', () => {
+    const {toJSON, getByLabelText} = render(
+      <PanelHeader
+        title={'title'}
+        subtitle={'Subtitle'}
+        containerStyle={{backgroundColor: '#000'}}
+        titleStyle={{flex: 1}}
+        subtitleStyle={{flex: 1}}
+        titleViewStyle={{flex: 1}}
+        rightViewStyle={{flex: 1}}
+        commonViewStyle={{flex: 1}}
+        rightView={<SimpleIcon name={'icon-calendar'} />}
+        titleView={<></>}
+        titleFont={'SemiBold-Secondary-L'}
+        subtitleFont={'SemiBold-Secondary-M'}
+      />,
+    );
+    const layout = getByLabelText(LABELS.panelHeaderRightView);
+    expect(toJSON()).toMatchSnapshot();
+    act(() => {
+      fireEvent(layout, 'layout', {
+        nativeEvent: {layout: {width: 100}},
+      });
+    });
+  });
 });
