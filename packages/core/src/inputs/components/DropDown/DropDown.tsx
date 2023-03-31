@@ -4,11 +4,11 @@ import {IInputsTypes} from '../types';
 import {InputSubtitle, InputTitle} from '../Base';
 import usePopups from '../../../popups/hooks/usePopups';
 import useStyles from '../../../styles/theme/hooks/useStyles';
-import {ITouchableOpacity} from '../../../basic/components/TouchableOpacity/types';
 import View from '../../../basic/components/View/View';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import {Typography} from '../../../typography/components/Typography/Typography';
 import {LABELS} from '../../../other';
+import {IView} from '../../../basic/components/View/types';
 
 import Selector from './components/Selector';
 import DropDownIcon from './components/DropDownIcon';
@@ -77,7 +77,7 @@ function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
     isOpen,
   );
 
-  const dropDownRef = useRef<ITouchableOpacity>(null);
+  const dropDownRef = useRef<IView>(null);
 
   const renderItemOnPress = useCallback(
     (item: IListItem<S>) => {

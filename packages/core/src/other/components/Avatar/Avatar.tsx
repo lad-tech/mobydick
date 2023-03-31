@@ -1,5 +1,5 @@
 import React, {FC, useCallback, useState} from 'react';
-import {Image, ImageErrorEventData} from 'react-native';
+import {Image, ImageErrorEventData, NativeSyntheticEvent} from 'react-native';
 
 import View from '../../../basic/components/View/View';
 import useStyles from '../../../styles/theme/hooks/useStyles';
@@ -26,9 +26,12 @@ const Avatar: FC<IAvatarProps> = props => {
 
   const [error, setError] = useState<ImageErrorEventData>();
 
-  const onError = useCallback(e => {
-    setError(e.nativeEvent);
-  }, []);
+  const onError = useCallback(
+    (e: NativeSyntheticEvent<ImageErrorEventData>) => {
+      setError(e.nativeEvent);
+    },
+    [],
+  );
 
   if (!user) {
     return null;

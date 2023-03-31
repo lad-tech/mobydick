@@ -27,6 +27,7 @@ exports[`@npm/mobydick-core/FlatList renders correctly 1`] = `
 >
   <View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -37,6 +38,7 @@ exports[`@npm/mobydick-core/FlatList renders correctly 1`] = `
       </Text>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >
@@ -47,6 +49,7 @@ exports[`@npm/mobydick-core/FlatList renders correctly 1`] = `
       </Text>
     </View>
     <View
+      onFocusCapture={[Function]}
       onLayout={[Function]}
       style={null}
     >

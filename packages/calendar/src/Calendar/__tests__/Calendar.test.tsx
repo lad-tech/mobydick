@@ -6,7 +6,7 @@ import {LABELS} from '../constants';
 
 describe('Calendar', () => {
   beforeAll(() => {
-    jest.useFakeTimers('modern');
+    jest.useFakeTimers();
     jest.setSystemTime(new Date('2022-07-15'));
   });
   afterAll(() => {

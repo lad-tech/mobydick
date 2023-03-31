@@ -1,4 +1,5 @@
 import React, {forwardRef, useCallback, useState} from 'react';
+import {NativeSyntheticEvent, TextInputKeyPressEventData} from 'react-native';
 
 import {ITextInput} from '../../../basic/components/TextInput/types';
 import {useFont} from '../../../typography';
@@ -31,7 +32,7 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
   const onFocus = useCallback(() => setFocused(true), []);
   const onBlur = useCallback(() => setFocused(false), []);
   const onKeyPress = useCallback(
-    e => {
+    (e: NativeSyntheticEvent<TextInputKeyPressEventData>) => {
       if (onBackKeyPress && e.nativeEvent.key === 'Backspace') {
         onBackKeyPress();
       }

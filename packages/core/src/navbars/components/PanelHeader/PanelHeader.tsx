@@ -1,5 +1,5 @@
 import React, {FC, useCallback, useState} from 'react';
-import {StyleSheet} from 'react-native';
+import {LayoutChangeEvent, StyleSheet} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 
 import View from '../../../basic/components/View/View';
@@ -30,7 +30,7 @@ const PanelHeader: FC<IPanelHeaderProps> = props => {
   const [styles] = useStyles(createStyles);
   const [widthLeftView, setWidthLeftView] = useState(rem(24));
 
-  const onLayoutLeftView = useCallback(event => {
+  const onLayoutLeftView = useCallback((event: LayoutChangeEvent) => {
     setWidthLeftView(event.nativeEvent.layout.width);
   }, []);
 

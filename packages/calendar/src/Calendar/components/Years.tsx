@@ -31,7 +31,7 @@ const Years: FC<IYears> = props => {
   );
 
   const getStyle = useCallback(
-    ({pressed}) => [
+    ({pressed}: {pressed: boolean}) => [
       styles.year,
       {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
     ],

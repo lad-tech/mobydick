@@ -31,7 +31,7 @@ const Months: FC<IMonths> = props => {
   );
 
   const getStyle = useCallback(
-    ({pressed}) => [
+    ({pressed}: {pressed: boolean}) => [
       styles.month,
       {backgroundColor: pressed ? colors.BgAccentSoft : colors.BgPrimary},
     ],

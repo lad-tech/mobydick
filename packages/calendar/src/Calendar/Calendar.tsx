@@ -238,7 +238,7 @@ const Calendar: FC<ICalendar> = props => {
     }
   }, [isClear]);
 
-  const onPressMonth = useCallback(monthIndex => {
+  const onPressMonth = useCallback((monthIndex: number) => {
     setCurrentMonthIndex(monthIndex);
     setSelectionState(ISelectionState.days);
   }, []);
@@ -248,7 +248,7 @@ const Calendar: FC<ICalendar> = props => {
     [],
   );
 
-  const onPressYear = useCallback(year => {
+  const onPressYear = useCallback((year: number) => {
     setCurrentYear(year);
     setSelectionState(ISelectionState.months);
   }, []);
