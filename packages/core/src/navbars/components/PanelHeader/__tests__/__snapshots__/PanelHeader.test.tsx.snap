@@ -79,6 +79,8 @@ exports[`Tab render panelHeader 1`] = `
         }
       />
       <View
+        accessibilityLabel="panelHeaderRightView"
+        onLayout={[Function]}
         style={
           [
             {
@@ -199,6 +201,96 @@ exports[`Tab render panelHeader only leftView 1`] = `
 </View>
 `;
 
+exports[`Tab render panelHeader only rightView 1`] = `
+<View
+  style={
+    [
+      {
+        "width": "100%",
+      },
+      {
+        "flex": 1,
+      },
+    ]
+  }
+>
+  <RNCSafeAreaView
+    edges={
+      [
+        "top",
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 90,
+            "justifyContent": "space-between",
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
+          },
+          {
+            "backgroundColor": "#000",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "width": 36,
+          }
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "flex": 2,
+              "paddingHorizontal": 12,
+            },
+            {
+              "flex": 1,
+            },
+          ]
+        }
+      />
+      <View
+        accessibilityLabel="panelHeaderRightView"
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "alignItems": "flex-end",
+              "maxWidth": 144,
+            },
+            {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;
+
 exports[`Tab render panelHeader with subtitle 1`] = `
 <View
   style={
@@ -233,16 +325,10 @@ exports[`Tab render panelHeader with subtitle 1`] = `
       }
     >
       <View
-        accessibilityLabel="panelHeaderLeftView"
-        onLayout={[Function]}
         style={
-          [
-            {
-              "alignItems": "flex-start",
-              "maxWidth": 144,
-            },
-            undefined,
-          ]
+          {
+            "width": 36,
+          }
         }
       />
       <View
@@ -333,16 +419,10 @@ exports[`Tab render panelHeader with title 1`] = `
       }
     >
       <View
-        accessibilityLabel="panelHeaderLeftView"
-        onLayout={[Function]}
         style={
-          [
-            {
-              "alignItems": "flex-start",
-              "maxWidth": 144,
-            },
-            undefined,
-          ]
+          {
+            "width": 36,
+          }
         }
       />
       <View
@@ -433,16 +513,10 @@ exports[`Tab render panelHeader without props 1`] = `
       }
     >
       <View
-        accessibilityLabel="panelHeaderLeftView"
-        onLayout={[Function]}
         style={
-          [
-            {
-              "alignItems": "flex-start",
-              "maxWidth": 144,
-            },
-            undefined,
-          ]
+          {
+            "width": 36,
+          }
         }
       />
       <View
