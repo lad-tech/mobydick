@@ -33,7 +33,7 @@ const Carousel = <T,>({
   const ref = useRef<FlatList>(null);
   const [styles] = useStyles(stylesCreate, sideMargin);
   const [slidePosition, setSlidePosition] = useState<number>(0);
-  const [infinityData] = useState([...data, ...data, ...data]);
+  const [infinityData, setInfinityData] = useState([...data, ...data, ...data]);
   const emptySpace = isLoop ? 0 : width - itemWidth - sideMargin * 2;
   const emptySpaceFirstItem = emptySpace / 2;
   const emptySpaceLastItem =
@@ -72,25 +72,17 @@ const Carousel = <T,>({
   ]);
 
   const checkScroll = useCallback(
-    ({layoutMeasurement, contentOffset, contentSize}: NativeScrollEvent) => {
+    ({contentOffset}: NativeScrollEvent) => {
       if (!contentOffset.x) {
         ref.current?.scrollToOffset({
           offset: widthSnap * data.length,
           animated: false,
         });
       }
-      if (
-        Math.floor(contentOffset.x + layoutMeasurement.width) ===
-        Math.floor(contentSize.width)
-      ) {
-        ref.current?.scrollToOffset({
-          offset: widthSnap * data.length,
-          animated: false,
-        });
-      }
     },
-    [],
+    [widthSnap, data.length],
   );
+
   const onLayout = useCallback(() => {
     activeItemId && initScroll();
   }, [initScroll, activeItemId]);
@@ -139,6 +131,10 @@ const Carousel = <T,>({
       isLoop && checkScroll(nativeEvent);
     },
     [isLoop, checkScroll],
+  );
+  const onEndReached = useCallback(
+    () => setInfinityData([...infinityData, ...data]),
+    [data, infinityData],
   );
 
   const visibleElementsCount = Math.floor(width / widthSnap);
@@ -189,6 +185,8 @@ const Carousel = <T,>({
         bounces={false}
         scrollEventThrottle={16}
         onScroll={onScroll}
+        onEndReached={onEndReached}
+        onEndReachedThreshold={0.3}
         ListHeaderComponent={
           <EmptyFirstItem align={align} width={emptySpaceFirstItem} />
         }
