@@ -25,9 +25,6 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
   const distance = useRef<number>(defaultState);
 
   useEffect(() => {
-    if (disabled) {
-      return;
-    }
     if (active) {
       return swipeRight();
     } else {
