@@ -30,6 +30,17 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
     onPress(isActive);
   }, [isActive]);
 
+  useEffect(() => {
+    if (disabled) {
+      return;
+    }
+    if (active) {
+      return swipeRight();
+    } else {
+      return swipeLeft();
+    }
+  }, [active, disabled]);
+
   const swipeRight = () => {
     distance.current = rightPos;
     setActive(true);
@@ -51,6 +62,7 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
       easing: Easing.ease,
     }).start();
   };
+
   const handlePanResponderRelease = (
     _: GestureResponderEvent,
     gestureState: PanResponderGestureState,

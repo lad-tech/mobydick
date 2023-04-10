@@ -27,6 +27,17 @@ describe('Swipe', () => {
     });
     expect(toJSON()).toMatchSnapshot();
   });
+  it('should renders correctly by default active', function () {
+    const {getByLabelText, toJSON} = render(
+      <Swipe active={true} disabled={false} onPress={onPress} />,
+    );
+    const panHandler = getByLabelText(LABELS.swipe);
+    act(() => {
+      panHandler.props.onPanResponderMove(eventMock, {dx: 0});
+      panHandler.props.onPanResponderRelease(eventMock, {dx: 0});
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
   it('should renders correctly active', function () {
     const {toJSON} = render(
       <Swipe active={false} disabled={false} onPress={onPress} />,
