@@ -162,7 +162,7 @@ const Slider: React.FC<ISliderProps> = ({
     () =>
       PanResponder.create({
         onStartShouldSetPanResponderCapture: falseFunc,
-        onMoveShouldSetPanResponderCapture: falseFunc,
+        onMoveShouldSetPanResponderCapture: trueFunc,
         onPanResponderTerminationRequest: falseFunc,
         onPanResponderTerminate: trueFunc,
         onShouldBlockNativeResponder: trueFunc,
