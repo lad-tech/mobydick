@@ -160,6 +160,46 @@ exports[`Swipe should renders correctly by default - 1`] = `
 </View>
 `;
 
+exports[`Swipe should renders correctly by default active 1`] = `
+<View
+  accessibilityLabel="swipe"
+  collapsable={false}
+  needsOffscreenAlphaCompositing={true}
+  onMoveShouldSetPanResponder={[Function]}
+  onPanResponderGrant={[Function]}
+  onPanResponderMove={[Function]}
+  onPanResponderRelease={[Function]}
+  onStartShouldSetPanResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "rgba(182, 187, 198, 1)",
+      "borderRadius": 30,
+      "height": 45,
+      "opacity": 1,
+      "padding": 3,
+      "width": 75,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      {
+        "aspectRatio": 1,
+        "backgroundColor": "#FFF",
+        "borderRadius": 37.5,
+        "flex": 1,
+        "transform": [
+          {
+            "translateX": 0,
+          },
+        ],
+      }
+    }
+  />
+</View>
+`;
+
 exports[`Swipe should renders correctly disabled + 1`] = `
 <View
   accessibilityLabel="swipe"
