@@ -1,4 +1,4 @@
-import React, {FC, useEffect, useRef, useState} from 'react';
+import React, {FC, useEffect, useRef} from 'react';
 import {
   Animated,
   Easing,
@@ -24,12 +24,6 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
   const pan = useRef(new Animated.Value(defaultState)).current;
   const distance = useRef<number>(defaultState);
 
-  const [isActive, setActive] = useState(active);
-
-  useEffect(() => {
-    onPress(isActive);
-  }, [isActive]);
-
   useEffect(() => {
     if (disabled) {
       return;
@@ -43,7 +37,7 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
 
   const swipeRight = () => {
     distance.current = rightPos;
-    setActive(true);
+    onPress(true);
     Animated.timing(pan, {
       toValue: +rightPos,
       duration: 300,
@@ -54,7 +48,7 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
 
   const swipeLeft = () => {
     distance.current = leftPos;
-    setActive(false);
+    onPress(false);
     Animated.timing(pan, {
       toValue: +leftPos,
       duration: 300,
