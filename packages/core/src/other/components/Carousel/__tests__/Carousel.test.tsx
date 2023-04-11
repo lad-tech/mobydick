@@ -77,16 +77,15 @@ describe('Carousel', () => {
           onPressItem={item => console.log(item)}
           itemWidth={itemWidth}
           isLoop={true}
+          loading={false}
         />
       </SafeAreaProvider>,
     );
     const onPressItem = getAllByLabelText(LABELS.carouselItem);
-
-    onPressItem[0] && fireEvent.press(onPressItem[0]);
-    onPressItem[0] && fireEvent.scroll(onPressItem[0]);
     expect(toJSON()).toMatchSnapshot();
+    onPressItem[0] && fireEvent.press(onPressItem[0]);
   });
-  it('render Carousel onPressItem onScroll', () => {
+  it('render Carousel onPressItem loading', () => {
     const {toJSON, getAllByLabelText} = render(
       <SafeAreaProvider>
         <Carousel
@@ -96,6 +95,24 @@ describe('Carousel', () => {
           onPressItem={item => console.log(item)}
           itemWidth={itemWidth}
           isLoop={true}
+          loading={true}
+        />
+      </SafeAreaProvider>,
+    );
+    const onPressItem = getAllByLabelText(LABELS.carouselItem);
+
+    onPressItem[0] && fireEvent.press(onPressItem[0]);
+    onPressItem[0] && fireEvent.scroll(onPressItem[0]);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel onScroll', () => {
+    const {toJSON, getAllByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
     );
@@ -115,6 +132,49 @@ describe('Carousel', () => {
           activeItemId={'6'}
           itemWidth={itemWidth}
           isLoop={true}
+        />
+      </SafeAreaProvider>,
+    );
+    const carousel = getByLabelText(LABELS.carousel);
+
+    expect(toJSON()).toMatchSnapshot();
+    act(() => {
+      fireEvent(carousel, 'layout', {
+        nativeEvent: {layout: {height: 100}},
+      });
+    });
+  });
+  it('render Carousel initScroll isLoop', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          itemWidth={itemWidth}
+          isLoop={true}
+        />
+      </SafeAreaProvider>,
+    );
+    const carousel = getByLabelText(LABELS.carousel);
+
+    expect(toJSON()).toMatchSnapshot();
+    act(() => {
+      fireEvent(carousel, 'layout', {
+        nativeEvent: {layout: {height: 100}},
+      });
+    });
+  });
+  it('render Carousel initScroll isLoop align === center', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          itemWidth={itemWidth}
+          isLoop={true}
+          align={ICarouselAlign.center}
         />
       </SafeAreaProvider>,
     );
@@ -517,6 +577,29 @@ describe('Carousel', () => {
           keyExtractor={keyExtractor}
           onActiveChange={(item: IData) => console.log('item', item)}
           itemWidth={itemWidth}
+        />
+      </SafeAreaProvider>,
+    );
+
+    const carousel = getByLabelText(LABELS.carousel);
+
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [],
+      });
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel not index isLoop', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+          itemWidth={itemWidth}
+          isLoop={true}
         />
       </SafeAreaProvider>,
     );

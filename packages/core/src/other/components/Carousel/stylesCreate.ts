@@ -5,7 +5,7 @@ import {IThemeContext} from '../../../styles';
 const stylesCreate = (_theme: IThemeContext, sideMargin: number) => {
   return StyleSheet.create({
     item: {
-      marginHorizontal: sideMargin,
+      marginHorizontal: Math.floor(sideMargin),
       justifyContent: 'center',
       alignItems: 'center',
     },
