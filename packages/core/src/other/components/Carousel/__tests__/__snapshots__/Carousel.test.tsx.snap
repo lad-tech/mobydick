@@ -41,6 +41,7 @@ exports[`Carousel render Carousel 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -54,7 +55,7 @@ exports[`Carousel render Carousel 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -629,6 +630,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={14}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -642,7 +644,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -668,6 +670,262 @@ exports[`Carousel render Carousel activeItemId 1`] = `
   }
 >
   <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View
       onFocusCapture={[Function]}
       onLayout={[Function]}
@@ -1360,6 +1618,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -1373,7 +1632,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -1892,6 +2151,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -1905,7 +2165,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -2424,6 +2684,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -2437,7 +2698,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -3012,6 +3273,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={14}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -3025,7 +3287,7 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -3051,6 +3313,262 @@ exports[`Carousel render Carousel contentOffset = 0 1`] = `
   }
 >
   <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View
       onFocusCapture={[Function]}
       onLayout={[Function]}
@@ -3799,6 +4317,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={14}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -3812,7 +4331,7 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -3838,6 +4357,262 @@ exports[`Carousel render Carousel contentOffset = contentSize 1`] = `
   }
 >
   <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View
       onFocusCapture={[Function]}
       onLayout={[Function]}
@@ -4586,6 +5361,7 @@ exports[`Carousel render Carousel initScroll isLoop 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={14}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -4599,7 +5375,7 @@ exports[`Carousel render Carousel initScroll isLoop 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -4625,6 +5401,262 @@ exports[`Carousel render Carousel initScroll isLoop 1`] = `
   }
 >
   <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View
       onFocusCapture={[Function]}
       onLayout={[Function]}
@@ -5373,6 +6405,7 @@ exports[`Carousel render Carousel initScroll isLoop align === center 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={14}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -5386,7 +6419,7 @@ exports[`Carousel render Carousel initScroll isLoop align === center 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -5412,6 +6445,262 @@ exports[`Carousel render Carousel initScroll isLoop align === center 1`] = `
   }
 >
   <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View
       onFocusCapture={[Function]}
       onLayout={[Function]}
@@ -6105,6 +7394,7 @@ exports[`Carousel render Carousel isDots 1`] = `
     getItem={[Function]}
     getItemCount={[Function]}
     horizontal={true}
+    initialNumToRender={10}
     keyExtractor={[Function]}
     onContentSizeChange={[Function]}
     onEndReached={[Function]}
@@ -6118,7 +7408,7 @@ exports[`Carousel render Carousel isDots 1`] = `
     onScrollToIndexFailed={[Function]}
     onViewableItemsChanged={[Function]}
     pagingEnabled={true}
-    removeClippedSubviews={false}
+    removeClippedSubviews={true}
     renderItem={[Function]}
     scrollEventThrottle={16}
     showsHorizontalScrollIndicator={false}
@@ -6755,6 +8045,7 @@ exports[`Carousel render Carousel loading 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -6768,7 +8059,7 @@ exports[`Carousel render Carousel loading 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -7287,6 +8578,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -7300,7 +8592,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -7819,6 +9111,7 @@ exports[`Carousel render Carousel not index 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -7832,7 +9125,7 @@ exports[`Carousel render Carousel not index 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -8407,6 +9700,7 @@ exports[`Carousel render Carousel not index isLoop 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={14}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -8420,7 +9714,7 @@ exports[`Carousel render Carousel not index isLoop 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -8446,6 +9740,262 @@ exports[`Carousel render Carousel not index isLoop 1`] = `
   }
 >
   <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View
       onFocusCapture={[Function]}
       onLayout={[Function]}
@@ -9138,6 +10688,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -9151,7 +10702,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -9670,6 +11221,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -9683,7 +11235,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -10258,6 +11810,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={14}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -10271,7 +11824,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -10297,6 +11850,262 @@ exports[`Carousel render Carousel onPressItem 1`] = `
   }
 >
   <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View
       onFocusCapture={[Function]}
       onLayout={[Function]}
@@ -11045,6 +12854,7 @@ exports[`Carousel render Carousel onPressItem loading 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={14}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -11058,7 +12868,7 @@ exports[`Carousel render Carousel onPressItem loading 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -11084,6 +12894,262 @@ exports[`Carousel render Carousel onPressItem loading 1`] = `
   }
 >
   <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View
       onFocusCapture={[Function]}
       onLayout={[Function]}
@@ -11776,6 +13842,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -11789,7 +13856,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -12308,6 +14375,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -12321,7 +14389,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -12840,6 +14908,7 @@ exports[`Carousel render Carousel scroll 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -12853,7 +14922,7 @@ exports[`Carousel render Carousel scroll 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -13372,6 +15441,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -13385,7 +15455,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -13904,6 +15974,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -13917,7 +15988,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -14436,6 +16507,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -14449,7 +16521,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -14968,6 +17040,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -14981,7 +17054,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -15556,6 +17629,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
   getItem={[Function]}
   getItemCount={[Function]}
   horizontal={true}
+  initialNumToRender={14}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
   onEndReached={[Function]}
@@ -15569,7 +17643,7 @@ exports[`Carousel render Carousel sideMargin 1`] = `
   onScrollToIndexFailed={[Function]}
   onViewableItemsChanged={[Function]}
   pagingEnabled={true}
-  removeClippedSubviews={false}
+  removeClippedSubviews={true}
   renderItem={[Function]}
   scrollEventThrottle={16}
   showsHorizontalScrollIndicator={false}
@@ -15595,6 +17669,262 @@ exports[`Carousel render Carousel sideMargin 1`] = `
   }
 >
   <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 20,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 20,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 20,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="carouselItem"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginHorizontal": 20,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={true}
+          style={
+            {
+              "color": "#5E6678",
+              "fontFamily": "Neotis",
+              "fontSize": 36,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
     <View
       onFocusCapture={[Function]}
       onLayout={[Function]}
