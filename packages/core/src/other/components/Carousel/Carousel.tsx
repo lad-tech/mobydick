@@ -12,11 +12,9 @@ import TouchableOpacity from '../../../basic/components/TouchableOpacity/Touchab
 import {LABELS} from '../../constants';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import Dots from '../Dots/Dots';
-import View from '../../../basic/components/View/View';
 
 import stylesCreate from './stylesCreate';
 import {ICarouselAlign, ICarouselProps} from './types';
-import EmptyFirstItem from './components/EmptyFirstItem';
 
 interface IError {
   index: number;
@@ -46,11 +44,10 @@ const Carousel = <T,>({
   const [styles] = useStyles(stylesCreate, sideMargin);
   const [slidePosition, setSlidePosition] = useState<number>(0);
   const [infinityData, setInfinityData] = useState([...data, ...data, ...data]);
-  const emptySpace = isLoop ? 0 : width - itemWidth - sideMargin * 2;
-  const emptySpaceFirstItem = emptySpace / 2;
-  const emptySpaceLastItem =
-    align === ICarouselAlign.center ? emptySpaceFirstItem : emptySpace;
+
   const widthSnap = itemWidth + sideMargin * 2;
+  const widthData = widthSnap * data.length;
+  const emptySpace = width - widthSnap;
 
   const viewabilityConfig = useRef({
     itemVisiblePercentThreshold: 60,
@@ -69,7 +66,10 @@ const Carousel = <T,>({
       });
     } else if (isLoop) {
       ref.current?.scrollToOffset({
-        offset: widthSnap * data.length,
+        offset:
+          align === ICarouselAlign.center
+            ? widthData - emptySpace / 2
+            : widthData,
         animated: false,
       });
     }
@@ -145,10 +145,9 @@ const Carousel = <T,>({
     [isLoop, checkScroll],
   );
   const onEndReached = useCallback(
-    () => setInfinityData([...infinityData, ...data]),
+    () => setInfinityData([...infinityData, ...infinityData]),
     [data, infinityData],
   );
-
   const visibleElementsCount = Math.floor(width / widthSnap);
 
   const handleOnViewableItemsChanged = useRef(
@@ -186,23 +185,20 @@ const Carousel = <T,>({
         pagingEnabled
         onLayout={onLayout}
         accessibilityLabel={LABELS.carousel}
-        snapToAlignment={ICarouselAlign.start}
+        snapToAlignment={align}
         showsHorizontalScrollIndicator={false}
         renderItem={renderItem}
         onViewableItemsChanged={handleOnViewableItemsChanged}
         viewabilityConfig={viewabilityConfig}
         onScrollToIndexFailed={onScrollToIndexFailed}
         snapToInterval={widthSnap}
+        removeClippedSubviews={true}
         decelerationRate={0}
         bounces={false}
         scrollEventThrottle={16}
         onScroll={onScroll}
         onEndReached={onEndReached}
-        onEndReachedThreshold={0.3}
-        ListHeaderComponent={
-          <EmptyFirstItem align={align} width={emptySpaceFirstItem} />
-        }
-        ListFooterComponent={<View style={{width: emptySpaceLastItem}} />}
+        onEndReachedThreshold={0.5}
       />
       {isDots && <Dots length={data.length} activeDot={slidePosition} />}
     </>
