@@ -106,7 +106,7 @@ const Carousel = <T,>({
       return (
         <TouchableOpacity
           onPress={onPress(item)}
-          disabled={Boolean(onPress)}
+          disabled={Boolean(!onPressItem || loading)}
           accessibilityLabel={LABELS.carouselItem}
           style={styles.item}>
           {sliderItem(item, index, data)}
