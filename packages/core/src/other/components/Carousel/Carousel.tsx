@@ -145,7 +145,7 @@ const Carousel = <T,>({
     [isLoop, checkScroll],
   );
   const onEndReached = useCallback(
-    () => setInfinityData([...infinityData, ...infinityData]),
+    () => setInfinityData([...infinityData, ...data]),
     [data, infinityData],
   );
   const visibleElementsCount = Math.floor(WIDTH / widthSnap);
@@ -192,7 +192,6 @@ const Carousel = <T,>({
         viewabilityConfig={viewabilityConfig}
         onScrollToIndexFailed={onScrollToIndexFailed}
         snapToInterval={widthSnap}
-        removeClippedSubviews={true}
         decelerationRate={0}
         bounces={false}
         scrollEventThrottle={16}
