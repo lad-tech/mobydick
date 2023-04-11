@@ -144,6 +144,49 @@ describe('Carousel', () => {
       });
     });
   });
+  it('render Carousel initScroll isLoop', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          itemWidth={itemWidth}
+          isLoop={true}
+        />
+      </SafeAreaProvider>,
+    );
+    const carousel = getByLabelText(LABELS.carousel);
+
+    expect(toJSON()).toMatchSnapshot();
+    act(() => {
+      fireEvent(carousel, 'layout', {
+        nativeEvent: {layout: {height: 100}},
+      });
+    });
+  });
+  it('render Carousel initScroll isLoop align === center', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          itemWidth={itemWidth}
+          isLoop={true}
+          align={ICarouselAlign.center}
+        />
+      </SafeAreaProvider>,
+    );
+    const carousel = getByLabelText(LABELS.carousel);
+
+    expect(toJSON()).toMatchSnapshot();
+    act(() => {
+      fireEvent(carousel, 'layout', {
+        nativeEvent: {layout: {height: 100}},
+      });
+    });
+  });
   it('render Carousel not activeItemId', () => {
     const {toJSON, getByLabelText} = render(
       <SafeAreaProvider>
@@ -534,6 +577,29 @@ describe('Carousel', () => {
           keyExtractor={keyExtractor}
           onActiveChange={(item: IData) => console.log('item', item)}
           itemWidth={itemWidth}
+        />
+      </SafeAreaProvider>,
+    );
+
+    const carousel = getByLabelText(LABELS.carousel);
+
+    act(() => {
+      fireEvent(carousel, 'onViewableItemsChanged', {
+        viewableItems: [],
+      });
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel not index isLoop', () => {
+    const {toJSON, getByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onActiveChange={(item: IData) => console.log('item', item)}
+          itemWidth={itemWidth}
+          isLoop={true}
         />
       </SafeAreaProvider>,
     );

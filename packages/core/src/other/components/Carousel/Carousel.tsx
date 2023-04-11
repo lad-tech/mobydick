@@ -96,8 +96,8 @@ const Carousel = <T,>({
   );
 
   const onLayout = useCallback(() => {
-    activeItemId && initScroll();
-  }, [initScroll, activeItemId]);
+    initScroll();
+  }, [initScroll]);
 
   const onPress = useCallback(
     (item: T) => () => {
