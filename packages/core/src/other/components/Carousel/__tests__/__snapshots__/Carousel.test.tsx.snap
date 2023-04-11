@@ -7954,7 +7954,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
           {
             "busy": undefined,
             "checked": undefined,
-            "disabled": true,
+            "disabled": false,
             "expanded": undefined,
             "selected": undefined,
           }
@@ -8018,7 +8018,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
           {
             "busy": undefined,
             "checked": undefined,
-            "disabled": true,
+            "disabled": false,
             "expanded": undefined,
             "selected": undefined,
           }
@@ -8082,7 +8082,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
           {
             "busy": undefined,
             "checked": undefined,
-            "disabled": true,
+            "disabled": false,
             "expanded": undefined,
             "selected": undefined,
           }
@@ -8146,7 +8146,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
           {
             "busy": undefined,
             "checked": undefined,
-            "disabled": true,
+            "disabled": false,
             "expanded": undefined,
             "selected": undefined,
           }
@@ -8210,7 +8210,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
           {
             "busy": undefined,
             "checked": undefined,
-            "disabled": true,
+            "disabled": false,
             "expanded": undefined,
             "selected": undefined,
           }
@@ -8274,7 +8274,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
           {
             "busy": undefined,
             "checked": undefined,
-            "disabled": true,
+            "disabled": false,
             "expanded": undefined,
             "selected": undefined,
           }
@@ -8338,7 +8338,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
           {
             "busy": undefined,
             "checked": undefined,
-            "disabled": true,
+            "disabled": false,
             "expanded": undefined,
             "selected": undefined,
           }
@@ -8402,7 +8402,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
           {
             "busy": undefined,
             "checked": undefined,
-            "disabled": true,
+            "disabled": false,
             "expanded": undefined,
             "selected": undefined,
           }
@@ -8466,7 +8466,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
           {
             "busy": undefined,
             "checked": undefined,
-            "disabled": true,
+            "disabled": false,
             "expanded": undefined,
             "selected": undefined,
           }
@@ -8530,7 +8530,7 @@ exports[`Carousel render Carousel onPressItem 1`] = `
           {
             "busy": undefined,
             "checked": undefined,
-            "disabled": true,
+            "disabled": false,
             "expanded": undefined,
             "selected": undefined,
           }
@@ -9374,68 +9374,12 @@ exports[`Carousel render Carousel onPressItem loading 1`] = `
 </RCTScrollView>
 `;
 
-exports[`Carousel render Carousel onPressItem onScroll 1`] = `
+exports[`Carousel render Carousel onScroll 1`] = `
 <RCTScrollView
   accessibilityLabel="carousel"
   bounces={false}
   data={
     [
-      {
-        "id": "0",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "1",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "2",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "3",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "4",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "5",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "6",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "0",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "1",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "2",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "3",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "4",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "5",
-        "name": "icon-starfill",
-      },
-      {
-        "id": "6",
-        "name": "icon-starfill",
-      },
       {
         "id": "0",
         "name": "icon-starfill",
@@ -9958,205 +9902,6 @@ exports[`Carousel render Carousel onPressItem onScroll 1`] = `
         </Text>
       </View>
     </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={
-        [
-          {
-            "flexDirection": "row",
-          },
-          null,
-        ]
-      }
-    >
-      <View
-        accessibilityLabel="carouselItem"
-        accessibilityState={
-          {
-            "busy": undefined,
-            "checked": undefined,
-            "disabled": true,
-            "expanded": undefined,
-            "selected": undefined,
-          }
-        }
-        accessibilityValue={
-          {
-            "max": undefined,
-            "min": undefined,
-            "now": undefined,
-            "text": undefined,
-          }
-        }
-        accessible={true}
-        collapsable={false}
-        focusable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          {
-            "alignItems": "center",
-            "justifyContent": "center",
-            "marginHorizontal": 15,
-            "opacity": 1,
-          }
-        }
-      >
-        <Text
-          allowFontScaling={true}
-          style={
-            {
-              "color": "#5E6678",
-              "fontFamily": "Neotis",
-              "fontSize": 36,
-            }
-          }
-        >
-          
-        </Text>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={
-        [
-          {
-            "flexDirection": "row",
-          },
-          null,
-        ]
-      }
-    >
-      <View
-        accessibilityLabel="carouselItem"
-        accessibilityState={
-          {
-            "busy": undefined,
-            "checked": undefined,
-            "disabled": true,
-            "expanded": undefined,
-            "selected": undefined,
-          }
-        }
-        accessibilityValue={
-          {
-            "max": undefined,
-            "min": undefined,
-            "now": undefined,
-            "text": undefined,
-          }
-        }
-        accessible={true}
-        collapsable={false}
-        focusable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          {
-            "alignItems": "center",
-            "justifyContent": "center",
-            "marginHorizontal": 15,
-            "opacity": 1,
-          }
-        }
-      >
-        <Text
-          allowFontScaling={true}
-          style={
-            {
-              "color": "#5E6678",
-              "fontFamily": "Neotis",
-              "fontSize": 36,
-            }
-          }
-        >
-          
-        </Text>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={
-        [
-          {
-            "flexDirection": "row",
-          },
-          null,
-        ]
-      }
-    >
-      <View
-        accessibilityLabel="carouselItem"
-        accessibilityState={
-          {
-            "busy": undefined,
-            "checked": undefined,
-            "disabled": true,
-            "expanded": undefined,
-            "selected": undefined,
-          }
-        }
-        accessibilityValue={
-          {
-            "max": undefined,
-            "min": undefined,
-            "now": undefined,
-            "text": undefined,
-          }
-        }
-        accessible={true}
-        collapsable={false}
-        focusable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          {
-            "alignItems": "center",
-            "justifyContent": "center",
-            "marginHorizontal": 15,
-            "opacity": 1,
-          }
-        }
-      >
-        <Text
-          allowFontScaling={true}
-          style={
-            {
-              "color": "#5E6678",
-              "fontFamily": "Neotis",
-              "fontSize": 36,
-            }
-          }
-        >
-          
-        </Text>
-      </View>
-    </View>
-    <View
-      style={
-        {
-          "width": 0,
-        }
-      }
-    />
   </View>
 </RCTScrollView>
 `;

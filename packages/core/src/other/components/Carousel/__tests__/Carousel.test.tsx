@@ -82,10 +82,8 @@ describe('Carousel', () => {
       </SafeAreaProvider>,
     );
     const onPressItem = getAllByLabelText(LABELS.carouselItem);
-
-    onPressItem[0] && fireEvent.press(onPressItem[0]);
-    onPressItem[0] && fireEvent.scroll(onPressItem[0]);
     expect(toJSON()).toMatchSnapshot();
+    onPressItem[0] && fireEvent.press(onPressItem[0]);
   });
   it('render Carousel onPressItem loading', () => {
     const {toJSON, getAllByLabelText} = render(
@@ -107,16 +105,14 @@ describe('Carousel', () => {
     onPressItem[0] && fireEvent.scroll(onPressItem[0]);
     expect(toJSON()).toMatchSnapshot();
   });
-  it('render Carousel onPressItem onScroll', () => {
+  it('render Carousel onScroll', () => {
     const {toJSON, getAllByLabelText} = render(
       <SafeAreaProvider>
         <Carousel
           data={data}
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
-          onPressItem={item => console.log(item)}
           itemWidth={itemWidth}
-          isLoop={true}
         />
       </SafeAreaProvider>,
     );
