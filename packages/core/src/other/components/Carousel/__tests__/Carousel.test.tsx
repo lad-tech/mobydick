@@ -77,6 +77,27 @@ describe('Carousel', () => {
           onPressItem={item => console.log(item)}
           itemWidth={itemWidth}
           isLoop={true}
+          loading={false}
+        />
+      </SafeAreaProvider>,
+    );
+    const onPressItem = getAllByLabelText(LABELS.carouselItem);
+
+    onPressItem[0] && fireEvent.press(onPressItem[0]);
+    onPressItem[0] && fireEvent.scroll(onPressItem[0]);
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('render Carousel onPressItem loading', () => {
+    const {toJSON, getAllByLabelText} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          onPressItem={item => console.log(item)}
+          itemWidth={itemWidth}
+          isLoop={true}
+          loading={true}
         />
       </SafeAreaProvider>,
     );
