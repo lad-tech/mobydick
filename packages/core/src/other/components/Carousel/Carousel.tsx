@@ -22,7 +22,7 @@ interface IError {
   averageItemLength: number;
 }
 
-const {width} = Dimensions.get('window');
+const {width: WIDTH} = Dimensions.get('window');
 
 const Carousel = <T,>({
   data,
@@ -47,7 +47,7 @@ const Carousel = <T,>({
 
   const widthSnap = itemWidth + sideMargin * 2;
   const widthData = widthSnap * data.length;
-  const emptySpace = width - widthSnap;
+  const emptySpace = WIDTH - widthSnap;
 
   const viewabilityConfig = useRef({
     itemVisiblePercentThreshold: 60,
@@ -148,7 +148,7 @@ const Carousel = <T,>({
     () => setInfinityData([...infinityData, ...infinityData]),
     [data, infinityData],
   );
-  const visibleElementsCount = Math.floor(width / widthSnap);
+  const visibleElementsCount = Math.floor(WIDTH / widthSnap);
 
   const handleOnViewableItemsChanged = useRef(
     ({viewableItems}: {viewableItems: ViewToken[]}) => {
