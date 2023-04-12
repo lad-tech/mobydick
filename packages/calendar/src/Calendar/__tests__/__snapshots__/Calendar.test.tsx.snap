@@ -45074,6 +45074,9 @@ exports[`Calendar renders correctly maxDate maxLengthDateRange 1`] = `
                           "fontSize": 21,
                           "fontWeight": "300",
                         },
+                        {
+                          "color": "#9BA1B0",
+                        },
                       ]
                     }
                   >
@@ -49422,6 +49425,9 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange 1`] = `
                           "fontFamily": "Inter-Regular",
                           "fontSize": 21,
                           "fontWeight": "300",
+                        },
+                        {
+                          "color": "#9BA1B0",
                         },
                       ]
                     }
@@ -53772,6 +53778,9 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange fromDate 
                           "fontSize": 21,
                           "fontWeight": "300",
                         },
+                        {
+                          "color": "#9BA1B0",
+                        },
                       ]
                     }
                   >
@@ -58120,6 +58129,9 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange isPeriod 
                           "fontFamily": "Inter-Regular",
                           "fontSize": 21,
                           "fontWeight": "300",
+                        },
+                        {
+                          "color": "#9BA1B0",
                         },
                       ]
                     }
@@ -67515,6 +67527,9 @@ exports[`Calendar renders correctly minDate maxLengthDateRange 1`] = `
                           "fontFamily": "Inter-Regular",
                           "fontSize": 21,
                           "fontWeight": "300",
+                        },
+                        {
+                          "color": "#9BA1B0",
                         },
                       ]
                     }
