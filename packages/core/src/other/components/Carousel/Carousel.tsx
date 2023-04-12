@@ -187,7 +187,7 @@ const Carousel = <T,>({
         onEndReached={onEndReached}
         onEndReachedThreshold={0.5}
         removeClippedSubviews={true}
-        initialNumToRender={isLoop ? data.length * 2 : 10}
+        initialNumToRender={isLoop ? data.length + 5 : 10}
       />
       {isDots && <Dots length={data.length} activeDot={slidePosition} />}
     </>
