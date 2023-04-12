@@ -1,3 +1,15 @@
+## [7.4.2](https://glab.lad24.ru/npm/mobydick/compare/v7.4.1...v7.4.2) (2023-04-12)
+
+
+### Bug Fixes
+
+* **Carousel:** align for isLoop ([fd67bba](https://glab.lad24.ru/npm/mobydick/commit/fd67bba8152b8856124119e18673720923daaf52))
+* **Carousel:** increase initialNumToRender, if isLoop ([4f1d1c5](https://glab.lad24.ru/npm/mobydick/commit/4f1d1c577279e9c14b11bbb80a552e3f5ff46e6e))
+* **PanelHeader:** case, when only rightView ([9657d2a](https://glab.lad24.ru/npm/mobydick/commit/9657d2a8f09efb7c951ebbe620572d450139b281))
+* **Slider:** change onMoveShouldSetPanResponderCapture ([bbcb584](https://glab.lad24.ru/npm/mobydick/commit/bbcb584eb6f4a893a45eb9c4af56b40c88d73cfc))
+* **Slider:** change onMoveShouldSetPanResponderCapture ([5091185](https://glab.lad24.ru/npm/mobydick/commit/509118571f287c30738a203ec34a245dcbee1085))
+* **Swipe:** monitor the change of active from the outside ([12626a2](https://glab.lad24.ru/npm/mobydick/commit/12626a2b607e047c7f140730f105a2bf01c40168))
+
 ## [7.4.1](https://glab.lad24.ru/npm/mobydick/compare/v7.4.0...v7.4.1) (2023-03-31)
 
 
