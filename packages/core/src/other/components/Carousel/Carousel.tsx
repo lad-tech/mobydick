@@ -87,12 +87,12 @@ const Carousel = <T,>({
     ({contentOffset}: NativeScrollEvent) => {
       if (!contentOffset.x) {
         ref.current?.scrollToOffset({
-          offset: widthSnap * data.length,
+          offset: widthData,
           animated: false,
         });
       }
     },
-    [widthSnap, data.length],
+    [widthData],
   );
 
   const onLayout = useCallback(() => {
@@ -198,6 +198,8 @@ const Carousel = <T,>({
         onScroll={onScroll}
         onEndReached={onEndReached}
         onEndReachedThreshold={0.5}
+        removeClippedSubviews={true}
+        initialNumToRender={isLoop ? data.length + 5 : 10}
       />
       {isDots && <Dots length={data.length} activeDot={slidePosition} />}
     </>
