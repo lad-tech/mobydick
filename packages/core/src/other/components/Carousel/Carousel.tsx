@@ -1,11 +1,11 @@
 import React, {useCallback, useRef, useState} from 'react';
 import {
-  Dimensions,
   FlatList,
   NativeScrollEvent,
   NativeSyntheticEvent,
   ViewToken,
 } from 'react-native';
+import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
 import rem from '../../../styles/spaces/rem';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
@@ -21,8 +21,6 @@ interface IError {
   highestMeasuredFrameIndex: number;
   averageItemLength: number;
 }
-
-const {width: WIDTH} = Dimensions.get('window');
 
 const Carousel = <T,>({
   data,
@@ -47,6 +45,7 @@ const Carousel = <T,>({
 
   const widthSnap = itemWidth + sideMargin * 2;
   const widthData = widthSnap * data.length;
+  const {width: WIDTH} = useSafeAreaFrame();
   const emptySpace = WIDTH - widthSnap;
 
   const viewabilityConfig = useRef({
