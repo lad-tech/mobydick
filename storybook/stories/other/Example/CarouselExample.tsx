@@ -28,7 +28,7 @@ function range(from: number, to: number) {
 const CarouselExample = () => {
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
 
   const itemWidth = number('itemWidth', 200);
   const itemHeight = number('itemHeight', 100);
