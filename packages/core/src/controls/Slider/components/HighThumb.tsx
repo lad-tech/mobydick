@@ -6,7 +6,15 @@ import stylesCreate from '../stylesCreate';
 
 import Thumb from './Thumb';
 
-const HighThumb = ({highThumbX}: {highThumbX: Animated.Value}) => {
+import Value = Animated.Value;
+
+const HighThumb = ({
+  highThumbX,
+  highSize,
+}: {
+  highThumbX: Animated.Value;
+  highSize: Value;
+}) => {
   const [styles] = useStyles(stylesCreate);
 
   return (
@@ -15,7 +23,7 @@ const HighThumb = ({highThumbX}: {highThumbX: Animated.Value}) => {
         styles.highThumbContainer,
         {transform: [{translateX: highThumbX}]},
       ]}>
-      <Thumb name={'high'} />
+      <Thumb size={highSize} />
     </Animated.View>
   );
 };

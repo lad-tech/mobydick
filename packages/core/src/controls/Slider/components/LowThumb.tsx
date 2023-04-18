@@ -1,16 +1,19 @@
-import {Animated, LayoutChangeEvent} from 'react-native';
+import {Animated} from 'react-native';
 import React, {useMemo} from 'react';
 
 import {LABELS} from '../../../other';
 
 import Thumb from './Thumb';
 
+import Value = Animated.Value;
+
 const LowThumb = ({
   lowThumbX,
-  handleThumbLayout,
+
+  size,
 }: {
   lowThumbX: Animated.Value;
-  handleThumbLayout: ((event: LayoutChangeEvent) => void) | undefined;
+  size: Value;
 }) => {
   const lowStyles = useMemo(() => {
     return {transform: [{translateX: lowThumbX}]};
@@ -19,9 +22,8 @@ const LowThumb = ({
   return (
     <Animated.View
       style={lowStyles}
-      onLayout={handleThumbLayout}
       accessibilityLabel={LABELS.sliderLayoutLowThumb}>
-      <Thumb name={'low'} />
+      <Thumb size={size} />
     </Animated.View>
   );
 };

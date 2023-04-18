@@ -1,32 +1,31 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {StyleSheet, Animated} from 'react-native';
 
-import rem from '../../../styles/spaces/rem';
 import {IThemeContext} from '../../../styles';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 
-const THUMB_RADIUS_LOW = rem(12);
-const THUMB_RADIUS_HIGH = rem(16);
+import Value = Animated.Value;
 
-const Thumb = ({name}: {name: string}) => {
+const Thumb = ({size}: {size: Value}) => {
   const [styles] = useStyles(stylesCreate);
-  return <View style={name === 'high' ? styles.rootHigh : styles.rootLow} />;
+
+  return (
+    <Animated.View
+      style={[
+        styles.root,
+        {
+          width: size,
+          height: size,
+          borderRadius: size,
+        },
+      ]}
+    />
+  );
 };
 
 const stylesCreate = ({colors, spaces}: IThemeContext) => {
   return StyleSheet.create({
-    rootLow: {
-      width: THUMB_RADIUS_LOW * 2,
-      height: THUMB_RADIUS_LOW * 2,
-      borderRadius: THUMB_RADIUS_LOW,
-      borderWidth: spaces.Space2,
-      borderColor: colors.IconMuted,
-      backgroundColor: colors.BgPrimary,
-    },
-    rootHigh: {
-      width: THUMB_RADIUS_HIGH * 2,
-      height: THUMB_RADIUS_HIGH * 2,
-      borderRadius: THUMB_RADIUS_HIGH,
+    root: {
       borderWidth: spaces.Space2,
       borderColor: colors.IconMuted,
       backgroundColor: colors.BgPrimary,
