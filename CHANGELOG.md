@@ -1,3 +1,12 @@
+## [7.4.3](https://glab.lad24.ru/npm/mobydick/compare/v7.4.2...v7.4.3) (2023-04-18)
+
+
+### Bug Fixes
+
+* **Calendar:** fix first day, update version lib ([404bea6](https://glab.lad24.ru/npm/mobydick/commit/404bea6905543902489ae12ad8c6e435081a787f))
+* **Calendar:** fix first day, update version lib ([681fb16](https://glab.lad24.ru/npm/mobydick/commit/681fb16057d4eac9efea33d759f89f92a12f1514))
+* **Carousel:** replace width ([bba9ff9](https://glab.lad24.ru/npm/mobydick/commit/bba9ff912e9020d6ff535e02c15844888fdfef78))
+
 ## [7.4.2](https://glab.lad24.ru/npm/mobydick/compare/v7.4.1...v7.4.2) (2023-04-12)
 
 
