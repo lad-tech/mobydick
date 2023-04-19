@@ -272,6 +272,306 @@ exports[`Slider should renders correctly disabled 1`] = `
 </View>
 `;
 
+exports[`Slider should renders correctly high <- low 1`] = `
+<View>
+  <View
+    onLayout={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "minHeight": 48,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "bottom": 0,
+            "flexDirection": "row",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          {
+            "marginHorizontal": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#9BA1B0",
+            "borderRadius": 3,
+            "flex": 1,
+            "height": 6,
+          }
+        }
+      />
+      <View
+        collapsable={false}
+        style={
+          {
+            "left": -22.05,
+            "position": "absolute",
+            "right": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#2B78EE",
+              "borderRadius": 3,
+              "height": 6,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessibilityLabel="sliderLayoutLowThumb"
+      collapsable={false}
+      style={
+        {
+          "transform": [
+            {
+              "translateX": -22.05,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
+            "borderRadius": 45,
+            "borderWidth": 3,
+            "height": 45,
+            "width": 45,
+          }
+        }
+      />
+    </View>
+    <View
+      collapsable={false}
+      style={
+        {
+          "position": "absolute",
+          "transform": [
+            {
+              "translateX": -36,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
+            "borderRadius": 48,
+            "borderWidth": 3,
+            "height": 48,
+            "width": 48,
+          }
+        }
+      />
+    </View>
+    <View
+      accessibilityLabel="slider"
+      collapsable={false}
+      hitSlop={
+        {
+          "bottom": 45,
+          "left": 45,
+          "right": 45,
+          "top": 45,
+        }
+      }
+      onMoveShouldSetPanResponder={[Function]}
+      onMoveShouldSetPanResponderCapture={[Function]}
+      onPanResponderGrant={[Function]}
+      onPanResponderMove={[Function]}
+      onPanResponderRelease={[Function]}
+      onPanResponderTerminate={[Function]}
+      onPanResponderTerminationRequest={[Function]}
+      onShouldBlockNativeResponder={[Function]}
+      onStartShouldSetPanResponderCapture={[Function]}
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Slider should renders correctly onPanResponderRelease 1`] = `
+<View>
+  <View
+    onLayout={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "minHeight": 48,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "bottom": 0,
+            "flexDirection": "row",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          {
+            "marginHorizontal": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#9BA1B0",
+            "borderRadius": 3,
+            "flex": 1,
+            "height": 6,
+          }
+        }
+      />
+      <View
+        collapsable={false}
+        style={
+          {
+            "left": -22.05,
+            "position": "absolute",
+            "right": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#2B78EE",
+              "borderRadius": 3,
+              "height": 6,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessibilityLabel="sliderLayoutLowThumb"
+      collapsable={false}
+      style={
+        {
+          "transform": [
+            {
+              "translateX": -22.05,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
+            "borderRadius": 36,
+            "borderWidth": 3,
+            "height": 36,
+            "width": 36,
+          }
+        }
+      />
+    </View>
+    <View
+      collapsable={false}
+      style={
+        {
+          "position": "absolute",
+          "transform": [
+            {
+              "translateX": -36,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
+            "borderRadius": 48,
+            "borderWidth": 3,
+            "height": 48,
+            "width": 48,
+          }
+        }
+      />
+    </View>
+    <View
+      accessibilityLabel="slider"
+      collapsable={false}
+      hitSlop={
+        {
+          "bottom": 45,
+          "left": 45,
+          "right": 45,
+          "top": 45,
+        }
+      }
+      onMoveShouldSetPanResponder={[Function]}
+      onMoveShouldSetPanResponderCapture={[Function]}
+      onPanResponderGrant={[Function]}
+      onPanResponderMove={[Function]}
+      onPanResponderRelease={[Function]}
+      onPanResponderTerminate={[Function]}
+      onPanResponderTerminationRequest={[Function]}
+      onShouldBlockNativeResponder={[Function]}
+      onStartShouldSetPanResponderCapture={[Function]}
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
 exports[`Slider should renders correctly panHandler 1`] = `
 <View>
   <View
@@ -545,7 +845,280 @@ exports[`Slider should renders correctly updateThumbs 1`] = `
 </View>
 `;
 
+exports[`Slider should renders correctly updateThumbs high -> low 1`] = `
+<View>
+  <View
+    onLayout={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "minHeight": 48,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "bottom": 0,
+            "flexDirection": "row",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          {
+            "marginHorizontal": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#9BA1B0",
+            "borderRadius": 3,
+            "flex": 1,
+            "height": 6,
+          }
+        }
+      />
+      <View
+        collapsable={false}
+        style={
+          {
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#2B78EE",
+              "borderRadius": 3,
+              "height": 6,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessibilityLabel="sliderLayoutLowThumb"
+      collapsable={false}
+      style={
+        {
+          "transform": [
+            {
+              "translateX": 0,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
+            "borderRadius": 36,
+            "borderWidth": 3,
+            "height": 36,
+            "width": 36,
+          }
+        }
+      />
+    </View>
+    <View
+      collapsable={false}
+      style={
+        {
+          "position": "absolute",
+          "transform": [
+            {
+              "translateX": -36,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
+            "borderRadius": 57,
+            "borderWidth": 3,
+            "height": 57,
+            "width": 57,
+          }
+        }
+      />
+    </View>
+    <View
+      accessibilityLabel="slider"
+      collapsable={false}
+      hitSlop={
+        {
+          "bottom": 45,
+          "left": 45,
+          "right": 45,
+          "top": 45,
+        }
+      }
+      onMoveShouldSetPanResponder={[Function]}
+      onMoveShouldSetPanResponderCapture={[Function]}
+      onPanResponderGrant={[Function]}
+      onPanResponderMove={[Function]}
+      onPanResponderRelease={[Function]}
+      onPanResponderTerminate={[Function]}
+      onPanResponderTerminationRequest={[Function]}
+      onShouldBlockNativeResponder={[Function]}
+      onStartShouldSetPanResponderCapture={[Function]}
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
 exports[`Slider should renders correctly with more props 1`] = `
+<View>
+  <View
+    onLayout={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "minHeight": 48,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "bottom": 0,
+            "flexDirection": "row",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          {
+            "marginHorizontal": 18,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#9BA1B0",
+            "borderRadius": 3,
+            "flex": 1,
+            "height": 6,
+          }
+        }
+      />
+      <View
+        collapsable={false}
+        style={
+          {
+            "left": 0,
+            "position": "absolute",
+            "right": -28.8,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#2B78EE",
+              "borderRadius": 3,
+              "height": 6,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessibilityLabel="sliderLayoutLowThumb"
+      collapsable={false}
+      style={
+        {
+          "transform": [
+            {
+              "translateX": -7.2,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "borderColor": "#9BA1B0",
+            "borderRadius": 36,
+            "borderWidth": 3,
+            "height": 36,
+            "width": 36,
+          }
+        }
+      />
+    </View>
+    <View
+      accessibilityLabel="slider"
+      collapsable={false}
+      hitSlop={
+        {
+          "bottom": 15,
+          "left": 15,
+          "right": 15,
+          "top": 15,
+        }
+      }
+      onMoveShouldSetPanResponder={[Function]}
+      onMoveShouldSetPanResponderCapture={[Function]}
+      onPanResponderGrant={[Function]}
+      onPanResponderMove={[Function]}
+      onPanResponderRelease={[Function]}
+      onPanResponderTerminate={[Function]}
+      onPanResponderTerminationRequest={[Function]}
+      onShouldBlockNativeResponder={[Function]}
+      onStartShouldSetPanResponderCapture={[Function]}
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Slider should renders correctly with numberActiveTouches 1`] = `
 <View>
   <View
     onLayout={[Function]}

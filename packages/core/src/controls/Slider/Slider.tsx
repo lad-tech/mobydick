@@ -182,7 +182,6 @@ const Slider: React.FC<ISliderProps> = ({
           if (numberActiveTouches > 1) {
             return;
           }
-
           const {locationX: downX, pageX} = nativeEvent;
           const containerX = pageX - downX;
 
@@ -197,7 +196,6 @@ const Slider: React.FC<ISliderProps> = ({
             ((high - min) / (max - min)) * (containerWidth - THUMB_RADIUS_LOW);
 
           const isLow = getLow(downX, lowPosition, highPosition);
-
           gestureStateRef.current.isLow = isLow;
 
           if (isLow) {
@@ -228,13 +226,13 @@ const Slider: React.FC<ISliderProps> = ({
           : Animated.event([null, {moveX: pointerX}], {useNativeDriver: false}),
         onPanResponderRelease: () => {
           Animated.timing(lowSize, {
-            toValue: rem(THUMB_RADIUS_LOW),
+            toValue: THUMB_RADIUS_LOW,
             duration: 300,
             useNativeDriver: false,
             easing: Easing.ease,
           }).start();
           Animated.timing(highSize, {
-            toValue: rem(THUMB_RADIUS_HIGH),
+            toValue: THUMB_RADIUS_HIGH,
             duration: 300,
             useNativeDriver: false,
             easing: Easing.ease,
