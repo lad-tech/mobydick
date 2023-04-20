@@ -4,9 +4,7 @@ import {StyleSheet, Animated} from 'react-native';
 import {IThemeContext} from '../../../styles';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 
-import Value = Animated.Value;
-
-const Thumb = ({size}: {size: Value}) => {
+const Thumb = ({size}: {size: Animated.Value}) => {
   const [styles] = useStyles(stylesCreate);
 
   return (
