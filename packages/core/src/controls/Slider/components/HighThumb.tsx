@@ -6,14 +6,12 @@ import stylesCreate from '../stylesCreate';
 
 import Thumb from './Thumb';
 
-import Value = Animated.Value;
-
 const HighThumb = ({
   highThumbX,
   highSize,
 }: {
   highThumbX: Animated.Value;
-  highSize: Value;
+  highSize: Animated.Value;
 }) => {
   const [styles] = useStyles(stylesCreate);
 

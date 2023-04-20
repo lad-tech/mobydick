@@ -5,15 +5,13 @@ import {LABELS} from '../../../other';
 
 import Thumb from './Thumb';
 
-import Value = Animated.Value;
-
 const LowThumb = ({
   lowThumbX,
 
   size,
 }: {
   lowThumbX: Animated.Value;
-  size: Value;
+  size: Animated.Value;
 }) => {
   const lowStyles = useMemo(() => {
     return {transform: [{translateX: lowThumbX}]};
