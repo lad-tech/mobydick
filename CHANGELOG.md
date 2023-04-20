@@ -1,3 +1,10 @@
+# [7.5.0](https://glab.lad24.ru/npm/mobydick/compare/v7.4.3...v7.5.0) (2023-04-20)
+
+
+### Features
+
+* **Slider:** increase width, height when you moved ([0cb315f](https://glab.lad24.ru/npm/mobydick/commit/0cb315f2d4b858c3e64ad5fe09dc8beb4d8383f6))
+
 ## [7.4.3](https://glab.lad24.ru/npm/mobydick/compare/v7.4.2...v7.4.3) (2023-04-18)
 
 
