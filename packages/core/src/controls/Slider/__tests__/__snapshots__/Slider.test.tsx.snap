@@ -108,10 +108,10 @@ exports[`Slider should renders correctly by default 1`] = `
           {
             "backgroundColor": "#FFF",
             "borderColor": "#9BA1B0",
-            "borderRadius": 48,
+            "borderRadius": 36,
             "borderWidth": 3,
-            "height": 48,
-            "width": 48,
+            "height": 36,
+            "width": 36,
           }
         }
       />
@@ -380,10 +380,10 @@ exports[`Slider should renders correctly high <- low 1`] = `
           {
             "backgroundColor": "#FFF",
             "borderColor": "#9BA1B0",
-            "borderRadius": 48,
+            "borderRadius": 36,
             "borderWidth": 3,
-            "height": 48,
-            "width": 48,
+            "height": 36,
+            "width": 36,
           }
         }
       />
@@ -530,10 +530,10 @@ exports[`Slider should renders correctly onPanResponderRelease 1`] = `
           {
             "backgroundColor": "#FFF",
             "borderColor": "#9BA1B0",
-            "borderRadius": 48,
+            "borderRadius": 36,
             "borderWidth": 3,
-            "height": 48,
-            "width": 48,
+            "height": 36,
+            "width": 36,
           }
         }
       />
@@ -680,10 +680,10 @@ exports[`Slider should renders correctly panHandler 1`] = `
           {
             "backgroundColor": "#FFF",
             "borderColor": "#9BA1B0",
-            "borderRadius": 48,
+            "borderRadius": 36,
             "borderWidth": 3,
-            "height": 48,
-            "width": 48,
+            "height": 36,
+            "width": 36,
           }
         }
       />
@@ -953,10 +953,10 @@ exports[`Slider should renders correctly updateThumbs high -> low 1`] = `
           {
             "backgroundColor": "#FFF",
             "borderColor": "#9BA1B0",
-            "borderRadius": 57,
+            "borderRadius": 45,
             "borderWidth": 3,
-            "height": 57,
-            "width": 57,
+            "height": 45,
+            "width": 45,
           }
         }
       />

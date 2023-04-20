@@ -2,4 +2,4 @@
 
 ## ***Slider***
 
-Взяла за основу слайдет из вот этой либы https://github.com/githuboftigran/rn-range-slider
+Взяла за основу слайдер из вот этой либы https://github.com/githuboftigran/rn-range-slider

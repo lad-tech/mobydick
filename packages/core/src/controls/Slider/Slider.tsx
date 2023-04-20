@@ -38,8 +38,7 @@ export interface ISliderProps extends ViewProps {
   hitSlop?: Insets;
 }
 const THUMB_RADIUS_LOW = rem(12) * 2;
-const THUMB_RADIUS_HIGH = rem(16) * 2;
-const WIDTH_EXPAND = rem(6);
+const THUMB_RADIUS_HIGH = THUMB_RADIUS_LOW + rem(6);
 
 const Slider: React.FC<ISliderProps> = ({
   min,
@@ -66,7 +65,7 @@ const Slider: React.FC<ISliderProps> = ({
   const lowThumbXRef = useRef(new Animated.Value(0));
   const highThumbXRef = useRef(new Animated.Value(0));
   const lowSize = useRef(new Animated.Value(THUMB_RADIUS_LOW)).current;
-  const highSize = useRef(new Animated.Value(THUMB_RADIUS_HIGH)).current;
+  const highSize = useRef(new Animated.Value(THUMB_RADIUS_LOW)).current;
   const pointerX = useRef(new Animated.Value(0)).current;
   const {current: lowThumbX} = lowThumbXRef;
   const {current: highThumbX} = highThumbXRef;
@@ -160,6 +159,30 @@ const Slider: React.FC<ISliderProps> = ({
     updateSelectedRail();
   };
 
+  const animatedLow = useCallback(
+    (value: number) => {
+      Animated.timing(lowSize, {
+        toValue: value,
+        duration: 300,
+        useNativeDriver: false,
+        easing: Easing.ease,
+      }).start();
+    },
+    [lowSize],
+  );
+
+  const animatedHigh = useCallback(
+    (value: number) => {
+      Animated.timing(highSize, {
+        toValue: value,
+        duration: 300,
+        useNativeDriver: false,
+        easing: Easing.ease,
+      }).start();
+    },
+    [highSize],
+  );
+
   const {panHandlers} = useMemo(
     () =>
       PanResponder.create({
@@ -199,19 +222,9 @@ const Slider: React.FC<ISliderProps> = ({
           gestureStateRef.current.isLow = isLow;
 
           if (isLow) {
-            Animated.timing(lowSize, {
-              toValue: THUMB_RADIUS_LOW + WIDTH_EXPAND,
-              duration: 300,
-              useNativeDriver: false,
-              easing: Easing.ease,
-            }).start();
+            animatedLow(THUMB_RADIUS_HIGH);
           } else {
-            Animated.timing(highSize, {
-              toValue: THUMB_RADIUS_HIGH + WIDTH_EXPAND,
-              duration: 300,
-              useNativeDriver: false,
-              easing: Easing.ease,
-            }).start();
+            animatedHigh(THUMB_RADIUS_HIGH);
           }
           handlePositionChange(downX, isLow, containerWidth);
           pointerX.removeAllListeners();
@@ -225,18 +238,8 @@ const Slider: React.FC<ISliderProps> = ({
           ? undefined
           : Animated.event([null, {moveX: pointerX}], {useNativeDriver: false}),
         onPanResponderRelease: () => {
-          Animated.timing(lowSize, {
-            toValue: THUMB_RADIUS_LOW,
-            duration: 300,
-            useNativeDriver: false,
-            easing: Easing.ease,
-          }).start();
-          Animated.timing(highSize, {
-            toValue: THUMB_RADIUS_HIGH,
-            duration: 300,
-            useNativeDriver: false,
-            easing: Easing.ease,
-          }).start();
+          animatedLow(THUMB_RADIUS_LOW);
+          animatedHigh(THUMB_RADIUS_LOW);
         },
       }),
     [
