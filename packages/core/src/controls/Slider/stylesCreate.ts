@@ -8,6 +8,7 @@ const stylesCreate = ({colors, spaces}: IThemeContext) => {
       flexDirection: 'row',
       justifyContent: I18nManager.isRTL ? 'flex-end' : 'flex-start',
       alignItems: 'center',
+      minHeight: spaces.Space32,
     },
     rail: {
       flex: 1,
