@@ -50,7 +50,7 @@ describe('Collapsible', () => {
   });
   test('render crossed onPress - 2', () => {
     const {toJSON, getByLabelText} = render(
-      <Collapsible title={'title'}>
+      <Collapsible title={'title'} initialState={true} isAnimated={false}>
         <>
           <View />
         </>

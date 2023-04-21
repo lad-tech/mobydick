@@ -265,8 +265,9 @@ exports[`Collapsible render crossed onPress - 2 1`] = `
         }
       }
     >
-      
+      
     </Text>
   </View>
+  <View />
 </View>
 `;

@@ -31,17 +31,20 @@ const Collapsible = (props: ICollapsibleProps) => {
     typeAnimation = 'easeInEaseOut',
     creationPropAnimation = 'scaleY',
     numberOfLines = 2,
+    initialState = false,
+    isAnimated = true,
   } = props;
   const [styles] = useStyles(createStyles);
   const {colors} = useTheme();
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(initialState);
 
   const onPress = useCallback(() => {
     setCollapsed(!collapsed);
-    LayoutAnimation.configureNext(
-      LayoutAnimation.create(duration, typeAnimation, creationPropAnimation),
-    );
-  }, [collapsed, duration]);
+    isAnimated &&
+      LayoutAnimation.configureNext(
+        LayoutAnimation.create(duration, typeAnimation, creationPropAnimation),
+      );
+  }, [collapsed, duration, isAnimated]);
 
   const name = useMemo(() => {
     return collapsed ? 'icon-arrow-down' : 'icon-arrow-right';

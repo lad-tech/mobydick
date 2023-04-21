@@ -1,5 +1,5 @@
 import React from 'react';
-import {number, select, text} from '@storybook/addon-knobs';
+import {boolean, number, select, text} from '@storybook/addon-knobs';
 
 import {Collapsible, ScrollView, Typography, View} from '@npm/mobydick-core';
 
@@ -41,6 +41,8 @@ const CollapsibleExample = () => {
   const titleTwo = text('titleTwo', 'Collapsible 2');
   const titleThree = text('titleThree', 'Collapsible 3');
   const numberOfLines = number('numberOfLines', 2);
+  const isAnimated = boolean('isAnimated', true);
+
   return (
     <ScrollView style={{width: '100%'}}>
       <Collapsible
@@ -48,6 +50,7 @@ const CollapsibleExample = () => {
         duration={duration}
         typeAnimation={typeAnimation}
         numberOfLines={numberOfLines}
+        isAnimated={isAnimated}
         creationPropAnimation={creationPropAnimation}>
         <ChildrenView />
       </Collapsible>
@@ -56,6 +59,7 @@ const CollapsibleExample = () => {
         duration={duration}
         typeAnimation={typeAnimation}
         numberOfLines={numberOfLines}
+        isAnimated={isAnimated}
         creationPropAnimation={creationPropAnimation}>
         <ChildrenView />
       </Collapsible>
@@ -64,6 +68,8 @@ const CollapsibleExample = () => {
         duration={duration}
         typeAnimation={typeAnimation}
         numberOfLines={numberOfLines}
+        initialState={true}
+        isAnimated={isAnimated}
         creationPropAnimation={creationPropAnimation}>
         <ChildrenView />
       </Collapsible>
