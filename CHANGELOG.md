@@ -1,3 +1,12 @@
+## [7.5.1](https://glab.lad24.ru/npm/mobydick/compare/v7.5.0...v7.5.1) (2023-04-21)
+
+
+### Bug Fixes
+
+* **Collapsible:** add props: initialState, isAnimated ([b93a82e](https://glab.lad24.ru/npm/mobydick/commit/b93a82ebf54a896bd02fad8f8389575fd3f5cfe2))
+* **PanelHeader:** if width leftView < width rightView, get width ([ed4afa0](https://glab.lad24.ru/npm/mobydick/commit/ed4afa02e8ff7d4993fe49297698ed8c4b93d784))
+* **Slider:** update value for HighThumb ([6a1aa4d](https://glab.lad24.ru/npm/mobydick/commit/6a1aa4d1ac8dc671049b437ec2b98ae3c726a842))
+
 # [7.5.0](https://glab.lad24.ru/npm/mobydick/compare/v7.4.3...v7.5.0) (2023-04-20)
 
 
