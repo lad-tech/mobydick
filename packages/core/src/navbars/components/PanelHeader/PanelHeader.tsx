@@ -39,13 +39,20 @@ const PanelHeader: FC<IPanelHeaderProps> = props => {
     setWidthRightView(event.nativeEvent.layout.width);
   }, []);
 
+  const widthSideView =
+    widthLeftView > widthRightView ? widthLeftView : widthRightView;
+
   return (
     <View style={[styles.commonView, commonViewStyle]}>
       <SafeAreaView edges={['top']}>
         <View style={[styles.container, containerStyle]}>
           {leftView ? (
             <View
-              style={[styles.leftView, leftViewStyle]}
+              style={[
+                styles.leftView,
+                {minWidth: widthSideView},
+                leftViewStyle,
+              ]}
               onLayout={onLayoutLeftView}
               accessibilityLabel={LABELS.panelHeaderLeftView}>
               {leftView}
@@ -79,7 +86,11 @@ const PanelHeader: FC<IPanelHeaderProps> = props => {
 
           {rightView ? (
             <View
-              style={[styles.rightView, rightViewStyle]}
+              style={[
+                styles.rightView,
+                {minWidth: widthSideView},
+                rightViewStyle,
+              ]}
               onLayout={onLayoutRightView}
               accessibilityLabel={LABELS.panelHeaderRightView}>
               {rightView}

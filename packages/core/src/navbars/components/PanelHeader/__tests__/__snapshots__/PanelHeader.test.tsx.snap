@@ -47,6 +47,9 @@ exports[`Tab render panelHeader 1`] = `
               "maxWidth": 144,
             },
             {
+              "minWidth": 36,
+            },
+            {
               "flex": 1,
             },
           ]
@@ -86,6 +89,9 @@ exports[`Tab render panelHeader 1`] = `
             {
               "alignItems": "flex-end",
               "maxWidth": 144,
+            },
+            {
+              "minWidth": 36,
             },
             {
               "flex": 1,
@@ -156,6 +162,9 @@ exports[`Tab render panelHeader only leftView 1`] = `
             {
               "alignItems": "flex-start",
               "maxWidth": 144,
+            },
+            {
+              "minWidth": 36,
             },
             {
               "flex": 1,
@@ -266,6 +275,9 @@ exports[`Tab render panelHeader only rightView 1`] = `
             {
               "alignItems": "flex-end",
               "maxWidth": 144,
+            },
+            {
+              "minWidth": 36,
             },
             {
               "flex": 1,
