@@ -27,7 +27,8 @@ const PanelHeaderExample = () => {
   const subtitle = text('subtitle', 'Subtitle');
   const isRightView = boolean('isRightView', false);
   const isLeftView = boolean('isLeftView', false);
-
+  const isTwoLeftIcon = boolean('isTwoLeftIcon', true);
+  const isTwoRightIcon = boolean('isTwoRightIcon', true);
   switch (select('panelHeader', IPanelHeader, IPanelHeader.icon)) {
     case IPanelHeader.onlyText:
       return (
@@ -82,7 +83,9 @@ const PanelHeaderExample = () => {
             isLeftView && (
               <View style={{flexDirection: 'row'}}>
                 <SimpleIcon name={'icon-share'} />
-                <SimpleIcon name={'icon-copy'} style={styles.icon} />
+                {isTwoLeftIcon && (
+                  <SimpleIcon name={'icon-copy'} style={styles.icon} />
+                )}
               </View>
             )
           }
@@ -90,13 +93,16 @@ const PanelHeaderExample = () => {
             isRightView && (
               <View style={{flexDirection: 'row'}}>
                 <SimpleIcon name={'icon-share'} />
-                <SimpleIcon name={'icon-copy'} style={styles.icon} />
+                {isTwoRightIcon && (
+                  <SimpleIcon name={'icon-copy'} style={styles.icon} />
+                )}
               </View>
             )
           }
           commonViewStyle={styles.commonView}
         />
       );
+
     case IPanelHeader.icon:
     default:
       return (
