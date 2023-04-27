@@ -1,3 +1,10 @@
+## [7.5.2](https://glab.lad24.ru/npm/mobydick/compare/v7.5.1...v7.5.2) (2023-04-27)
+
+
+### Bug Fixes
+
+* **readme:** update ([88b1eb0](https://glab.lad24.ru/npm/mobydick/commit/88b1eb0359003fd09ddca9541022adfc0d510d13))
+
 ## [7.5.1](https://glab.lad24.ru/npm/mobydick/compare/v7.5.0...v7.5.1) (2023-04-21)
 
 
