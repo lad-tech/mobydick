@@ -117,6 +117,100 @@ exports[`Tab render panelHeader 1`] = `
 </View>
 `;
 
+exports[`Tab render panelHeader edges 1`] = `
+<View
+  style={
+    [
+      {
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <RNCSafeAreaView
+    edges={
+      [
+        "left",
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 90,
+            "justifyContent": "space-between",
+            "paddingHorizontal": 30,
+            "paddingVertical": 15,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "width": 36,
+          }
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "flex": 2,
+              "paddingHorizontal": 12,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            numberOfLines={1}
+            style={
+              [
+                {
+                  "color": "#5E6678",
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 18,
+                  "lineHeight": 24,
+                },
+                [
+                  {
+                    "textAlign": "center",
+                  },
+                  undefined,
+                ],
+              ]
+            }
+          >
+            Subtitle
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "width": 36,
+          }
+        }
+      />
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;
+
 exports[`Tab render panelHeader isSafeAreaView 1`] = `
 <View
   style={

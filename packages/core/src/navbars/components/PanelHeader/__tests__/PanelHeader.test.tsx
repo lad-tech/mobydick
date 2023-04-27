@@ -117,4 +117,11 @@ describe('Tab', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  test('render panelHeader edges', () => {
+    const {toJSON} = render(
+      <PanelHeader subtitle={'Subtitle'} edges={['left']} />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
 });

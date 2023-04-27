@@ -1,5 +1,6 @@
 import {ReactElement, ReactNode} from 'react';
 import {TextStyle, ViewStyle} from 'react-native';
+import {Edge} from 'react-native-safe-area-context/src/SafeArea.types';
 
 import {TypographyProp} from '../typography/types';
 
@@ -47,4 +48,5 @@ export interface IPanelHeaderProps {
   containerStyle?: ViewStyle;
   commonViewStyle?: ViewStyle;
   isSafeAreaView?: boolean;
+  edges?: ReadonlyArray<Edge>;
 }

@@ -9,14 +9,19 @@ import {IPanelHeaderProps} from '../../types';
 import ContentHeader from './components/ContentHeader';
 
 const PanelHeader: FC<IPanelHeaderProps> = props => {
-  const {commonViewStyle, isSafeAreaView = true, ...otherProps} = props;
+  const {
+    commonViewStyle,
+    isSafeAreaView = true,
+    edges = ['top'],
+    ...otherProps
+  } = props;
 
   const [styles] = useStyles(createStyles);
 
   return (
     <View style={[styles.commonView, commonViewStyle]}>
       {isSafeAreaView ? (
-        <SafeAreaView edges={['top']}>
+        <SafeAreaView edges={edges}>
           <ContentHeader {...otherProps} />
         </SafeAreaView>
       ) : (
