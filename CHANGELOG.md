@@ -1,3 +1,11 @@
+## [7.5.3](https://glab.lad24.ru/npm/mobydick/compare/v7.5.2...v7.5.3) (2023-04-27)
+
+
+### Bug Fixes
+
+* **PanelHeader:** add props edges ([18af1d0](https://glab.lad24.ru/npm/mobydick/commit/18af1d07343091f38b9104431029737539b26d0c))
+* **PanelHeader:** add props isSafeAreaView ([deffbf2](https://glab.lad24.ru/npm/mobydick/commit/deffbf2182a7a7eff0d014c318e57d09924ed0bf))
+
 ## [7.5.2](https://glab.lad24.ru/npm/mobydick/compare/v7.5.1...v7.5.2) (2023-04-27)
 
 
