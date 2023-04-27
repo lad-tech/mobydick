@@ -94,4 +94,34 @@ describe('Tab', () => {
       });
     });
   });
+  test('render panelHeader isSafeAreaView', () => {
+    const {toJSON} = render(
+      <PanelHeader
+        title={'title'}
+        subtitle={'Subtitle'}
+        containerStyle={{backgroundColor: '#000'}}
+        titleStyle={{flex: 1}}
+        subtitleStyle={{flex: 1}}
+        titleViewStyle={{flex: 1}}
+        rightViewStyle={{flex: 1}}
+        leftViewStyle={{flex: 1}}
+        commonViewStyle={{flex: 1}}
+        leftView={<SimpleIcon name={'icon-calendar'} />}
+        rightView={<SimpleIcon name={'icon-calendar'} />}
+        titleView={<></>}
+        titleFont={'SemiBold-Secondary-L'}
+        subtitleFont={'SemiBold-Secondary-M'}
+        isSafeAreaView={false}
+      />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  test('render panelHeader edges', () => {
+    const {toJSON} = render(
+      <PanelHeader subtitle={'Subtitle'} edges={['left']} />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
