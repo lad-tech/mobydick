@@ -46,4 +46,5 @@ export interface IPanelHeaderProps {
   leftViewStyle?: ViewStyle;
   containerStyle?: ViewStyle;
   commonViewStyle?: ViewStyle;
+  isSafeAreaView?: boolean;
 }
