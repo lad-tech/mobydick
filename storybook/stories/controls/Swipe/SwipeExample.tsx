@@ -5,18 +5,37 @@ import {Button, Swipe, View} from '@npm/mobydick-core';
 const SwipeExample = () => {
   const [isActive, setActive] = useState(false);
   const [isActiveTwo, setActiveTwo] = useState(false);
-  const onPress = useCallback(() => {
-    setActive(!isActive);
+
+  const onPressCommon = (isActive: boolean) => {
+    setActive(isActive);
     setActiveTwo(!isActiveTwo);
-  }, [isActive]);
+  };
+
+  const onPressOne = (isActive: boolean) => {
+    setActive(isActive);
+  };
+
+  const onPressTwo = useCallback(() => {
+    setActiveTwo(!isActiveTwo);
+  }, [isActiveTwo]);
+
+  const onPressCommonCallback = useCallback(
+    () => onPressCommon(!isActive),
+    [isActive],
+  );
+
+  const onPressOneCallback = useCallback(
+    (event: boolean) => onPressOne(event),
+    [],
+  );
 
   return (
     <>
-      <Swipe onPress={setActive} active={isActive} disabled={false} />
+      <Swipe onPress={onPressOneCallback} active={isActive} disabled={false} />
       <View style={{padding: 20}}>
-        <Swipe onPress={setActiveTwo} active={isActiveTwo} disabled={true} />
+        <Swipe onPress={onPressTwo} active={isActiveTwo} disabled={true} />
       </View>
-      <Button onPress={onPress} text={'Изменить состояние'} />
+      <Button onPress={onPressCommonCallback} text={'Изменить состояние'} />
     </>
   );
 };
