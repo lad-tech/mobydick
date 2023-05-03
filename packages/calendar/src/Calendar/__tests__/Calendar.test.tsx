@@ -27,6 +27,58 @@ describe('Calendar', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly isShowToday = true > maxLengthDateRange maxDate minDate', () => {
+    const {toJSON} = render(
+      <Calendar
+        initialRange={{fromDate: '2022-07-01', toDate: '2022-07-04'}}
+        isShowToday={true}
+        maxLengthDateRange={10}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly isShowToday = false > maxLengthDateRange maxDate minDate', () => {
+    const {toJSON} = render(
+      <Calendar
+        initialRange={{fromDate: '2022-07-01', toDate: '2022-07-04'}}
+        isShowToday={false}
+        maxLengthDateRange={10}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly isShowToday = true < maxLengthDateRange maxDate minDate', () => {
+    const {toJSON} = render(
+      <Calendar
+        initialRange={{fromDate: '2022-07-13', toDate: '2022-07-14'}}
+        isShowToday={true}
+        maxDate={'2022-07-20'}
+        minDate={'2022-07-13'}
+        maxLengthDateRange={10}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly isShowToday = true < maxLengthDateRange', () => {
+    const {toJSON} = render(
+      <Calendar
+        initialDate={'2022-07-13'}
+        isShowToday={true}
+        maxLengthDateRange={10}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly isShowToday = true > maxLengthDateRange', () => {
+    const {toJSON} = render(
+      <Calendar
+        initialDate={'2022-07-13'}
+        isShowToday={true}
+        maxLengthDateRange={2}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
   it('renders correctly not isValidDate', () => {
     const {toJSON} = render(
       <Calendar
