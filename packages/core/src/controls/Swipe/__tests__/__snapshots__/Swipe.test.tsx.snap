@@ -319,3 +319,43 @@ exports[`Swipe should renders correctly disabled dx: 20 1`] = `
   />
 </View>
 `;
+
+exports[`Swipe should renders correctly when and toggle to active 1`] = `
+<View
+  accessibilityLabel="swipe"
+  collapsable={false}
+  needsOffscreenAlphaCompositing={true}
+  onMoveShouldSetPanResponder={[Function]}
+  onPanResponderGrant={[Function]}
+  onPanResponderMove={[Function]}
+  onPanResponderRelease={[Function]}
+  onStartShouldSetPanResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "rgba(43, 120, 238, 1)",
+      "borderRadius": 30,
+      "height": 45,
+      "opacity": 1,
+      "padding": 3,
+      "width": 75,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      {
+        "aspectRatio": 1,
+        "backgroundColor": "#FFF",
+        "borderRadius": 37.5,
+        "flex": 1,
+        "transform": [
+          {
+            "translateX": 30,
+          },
+        ],
+      }
+    }
+  />
+</View>
+`;
