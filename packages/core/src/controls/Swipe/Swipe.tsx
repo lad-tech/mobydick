@@ -59,21 +59,15 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
     pan.flattenOffset();
 
     if (gestureState.dx === 0) {
-      if (distance.current > 0) {
-        onPress(false);
-        return swipeLeft();
-      } else {
-        onPress(true);
-        return swipeRight();
-      }
+      onPress(distance.current > 0 ? false : true);
+      return distance.current > 0 ? swipeLeft() : swipeRight();
     }
 
-    distance.current = gestureState.dx;
-    if (distance.current > 0) {
-      onPress(true);
+    if (gestureState.dx > 0) {
+      distance.current !== rightPos && onPress(true);
       return swipeRight();
     } else {
-      onPress(false);
+      distance.current !== leftPos && onPress(false);
       return swipeLeft();
     }
   };
