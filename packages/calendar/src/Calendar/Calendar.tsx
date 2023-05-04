@@ -135,6 +135,10 @@ const Calendar: FC<ICalendar> = props => {
             fontWeight: '400',
             color: getStyleDisabledToday(),
           },
+          wrapper: {
+            alignItems: 'center',
+            alignSelf: 'stretch',
+          },
         },
         'stylesheet.calendar.header': {
           dayHeader: {
