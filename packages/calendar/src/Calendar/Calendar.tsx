@@ -99,23 +99,6 @@ const Calendar: FC<ICalendar> = props => {
   const dateDots = getDottedDates(dottedDates, colors.ElementBase);
   const dateToday = getMarkedToday(colorsArg);
 
-  const getStyleDisabledToday = useCallback(() => {
-    if (
-      new Date(currMaxDate).getTime() > new Date().getTime() &&
-      new Date(currMinDate).getTime() < new Date().getTime()
-    ) {
-      return colors.TextPrimary;
-    } else {
-      return colors.TextMuted;
-    }
-  }, [
-    currMaxDate,
-    currMinDate,
-    colors.TextPrimary,
-    colors.TextMuted,
-    isShowToday,
-  ]);
-
   const themeStyles = useMemo(
     () => ({
       theme: {
@@ -133,7 +116,6 @@ const Calendar: FC<ICalendar> = props => {
         'stylesheet.day.period': {
           todayText: {
             fontWeight: '400',
-            color: getStyleDisabledToday(),
           },
           wrapper: {
             alignItems: 'center',
@@ -149,7 +131,7 @@ const Calendar: FC<ICalendar> = props => {
         },
       },
     }),
-    [currentTheme, getStyleDisabledToday],
+    [currentTheme],
   );
   const updateDateRange = (
     fromDate: number | string | Date,
