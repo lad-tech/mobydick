@@ -7,17 +7,17 @@ const SwipeExample = () => {
   const [isActiveTwo, setActiveTwo] = useState(false);
 
   const onPressCommon = useCallback(() => {
-    setActive(!isActive);
-    setActiveTwo(!isActiveTwo);
-  }, [isActiveTwo, isActive]);
+    setActive(isActive => !isActive);
+    setActiveTwo(isActiveTwo => !isActiveTwo);
+  }, []);
 
   const onPressOne = useCallback((isActive: boolean) => {
     setActive(isActive);
   }, []);
 
   const onPressTwo = useCallback(() => {
-    setActiveTwo(!isActiveTwo);
-  }, [isActiveTwo]);
+    setActiveTwo(isActiveTwo => !isActiveTwo);
+  }, []);
 
   return (
     <>
