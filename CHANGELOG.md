@@ -1,3 +1,12 @@
+## [7.5.4](https://glab.lad24.ru/npm/mobydick/compare/v7.5.3...v7.5.4) (2023-05-04)
+
+
+### Bug Fixes
+
+* **Calendar:** change color today when it disabled ([14524d7](https://glab.lad24.ru/npm/mobydick/commit/14524d763b42b96472b4bb3c3dcaec711bf235b9))
+* **Calendar:** change style, CAN delete patch ([be3abc0](https://glab.lad24.ru/npm/mobydick/commit/be3abc03f5d9b37bb55848b62311ce6d6b9050eb))
+* **Swipe:** change onPress usage ([49734ce](https://glab.lad24.ru/npm/mobydick/commit/49734ce7720ae1daa7727bd42788a7633da10cd2))
+
 ## [7.5.3](https://glab.lad24.ru/npm/mobydick/compare/v7.5.2...v7.5.3) (2023-04-27)
 
 
