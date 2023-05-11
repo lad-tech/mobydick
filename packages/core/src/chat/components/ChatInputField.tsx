@@ -1,22 +1,23 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
 
-import {ITextInputProps} from '../../basic';
 import {rem} from '../../styles';
 import InputField from '../../inputs/components/InputField/InputField';
 import useStyles from '../../styles/theme/hooks/useStyles';
 import {LABELS} from '../../other';
+import {IInputFieldsProps} from '../../inputs';
 
-const ChatInputField = (props: ITextInputProps) => {
+const ChatInputField = (props: IInputFieldsProps) => {
+  const {textInputContainerStyle, style, ...otherProps} = props;
   const [styles] = useStyles(stylesCreate);
 
   return (
     <InputField
       accessibilityLabel={LABELS.chatInputField}
-      textInputContainerStyle={styles.containerStyle}
+      textInputContainerStyle={[styles.containerStyle, textInputContainerStyle]}
       multiline={true}
-      style={styles.textInputStyle}
-      {...props}
+      style={[styles.textInputStyle, style]}
+      {...otherProps}
     />
   );
 };

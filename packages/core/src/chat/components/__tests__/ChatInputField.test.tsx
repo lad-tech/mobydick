@@ -12,6 +12,18 @@ describe('@npm/mobydick-core/ChatInputField', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly with props', () => {
+    const {toJSON} = render(
+      <ChatInputField
+        placeholder={'placeholder'}
+        value={'value'}
+        textInputContainerStyle={{width: 200}}
+        style={{paddingTop: 20}}
+      />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
   it('renders correctly focused/blur', () => {
     const {toJSON, getByLabelText} = render(<ChatInputField />);
     const TextInput = getByLabelText(LABELS.chatInputField);

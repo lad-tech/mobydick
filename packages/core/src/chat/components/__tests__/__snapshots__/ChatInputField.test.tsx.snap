@@ -30,12 +30,15 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly 1`] = `
         {
           "minHeight": 120,
         },
-        {
-          "borderWidth": undefined,
-          "maxHeight": 294,
-          "minHeight": 54,
-          "width": 367.5,
-        },
+        [
+          {
+            "borderWidth": undefined,
+            "maxHeight": 294,
+            "minHeight": 54,
+            "width": 367.5,
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -62,9 +65,12 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly 1`] = `
             "fontSize": 24,
             "lineHeight": 30,
           },
-          {
-            "paddingTop": 0,
-          },
+          [
+            {
+              "paddingTop": 0,
+            },
+            undefined,
+          ],
         ]
       }
       testID="TextInput"
@@ -104,12 +110,15 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 1`] = 
         {
           "minHeight": 120,
         },
-        {
-          "borderWidth": undefined,
-          "maxHeight": 294,
-          "minHeight": 54,
-          "width": 367.5,
-        },
+        [
+          {
+            "borderWidth": undefined,
+            "maxHeight": 294,
+            "minHeight": 54,
+            "width": 367.5,
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -135,9 +144,12 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 1`] = 
             "fontSize": 24,
             "lineHeight": 30,
           },
-          {
-            "paddingTop": 0,
-          },
+          [
+            {
+              "paddingTop": 0,
+            },
+            undefined,
+          ],
         ]
       }
       testID="TextInput"
@@ -176,12 +188,15 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 2`] = 
         {
           "minHeight": 120,
         },
-        {
-          "borderWidth": undefined,
-          "maxHeight": 294,
-          "minHeight": 54,
-          "width": 367.5,
-        },
+        [
+          {
+            "borderWidth": undefined,
+            "maxHeight": 294,
+            "minHeight": 54,
+            "width": 367.5,
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -207,12 +222,99 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 2`] = 
             "fontSize": 24,
             "lineHeight": 30,
           },
-          {
-            "paddingTop": 0,
-          },
+          [
+            {
+              "paddingTop": 0,
+            },
+            undefined,
+          ],
         ]
       }
       testID="TextInput"
+    />
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-core/ChatInputField renders correctly with props 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "flex-start",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "transparent",
+          "borderRadius": 12,
+          "borderWidth": 1.5,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 12,
+          "paddingLeft": 27,
+          "paddingRight": 24,
+          "paddingVertical": 18,
+        },
+        {
+          "minHeight": 120,
+        },
+        [
+          {
+            "borderWidth": undefined,
+            "maxHeight": 294,
+            "minHeight": 54,
+            "width": 367.5,
+          },
+          {
+            "width": 200,
+          },
+        ],
+      ]
+    }
+  >
+    <TextInput
+      accessibilityLabel="chatInputField"
+      allowFontScaling={true}
+      editable={true}
+      multiline={true}
+      numberOfLines={1}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholder="placeholder"
+      placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
+      style={
+        [
+          {
+            "flex": 1,
+            "padding": 0,
+          },
+          {
+            "color": "#20242D",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 24,
+            "lineHeight": 30,
+          },
+          [
+            {
+              "paddingTop": 0,
+            },
+            {
+              "paddingTop": 20,
+            },
+          ],
+        ]
+      }
+      testID="TextInput"
+      value="value"
     />
   </View>
 </View>
