@@ -8,3 +8,4 @@ export * from './popups';
 export * from './progress';
 export * from './styles';
 export * from './typography';
+export * from './chat';
