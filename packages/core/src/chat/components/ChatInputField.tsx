@@ -26,7 +26,7 @@ const stylesCreate = () =>
     containerStyle: {
       minHeight: rem(36),
       maxHeight: rem(196),
-      width: rem(267),
+      width: rem(245),
       borderWidth: undefined,
     },
     textInputStyle: {
