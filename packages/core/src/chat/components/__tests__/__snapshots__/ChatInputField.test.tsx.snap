@@ -7,7 +7,14 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly 1`] = `
       {
         "minWidth": 195,
       },
-      undefined,
+      [
+        {
+          "flex": 1,
+          "flexDirection": "column",
+          "minWidth": undefined,
+        },
+        undefined,
+      ],
     ]
   }
 >
@@ -32,10 +39,15 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly 1`] = `
         },
         [
           {
+            "alignItems": "center",
             "borderWidth": undefined,
+            "marginRight": 3,
+            "marginVertical": 0,
             "maxHeight": 294,
-            "minHeight": 54,
-            "width": 367.5,
+            "minHeight": 57,
+            "minWidth": 367.5,
+            "paddingVertical": 12,
+            "width": "100%",
           },
           undefined,
         ],
@@ -87,7 +99,14 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 1`] = 
       {
         "minWidth": 195,
       },
-      undefined,
+      [
+        {
+          "flex": 1,
+          "flexDirection": "column",
+          "minWidth": undefined,
+        },
+        undefined,
+      ],
     ]
   }
 >
@@ -112,10 +131,15 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 1`] = 
         },
         [
           {
+            "alignItems": "center",
             "borderWidth": undefined,
+            "marginRight": 3,
+            "marginVertical": 0,
             "maxHeight": 294,
-            "minHeight": 54,
-            "width": 367.5,
+            "minHeight": 57,
+            "minWidth": 367.5,
+            "paddingVertical": 12,
+            "width": "100%",
           },
           undefined,
         ],
@@ -165,7 +189,14 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 2`] = 
       {
         "minWidth": 195,
       },
-      undefined,
+      [
+        {
+          "flex": 1,
+          "flexDirection": "column",
+          "minWidth": undefined,
+        },
+        undefined,
+      ],
     ]
   }
 >
@@ -190,10 +221,15 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 2`] = 
         },
         [
           {
+            "alignItems": "center",
             "borderWidth": undefined,
+            "marginRight": 3,
+            "marginVertical": 0,
             "maxHeight": 294,
-            "minHeight": 54,
-            "width": 367.5,
+            "minHeight": 57,
+            "minWidth": 367.5,
+            "paddingVertical": 12,
+            "width": "100%",
           },
           undefined,
         ],
@@ -243,7 +279,14 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly with props 1`] = `
       {
         "minWidth": 195,
       },
-      undefined,
+      [
+        {
+          "flex": 1,
+          "flexDirection": "column",
+          "minWidth": undefined,
+        },
+        undefined,
+      ],
     ]
   }
 >
@@ -268,10 +311,15 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly with props 1`] = `
         },
         [
           {
+            "alignItems": "center",
             "borderWidth": undefined,
+            "marginRight": 3,
+            "marginVertical": 0,
             "maxHeight": 294,
-            "minHeight": 54,
-            "width": 367.5,
+            "minHeight": 57,
+            "minWidth": 367.5,
+            "paddingVertical": 12,
+            "width": "100%",
           },
           {
             "width": 200,
