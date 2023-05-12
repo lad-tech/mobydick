@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useCallback, useState} from 'react';
 import {boolean} from '@storybook/addon-knobs';
 
 import {ChatInput, View} from '@npm/mobydick-core';
@@ -9,6 +9,8 @@ const ChatExample = () => {
   const isShowOneIcon = boolean('isShowOneIcon', true);
   const isShowTwoIcon = boolean('isShowTwoIcon', true);
 
+  const onPress = useCallback(() => console.log('valueInput'), []);
+
   return (
     <View>
       <ChatInput>
@@ -18,15 +20,12 @@ const ChatExample = () => {
           onChangeText={setValueInput}
         />
         {isShowOneIcon && (
-          <ChatInput.ChatPressableIcon
-            name={'icon-camera'}
-            onPress={() => console.log('valueInput')}
-          />
+          <ChatInput.ChatPressableIcon name={'icon-camera'} onPress={onPress} />
         )}
         {isShowTwoIcon && (
           <ChatInput.ChatPressableIcon
             name={'icon-attachment'}
-            onPress={() => console.log('valueInput')}
+            onPress={onPress}
           />
         )}
       </ChatInput>
