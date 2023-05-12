@@ -1,36 +1,50 @@
 import React from 'react';
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 
-import {rem} from '../../styles';
+import {IThemeContext, rem} from '../../styles';
 import InputField from '../../inputs/components/InputField/InputField';
 import useStyles from '../../styles/theme/hooks/useStyles';
 import {LABELS} from '../../other';
 import {IInputFieldsProps} from '../../inputs';
 
 const ChatInputField = (props: IInputFieldsProps) => {
-  const {textInputContainerStyle, style, ...otherProps} = props;
+  const {textInputContainerStyle, style, containerStyle, ...otherProps} = props;
   const [styles] = useStyles(stylesCreate);
 
   return (
     <InputField
       accessibilityLabel={LABELS.chatInputField}
-      textInputContainerStyle={[styles.containerStyle, textInputContainerStyle]}
+      textInputContainerStyle={[styles.inputContainer, textInputContainerStyle]}
       multiline={true}
-      style={[styles.textInputStyle, style]}
+      style={[styles.textInput, style]}
+      containerStyle={[styles.container, containerStyle]}
       {...otherProps}
     />
   );
 };
 
-const stylesCreate = () =>
+const stylesCreate = ({spaces}: IThemeContext) =>
   StyleSheet.create({
-    containerStyle: {
-      minHeight: rem(36),
+    inputContainer: {
+      minHeight: rem(38),
       maxHeight: rem(196),
-      width: rem(245),
+      minWidth: rem(245),
+      width: '100%',
       borderWidth: undefined,
+      marginRight: spaces.Space2,
+      marginVertical: 0,
+      alignItems: 'center',
+      paddingVertical: Platform.select({
+        android: spaces.Space4,
+        ios: spaces.Space8,
+      }),
     },
-    textInputStyle: {
+    container: {
+      flex: 1,
+      flexDirection: 'column',
+      minWidth: undefined,
+    },
+    textInput: {
       paddingTop: 0,
     },
   });
