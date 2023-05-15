@@ -8,16 +8,7 @@ import {IThemeContext} from '../../styles';
 import useStyles from '../../styles/theme/hooks/useStyles';
 import rem from '../../styles/spaces/rem';
 import {isValidMessageTime} from '../functions/isValidMessageTime';
-
-type URI = string;
-type FileHandle = number;
-
-interface IChatMessage {
-  isMe: boolean;
-  time: string;
-  message?: string;
-  image?: FileHandle | URI;
-}
+import {IChatMessage} from '../types';
 
 const ChatMessage = (props: IChatMessage) => {
   const {isMe, message, image, time} = props;

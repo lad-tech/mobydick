@@ -1,10 +1,25 @@
 import React, {useCallback, useState} from 'react';
 import {boolean, text} from '@storybook/addon-knobs';
 
-import {ChatInput, ChatMessage, useTheme, View} from '@npm/mobydick-core';
+import {
+  ChatInput,
+  ChatMessage,
+  ChatMessageAvatar,
+  useTheme,
+  View,
+} from '@npm/mobydick-core';
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const ImageAvatar = require('../other/Example/image/ImageAvatar.png');
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const Content = require('./image/Content.png');
+
+const userWithPhotoLocal = {
+  logo: ImageAvatar,
+  firstName: 'Иван',
+  lastName: 'Пушкин',
+};
 
 const ChatExample = () => {
   const {colors, spaces} = useTheme();
@@ -31,7 +46,12 @@ const ChatExample = () => {
           paddingHorizontal: spaces.Space20,
           paddingVertical: spaces.Space12,
         }}>
-        <ChatMessage message={messageOne} isMe={true} time={'12:40'} />
+        <ChatMessageAvatar
+          user={userWithPhotoLocal}
+          message={messageOne}
+          isMe={true}
+          time={'12:40'}
+        />
         <ChatMessage message={messageTwo} isMe={false} time={'12:42'} />
         {isShowPictureMe && (
           <ChatMessage image={Content} isMe={true} time={'12:43'} />
