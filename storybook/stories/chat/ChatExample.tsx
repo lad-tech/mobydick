@@ -1,5 +1,5 @@
 import React, {useCallback, useState} from 'react';
-import {boolean} from '@storybook/addon-knobs';
+import {boolean, text} from '@storybook/addon-knobs';
 
 import {ChatInput, ChatMessage, useTheme, View} from '@npm/mobydick-core';
 
@@ -15,7 +15,12 @@ const ChatExample = () => {
 
   const isShowPictureMe = boolean('isShowPictureMe', true);
   const isShowPictureNotMe = boolean('isShowPictureNotMe', false);
-
+  const messageOne = text('messageOne', 'Я хочу спать');
+  const messageTwo = text(
+    'messageTwo',
+    'Ура! Я могу еще чем-то помочь? Если нет, заверши, пожалуйста, консультацию. Всего хорошего!',
+  );
+  const placeholder = text('placeholder', 'Сообщение');
   const onPress = useCallback(() => console.log('valueInput'), []);
 
   return (
@@ -26,14 +31,8 @@ const ChatExample = () => {
           paddingHorizontal: spaces.Space20,
           paddingVertical: spaces.Space12,
         }}>
-        <ChatMessage message={'Я хочу спать'} isMe={true} time={'12:40'} />
-        <ChatMessage
-          message={
-            'Ура! Я могу еще чем-то помочь? Если нет, заверши, пожалуйста, консультацию. Всего хорошего!'
-          }
-          isMe={false}
-          time={'12:92'}
-        />
+        <ChatMessage message={messageOne} isMe={true} time={'12:40'} />
+        <ChatMessage message={messageTwo} isMe={false} time={'12:42'} />
         {isShowPictureMe && (
           <ChatMessage image={Content} isMe={true} time={'12:43'} />
         )}
@@ -43,7 +42,7 @@ const ChatExample = () => {
       </View>
       <ChatInput>
         <ChatInput.ChatInputField
-          placeholder={'Сообщение'}
+          placeholder={placeholder}
           value={valueInput}
           onChangeText={setValueInput}
         />
