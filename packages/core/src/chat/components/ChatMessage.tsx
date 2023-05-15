@@ -7,7 +7,7 @@ import {isNumber} from '../../other/components/Avatar/functions/isNumber';
 import {IThemeContext} from '../../styles';
 import useStyles from '../../styles/theme/hooks/useStyles';
 import rem from '../../styles/spaces/rem';
-import {timeValidation} from '../functions/timeValidation';
+import {isValidMessageTime} from '../functions/isValidMessageTime';
 
 interface IChatMessage {
   isMe: boolean;
@@ -19,7 +19,6 @@ interface IChatMessage {
 const ChatMessage = (props: IChatMessage) => {
   const {isMe, message, image, time} = props;
   const [styles] = useStyles(stylesCreate, isMe);
-  const isValidTime = timeValidation(time);
 
   return (
     <View style={styles.container}>
@@ -40,7 +39,7 @@ const ChatMessage = (props: IChatMessage) => {
         )}
 
         <View style={styles.timeArea}>
-          {isValidTime && (
+          {isValidMessageTime(time) && (
             <Typography
               font={isMe ? 'Regular-WhiteExtra-XXXS' : 'Regular-Muted-XXXS'}>
               {time}
