@@ -9,11 +9,14 @@ import useStyles from '../../styles/theme/hooks/useStyles';
 import rem from '../../styles/spaces/rem';
 import {isValidMessageTime} from '../functions/isValidMessageTime';
 
+type URI = string;
+type FileHandle = number;
+
 interface IChatMessage {
   isMe: boolean;
   time: string;
   message?: string;
-  image?: string;
+  image?: FileHandle | URI;
 }
 
 const ChatMessage = (props: IChatMessage) => {
