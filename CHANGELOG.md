@@ -1,3 +1,13 @@
+# [7.6.0](https://glab.lad24.ru/npm/mobydick/compare/v7.5.4...v7.6.0) (2023-05-15)
+
+
+### Features
+
+* **Chat:** add ChatInput ([569dc0f](https://glab.lad24.ru/npm/mobydick/commit/569dc0f8cf4d70e25ac4fc0573f91fbf729ba3aa))
+* **Chat:** add directory Chat and component chatInputField ([642b3f4](https://glab.lad24.ru/npm/mobydick/commit/642b3f4c9aac8bbe7e85ae6cf3ba59234088c47b))
+* **ChatMessage:** add ChatMessage ([892e817](https://glab.lad24.ru/npm/mobydick/commit/892e817fa567102f8a2f1d85c616a90621c971fb))
+* **ChatMessageAvatar:** add ChatMessageAvatar ([5ba6add](https://glab.lad24.ru/npm/mobydick/commit/5ba6add4ad843f4f5a13a5388079e955768340b2))
+
 ## [7.5.4](https://glab.lad24.ru/npm/mobydick/compare/v7.5.3...v7.5.4) (2023-05-04)
 
 
