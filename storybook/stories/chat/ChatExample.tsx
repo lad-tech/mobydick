@@ -32,18 +32,13 @@ const ChatExample = () => {
             'Ура! Я могу еще чем-то помочь? Если нет, заверши, пожалуйста, консультацию. Всего хорошего!'
           }
           isMe={false}
-          time={'12:42'}
+          time={'12:92'}
         />
         {isShowPictureMe && (
           <ChatMessage image={Content} isMe={true} time={'12:43'} />
         )}
         {isShowPictureNotMe && (
-          <ChatMessage
-            image={Content}
-            isMe={false}
-            time={'12:43'}
-            message={'message'}
-          />
+          <ChatMessage image={Content} isMe={false} time={'12:43'} />
         )}
       </View>
       <ChatInput>
