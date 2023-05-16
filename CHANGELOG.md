@@ -1,3 +1,16 @@
+# [7.7.0](https://glab.lad24.ru/npm/mobydick/compare/v7.6.0...v7.7.0) (2023-05-16)
+
+
+### Bug Fixes
+
+* **Avatar:** add middleName ([f42ff23](https://glab.lad24.ru/npm/mobydick/commit/f42ff23a33141348de6351f19ce85a310a783b6c))
+* **AvatarGroup:** remove paddings ([302f78b](https://glab.lad24.ru/npm/mobydick/commit/302f78b4c17b19f6703abfb517222b96be66569a))
+
+
+### Features
+
+* **Avatar:** add function for backgroundColor ([ca35fac](https://glab.lad24.ru/npm/mobydick/commit/ca35faca9519a53c473bb4ac1f35201d1c82c299))
+
 # [7.6.0](https://glab.lad24.ru/npm/mobydick/compare/v7.5.4...v7.6.0) (2023-05-15)
 
 
