@@ -1,4 +1,4 @@
-import React, {FC, useCallback, useState} from 'react';
+import React, {FC, useCallback, useMemo, useState} from 'react';
 import {Image, ImageErrorEventData, NativeSyntheticEvent} from 'react-native';
 
 import View from '../../../basic/components/View/View';
@@ -25,7 +25,7 @@ const Avatar: FC<IAvatarProps> = props => {
   } = props;
   const {colors} = useTheme();
 
-  const userColor = () => {
+  const userColor = useMemo(() => {
     const nameLength = `${user?.firstName}${user?.lastName}`.length;
     const avatarColors = [
       colors.BannerFirst,
@@ -37,7 +37,16 @@ const Avatar: FC<IAvatarProps> = props => {
       colors.BannerSeventh,
     ];
     return avatarColors[nameLength % avatarColors.length];
-  };
+  }, [
+    user,
+    colors.BannerFirst,
+    colors.BannerSecond,
+    colors.BannerThird,
+    colors.BannerFourth,
+    colors.BannerFifth,
+    colors.BannerSixth,
+    colors.BannerSeventh,
+  ]);
 
   const [styles] = useStyles(stylesCreate, size, border);
 
@@ -58,7 +67,7 @@ const Avatar: FC<IAvatarProps> = props => {
     <View
       style={[
         styles.container,
-        {backgroundColor: backgroundColor || userColor()},
+        {backgroundColor: backgroundColor || userColor},
         style,
         {opacity: disabled ? 0.5 : 1},
       ]}>
