@@ -52,11 +52,13 @@ exports[`@npm/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`] = `
           {
             "alignItems": "center",
             "alignSelf": "center",
-            "backgroundColor": "#2B78EE",
             "borderRadius": 18,
             "height": 36,
             "justifyContent": "center",
             "width": 36,
+          },
+          {
+            "backgroundColor": "#2B78EE",
           },
           undefined,
           {
@@ -68,14 +70,18 @@ exports[`@npm/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`] = `
       <Text
         allowFontScaling={true}
         style={
-          {
-            "color": "#FFF",
-            "fontFamily": "Neotis",
-            "fontSize": 18,
-          }
+          [
+            {
+              "color": "#FFF",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 15,
+              "lineHeight": 21,
+            },
+            undefined,
+          ]
         }
       >
-        
+        ИП
       </Text>
     </View>
   </View>
@@ -207,11 +213,13 @@ exports[`@npm/mobydick-core/ChatMessageAvatar renders correctly onPress 1`] = `
           {
             "alignItems": "center",
             "alignSelf": "center",
-            "backgroundColor": "#2B78EE",
             "borderRadius": 18,
             "height": 36,
             "justifyContent": "center",
             "width": 36,
+          },
+          {
+            "backgroundColor": "#2B78EE",
           },
           undefined,
           {
@@ -223,14 +231,18 @@ exports[`@npm/mobydick-core/ChatMessageAvatar renders correctly onPress 1`] = `
       <Text
         allowFontScaling={true}
         style={
-          {
-            "color": "#FFF",
-            "fontFamily": "Neotis",
-            "fontSize": 18,
-          }
+          [
+            {
+              "color": "#FFF",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 15,
+              "lineHeight": 21,
+            },
+            undefined,
+          ]
         }
       >
-        
+        ИП
       </Text>
     </View>
   </View>

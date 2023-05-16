@@ -1,9 +1,10 @@
-import React, {FC, useCallback, useState} from 'react';
+import React, {FC, useCallback, useMemo, useState} from 'react';
 import {Image, ImageErrorEventData, NativeSyntheticEvent} from 'react-native';
 
 import View from '../../../basic/components/View/View';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import {LABELS} from '../../constants';
+import useTheme from '../../../styles/theme/hooks/useTheme';
 
 import {IAvatarProps, IAvatarSize, IAvatarTypes} from './types';
 import stylesCreate from './stylesCreate';
@@ -16,13 +17,39 @@ const Avatar: FC<IAvatarProps> = props => {
     user,
     backgroundColor,
     size = IAvatarSize.M,
-    type = IAvatarTypes.icon,
+    type = IAvatarTypes.text,
     style,
     badge,
     disabled = false,
     border = false,
   } = props;
-  const [styles] = useStyles(stylesCreate, size, backgroundColor, border);
+  const {colors} = useTheme();
+
+  const userColor = useMemo(() => {
+    const nameLength = `${user?.firstName}${user?.middleName}${user?.lastName}`
+      .length;
+    const avatarColors = [
+      colors.BannerFirst,
+      colors.BannerSecond,
+      colors.BannerThird,
+      colors.BannerFourth,
+      colors.BannerFifth,
+      colors.BannerSixth,
+      colors.BannerSeventh,
+    ];
+    return avatarColors[nameLength % avatarColors.length];
+  }, [
+    user,
+    colors.BannerFirst,
+    colors.BannerSecond,
+    colors.BannerThird,
+    colors.BannerFourth,
+    colors.BannerFifth,
+    colors.BannerSixth,
+    colors.BannerSeventh,
+  ]);
+
+  const [styles] = useStyles(stylesCreate, size, border);
 
   const [error, setError] = useState<ImageErrorEventData>();
 
@@ -38,7 +65,13 @@ const Avatar: FC<IAvatarProps> = props => {
   }
   const isAvatarBadge = !!badge && !disabled && size === IAvatarSize.M;
   return (
-    <View style={[styles.container, style, {opacity: disabled ? 0.5 : 1}]}>
+    <View
+      style={[
+        styles.container,
+        {backgroundColor: backgroundColor || userColor},
+        style,
+        {opacity: disabled ? 0.5 : 1},
+      ]}>
       {isAvatarBadge && <AvatarBadge badge={badge} />}
       {error || !user.logo ? (
         <AvatarWithoutImage

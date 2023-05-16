@@ -4,6 +4,7 @@ import {ICounterTypes, IIndicatorTypes} from '../Badge';
 
 export interface IUser {
   firstName: string;
+  middleName?: string;
   lastName?: string;
   logo?: string;
 }

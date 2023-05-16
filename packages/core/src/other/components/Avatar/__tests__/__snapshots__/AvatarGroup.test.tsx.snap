@@ -15,13 +15,15 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#ff0000",
         },
         {
           "zIndex": 1,
@@ -55,13 +57,15 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#ff0000",
         },
         {
           "right": 18,
@@ -108,13 +112,15 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#2B78EE",
         },
         {
           "zIndex": 1,
@@ -128,14 +134,18 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
   <View
@@ -144,13 +154,15 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#2B78EE",
         },
         {
           "right": 18,
@@ -165,14 +177,18 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
   <View
@@ -181,13 +197,15 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#2B78EE",
         },
         {
           "right": 36,
@@ -202,14 +220,18 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
   <View
@@ -218,13 +240,15 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#2B78EE",
         },
         {
           "right": 54,
@@ -239,14 +263,18 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
 </View>
@@ -267,13 +295,15 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#2B78EE",
         },
         {
           "zIndex": 1,
@@ -309,13 +339,15 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#2B78EE",
         },
         {
           "right": 18,
@@ -330,14 +362,18 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
   <View
@@ -346,13 +382,15 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#2B78EE",
         },
         {
           "right": 36,
@@ -367,14 +405,18 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
   <View
@@ -430,13 +472,15 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#ff0000",
         },
         {
           "zIndex": 1,
@@ -472,13 +516,15 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#ff0000",
         },
         {
           "right": 18,
@@ -513,13 +559,15 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
           "height": 60,
           "justifyContent": "center",
           "width": 60,
+        },
+        {
+          "backgroundColor": "#ff0000",
         },
         {
           "right": 36,
