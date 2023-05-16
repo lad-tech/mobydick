@@ -32,7 +32,16 @@ const userWithPhotoLocal = {
   ...defaultUser,
 };
 
-const groupDateThree = [userWithPhotoLocal, userWithPhoto, defaultUser];
+const groupDateThree = [
+  userWithPhotoLocal,
+  userWithPhoto,
+  defaultUser,
+  {
+    firstName: 'Ольга',
+    middleName: 'Андреевна',
+    lastName: 'Константинова',
+  },
+];
 
 const groupDate = groupDateThree.concat(Array(8).fill(defaultUser));
 
@@ -122,14 +131,23 @@ const AvatarExample = () => {
       </View>
       <View style={{flexDirection: 'row', paddingVertical: spaces.Space8}}>
         <AvatarWithoutImage
-          user={{firstName: 'Константин', lastName: 'Константинов'}}
+          user={{
+            firstName: 'Константин',
+            middleName: 'Андреевич',
+            lastName: 'Константинов',
+          }}
         />
         <AvatarWithoutImage
-          user={{firstName: 'Ольга', lastName: 'Константинова'}}
+          user={{
+            firstName: 'Ольга',
+            middleName: 'Андреевна',
+            lastName: 'Константинова',
+          }}
         />
         <AvatarWithoutImage
           user={{
             firstName: text('firstName', 'Виктория'),
+            middleName: text('middleName', 'Андреевна'),
             lastName: text('lastName', 'Лисина'),
           }}
         />

@@ -26,7 +26,8 @@ const Avatar: FC<IAvatarProps> = props => {
   const {colors} = useTheme();
 
   const userColor = useMemo(() => {
-    const nameLength = `${user?.firstName}${user?.lastName}`.length;
+    const nameLength = `${user?.firstName}${user?.middleName}${user?.lastName}`
+      .length;
     const avatarColors = [
       colors.BannerFirst,
       colors.BannerSecond,
