@@ -7,11 +7,13 @@ exports[`Avatar render avatar ITypeAvatar.icon 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -42,11 +44,13 @@ exports[`Avatar render avatar ITypeAvatar.text 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -81,11 +85,13 @@ exports[`Avatar render avatar badge counter 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -139,14 +145,18 @@ exports[`Avatar render avatar badge counter 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      {
-        "color": "#FFF",
-        "fontFamily": "Neotis",
-        "fontSize": 30,
-      }
+      [
+        {
+          "color": "#FFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 21,
+          "lineHeight": 27,
+        },
+        undefined,
+      ]
     }
   >
-    
+    ИП
   </Text>
 </View>
 `;
@@ -158,11 +168,13 @@ exports[`Avatar render avatar badge indicator 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -196,14 +208,18 @@ exports[`Avatar render avatar badge indicator 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      {
-        "color": "#FFF",
-        "fontFamily": "Neotis",
-        "fontSize": 30,
-      }
+      [
+        {
+          "color": "#FFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 21,
+          "lineHeight": 27,
+        },
+        undefined,
+      ]
     }
   >
-    
+    ИП
   </Text>
 </View>
 `;
@@ -215,11 +231,13 @@ exports[`Avatar render avatar badge null 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -231,14 +249,18 @@ exports[`Avatar render avatar badge null 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      {
-        "color": "#FFF",
-        "fontFamily": "Neotis",
-        "fontSize": 30,
-      }
+      [
+        {
+          "color": "#FFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 21,
+          "lineHeight": 27,
+        },
+        undefined,
+      ]
     }
   >
-    
+    ИП
   </Text>
 </View>
 `;
@@ -250,11 +272,13 @@ exports[`Avatar render avatar badge status 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -282,14 +306,18 @@ exports[`Avatar render avatar badge status 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      {
-        "color": "#FFF",
-        "fontFamily": "Neotis",
-        "fontSize": 30,
-      }
+      [
+        {
+          "color": "#FFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 21,
+          "lineHeight": 27,
+        },
+        undefined,
+      ]
     }
   >
-    
+    ИП
   </Text>
 </View>
 `;
@@ -301,11 +329,13 @@ exports[`Avatar render avatar disabled 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -317,14 +347,18 @@ exports[`Avatar render avatar disabled 1`] = `
   <Text
     allowFontScaling={true}
     style={
-      {
-        "color": "#FFF",
-        "fontFamily": "Neotis",
-        "fontSize": 30,
-      }
+      [
+        {
+          "color": "#FFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 21,
+          "lineHeight": 27,
+        },
+        undefined,
+      ]
     }
   >
-    
+    ИП
   </Text>
 </View>
 `;
@@ -336,11 +370,13 @@ exports[`Avatar render avatar not photo 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -375,11 +411,13 @@ exports[`Avatar render avatar with photo L 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 45,
         "height": 90,
         "justifyContent": "center",
         "width": 90,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -414,11 +452,13 @@ exports[`Avatar render avatar with photo S 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 18,
         "height": 36,
         "justifyContent": "center",
         "width": 36,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -453,11 +493,13 @@ exports[`Avatar render avatar with photo XL 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 60,
         "height": 120,
         "justifyContent": "center",
         "width": 120,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {
@@ -492,11 +534,13 @@ exports[`Avatar render avatar with photo without size 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#2B78EE",
         "borderRadius": 30,
         "height": 60,
         "justifyContent": "center",
         "width": 60,
+      },
+      {
+        "backgroundColor": "#4ABA79",
       },
       undefined,
       {

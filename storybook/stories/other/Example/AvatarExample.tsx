@@ -109,6 +109,29 @@ const AvatarExample = () => {
           backgroundColor={colors.ElementAdditional}
         />
       </View>
+      <View style={{flexDirection: 'row'}}>
+        <View style={{paddingVertical: spaces.Space8}}>
+          <Avatar
+            user={{firstName: 'Константин', lastName: 'Константинов'}}
+            size={select('size user icon', IAvatarSize, IAvatarSize.M)}
+            type={IAvatarTypes.text}
+          />
+        </View>
+        <View style={{paddingVertical: spaces.Space8}}>
+          <Avatar
+            user={{firstName: 'Ольга', lastName: 'Константинова'}}
+            size={select('size user icon', IAvatarSize, IAvatarSize.M)}
+            type={IAvatarTypes.text}
+          />
+        </View>
+        <View style={{paddingVertical: spaces.Space8}}>
+          <Avatar
+            user={{firstName: 'Виктория', lastName: 'Лисина'}}
+            size={select('size user icon', IAvatarSize, IAvatarSize.M)}
+            type={IAvatarTypes.text}
+          />
+        </View>
+      </View>
     </>
   );
 };

@@ -44,14 +44,12 @@ const getBorderStyles = (color: string, border?: boolean) => {
 const stylesCreate = (
   theme: IThemeContext,
   size: IAvatarSize,
-  backgroundColor?: string,
   border?: boolean,
 ) => {
   const {colors} = theme;
 
   return StyleSheet.create({
     container: {
-      backgroundColor: backgroundColor || colors.ElementBase,
       alignSelf: 'center',
       justifyContent: 'center',
       alignItems: 'center',
