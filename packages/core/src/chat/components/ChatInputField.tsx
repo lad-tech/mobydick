@@ -28,7 +28,6 @@ const stylesCreate = ({spaces}: IThemeContext) =>
     inputContainer: {
       minHeight: rem(38),
       maxHeight: rem(196),
-      minWidth: rem(245),
       width: '100%',
       borderWidth: undefined,
       marginRight: spaces.Space2,
