@@ -1,4 +1,4 @@
-import {boolean, number, select} from '@storybook/addon-knobs';
+import {boolean, number, select, text} from '@storybook/addon-knobs';
 import React from 'react';
 
 import {
@@ -10,6 +10,7 @@ import {
   ICounterTypes,
   IIndicatorTypes,
   IStatusTypes,
+  IUser,
   TouchableOpacity,
   useTheme,
   View,
@@ -34,6 +35,16 @@ const userWithPhotoLocal = {
 const groupDateThree = [userWithPhotoLocal, userWithPhoto, defaultUser];
 
 const groupDate = groupDateThree.concat(Array(8).fill(defaultUser));
+
+const AvatarWithoutImage = ({user}: {user: IUser}) => {
+  return (
+    <Avatar
+      user={user}
+      size={select('size user icon', IAvatarSize, IAvatarSize.M)}
+      type={IAvatarTypes.text}
+    />
+  );
+};
 
 const AvatarExample = () => {
   const {colors, spaces} = useTheme();
@@ -109,28 +120,19 @@ const AvatarExample = () => {
           backgroundColor={colors.ElementAdditional}
         />
       </View>
-      <View style={{flexDirection: 'row'}}>
-        <View style={{paddingVertical: spaces.Space8}}>
-          <Avatar
-            user={{firstName: 'Константин', lastName: 'Константинов'}}
-            size={select('size user icon', IAvatarSize, IAvatarSize.M)}
-            type={IAvatarTypes.text}
-          />
-        </View>
-        <View style={{paddingVertical: spaces.Space8}}>
-          <Avatar
-            user={{firstName: 'Ольга', lastName: 'Константинова'}}
-            size={select('size user icon', IAvatarSize, IAvatarSize.M)}
-            type={IAvatarTypes.text}
-          />
-        </View>
-        <View style={{paddingVertical: spaces.Space8}}>
-          <Avatar
-            user={{firstName: 'Виктория', lastName: 'Лисина'}}
-            size={select('size user icon', IAvatarSize, IAvatarSize.M)}
-            type={IAvatarTypes.text}
-          />
-        </View>
+      <View style={{flexDirection: 'row', paddingVertical: spaces.Space8}}>
+        <AvatarWithoutImage
+          user={{firstName: 'Константин', lastName: 'Константинов'}}
+        />
+        <AvatarWithoutImage
+          user={{firstName: 'Ольга', lastName: 'Константинова'}}
+        />
+        <AvatarWithoutImage
+          user={{
+            firstName: text('firstName', 'Виктория'),
+            lastName: text('lastName', 'Лисина'),
+          }}
+        />
       </View>
     </>
   );
