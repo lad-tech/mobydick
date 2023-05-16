@@ -71,7 +71,7 @@ const stylesCreate = ({colors, spaces}: IThemeContext, length: number) => {
   return StyleSheet.create({
     container: {
       flexDirection: 'row',
-      width:
+      maxWidth:
         length > 3
           ? spaces.Space40 * 4 - rem(36)
           : spaces.Space40 * length - spaces.Space12 * (length - 1),

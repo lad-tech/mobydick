@@ -5,7 +5,7 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
   style={
     {
       "flexDirection": "row",
-      "width": 102,
+      "maxWidth": 102,
     }
   }
 >
@@ -98,7 +98,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
   style={
     {
       "flexDirection": "row",
-      "width": 186,
+      "maxWidth": 186,
     }
   }
 >
@@ -257,7 +257,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
   style={
     {
       "flexDirection": "row",
-      "width": 186,
+      "maxWidth": 186,
     }
   }
 >
@@ -420,7 +420,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
   style={
     {
       "flexDirection": "row",
-      "width": 186,
+      "maxWidth": 186,
     }
   }
 >
