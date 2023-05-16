@@ -12,7 +12,7 @@ import {IAvatarGroupProps} from './types';
 
 const AvatarGroup: FC<IAvatarGroupProps> = props => {
   const {groups, ...otherProps} = props;
-  const [styles] = useStyles(stylesCreate);
+  const [styles] = useStyles(stylesCreate, groups.length);
   const count = groups.length - 3;
   const maxCount = 99;
 
@@ -67,10 +67,14 @@ const AvatarGroup: FC<IAvatarGroupProps> = props => {
 
 export default AvatarGroup;
 
-const stylesCreate = ({colors, spaces}: IThemeContext) => {
+const stylesCreate = ({colors, spaces}: IThemeContext, length: number) => {
   return StyleSheet.create({
     container: {
       flexDirection: 'row',
+      width:
+        length > 3
+          ? spaces.Space40 * 4 - rem(36)
+          : spaces.Space40 * length - spaces.Space12 * (length - 1),
     },
     countView: {
       width: spaces.Space40,
@@ -79,6 +83,7 @@ const stylesCreate = ({colors, spaces}: IThemeContext) => {
       backgroundColor: colors.BgSecondary,
       justifyContent: 'center',
       zIndex: 4,
+      right: rem(36),
 
       borderWidth: spaces.Space2,
       borderColor: colors.BgPrimary,
@@ -88,18 +93,19 @@ const stylesCreate = ({colors, spaces}: IThemeContext) => {
       textAlign: 'center',
     },
     avatarOne: {
-      left: rem(36),
       zIndex: 1,
     },
     avatarTwo: {
-      left: spaces.Space24,
+      right: spaces.Space12,
+
       zIndex: 2,
     },
     avatarThree: {
-      left: spaces.Space12,
+      right: spaces.Space24,
       zIndex: 3,
     },
     avatarFour: {
+      right: rem(36),
       zIndex: 4,
     },
   });
