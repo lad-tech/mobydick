@@ -160,19 +160,31 @@ exports[`@npm/mobydick-core/ChatMessage renders correctly isMe image 1`] = `
   >
     <View
       style={
-        {
-          "margin": 6,
-          "maxHeight": 222,
-          "maxWidth": 222,
-          "minHeight": 193.5,
-          "minWidth": 193.5,
-        }
+        [
+          {
+            "maxHeight": 222,
+            "maxWidth": 222,
+            "minHeight": 193.5,
+            "minWidth": 193.5,
+          },
+          {
+            "margin": 6,
+          },
+        ]
       }
     >
       <Image
         source={
           {
             "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+          }
+        }
+        style={
+          {
+            "maxHeight": 222,
+            "maxWidth": 222,
+            "minHeight": 193.5,
+            "minWidth": 193.5,
           }
         }
       />

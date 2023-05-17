@@ -18,8 +18,11 @@ const ChatMessage = (props: IChatMessage) => {
     <View style={styles.container}>
       <View style={styles.bubble}>
         {image && (
-          <View style={styles.image}>
-            <Image source={isNumber(image) ? image : {uri: image}} />
+          <View style={[styles.image, styles.imageView]}>
+            <Image
+              source={isNumber(image) ? image : {uri: image}}
+              style={styles.image}
+            />
           </View>
         )}
 
@@ -59,8 +62,10 @@ const stylesCreate = ({spaces, colors}: IThemeContext, isMe: boolean) =>
       borderBottomRightRadius: isMe ? 0 : spaces.Space10,
       marginVertical: spaces.Space4,
     },
-    image: {
+    imageView: {
       margin: spaces.Space4,
+    },
+    image: {
       minWidth: rem(129),
       maxWidth: rem(148),
       minHeight: rem(129),
