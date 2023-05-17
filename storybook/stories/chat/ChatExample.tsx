@@ -33,7 +33,7 @@ const ChatExample = () => {
   const messageOne = text('messageOne', 'Я хочу спать');
   const messageTwo = text(
     'messageTwo',
-    'Ура! Я могу еще чем-то помочь? Если нет, заверши, пожалуйста, консультацию. Всего хорошего!Ура! Я могу еще чем-то помочь? Если нет, заверши, пожалуйста, консультацию. Всего хорошего',
+    'Ура! Я могу еще чем-то помочь? Если нет, заверши, пожалуйста, консультацию. Всего хорошего!Ура!',
   );
   const placeholder = text('placeholder', 'Сообщение');
   const onPress = useCallback(() => console.log('valueInput'), []);
