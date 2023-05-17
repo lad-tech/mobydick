@@ -64,4 +64,15 @@ describe('AvatarGroup', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
+  test('render AvatarGroup groupCount', () => {
+    const {toJSON} = render(
+      <AvatarGroup
+        groups={smallGroupDate.concat(Array(101).fill(defaultUser))}
+        backgroundColor={'#ff0000'}
+        type={IAvatarTypes.text}
+        groupCount={50}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
