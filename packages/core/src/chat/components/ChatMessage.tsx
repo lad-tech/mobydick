@@ -50,6 +50,7 @@ const stylesCreate = ({spaces, colors}: IThemeContext, isMe: boolean) =>
     container: {
       flexDirection: 'row',
       alignSelf: isMe ? 'flex-end' : 'flex-start',
+      maxWidth: '90%',
     },
     bubble: {
       backgroundColor: isMe ? colors.ElementBase : colors.BgPrimary,

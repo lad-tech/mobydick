@@ -6,6 +6,7 @@ exports[`@npm/mobydick-core/ChatMessage renders correctly  isNotValid time 1`] =
     {
       "alignSelf": "flex-start",
       "flexDirection": "row",
+      "maxWidth": "90%",
     }
   }
 >
@@ -65,6 +66,7 @@ exports[`@npm/mobydick-core/ChatMessage renders correctly isMe 1`] = `
     {
       "alignSelf": "flex-end",
       "flexDirection": "row",
+      "maxWidth": "90%",
     }
   }
 >
@@ -141,6 +143,7 @@ exports[`@npm/mobydick-core/ChatMessage renders correctly isMe image 1`] = `
     {
       "alignSelf": "flex-end",
       "flexDirection": "row",
+      "maxWidth": "90%",
     }
   }
 >
@@ -210,6 +213,7 @@ exports[`@npm/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
     {
       "alignSelf": "flex-start",
       "flexDirection": "row",
+      "maxWidth": "90%",
     }
   }
 >

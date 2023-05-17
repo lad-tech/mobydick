@@ -33,7 +33,7 @@ const ChatExample = () => {
   const messageOne = text('messageOne', 'Я хочу спать');
   const messageTwo = text(
     'messageTwo',
-    'Ура! Я могу еще чем-то помочь? Если нет, заверши, пожалуйста, консультацию. Всего хорошего!',
+    'Ура! Я могу еще чем-то помочь? Если нет, заверши, пожалуйста, консультацию. Всего хорошего!Ура!',
   );
   const placeholder = text('placeholder', 'Сообщение');
   const onPress = useCallback(() => console.log('valueInput'), []);
@@ -49,10 +49,10 @@ const ChatExample = () => {
         <ChatMessageAvatar
           user={userWithPhotoLocal}
           message={messageOne}
-          isMe={true}
+          isMe={false}
           time={'12:40'}
         />
-        <ChatMessage message={messageTwo} isMe={false} time={'12:42'} />
+        <ChatMessage message={messageTwo} isMe={true} time={'12:42'} />
         {isShowPictureMe && (
           <ChatMessage image={Content} isMe={true} time={'12:43'} />
         )}
