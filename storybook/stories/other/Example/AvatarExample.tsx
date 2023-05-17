@@ -32,7 +32,7 @@ const userWithPhotoLocal = {
   ...defaultUser,
 };
 
-const groupDateThree = [
+const groupDateFour = [
   userWithPhotoLocal,
   userWithPhoto,
   defaultUser,
@@ -43,7 +43,7 @@ const groupDateThree = [
   },
 ];
 
-const groupDate = groupDateThree.concat(Array(8).fill(defaultUser));
+const groupDate = groupDateFour.concat(Array(8).fill(defaultUser));
 
 const AvatarWithoutImage = ({user}: {user: IUser}) => {
   return (
@@ -58,19 +58,20 @@ const AvatarWithoutImage = ({user}: {user: IUser}) => {
 const AvatarExample = () => {
   const {colors, spaces} = useTheme();
   const disabled = boolean('disabled', false);
-  const plusNumber = number('plusNumber ', 88);
+  const groupCount = number('groupCount ', 50);
 
   return (
     <>
       <View style={{paddingVertical: spaces.Space8}}>
         <AvatarGroup groups={groupDate} />
       </View>
+
       <View style={{paddingVertical: spaces.Space8}}>
         <AvatarGroup
-          groups={groupDateThree.concat(Array(plusNumber).fill(defaultUser))}
+          groups={groupDateFour.slice(-groupCount)}
+          groupCount={groupCount}
         />
       </View>
-
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithPhoto}

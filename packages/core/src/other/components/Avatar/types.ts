@@ -61,4 +61,5 @@ export interface IAvatarGroupProps {
   groups: IUser[];
   backgroundColor?: string;
   type?: IAvatarTypes;
+  groupCount?: number;
 }
