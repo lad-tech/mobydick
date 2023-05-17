@@ -90,6 +90,7 @@ exports[`@npm/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`] = `
       {
         "alignSelf": "flex-start",
         "flexDirection": "row",
+        "maxWidth": "90%",
       }
     }
   >
@@ -251,6 +252,7 @@ exports[`@npm/mobydick-core/ChatMessageAvatar renders correctly onPress 1`] = `
       {
         "alignSelf": "flex-end",
         "flexDirection": "row",
+        "maxWidth": "90%",
       }
     }
   >
