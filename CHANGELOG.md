@@ -1,3 +1,14 @@
+## [7.7.1](https://glab.lad24.ru/npm/mobydick/compare/v7.7.0...v7.7.1) (2023-05-17)
+
+
+### Bug Fixes
+
+* **AvatarGroup:** add props – groupCount ([dd9423f](https://glab.lad24.ru/npm/mobydick/commit/dd9423f819d75bedddb12ac1cd9c965586e04e58))
+* **AvatarGroup:** groupCount - all members in group ([4cf1039](https://glab.lad24.ru/npm/mobydick/commit/4cf1039466055e5a6a798049a24ba94d3152e073))
+* **Chat:** add maxWidth for chatMessage ([036cc63](https://glab.lad24.ru/npm/mobydick/commit/036cc634ffe0e59fb7ca5003308f10baffcaabe2))
+* **ChatInputField:** remove minWidth ([e132232](https://glab.lad24.ru/npm/mobydick/commit/e132232995ae79f9ee3dc88ed14504c59ec6b12c))
+* **ChatMessage:** add width, height for Image ([6e8f473](https://glab.lad24.ru/npm/mobydick/commit/6e8f47333ac9745bb21ad47f5d1c4e4df7a463e8))
+
 # [7.7.0](https://glab.lad24.ru/npm/mobydick/compare/v7.6.0...v7.7.0) (2023-05-16)
 
 
