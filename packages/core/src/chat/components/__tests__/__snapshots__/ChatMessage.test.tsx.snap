@@ -160,19 +160,109 @@ exports[`@npm/mobydick-core/ChatMessage renders correctly isMe image 1`] = `
   >
     <View
       style={
-        {
-          "margin": 6,
-          "maxHeight": 222,
-          "maxWidth": 222,
-          "minHeight": 193.5,
-          "minWidth": 193.5,
-        }
+        [
+          {
+            "maxHeight": 222,
+            "maxWidth": 222,
+            "minHeight": 193.5,
+            "minWidth": 193.5,
+          },
+          {
+            "margin": 6,
+          },
+        ]
       }
     >
       <Image
         source={
           {
             "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+          }
+        }
+        style={
+          {
+            "maxHeight": 222,
+            "maxWidth": 222,
+            "minHeight": 193.5,
+            "minWidth": 193.5,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignSelf": "flex-end",
+          "paddingBottom": 12,
+          "paddingHorizontal": 9,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          [
+            {
+              "color": "rgba(255, 255, 255, 0.75)",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 15,
+              "lineHeight": 21,
+            },
+            undefined,
+          ]
+        }
+      >
+        12:12
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-core/ChatMessage renders correctly isMe image number two 1`] = `
+<View
+  style={
+    {
+      "alignSelf": "flex-end",
+      "flexDirection": "row",
+      "maxWidth": "90%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#2B78EE",
+        "borderBottomLeftRadius": 15,
+        "borderBottomRightRadius": 0,
+        "borderRadius": 15,
+        "marginVertical": 6,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "maxHeight": 222,
+            "maxWidth": 222,
+            "minHeight": 193.5,
+            "minWidth": 193.5,
+          },
+          {
+            "margin": 6,
+          },
+        ]
+      }
+    >
+      <Image
+        source={42}
+        style={
+          {
+            "maxHeight": 222,
+            "maxWidth": 222,
+            "minHeight": 193.5,
+            "minWidth": 193.5,
           }
         }
       />

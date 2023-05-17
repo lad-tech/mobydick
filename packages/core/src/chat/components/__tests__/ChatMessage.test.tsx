@@ -29,6 +29,14 @@ describe('@npm/mobydick-core/ChatMessage', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly isMe image number two', () => {
+    const fileHandle = 42;
+    const {toJSON} = render(
+      <ChatMessage image={fileHandle} isMe={true} time={'12:12'} />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
   it('renders correctly  isNotValid time', () => {
     const {toJSON} = render(
       <ChatMessage message={'message'} time={'12:98'} isMe={false} />,
