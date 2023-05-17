@@ -11,11 +11,12 @@ import Avatar from './Avatar';
 import {IAvatarGroupProps} from './types';
 
 const AvatarGroup: FC<IAvatarGroupProps> = props => {
-  const {groups, groupCount = groups.length - 3, ...otherProps} = props;
-  const [styles] = useStyles(stylesCreate, groupCount + 3);
+  const {groups, groupCount = groups.length, ...otherProps} = props;
+  const count = groupCount - 3;
+  const [styles] = useStyles(stylesCreate, groupCount);
   const maxCount = 99;
 
-  const text = groupCount > maxCount ? maxCount : groupCount;
+  const text = count > maxCount ? maxCount : count;
 
   return (
     <View style={styles.container}>
@@ -44,7 +45,7 @@ const AvatarGroup: FC<IAvatarGroupProps> = props => {
         />
       )}
 
-      {groupCount < 3 ? (
+      {groupCount < 5 ? (
         groups[3] && (
           <Avatar
             user={groups[3]}
