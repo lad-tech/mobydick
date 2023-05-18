@@ -14,7 +14,12 @@ interface IProps {
 
 const AvatarWithoutImage: FC<IProps> = props => {
   const {size, firstName, lastName, type} = props;
-  switch (type) {
+  const currType =
+    type === IAvatarTypes.icon || (!firstName && !lastName)
+      ? IAvatarTypes.icon
+      : IAvatarTypes.text;
+
+  switch (currType) {
     case IAvatarTypes.text:
       return (
         <TextAvatar firstName={firstName} lastName={lastName} size={size} />
