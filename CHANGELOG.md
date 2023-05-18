@@ -1,3 +1,11 @@
+## [7.7.2](https://glab.lad24.ru/npm/mobydick/compare/v7.7.1...v7.7.2) (2023-05-18)
+
+
+### Bug Fixes
+
+* **Avatar:** if firstName || lastName is not, change type to icon ([cfd143e](https://glab.lad24.ru/npm/mobydick/commit/cfd143ea870dbb278434b67fbc37f1b2edc2fe4e))
+* **isValidMessageTime:** update regEx ([f01413b](https://glab.lad24.ru/npm/mobydick/commit/f01413b78bd78e28c9e2bcb3629c5acee3071828))
+
 ## [7.7.1](https://glab.lad24.ru/npm/mobydick/compare/v7.7.0...v7.7.1) (2023-05-17)
 
 
