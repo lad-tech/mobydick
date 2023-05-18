@@ -568,4 +568,82 @@ exports[`Avatar render avatar with photo without size 1`] = `
 </View>
 `;
 
+exports[`Avatar render avatar without firstName 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "borderRadius": 30,
+        "height": 60,
+        "justifyContent": "center",
+        "width": 60,
+      },
+      {
+        "backgroundColor": "#FA9247",
+      },
+      undefined,
+      {
+        "opacity": 1,
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 21,
+          "lineHeight": 27,
+        },
+        undefined,
+      ]
+    }
+  >
+    П
+  </Text>
+</View>
+`;
+
+exports[`Avatar render avatar without firstName and lastName 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "borderRadius": 30,
+        "height": 60,
+        "justifyContent": "center",
+        "width": 60,
+      },
+      {
+        "backgroundColor": "#FAB742",
+      },
+      undefined,
+      {
+        "opacity": 1,
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      {
+        "color": "#FFF",
+        "fontFamily": "Neotis",
+        "fontSize": 30,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
 exports[`Avatar render without avatar border 1`] = `null`;

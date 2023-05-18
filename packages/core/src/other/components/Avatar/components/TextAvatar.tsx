@@ -24,8 +24,8 @@ const getFont = (size: IAvatarSize) => {
 };
 
 const TextAvatar: FC<IProps> = ({firstName, lastName, size}) => {
-  const firstLetter = firstName[0];
-  const secondLetter = lastName && lastName[0];
+  const firstLetter = firstName.slice(0, 1);
+  const secondLetter = lastName?.slice(0, 1);
   const initials = secondLetter ? firstLetter + secondLetter : firstLetter;
 
   return <Typography font={getFont(size)}>{initials}</Typography>;
