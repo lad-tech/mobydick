@@ -17,4 +17,17 @@ describe('@npm/mobydick-core/ChatInput', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly and style', () => {
+    const {toJSON} = render(
+      <ChatInput style={{flex: 1}}>
+        <ChatInput.ChatInputField value={'value'} />
+        <ChatInput.ChatPressableIcon
+          name={'icon-location'}
+          onPress={() => null}
+        />
+      </ChatInput>,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
