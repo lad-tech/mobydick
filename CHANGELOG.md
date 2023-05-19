@@ -1,3 +1,10 @@
+## [7.7.3](https://glab.lad24.ru/npm/mobydick/compare/v7.7.2...v7.7.3) (2023-05-19)
+
+
+### Bug Fixes
+
+* **ChatInput:** add KeyboardAvoidingView ([cd9014c](https://glab.lad24.ru/npm/mobydick/commit/cd9014c4ace54fef9b509b03193c2806334752ec))
+
 ## [7.7.2](https://glab.lad24.ru/npm/mobydick/compare/v7.7.1...v7.7.2) (2023-05-18)
 
 
