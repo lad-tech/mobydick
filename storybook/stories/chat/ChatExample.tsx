@@ -37,6 +37,7 @@ const ChatExample = () => {
   );
   const placeholder = text('placeholder', 'Сообщение');
   const onPress = useCallback(() => console.log('valueInput'), []);
+  const disabled = boolean('disabled', false);
 
   return (
     <View>
@@ -67,12 +68,17 @@ const ChatExample = () => {
           onChangeText={setValueInput}
         />
         {isShowOneIcon && (
-          <ChatInput.ChatPressableIcon name={'icon-camera'} onPress={onPress} />
+          <ChatInput.ChatPressableIcon
+            name={'icon-camera'}
+            onPress={onPress}
+            disabled={disabled}
+          />
         )}
         {isShowTwoIcon && (
           <ChatInput.ChatPressableIcon
             name={'icon-attachment'}
             onPress={onPress}
+            disabled={disabled}
           />
         )}
       </ChatInput>

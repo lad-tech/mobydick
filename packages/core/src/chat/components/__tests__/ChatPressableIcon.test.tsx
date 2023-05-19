@@ -18,6 +18,20 @@ describe('@npm/mobydick-core/ChatPressableIcon', () => {
         onPress={() => null}
         color={'red'}
         backgroundColor={'black'}
+        disabled={false}
+      />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  it('renders correctly disabled', () => {
+    const {toJSON} = render(
+      <ChatPressableIcon
+        name={'icon-location'}
+        onPress={() => null}
+        color={'red'}
+        backgroundColor={'black'}
+        disabled={true}
       />,
     );
 

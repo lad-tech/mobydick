@@ -13,6 +13,7 @@ interface IChatPressableIcon {
   color?: string;
   onPress: () => void;
   backgroundColor?: string;
+  disabled?: boolean;
 }
 const ChatPressableIcon = (props: IChatPressableIcon) => {
   const {colors} = useTheme();
@@ -21,12 +22,14 @@ const ChatPressableIcon = (props: IChatPressableIcon) => {
     onPress,
     color = colors.IconBase,
     backgroundColor = colors.BgAccent,
+    disabled = false,
   } = props;
   const [styles] = useStyles(stylesCreate);
 
   return (
     <TouchableOpacity
       onPress={onPress}
+      disabled={disabled}
       style={[styles.container, {backgroundColor: backgroundColor}]}>
       <SimpleIcon name={name} color={color} />
     </TouchableOpacity>
