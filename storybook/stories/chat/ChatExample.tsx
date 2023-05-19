@@ -1,13 +1,16 @@
 import React, {useCallback, useState} from 'react';
 import {boolean, text} from '@storybook/addon-knobs';
+import {StyleSheet} from 'react-native';
 
 import {
   ChatInput,
   ChatMessage,
   ChatMessageAvatar,
-  useTheme,
+  IThemeContext,
+  ScrollView,
   View,
 } from '@npm/mobydick-core';
+import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const ImageAvatar = require('../other/Example/image/ImageAvatar.png');
@@ -22,14 +25,8 @@ const userWithPhotoLocal = {
 };
 
 const ChatExample = () => {
-  const {colors, spaces} = useTheme();
   const [valueInput, setValueInput] = useState('');
-
-  const isShowOneIcon = boolean('isShowOneIcon', true);
-  const isShowTwoIcon = boolean('isShowTwoIcon', true);
-
-  const isShowPictureMe = boolean('isShowPictureMe', true);
-  const isShowPictureNotMe = boolean('isShowPictureNotMe', false);
+  const [styles] = useStyles(stylesCreate);
   const messageOne = text('messageOne', 'Я хочу спать');
   const messageTwo = text(
     'messageTwo',
@@ -38,15 +35,15 @@ const ChatExample = () => {
   const placeholder = text('placeholder', 'Сообщение');
   const onPress = useCallback(() => console.log('valueInput'), []);
   const disabled = boolean('disabled', false);
+  const isShowOneIcon = boolean('isShowOneIcon', true);
+  const isShowTwoIcon = boolean('isShowTwoIcon', true);
+
+  const isShowPictureMe = boolean('isShowPictureMe', true);
+  const isShowPictureNotMe = boolean('isShowPictureNotMe', false);
 
   return (
-    <View>
-      <View
-        style={{
-          backgroundColor: colors.BgSecondary,
-          paddingHorizontal: spaces.Space20,
-          paddingVertical: spaces.Space12,
-        }}>
+    <View style={styles.container}>
+      <ScrollView style={styles.scrollView}>
         <ChatMessageAvatar
           user={userWithPhotoLocal}
           message={messageOne}
@@ -60,8 +57,8 @@ const ChatExample = () => {
         {isShowPictureNotMe && (
           <ChatMessage image={Content} isMe={false} time={'12:43'} />
         )}
-      </View>
-      <ChatInput>
+      </ScrollView>
+      <ChatInput enabled={false}>
         <ChatInput.ChatInputField
           placeholder={placeholder}
           value={valueInput}
@@ -85,5 +82,17 @@ const ChatExample = () => {
     </View>
   );
 };
+const stylesCreate = ({colors, spaces}: IThemeContext) =>
+  StyleSheet.create({
+    container: {
+      flex: 1,
+      width: '100%',
+    },
+    scrollView: {
+      backgroundColor: colors.BgSecondary,
+      paddingHorizontal: spaces.Space20,
+      paddingVertical: spaces.Space12,
+    },
+  });
 
 export default ChatExample;

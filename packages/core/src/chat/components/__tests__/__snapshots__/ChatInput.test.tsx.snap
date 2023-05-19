@@ -2,17 +2,18 @@
 
 exports[`@npm/mobydick-core/ChatInput renders correctly 1`] = `
 <View
+  onLayout={[Function]}
   style={
     [
+      [
+        {
+          "marginBottom": 0,
+        },
+        undefined,
+      ],
       {
-        "alignItems": "flex-end",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "paddingHorizontal": 30,
-        "paddingVertical": 24,
-        "width": "100%",
+        "paddingBottom": 0,
       },
-      undefined,
     ]
   }
 >
@@ -20,16 +21,14 @@ exports[`@npm/mobydick-core/ChatInput renders correctly 1`] = `
     style={
       [
         {
-          "minWidth": 195,
+          "alignItems": "flex-end",
+          "backgroundColor": "#FFF",
+          "flexDirection": "row",
+          "paddingHorizontal": 30,
+          "paddingVertical": 24,
+          "width": "100%",
         },
-        [
-          {
-            "flex": 1,
-            "flexDirection": "column",
-            "minWidth": undefined,
-          },
-          undefined,
-        ],
+        undefined,
       ]
     }
   >
@@ -37,140 +36,154 @@ exports[`@npm/mobydick-core/ChatInput renders correctly 1`] = `
       style={
         [
           {
-            "alignItems": "flex-start",
-            "backgroundColor": "#EEEFF1",
-            "borderColor": "transparent",
-            "borderRadius": 12,
-            "borderWidth": 1.5,
-            "flexDirection": "row",
-            "justifyContent": "space-between",
-            "marginVertical": 12,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
-          },
-          {
-            "minHeight": 120,
+            "minWidth": 195,
           },
           [
             {
-              "alignItems": "center",
-              "borderWidth": undefined,
-              "marginRight": 3,
-              "marginVertical": 0,
-              "maxHeight": 294,
-              "minHeight": 57,
-              "paddingVertical": 12,
-              "width": "100%",
+              "flex": 1,
+              "flexDirection": "column",
+              "minWidth": undefined,
             },
             undefined,
           ],
         ]
       }
     >
-      <TextInput
-        accessibilityLabel="chatInputField"
-        allowFontScaling={true}
-        editable={true}
-        multiline={true}
-        numberOfLines={1}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        placeholderTextColor="#9BA1B0"
-        selectionColor="#2B78EE"
+      <View
         style={
           [
             {
-              "flex": 1,
-              "padding": 0,
+              "alignItems": "flex-start",
+              "backgroundColor": "#EEEFF1",
+              "borderColor": "transparent",
+              "borderRadius": 12,
+              "borderWidth": 1.5,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 12,
+              "paddingLeft": 27,
+              "paddingRight": 24,
+              "paddingVertical": 18,
             },
             {
-              "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 24,
-              "lineHeight": 30,
+              "minHeight": 120,
             },
             [
               {
-                "paddingTop": 0,
+                "alignItems": "center",
+                "borderWidth": undefined,
+                "marginRight": 3,
+                "marginVertical": 0,
+                "maxHeight": 294,
+                "minHeight": 57,
+                "paddingVertical": 12,
+                "width": "100%",
               },
               undefined,
             ],
           ]
         }
-        testID="TextInput"
-        value="value"
-      />
+      >
+        <TextInput
+          accessibilityLabel="chatInputField"
+          allowFontScaling={true}
+          editable={true}
+          multiline={true}
+          numberOfLines={1}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholderTextColor="#9BA1B0"
+          selectionColor="#2B78EE"
+          style={
+            [
+              {
+                "flex": 1,
+                "padding": 0,
+              },
+              {
+                "color": "#20242D",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 24,
+                "lineHeight": 30,
+              },
+              [
+                {
+                  "paddingTop": 0,
+                },
+                undefined,
+              ],
+            ]
+          }
+          testID="TextInput"
+          value="value"
+        />
+      </View>
     </View>
-  </View>
-  <View
-    accessibilityState={
-      {
-        "busy": undefined,
-        "checked": undefined,
-        "disabled": false,
-        "expanded": undefined,
-        "selected": undefined,
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
       }
-    }
-    accessibilityValue={
-      {
-        "max": undefined,
-        "min": undefined,
-        "now": undefined,
-        "text": undefined,
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
       }
-    }
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#E5F0FF",
-        "borderRadius": 12,
-        "height": 57,
-        "justifyContent": "center",
-        "marginLeft": 9,
-        "opacity": 1,
-        "width": 57,
-      }
-    }
-  >
-    <Text
-      allowFontScaling={true}
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         {
-          "color": "#2B78EE",
-          "fontFamily": "Neotis",
-          "fontSize": 36,
+          "alignItems": "center",
+          "backgroundColor": "#E5F0FF",
+          "borderRadius": 12,
+          "height": 57,
+          "justifyContent": "center",
+          "marginLeft": 9,
+          "opacity": 1,
+          "width": 57,
         }
       }
     >
-      
-    </Text>
+      <Text
+        allowFontScaling={true}
+        style={
+          {
+            "color": "#2B78EE",
+            "fontFamily": "Neotis",
+            "fontSize": 36,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatInput renders correctly and style 1`] = `
+exports[`@npm/mobydick-core/ChatInput renders correctly android 1`] = `
 <View
+  onLayout={[Function]}
   style={
     [
       {
-        "alignItems": "flex-end",
-        "backgroundColor": "#FFF",
-        "flexDirection": "row",
-        "paddingHorizontal": 30,
-        "paddingVertical": 24,
-        "width": "100%",
+        "marginBottom": 0,
       },
       {
         "flex": 1,
@@ -182,16 +195,16 @@ exports[`@npm/mobydick-core/ChatInput renders correctly and style 1`] = `
     style={
       [
         {
-          "minWidth": 195,
+          "alignItems": "flex-end",
+          "backgroundColor": "#FFF",
+          "flexDirection": "row",
+          "paddingHorizontal": 30,
+          "paddingVertical": 24,
+          "width": "100%",
         },
-        [
-          {
-            "flex": 1,
-            "flexDirection": "column",
-            "minWidth": undefined,
-          },
-          undefined,
-        ],
+        {
+          "flex": 1,
+        },
       ]
     }
   >
@@ -199,125 +212,325 @@ exports[`@npm/mobydick-core/ChatInput renders correctly and style 1`] = `
       style={
         [
           {
-            "alignItems": "flex-start",
-            "backgroundColor": "#EEEFF1",
-            "borderColor": "transparent",
-            "borderRadius": 12,
-            "borderWidth": 1.5,
-            "flexDirection": "row",
-            "justifyContent": "space-between",
-            "marginVertical": 12,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
-          },
-          {
-            "minHeight": 120,
+            "minWidth": 195,
           },
           [
             {
-              "alignItems": "center",
-              "borderWidth": undefined,
-              "marginRight": 3,
-              "marginVertical": 0,
-              "maxHeight": 294,
-              "minHeight": 57,
-              "paddingVertical": 12,
-              "width": "100%",
+              "flex": 1,
+              "flexDirection": "column",
+              "minWidth": undefined,
             },
             undefined,
           ],
         ]
       }
     >
-      <TextInput
-        accessibilityLabel="chatInputField"
-        allowFontScaling={true}
-        editable={true}
-        multiline={true}
-        numberOfLines={1}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        placeholderTextColor="#9BA1B0"
-        selectionColor="#2B78EE"
+      <View
         style={
           [
             {
-              "flex": 1,
-              "padding": 0,
+              "alignItems": "flex-start",
+              "backgroundColor": "#EEEFF1",
+              "borderColor": "transparent",
+              "borderRadius": 12,
+              "borderWidth": 1.5,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 12,
+              "paddingLeft": 27,
+              "paddingRight": 24,
+              "paddingVertical": 18,
             },
             {
-              "color": "#20242D",
-              "fontFamily": "Inter-Regular",
-              "fontSize": 24,
-              "lineHeight": 30,
+              "minHeight": 120,
             },
             [
               {
-                "paddingTop": 0,
+                "alignItems": "center",
+                "borderWidth": undefined,
+                "marginRight": 3,
+                "marginVertical": 0,
+                "maxHeight": 294,
+                "minHeight": 57,
+                "paddingVertical": 12,
+                "width": "100%",
               },
               undefined,
             ],
           ]
         }
-        testID="TextInput"
-        value="value"
-      />
+      >
+        <TextInput
+          accessibilityLabel="chatInputField"
+          allowFontScaling={true}
+          editable={true}
+          multiline={true}
+          numberOfLines={1}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholderTextColor="#9BA1B0"
+          selectionColor="#2B78EE"
+          style={
+            [
+              {
+                "flex": 1,
+                "padding": 0,
+              },
+              [
+                {
+                  "color": "#20242D",
+                  "fontSize": 24,
+                  "padding": 0,
+                },
+              ],
+              [
+                {
+                  "paddingTop": 0,
+                },
+                undefined,
+              ],
+            ]
+          }
+          testID="TextInput"
+          value="value"
+        />
+      </View>
     </View>
-  </View>
-  <View
-    accessibilityState={
-      {
-        "busy": undefined,
-        "checked": undefined,
-        "disabled": false,
-        "expanded": undefined,
-        "selected": undefined,
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
       }
-    }
-    accessibilityValue={
-      {
-        "max": undefined,
-        "min": undefined,
-        "now": undefined,
-        "text": undefined,
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
       }
-    }
-    accessible={true}
-    collapsable={false}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      {
-        "alignItems": "center",
-        "backgroundColor": "#E5F0FF",
-        "borderRadius": 12,
-        "height": 57,
-        "justifyContent": "center",
-        "marginLeft": 9,
-        "opacity": 1,
-        "width": 57,
-      }
-    }
-  >
-    <Text
-      allowFontScaling={true}
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         {
-          "color": "#2B78EE",
-          "fontFamily": "Neotis",
-          "fontSize": 36,
+          "alignItems": "center",
+          "backgroundColor": "#E5F0FF",
+          "borderRadius": 12,
+          "height": 57,
+          "justifyContent": "center",
+          "marginLeft": 9,
+          "opacity": 1,
+          "width": 57,
         }
       }
     >
-      
-    </Text>
+      <Text
+        allowFontScaling={true}
+        style={
+          {
+            "color": "#2B78EE",
+            "fontFamily": "Neotis",
+            "fontSize": 36,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`@npm/mobydick-core/ChatInput renders correctly with containerStyle, style 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    [
+      [
+        {
+          "marginBottom": 0,
+        },
+        {
+          "flex": 1,
+        },
+      ],
+      {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "flex-end",
+          "backgroundColor": "#FFF",
+          "flexDirection": "row",
+          "paddingHorizontal": 30,
+          "paddingVertical": 24,
+          "width": "100%",
+        },
+        {
+          "flex": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "minWidth": 195,
+          },
+          [
+            {
+              "flex": 1,
+              "flexDirection": "column",
+              "minWidth": undefined,
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "flex-start",
+              "backgroundColor": "#EEEFF1",
+              "borderColor": "transparent",
+              "borderRadius": 12,
+              "borderWidth": 1.5,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 12,
+              "paddingLeft": 27,
+              "paddingRight": 24,
+              "paddingVertical": 18,
+            },
+            {
+              "minHeight": 120,
+            },
+            [
+              {
+                "alignItems": "center",
+                "borderWidth": undefined,
+                "marginRight": 3,
+                "marginVertical": 0,
+                "maxHeight": 294,
+                "minHeight": 57,
+                "paddingVertical": 12,
+                "width": "100%",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        <TextInput
+          accessibilityLabel="chatInputField"
+          allowFontScaling={true}
+          editable={true}
+          multiline={true}
+          numberOfLines={1}
+          onBlur={[Function]}
+          onFocus={[Function]}
+          placeholderTextColor="#9BA1B0"
+          selectionColor="#2B78EE"
+          style={
+            [
+              {
+                "flex": 1,
+                "padding": 0,
+              },
+              {
+                "color": "#20242D",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 24,
+                "lineHeight": 30,
+              },
+              [
+                {
+                  "paddingTop": 0,
+                },
+                undefined,
+              ],
+            ]
+          }
+          testID="TextInput"
+          value="value"
+        />
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#E5F0FF",
+          "borderRadius": 12,
+          "height": 57,
+          "justifyContent": "center",
+          "marginLeft": 9,
+          "opacity": 1,
+          "width": 57,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={true}
+        style={
+          {
+            "color": "#2B78EE",
+            "fontFamily": "Neotis",
+            "fontSize": 36,
+          }
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
 </View>
 `;
