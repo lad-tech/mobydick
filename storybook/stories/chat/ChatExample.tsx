@@ -8,6 +8,7 @@ import {
   ChatMessageAvatar,
   IThemeContext,
   ScrollView,
+  useTheme,
   View,
 } from '@npm/mobydick-core';
 import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
@@ -27,6 +28,7 @@ const userWithPhotoLocal = {
 const ChatExample = () => {
   const [valueInput, setValueInput] = useState('');
   const [styles] = useStyles(stylesCreate);
+  const {colors} = useTheme();
   const messageOne = text('messageOne', 'Я хочу спать');
   const messageTwo = text(
     'messageTwo',
@@ -66,9 +68,11 @@ const ChatExample = () => {
         />
         {isShowOneIcon && (
           <ChatInput.ChatPressableIcon
-            name={'icon-camera'}
+            name={'icon-send'}
             onPress={onPress}
             disabled={disabled}
+            color={colors.IconWhite}
+            backgroundColor={colors.ElementBase}
           />
         )}
         {isShowTwoIcon && (
