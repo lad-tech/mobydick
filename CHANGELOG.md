@@ -1,3 +1,10 @@
+# [7.8.0](https://glab.lad24.ru/npm/mobydick/compare/v7.7.3...v7.8.0) (2023-05-22)
+
+
+### Features
+
+* **Icons:** add new icon 'send' ([76441b7](https://glab.lad24.ru/npm/mobydick/commit/76441b750eacaa5f983b6576f61bafe3d927bbbe))
+
 ## [7.7.3](https://glab.lad24.ru/npm/mobydick/compare/v7.7.2...v7.7.3) (2023-05-19)
 
 
