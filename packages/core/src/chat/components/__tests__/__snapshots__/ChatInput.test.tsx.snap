@@ -124,7 +124,7 @@ exports[`@npm/mobydick-core/ChatInput renders correctly 1`] = `
         {
           "busy": undefined,
           "checked": undefined,
-          "disabled": false,
+          "disabled": undefined,
           "expanded": undefined,
           "selected": undefined,
         }
@@ -301,7 +301,7 @@ exports[`@npm/mobydick-core/ChatInput renders correctly android 1`] = `
         {
           "busy": undefined,
           "checked": undefined,
-          "disabled": false,
+          "disabled": undefined,
           "expanded": undefined,
           "selected": undefined,
         }
@@ -482,7 +482,7 @@ exports[`@npm/mobydick-core/ChatInput renders correctly with containerStyle, sty
         {
           "busy": undefined,
           "checked": undefined,
-          "disabled": false,
+          "disabled": undefined,
           "expanded": undefined,
           "selected": undefined,
         }
