@@ -42,6 +42,7 @@ exports[`@npm/mobydick-core/ChatInput renders correctly 1`] = `
             {
               "flex": 1,
               "flexDirection": "column",
+              "marginRight": 3,
               "minWidth": undefined,
             },
             undefined,
@@ -72,7 +73,6 @@ exports[`@npm/mobydick-core/ChatInput renders correctly 1`] = `
               {
                 "alignItems": "center",
                 "borderWidth": undefined,
-                "marginRight": 3,
                 "marginVertical": 0,
                 "maxHeight": 294,
                 "minHeight": 57,
@@ -218,6 +218,7 @@ exports[`@npm/mobydick-core/ChatInput renders correctly android 1`] = `
             {
               "flex": 1,
               "flexDirection": "column",
+              "marginRight": 3,
               "minWidth": undefined,
             },
             undefined,
@@ -248,7 +249,6 @@ exports[`@npm/mobydick-core/ChatInput renders correctly android 1`] = `
               {
                 "alignItems": "center",
                 "borderWidth": undefined,
-                "marginRight": 3,
                 "marginVertical": 0,
                 "maxHeight": 294,
                 "minHeight": 57,
@@ -400,6 +400,7 @@ exports[`@npm/mobydick-core/ChatInput renders correctly with containerStyle, sty
             {
               "flex": 1,
               "flexDirection": "column",
+              "marginRight": 3,
               "minWidth": undefined,
             },
             undefined,
@@ -430,7 +431,6 @@ exports[`@npm/mobydick-core/ChatInput renders correctly with containerStyle, sty
               {
                 "alignItems": "center",
                 "borderWidth": undefined,
-                "marginRight": 3,
                 "marginVertical": 0,
                 "maxHeight": 294,
                 "minHeight": 57,

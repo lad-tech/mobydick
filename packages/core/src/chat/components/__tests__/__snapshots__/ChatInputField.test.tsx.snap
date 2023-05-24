@@ -11,6 +11,7 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly 1`] = `
         {
           "flex": 1,
           "flexDirection": "column",
+          "marginRight": 3,
           "minWidth": undefined,
         },
         undefined,
@@ -41,7 +42,6 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly 1`] = `
           {
             "alignItems": "center",
             "borderWidth": undefined,
-            "marginRight": 3,
             "marginVertical": 0,
             "maxHeight": 294,
             "minHeight": 57,
@@ -102,6 +102,7 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 1`] = 
         {
           "flex": 1,
           "flexDirection": "column",
+          "marginRight": 3,
           "minWidth": undefined,
         },
         undefined,
@@ -132,7 +133,6 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 1`] = 
           {
             "alignItems": "center",
             "borderWidth": undefined,
-            "marginRight": 3,
             "marginVertical": 0,
             "maxHeight": 294,
             "minHeight": 57,
@@ -191,6 +191,7 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 2`] = 
         {
           "flex": 1,
           "flexDirection": "column",
+          "marginRight": 3,
           "minWidth": undefined,
         },
         undefined,
@@ -221,7 +222,6 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 2`] = 
           {
             "alignItems": "center",
             "borderWidth": undefined,
-            "marginRight": 3,
             "marginVertical": 0,
             "maxHeight": 294,
             "minHeight": 57,
@@ -280,6 +280,7 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly with props 1`] = `
         {
           "flex": 1,
           "flexDirection": "column",
+          "marginRight": 3,
           "minWidth": undefined,
         },
         undefined,
@@ -310,7 +311,6 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly with props 1`] = `
           {
             "alignItems": "center",
             "borderWidth": undefined,
-            "marginRight": 3,
             "marginVertical": 0,
             "maxHeight": 294,
             "minHeight": 57,
