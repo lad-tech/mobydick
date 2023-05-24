@@ -7,30 +7,27 @@ import useStyles from '../../styles/theme/hooks/useStyles';
 import rem from '../../styles/spaces/rem';
 import {IThemeContext} from '../../styles';
 import useTheme from '../../styles/theme/hooks/useTheme';
+import {ITouchableOpacityProps} from '../../basic';
 
-interface IChatPressableIcon {
+interface IChatPressableIcon extends ITouchableOpacityProps {
   name: SimpleIconName;
   color?: string;
-  onPress: () => void;
   backgroundColor?: string;
-  disabled?: boolean;
 }
 const ChatPressableIcon = (props: IChatPressableIcon) => {
   const {colors} = useTheme();
   const {
     name,
-    onPress,
     color = colors.IconBase,
     backgroundColor = colors.BgAccent,
-    disabled = false,
+    ...otherProps
   } = props;
   const [styles] = useStyles(stylesCreate);
 
   return (
     <TouchableOpacity
-      onPress={onPress}
-      disabled={disabled}
-      style={[styles.container, {backgroundColor: backgroundColor}]}>
+      style={[styles.container, {backgroundColor: backgroundColor}]}
+      {...otherProps}>
       <SimpleIcon name={name} color={color} />
     </TouchableOpacity>
   );
