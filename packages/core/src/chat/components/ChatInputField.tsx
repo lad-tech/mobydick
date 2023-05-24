@@ -30,7 +30,6 @@ const stylesCreate = ({spaces}: IThemeContext) =>
       maxHeight: rem(196),
       width: '100%',
       borderWidth: undefined,
-      marginRight: spaces.Space2,
       marginVertical: 0,
       alignItems: 'center',
       paddingVertical: Platform.select({
@@ -42,6 +41,7 @@ const stylesCreate = ({spaces}: IThemeContext) =>
       flex: 1,
       flexDirection: 'column',
       minWidth: undefined,
+      marginRight: spaces.Space2,
     },
     textInput: {
       paddingTop: 0,
