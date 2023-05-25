@@ -1,3 +1,16 @@
+# [7.9.0](https://glab.lad24.ru/npm/mobydick/compare/v7.8.0...v7.9.0) (2023-05-25)
+
+
+### Bug Fixes
+
+* **ChatInputField:** move margin ([367be29](https://glab.lad24.ru/npm/mobydick/commit/367be2996bc51332ce5fc79ba46a1559a429693c))
+* **ChatPressableIcon:** change interface ([14f0016](https://glab.lad24.ru/npm/mobydick/commit/14f0016e855d820e048577774f02224efc5138bc))
+
+
+### Features
+
+* **Icons:** add new icons ([5e0d842](https://glab.lad24.ru/npm/mobydick/commit/5e0d8423e84a53a10fc0b19d4866fb3c58b85383))
+
 # [7.8.0](https://glab.lad24.ru/npm/mobydick/compare/v7.7.3...v7.8.0) (2023-05-22)
 
 
