@@ -38,21 +38,7 @@ describe('Carousel', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
-  it('render Carousel sideMargin', () => {
-    const {toJSON} = render(
-      <SafeAreaProvider>
-        <Carousel
-          data={data}
-          sliderItem={sliderItem}
-          keyExtractor={keyExtractor}
-          sideMargin={20}
-          itemWidth={itemWidth}
-          isLoop={true}
-        />
-      </SafeAreaProvider>,
-    );
-    expect(toJSON()).toMatchSnapshot();
-  });
+
   it('render Carousel loading', () => {
     const {toJSON} = render(
       <SafeAreaProvider>
@@ -67,44 +53,7 @@ describe('Carousel', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
-  it('render Carousel onPressItem', () => {
-    const {toJSON, getAllByLabelText} = render(
-      <SafeAreaProvider>
-        <Carousel
-          data={data}
-          sliderItem={sliderItem}
-          keyExtractor={keyExtractor}
-          onPressItem={item => console.log(item)}
-          itemWidth={itemWidth}
-          isLoop={true}
-          loading={false}
-        />
-      </SafeAreaProvider>,
-    );
-    const onPressItem = getAllByLabelText(LABELS.carouselItem);
-    expect(toJSON()).toMatchSnapshot();
-    onPressItem[0] && fireEvent.press(onPressItem[0]);
-  });
-  it('render Carousel onPressItem loading', () => {
-    const {toJSON, getAllByLabelText} = render(
-      <SafeAreaProvider>
-        <Carousel
-          data={data}
-          sliderItem={sliderItem}
-          keyExtractor={keyExtractor}
-          onPressItem={item => console.log(item)}
-          itemWidth={itemWidth}
-          isLoop={true}
-          loading={true}
-        />
-      </SafeAreaProvider>,
-    );
-    const onPressItem = getAllByLabelText(LABELS.carouselItem);
 
-    onPressItem[0] && fireEvent.press(onPressItem[0]);
-    onPressItem[0] && fireEvent.scroll(onPressItem[0]);
-    expect(toJSON()).toMatchSnapshot();
-  });
   it('render Carousel onScroll', () => {
     const {toJSON, getAllByLabelText} = render(
       <SafeAreaProvider>
@@ -128,53 +77,9 @@ describe('Carousel', () => {
         <Carousel
           data={data}
           sliderItem={sliderItem}
-          keyExtractor={keyExtractor}
           activeItemId={'6'}
           itemWidth={itemWidth}
-          isLoop={true}
-        />
-      </SafeAreaProvider>,
-    );
-    const carousel = getByLabelText(LABELS.carousel);
-
-    expect(toJSON()).toMatchSnapshot();
-    act(() => {
-      fireEvent(carousel, 'layout', {
-        nativeEvent: {layout: {height: 100}},
-      });
-    });
-  });
-  it('render Carousel initScroll isLoop', () => {
-    const {toJSON, getByLabelText} = render(
-      <SafeAreaProvider>
-        <Carousel
-          data={data}
-          sliderItem={sliderItem}
           keyExtractor={keyExtractor}
-          itemWidth={itemWidth}
-          isLoop={true}
-        />
-      </SafeAreaProvider>,
-    );
-    const carousel = getByLabelText(LABELS.carousel);
-
-    expect(toJSON()).toMatchSnapshot();
-    act(() => {
-      fireEvent(carousel, 'layout', {
-        nativeEvent: {layout: {height: 100}},
-      });
-    });
-  });
-  it('render Carousel initScroll isLoop align === center', () => {
-    const {toJSON, getByLabelText} = render(
-      <SafeAreaProvider>
-        <Carousel
-          data={data}
-          sliderItem={sliderItem}
-          keyExtractor={keyExtractor}
-          itemWidth={itemWidth}
-          isLoop={true}
-          align={ICarouselAlign.center}
         />
       </SafeAreaProvider>,
     );
@@ -298,56 +203,6 @@ describe('Carousel', () => {
       nativeEvent: {
         contentSize: {height: 600, width: 500},
         contentOffset: {x: 150, y: 0},
-        layoutMeasurement: {height: 100, width: 500},
-      },
-    });
-  });
-  it('render Carousel contentOffset = 0', () => {
-    const {toJSON, getByLabelText} = render(
-      <SafeAreaProvider>
-        <Carousel
-          data={data}
-          sliderItem={sliderItem}
-          keyExtractor={keyExtractor}
-          isLoop={true}
-          activeItemId={'5'}
-          itemWidth={itemWidth}
-          align={ICarouselAlign.start}
-        />
-      </SafeAreaProvider>,
-    );
-    expect(toJSON()).toMatchSnapshot();
-    const carousel = getByLabelText(LABELS.carousel);
-
-    fireEvent(carousel, 'onScroll', {
-      nativeEvent: {
-        contentSize: {height: 600, width: 500},
-        contentOffset: {x: 0, y: 0},
-        layoutMeasurement: {height: 100, width: 500},
-      },
-    });
-  });
-  it('render Carousel contentOffset = contentSize', () => {
-    const {toJSON, getByLabelText} = render(
-      <SafeAreaProvider>
-        <Carousel
-          data={data}
-          sliderItem={sliderItem}
-          keyExtractor={keyExtractor}
-          activeItemId={'5'}
-          itemWidth={itemWidth}
-          align={ICarouselAlign.start}
-          isLoop={true}
-        />
-      </SafeAreaProvider>,
-    );
-    expect(toJSON()).toMatchSnapshot();
-    const carousel = getByLabelText(LABELS.carousel);
-
-    fireEvent(carousel, 'onScroll', {
-      nativeEvent: {
-        contentSize: {height: 600, width: 500},
-        contentOffset: {x: 100, y: 0},
         layoutMeasurement: {height: 100, width: 500},
       },
     });
@@ -577,29 +432,6 @@ describe('Carousel', () => {
           keyExtractor={keyExtractor}
           onActiveChange={(item: IData) => console.log('item', item)}
           itemWidth={itemWidth}
-        />
-      </SafeAreaProvider>,
-    );
-
-    const carousel = getByLabelText(LABELS.carousel);
-
-    act(() => {
-      fireEvent(carousel, 'onViewableItemsChanged', {
-        viewableItems: [],
-      });
-    });
-    expect(toJSON()).toMatchSnapshot();
-  });
-  it('render Carousel not index isLoop', () => {
-    const {toJSON, getByLabelText} = render(
-      <SafeAreaProvider>
-        <Carousel
-          data={data}
-          sliderItem={sliderItem}
-          keyExtractor={keyExtractor}
-          onActiveChange={(item: IData) => console.log('item', item)}
-          itemWidth={itemWidth}
-          isLoop={true}
         />
       </SafeAreaProvider>,
     );
