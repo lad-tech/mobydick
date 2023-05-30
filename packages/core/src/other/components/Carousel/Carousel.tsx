@@ -1,5 +1,6 @@
 import React, {useCallback, useRef, useState} from 'react';
-import {Dimensions, FlatList, NativeScrollEvent, ViewToken} from 'react-native';
+import {FlatList, ViewToken} from 'react-native';
+import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
 import rem from '../../../styles/spaces/rem';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
@@ -10,7 +11,11 @@ import Dots from '../Dots/Dots';
 import stylesCreate from './stylesCreate';
 import {ICarouselAlign, ICarouselProps} from './types';
 
-const {width} = Dimensions.get('window');
+interface IError {
+  index: number;
+  highestMeasuredFrameIndex: number;
+  averageItemLength: number;
+}
 
 const Carousel = <T,>({
   data,
@@ -26,16 +31,17 @@ const Carousel = <T,>({
   isDots = false,
   onActiveChange,
   align = ICarouselAlign.start,
-  isLoop = false,
+  onLayout,
+  onEndReached,
+  initialNumToRender,
+  onScroll,
 }: ICarouselProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
   const [styles] = useStyles(stylesCreate, sideMargin);
   const [slidePosition, setSlidePosition] = useState<number>(0);
-  const [infinityData, setInfinityData] = useState([...data, ...data, ...data]);
 
   const widthSnap = itemWidth + sideMargin * 2;
-  const widthData = widthSnap * data.length;
-  const emptySpace = width - widthSnap;
+  const {width: WIDTH} = useSafeAreaFrame();
 
   const viewabilityConfig = useRef({
     itemVisiblePercentThreshold: 60,
@@ -52,14 +58,6 @@ const Carousel = <T,>({
         offset: widthSnap * selectedIndex,
         animated: animateAutoScroll,
       });
-    } else if (isLoop) {
-      ref.current?.scrollToOffset({
-        offset:
-          align === ICarouselAlign.center
-            ? widthData - emptySpace / 2
-            : widthData,
-        animated: false,
-      });
     }
   }, [
     activeItemId,
@@ -68,37 +66,13 @@ const Carousel = <T,>({
     keyExtractor,
     widthSnap,
     animateAutoScroll,
-    isLoop,
   ]);
 
-  const checkScroll = useCallback(
-    ({contentOffset}: NativeScrollEvent) => {
-      if (!contentOffset.x) {
-        ref.current?.scrollToOffset({
-          offset: widthData,
-          animated: false,
-        });
-      }
-    },
-    [widthData],
-  );
-
-  const onLayout = useCallback(() => {
-    initScroll();
-  }, [initScroll]);
-
   const onPress = useCallback(
-    item => () => {
+    (item: T) => () => {
       !loading && onPressItem && onPressItem(item);
     },
     [loading, onPressItem],
-  );
-
-  const keExtractorDefault = useCallback(
-    (item, index) => {
-      return isLoop ? String(index) : keyExtractor(item);
-    },
-    [keyExtractor, isLoop],
   );
 
   const renderItem = useCallback(
@@ -113,10 +87,10 @@ const Carousel = <T,>({
         </TouchableOpacity>
       );
     },
-    [data, onPress],
+    [data, onPress, onPressItem, loading, sliderItem],
   );
   const onScrollToIndexFailed = useCallback(
-    error => {
+    (error: IError) => {
       if (averageItemLength) {
         ref.current?.scrollToOffset({
           offset: averageItemLength * error.index,
@@ -126,17 +100,8 @@ const Carousel = <T,>({
     },
     [averageItemLength, animateAutoScroll],
   );
-  const onScroll = useCallback(
-    ({nativeEvent}) => {
-      isLoop && checkScroll(nativeEvent);
-    },
-    [isLoop, checkScroll],
-  );
-  const onEndReached = useCallback(
-    () => setInfinityData([...infinityData, ...data]),
-    [data, infinityData],
-  );
-  const visibleElementsCount = Math.floor(width / widthSnap);
+
+  const visibleElementsCount = Math.floor(WIDTH / widthSnap);
 
   const handleOnViewableItemsChanged = useRef(
     ({viewableItems}: {viewableItems: ViewToken[]}) => {
@@ -166,12 +131,12 @@ const Carousel = <T,>({
     <>
       <FlatList
         ref={ref}
-        data={isLoop ? infinityData : data}
+        data={data}
         extraData={loading}
-        keyExtractor={keExtractorDefault}
+        keyExtractor={keyExtractor}
         horizontal
         pagingEnabled
-        onLayout={onLayout}
+        onLayout={onLayout || initScroll}
         accessibilityLabel={LABELS.carousel}
         snapToAlignment={align}
         showsHorizontalScrollIndicator={false}
@@ -187,7 +152,7 @@ const Carousel = <T,>({
         onEndReached={onEndReached}
         onEndReachedThreshold={0.5}
         removeClippedSubviews={true}
-        initialNumToRender={isLoop ? data.length + 5 : 10}
+        initialNumToRender={initialNumToRender || 10}
       />
       {isDots && <Dots length={data.length} activeDot={slidePosition} />}
     </>

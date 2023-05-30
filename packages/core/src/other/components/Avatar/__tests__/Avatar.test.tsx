@@ -144,4 +144,28 @@ describe('Avatar', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+
+  test('render avatar without firstName', () => {
+    const {toJSON} = render(
+      <Avatar
+        user={{
+          firstName: '',
+          lastName: 'Пушкин',
+        }}
+      />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+  test('render avatar without firstName and lastName', () => {
+    const {toJSON} = render(
+      <Avatar
+        user={{
+          firstName: '',
+          lastName: '',
+        }}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
 });

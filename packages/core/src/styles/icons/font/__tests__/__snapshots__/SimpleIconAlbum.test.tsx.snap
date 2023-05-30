@@ -6,10 +6,10 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
     [
       "icon-account",
       "icon-arrow-down",
-      "icon-arrow-left-1",
       "icon-arrow-left",
-      "icon-arrow-right-1",
+      "icon-arrow-left-1",
       "icon-arrow-right",
+      "icon-arrow-right-1",
       "icon-arrow-up",
       "icon-attachment",
       "icon-bar",
@@ -34,10 +34,11 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       "icon-exchange",
       "icon-filter",
       "icon-flash",
-      "icon-folder-1",
       "icon-folder",
+      "icon-folder-1",
       "icon-grid",
       "icon-group",
+      "icon-hangup",
       "icon-heart",
       "icon-hide",
       "icon-home2",
@@ -46,6 +47,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       "icon-info",
       "icon-info2",
       "icon-kebab",
+      "icon-link",
       "icon-list",
       "icon-loading",
       "icon-location",
@@ -54,6 +56,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       "icon-mail",
       "icon-mic",
       "icon-money",
+      "icon-mute",
       "icon-noconnection",
       "icon-notification",
       "icon-plus",
@@ -62,6 +65,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       "icon-qr",
       "icon-ruble",
       "icon-search",
+      "icon-send",
       "icon-settings",
       "icon-share",
       "icon-show",
@@ -72,6 +76,10 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
       "icon-starfill",
       "icon-staroutline",
       "icon-unlock",
+      "icon-unmute",
+      "icon-video",
+      "icon-videooff",
+      "icon-volume",
       "icon-wallet",
       "icon-warning",
     ]
@@ -240,7 +248,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-arrow-left-1"
+          testID="icon-arrow-left"
         >
           <Text
             allowFontScaling={true}
@@ -290,7 +298,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-arrow-left"
+          testID="icon-arrow-left-1"
         >
           <Text
             allowFontScaling={true}
@@ -340,7 +348,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-arrow-right-1"
+          testID="icon-arrow-right"
         >
           <Text
             allowFontScaling={true}
@@ -390,7 +398,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-arrow-right"
+          testID="icon-arrow-right-1"
         >
           <Text
             allowFontScaling={true}
@@ -780,7 +788,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               }
             }
           >
-            
+            
           </Text>
         </View>
         <View
@@ -830,7 +838,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               }
             }
           >
-            
+            
           </Text>
         </View>
         <View
@@ -1710,7 +1718,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-folder-1"
+          testID="icon-folder"
         >
           <Text
             allowFontScaling={true}
@@ -1760,7 +1768,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-folder"
+          testID="icon-folder-1"
         >
           <Text
             allowFontScaling={true}
@@ -1910,7 +1918,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-heart"
+          testID="icon-hangup"
         >
           <Text
             allowFontScaling={true}
@@ -1960,7 +1968,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-hide"
+          testID="icon-heart"
         >
           <Text
             allowFontScaling={true}
@@ -2024,7 +2032,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-home2"
+          testID="icon-hide"
         >
           <Text
             allowFontScaling={true}
@@ -2074,7 +2082,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-house"
+          testID="icon-home2"
         >
           <Text
             allowFontScaling={true}
@@ -2124,7 +2132,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-image"
+          testID="icon-house"
         >
           <Text
             allowFontScaling={true}
@@ -2174,7 +2182,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-info"
+          testID="icon-image"
         >
           <Text
             allowFontScaling={true}
@@ -2224,7 +2232,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-info2"
+          testID="icon-info"
         >
           <Text
             allowFontScaling={true}
@@ -2274,7 +2282,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-kebab"
+          testID="icon-info2"
         >
           <Text
             allowFontScaling={true}
@@ -2338,7 +2346,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-list"
+          testID="icon-kebab"
         >
           <Text
             allowFontScaling={true}
@@ -2388,7 +2396,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-loading"
+          testID="icon-link"
         >
           <Text
             allowFontScaling={true}
@@ -2438,7 +2446,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-location"
+          testID="icon-list"
         >
           <Text
             allowFontScaling={true}
@@ -2488,7 +2496,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-lock"
+          testID="icon-loading"
         >
           <Text
             allowFontScaling={true}
@@ -2538,7 +2546,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-logout"
+          testID="icon-location"
         >
           <Text
             allowFontScaling={true}
@@ -2588,7 +2596,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-mail"
+          testID="icon-lock"
         >
           <Text
             allowFontScaling={true}
@@ -2652,7 +2660,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-mic"
+          testID="icon-logout"
         >
           <Text
             allowFontScaling={true}
@@ -2702,7 +2710,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-money"
+          testID="icon-mail"
         >
           <Text
             allowFontScaling={true}
@@ -2752,7 +2760,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-noconnection"
+          testID="icon-mic"
         >
           <Text
             allowFontScaling={true}
@@ -2802,7 +2810,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-notification"
+          testID="icon-money"
         >
           <Text
             allowFontScaling={true}
@@ -2852,7 +2860,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-plus"
+          testID="icon-mute"
         >
           <Text
             allowFontScaling={true}
@@ -2902,7 +2910,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-plus2"
+          testID="icon-noconnection"
         >
           <Text
             allowFontScaling={true}
@@ -2966,7 +2974,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-present"
+          testID="icon-notification"
         >
           <Text
             allowFontScaling={true}
@@ -3016,7 +3024,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-qr"
+          testID="icon-plus"
         >
           <Text
             allowFontScaling={true}
@@ -3066,7 +3074,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-ruble"
+          testID="icon-plus2"
         >
           <Text
             allowFontScaling={true}
@@ -3116,7 +3124,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-search"
+          testID="icon-present"
         >
           <Text
             allowFontScaling={true}
@@ -3166,7 +3174,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-settings"
+          testID="icon-qr"
         >
           <Text
             allowFontScaling={true}
@@ -3216,7 +3224,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-share"
+          testID="icon-ruble"
         >
           <Text
             allowFontScaling={true}
@@ -3250,10 +3258,10 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
     [
       "icon-account",
       "icon-arrow-down",
-      "icon-arrow-left-1",
       "icon-arrow-left",
-      "icon-arrow-right-1",
+      "icon-arrow-left-1",
       "icon-arrow-right",
+      "icon-arrow-right-1",
       "icon-arrow-up",
       "icon-attachment",
       "icon-bar",
@@ -3278,10 +3286,11 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       "icon-exchange",
       "icon-filter",
       "icon-flash",
-      "icon-folder-1",
       "icon-folder",
+      "icon-folder-1",
       "icon-grid",
       "icon-group",
+      "icon-hangup",
       "icon-heart",
       "icon-hide",
       "icon-home2",
@@ -3290,6 +3299,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       "icon-info",
       "icon-info2",
       "icon-kebab",
+      "icon-link",
       "icon-list",
       "icon-loading",
       "icon-location",
@@ -3298,6 +3308,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       "icon-mail",
       "icon-mic",
       "icon-money",
+      "icon-mute",
       "icon-noconnection",
       "icon-notification",
       "icon-plus",
@@ -3306,6 +3317,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       "icon-qr",
       "icon-ruble",
       "icon-search",
+      "icon-send",
       "icon-settings",
       "icon-share",
       "icon-show",
@@ -3316,6 +3328,10 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
       "icon-starfill",
       "icon-staroutline",
       "icon-unlock",
+      "icon-unmute",
+      "icon-video",
+      "icon-videooff",
+      "icon-volume",
       "icon-wallet",
       "icon-warning",
     ]
@@ -3484,7 +3500,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-arrow-left-1"
+          testID="icon-arrow-left"
         >
           <Text
             allowFontScaling={true}
@@ -3534,7 +3550,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-arrow-left"
+          testID="icon-arrow-left-1"
         >
           <Text
             allowFontScaling={true}
@@ -3584,7 +3600,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-arrow-right-1"
+          testID="icon-arrow-right"
         >
           <Text
             allowFontScaling={true}
@@ -3634,7 +3650,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-arrow-right"
+          testID="icon-arrow-right-1"
         >
           <Text
             allowFontScaling={true}
@@ -4024,7 +4040,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               }
             }
           >
-            
+            
           </Text>
         </View>
         <View
@@ -4074,7 +4090,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               }
             }
           >
-            
+            
           </Text>
         </View>
         <View
@@ -4954,7 +4970,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-folder-1"
+          testID="icon-folder"
         >
           <Text
             allowFontScaling={true}
@@ -5004,7 +5020,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-folder"
+          testID="icon-folder-1"
         >
           <Text
             allowFontScaling={true}
@@ -5154,7 +5170,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-heart"
+          testID="icon-hangup"
         >
           <Text
             allowFontScaling={true}
@@ -5204,7 +5220,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-hide"
+          testID="icon-heart"
         >
           <Text
             allowFontScaling={true}
@@ -5268,7 +5284,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-home2"
+          testID="icon-hide"
         >
           <Text
             allowFontScaling={true}
@@ -5318,7 +5334,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-house"
+          testID="icon-home2"
         >
           <Text
             allowFontScaling={true}
@@ -5368,7 +5384,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-image"
+          testID="icon-house"
         >
           <Text
             allowFontScaling={true}
@@ -5418,7 +5434,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-info"
+          testID="icon-image"
         >
           <Text
             allowFontScaling={true}
@@ -5468,7 +5484,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-info2"
+          testID="icon-info"
         >
           <Text
             allowFontScaling={true}
@@ -5518,7 +5534,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-kebab"
+          testID="icon-info2"
         >
           <Text
             allowFontScaling={true}
@@ -5582,7 +5598,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-list"
+          testID="icon-kebab"
         >
           <Text
             allowFontScaling={true}
@@ -5632,7 +5648,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-loading"
+          testID="icon-link"
         >
           <Text
             allowFontScaling={true}
@@ -5682,7 +5698,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-location"
+          testID="icon-list"
         >
           <Text
             allowFontScaling={true}
@@ -5732,7 +5748,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-lock"
+          testID="icon-loading"
         >
           <Text
             allowFontScaling={true}
@@ -5782,7 +5798,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-logout"
+          testID="icon-location"
         >
           <Text
             allowFontScaling={true}
@@ -5832,7 +5848,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-mail"
+          testID="icon-lock"
         >
           <Text
             allowFontScaling={true}
@@ -5896,7 +5912,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-mic"
+          testID="icon-logout"
         >
           <Text
             allowFontScaling={true}
@@ -5946,7 +5962,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-money"
+          testID="icon-mail"
         >
           <Text
             allowFontScaling={true}
@@ -5996,7 +6012,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-noconnection"
+          testID="icon-mic"
         >
           <Text
             allowFontScaling={true}
@@ -6046,7 +6062,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-notification"
+          testID="icon-money"
         >
           <Text
             allowFontScaling={true}
@@ -6096,7 +6112,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-plus"
+          testID="icon-mute"
         >
           <Text
             allowFontScaling={true}
@@ -6146,7 +6162,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-plus2"
+          testID="icon-noconnection"
         >
           <Text
             allowFontScaling={true}
@@ -6210,7 +6226,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-present"
+          testID="icon-notification"
         >
           <Text
             allowFontScaling={true}
@@ -6260,7 +6276,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-qr"
+          testID="icon-plus"
         >
           <Text
             allowFontScaling={true}
@@ -6310,7 +6326,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-ruble"
+          testID="icon-plus2"
         >
           <Text
             allowFontScaling={true}
@@ -6360,7 +6376,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-search"
+          testID="icon-present"
         >
           <Text
             allowFontScaling={true}
@@ -6410,7 +6426,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-settings"
+          testID="icon-qr"
         >
           <Text
             allowFontScaling={true}
@@ -6460,7 +6476,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
               "padding": 15,
             }
           }
-          testID="icon-share"
+          testID="icon-ruble"
         >
           <Text
             allowFontScaling={true}
@@ -6494,10 +6510,10 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
     [
       "icon-account",
       "icon-arrow-down",
-      "icon-arrow-left-1",
       "icon-arrow-left",
-      "icon-arrow-right-1",
+      "icon-arrow-left-1",
       "icon-arrow-right",
+      "icon-arrow-right-1",
       "icon-arrow-up",
       "icon-attachment",
       "icon-bar",
@@ -6522,10 +6538,11 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       "icon-exchange",
       "icon-filter",
       "icon-flash",
-      "icon-folder-1",
       "icon-folder",
+      "icon-folder-1",
       "icon-grid",
       "icon-group",
+      "icon-hangup",
       "icon-heart",
       "icon-hide",
       "icon-home2",
@@ -6534,6 +6551,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       "icon-info",
       "icon-info2",
       "icon-kebab",
+      "icon-link",
       "icon-list",
       "icon-loading",
       "icon-location",
@@ -6542,6 +6560,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       "icon-mail",
       "icon-mic",
       "icon-money",
+      "icon-mute",
       "icon-noconnection",
       "icon-notification",
       "icon-plus",
@@ -6550,6 +6569,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       "icon-qr",
       "icon-ruble",
       "icon-search",
+      "icon-send",
       "icon-settings",
       "icon-share",
       "icon-show",
@@ -6560,6 +6580,10 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
       "icon-starfill",
       "icon-staroutline",
       "icon-unlock",
+      "icon-unmute",
+      "icon-video",
+      "icon-videooff",
+      "icon-volume",
       "icon-wallet",
       "icon-warning",
     ]
@@ -6728,7 +6752,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-arrow-left-1"
+          testID="icon-arrow-left"
         >
           <Text
             allowFontScaling={true}
@@ -6778,7 +6802,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-arrow-left"
+          testID="icon-arrow-left-1"
         >
           <Text
             allowFontScaling={true}
@@ -6828,7 +6852,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-arrow-right-1"
+          testID="icon-arrow-right"
         >
           <Text
             allowFontScaling={true}
@@ -6878,7 +6902,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-arrow-right"
+          testID="icon-arrow-right-1"
         >
           <Text
             allowFontScaling={true}
@@ -7268,7 +7292,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               }
             }
           >
-            
+            
           </Text>
         </View>
         <View
@@ -7318,7 +7342,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               }
             }
           >
-            
+            
           </Text>
         </View>
         <View
@@ -8198,7 +8222,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-folder-1"
+          testID="icon-folder"
         >
           <Text
             allowFontScaling={true}
@@ -8248,7 +8272,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-folder"
+          testID="icon-folder-1"
         >
           <Text
             allowFontScaling={true}
@@ -8398,7 +8422,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-heart"
+          testID="icon-hangup"
         >
           <Text
             allowFontScaling={true}
@@ -8448,7 +8472,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-hide"
+          testID="icon-heart"
         >
           <Text
             allowFontScaling={true}
@@ -8512,7 +8536,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-home2"
+          testID="icon-hide"
         >
           <Text
             allowFontScaling={true}
@@ -8562,7 +8586,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-house"
+          testID="icon-home2"
         >
           <Text
             allowFontScaling={true}
@@ -8612,7 +8636,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-image"
+          testID="icon-house"
         >
           <Text
             allowFontScaling={true}
@@ -8662,7 +8686,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-info"
+          testID="icon-image"
         >
           <Text
             allowFontScaling={true}
@@ -8712,7 +8736,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-info2"
+          testID="icon-info"
         >
           <Text
             allowFontScaling={true}
@@ -8762,7 +8786,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-kebab"
+          testID="icon-info2"
         >
           <Text
             allowFontScaling={true}
@@ -8826,7 +8850,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-list"
+          testID="icon-kebab"
         >
           <Text
             allowFontScaling={true}
@@ -8876,7 +8900,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-loading"
+          testID="icon-link"
         >
           <Text
             allowFontScaling={true}
@@ -8926,7 +8950,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-location"
+          testID="icon-list"
         >
           <Text
             allowFontScaling={true}
@@ -8976,7 +9000,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-lock"
+          testID="icon-loading"
         >
           <Text
             allowFontScaling={true}
@@ -9026,7 +9050,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-logout"
+          testID="icon-location"
         >
           <Text
             allowFontScaling={true}
@@ -9076,7 +9100,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-mail"
+          testID="icon-lock"
         >
           <Text
             allowFontScaling={true}
@@ -9140,7 +9164,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-mic"
+          testID="icon-logout"
         >
           <Text
             allowFontScaling={true}
@@ -9190,7 +9214,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-money"
+          testID="icon-mail"
         >
           <Text
             allowFontScaling={true}
@@ -9240,7 +9264,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-noconnection"
+          testID="icon-mic"
         >
           <Text
             allowFontScaling={true}
@@ -9290,7 +9314,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-notification"
+          testID="icon-money"
         >
           <Text
             allowFontScaling={true}
@@ -9340,7 +9364,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-plus"
+          testID="icon-mute"
         >
           <Text
             allowFontScaling={true}
@@ -9390,7 +9414,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-plus2"
+          testID="icon-noconnection"
         >
           <Text
             allowFontScaling={true}
@@ -9454,7 +9478,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-present"
+          testID="icon-notification"
         >
           <Text
             allowFontScaling={true}
@@ -9504,7 +9528,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-qr"
+          testID="icon-plus"
         >
           <Text
             allowFontScaling={true}
@@ -9554,7 +9578,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-ruble"
+          testID="icon-plus2"
         >
           <Text
             allowFontScaling={true}
@@ -9604,7 +9628,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-search"
+          testID="icon-present"
         >
           <Text
             allowFontScaling={true}
@@ -9654,7 +9678,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-settings"
+          testID="icon-qr"
         >
           <Text
             allowFontScaling={true}
@@ -9704,7 +9728,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1
               "padding": 15,
             }
           }
-          testID="icon-share"
+          testID="icon-ruble"
         >
           <Text
             allowFontScaling={true}

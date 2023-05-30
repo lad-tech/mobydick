@@ -1,4 +1,4 @@
-import {boolean, number, select} from '@storybook/addon-knobs';
+import {boolean, number, select, text} from '@storybook/addon-knobs';
 import React from 'react';
 
 import {
@@ -10,6 +10,7 @@ import {
   ICounterTypes,
   IIndicatorTypes,
   IStatusTypes,
+  IUser,
   TouchableOpacity,
   useTheme,
   View,
@@ -31,26 +32,46 @@ const userWithPhotoLocal = {
   ...defaultUser,
 };
 
-const groupDateThree = [userWithPhotoLocal, userWithPhoto, defaultUser];
+const groupDateFour = [
+  userWithPhotoLocal,
+  userWithPhoto,
+  defaultUser,
+  {
+    firstName: 'Ольга',
+    middleName: 'Андреевна',
+    lastName: 'Константинова',
+  },
+];
 
-const groupDate = groupDateThree.concat(Array(8).fill(defaultUser));
+const groupDate = groupDateFour.concat(Array(8).fill(defaultUser));
+
+const AvatarWithoutImage = ({user}: {user: IUser}) => {
+  return (
+    <Avatar
+      user={user}
+      size={select('size user icon', IAvatarSize, IAvatarSize.M)}
+      type={IAvatarTypes.text}
+    />
+  );
+};
 
 const AvatarExample = () => {
   const {colors, spaces} = useTheme();
   const disabled = boolean('disabled', false);
-  const plusNumber = number('plusNumber ', 88);
+  const groupCount = number('groupCount ', 50);
 
   return (
     <>
       <View style={{paddingVertical: spaces.Space8}}>
         <AvatarGroup groups={groupDate} />
       </View>
+
       <View style={{paddingVertical: spaces.Space8}}>
         <AvatarGroup
-          groups={groupDateThree.concat(Array(plusNumber).fill(defaultUser))}
+          groups={groupDateFour.slice(-groupCount)}
+          groupCount={groupCount}
         />
       </View>
-
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithPhoto}
@@ -107,6 +128,29 @@ const AvatarExample = () => {
           size={select('size user icon', IAvatarSize, IAvatarSize.M)}
           type={IAvatarTypes.icon}
           backgroundColor={colors.ElementAdditional}
+        />
+      </View>
+      <View style={{flexDirection: 'row', paddingVertical: spaces.Space8}}>
+        <AvatarWithoutImage
+          user={{
+            firstName: 'Константин',
+            middleName: 'Андреевич',
+            lastName: 'Константинов',
+          }}
+        />
+        <AvatarWithoutImage
+          user={{
+            firstName: 'Ольга',
+            middleName: 'Андреевна',
+            lastName: 'Константинова',
+          }}
+        />
+        <AvatarWithoutImage
+          user={{
+            firstName: text('firstName', 'Виктория'),
+            middleName: text('middleName', 'Андреевна'),
+            lastName: text('lastName', 'Лисина'),
+          }}
         />
       </View>
     </>

@@ -27,17 +27,24 @@ const Collapsible = (props: ICollapsibleProps) => {
     containerStyle,
     fontTitle = 'SemiBold-Secondary-M',
     headerStyle,
+    titleStyle,
+    typeAnimation = 'easeInEaseOut',
+    creationPropAnimation = 'scaleY',
+    numberOfLines = 2,
+    initialState = false,
+    isAnimated = true,
   } = props;
   const [styles] = useStyles(createStyles);
   const {colors} = useTheme();
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(initialState);
 
   const onPress = useCallback(() => {
     setCollapsed(!collapsed);
-    LayoutAnimation.configureNext(
-      LayoutAnimation.create(duration, 'linear', 'opacity'),
-    );
-  }, [collapsed, duration]);
+    isAnimated &&
+      LayoutAnimation.configureNext(
+        LayoutAnimation.create(duration, typeAnimation, creationPropAnimation),
+      );
+  }, [collapsed, duration, isAnimated]);
 
   const name = useMemo(() => {
     return collapsed ? 'icon-arrow-down' : 'icon-arrow-right';
@@ -49,7 +56,12 @@ const Collapsible = (props: ICollapsibleProps) => {
         onPress={onPress}
         style={[styles.header, headerStyle]}
         accessibilityLabel={LABELS.collapsed}>
-        <Typography font={fontTitle}>{title}</Typography>
+        <Typography
+          font={fontTitle}
+          numberOfLines={numberOfLines}
+          style={[styles.title, titleStyle]}>
+          {title}
+        </Typography>
         <SimpleIcon name={name} color={colors.IconNeutral} />
       </TouchableOpacity>
       {collapsed && children}
@@ -67,6 +79,9 @@ const createStyles = ({spaces}: IThemeContext) =>
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
+    },
+    title: {
+      flex: 1,
     },
   });
 

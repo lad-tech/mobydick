@@ -113,6 +113,15 @@ const Calendar: FC<ICalendar> = props => {
         textDayFontSize: rem(14),
         textDayFontFamily: 'Inter-Regular',
         weekVerticalMargin: rem(1),
+        'stylesheet.day.period': {
+          todayText: {
+            fontWeight: '400',
+          },
+          wrapper: {
+            alignItems: 'center',
+            alignSelf: 'stretch',
+          },
+        },
         'stylesheet.calendar.header': {
           dayHeader: {
             marginTop: 0,

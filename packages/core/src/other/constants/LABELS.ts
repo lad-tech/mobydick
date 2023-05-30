@@ -16,4 +16,5 @@ export const LABELS = {
   collapsed: 'collapsed',
   panelHeaderLeftView: 'panelHeaderLeftView',
   panelHeaderRightView: 'panelHeaderRightView',
+  chatInputField: 'chatInputField',
 };

@@ -1,3 +1,112 @@
+# [7.9.0](https://glab.lad24.ru/npm/mobydick/compare/v7.8.0...v7.9.0) (2023-05-25)
+
+
+### Bug Fixes
+
+* **ChatInputField:** move margin ([367be29](https://glab.lad24.ru/npm/mobydick/commit/367be2996bc51332ce5fc79ba46a1559a429693c))
+* **ChatPressableIcon:** change interface ([14f0016](https://glab.lad24.ru/npm/mobydick/commit/14f0016e855d820e048577774f02224efc5138bc))
+
+
+### Features
+
+* **Icons:** add new icons ([5e0d842](https://glab.lad24.ru/npm/mobydick/commit/5e0d8423e84a53a10fc0b19d4866fb3c58b85383))
+
+# [7.8.0](https://glab.lad24.ru/npm/mobydick/compare/v7.7.3...v7.8.0) (2023-05-22)
+
+
+### Features
+
+* **Icons:** add new icon 'send' ([76441b7](https://glab.lad24.ru/npm/mobydick/commit/76441b750eacaa5f983b6576f61bafe3d927bbbe))
+
+## [7.7.3](https://glab.lad24.ru/npm/mobydick/compare/v7.7.2...v7.7.3) (2023-05-19)
+
+
+### Bug Fixes
+
+* **ChatInput:** add KeyboardAvoidingView ([cd9014c](https://glab.lad24.ru/npm/mobydick/commit/cd9014c4ace54fef9b509b03193c2806334752ec))
+
+## [7.7.2](https://glab.lad24.ru/npm/mobydick/compare/v7.7.1...v7.7.2) (2023-05-18)
+
+
+### Bug Fixes
+
+* **Avatar:** if firstName || lastName is not, change type to icon ([cfd143e](https://glab.lad24.ru/npm/mobydick/commit/cfd143ea870dbb278434b67fbc37f1b2edc2fe4e))
+* **isValidMessageTime:** update regEx ([f01413b](https://glab.lad24.ru/npm/mobydick/commit/f01413b78bd78e28c9e2bcb3629c5acee3071828))
+
+## [7.7.1](https://glab.lad24.ru/npm/mobydick/compare/v7.7.0...v7.7.1) (2023-05-17)
+
+
+### Bug Fixes
+
+* **AvatarGroup:** add props – groupCount ([dd9423f](https://glab.lad24.ru/npm/mobydick/commit/dd9423f819d75bedddb12ac1cd9c965586e04e58))
+* **AvatarGroup:** groupCount - all members in group ([4cf1039](https://glab.lad24.ru/npm/mobydick/commit/4cf1039466055e5a6a798049a24ba94d3152e073))
+* **Chat:** add maxWidth for chatMessage ([036cc63](https://glab.lad24.ru/npm/mobydick/commit/036cc634ffe0e59fb7ca5003308f10baffcaabe2))
+* **ChatInputField:** remove minWidth ([e132232](https://glab.lad24.ru/npm/mobydick/commit/e132232995ae79f9ee3dc88ed14504c59ec6b12c))
+* **ChatMessage:** add width, height for Image ([6e8f473](https://glab.lad24.ru/npm/mobydick/commit/6e8f47333ac9745bb21ad47f5d1c4e4df7a463e8))
+
+# [7.7.0](https://glab.lad24.ru/npm/mobydick/compare/v7.6.0...v7.7.0) (2023-05-16)
+
+
+### Bug Fixes
+
+* **Avatar:** add middleName ([f42ff23](https://glab.lad24.ru/npm/mobydick/commit/f42ff23a33141348de6351f19ce85a310a783b6c))
+* **AvatarGroup:** remove paddings ([302f78b](https://glab.lad24.ru/npm/mobydick/commit/302f78b4c17b19f6703abfb517222b96be66569a))
+
+
+### Features
+
+* **Avatar:** add function for backgroundColor ([ca35fac](https://glab.lad24.ru/npm/mobydick/commit/ca35faca9519a53c473bb4ac1f35201d1c82c299))
+
+# [7.6.0](https://glab.lad24.ru/npm/mobydick/compare/v7.5.4...v7.6.0) (2023-05-15)
+
+
+### Features
+
+* **Chat:** add ChatInput ([569dc0f](https://glab.lad24.ru/npm/mobydick/commit/569dc0f8cf4d70e25ac4fc0573f91fbf729ba3aa))
+* **Chat:** add directory Chat and component chatInputField ([642b3f4](https://glab.lad24.ru/npm/mobydick/commit/642b3f4c9aac8bbe7e85ae6cf3ba59234088c47b))
+* **ChatMessage:** add ChatMessage ([892e817](https://glab.lad24.ru/npm/mobydick/commit/892e817fa567102f8a2f1d85c616a90621c971fb))
+* **ChatMessageAvatar:** add ChatMessageAvatar ([5ba6add](https://glab.lad24.ru/npm/mobydick/commit/5ba6add4ad843f4f5a13a5388079e955768340b2))
+
+## [7.5.4](https://glab.lad24.ru/npm/mobydick/compare/v7.5.3...v7.5.4) (2023-05-04)
+
+
+### Bug Fixes
+
+* **Calendar:** change color today when it disabled ([14524d7](https://glab.lad24.ru/npm/mobydick/commit/14524d763b42b96472b4bb3c3dcaec711bf235b9))
+* **Calendar:** change style, CAN delete patch ([be3abc0](https://glab.lad24.ru/npm/mobydick/commit/be3abc03f5d9b37bb55848b62311ce6d6b9050eb))
+* **Swipe:** change onPress usage ([49734ce](https://glab.lad24.ru/npm/mobydick/commit/49734ce7720ae1daa7727bd42788a7633da10cd2))
+
+## [7.5.3](https://glab.lad24.ru/npm/mobydick/compare/v7.5.2...v7.5.3) (2023-04-27)
+
+
+### Bug Fixes
+
+* **PanelHeader:** add props edges ([18af1d0](https://glab.lad24.ru/npm/mobydick/commit/18af1d07343091f38b9104431029737539b26d0c))
+* **PanelHeader:** add props isSafeAreaView ([deffbf2](https://glab.lad24.ru/npm/mobydick/commit/deffbf2182a7a7eff0d014c318e57d09924ed0bf))
+
+## [7.5.2](https://glab.lad24.ru/npm/mobydick/compare/v7.5.1...v7.5.2) (2023-04-27)
+
+
+### Bug Fixes
+
+* **readme:** update ([88b1eb0](https://glab.lad24.ru/npm/mobydick/commit/88b1eb0359003fd09ddca9541022adfc0d510d13))
+
+## [7.5.1](https://glab.lad24.ru/npm/mobydick/compare/v7.5.0...v7.5.1) (2023-04-21)
+
+
+### Bug Fixes
+
+* **Collapsible:** add props: initialState, isAnimated ([b93a82e](https://glab.lad24.ru/npm/mobydick/commit/b93a82ebf54a896bd02fad8f8389575fd3f5cfe2))
+* **PanelHeader:** if width leftView < width rightView, get width ([ed4afa0](https://glab.lad24.ru/npm/mobydick/commit/ed4afa02e8ff7d4993fe49297698ed8c4b93d784))
+* **Slider:** update value for HighThumb ([6a1aa4d](https://glab.lad24.ru/npm/mobydick/commit/6a1aa4d1ac8dc671049b437ec2b98ae3c726a842))
+
+# [7.5.0](https://glab.lad24.ru/npm/mobydick/compare/v7.4.3...v7.5.0) (2023-04-20)
+
+
+### Features
+
+* **Slider:** increase width, height when you moved ([0cb315f](https://glab.lad24.ru/npm/mobydick/commit/0cb315f2d4b858c3e64ad5fe09dc8beb4d8383f6))
+
 ## [7.4.3](https://glab.lad24.ru/npm/mobydick/compare/v7.4.2...v7.4.3) (2023-04-18)
 
 

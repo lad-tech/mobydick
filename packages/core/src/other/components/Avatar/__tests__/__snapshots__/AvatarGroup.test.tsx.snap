@@ -5,6 +5,7 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
   style={
     {
       "flexDirection": "row",
+      "maxWidth": 102,
     }
   }
 >
@@ -14,7 +15,6 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -23,7 +23,9 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
           "width": 60,
         },
         {
-          "left": 54,
+          "backgroundColor": "#ff0000",
+        },
+        {
           "zIndex": 1,
         },
         {
@@ -55,7 +57,6 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -64,7 +65,10 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
           "width": 60,
         },
         {
-          "left": 36,
+          "backgroundColor": "#ff0000",
+        },
+        {
+          "right": 18,
           "zIndex": 2,
         },
         {
@@ -98,6 +102,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
   style={
     {
       "flexDirection": "row",
+      "maxWidth": 186,
     }
   }
 >
@@ -107,7 +112,6 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -116,7 +120,9 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           "width": 60,
         },
         {
-          "left": 54,
+          "backgroundColor": "#2B78EE",
+        },
+        {
           "zIndex": 1,
         },
         {
@@ -128,14 +134,18 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
   <View
@@ -144,7 +154,6 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -153,7 +162,10 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           "width": 60,
         },
         {
-          "left": 36,
+          "backgroundColor": "#2B78EE",
+        },
+        {
+          "right": 18,
           "zIndex": 2,
         },
         {
@@ -165,14 +177,18 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
   <View
@@ -181,7 +197,6 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -190,7 +205,10 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           "width": 60,
         },
         {
-          "left": 18,
+          "backgroundColor": "#2B78EE",
+        },
+        {
+          "right": 36,
           "zIndex": 3,
         },
         {
@@ -202,14 +220,18 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
   <View
@@ -218,7 +240,6 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -227,6 +248,10 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           "width": 60,
         },
         {
+          "backgroundColor": "#2B78EE",
+        },
+        {
+          "right": 54,
           "zIndex": 4,
         },
         {
@@ -238,14 +263,18 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
 </View>
@@ -256,6 +285,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
   style={
     {
       "flexDirection": "row",
+      "maxWidth": 186,
     }
   }
 >
@@ -265,7 +295,6 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -274,7 +303,9 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "width": 60,
         },
         {
-          "left": 54,
+          "backgroundColor": "#2B78EE",
+        },
+        {
           "zIndex": 1,
         },
         {
@@ -308,7 +339,6 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -317,7 +347,10 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "width": 60,
         },
         {
-          "left": 36,
+          "backgroundColor": "#2B78EE",
+        },
+        {
+          "right": 18,
           "zIndex": 2,
         },
         {
@@ -329,14 +362,18 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
   <View
@@ -345,7 +382,6 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -354,7 +390,10 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "width": 60,
         },
         {
-          "left": 18,
+          "backgroundColor": "#2B78EE",
+        },
+        {
+          "right": 36,
           "zIndex": 3,
         },
         {
@@ -366,14 +405,18 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
     <Text
       allowFontScaling={true}
       style={
-        {
-          "color": "#FFF",
-          "fontFamily": "Neotis",
-          "fontSize": 30,
-        }
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
       }
     >
-      
+      ИП
     </Text>
   </View>
   <View
@@ -385,6 +428,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
+        "right": 54,
         "width": 60,
         "zIndex": 4,
       }
@@ -413,11 +457,12 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
 </View>
 `;
 
-exports[`AvatarGroup render AvatarGroup with props 1`] = `
+exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
 <View
   style={
     {
       "flexDirection": "row",
+      "maxWidth": 186,
     }
   }
 >
@@ -427,7 +472,6 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -436,7 +480,9 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "width": 60,
         },
         {
-          "left": 54,
+          "backgroundColor": "#ff0000",
+        },
+        {
           "zIndex": 1,
         },
         {
@@ -470,7 +516,6 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -479,7 +524,10 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "width": 60,
         },
         {
-          "left": 36,
+          "backgroundColor": "#ff0000",
+        },
+        {
+          "right": 18,
           "zIndex": 2,
         },
         {
@@ -511,7 +559,6 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#ff0000",
           "borderColor": "#FFF",
           "borderRadius": 30,
           "borderWidth": 3,
@@ -520,7 +567,10 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "width": 60,
         },
         {
-          "left": 18,
+          "backgroundColor": "#ff0000",
+        },
+        {
+          "right": 36,
           "zIndex": 3,
         },
         {
@@ -555,6 +605,184 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         "borderWidth": 3,
         "height": 60,
         "justifyContent": "center",
+        "right": 54,
+        "width": 60,
+        "zIndex": 4,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#444B5A",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 18,
+            "lineHeight": 24,
+          },
+          {
+            "alignSelf": "center",
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      +47
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`AvatarGroup render AvatarGroup with props 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "maxWidth": 186,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "backgroundColor": "#ff0000",
+        },
+        {
+          "zIndex": 1,
+        },
+        {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <Image
+      accessibilityLabel="imageAvatar"
+      onError={[Function]}
+      source={
+        {
+          "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
+        }
+      }
+      style={
+        {
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "width": 60,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "backgroundColor": "#ff0000",
+        },
+        {
+          "right": 18,
+          "zIndex": 2,
+        },
+        {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
+      }
+    >
+      ИП
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "borderColor": "#FFF",
+          "borderRadius": 30,
+          "borderWidth": 3,
+          "height": 60,
+          "justifyContent": "center",
+          "width": 60,
+        },
+        {
+          "backgroundColor": "#ff0000",
+        },
+        {
+          "right": 36,
+          "zIndex": 3,
+        },
+        {
+          "opacity": 1,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#FFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 21,
+            "lineHeight": 27,
+          },
+          undefined,
+        ]
+      }
+    >
+      ИП
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "#EEEFF1",
+        "borderColor": "#FFF",
+        "borderRadius": 30,
+        "borderWidth": 3,
+        "height": 60,
+        "justifyContent": "center",
+        "right": 54,
         "width": 60,
         "zIndex": 4,
       }

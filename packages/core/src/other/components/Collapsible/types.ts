@@ -1,13 +1,25 @@
-import {TouchableOpacityProps, ViewStyle} from 'react-native';
-import {ReactChild} from 'react';
+import {
+  LayoutAnimationProperty,
+  LayoutAnimationType,
+  TextStyle,
+  TouchableOpacityProps,
+  ViewStyle,
+} from 'react-native';
+import {ReactElement} from 'react';
 
 import {TypographyProp} from '../../../typography';
 
 export interface ICollapsibleProps extends TouchableOpacityProps {
   title?: string;
-  children?: ReactChild;
+  children?: ReactElement;
   duration?: number;
   containerStyle?: ViewStyle | ViewStyle[];
   headerStyle?: ViewStyle | ViewStyle[];
+  titleStyle?: TextStyle | TextStyle[];
   fontTitle?: TypographyProp;
+  typeAnimation?: LayoutAnimationType;
+  creationPropAnimation?: LayoutAnimationProperty;
+  numberOfLines?: number;
+  initialState?: boolean;
+  isAnimated?: boolean;
 }

@@ -4,6 +4,7 @@ import {ICounterTypes, IIndicatorTypes} from '../Badge';
 
 export interface IUser {
   firstName: string;
+  middleName?: string;
   lastName?: string;
   logo?: string;
 }
@@ -60,4 +61,5 @@ export interface IAvatarGroupProps {
   groups: IUser[];
   backgroundColor?: string;
   type?: IAvatarTypes;
+  groupCount?: number;
 }

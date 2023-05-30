@@ -7,6 +7,7 @@ import {
   Carousel,
   IButtonSize,
   ICarouselAlign,
+  LoopCarousel,
   rem,
   Typography,
   useTheme,
@@ -35,13 +36,13 @@ const CarouselExample = () => {
   const sideMargin = number('sideMargin', 12);
   const activeItemId = number('activeItemId', 1);
   const data = number('length data', 3);
-  const keyExtractor = useCallback(item => item.toString(), []);
+  const keyExtractor = useCallback((item: number) => item.toString(), []);
   const isDots = boolean('isDots', false);
   const align = select('align', ICarouselAlign, ICarouselAlign.start);
   const isLoop = boolean('isLoop', true);
 
   const sliderItem = useCallback(
-    item => {
+    (item: number) => {
       return (
         <View
           style={{
@@ -65,20 +66,31 @@ const CarouselExample = () => {
         onPress={() => setOpen(!isOpen)}
         size={IButtonSize.large}
       />
-      {isOpen && (
-        <Carousel
-          data={range(1, data)}
-          sliderItem={sliderItem}
-          keyExtractor={keyExtractor}
-          animateAutoScroll={boolean('animateAutoScroll', true)}
-          isDots={isDots}
-          sideMargin={rem(sideMargin)}
-          itemWidth={rem(itemWidth)}
-          activeItemId={activeItemId.toString()}
-          align={align}
-          isLoop={isLoop}
-        />
-      )}
+      {isOpen &&
+        (isLoop ? (
+          <LoopCarousel
+            data={range(1, data)}
+            sliderItem={sliderItem}
+            animateAutoScroll={boolean('animateAutoScroll', true)}
+            isDots={isDots}
+            sideMargin={rem(sideMargin)}
+            itemWidth={rem(itemWidth)}
+            activeItemId={activeItemId.toString()}
+            align={align}
+          />
+        ) : (
+          <Carousel
+            data={range(1, data)}
+            sliderItem={sliderItem}
+            keyExtractor={keyExtractor}
+            animateAutoScroll={boolean('animateAutoScroll', true)}
+            isDots={isDots}
+            sideMargin={rem(sideMargin)}
+            itemWidth={rem(itemWidth)}
+            activeItemId={activeItemId.toString()}
+            align={align}
+          />
+        ))}
     </View>
   );
 };

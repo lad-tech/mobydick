@@ -34,7 +34,6 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
 
   const swipeRight = () => {
     distance.current = rightPos;
-    onPress(true);
     Animated.timing(pan, {
       toValue: +rightPos,
       duration: 300,
@@ -45,7 +44,6 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
 
   const swipeLeft = () => {
     distance.current = leftPos;
-    onPress(false);
     Animated.timing(pan, {
       toValue: +leftPos,
       duration: 300,
@@ -61,17 +59,15 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
     pan.flattenOffset();
 
     if (gestureState.dx === 0) {
-      if (distance.current > 0) {
-        return swipeLeft();
-      } else {
-        return swipeRight();
-      }
+      onPress(distance.current > 0 ? false : true);
+      return distance.current > 0 ? swipeLeft() : swipeRight();
     }
 
-    distance.current = gestureState.dx;
-    if (distance.current > 0) {
+    if (gestureState.dx > 0) {
+      distance.current !== rightPos && onPress(true);
       return swipeRight();
     } else {
+      distance.current !== leftPos && onPress(false);
       return swipeLeft();
     }
   };

@@ -9,3 +9,4 @@ import './navbars';
 import './other';
 import './env';
 import './calendar';
+import './chat';

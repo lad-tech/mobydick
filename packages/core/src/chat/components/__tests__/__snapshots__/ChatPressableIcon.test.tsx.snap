@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@npm/mobydick-core/ChatPressableIcon renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#E5F0FF",
+      "borderRadius": 12,
+      "height": 57,
+      "justifyContent": "center",
+      "marginLeft": 9,
+      "opacity": 1,
+      "width": 57,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      {
+        "color": "#2B78EE",
+        "fontFamily": "Neotis",
+        "fontSize": 36,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`@npm/mobydick-core/ChatPressableIcon renders correctly disabled 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "borderRadius": 12,
+      "height": 57,
+      "justifyContent": "center",
+      "marginLeft": 9,
+      "opacity": 1,
+      "width": 57,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      {
+        "color": "red",
+        "fontFamily": "Neotis",
+        "fontSize": 36,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`@npm/mobydick-core/ChatPressableIcon renders correctly with props 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "black",
+      "borderRadius": 12,
+      "height": 57,
+      "justifyContent": "center",
+      "marginLeft": 9,
+      "opacity": 1,
+      "width": 57,
+    }
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      {
+        "color": "red",
+        "fontFamily": "Neotis",
+        "fontSize": 36,
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
