@@ -445,4 +445,21 @@ describe('Carousel', () => {
     });
     expect(toJSON()).toMatchSnapshot();
   });
+  it('render Carousel autoScroll', () => {
+    jest.useFakeTimers();
+    jest.runAllTimers();
+    const {toJSON} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          itemWidth={itemWidth}
+          autoScroll={true}
+          timerAuto={1000}
+        />
+      </SafeAreaProvider>,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
