@@ -447,7 +447,6 @@ describe('Carousel', () => {
   });
   it('render Carousel autoScroll', () => {
     jest.useFakeTimers();
-    jest.runAllTimers();
     const {toJSON} = render(
       <SafeAreaProvider>
         <Carousel
@@ -460,6 +459,8 @@ describe('Carousel', () => {
         />
       </SafeAreaProvider>,
     );
+
+    jest.runAllTimers();
     expect(toJSON()).toMatchSnapshot();
   });
 });
