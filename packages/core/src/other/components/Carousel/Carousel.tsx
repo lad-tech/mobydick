@@ -1,4 +1,4 @@
-import React, {useCallback, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {FlatList, ViewToken} from 'react-native';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
@@ -35,6 +35,9 @@ const Carousel = <T,>({
   onEndReached,
   initialNumToRender,
   onScroll,
+  autoScroll = false,
+  timerAuto = 2000,
+  ...otherProps
 }: ICarouselProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
   const [styles] = useStyles(stylesCreate, sideMargin);
@@ -127,6 +130,27 @@ const Carousel = <T,>({
     },
   ).current;
 
+  useEffect(() => {
+    if (!autoScroll) {
+      return;
+    }
+
+    const timerAutoScroll = setInterval(() => {
+      setSlidePosition(state => {
+        ref.current?.scrollToIndex({
+          animated: true,
+          index: state + 1,
+        });
+        return state + 1;
+      });
+    }, timerAuto);
+
+    if (slidePosition === data.length - 1) {
+      clearInterval(timerAutoScroll);
+    }
+    return () => clearInterval(timerAutoScroll);
+  }, [slidePosition, data.length, autoScroll]);
+
   return (
     <>
       <FlatList
@@ -153,6 +177,7 @@ const Carousel = <T,>({
         onEndReachedThreshold={0.5}
         removeClippedSubviews={true}
         initialNumToRender={initialNumToRender || 10}
+        {...otherProps}
       />
       {isDots && <Dots length={data.length} activeDot={slidePosition} />}
     </>

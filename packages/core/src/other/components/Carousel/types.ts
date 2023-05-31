@@ -20,4 +20,6 @@ export interface ICarouselProps<T>
   onActiveChange?: (item: T) => void;
   align?: ICarouselAlign;
   keyExtractor: (item: T, index?: number) => string;
+  autoScroll?: boolean;
+  timerAuto?: number;
 }

@@ -13,7 +13,7 @@ const LoopCarousel = <T,>({
   itemWidth,
   align = ICarouselAlign.start,
   ...otherProps
-}: Omit<ICarouselProps<T>, 'keyExtractor'>): JSX.Element => {
+}: Omit<ICarouselProps<T>, 'keyExtractor' | 'autoScroll'>): JSX.Element => {
   const ref = useRef<FlatList>(null);
   const [infinityData, setInfinityData] = useState([...data, ...data, ...data]);
 
