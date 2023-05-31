@@ -34,9 +34,6 @@ describe('Button', () => {
       await element(by.type(typeTextField))
         .atIndex(2)
         .replaceText('Добавить карту');
-
-      await element(by.text(TEXTS.PREVIEW)).tap();
-      await element(by.text('light')).tap();
     } else {
       await element(by.text('size')).tap({x: 5, y: 20});
       await element(by.text('large')).tap();
@@ -44,13 +41,16 @@ describe('Button', () => {
       await element(by.text('type')).tap({x: 5, y: 20});
       await element(by.text('secondary')).tap();
 
+      await element(by.text('disabled')).tap({x: 5, y: 30});
+      await element(by.text('disabled')).tap({x: 5, y: 30});
+
       await element(by.type(typeTextField)).atIndex(1).clearText();
       await element(by.type(typeTextField))
         .atIndex(1)
         .replaceText('Добавить карту');
-
-      await element(by.text(TEXTS.PREVIEW)).tap();
-      await element(by.text('light')).tap();
     }
+
+    await element(by.text(TEXTS.PREVIEW)).tap();
+    await element(by.text('light')).tap();
   });
 });
