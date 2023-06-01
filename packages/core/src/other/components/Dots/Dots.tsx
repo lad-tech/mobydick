@@ -46,6 +46,8 @@ const Dots = ({length, activeDot}: IDotsProps) => {
       : activeDot + numConsumed,
   );
 
+  const isMiddleDotActive = activeDot !== i.current + 1;
+
   function updateIndexes(currentDirection: number, currentIndex: number) {
     if (currentDirection === -1) {
       i.current = Math.min(currentIndex, i.current);
@@ -84,16 +86,20 @@ const Dots = ({length, activeDot}: IDotsProps) => {
       (direction.current > 0 ? indicatorRight() : index - 1) *
         (SIZE_SMALL + MARGIN_DOT),
     );
+    const isScrollTo = prevIndex !== i.current && prevIndex !== j.current;
 
-    refScrollView.current.scrollTo({
-      x: moveTo,
-      y: 0,
-      animated: animated,
-    });
+    isScrollTo &&
+      refScrollView.current.scrollTo({
+        x: moveTo,
+        y: 0,
+        animated: animated,
+      });
   };
 
   useEffect(() => {
-    isDynamicDots ? setIndexes() : scrollTo(activeDot, true);
+    isDynamicDots
+      ? setIndexes()
+      : isMiddleDotActive && scrollTo(activeDot, true);
   }, [activeDot]);
 
   const size = useCallback(
