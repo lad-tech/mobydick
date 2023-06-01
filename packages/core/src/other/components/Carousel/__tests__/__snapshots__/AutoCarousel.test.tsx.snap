@@ -63,8 +63,8 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
   stickyHeaderIndices={[]}
   viewabilityConfig={
     {
-      "itemVisiblePercentThreshold": 60,
-      "waitForInteraction": true,
+      "itemVisiblePercentThreshold": 80,
+      "waitForInteraction": false,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -72,8 +72,8 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
       {
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
-          "itemVisiblePercentThreshold": 60,
-          "waitForInteraction": true,
+          "itemVisiblePercentThreshold": 80,
+          "waitForInteraction": false,
         },
       },
     ]

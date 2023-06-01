@@ -3,7 +3,7 @@ import {Image, StyleSheet} from 'react-native';
 
 import View from '../../basic/components/View/View';
 import {Typography} from '../../typography';
-import {isNumber} from '../../other/components/Avatar/functions/isNumber';
+import {isNumber} from '../../other/functions/isNumber';
 import {IThemeContext} from '../../styles';
 import useStyles from '../../styles/theme/hooks/useStyles';
 import rem from '../../styles/spaces/rem';

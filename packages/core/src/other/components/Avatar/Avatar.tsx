@@ -5,11 +5,11 @@ import View from '../../../basic/components/View/View';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import {LABELS} from '../../constants';
 import useTheme from '../../../styles/theme/hooks/useTheme';
+import {isNumber} from '../../functions/isNumber';
 
 import {IAvatarProps, IAvatarSize, IAvatarTypes} from './types';
 import stylesCreate from './stylesCreate';
 import AvatarWithoutImage from './components/AvatarWithoutImage';
-import {isNumber} from './functions/isNumber';
 import AvatarBadge from './components/AvatarBadge';
 
 const Avatar: FC<IAvatarProps> = props => {

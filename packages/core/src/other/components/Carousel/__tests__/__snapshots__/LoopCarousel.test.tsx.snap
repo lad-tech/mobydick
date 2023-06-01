@@ -120,8 +120,8 @@ exports[`LoopCarousel render LoopCarousel activeItemId 1`] = `
   stickyHeaderIndices={[]}
   viewabilityConfig={
     {
-      "itemVisiblePercentThreshold": 60,
-      "waitForInteraction": true,
+      "itemVisiblePercentThreshold": 80,
+      "waitForInteraction": false,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -129,8 +129,8 @@ exports[`LoopCarousel render LoopCarousel activeItemId 1`] = `
       {
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
-          "itemVisiblePercentThreshold": 60,
-          "waitForInteraction": true,
+          "itemVisiblePercentThreshold": 80,
+          "waitForInteraction": false,
         },
       },
     ]
@@ -1036,8 +1036,8 @@ exports[`LoopCarousel render LoopCarousel contentOffset = 0 1`] = `
   stickyHeaderIndices={[]}
   viewabilityConfig={
     {
-      "itemVisiblePercentThreshold": 60,
-      "waitForInteraction": true,
+      "itemVisiblePercentThreshold": 80,
+      "waitForInteraction": false,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -1045,8 +1045,8 @@ exports[`LoopCarousel render LoopCarousel contentOffset = 0 1`] = `
       {
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
-          "itemVisiblePercentThreshold": 60,
-          "waitForInteraction": true,
+          "itemVisiblePercentThreshold": 80,
+          "waitForInteraction": false,
         },
       },
     ]
@@ -1952,8 +1952,8 @@ exports[`LoopCarousel render LoopCarousel contentOffset = contentSize 1`] = `
   stickyHeaderIndices={[]}
   viewabilityConfig={
     {
-      "itemVisiblePercentThreshold": 60,
-      "waitForInteraction": true,
+      "itemVisiblePercentThreshold": 80,
+      "waitForInteraction": false,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -1961,8 +1961,8 @@ exports[`LoopCarousel render LoopCarousel contentOffset = contentSize 1`] = `
       {
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
-          "itemVisiblePercentThreshold": 60,
-          "waitForInteraction": true,
+          "itemVisiblePercentThreshold": 80,
+          "waitForInteraction": false,
         },
       },
     ]
@@ -2868,8 +2868,8 @@ exports[`LoopCarousel render LoopCarousel initScroll isLoop 1`] = `
   stickyHeaderIndices={[]}
   viewabilityConfig={
     {
-      "itemVisiblePercentThreshold": 60,
-      "waitForInteraction": true,
+      "itemVisiblePercentThreshold": 80,
+      "waitForInteraction": false,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -2877,8 +2877,8 @@ exports[`LoopCarousel render LoopCarousel initScroll isLoop 1`] = `
       {
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
-          "itemVisiblePercentThreshold": 60,
-          "waitForInteraction": true,
+          "itemVisiblePercentThreshold": 80,
+          "waitForInteraction": false,
         },
       },
     ]
@@ -3784,8 +3784,8 @@ exports[`LoopCarousel render LoopCarousel initScroll isLoop align === center 1`]
   stickyHeaderIndices={[]}
   viewabilityConfig={
     {
-      "itemVisiblePercentThreshold": 60,
-      "waitForInteraction": true,
+      "itemVisiblePercentThreshold": 80,
+      "waitForInteraction": false,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -3793,8 +3793,8 @@ exports[`LoopCarousel render LoopCarousel initScroll isLoop align === center 1`]
       {
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
-          "itemVisiblePercentThreshold": 60,
-          "waitForInteraction": true,
+          "itemVisiblePercentThreshold": 80,
+          "waitForInteraction": false,
         },
       },
     ]
@@ -4700,8 +4700,8 @@ exports[`LoopCarousel render LoopCarousel not index isLoop 1`] = `
   stickyHeaderIndices={[]}
   viewabilityConfig={
     {
-      "itemVisiblePercentThreshold": 60,
-      "waitForInteraction": true,
+      "itemVisiblePercentThreshold": 80,
+      "waitForInteraction": false,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -4709,8 +4709,8 @@ exports[`LoopCarousel render LoopCarousel not index isLoop 1`] = `
       {
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
-          "itemVisiblePercentThreshold": 60,
-          "waitForInteraction": true,
+          "itemVisiblePercentThreshold": 80,
+          "waitForInteraction": false,
         },
       },
     ]
@@ -5616,8 +5616,8 @@ exports[`LoopCarousel render LoopCarousel onPressItem 1`] = `
   stickyHeaderIndices={[]}
   viewabilityConfig={
     {
-      "itemVisiblePercentThreshold": 60,
-      "waitForInteraction": true,
+      "itemVisiblePercentThreshold": 80,
+      "waitForInteraction": false,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -5625,8 +5625,8 @@ exports[`LoopCarousel render LoopCarousel onPressItem 1`] = `
       {
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
-          "itemVisiblePercentThreshold": 60,
-          "waitForInteraction": true,
+          "itemVisiblePercentThreshold": 80,
+          "waitForInteraction": false,
         },
       },
     ]
@@ -6532,8 +6532,8 @@ exports[`LoopCarousel render LoopCarousel onPressItem loading 1`] = `
   stickyHeaderIndices={[]}
   viewabilityConfig={
     {
-      "itemVisiblePercentThreshold": 60,
-      "waitForInteraction": true,
+      "itemVisiblePercentThreshold": 80,
+      "waitForInteraction": false,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -6541,8 +6541,8 @@ exports[`LoopCarousel render LoopCarousel onPressItem loading 1`] = `
       {
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
-          "itemVisiblePercentThreshold": 60,
-          "waitForInteraction": true,
+          "itemVisiblePercentThreshold": 80,
+          "waitForInteraction": false,
         },
       },
     ]
@@ -7448,8 +7448,8 @@ exports[`LoopCarousel render LoopCarousel sideMargin 1`] = `
   stickyHeaderIndices={[]}
   viewabilityConfig={
     {
-      "itemVisiblePercentThreshold": 60,
-      "waitForInteraction": true,
+      "itemVisiblePercentThreshold": 80,
+      "waitForInteraction": false,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -7457,8 +7457,8 @@ exports[`LoopCarousel render LoopCarousel sideMargin 1`] = `
       {
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
-          "itemVisiblePercentThreshold": 60,
-          "waitForInteraction": true,
+          "itemVisiblePercentThreshold": 80,
+          "waitForInteraction": false,
         },
       },
     ]
