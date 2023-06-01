@@ -1679,6 +1679,165 @@ exports[`Dots render dots activeDot=10 1`] = `
 </View>
 `;
 
+exports[`Dots render dots activeDot=10 animateAutoScroll 1`] = `
+<View
+  accessibilityLabel="dotsAnimatedView"
+  collapsable={false}
+  onLayout={[Function]}
+  style={
+    {
+      "width": 150,
+    }
+  }
+>
+  <RCTScrollView
+    accessibilityLabel="dotsScrollView"
+    bounces={false}
+    contentContainerStyle={
+      {
+        "alignItems": "center",
+      }
+    }
+    horizontal={true}
+    scrollEnabled={false}
+    showsHorizontalScrollIndicator={false}
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#B6BBC6",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 7.5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#B6BBC6",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 7.5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#B6BBC6",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 7.5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#B6BBC6",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 7.5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#B6BBC6",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 7.5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#B6BBC6",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 7.5,
+              "width": 6,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#B6BBC6",
+              "borderRadius": 4.5,
+              "height": 9,
+              "marginHorizontal": 7.5,
+              "width": 9,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#B6BBC6",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 7.5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#B6BBC6",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 7.5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#5E6678",
+              "borderRadius": 6,
+              "height": 12,
+              "marginHorizontal": 7.5,
+              "width": 12,
+            },
+          ]
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
 exports[`Dots render dots length < 7 1`] = `
 <View
   style={

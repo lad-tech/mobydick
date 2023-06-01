@@ -18,7 +18,9 @@ describe('Dots', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   test('render dots activeDot=10', () => {
-    const {toJSON} = render(<Dots length={10} activeDot={9} />);
+    const {toJSON} = render(
+      <Dots length={10} activeDot={9} animateAutoScroll={false} />,
+    );
     expect(toJSON()).toMatchSnapshot();
   });
   test('render dots activeDot right', () => {
@@ -58,5 +60,11 @@ describe('Dots', () => {
         nativeEvent: {layout: {height: 100}},
       });
     });
+  });
+  test('render dots activeDot=10 animateAutoScroll', () => {
+    const {toJSON} = render(
+      <Dots length={10} activeDot={9} animateAutoScroll={true} />,
+    );
+    expect(toJSON()).toMatchSnapshot();
   });
 });

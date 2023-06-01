@@ -179,7 +179,13 @@ const Carousel = <T,>({
         initialNumToRender={initialNumToRender || 10}
         {...otherProps}
       />
-      {isDots && <Dots length={data.length} activeDot={slidePosition} />}
+      {isDots && (
+        <Dots
+          length={data.length}
+          activeDot={slidePosition}
+          animateAutoScroll={animateAutoScroll}
+        />
+      )}
     </>
   );
 };
