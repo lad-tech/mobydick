@@ -22,7 +22,7 @@ function getDirection(newIdx: number, prevIdx: number): number {
   return newIdx < prevIdx ? -1 : 1;
 }
 
-const Dots = ({length, activeDot}: IDotsProps) => {
+const Dots = ({length, activeDot, animateAutoScroll = false}: IDotsProps) => {
   const refScrollView = useRef<ScrollView>(null);
   const dots = [...Array(length).keys()];
   const [prevIndex, setPrevIndex] = useState(activeDot - 1);
@@ -66,7 +66,7 @@ const Dots = ({length, activeDot}: IDotsProps) => {
     setPrevIndex(activeDot);
   }
 
-  const scrollTo = (index: number, animated: boolean) => {
+  const scrollTo = (index: number) => {
     if (!refScrollView.current) {
       return;
     }
@@ -92,14 +92,12 @@ const Dots = ({length, activeDot}: IDotsProps) => {
       refScrollView.current.scrollTo({
         x: moveTo,
         y: 0,
-        animated: animated,
+        animated: animateAutoScroll,
       });
   };
 
   useEffect(() => {
-    isDynamicDots
-      ? setIndexes()
-      : isMiddleDotActive && scrollTo(activeDot, true);
+    isDynamicDots ? setIndexes() : isMiddleDotActive && scrollTo(activeDot);
   }, [activeDot]);
 
   const size = useCallback(
@@ -132,7 +130,7 @@ const Dots = ({length, activeDot}: IDotsProps) => {
 
   const onLayout = useCallback(() => {
     //scroll to right index on initial render
-    scrollTo(activeDot, false);
+    scrollTo(activeDot);
   }, [activeDot]);
 
   if (isDynamicDots) {
