@@ -1,3 +1,39 @@
+# [7.10.0](https://glab.lad24.ru/npm/mobydick/compare/v7.9.0...v7.10.0) (2023-06-01)
+
+
+### Bug Fixes
+
+* add types for fix ts errors ([f1474e9](https://glab.lad24.ru/npm/mobydick/commit/f1474e918e4ac991fea99804a089d94d954f6a70))
+* **Calendar:** demarcated onAccept and Cancel ([dd51165](https://glab.lad24.ru/npm/mobydick/commit/dd51165410462f7700589e3654274e05ad93499c))
+* **Calendar:** fix first day, update version lib ([bba62f3](https://glab.lad24.ru/npm/mobydick/commit/bba62f3e63b9b1e71e5615d79e07877c5b5b4cac))
+* **Calendar:** fix first day, update version lib ([4809b7a](https://glab.lad24.ru/npm/mobydick/commit/4809b7a7729d50bb4255c29c1f2dd079b682453e))
+* **Carousel:** add state for right scroll ([9efdcd6](https://glab.lad24.ru/npm/mobydick/commit/9efdcd6b645e9e83324882f792b11d7e456f6d15))
+* **Carousel:** align for isLoop ([0f9e892](https://glab.lad24.ru/npm/mobydick/commit/0f9e8928f70f68bb0f3adc84ea6fada86eceeda2))
+* **Carousel:** increase initialNumToRender, if isLoop ([015c7db](https://glab.lad24.ru/npm/mobydick/commit/015c7dbf45a5406dc5bcd3b77a57219fd7bd3ba5))
+* **Carousel:** replace width ([d229a04](https://glab.lad24.ru/npm/mobydick/commit/d229a04efe98d279f8f4ef2fa0764b7b5d8ca7fb))
+* **Carousel:** separated components Carousel and LoopCarousel ([e0864e5](https://glab.lad24.ru/npm/mobydick/commit/e0864e501fb874ef5d6f0f7e58a81aea7b397d2b))
+* **Carousel:** update handleOnViewableItemsChanged ([fbd3681](https://glab.lad24.ru/npm/mobydick/commit/fbd368157850826f5b429b5ccb52b823c25cbf5f))
+* **Carousel:** update initial scroll ([d9d6fea](https://glab.lad24.ru/npm/mobydick/commit/d9d6feafe8c401b6331fc00e5723ee3d5ff1fac2))
+* **Collapsible:** add numberOfLines, titleStyle, default creationPropAnimation = 'scaleY', ([a014401](https://glab.lad24.ru/npm/mobydick/commit/a014401a2ab7f56caa777360a18c15fe7b0665f2))
+* **Collapsible:** add props for animation ([b097bf9](https://glab.lad24.ru/npm/mobydick/commit/b097bf9007292a9125be113178fcf073a410b088))
+* **Collapsible:** delete height to header ([698bbae](https://glab.lad24.ru/npm/mobydick/commit/698bbae26800407b084a6c720b25048fd0e508dc))
+* **PanelHeader:** case, when only rightView ([309a913](https://glab.lad24.ru/npm/mobydick/commit/309a91346e1733a9a6d9189a844703a64a3266b0))
+* **PanelHeader:** fix the center of the title ([04ca70d](https://glab.lad24.ru/npm/mobydick/commit/04ca70d46aafb070c8f195d28008ccb165e65f09))
+* **PanelHeader:** remove rem ([c51da6e](https://glab.lad24.ru/npm/mobydick/commit/c51da6eddca3e8a80cc410c8a7399351e83b9ab2))
+* ref type DropDown ([b97a05e](https://glab.lad24.ru/npm/mobydick/commit/b97a05e3c72607989c403a4521d325253add0993))
+* **Slider:** change onMoveShouldSetPanResponderCapture ([01d5833](https://glab.lad24.ru/npm/mobydick/commit/01d5833c8e9feaa7843dda97d5eb7fc1ec4e14b2))
+* **Swipe:** monitor the change of active from the outside ([b0762cb](https://glab.lad24.ru/npm/mobydick/commit/b0762cbaab381f4212c4442525140f5f1f361c4f))
+* **types:** moved interfaces to types ([4ccc50d](https://glab.lad24.ru/npm/mobydick/commit/4ccc50d8b3e6febadd0c07fe60326538051c2be4))
+
+
+### Features
+
+* **AutoCarousel:** add autoscroll in carousel ([1274323](https://glab.lad24.ru/npm/mobydick/commit/127432328cb305b09682b3b7376dee4ebfde17a6))
+* **Calendar:** add max length dateRange ([be3c9d7](https://glab.lad24.ru/npm/mobydick/commit/be3c9d72af2f5078ebc3c946e23325acb5a93506))
+* **Carousel:** add loop infinity data ([235ffbb](https://glab.lad24.ru/npm/mobydick/commit/235ffbbc3251aae7b1416a3bdcc376b6ef9ca50a))
+* **Collapsible:** add component ([469ca6c](https://glab.lad24.ru/npm/mobydick/commit/469ca6cf846c3dbc0ae8e1e638588e012b4f14a1))
+* **Slider:** increase width, height when you moved ([96efa92](https://glab.lad24.ru/npm/mobydick/commit/96efa9255d9513c9004c860b920b04aababf1227))
+
 # [7.9.0](https://glab.lad24.ru/npm/mobydick/compare/v7.8.0...v7.9.0) (2023-05-25)
 
 
