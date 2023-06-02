@@ -64,7 +64,7 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
   viewabilityConfig={
     {
       "itemVisiblePercentThreshold": 80,
-      "waitForInteraction": false,
+      "waitForInteraction": true,
     }
   }
   viewabilityConfigCallbackPairs={
@@ -73,7 +73,7 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
         "onViewableItemsChanged": [Function],
         "viewabilityConfig": {
           "itemVisiblePercentThreshold": 80,
-          "waitForInteraction": false,
+          "waitForInteraction": true,
         },
       },
     ]

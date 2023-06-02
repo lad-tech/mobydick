@@ -49,7 +49,7 @@ const Carousel = <T,>({
 
   const viewabilityConfig = useRef({
     itemVisiblePercentThreshold: 80,
-    waitForInteraction: false,
+    waitForInteraction: true,
   }).current;
 
   const initScroll = useCallback(() => {
@@ -109,9 +109,6 @@ const Carousel = <T,>({
 
   const handleOnViewableItemsChanged = useRef(
     ({viewableItems}: {viewableItems: ViewToken[]}) => {
-      if (!viewableItems[0]) {
-        return;
-      }
       if (align === ICarouselAlign.start) {
         const index = viewableItems[0]?.index;
         if (isNumber(index)) {
