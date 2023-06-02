@@ -7,6 +7,7 @@ import TouchableOpacity from '../../../basic/components/TouchableOpacity/Touchab
 import {LABELS} from '../../constants';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import Dots from '../Dots/Dots';
+import {isNumber} from '../../functions/isNumber';
 
 import stylesCreate from './stylesCreate';
 import {ICarouselAlign, ICarouselProps} from './types';
@@ -47,7 +48,7 @@ const Carousel = <T,>({
   const {width: WIDTH} = useSafeAreaFrame();
 
   const viewabilityConfig = useRef({
-    itemVisiblePercentThreshold: 60,
+    itemVisiblePercentThreshold: 80,
     waitForInteraction: true,
   }).current;
 
@@ -109,7 +110,10 @@ const Carousel = <T,>({
   const handleOnViewableItemsChanged = useRef(
     ({viewableItems}: {viewableItems: ViewToken[]}) => {
       if (align === ICarouselAlign.start) {
-        setSlidePosition(viewableItems[0]?.index || 0);
+        const index = viewableItems[0]?.index;
+        if (isNumber(index)) {
+          setSlidePosition(index);
+        }
         typeof onActiveChange === 'function' &&
           onActiveChange(viewableItems[0]?.item);
       } else {
@@ -123,7 +127,12 @@ const Carousel = <T,>({
             ? Math.floor(currLength / 2) - 1
             : Math.floor(currLength / 2);
 
-        setSlidePosition(viewableItems[middleVisibleElement]?.index || 0);
+        const index = viewableItems[middleVisibleElement]?.index;
+
+        if (isNumber(index)) {
+          setSlidePosition(index);
+        }
+
         typeof onActiveChange === 'function' &&
           onActiveChange(viewableItems[middleVisibleElement]?.item);
       }
@@ -148,8 +157,9 @@ const Carousel = <T,>({
     if (slidePosition === data.length - 1) {
       clearInterval(timerAutoScroll);
     }
+
     return () => clearInterval(timerAutoScroll);
-  }, [slidePosition, data.length, autoScroll]);
+  }, [slidePosition, data.length, autoScroll, timerAuto]);
 
   return (
     <>

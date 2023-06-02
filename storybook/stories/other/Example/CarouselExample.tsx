@@ -35,11 +35,11 @@ const CarouselExample = () => {
   const itemHeight = number('itemHeight', 100);
   const sideMargin = number('sideMargin', 12);
   const activeItemId = number('activeItemId', 1);
-  const data = number('length data', 3);
+  const data = number('length data', 10);
   const keyExtractor = useCallback((item: number) => item.toString(), []);
-  const isDots = boolean('isDots', false);
+  const isDots = boolean('isDots', true);
   const align = select('align', ICarouselAlign, ICarouselAlign.start);
-  const isLoop = boolean('isLoop', true);
+  const isLoop = boolean('isLoop', false);
 
   const sliderItem = useCallback(
     (item: number) => {
