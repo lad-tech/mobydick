@@ -22,4 +22,5 @@ export interface ICarouselProps<T>
   keyExtractor: (item: T, index?: number) => string;
   autoScroll?: boolean;
   timerAuto?: number;
+  indexScroll?: number;
 }

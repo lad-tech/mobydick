@@ -39,7 +39,8 @@ const CarouselExample = () => {
   const keyExtractor = useCallback((item: number) => item.toString(), []);
   const isDots = boolean('isDots', true);
   const align = select('align', ICarouselAlign, ICarouselAlign.start);
-  const isLoop = boolean('isLoop', false);
+  const isLoop = boolean('isLoop', true);
+  const animateAutoScroll = boolean('animateAutoScroll', true);
 
   const sliderItem = useCallback(
     (item: number) => {
@@ -71,7 +72,6 @@ const CarouselExample = () => {
           <LoopCarousel
             data={range(1, data)}
             sliderItem={sliderItem}
-            animateAutoScroll={boolean('animateAutoScroll', true)}
             isDots={isDots}
             sideMargin={rem(sideMargin)}
             itemWidth={rem(itemWidth)}
@@ -83,7 +83,7 @@ const CarouselExample = () => {
             data={range(1, data)}
             sliderItem={sliderItem}
             keyExtractor={keyExtractor}
-            animateAutoScroll={boolean('animateAutoScroll', true)}
+            animateAutoScroll={animateAutoScroll}
             isDots={isDots}
             sideMargin={rem(sideMargin)}
             itemWidth={rem(itemWidth)}

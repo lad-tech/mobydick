@@ -1,5 +1,10 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
-import {FlatList, ViewToken} from 'react-native';
+import {
+  FlatList,
+  NativeScrollEvent,
+  NativeSyntheticEvent,
+  ViewToken,
+} from 'react-native';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
 import rem from '../../../styles/spaces/rem';
@@ -32,12 +37,11 @@ const Carousel = <T,>({
   isDots = false,
   onActiveChange,
   align = ICarouselAlign.start,
-  onLayout,
   onEndReached,
   initialNumToRender,
-  onScroll,
   autoScroll = false,
   timerAuto = 2000,
+  indexScroll,
   ...otherProps
 }: ICarouselProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
@@ -53,17 +57,30 @@ const Carousel = <T,>({
   }).current;
 
   const initScroll = useCallback(() => {
-    const selectedIndex = data.findIndex(
-      item => keyExtractor(item) === activeItemId,
-    );
+    const selectedIndex =
+      indexScroll ||
+      data.findIndex(item => keyExtractor(item) === activeItemId);
+
     if (selectedIndex > -1 && selectedIndex !== slidePosition) {
+      const widthData = widthSnap * selectedIndex;
+
+      const emptySpace = WIDTH - widthSnap;
       setSlidePosition(selectedIndex);
-      ref.current?.scrollToOffset({
-        offset: widthSnap * selectedIndex,
-        animated: animateAutoScroll,
-      });
+
+      align === ICarouselAlign.center
+        ? ref.current?.scrollToOffset({
+            offset: widthData - emptySpace / 2,
+            animated: animateAutoScroll,
+          })
+        : ref.current?.scrollToIndex({
+            index: selectedIndex,
+            animated: animateAutoScroll,
+          });
     }
   }, [
+    align,
+    WIDTH,
+    indexScroll,
     activeItemId,
     slidePosition,
     data,
@@ -161,6 +178,25 @@ const Carousel = <T,>({
     return () => clearInterval(timerAutoScroll);
   }, [slidePosition, data.length, autoScroll, timerAuto]);
 
+  const checkScroll = useCallback(
+    ({contentOffset}: NativeScrollEvent, index: number) => {
+      if (!contentOffset.x) {
+        ref.current?.scrollToOffset({
+          offset: widthSnap * index,
+          animated: false,
+        });
+      }
+    },
+    [widthSnap],
+  );
+
+  const onScroll = useCallback(
+    (event: NativeSyntheticEvent<NativeScrollEvent>) => {
+      indexScroll && checkScroll(event.nativeEvent, indexScroll);
+    },
+    [indexScroll, checkScroll],
+  );
+
   return (
     <>
       <FlatList
@@ -170,7 +206,7 @@ const Carousel = <T,>({
         keyExtractor={keyExtractor}
         horizontal
         pagingEnabled
-        onLayout={onLayout || initScroll}
+        onLayout={initScroll}
         accessibilityLabel={LABELS.carousel}
         snapToAlignment={align}
         showsHorizontalScrollIndicator={false}
