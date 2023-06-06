@@ -2,31 +2,15 @@ import React, {useCallback} from 'react';
 import {StyleSheet, useWindowDimensions} from 'react-native';
 import {boolean, number, select} from '@storybook/addon-knobs';
 
-import {
-  AutoCarousel,
-  ICarouselAlign,
-  rem,
-  Typography,
-  useTheme,
-  View,
-} from '@npm/mobydick-core';
+import {rangeDataCarousel} from './components/RangeDataCarousel';
+import SliderItem from './components/SliderItem';
+
+import {AutoCarousel, ICarouselAlign, rem, View} from '@npm/mobydick-core';
 import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
-
-function range(from: number, to: number) {
-  const offset = from;
-  const length = to - from + 1;
-
-  if (length < 0) {
-    return [];
-  }
-
-  return [...Array(length).keys()].map(value => value + offset);
-}
 
 const AutoCarouselExample = () => {
   const [styles] = useStyles(stylesCreate);
-  const {colors} = useTheme();
-  const {width: WIDTH, height: HEIGHT} = useWindowDimensions();
+  const {width: WIDTH} = useWindowDimensions();
 
   const sideMargin = number('sideMargin', 5);
   const activeItemId = number('activeItemId', 1);
@@ -37,24 +21,13 @@ const AutoCarouselExample = () => {
   const timerAuto = number('timerAuto', 2000);
 
   const sliderItem = useCallback((item: number) => {
-    return (
-      <View
-        style={{
-          width: WIDTH - 10,
-          height: HEIGHT,
-          backgroundColor: colors.ElementBase,
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}>
-        <Typography font={'Medium-White-H4'}>{item}</Typography>
-      </View>
-    );
+    return <SliderItem item={item} />;
   }, []);
 
   return (
     <View style={styles.container}>
       <AutoCarousel
-        data={range(1, data)}
+        data={rangeDataCarousel(1, data)}
         sliderItem={sliderItem}
         keyExtractor={keyExtractor}
         animateAutoScroll={boolean('animateAutoScroll', true)}
