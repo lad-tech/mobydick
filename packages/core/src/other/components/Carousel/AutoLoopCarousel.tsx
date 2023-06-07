@@ -5,8 +5,11 @@ import LoopCarousel from './LoopCarousel';
 
 const AutoLoopCarousel = <T,>({
   ...otherProps
-}: Omit<ICarouselProps<T>, 'keyExtractor' | 'isDots'>): JSX.Element => {
-  return <LoopCarousel autoScroll={true} isDots={false} {...otherProps} />;
+}: Omit<
+  ICarouselProps<T>,
+  'keyExtractor' | 'isDots' | 'animateAutoScroll'
+>): JSX.Element => {
+  return <LoopCarousel autoScroll={true} {...otherProps} />;
 };
 
 export default AutoLoopCarousel;

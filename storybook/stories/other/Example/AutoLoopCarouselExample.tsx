@@ -1,6 +1,6 @@
 import React, {useCallback} from 'react';
 import {StyleSheet, useWindowDimensions} from 'react-native';
-import {boolean, number, select} from '@storybook/addon-knobs';
+import {number, select} from '@storybook/addon-knobs';
 
 import {rangeDataCarousel} from './components/RangeDataCarousel';
 import SliderItem from './components/SliderItem';
@@ -27,7 +27,6 @@ const AutoLoopCarouselExample = () => {
       <AutoLoopCarousel
         data={rangeDataCarousel(1, data)}
         sliderItem={sliderItem}
-        animateAutoScroll={boolean('animateAutoScroll', true)}
         sideMargin={rem(sideMargin)}
         itemWidth={WIDTH - 10}
         activeItemId={activeItemId.toString()}
