@@ -13,6 +13,7 @@ import StatusExample from './Example/StatusExample';
 import ShadowExample from './Example/ShadowExample';
 import CollapsibleExample from './Example/CollapsibleExample';
 import AutoCarouselExample from './Example/AutoCarouselExample';
+import AutoLoopCarouselExample from './Example/AutoLoopCarouselExample';
 
 storiesOf('Design system/Other', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
@@ -25,4 +26,5 @@ storiesOf('Design system/Other', module)
   .add('Shadow', () => <ShadowExample />)
   .add('Collapsible', () => <CollapsibleExample />)
   .add('Status', () => <StatusExample />)
-  .add('AutoCarousel', () => <AutoCarouselExample />);
+  .add('AutoCarousel', () => <AutoCarouselExample />)
+  .add('AutoLoopCarousel', () => <AutoLoopCarouselExample />);

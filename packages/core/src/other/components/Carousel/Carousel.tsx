@@ -70,11 +70,11 @@ const Carousel = <T,>({
       align === ICarouselAlign.center
         ? ref.current?.scrollToOffset({
             offset: widthData - emptySpace / 2,
-            animated: animateAutoScroll,
+            animated: false,
           })
         : ref.current?.scrollToIndex({
             index: selectedIndex,
-            animated: animateAutoScroll,
+            animated: false,
           });
     }
   }, [
@@ -86,7 +86,6 @@ const Carousel = <T,>({
     data,
     keyExtractor,
     widthSnap,
-    animateAutoScroll,
   ]);
 
   const onPress = useCallback(
