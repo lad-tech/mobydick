@@ -1,3 +1,18 @@
+# [7.11.0](https://glab.lad24.ru/npm/mobydick/compare/v7.10.0...v7.11.0) (2023-06-13)
+
+
+### Bug Fixes
+
+* **Carousel:** fix dots in carousel ([0831082](https://glab.lad24.ru/npm/mobydick/commit/083108227aeb0cf8c6a76a9417c545da93910193))
+* **Carousel:** return checkScroll and initScroll in Carousel ([99301b4](https://glab.lad24.ru/npm/mobydick/commit/99301b42860b0977c0b280b70855856f01a12236))
+* **dots:** add props animateAutoScroll ([74779c6](https://glab.lad24.ru/npm/mobydick/commit/74779c6fa7fad40fc53d0ddbfbccf76d4207919a))
+* **dots:** remove jumping ([2206f89](https://glab.lad24.ru/npm/mobydick/commit/2206f898558a3405c1b9cb1c07f2db7d0a72e3e6))
+
+
+### Features
+
+* **AutoLoopCarousel:** add autoLoop ([50397da](https://glab.lad24.ru/npm/mobydick/commit/50397daea59450cdd81a4928e4bb3a4214cc5c86))
+
 # [7.10.0](https://glab.lad24.ru/npm/mobydick/compare/v7.9.0...v7.10.0) (2023-06-01)
 
 
