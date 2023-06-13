@@ -32,7 +32,7 @@ describe('AutoCarousel', () => {
           sideMargin={20}
           keyExtractor={keyExtractor}
           itemWidth={itemWidth}
-          autoScroll={true}
+          isScrolling={true}
         />
       </SafeAreaProvider>,
     );

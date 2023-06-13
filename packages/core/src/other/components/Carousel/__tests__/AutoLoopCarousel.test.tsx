@@ -30,7 +30,7 @@ describe('AutoLoopCarousel', () => {
           sliderItem={sliderItem}
           sideMargin={20}
           itemWidth={itemWidth}
-          autoScroll={true}
+          isScrolling={true}
         />
       </SafeAreaProvider>,
     );

@@ -7,7 +7,7 @@ const AutoCarousel = <T,>({...otherProps}: ICarouselProps<T>): JSX.Element => {
   return (
     <Carousel
       showsHorizontalScrollIndicator={false}
-      autoScroll={true}
+      isScrolling={true}
       {...otherProps}
     />
   );
