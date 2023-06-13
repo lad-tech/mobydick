@@ -22,7 +22,7 @@ function getDirection(newIdx: number, prevIdx: number): number {
   return newIdx < prevIdx ? -1 : 1;
 }
 
-const Dots = ({length, activeDot, animateAutoScroll = false}: IDotsProps) => {
+const Dots = ({length, activeDot, animateAutoScroll = true}: IDotsProps) => {
   const refScrollView = useRef<ScrollView>(null);
   const dots = [...Array(length).keys()];
   const [prevIndex, setPrevIndex] = useState(activeDot - 1);
