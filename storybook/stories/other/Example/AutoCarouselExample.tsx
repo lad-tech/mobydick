@@ -36,7 +36,7 @@ const AutoCarouselExample = () => {
         itemWidth={WIDTH - 10}
         activeItemId={activeItemId.toString()}
         align={align}
-        timerAuto={timerAuto}
+        ms={timerAuto}
       />
     </View>
   );

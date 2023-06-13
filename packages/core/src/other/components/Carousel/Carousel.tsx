@@ -39,14 +39,14 @@ const Carousel = <T,>({
   align = ICarouselAlign.start,
   onEndReached,
   initialNumToRender,
-  autoScroll = false,
-  timerAuto = 2000,
+  isScrolling = false,
+  ms = 2000,
   indexScroll,
   ...otherProps
 }: ICarouselProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
   const [styles] = useStyles(stylesCreate, sideMargin);
-  const [slidePosition, setSlidePosition] = useState<number>(0);
+  const [currIndex, setCurrIndex] = useState<number>(0);
 
   const widthSnap = itemWidth + sideMargin * 2;
   const {width: WIDTH} = useSafeAreaFrame();
@@ -61,11 +61,11 @@ const Carousel = <T,>({
       indexScroll ||
       data.findIndex(item => keyExtractor(item) === activeItemId);
 
-    if (selectedIndex > -1 && selectedIndex !== slidePosition) {
+    if (selectedIndex > -1 && selectedIndex !== currIndex) {
       const widthData = widthSnap * selectedIndex;
 
       const emptySpace = WIDTH - widthSnap;
-      setSlidePosition(selectedIndex);
+      setCurrIndex(selectedIndex);
 
       align === ICarouselAlign.center
         ? ref.current?.scrollToOffset({
@@ -82,7 +82,7 @@ const Carousel = <T,>({
     WIDTH,
     indexScroll,
     activeItemId,
-    slidePosition,
+    currIndex,
     data,
     keyExtractor,
     widthSnap,
@@ -128,7 +128,7 @@ const Carousel = <T,>({
       if (align === ICarouselAlign.start) {
         const index = viewableItems[0]?.index;
         if (isNumber(index)) {
-          setSlidePosition(index);
+          setCurrIndex(index);
         }
         typeof onActiveChange === 'function' &&
           onActiveChange(viewableItems[0]?.item);
@@ -146,7 +146,7 @@ const Carousel = <T,>({
         const index = viewableItems[middleVisibleElement]?.index;
 
         if (isNumber(index)) {
-          setSlidePosition(index);
+          setCurrIndex(index);
         }
 
         typeof onActiveChange === 'function' &&
@@ -156,26 +156,26 @@ const Carousel = <T,>({
   ).current;
 
   useEffect(() => {
-    if (!autoScroll) {
+    if (!isScrolling) {
       return;
     }
 
     const timerAutoScroll = setInterval(() => {
-      setSlidePosition(state => {
+      setCurrIndex(state => {
         ref.current?.scrollToIndex({
           animated: true,
           index: state + 1,
         });
         return state + 1;
       });
-    }, timerAuto);
+    }, ms);
 
-    if (slidePosition === data.length - 1) {
+    if (currIndex === data.length - 1) {
       clearInterval(timerAutoScroll);
     }
 
     return () => clearInterval(timerAutoScroll);
-  }, [slidePosition, data.length, autoScroll, timerAuto]);
+  }, [currIndex, data.length, isScrolling, ms]);
 
   const checkScroll = useCallback(
     ({contentOffset}: NativeScrollEvent, index: number) => {
@@ -227,7 +227,7 @@ const Carousel = <T,>({
       {isDots && (
         <Dots
           length={data.length}
-          activeDot={slidePosition}
+          activeDot={currIndex}
           animateAutoScroll={animateAutoScroll}
         />
       )}

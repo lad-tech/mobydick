@@ -9,7 +9,7 @@ const AutoLoopCarousel = <T,>({
   ICarouselProps<T>,
   'keyExtractor' | 'isDots' | 'animateAutoScroll'
 >): JSX.Element => {
-  return <LoopCarousel autoScroll={true} {...otherProps} />;
+  return <LoopCarousel isScrolling={true} {...otherProps} />;
 };
 
 export default AutoLoopCarousel;

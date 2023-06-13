@@ -454,8 +454,8 @@ describe('Carousel', () => {
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
           itemWidth={itemWidth}
-          autoScroll={true}
-          timerAuto={1000}
+          isScrolling={true}
+          ms={1000}
         />
       </SafeAreaProvider>,
     );
