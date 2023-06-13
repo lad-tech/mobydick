@@ -1,3 +1,10 @@
+## [7.11.1](https://glab.lad24.ru/npm/mobydick/compare/v7.11.0...v7.11.1) (2023-06-13)
+
+
+### Bug Fixes
+
+* **Dots:** animateAutoScroll -> true ([eae5ded](https://glab.lad24.ru/npm/mobydick/commit/eae5ded4fb7135f9a626bd07138bcc84b7cef918))
+
 # [7.11.0](https://glab.lad24.ru/npm/mobydick/compare/v7.10.0...v7.11.0) (2023-06-13)
 
 
