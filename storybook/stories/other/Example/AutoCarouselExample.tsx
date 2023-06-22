@@ -20,14 +20,16 @@ const AutoCarouselExample = () => {
   const align = select('align', ICarouselAlign, ICarouselAlign.start);
   const timerAuto = number('timerAuto', 2000);
 
-  const itemWidth = number('itemWidth', WIDTH - 10);
-  const itemHeight = number('itemHeight', HEIGHT);
+  const itemWidthAuto = number('itemWidth', WIDTH - 10);
+  const itemHeightAuto = number('itemHeight', HEIGHT);
 
   const sliderItem = useCallback(
     (item: number) => {
-      return <SliderItem item={item} width={itemWidth} height={itemHeight} />;
+      return (
+        <SliderItem item={item} width={itemWidthAuto} height={itemHeightAuto} />
+      );
     },
-    [itemWidth, itemHeight],
+    [itemWidthAuto, itemHeightAuto],
   );
 
   return (
@@ -39,7 +41,7 @@ const AutoCarouselExample = () => {
         animateAutoScroll={boolean('animateAutoScroll', true)}
         isDots={isDots}
         sideMargin={rem(sideMargin)}
-        itemWidth={itemWidth}
+        itemWidth={itemWidthAuto}
         activeItemId={activeItemId.toString()}
         align={align}
         ms={timerAuto}

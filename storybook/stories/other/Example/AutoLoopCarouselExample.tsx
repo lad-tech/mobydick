@@ -18,13 +18,16 @@ const AutoLoopCarouselExample = () => {
   const align = select('align', ICarouselAlign, ICarouselAlign.start);
   const timerAuto = number('timerAuto', 2000);
 
-  const itemWidth = number('itemWidth', WIDTH - 10);
-  const itemHeight = number('itemHeight', HEIGHT);
+  const itemWidthLoop = number('itemWidth', WIDTH - 10);
+  const itemHeightLoop = number('itemHeight', HEIGHT);
+
   const sliderItem = useCallback(
     (item: number) => {
-      return <SliderItem item={item} width={itemWidth} height={itemHeight} />;
+      return (
+        <SliderItem item={item} width={itemWidthLoop} height={itemHeightLoop} />
+      );
     },
-    [itemWidth, itemHeight],
+    [itemWidthLoop, itemHeightLoop],
   );
 
   return (
@@ -33,7 +36,7 @@ const AutoLoopCarouselExample = () => {
         data={rangeDataCarousel(1, data)}
         sliderItem={sliderItem}
         sideMargin={rem(sideMargin)}
-        itemWidth={itemWidth}
+        itemWidth={itemWidthLoop}
         activeItemId={activeItemId.toString()}
         align={align}
         ms={timerAuto}
