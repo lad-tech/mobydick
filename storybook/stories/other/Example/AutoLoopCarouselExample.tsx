@@ -10,7 +10,7 @@ import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 
 const AutoLoopCarouselExample = () => {
   const [styles] = useStyles(stylesCreate);
-  const {width: WIDTH} = useWindowDimensions();
+  const {width: WIDTH, height: HEIGHT} = useWindowDimensions();
 
   const sideMargin = number('sideMargin', 5);
   const activeItemId = number('activeItemId', 1);
@@ -18,9 +18,14 @@ const AutoLoopCarouselExample = () => {
   const align = select('align', ICarouselAlign, ICarouselAlign.start);
   const timerAuto = number('timerAuto', 2000);
 
-  const sliderItem = useCallback((item: number) => {
-    return <SliderItem item={item} />;
-  }, []);
+  const itemWidth = number('itemWidth', WIDTH - 10);
+  const itemHeight = number('itemHeight', HEIGHT);
+  const sliderItem = useCallback(
+    (item: number) => {
+      return <SliderItem item={item} width={itemWidth} height={itemHeight} />;
+    },
+    [itemWidth, itemHeight],
+  );
 
   return (
     <View style={styles.container}>
@@ -28,7 +33,7 @@ const AutoLoopCarouselExample = () => {
         data={rangeDataCarousel(1, data)}
         sliderItem={sliderItem}
         sideMargin={rem(sideMargin)}
-        itemWidth={WIDTH - 10}
+        itemWidth={itemWidth}
         activeItemId={activeItemId.toString()}
         align={align}
         ms={timerAuto}
