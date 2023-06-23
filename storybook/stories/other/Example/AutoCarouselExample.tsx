@@ -10,7 +10,7 @@ import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
 
 const AutoCarouselExample = () => {
   const [styles] = useStyles(stylesCreate);
-  const {width: WIDTH} = useWindowDimensions();
+  const {width: WIDTH, height: HEIGHT} = useWindowDimensions();
 
   const sideMargin = number('sideMargin', 5);
   const activeItemId = number('activeItemId', 1);
@@ -20,9 +20,17 @@ const AutoCarouselExample = () => {
   const align = select('align', ICarouselAlign, ICarouselAlign.start);
   const timerAuto = number('timerAuto', 2000);
 
-  const sliderItem = useCallback((item: number) => {
-    return <SliderItem item={item} />;
-  }, []);
+  const itemWidthAuto = number('itemWidth', WIDTH - 10);
+  const itemHeightAuto = number('itemHeight', HEIGHT);
+
+  const sliderItem = useCallback(
+    (item: number) => {
+      return (
+        <SliderItem item={item} width={itemWidthAuto} height={itemHeightAuto} />
+      );
+    },
+    [itemWidthAuto, itemHeightAuto],
+  );
 
   return (
     <View style={styles.container}>
@@ -33,7 +41,7 @@ const AutoCarouselExample = () => {
         animateAutoScroll={boolean('animateAutoScroll', true)}
         isDots={isDots}
         sideMargin={rem(sideMargin)}
-        itemWidth={WIDTH - 10}
+        itemWidth={itemWidthAuto}
         activeItemId={activeItemId.toString()}
         align={align}
         ms={timerAuto}
