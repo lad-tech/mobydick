@@ -319,6 +319,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
       onError={[Function]}
       source={
         {
+          "headers": undefined,
           "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
         }
       }
@@ -496,6 +497,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
       onError={[Function]}
       source={
         {
+          "headers": undefined,
           "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
         }
       }
@@ -673,6 +675,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
       onError={[Function]}
       source={
         {
+          "headers": undefined,
           "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
         }
       }

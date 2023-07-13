@@ -390,6 +390,7 @@ exports[`Avatar render avatar not photo 1`] = `
     onError={[Function]}
     source={
       {
+        "headers": undefined,
         "uri": "https://vraki.net/",
       }
     }
@@ -431,6 +432,7 @@ exports[`Avatar render avatar with photo L 1`] = `
     onError={[Function]}
     source={
       {
+        "headers": undefined,
         "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
       }
     }
@@ -472,6 +474,7 @@ exports[`Avatar render avatar with photo S 1`] = `
     onError={[Function]}
     source={
       {
+        "headers": undefined,
         "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
       }
     }
@@ -513,6 +516,9 @@ exports[`Avatar render avatar with photo XL 1`] = `
     onError={[Function]}
     source={
       {
+        "headers": {
+          "test": "test token",
+        },
         "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
       }
     }
@@ -554,6 +560,7 @@ exports[`Avatar render avatar with photo without size 1`] = `
     onError={[Function]}
     source={
       {
+        "headers": undefined,
         "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
       }
     }
