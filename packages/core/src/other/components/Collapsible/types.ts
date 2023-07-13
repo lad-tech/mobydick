@@ -22,4 +22,5 @@ export interface ICollapsibleProps extends TouchableOpacityProps {
   numberOfLines?: number;
   initialState?: boolean;
   isAnimated?: boolean;
+  titleBottomView?: ReactElement;
 }

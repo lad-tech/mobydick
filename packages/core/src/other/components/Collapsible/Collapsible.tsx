@@ -33,6 +33,7 @@ const Collapsible = (props: ICollapsibleProps) => {
     numberOfLines = 2,
     initialState = false,
     isAnimated = true,
+    titleBottomView,
   } = props;
   const [styles] = useStyles(createStyles);
   const {colors} = useTheme();
@@ -64,6 +65,7 @@ const Collapsible = (props: ICollapsibleProps) => {
         </Typography>
         <SimpleIcon name={name} color={colors.IconNeutral} />
       </TouchableOpacity>
+      {titleBottomView}
       {collapsed && children}
     </View>
   );

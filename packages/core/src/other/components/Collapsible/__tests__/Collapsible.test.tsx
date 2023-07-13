@@ -35,7 +35,7 @@ describe('Collapsible', () => {
     Platform.OS = 'android';
 
     const {toJSON, getByLabelText} = render(
-      <Collapsible title={'title'} duration={1000}>
+      <Collapsible title={'title'} duration={1000} titleBottomView={<View />}>
         <>
           <View />
         </>
