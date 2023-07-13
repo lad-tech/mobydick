@@ -83,11 +83,7 @@ const Avatar: FC<IAvatarProps> = props => {
         />
       ) : (
         <Image
-          source={
-            isNumber(user?.logo)
-              ? user.logo
-              : {uri: user?.logo, headers: headers}
-          }
+          source={isNumber(user?.logo) ? user.logo : {uri: user?.logo, headers}}
           style={styles.image}
           onError={onError}
           accessibilityLabel={LABELS.imageAvatar}
