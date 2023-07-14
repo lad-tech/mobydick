@@ -55,6 +55,7 @@ export interface IAvatarProps {
   backgroundColorBadge?: string;
   disabled?: boolean;
   border?: boolean;
+  headers?: {[key: string]: string};
 }
 
 export interface IAvatarGroupProps {

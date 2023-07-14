@@ -22,6 +22,7 @@ const Avatar: FC<IAvatarProps> = props => {
     badge,
     disabled = false,
     border = false,
+    headers,
   } = props;
   const {colors} = useTheme();
 
@@ -82,7 +83,7 @@ const Avatar: FC<IAvatarProps> = props => {
         />
       ) : (
         <Image
-          source={isNumber(user?.logo) ? user.logo : {uri: user?.logo}}
+          source={isNumber(user?.logo) ? user.logo : {uri: user?.logo, headers}}
           style={styles.image}
           onError={onError}
           accessibilityLabel={LABELS.imageAvatar}

@@ -55,7 +55,11 @@ describe('Avatar', () => {
 
   test('render avatar with photo XL', () => {
     const {toJSON} = render(
-      <Avatar user={userWithPhoto} size={IAvatarSize.XL} />,
+      <Avatar
+        user={userWithPhoto}
+        size={IAvatarSize.XL}
+        headers={{test: `test token`}}
+      />,
     );
     expect(toJSON()).toMatchSnapshot();
   });
