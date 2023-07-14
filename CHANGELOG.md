@@ -1,3 +1,13 @@
+# [7.12.0](https://glab.lad24.ru/npm/mobydick/compare/v7.11.1...v7.12.0) (2023-07-14)
+
+
+### Features
+
+* **Avatar:** add props – headers ([4019eb5](https://glab.lad24.ru/npm/mobydick/commit/4019eb5216f7d68fa46566946ef81a3e7758e7f5))
+* change semantic-release ([c320fa9](https://glab.lad24.ru/npm/mobydick/commit/c320fa997bd14e94ea1c73ae872189d6adc8d59d))
+* change template path ([fcf99fa](https://glab.lad24.ru/npm/mobydick/commit/fcf99fa84ae5c814f5f6ce9b0b1a3e0bb07a0691))
+* **Collapsible:** add props titleBottomView ([c1ef2fa](https://glab.lad24.ru/npm/mobydick/commit/c1ef2fa7150a8689bdf2112eeb7f5baddc966df2))
+
 ## [7.11.1](https://glab.lad24.ru/npm/mobydick/compare/v7.11.0...v7.11.1) (2023-06-13)
 
 
