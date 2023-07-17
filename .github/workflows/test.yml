@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  tests:
+  test:
     runs-on: ubuntu-latest
     steps:
     - name: Check out Git repository # clone the repo to local ci workspace
