@@ -8,7 +8,7 @@ on:
 
 jobs:
   install:
-    - uses: ./.github/workflows/install.yml
+    uses: ./.github/workflows/install.yml
   lint:
     runs-on: ubuntu-latest
     steps:
