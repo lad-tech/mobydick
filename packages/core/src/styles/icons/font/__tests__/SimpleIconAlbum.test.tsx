@@ -3,7 +3,7 @@ import {fireEvent, render} from '@testing-library/react-native';
 
 import SimpleIconAlbum from '../SimpleIconAlbum';
 
-describe('@npm/mobydick-core/icons/SimpleIconAlbum', () => {
+describe('@lad-tech/mobydick-core/icons/SimpleIconAlbum', () => {
   it('renders correctly', () => {
     const {toJSON} = render(<SimpleIconAlbum onPress={() => console.log()} />);
     expect(toJSON()).toMatchSnapshot();

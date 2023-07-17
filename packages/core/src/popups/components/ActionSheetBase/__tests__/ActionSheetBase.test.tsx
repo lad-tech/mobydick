@@ -4,7 +4,7 @@ import React from 'react';
 import ActionSheetBase from '../ActionSheetBase';
 import {IItemType} from '../types';
 
-describe('@npm/mobydick-core/ActionSheetBase', () => {
+describe('@lad-tech/mobydick-core/ActionSheetBase', () => {
   it('should renders correctly', () => {
     const {toJSON} = render(
       <ActionSheetBase id={'id'} onClose={() => null}>

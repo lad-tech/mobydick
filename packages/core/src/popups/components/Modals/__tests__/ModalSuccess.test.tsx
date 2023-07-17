@@ -3,7 +3,7 @@ import React from 'react';
 
 import ModalSuccess from '../ModalSuccess';
 
-describe('@npm/mobydick-core/modalSuccess', () => {
+describe('@lad-tech/mobydick-core/modalSuccess', () => {
   it('should renders correctly', () => {
     const {toJSON} = render(
       <ModalSuccess

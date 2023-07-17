@@ -7,7 +7,8 @@ import CenterView from '../../CenterView';
 import ExampleArrayOfStrings from './ExampleArrayOfStrings';
 import ExampleArrayOfObjects from './ExampleArrayOfObjects';
 
-import {PopupsProvider, ScrollView, View} from '@npm/mobydick-core';
+import {PopupsProvider, ScrollView, View} from '@lad-tech/mobydick-core';
+
 const {height} = Dimensions.get('window');
 
 // тут лютые отступы и ScrollView, чтобы потестить DropDown в боевых условиях <3

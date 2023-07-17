@@ -6,7 +6,7 @@ import Circle from '../Circle';
 import stylesCreate from '../stylesCreate';
 import useStyles from '../../../styles/theme/hooks/useStyles';
 
-describe('@npm/mobydick-core/Radio/Circle', () => {
+describe('@lad-tech/mobydick-core/Radio/Circle', () => {
   it('renders correctly', () => {
     const {result} = renderHook(() => useStyles(stylesCreate, false, false));
     const [styles] = result.current;

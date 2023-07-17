@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/TooltipBase/Arrow should renders correctly bottom center 1`] = `
+exports[`@lad-tech/mobydick-core/TooltipBase/Arrow should renders correctly bottom center 1`] = `
 <View
   style={
     [
@@ -33,7 +33,7 @@ exports[`@npm/mobydick-core/TooltipBase/Arrow should renders correctly bottom ce
 />
 `;
 
-exports[`@npm/mobydick-core/TooltipBase/Arrow should renders correctly bottom end 1`] = `
+exports[`@lad-tech/mobydick-core/TooltipBase/Arrow should renders correctly bottom end 1`] = `
 <View
   style={
     [
@@ -64,7 +64,7 @@ exports[`@npm/mobydick-core/TooltipBase/Arrow should renders correctly bottom en
 />
 `;
 
-exports[`@npm/mobydick-core/TooltipBase/Arrow should renders correctly top start 1`] = `
+exports[`@lad-tech/mobydick-core/TooltipBase/Arrow should renders correctly top start 1`] = `
 <View
   style={
     [

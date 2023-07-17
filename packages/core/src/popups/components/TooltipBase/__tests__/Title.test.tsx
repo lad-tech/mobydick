@@ -3,7 +3,7 @@ import React from 'react';
 
 import Title from '../Title';
 
-describe('@npm/mobydick-core/TooltipBase/Title', () => {
+describe('@lad-tech/mobydick-core/TooltipBase/Title', () => {
   it('should renders correctly font', () => {
     const {toJSON} = render(
       <Title

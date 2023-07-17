@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/PopupsProvider should renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/PopupsProvider should renders correctly 1`] = `
 <View>
   <View
     accessibilityRole="button"
@@ -123,7 +123,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/PopupsProvider should renders correctly 2`] = `
+exports[`@lad-tech/mobydick-core/PopupsProvider should renders correctly 2`] = `
 [
   <View>
     <View
@@ -307,7 +307,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 2`] = `
 ]
 `;
 
-exports[`@npm/mobydick-core/PopupsProvider should renders correctly 3`] = `
+exports[`@lad-tech/mobydick-core/PopupsProvider should renders correctly 3`] = `
 <View>
   <View
     accessibilityRole="button"
@@ -430,7 +430,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 3`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/PopupsProvider should renders correctly 4`] = `
+exports[`@lad-tech/mobydick-core/PopupsProvider should renders correctly 4`] = `
 [
   <View>
     <View
@@ -673,7 +673,7 @@ exports[`@npm/mobydick-core/PopupsProvider should renders correctly 4`] = `
 ]
 `;
 
-exports[`@npm/mobydick-core/PopupsProvider should renders correctly 5`] = `
+exports[`@lad-tech/mobydick-core/PopupsProvider should renders correctly 5`] = `
 <View>
   <View
     accessibilityRole="button"

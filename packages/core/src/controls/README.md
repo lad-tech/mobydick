@@ -1,4 +1,4 @@
-## @npm/mobydick-core/controls
+## @lad-tech/mobydick-core/controls
 
 ## ***Slider***
 

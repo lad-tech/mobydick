@@ -1,6 +1,6 @@
 import {isValidMessageTime} from '../isValidMessageTime';
 
-describe('@npm/mobydick-core/Chat/isValidMessageTime', () => {
+describe('@lad-tech/mobydick-core/Chat/isValidMessageTime', () => {
   it('08:11', () => {
     const res = isValidMessageTime('08:11');
     expect(res).toBeTruthy();

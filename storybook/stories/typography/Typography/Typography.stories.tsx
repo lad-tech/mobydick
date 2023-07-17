@@ -12,7 +12,7 @@ import {
   Typography,
   defaultTextLightColor,
   ITextColors,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const textColorKeys = Object.keys(
   defaultTextLightColor,

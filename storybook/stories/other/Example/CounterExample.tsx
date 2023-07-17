@@ -10,8 +10,8 @@ import {
   Typography,
   useTheme,
   View,
-} from '@npm/mobydick-core';
-import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
+} from '@lad-tech/mobydick-core';
+import useStyles from '@lad-tech/mobydick-core/src/styles/theme/hooks/useStyles';
 
 const CounterExample = () => {
   const [styles] = useStyles(stylesCreate);

@@ -9,7 +9,7 @@ import {IPosition} from '../../../types';
 import Button from '../../../../cta/components/Button/Button';
 import {ITouchableOpacity} from '../../../../basic/components/TouchableOpacity/types';
 
-describe('@npm/mobydick-core/TooltipBase/TooltipBase', () => {
+describe('@lad-tech/mobydick-core/TooltipBase/TooltipBase', () => {
   jest.useFakeTimers();
   let buttonRef: React.RefObject<ITouchableOpacity>;
   beforeEach(() => {

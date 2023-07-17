@@ -5,8 +5,13 @@ import {number, select} from '@storybook/addon-knobs';
 import {rangeDataCarousel} from './components/RangeDataCarousel';
 import SliderItem from './components/SliderItem';
 
-import {AutoLoopCarousel, ICarouselAlign, rem, View} from '@npm/mobydick-core';
-import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
+import {
+  AutoLoopCarousel,
+  ICarouselAlign,
+  rem,
+  View,
+} from '@lad-tech/mobydick-core';
+import useStyles from '@lad-tech/mobydick-core/src/styles/theme/hooks/useStyles';
 
 const AutoLoopCarouselExample = () => {
   const [styles] = useStyles(stylesCreate);

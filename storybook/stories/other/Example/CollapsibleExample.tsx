@@ -7,7 +7,7 @@ import {
   ScrollView,
   Typography,
   View,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const ChildrenView = () => {
   return (

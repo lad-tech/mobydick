@@ -5,7 +5,7 @@ import CenterView from '../CenterView';
 
 import PanelHeaderExample from './PanelHeaderExample';
 
-import {ITab, Tabs} from '@npm/mobydick-core';
+import {ITab, Tabs} from '@lad-tech/mobydick-core';
 
 enum exampleList {
   one = 'one',

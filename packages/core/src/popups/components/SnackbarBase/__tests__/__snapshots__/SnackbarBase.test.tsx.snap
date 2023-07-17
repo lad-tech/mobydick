@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/SnackbarBase should renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/SnackbarBase should renders correctly 1`] = `
 <View
   style={
     [
@@ -37,7 +37,7 @@ exports[`@npm/mobydick-core/SnackbarBase should renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/SnackbarBase should renders correctly with timeShow 1`] = `
+exports[`@lad-tech/mobydick-core/SnackbarBase should renders correctly with timeShow 1`] = `
 <View
   style={
     [

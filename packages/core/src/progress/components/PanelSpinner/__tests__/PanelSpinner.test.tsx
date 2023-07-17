@@ -3,7 +3,7 @@ import {render} from '@testing-library/react-native';
 
 import {PanelSpinner} from '../index';
 
-describe('@npm/mobydick-core/PanelSpinner', () => {
+describe('@lad-tech/mobydick-core/PanelSpinner', () => {
   it('renders correctly', () => {
     const {toJSON} = render(<PanelSpinner isLoading />);
     expect(toJSON()).toMatchSnapshot();

@@ -10,7 +10,7 @@ import {
   defaultIconLightColor,
   SimpleIconName,
   rem,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const ExampleSimpleIcon = () => {
   const [name, setName] = useState<SimpleIconName>('icon-image');

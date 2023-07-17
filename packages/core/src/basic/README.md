@@ -1,1 +1,1 @@
-# @npm/mobydick-core/basic
+# @lad-tech/mobydick-core/basic

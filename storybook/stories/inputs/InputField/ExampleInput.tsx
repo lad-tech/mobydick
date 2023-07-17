@@ -10,7 +10,7 @@ import {
   SimpleIcon,
   Pressable,
   useStyles,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const ExampleInput = () => {
   const [styles] = useStyles(createStyles);

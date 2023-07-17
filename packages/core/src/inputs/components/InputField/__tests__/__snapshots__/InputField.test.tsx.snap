@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
 <View
   style={
     [
@@ -128,7 +128,7 @@ exports[`@npm/mobydick-core/InputField renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly disabled 1`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
 <View
   style={
     [
@@ -192,7 +192,7 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly disabled 2`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
 <View
   style={
     [
@@ -256,7 +256,7 @@ exports[`@npm/mobydick-core/InputField renders correctly disabled 2`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly focused/blur 1`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] = `
 <View
   style={
     [
@@ -320,7 +320,7 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly focused/blur 2`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] = `
 <View
   style={
     [
@@ -384,7 +384,7 @@ exports[`@npm/mobydick-core/InputField renders correctly focused/blur 2`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly multiline = false 1`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 1`] = `
 <View
   style={
     [
@@ -473,7 +473,7 @@ exports[`@npm/mobydick-core/InputField renders correctly multiline = false 1`] =
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly multiline = true 1`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1`] = `
 <View
   style={
     [
@@ -562,7 +562,7 @@ exports[`@npm/mobydick-core/InputField renders correctly multiline = true 1`] = 
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
 <View
   style={
     [
@@ -692,7 +692,7 @@ exports[`@npm/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly valid 1`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
 <View
   style={
     [
@@ -756,7 +756,7 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly valid 2`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
 <View
   style={
     [
@@ -820,7 +820,7 @@ exports[`@npm/mobydick-core/InputField renders correctly valid 2`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly wrong 1`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
 <View
   style={
     [
@@ -924,7 +924,7 @@ exports[`@npm/mobydick-core/InputField renders correctly wrong 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/InputField renders correctly wrong 2`] = `
+exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
 <View
   style={
     [

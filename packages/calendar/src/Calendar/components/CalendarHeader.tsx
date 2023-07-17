@@ -6,7 +6,7 @@ import {
   Typography,
   useStyles,
   View,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 import React, {FC} from 'react';
 import {StyleSheet} from 'react-native';
 

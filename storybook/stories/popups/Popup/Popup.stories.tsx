@@ -14,7 +14,7 @@ import {
   ITouchableOpacity,
   View,
   usePopups,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const PopupTooltipExample = () => {
   const popupContext = usePopups();

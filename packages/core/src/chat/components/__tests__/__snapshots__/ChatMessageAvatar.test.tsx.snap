@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`] = `
+exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`] = `
 <View
   style={
     {
@@ -162,7 +162,7 @@ exports[`@npm/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatMessageAvatar renders correctly onPress 1`] = `
+exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`] = `
 <View
   style={
     {

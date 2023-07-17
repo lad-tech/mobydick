@@ -1,5 +1,5 @@
 {
-  "name": "@npm/mobydick-core",
+  "name": "@lad-tech/mobydick-core",
   "version": "7.13.0",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "lib/index",
@@ -24,13 +24,5 @@
     "react-native-svg": ">=12.3.0",
     "react-native-svg-transformer": ">=1.0.0",
     "react-native-safe-area-context": ">=4.4.1"
-  },
-  "publishConfig": {
-    "@npm:registry": "https://glab.lad24.ru/api/v4/projects/609/packages/npm/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://glab.lad24.ru/npm/mobydick.git",
-    "directory": "packages/core"
   }
 }

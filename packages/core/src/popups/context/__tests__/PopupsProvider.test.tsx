@@ -40,7 +40,7 @@ const Example = () => {
   );
 };
 
-describe('@npm/mobydick-core/PopupsProvider', () => {
+describe('@lad-tech/mobydick-core/PopupsProvider', () => {
   it('should renders correctly', async () => {
     const {toJSON, getByTestId} = render(
       <PopupsProvider>

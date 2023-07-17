@@ -15,7 +15,12 @@ import {
   textTwo,
 } from '../constants';
 
-import {ControlsList, Radio, useStyles, Typography} from '@npm/mobydick-core';
+import {
+  ControlsList,
+  Radio,
+  useStyles,
+  Typography,
+} from '@lad-tech/mobydick-core';
 
 const RadioListExample = () => {
   const [styles] = useStyles(stylesCreate);

@@ -3,7 +3,7 @@ import {Platform} from 'react-native';
 import rem from '../../../../../styles/spaces/rem';
 import {getDropDownDimensions} from '../getDropDownDimensions';
 
-describe('@npm/mobydick-core/DropDownFunctions', () => {
+describe('@lad-tech/mobydick-core/DropDownFunctions', () => {
   it('must return actual position list 8', () => {
     expect(
       getDropDownDimensions({

@@ -8,7 +8,7 @@ import CenterView from '../../CenterView';
 import ButtonWithDelay from './ButtonWithDelay';
 import ExampleButton from './ExampleButton';
 
-import {IButtonSize, IButtonTypes} from '@npm/mobydick-core';
+import {IButtonSize, IButtonTypes} from '@lad-tech/mobydick-core';
 
 storiesOf('Design System/CTA/Button', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)

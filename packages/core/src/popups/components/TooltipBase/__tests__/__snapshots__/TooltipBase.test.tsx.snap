@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly Timeshow 1`] = `
+exports[`@lad-tech/mobydick-core/TooltipBase/TooltipBase should renders correctly Timeshow 1`] = `
 <View
   accessibilityState={
     {
@@ -71,7 +71,7 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly Tim
 </View>
 `;
 
-exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly bottom center 1`] = `
+exports[`@lad-tech/mobydick-core/TooltipBase/TooltipBase should renders correctly bottom center 1`] = `
 <View
   accessibilityState={
     {
@@ -141,7 +141,7 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly bot
 </View>
 `;
 
-exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly top end 1`] = `
+exports[`@lad-tech/mobydick-core/TooltipBase/TooltipBase should renders correctly top end 1`] = `
 <View
   accessibilityState={
     {
@@ -212,7 +212,7 @@ exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly top
 </View>
 `;
 
-exports[`@npm/mobydick-core/TooltipBase/TooltipBase should renders correctly top start 1`] = `
+exports[`@lad-tech/mobydick-core/TooltipBase/TooltipBase should renders correctly top start 1`] = `
 <View
   accessibilityState={
     {

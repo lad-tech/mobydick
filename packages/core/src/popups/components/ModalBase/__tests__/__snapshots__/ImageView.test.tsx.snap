@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/ImageView should renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/ImageView should renders correctly 1`] = `
 <View
   style={
     [
@@ -15,7 +15,7 @@ exports[`@npm/mobydick-core/ImageView should renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/ImageView should renders correctly with styles 1`] = `
+exports[`@lad-tech/mobydick-core/ImageView should renders correctly with styles 1`] = `
 <View
   style={
     [

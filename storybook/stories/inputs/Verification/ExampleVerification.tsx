@@ -9,7 +9,7 @@ import {
   useStyles,
   Typography,
   CodeField,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const ExampleVerification = () => {
   const [styles] = useStyles(stylesCreate);

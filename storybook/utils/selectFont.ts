@@ -5,7 +5,7 @@ import {
   TFontSize,
   TFontWeight,
   TypographyProp,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const textColorKeys = Object.keys(
   defaultTextLightColor,

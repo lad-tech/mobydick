@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/DropDownIcon renders correctly custom close 1`] = `
+exports[`@lad-tech/mobydick-core/DropDownIcon renders correctly custom close 1`] = `
 <View
   style={false}
 >
@@ -19,7 +19,7 @@ exports[`@npm/mobydick-core/DropDownIcon renders correctly custom close 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/DropDownIcon renders correctly custom open 1`] = `
+exports[`@lad-tech/mobydick-core/DropDownIcon renders correctly custom open 1`] = `
 <View
   style={
     {
@@ -46,7 +46,7 @@ exports[`@npm/mobydick-core/DropDownIcon renders correctly custom open 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/DropDownIcon renders correctly standart close 1`] = `
+exports[`@lad-tech/mobydick-core/DropDownIcon renders correctly standart close 1`] = `
 <Text
   allowFontScaling={true}
   style={
@@ -61,7 +61,7 @@ exports[`@npm/mobydick-core/DropDownIcon renders correctly standart close 1`] = 
 </Text>
 `;
 
-exports[`@npm/mobydick-core/DropDownIcon renders correctly standart open 1`] = `
+exports[`@lad-tech/mobydick-core/DropDownIcon renders correctly standart open 1`] = `
 <Text
   allowFontScaling={true}
   style={

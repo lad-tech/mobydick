@@ -6,7 +6,7 @@ import InputField from '../InputField';
 import Constants from '../constants';
 import {IInputsTypes} from '../../types';
 
-describe('@npm/mobydick-core/InputField', () => {
+describe('@lad-tech/mobydick-core/InputField', () => {
   it('renders correctly', () => {
     const {toJSON} = render(
       <InputField

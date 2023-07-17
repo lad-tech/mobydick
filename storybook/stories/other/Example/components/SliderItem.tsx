@@ -1,7 +1,7 @@
 import React from 'react';
 import {useWindowDimensions} from 'react-native';
 
-import {Typography, useTheme, View} from '@npm/mobydick-core';
+import {Typography, useTheme, View} from '@lad-tech/mobydick-core';
 
 const SliderItem = ({
   item,

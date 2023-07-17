@@ -9,7 +9,7 @@ import {
   useStyles,
   useTheme,
   View,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const ShadowExample = () => {
   const [styles] = useStyles(stylesCreate);

@@ -10,7 +10,7 @@ import {
   ITouchableOpacity,
   IThemeContext,
   useStyles,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 enum ITypeTooltip {
   onlyTitle = 'onlyTitle',

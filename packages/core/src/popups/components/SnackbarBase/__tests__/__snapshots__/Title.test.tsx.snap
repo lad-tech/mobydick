@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/SnackbarBase/Title should renders correctly with titleFont 1`] = `
+exports[`@lad-tech/mobydick-core/SnackbarBase/Title should renders correctly with titleFont 1`] = `
 <Text
   allowFontScaling={true}
   style={
@@ -27,7 +27,7 @@ exports[`@npm/mobydick-core/SnackbarBase/Title should renders correctly with tit
 </Text>
 `;
 
-exports[`@npm/mobydick-core/SnackbarBase/Title should renders correctly without titleFont 1`] = `
+exports[`@lad-tech/mobydick-core/SnackbarBase/Title should renders correctly without titleFont 1`] = `
 <Text
   allowFontScaling={true}
   style={

@@ -1,6 +1,6 @@
 import {returnTrue} from '../returnTrue';
 
-describe('@npm/mobydick-core/functions', () => {
+describe('@lad-tech/mobydick-core/functions', () => {
   it('should renders correctly', () => {
     expect(returnTrue()).toBe(true);
   });

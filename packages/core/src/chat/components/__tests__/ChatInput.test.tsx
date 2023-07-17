@@ -5,7 +5,7 @@ import {Platform} from 'react-native';
 
 import ChatInput from '../ChatInput';
 
-describe('@npm/mobydick-core/ChatInput', () => {
+describe('@lad-tech/mobydick-core/ChatInput', () => {
   it('renders correctly', () => {
     const {toJSON} = render(
       <SafeAreaProvider>

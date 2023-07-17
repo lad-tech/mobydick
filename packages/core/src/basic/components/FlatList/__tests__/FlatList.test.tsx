@@ -4,7 +4,7 @@ import {render} from '@testing-library/react-native';
 import FlatList from '../FlatList';
 import Text from '../../Text/Text';
 
-describe('@npm/mobydick-core/FlatList', () => {
+describe('@lad-tech/mobydick-core/FlatList', () => {
   it('renders correctly', () => {
     const renderItem = ({item}: {item: string}) => {
       return <Text>{item}</Text>;

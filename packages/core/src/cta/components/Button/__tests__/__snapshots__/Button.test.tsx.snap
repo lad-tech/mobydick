@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/Button renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly 1`] = `
 <View
   accessibilityState={
     {
@@ -67,7 +67,7 @@ exports[`@npm/mobydick-core/Button renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly 2`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly 2`] = `
 <View
   accessibilityState={
     {
@@ -135,7 +135,7 @@ exports[`@npm/mobydick-core/Button renders correctly 2`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly destructive 1`] = `
 <View
   accessibilityState={
     {
@@ -220,7 +220,7 @@ exports[`@npm/mobydick-core/Button renders correctly destructive 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly disabled 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly disabled 1`] = `
 <View
   accessibilityState={
     {
@@ -264,7 +264,7 @@ exports[`@npm/mobydick-core/Button renders correctly disabled 1`] = `
 />
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly fixed 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly fixed 1`] = `
 <View
   accessibilityState={
     {
@@ -308,7 +308,7 @@ exports[`@npm/mobydick-core/Button renders correctly fixed 1`] = `
 />
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly large 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly large 1`] = `
 <View
   accessibilityState={
     {
@@ -353,7 +353,7 @@ exports[`@npm/mobydick-core/Button renders correctly large 1`] = `
 />
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly left icon size large 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly left icon size large 1`] = `
 <View
   accessibilityState={
     {
@@ -423,7 +423,7 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size large 1`] = 
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly left icon size small 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly left icon size small 1`] = `
 <View
   accessibilityState={
     {
@@ -493,7 +493,7 @@ exports[`@npm/mobydick-core/Button renders correctly left icon size small 1`] = 
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly left icon small 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly left icon small 1`] = `
 <View
   accessibilityState={
     {
@@ -541,7 +541,7 @@ exports[`@npm/mobydick-core/Button renders correctly left icon small 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading 1`] = `
 <View
   accessibilityState={
     {
@@ -605,7 +605,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading disabled 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading disabled 1`] = `
 <View
   accessibilityState={
     {
@@ -669,7 +669,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading disabled 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading types 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading types 1`] = `
 <View
   accessibilityState={
     {
@@ -733,7 +733,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading types 2`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading types 2`] = `
 <View
   accessibilityState={
     {
@@ -797,7 +797,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 2`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading types 3`] = `
 <View
   accessibilityState={
     {
@@ -882,7 +882,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 3`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading types 4`] = `
 <View
   accessibilityState={
     {
@@ -967,7 +967,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 4`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading types 5`] = `
 <View
   accessibilityState={
     {
@@ -1052,7 +1052,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 5`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading types 6`] = `
 <View
   accessibilityState={
     {
@@ -1137,7 +1137,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 6`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading types 7`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading types 7`] = `
 <View
   accessibilityState={
     {
@@ -1201,7 +1201,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 7`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading types 8`] = `
 <View
   accessibilityState={
     {
@@ -1286,7 +1286,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading types 8`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly loading without type 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly loading without type 1`] = `
 <View
   accessibilityState={
     {
@@ -1330,7 +1330,7 @@ exports[`@npm/mobydick-core/Button renders correctly loading without type 1`] = 
 />
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly secondary 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly secondary 1`] = `
 <View
   accessibilityState={
     {
@@ -1374,7 +1374,7 @@ exports[`@npm/mobydick-core/Button renders correctly secondary 1`] = `
 />
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly small 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly small 1`] = `
 <View
   accessibilityState={
     {
@@ -1419,7 +1419,7 @@ exports[`@npm/mobydick-core/Button renders correctly small 1`] = `
 />
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly small 2`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly small 2`] = `
 <View
   accessibilityState={
     {
@@ -1484,7 +1484,7 @@ exports[`@npm/mobydick-core/Button renders correctly small 2`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly tertiary 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly tertiary 1`] = `
 <View
   accessibilityState={
     {
@@ -1528,7 +1528,7 @@ exports[`@npm/mobydick-core/Button renders correctly tertiary 1`] = `
 />
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly text 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly text 1`] = `
 <View
   accessibilityState={
     {
@@ -1596,7 +1596,7 @@ exports[`@npm/mobydick-core/Button renders correctly text 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Button renders correctly without size 1`] = `
+exports[`@lad-tech/mobydick-core/Button renders correctly without size 1`] = `
 <View
   accessibilityState={
     {

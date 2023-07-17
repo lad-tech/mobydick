@@ -1,1 +1,1 @@
-## @npm/mobydick-core/progress
+## @lad-tech/mobydick-core/progress

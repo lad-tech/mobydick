@@ -4,7 +4,7 @@ import React from 'react';
 import {IButtonTypes} from '../../../../cta/components/Button/types';
 import ModalAsk from '../ModalAsk';
 
-describe('@npm/mobydick-core/modalAsk', () => {
+describe('@lad-tech/mobydick-core/modalAsk', () => {
   it('should renders correctly', () => {
     const {toJSON} = render(
       <ModalAsk

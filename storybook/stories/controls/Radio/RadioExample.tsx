@@ -5,7 +5,7 @@ import {action} from '@storybook/addon-actions';
 import stylesCreate from '../stylesCreate';
 import {font, numberOfLines, optionOne, textOne} from '../constants';
 
-import {Radio, View, useStyles, Typography} from '@npm/mobydick-core';
+import {Radio, View, useStyles, Typography} from '@lad-tech/mobydick-core';
 
 const RadioExample = () => {
   const [styles] = useStyles(stylesCreate);

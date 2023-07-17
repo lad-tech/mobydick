@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/Radio renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/Radio renders correctly 1`] = `
 <View
   needsOffscreenAlphaCompositing={true}
   style={
@@ -62,7 +62,7 @@ exports[`@npm/mobydick-core/Radio renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Radio renders correctly disabled 1`] = `
+exports[`@lad-tech/mobydick-core/Radio renders correctly disabled 1`] = `
 <View
   needsOffscreenAlphaCompositing={true}
   style={
@@ -124,7 +124,7 @@ exports[`@npm/mobydick-core/Radio renders correctly disabled 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Radio renders correctly selected 1`] = `
+exports[`@lad-tech/mobydick-core/Radio renders correctly selected 1`] = `
 <View
   needsOffscreenAlphaCompositing={true}
   style={
@@ -198,7 +198,7 @@ exports[`@npm/mobydick-core/Radio renders correctly selected 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Radio renders correctly selected and disabled 1`] = `
+exports[`@lad-tech/mobydick-core/Radio renders correctly selected and disabled 1`] = `
 <View
   needsOffscreenAlphaCompositing={true}
   style={

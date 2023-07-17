@@ -5,7 +5,7 @@ import Arrow from '../Arrow';
 import {IPlacement} from '../types';
 import {IPosition} from '../../../types';
 
-describe('@npm/mobydick-core/TooltipBase/Arrow', () => {
+describe('@lad-tech/mobydick-core/TooltipBase/Arrow', () => {
   it('should renders correctly top start', () => {
     const {toJSON} = render(
       <Arrow

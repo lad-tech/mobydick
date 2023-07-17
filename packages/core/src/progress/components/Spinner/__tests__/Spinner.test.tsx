@@ -4,7 +4,7 @@ import {render} from '@testing-library/react-native';
 import {Spinner} from '../index';
 import {ISizeSpinner} from '../types';
 
-describe('@npm/mobydick-core/Spinner', () => {
+describe('@lad-tech/mobydick-core/Spinner', () => {
   it('renders correctly S', () => {
     const {toJSON} = render(<Spinner />);
     expect(toJSON()).toMatchSnapshot();

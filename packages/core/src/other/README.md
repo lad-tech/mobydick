@@ -1,4 +1,4 @@
-## @npm/mobydick-core/other
+## @lad-tech/mobydick-core/other
 
 ## ***Counter***
 

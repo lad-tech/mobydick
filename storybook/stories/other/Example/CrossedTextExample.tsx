@@ -3,7 +3,7 @@ import {number, select, text} from '@storybook/addon-knobs';
 
 import selectFont from '../../../utils/selectFont';
 
-import {CrossedText, Typography, useTheme, View} from '@npm/mobydick-core';
+import {CrossedText, Typography, useTheme, View} from '@lad-tech/mobydick-core';
 
 const CrossedTextExample = () => {
   const {colors} = useTheme();

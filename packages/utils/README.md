@@ -1,2 +1,2 @@
-## @npm/mobydick-utils
+## @lad-tech/mobydick-utils
 

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/Selector Selector custom flatList styles 1`] = `
+exports[`@lad-tech/mobydick-core/Selector Selector custom flatList styles 1`] = `
 <View
   accessibilityState={
     {
@@ -163,7 +163,7 @@ exports[`@npm/mobydick-core/Selector Selector custom flatList styles 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Selector render correct renderItem TouchableHighlight with custom style 1`] = `
+exports[`@lad-tech/mobydick-core/Selector render correct renderItem TouchableHighlight with custom style 1`] = `
 <View
   accessibilityState={
     {
@@ -326,7 +326,7 @@ exports[`@npm/mobydick-core/Selector render correct renderItem TouchableHighligh
 </View>
 `;
 
-exports[`@npm/mobydick-core/Selector render correct renderItem Typography  with custom font 1`] = `
+exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography  with custom font 1`] = `
 <View
   accessibilityState={
     {
@@ -487,7 +487,7 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography  with 
 </View>
 `;
 
-exports[`@npm/mobydick-core/Selector render correct renderItem Typography with custom style 1`] = `
+exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography with custom style 1`] = `
 <View
   accessibilityState={
     {
@@ -650,7 +650,7 @@ exports[`@npm/mobydick-core/Selector render correct renderItem Typography with c
 </View>
 `;
 
-exports[`@npm/mobydick-core/Selector renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/Selector renders correctly 1`] = `
 <View
   accessibilityState={
     {
@@ -809,7 +809,7 @@ exports[`@npm/mobydick-core/Selector renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Selector renders correctly with bottom padding largeList 1`] = `
+exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding largeList 1`] = `
 <View
   accessibilityState={
     {

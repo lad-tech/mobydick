@@ -20,7 +20,7 @@ import {
   ControlsList,
   useStyles,
   Typography,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const CheckboxListExample = () => {
   const [styles] = useStyles(stylesCreate);

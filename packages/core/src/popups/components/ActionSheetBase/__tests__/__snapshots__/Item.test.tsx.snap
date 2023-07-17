@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item 1`] = `
+exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
   accessibilityState={
@@ -82,7 +82,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item 1`] = 
 </View>
 `;
 
-exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with  textFont 1`] = `
+exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item with  textFont 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
   accessibilityState={
@@ -164,7 +164,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with  
 </View>
 `;
 
-exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !selected 1`] = `
+exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item with !selected 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
   accessibilityState={
@@ -308,7 +308,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with !
 </View>
 `;
 
-exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with disabled 1`] = `
+exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item with disabled 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
   accessibilityState={
@@ -390,7 +390,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with d
 </View>
 `;
 
-exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with leftIcon 1`] = `
+exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item with leftIcon 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
   accessibilityState={
@@ -492,7 +492,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with l
 </View>
 `;
 
-exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with selected 1`] = `
+exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item with selected 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
   accessibilityState={
@@ -635,7 +635,7 @@ exports[`@npm/mobydick-core/ActionSheetBase should renders correctly Item with s
 </View>
 `;
 
-exports[`@npm/mobydick-core/ActionSheetBase should renders correctly inner item 1`] = `
+exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly inner item 1`] = `
 <View
   accessibilityLabel="actionSheetsItem"
   accessibilityState={

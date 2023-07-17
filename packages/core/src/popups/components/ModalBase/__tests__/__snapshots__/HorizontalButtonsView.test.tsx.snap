@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView destructive 1`] = `
+exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalButtonsView destructive 1`] = `
 <View
   style={
     {
@@ -144,7 +144,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
 </View>
 `;
 
-exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView primary 1`] = `
+exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalButtonsView primary 1`] = `
 <View
   style={
     {
@@ -288,7 +288,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
 </View>
 `;
 
-exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView secondary 1`] = `
+exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalButtonsView secondary 1`] = `
 <View
   style={
     {
@@ -432,7 +432,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtons
 </View>
 `;
 
-exports[`@npm/mobydick-core/modalBase should renders correctly HorizontalButtonsView tertiary 1`] = `
+exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalButtonsView tertiary 1`] = `
 <View
   style={
     {

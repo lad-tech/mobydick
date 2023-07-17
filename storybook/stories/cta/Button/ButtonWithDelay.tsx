@@ -1,7 +1,7 @@
 import React, {useCallback} from 'react';
 import {StyleSheet} from 'react-native';
 
-import {useThrottle} from '@npm/mobydick-utils';
+import {useThrottle} from '@lad-tech/mobydick-utils';
 import {
   Button,
   HIT_SLOP,
@@ -12,8 +12,8 @@ import {
   Typography,
   useTheme,
   View,
-} from '@npm/mobydick-core';
-import useStyles from '@npm/mobydick-core/src/styles/theme/hooks/useStyles';
+} from '@lad-tech/mobydick-core';
+import useStyles from '@lad-tech/mobydick-core/src/styles/theme/hooks/useStyles';
 
 const ButtonWithDelay = ({
   onPress = () => {

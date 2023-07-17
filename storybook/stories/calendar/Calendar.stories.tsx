@@ -4,9 +4,13 @@ import {boolean, number, select, text} from '@storybook/addon-knobs';
 
 import CenterView from '../CenterView';
 
-import {Button, IButtonSize, usePopups, View} from '@npm/mobydick-core';
-import {IButtonView, IDateRange, ModalCalendar} from '@npm/mobydick-calendar';
-import {localeConfigRu} from '@npm/mobydick-calendar/src/Calendar/localeConfig';
+import {Button, IButtonSize, usePopups, View} from '@lad-tech/mobydick-core';
+import {
+  IButtonView,
+  IDateRange,
+  ModalCalendar,
+} from '@lad-tech/mobydick-calendar';
+import {localeConfigRu} from '@lad-tech/mobydick-calendar/src/Calendar/localeConfig';
 
 export const localeConfigEn = {
   monthNames: [

@@ -7,7 +7,7 @@ import {
   IIndicatorTypes,
   BadgeIndicator,
   View,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const BadgeIndicatorExample = () => {
   return (

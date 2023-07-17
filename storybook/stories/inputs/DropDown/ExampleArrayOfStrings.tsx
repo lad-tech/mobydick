@@ -10,7 +10,7 @@ import {
   rem,
   SimpleIcon,
   useTheme,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const ExampleArrayOfStrings = () => {
   const [selected, setSelected] = useState<string>();

@@ -3,7 +3,7 @@ import React from 'react';
 
 import ChatMessage from '../ChatMessage';
 
-describe('@npm/mobydick-core/ChatMessage', () => {
+describe('@lad-tech/mobydick-core/ChatMessage', () => {
   it('renders correctly isNotMe', () => {
     const {toJSON} = render(
       <ChatMessage message={'message'} isMe={false} time={'12:12'} />,

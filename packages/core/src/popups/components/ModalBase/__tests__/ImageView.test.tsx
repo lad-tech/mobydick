@@ -4,7 +4,7 @@ import React from 'react';
 import View from '../../../../basic/components/View/View';
 import ImageView from '../ImageView';
 
-describe('@npm/mobydick-core/ImageView', () => {
+describe('@lad-tech/mobydick-core/ImageView', () => {
   it('should renders correctly', () => {
     const {toJSON} = render(<ImageView image={<View />} />);
 

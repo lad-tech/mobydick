@@ -5,7 +5,7 @@ import {BackHandler} from 'react-native';
 import PopupBase from '../PopupBase';
 import Constants from '../constants';
 
-describe('@npm/mobydick-core/PopupBase', () => {
+describe('@lad-tech/mobydick-core/PopupBase', () => {
   afterEach(() => {
     jest.resetAllMocks();
     jest.clearAllMocks();

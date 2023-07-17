@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/CodeField render correctly with value blur 1`] = `
+exports[`@lad-tech/mobydick-core/CodeField render correctly with value blur 1`] = `
 <View
   style={
     [
@@ -49,7 +49,7 @@ exports[`@npm/mobydick-core/CodeField render correctly with value blur 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/CodeField render correctly with value focus 1`] = `
+exports[`@lad-tech/mobydick-core/CodeField render correctly with value focus 1`] = `
 <View
   style={
     [
@@ -97,7 +97,7 @@ exports[`@npm/mobydick-core/CodeField render correctly with value focus 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/CodeField render correctly with value onKeyPress 1`] = `
+exports[`@lad-tech/mobydick-core/CodeField render correctly with value onKeyPress 1`] = `
 <View
   style={
     [

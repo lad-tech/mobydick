@@ -1,4 +1,4 @@
-# @npm/mobydick-core/typography
+# @lad-tech/mobydick-core/typography
 
 Пакет, который отвечает за типографику.
 
@@ -25,7 +25,7 @@ module.exports = {
     ios: {},
     android: {},
   },
-  assets: ['node_modules/@npm/mobydick-core/src/typography/assets/fonts/'] // <--- добавить эту строчку
+  assets: ['node_modules/@lad-tech/mobydick-core/src/typography/assets/fonts/'] // <--- добавить эту строчку
 };
 ```
 

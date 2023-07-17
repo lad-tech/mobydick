@@ -5,7 +5,7 @@ import VerticalButtonsView from '../VerticalButtonsView';
 import VerticalButton from '../VerticalButton';
 import {IButtonTypes} from '../../../../cta/components/Button/types';
 
-describe('@npm/mobydick-core/modalBase', () => {
+describe('@lad-tech/mobydick-core/modalBase', () => {
   it('should renders correctly VerticalButtonsView one button', () => {
     const {toJSON} = render(
       <VerticalButtonsView>

@@ -4,7 +4,7 @@ import {render} from '@testing-library/react-native';
 import {ISizeSpinner} from '../types';
 import Loader from '../Loader';
 
-describe('@npm/mobydick-core/Loader', () => {
+describe('@lad-tech/mobydick-core/Loader', () => {
   it('renders correctly S', () => {
     const {toJSON} = render(<Loader size={ISizeSpinner.S} />);
     expect(toJSON()).toMatchSnapshot();

@@ -13,7 +13,7 @@ import {
   useTheme,
   IButtonSize,
   IButtonTypes,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const allowAccessText = 'Разрешить доступ';
 

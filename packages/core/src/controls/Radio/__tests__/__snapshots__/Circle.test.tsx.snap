@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/Radio/Circle renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/Radio/Circle renders correctly 1`] = `
 <View
   accessibilityState={
     {
@@ -43,7 +43,7 @@ exports[`@npm/mobydick-core/Radio/Circle renders correctly 1`] = `
 />
 `;
 
-exports[`@npm/mobydick-core/Radio/Circle renders correctly selected 1`] = `
+exports[`@lad-tech/mobydick-core/Radio/Circle renders correctly selected 1`] = `
 <View
   accessibilityState={
     {

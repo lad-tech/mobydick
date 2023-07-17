@@ -14,7 +14,7 @@ import {
   TouchableOpacity,
   useTheme,
   View,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const ImageAvatar = require('./image/ImageAvatar.png');

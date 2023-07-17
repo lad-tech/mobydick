@@ -9,7 +9,7 @@ import {
   Typography,
   useStyles,
   View,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const SliderExample = () => {
   const [styles] = useStyles(stylesCreate);

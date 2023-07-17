@@ -3,7 +3,7 @@ import React from 'react';
 
 import ModalError from '../ModalError';
 
-describe('@npm/mobydick-core/modalError', () => {
+describe('@lad-tech/mobydick-core/modalError', () => {
   it('should renders correctly', () => {
     const {toJSON} = render(
       <ModalError

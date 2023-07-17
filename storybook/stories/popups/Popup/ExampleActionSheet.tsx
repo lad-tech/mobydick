@@ -8,7 +8,7 @@ import {
   iconNames,
   SimpleIcon,
   SimpleIconName,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 enum IViewActionSheet {
   defaultActions = 'defaultActions',

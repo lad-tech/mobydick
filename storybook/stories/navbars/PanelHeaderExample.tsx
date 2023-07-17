@@ -2,7 +2,7 @@ import React from 'react';
 import {boolean, select, text} from '@storybook/addon-knobs';
 import {StyleSheet} from 'react-native';
 
-import SimpleIcon from '@npm/mobydick-core/src/styles/icons/font/SimpleIcon';
+import SimpleIcon from '@lad-tech/mobydick-core/src/styles/icons/font/SimpleIcon';
 import {
   iconNames,
   IThemeContext,
@@ -12,7 +12,7 @@ import {
   Typography,
   useStyles,
   View,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 enum IPanelHeader {
   icon = 'icon',

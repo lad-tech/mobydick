@@ -1,7 +1,7 @@
 import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
 import {CalendarProps} from 'react-native-calendars';
 import {ReactElement} from 'react';
-import {IHorizontalButtonsView, TypographyProp} from '@npm/mobydick-core';
+import {IHorizontalButtonsView, TypographyProp} from '@lad-tech/mobydick-core';
 
 export interface IMarkedTypes {
   [key: string]: MarkingProps;

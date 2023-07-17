@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/ChatMessage renders correctly  isNotValid time 1`] = `
+exports[`@lad-tech/mobydick-core/ChatMessage renders correctly  isNotValid time 1`] = `
 <View
   style={
     {
@@ -60,7 +60,7 @@ exports[`@npm/mobydick-core/ChatMessage renders correctly  isNotValid time 1`] =
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatMessage renders correctly isMe 1`] = `
+exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe 1`] = `
 <View
   style={
     {
@@ -137,7 +137,7 @@ exports[`@npm/mobydick-core/ChatMessage renders correctly isMe 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatMessage renders correctly isMe image 1`] = `
+exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image 1`] = `
 <View
   style={
     {
@@ -219,7 +219,7 @@ exports[`@npm/mobydick-core/ChatMessage renders correctly isMe image 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatMessage renders correctly isMe image number two 1`] = `
+exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image number two 1`] = `
 <View
   style={
     {
@@ -297,7 +297,7 @@ exports[`@npm/mobydick-core/ChatMessage renders correctly isMe image number two 
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
+exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
 <View
   style={
     {

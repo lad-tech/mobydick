@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/modalAsk should renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/modalAsk should renders correctly 1`] = `
 <View
   accessibilityState={
     {
@@ -296,7 +296,7 @@ exports[`@npm/mobydick-core/modalAsk should renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/modalAsk should renders correctly with optional 1`] = `
+exports[`@lad-tech/mobydick-core/modalAsk should renders correctly with optional 1`] = `
 <View
   accessibilityState={
     {

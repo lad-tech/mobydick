@@ -12,7 +12,7 @@ import {
   useTheme,
   TouchableOpacity,
   Typography,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const ExampleSnackbar: FC<IContentProps> = props => {
   const {colors} = useTheme();

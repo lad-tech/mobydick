@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/DropDown renders correctly 10 elements 1`] = `
+exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements 1`] = `
 <View
   style={
     [
@@ -131,7 +131,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/DropDown renders correctly 10 elements disabled 1`] = `
+exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements disabled 1`] = `
 <View
   style={
     [
@@ -262,7 +262,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements disabled 1`] 
 </View>
 `;
 
-exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type valid 1`] = `
+exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type valid 1`] = `
 <View
   style={
     [
@@ -393,7 +393,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type valid 1`
 </View>
 `;
 
-exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type wrong 1`] = `
+exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type wrong 1`] = `
 <View
   style={
     [
@@ -530,7 +530,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly 10 elements type wrong 1`
 </View>
 `;
 
-exports[`@npm/mobydick-core/DropDown renders correctly without array 1`] = `
+exports[`@lad-tech/mobydick-core/DropDown renders correctly without array 1`] = `
 <View
   style={
     [
@@ -661,7 +661,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/DropDown renders correctly without array with text and font 1`] = `
+exports[`@lad-tech/mobydick-core/DropDown renders correctly without array with text and font 1`] = `
 <View
   style={
     [
@@ -808,7 +808,7 @@ exports[`@npm/mobydick-core/DropDown renders correctly without array with text a
 </View>
 `;
 
-exports[`@npm/mobydick-core/DropDown selectItemClose 1`] = `
+exports[`@lad-tech/mobydick-core/DropDown selectItemClose 1`] = `
 <View
   style={
     [

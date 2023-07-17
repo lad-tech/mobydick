@@ -1,1 +1,1 @@
-## @npm/mobydick-core/cta
+## @lad-tech/mobydick-core/cta

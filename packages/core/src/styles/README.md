@@ -1,4 +1,4 @@
-# @npm/mobydick-core/styles
+# @lad-tech/mobydick-core/styles
 
 Пакет, который отвечает за стили, темы и иконки.
 
@@ -11,7 +11,7 @@ module.exports = {
     android: {},
   },
     assets: [
-    'node_modules/@npm/mobydick-core/src/styles/icons/font/assets/fonts/', // <--- добавить эту строчку
+    'node_modules/@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts/', // <--- добавить эту строчку
   ], 
 };
 ```

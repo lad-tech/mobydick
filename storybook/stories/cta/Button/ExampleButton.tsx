@@ -11,7 +11,7 @@ import {
   iconNames,
   SimpleIcon,
   useTheme,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 enum IViewButton {
   leftIcon = 'leftIcon',

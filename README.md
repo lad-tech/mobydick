@@ -23,9 +23,9 @@
 Чтобы не тянуть все зависимости, которые могут не пригодиться, либу разделили на модули:
 
 
-- [@npm/mobydick-core](./packages/core/README.md)
-- [@npm/mobydick-utils](./packages/utils/README.md)
-- [@npm/mobydick-calendar](./packages/calendar/README.md)
+- [@lad-tech/mobydick-core](./packages/core/README.md)
+- [@lad-tech/mobydick-utils](./packages/utils/README.md)
+- [@lad-tech/mobydick-calendar](./packages/calendar/README.md)
 
 # 2. Разработка
 ## Локальный запуск

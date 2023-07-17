@@ -11,7 +11,7 @@ import {
   useStyles,
   useTheme,
   PopupsProvider,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const Wrapper: FC<PropsWithChildren<unknown>> = ({children}) => {
   const {currentTheme, setCurrentTheme} = useTheme();

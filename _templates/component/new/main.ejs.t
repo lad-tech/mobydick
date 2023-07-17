@@ -2,8 +2,8 @@
 to: <%= path %>/components/<%= name %>/<%= name %>.tsx
 ---
 import React, {FC} from 'react';
-import {View} from '@npm/mobydick-core';
-import {useStyles} from '@npm/mobydick-core';
+import {View} from '@lad-tech/mobydick-core';
+import {useStyles} from '@lad-tech/mobydick-core';
 
 import {I<%= name %>Props} from './types';
 import stylesCreate from './stylesCreate';

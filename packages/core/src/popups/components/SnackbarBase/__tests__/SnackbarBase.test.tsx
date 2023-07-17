@@ -4,7 +4,7 @@ import {render} from '@testing-library/react-native';
 import SnackbarBase from '../SnackbarBase';
 import {IPosition} from '../../../types';
 
-describe('@npm/mobydick-core/SnackbarBase', () => {
+describe('@lad-tech/mobydick-core/SnackbarBase', () => {
   jest.useFakeTimers();
   it('should renders correctly', () => {
     const onClose = jest.fn();

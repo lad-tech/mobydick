@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/Spinner renders correctly L 1`] = `
+exports[`@lad-tech/mobydick-core/Spinner renders correctly L 1`] = `
 <View
   collapsable={false}
   style={
@@ -22,7 +22,7 @@ exports[`@npm/mobydick-core/Spinner renders correctly L 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Spinner renders correctly M 1`] = `
+exports[`@lad-tech/mobydick-core/Spinner renders correctly M 1`] = `
 <View
   collapsable={false}
   style={
@@ -44,7 +44,7 @@ exports[`@npm/mobydick-core/Spinner renders correctly M 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/Spinner renders correctly S 1`] = `
+exports[`@lad-tech/mobydick-core/Spinner renders correctly S 1`] = `
 <View
   collapsable={false}
   style={

@@ -3,7 +3,7 @@ import React from 'react';
 
 import AlertContent from '../AlertContent';
 
-describe('@npm/mobydick-core/modalBase', () => {
+describe('@lad-tech/mobydick-core/modalBase', () => {
   it('should renders correctly AlertContent type = check', () => {
     const {toJSON} = render(<AlertContent />);
 

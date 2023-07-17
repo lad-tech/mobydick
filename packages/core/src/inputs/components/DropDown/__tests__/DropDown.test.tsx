@@ -10,7 +10,7 @@ import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
 import Constants from '../../../../popups/components/PopupBase/constants';
 import {LABELS} from '../../../../other';
 
-describe('@npm/mobydick-core/DropDown', () => {
+describe('@lad-tech/mobydick-core/DropDown', () => {
   let viewRef: React.RefObject<View>;
   beforeEach(() => {
     viewRef = React.createRef();

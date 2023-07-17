@@ -5,7 +5,7 @@ import {action} from '@storybook/addon-actions';
 import {font, numberOfLines, optionOne, textOne} from '../constants';
 import stylesCreate from '../stylesCreate';
 
-import {CheckBox, View, useStyles, Typography} from '@npm/mobydick-core';
+import {CheckBox, View, useStyles, Typography} from '@lad-tech/mobydick-core';
 
 const CheckboxExample = () => {
   const [styles] = useStyles(stylesCreate);

@@ -10,7 +10,7 @@ import {
   ISizeSpinner,
   PanelSpinner,
   Spinner,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 storiesOf('Design System/Progress/', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)

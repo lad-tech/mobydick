@@ -1,4 +1,4 @@
-# @npm/mobydick-core/popups
+# @lad-tech/mobydick-core/popups
 
 ## **PopupsProvider**
 

@@ -4,7 +4,7 @@ import React from 'react';
 import envJson from '../../../env.json';
 import CenterView from '../CenterView';
 
-import {Typography} from '@npm/mobydick-core';
+import {Typography} from '@lad-tech/mobydick-core';
 
 storiesOf('ENV', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)

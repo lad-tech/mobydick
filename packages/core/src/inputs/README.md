@@ -1,4 +1,4 @@
-# @npm/mobydick-core/inputs
+# @lad-tech/mobydick-core/inputs
 
 Эксперт по разделу: @smirnovas
 

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/TooltipBase/DescriptionText should renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/TooltipBase/DescriptionText should renders correctly 1`] = `
 <Text
   allowFontScaling={true}
   style={
@@ -25,7 +25,7 @@ exports[`@npm/mobydick-core/TooltipBase/DescriptionText should renders correctly
 </Text>
 `;
 
-exports[`@npm/mobydick-core/TooltipBase/DescriptionText should renders correctly font 1`] = `
+exports[`@lad-tech/mobydick-core/TooltipBase/DescriptionText should renders correctly font 1`] = `
 <Text
   allowFontScaling={true}
   style={

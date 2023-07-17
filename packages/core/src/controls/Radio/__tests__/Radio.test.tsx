@@ -3,7 +3,7 @@ import {render} from '@testing-library/react-native';
 
 import Radio from '../Radio';
 
-describe('@npm/mobydick-core/Radio', () => {
+describe('@lad-tech/mobydick-core/Radio', () => {
   it('renders correctly', () => {
     const {toJSON} = render(<Radio value={'text'} />);
     expect(toJSON()).toMatchSnapshot();

@@ -2,10 +2,10 @@ import {renderHook} from '@testing-library/react-hooks';
 
 import usePopups from '../usePopups';
 
-describe('@npm/mobydick-core/usePopups', () => {
+describe('@lad-tech/mobydick-core/usePopups', () => {
   it('should not usePopups', () => {
     const error = new Error(
-      '[@npm/mobydick-core] usePopups hook was called outside of context, wrap your app with PopupsProvider component',
+      '[@lad-tech/mobydick-core] usePopups hook was called outside of context, wrap your app with PopupsProvider component',
     );
     const {result} = renderHook(() => usePopups());
 

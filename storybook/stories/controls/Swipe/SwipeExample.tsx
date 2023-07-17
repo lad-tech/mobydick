@@ -1,6 +1,6 @@
 import React, {useCallback, useState} from 'react';
 
-import {Button, Swipe, View} from '@npm/mobydick-core';
+import {Button, Swipe, View} from '@lad-tech/mobydick-core';
 
 const SwipeExample = () => {
   const [isActive, setActive] = useState(false);

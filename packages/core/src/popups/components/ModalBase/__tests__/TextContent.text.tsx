@@ -3,7 +3,7 @@ import {render} from '@testing-library/react-native';
 
 import TextContent from '../TextContent';
 
-describe('@npm/mobydick-core/Title', () => {
+describe('@lad-tech/mobydick-core/Title', () => {
   afterEach(() => {
     jest.resetAllMocks();
     jest.clearAllMocks();

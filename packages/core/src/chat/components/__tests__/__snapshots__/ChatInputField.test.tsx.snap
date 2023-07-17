@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/ChatInputField renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
 <View
   style={
     [
@@ -91,7 +91,7 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 1`] = `
+exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1`] = `
 <View
   style={
     [
@@ -180,7 +180,7 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 1`] = 
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 2`] = `
+exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2`] = `
 <View
   style={
     [
@@ -269,7 +269,7 @@ exports[`@npm/mobydick-core/ChatInputField renders correctly focused/blur 2`] = 
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatInputField renders correctly with props 1`] = `
+exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`] = `
 <View
   style={
     [

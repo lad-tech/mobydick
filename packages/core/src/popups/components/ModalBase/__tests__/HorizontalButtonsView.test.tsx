@@ -4,7 +4,7 @@ import React from 'react';
 import {IButtonTypes} from '../../../../cta/components/Button/types';
 import HorizontalButtonsView from '../HorizontalButtonsView';
 
-describe('@npm/mobydick-core/modalBase', () => {
+describe('@lad-tech/mobydick-core/modalBase', () => {
   it('should renders correctly HorizontalButtonsView destructive', () => {
     const {toJSON} = render(
       <HorizontalButtonsView

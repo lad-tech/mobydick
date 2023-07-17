@@ -3,7 +3,7 @@ import React from 'react';
 
 import DescriptionText from '../DescriptionText';
 
-describe('@npm/mobydick-core/TooltipBase/DescriptionText', () => {
+describe('@lad-tech/mobydick-core/TooltipBase/DescriptionText', () => {
   it('should renders correctly font', () => {
     const {toJSON} = render(
       <DescriptionText

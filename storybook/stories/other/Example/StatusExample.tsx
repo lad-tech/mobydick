@@ -8,7 +8,7 @@ import {
   Status,
   useStyles,
   View,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const StatusExample = () => {
   const [styles] = useStyles(stylesCreate);

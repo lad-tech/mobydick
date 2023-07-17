@@ -5,9 +5,9 @@ import {
   Pressable,
   Typography,
   useStyles,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 import {StyleSheet} from 'react-native';
-import useTheme from '@npm/mobydick-core/src/styles/theme/hooks/useTheme';
+import useTheme from '@lad-tech/mobydick-core/src/styles/theme/hooks/useTheme';
 
 import {LABELS} from '../constants';
 

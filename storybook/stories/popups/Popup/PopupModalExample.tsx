@@ -12,7 +12,7 @@ import {
   Button,
   ModalAsk,
   IContentProps,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 const contentSuccess = (propsFromPopup: IContentProps) => (
   <ModalSuccess

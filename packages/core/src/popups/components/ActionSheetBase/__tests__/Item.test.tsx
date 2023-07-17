@@ -6,7 +6,7 @@ import {IItemType} from '../types';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
 import {LABELS} from '../../../../other';
 
-describe('@npm/mobydick-core/ActionSheetBase', () => {
+describe('@lad-tech/mobydick-core/ActionSheetBase', () => {
   it('should renders correctly Item', () => {
     const {toJSON} = render(
       <Item title={'title'} itemType={IItemType.cancelItem} />,

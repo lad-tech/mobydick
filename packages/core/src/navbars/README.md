@@ -1,1 +1,1 @@
-## @npm/mobydick-core/navbar
+## @lad-tech/mobydick-core/navbar

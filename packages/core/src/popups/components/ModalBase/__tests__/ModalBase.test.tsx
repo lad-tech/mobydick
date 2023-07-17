@@ -3,7 +3,7 @@ import {render} from '@testing-library/react-native';
 
 import ModalBase from '../ModalBase';
 
-describe('@npm/mobydick-core/ModalBase', () => {
+describe('@lad-tech/mobydick-core/ModalBase', () => {
   afterEach(() => {
     jest.resetAllMocks();
     jest.clearAllMocks();

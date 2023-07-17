@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/Loader renders correctly L 1`] = `
+exports[`@lad-tech/mobydick-core/Loader renders correctly L 1`] = `
 <SvgMock
   fill="#2B78EE"
   height="48"
@@ -8,7 +8,7 @@ exports[`@npm/mobydick-core/Loader renders correctly L 1`] = `
 />
 `;
 
-exports[`@npm/mobydick-core/Loader renders correctly M 1`] = `
+exports[`@lad-tech/mobydick-core/Loader renders correctly M 1`] = `
 <SvgMock
   fill="#2B78EE"
   height="32"
@@ -16,7 +16,7 @@ exports[`@npm/mobydick-core/Loader renders correctly M 1`] = `
 />
 `;
 
-exports[`@npm/mobydick-core/Loader renders correctly S 1`] = `
+exports[`@lad-tech/mobydick-core/Loader renders correctly S 1`] = `
 <SvgMock
   fill="#2B78EE"
   height="26"
@@ -24,7 +24,7 @@ exports[`@npm/mobydick-core/Loader renders correctly S 1`] = `
 />
 `;
 
-exports[`@npm/mobydick-core/Loader renders correctly without size 1`] = `
+exports[`@lad-tech/mobydick-core/Loader renders correctly without size 1`] = `
 <SvgMock
   fill="#2B78EE"
   height="24"

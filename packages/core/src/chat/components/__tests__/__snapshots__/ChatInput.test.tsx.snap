@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/ChatInput renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
 <View
   onLayout={[Function]}
   style={
@@ -177,7 +177,7 @@ exports[`@npm/mobydick-core/ChatInput renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatInput renders correctly android 1`] = `
+exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
 <View
   onLayout={[Function]}
   style={
@@ -354,7 +354,7 @@ exports[`@npm/mobydick-core/ChatInput renders correctly android 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatInput renders correctly with containerStyle, style 1`] = `
+exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle, style 1`] = `
 <View
   onLayout={[Function]}
   style={

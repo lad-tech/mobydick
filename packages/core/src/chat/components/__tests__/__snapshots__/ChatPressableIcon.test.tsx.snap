@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/ChatPressableIcon renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly 1`] = `
 <View
   accessibilityState={
     {
@@ -57,7 +57,7 @@ exports[`@npm/mobydick-core/ChatPressableIcon renders correctly 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatPressableIcon renders correctly disabled 1`] = `
+exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly disabled 1`] = `
 <View
   accessibilityState={
     {
@@ -114,7 +114,7 @@ exports[`@npm/mobydick-core/ChatPressableIcon renders correctly disabled 1`] = `
 </View>
 `;
 
-exports[`@npm/mobydick-core/ChatPressableIcon renders correctly with props 1`] = `
+exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly with props 1`] = `
 <View
   accessibilityState={
     {

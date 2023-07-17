@@ -4,7 +4,7 @@ import React from 'react';
 import {IButtonSize} from '../../../../cta/components/Button/types';
 import LeftButton from '../LeftButton';
 
-describe('@npm/mobydick-core/TooltipBase/LeftButton', () => {
+describe('@lad-tech/mobydick-core/TooltipBase/LeftButton', () => {
   it('should renders correctly', () => {
     const {toJSON} = render(
       <LeftButton size={IButtonSize.fixed} text={'text'} />,

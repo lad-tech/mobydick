@@ -4,7 +4,7 @@ import React from 'react';
 import ChatInputField from '../ChatInputField';
 import {LABELS} from '../../../other';
 
-describe('@npm/mobydick-core/ChatInputField', () => {
+describe('@lad-tech/mobydick-core/ChatInputField', () => {
   it('renders correctly', () => {
     const {toJSON} = render(
       <ChatInputField placeholder={'placeholder'} value={'value'} />,

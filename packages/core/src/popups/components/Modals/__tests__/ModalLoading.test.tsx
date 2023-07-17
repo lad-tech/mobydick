@@ -3,7 +3,7 @@ import React from 'react';
 
 import ModalLoading from '../ModalLoading';
 
-describe('@npm/mobydick-core/modalLoading', () => {
+describe('@lad-tech/mobydick-core/modalLoading', () => {
   it('should renders correctly', () => {
     const {toJSON} = render(
       <ModalLoading

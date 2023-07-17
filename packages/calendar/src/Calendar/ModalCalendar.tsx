@@ -5,7 +5,7 @@ import {
   IContentProps,
   ModalBase,
   useStyles,
-} from '@npm/mobydick-core';
+} from '@lad-tech/mobydick-core';
 
 import stylesCreate from './stylesCreate';
 import {IButtonView, IModalCalendar} from './types';

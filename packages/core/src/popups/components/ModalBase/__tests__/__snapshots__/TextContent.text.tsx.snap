@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/Title should renders correctly with descriptionFont 1`] = `
+exports[`@lad-tech/mobydick-core/Title should renders correctly with descriptionFont 1`] = `
 <View
   style={
     {
@@ -36,7 +36,7 @@ exports[`@npm/mobydick-core/Title should renders correctly with descriptionFont 
 </View>
 `;
 
-exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = `
+exports[`@lad-tech/mobydick-core/Title should renders correctly with titleFont 1`] = `
 <View
   style={
     {
@@ -95,7 +95,7 @@ exports[`@npm/mobydick-core/Title should renders correctly with titleFont 1`] = 
 </View>
 `;
 
-exports[`@npm/mobydick-core/Title should renders correctly without descriptionFont 1`] = `
+exports[`@lad-tech/mobydick-core/Title should renders correctly without descriptionFont 1`] = `
 <View
   style={
     {
@@ -154,7 +154,7 @@ exports[`@npm/mobydick-core/Title should renders correctly without descriptionFo
 </View>
 `;
 
-exports[`@npm/mobydick-core/Title should renders correctly without titleFont 1`] = `
+exports[`@lad-tech/mobydick-core/Title should renders correctly without titleFont 1`] = `
 <View
   style={
     {

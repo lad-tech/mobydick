@@ -11,7 +11,7 @@ import {
   DateData,
   LocaleConfig,
 } from 'react-native-calendars';
-import {useStyles, useTheme, rem} from '@npm/mobydick-core';
+import {useStyles, useTheme, rem} from '@lad-tech/mobydick-core';
 
 import {localeConfigRu} from './localeConfig';
 import {

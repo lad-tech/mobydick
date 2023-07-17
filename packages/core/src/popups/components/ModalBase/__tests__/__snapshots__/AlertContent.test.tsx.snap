@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type = check 1`] = `
+exports[`@lad-tech/mobydick-core/modalBase should renders correctly AlertContent type = check 1`] = `
 <View
   style={
     [
@@ -28,7 +28,7 @@ exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type
 </View>
 `;
 
-exports[`@npm/mobydick-core/modalBase should renders correctly AlertContent type = warning 1`] = `
+exports[`@lad-tech/mobydick-core/modalBase should renders correctly AlertContent type = warning 1`] = `
 <View
   style={
     [

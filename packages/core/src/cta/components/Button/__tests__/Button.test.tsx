@@ -5,7 +5,7 @@ import {IButtonSize, IButtonTypes} from '../types';
 import Button from '../Button';
 import View from '../../../../basic/components/View/View';
 
-describe('@npm/mobydick-core/Button', () => {
+describe('@lad-tech/mobydick-core/Button', () => {
   it('renders correctly', () => {
     const {toJSON, rerender} = render(<Button text={'text'} />);
     expect(toJSON()).toMatchSnapshot();

@@ -7,7 +7,7 @@ const userWithoutPhoto = {
   lastName: 'Пушкин',
 };
 
-describe('@npm/mobydick-core/ChatMessageAvatar', () => {
+describe('@lad-tech/mobydick-core/ChatMessageAvatar', () => {
   it('renders correctly isNotMe', () => {
     const {toJSON} = render(
       <ChatMessageAvatar

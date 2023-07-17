@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
+exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
 <RCTScrollView
   data={
     [
@@ -3252,7 +3252,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
 </RCTScrollView>
 `;
 
-exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1`] = `
+exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1`] = `
 <RCTScrollView
   data={
     [
@@ -6504,7 +6504,7 @@ exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with color 1
 </RCTScrollView>
 `;
 
-exports[`@npm/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1`] = `
+exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with press 1`] = `
 <RCTScrollView
   data={
     [

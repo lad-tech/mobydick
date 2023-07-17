@@ -5,7 +5,7 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 import Selector from '../Selector';
 import * as getDropDownDimensions from '../../utils/getDropDownDimensions';
 
-describe('@npm/mobydick-core/Selector', () => {
+describe('@lad-tech/mobydick-core/Selector', () => {
   const list = [{label: 'list', value: 'list'}];
   const renderItemOnPress = jest.fn();
   const largeList = [

@@ -8,7 +8,7 @@ async function writeVersionToPackageJson(filePath: string, version: string) {
 
   if (current.peerDependencies) {
     Object.keys(current.peerDependencies).forEach(packageName => {
-      if (packageName.includes('@npm/mobydick-')) {
+      if (packageName.includes('@lad-tech/mobydick-')) {
         current.peerDependencies[packageName] = version;
       }
     });
@@ -16,7 +16,7 @@ async function writeVersionToPackageJson(filePath: string, version: string) {
 
   if (current.dependencies) {
     Object.keys(current.dependencies).forEach(packageName => {
-      if (packageName.includes('@npm/mobydick-')) {
+      if (packageName.includes('@lad-tech/mobydick-')) {
         current.dependencies[packageName] = version;
       }
     });

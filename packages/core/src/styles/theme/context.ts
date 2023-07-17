@@ -4,7 +4,7 @@ import {IThemeContext} from './types';
 import {defaultTheme} from './constants';
 
 export const MissingThemeProviderError = new Error(
-  '[@npm/mobydick-core] useTheme hook was called outside of context, wrap your app with ThemeProvider component',
+  '[@lad-tech/mobydick-core] useTheme hook was called outside of context, wrap your app with ThemeProvider component',
 );
 
 export const missingFunc = () => {
@@ -24,6 +24,6 @@ export const defaultThemeContext: IThemeContext = {
 
 const ThemeContext = createContext<IThemeContext>(defaultThemeContext);
 
-ThemeContext.displayName = '@npm/mobydick-core/ThemeContext';
+ThemeContext.displayName = '@lad-tech/mobydick-core/ThemeContext';
 
 export default ThemeContext;

@@ -1,4 +1,4 @@
-import rem from '@npm/mobydick-core/src/styles/spaces/rem';
+import rem from '@lad-tech/mobydick-core/src/styles/spaces/rem';
 import {DateData} from 'react-native-calendars';
 import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
 
