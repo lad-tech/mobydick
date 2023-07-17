@@ -16,9 +16,11 @@
 		7699B88040F8A987B510C191 /* libPods-MobyDick-MobyDickTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MobyDick-MobyDickTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8CB7AE1CCFEB4E5EB9CA210E /* Neotis.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E615B4CB5860499F982ED272 /* Neotis.ttf */; };
+		93F8153011EC451B878E435C /* Inter-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02F15C12586E476E859A462E /* Inter-BoldItalic.ttf */; };
 		A0CD42D4D1C9414F98714368 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9208F4754A44ACDB1009C42 /* Inter-Regular.ttf */; };
 		B2580B9BEBC34E8C8296F4F9 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED3C107DB30644458A97FAC3 /* Inter-SemiBold.ttf */; };
 		B2B39CE66E2E4D22937563CB /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67B4FAB9822A49BB973439F8 /* Inter-Bold.ttf */; };
+		DE59D0FB01F349C3A4E48E93 /* Inter-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC09545204134690B5D0062E /* Inter-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 		00E356EE1AD99517003FC87E /* MobyDickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobyDickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MobyDickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobyDickTests.m; sourceTree = "<group>"; };
+		02F15C12586E476E859A462E /* Inter-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-BoldItalic.ttf"; path = "../node_modules/@npm/mobydick-core/src/typography/assets/fonts/Inter-BoldItalic.ttf"; sourceTree = "<group>"; };
 		0F4B870A4D224592AB180528 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../node_modules/@npm/mobydick-core/src/typography/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MobyDick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobyDick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MobyDick/AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		67B4FAB9822A49BB973439F8 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../node_modules/@npm/mobydick-core/src/typography/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MobyDick/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MobyDick-MobyDickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyDick-MobyDickTests.release.xcconfig"; path = "Target Support Files/Pods-MobyDick-MobyDickTests/Pods-MobyDick-MobyDickTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC09545204134690B5D0062E /* Inter-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Italic.ttf"; path = "../node_modules/@npm/mobydick-core/src/typography/assets/fonts/Inter-Italic.ttf"; sourceTree = "<group>"; };
 		C9208F4754A44ACDB1009C42 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../node_modules/@npm/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		E615B4CB5860499F982ED272 /* Neotis.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Neotis.ttf; path = "../node_modules/@npm/mobydick-core/src/styles/icons/font/assets/fonts/Neotis.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -124,6 +128,8 @@
 				C9208F4754A44ACDB1009C42 /* Inter-Regular.ttf */,
 				ED3C107DB30644458A97FAC3 /* Inter-SemiBold.ttf */,
 				E615B4CB5860499F982ED272 /* Neotis.ttf */,
+				02F15C12586E476E859A462E /* Inter-BoldItalic.ttf */,
+				AC09545204134690B5D0062E /* Inter-Italic.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -272,6 +278,8 @@
 				A0CD42D4D1C9414F98714368 /* Inter-Regular.ttf in Resources */,
 				B2580B9BEBC34E8C8296F4F9 /* Inter-SemiBold.ttf in Resources */,
 				8CB7AE1CCFEB4E5EB9CA210E /* Neotis.ttf in Resources */,
+				93F8153011EC451B878E435C /* Inter-BoldItalic.ttf in Resources */,
+				DE59D0FB01F349C3A4E48E93 /* Inter-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,13 +29,17 @@ export type TFont =
   | 'Inter-Regular'
   | 'Inter-Medium'
   | 'Inter-SemiBold'
-  | 'Inter-Bold';
+  | 'Inter-Bold'
+  | 'Inter-Italic'
+  | 'Inter-BoldItalic';
 
 export enum TFontWeight {
   Regular = 'Regular',
   Medium = 'Medium',
   SemiBold = 'SemiBold',
   Bold = 'Bold',
+  Italic = 'Italic',
+  BoldItalic = 'BoldItalic',
 }
 
 export const TEXT = 'Text';
