@@ -1,3 +1,10 @@
+# [7.13.0](https://glab.lad24.ru/npm/mobydick/compare/v7.12.0...v7.13.0) (2023-07-17)
+
+
+### Features
+
+* **Typography:** added Italic and BoldItalic fonts ([8332d25](https://glab.lad24.ru/npm/mobydick/commit/8332d2572f6d068f94c1dc209f903c8c6806d663))
+
 # [7.12.0](https://glab.lad24.ru/npm/mobydick/compare/v7.11.1...v7.12.0) (2023-07-14)
 
 
