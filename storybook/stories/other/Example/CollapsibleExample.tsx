@@ -3,7 +3,6 @@ import {boolean, number, select, text} from '@storybook/addon-knobs';
 
 import {
   Collapsible,
-  rem,
   ScrollView,
   Typography,
   View,
@@ -83,11 +82,7 @@ const CollapsibleExample = () => {
         title={titleTwo}
         duration={duration}
         titleBottomView={
-          <Typography
-            font={'Medium-Muted-XS'}
-            style={{paddingVertical: rem(4)}}>
-            {'Еще один title'}
-          </Typography>
+          <Typography font={'Medium-Muted-XS'}>{'Еще один title'}</Typography>
         }
         typeAnimation={typeAnimation}
         numberOfLines={numberOfLines}
