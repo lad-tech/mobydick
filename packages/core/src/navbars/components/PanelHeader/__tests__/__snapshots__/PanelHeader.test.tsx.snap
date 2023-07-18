@@ -15,9 +15,12 @@ exports[`Tab render panelHeader 1`] = `
 >
   <RNCSafeAreaView
     edges={
-      [
-        "top",
-      ]
+      {
+        "bottom": "off",
+        "left": "off",
+        "right": "off",
+        "top": "additive",
+      }
     }
   >
     <View
@@ -130,9 +133,12 @@ exports[`Tab render panelHeader edges 1`] = `
 >
   <RNCSafeAreaView
     edges={
-      [
-        "left",
-      ]
+      {
+        "bottom": "off",
+        "left": "additive",
+        "right": "off",
+        "top": "off",
+      }
     }
   >
     <View
@@ -335,9 +341,12 @@ exports[`Tab render panelHeader only leftView 1`] = `
 >
   <RNCSafeAreaView
     edges={
-      [
-        "top",
-      ]
+      {
+        "bottom": "off",
+        "left": "off",
+        "right": "off",
+        "top": "additive",
+      }
     }
   >
     <View
@@ -428,9 +437,12 @@ exports[`Tab render panelHeader only rightView 1`] = `
 >
   <RNCSafeAreaView
     edges={
-      [
-        "top",
-      ]
+      {
+        "bottom": "off",
+        "left": "off",
+        "right": "off",
+        "top": "additive",
+      }
     }
   >
     <View
@@ -519,9 +531,12 @@ exports[`Tab render panelHeader with subtitle 1`] = `
 >
   <RNCSafeAreaView
     edges={
-      [
-        "top",
-      ]
+      {
+        "bottom": "off",
+        "left": "off",
+        "right": "off",
+        "top": "additive",
+      }
     }
   >
     <View
@@ -613,9 +628,12 @@ exports[`Tab render panelHeader with title 1`] = `
 >
   <RNCSafeAreaView
     edges={
-      [
-        "top",
-      ]
+      {
+        "bottom": "off",
+        "left": "off",
+        "right": "off",
+        "top": "additive",
+      }
     }
   >
     <View
@@ -707,9 +725,12 @@ exports[`Tab render panelHeader without props 1`] = `
 >
   <RNCSafeAreaView
     edges={
-      [
-        "top",
-      ]
+      {
+        "bottom": "off",
+        "left": "off",
+        "right": "off",
+        "top": "additive",
+      }
     }
   >
     <View
