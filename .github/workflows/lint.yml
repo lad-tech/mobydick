@@ -10,6 +10,6 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-    - uses: ./.github/workflows/install.yml
+    - uses: actions/install-actions
     - name: lint
       run: yarn lint:ci

@@ -10,6 +10,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: ./.github/workflows/install.yml
+    - uses: actions/install-actions
     - name: jest
       run: yarn test:ci
