@@ -65,7 +65,7 @@ const parser = yargs(process.argv.slice(2))
     logger.info('All packages were published successfully');
   }
 
-  execSync('npx react-native-version -A -s $CI_PIPELINE_IID');
+  execSync('npx react-native-version -A');
 
   logger.info(
     '                     .                                                          \n' +
