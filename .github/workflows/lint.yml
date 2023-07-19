@@ -9,6 +9,9 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [ 20.x ]
     steps:
       - name: Check out Git repository # clone the repo to local ci workspace
         uses: actions/checkout@v2
