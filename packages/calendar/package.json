@@ -17,6 +17,9 @@
     "url": "https://github.com/lad-tech/mobydick.git",
     "directory": "packages/calendar"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
