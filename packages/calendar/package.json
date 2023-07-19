@@ -1,6 +1,6 @@
 {
   "name": "@lad-tech/mobydick-calendar",
-  "version": "7.13.0",
+  "version": "7.13.2",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "lib/index",
   "module": "lib/index",
@@ -38,6 +38,6 @@
     "react-native": ">=0.66.4",
     "react": ">=17.0.2",
     "react-native-calendars": "^1.1292.0",
-    "@lad-tech/mobydick-core": "7.13.0"
+    "@lad-tech/mobydick-core": "7.13.2"
   }
 }

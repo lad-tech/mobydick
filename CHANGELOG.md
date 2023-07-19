@@ -1,3 +1,5 @@
+## [7.13.2](https://github.com/lad-tech/mobydick/compare/v7.13.1...v7.13.2) (2023-07-19)
+
 # [7.13.0](https://glab.lad24.ru/npm/mobydick/compare/v7.12.0...v7.13.0) (2023-07-17)
 
 
