@@ -1,10 +1,13 @@
 import React from 'react';
-import {boolean, number, select, text} from '@storybook/addon-knobs';
-
-import CenterView from '../CenterView';
+import {Meta, StoryObj} from '@storybook/react-native';
 
 import {Button, IButtonSize, usePopups, View} from '@lad-tech/mobydick-core';
-import {IButtonView, IDateRange, ModalCalendar,} from '@lad-tech/mobydick-calendar';
+import {
+  IButtonView,
+  IDateRange,
+  IModalCalendar,
+  ModalCalendar,
+} from '@lad-tech/mobydick-calendar';
 import {localeConfigRu} from '@lad-tech/mobydick-calendar/src/Calendar/localeConfig';
 
 export const localeConfigEn = {
@@ -48,10 +51,20 @@ export const localeConfigEn = {
   dayNamesShort: ['su', 'mo', 'tu', 'we', 'th', 'fr', 'sa'],
 };
 
-const CalendarPopupExample = () => {
+const CalendarPopupExample = ({
+  isShowLocaleConfigEn,
+  descriptionText,
+  isShowToday,
+  isCounter,
+  isPeriod,
+  initialDate,
+  buttonView,
+  maxLengthDateRange,
+}: Required<IModalCalendar> & {
+  isShowLocaleConfigEn: boolean;
+  initialDate: string;
+}) => {
   const popupContext = usePopups();
-  const isShowLocaleConfigEn = boolean('is show locale config En', false);
-  const initialDate = text('initial marked date', '2023-03-16');
 
   const onPress = () => {
     popupContext.openPopup({
@@ -67,26 +80,23 @@ const CalendarPopupExample = () => {
               date?.dateEnd,
             )
           }
-          descriptionText={text(
-            'textCalendar',
-            'Выберите интервал, в который хотите пойти в отпуск',
-          )}
-          buttonView={select('buttonView', IButtonView, IButtonView.large)}
-          isShowToday={boolean('isShowToday', true)}
+          descriptionText={descriptionText}
+          buttonView={buttonView}
+          isShowToday={isShowToday}
           localeConfig={isShowLocaleConfigEn ? localeConfigEn : localeConfigRu}
-          isPeriod={boolean('isPeriod', true)}
-          isCounter={boolean('isCounter', true)}
+          isPeriod={isPeriod}
+          isCounter={isCounter}
           initialRange={{
             fromDate: initialDate,
           }}
-          initialDate={text('initial date', new Date().toString())}
+          initialDate={initialDate}
           dottedDates={[
             new Date('2023-02-08'),
             new Date('2023-02-28'),
             new Date('2023-02-16'),
             new Date('2023-02-14'),
           ]}
-          maxLengthDateRange={number('maxLengthDateRange', 30)}
+          maxLengthDateRange={maxLengthDateRange}
           {...propsFromPopup}
         />
       ),
@@ -99,10 +109,56 @@ const CalendarPopupExample = () => {
   );
 };
 
-export default {
+const meta: Meta<typeof CalendarPopupExample> = {
   title: 'Design System/Calendar',
-  decorators: [(getStory) => <CenterView>{getStory()}</CenterView>],
+  component: CalendarPopupExample,
   excludeStories: ['localeConfigEn'],
 };
 
-export const Calendar = () => <CalendarPopupExample />;
+type Story = StoryObj<typeof CalendarPopupExample>;
+
+export default meta;
+
+export const Example = {
+  args: {
+    isShowLocaleConfigEn: true,
+    initialDate: '2023-03-16',
+    descriptionText: 'Выберите интервал, в который хотите пойти в отпуск',
+    buttonView: IButtonView.large,
+    isShowToday: true,
+    isPeriod: true,
+    isCounter: true,
+    maxLengthDateRange: 30,
+  },
+  argTypes: {
+    isShowLocaleConfigEn: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    initialDate: {
+      control: {type: 'date'},
+    },
+    buttonView: {
+      options: Object.values(IButtonView),
+      control: {
+        type: 'select',
+      },
+    },
+    isShowToday: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    isPeriod: {
+      control: {
+        type: 'boolean',
+      },
+    },
+    isCounter: {
+      control: {
+        type: 'boolean',
+      },
+    },
+  },
+} satisfies Story;

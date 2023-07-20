@@ -5,10 +5,7 @@ import {name as appName} from '../app.json';
 
 import './storybook.requires.js';
 
-
-const StorybookUIRoot = getStorybookUI({
-
-});
+const StorybookUIRoot = getStorybookUI({});
 
 AppRegistry.registerComponent(appName, () => StorybookUIRoot);
 

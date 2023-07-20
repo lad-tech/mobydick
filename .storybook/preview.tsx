@@ -1,12 +1,13 @@
-import {View} from 'react-native';
-import React from "react";
+import React from 'react';
+
+import CenterView from './CenterView';
 
 export const decorators = [
   // Using a decorator to apply padding for every story
   (StoryFn: () => React.ReactElement) => (
-    <View style={{flex: 1, padding: 8}}>
-      <StoryFn/>
-    </View>
+    <CenterView>
+      <StoryFn />
+    </CenterView>
   ),
 ];
 

@@ -22,7 +22,6 @@ import "@storybook/addon-ondevice-notes/register";
 import "@storybook/addon-ondevice-controls/register";
 import "@storybook/addon-ondevice-backgrounds/register";
 import "@storybook/addon-ondevice-actions/register";
-import "@storybook/addon-knobs/register";
 
 import { argsEnhancers } from "@storybook/addon-actions/dist/modern/preset/addArgs";
 
@@ -51,17 +50,6 @@ try {
 const getStories = () => {
   return {
     "./.storybook/stories/calendar/Calendar.stories.tsx": require("./stories/calendar/Calendar.stories.tsx"),
-    "./.storybook/stories/chat/Chat.stories.tsx": require("./stories/chat/Chat.stories.tsx"),
-    "./.storybook/stories/controls/Controls.stories.tsx": require("./stories/controls/Controls.stories.tsx"),
-    "./.storybook/stories/cta/Button/Button.stories.tsx": require("./stories/cta/Button/Button.stories.tsx"),
-    "./.storybook/stories/icons/SimpleIcon/SimpleIcon.stories.tsx": require("./stories/icons/SimpleIcon/SimpleIcon.stories.tsx"),
-    "./.storybook/stories/inputs/DropDown/DropDown.stories.tsx": require("./stories/inputs/DropDown/DropDown.stories.tsx"),
-    "./.storybook/stories/inputs/Inputs.stories.tsx": require("./stories/inputs/Inputs.stories.tsx"),
-    "./.storybook/stories/navbars/Navbars.stories.tsx": require("./stories/navbars/Navbars.stories.tsx"),
-    "./.storybook/stories/other/Other.stories.tsx": require("./stories/other/Other.stories.tsx"),
-    "./.storybook/stories/popups/Popup/Popup.stories.tsx": require("./stories/popups/Popup/Popup.stories.tsx"),
-    "./.storybook/stories/progress/Progress.stories.tsx": require("./stories/progress/Progress.stories.tsx"),
-    "./.storybook/stories/typography/Typography/Typography.stories.tsx": require("./stories/typography/Typography/Typography.stories.tsx"),
   };
 };
 
