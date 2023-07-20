@@ -14,12 +14,12 @@ jobs:
         node-version: [ 20.x ]
     steps:
       - name: Check out Git repository # clone the repo to local ci workspace
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.5.3
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "dir=$(yarn cache dir)" >> "$GITHUB_OUTPUT"
       - name: Restore node_modules from cache
-        uses: actions/cache@v2
+        uses: actions/cache@v1.2.1
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
