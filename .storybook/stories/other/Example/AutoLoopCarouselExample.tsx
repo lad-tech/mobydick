@@ -1,6 +1,5 @@
 import React, {useCallback} from 'react';
-import {StyleSheet, useWindowDimensions} from 'react-native';
-import {number, select} from '@storybook/addon-knobs';
+import {StyleSheet} from 'react-native';
 
 import {rangeDataCarousel} from './components/RangeDataCarousel';
 import SliderItem from './components/SliderItem';
@@ -13,35 +12,40 @@ import {
 } from '@lad-tech/mobydick-core';
 import useStyles from '@lad-tech/mobydick-core/src/styles/theme/hooks/useStyles';
 
-const AutoLoopCarouselExample = () => {
+const AutoLoopCarouselExample = ({
+  sideMargin,
+  activeItemId,
+  dataLength,
+  align,
+  timerAuto,
+  itemWidth,
+  itemHeight,
+}: {
+  sideMargin: number;
+  activeItemId: number;
+  dataLength: number;
+  isDots: boolean;
+  align: ICarouselAlign;
+  timerAuto: number;
+  itemWidth: number;
+  itemHeight: number;
+}) => {
   const [styles] = useStyles(stylesCreate);
-  const {width: WIDTH, height: HEIGHT} = useWindowDimensions();
-
-  const sideMargin = number('sideMargin', 5);
-  const activeItemId = number('activeItemId', 1);
-  const data = number('length data', 3);
-  const align = select('align', ICarouselAlign, ICarouselAlign.start);
-  const timerAuto = number('timerAuto', 2000);
-
-  const itemWidthLoop = number('itemWidth', WIDTH - 10);
-  const itemHeightLoop = number('itemHeight', HEIGHT);
 
   const sliderItem = useCallback(
     (item: number) => {
-      return (
-        <SliderItem item={item} width={itemWidthLoop} height={itemHeightLoop} />
-      );
+      return <SliderItem item={item} width={itemWidth} height={itemHeight} />;
     },
-    [itemWidthLoop, itemHeightLoop],
+    [itemWidth, itemHeight],
   );
 
   return (
     <View style={styles.container}>
       <AutoLoopCarousel
-        data={rangeDataCarousel(1, data)}
+        data={rangeDataCarousel(1, dataLength)}
         sliderItem={sliderItem}
         sideMargin={rem(sideMargin)}
-        itemWidth={itemWidthLoop}
+        itemWidth={itemWidth}
         activeItemId={activeItemId.toString()}
         align={align}
         ms={timerAuto}

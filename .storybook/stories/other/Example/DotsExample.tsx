@@ -1,10 +1,8 @@
 import React, {useCallback, useState} from 'react';
-import {number} from '@storybook/addon-knobs';
 
 import {Button, Dots, rem, View} from '@lad-tech/mobydick-core';
 
-const DotsExample = () => {
-  const length = number('number length', 17);
+const DotsExample = ({length}: {length: number}) => {
   const [activeDot, setActiveDot] = useState(0);
   const [activeDotFirstHalf, setActiveDotFirstHalf] = useState(2);
   const [activeDotSecondHalf, setActiveDotSecondHalf] = useState(7);

@@ -1,4 +1,3 @@
-import {boolean, number, select, text} from '@storybook/addon-knobs';
 import React from 'react';
 
 import {
@@ -45,20 +44,42 @@ const groupDateFour = [
 
 const groupDate = groupDateFour.concat(Array(8).fill(defaultUser));
 
-const AvatarWithoutImage = ({user}: {user: IUser}) => {
-  return (
-    <Avatar
-      user={user}
-      size={select('size user icon', IAvatarSize, IAvatarSize.M)}
-      type={IAvatarTypes.text}
-    />
-  );
+const AvatarWithoutImage = ({
+  user,
+  sizeUserIcon,
+}: {
+  user: IUser;
+  sizeUserIcon: IAvatarSize;
+}) => {
+  return <Avatar user={user} size={sizeUserIcon} type={IAvatarTypes.text} />;
 };
 
-const AvatarExample = () => {
+const AvatarExample = ({
+  disabled,
+  groupCount,
+  sizeUserIcon,
+  sizeUserLogo,
+  indicatorTypes,
+  sizeUserText,
+  sizeUserPhoto,
+  counterTypes,
+  firstName,
+  middleName,
+  lastName,
+}: {
+  disabled: boolean;
+  groupCount: number;
+  sizeUserIcon: IAvatarSize;
+  sizeUserLogo: IAvatarSize;
+  sizeUserText: IAvatarSize;
+  sizeUserPhoto: IAvatarSize;
+  indicatorTypes: IIndicatorTypes;
+  counterTypes: ICounterTypes;
+  firstName: string;
+  middleName: string;
+  lastName: string;
+}) => {
   const {colors, spaces} = useTheme();
-  const disabled = boolean('disabled', false);
-  const groupCount = number('groupCount ', 50);
 
   return (
     <>
@@ -75,7 +96,7 @@ const AvatarExample = () => {
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={userWithPhoto}
-          size={select('size user photo', IAvatarSize, IAvatarSize.M)}
+          size={sizeUserPhoto}
           type={IAvatarTypes.icon}
           badge={{
             type: IBadgeTypes.status,
@@ -88,16 +109,12 @@ const AvatarExample = () => {
         disabled={disabled}>
         <Avatar
           user={userWithPhotoLocal}
-          size={select('size user logo', IAvatarSize, IAvatarSize.M)}
+          size={sizeUserLogo}
           type={IAvatarTypes.icon}
           backgroundColor={colors.ElementAdditional}
           badge={{
             type: IBadgeTypes.indicator,
-            value: select(
-              'Indicator types',
-              IIndicatorTypes,
-              IIndicatorTypes.primary,
-            ),
+            value: indicatorTypes,
           }}
           disabled={disabled}
         />
@@ -108,14 +125,10 @@ const AvatarExample = () => {
         <Avatar
           user={defaultUser}
           type={IAvatarTypes.text}
-          size={select('size user text', IAvatarSize, IAvatarSize.M)}
+          size={sizeUserText}
           badge={{
             type: IBadgeTypes.counter,
-            value: select(
-              'Counter types',
-              ICounterTypes,
-              ICounterTypes.attention,
-            ),
+            value: counterTypes,
             count: 5,
           }}
           disabled={disabled}
@@ -125,7 +138,7 @@ const AvatarExample = () => {
       <View style={{paddingVertical: spaces.Space8}}>
         <Avatar
           user={defaultUser}
-          size={select('size user icon', IAvatarSize, IAvatarSize.M)}
+          size={sizeUserIcon}
           type={IAvatarTypes.icon}
           backgroundColor={colors.ElementAdditional}
         />
@@ -137,6 +150,7 @@ const AvatarExample = () => {
             middleName: 'Андреевич',
             lastName: 'Константинов',
           }}
+          sizeUserIcon={sizeUserIcon}
         />
         <AvatarWithoutImage
           user={{
@@ -144,13 +158,15 @@ const AvatarExample = () => {
             middleName: 'Андреевна',
             lastName: 'Константинова',
           }}
+          sizeUserIcon={sizeUserIcon}
         />
         <AvatarWithoutImage
           user={{
-            firstName: text('firstName', 'Виктория'),
-            middleName: text('middleName', 'Андреевна'),
-            lastName: text('lastName', 'Лисина'),
+            firstName: firstName,
+            middleName: middleName,
+            lastName: lastName,
           }}
+          sizeUserIcon={sizeUserIcon}
         />
       </View>
     </>

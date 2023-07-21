@@ -50,6 +50,18 @@ try {
 const getStories = () => {
   return {
     "./.storybook/stories/calendar/Calendar.stories.tsx": require("./stories/calendar/Calendar.stories.tsx"),
+    "./.storybook/stories/chat/Chat.stories.tsx": require("./stories/chat/Chat.stories.tsx"),
+    "./.storybook/stories/other/AutoCarousel.stories.ts": require("./stories/other/AutoCarousel.stories.ts"),
+    "./.storybook/stories/other/AutoLoopCarousel.stories.ts": require("./stories/other/AutoLoopCarousel.stories.ts"),
+    "./.storybook/stories/other/Avatar.stories.ts": require("./stories/other/Avatar.stories.ts"),
+    "./.storybook/stories/other/BadgeIndicator.stories.ts": require("./stories/other/BadgeIndicator.stories.ts"),
+    "./.storybook/stories/other/Carousel.stories.ts": require("./stories/other/Carousel.stories.ts"),
+    "./.storybook/stories/other/Collapsible.stories.ts": require("./stories/other/Collapsible.stories.ts"),
+    "./.storybook/stories/other/Counter.stories.ts": require("./stories/other/Counter.stories.ts"),
+    "./.storybook/stories/other/CrossedText.stories.ts": require("./stories/other/CrossedText.stories.ts"),
+    "./.storybook/stories/other/Dots.stories.ts": require("./stories/other/Dots.stories.ts"),
+    "./.storybook/stories/other/Shadow.stories.ts": require("./stories/other/Shadow.stories.ts"),
+    "./.storybook/stories/other/Status.stories.ts": require("./stories/other/Status.stories.ts"),
   };
 };
 

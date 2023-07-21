@@ -1,17 +1,23 @@
 import React from 'react';
-import {number, select, text} from '@storybook/addon-knobs';
 
-import selectFont from '../../../utils/selectFont';
+import {
+  CrossedText,
+  Typography,
+  TypographyProp,
+  View,
+} from '@lad-tech/mobydick-core';
 
-import {CrossedText, Typography, useTheme, View} from '@lad-tech/mobydick-core';
-
-const CrossedTextExample = () => {
-  const {colors} = useTheme();
-  const lineHeight = number('lineHeight', 1);
-  const font = select('font', selectFont, 'Regular-Primary-S');
-  const lineColor = select('lineColor', colors, colors.TextError);
-  const crossedText = text('text', 'Зачеркнутый текст');
-
+const CrossedTextExample = ({
+  lineHeight,
+  font,
+  lineColor,
+  crossedText,
+}: {
+  lineHeight: number;
+  font: TypographyProp;
+  lineColor: string;
+  crossedText: string;
+}) => {
   return (
     <>
       <View>

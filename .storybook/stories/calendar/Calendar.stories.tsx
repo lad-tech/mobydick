@@ -110,7 +110,7 @@ const CalendarPopupExample = ({
 };
 
 const meta: Meta<typeof CalendarPopupExample> = {
-  title: 'Design System/Calendar',
+  title: 'Calendar',
   component: CalendarPopupExample,
   excludeStories: ['localeConfigEn'],
 };
@@ -119,7 +119,7 @@ type Story = StoryObj<typeof CalendarPopupExample>;
 
 export default meta;
 
-export const Example = {
+export const Calendar = {
   args: {
     isShowLocaleConfigEn: true,
     initialDate: '2023-03-16',

@@ -1,4 +1,3 @@
-import {select} from '@storybook/addon-knobs';
 import React from 'react';
 import {StyleSheet} from 'react-native';
 
@@ -10,9 +9,8 @@ import {
   View,
 } from '@lad-tech/mobydick-core';
 
-const StatusExample = () => {
+const StatusExample = ({state}: {state: IStatusState}) => {
   const [styles] = useStyles(stylesCreate);
-  const state = select('state', IStatusState, IStatusState.gray);
   return (
     <View style={styles.container}>
       <Status type={IStatusType.dot} state={state} />

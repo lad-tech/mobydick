@@ -1,5 +1,5 @@
 import React from 'react';
-import {boolean, number, select, text} from '@storybook/addon-knobs';
+import {LayoutAnimationProperty, LayoutAnimationType} from 'react-native';
 
 import {
   Collapsible,
@@ -30,24 +30,25 @@ const ChildrenView = () => {
     </View>
   );
 };
-const CollapsibleExample = () => {
-  const duration = number('duration', 250);
-  const typeAnimation = select(
-    'typeAnimation',
-    ['linear', 'easeInEaseOut', 'easeIn', 'easeOut'],
-    'easeInEaseOut',
-  );
-  const creationPropAnimation = select(
-    'creationPropAnimation',
-    ['opacity', 'scaleX', 'scaleY', 'scaleXY'],
-    'opacity',
-  );
-  const titleOne = text('titleOne', 'Collapsible 1');
-  const titleTwo = text('titleTwo', 'Collapsible 2');
-  const titleThree = text('titleThree', 'Collapsible 3');
-  const numberOfLines = number('numberOfLines', 2);
-  const isAnimated = boolean('isAnimated', true);
-
+const CollapsibleExample = ({
+  duration,
+  typeAnimation,
+  creationPropAnimation,
+  titleOne,
+  titleTwo,
+  titleThree,
+  numberOfLines,
+  isAnimated,
+}: {
+  duration: number;
+  typeAnimation: LayoutAnimationType;
+  creationPropAnimation: LayoutAnimationProperty;
+  titleOne: string;
+  titleTwo: string;
+  titleThree: string;
+  numberOfLines: number;
+  isAnimated: boolean;
+}) => {
   return (
     <ScrollView style={{width: '100%'}}>
       <Collapsible

@@ -1,6 +1,5 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
-import {number} from '@storybook/addon-knobs';
 
 import {
   IThemeContext,
@@ -11,14 +10,21 @@ import {
   View,
 } from '@lad-tech/mobydick-core';
 
-const ShadowExample = () => {
+const ShadowExample = ({
+  elevation,
+  shadowOpacity,
+  shadowRadius,
+  heightShadowOffset,
+  widthShadowOffset,
+}: {
+  elevation: number;
+  shadowOpacity: number;
+  shadowRadius: number;
+  heightShadowOffset: number;
+  widthShadowOffset: number;
+}) => {
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
-  const elevation = number('android elevation', 1);
-  const shadowOpacity = number('ios shadowOpacity', 0.5);
-  const shadowRadius = number('ios shadowRadius', 4.27);
-  const heightShadowOffset = number('ios shadowOffset height', 1);
-  const widthShadowOffset = number('ios shadowOffset width', 0);
   return (
     <View style={styles.container}>
       <View

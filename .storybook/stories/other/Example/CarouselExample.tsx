@@ -1,6 +1,5 @@
 import React, {useCallback, useState} from 'react';
 import {StyleSheet} from 'react-native';
-import {boolean, number, select} from '@storybook/addon-knobs';
 
 import {rangeDataCarousel} from './components/RangeDataCarousel';
 import SliderItem from './components/SliderItem';
@@ -16,20 +15,31 @@ import {
 } from '@lad-tech/mobydick-core';
 import useStyles from '@lad-tech/mobydick-core/src/styles/theme/hooks/useStyles';
 
-const CarouselExample = () => {
+const CarouselExample = ({
+  itemWidth,
+  itemHeight,
+  sideMargin,
+  activeItemId,
+  data,
+  isDots,
+  align,
+  isLoop,
+  animateAutoScroll,
+}: {
+  itemWidth: number;
+  itemHeight: number;
+  sideMargin: number;
+  activeItemId: number;
+  data: number;
+  isDots: boolean;
+  align: ICarouselAlign;
+  isLoop: boolean;
+  animateAutoScroll: boolean;
+}) => {
   const [styles] = useStyles(stylesCreate);
   const [isOpen, setOpen] = useState(false);
 
-  const itemWidth = number('itemWidth', 200);
-  const itemHeight = number('itemHeight', 100);
-  const sideMargin = number('sideMargin', 12);
-  const activeItemId = number('activeItemId', 1);
-  const data = number('length data', 10);
   const keyExtractor = useCallback((item: number) => item.toString(), []);
-  const isDots = boolean('isDots', true);
-  const align = select('align', ICarouselAlign, ICarouselAlign.start);
-  const isLoop = boolean('isLoop', true);
-  const animateAutoScroll = boolean('animateAutoScroll', true);
 
   const sliderItem = useCallback(
     (item: number) => {

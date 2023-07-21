@@ -1,5 +1,4 @@
 import React, {useCallback, useState} from 'react';
-import {boolean, text} from '@storybook/addon-knobs';
 import {StyleSheet} from 'react-native';
 
 import {
@@ -25,23 +24,29 @@ const userWithPhotoLocal = {
   lastName: 'Пушкин',
 };
 
-const ChatExample = () => {
+const ChatExample = ({
+  placeholder,
+  messageOne,
+  messageTwo,
+  disabled,
+  isShowOneIcon,
+  isShowTwoIcon,
+  isShowPictureMe,
+  isShowPictureNotMe,
+}: {
+  placeholder: string;
+  messageOne: string;
+  messageTwo: string;
+  disabled: boolean;
+  isShowOneIcon: boolean;
+  isShowTwoIcon: boolean;
+  isShowPictureMe: boolean;
+  isShowPictureNotMe: boolean;
+}) => {
   const [valueInput, setValueInput] = useState('');
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
-  const messageOne = text('messageOne', 'Я хочу спать');
-  const messageTwo = text(
-    'messageTwo',
-    'Ура! Я могу еще чем-то помочь? Если нет, заверши, пожалуйста, консультацию. Всего хорошего!Ура!',
-  );
-  const placeholder = text('placeholder', 'Сообщение');
   const onPress = useCallback(() => console.log('valueInput'), []);
-  const disabled = boolean('disabled', false);
-  const isShowOneIcon = boolean('isShowOneIcon', true);
-  const isShowTwoIcon = boolean('isShowTwoIcon', true);
-
-  const isShowPictureMe = boolean('isShowPictureMe', true);
-  const isShowPictureNotMe = boolean('isShowPictureNotMe', false);
 
   return (
     <View style={styles.container}>

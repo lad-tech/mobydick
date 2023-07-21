@@ -1,4 +1,3 @@
-import {number, select} from '@storybook/addon-knobs';
 import React from 'react';
 import {StyleSheet} from 'react-native';
 
@@ -13,7 +12,39 @@ import {
 } from '@lad-tech/mobydick-core';
 import useStyles from '@lad-tech/mobydick-core/src/styles/theme/hooks/useStyles';
 
-const CounterExample = () => {
+const CounterExample = ({
+  accentLightCount,
+  accentLightSize,
+  attentionCount,
+  attentionSize,
+  accentCount,
+  accentSize,
+  mutedCount,
+  mutedSize,
+  mutedLightCount,
+  mutedLightSize,
+  attentionLightCount,
+  attentionLightSize,
+  customCount,
+  maxLengthCount,
+  customSize,
+}: {
+  accentLightCount: number;
+  accentLightSize: ICounterSize;
+  attentionCount: number;
+  attentionSize: ICounterSize;
+  accentCount: number;
+  accentSize: ICounterSize;
+  mutedCount: number;
+  mutedSize: ICounterSize;
+  mutedLightCount: number;
+  mutedLightSize: ICounterSize;
+  attentionLightCount: number;
+  attentionLightSize: ICounterSize;
+  customCount: number;
+  maxLengthCount: number;
+  customSize: ICounterSize;
+}) => {
   const [styles] = useStyles(stylesCreate);
   const {colors, spaces} = useTheme();
   return (
@@ -26,59 +57,55 @@ const CounterExample = () => {
       <View style={styles.viewCounter}>
         <Typography>{'accentLight: '}</Typography>
         <Counter
-          count={number('accentLight count', 8)}
+          count={accentLightCount}
           style={styles.styleCounter}
           type={ICounterTypes.accentLight}
-          size={select('accentLight size', ICounterSize, ICounterSize.medium)}
+          size={accentLightSize}
         />
       </View>
       <View style={styles.viewCounter}>
         <Typography>{'attention: '}</Typography>
         <Counter
-          count={number('attention count', 28)}
+          count={attentionCount}
           style={styles.styleCounter}
           type={ICounterTypes.attention}
-          size={select('attention size', ICounterSize, ICounterSize.medium)}
+          size={attentionSize}
         />
       </View>
       <View style={styles.viewCounter}>
         <Typography>{'accent: '}</Typography>
         <Counter
           style={styles.styleCounter}
-          count={number('accent count', 88)}
-          size={select('accent size', ICounterSize, ICounterSize.medium)}
+          count={accentCount}
+          size={accentSize}
         />
       </View>
 
       <View style={styles.viewCounter}>
         <Typography>{'mutedLight: '}</Typography>
         <Counter
-          count={number('mutedLight count', 2)}
+          count={mutedLightCount}
           style={styles.styleCounter}
           type={ICounterTypes.mutedLight}
-          size={select('mutedLight size', ICounterSize, ICounterSize.medium)}
+          size={mutedLightSize}
         />
       </View>
       <View style={styles.viewCounter}>
         <Typography>{'attentionLight: '}</Typography>
         <Counter
-          count={number('attentionLight count', 132)}
+          count={attentionLightCount}
           style={styles.styleCounter}
           type={ICounterTypes.attentionLight}
-          size={select(
-            'attentionLight size',
-            ICounterSize,
-            ICounterSize.medium,
-          )}
+          size={attentionLightSize}
         />
       </View>
       <View style={styles.viewCounter}>
         <Typography>{'muted: '}</Typography>
         <Counter
-          count={number('muted count', 132)}
+          count={mutedCount}
           style={styles.styleCounter}
           type={ICounterTypes.muted}
-          size={select('muted size', ICounterSize, ICounterSize.medium)}
+          size={mutedSize}
         />
       </View>
       <View style={styles.viewCounter}>
@@ -90,9 +117,9 @@ const CounterExample = () => {
               backgroundColor: '#ff0000',
             },
           ]}
-          count={number('custom count', 129)}
-          maxLength={number('maxLength count', 3)}
-          size={select('custom size', ICounterSize, ICounterSize.medium)}
+          count={customCount}
+          maxLength={maxLengthCount}
+          size={customSize}
         />
       </View>
     </View>

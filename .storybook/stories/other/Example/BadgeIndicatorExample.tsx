@@ -1,22 +1,29 @@
 import React from 'react';
-import {number, select} from '@storybook/addon-knobs';
 
 import {
+  BadgeIndicator,
   Button,
   IButtonTypes,
   IIndicatorTypes,
-  BadgeIndicator,
   View,
 } from '@lad-tech/mobydick-core';
 
-const BadgeIndicatorExample = () => {
+const BadgeIndicatorExample = ({
+  type,
+  top,
+  right,
+}: {
+  type: IIndicatorTypes;
+  top: number;
+  right: number;
+}) => {
   return (
     <View>
       <BadgeIndicator
-        type={select('type ', IIndicatorTypes, IIndicatorTypes.primary)}
+        type={type}
         style={{
-          top: number('top ', 0),
-          right: number('right ', 0),
+          top,
+          right,
         }}
       />
       <Button text={'Кнопка'} type={IButtonTypes.secondary} />
