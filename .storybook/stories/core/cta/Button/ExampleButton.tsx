@@ -1,37 +1,48 @@
-import {boolean, number, select, text} from '@storybook/addon-knobs';
 import React, {useCallback} from 'react';
 import {action} from '@storybook/addon-actions';
-
-import selectFont from '../../../utils/selectFont';
 
 import {
   Button,
   IButtonSize,
   IButtonTypes,
-  iconNames,
   SimpleIcon,
+  SimpleIconName,
+  TypographyProp,
   useTheme,
 } from '@lad-tech/mobydick-core';
 
-enum IViewButton {
+export enum IViewButton {
   leftIcon = 'leftIcon',
   noIcon = 'noIcon',
   rightIcon = 'rightIcon',
   onlyIcon = 'onlyIcon',
 }
 
-const ExampleButton = () => {
+const ExampleButton = ({
+  type,
+  textButton,
+  minWidth,
+  size,
+  disabled,
+  font,
+  loading,
+  viewButton,
+  leftIcon,
+  count,
+}: {
+  type: IButtonTypes;
+  size: IButtonSize;
+  textButton: string;
+  minWidth: number;
+  disabled: boolean;
+  loading: boolean;
+  font: TypographyProp;
+  viewButton: IViewButton;
+  leftIcon: SimpleIconName;
+  count: number;
+}) => {
   const {colors} = useTheme();
-  const type = select('type', IButtonTypes, IButtonTypes.primary);
-  const textButton = text('text', 'text big text');
-  const minWidth = number('minWidth', 0);
   const onPress = action('onPress');
-  const size = select('size', IButtonSize, IButtonSize.fixed);
-  const disabled = boolean('disabled', false);
-  const loading = boolean('loading', false);
-  const defaultFont =
-    size === IButtonSize.small ? 'SemiBold-White-XS' : 'SemiBold-White-L';
-  const font = select('Button font', selectFont, defaultFont);
 
   const getSpinnerColor = useCallback(
     (type: IButtonTypes, disabled: boolean): string => {
@@ -49,7 +60,7 @@ const ExampleButton = () => {
     [],
   );
 
-  switch (select('view button', IViewButton, IViewButton.noIcon)) {
+  switch (viewButton) {
     case IViewButton.leftIcon:
       return (
         <Button
@@ -62,7 +73,7 @@ const ExampleButton = () => {
           font={font}
           leftIcon={
             <SimpleIcon
-              name={select('left icon', iconNames, 'icon-plus')}
+              name={leftIcon}
               color={getSpinnerColor(type, disabled)}
               size={24}
             />
@@ -82,7 +93,7 @@ const ExampleButton = () => {
           font={font}
           rightIcon={
             <SimpleIcon
-              name={select('left icon', iconNames, 'icon-plus')}
+              name={leftIcon}
               color={getSpinnerColor(type, disabled)}
               size={24}
             />
@@ -101,7 +112,7 @@ const ExampleButton = () => {
           font={font}
           rightIcon={
             <SimpleIcon
-              name={select('left icon', iconNames, 'icon-plus')}
+              name={leftIcon}
               color={getSpinnerColor(type, disabled)}
               size={24}
             />
@@ -120,7 +131,7 @@ const ExampleButton = () => {
           size={size}
           font={font}
           style={{minWidth: minWidth}}
-          count={number('count', 0)}
+          count={count}
         />
       );
   }
