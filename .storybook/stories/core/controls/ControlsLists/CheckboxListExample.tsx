@@ -1,4 +1,3 @@
-import {boolean, text} from '@storybook/addon-knobs';
 import React, {useState} from 'react';
 
 import {
@@ -8,28 +7,38 @@ import {
   optionOne,
   optionThree,
   optionTwo,
-  textFour,
-  textOne,
-  textThree,
-  textTwo,
 } from '../constants';
 import stylesCreate from '../stylesCreate';
 
 import {
   CheckBox,
   ControlsList,
-  useStyles,
   Typography,
+  useStyles,
 } from '@lad-tech/mobydick-core';
 
-const CheckboxListExample = () => {
+const CheckboxListExample = ({
+  single,
+  disabled,
+  textOne,
+  textTwo,
+  textThree,
+  textFour,
+}: {
+  single: boolean;
+  disabled: boolean;
+  textOne: string;
+  textTwo: string;
+  textThree: string;
+  textFour: string;
+}) => {
   const [styles] = useStyles(stylesCreate);
   const [values, setValues] = useState([optionOne, optionFour]);
 
   return (
     <ControlsList
-      single={boolean('single', false)}
-      disabled={boolean('disabled', false)}
+      single={single}
+      disabled={disabled}
       onChange={setValues}
       values={values}
       listStyles={styles.listStyle}>
@@ -38,7 +47,7 @@ const CheckboxListExample = () => {
           font={font}
           numberOfLines={numberOfLines}
           style={styles.typographyStyle}>
-          {text(textOne, optionOne)}
+          {textOne}
         </Typography>
       </CheckBox>
       <CheckBox value={optionTwo} containerStyle={styles.containerStyle}>
@@ -46,7 +55,7 @@ const CheckboxListExample = () => {
           font={font}
           numberOfLines={numberOfLines}
           style={styles.typographyStyle}>
-          {text(textTwo, optionTwo)}
+          {textTwo}
         </Typography>
       </CheckBox>
       <CheckBox
@@ -57,7 +66,7 @@ const CheckboxListExample = () => {
           font={font}
           numberOfLines={numberOfLines}
           style={styles.typographyStyle}>
-          {text(textThree, optionThree)}
+          {textThree}
         </Typography>
       </CheckBox>
       <CheckBox value={optionFour} containerStyle={styles.containerStyle}>
@@ -65,7 +74,7 @@ const CheckboxListExample = () => {
           font={font}
           numberOfLines={numberOfLines}
           style={styles.typographyStyle}>
-          {text(textFour, optionFour)}
+          {textFour}
         </Typography>
       </CheckBox>
     </ControlsList>

@@ -1,35 +1,40 @@
-import {boolean, text} from '@storybook/addon-knobs';
 import React, {useState} from 'react';
 import {action} from '@storybook/addon-actions';
 
+import {font, numberOfLines, optionOne} from '../constants';
 import stylesCreate from '../stylesCreate';
-import {font, numberOfLines, optionOne, textOne} from '../constants';
 
-import {Radio, View, useStyles, Typography} from '@lad-tech/mobydick-core';
+import {CheckBox, Typography, useStyles, View} from '@lad-tech/mobydick-core';
 
-const RadioExample = () => {
+const CheckboxExample = ({
+  disabled,
+  textOne,
+}: {
+  disabled: boolean;
+  textOne: string;
+}) => {
   const [styles] = useStyles(stylesCreate);
   const [isSelected, setSelected] = useState(false);
 
   return (
     <View style={styles.listStyle}>
-      <Radio
+      <CheckBox
         value={optionOne}
         selected={isSelected}
-        disabled={boolean('disabled', false)}
+        disabled={disabled}
         onPress={() => {
-          action('clicked radio');
+          action('clicked checkbox');
           setSelected(!isSelected);
         }}>
         <Typography
           font={font}
-          numberOfLines={numberOfLines}
-          style={styles.typographyStyle}>
-          {text(textOne, optionOne)}
+          style={styles.typographyStyle}
+          numberOfLines={numberOfLines}>
+          {textOne}
         </Typography>
-      </Radio>
+      </CheckBox>
     </View>
   );
 };
 
-export default RadioExample;
+export default CheckboxExample;

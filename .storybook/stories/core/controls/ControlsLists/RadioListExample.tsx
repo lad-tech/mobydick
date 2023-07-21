@@ -1,4 +1,3 @@
-import {boolean, text} from '@storybook/addon-knobs';
 import React, {useState} from 'react';
 
 import stylesCreate from '../stylesCreate';
@@ -9,27 +8,37 @@ import {
   optionOne,
   optionThree,
   optionTwo,
-  textFour,
-  textOne,
-  textThree,
-  textTwo,
 } from '../constants';
 
 import {
   ControlsList,
   Radio,
-  useStyles,
   Typography,
+  useStyles,
 } from '@lad-tech/mobydick-core';
 
-const RadioListExample = () => {
+const RadioListExample = ({
+  single,
+  disabled,
+  textOne,
+  textTwo,
+  textThree,
+  textFour,
+}: {
+  single: boolean;
+  disabled: boolean;
+  textOne: string;
+  textTwo: string;
+  textThree: string;
+  textFour: string;
+}) => {
   const [styles] = useStyles(stylesCreate);
   const [values, setValues] = useState([optionOne]);
 
   return (
     <ControlsList
-      single={boolean('single', true)}
-      disabled={boolean('disabled', false)}
+      single={single}
+      disabled={disabled}
       onChange={setValues}
       values={values}
       listStyles={styles.listStyle}>
@@ -38,7 +47,7 @@ const RadioListExample = () => {
           font={font}
           numberOfLines={numberOfLines}
           style={styles.typographyStyle}>
-          {text(textOne, optionOne)}
+          {textOne}
         </Typography>
       </Radio>
       <Radio value={optionTwo} containerStyle={styles.containerStyle}>
@@ -46,7 +55,7 @@ const RadioListExample = () => {
           font={font}
           numberOfLines={numberOfLines}
           style={styles.typographyStyle}>
-          {text(textTwo, optionTwo)}
+          {textTwo}
         </Typography>
       </Radio>
       <Radio value={optionThree} containerStyle={styles.containerStyle}>
@@ -54,7 +63,7 @@ const RadioListExample = () => {
           font={font}
           numberOfLines={numberOfLines}
           style={styles.typographyStyle}>
-          {text(textThree, optionThree)}
+          {textThree}
         </Typography>
       </Radio>
       <Radio value={optionFour} containerStyle={styles.containerStyle}>
@@ -62,7 +71,7 @@ const RadioListExample = () => {
           font={font}
           numberOfLines={numberOfLines}
           style={styles.typographyStyle}>
-          {text(textFour, optionFour)}
+          {textFour}
         </Typography>
       </Radio>
     </ControlsList>

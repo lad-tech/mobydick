@@ -1,5 +1,4 @@
 import React, {useCallback, useState} from 'react';
-import {boolean} from '@storybook/addon-knobs';
 import {StyleSheet} from 'react-native';
 
 import {
@@ -11,9 +10,8 @@ import {
   View,
 } from '@lad-tech/mobydick-core';
 
-const SliderExample = () => {
+const SliderExample = ({rangeDisabled}: {rangeDisabled: boolean}) => {
   const [styles] = useStyles(stylesCreate);
-  const rangeDisabled = boolean('rangeDisabled', true);
 
   const [low, setLow] = useState(0);
   const [high, setHigh] = useState(100);

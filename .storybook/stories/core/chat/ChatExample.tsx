@@ -13,7 +13,7 @@ import {
 import useStyles from '@lad-tech/mobydick-core/src/styles/theme/hooks/useStyles';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const ImageAvatar = require('../other/Example/image/ImageAvatar.png');
+const ImageAvatar = require('../../other/Example/image/ImageAvatar.png');
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const Content = require('./image/Content.png');

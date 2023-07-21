@@ -50,7 +50,13 @@ try {
 const getStories = () => {
   return {
     "./.storybook/stories/calendar/Calendar.stories.tsx": require("./stories/calendar/Calendar.stories.tsx"),
-    "./.storybook/stories/chat/Chat.stories.tsx": require("./stories/chat/Chat.stories.tsx"),
+    "./.storybook/stories/core/chat/Chat.stories.tsx": require("./stories/core/chat/Chat.stories.tsx"),
+    "./.storybook/stories/core/controls/Checkbox.stories.ts": require("./stories/core/controls/Checkbox.stories.ts"),
+    "./.storybook/stories/core/controls/ControlLists.stories.tsx": require("./stories/core/controls/ControlLists.stories.tsx"),
+    "./.storybook/stories/core/controls/Controls.stories.tsx": require("./stories/core/controls/Controls.stories.tsx"),
+    "./.storybook/stories/core/controls/Radio.stories.ts": require("./stories/core/controls/Radio.stories.ts"),
+    "./.storybook/stories/core/controls/Slider.stories.ts": require("./stories/core/controls/Slider.stories.ts"),
+    "./.storybook/stories/core/controls/Swipe.stories.ts": require("./stories/core/controls/Swipe.stories.ts"),
     "./.storybook/stories/other/AutoCarousel.stories.ts": require("./stories/other/AutoCarousel.stories.ts"),
     "./.storybook/stories/other/AutoLoopCarousel.stories.ts": require("./stories/other/AutoLoopCarousel.stories.ts"),
     "./.storybook/stories/other/Avatar.stories.ts": require("./stories/other/Avatar.stories.ts"),
