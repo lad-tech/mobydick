@@ -1,10 +1,10 @@
 import React from 'react';
-import {boolean, select, text} from '@storybook/addon-knobs';
 import {StyleSheet} from 'react-native';
 
-import SimpleIcon from '@lad-tech/mobydick-core/src/styles/icons/font/SimpleIcon';
+import SimpleIcon, {
+  SimpleIconName,
+} from '@lad-tech/mobydick-core/src/styles/icons/font/SimpleIcon';
 import {
-  iconNames,
   IThemeContext,
   PanelHeader,
   rem,
@@ -14,22 +14,36 @@ import {
   View,
 } from '@lad-tech/mobydick-core';
 
-enum IPanelHeader {
+export enum IPanelHeader {
   icon = 'icon',
   onlyText = 'text',
   buttons = 'buttons',
   twoIcons = 'twoIcons',
 }
-const PanelHeaderExample = () => {
+const PanelHeaderExample = ({
+  title,
+  subtitle,
+  isRightView,
+  isLeftView,
+  isTwoLeftIcon,
+  isTwoRightIcon,
+  panelHeader,
+  leftIcon,
+  rightIcon,
+}: {
+  title: string;
+  subtitle: string;
+  isRightView: boolean;
+  isLeftView: boolean;
+  isTwoLeftIcon: boolean;
+  isTwoRightIcon: boolean;
+  panelHeader: IPanelHeader;
+  leftIcon: SimpleIconName;
+  rightIcon: SimpleIconName;
+}) => {
   const [styles] = useStyles(createStyles);
 
-  const title = text('title', 'Title');
-  const subtitle = text('subtitle', 'Subtitle');
-  const isRightView = boolean('isRightView', false);
-  const isLeftView = boolean('isLeftView', false);
-  const isTwoLeftIcon = boolean('isTwoLeftIcon', true);
-  const isTwoRightIcon = boolean('isTwoRightIcon', true);
-  switch (select('panelHeader', IPanelHeader, IPanelHeader.icon)) {
+  switch (panelHeader) {
     case IPanelHeader.onlyText:
       return (
         <PanelHeader
@@ -109,20 +123,8 @@ const PanelHeaderExample = () => {
         <PanelHeader
           title={title}
           subtitle={subtitle}
-          leftView={
-            isLeftView && (
-              <SimpleIcon
-                name={select('left Icon', iconNames, 'icon-calendar')}
-              />
-            )
-          }
-          rightView={
-            isRightView && (
-              <SimpleIcon
-                name={select('right Icon', iconNames, 'icon-logout')}
-              />
-            )
-          }
+          leftView={isLeftView && <SimpleIcon name={leftIcon} />}
+          rightView={isRightView && <SimpleIcon name={rightIcon} />}
           commonViewStyle={styles.commonView}
         />
       );

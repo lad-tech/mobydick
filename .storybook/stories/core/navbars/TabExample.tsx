@@ -1,9 +1,5 @@
 import React, {useState} from 'react';
 
-import CenterView from '../CenterView';
-
-import PanelHeaderExample from './PanelHeaderExample';
-
 import {ITab, Tabs} from '@lad-tech/mobydick-core';
 
 enum exampleList {
@@ -19,7 +15,7 @@ enum exampleList {
   ten = 'ten',
 }
 
-const TabsExample = () => {
+export const TabsExample = () => {
   const [defaultValue, setDefaultValue] = useState<string | number>(1);
   const onPress = (item: ITab) => {
     setDefaultValue(item.value);
@@ -70,16 +66,3 @@ const TabsExample = () => {
     <Tabs list={list} activeValue={defaultValue} onPressCommon={onPress} />
   );
 };
-
-export default {
-  title: 'Design system/Navbars',
-  decorators: [getStory => <CenterView>{getStory()}</CenterView>],
-};
-
-export const PanelHeader = () => <PanelHeaderExample />;
-
-PanelHeader.story = {
-  name: 'PanelHeader',
-};
-
-export const _Tabs = () => <TabsExample />;

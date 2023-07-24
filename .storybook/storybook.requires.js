@@ -63,6 +63,8 @@ const getStories = () => {
     "./.storybook/stories/core/inputs/InputField.stories.ts": require("./stories/core/inputs/InputField.stories.ts"),
     "./.storybook/stories/core/inputs/Search.stories.ts": require("./stories/core/inputs/Search.stories.ts"),
     "./.storybook/stories/core/inputs/Verification.stories.ts": require("./stories/core/inputs/Verification.stories.ts"),
+    "./.storybook/stories/core/navbars/PanelHeader.stories.ts": require("./stories/core/navbars/PanelHeader.stories.ts"),
+    "./.storybook/stories/core/navbars/Tab.stories.ts": require("./stories/core/navbars/Tab.stories.ts"),
     "./.storybook/stories/core/progress/Indicatior.stories.ts": require("./stories/core/progress/Indicatior.stories.ts"),
     "./.storybook/stories/core/progress/PanelSpinner.stories.ts": require("./stories/core/progress/PanelSpinner.stories.ts"),
     "./.storybook/stories/core/progress/Spinner.stories.ts": require("./stories/core/progress/Spinner.stories.ts"),
