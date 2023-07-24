@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
-import {select} from '@storybook/addon-knobs';
 
-import {Search, iconNames, SimpleIcon} from '@lad-tech/mobydick-core';
+import {Search, SimpleIcon, SimpleIconName} from '@lad-tech/mobydick-core';
 import {useDebounce} from '@lad-tech/mobydick-utils';
 
-const ExampleSearch = () => {
+const ExampleSearch = ({leftIcon}: {leftIcon: SimpleIconName}) => {
   const [value, setValue] = useState('');
   const debouncedFn = useDebounce(
     (valueFn: string) => console.log('value', valueFn),
@@ -20,9 +19,7 @@ const ExampleSearch = () => {
     <Search
       value={value}
       onChangeText={onChangeText}
-      leftIcon={
-        <SimpleIcon name={select('left icon', iconNames, 'icon-search')} />
-      }
+      leftIcon={<SimpleIcon name={leftIcon} />}
     />
   );
 };
