@@ -1,16 +1,14 @@
 import React, {FC, useCallback, useState} from 'react';
-import {boolean, select} from '@storybook/addon-knobs';
 
 import {
   ActionSheetBase,
   IContentProps,
   IItemType,
-  iconNames,
   SimpleIcon,
   SimpleIconName,
 } from '@lad-tech/mobydick-core';
 
-enum IViewActionSheet {
+export enum IViewActionSheet {
   defaultActions = 'defaultActions',
   optionsActions = 'optionsActions',
   selectRadioActions = 'selectRadioActions',
@@ -30,13 +28,18 @@ const textFontErrorL = 'Regular-Error-L';
 const leftIconAccent = (name: SimpleIconName) => {
   return <SimpleIcon name={name} />;
 };
-const ExampleActionSheet: FC<IContentProps> = props => {
-  const {onClose} = props;
+
+export interface IStoryProps {
+  leftIconName: SimpleIconName;
+  isShowLeftIcon: boolean;
+  disabled: boolean;
+  viewActionSheets: IViewActionSheet;
+}
+const ExampleActionSheet: FC<IContentProps & IStoryProps> = props => {
+  const {onClose, viewActionSheets, isShowLeftIcon, disabled, leftIconName} =
+    props;
   const [radio, setRadio] = useState<string>('');
   const [checkboxList, setCheckboxList] = useState<string[]>([]);
-  const isShowLeftIcon = boolean('show left icon', true);
-  const leftIconName = select('name left icon', iconNames, 'icon-settings');
-  const disabled = boolean('disabled', false);
   const leftIcon = isShowLeftIcon ? leftIconAccent(leftIconName) : undefined;
 
   const onPressCheckbox = (title: string) => {
@@ -80,13 +83,7 @@ const ExampleActionSheet: FC<IContentProps> = props => {
     onPressCheckbox(agreedText);
   }, [onPressCheckbox]);
 
-  switch (
-    select(
-      'View action sheets',
-      IViewActionSheet,
-      IViewActionSheet.defaultActions,
-    )
-  ) {
+  switch (viewActionSheets) {
     case IViewActionSheet.optionsActions:
       return (
         <ActionSheetBase {...props}>

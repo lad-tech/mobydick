@@ -1,21 +1,22 @@
 import React, {RefObject, useCallback, useRef} from 'react';
+import {ComponentStoryObj, Meta} from '@storybook/react-native';
 
-import CenterView from '../../CenterView';
-
-import ExampleSnackbar from './ExampleSnackbar';
-import ExampleActionSheet from './ExampleActionSheet';
-import ExampleTooltip from './ExampleTooltip';
-import PopupModalExample from './PopupModalExample';
+import ExampleTooltip, {
+  IExampleTooltipStoryProps,
+  ITypeTooltip,
+} from './ExampleTooltip';
 
 import {
   Button,
   IButtonSize,
+  IPlacement,
+  IPosition,
   ITouchableOpacity,
-  View,
   usePopups,
+  View,
 } from '@lad-tech/mobydick-core';
 
-const PopupTooltipExample = () => {
+const PopupTooltipExample = (storyProps: IExampleTooltipStoryProps) => {
   const popupContext = usePopups();
   const viewRef = useRef<ITouchableOpacity>(null);
   const viewRef2 = useRef<ITouchableOpacity>(null);
@@ -23,20 +24,24 @@ const PopupTooltipExample = () => {
   const viewRef4 = useRef<ITouchableOpacity>(null);
   const viewRef5 = useRef<ITouchableOpacity>(null);
 
-  const openPopup = useCallback((ref: RefObject<ITouchableOpacity>) => {
-    if (ref.current) {
-      popupContext.openPopup({
-        id: 'TOOLTIP_POPUP_ID',
-        Content: propsFromPopup => (
-          <ExampleTooltip
-            {...propsFromPopup}
-            refCurrent={ref}
-            fixedButton={ref === viewRef3}
-          />
-        ),
-      });
-    }
-  }, []);
+  const openPopup = useCallback(
+    (ref: RefObject<ITouchableOpacity>) => {
+      if (ref.current) {
+        popupContext.openPopup({
+          id: 'TOOLTIP_POPUP_ID',
+          Content: propsFromPopup => (
+            <ExampleTooltip
+              {...propsFromPopup}
+              {...storyProps}
+              refCurrent={ref}
+              fixedButton={ref === viewRef3}
+            />
+          ),
+        });
+      }
+    },
+    [popupContext, storyProps],
+  );
 
   const onPressSmallBtnLeft = useCallback(
     () => openPopup(viewRef),
@@ -103,52 +108,44 @@ const PopupTooltipExample = () => {
   );
 };
 
-const SnackbarPopupExample = () => {
-  const popupContext = usePopups();
-
-  const onPress = useCallback(() => {
-    popupContext.openPopup({
-      Content: ExampleSnackbar,
-    });
-  }, []);
-
-  return (
-    <View>
-      <Button
-        text={'Нажми и появится выплывашка'}
-        onPress={onPress}
-        size={IButtonSize.fixed}
-      />
-    </View>
-  );
+const meta: Meta<typeof PopupTooltipExample> = {
+  title: 'Core/Popup',
+  component: PopupTooltipExample,
 };
 
-const ActionSheetPopupExample = () => {
-  const popupContext = usePopups();
+type Story = ComponentStoryObj<typeof PopupTooltipExample>;
 
-  const onPress = useCallback(() => {
-    popupContext.openPopup({
-      Content: ExampleActionSheet,
-    });
-  }, []);
-  return (
-    <View>
-      <Button text={'Нажми'} onPress={onPress} size={IButtonSize.large} />
-    </View>
-  );
-};
+export const PopupTooltip = {
+  args: {
+    placement: IPlacement.start,
+    position: IPosition.top,
+    titleText: 'Войдите в приложение, чтобы\nделиться картами и скидками',
+    descriptionText: 'Это займет меньше минуты, а\nплюшек станет больше!',
+    timeShow: 0,
+    isArrow: true,
+    textButton: 'Войти',
+    viewTooltip: ITypeTooltip.onlyTitle,
+  },
+  argTypes: {
+    placement: {
+      options: Object.values(IPlacement),
+      control: {
+        type: 'select',
+      },
+    },
+    viewTooltip: {
+      options: Object.values(ITypeTooltip),
+      control: {
+        type: 'select',
+      },
+    },
+    position: {
+      options: Object.values(IPosition),
+      control: {
+        type: 'select',
+      },
+    },
+  },
+} satisfies Story;
 
-export default {
-  title: 'Design System/Popups/Popup',
-  decorators: [getStory => <CenterView>{getStory()}</CenterView>],
-};
-
-export const Modal = () => <PopupModalExample />;
-export const Snackbar = () => <SnackbarPopupExample />;
-export const ActionSheet = () => <ActionSheetPopupExample />;
-
-ActionSheet.story = {
-  name: 'Action sheet',
-};
-
-export const Tooltip = () => <PopupTooltipExample />;
+export default meta;

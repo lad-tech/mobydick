@@ -1,34 +1,30 @@
 import React, {useCallback, useState} from 'react';
-import {text} from '@storybook/addon-knobs';
 
-import ExampleModal from './ExampleModal';
+import ExampleModal, {IExampleModalStoryProps} from './ExampleModal';
 
 import {
+  Button,
+  IContentProps,
+  ModalAsk,
   ModalError,
   ModalLoading,
   ModalSuccess,
   usePopups,
   View,
-  Button,
-  ModalAsk,
-  IContentProps,
 } from '@lad-tech/mobydick-core';
 
 const contentSuccess = (propsFromPopup: IContentProps) => (
   <ModalSuccess
     {...propsFromPopup}
     title={'Success'}
-    descriptionText={text(
-      'Description text success message',
-      'This is a success message',
-    )}
+    descriptionText={'This is a success message'}
   />
 );
 const contentLoading = (propsFromPopup: IContentProps) => (
   <ModalLoading
     {...propsFromPopup}
     title={'Loading...'}
-    descriptionText={text('Description text loading message', 'Please wait')}
+    descriptionText={'Please wait'}
     buttonText={'Cancel'}
   />
 );
@@ -37,10 +33,7 @@ const contentError = (propsFromPopup: IContentProps) => (
   <ModalError
     {...propsFromPopup}
     title={'Error...'}
-    descriptionText={text(
-      'Description text error message',
-      'This is a error message',
-    )}
+    descriptionText={'This is a error message'}
     buttonText={'Cancel'}
   />
 );
@@ -51,16 +44,13 @@ const contentAsk = (propsFromPopup: IContentProps) => (
   <ModalAsk
     {...propsFromPopup}
     title={'Delete account?'}
-    descriptionText={text(
-      'Description text error message',
-      'You will permanently lose your data',
-    )}
+    descriptionText={'You will permanently lose your data'}
     onPressRight={onPressRight}
     textLeft={'Cancel'}
     textRight={'Delete'}
   />
 );
-const PopupModalExample = () => {
+const PopupModalExample = (storyProps: IExampleModalStoryProps) => {
   const popupContext = usePopups();
   const [popupCount, setPopupCount] = useState(0);
 
@@ -70,9 +60,9 @@ const PopupModalExample = () => {
     setPopupCount(newCount);
 
     popupContext.openPopup({
-      Content: ExampleModal,
+      Content: props => <ExampleModal {...props} {...storyProps} />,
     });
-  }, [popupContext, popupCount]);
+  }, [popupContext, popupCount, storyProps]);
 
   const onPressModalSuccess = useCallback(() => {
     popupContext.openPopup({

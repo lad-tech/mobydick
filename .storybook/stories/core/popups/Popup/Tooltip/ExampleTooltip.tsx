@@ -1,47 +1,52 @@
 import React, {FC, RefObject} from 'react';
-import {boolean, number, select, text} from '@storybook/addon-knobs';
 import {StyleSheet} from 'react-native';
 
 import {
   IContentProps,
   IPlacement,
   IPosition,
-  TooltipBase,
-  ITouchableOpacity,
   IThemeContext,
+  ITouchableOpacity,
+  TooltipBase,
   useStyles,
 } from '@lad-tech/mobydick-core';
 
-enum ITypeTooltip {
+export enum ITypeTooltip {
   onlyTitle = 'onlyTitle',
   onlyText = 'onlyText',
   textAndButton = 'textAndButton',
 }
 
+export interface IExampleTooltipStoryProps {
+  placement: IPlacement;
+  position: IPosition;
+  titleText: string;
+  textButton: string;
+  descriptionText: string;
+  timeShow: number;
+  isArrow: boolean;
+  viewTooltip: ITypeTooltip;
+}
 const ExampleTooltip: FC<
   IContentProps & {
     refCurrent: RefObject<ITouchableOpacity>;
     fixedButton: boolean;
-  }
+  } & IExampleTooltipStoryProps
 > = props => {
   const [styles] = useStyles(stylesCreate);
 
-  const isArrow = true;
-  const placement = props.fixedButton
-    ? select('Placement', IPlacement, IPlacement.start)
-    : select('Placement', [IPlacement.start, IPlacement.end], IPlacement.start);
-  const position = select('Position', IPosition, IPosition.top);
-  const titleText = text(
-    'Title text',
-    'Войдите в приложение, чтобы\nделиться картами и скидками',
-  );
-  const descriptionText = text(
-    'Description text',
-    'Это займет меньше минуты, а\nплюшек станет больше!',
-  );
-  const timeShow = number('Timeshow, ms', 0);
+  const {
+    position,
+    viewTooltip,
+    textButton,
+    isArrow,
+    timeShow,
+    descriptionText,
+    titleText,
+    placement,
+  } = props;
 
-  switch (select('View tooltip', ITypeTooltip, ITypeTooltip.onlyTitle)) {
+  switch (viewTooltip) {
     case ITypeTooltip.onlyTitle: {
       return (
         <TooltipBase
@@ -52,7 +57,7 @@ const ExampleTooltip: FC<
           timeShow={timeShow}
           overlayStyle={props.overlayStyle}>
           <TooltipBase.Title title={titleText} />
-          {boolean('With arrow', isArrow) ? (
+          {isArrow ? (
             <TooltipBase.Arrow placement={placement} position={position} />
           ) : null}
         </TooltipBase>
@@ -72,7 +77,7 @@ const ExampleTooltip: FC<
             titleStyles={styles.titleStyles}
           />
           <TooltipBase.DescriptionText descriptionText={descriptionText} />
-          {boolean('With arrow', isArrow) ? (
+          {isArrow ? (
             <TooltipBase.Arrow placement={placement} position={position} />
           ) : null}
         </TooltipBase>
@@ -95,14 +100,11 @@ const ExampleTooltip: FC<
 
           <TooltipBase.DescriptionText descriptionText={descriptionText} />
 
-          {boolean('With arrow', isArrow) ? (
+          {isArrow ? (
             <TooltipBase.Arrow placement={placement} position={position} />
           ) : null}
 
-          <TooltipBase.LeftButton
-            onPress={undefined}
-            text={text('Text button', 'Войти')}
-          />
+          <TooltipBase.LeftButton onPress={undefined} text={textButton} />
         </TooltipBase>
       );
     }

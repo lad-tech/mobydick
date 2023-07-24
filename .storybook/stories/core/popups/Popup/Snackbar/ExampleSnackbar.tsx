@@ -1,27 +1,42 @@
 import React, {FC} from 'react';
-import {boolean, select, text} from '@storybook/addon-knobs';
-
-import selectFont from '../../../utils/selectFont';
 
 import {
   IContentProps,
   IPosition,
-  SnackbarBase,
   rem,
   SimpleIcon,
-  useTheme,
+  SnackbarBase,
   TouchableOpacity,
   Typography,
+  TypographyProp,
+  useTheme,
 } from '@lad-tech/mobydick-core';
 
-const ExampleSnackbar: FC<IContentProps> = props => {
+export interface IExampleSnackbarStoryProps {
+  showIcon: boolean;
+  title: string;
+  snackbarFont: TypographyProp;
+  textButton: string;
+  showRightButton: boolean;
+  position: IPosition;
+}
+const ExampleSnackbar: FC<
+  IContentProps & IExampleSnackbarStoryProps
+> = props => {
   const {colors} = useTheme();
-  const {onClose} = props;
-  const position = select('Position', IPosition, IPosition.bottom);
+  const {
+    onClose,
+    showIcon,
+    position,
+    showRightButton,
+    textButton,
+    title,
+    snackbarFont,
+  } = props;
 
   return (
     <SnackbarBase {...props} position={position} timeShow={2000}>
-      {boolean('show icon', true) && (
+      {showIcon && (
         <SimpleIcon
           name={'icon-check'}
           color={colors.IconAdditional}
@@ -30,14 +45,11 @@ const ExampleSnackbar: FC<IContentProps> = props => {
           }}
         />
       )}
-      <SnackbarBase.Title
-        title={text('title', 'Подборка добавлена')}
-        titleFont={select('Snackbar font', selectFont, 'Regular-Contrast-XS')}
-      />
-      {boolean('show right button ', true) && (
+      <SnackbarBase.Title title={title} titleFont={snackbarFont} />
+      {showRightButton && (
         <TouchableOpacity onPress={onClose}>
           <Typography font={'Medium-AccentContrast-XS'}>
-            {text('text button', 'Поделиться')}
+            {textButton}
           </Typography>
         </TouchableOpacity>
       )}
