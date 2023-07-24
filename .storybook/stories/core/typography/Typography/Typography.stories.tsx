@@ -1,5 +1,5 @@
 import React from 'react';
-import {Meta, StoryObj} from '@storybook/react-native';
+import {ComponentStoryObj, Meta} from '@storybook/react-native';
 
 import {
   defaultTextLightColor,
@@ -17,7 +17,7 @@ const textColorKeys = Object.keys(
 
 const fontColors = textColorKeys.map(item => item.slice(TEXT.length));
 
-export const Basic = ({
+const TypographyExample = ({
   fontWeight,
   fontColor,
   fontSize,
@@ -33,12 +33,12 @@ export const Basic = ({
   </TypographyLib>
 );
 
-const meta: Meta<typeof Basic> = {
+const meta: Meta<typeof TypographyExample> = {
   title: 'Core',
-  component: Basic,
+  component: TypographyExample,
 };
 
-type Story = StoryObj<typeof Basic>;
+type Story = ComponentStoryObj<typeof TypographyExample>;
 
 export const Typography = {
   args: {
