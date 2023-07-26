@@ -5,11 +5,12 @@
  * @format
  */
 
-const { getDefaultConfig } = require("metro-config")
+const {getDefaultConfig} = require("metro-config")
+const path = require("path");
 
 module.exports = (async () => {
   const {
-    resolver: { sourceExts, assetExts }
+    resolver: {sourceExts, assetExts}
   } = await getDefaultConfig()
   return {
     transformer: {
@@ -23,7 +24,9 @@ module.exports = (async () => {
     },
     resolver: {
       assetExts: assetExts.filter(ext => ext !== "svg"),
-      sourceExts: [...sourceExts, "svg"]
+      sourceExts: [...sourceExts, "svg"],
+      resolverMainFields: ["sbmodern", "react-native", "browser", "main"],
+      watchFolders: [path.resolve(__dirname, "..")],
     }
   }
 })()
