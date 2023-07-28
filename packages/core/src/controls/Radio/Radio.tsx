@@ -4,7 +4,7 @@ import {IControlProps} from '../types';
 import Control from '../Control';
 import ControlType from '../constants';
 import useStyles from '../../styles/theme/hooks/useStyles';
-import View from '../../basic/components/View/View';
+import {Pressable} from '../../basic/components/Pressable';
 
 import stylesCreate from './stylesCreate';
 import {IRadioStyle} from './types';
@@ -14,23 +14,26 @@ const Radio: FC<IControlProps & IRadioStyle> = ({
   disabled = false,
   children,
   containerStyle,
+  onPress,
   ...rest
 }) => {
   const [styles] = useStyles(stylesCreate, selected, disabled);
   return (
-    <View
+    <Pressable
       style={[styles.container, containerStyle]}
-      needsOffscreenAlphaCompositing={true}>
+      needsOffscreenAlphaCompositing={true}
+      onPress={onPress}>
       <Control
         disabled={disabled}
         type={ControlType.radio}
         selected={selected}
         outerStyle={styles.circle}
         innerStyle={styles.innerCircle}
+        onPress={onPress}
         {...rest}
       />
       {children}
-    </View>
+    </Pressable>
   );
 };
 
