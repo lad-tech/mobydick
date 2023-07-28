@@ -13,6 +13,7 @@ describe('useFont', () => {
       fontFamily: 'Inter-Regular',
       fontSize: 22.5,
       lineHeight: 28.5,
+      minHeight: 28.5,
     });
   });
   test('positive case custom font', () => {
@@ -25,6 +26,7 @@ describe('useFont', () => {
       fontFamily: 'Inter-Medium',
       fontSize: 22.5,
       lineHeight: 28.5,
+      minHeight: 28.5,
     });
   });
 });

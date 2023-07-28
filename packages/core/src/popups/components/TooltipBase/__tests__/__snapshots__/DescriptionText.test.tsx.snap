@@ -10,6 +10,7 @@ exports[`@lad-tech/mobydick-core/TooltipBase/DescriptionText should renders corr
         "fontFamily": "Inter-Regular",
         "fontSize": 21,
         "lineHeight": 27,
+        "minHeight": 27,
       },
       [
         {
@@ -35,6 +36,7 @@ exports[`@lad-tech/mobydick-core/TooltipBase/DescriptionText should renders corr
         "fontFamily": "Inter-Regular",
         "fontSize": 21,
         "lineHeight": 27,
+        "minHeight": 27,
       },
       [
         {

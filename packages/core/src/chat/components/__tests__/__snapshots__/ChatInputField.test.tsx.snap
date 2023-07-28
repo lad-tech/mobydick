@@ -75,6 +75,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           [
             {
@@ -165,6 +166,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           [
             {
@@ -254,6 +256,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           [
             {
@@ -346,6 +349,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           [
             {

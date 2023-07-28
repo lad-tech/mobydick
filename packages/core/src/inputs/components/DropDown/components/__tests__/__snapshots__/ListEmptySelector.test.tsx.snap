@@ -10,6 +10,7 @@ exports[`npm/mobydick-inputs/ListEmptySelector renders correctly with text and f
         "fontFamily": "Inter-Regular",
         "fontSize": 27,
         "lineHeight": 33,
+        "minHeight": 33,
       },
       {
         "paddingHorizontal": 12,
@@ -31,6 +32,7 @@ exports[`npm/mobydick-inputs/ListEmptySelector renders correctly without text an
         "fontFamily": "Inter-Regular",
         "fontSize": 24,
         "lineHeight": 30,
+        "minHeight": 30,
       },
       {
         "paddingHorizontal": 12,

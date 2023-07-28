@@ -39,6 +39,7 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly  isNotValid time 
               "fontFamily": "Inter-Regular",
               "fontSize": 21,
               "lineHeight": 27,
+              "minHeight": 27,
             },
             undefined,
           ]
@@ -99,6 +100,7 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe 1`] = `
               "fontFamily": "Inter-Regular",
               "fontSize": 21,
               "lineHeight": 27,
+              "minHeight": 27,
             },
             undefined,
           ]
@@ -125,6 +127,7 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe 1`] = `
               "fontFamily": "Inter-Regular",
               "fontSize": 15,
               "lineHeight": 21,
+              "minHeight": 21,
             },
             undefined,
           ]
@@ -207,6 +210,7 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image 1`] = 
               "fontFamily": "Inter-Regular",
               "fontSize": 15,
               "lineHeight": 21,
+              "minHeight": 21,
             },
             undefined,
           ]
@@ -285,6 +289,7 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image number
               "fontFamily": "Inter-Regular",
               "fontSize": 15,
               "lineHeight": 21,
+              "minHeight": 21,
             },
             undefined,
           ]
@@ -336,6 +341,7 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
               "fontFamily": "Inter-Regular",
               "fontSize": 21,
               "lineHeight": 27,
+              "minHeight": 27,
             },
             undefined,
           ]
@@ -362,6 +368,7 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
               "fontFamily": "Inter-Regular",
               "fontSize": 15,
               "lineHeight": 21,
+              "minHeight": 21,
             },
             undefined,
           ]

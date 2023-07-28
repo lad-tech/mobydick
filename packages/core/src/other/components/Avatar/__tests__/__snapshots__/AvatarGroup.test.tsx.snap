@@ -43,6 +43,7 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -86,6 +87,7 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -140,6 +142,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -183,6 +186,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -226,6 +230,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -269,6 +274,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -369,6 +375,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -412,6 +419,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -444,6 +452,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
             "fontFamily": "Inter-Medium",
             "fontSize": 18,
             "lineHeight": 24,
+            "minHeight": 24,
           },
           {
             "alignSelf": "center",
@@ -547,6 +556,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -590,6 +600,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -622,6 +633,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
             "fontFamily": "Inter-Medium",
             "fontSize": 18,
             "lineHeight": 24,
+            "minHeight": 24,
           },
           {
             "alignSelf": "center",
@@ -725,6 +737,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -768,6 +781,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -800,6 +814,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
             "fontFamily": "Inter-Medium",
             "fontSize": 18,
             "lineHeight": 24,
+            "minHeight": 24,
           },
           {
             "alignSelf": "center",

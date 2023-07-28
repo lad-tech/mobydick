@@ -148,6 +148,7 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom flatList styles 1`] = 
                     "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   undefined,
                 ]
@@ -311,6 +312,7 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem TouchableHig
                     "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   undefined,
                 ]
@@ -472,6 +474,7 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography  
                     "fontFamily": "Inter-Bold",
                     "fontSize": 27,
                     "lineHeight": 33,
+                    "minHeight": 33,
                   },
                   undefined,
                 ]
@@ -633,6 +636,7 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography w
                     "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   {
                     "backgroundColor": "red",
@@ -794,6 +798,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   undefined,
                 ]
@@ -979,6 +984,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                     "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   undefined,
                 ]
@@ -1035,6 +1041,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                     "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   undefined,
                 ]
@@ -1091,6 +1098,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                     "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   undefined,
                 ]
@@ -1147,6 +1155,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                     "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   undefined,
                 ]
@@ -1203,6 +1212,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                     "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   undefined,
                 ]
@@ -1259,6 +1269,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                     "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   undefined,
                 ]
@@ -1315,6 +1326,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                     "fontFamily": "Inter-Medium",
                     "fontSize": 24,
                     "lineHeight": 30,
+                    "minHeight": 30,
                   },
                   undefined,
                 ]

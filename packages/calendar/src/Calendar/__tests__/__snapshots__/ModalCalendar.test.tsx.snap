@@ -234,6 +234,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -286,6 +287,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -4437,6 +4439,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               "fontFamily": "Inter-Regular",
               "fontSize": 24,
               "lineHeight": 30,
+              "minHeight": 30,
             },
             [
               {
@@ -4458,6 +4461,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               "fontFamily": "Inter-Medium",
               "fontSize": 24,
               "lineHeight": 30,
+              "minHeight": 30,
             },
             [
               {
@@ -4532,6 +4536,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
+                "minHeight": 33,
               },
               [
                 {
@@ -4598,6 +4603,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
+                "minHeight": 33,
               },
               [
                 {
@@ -4851,6 +4857,7 @@ exports[`ModalCalendar bottomView IButtonView.small onAcceptDateRangeChange 1`] 
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -4903,6 +4910,7 @@ exports[`ModalCalendar bottomView IButtonView.small onAcceptDateRangeChange 1`] 
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -9054,6 +9062,7 @@ exports[`ModalCalendar bottomView IButtonView.small onAcceptDateRangeChange 1`] 
               "fontFamily": "Inter-Regular",
               "fontSize": 24,
               "lineHeight": 30,
+              "minHeight": 30,
             },
             [
               {
@@ -9128,6 +9137,7 @@ exports[`ModalCalendar bottomView IButtonView.small onAcceptDateRangeChange 1`] 
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 21,
                 "lineHeight": 27,
+                "minHeight": 27,
               },
               [
                 {
@@ -9381,6 +9391,7 @@ exports[`ModalCalendar bottomView IButtonView.small onDateRangeChange 1`] = `
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -9433,6 +9444,7 @@ exports[`ModalCalendar bottomView IButtonView.small onDateRangeChange 1`] = `
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -13584,6 +13596,7 @@ exports[`ModalCalendar bottomView IButtonView.small onDateRangeChange 1`] = `
               "fontFamily": "Inter-Regular",
               "fontSize": 24,
               "lineHeight": 30,
+              "minHeight": 30,
             },
             [
               {
@@ -13658,6 +13671,7 @@ exports[`ModalCalendar bottomView IButtonView.small onDateRangeChange 1`] = `
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 21,
                 "lineHeight": 27,
+                "minHeight": 27,
               },
               [
                 {
@@ -13911,6 +13925,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -13963,6 +13978,7 @@ exports[`ModalCalendar renders correctly 1`] = `
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -18114,6 +18130,7 @@ exports[`ModalCalendar renders correctly 1`] = `
               "fontFamily": "Inter-Medium",
               "fontSize": 24,
               "lineHeight": 30,
+              "minHeight": 30,
             },
             [
               {
@@ -18365,6 +18382,7 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -18417,6 +18435,7 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -22608,6 +22627,7 @@ exports[`ModalCalendar renders correctly initialRange 1`] = `
               "fontFamily": "Inter-Medium",
               "fontSize": 24,
               "lineHeight": 30,
+              "minHeight": 30,
             },
             [
               {
@@ -22859,6 +22879,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -22911,6 +22932,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
                   "fontFamily": "Inter-Medium",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 undefined,
               ]
@@ -27062,6 +27084,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               "fontFamily": "Inter-Medium",
               "fontSize": 24,
               "lineHeight": 30,
+              "minHeight": 30,
             },
             [
               {
@@ -27135,6 +27158,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
+                "minHeight": 33,
               },
               [
                 {
@@ -27201,6 +27225,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
+                "minHeight": 33,
               },
               [
                 {

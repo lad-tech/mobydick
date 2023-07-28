@@ -75,6 +75,7 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -147,6 +148,7 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -233,6 +235,7 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -305,6 +308,7 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -391,6 +395,7 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -463,6 +468,7 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -564,6 +570,7 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -639,6 +646,7 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -728,6 +736,7 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -803,6 +812,7 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -892,6 +902,7 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -967,6 +978,7 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]

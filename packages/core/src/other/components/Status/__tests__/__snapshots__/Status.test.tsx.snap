@@ -25,6 +25,7 @@ exports[`Status render not state 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 18,
           "lineHeight": 24,
+          "minHeight": 24,
         },
         undefined,
       ]
@@ -154,6 +155,7 @@ exports[`Status render type tag blue 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 18,
           "lineHeight": 24,
+          "minHeight": 24,
         },
         undefined,
       ]
@@ -189,6 +191,7 @@ exports[`Status render type tag gray 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 18,
           "lineHeight": 24,
+          "minHeight": 24,
         },
         undefined,
       ]
@@ -224,6 +227,7 @@ exports[`Status render type tag green 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 18,
           "lineHeight": 24,
+          "minHeight": 24,
         },
         undefined,
       ]
@@ -259,6 +263,7 @@ exports[`Status render type tag orange 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 18,
           "lineHeight": 24,
+          "minHeight": 24,
         },
         undefined,
       ]
@@ -294,6 +299,7 @@ exports[`Status render type tag red 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 18,
           "lineHeight": 24,
+          "minHeight": 24,
         },
         undefined,
       ]

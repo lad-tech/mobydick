@@ -41,6 +41,7 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value blur 1`] 
           "fontFamily": "Inter-Regular",
           "fontSize": 30,
           "lineHeight": 36,
+          "minHeight": 36,
         },
         undefined,
       ]
@@ -89,6 +90,7 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value focus 1`]
           "fontFamily": "Inter-Regular",
           "fontSize": 30,
           "lineHeight": 36,
+          "minHeight": 36,
         },
         undefined,
       ]
@@ -138,6 +140,7 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value onKeyPres
           "fontFamily": "Inter-Regular",
           "fontSize": 30,
           "lineHeight": 36,
+          "minHeight": 36,
         },
         undefined,
       ]

@@ -105,6 +105,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
                 "fontFamily": "Inter-Regular",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               [
                 {
@@ -463,6 +464,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
                 "fontFamily": "Inter-Regular",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               [
                 {

@@ -10,6 +10,7 @@ exports[`@lad-tech/mobydick-core/TooltipBase/Title should renders correctly 1`] 
         "fontFamily": "Inter-SemiBold",
         "fontSize": 21,
         "lineHeight": 27,
+        "minHeight": 27,
       },
       [
         {
@@ -34,6 +35,7 @@ exports[`@lad-tech/mobydick-core/TooltipBase/Title should renders correctly font
         "fontFamily": "Inter-Regular",
         "fontSize": 21,
         "lineHeight": 27,
+        "minHeight": 27,
       },
       [
         {

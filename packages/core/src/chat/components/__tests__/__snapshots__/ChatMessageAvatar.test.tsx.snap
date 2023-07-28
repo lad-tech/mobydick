@@ -76,6 +76,7 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
               "fontFamily": "Inter-Regular",
               "fontSize": 15,
               "lineHeight": 21,
+              "minHeight": 21,
             },
             undefined,
           ]
@@ -123,6 +124,7 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
                 "fontFamily": "Inter-Regular",
                 "fontSize": 21,
                 "lineHeight": 27,
+                "minHeight": 27,
               },
               undefined,
             ]
@@ -149,6 +151,7 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
                 "fontFamily": "Inter-Regular",
                 "fontSize": 15,
                 "lineHeight": 21,
+                "minHeight": 21,
               },
               undefined,
             ]
@@ -238,6 +241,7 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
               "fontFamily": "Inter-Regular",
               "fontSize": 15,
               "lineHeight": 21,
+              "minHeight": 21,
             },
             undefined,
           ]
@@ -285,6 +289,7 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
                 "fontFamily": "Inter-Regular",
                 "fontSize": 21,
                 "lineHeight": 27,
+                "minHeight": 27,
               },
               undefined,
             ]
@@ -311,6 +316,7 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
                 "fontFamily": "Inter-Regular",
                 "fontSize": 15,
                 "lineHeight": 21,
+                "minHeight": 21,
               },
               undefined,
             ]
