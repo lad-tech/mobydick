@@ -29,6 +29,7 @@ exports[`Counter render counter ICounterSize.medium 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 24,
           "lineHeight": 30,
+          "minHeight": 30,
         },
         {
           "color": "#FFF",
@@ -70,6 +71,7 @@ exports[`Counter render counter ICounterSize.small 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 18,
           "lineHeight": 24,
+          "minHeight": 24,
         },
         {
           "color": "#FFF",
@@ -111,6 +113,7 @@ exports[`Counter render counter ICounterTypes.accent 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 24,
           "lineHeight": 30,
+          "minHeight": 30,
         },
         {
           "color": "#FFF",
@@ -152,6 +155,7 @@ exports[`Counter render counter ICounterTypes.accentLight 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 24,
           "lineHeight": 30,
+          "minHeight": 30,
         },
         {
           "color": "#2B78EE",
@@ -193,6 +197,7 @@ exports[`Counter render counter ICounterTypes.attention 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 24,
           "lineHeight": 30,
+          "minHeight": 30,
         },
         {
           "color": "#FFF",
@@ -234,6 +239,7 @@ exports[`Counter render counter ICounterTypes.attentionLight 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 24,
           "lineHeight": 30,
+          "minHeight": 30,
         },
         {
           "color": "#F54D3D",
@@ -275,6 +281,7 @@ exports[`Counter render counter ICounterTypes.muted 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 24,
           "lineHeight": 30,
+          "minHeight": 30,
         },
         {
           "color": "#FFF",
@@ -316,6 +323,7 @@ exports[`Counter render counter ICounterTypes.mutedLight 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 24,
           "lineHeight": 30,
+          "minHeight": 30,
         },
         {
           "color": "#9BA1B0",
@@ -359,6 +367,7 @@ exports[`Counter render counter style 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 24,
           "lineHeight": 30,
+          "minHeight": 30,
         },
         {
           "color": "#FFF",

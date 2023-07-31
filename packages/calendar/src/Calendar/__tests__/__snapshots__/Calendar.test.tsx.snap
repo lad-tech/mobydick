@@ -111,6 +111,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -163,6 +164,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -4370,6 +4372,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -4422,6 +4425,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -8632,6 +8636,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -8795,6 +8800,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -8857,6 +8863,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -8919,6 +8926,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -8995,6 +9003,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9057,6 +9066,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9119,6 +9129,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9195,6 +9206,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9257,6 +9269,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9319,6 +9332,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9395,6 +9409,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9457,6 +9472,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9519,6 +9535,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9645,6 +9662,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -9808,6 +9826,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9870,6 +9889,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -9932,6 +9952,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10008,6 +10029,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10070,6 +10092,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10132,6 +10155,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10208,6 +10232,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10270,6 +10295,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10332,6 +10358,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10408,6 +10435,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10470,6 +10498,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10532,6 +10561,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10658,6 +10688,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -10821,6 +10852,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10883,6 +10915,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -10945,6 +10978,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11021,6 +11055,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11083,6 +11118,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11145,6 +11181,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11221,6 +11258,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11283,6 +11321,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11345,6 +11384,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11421,6 +11461,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11483,6 +11524,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11545,6 +11587,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11671,6 +11714,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -11834,6 +11878,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11896,6 +11941,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -11958,6 +12004,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12034,6 +12081,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12096,6 +12144,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12158,6 +12207,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12234,6 +12284,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12296,6 +12347,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12358,6 +12410,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12434,6 +12487,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12496,6 +12550,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12558,6 +12613,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12684,6 +12740,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -12847,6 +12904,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12909,6 +12967,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -12971,6 +13030,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -13047,6 +13107,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -13109,6 +13170,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -13171,6 +13233,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -13247,6 +13310,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -13309,6 +13373,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -13371,6 +13436,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -13447,6 +13513,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -13509,6 +13576,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -13571,6 +13639,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
                     "fontFamily": "Inter-Regular",
                     "fontSize": 22.5,
                     "lineHeight": 28.5,
+                    "minHeight": 28.5,
                   },
                   undefined,
                 ]
@@ -13697,6 +13766,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -13749,6 +13819,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -17965,6 +18036,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -18017,6 +18089,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -23011,6 +23084,7 @@ exports[`Calendar renders correctly 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -23063,6 +23137,7 @@ exports[`Calendar renders correctly 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -27311,6 +27386,7 @@ exports[`Calendar renders correctly dottedDates 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -27363,6 +27439,7 @@ exports[`Calendar renders correctly dottedDates 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -31570,6 +31647,7 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -31622,6 +31700,7 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -35829,6 +35908,7 @@ exports[`Calendar renders correctly isClear 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -35881,6 +35961,7 @@ exports[`Calendar renders correctly isClear 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -40088,6 +40169,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -40140,6 +40222,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -44356,6 +44439,7 @@ exports[`Calendar renders correctly isShowToday = false > maxLengthDateRange max
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -44408,6 +44492,7 @@ exports[`Calendar renders correctly isShowToday = false > maxLengthDateRange max
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -48767,6 +48852,7 @@ exports[`Calendar renders correctly isShowToday = true < maxLengthDateRange 1`] 
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -48819,6 +48905,7 @@ exports[`Calendar renders correctly isShowToday = true < maxLengthDateRange 1`] 
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -53067,6 +53154,7 @@ exports[`Calendar renders correctly isShowToday = true < maxLengthDateRange maxD
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -53119,6 +53207,7 @@ exports[`Calendar renders correctly isShowToday = true < maxLengthDateRange maxD
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -57516,6 +57605,7 @@ exports[`Calendar renders correctly isShowToday = true > maxLengthDateRange 1`] 
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -57568,6 +57658,7 @@ exports[`Calendar renders correctly isShowToday = true > maxLengthDateRange 1`] 
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -61816,6 +61907,7 @@ exports[`Calendar renders correctly isShowToday = true > maxLengthDateRange maxD
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -61868,6 +61960,7 @@ exports[`Calendar renders correctly isShowToday = true > maxLengthDateRange maxD
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -66268,6 +66361,7 @@ exports[`Calendar renders correctly maxDate maxLengthDateRange 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -66320,6 +66414,7 @@ exports[`Calendar renders correctly maxDate maxLengthDateRange 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -70620,6 +70715,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -70672,6 +70768,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -74972,6 +75069,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange fromDate 
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -75024,6 +75122,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange fromDate 
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -79324,6 +79423,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange isPeriod 
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -79376,6 +79476,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange isPeriod 
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -83676,6 +83777,7 @@ exports[`Calendar renders correctly maxLengthDateRange 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -83728,6 +83830,7 @@ exports[`Calendar renders correctly maxLengthDateRange 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -88722,6 +88825,7 @@ exports[`Calendar renders correctly minDate maxLengthDateRange 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -88774,6 +88878,7 @@ exports[`Calendar renders correctly minDate maxLengthDateRange 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -93074,6 +93179,7 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]
@@ -93126,6 +93232,7 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
                 "fontFamily": "Inter-Medium",
                 "fontSize": 24,
                 "lineHeight": 30,
+                "minHeight": 30,
               },
               undefined,
             ]

@@ -52,6 +52,7 @@ exports[`@lad-tech/mobydick-core/TooltipBase/LeftButton should renders correctly
           "fontFamily": "Inter-SemiBold",
           "fontSize": 27,
           "lineHeight": 33,
+          "minHeight": 33,
         },
         [
           {

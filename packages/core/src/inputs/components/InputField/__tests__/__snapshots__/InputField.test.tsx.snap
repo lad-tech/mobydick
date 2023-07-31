@@ -27,6 +27,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
             "fontFamily": "Inter-Medium",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -78,6 +79,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -115,6 +117,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 18,
             "lineHeight": 24,
+            "minHeight": 24,
           },
           {
             "flex": 1,
@@ -182,6 +185,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -246,6 +250,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -310,6 +315,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -374,6 +380,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -411,6 +418,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
             "fontFamily": "Inter-Medium",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -500,6 +508,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
             "fontFamily": "Inter-Medium",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -589,6 +598,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
             "fontFamily": "Inter-Medium",
             "fontSize": 21,
             "lineHeight": 27,
+            "minHeight": 27,
           },
           undefined,
         ]
@@ -679,6 +689,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
             "fontFamily": "Inter-Regular",
             "fontSize": 18,
             "lineHeight": 24,
+            "minHeight": 24,
           },
           {
             "flex": 1,
@@ -746,6 +757,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -810,6 +822,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -874,6 +887,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -911,6 +925,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 18,
             "lineHeight": 24,
+            "minHeight": 24,
           },
           {
             "flex": 1,
@@ -978,6 +993,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           undefined,
         ]
@@ -1015,6 +1031,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
             "fontFamily": "Inter-Regular",
             "fontSize": 18,
             "lineHeight": 24,
+            "minHeight": 24,
           },
           {
             "flex": 1,

@@ -191,6 +191,7 @@ exports[`Tab render panelHeader edges 1`] = `
                   "fontFamily": "Inter-Regular",
                   "fontSize": 18,
                   "lineHeight": 24,
+                  "minHeight": 24,
                 },
                 [
                   {
@@ -589,6 +590,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
                   "fontFamily": "Inter-Regular",
                   "fontSize": 18,
                   "lineHeight": 24,
+                  "minHeight": 24,
                 },
                 [
                   {
@@ -686,6 +688,7 @@ exports[`Tab render panelHeader with title 1`] = `
                   "fontFamily": "Inter-SemiBold",
                   "fontSize": 24,
                   "lineHeight": 30,
+                  "minHeight": 30,
                 },
                 [
                   {

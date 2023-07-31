@@ -10,6 +10,7 @@ exports[`@lad-tech/mobydick-core/SnackbarBase/Title should renders correctly wit
         "fontFamily": "Inter-Medium",
         "fontSize": 24,
         "lineHeight": 30,
+        "minHeight": 30,
       },
       [
         {
@@ -37,6 +38,7 @@ exports[`@lad-tech/mobydick-core/SnackbarBase/Title should renders correctly wit
         "fontFamily": "Inter-Medium",
         "fontSize": 21,
         "lineHeight": 27,
+        "minHeight": 27,
       },
       [
         {

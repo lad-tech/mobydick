@@ -19,6 +19,7 @@ export const useFont = (font: TypographyProp = 'Regular-Primary-S') => {
     fontFamily: getWeight(weight as TFontWeight),
     fontSize,
     lineHeight,
+    minHeight: lineHeight,
   };
 
   return {fontStyle};

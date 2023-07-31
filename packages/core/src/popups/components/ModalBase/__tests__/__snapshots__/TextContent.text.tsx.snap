@@ -18,6 +18,7 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with description
           "fontFamily": "Inter-Medium",
           "fontSize": 24,
           "lineHeight": 30,
+          "minHeight": 30,
         },
         [
           {
@@ -54,6 +55,7 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with titleFont 1
           "fontFamily": "Inter-Medium",
           "fontSize": 24,
           "lineHeight": 30,
+          "minHeight": 30,
         },
         [
           {
@@ -77,6 +79,7 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with titleFont 1
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         [
           {
@@ -113,6 +116,7 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without descript
           "fontFamily": "Inter-SemiBold",
           "fontSize": 27,
           "lineHeight": 33,
+          "minHeight": 33,
         },
         [
           {
@@ -136,6 +140,7 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without descript
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         [
           {
@@ -172,6 +177,7 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without titleFon
           "fontFamily": "Inter-SemiBold",
           "fontSize": 27,
           "lineHeight": 33,
+          "minHeight": 33,
         },
         [
           {

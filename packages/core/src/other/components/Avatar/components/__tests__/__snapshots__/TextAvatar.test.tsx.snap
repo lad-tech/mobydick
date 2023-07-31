@@ -10,6 +10,7 @@ exports[`TextAvatar render TextAvatar 1`] = `
         "fontFamily": "Inter-Regular",
         "fontSize": 15,
         "lineHeight": 21,
+        "minHeight": 21,
       },
       undefined,
     ]
@@ -29,6 +30,7 @@ exports[`TextAvatar render TextAvatar size L 1`] = `
         "fontFamily": "Inter-Regular",
         "fontSize": 27,
         "lineHeight": 33,
+        "minHeight": 33,
       },
       undefined,
     ]
@@ -48,6 +50,7 @@ exports[`TextAvatar render TextAvatar size M 1`] = `
         "fontFamily": "Inter-Regular",
         "fontSize": 21,
         "lineHeight": 27,
+        "minHeight": 27,
       },
       undefined,
     ]
@@ -67,6 +70,7 @@ exports[`TextAvatar render TextAvatar size S 1`] = `
         "fontFamily": "Inter-Regular",
         "fontSize": 15,
         "lineHeight": 21,
+        "minHeight": 21,
       },
       undefined,
     ]
@@ -86,6 +90,7 @@ exports[`TextAvatar render TextAvatar size XL 1`] = `
         "fontFamily": "Inter-Regular",
         "fontSize": 33,
         "lineHeight": 36,
+        "minHeight": 36,
       },
       undefined,
     ]

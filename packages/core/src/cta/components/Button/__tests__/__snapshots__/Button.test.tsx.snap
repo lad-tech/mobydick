@@ -51,6 +51,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 27,
           "lineHeight": 33,
+          "minHeight": 33,
         },
         [
           {
@@ -119,6 +120,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly 2`] = `
           "fontFamily": "Inter-Bold",
           "fontSize": 27,
           "lineHeight": 33,
+          "minHeight": 33,
         },
         [
           {
@@ -205,6 +207,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly destructive 1`] = `
             "fontFamily": "Inter-SemiBold",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           {
             "color": "#F54D3D",
@@ -406,6 +409,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly left icon size large 1
           "fontFamily": "Inter-SemiBold",
           "fontSize": 27,
           "lineHeight": 33,
+          "minHeight": 33,
         },
         [
           {
@@ -476,6 +480,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly left icon size small 1
           "fontFamily": "Inter-SemiBold",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         [
           {
@@ -867,6 +872,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 3`] = `
             "fontFamily": "Inter-SemiBold",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           {
             "color": "#2B78EE",
@@ -952,6 +958,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 4`] = `
             "fontFamily": "Inter-SemiBold",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           {
             "color": "#2B78EE",
@@ -1037,6 +1044,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 5`] = `
             "fontFamily": "Inter-SemiBold",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           {
             "color": "#FFF",
@@ -1122,6 +1130,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 6`] = `
             "fontFamily": "Inter-SemiBold",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           {
             "color": "#9BA1B0",
@@ -1271,6 +1280,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 8`] = `
             "fontFamily": "Inter-SemiBold",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           {
             "color": "#F54D3D",
@@ -1580,6 +1590,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly text 1`] = `
           "fontFamily": "Inter-SemiBold",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         [
           {

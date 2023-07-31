@@ -50,6 +50,7 @@ exports[`Tab render correctly active false 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         undefined,
       ]
@@ -110,6 +111,7 @@ exports[`Tab render correctly active true 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         undefined,
       ]
@@ -171,6 +173,7 @@ exports[`Tab render correctly with props 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         undefined,
       ]

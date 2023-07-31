@@ -114,6 +114,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly 1`] = `
               "fontFamily": "Inter-SemiBold",
               "fontSize": 27,
               "lineHeight": 33,
+              "minHeight": 33,
             },
             [
               {
@@ -135,6 +136,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly 1`] = `
               "fontFamily": "Inter-Regular",
               "fontSize": 21,
               "lineHeight": 27,
+              "minHeight": 27,
             },
             [
               {
@@ -208,6 +210,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly 1`] = `
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
+                "minHeight": 33,
               },
               [
                 {
@@ -341,6 +344,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly with opti
               "fontFamily": "Inter-SemiBold",
               "fontSize": 27,
               "lineHeight": 33,
+              "minHeight": 33,
             },
             [
               {
@@ -362,6 +366,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly with opti
               "fontFamily": "Inter-Regular",
               "fontSize": 21,
               "lineHeight": 27,
+              "minHeight": 27,
             },
             [
               {
@@ -435,6 +440,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly with opti
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
+                "minHeight": 33,
               },
               [
                 {

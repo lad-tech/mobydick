@@ -110,6 +110,7 @@ exports[`CalendarHeader render 1`] = `
               "fontFamily": "Inter-Medium",
               "fontSize": 24,
               "lineHeight": 30,
+              "minHeight": 30,
             },
             undefined,
           ]
@@ -162,6 +163,7 @@ exports[`CalendarHeader render 1`] = `
               "fontFamily": "Inter-Medium",
               "fontSize": 24,
               "lineHeight": 30,
+              "minHeight": 30,
             },
             undefined,
           ]

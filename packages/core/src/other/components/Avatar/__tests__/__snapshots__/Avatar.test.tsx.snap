@@ -68,6 +68,7 @@ exports[`Avatar render avatar ITypeAvatar.text 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         undefined,
       ]
@@ -130,6 +131,7 @@ exports[`Avatar render avatar badge counter 1`] = `
             "fontFamily": "Inter-SemiBold",
             "fontSize": 18,
             "lineHeight": 24,
+            "minHeight": 24,
           },
           {
             "color": "#F54D3D",
@@ -151,6 +153,7 @@ exports[`Avatar render avatar badge counter 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         undefined,
       ]
@@ -214,6 +217,7 @@ exports[`Avatar render avatar badge indicator 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         undefined,
       ]
@@ -255,6 +259,7 @@ exports[`Avatar render avatar badge null 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         undefined,
       ]
@@ -312,6 +317,7 @@ exports[`Avatar render avatar badge status 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         undefined,
       ]
@@ -353,6 +359,7 @@ exports[`Avatar render avatar disabled 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         undefined,
       ]
@@ -606,6 +613,7 @@ exports[`Avatar render avatar without firstName 1`] = `
           "fontFamily": "Inter-Regular",
           "fontSize": 21,
           "lineHeight": 27,
+          "minHeight": 27,
         },
         undefined,
       ]

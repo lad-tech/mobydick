@@ -69,6 +69,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item 1
             "fontFamily": "Inter-Medium",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           {
             "paddingVertical": 22.5,
@@ -151,6 +152,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
             "fontFamily": "Inter-Regular",
             "fontSize": 22.5,
             "lineHeight": 28.5,
+            "minHeight": 28.5,
           },
           {
             "paddingVertical": 22.5,
@@ -236,6 +238,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
             "fontFamily": "Inter-Regular",
             "fontSize": 22.5,
             "lineHeight": 28.5,
+            "minHeight": 28.5,
           },
           {
             "paddingVertical": 22.5,
@@ -377,6 +380,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
             "fontFamily": "Inter-Medium",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           {
             "paddingVertical": 22.5,
@@ -479,6 +483,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
             "fontFamily": "Inter-Medium",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           {
             "paddingVertical": 22.5,
@@ -561,6 +566,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
             "lineHeight": 30,
+            "minHeight": 30,
           },
           {
             "paddingVertical": 22.5,
@@ -704,6 +710,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly inner 
             "fontFamily": "Inter-Regular",
             "fontSize": 22.5,
             "lineHeight": 28.5,
+            "minHeight": 28.5,
           },
           {
             "paddingVertical": 22.5,
