@@ -2,9 +2,9 @@ name: Docs
 
 on:
   push:
-    branches: [ "docs" ]
+    branches: [ "gh-pages" ]
   pull_request:
-    branches: [ "docs" ]
+    branches: [ "gh-pages" ]
 
 jobs:
   docs:
