@@ -1,4 +1,4 @@
 module.exports = {
   extends: ['@lad-tech/eslint-config'],
-  ignorePatterns: ['lib'],
+  ignorePatterns: ['lib', 'docs/*'],
 };
