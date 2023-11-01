@@ -1,4 +1,5 @@
 import {FlatListProps} from 'react-native/Libraries/Lists/FlatList';
+import {ViewStyle} from 'react-native';
 
 export enum ICarouselAlign {
   center = 'center',
@@ -26,4 +27,5 @@ export interface ICarouselProps<T>
   dotSize?: number;
   activeDotColor?: string;
   passiveDotColor?: string;
+  dotsStyles?: ViewStyle | ViewStyle[];
 }

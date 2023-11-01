@@ -25,6 +25,7 @@ describe('Dots', () => {
         fixedSize={4}
         passiveDotColor={'black'}
         activeDotColor={'red'}
+        dotsStyles={{zIndex: 2}}
       />,
     );
     expect(toJSON()).toMatchSnapshot();

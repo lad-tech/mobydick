@@ -71,7 +71,7 @@ const DotsExample = ({length}: {length: number}) => {
         <Dots
           length={length}
           activeDot={activeDotSecondHalf}
-          fixedSize={6}
+          fixedSize={rem(6)}
           activeDotColor={'red'}
         />
         <Button text={'Next'} onPress={onPressNextSecondHalf} />

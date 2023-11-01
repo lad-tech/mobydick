@@ -3,10 +3,13 @@
 exports[`Dots render dots = 0 1`] = `
 <View
   style={
-    {
-      "alignItems": "center",
-      "flexDirection": "row",
-    }
+    [
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
   }
 />
 `;
@@ -1715,10 +1718,15 @@ exports[`Dots render dots activeDot=2 1`] = `
 exports[`Dots render dots activeDot=2 fixedSize 1`] = `
 <View
   style={
-    {
-      "alignItems": "center",
-      "flexDirection": "row",
-    }
+    [
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+      {
+        "zIndex": 2,
+      },
+    ]
   }
 >
   <View
@@ -2160,10 +2168,13 @@ exports[`Dots render dots activeDot=10 animateAutoScroll 1`] = `
 exports[`Dots render dots length < 7 1`] = `
 <View
   style={
-    {
-      "alignItems": "center",
-      "flexDirection": "row",
-    }
+    [
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
   }
 >
   <View

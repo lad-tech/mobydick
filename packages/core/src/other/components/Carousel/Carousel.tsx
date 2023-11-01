@@ -45,6 +45,7 @@ const Carousel = <T,>({
   dotSize,
   activeDotColor,
   passiveDotColor,
+  dotsStyles,
   ...otherProps
 }: ICarouselProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
@@ -237,6 +238,7 @@ const Carousel = <T,>({
           fixedSize={dotSize}
           activeDotColor={activeDotColor}
           passiveDotColor={passiveDotColor}
+          dotsStyles={dotsStyles}
         />
       )}
     </>

@@ -1,3 +1,5 @@
+import {ViewStyle} from 'react-native';
+
 export interface IDotsProps {
   length: number;
   activeDot: number;
@@ -6,4 +8,5 @@ export interface IDotsProps {
   fixedSize?: number | undefined;
   activeDotColor?: string | undefined;
   passiveDotColor?: string | undefined;
+  dotsStyles?: ViewStyle | ViewStyle[] | undefined;
 }

@@ -29,6 +29,7 @@ const Dots = ({
   fixedSize,
   activeDotColor,
   passiveDotColor,
+  dotsStyles,
 }: IDotsProps) => {
   const refScrollView = useRef<ScrollView>(null);
   const dots = [...Array(length).keys()];
@@ -155,10 +156,13 @@ const Dots = ({
   if (isDynamicDots) {
     return (
       <View
-        style={{
-          alignItems: 'center',
-          flexDirection: 'row',
-        }}>
+        style={[
+          {
+            alignItems: 'center',
+            flexDirection: 'row',
+          },
+          dotsStyles,
+        ]}>
         {renderDot()}
       </View>
     );
@@ -170,6 +174,7 @@ const Dots = ({
         {
           width: width,
         },
+        dotsStyles,
       ]}
       onLayout={onLayout}
       accessibilityLabel={LABELS.dotsAnimatedView}>
