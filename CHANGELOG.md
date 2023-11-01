@@ -1,3 +1,14 @@
+## [7.13.3](https://github.com/lad-tech/mobydick/compare/v7.13.2...v7.13.3) (2023-11-01)
+
+
+### Bug Fixes
+
+* add minHeight into Typography ([3f8e702](https://github.com/lad-tech/mobydick/commit/3f8e702e7e39bf5fa42c4a6c1cfad0bb8cbfd533)), closes [#8](https://github.com/lad-tech/mobydick/issues/8)
+* **Carousel:** added check for onActiveChange ([7ff3cd1](https://github.com/lad-tech/mobydick/commit/7ff3cd1fe471b10588eb582973b557b27255504b))
+* **Dots:** added dotsStyles ([821e932](https://github.com/lad-tech/mobydick/commit/821e932519a66c1db66f81a646aa0386b27ab0c6))
+* **Dots:** added fixedSize, activeDotColor, passiveDotColor ([989bab6](https://github.com/lad-tech/mobydick/commit/989bab6c65452817bac4f9b09fd6e2aa91d3d28e))
+* **Dots:** added fixedSize, activeDotColor, passiveDotColor ([445dd80](https://github.com/lad-tech/mobydick/commit/445dd800b972952ee5eb824268ad11a13b7982be))
+
 ## [7.13.2](https://github.com/lad-tech/mobydick/compare/v7.13.1...v7.13.2) (2023-07-19)
 
 # [7.13.0](https://glab.lad24.ru/npm/mobydick/compare/v7.12.0...v7.13.0) (2023-07-17)
