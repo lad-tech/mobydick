@@ -5,7 +5,7 @@ import {Button, Dots, rem, View} from '@lad-tech/mobydick-core';
 const DotsExample = ({length}: {length: number}) => {
   const [activeDot, setActiveDot] = useState(0);
   const [activeDotFirstHalf, setActiveDotFirstHalf] = useState(2);
-  const [activeDotSecondHalf, setActiveDotSecondHalf] = useState(7);
+  const [activeDotSecondHalf, setActiveDotSecondHalf] = useState(3);
 
   const onPressPrevFirstHalf = useCallback(() => {
     if (activeDotFirstHalf !== 0) {
@@ -68,7 +68,12 @@ const DotsExample = ({length}: {length: number}) => {
           paddingHorizontal: rem(20),
         }}>
         <Button text={'Prev'} onPress={onPressPrevSecondHalf} />
-        <Dots length={length} activeDot={activeDotSecondHalf} />
+        <Dots
+          length={length}
+          activeDot={activeDotSecondHalf}
+          fixedSize={rem(6)}
+          activeDotColor={'red'}
+        />
         <Button text={'Next'} onPress={onPressNextSecondHalf} />
       </View>
     </View>

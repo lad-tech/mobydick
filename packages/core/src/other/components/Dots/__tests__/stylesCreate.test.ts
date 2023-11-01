@@ -14,7 +14,6 @@ describe('dots/stylesCreate', () => {
         height: rem(8),
         marginHorizontal: rem(5),
         borderRadius: rem(8) / 2,
-        backgroundColor: '#B6BBC6',
       },
       dots: {
         flexDirection: 'row',

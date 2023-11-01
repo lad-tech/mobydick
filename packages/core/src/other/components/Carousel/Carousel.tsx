@@ -42,6 +42,10 @@ const Carousel = <T,>({
   isScrolling = false,
   ms = 2000,
   indexScroll,
+  dotSize,
+  activeDotColor,
+  passiveDotColor,
+  dotsStyles,
   ...otherProps
 }: ICarouselProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
@@ -231,6 +235,10 @@ const Carousel = <T,>({
           length={data.length}
           activeDot={currIndex}
           animateAutoScroll={animateAutoScroll}
+          fixedSize={dotSize}
+          activeDotColor={activeDotColor}
+          passiveDotColor={passiveDotColor}
+          dotsStyles={dotsStyles}
         />
       )}
     </>

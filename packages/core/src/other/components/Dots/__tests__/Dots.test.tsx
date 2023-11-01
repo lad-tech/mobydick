@@ -17,6 +17,19 @@ describe('Dots', () => {
     const {toJSON} = render(<Dots length={16} activeDot={2} />);
     expect(toJSON()).toMatchSnapshot();
   });
+  test('render dots activeDot=2 fixedSize', () => {
+    const {toJSON} = render(
+      <Dots
+        length={5}
+        activeDot={2}
+        fixedSize={4}
+        passiveDotColor={'black'}
+        activeDotColor={'red'}
+        dotsStyles={{zIndex: 2}}
+      />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
   test('render dots activeDot=10', () => {
     const {toJSON} = render(
       <Dots length={10} activeDot={9} animateAutoScroll={false} />,

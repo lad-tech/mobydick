@@ -207,6 +207,25 @@ describe('Carousel', () => {
       },
     });
   });
+  it('render Carousel isDots with props', () => {
+    const {toJSON} = render(
+      <SafeAreaProvider>
+        <Carousel
+          data={data}
+          sliderItem={sliderItem}
+          keyExtractor={keyExtractor}
+          isDots={true}
+          activeItemId={'1'}
+          itemWidth={itemWidth}
+          align={ICarouselAlign.start}
+          dotSize={4}
+          activeDotColor={'red'}
+          passiveDotColor={'black'}
+        />
+      </SafeAreaProvider>,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
   it('render Carousel onActiveChange', () => {
     const {toJSON} = render(
       <SafeAreaProvider>
