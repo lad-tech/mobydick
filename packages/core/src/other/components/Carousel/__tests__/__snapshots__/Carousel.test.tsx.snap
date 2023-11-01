@@ -3750,11 +3750,13 @@ exports[`Carousel render Carousel isDots 1`] = `
           style={
             [
               {
+                "borderRadius": 6,
+                "height": 12,
+                "marginHorizontal": 7.5,
+                "width": 12,
+              },
+              {
                 "backgroundColor": "#5E6678",
-                "borderRadius": 6,
-                "height": 12,
-                "marginHorizontal": 7.5,
-                "width": 12,
               },
             ]
           }
@@ -3763,11 +3765,13 @@ exports[`Carousel render Carousel isDots 1`] = `
           style={
             [
               {
-                "backgroundColor": "#B6BBC6",
                 "borderRadius": 6,
                 "height": 12,
                 "marginHorizontal": 7.5,
                 "width": 12,
+              },
+              {
+                "backgroundColor": "#B6BBC6",
               },
             ]
           }
@@ -3776,11 +3780,13 @@ exports[`Carousel render Carousel isDots 1`] = `
           style={
             [
               {
-                "backgroundColor": "#B6BBC6",
                 "borderRadius": 6,
                 "height": 12,
                 "marginHorizontal": 7.5,
                 "width": 12,
+              },
+              {
+                "backgroundColor": "#B6BBC6",
               },
             ]
           }
@@ -3789,24 +3795,13 @@ exports[`Carousel render Carousel isDots 1`] = `
           style={
             [
               {
-                "backgroundColor": "#B6BBC6",
                 "borderRadius": 4.5,
                 "height": 9,
                 "marginHorizontal": 7.5,
                 "width": 9,
               },
-            ]
-          }
-        />
-        <View
-          style={
-            [
               {
                 "backgroundColor": "#B6BBC6",
-                "borderRadius": 3,
-                "height": 6,
-                "marginHorizontal": 7.5,
-                "width": 6,
               },
             ]
           }
@@ -3815,11 +3810,13 @@ exports[`Carousel render Carousel isDots 1`] = `
           style={
             [
               {
-                "backgroundColor": "#B6BBC6",
                 "borderRadius": 3,
                 "height": 6,
                 "marginHorizontal": 7.5,
                 "width": 6,
+              },
+              {
+                "backgroundColor": "#B6BBC6",
               },
             ]
           }
@@ -3828,11 +3825,693 @@ exports[`Carousel render Carousel isDots 1`] = `
           style={
             [
               {
-                "backgroundColor": "#B6BBC6",
                 "borderRadius": 3,
                 "height": 6,
                 "marginHorizontal": 7.5,
                 "width": 6,
+              },
+              {
+                "backgroundColor": "#B6BBC6",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 3,
+                "height": 6,
+                "marginHorizontal": 7.5,
+                "width": 6,
+              },
+              {
+                "backgroundColor": "#B6BBC6",
+              },
+            ]
+          }
+        />
+      </View>
+    </RCTScrollView>
+  </View>,
+]
+`;
+
+exports[`Carousel render Carousel isDots with props 1`] = `
+[
+  <RCTScrollView
+    accessibilityLabel="carousel"
+    bounces={false}
+    data={
+      [
+        {
+          "id": "0",
+          "name": "icon-starfill",
+        },
+        {
+          "id": "1",
+          "name": "icon-starfill",
+        },
+        {
+          "id": "2",
+          "name": "icon-starfill",
+        },
+        {
+          "id": "3",
+          "name": "icon-starfill",
+        },
+        {
+          "id": "4",
+          "name": "icon-starfill",
+        },
+        {
+          "id": "5",
+          "name": "icon-starfill",
+        },
+        {
+          "id": "6",
+          "name": "icon-starfill",
+        },
+      ]
+    }
+    decelerationRate={0}
+    extraData={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollToIndexFailed={[Function]}
+    onViewableItemsChanged={[Function]}
+    pagingEnabled={true}
+    removeClippedSubviews={true}
+    renderItem={[Function]}
+    scrollEventThrottle={16}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={130}
+    stickyHeaderIndices={[]}
+    viewabilityConfig={
+      {
+        "itemVisiblePercentThreshold": 80,
+        "waitForInteraction": true,
+      }
+    }
+    viewabilityConfigCallbackPairs={
+      [
+        {
+          "onViewableItemsChanged": [Function],
+          "viewabilityConfig": {
+            "itemVisiblePercentThreshold": 80,
+            "waitForInteraction": true,
+          },
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 15,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 15,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 15,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 15,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 15,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 15,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessibilityLabel="carouselItem"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginHorizontal": 15,
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 36,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>,
+  <View
+    accessibilityLabel="dotsAnimatedView"
+    collapsable={false}
+    onLayout={[Function]}
+    style={
+      {
+        "width": 150,
+      }
+    }
+  >
+    <RCTScrollView
+      accessibilityLabel="dotsScrollView"
+      bounces={false}
+      contentContainerStyle={
+        {
+          "alignItems": "center",
+        }
+      }
+      horizontal={true}
+      scrollEnabled={false}
+      showsHorizontalScrollIndicator={false}
+    >
+      <View>
+        <View
+          style={
+            [
+              {
+                "borderRadius": 6,
+                "height": 12,
+                "marginHorizontal": 7.5,
+                "width": 12,
+              },
+              {
+                "backgroundColor": "red",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 6,
+                "height": 12,
+                "marginHorizontal": 7.5,
+                "width": 12,
+              },
+              {
+                "backgroundColor": "black",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 6,
+                "height": 12,
+                "marginHorizontal": 7.5,
+                "width": 12,
+              },
+              {
+                "backgroundColor": "black",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 4.5,
+                "height": 9,
+                "marginHorizontal": 7.5,
+                "width": 9,
+              },
+              {
+                "backgroundColor": "black",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 3,
+                "height": 6,
+                "marginHorizontal": 7.5,
+                "width": 6,
+              },
+              {
+                "backgroundColor": "black",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 3,
+                "height": 6,
+                "marginHorizontal": 7.5,
+                "width": 6,
+              },
+              {
+                "backgroundColor": "black",
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            [
+              {
+                "borderRadius": 3,
+                "height": 6,
+                "marginHorizontal": 7.5,
+                "width": 6,
+              },
+              {
+                "backgroundColor": "black",
               },
             ]
           }
