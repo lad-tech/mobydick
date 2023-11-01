@@ -131,6 +131,7 @@ const Carousel = <T,>({
           setCurrIndex(index);
         }
         typeof onActiveChange === 'function' &&
+          viewableItems[0]?.item &&
           onActiveChange(viewableItems[0]?.item);
       } else {
         const length = viewableItems.length;
@@ -150,6 +151,7 @@ const Carousel = <T,>({
         }
 
         typeof onActiveChange === 'function' &&
+          viewableItems[middleVisibleElement]?.item &&
           onActiveChange(viewableItems[middleVisibleElement]?.item);
       }
     },
