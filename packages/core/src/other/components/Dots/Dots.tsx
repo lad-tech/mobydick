@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {ScrollView, Animated} from 'react-native';
 
 import View from '../../../basic/components/View/View';
@@ -22,7 +22,14 @@ function getDirection(newIdx: number, prevIdx: number): number {
   return newIdx < prevIdx ? -1 : 1;
 }
 
-const Dots = ({length, activeDot, animateAutoScroll = true}: IDotsProps) => {
+const Dots = ({
+  length,
+  activeDot,
+  animateAutoScroll = true,
+  fixedSize,
+  activeDotColor,
+  passiveDotColor,
+}: IDotsProps) => {
   const refScrollView = useRef<ScrollView>(null);
   const dots = [...Array(length).keys()];
   const [prevIndex, setPrevIndex] = useState(activeDot - 1);
@@ -98,7 +105,7 @@ const Dots = ({length, activeDot, animateAutoScroll = true}: IDotsProps) => {
 
   useEffect(() => {
     isDynamicDots ? setIndexes() : isMiddleDotActive && scrollTo(activeDot);
-  }, [activeDot]);
+  }, [activeDot, isDynamicDots, isMiddleDotActive]);
 
   const size = useCallback(
     (k: number) => {
@@ -124,7 +131,13 @@ const Dots = ({length, activeDot, animateAutoScroll = true}: IDotsProps) => {
 
   const renderDot = () => {
     return dots.map(dot => (
-      <Dot key={dot} active={dot === activeDot} size={size(dot)} />
+      <Dot
+        key={dot}
+        active={dot === activeDot}
+        size={isDynamicDots ? fixedSize || size(dot) : size(dot)}
+        activeDotColor={activeDotColor}
+        passiveDotColor={passiveDotColor}
+      />
     ));
   };
 
@@ -132,6 +145,12 @@ const Dots = ({length, activeDot, animateAutoScroll = true}: IDotsProps) => {
     //scroll to right index on initial render
     scrollTo(activeDot);
   }, [activeDot]);
+
+  const width = useMemo(() => {
+    return isDynamicDots
+      ? (fixedSize && (fixedSize + MARGIN_DOT) * 8) || WIDTH_MEDIUM
+      : WIDTH_MEDIUM;
+  }, [fixedSize, isDynamicDots]);
 
   if (isDynamicDots) {
     return (
@@ -149,7 +168,7 @@ const Dots = ({length, activeDot, animateAutoScroll = true}: IDotsProps) => {
     <Animated.View
       style={[
         {
-          width: WIDTH_MEDIUM,
+          width: width,
         },
       ]}
       onLayout={onLayout}

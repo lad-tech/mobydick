@@ -23,4 +23,7 @@ export interface ICarouselProps<T>
   isScrolling?: boolean;
   ms?: number;
   indexScroll?: number;
+  dotSize?: number;
+  activeDotColor?: string;
+  passiveDotColor?: string;
 }
