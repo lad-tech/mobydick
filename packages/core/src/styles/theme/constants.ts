@@ -19,6 +19,7 @@ import {
   defaultTextDarkColor,
   defaultTextLightColor,
 } from '../colors';
+import {TWeights} from '../../typography';
 
 import {IDefaultTheme} from './types';
 
@@ -26,7 +27,14 @@ export enum CurrentTheme {
   light = 'light',
   dark = 'dark',
 }
-
+export const defaultFonts: TWeights = {
+  Regular: 'Inter-Regular',
+  Medium: 'Inter-Medium',
+  SemiBold: 'Inter-SemiBold',
+  Bold: 'Inter-Bold',
+  Italic: 'Inter-Italic',
+  BoldItalic: 'Inter-BoldItalic',
+};
 export const defaultTheme: IDefaultTheme = {
   currentTheme: CurrentTheme.light,
   colors: {
@@ -56,4 +64,5 @@ export const defaultTheme: IDefaultTheme = {
   spaces: {
     ...defaultSpaces,
   },
+  fonts: defaultFonts,
 };

@@ -6,10 +6,11 @@ import {
   TFontWeight,
   TypographyProp,
 } from '../types';
-import {getSize, getWeight} from '../utils';
+import {getSize} from '../utils';
 
 export const useFont = (font: TypographyProp = 'Regular-Primary-S') => {
-  const {colors} = useTheme();
+  const {colors, theme} = useTheme();
+  const getWeight = (weight: TFontWeight): string => theme.fonts[weight];
 
   const [weight, color, size] = font.split('-');
   const {fontSize, lineHeight} = getSize(size as TFontSize);
