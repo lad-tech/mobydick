@@ -25,14 +25,6 @@ export enum TFontSize {
   XXXS = 'XXXS',
 }
 
-export type TFont =
-  | 'Inter-Regular'
-  | 'Inter-Medium'
-  | 'Inter-SemiBold'
-  | 'Inter-Bold'
-  | 'Inter-Italic'
-  | 'Inter-BoldItalic';
-
 export enum TFontWeight {
   Regular = 'Regular',
   Medium = 'Medium',
@@ -52,7 +44,7 @@ export type TFontColor = TFontColorConverter<keyof ITextColors>;
 
 export type TSizes = Record<TFontSize, {fontSize: number; lineHeight: number}>;
 
-export type TWeights = Record<TFontWeight, TFont>;
+export type TWeights = Record<TFontWeight, string>;
 
 export type TypographyProp = `${TFontWeight}-${TFontColor}-${TFontSize}`;
 

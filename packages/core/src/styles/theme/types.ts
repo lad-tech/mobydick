@@ -11,7 +11,7 @@ import {
 } from '../colors';
 import {defaultSpaces} from '../spaces';
 
-import {CurrentTheme, defaultTheme} from './constants';
+import {CurrentTheme, defaultFonts, defaultTheme} from './constants';
 
 export type ICurrentTheme = CurrentTheme | string;
 
@@ -30,6 +30,7 @@ export interface IDefaultTheme {
       typeof defaultBannerLightColor
   >;
   spaces: typeof defaultSpaces;
+  fonts: typeof defaultFonts;
 }
 
 export interface IThemeContext {
