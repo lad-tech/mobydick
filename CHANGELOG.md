@@ -1,3 +1,10 @@
+# [7.14.0](https://github.com/lad-tech/mobydick/compare/v7.13.3...v7.14.0) (2023-11-16)
+
+
+### Features
+
+* **Typography:** you can use custom font now ([c8ec591](https://github.com/lad-tech/mobydick/commit/c8ec591735dd9108e4b661c0d13b4edf1fe72bfb))
+
 ## [7.13.3](https://github.com/lad-tech/mobydick/compare/v7.13.2...v7.13.3) (2023-11-01)
 
 
