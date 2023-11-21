@@ -7,6 +7,7 @@ import {
   Typography,
   TypographyProp,
 } from '../../../typography';
+import useTheme from '../../../styles/theme/hooks/useTheme';
 
 interface IInputTitle {
   title: string;
@@ -17,16 +18,19 @@ interface IInputTitle {
 }
 const InputTitle = (props: IInputTitle) => {
   const {title, titleProps, titleFont, titleStyle, required} = props;
+  const {colors} = useTheme();
+  const font = titleFont || titleProps?.font || 'Medium-Tertiary-XS';
 
   return (
     <View style={{flexDirection: 'row'}}>
-      <Typography
-        font={titleFont || 'Medium-Tertiary-XS'}
-        style={titleStyle}
-        {...titleProps}>
+      <Typography font={font} style={titleStyle} {...titleProps}>
         {title}
       </Typography>
-      {required && <Typography font={'Medium-Error-XS'}>{'*'}</Typography>}
+      {required && (
+        <Typography font={font} style={{color: colors.TextError}}>
+          {'*'}
+        </Typography>
+      )}
     </View>
   );
 };

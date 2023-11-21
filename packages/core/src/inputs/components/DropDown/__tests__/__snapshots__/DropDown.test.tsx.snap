@@ -715,13 +715,15 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly without array with t
       style={
         [
           {
-            "color": "#F54D3D",
+            "color": "#5E6678",
             "fontFamily": "Inter-Medium",
             "fontSize": 21,
             "lineHeight": 27,
             "minHeight": 27,
           },
-          undefined,
+          {
+            "color": "#F54D3D",
+          },
         ]
       }
     >
