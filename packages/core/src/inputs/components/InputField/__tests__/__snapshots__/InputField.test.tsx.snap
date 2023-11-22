@@ -1044,3 +1044,93 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
   </View>
 </View>
 `;
+
+exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
+<View
+  style={
+    [
+      {
+        "minWidth": 195,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#5E6678",
+            "fontFamily": "Inter-Medium",
+            "fontSize": 22.5,
+            "lineHeight": 28.5,
+            "minHeight": 28.5,
+          },
+          undefined,
+        ]
+      }
+    >
+      title
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#EEEFF1",
+          "borderColor": "transparent",
+          "borderRadius": 12,
+          "borderWidth": 1.5,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 12,
+          "paddingLeft": 27,
+          "paddingRight": 24,
+          "paddingVertical": 0,
+        },
+        {
+          "height": 72,
+        },
+        undefined,
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      multiline={false}
+      numberOfLines={1}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#9BA1B0"
+      selectionColor="#2B78EE"
+      style={
+        [
+          {
+            "flex": 1,
+            "padding": 0,
+          },
+          [
+            {
+              "color": "#20242D",
+              "fontSize": 24,
+              "padding": 0,
+            },
+          ],
+          undefined,
+        ]
+      }
+      testID="TextInput"
+    />
+  </View>
+</View>
+`;

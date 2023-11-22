@@ -94,4 +94,11 @@ describe('@lad-tech/mobydick-core/InputField', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders title titleProps', () => {
+    const {toJSON} = render(
+      <InputField title={'title'} titleProps={{font: 'Medium-Tertiary-S'}} />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
