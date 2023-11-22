@@ -1,3 +1,10 @@
+# [7.15.0](https://github.com/lad-tech/mobydick/compare/v7.14.0...v7.15.0) (2023-11-22)
+
+
+### Features
+
+* **InputTitle:** changed font for * ([bb94122](https://github.com/lad-tech/mobydick/commit/bb941224852b5496bd3e41998cb6aec3c29c54af))
+
 # [7.14.0](https://github.com/lad-tech/mobydick/compare/v7.13.3...v7.14.0) (2023-11-16)
 
 
