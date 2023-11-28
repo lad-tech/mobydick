@@ -10,7 +10,6 @@ const stylesCreate = (theme: IThemeContext) => {
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'center',
-      maxWidth: '95%',
       height: rem(36),
       backgroundColor: colors.BgSecondary,
       borderRadius: spaces.Space8,
