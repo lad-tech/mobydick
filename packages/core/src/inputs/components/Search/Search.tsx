@@ -1,9 +1,10 @@
-import React, {FC, useCallback} from 'react';
+import React, {forwardRef, useCallback} from 'react';
 
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 import SimpleIcon from '../../../styles/icons/font/SimpleIcon';
 import TextInput from '../../../basic/components/TextInput/TextInput';
+import {ITextInput} from '../../../basic';
 import Pressable from '../../../basic/components/Pressable/Pressable';
 import rem from '../../../styles/spaces/rem';
 import {LABELS} from '../../../other';
@@ -12,19 +13,20 @@ import {strings} from './constants';
 import stylesCreate from './stylesCreate';
 import {ISearchProps} from './types';
 
-const Search: FC<ISearchProps> = ({
-  placeholder = strings.search,
-  value,
-  onChangeText = text => {
-    console.log(
-      `Search says: "Add onChangeText (╯°□°)╯︵ ┻━┻". Current value=${text}`,
-    );
-  },
-  containerStyle,
-  leftIcon,
-  textInputContainerStyle,
-  ...otherProps
-}) => {
+const Search = forwardRef<ITextInput, ISearchProps>((props, ref) => {
+  const {
+    placeholder = strings.search,
+    value,
+    onChangeText = text => {
+      console.log(
+        `Search says: "Add onChangeText (╯°□°)╯︵ ┻━┻". Current value=${text}`,
+      );
+    },
+    containerStyle,
+    leftIcon,
+    textInputContainerStyle,
+    ...otherProps
+  } = props;
   const [styles, theme] = useStyles(stylesCreate);
 
   const onCancel = useCallback(() => {
@@ -35,6 +37,7 @@ const Search: FC<ISearchProps> = ({
     <View style={[styles.container, containerStyle]}>
       {leftIcon ? leftIcon : <SimpleIcon name={'icon-search'} />}
       <TextInput
+        ref={ref}
         accessibilityLabel={LABELS.search}
         style={[styles.textInput, textInputContainerStyle]}
         placeholder={placeholder}
@@ -54,6 +57,6 @@ const Search: FC<ISearchProps> = ({
       ) : null}
     </View>
   );
-};
+});
 
 export default Search;
