@@ -1,3 +1,11 @@
+## [7.15.1](https://github.com/lad-tech/mobydick/compare/v7.15.0...v7.15.1) (2023-11-28)
+
+
+### Bug Fixes
+
+* **search:** added forward ref for search input [#25](https://github.com/lad-tech/mobydick/issues/25) ([8da674e](https://github.com/lad-tech/mobydick/commit/8da674e125252731ce43261ec187738eee4342a6))
+* **search:** removed maxWidth [#22](https://github.com/lad-tech/mobydick/issues/22) ([84d004a](https://github.com/lad-tech/mobydick/commit/84d004aa025d43e6e827e11d3c87785bbee0e3d2))
+
 # [7.15.0](https://github.com/lad-tech/mobydick/compare/v7.14.0...v7.15.0) (2023-11-22)
 
 
