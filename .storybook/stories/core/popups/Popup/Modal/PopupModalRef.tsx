@@ -48,29 +48,29 @@ const contentAsk = (propsFromPopup: IContentProps) => (
 );
 
 const showModalAsk = () => {
-  MobyDickPopup.openPopup(ModalAsk, {
+  const id = MobyDickPopup.openPopup(ModalAsk, {
     title: 'Delete account?',
     descriptionText: 'You will permanently lose your data',
     textRight: 'Delete',
     textLeft: 'Cancel',
-    onPressRight: runDeleteProcess,
-    id: 'ModalAsk',
+    onPressRight: () => {
+      runDeleteProcess(id);
+    },
   });
 };
 
-const runDeleteProcess = () => {
-  MobyDickPopup.closePopup('ModalAsk');
+const runDeleteProcess = (id: string) => {
+  MobyDickPopup.closePopup(id);
 
-  MobyDickPopup.openPopup(contentLoading, {
-    onClose: id => {
-      MobyDickPopup.closePopup(id);
+  const contentLoadingId = MobyDickPopup.openPopup(contentLoading, {
+    onClose: () => {
+      MobyDickPopup.closePopup(contentLoadingId);
       clearTimeout(timer);
     },
-    id: 'contentLoading',
   });
 
   const timer = setTimeout(() => {
-    MobyDickPopup.closePopup('contentLoading');
+    MobyDickPopup.closePopup(contentLoadingId);
     MobyDickPopup.openPopup(contentSuccess, {
       onClose: MobyDickPopup.closeAllPopups,
     });

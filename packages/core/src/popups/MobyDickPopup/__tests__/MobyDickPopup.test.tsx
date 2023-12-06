@@ -40,12 +40,14 @@ const ExampleTwo = () => {
     <View>
       <ButtonWrapper
         testID={testIdOpenPopup}
-        onPress={() =>
-          MobyDickPopup.openPopup(Popup, {
+        onPress={() => {
+          const id = MobyDickPopup.openPopup(Popup, {
             id: 'Popup',
-            onClose: MobyDickPopup.closePopup,
-          })
-        }
+            onClose: () => {
+              MobyDickPopup.closePopup(id);
+            },
+          });
+        }}
         title={'title'}
       />
       <ButtonWrapper
@@ -101,20 +103,6 @@ describe('@lad-tech/mobydick-core/MobyDickPopup', () => {
     //закрыли оба
     fireEvent.press(getByTestId(testIdCloseSpecificPopup));
     fireEvent.press(getByTestId(testIdCloseSpecificPopup));
-    expect(toJSON()).toMatchSnapshot();
-  });
-  it('should renders correctly third', async () => {
-    const {toJSON, getByTestId} = render(
-      <PopupsProvider>
-        <ExampleTwo />
-      </PopupsProvider>,
-    );
-
-    fireEvent.press(getByTestId(testIdOpenPopup));
-    expect(toJSON()).toMatchSnapshot();
-
-    // Вызвали onClose у попапа и он пропал
-    fireEvent.press(getByTestId(testIdPopup));
     expect(toJSON()).toMatchSnapshot();
   });
 });

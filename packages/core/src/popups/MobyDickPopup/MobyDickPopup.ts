@@ -6,7 +6,7 @@ export const modalRef = createRef<IModalRef>();
 
 const MobyDickPopup: IModalRef = {
   openPopup: (modal, props) => {
-    modalRef.current?.openPopup(modal, props);
+    return modalRef.current?.openPopup(modal, props) as string;
   },
   closePopup: id => {
     modalRef.current?.closePopup(id);

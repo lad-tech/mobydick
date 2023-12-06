@@ -24,13 +24,15 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   const [state, dispatch] = useReducer(reducer, defaultState);
 
   const openPopupWithProps: IModalRef['openPopup'] = (modal, ownProps) => {
+    const id = (popupId++).toString();
     dispatch(
       openPopupAction({
         Content: modal as FC,
         props: ownProps || {},
-        id: ownProps?.id || (popupId++).toString(),
+        id,
       }),
     );
+    return id;
   };
 
   const openPopup = (popup: IOpenPopupParams) => {
@@ -68,21 +70,12 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
       {children}
       {state.popups.map(popup => {
         if (isPopupWithProps(popup)) {
-          const {onClose, ...otherProps} = popup.props;
-          const handleClose = () => {
-            if (onClose) {
-              onClose(popup.id);
-            } else {
-              closePopup(popup.id);
-            }
-          };
-
           return (
             <popup.Content
               key={popup.id}
               id={popup.id}
-              onClose={handleClose}
-              {...otherProps}
+              onClose={() => closePopup(popup.id)}
+              {...popup.props}
             />
           );
         }
