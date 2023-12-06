@@ -1,9 +1,12 @@
 import {IPopupId, IPopup} from '../types';
+import {IPopupWithProps} from '../MobyDickPopup';
 
 import {POPUP_CLOSE, POPUP_CLOSE_ALL, POPUP_OPEN} from './constatnts';
 import {ICloseAction, ICloseAllAction, IOpenAction} from './types';
 
-export const openPopupAction = (popup: IPopup): IOpenAction => ({
+export const openPopupAction = (
+  popup: IPopup | IPopupWithProps,
+): IOpenAction => ({
   type: POPUP_OPEN,
   popup,
 });

@@ -4,3 +4,5 @@ export * from './hooks';
 
 export * from './types';
 export * from './functions';
+
+export {MobyDickPopup} from './MobyDickPopup';
