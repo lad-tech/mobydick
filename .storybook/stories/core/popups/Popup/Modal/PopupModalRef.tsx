@@ -9,6 +9,7 @@ import {
   ModalError,
   ModalLoading,
   ModalSuccess,
+  usePopup,
 } from '@lad-tech/mobydick-core';
 
 const contentSuccess = (propsFromPopup: IContentProps) => (
@@ -78,6 +79,8 @@ const runDeleteProcess = (id: string) => {
 };
 
 const PopupModalRef = () => {
+  const askPopup = usePopup(contentAsk);
+
   return (
     <>
       <Button
@@ -118,6 +121,15 @@ const PopupModalRef = () => {
           MobyDickPopup.openPopup(contentAsk, {
             overlayStyle: {backgroundColor: 'rgba(0,0,0,0.8)'},
           });
+        }}
+      />
+
+      <Button
+        text={'open more vie usePopup'}
+        type={IButtonTypes.secondary}
+        style={{marginBottom: 10}}
+        onPress={() => {
+          askPopup.open();
         }}
       />
     </>
