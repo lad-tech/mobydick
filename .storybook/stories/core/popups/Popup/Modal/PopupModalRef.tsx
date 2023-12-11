@@ -41,7 +41,7 @@ const contentAsk = (propsFromPopup: IContentProps) => (
   <ModalAsk
     title={'Delete account?'}
     descriptionText={'You will permanently lose your data'}
-    onPressRight={() => MobyDickPopup.openPopup(contentAsk)}
+    onPressRight={() => MobyDickPopup.openPopup({Content: contentAsk})}
     textLeft={'Cancel'}
     textRight={'More'}
     {...propsFromPopup}
@@ -49,13 +49,16 @@ const contentAsk = (propsFromPopup: IContentProps) => (
 );
 
 const showModalAsk = () => {
-  const id = MobyDickPopup.openPopup(ModalAsk, {
-    title: 'Delete account?',
-    descriptionText: 'You will permanently lose your data',
-    textRight: 'Delete',
-    textLeft: 'Cancel',
-    onPressRight: () => {
-      runDeleteProcess(id);
+  const id = MobyDickPopup.openPopup({
+    Content: ModalAsk,
+    props: {
+      title: 'Delete account?',
+      descriptionText: 'You will permanently lose your data',
+      textRight: 'Delete',
+      textLeft: 'Cancel',
+      onPressRight: () => {
+        runDeleteProcess(id);
+      },
     },
   });
 };
@@ -63,17 +66,21 @@ const showModalAsk = () => {
 const runDeleteProcess = (id: string) => {
   MobyDickPopup.closePopup(id);
 
-  const contentLoadingId = MobyDickPopup.openPopup(contentLoading, {
-    onClose: () => {
-      MobyDickPopup.closePopup(contentLoadingId);
-      clearTimeout(timer);
+  const contentLoadingId = MobyDickPopup.openPopup({
+    Content: contentLoading,
+    props: {
+      onClose: () => {
+        MobyDickPopup.closePopup(contentLoadingId);
+        clearTimeout(timer);
+      },
     },
   });
 
   const timer = setTimeout(() => {
     MobyDickPopup.closePopup(contentLoadingId);
-    MobyDickPopup.openPopup(contentSuccess, {
-      onClose: MobyDickPopup.closeAllPopups,
+    MobyDickPopup.openPopup({
+      Content: contentSuccess,
+      props: {onClose: MobyDickPopup.closeAllPopups},
     });
   }, 3000);
 };
@@ -93,7 +100,7 @@ const PopupModalRef = () => {
       <Button
         text={'Open modal error'}
         type={IButtonTypes.secondary}
-        onPress={() => MobyDickPopup.openPopup(contentError)}
+        onPress={() => MobyDickPopup.openPopup({Content: contentError})}
         style={{marginBottom: 10}}
       />
 
@@ -102,13 +109,15 @@ const PopupModalRef = () => {
         type={IButtonTypes.secondary}
         style={{marginBottom: 10}}
         onPress={() => {
-          MobyDickPopup.openPopup(ModalAsk, {
-            title: 'What we need to do?',
-            descriptionText: 'Take your time...',
-            textRight: 'Open more',
-            textLeft: 'Cancel',
-            onPressRight: showModalAsk,
-            overlayStyle: {},
+          MobyDickPopup.openPopup({
+            Content: ModalAsk,
+            props: {
+              title: 'What we need to do?',
+              descriptionText: 'Take your time...',
+              textRight: 'Open more',
+              textLeft: 'Cancel',
+              onPressRight: showModalAsk,
+            },
           });
         }}
       />
@@ -118,7 +127,8 @@ const PopupModalRef = () => {
         type={IButtonTypes.secondary}
         style={{marginBottom: 10}}
         onPress={() => {
-          MobyDickPopup.openPopup(contentAsk, {
+          MobyDickPopup.openPopup({
+            Content: contentAsk,
             overlayStyle: {backgroundColor: 'rgba(0,0,0,0.8)'},
           });
         }}

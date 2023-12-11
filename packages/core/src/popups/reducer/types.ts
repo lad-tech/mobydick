@@ -1,10 +1,9 @@
 import {IPopupId, IPopup} from '../types';
-import {IPopupWithProps} from '../MobyDickPopup';
 
 import {POPUP_CLOSE, POPUP_CLOSE_ALL, POPUP_OPEN} from './constatnts';
 
 export interface IState {
-  popups: (IPopup | IPopupWithProps)[];
+  popups: IPopup[];
   currentPopup: IPopup | null;
 }
 

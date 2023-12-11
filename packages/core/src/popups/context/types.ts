@@ -1,10 +1,10 @@
 import {IPopup, IPopupId} from '../types';
-import {IPopupWithProps} from '../MobyDickPopup';
 
-export type IOpenPopupParams = Partial<IPopup> & Pick<IPopup, 'Content'>;
+export type IOpenPopupParams<Props> = Partial<IPopup<Props>> &
+  Pick<IPopup<Props>, 'Content'>;
 export interface IPopupsContext {
-  popups: (IPopup | IPopupWithProps)[];
-  openPopup: (popup: IOpenPopupParams) => void;
+  popups: IPopup[];
+  openPopup: <Props>(popup: IOpenPopupParams<Props>) => string;
   closePopup: (id: IPopupId) => void;
   closeAllPopups: () => void;
 }

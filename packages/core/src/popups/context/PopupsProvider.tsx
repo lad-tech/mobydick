@@ -8,7 +8,7 @@ import {
   closePopupAction,
   openPopupAction,
 } from '../reducer';
-import {modalRef, IModalRef, isPopupWithProps} from '../MobyDickPopup';
+import {modalRef} from '../MobyDickPopup';
 
 import {IOpenPopupParams, IPopupsContext} from './types';
 import PopupsContext from './PopupsContext';
@@ -23,25 +23,17 @@ let popupId = 1;
 const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   const [state, dispatch] = useReducer(reducer, defaultState);
 
-  const openPopupWithProps: IModalRef['openPopup'] = (modal, ownProps) => {
-    const id = (popupId++).toString();
-    dispatch(
-      openPopupAction({
-        Content: modal as FC,
-        props: ownProps || {},
-        id,
-      }),
-    );
-    return id;
-  };
+  const openPopup = <Props,>({Content, ...params}: IOpenPopupParams<Props>) => {
+    const modalId = params.id || (popupId++).toString();
 
-  const openPopup = (popup: IOpenPopupParams) => {
     dispatch(
       openPopupAction({
-        ...popup,
-        id: popup.id || (popupId++).toString(),
+        ...params,
+        Content: Content as FC,
+        id: modalId,
       }),
     );
+    return modalId;
   };
 
   const closePopup = (id: IPopupId) => {
@@ -60,7 +52,7 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   };
 
   useImperativeHandle(modalRef, () => ({
-    openPopup: openPopupWithProps,
+    openPopup,
     closePopup,
     closeAllPopups,
   }));
@@ -68,25 +60,15 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   return (
     <PopupsContext.Provider value={context}>
       {children}
-      {state.popups.map(popup => {
-        if (isPopupWithProps(popup)) {
-          return (
-            <popup.Content
-              key={popup.id}
-              id={popup.id}
-              onClose={() => closePopup(popup.id)}
-              {...popup.props}
-            />
-          );
-        }
-
+      {state.popups.map(({props, ...contentProps}) => {
         return (
-          <popup.Content
-            key={popup.id}
+          <contentProps.Content
+            key={contentProps.id}
+            {...contentProps}
+            {...props}
             onClose={() => {
-              closePopup(popup.id);
+              props?.onClose ? props?.onClose() : closePopup(contentProps.id);
             }}
-            {...popup}
           />
         );
       })}

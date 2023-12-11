@@ -10,11 +10,16 @@ export interface IContentProps extends Omit<IPopup, 'Content'> {
   id: IPopupId;
 }
 
-export interface IPopup {
+export interface IPopup<Props = object> {
   id: IPopupId;
-  Content: FC<IContentProps>;
+  Content: FC<IContentProps & Props>;
   overlayStyle?: StyleProp<ViewStyle>;
+  props?: ModalProps<Props>;
 }
+
+export type ModalProps<Props> = Omit<Props, keyof IContentProps> & {
+  onClose?(): void;
+};
 
 export enum IPosition {
   top = 'top',

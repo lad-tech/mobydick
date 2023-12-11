@@ -26,17 +26,23 @@ const SnackbarPopupExample = (storyProps: IExampleSnackbarStoryProps) => {
   const showSnackBar = () => {
     const handelClose = () => {
       MobyDickPopup.closePopup(ExampleSnackbarId);
-      MobyDickPopup.openPopup(ExampleSnackbar, {
-        ...storyProps,
-        position: IPosition.top,
+      MobyDickPopup.openPopup({
+        Content: ExampleSnackbar,
+        props: {
+          ...storyProps,
+          position: IPosition.top,
+        },
       });
     };
 
-    const ExampleSnackbarId = MobyDickPopup.openPopup(ExampleSnackbar, {
-      ...storyProps,
-      title: 'Show more tips?',
-      textButton: 'Show more',
-      onClose: handelClose,
+    const ExampleSnackbarId = MobyDickPopup.openPopup({
+      Content: ExampleSnackbar,
+      props: {
+        ...storyProps,
+        title: 'Show more tips?',
+        textButton: 'Show more',
+        onClose: handelClose,
+      },
     });
   };
 

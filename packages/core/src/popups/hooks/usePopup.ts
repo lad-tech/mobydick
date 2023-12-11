@@ -1,14 +1,17 @@
 import {FC, useRef} from 'react';
 
-import {IContentProps} from '../types';
-import {MobyDickPopup, ModalProps} from '../MobyDickPopup';
+import {IContentProps, ModalProps} from '../types';
+import {MobyDickPopup} from '../MobyDickPopup';
 
-const usePopup = <Props>(modal: FC<Props & IContentProps>) => {
+const usePopup = <Props = object>(modal: FC<IContentProps & Props>) => {
   const id = useRef<string | null>(null);
 
   return {
-    open: (props?: Props & ModalProps) => {
-      id.current = MobyDickPopup.openPopup(modal, props);
+    open: (props = {} as ModalProps<Props>) => {
+      id.current = MobyDickPopup.openPopup({
+        Content: modal,
+        props: props,
+      });
     },
     close: () => {
       if (id.current) {

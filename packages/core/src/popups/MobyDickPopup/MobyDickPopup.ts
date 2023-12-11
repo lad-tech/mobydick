@@ -5,8 +5,8 @@ import {IModalRef} from './types';
 export const modalRef = createRef<IModalRef>();
 
 const MobyDickPopup: IModalRef = {
-  openPopup: (modal, props) => {
-    return modalRef.current?.openPopup(modal, props) as string;
+  openPopup: props => {
+    return modalRef.current?.openPopup(props) as string;
   },
   closePopup: id => {
     modalRef.current?.closePopup(id);

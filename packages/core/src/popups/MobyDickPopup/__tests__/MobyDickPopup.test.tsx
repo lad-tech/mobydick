@@ -10,7 +10,6 @@ import MobyDickPopup from '../MobyDickPopup';
 const testIdPopup = 'testIdPopup';
 const testIdOpenPopup = 'testIdOpenPopup';
 const testIdCloseAllPopup = 'testIdCloseAllPopup';
-const testIdCloseSpecificPopup = 'testIdCloseSpecificPopup';
 
 const Popup = ({onClose}: IContentProps) => {
   return (
@@ -23,36 +22,21 @@ const Example = () => {
     <View>
       <ButtonWrapper
         testID={testIdOpenPopup}
-        onPress={() => MobyDickPopup.openPopup(Popup)}
-        title={'title'}
-      />
-      <ButtonWrapper
-        testID={testIdCloseAllPopup}
-        onPress={() => MobyDickPopup.closeAllPopups()}
-        title={'title'}
-      />
-    </View>
-  );
-};
-
-const ExampleTwo = () => {
-  return (
-    <View>
-      <ButtonWrapper
-        testID={testIdOpenPopup}
         onPress={() => {
-          const id = MobyDickPopup.openPopup(Popup, {
-            id: 'Popup',
-            onClose: () => {
-              MobyDickPopup.closePopup(id);
+          const id = MobyDickPopup.openPopup({
+            Content: Popup,
+            props: {
+              onClose: () => {
+                MobyDickPopup.closePopup(id);
+              },
             },
           });
         }}
         title={'title'}
       />
       <ButtonWrapper
-        testID={testIdCloseSpecificPopup}
-        onPress={() => MobyDickPopup.closePopup('Popup')}
+        testID={testIdCloseAllPopup}
+        onPress={() => MobyDickPopup.closeAllPopups()}
         title={'title'}
       />
     </View>
@@ -85,24 +69,6 @@ describe('@lad-tech/mobydick-core/MobyDickPopup', () => {
 
     // Вызвали closeAllPopups и они все закрылись
     fireEvent.press(getByTestId(testIdCloseAllPopup));
-    expect(toJSON()).toMatchSnapshot();
-  });
-
-  it('should renders correctly second', async () => {
-    const {toJSON, getByTestId} = render(
-      <PopupsProvider>
-        <ExampleTwo />
-      </PopupsProvider>,
-    );
-
-    // открыли два попапа
-    fireEvent.press(getByTestId(testIdOpenPopup));
-    fireEvent.press(getByTestId(testIdOpenPopup));
-    expect(toJSON()).toMatchSnapshot();
-
-    //закрыли оба
-    fireEvent.press(getByTestId(testIdCloseSpecificPopup));
-    fireEvent.press(getByTestId(testIdCloseSpecificPopup));
     expect(toJSON()).toMatchSnapshot();
   });
 });

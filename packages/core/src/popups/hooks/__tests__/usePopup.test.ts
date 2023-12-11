@@ -20,7 +20,7 @@ describe('@lad-tech/mobydick-core/usePopup', () => {
     });
 
     result.current.open({title: 'test'});
-    expect(openPopup).toHaveBeenCalledWith(fakeComponent, props);
+    expect(openPopup).toHaveBeenCalledWith({Content: fakeComponent, props});
 
     result.current.close();
     expect(closePopup).toHaveBeenCalledWith('1');
@@ -38,5 +38,17 @@ describe('@lad-tech/mobydick-core/usePopup', () => {
 
     result.current.close();
     expect(closePopup).not.toHaveBeenCalled();
+  });
+
+  it('open without props', () => {
+    const component: FC = () => null;
+    const openPopup = jest.spyOn(MobyDickPopup, 'openPopup');
+
+    const {result} = renderHook(() => usePopup(component), {
+      wrapper: PopupsProvider,
+    });
+
+    result.current.open();
+    expect(openPopup).toHaveBeenCalledWith({Content: component, props: {}});
   });
 });
