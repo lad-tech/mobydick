@@ -31,6 +31,7 @@ export interface IPropsItem extends IPropsContents {
 export interface IActionSheetBaseProps
   extends PropsWithChildren<Omit<IPopup, 'Content'>> {
   onClose: () => void;
+  overlayStyle?: StyleProp<ViewStyle>;
   containerStyle?: StyleProp<ViewStyle>;
   children: React.ReactNode;
 }

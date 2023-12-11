@@ -1,7 +1,6 @@
-import {TextStyle} from 'react-native';
+import {StyleProp, TextStyle, ViewStyle} from 'react-native';
 
 import {TypographyProp} from '../../../typography/types';
-import {IPopup} from '../../types';
 
 export interface ITitlePopup {
   title: string;
@@ -29,6 +28,7 @@ export interface IPopupCloseIcon {
   onPress(): void;
 }
 
-export type IPopupProps = Pick<IPopup, 'overlayStyle'> & {
+export type IPopupProps = {
+  overlayStyle?: StyleProp<ViewStyle>;
   onClose: () => void;
 };

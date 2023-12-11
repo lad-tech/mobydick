@@ -4,9 +4,10 @@ import {FC} from 'react';
 import usePopup from '../usePopup';
 import {PopupsProvider} from '../../context';
 import {MobyDickPopup} from '../../MobyDickPopup';
+import {IContentProps} from '../../types';
 
 describe('@lad-tech/mobydick-core/usePopup', () => {
-  const fakeComponent: FC<{title: string}> = () => null;
+  const fakeComponent: FC<{title: string} & IContentProps> = () => null;
   beforeEach(jest.clearAllMocks);
 
   it('use case', () => {

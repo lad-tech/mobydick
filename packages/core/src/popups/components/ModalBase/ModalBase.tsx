@@ -19,6 +19,7 @@ import TextContent from './TextContent';
 const ModalBase: FC<
   PropsWithChildren<
     Omit<IPopup, 'Content'> & {
+      overlayStyle?: StyleProp<ViewStyle>;
       onClose: () => void;
       containerStyle?: StyleProp<ViewStyle>;
     }

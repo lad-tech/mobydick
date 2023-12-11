@@ -1,25 +1,18 @@
-import {StyleProp, ViewStyle} from 'react-native';
 import {FC} from 'react';
 
 import {IButtonTypes} from '../cta/components/Button/types';
 
 export type IPopupId = string;
-
-export interface IContentProps extends Omit<IPopup, 'Content'> {
+export interface IContentProps extends Omit<IPopup, 'Content' | 'props'> {
   onClose: () => void;
   id: IPopupId;
 }
 
-export interface IPopup<Props = object> {
+export interface IPopup<Props extends IContentProps = IContentProps> {
   id: IPopupId;
-  Content: FC<IContentProps & Props>;
-  overlayStyle?: StyleProp<ViewStyle>;
-  props?: ModalProps<Props>;
+  Content: FC<Props>;
+  props?: Record<string, unknown>;
 }
-
-export type ModalProps<Props> = Omit<Props, keyof IContentProps> & {
-  onClose?(): void;
-};
 
 export enum IPosition {
   top = 'top',
