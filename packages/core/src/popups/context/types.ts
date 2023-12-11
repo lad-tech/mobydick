@@ -1,7 +1,6 @@
-import {IContentProps, IPopup, IPopupId} from '../types';
+import {IPopup, IPopupId} from '../types';
 
-export type IOpenPopupParams<Props extends IContentProps = IContentProps> =
-  Partial<IPopup<Props>> & Pick<IPopup<Props>, 'Content'>;
+export type IOpenPopupParams = Partial<IPopup> & Pick<IPopup, 'Content'>;
 
 export interface IPopupsContext {
   popups: IPopup[];

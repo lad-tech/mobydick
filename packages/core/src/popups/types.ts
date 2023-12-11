@@ -8,9 +8,9 @@ export interface IContentProps extends Omit<IPopup, 'Content' | 'props'> {
   id: IPopupId;
 }
 
-export interface IPopup<Props extends IContentProps = IContentProps> {
+export interface IPopup {
   id: IPopupId;
-  Content: FC<Props>;
+  Content: FC<IContentProps>;
   props?: Record<string, unknown>;
 }
 
