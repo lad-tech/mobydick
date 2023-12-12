@@ -129,7 +129,6 @@ const PopupModalRef = () => {
         onPress={() => {
           MobyDickPopup.openPopup({
             Content: contentAsk,
-            overlayStyle: {backgroundColor: 'rgba(0,0,0,0.8)'},
           });
         }}
       />

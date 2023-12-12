@@ -2,11 +2,11 @@ import React, {FC, useImperativeHandle, useReducer} from 'react';
 
 import {IPopup, IPopupId} from '../types';
 import {
-  reducer,
-  defaultState,
   closeAllPopupsAction,
   closePopupAction,
+  defaultState,
   openPopupAction,
+  reducer,
 } from '../reducer';
 import {modalRef} from '../MobyDickPopup';
 
@@ -23,13 +23,16 @@ let popupId = 1;
 const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   const [state, dispatch] = useReducer(reducer, defaultState);
 
-  const openPopup = ({Content, ...params}: IOpenPopupParams) => {
+  const openPopup = <Params,>({
+    Content,
+    ...params
+  }: IOpenPopupParams<Params>) => {
     const modalId = params.id || (popupId++).toString();
 
     dispatch(
       openPopupAction({
         ...params,
-        Content: Content,
+        Content: Content as FC,
         id: modalId,
       }),
     );
@@ -60,16 +63,16 @@ const PopupsProvider: FC<IPopupsProviderProps> = ({children}) => {
   return (
     <PopupsContext.Provider value={context}>
       {children}
-      {state.popups.map(({props, Content, ...contentProps}) => {
+      {state.popups.map(({props, Content, id}) => {
         return (
           <Content
-            key={contentProps.id}
-            {...contentProps}
+            key={id}
+            id={id}
             {...props}
             onClose={() => {
               props?.onClose && typeof props.onClose === 'function'
                 ? props?.onClose()
-                : closePopup(contentProps.id);
+                : closePopup(id);
             }}
           />
         );

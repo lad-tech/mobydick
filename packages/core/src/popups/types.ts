@@ -8,10 +8,10 @@ export interface IContentProps extends Omit<IPopup, 'Content' | 'props'> {
   id: IPopupId;
 }
 
-export interface IPopup {
+export interface IPopup<Props = Record<string, unknown>> {
   id: IPopupId;
-  Content: FC<IContentProps>;
-  props?: Record<string, unknown>;
+  Content: FC<IContentProps & Props>;
+  props?: Omit<Props, keyof IContentProps> & Partial<IContentProps>;
 }
 
 export enum IPosition {
