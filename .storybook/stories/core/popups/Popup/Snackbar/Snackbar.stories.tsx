@@ -9,6 +9,7 @@ import {
   Button,
   IButtonSize,
   IPosition,
+  MobyDickPopup,
   usePopups,
   View,
 } from '@lad-tech/mobydick-core';
@@ -22,11 +23,40 @@ const SnackbarPopupExample = (storyProps: IExampleSnackbarStoryProps) => {
     });
   }, []);
 
+  const showSnackBar = () => {
+    const handelClose = () => {
+      MobyDickPopup.closePopup(ExampleSnackbarId);
+      MobyDickPopup.openPopup({
+        Content: ExampleSnackbar,
+        props: {
+          ...storyProps,
+          position: IPosition.top,
+        },
+      });
+    };
+
+    const ExampleSnackbarId = MobyDickPopup.openPopup({
+      Content: ExampleSnackbar,
+      props: {
+        ...storyProps,
+        title: 'Show more tips?',
+        textButton: 'Show more',
+        onClose: handelClose,
+      },
+    });
+  };
+
   return (
     <View>
       <Button
         text={'Нажми и появится выплывашка'}
         onPress={onPress}
+        size={IButtonSize.fixed}
+        style={{marginBottom: 10}}
+      />
+      <Button
+        text={'Нажми и появится еще одна всплывашка'}
+        onPress={showSnackBar}
         size={IButtonSize.fixed}
       />
     </View>

@@ -1,6 +1,7 @@
 import React, {useCallback, useState} from 'react';
 
 import ExampleModal, {IExampleModalStoryProps} from './ExampleModal';
+import PopupModalRef from './PopupModalRef';
 
 import {
   Button,
@@ -9,8 +10,8 @@ import {
   ModalError,
   ModalLoading,
   ModalSuccess,
+  ScrollView,
   usePopups,
-  View,
 } from '@lad-tech/mobydick-core';
 
 const contentSuccess = (propsFromPopup: IContentProps) => (
@@ -89,7 +90,7 @@ const PopupModalExample = (storyProps: IExampleModalStoryProps) => {
   }, [popupContext]);
 
   return (
-    <View>
+    <ScrollView style={{margin: 20}} showsVerticalScrollIndicator={false}>
       <Button
         text={'Open modal constructor'}
         onPress={onPress}
@@ -111,7 +112,8 @@ const PopupModalExample = (storyProps: IExampleModalStoryProps) => {
         style={{marginBottom: 10}}
       />
       <Button text={'Open modal ask'} onPress={onPressModalAsk} />
-    </View>
+      <PopupModalRef />
+    </ScrollView>
   );
 };
 

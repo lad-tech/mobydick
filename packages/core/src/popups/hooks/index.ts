@@ -1,3 +1,4 @@
 import usePopups from './usePopups';
+import usePopup from './usePopup';
 
-export {usePopups};
+export {usePopups, usePopup};

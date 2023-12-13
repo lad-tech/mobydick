@@ -18,6 +18,7 @@ export interface IArrowViewPopup {
 
 export interface ITooltipBaseProps
   extends PropsWithChildren<Omit<IPopup, 'Content'>> {
+  overlayStyle?: StyleProp<ViewStyle>;
   onClose: () => void;
   containerStyle?: StyleProp<ViewStyle>;
   position: IPosition;
