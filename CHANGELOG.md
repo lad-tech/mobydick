@@ -1,3 +1,10 @@
+# [7.16.0](https://github.com/lad-tech/mobydick/compare/v7.15.1...v7.16.0) (2023-12-13)
+
+
+### Features
+
+* **MobyDickPopup:** applied new modal workflow ([a43caae](https://github.com/lad-tech/mobydick/commit/a43caaeb3829a05d84c262830bf124477726909a))
+
 ## [7.15.1](https://github.com/lad-tech/mobydick/compare/v7.15.0...v7.15.1) (2023-11-28)
 
 
