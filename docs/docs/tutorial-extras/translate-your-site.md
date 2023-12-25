@@ -8,9 +8,9 @@ Let's translate `docs/intro.md` to French.
 
 ## Configure i18n
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+Modify `docusaurus.config.ts` to add support for the `fr` locale:
 
-```js title="docusaurus.config.js"
+```js title="docusaurus.config.ts"
 module.exports = {
   i18n: {
     defaultLocale: 'en',
@@ -51,9 +51,9 @@ In development, you can only use one locale at a same time.
 
 To navigate seamlessly across languages, add a locale dropdown.
 
-Modify the `docusaurus.config.js` file:
+Modify the `docusaurus.config.ts` file:
 
-```js title="docusaurus.config.js"
+```js title="docusaurus.config.ts"
 module.exports = {
   themeConfig: {
     navbar: {
