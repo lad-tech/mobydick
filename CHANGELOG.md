@@ -1,3 +1,10 @@
+## [7.16.1](https://github.com/lad-tech/mobydick/compare/v7.16.0...v7.16.1) (2023-12-28)
+
+
+### Bug Fixes
+
+* **InputField:** changed styles for multiline ([221d476](https://github.com/lad-tech/mobydick/commit/221d47675ffa91f9733bda72b6085b63ed3c4cac))
+
 # [7.16.0](https://github.com/lad-tech/mobydick/compare/v7.15.1...v7.16.0) (2023-12-13)
 
 
