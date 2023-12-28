@@ -54,7 +54,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
         style={
           [
             {
-              "alignItems": "flex-start",
+              "alignItems": undefined,
               "backgroundColor": "#EEEFF1",
               "borderColor": "transparent",
               "borderRadius": 12,
@@ -99,6 +99,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
               {
                 "flex": 1,
                 "padding": 0,
+                "textAlignVertical": "top",
               },
               {
                 "color": "#20242D",
@@ -231,7 +232,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
         style={
           [
             {
-              "alignItems": "flex-start",
+              "alignItems": undefined,
               "backgroundColor": "#EEEFF1",
               "borderColor": "transparent",
               "borderRadius": 12,
@@ -276,6 +277,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
               {
                 "flex": 1,
                 "padding": 0,
+                "textAlignVertical": "top",
               },
               [
                 {
@@ -413,7 +415,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
         style={
           [
             {
-              "alignItems": "flex-start",
+              "alignItems": undefined,
               "backgroundColor": "#EEEFF1",
               "borderColor": "transparent",
               "borderRadius": 12,
@@ -458,6 +460,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
               {
                 "flex": 1,
                 "padding": 0,
+                "textAlignVertical": "top",
               },
               {
                 "color": "#20242D",

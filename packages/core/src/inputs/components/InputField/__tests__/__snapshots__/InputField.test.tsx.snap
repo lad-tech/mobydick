@@ -73,6 +73,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -179,6 +180,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -244,6 +246,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -309,6 +312,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -374,6 +378,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -464,6 +469,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           [
             {
@@ -521,7 +527,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
     style={
       [
         {
-          "alignItems": "flex-start",
+          "alignItems": undefined,
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
           "borderRadius": 12,
@@ -554,6 +560,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": "top",
           },
           [
             {
@@ -645,6 +652,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           [
             {
@@ -751,6 +759,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -816,6 +825,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -881,6 +891,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -987,6 +998,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -1118,6 +1130,7 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": undefined,
           },
           [
             {

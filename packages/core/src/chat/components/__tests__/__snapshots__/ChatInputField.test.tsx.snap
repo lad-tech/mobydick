@@ -23,7 +23,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
     style={
       [
         {
-          "alignItems": "flex-start",
+          "alignItems": undefined,
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
           "borderRadius": 12,
@@ -69,6 +69,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": "top",
           },
           {
             "color": "#20242D",
@@ -115,7 +116,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
     style={
       [
         {
-          "alignItems": "flex-start",
+          "alignItems": undefined,
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.3)",
           "borderRadius": 12,
@@ -160,6 +161,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": "top",
           },
           {
             "color": "#20242D",
@@ -205,7 +207,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
     style={
       [
         {
-          "alignItems": "flex-start",
+          "alignItems": undefined,
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
           "borderRadius": 12,
@@ -250,6 +252,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": "top",
           },
           {
             "color": "#20242D",
@@ -295,7 +298,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
     style={
       [
         {
-          "alignItems": "flex-start",
+          "alignItems": undefined,
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
           "borderRadius": 12,
@@ -343,6 +346,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
           {
             "flex": 1,
             "padding": 0,
+            "textAlignVertical": "top",
           },
           {
             "color": "#20242D",

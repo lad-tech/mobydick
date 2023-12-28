@@ -24,11 +24,12 @@ const defaultStyle = (
       marginVertical: spaces.Space8,
       flexDirection: 'row',
       justifyContent: 'space-between',
-      alignItems: multiline ? 'flex-start' : 'center',
+      alignItems: multiline ? undefined : 'center',
       paddingVertical: multiline ? spaces.Space12 : 0,
     },
     textInput: {
       flex: 1,
+      textAlignVertical: multiline ? 'top' : undefined,
       padding: 0, // Android по дефолту ставит padding на input's
     },
 
