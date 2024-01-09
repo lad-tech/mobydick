@@ -1,4 +1,4 @@
-import type {Config} from '@docusaurus/types';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -69,6 +69,7 @@ const config: Config = {
           position: 'right',
         },
       ],
+
     },
     footer: {
       style: 'dark',
@@ -106,6 +107,35 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Lad Tech, Inc. Built with Docusaurus.`,
+    },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'C0KBSNQWS0',
+
+      // Public API key: it is safe to commit it
+      apiKey: 'c9739716be0e7428aaef4803ad849fbc',
+
+      indexName: 'mobydick',
+
+      // Optional: see doc section below
+      // contextualSearch: true,
+
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      // externalUrlRegex: 'external\\.com|domain\\.com',
+
+      // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+      // replaceSearchResultPathname: {
+      //   from: '/docs/', // or as RegExp: /\/docs\//
+      //   to: '/',
+      // },
+
+      // Optional: Algolia search parameters
+      // searchParameters: {},
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      // searchPagePath: 'search',
+
+      //... other Algolia params
     },
   } satisfies Preset.ThemeConfig,
 };
