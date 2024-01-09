@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Mobydick</ShortName>
+  <Description>Search Mobydick</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://lad-tech.github.io/mobydick/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://lad-tech.github.io/mobydick/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://lad-tech.github.io/mobydick/opensearch.xml" />
+  <moz:SearchForm>https://lad-tech.github.io/mobydick/</moz:SearchForm>
+</OpenSearchDescription>
