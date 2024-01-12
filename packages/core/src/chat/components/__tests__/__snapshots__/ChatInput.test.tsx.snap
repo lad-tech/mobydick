@@ -62,11 +62,11 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
               "flexDirection": "row",
               "justifyContent": "space-between",
               "marginVertical": 12,
-              "paddingRight": 24,
             },
             {
               "minHeight": 120,
             },
+            null,
             [
               {
                 "alignItems": "center",
@@ -99,6 +99,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
                 "flex": 1,
                 "padding": 0,
                 "paddingLeft": 27,
+                "paddingRight": 24,
                 "paddingVertical": 18,
                 "textAlignVertical": "top",
               },
@@ -244,11 +245,11 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
               "flexDirection": "row",
               "justifyContent": "space-between",
               "marginVertical": 12,
-              "paddingRight": 24,
             },
             {
               "minHeight": 120,
             },
+            null,
             [
               {
                 "alignItems": "center",
@@ -281,6 +282,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
                 "flex": 1,
                 "padding": 0,
                 "paddingLeft": 27,
+                "paddingRight": 24,
                 "paddingVertical": 18,
                 "textAlignVertical": "top",
               },
@@ -431,11 +433,11 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
               "flexDirection": "row",
               "justifyContent": "space-between",
               "marginVertical": 12,
-              "paddingRight": 24,
             },
             {
               "minHeight": 120,
             },
+            null,
             [
               {
                 "alignItems": "center",
@@ -468,6 +470,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
                 "flex": 1,
                 "padding": 0,
                 "paddingLeft": 27,
+                "paddingRight": 24,
                 "paddingVertical": 18,
                 "textAlignVertical": "top",
               },

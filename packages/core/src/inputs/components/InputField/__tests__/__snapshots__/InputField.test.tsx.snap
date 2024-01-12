@@ -48,11 +48,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -73,6 +73,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -159,11 +160,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -184,6 +185,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -229,11 +231,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -254,6 +256,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -299,11 +302,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -324,6 +327,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -369,11 +373,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -394,6 +398,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -464,11 +469,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -489,6 +494,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -559,11 +565,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "minHeight": 120,
         },
+        null,
         undefined,
       ]
     }
@@ -584,6 +590,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 18,
             "textAlignVertical": "top",
           },
@@ -654,11 +661,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -680,6 +687,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -766,11 +774,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -791,6 +799,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -836,11 +845,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -861,6 +870,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -906,11 +916,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -931,6 +941,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -1017,11 +1028,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -1042,6 +1053,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },
@@ -1153,11 +1165,11 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
           "flexDirection": "row",
           "justifyContent": "space-between",
           "marginVertical": 12,
-          "paddingRight": 24,
         },
         {
           "height": 72,
         },
+        null,
         undefined,
       ]
     }
@@ -1178,6 +1190,7 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
             "flex": 1,
             "padding": 0,
             "paddingLeft": 27,
+            "paddingRight": 24,
             "paddingVertical": 0,
             "textAlignVertical": undefined,
           },

@@ -67,7 +67,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     } else {
       return fontStyle;
     }
-  }, [fontStyle.color]);
+  }, [fontStyle]);
 
   const onFocusInput = useCallback(
     (event: NativeSyntheticEvent<TextInputFocusEventData>) => {
@@ -87,6 +87,11 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
   const getHeight = () => {
     return multiline ? {minHeight: rem(80)} : {height: rem(48)};
   };
+
+  const getPadding = useCallback(() => {
+    return rightIcon ? {paddingRight: rem(16)} : null;
+  }, [rightIcon]);
+
   return (
     <View style={[styles.container, containerStyle]}>
       {title && (
@@ -94,7 +99,12 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
       )}
 
       <View
-        style={[styles.inputContainer, getHeight(), textInputContainerStyle]}>
+        style={[
+          styles.inputContainer,
+          getHeight(),
+          getPadding(),
+          textInputContainerStyle,
+        ]}>
         <TextInput
           ref={ref}
           testID={Constants.testID}

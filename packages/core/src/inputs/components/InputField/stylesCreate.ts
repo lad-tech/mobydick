@@ -16,7 +16,6 @@ const defaultStyle = (
     },
     inputContainer: {
       backgroundColor: colors.BgSecondary,
-      paddingRight: spaces.Space16,
       borderRadius: spaces.Space8,
       borderWidth: spaces.Space1,
       borderColor: focused ? colors.BorderNormal : 'transparent',
@@ -27,6 +26,7 @@ const defaultStyle = (
     },
     textInput: {
       flex: 1,
+      paddingRight: spaces.Space16,
       paddingLeft: rem(18),
       textAlignVertical: multiline ? 'top' : undefined,
       padding: 0, // Android по дефолту ставит padding на input's
