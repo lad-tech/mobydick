@@ -67,7 +67,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     } else {
       return fontStyle;
     }
-  }, [fontStyle]);
+  }, [fontStyle.color]);
 
   const onFocusInput = useCallback(
     (event: NativeSyntheticEvent<TextInputFocusEventData>) => {
