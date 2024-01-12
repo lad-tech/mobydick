@@ -1,3 +1,10 @@
+## [7.16.2](https://github.com/lad-tech/mobydick/compare/v7.16.1...v7.16.2) (2024-01-12)
+
+
+### Bug Fixes
+
+* **InputField:** changed styles for click-through rate ([6339154](https://github.com/lad-tech/mobydick/commit/63391549287d893b4095ed59e4bcf590535292de))
+
 ## [7.16.1](https://github.com/lad-tech/mobydick/compare/v7.16.0...v7.16.1) (2023-12-28)
 
 
