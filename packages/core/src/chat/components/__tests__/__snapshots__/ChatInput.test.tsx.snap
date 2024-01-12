@@ -62,13 +62,11 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
               "flexDirection": "row",
               "justifyContent": "space-between",
               "marginVertical": 12,
-              "paddingLeft": 27,
-              "paddingRight": 24,
-              "paddingVertical": 18,
             },
             {
               "minHeight": 120,
             },
+            null,
             [
               {
                 "alignItems": "center",
@@ -97,9 +95,16 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
           style={
             [
               {
+                "borderRadius": 12,
                 "flex": 1,
                 "padding": 0,
+                "paddingLeft": 27,
+                "paddingRight": 24,
+                "paddingVertical": 18,
                 "textAlignVertical": "top",
+              },
+              {
+                "minHeight": 120,
               },
               {
                 "color": "#20242D",
@@ -240,13 +245,11 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
               "flexDirection": "row",
               "justifyContent": "space-between",
               "marginVertical": 12,
-              "paddingLeft": 27,
-              "paddingRight": 24,
-              "paddingVertical": 18,
             },
             {
               "minHeight": 120,
             },
+            null,
             [
               {
                 "alignItems": "center",
@@ -275,9 +278,16 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
           style={
             [
               {
+                "borderRadius": 12,
                 "flex": 1,
                 "padding": 0,
+                "paddingLeft": 27,
+                "paddingRight": 24,
+                "paddingVertical": 18,
                 "textAlignVertical": "top",
+              },
+              {
+                "minHeight": 120,
               },
               [
                 {
@@ -423,13 +433,11 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
               "flexDirection": "row",
               "justifyContent": "space-between",
               "marginVertical": 12,
-              "paddingLeft": 27,
-              "paddingRight": 24,
-              "paddingVertical": 18,
             },
             {
               "minHeight": 120,
             },
+            null,
             [
               {
                 "alignItems": "center",
@@ -458,9 +466,16 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
           style={
             [
               {
+                "borderRadius": 12,
                 "flex": 1,
                 "padding": 0,
+                "paddingLeft": 27,
+                "paddingRight": 24,
+                "paddingVertical": 18,
                 "textAlignVertical": "top",
+              },
+              {
+                "minHeight": 120,
               },
               {
                 "color": "#20242D",
