@@ -331,6 +331,11 @@ PODS:
     - glog
   - react-native-safe-area-context (4.7.1):
     - React-Core
+  - react-native-skia (0.1.234):
+    - RCT-Folly (= 2021.07.22.00)
+    - React
+    - React-callinvoker
+    - React-Core
   - react-native-slider (4.4.2):
     - React-Core
   - React-perflogger (0.71.6)
@@ -421,6 +426,13 @@ PODS:
     - React-Core
   - RNDateTimePicker (7.4.1):
     - React-Core
+  - RNGestureHandler (2.14.1):
+    - RCT-Folly (= 2021.07.22.00)
+    - React-Core
+  - RNReanimated (3.6.1):
+    - RCT-Folly (= 2021.07.22.00)
+    - React-Core
+    - ReactCommon/turbomodule/core
   - RNSVG (13.6.0):
     - React-Core
   - SocketRocket (0.6.0)
@@ -475,6 +487,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
+  - "react-native-skia (from `../node_modules/@shopify/react-native-skia`)"
   - "react-native-slider (from `../node_modules/@react-native-community/slider`)"
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -491,6 +504,8 @@ DEPENDENCIES:
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNSVG (from `../node_modules/react-native-svg`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -555,6 +570,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
+  react-native-skia:
+    :path: "../node_modules/@shopify/react-native-skia"
   react-native-slider:
     :path: "../node_modules/@react-native-community/slider"
   React-perflogger:
@@ -587,6 +604,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-async-storage/async-storage"
   RNDateTimePicker:
     :path: "../node_modules/@react-native-community/datetimepicker"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
+  RNReanimated:
+    :path: "../node_modules/react-native-reanimated"
   RNSVG:
     :path: "../node_modules/react-native-svg"
   Yoga:
@@ -627,6 +648,7 @@ SPEC CHECKSUMS:
   React-jsinspector: d5ce2ef3eb8fd30c28389d0bc577918c70821bd6
   React-logger: 9332c3e7b4ef007a0211c0a9868253aac3e1da82
   react-native-safe-area-context: 9697629f7b2cda43cf52169bb7e0767d330648c2
+  react-native-skia: 60202ab85d2ea2f90f9e3d70f4dcb00fd589e72e
   react-native-slider: 33b8d190b59d4f67a541061bb91775d53d617d9d
   React-perflogger: 43392072a5b867a504e2b4857606f8fc5a403d7f
   React-RCTActionSheet: c7b67c125bebeda9fb19fc7b200d85cb9d6899c4
@@ -643,11 +665,13 @@ SPEC CHECKSUMS:
   ReactCommon: 0c43eaeaaee231d7d8dc24fc5a6e4cf2b75bf196
   RNCAsyncStorage: f47fe18526970a69c34b548883e1aeceb115e3e1
   RNDateTimePicker: 9b4091348e53f540180abdc54984d839a556f593
+  RNGestureHandler: fe2be3be5598dc74329b211c58c9f2d231461769
+  RNReanimated: dc83bf2068bbc91572938337c5b2030641de1415
   RNSVG: 3a79c0c4992213e4f06c08e62730c5e7b9e4dc17
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: ba09b6b11e6139e3df8229238aa794205ca6a02a
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: b7388b22bc3659815ec744e99f821253dcfa51f8
+PODFILE CHECKSUM: f4b0987ddef36ab7d8a8db229de1e71ac9e93454
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.14.3

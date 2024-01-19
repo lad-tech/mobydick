@@ -49,7 +49,7 @@ try {
 
 const getStories = () => {
   return {
-    "./.storybook/stories/calendar/Calendar.stories.tsx": require("./stories/calendar/Calendar.stories.tsx"),
+    "./.storybook/stories/calendar/Calendar.stories.tsx": require("./stories/chart/Chart.stories.tsx"),
     "./.storybook/stories/core/chat/Chat.stories.tsx": require("./stories/core/chat/Chat.stories.tsx"),
     "./.storybook/stories/core/controls/Checkbox.stories.ts": require("./stories/core/controls/Checkbox.stories.ts"),
     "./.storybook/stories/core/controls/ControlLists.stories.tsx": require("./stories/core/controls/ControlLists.stories.tsx"),
