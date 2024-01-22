@@ -15,7 +15,7 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 import {mockChartDataset} from './chart';
 
-import {LineChart} from '@lad-tech/mobydick-chart';
+import {BarChart, LineChart} from '@lad-tech/mobydick-chart';
 import {ThemeProvider, View} from '@lad-tech/mobydick-core';
 
 function App(): React.JSX.Element {
@@ -27,9 +27,20 @@ function App(): React.JSX.Element {
         <ThemeProvider>
           <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
           <View
-            style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            style={{
+              flex: 1,
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: 10,
+            }}>
             <LineChart
-              title={'BIBA'}
+              title={'LineChart'}
+              dataset={mockChartDataset}
+              formatterX={value => value.toFixed()}
+              formatterY={value => value.toFixed()}
+            />
+            <BarChart
+              title={'BarChart'}
               dataset={mockChartDataset}
               formatterX={value => value.toFixed()}
               formatterY={value => value.toFixed()}
