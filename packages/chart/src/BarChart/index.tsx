@@ -9,10 +9,10 @@ import {
   chartPaddingHorizontal,
   chartPaddingVertical,
   defaultChartHeightDivider,
-} from '../lib/constants';
+} from '../utils/constants';
 import Coordinates from '../components/Coordinates';
 import Line from '../components/Line';
-import {generateBarsPath} from '../lib/generateBar';
+import {generateBarsPath} from '../utils/generateBar';
 
 interface IBarChartProps {
   title?: string;

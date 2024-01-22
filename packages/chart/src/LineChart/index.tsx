@@ -16,10 +16,10 @@ import {
   chartPaddingHorizontal,
   chartPaddingVertical,
   defaultChartHeightDivider,
-} from '../lib/constants';
+} from '../utils/constants';
 import {IDataset, IFormatter} from '../types';
 import Section from '../components/Section';
-import {generatePeriodsWithPaths} from '../lib/generatePeriodsWithPaths';
+import {generatePeriodsWithPaths} from '../utils/generatePeriodsWithPaths';
 
 interface ILineChartProps {
   title?: string;

@@ -8,10 +8,10 @@ import {
 } from 'react-native-reanimated';
 import {defaultTheme} from '@lad-tech/mobydick-core';
 
-import {chartPaddingHorizontal, chartPaddingVertical} from '../lib/constants';
+import {chartPaddingHorizontal, chartPaddingVertical} from '../utils/constants';
 import {IFormatter} from '../types';
-import {generateCoordinatesPath} from '../lib/generateCoordinatesPath';
-import {getCoordinateValues} from '../lib/getCoordinateValues';
+import {generateCoordinatesPath} from '../utils/generateCoordinatesPath';
+import {getCoordinateValues} from '../utils/getCoordinateValues';
 
 interface ICoordinatesProps {
   font: SkFont | null;
