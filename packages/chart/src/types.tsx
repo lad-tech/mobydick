@@ -13,3 +13,9 @@ export interface IDataset {
 }
 
 export type IFormatter = (value: number) => string;
+
+export interface IGeneratePeriodsWithPaths {
+  dataset: IDataset;
+  width: number;
+  height: number;
+}

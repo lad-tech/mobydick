@@ -2,13 +2,14 @@ import React from 'react';
 import {
   Canvas,
   Group,
-  useCanvasRef,
   Text,
+  useCanvasRef,
   useFont,
 } from '@shopify/react-native-skia';
 import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
-import {View, useTheme} from '@lad-tech/mobydick-core';
+import {View} from 'react-native';
+import {useTheme} from '@lad-tech/mobydick-core';
 
 import Coordinates from '../components/Coordinates';
 import Line from '../components/Line';
@@ -19,26 +20,29 @@ import {
 } from '../utils/constants';
 import {IDataset, IFormatter} from '../types';
 import Section from '../components/Section';
-import {generatePeriodsWithPaths} from '../utils/generatePeriodsWithPaths';
+import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
 
 interface ILineChartProps {
   title?: string;
   dataset: IDataset;
+  isShowSection?: boolean;
   formatterX?: IFormatter;
   formatterY?: IFormatter;
 }
 
-export const LineChart = ({
+const LineChart = ({
   dataset,
   title,
+  isShowSection = true,
   formatterY,
   formatterX,
 }: ILineChartProps) => {
+  const {colors, spaces} = useTheme();
   const font = useFont(
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
     require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf'),
     14,
   );
-  const {colors, spaces} = useTheme();
   const ref = useCanvasRef();
 
   const {height: frameHeight, width: frameWidth} = useSafeAreaFrame();
@@ -53,7 +57,7 @@ export const LineChart = ({
     width: realWidth - chartPaddingHorizontal,
   };
 
-  const periodsWithPaths = generatePeriodsWithPaths({
+  const periodsWithPaths = generatePeriodsWithLinePaths({
     dataset,
     width,
     height,
@@ -170,7 +174,9 @@ export const LineChart = ({
           />
         </Group>
       </Canvas>
-      <Section state={state} transition={transition} dataset={dataset} />
+      {isShowSection && (
+        <Section state={state} transition={transition} dataset={dataset} />
+      )}
     </View>
   );
 };
