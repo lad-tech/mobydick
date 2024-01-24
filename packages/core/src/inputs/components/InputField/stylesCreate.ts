@@ -30,7 +30,7 @@ const defaultStyle = (
       paddingLeft: rem(18),
       textAlignVertical: multiline ? 'top' : undefined,
       padding: 0, // Android по дефолту ставит padding на input's
-      paddingVertical: multiline ? spaces.Space12 : 0,
+      paddingVertical: spaces.Space12,
       borderRadius: spaces.Space8,
     },
 
