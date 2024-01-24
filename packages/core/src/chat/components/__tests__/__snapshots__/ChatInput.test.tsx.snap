@@ -104,9 +104,6 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
                 "textAlignVertical": "top",
               },
               {
-                "minHeight": 120,
-              },
-              {
                 "color": "#20242D",
                 "fontFamily": "Inter-Regular",
                 "fontSize": 24,
@@ -285,9 +282,6 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
                 "paddingRight": 24,
                 "paddingVertical": 18,
                 "textAlignVertical": "top",
-              },
-              {
-                "minHeight": 120,
               },
               [
                 {
@@ -473,9 +467,6 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
                 "paddingRight": 24,
                 "paddingVertical": 18,
                 "textAlignVertical": "top",
-              },
-              {
-                "minHeight": 120,
               },
               {
                 "color": "#20242D",

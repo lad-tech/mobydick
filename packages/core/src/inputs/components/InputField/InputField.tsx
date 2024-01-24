@@ -108,7 +108,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
         <TextInput
           ref={ref}
           testID={Constants.testID}
-          style={[styles.textInput, getHeight(), getStyle, style]}
+          style={[styles.textInput, getStyle, style]}
           placeholderTextColor={theme.colors.TextMuted}
           editable={!disabled}
           numberOfLines={1}

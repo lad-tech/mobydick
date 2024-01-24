@@ -74,9 +74,6 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
             "textAlignVertical": "top",
           },
           {
-            "minHeight": 120,
-          },
-          {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
@@ -171,9 +168,6 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
             "textAlignVertical": "top",
           },
           {
-            "minHeight": 120,
-          },
-          {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
             "fontSize": 24,
@@ -265,9 +259,6 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
             "paddingRight": 24,
             "paddingVertical": 18,
             "textAlignVertical": "top",
-          },
-          {
-            "minHeight": 120,
           },
           {
             "color": "#20242D",
@@ -364,9 +355,6 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
             "paddingRight": 24,
             "paddingVertical": 18,
             "textAlignVertical": "top",
-          },
-          {
-            "minHeight": 120,
           },
           {
             "color": "#20242D",
