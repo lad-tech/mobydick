@@ -1,3 +1,10 @@
+## [7.16.3](https://github.com/lad-tech/mobydick/compare/v7.16.2...v7.16.3) (2024-01-24)
+
+
+### Bug Fixes
+
+* **InputField:** changed styles ([f6e0c5b](https://github.com/lad-tech/mobydick/commit/f6e0c5b878685692e1dd623d048e08f0d67a15f6))
+
 ## [7.16.2](https://github.com/lad-tech/mobydick/compare/v7.16.1...v7.16.2) (2024-01-12)
 
 
