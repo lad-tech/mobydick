@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [ 20.11.x ]
+        node: [ 20.11.x ]
     steps:
       - name: Check out Git repository # clone the repo to local ci workspace
         uses: actions/checkout@v3.5.3
