@@ -1,17 +1,9 @@
-import {StyleSheet} from 'react-native';
-
-import {
-  Button,
-  CurrentTheme,
-  IThemeContext,
-  useStyles,
-  useTheme,
-  View,
-} from 'shared/ui';
+import {Button, CurrentTheme, useStyles, useTheme, View} from 'shared/ui';
+import getScreenStyles from 'pages/lib/getScreenStyles';
 
 const SettingsScreen = () => {
   const {currentTheme, setCurrentTheme} = useTheme();
-  const [styles] = useStyles(createStylesFn);
+  const [styles] = useStyles(getScreenStyles);
 
   return (
     <View style={styles.container}>
@@ -28,15 +20,6 @@ const SettingsScreen = () => {
       />
     </View>
   );
-};
-
-const createStylesFn = ({colors}: IThemeContext) => {
-  return StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: colors.BgPrimary,
-    },
-  });
 };
 
 export default SettingsScreen;
