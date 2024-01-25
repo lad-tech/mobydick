@@ -11,6 +11,7 @@ import {useNavigationTheme} from 'shared/lib/hooks/useNavigationTheme';
 import CalendarScreen from 'pages/MainStack/Home/Calendar/ui';
 import CoreScreen from 'pages/MainStack/Home/Core/ui';
 import UtilsScreen from 'pages/MainStack/Home/Utils/ui';
+import TypographyScreen from 'pages/MainStack/Home/Core/Typography/ui';
 
 const Stack = createNativeStackNavigator<IRootStackParamList>();
 
@@ -41,6 +42,13 @@ const MainStack = () => {
           <Stack.Screen name={SCREENS.Core} component={CoreScreen} />
           <Stack.Screen name={SCREENS.Calendar} component={CalendarScreen} />
           <Stack.Screen name={SCREENS.Utils} component={UtilsScreen} />
+        </Stack.Group>
+
+        <Stack.Group>
+          <Stack.Screen
+            name={SCREENS.Typography}
+            component={TypographyScreen}
+          />
         </Stack.Group>
       </Stack.Navigator>
     </NavigationContainer>

@@ -3,5 +3,7 @@ export enum SCREENS {
   Settings = 'Settings',
   Core = 'Core',
   Calendar = 'Calendar',
-  Utils = 'Utils'
+  Utils = 'Utils',
+
+  Typography = 'Typography'
 }
