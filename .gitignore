@@ -61,7 +61,7 @@ yarn-error.log
 
 coverage
 /test-report.xml
-lib
+/packages/**/lib/**
 /env.json
 
 # Temporary files created by Metro to check the health of the file watcher
