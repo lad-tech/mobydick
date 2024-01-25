@@ -1,5 +1,12 @@
-import {View} from 'shared/ui';
+import {PopupsProvider, ThemeProvider} from 'shared/ui';
+import MainStack from 'pages/MainStack/ui';
 
 export default () => {
-  return <View></View>;
+  return (
+    <ThemeProvider>
+      <PopupsProvider>
+        <MainStack />
+      </PopupsProvider>
+    </ThemeProvider>
+  );
 };
