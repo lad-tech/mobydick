@@ -12,6 +12,9 @@ import CalendarScreen from 'pages/MainStack/Home/Calendar/ui';
 import CoreScreen from 'pages/MainStack/Home/Core/ui';
 import UtilsScreen from 'pages/MainStack/Home/Utils/ui';
 import TypographyScreen from 'pages/MainStack/Home/Core/Typography/ui';
+import ChartScreen from 'pages/MainStack/Home/Chart/ui';
+import LineChartScreen from 'pages/MainStack/Home/Chart/LineChart/ui';
+import BarChartScreen from 'pages/MainStack/Home/Chart/BarChart/ui';
 
 const Stack = createNativeStackNavigator<IRootStackParamList>();
 
@@ -42,6 +45,7 @@ const MainStack = () => {
           <Stack.Screen name={SCREENS.Core} component={CoreScreen} />
           <Stack.Screen name={SCREENS.Calendar} component={CalendarScreen} />
           <Stack.Screen name={SCREENS.Utils} component={UtilsScreen} />
+          <Stack.Screen name={SCREENS.Chart} component={ChartScreen} />
         </Stack.Group>
 
         <Stack.Group>
@@ -49,6 +53,11 @@ const MainStack = () => {
             name={SCREENS.Typography}
             component={TypographyScreen}
           />
+        </Stack.Group>
+
+        <Stack.Group>
+          <Stack.Screen name={SCREENS.LineChart} component={LineChartScreen} />
+          <Stack.Screen name={SCREENS.BarChart} component={BarChartScreen} />
         </Stack.Group>
       </Stack.Navigator>
     </NavigationContainer>

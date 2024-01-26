@@ -13,8 +13,7 @@ import {StatusBar, useColorScheme} from 'react-native';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
-import {mockChartDataset} from './chart';
-
+import {mockChartDataset} from 'shared/lib/test/data/chart';
 import {BarChart, LineChart} from '@lad-tech/mobydick-chart';
 import {ThemeProvider, View} from '@lad-tech/mobydick-core';
 

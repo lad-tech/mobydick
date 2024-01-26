@@ -4,6 +4,10 @@ export enum SCREENS {
   Core = 'Core',
   Calendar = 'Calendar',
   Utils = 'Utils',
+  Chart = 'Chart',
 
-  Typography = 'Typography'
+  Typography = 'Typography',
+
+  LineChart = 'LineChart',
+  BarChart = 'BarChart'
 }
