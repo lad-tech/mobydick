@@ -41,7 +41,7 @@
     "react": ">=17.0.2",
     "@lad-tech/mobydick-core": "7.15.1",
     "@shopify/react-native-skia": ">=0.1.234",
-    "react-native-reanimated/plugin": ">=3.6.1",
+    "react-native-reanimated": ">=3.6.1",
     "react-native-gesture-handler": ">=2.14.1"
   }
 }
