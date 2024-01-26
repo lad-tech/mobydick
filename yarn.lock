@@ -1722,10 +1722,10 @@
   resolved "https://registry.yarnpkg.com/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
-"@lad-tech/eslint-config@^0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@lad-tech/eslint-config/-/eslint-config-0.0.15.tgz#61d350d0409252f4e73b11b8a75a3c0b2d198b51"
-  integrity sha512-U6lLKRQRUBW86WCAuWpmb1eYBc4P0/BGBQdMkxR6Yty7xFjJ8GFxk54izuvtjekwuo1xyyxxPXQWBqoQt92QMA==
+"@lad-tech/eslint-config@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@lad-tech/eslint-config/-/eslint-config-0.0.16.tgz#0fb58355eea22efe0831f13b5c1d7d7f44c9f747"
+  integrity sha512-iqP3UDIhm3dXXnReWQtOB0psixgS99PW3pZJEDEG8NAwhg08bmVOVgkkkTfkIpR1kF8gb6MkwJr8PV02IW1jBA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^6.19.1"
     "@typescript-eslint/parser" "^6.19.1"
