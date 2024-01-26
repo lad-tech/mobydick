@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useMemo, useRef, useState} from 'react';
+import {useCallback, useEffect, useMemo, useRef, useState} from 'react';
 import {ScrollView, Animated} from 'react-native';
 
 import View from '../../../basic/components/View/View';

@@ -1,5 +1,4 @@
 import {render} from '@testing-library/react-native';
-import React from 'react';
 
 import ChatMessageAvatar from '../ChatMessageAvatar';
 const userWithoutPhoto = {

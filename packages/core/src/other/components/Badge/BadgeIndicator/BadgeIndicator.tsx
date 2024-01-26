@@ -1,4 +1,4 @@
-import React, {FC, useCallback} from 'react';
+import {FC, useCallback} from 'react';
 import {StyleSheet} from 'react-native';
 
 import View from '../../../../basic/components/View/View';

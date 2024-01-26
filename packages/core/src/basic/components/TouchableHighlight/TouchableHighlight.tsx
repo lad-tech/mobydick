@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import {forwardRef} from 'react';
 import {TouchableHighlight as DefaultTouchableHighlight} from 'react-native';
 
 import {ITouchableHighlight, TouchableHighlightProps} from './types';

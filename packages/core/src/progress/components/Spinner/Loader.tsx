@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 import {FillProps} from 'react-native-svg';
 
 import {Loader as LoaderSVG} from '../../../styles';

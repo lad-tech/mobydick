@@ -1,4 +1,4 @@
-import React, {FC, ReactElement} from 'react';
+import {FC, ReactElement} from 'react';
 import {ViewStyle} from 'react-native';
 
 import useStyles from '../../../styles/theme/hooks/useStyles';

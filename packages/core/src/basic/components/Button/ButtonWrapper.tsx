@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import {forwardRef} from 'react';
 import {Button as DefaultButton} from 'react-native';
 
 import {IButtonWrapperProps, IButtonWrapper} from './types';

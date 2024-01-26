@@ -1,4 +1,4 @@
-import React, {FC, useCallback} from 'react';
+import {FC, useCallback} from 'react';
 
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import useTheme from '../../../styles/theme/hooks/useTheme';

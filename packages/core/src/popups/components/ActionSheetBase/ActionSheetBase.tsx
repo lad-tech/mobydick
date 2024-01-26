@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 
 import {PopupBase} from '../PopupBase';
 import {returnTrue} from '../../functions';

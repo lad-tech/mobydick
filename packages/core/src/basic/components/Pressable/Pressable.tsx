@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import {forwardRef} from 'react';
 import {Pressable as DefaultPressable} from 'react-native';
 
 import {IView} from '../View';

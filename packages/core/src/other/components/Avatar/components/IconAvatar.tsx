@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 
 import {IAvatarSize} from '../types';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';

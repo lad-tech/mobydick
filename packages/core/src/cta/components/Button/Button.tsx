@@ -1,4 +1,4 @@
-import React, {FC, forwardRef, PropsWithChildren} from 'react';
+import {FC, forwardRef, PropsWithChildren} from 'react';
 
 import {getCounterType} from '../../utils';
 import {ITouchableOpacity, TouchableOpacity} from '../../../basic';

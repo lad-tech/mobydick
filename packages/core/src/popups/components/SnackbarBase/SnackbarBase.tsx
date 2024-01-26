@@ -1,4 +1,4 @@
-import React, {FC, useEffect, useRef} from 'react';
+import {FC, useEffect, useRef} from 'react';
 
 import {returnTrue} from '../../functions';
 import useStyles from '../../../styles/theme/hooks/useStyles';

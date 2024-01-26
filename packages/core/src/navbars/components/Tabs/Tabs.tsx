@@ -1,4 +1,4 @@
-import React, {useCallback} from 'react';
+import {useCallback} from 'react';
 
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import {ITab, ITabsProps} from '../../types';

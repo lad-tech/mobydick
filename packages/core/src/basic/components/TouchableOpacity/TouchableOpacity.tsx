@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import {forwardRef} from 'react';
 import {TouchableOpacity as DefaultTouchableOpacity} from 'react-native';
 
 import {ITouchableOpacity, ITouchableOpacityProps} from './types';

@@ -1,4 +1,4 @@
-import React, {FC, PropsWithChildren, useCallback, useEffect} from 'react';
+import {FC, PropsWithChildren, useCallback, useEffect} from 'react';
 import {BackHandler, GestureResponderEvent} from 'react-native';
 
 import useStyles from '../../../styles/theme/hooks/useStyles';

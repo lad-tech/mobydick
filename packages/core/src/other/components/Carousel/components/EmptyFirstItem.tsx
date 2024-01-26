@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {ICarouselAlign} from '../types';
 import View from '../../../../basic/components/View/View';
 

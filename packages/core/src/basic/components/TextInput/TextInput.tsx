@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import {forwardRef} from 'react';
 import {TextInput as DefaultTextInput} from 'react-native';
 
 import {getConfig} from '../../config';

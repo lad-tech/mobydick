@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 
 import {Typography} from '../../../../typography/components/Typography/Typography';
 import {IListEmptySelectorProps} from '../types';

@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 
 import {ITextContentProps} from '../PopupBase';
 import useStyles from '../../../styles/theme/hooks/useStyles';

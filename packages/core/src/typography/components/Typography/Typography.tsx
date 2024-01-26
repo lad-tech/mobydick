@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 
 import Text from '../../../basic/components/Text/Text';
 import {useFont} from '../../hooks';

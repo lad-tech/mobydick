@@ -1,4 +1,4 @@
-import React, {FC, useImperativeHandle, useReducer} from 'react';
+import {FC, useImperativeHandle, useReducer} from 'react';
 
 import {IPopup, IPopupId} from '../types';
 import {

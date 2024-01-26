@@ -1,4 +1,4 @@
-import React, {FC, PropsWithChildren} from 'react';
+import {FC, PropsWithChildren} from 'react';
 import {StyleProp, ViewStyle} from 'react-native';
 
 import {PopupBase} from '../PopupBase';

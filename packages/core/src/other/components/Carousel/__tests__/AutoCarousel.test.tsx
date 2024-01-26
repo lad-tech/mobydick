@@ -1,6 +1,5 @@
 import {render} from '@testing-library/react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-import React from 'react';
 
 import AutoCarousel from '../AutoCarousel';
 import {SimpleIcon, SimpleIconName} from '../../../../styles';

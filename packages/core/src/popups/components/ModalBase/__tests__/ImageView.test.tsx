@@ -1,5 +1,4 @@
 import {render} from '@testing-library/react-native';
-import React from 'react';
 
 import View from '../../../../basic/components/View/View';
 import ImageView from '../ImageView';
