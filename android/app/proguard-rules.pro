@@ -9,3 +9,6 @@
 
 # Add any project specific keep options here:
 -keep public class com.horcrux.svg.** {*;}
+
+-keep class com.shopify.reactnative.skia.** { *; }
+

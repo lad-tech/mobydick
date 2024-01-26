@@ -10,6 +10,7 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <NavigationButton onPress={move(SCREENS.Core)} text={SCREENS.Core} />
+      <NavigationButton onPress={move(SCREENS.Chart)} text={SCREENS.Chart} />
       <NavigationButton
         onPress={move(SCREENS.Calendar)}
         text={SCREENS.Calendar}

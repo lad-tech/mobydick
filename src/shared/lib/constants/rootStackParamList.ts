@@ -7,8 +7,12 @@ type IRootStackParamList = {
   [SCREENS.Core]: undefined
   [SCREENS.Calendar]: undefined
   [SCREENS.Utils]: undefined
+  [SCREENS.Chart]: undefined
 
   [SCREENS.Typography]: undefined
+
+  [SCREENS.LineChart]: undefined
+  [SCREENS.BarChart]: undefined
 }
 
 export default IRootStackParamList
