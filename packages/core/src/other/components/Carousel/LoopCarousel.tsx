@@ -1,4 +1,4 @@
-import React, {useCallback, useState} from 'react';
+import {useCallback, useState} from 'react';
 
 import {ICarouselAlign, ICarouselProps} from './types';
 import Carousel from './Carousel';

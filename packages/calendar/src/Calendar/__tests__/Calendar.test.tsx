@@ -1,5 +1,4 @@
 import {fireEvent, render} from '@testing-library/react-native';
-import React from 'react';
 
 import Calendar from '../Calendar';
 import {LABELS} from '../constants';

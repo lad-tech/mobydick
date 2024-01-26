@@ -1,7 +1,7 @@
-import React from 'react';
 import {fireEvent, render} from '@testing-library/react-native';
 import {View} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+import React from 'react';
 
 import DropDown from '../DropDown';
 import {IInputsTypes} from '../../types';

@@ -1,1 +1,0 @@
-import './SimpleIcon/SimpleIcon.stories';

@@ -1,4 +1,4 @@
-import React, {FC, useCallback, useState} from 'react';
+import {FC, useCallback, useState} from 'react';
 import {LayoutChangeEvent, StyleSheet} from 'react-native';
 
 import View from '../../../../basic/components/View/View';

@@ -1,4 +1,4 @@
-import React, {FC, useEffect, useRef} from 'react';
+import {FC, useEffect, useRef} from 'react';
 import {Animated} from 'react-native';
 
 import useTheme from '../../../styles/theme/hooks/useTheme';

@@ -1,5 +1,4 @@
 import {render} from '@testing-library/react-native';
-import React from 'react';
 
 import {ControlsList} from '../index';
 import {CheckBox} from '../../CheckBox';

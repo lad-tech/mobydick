@@ -1,7 +1,7 @@
 import {render} from '@testing-library/react-native';
-import React from 'react';
 import {TouchableOpacity} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+import React from 'react';
 
 import TooltipBase from '../TooltipBase';
 import {IPlacement} from '../types';

@@ -1,4 +1,4 @@
-import React, {forwardRef, useCallback, useState} from 'react';
+import {forwardRef, useCallback, useState} from 'react';
 import {NativeSyntheticEvent, TextInputKeyPressEventData} from 'react-native';
 
 import {ITextInput} from '../../../basic/components/TextInput/types';

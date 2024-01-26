@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import {forwardRef} from 'react';
 import {View as DefaultView} from 'react-native';
 
 import {IView, IViewProps} from './types';

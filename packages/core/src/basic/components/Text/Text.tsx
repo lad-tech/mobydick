@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import {forwardRef} from 'react';
 import {Text as DefaultText} from 'react-native';
 
 import {getConfig} from '../../config';

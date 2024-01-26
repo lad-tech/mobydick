@@ -1,5 +1,4 @@
 import {render} from '@testing-library/react-native';
-import React from 'react';
 
 import {IButtonSize} from '../../../../cta/components/Button/types';
 import LeftButton from '../LeftButton';

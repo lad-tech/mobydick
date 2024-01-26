@@ -1,4 +1,4 @@
-import React, {FC, useEffect, useMemo, useRef, useState} from 'react';
+import {FC, useEffect, useMemo, useRef, useState} from 'react';
 import {Animated} from 'react-native';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 

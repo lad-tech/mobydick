@@ -1,4 +1,3 @@
-import React from 'react';
 import {StyleSheet, Animated} from 'react-native';
 
 import {IThemeContext} from '../../../styles';

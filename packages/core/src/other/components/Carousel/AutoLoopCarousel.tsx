@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {ICarouselProps} from './types';
 import LoopCarousel from './LoopCarousel';
 

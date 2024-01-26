@@ -1,6 +1,50 @@
 {
   "exclude": ["docs/*"],
   "compilerOptions": {
+    "paths": {
+      "shared": [
+        "./src/shared"
+      ],
+      "shared/*": [
+        "./src/shared/*"
+      ],
+      "entities": [
+        "./src/entities"
+      ],
+      "entities/*": [
+        "./src/entities/*"
+      ],
+      "features": [
+        "./src/features"
+      ],
+      "features/*": [
+        "./src/features/*"
+      ],
+      "widgets": [
+        "./src/widgets"
+      ],
+      "widgets/*": [
+        "./src/widgets/*"
+      ],
+      "pages": [
+        "./src/pages"
+      ],
+      "pages/*": [
+        "./src/pages/*"
+      ],
+      "precesses": [
+        "./src/precesses"
+      ],
+      "precesses/*": [
+        "./src/precesses/*"
+      ],
+      "app": [
+        "./src/app"
+      ],
+      "app/*": [
+        "./src/app/*"
+      ]
+    },
     /* Projects */
     // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
     // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */

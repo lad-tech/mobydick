@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 import {View} from 'react-native';
 
 import SimpleIcon from '../../../styles/icons/font/SimpleIcon';

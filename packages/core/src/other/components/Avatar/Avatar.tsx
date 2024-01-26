@@ -1,4 +1,4 @@
-import React, {FC, useCallback, useMemo, useState} from 'react';
+import {FC, useCallback, useMemo, useState} from 'react';
 import {Image, ImageErrorEventData, NativeSyntheticEvent} from 'react-native';
 
 import View from '../../../basic/components/View/View';

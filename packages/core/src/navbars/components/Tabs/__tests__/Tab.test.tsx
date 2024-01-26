@@ -1,5 +1,4 @@
 import {fireEvent, render} from '@testing-library/react-native';
-import React from 'react';
 
 import Tab from '../Tab';
 import View from '../../../../basic/components/View/View';

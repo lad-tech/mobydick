@@ -1,4 +1,4 @@
-import React, {forwardRef, useCallback, useMemo, useState} from 'react';
+import {forwardRef, useCallback, useMemo, useState} from 'react';
 import {
   NativeSyntheticEvent,
   Platform,

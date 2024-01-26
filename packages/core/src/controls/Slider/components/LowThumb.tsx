@@ -1,5 +1,5 @@
 import {Animated} from 'react-native';
-import React, {useMemo} from 'react';
+import {useMemo} from 'react';
 
 import {LABELS} from '../../../other';
 

@@ -1,5 +1,4 @@
 import {act, render} from '@testing-library/react-native';
-import React from 'react';
 
 import Swipe from '../Swipe';
 import {LABELS} from '../../../other';

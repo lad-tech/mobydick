@@ -1,4 +1,4 @@
-import React, {useCallback, useMemo} from 'react';
+import {useCallback, useMemo} from 'react';
 import {TextStyle} from 'react-native';
 
 import Text from '../../../basic/components/Text/Text';

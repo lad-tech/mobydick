@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 
 import {IPressableProps} from '../../basic';
 import Pressable from '../../basic/components/Pressable/Pressable';

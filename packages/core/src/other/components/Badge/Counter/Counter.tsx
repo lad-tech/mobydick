@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 
 import View from '../../../../basic/components/View/View';
 import useStyles from '../../../../styles/theme/hooks/useStyles';

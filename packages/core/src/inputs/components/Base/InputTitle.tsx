@@ -1,4 +1,3 @@
-import React from 'react';
 import {TextStyle} from 'react-native';
 
 import View from '../../../basic/components/View/View';
