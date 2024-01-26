@@ -7,7 +7,6 @@ import {
 } from '@shopify/react-native-skia';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
-import React from 'react';
 import {useTheme, View} from '@lad-tech/mobydick-core';
 
 import {IDataset, IFormatter} from '../types';

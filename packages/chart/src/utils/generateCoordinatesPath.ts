@@ -1,9 +1,6 @@
 import {Skia} from '@shopify/react-native-skia';
 
-import {
-  chartPaddingHorizontal,
-  chartPaddingVertical,
-} from './constants';
+import {chartPaddingHorizontal, chartPaddingVertical} from './constants';
 
 export const generateCoordinatesPath = ({
   height,

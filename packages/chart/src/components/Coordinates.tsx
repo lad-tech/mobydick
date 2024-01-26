@@ -1,5 +1,5 @@
 import {Group, Path, SkFont, Skia, Text} from '@shopify/react-native-skia';
-import React, {useState} from 'react';
+import {useState} from 'react';
 import {
   runOnJS,
   SharedValue,
@@ -42,7 +42,7 @@ const Coordinates = ({
   formatterX,
   formatterY,
 }: ICoordinatesProps) => {
-  const [trigger, setTrigger] = useState(0);
+  const [, setTrigger] = useState(0);
   const coordinatesPath = generateCoordinatesPath({width, height});
 
   const coords = useDerivedValue(() =>
@@ -76,7 +76,8 @@ const Coordinates = ({
       }
     },
   );
-  console.log('trigger', trigger);
+  let lastX = 0;
+
   return (
     <Group>
       <Path
@@ -96,8 +97,13 @@ const Coordinates = ({
 
         const text = formatterY?.(value) ?? value.toFixed(2);
 
-        const x = (coordinateValueYMaxLength - text.length) * texSymbolWidth;
+        let x = (coordinateValueYMaxLength - text.length) * texSymbolWidth;
         const y = coordinate + texSymbolHeight / 2;
+
+        if (x < 0) {
+          x = 0;
+        }
+
         return (
           <Group key={coordinate.toString() + index}>
             <Path
@@ -107,11 +113,11 @@ const Coordinates = ({
               color={colors.BorderNormal}
             />
             <Text
+              font={font}
               text={text}
               y={y}
               x={x}
               color={colors.TextSecondary}
-              font={font}
             />
           </Group>
         );
@@ -129,6 +135,15 @@ const Coordinates = ({
 
         const x = coordinate - (text.length * texSymbolWidth) / 2;
         const y = height + texSymbolHeight + paddingFromChart;
+
+        const coordinateEndOfText = x + text.length * texSymbolWidth;
+
+        const isCoordinateWithText = x >= lastX;
+
+        if (isCoordinateWithText) {
+          lastX = coordinateEndOfText;
+        }
+
         return (
           <Group key={coordinate.toString() + index}>
             <Path
@@ -137,13 +152,15 @@ const Coordinates = ({
               strokeJoin="round"
               color={colors.BorderNormal}
             />
-            <Text
-              text={text}
-              y={y}
-              x={x}
-              color={colors.TextSecondary}
-              font={font}
-            />
+            {isCoordinateWithText && (
+              <Text
+                font={font}
+                text={text}
+                y={y}
+                x={x}
+                color={colors.TextSecondary}
+              />
+            )}
           </Group>
         );
       })}

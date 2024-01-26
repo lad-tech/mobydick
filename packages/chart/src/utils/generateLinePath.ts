@@ -1,11 +1,9 @@
 import {Skia} from '@shopify/react-native-skia';
 import {Extrapolation, interpolate} from 'react-native-reanimated';
 
-import {
-  chartPaddingHorizontal,
-  chartPaddingVertical,
-} from './constants';
 import {ICoordinates} from '../types';
+
+import {chartPaddingHorizontal, chartPaddingVertical} from './constants';
 
 export const generateLinePath = ({
   height,
@@ -53,8 +51,11 @@ export const generateLinePath = ({
 
     const yCoordinate = interpolate(
       y,
-      [maxY, minY],
-      [chartPaddingVertical, height],
+      [minY, maxY],
+      [
+        height - chartPaddingVertical / 2,
+        chartPaddingVertical + chartPaddingVertical / 2,
+      ],
       Extrapolation.CLAMP,
     );
 

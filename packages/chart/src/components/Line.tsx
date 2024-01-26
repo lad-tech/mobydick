@@ -1,6 +1,5 @@
 import type {PathProps, SkiaDefaultProps} from '@shopify/react-native-skia';
 import {LinearGradient, Path, SkPath, vec} from '@shopify/react-native-skia';
-import React from 'react';
 import {SharedValue} from 'react-native-reanimated';
 import {defaultTheme} from '@lad-tech/mobydick-core';
 
@@ -11,7 +10,7 @@ interface IChartProps extends SkiaDefaultProps<PathProps, 'start' | 'end'> {
 }
 
 export const COLORS = [
-  '#acfcd0',
+  '#E0F5E9',
   '#9BE1DA',
   '#56CDCB',
   '#3B8B8E',

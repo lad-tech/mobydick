@@ -4,7 +4,6 @@ import Animated, {
   useAnimatedStyle,
   withTiming,
 } from 'react-native-reanimated';
-import React from 'react';
 import {StyleSheet, TouchableWithoutFeedback} from 'react-native';
 import {IThemeContext, Typography, useStyles} from '@lad-tech/mobydick-core';
 
@@ -17,7 +16,7 @@ interface ISectionButtonProps {
   transition: SharedValue<number>;
 }
 
-const SectionButton = ({
+export const SectionButton = ({
   transition,
   state,
   period,

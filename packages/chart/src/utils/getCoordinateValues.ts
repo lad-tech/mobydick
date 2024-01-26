@@ -1,9 +1,6 @@
 import {Extrapolation, interpolate} from 'react-native-reanimated';
 
-import {
-  chartPaddingHorizontal,
-  chartPaddingVertical,
-} from './constants';
+import {chartPaddingHorizontal, chartPaddingVertical} from './constants';
 
 interface IGetCoordinateValuesParams {
   maxY: number;
@@ -37,7 +34,10 @@ export const getCoordinateValues = ({
       const coordinate = interpolate(
         value,
         [minY, maxY],
-        [height, chartPaddingVertical],
+        [
+          height - chartPaddingVertical / 2,
+          chartPaddingVertical + chartPaddingVertical / 2,
+        ],
         Extrapolation.CLAMP,
       );
       return {

@@ -1,4 +1,3 @@
-import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {SharedValue} from 'react-native-reanimated';
 import {IThemeContext, useStyles} from '@lad-tech/mobydick-core';
