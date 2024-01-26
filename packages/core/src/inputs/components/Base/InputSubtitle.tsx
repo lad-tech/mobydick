@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {IInputsTypes} from '../types';
 import {SimpleIcon, SimpleIconName} from '../../../styles/icons';
 import {IStyledTextProps} from '../../../typography/types';

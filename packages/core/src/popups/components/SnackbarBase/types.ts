@@ -5,6 +5,7 @@ import {IPopup, IPosition} from '../../types';
 
 export interface ISnackbarProps
   extends PropsWithChildren<Omit<IPopup, 'Content'>> {
+  overlayStyle?: StyleProp<ViewStyle>;
   onClose: () => void;
   containerStyle?: StyleProp<ViewStyle>;
   position: IPosition;

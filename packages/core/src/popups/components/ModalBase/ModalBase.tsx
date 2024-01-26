@@ -1,4 +1,4 @@
-import React, {FC, PropsWithChildren} from 'react';
+import {FC, PropsWithChildren} from 'react';
 import {StyleProp, ViewStyle} from 'react-native';
 
 import {PopupBase} from '../PopupBase';
@@ -19,6 +19,7 @@ import TextContent from './TextContent';
 const ModalBase: FC<
   PropsWithChildren<
     Omit<IPopup, 'Content'> & {
+      overlayStyle?: StyleProp<ViewStyle>;
       onClose: () => void;
       containerStyle?: StyleProp<ViewStyle>;
     }

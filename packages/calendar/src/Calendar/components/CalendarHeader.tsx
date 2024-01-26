@@ -7,7 +7,7 @@ import {
   useStyles,
   View,
 } from '@lad-tech/mobydick-core';
-import React, {FC} from 'react';
+import {FC} from 'react';
 import {StyleSheet} from 'react-native';
 
 import {LABELS} from '../constants';

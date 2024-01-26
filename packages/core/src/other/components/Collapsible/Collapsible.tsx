@@ -1,4 +1,4 @@
-import React, {useCallback, useMemo, useState} from 'react';
+import {useCallback, useMemo, useState} from 'react';
 import {LayoutAnimation, Platform, StyleSheet, UIManager} from 'react-native';
 
 import {Typography} from '../../../typography';

@@ -1,5 +1,5 @@
 import {StyleProp, ViewStyle} from 'react-native';
-import React, {PropsWithChildren, ReactElement} from 'react';
+import {PropsWithChildren, ReactElement} from 'react';
 
 import {TypographyProp} from '../../../typography/types';
 import {IPopup} from '../../types';
@@ -31,6 +31,7 @@ export interface IPropsItem extends IPropsContents {
 export interface IActionSheetBaseProps
   extends PropsWithChildren<Omit<IPopup, 'Content'>> {
   onClose: () => void;
+  overlayStyle?: StyleProp<ViewStyle>;
   containerStyle?: StyleProp<ViewStyle>;
   children: React.ReactNode;
 }

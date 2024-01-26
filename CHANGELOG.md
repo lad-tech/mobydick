@@ -1,3 +1,31 @@
+## [7.16.3](https://github.com/lad-tech/mobydick/compare/v7.16.2...v7.16.3) (2024-01-24)
+
+
+### Bug Fixes
+
+* **InputField:** changed styles ([f6e0c5b](https://github.com/lad-tech/mobydick/commit/f6e0c5b878685692e1dd623d048e08f0d67a15f6))
+
+## [7.16.2](https://github.com/lad-tech/mobydick/compare/v7.16.1...v7.16.2) (2024-01-12)
+
+
+### Bug Fixes
+
+* **InputField:** changed styles for click-through rate ([6339154](https://github.com/lad-tech/mobydick/commit/63391549287d893b4095ed59e4bcf590535292de))
+
+## [7.16.1](https://github.com/lad-tech/mobydick/compare/v7.16.0...v7.16.1) (2023-12-28)
+
+
+### Bug Fixes
+
+* **InputField:** changed styles for multiline ([221d476](https://github.com/lad-tech/mobydick/commit/221d47675ffa91f9733bda72b6085b63ed3c4cac))
+
+# [7.16.0](https://github.com/lad-tech/mobydick/compare/v7.15.1...v7.16.0) (2023-12-13)
+
+
+### Features
+
+* **MobyDickPopup:** applied new modal workflow ([a43caae](https://github.com/lad-tech/mobydick/commit/a43caaeb3829a05d84c262830bf124477726909a))
+
 ## [7.15.1](https://github.com/lad-tech/mobydick/compare/v7.15.0...v7.15.1) (2023-11-28)
 
 

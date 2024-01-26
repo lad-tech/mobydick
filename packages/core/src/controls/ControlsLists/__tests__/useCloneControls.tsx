@@ -1,4 +1,3 @@
-import React from 'react';
 import {renderHook} from '@testing-library/react-hooks';
 import {fireEvent} from '@testing-library/react-native';
 import {ReactTestInstance} from 'react-test-renderer';

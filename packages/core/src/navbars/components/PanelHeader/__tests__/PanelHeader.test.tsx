@@ -1,5 +1,4 @@
 import {act, fireEvent, render} from '@testing-library/react-native';
-import React from 'react';
 
 import {PanelHeader} from '../index';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';

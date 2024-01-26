@@ -1,4 +1,3 @@
-import React from 'react';
 import {StyleSheet} from 'react-native';
 
 import Avatar from '../../other/components/Avatar/Avatar';

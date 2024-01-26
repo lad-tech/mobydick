@@ -1,4 +1,3 @@
-import React from 'react';
 import {Image, StyleSheet} from 'react-native';
 
 import View from '../../basic/components/View/View';

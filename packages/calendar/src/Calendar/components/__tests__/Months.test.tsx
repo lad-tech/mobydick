@@ -1,5 +1,4 @@
 import {fireEvent, render} from '@testing-library/react-native';
-import React from 'react';
 
 import Months from '../Months';
 import {localeConfigRu} from '../../localeConfig';

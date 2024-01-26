@@ -16,20 +16,22 @@ const defaultStyle = (
     },
     inputContainer: {
       backgroundColor: colors.BgSecondary,
-      paddingLeft: rem(18),
-      paddingRight: spaces.Space16,
       borderRadius: spaces.Space8,
       borderWidth: spaces.Space1,
       borderColor: focused ? colors.BorderNormal : 'transparent',
       marginVertical: spaces.Space8,
       flexDirection: 'row',
       justifyContent: 'space-between',
-      alignItems: multiline ? 'flex-start' : 'center',
-      paddingVertical: multiline ? spaces.Space12 : 0,
+      alignItems: multiline ? undefined : 'center',
     },
     textInput: {
       flex: 1,
+      paddingRight: spaces.Space16,
+      paddingLeft: rem(18),
+      textAlignVertical: multiline ? 'top' : undefined,
       padding: 0, // Android по дефолту ставит padding на input's
+      paddingVertical: spaces.Space12,
+      borderRadius: spaces.Space8,
     },
 
     androidTextInput: {

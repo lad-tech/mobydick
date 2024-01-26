@@ -1,4 +1,4 @@
-import React, {useCallback} from 'react';
+import {useCallback} from 'react';
 import {StyleSheet, ViewStyle} from 'react-native';
 
 import {IStatusState} from '../types';

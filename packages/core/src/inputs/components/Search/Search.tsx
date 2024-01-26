@@ -1,4 +1,4 @@
-import React, {forwardRef, useCallback} from 'react';
+import {forwardRef, useCallback} from 'react';
 
 import useStyles from '../../../styles/theme/hooks/useStyles';
 import View from '../../../basic/components/View/View';

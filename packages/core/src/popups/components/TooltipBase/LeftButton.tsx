@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 
 import Button from '../../../cta/components/Button/Button';
 import {IButtonProps, IButtonSize} from '../../../cta/components/Button/types';

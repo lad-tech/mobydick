@@ -1,4 +1,4 @@
-import React, {forwardRef} from 'react';
+import {forwardRef} from 'react';
 import {ScrollView as DefaultScrollView} from 'react-native';
 
 import {IScrollView, IScrollViewProps} from './types';

@@ -1,5 +1,4 @@
 import {act, fireEvent, render} from '@testing-library/react-native';
-import React from 'react';
 
 import Dots from '../Dots';
 import {LABELS} from '../../../constants';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {IItemType, IPropsContents} from '../types';
 import stylesCreate from '../stylesCreate';
 import useStyles from '../../../../styles/theme/hooks/useStyles';

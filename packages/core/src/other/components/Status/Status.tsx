@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {IStatusProps, IStatusType} from './types';
 import StatusDot from './components/StatusDot';
 import StatusTag from './components/StatusTag';

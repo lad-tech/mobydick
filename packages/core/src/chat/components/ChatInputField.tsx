@@ -1,4 +1,3 @@
-import React from 'react';
 import {Platform, StyleSheet} from 'react-native';
 
 import {IThemeContext, rem} from '../../styles';

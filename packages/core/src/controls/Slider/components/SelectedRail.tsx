@@ -1,5 +1,4 @@
 import {Animated} from 'react-native';
-import React from 'react';
 
 import View from '../../../basic/components/View/View';
 import useStyles from '../../../styles/theme/hooks/useStyles';

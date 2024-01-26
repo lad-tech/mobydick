@@ -1,5 +1,4 @@
 import {render} from '@testing-library/react-native';
-import React from 'react';
 
 import {IAvatarSize} from '../../types';
 import TextAvatar from '../TextAvatar';

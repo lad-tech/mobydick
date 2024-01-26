@@ -1,5 +1,4 @@
 import {render} from '@testing-library/react-native';
-import React from 'react';
 
 import {IButtonTypes} from '../../../../cta/components/Button/types';
 import HorizontalButtonsView from '../HorizontalButtonsView';
