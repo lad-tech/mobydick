@@ -15,9 +15,10 @@ export async function publishPackage({
     execSync(`yarn --cwd ${path} build`);
     execSync(`npm publish ${path} --tag ${tag}`);
     logger.info(`Package ${name} was published`);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     logger.error(`Failed to publish package ${name}`);
-    process.stdout.write(`${error.message}\n`);
+    process.stdout.write(`${error?.message}\n`);
     process.exit(1);
   }
 }
