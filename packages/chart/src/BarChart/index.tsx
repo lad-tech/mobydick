@@ -20,7 +20,7 @@ import Line from '../components/Line';
 import {generatePeriodsWithBarPaths} from '../utils/generatePeriodsWithBarPaths';
 import Section from '../components/Section';
 
-interface IBarChartProps {
+export interface IBarChartProps {
   title?: string;
   dataset: IDataset;
   isShowSection?: boolean;
@@ -28,7 +28,7 @@ interface IBarChartProps {
   formatterY?: IFormatter;
 }
 
-const BarChart = ({
+export const BarChart = ({
   dataset,
   title,
   isShowSection = true,

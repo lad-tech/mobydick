@@ -20,7 +20,7 @@ export const COLORS = [
   '#FF8A57',
 ];
 
-const Line = ({path, width, colors, ...rest}: IChartProps) => {
+export const Line = ({path, width, colors, ...rest}: IChartProps) => {
   return (
     <Path
       path={path}

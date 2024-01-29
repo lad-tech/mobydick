@@ -1,4 +1,7 @@
-import LineChart from './LineChart';
-import BarChart from './BarChart';
+export * from './LineChart';
+export * from './BarChart';
 
-export {LineChart, BarChart};
+export * from './components';
+export * from './utils';
+
+export * from './types';

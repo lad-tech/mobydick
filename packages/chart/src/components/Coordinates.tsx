@@ -13,7 +13,7 @@ import {IFormatter} from '../types';
 import {generateCoordinatesPath} from '../utils/generateCoordinatesPath';
 import {getCoordinateValues} from '../utils/getCoordinateValues';
 
-interface ICoordinatesProps {
+export interface ICoordinatesProps {
   font: SkFont | null;
   colors: (typeof defaultTheme.colors)[0];
   width: number;
@@ -29,7 +29,7 @@ interface ICoordinatesProps {
   formatterY?: IFormatter | undefined;
 }
 
-const Coordinates = ({
+export const Coordinates = ({
   font,
   colors,
   width,

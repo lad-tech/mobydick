@@ -21,7 +21,7 @@ import {IDataset, IFormatter} from '../types';
 import Section from '../components/Section';
 import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
 
-interface ILineChartProps {
+export interface ILineChartProps {
   title?: string;
   dataset: IDataset;
   isShowSection?: boolean;
@@ -29,7 +29,7 @@ interface ILineChartProps {
   formatterY?: IFormatter;
 }
 
-const LineChart = ({
+export const LineChart = ({
   dataset,
   title,
   isShowSection = true,

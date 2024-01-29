@@ -11,13 +11,13 @@ export interface IGraphState {
   current: number;
 }
 
-interface ISelectionProps {
+export interface ISelectionProps {
   state: SharedValue<IGraphState>;
   transition: SharedValue<number>;
   dataset: IDataset;
 }
 
-const Selection = ({state, transition, dataset}: ISelectionProps) => {
+export const Selection = ({state, transition, dataset}: ISelectionProps) => {
   const [styles] = useStyles(createStyleFn);
 
   const periods = Object.keys(dataset);

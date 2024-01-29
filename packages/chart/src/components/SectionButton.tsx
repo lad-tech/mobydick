@@ -9,7 +9,7 @@ import {IThemeContext, Typography, useStyles} from '@lad-tech/mobydick-core';
 
 import {IGraphState} from './Section';
 
-interface ISectionButtonProps {
+export interface ISectionButtonProps {
   period: string;
   index: number;
   state: SharedValue<IGraphState>;
