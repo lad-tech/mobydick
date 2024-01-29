@@ -37,20 +37,22 @@ describe('LoopCarousel', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('render LoopCarousel onPressItem', () => {
-    const {toJSON, getAllByLabelText} = render(
+    const onPressItem = jest.fn();
+    const {getAllByLabelText} = render(
       <SafeAreaProvider>
         <LoopCarousel
           data={data}
           sliderItem={sliderItem}
-          onPressItem={item => console.log(item)}
+          onPressItem={onPressItem}
           itemWidth={itemWidth}
           loading={false}
         />
       </SafeAreaProvider>,
     );
-    const onPressItem = getAllByLabelText(LABELS.carouselItem);
-    expect(toJSON()).toMatchSnapshot();
-    onPressItem[0] && fireEvent.press(onPressItem[0]);
+    const onPressItemJSX = getAllByLabelText(LABELS.carouselItem);
+    onPressItemJSX[0] && fireEvent.press(onPressItemJSX[0]);
+
+    expect(onPressItem).toHaveBeenCalledWith(data[0]);
   });
   it('render LoopCarousel onPressItem loading', () => {
     const {toJSON, getAllByLabelText} = render(

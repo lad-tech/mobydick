@@ -14,13 +14,14 @@ describe('@lad-tech/mobydick-core/icons/SimpleIconAlbum', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('renders correctly with press', () => {
-    const {toJSON, getByTestId} = render(
-      <SimpleIconAlbum color="#333" onPress={() => console.log()} />,
+    const onPress = jest.fn();
+    const {getByTestId} = render(
+      <SimpleIconAlbum color="#333" onPress={onPress} />,
     );
     const pressable = getByTestId('icon-image');
 
     fireEvent.press(pressable, {target: null, currentTarget: null});
 
-    expect(toJSON()).toMatchSnapshot();
+    expect(onPress).toHaveBeenCalledWith('icon-image');
   });
 });
