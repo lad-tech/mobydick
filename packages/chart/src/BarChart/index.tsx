@@ -142,7 +142,6 @@ export const BarChart = ({
         ref={ref}
         style={{
           height: frameHeight / defaultChartHeightDivider,
-          width: width,
           backgroundColor: colors.BgPrimary,
           borderRadius: spaces.Space20,
         }}>

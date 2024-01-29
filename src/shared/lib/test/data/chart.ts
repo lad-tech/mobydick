@@ -1,8 +1,8 @@
-import {ICoordinates, IDataset} from '@lad-tech/mobydick-chart/src/types';
+import { ICoordinates, IDataset } from '@lad-tech/mobydick-chart/src/types';
 
 const random = Math.random() * 100;
 export const mockChart = () =>
-  new Array(6).fill(0).map<ICoordinates>((_value, index) => {
+  new Array(20).fill(0).map<ICoordinates>((_value, index) => {
     return {
       x: random * index,
       y: 10 + Math.random() * index,

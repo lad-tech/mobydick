@@ -76,7 +76,11 @@ export const Coordinates = ({
       }
     },
   );
-  let lastX = 0;
+  const texSymbolWidth = 8;
+  const texSymbolHeight = 10;
+
+  let lastXEndOfText = 0;
+  let lastYTopOfText = height;
 
   return (
     <Group>
@@ -92,13 +96,19 @@ export const Coordinates = ({
           .moveTo(chartPaddingHorizontal, coordinate)
           .lineTo(width, coordinate);
 
-        const texSymbolWidth = 8;
-        const texSymbolHeight = 10;
-
         const text = formatterY?.(value) ?? value.toFixed(2);
 
         let x = (coordinateValueYMaxLength - text.length) * texSymbolWidth;
         const y = coordinate + texSymbolHeight / 2;
+
+        const coordinateTopOfText = y - texSymbolHeight;
+        const coordinateTBottomOfText = y + texSymbolHeight / 2;
+
+        const isCoordinateWithText = coordinateTBottomOfText <= lastYTopOfText;
+
+        if (isCoordinateWithText) {
+          lastYTopOfText = coordinateTopOfText;
+        }
 
         if (x < 0) {
           x = 0;
@@ -112,13 +122,15 @@ export const Coordinates = ({
               strokeJoin="round"
               color={colors.BorderNormal}
             />
-            <Text
-              font={font}
-              text={text}
-              y={y}
-              x={x}
-              color={colors.TextSecondary}
-            />
+            {isCoordinateWithText && (
+              <Text
+                font={font}
+                text={text}
+                y={y}
+                x={x}
+                color={colors.TextSecondary}
+              />
+            )}
           </Group>
         );
       })}
@@ -127,8 +139,6 @@ export const Coordinates = ({
           .moveTo(coordinate, height)
           .lineTo(coordinate, chartPaddingVertical);
 
-        const texSymbolWidth = 8;
-        const texSymbolHeight = 10;
         const paddingFromChart = 5;
 
         const text = formatterX?.(value) ?? value.toFixed(2);
@@ -138,10 +148,10 @@ export const Coordinates = ({
 
         const coordinateEndOfText = x + text.length * texSymbolWidth;
 
-        const isCoordinateWithText = x >= lastX;
+        const isCoordinateWithText = x >= lastXEndOfText;
 
         if (isCoordinateWithText) {
-          lastX = coordinateEndOfText;
+          lastXEndOfText = coordinateEndOfText;
         }
 
         return (

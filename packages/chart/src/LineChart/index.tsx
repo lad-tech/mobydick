@@ -143,7 +143,6 @@ export const LineChart = ({
         ref={ref}
         style={{
           height: frameHeight / defaultChartHeightDivider,
-          width: width,
           backgroundColor: colors.BgPrimary,
           borderRadius: spaces.Space20,
         }}>
