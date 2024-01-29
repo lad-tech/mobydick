@@ -114,6 +114,10 @@ export const Coordinates = ({
           x = 0;
         }
 
+        if (!isCoordinateWithText) {
+          return null;
+        }
+
         return (
           <Group key={coordinate.toString() + index}>
             <Path
@@ -122,15 +126,13 @@ export const Coordinates = ({
               strokeJoin="round"
               color={colors.BorderNormal}
             />
-            {isCoordinateWithText && (
-              <Text
-                font={font}
-                text={text}
-                y={y}
-                x={x}
-                color={colors.TextSecondary}
-              />
-            )}
+            <Text
+              font={font}
+              text={text}
+              y={y}
+              x={x}
+              color={colors.TextSecondary}
+            />
           </Group>
         );
       })}
@@ -154,6 +156,10 @@ export const Coordinates = ({
           lastXEndOfText = coordinateEndOfText;
         }
 
+        if (!isCoordinateWithText) {
+          return null;
+        }
+
         return (
           <Group key={coordinate.toString() + index}>
             <Path
@@ -162,15 +168,13 @@ export const Coordinates = ({
               strokeJoin="round"
               color={colors.BorderNormal}
             />
-            {isCoordinateWithText && (
-              <Text
-                font={font}
-                text={text}
-                y={y}
-                x={x}
-                color={colors.TextSecondary}
-              />
-            )}
+            <Text
+              font={font}
+              text={text}
+              y={y}
+              x={x}
+              color={colors.TextSecondary}
+            />
           </Group>
         );
       })}
