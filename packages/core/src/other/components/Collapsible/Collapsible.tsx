@@ -5,10 +5,10 @@ import {Typography} from '../../../typography';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import SimpleIcon from '../../../styles/icons/font/SimpleIcon';
 import View from '../../../basic/components/View/View';
-import {IThemeContext} from '../../../styles';
-import useTheme from '../../../styles/theme/hooks/useTheme';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useTheme from '../../../styles/hooks/useTheme';
+import useStyles from '../../../styles/hooks/useStyles';
 import {LABELS} from '../../constants';
+import {IThemeContext} from '../../../styles/types';
 
 import {ICollapsibleProps} from './types';
 

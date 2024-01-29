@@ -1,19 +1,19 @@
 import {useCallback, useEffect, useMemo, useRef} from 'react';
 import {
   Animated,
+  Easing,
   GestureResponderEvent,
   Insets,
   PanResponder,
   PanResponderGestureState,
   ViewProps,
-  Easing,
 } from 'react-native';
 
 import View from '../../basic/components/View/View';
-import useStyles from '../../styles/theme/hooks/useStyles';
+import useStyles from '../../styles/hooks/useStyles';
 import {LABELS} from '../../other/constants';
 import {HIT_SLOP} from '../../styles';
-import rem from '../../styles/spaces/rem';
+import rem from '../../styles/utils/rem';
 
 import {clamp, getValueForPosition, isLowCloser} from './helpers';
 import stylesCreate from './stylesCreate';

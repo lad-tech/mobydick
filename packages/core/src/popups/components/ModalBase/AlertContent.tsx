@@ -4,10 +4,10 @@ import {ViewStyle} from 'react-native';
 import SimpleIcon, {
   SimpleIconName,
 } from '../../../styles/icons/font/SimpleIcon';
-import useStyles from '../../../styles/theme/hooks/useStyles';
-import useTheme from '../../../styles/theme/hooks/useTheme';
+import useStyles from '../../../styles/hooks/useStyles';
+import useTheme from '../../../styles/hooks/useTheme';
 import View from '../../../basic/components/View/View';
-import rem from '../../../styles/spaces/rem';
+import rem from '../../../styles/utils/rem';
 
 import stylesCreate from './stylesCreate';
 

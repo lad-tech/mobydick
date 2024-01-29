@@ -2,7 +2,7 @@ import {FC, useEffect, useRef} from 'react';
 import {Animated, StyleSheet} from 'react-native';
 
 import View from '../../../basic/components/View/View';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 
 import stylesCreate from './stylesCreate';
 import {IndicatorProps} from './types';

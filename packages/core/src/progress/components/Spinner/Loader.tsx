@@ -2,7 +2,7 @@ import {FC} from 'react';
 import {FillProps} from 'react-native-svg';
 
 import {Loader as LoaderSVG} from '../../../styles';
-import useTheme from '../../../styles/theme/hooks/useTheme';
+import useTheme from '../../../styles/hooks/useTheme';
 
 import {ISizeSpinner, LoaderProps} from './types';
 

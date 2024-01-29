@@ -1,7 +1,7 @@
 import {useCallback} from 'react';
 
 import {ITabProps} from '../../types';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import {Typography} from '../../../typography/components/Typography/Typography';
 import {LABELS} from '../../../other';

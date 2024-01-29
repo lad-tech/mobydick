@@ -1,7 +1,8 @@
 import {FC, PropsWithChildren, useState} from 'react';
 
-import {defaultTheme} from './constants';
-import {IThemeContext} from './types';
+import {defaultTheme} from '../constants/theme';
+import {IThemeContext} from '../types';
+
 import ThemeContext from './context';
 
 const ThemeProvider: FC<

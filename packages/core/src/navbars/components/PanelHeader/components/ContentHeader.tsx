@@ -5,7 +5,7 @@ import View from '../../../../basic/components/View/View';
 import {LABELS} from '../../../../other';
 import {Typography} from '../../../../typography';
 import {IThemeContext, useStyles} from '../../../../styles';
-import rem from '../../../../styles/spaces/rem';
+import rem from '../../../../styles/utils/rem';
 import {IPanelHeaderProps} from '../../../types';
 
 const ContentHeader: FC<IPanelHeaderProps> = props => {

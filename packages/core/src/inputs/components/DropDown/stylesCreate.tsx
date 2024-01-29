@@ -2,8 +2,8 @@ import {StyleSheet} from 'react-native';
 
 import {IInputsTypes} from '../types';
 import {disabledStyle, validStyle, wrongStyle} from '../../style';
-import {IThemeContext} from '../../../styles/theme/types';
-import rem from '../../../styles/spaces/rem';
+import rem from '../../../styles/utils/rem';
+import {IThemeContext} from '../../../styles/types';
 
 const defaultStyle = (theme: IThemeContext) => {
   const {colors, spaces} = theme;

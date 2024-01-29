@@ -1,7 +1,7 @@
 import {createContext} from 'react';
 
-import {IThemeContext} from './types';
-import {defaultTheme} from './constants';
+import {defaultTheme} from '../constants/theme';
+import {IThemeContext} from '../types';
 
 export const MissingThemeProviderError = new Error(
   '[@lad-tech/mobydick-core] useTheme hook was called outside of context, wrap your app with ThemeProvider component',

@@ -1,6 +1,6 @@
 import {Platform} from 'react-native';
 
-import rem from '../../../../../styles/spaces/rem';
+import rem from '../../../../../styles/utils/rem';
 import {getDropDownDimensions} from '../getDropDownDimensions';
 
 describe('@lad-tech/mobydick-core/DropDownFunctions', () => {

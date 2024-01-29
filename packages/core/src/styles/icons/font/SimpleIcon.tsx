@@ -2,8 +2,8 @@ import {useCallback, useMemo} from 'react';
 import {TextStyle} from 'react-native';
 
 import Text from '../../../basic/components/Text/Text';
-import {useTheme} from '../../theme';
-import rem from '../../spaces/rem';
+import useTheme from '../../hooks/useTheme';
+import rem from '../../utils/rem';
 
 import glyphMap from './unicodesMap.json';
 

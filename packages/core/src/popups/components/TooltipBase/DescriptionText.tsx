@@ -1,7 +1,7 @@
 import {FC} from 'react';
 
 import {IDescriptionTextPopup} from '../PopupBase';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import {Typography} from '../../../typography';
 
 import stylesCreate from './stylesCreate';

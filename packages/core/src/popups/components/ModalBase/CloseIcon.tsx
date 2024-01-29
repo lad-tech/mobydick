@@ -1,7 +1,7 @@
 import {FC} from 'react';
 
 import {IPopupCloseIcon} from '../PopupBase';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import SimpleIcon from '../../../styles/icons/font/SimpleIcon';
 

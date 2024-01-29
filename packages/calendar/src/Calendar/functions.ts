@@ -1,6 +1,6 @@
-import rem from '@lad-tech/mobydick-core/src/styles/spaces/rem';
 import {DateData} from 'react-native-calendars';
 import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
+import {rem} from '@lad-tech/mobydick-core';
 
 import {
   colorElem,

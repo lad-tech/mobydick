@@ -4,7 +4,7 @@ import {StyleProp, ViewStyle} from 'react-native';
 import {PopupBase} from '../PopupBase';
 import {IPopup} from '../../types';
 import {returnTrue} from '../../functions';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 
 import CloseIcon from './CloseIcon';

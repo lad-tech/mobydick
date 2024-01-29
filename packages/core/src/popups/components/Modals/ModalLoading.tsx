@@ -2,8 +2,8 @@ import {FC} from 'react';
 
 import {ModalBase} from '../ModalBase';
 import {IContentProps} from '../../types';
-import useStyles from '../../../styles/theme/hooks/useStyles';
-import rem from '../../../styles/spaces/rem';
+import useStyles from '../../../styles/hooks/useStyles';
+import rem from '../../../styles/utils/rem';
 import {ISizeSpinner} from '../../../progress/components/Spinner/types';
 import Spinner from '../../../progress/components/Spinner/Spinner';
 import {IButtonTypes} from '../../../cta/components/Button/types';

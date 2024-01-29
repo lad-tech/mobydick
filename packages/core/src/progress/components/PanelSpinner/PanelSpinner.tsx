@@ -2,10 +2,10 @@ import {FC} from 'react';
 import {View} from 'react-native';
 
 import SimpleIcon from '../../../styles/icons/font/SimpleIcon';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import {Spinner} from '../Spinner';
 import {ISizeSpinner} from '../Spinner/types';
-import rem from '../../../styles/spaces/rem';
+import rem from '../../../styles/utils/rem';
 import Pressable from '../../../basic/components/Pressable/Pressable';
 
 import stylesCreate from './stylesCreate';

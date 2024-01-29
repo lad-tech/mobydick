@@ -2,7 +2,7 @@ import {Platform, StyleSheet} from 'react-native';
 
 import {IThemeContext, rem} from '../../styles';
 import InputField from '../../inputs/components/InputField/InputField';
-import useStyles from '../../styles/theme/hooks/useStyles';
+import useStyles from '../../styles/hooks/useStyles';
 import {LABELS} from '../../other';
 import {IInputFieldsProps} from '../../inputs';
 

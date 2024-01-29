@@ -1,12 +1,12 @@
 import {forwardRef, useCallback} from 'react';
 
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 import SimpleIcon from '../../../styles/icons/font/SimpleIcon';
 import TextInput from '../../../basic/components/TextInput/TextInput';
 import {ITextInput} from '../../../basic';
 import Pressable from '../../../basic/components/Pressable/Pressable';
-import rem from '../../../styles/spaces/rem';
+import rem from '../../../styles/utils/rem';
 import {LABELS} from '../../../other';
 
 import {strings} from './constants';

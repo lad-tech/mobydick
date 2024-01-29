@@ -2,8 +2,8 @@ import {FC} from 'react';
 
 import {IAvatarSize} from '../types';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
-import useTheme from '../../../../styles/theme/hooks/useTheme';
-import rem from '../../../../styles/spaces/rem';
+import useTheme from '../../../../styles/hooks/useTheme';
+import rem from '../../../../styles/utils/rem';
 
 interface IProps {
   size: IAvatarSize;

@@ -1,4 +1,4 @@
-import rem from '../spaces/rem';
+import rem from '../utils/rem';
 
 const HIT_SLOP = {
   small: {top: rem(10), bottom: rem(10), left: rem(10), right: rem(10)},

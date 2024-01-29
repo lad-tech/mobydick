@@ -4,7 +4,7 @@ import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
 import {PopupBase} from '../PopupBase';
 import {IPosition} from '../../types';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 
 import stylesCreate from './stylesCreate';
 import Title from './Title';

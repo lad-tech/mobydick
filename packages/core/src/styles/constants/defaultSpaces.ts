@@ -1,4 +1,4 @@
-import rem from './rem';
+import rem from '../utils/rem';
 
 export const defaultSpaces = {
   Space1: rem(1),
@@ -16,5 +16,3 @@ export const defaultSpaces = {
   Space48: rem(48),
   Space64: rem(64),
 };
-
-export {rem};

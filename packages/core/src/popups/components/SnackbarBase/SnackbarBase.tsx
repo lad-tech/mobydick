@@ -1,7 +1,7 @@
 import {FC, useEffect, useRef} from 'react';
 
 import {returnTrue} from '../../functions';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 
 import Title from './Title';

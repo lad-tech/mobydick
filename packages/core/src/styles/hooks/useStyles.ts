@@ -1,13 +1,8 @@
-import {StyleSheet} from 'react-native';
-
-import {IThemeContext} from '../types';
+import {IStylesTypes, IThemeContext} from '../types';
 
 import useTheme from './useTheme';
 
-const useStyles = <
-  Args extends unknown[],
-  FnReturn extends StyleSheet.NamedStyles<unknown>,
->(
+const useStyles = <Args extends unknown[], FnReturn extends IStylesTypes>(
   createStyleFn: (theme: IThemeContext, ...arg: Args) => FnReturn,
   ...args: Args
 ) => {

@@ -3,8 +3,8 @@ import {FC} from 'react';
 import {ModalBase} from '../ModalBase';
 import {IContentProps} from '../../types';
 import {IButtonTypes} from '../../../cta/components/Button/types';
-import useTheme from '../../../styles/theme/hooks/useTheme';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useTheme from '../../../styles/hooks/useTheme';
+import useStyles from '../../../styles/hooks/useStyles';
 
 import stylesCreate from './stylesCreate';
 import {IModalAskProps} from './types';

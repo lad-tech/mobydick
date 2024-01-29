@@ -1,7 +1,7 @@
 import {FC} from 'react';
 import {ViewStyle} from 'react-native';
 
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 
 import stylesCreate from './stylesCreate';

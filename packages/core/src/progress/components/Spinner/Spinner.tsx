@@ -1,7 +1,7 @@
 import {FC, useEffect, useRef} from 'react';
 import {Animated} from 'react-native';
 
-import useTheme from '../../../styles/theme/hooks/useTheme';
+import useTheme from '../../../styles/hooks/useTheme';
 
 import Loader from './Loader';
 import {ISizeSpinner, SpinnerProps} from './types';

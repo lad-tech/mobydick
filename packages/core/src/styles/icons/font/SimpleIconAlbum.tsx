@@ -1,7 +1,7 @@
 import {useCallback} from 'react';
 import {StyleSheet} from 'react-native';
 
-import rem from '../../spaces/rem';
+import rem from '../../utils/rem';
 import Pressable from '../../../basic/components/Pressable/Pressable';
 import FlatList from '../../../basic/components/FlatList/FlatList';
 

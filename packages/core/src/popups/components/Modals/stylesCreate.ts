@@ -1,6 +1,6 @@
 import {Dimensions, StyleSheet} from 'react-native';
 
-import {IThemeContext} from '../../../styles/theme/types';
+import {IThemeContext} from '../../../styles/types';
 
 const {width: WIDTH} = Dimensions.get('window');
 

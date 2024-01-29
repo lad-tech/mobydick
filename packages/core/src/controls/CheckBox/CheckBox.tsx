@@ -4,7 +4,7 @@ import {IControlProps} from '../types';
 import Control from '../Control';
 import ControlType from '../constants';
 import {IPressableProps} from '../../basic/components/Pressable';
-import useStyles from '../../styles/theme/hooks/useStyles';
+import useStyles from '../../styles/hooks/useStyles';
 import Pressable from '../../basic/components/Pressable/Pressable';
 
 import stylesCreate from './stylesCreate';
