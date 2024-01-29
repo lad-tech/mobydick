@@ -29,16 +29,14 @@ describe('@lad-tech/mobydick-core/CodeField', () => {
   });
   test('render correctly with value onKeyPress', () => {
     const onChangeText = jest.fn();
-    const {toJSON, getByLabelText} = render(
-      <CodeField
-        onBackKeyPress={() => console.log('onBackKeyPress')}
-        onChangeText={onChangeText}
-      />,
+    const onBackKeyPress = jest.fn();
+    const {getByLabelText} = render(
+      <CodeField onBackKeyPress={onBackKeyPress} onChangeText={onChangeText} />,
     );
 
     const codeField = getByLabelText(LABELS.codeField);
 
     act(() => codeField.props.onKeyPress({nativeEvent: {key: 'Backspace'}}));
-    expect(toJSON()).toMatchSnapshot();
+    expect(onBackKeyPress).toHaveBeenCalled();
   });
 });

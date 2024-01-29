@@ -25,7 +25,7 @@ describe('Search', () => {
     const {toJSON, getByLabelText} = render(<Search />);
     expect(toJSON()).toMatchSnapshot();
 
-    const log = jest.spyOn(console, 'log');
+    const log = jest.spyOn(console, 'log').mockImplementation(jest.fn);
     const search = getByLabelText(LABELS.search);
 
     fireEvent.changeText(search, 'search');

@@ -24,6 +24,12 @@ const keyExtractor = (item: IData) => item.id;
 const itemWidth = 100;
 
 describe('Carousel', () => {
+  beforeAll(() => {
+    jest.useFakeTimers();
+  });
+  afterAll(() => {
+    jest.useFakeTimers();
+  });
   it('render Carousel', () => {
     const {toJSON} = render(
       <SafeAreaProvider>
@@ -84,12 +90,12 @@ describe('Carousel', () => {
     );
     const carousel = getByLabelText(LABELS.carousel);
 
-    expect(toJSON()).toMatchSnapshot();
     act(() => {
       fireEvent(carousel, 'layout', {
         nativeEvent: {layout: {height: 100}},
       });
     });
+    expect(toJSON()).toMatchSnapshot();
   });
   it('render Carousel not activeItemId', () => {
     const {toJSON, getByLabelText} = render(
@@ -105,12 +111,12 @@ describe('Carousel', () => {
     );
     const carousel = getByLabelText(LABELS.carousel);
 
-    expect(toJSON()).toMatchSnapshot();
     act(() => {
       fireEvent(carousel, 'layout', {
         nativeEvent: {layout: {height: 100}},
       });
     });
+    expect(toJSON()).toMatchSnapshot();
   });
   it('render Carousel averageItemLength', () => {
     const {toJSON, getByLabelText} = render(
@@ -124,13 +130,13 @@ describe('Carousel', () => {
         />
       </SafeAreaProvider>,
     );
-    expect(toJSON()).toMatchSnapshot();
     const carousel = getByLabelText(LABELS.carousel);
     act(() => {
       fireEvent(carousel, 'onScrollToIndexFailed', {
         error: {index: 7},
       });
     });
+    expect(toJSON()).toMatchSnapshot();
   });
   it('render Carousel averageItemLength onScrollToIndexFailed', () => {
     const {toJSON} = render(
@@ -158,13 +164,13 @@ describe('Carousel', () => {
         />
       </SafeAreaProvider>,
     );
-    expect(toJSON()).toMatchSnapshot();
     const carousel = getByLabelText(LABELS.carousel);
     act(() => {
       fireEvent(carousel, 'onScrollToIndexFailed', {
         error: {index: 7},
       });
     });
+    expect(toJSON()).toMatchSnapshot();
   });
   it('render Carousel animateAutoScroll true', () => {
     const {toJSON} = render(
@@ -195,7 +201,6 @@ describe('Carousel', () => {
         />
       </SafeAreaProvider>,
     );
-    expect(toJSON()).toMatchSnapshot();
     const carousel = getByLabelText(LABELS.carousel);
 
     fireEvent(carousel, 'onScroll', {
@@ -205,6 +210,7 @@ describe('Carousel', () => {
         layoutMeasurement: {height: 100, width: 500},
       },
     });
+    expect(toJSON()).toMatchSnapshot();
   });
   it('render Carousel isDots with props', () => {
     const {toJSON} = render(
@@ -241,13 +247,14 @@ describe('Carousel', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('render Carousel scroll', () => {
+    const onActiveChange = jest.fn();
     const {toJSON, getByLabelText} = render(
       <SafeAreaProvider>
         <Carousel
           data={data}
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
-          onActiveChange={(item: IData) => console.log('item', item)}
+          onActiveChange={onActiveChange}
           activeItemId={'3'}
           itemWidth={itemWidth}
         />
@@ -333,13 +340,14 @@ describe('Carousel', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('render Carousel scroll align = center honest count', () => {
+    const onActiveChange = jest.fn();
     const {toJSON, getByLabelText} = render(
       <SafeAreaProvider>
         <Carousel
           data={data}
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
-          onActiveChange={(item: IData) => console.log('item', item)}
+          onActiveChange={onActiveChange}
           activeItemId={'6'}
           itemWidth={250}
           align={ICarouselAlign.center}
@@ -370,13 +378,14 @@ describe('Carousel', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('render Carousel scroll align = center count', () => {
+    const onActiveChange = jest.fn();
     const {toJSON, getByLabelText} = render(
       <SafeAreaProvider>
         <Carousel
           data={data}
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
-          onActiveChange={(item: IData) => console.log('item', item)}
+          onActiveChange={onActiveChange}
           activeItemId={'5'}
           itemWidth={itemWidth}
           align={ICarouselAlign.center}
@@ -413,13 +422,14 @@ describe('Carousel', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('render Carousel not scroll', () => {
+    const onActiveChange = jest.fn();
     const {toJSON, getByLabelText} = render(
       <SafeAreaProvider>
         <Carousel
           data={data}
           sliderItem={sliderItem}
           keyExtractor={keyExtractor}
-          onActiveChange={(item: IData) => console.log('item', item)}
+          onActiveChange={onActiveChange}
           itemWidth={itemWidth}
         />
       </SafeAreaProvider>,
@@ -478,7 +488,9 @@ describe('Carousel', () => {
       </SafeAreaProvider>,
     );
 
-    jest.runAllTimers();
+    act(() => {
+      jest.runOnlyPendingTimers();
+    });
     expect(toJSON()).toMatchSnapshot();
   });
 });

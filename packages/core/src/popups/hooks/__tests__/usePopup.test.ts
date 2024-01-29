@@ -1,5 +1,6 @@
 import {renderHook} from '@testing-library/react-hooks';
 import {FC} from 'react';
+import {act} from '@testing-library/react-native';
 
 import usePopup from '../usePopup';
 import {PopupsProvider} from '../../context';
@@ -20,13 +21,19 @@ describe('@lad-tech/mobydick-core/usePopup', () => {
       wrapper: PopupsProvider,
     });
 
-    result.current.open({title: 'test'});
+    act(() => {
+      result.current.open({title: 'test'});
+    });
     expect(openPopup).toHaveBeenCalledWith({Content: fakeComponent, props});
 
-    result.current.close();
+    act(() => {
+      result.current.close();
+    });
     expect(closePopup).toHaveBeenCalledWith('1');
 
-    result.current.closeAll();
+    act(() => {
+      result.current.closeAll();
+    });
     expect(closeAllPopups).toHaveBeenCalled();
   });
 
@@ -37,7 +44,9 @@ describe('@lad-tech/mobydick-core/usePopup', () => {
       wrapper: PopupsProvider,
     });
 
-    result.current.close();
+    act(() => {
+      result.current.close();
+    });
     expect(closePopup).not.toHaveBeenCalled();
   });
 
@@ -48,8 +57,9 @@ describe('@lad-tech/mobydick-core/usePopup', () => {
     const {result} = renderHook(() => usePopup(component), {
       wrapper: PopupsProvider,
     });
-
-    result.current.open();
+    act(() => {
+      result.current.open();
+    });
     expect(openPopup).toHaveBeenCalledWith({Content: component, props: {}});
   });
 });

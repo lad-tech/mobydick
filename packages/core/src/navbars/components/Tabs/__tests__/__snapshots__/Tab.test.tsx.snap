@@ -61,67 +61,6 @@ exports[`Tab render correctly active false 1`] = `
 </View>
 `;
 
-exports[`Tab render correctly active true 1`] = `
-<View
-  accessibilityLabel="tab"
-  accessibilityState={
-    {
-      "busy": undefined,
-      "checked": undefined,
-      "disabled": undefined,
-      "expanded": undefined,
-      "selected": undefined,
-    }
-  }
-  accessibilityValue={
-    {
-      "max": undefined,
-      "min": undefined,
-      "now": undefined,
-      "text": undefined,
-    }
-  }
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    {
-      "backgroundColor": "#2B78EE",
-      "borderRadius": 12,
-      "marginRight": 12,
-      "opacity": 1,
-      "paddingHorizontal": 18,
-      "paddingVertical": 9,
-    }
-  }
->
-  <Text
-    allowFontScaling={true}
-    style={
-      [
-        {
-          "color": "#FFF",
-          "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
-        },
-        undefined,
-      ]
-    }
-  >
-    1
-  </Text>
-</View>
-`;
-
 exports[`Tab render correctly with props 1`] = `
 <View
   accessibilityLabel="tab"

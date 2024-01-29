@@ -44,19 +44,20 @@ describe('Tab', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   test('render correctly active true', () => {
-    const {toJSON, getByLabelText} = render(
+    const onPressCommon = jest.fn();
+    const {getByLabelText} = render(
       <Tab
         item={{
           label: label,
           value: value,
         }}
-        onPressCommon={item => console.log(item)}
+        onPressCommon={onPressCommon}
         active={true}
       />,
     );
     const tab = getByLabelText(LABELS.tab);
 
     fireEvent.press(tab);
-    expect(toJSON()).toMatchSnapshot();
+    expect(onPressCommon).toHaveBeenCalledWith({label, value});
   });
 });
