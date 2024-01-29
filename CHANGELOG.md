@@ -1,3 +1,10 @@
+## [7.18.1](https://github.com/lad-tech/mobydick/compare/v7.18.0...v7.18.1) (2024-01-29)
+
+
+### Bug Fixes
+
+* update imports for chart ([5b37208](https://github.com/lad-tech/mobydick/commit/5b37208ab642fecb2414a1798dfac88eac74369f))
+
 # [7.18.0](https://github.com/lad-tech/mobydick/compare/v7.17.0...v7.18.0) (2024-01-29)
 
 
