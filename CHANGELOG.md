@@ -1,3 +1,10 @@
+# [7.18.0](https://github.com/lad-tech/mobydick/compare/v7.17.0...v7.18.0) (2024-01-29)
+
+
+### Features
+
+* update tags ([1c5a03a](https://github.com/lad-tech/mobydick/commit/1c5a03ab2ae699efbe5c4d7bd65be1c9b27ec6e8))
+
 ## [7.16.3](https://github.com/lad-tech/mobydick/compare/v7.16.2...v7.16.3) (2024-01-24)
 
 
