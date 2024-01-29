@@ -1,7 +1,7 @@
 import {IInputsTypes} from '../types';
 import {SimpleIcon, SimpleIconName} from '../../../styles/icons';
 import {IStyledTextProps} from '../../../typography/types';
-import useTheme from '../../../styles/theme/hooks/useTheme';
+import useTheme from '../../../styles/hooks/useTheme';
 import View from '../../../basic/components/View/View';
 import {Typography} from '../../../typography';
 

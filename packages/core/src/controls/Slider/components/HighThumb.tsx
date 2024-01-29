@@ -1,6 +1,6 @@
 import {Animated} from 'react-native';
 
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import stylesCreate from '../stylesCreate';
 
 import Thumb from './Thumb';

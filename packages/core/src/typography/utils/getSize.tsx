@@ -1,4 +1,4 @@
-import rem from '../../styles/spaces/rem';
+import rem from '../../styles/utils/rem';
 import {TFontSize, TSizes} from '../types';
 
 const sizes: TSizes = {

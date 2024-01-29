@@ -10,9 +10,9 @@ import {InputSubtitle, InputTitle} from '../Base';
 import {ITextInput} from '../../../basic/components/TextInput/types';
 import View from '../../../basic/components/View/View';
 import TextInput from '../../../basic/components/TextInput/TextInput';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import {useFont} from '../../../typography/hooks/useFont';
-import rem from '../../../styles/spaces/rem';
+import rem from '../../../styles/utils/rem';
 
 import {IInputFieldsProps} from './types';
 import stylesCreate from './stylesCreate';

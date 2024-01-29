@@ -1,6 +1,6 @@
 import {FC} from 'react';
 
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import {Typography} from '../../../typography/components/Typography/Typography';
 import {ITitlePopup} from '../PopupBase';
 

@@ -3,7 +3,7 @@ import {useCallback, useRef, useState} from 'react';
 import {IInputsTypes} from '../types';
 import {InputSubtitle, InputTitle} from '../Base';
 import usePopups from '../../../popups/hooks/usePopups';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import {Typography} from '../../../typography/components/Typography/Typography';

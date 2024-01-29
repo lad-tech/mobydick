@@ -3,7 +3,7 @@ import {FC} from 'react';
 import {IPressableProps, Pressable} from '../../basic/components/Pressable';
 import {ICommonControlProps} from '../types';
 import {Check} from '../../styles/icons';
-import rem from '../../styles/spaces/rem';
+import rem from '../../styles/utils/rem';
 
 const CheckSquare: FC<ICommonControlProps & IPressableProps> = ({
   selected,

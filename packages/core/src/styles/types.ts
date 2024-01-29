@@ -1,4 +1,7 @@
+import {ImageStyle, TextStyle, ViewStyle} from 'react-native';
+
 import {
+  CurrentTheme,
   defaultBannerLightColor,
   defaultBgLightColor,
   defaultBorderLightColor,
@@ -6,13 +9,14 @@ import {
   defaultChartLightColor,
   defaultCTALightColor,
   defaultElementLightColor,
+  defaultFonts,
   defaultIconLightColor,
+  defaultSpaces,
   defaultTextLightColor,
-} from '../colors';
-import {defaultSpaces} from '../spaces';
+  defaultTheme,
+} from './constants';
 
-import {CurrentTheme, defaultFonts, defaultTheme} from './constants';
-
+export type IStylesTypes = Record<string, ViewStyle | TextStyle | ImageStyle>;
 export type ICurrentTheme = CurrentTheme | string;
 
 export interface IDefaultTheme {

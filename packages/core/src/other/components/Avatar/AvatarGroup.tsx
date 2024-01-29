@@ -3,9 +3,9 @@ import {StyleSheet} from 'react-native';
 
 import View from '../../../basic/components/View/View';
 import {Typography} from '../../../typography';
-import rem from '../../../styles/spaces/rem';
+import rem from '../../../styles/utils/rem';
+import useStyles from '../../../styles/hooks/useStyles';
 import {IThemeContext} from '../../../styles';
-import useStyles from '../../../styles/theme/hooks/useStyles';
 
 import Avatar from './Avatar';
 import {IAvatarGroupProps} from './types';

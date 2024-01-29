@@ -2,9 +2,9 @@ import {FC, useCallback, useMemo, useState} from 'react';
 import {Image, ImageErrorEventData, NativeSyntheticEvent} from 'react-native';
 
 import View from '../../../basic/components/View/View';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import {LABELS} from '../../constants';
-import useTheme from '../../../styles/theme/hooks/useTheme';
+import useTheme from '../../../styles/hooks/useTheme';
 import {isNumber} from '../../functions/isNumber';
 
 import {IAvatarProps, IAvatarSize, IAvatarTypes} from './types';

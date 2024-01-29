@@ -1,7 +1,10 @@
 import {renderHook} from '@testing-library/react-hooks';
 
 import useTheme from '../useTheme';
-import {defaultThemeContext, MissingThemeProviderError} from '../../context';
+import {
+  defaultThemeContext,
+  MissingThemeProviderError,
+} from '../../context/context';
 
 describe('useTheme', () => {
   it('throw error when change without Provider', () => {

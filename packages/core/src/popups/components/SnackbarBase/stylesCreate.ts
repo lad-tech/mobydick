@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
 
-import {IThemeContext} from '../../../styles/theme/types';
 import {IPosition} from '../../types';
+import {IThemeContext} from '../../../styles/types';
 
 const stylesCreate = (theme: IThemeContext, placement?: IPosition) => {
   const {colors} = theme;

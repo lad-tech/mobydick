@@ -9,8 +9,9 @@ module.exports = {
         'node',
     ],
     testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|tsx?)$',
+    "setupFiles": ["@shopify/react-native-skia/jestSetup.js"],
     'transformIgnorePatterns': [
-        'node_modules/(?!(jest-)?react-native|@react-native-community|@react-native|@react-navigation/.*)',
+        'node_modules/(?!(jest-)?react-native|@react-native-community|@react-native|@react-navigation/.*|@shopify/react-native-skia)',
     ],
     'setupFilesAfterEnv': [
         '<rootDir>/__mocks__/globalMock.ts',

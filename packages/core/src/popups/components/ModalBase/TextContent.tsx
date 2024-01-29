@@ -1,7 +1,7 @@
 import {FC} from 'react';
 
 import {ITextContentProps} from '../PopupBase';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 import {Typography} from '../../../typography/components/Typography/Typography';
 

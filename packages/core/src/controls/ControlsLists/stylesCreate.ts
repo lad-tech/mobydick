@@ -1,6 +1,6 @@
 import {StyleSheet} from 'react-native';
 
-import {IThemeContext} from '../../styles/theme/types';
+import {IThemeContext} from '../../styles/types';
 
 const stylesCreate = (_theme: IThemeContext, horizontal: boolean) =>
   StyleSheet.create({

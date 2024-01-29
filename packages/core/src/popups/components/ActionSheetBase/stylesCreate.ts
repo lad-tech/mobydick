@@ -1,7 +1,7 @@
 import {StyleSheet, ViewStyle} from 'react-native';
 
-import rem from '../../../styles/spaces/rem';
-import {IThemeContext} from '../../../styles/theme/types';
+import rem from '../../../styles/utils/rem';
+import {IThemeContext} from '../../../styles/types';
 
 import {IItemType} from './types';
 

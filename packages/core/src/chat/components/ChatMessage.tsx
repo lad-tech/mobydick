@@ -3,11 +3,11 @@ import {Image, StyleSheet} from 'react-native';
 import View from '../../basic/components/View/View';
 import {Typography} from '../../typography';
 import {isNumber} from '../../other/functions/isNumber';
-import {IThemeContext} from '../../styles';
-import useStyles from '../../styles/theme/hooks/useStyles';
-import rem from '../../styles/spaces/rem';
+import useStyles from '../../styles/hooks/useStyles';
+import rem from '../../styles/utils/rem';
 import {isValidMessageTime} from '../functions/isValidMessageTime';
 import {IChatMessage} from '../types';
+import {IThemeContext} from '../../styles/types';
 
 const ChatMessage = (props: IChatMessage) => {
   const {isMe, message, image, time} = props;

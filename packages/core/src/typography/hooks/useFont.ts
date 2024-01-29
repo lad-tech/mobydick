@@ -1,4 +1,4 @@
-import useTheme from '../../styles/theme/hooks/useTheme';
+import useTheme from '../../styles/hooks/useTheme';
 import {
   TEXT,
   TFontColor,

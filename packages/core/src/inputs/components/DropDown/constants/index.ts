@@ -1,4 +1,4 @@
-import rem from '../../../../styles/spaces/rem';
+import rem from '../../../../styles/utils/rem';
 
 export const BORDER_BUTTON_WIDTH = rem(1);
 

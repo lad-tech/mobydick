@@ -2,11 +2,11 @@ import {StyleSheet} from 'react-native';
 
 import TouchableOpacity from '../../basic/components/TouchableOpacity/TouchableOpacity';
 import SimpleIcon, {SimpleIconName} from '../../styles/icons/font/SimpleIcon';
-import useStyles from '../../styles/theme/hooks/useStyles';
-import rem from '../../styles/spaces/rem';
-import {IThemeContext} from '../../styles';
-import useTheme from '../../styles/theme/hooks/useTheme';
+import useStyles from '../../styles/hooks/useStyles';
+import rem from '../../styles/utils/rem';
+import useTheme from '../../styles/hooks/useTheme';
 import {ITouchableOpacityProps} from '../../basic';
+import {IThemeContext} from '../../styles/types';
 
 interface IChatPressableIcon extends ITouchableOpacityProps {
   name: SimpleIconName;

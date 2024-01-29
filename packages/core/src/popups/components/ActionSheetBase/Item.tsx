@@ -1,7 +1,7 @@
 import {FC, useCallback} from 'react';
 
-import useStyles from '../../../styles/theme/hooks/useStyles';
-import useTheme from '../../../styles/theme/hooks/useTheme';
+import useStyles from '../../../styles/hooks/useStyles';
+import useTheme from '../../../styles/hooks/useTheme';
 import Pressable from '../../../basic/components/Pressable/Pressable';
 import {LABELS} from '../../../other';
 

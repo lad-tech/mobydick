@@ -2,7 +2,7 @@ import {StyleProp, TextStyle} from 'react-native';
 import * as React from 'react';
 
 import {ITextProps} from '../basic/components/Text/types';
-import {ITextColors} from '../styles/colors/types';
+import {ITextColors} from '../styles/constants/colors/types';
 
 export interface IStyledTextProps extends ITextProps {
   children?: React.ReactNode;

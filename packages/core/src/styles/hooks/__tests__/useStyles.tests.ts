@@ -2,7 +2,7 @@ import {renderHook} from '@testing-library/react-hooks';
 import {StyleSheet} from 'react-native';
 
 import useStyles from '../useStyles';
-import {defaultThemeContext} from '../../context';
+import {defaultThemeContext} from '../../context/context';
 
 const styles = () => StyleSheet.create({test: {flex: 1}});
 

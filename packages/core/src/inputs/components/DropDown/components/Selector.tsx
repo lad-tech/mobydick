@@ -12,7 +12,7 @@ import {IDropDownProps, IItemValue, IListItem} from '../types';
 import {IPopupProps} from '../../../../popups/components/PopupBase/types';
 import TouchableHighlight from '../../../../basic/components/TouchableHighlight/TouchableHighlight';
 import {Typography} from '../../../../typography/components/Typography/Typography';
-import useStyles from '../../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../../styles/hooks/useStyles';
 import PopupBase from '../../../../popups/components/PopupBase/PopupBase';
 import View from '../../../../basic/components/View/View';
 import FlatList from '../../../../basic/components/FlatList/FlatList';

@@ -1,4 +1,7 @@
-import {defaultSpaces} from '../spaces';
+import {TWeights} from '../../typography';
+import {IDefaultTheme} from '../types';
+
+import {defaultSpaces} from './defaultSpaces';
 import {
   defaultBannerDarkColor,
   defaultBannerLightColor,
@@ -18,10 +21,7 @@ import {
   defaultIconLightColor,
   defaultTextDarkColor,
   defaultTextLightColor,
-} from '../colors';
-import {TWeights} from '../../typography';
-
-import {IDefaultTheme} from './types';
+} from './colors';
 
 export enum CurrentTheme {
   light = 'light',

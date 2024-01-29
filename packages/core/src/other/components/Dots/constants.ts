@@ -1,4 +1,4 @@
-import rem from '../../../styles/spaces/rem';
+import rem from '../../../styles/utils/rem';
 
 export const SPAN_SIZE = 3;
 

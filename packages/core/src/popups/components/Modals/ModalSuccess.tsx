@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 import {ModalBase} from '../ModalBase';
 import {IContentProps} from '../../types';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 
 import stylesCreate from './stylesCreate';
 import {IModalProps} from './types';

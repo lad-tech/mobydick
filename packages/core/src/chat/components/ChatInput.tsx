@@ -9,8 +9,8 @@ import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {KeyboardAvoidingViewProps} from 'react-native/Libraries/Components/Keyboard/KeyboardAvoidingView';
 
 import View from '../../basic/components/View/View';
-import useStyles from '../../styles/theme/hooks/useStyles';
 import {IThemeContext} from '../../styles';
+import useStyles from '../../styles/hooks/useStyles';
 
 import ChatInputField from './ChatInputField';
 import ChatPressableIcon from './ChatPressableIcon';

@@ -1,6 +1,5 @@
 import {Dimensions, StyleSheet} from 'react-native';
-import {IThemeContext} from '@lad-tech/mobydick-core/src/styles/theme/types';
-import rem from '@lad-tech/mobydick-core/src/styles/spaces/rem';
+import {IThemeContext, rem} from '@lad-tech/mobydick-core';
 
 const {width: WIDTH} = Dimensions.get('window');
 

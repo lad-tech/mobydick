@@ -7,10 +7,10 @@ import {
 } from 'react-native';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
-import rem from '../../../styles/spaces/rem';
+import rem from '../../../styles/utils/rem';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import {LABELS} from '../../constants';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import Dots from '../Dots/Dots';
 import {isNumber} from '../../functions/isNumber';
 

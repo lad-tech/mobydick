@@ -1,7 +1,7 @@
 import {FC, PropsWithChildren, useCallback, useEffect} from 'react';
 import {BackHandler, GestureResponderEvent} from 'react-native';
 
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import Pressable from '../../../basic/components/Pressable/Pressable';
 
 import Constants from './constants';

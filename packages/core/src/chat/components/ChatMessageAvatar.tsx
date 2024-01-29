@@ -5,7 +5,7 @@ import TouchableOpacity from '../../basic/components/TouchableOpacity/TouchableO
 import {IAvatarSize} from '../../other';
 import {IChatMessageAvatar} from '../types';
 import View from '../../basic/components/View/View';
-import useStyles from '../../styles/theme/hooks/useStyles';
+import useStyles from '../../styles/hooks/useStyles';
 import {IThemeContext} from '../../styles';
 
 import ChatMessage from './ChatMessage';

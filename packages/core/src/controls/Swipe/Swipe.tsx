@@ -7,8 +7,8 @@ import {
   PanResponderGestureState,
 } from 'react-native';
 
-import useStyles from '../../styles/theme/hooks/useStyles';
-import rem from '../../styles/spaces/rem';
+import useStyles from '../../styles/hooks/useStyles';
+import rem from '../../styles/utils/rem';
 import {LABELS} from '../../other';
 
 import stylesCreate from './stylesCreate';

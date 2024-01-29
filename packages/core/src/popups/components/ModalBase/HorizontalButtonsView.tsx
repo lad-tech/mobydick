@@ -1,7 +1,7 @@
 import {FC} from 'react';
 
 import {IHorizontalButtonsView} from '../../types';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 import Button from '../../../cta/components/Button/Button';
 import {IButtonSize} from '../../../cta/components/Button/types';

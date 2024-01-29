@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 import Button from '../../../cta/components/Button/Button';
 import {IButtonProps, IButtonSize} from '../../../cta/components/Button/types';
-import useTheme from '../../../styles/theme/hooks/useTheme';
+import useTheme from '../../../styles/hooks/useTheme';
 
 const LeftButton: FC<IButtonProps> = props => {
   const {spaces} = useTheme();

@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 import View from '../../../../basic/components/View/View';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
-import useTheme from '../../../../styles/theme/hooks/useTheme';
+import useTheme from '../../../../styles/hooks/useTheme';
 import {IDropDownIconProps} from '../types';
 
 const DropDownIcon: FC<IDropDownIconProps> = props => {

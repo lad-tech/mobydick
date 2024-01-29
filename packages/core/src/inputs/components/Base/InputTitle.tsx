@@ -6,7 +6,7 @@ import {
   Typography,
   TypographyProp,
 } from '../../../typography';
-import useTheme from '../../../styles/theme/hooks/useTheme';
+import useTheme from '../../../styles/hooks/useTheme';
 
 interface IInputTitle {
   title: string;

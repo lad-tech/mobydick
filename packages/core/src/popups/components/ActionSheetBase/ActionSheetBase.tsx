@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 import {PopupBase} from '../PopupBase';
 import {returnTrue} from '../../functions';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 
 import stylesCreate from './stylesCreate';

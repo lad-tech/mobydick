@@ -4,9 +4,9 @@ import {IBadge, IBadgeTypes} from '../types';
 import {BadgeIndicator, ICounterSize} from '../../Badge';
 import Counter from '../../Badge/Counter/Counter';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
-import useStyles from '../../../../styles/theme/hooks/useStyles';
-import useTheme from '../../../../styles/theme/hooks/useTheme';
-import rem from '../../../../styles/spaces/rem';
+import useStyles from '../../../../styles/hooks/useStyles';
+import useTheme from '../../../../styles/hooks/useTheme';
+import rem from '../../../../styles/utils/rem';
 
 interface IProps {
   badge?: IBadge;

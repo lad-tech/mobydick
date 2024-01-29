@@ -1,8 +1,8 @@
 import {renderHook} from '@testing-library/react-hooks';
 
 import stylesCreate from '../stylesCreate';
-import useTheme from '../../../../styles/theme/hooks/useTheme';
-import rem from '../../../../styles/spaces/rem';
+import useTheme from '../../../../styles/hooks/useTheme';
+import rem from '../../../../styles/utils/rem';
 
 describe('dots/stylesCreate', () => {
   it('must return', () => {

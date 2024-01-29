@@ -1,6 +1,6 @@
 import {IItemType, IPropsContents} from '../types';
 import stylesCreate from '../stylesCreate';
-import useStyles from '../../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../../styles/hooks/useStyles';
 import View from '../../../../basic/components/View/View';
 import {Typography} from '../../../../typography';
 import CheckBox from '../../../../controls/CheckBox/CheckBox';

@@ -3,7 +3,7 @@ import {renderHook} from '@testing-library/react-hooks';
 
 import Circle from '../Circle';
 import stylesCreate from '../stylesCreate';
-import useStyles from '../../../styles/theme/hooks/useStyles';
+import useStyles from '../../../styles/hooks/useStyles';
 
 describe('@lad-tech/mobydick-core/Radio/Circle', () => {
   it('renders correctly', () => {

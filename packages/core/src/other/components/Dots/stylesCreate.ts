@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
 
+import rem from '../../../styles/utils/rem';
 import {IThemeContext} from '../../../styles';
-import rem from '../../../styles/spaces/rem';
 
 const stylesCreate = ({spaces}: IThemeContext, size = spaces.Space8) => {
   return StyleSheet.create({

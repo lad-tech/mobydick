@@ -2,11 +2,11 @@ import {useCallback} from 'react';
 import {StyleSheet, ViewStyle} from 'react-native';
 
 import {IStatusState} from '../types';
-import useStyles from '../../../../styles/theme/hooks/useStyles';
-import useTheme from '../../../../styles/theme/hooks/useTheme';
+import useStyles from '../../../../styles/hooks/useStyles';
+import useTheme from '../../../../styles/hooks/useTheme';
 import {Typography} from '../../../../typography';
-import {IThemeContext} from '../../../../styles';
 import View from '../../../../basic/components/View/View';
+import {IThemeContext} from '../../../../styles/types';
 
 interface IProps {
   state: IStatusState;
