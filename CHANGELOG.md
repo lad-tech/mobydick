@@ -1,3 +1,10 @@
+## [7.18.2](https://github.com/lad-tech/mobydick/compare/v7.18.1...v7.18.2) (2024-01-29)
+
+
+### Bug Fixes
+
+* update chart coordinate styles ([3f19a93](https://github.com/lad-tech/mobydick/commit/3f19a93c5035bef336b23581b4c1d93b63ac7eaf))
+
 ## [7.18.1](https://github.com/lad-tech/mobydick/compare/v7.18.0...v7.18.1) (2024-01-29)
 
 
