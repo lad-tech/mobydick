@@ -15,6 +15,7 @@ export interface IControlProps extends PropsWithChildren<ICommonControlProps> {
   disabled?: boolean;
   onPress?(): void;
   containerStyle?: ViewStyle;
+  checkboxStyle?: ViewStyle;
 }
 
 export interface IControl extends IControlProps {

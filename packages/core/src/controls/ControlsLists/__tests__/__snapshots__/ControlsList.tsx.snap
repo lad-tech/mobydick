@@ -85,13 +85,16 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 6,
-          "borderWidth": 3,
-          "height": 30,
-          "width": 30,
-        }
+        [
+          {
+            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderRadius": 6,
+            "borderWidth": 3,
+            "height": 30,
+            "width": 30,
+          },
+          undefined,
+        ]
       }
       value="1"
     />
@@ -187,13 +190,16 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 6,
-          "borderWidth": 3,
-          "height": 30,
-          "width": 30,
-        }
+        [
+          {
+            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderRadius": 6,
+            "borderWidth": 3,
+            "height": 30,
+            "width": 30,
+          },
+          undefined,
+        ]
       }
       value="2"
     />
@@ -303,13 +309,16 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 6,
-          "borderWidth": 3,
-          "height": 30,
-          "width": 30,
-        }
+        [
+          {
+            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderRadius": 6,
+            "borderWidth": 3,
+            "height": 30,
+            "width": 30,
+          },
+          undefined,
+        ]
       }
       value="1"
     />
@@ -405,13 +414,16 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 6,
-          "borderWidth": 3,
-          "height": 30,
-          "width": 30,
-        }
+        [
+          {
+            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderRadius": 6,
+            "borderWidth": 3,
+            "height": 30,
+            "width": 30,
+          },
+          undefined,
+        ]
       }
       value="2"
     />
@@ -521,13 +533,16 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 6,
-          "borderWidth": 3,
-          "height": 30,
-          "width": 30,
-        }
+        [
+          {
+            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderRadius": 6,
+            "borderWidth": 3,
+            "height": 30,
+            "width": 30,
+          },
+          undefined,
+        ]
       }
       value="1"
     />
@@ -623,13 +638,16 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 6,
-          "borderWidth": 3,
-          "height": 30,
-          "width": 30,
-        }
+        [
+          {
+            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderRadius": 6,
+            "borderWidth": 3,
+            "height": 30,
+            "width": 30,
+          },
+          undefined,
+        ]
       }
       value="2"
     />

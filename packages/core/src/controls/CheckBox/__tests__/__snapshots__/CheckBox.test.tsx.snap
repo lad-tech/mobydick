@@ -75,13 +75,16 @@ exports[`CheckBox should renders correctly 1`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      {
-        "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 6,
-        "borderWidth": 3,
-        "height": 30,
-        "width": 30,
-      }
+      [
+        {
+          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderRadius": 6,
+          "borderWidth": 3,
+          "height": 30,
+          "width": 30,
+        },
+        undefined,
+      ]
     }
     value="Pepega"
   />
@@ -168,13 +171,16 @@ exports[`CheckBox should renders correctly checked 1`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      {
-        "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 6,
-        "borderWidth": 0,
-        "height": 30,
-        "width": 30,
-      }
+      [
+        {
+          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderRadius": 6,
+          "borderWidth": 0,
+          "height": 30,
+          "width": 30,
+        },
+        undefined,
+      ]
     }
     value="Pepega"
   >
@@ -267,13 +273,16 @@ exports[`CheckBox should renders correctly disabled 1`] = `
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
     style={
-      {
-        "borderColor": "rgba(32, 36, 45, 0.3)",
-        "borderRadius": 6,
-        "borderWidth": 3,
-        "height": 30,
-        "width": 30,
-      }
+      [
+        {
+          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderRadius": 6,
+          "borderWidth": 3,
+          "height": 30,
+          "width": 30,
+        },
+        undefined,
+      ]
     }
     value="Pepega"
   />
