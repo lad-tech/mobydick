@@ -14,11 +14,15 @@ const CheckBox: FC<IControlProps & IPressableProps> = ({
   onPress,
   ...rest
 }) => {
-  const {disabled, selected, containerStyle} = rest;
+  const {disabled, selected, containerStyle, checkboxStyle} = rest;
   const [styles] = useStyles(stylesCreate, disabled, selected);
   return (
     <Pressable style={[styles.container, containerStyle]} onPress={onPress}>
-      <Control type={ControlType.checkBox} style={styles.checkbox} {...rest} />
+      <Control
+        type={ControlType.checkBox}
+        style={[styles.checkbox, checkboxStyle]}
+        {...rest}
+      />
       {children}
     </Pressable>
   );

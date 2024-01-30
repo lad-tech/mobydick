@@ -680,17 +680,21 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 6,
-          "borderWidth": 0,
-          "height": 30,
-          "width": 30,
-        }
+        [
+          {
+            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderRadius": 6,
+            "borderWidth": 0,
+            "height": 30,
+            "width": 30,
+          },
+          undefined,
+        ]
       }
       value="title"
     >
       <SvgMock
+        fill="#2B78EE"
         height={30}
         width={30}
       />

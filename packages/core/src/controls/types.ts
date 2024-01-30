@@ -7,6 +7,7 @@ import ControlType from './constants';
 
 export interface ICommonControlProps {
   selected?: boolean;
+  fill?: string;
 }
 
 export interface IControlProps extends PropsWithChildren<ICommonControlProps> {
@@ -14,6 +15,7 @@ export interface IControlProps extends PropsWithChildren<ICommonControlProps> {
   disabled?: boolean;
   onPress?(): void;
   containerStyle?: ViewStyle;
+  checkboxStyle?: ViewStyle;
 }
 
 export interface IControl extends IControlProps {
