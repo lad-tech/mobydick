@@ -1,3 +1,16 @@
+# [7.19.0](https://github.com/lad-tech/mobydick/compare/v7.18.2...v7.19.0) (2024-01-30)
+
+
+### Bug Fixes
+
+* **CheckBox:** added checkboxStyle ([886d6b9](https://github.com/lad-tech/mobydick/commit/886d6b996626ea18935c4e3a76ab05d45cafdf45))
+* **CheckBox:** added fill for CheckSquare ([7854bf6](https://github.com/lad-tech/mobydick/commit/7854bf64f77cd0a73f8aaf6db7078139de0e2e75))
+
+
+### Features
+
+* add createStyles ([cc61982](https://github.com/lad-tech/mobydick/commit/cc61982cbd12dc1a556922bb7e3c2bcecefb5e53))
+
 ## [7.18.2](https://github.com/lad-tech/mobydick/compare/v7.18.1...v7.18.2) (2024-01-29)
 
 
