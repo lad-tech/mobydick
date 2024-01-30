@@ -7,6 +7,7 @@ import ControlType from './constants';
 
 export interface ICommonControlProps {
   selected?: boolean;
+  fill?: string;
 }
 
 export interface IControlProps extends PropsWithChildren<ICommonControlProps> {

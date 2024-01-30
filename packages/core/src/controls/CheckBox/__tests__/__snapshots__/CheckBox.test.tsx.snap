@@ -179,6 +179,7 @@ exports[`CheckBox should renders correctly checked 1`] = `
     value="Pepega"
   >
     <SvgMock
+      fill="#2B78EE"
       height={30}
       width={30}
     />
