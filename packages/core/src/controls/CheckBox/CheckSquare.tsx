@@ -11,13 +11,15 @@ const CheckSquare: FC<ICommonControlProps & IPressableProps> = ({
   ...rest
 }) => {
   const {colors} = useTheme();
+  const width = rest.width || rem(20);
+  const height = rest.height || rem(20);
 
   return (
     <Pressable {...rest}>
       {selected ? (
         <Check
-          width={rem(20)}
-          height={rem(20)}
+          width={width}
+          height={height}
           fill={rest.fill || colors.ElementBase}
         />
       ) : null}
