@@ -204,7 +204,7 @@ exports[`CheckBox should renders correctly disabled 1`] = `
     {
       "busy": undefined,
       "checked": undefined,
-      "disabled": undefined,
+      "disabled": true,
       "expanded": undefined,
       "selected": undefined,
     }

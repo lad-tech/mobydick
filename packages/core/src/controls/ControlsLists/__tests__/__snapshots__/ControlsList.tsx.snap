@@ -16,7 +16,7 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -121,7 +121,7 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -240,7 +240,7 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -345,7 +345,7 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -464,7 +464,7 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -569,7 +569,7 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -688,7 +688,7 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -805,7 +805,7 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -924,7 +924,7 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -1029,7 +1029,7 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -1148,7 +1148,7 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }
@@ -1253,7 +1253,7 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }

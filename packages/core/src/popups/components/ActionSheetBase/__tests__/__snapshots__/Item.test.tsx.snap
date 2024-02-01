@@ -254,7 +254,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
       {
         "busy": undefined,
         "checked": undefined,
-        "disabled": undefined,
+        "disabled": false,
         "expanded": undefined,
         "selected": undefined,
       }

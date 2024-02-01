@@ -6,7 +6,7 @@ exports[`@lad-tech/mobydick-core/Radio renders correctly 1`] = `
     {
       "busy": undefined,
       "checked": undefined,
-      "disabled": undefined,
+      "disabled": false,
       "expanded": undefined,
       "selected": undefined,
     }
@@ -97,7 +97,7 @@ exports[`@lad-tech/mobydick-core/Radio renders correctly disabled 1`] = `
     {
       "busy": undefined,
       "checked": undefined,
-      "disabled": undefined,
+      "disabled": true,
       "expanded": undefined,
       "selected": undefined,
     }
@@ -188,7 +188,7 @@ exports[`@lad-tech/mobydick-core/Radio renders correctly selected 1`] = `
     {
       "busy": undefined,
       "checked": undefined,
-      "disabled": undefined,
+      "disabled": false,
       "expanded": undefined,
       "selected": undefined,
     }
@@ -291,7 +291,7 @@ exports[`@lad-tech/mobydick-core/Radio renders correctly selected and disabled 1
     {
       "busy": undefined,
       "checked": undefined,
-      "disabled": undefined,
+      "disabled": true,
       "expanded": undefined,
       "selected": undefined,
     }
