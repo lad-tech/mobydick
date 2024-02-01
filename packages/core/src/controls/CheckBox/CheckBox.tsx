@@ -9,13 +9,18 @@ import Pressable from '../../basic/components/Pressable/Pressable';
 
 import stylesCreate from './stylesCreate';
 
-const CheckBox: FC<IControlProps & IPressableProps> = ({
-  children,
-  onPress,
-  ...rest
-}) => {
-  const {disabled, selected, containerStyle, checkboxStyle} = rest;
-  const [styles] = useStyles(stylesCreate, disabled, selected);
+const CheckBox: FC<IControlProps & IPressableProps> = ({children, ...rest}) => {
+  const {
+    disabled,
+    selected,
+    containerStyle,
+    checkboxStyle,
+    onPress,
+    width,
+    height,
+  } = rest;
+  const [styles] = useStyles(stylesCreate, disabled, selected, width, height);
+
   return (
     <Pressable style={[styles.container, containerStyle]} onPress={onPress}>
       <Control

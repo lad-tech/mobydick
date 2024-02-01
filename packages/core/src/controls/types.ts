@@ -8,6 +8,8 @@ import ControlType from './constants';
 export interface ICommonControlProps {
   selected?: boolean;
   fill?: string;
+  width?: number;
+  height?: number;
 }
 
 export interface IControlProps extends PropsWithChildren<ICommonControlProps> {

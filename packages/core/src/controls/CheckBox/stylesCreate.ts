@@ -1,11 +1,14 @@
 import {StyleSheet} from 'react-native';
 
 import {IThemeContext} from '../../styles/types';
+import rem from '../../styles/utils/rem';
 
 const stylesCreate = (
   themeColors: IThemeContext,
   disabled = false,
   selected = false,
+  width = rem(20),
+  height = rem(20),
 ) => {
   const {colors, spaces} = themeColors;
 
@@ -20,8 +23,8 @@ const stylesCreate = (
     checkbox: {
       borderWidth: selected ? 0 : spaces.Space2,
       borderColor: colors.BorderNormal,
-      width: spaces.Space20,
-      height: spaces.Space20,
+      width: width,
+      height: height,
       borderRadius: spaces.Space4,
     },
   });
