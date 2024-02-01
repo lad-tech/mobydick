@@ -1,3 +1,10 @@
+## [7.19.1](https://github.com/lad-tech/mobydick/compare/v7.19.0...v7.19.1) (2024-02-01)
+
+
+### Bug Fixes
+
+* **CheckBox:** added width, height, changed onPress ([f5699e3](https://github.com/lad-tech/mobydick/commit/f5699e3a0c518e5b8a243fd6ea1e7fc8b4e7396f))
+
 # [7.19.0](https://github.com/lad-tech/mobydick/compare/v7.18.2...v7.19.0) (2024-01-30)
 
 
