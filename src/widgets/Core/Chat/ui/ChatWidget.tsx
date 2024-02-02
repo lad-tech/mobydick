@@ -1,15 +1,25 @@
 import {useState} from 'react';
+import {FlatListProps, ListRenderItem} from 'react-native';
 
 import {
   ChatInput,
   ChatMessage,
   ChatMessageAvatar,
   createStyles,
-  ScrollView,
+  FlatList,
+  IChatMessage,
   useStyles,
   View,
 } from 'shared/ui';
 
+const renderItem: ListRenderItem<IChatMessage> = ({item}) => {
+  return <ChatMessage {...item} />;
+};
+
+const keyExtractor: FlatListProps<IChatMessage>['keyExtractor'] = (
+  _item,
+  index,
+) => index.toString();
 export const ChatWidget = () => {
   const [styles] = useStyles(styleFn);
   const [input, setInput] = useState('');
@@ -33,22 +43,28 @@ export const ChatWidget = () => {
 
   return (
     <View style={styles.container}>
-      <ScrollView contentContainerStyle={styles.containerChat} bounces={false}>
-        <ChatMessage isMe={true} time={'12-12-1998'} message={'message'} />
-        <ChatMessageAvatar
-          user={{
-            firstName: 'firstName',
-            lastName: 'lastName',
-            middleName: 'middleName',
-          }}
-          isMe={false}
-          time={'12-12-1998'}
-          message={'message'}
-        />
-        {myMessages.map(message => (
-          <ChatMessage key={message.time} {...message} />
-        ))}
-      </ScrollView>
+      <FlatList
+        data={myMessages}
+        bounces={false}
+        ListHeaderComponent={
+          <View>
+            <ChatMessage isMe={true} time={'12-12-1998'} message={'message'} />
+            <ChatMessageAvatar
+              user={{
+                firstName: 'firstName',
+                lastName: 'lastName',
+                middleName: 'middleName',
+              }}
+              isMe={false}
+              time={'12-12-1998'}
+              message={'message'}
+            />
+          </View>
+        }
+        renderItem={renderItem}
+        keyExtractor={keyExtractor}
+      />
+
       <ChatInput>
         <ChatInput.ChatInputField value={input} onChangeText={setInput} />
         <ChatInput.ChatPressableIcon name={'icon-send'} onPress={onSend} />
@@ -57,12 +73,6 @@ export const ChatWidget = () => {
   );
 };
 
-const styleFn = createStyles(({colors, spaces}) => ({
-  container: {
-    flex: 1,
-  },
-  containerChat: {
-    backgroundColor: colors.BgSecondary,
-    padding: spaces.Space8,
-  },
+const styleFn = createStyles(({colors}) => ({
+  container: {flex: 1, backgroundColor: colors.BgSecondary},
 }));
