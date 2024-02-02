@@ -4532,7 +4532,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
           style={
             [
               {
-                "color": "#FFF",
+                "color": "#2B78EE",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
@@ -4540,7 +4540,6 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 9,
                 },
                 undefined,
@@ -4607,7 +4606,6 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 9,
                 },
                 undefined,
@@ -9141,7 +9139,6 @@ exports[`ModalCalendar bottomView IButtonView.small onAcceptDateRangeChange 1`] 
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 6,
                 },
                 undefined,
@@ -13675,7 +13672,6 @@ exports[`ModalCalendar bottomView IButtonView.small onDateRangeChange 1`] = `
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 6,
                 },
                 undefined,
@@ -27154,7 +27150,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
           style={
             [
               {
-                "color": "#FFF",
+                "color": "#2B78EE",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
@@ -27162,7 +27158,6 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 9,
                 },
                 undefined,
@@ -27229,7 +27224,6 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 9,
                 },
                 undefined,

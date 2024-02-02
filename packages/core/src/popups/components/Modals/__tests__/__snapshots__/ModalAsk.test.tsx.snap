@@ -209,7 +209,7 @@ exports[`@lad-tech/mobydick-core/modalAsk should renders correctly 1`] = `
           style={
             [
               {
-                "color": "#FFF",
+                "color": "#2B78EE",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
@@ -217,7 +217,6 @@ exports[`@lad-tech/mobydick-core/modalAsk should renders correctly 1`] = `
               },
               [
                 {
-                  "color": "#2B78EE",
                   "paddingHorizontal": 9,
                 },
                 undefined,
@@ -284,7 +283,6 @@ exports[`@lad-tech/mobydick-core/modalAsk should renders correctly 1`] = `
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 9,
                 },
                 undefined,
@@ -517,7 +515,6 @@ exports[`@lad-tech/mobydick-core/modalAsk should renders correctly with optional
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 9,
                 },
                 undefined,
@@ -584,7 +581,6 @@ exports[`@lad-tech/mobydick-core/modalAsk should renders correctly with optional
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 9,
                 },
                 undefined,
