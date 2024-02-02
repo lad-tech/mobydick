@@ -22,7 +22,10 @@ const CheckBox: FC<IControlProps & IPressableProps> = ({children, ...rest}) => {
   const [styles] = useStyles(stylesCreate, disabled, selected, width, height);
 
   return (
-    <Pressable style={[styles.container, containerStyle]} onPress={onPress}>
+    <Pressable
+      style={[styles.container, containerStyle]}
+      onPress={onPress}
+      disabled={disabled}>
       <Control
         type={ControlType.checkBox}
         style={[styles.checkbox, checkboxStyle]}

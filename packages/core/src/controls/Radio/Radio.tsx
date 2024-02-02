@@ -22,6 +22,7 @@ const Radio: FC<IControlProps & IRadioStyle> = ({
     <Pressable
       style={[styles.container, containerStyle]}
       needsOffscreenAlphaCompositing={true}
+      disabled={disabled}
       onPress={onPress}>
       <Control
         disabled={disabled}
