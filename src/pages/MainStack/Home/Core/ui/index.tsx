@@ -13,6 +13,10 @@ const CoreScreen = () => {
         text={SCREENS.Typography}
         onPress={move(SCREENS.Typography)}
       />
+      <NavigationButton
+        text={SCREENS.Progress}
+        onPress={move(SCREENS.Progress)}
+      />
     </View>
   );
 };

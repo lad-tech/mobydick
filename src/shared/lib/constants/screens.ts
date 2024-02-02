@@ -7,6 +7,7 @@ export enum SCREENS {
   Chart = 'Chart',
 
   Typography = 'Typography',
+  Progress = 'Progress',
 
   LineChart = 'LineChart',
   BarChart = 'BarChart'
