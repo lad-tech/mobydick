@@ -1,3 +1,10 @@
+## [7.19.2](https://github.com/lad-tech/mobydick/compare/v7.19.1...v7.19.2) (2024-02-02)
+
+
+### Bug Fixes
+
+* disable pressable content in radio and checkbox [#55](https://github.com/lad-tech/mobydick/issues/55) ([c769411](https://github.com/lad-tech/mobydick/commit/c769411d20574c45c4d4edacd47aedea33946417))
+
 ## [7.19.1](https://github.com/lad-tech/mobydick/compare/v7.19.0...v7.19.1) (2024-02-01)
 
 
