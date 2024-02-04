@@ -10,6 +10,7 @@ type IRootStackParamList = {
   [SCREENS.Chart]: undefined
 
   [SCREENS.Chat]: undefined
+  [SCREENS.Controls]: undefined
   [SCREENS.Popups]: undefined
   [SCREENS.Progress]: undefined
   [SCREENS.Typography]: undefined
