@@ -214,7 +214,6 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly 1`] = `
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 9,
                 },
                 undefined,
@@ -444,7 +443,6 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly with opti
               },
               [
                 {
-                  "color": "#FFF",
                   "paddingHorizontal": 9,
                 },
                 undefined,

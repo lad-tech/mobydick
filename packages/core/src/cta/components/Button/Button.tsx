@@ -11,6 +11,7 @@ import Counter from '../../../other/components/Badge/Counter/Counter';
 
 import {IButtonProps, IButtonSize, IButtonTypes} from './types';
 import stylesCreate from './stylesCreate';
+import {getDefaultFont} from './getDefaultFont';
 
 const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
   const {
@@ -36,8 +37,7 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     Boolean(text),
   );
 
-  const defaultFont =
-    size === IButtonSize.small ? 'SemiBold-White-XS' : 'SemiBold-White-L';
+  const defaultFont = getDefaultFont(size, type);
 
   const counterSize =
     size === IButtonSize.small ? ICounterSize.small : ICounterSize.medium;

@@ -84,7 +84,6 @@ const primaryStyle = ({
     },
 
     text: {
-      color: colors.TextWhite,
       paddingHorizontal:
         size === IButtonSize.small ? theme.spaces.Space4 : theme.spaces.Space6,
     },
@@ -103,11 +102,10 @@ const secondaryStyle = ({
 }: IButtonContents) => {
   const defaultStyles = primaryStyle({theme, size, leftIcon, rightIcon, text});
   const {
-    colors: {CtaBtnSecondary, TextAccent},
+    colors: {CtaBtnSecondary},
   } = theme;
 
   defaultStyles.container.backgroundColor = CtaBtnSecondary;
-  defaultStyles.text.color = TextAccent;
 
   return defaultStyles;
 };
@@ -120,12 +118,8 @@ const tertiaryStyle = ({
   text,
 }: IButtonContents) => {
   const defaultStyles = primaryStyle({theme, size, leftIcon, rightIcon, text});
-  const {
-    colors: {TextAccent},
-  } = theme;
 
   defaultStyles.container.backgroundColor = 'transparent';
-  defaultStyles.text.color = TextAccent;
 
   return defaultStyles;
 };
@@ -139,11 +133,10 @@ const disabledStyle = ({
 }: IButtonContents) => {
   const defaultStyles = primaryStyle({theme, size, leftIcon, rightIcon, text});
   const {
-    colors: {CtaBtnMuted, TextWhite},
+    colors: {CtaBtnMuted},
   } = theme;
 
   defaultStyles.container.backgroundColor = CtaBtnMuted;
-  defaultStyles.text.color = TextWhite;
 
   return defaultStyles;
 };
@@ -157,11 +150,10 @@ const destructiveStyle = ({
 }: IButtonContents) => {
   const defaultStyles = primaryStyle({theme, size, leftIcon, rightIcon, text});
   const {
-    colors: {CtaBtnDestructive, TextWhite},
+    colors: {CtaBtnDestructive},
   } = theme;
 
   defaultStyles.container.backgroundColor = CtaBtnDestructive;
-  defaultStyles.text.color = TextWhite;
 
   return defaultStyles;
 };
