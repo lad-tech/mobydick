@@ -18,6 +18,7 @@ import BarChartScreen from 'pages/MainStack/Home/Chart/BarChart/ui';
 import ProgressScreen from 'pages/MainStack/Home/Core/Progress/ui';
 import PopupScreen from 'pages/MainStack/Home/Core/Popup/ui';
 import ChatScreen from 'pages/MainStack/Home/Core/Chat/ui';
+import ControlsScreen from 'pages/MainStack/Home/Core/Controls/ui';
 
 const Stack = createNativeStackNavigator<IRootStackParamList>();
 
@@ -53,6 +54,7 @@ const MainStack = () => {
 
         <Stack.Group>
           <Stack.Screen name={SCREENS.Chat} component={ChatScreen} />
+          <Stack.Screen name={SCREENS.Controls} component={ControlsScreen} />
           <Stack.Screen name={SCREENS.Popups} component={PopupScreen} />
           <Stack.Screen name={SCREENS.Progress} component={ProgressScreen} />
           <Stack.Screen

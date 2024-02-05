@@ -10,6 +10,10 @@ const CoreScreen = () => {
   return (
     <View style={styles.container}>
       <NavigationButton text={SCREENS.Chat} onPress={move(SCREENS.Chat)} />
+      <NavigationButton
+        text={SCREENS.Controls}
+        onPress={move(SCREENS.Controls)}
+      />
       <NavigationButton text={SCREENS.Popups} onPress={move(SCREENS.Popups)} />
       <NavigationButton
         text={SCREENS.Progress}
