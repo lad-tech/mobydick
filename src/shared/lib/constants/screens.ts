@@ -8,6 +8,7 @@ export enum SCREENS {
 
   Typography = 'Typography',
   Progress = 'Progress',
+  Popups = 'Popups',
 
   LineChart = 'LineChart',
   BarChart = 'BarChart'

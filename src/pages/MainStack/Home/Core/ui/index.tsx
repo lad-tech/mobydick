@@ -17,6 +17,7 @@ const CoreScreen = () => {
         text={SCREENS.Progress}
         onPress={move(SCREENS.Progress)}
       />
+      <NavigationButton text={SCREENS.Popups} onPress={move(SCREENS.Popups)} />
     </View>
   );
 };
