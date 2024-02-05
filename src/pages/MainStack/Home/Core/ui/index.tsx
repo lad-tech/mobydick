@@ -9,15 +9,16 @@ const CoreScreen = () => {
 
   return (
     <View style={styles.container}>
-      <NavigationButton
-        text={SCREENS.Typography}
-        onPress={move(SCREENS.Typography)}
-      />
+      <NavigationButton text={SCREENS.Chat} onPress={move(SCREENS.Chat)} />
+      <NavigationButton text={SCREENS.Popups} onPress={move(SCREENS.Popups)} />
       <NavigationButton
         text={SCREENS.Progress}
         onPress={move(SCREENS.Progress)}
       />
-      <NavigationButton text={SCREENS.Popups} onPress={move(SCREENS.Popups)} />
+      <NavigationButton
+        text={SCREENS.Typography}
+        onPress={move(SCREENS.Typography)}
+      />
     </View>
   );
 };

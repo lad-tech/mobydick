@@ -9,9 +9,10 @@ type IRootStackParamList = {
   [SCREENS.Utils]: undefined
   [SCREENS.Chart]: undefined
 
-  [SCREENS.Typography]: undefined
-  [SCREENS.Progress]: undefined
+  [SCREENS.Chat]: undefined
   [SCREENS.Popups]: undefined
+  [SCREENS.Progress]: undefined
+  [SCREENS.Typography]: undefined
 
   [SCREENS.LineChart]: undefined
   [SCREENS.BarChart]: undefined
