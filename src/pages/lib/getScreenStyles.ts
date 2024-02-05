@@ -7,7 +7,7 @@ const getScreenStyles =({colors, spaces}: IThemeContext) => {
     container: {
       flex: 1,
       backgroundColor: colors.BgPrimary,
-      paddingHorizontal: spaces.Space8,
+      padding: spaces.Space8,
       gap: spaces.Space8
     }
   })
