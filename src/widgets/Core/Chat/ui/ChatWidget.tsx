@@ -12,14 +12,6 @@ import {
   View,
 } from 'shared/ui';
 
-const renderItem: ListRenderItem<IChatMessage> = ({item}) => {
-  return <ChatMessage {...item} />;
-};
-
-const keyExtractor: FlatListProps<IChatMessage>['keyExtractor'] = (
-  _item,
-  index,
-) => index.toString();
 export const ChatWidget = () => {
   const [styles] = useStyles(styleFn);
   const [input, setInput] = useState('');
@@ -70,6 +62,15 @@ export const ChatWidget = () => {
     </View>
   );
 };
+
+const renderItem: ListRenderItem<IChatMessage> = ({item}) => {
+  return <ChatMessage {...item} />;
+};
+
+const keyExtractor: FlatListProps<IChatMessage>['keyExtractor'] = (
+  _item,
+  index,
+) => index.toString();
 
 const styleFn = createStyles(({colors}) => ({
   container: {flex: 1, backgroundColor: colors.BgSecondary},
