@@ -28,17 +28,15 @@ export const ChatWidget = () => {
   ]);
 
   const onSend = () => {
-    setMyMessages(messages => {
-      messages.push({
+    setMyMessages([
+      ...myMessages,
+      {
         time: new Date().toString(),
         isMe: true,
         message: input,
-      });
-
-      setInput('');
-
-      return messages;
-    });
+      },
+    ]);
+    setInput('');
   };
 
   return (
