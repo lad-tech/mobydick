@@ -1,3 +1,15 @@
+# [7.20.0](https://github.com/lad-tech/mobydick/compare/v7.19.2...v7.20.0) (2024-02-05)
+
+
+### Bug Fixes
+
+* cant change button text color by font ([878512a](https://github.com/lad-tech/mobydick/commit/878512afe67f1ca40d3d11d19145002de8b9085c))
+
+
+### Features
+
+* update icons ([e248926](https://github.com/lad-tech/mobydick/commit/e248926451eb51bfc1d8bd3fd5ea45d90fac965b))
+
 ## [7.19.2](https://github.com/lad-tech/mobydick/compare/v7.19.1...v7.19.2) (2024-02-02)
 
 
