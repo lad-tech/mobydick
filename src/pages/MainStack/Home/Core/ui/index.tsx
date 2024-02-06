@@ -19,6 +19,7 @@ const CoreScreen = () => {
         text={SCREENS.Progress}
         onPress={move(SCREENS.Progress)}
       />
+      <NavigationButton text={SCREENS.Styles} onPress={move(SCREENS.Styles)} />
       <NavigationButton
         text={SCREENS.Typography}
         onPress={move(SCREENS.Typography)}

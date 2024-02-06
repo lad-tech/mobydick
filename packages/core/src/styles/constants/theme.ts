@@ -1,5 +1,6 @@
 import {TWeights} from '../../typography';
 import {IDefaultTheme} from '../types';
+import {getShadows} from '../shadows/getShadows';
 
 import {defaultSpaces} from './defaultSpaces';
 import {
@@ -65,4 +66,8 @@ export const defaultTheme: IDefaultTheme = {
     ...defaultSpaces,
   },
   fonts: defaultFonts,
+  shadows: getShadows({
+    spaces: defaultSpaces,
+    currentTheme: CurrentTheme.light,
+  }),
 };
