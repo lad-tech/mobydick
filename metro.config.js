@@ -6,7 +6,6 @@
  */
 
 const {getDefaultConfig} = require("metro-config")
-const path = require("path");
 
 module.exports = (async () => {
   const {
@@ -25,8 +24,6 @@ module.exports = (async () => {
     resolver: {
       assetExts: assetExts.filter(ext => ext !== "svg"),
       sourceExts: [...sourceExts, "svg"],
-      resolverMainFields: ["sbmodern", "react-native", "browser", "main"],
-      watchFolders: [path.resolve(__dirname, "..")],
     }
   }
 })()
