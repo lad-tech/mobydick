@@ -1,3 +1,10 @@
+# [7.21.0](https://github.com/lad-tech/mobydick/compare/v7.20.0...v7.21.0) (2024-02-07)
+
+
+### Features
+
+* add shadows [#65](https://github.com/lad-tech/mobydick/issues/65) ([a86c96c](https://github.com/lad-tech/mobydick/commit/a86c96cb8b4dd517cd04e6a7683a6e97a622aade))
+
 # [7.20.0](https://github.com/lad-tech/mobydick/compare/v7.19.2...v7.20.0) (2024-02-05)
 
 
