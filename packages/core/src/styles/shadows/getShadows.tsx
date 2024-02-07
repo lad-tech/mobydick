@@ -3,7 +3,8 @@ import {ImageStyle, Platform, TextStyle, ViewStyle} from 'react-native';
 import {IThemeContext} from '../types';
 
 export type IShadowKeys = 'small' | 'medium' | 'large';
-const shadowsIosLight = ({
+
+export const shadowsIosLight = ({
   spaces,
 }: Pick<IThemeContext, 'spaces'>): Record<
   IShadowKeys,
@@ -34,7 +35,7 @@ const shadowsIosLight = ({
     shadowOpacity: 0.16,
   },
 });
-const shadowsIosDark = ({
+export const shadowsIosDark = ({
   spaces,
 }: Pick<IThemeContext, 'spaces'>): Record<
   IShadowKeys,
@@ -65,7 +66,8 @@ const shadowsIosDark = ({
     shadowOpacity: 0.48,
   },
 });
-const shadowsAndroidLight = ({
+
+export const shadowsAndroidLight = ({
   spaces,
 }: Pick<IThemeContext, 'spaces'>): Record<
   IShadowKeys,
@@ -81,7 +83,7 @@ const shadowsAndroidLight = ({
     elevation: spaces.Space16,
   },
 });
-const shadowsAndroidDark = ({
+export const shadowsAndroidDark = ({
   spaces,
 }: Pick<IThemeContext, 'spaces'>): Record<
   IShadowKeys,
