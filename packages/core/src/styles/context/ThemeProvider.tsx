@@ -2,6 +2,7 @@ import {FC, PropsWithChildren, useState} from 'react';
 
 import {defaultTheme} from '../constants/theme';
 import {IThemeContext} from '../types';
+import {getShadows} from '../shadows/getShadows';
 
 import ThemeContext from './context';
 
@@ -22,6 +23,11 @@ const ThemeProvider: FC<
           currentThemeState
         ] as (typeof defaultTheme.colors)[0], // I think no one don't be setting currentTheme to not keys of colors,
         spaces: themeState.spaces,
+        fonts: themeState.fonts,
+        shadows: getShadows({
+          spaces: themeState.spaces,
+          currentTheme: currentThemeState,
+        }),
 
         setTheme: setThemeState,
         setCurrentTheme: setCurrentThemeState,

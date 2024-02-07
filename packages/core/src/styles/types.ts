@@ -15,6 +15,7 @@ import {
   defaultTextLightColor,
   defaultTheme,
 } from './constants';
+import {getShadows} from './shadows/getShadows';
 
 export type IStylesTypes = Record<string, ViewStyle | TextStyle | ImageStyle>;
 export type ICurrentTheme = CurrentTheme | string;
@@ -35,6 +36,7 @@ export interface IDefaultTheme {
   >;
   spaces: typeof defaultSpaces;
   fonts: typeof defaultFonts;
+  shadows: ReturnType<typeof getShadows>;
 }
 
 export interface IThemeContext {
@@ -50,6 +52,8 @@ export interface IThemeContext {
     typeof defaultCategoryLightColor &
     typeof defaultBannerLightColor;
   spaces: typeof defaultSpaces;
+  fonts: typeof defaultFonts;
+  shadows: ReturnType<typeof getShadows>;
 
   setTheme: (theme: IDefaultTheme) => void;
   setCurrentTheme: (theme: ICurrentTheme) => void;
