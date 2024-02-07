@@ -1,3 +1,10 @@
+## [7.21.1](https://github.com/lad-tech/mobydick/compare/v7.21.0...v7.21.1) (2024-02-07)
+
+
+### Bug Fixes
+
+* add import for shadows ([d5f847a](https://github.com/lad-tech/mobydick/commit/d5f847ac47196c75712748e63c5afbd9d3c2d093))
+
 # [7.21.0](https://github.com/lad-tech/mobydick/compare/v7.20.0...v7.21.0) (2024-02-07)
 
 
