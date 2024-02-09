@@ -18,6 +18,8 @@ interface ITabCommon {
   backgroundColorTab?: string;
   backgroundColorActiveTab?: string;
   onPressCommon?(item: ITab): void;
+  styleTab?: ViewStyle | ViewStyle[];
+  styleActiveTab?: ViewStyle | ViewStyle[];
 }
 
 export interface ITabProps extends ITabCommon {
