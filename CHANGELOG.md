@@ -1,3 +1,10 @@
+## [7.21.2](https://github.com/lad-tech/mobydick/compare/v7.21.1...v7.21.2) (2024-02-09)
+
+
+### Bug Fixes
+
+* **Tab:** added styles ([5e5a3d1](https://github.com/lad-tech/mobydick/commit/5e5a3d1f7dfc0a2bafcd9317bd2ac2527507bb09))
+
 ## [7.21.1](https://github.com/lad-tech/mobydick/compare/v7.21.0...v7.21.1) (2024-02-07)
 
 
