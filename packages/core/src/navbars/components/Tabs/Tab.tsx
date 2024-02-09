@@ -17,6 +17,8 @@ const Tab = (props: ITabProps): JSX.Element => {
     fontActiveTab,
     backgroundColorTab,
     backgroundColorActiveTab,
+    styleTab,
+    styleActiveTab,
     onPressCommon,
   } = props;
 
@@ -40,6 +42,7 @@ const Tab = (props: ITabProps): JSX.Element => {
       accessibilityLabel={LABELS.tab}
       style={[
         styles.tab,
+        active ? styleActiveTab : styleTab,
         {
           backgroundColor: active ? backgroundColorActive : backgroundColor,
         },
