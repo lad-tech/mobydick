@@ -12,6 +12,7 @@ import CalendarScreen from 'pages/MainStack/Home/Calendar/ui';
 import CoreScreen from 'pages/MainStack/Home/Core/ui';
 import UtilsScreen from 'pages/MainStack/Home/Utils/ui';
 import TypographyScreen from 'pages/MainStack/Home/Core/Typography/ui';
+import InputsScreen from 'pages/MainStack/Home/Core/Inputs/ui';
 import ChartScreen from 'pages/MainStack/Home/Chart/ui';
 import LineChartScreen from 'pages/MainStack/Home/Chart/LineChart/ui';
 import BarChartScreen from 'pages/MainStack/Home/Chart/BarChart/ui';
@@ -63,6 +64,7 @@ const MainStack = () => {
             name={SCREENS.Typography}
             component={TypographyScreen}
           />
+          <Stack.Screen name={SCREENS.Inputs} component={InputsScreen} />
         </Stack.Group>
 
         <Stack.Group>
