@@ -14,6 +14,7 @@ import {
 
 const InputList = () => {
   const [styles] = useStyles(styleSource);
+  const [about, setAbout] = useState('');
   const [isSecureTextEntry, setSecureTextEntry] = useState(false);
 
   return (
@@ -62,7 +63,8 @@ const InputList = () => {
         title={'About:'}
         placeholder={'Write something'}
         multiline={true}
-        secureTextEntry={isSecureTextEntry}
+        value={about}
+        onChangeText={setAbout}
       />
     </View>
   );
