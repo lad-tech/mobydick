@@ -6,7 +6,7 @@ const Header: FC<{title: string}> = ({title}) => {
   const [styles] = useStyles(styleSource);
 
   return (
-    <Typography font={'Regular-Black-H5'} style={styles.h5}>
+    <Typography font={'Regular-Primary-H5'} style={styles.h5}>
       {title}
     </Typography>
   );
