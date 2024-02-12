@@ -45,13 +45,7 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
 
   it('selectItem', async () => {
     const onPress = jest.fn();
-    const array: [
-      {label: string; value: string},
-      {label: string; value: string},
-    ] = [
-      {label: 'Русский', value: 'Русский'},
-      {label: 'English', value: 'English'},
-    ];
+
     jest
       .spyOn(viewRef.current as View, 'measure')
       .mockImplementation(
@@ -73,10 +67,10 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
           <DropDown
             placeholder={'Выберите язык'}
             title={'Название поля'}
-            list={array}
+            list={list}
             onPress={onPress}
             type={IInputsTypes.disabled}
-            selectedItem={array[1].label}
+            selectedItem={list[1]?.label}
             rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
           />
         </PopupsProvider>
@@ -85,10 +79,10 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
     const pressable = getByLabelText(LABELS.selector);
     fireEvent.press(pressable);
 
-    const pressableSelect = getByLabelText(array[1].label);
+    const pressableSelect = getByLabelText(list[1]!.label);
     fireEvent.press(pressableSelect);
 
-    expect(onPress).toHaveBeenCalledWith(array[1].value);
+    expect(onPress).toHaveBeenCalledWith(list[1]?.value);
   });
 
   it('selectItemClose', async () => {
@@ -211,7 +205,7 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
       <SafeAreaProvider>
         <PopupsProvider>
           <DropDown
-            selectedItem={list[1]?.value}
+            selectedItem={undefined}
             placeholder={'Выберите язык'}
             title={'Название поля'}
             required={false}
@@ -229,7 +223,7 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
       <SafeAreaProvider>
         <PopupsProvider>
           <DropDown
-            selectedItem={list[1]?.value}
+            selectedItem={undefined}
             placeholder={'Выберите язык'}
             title={'Название поля'}
             required={true}

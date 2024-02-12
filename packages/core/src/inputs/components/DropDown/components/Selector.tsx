@@ -8,7 +8,7 @@ import {
   LIST_MAX_HEIGHT,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
-import {IDropDownProps, IItemValue, IListItem} from '../types';
+import {IDropDownProps, IListItem} from '../types';
 import {IPopupProps} from '../../../../popups/components/PopupBase/types';
 import TouchableHighlight from '../../../../basic/components/TouchableHighlight/TouchableHighlight';
 import {Typography} from '../../../../typography/components/Typography/Typography';
@@ -37,17 +37,17 @@ type IFieldsToSelect =
   | 'listEmptyText'
   | 'listEmptyFont';
 
-interface IItemsProps<T extends IListItem<S>, S extends IItemValue>
+interface IItemsProps<T extends IListItem>
   extends IPopupProps,
-    Pick<IDropDownProps<T, S>, IFieldsToSelect> {
-  list: IListItem<S>[];
+    Pick<IDropDownProps<T>, IFieldsToSelect> {
+  list: IListItem[];
   pageY: number;
   renderItemOnPress: (item: T) => void;
 }
 
-interface IRenderItemProps<T extends IListItem<S>, S extends IItemValue>
+interface IRenderItemProps<T extends IListItem>
   extends Pick<
-    IItemsProps<T, S>,
+    IItemsProps<T>,
     | 'renderItemOnPress'
     | 'selectedItem'
     | 'selectedItemColor'
@@ -61,9 +61,7 @@ interface IRenderItemProps<T extends IListItem<S>, S extends IItemValue>
   theme: ReturnType<typeof useStyles>[1];
 }
 
-function renderItem<T extends IListItem<S>, S extends IItemValue>(
-  props: IRenderItemProps<T, S>,
-) {
+function renderItem<T extends IListItem>(props: IRenderItemProps<T>) {
   return ({item}: {item: T}) => {
     const {
       renderItemOnPress,
@@ -117,9 +115,7 @@ function renderItem<T extends IListItem<S>, S extends IItemValue>(
   };
 }
 
-function Selector<T extends IListItem<S>, S extends IItemValue>(
-  props: IItemsProps<T, S>,
-) {
+function Selector<T extends IListItem>(props: IItemsProps<T>) {
   const {
     list,
     pageY,

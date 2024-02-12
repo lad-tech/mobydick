@@ -5,12 +5,12 @@ import {IInputsTypes} from '../types';
 import {IStyledTextProps, TypographyProp} from '../../../typography';
 import {SimpleIconName} from '../../../styles/icons/font/SimpleIcon';
 
-export type IListItem<T> = {label: string; value: T};
+export type IListItem<T = IItemValue> = {label: string; value: T};
 
 export type IItemValue = string | number;
 
-export interface IDropDownProps<T extends IListItem<S>, S extends IItemValue> {
-  selectedItem: S | undefined;
+export interface IDropDownProps<T extends IListItem> {
+  selectedItem: T['value'] | undefined;
   placeholder: string;
   list: T[];
   onPress: (item: T['value']) => void;
