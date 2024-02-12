@@ -18,11 +18,9 @@ import {
   DROP_DOWN_POPUP_ID,
 } from './constants';
 import stylesCreate from './stylesCreate';
-import {IDropDownProps, IItemValue, IListItem} from './types';
+import {IDropDownProps, IListItem} from './types';
 
-function DropDown<T extends IListItem<S>, S extends IItemValue>(
-  props: IDropDownProps<T, S>,
-) {
+function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
   const {
     title,
     titleStyle,
@@ -71,12 +69,8 @@ function DropDown<T extends IListItem<S>, S extends IItemValue>(
   const dropDownRef = useRef<IView>(null);
 
   const renderItemOnPress = useCallback(
-    (item: IListItem<S>) => {
-      onPress(
-        item.value as T extends IListItem<S>
-          ? Exclude<T, string>['value']
-          : string,
-      );
+    (item: T) => {
+      onPress(item.value);
       setOpen(false);
       popupContext.closePopup(DROP_DOWN_POPUP_ID);
     },
