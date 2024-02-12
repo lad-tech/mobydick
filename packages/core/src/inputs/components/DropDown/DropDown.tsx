@@ -20,16 +20,7 @@ import {
 import stylesCreate from './stylesCreate';
 import {IDropDownProps, IItemValue, IListItem} from './types';
 
-const isString = (input: unknown): input is string => typeof input === 'string';
-
-function wrapListItem<T extends IListItem<S> | string, S>(item: T | string) {
-  return (isString(item) ? {label: item, value: item} : item) as Exclude<
-    T,
-    string
-  >;
-}
-
-function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
+function DropDown<T extends IListItem<S>, S extends IItemValue>(
   props: IDropDownProps<T, S>,
 ) {
   const {
@@ -92,15 +83,13 @@ function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
     [onPress, popupContext],
   );
 
-  const listItems = list.map(value => wrapListItem(value));
-
   const openPopup = (pageY: number) => {
     popupContext.openPopup({
       id: DROP_DOWN_POPUP_ID,
       Content: propsFromPopup => (
         <Selector
           {...propsFromPopup}
-          list={listItems}
+          list={list}
           pageY={pageY}
           navBarHeight={navBarHeight}
           selectedItem={selected}
@@ -187,8 +176,7 @@ function DropDown<T extends IListItem<S> | string, S extends IItemValue>(
             ]}
             font={getFont()}
             numberOfLines={1}>
-            {listItems.find(item => item.value === selected)?.label ||
-              placeholder}
+            {list.find(item => item.value === selected)?.label || placeholder}
           </Typography>
           <DropDownIcon isOpen={isOpen} rightIcon={rightIcon} />
         </TouchableOpacity>

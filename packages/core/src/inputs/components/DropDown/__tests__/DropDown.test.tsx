@@ -20,14 +20,17 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
     jest.resetAllMocks();
   });
 
-  const list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+  const list = [
+    {label: 'Русский', value: 'Русский'},
+    {label: 'English', value: 'English'},
+  ];
 
   it('renders correctly 10 elements', () => {
     const {toJSON} = render(
       <SafeAreaProvider>
         <PopupsProvider>
           <DropDown
-            selectedItem={list[1]}
+            selectedItem={list[1]?.value}
             placeholder={'Выберите язык'}
             title={'Название поля'}
             list={list}
@@ -90,7 +93,6 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
 
   it('selectItemClose', async () => {
     const onPress = jest.fn();
-    const array = ['Русский', 'English'];
     const useRefSpy = jest
       .spyOn(viewRef.current as View, 'measure')
       .mockImplementation(
@@ -110,10 +112,10 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
       <SafeAreaProvider>
         <PopupsProvider>
           <DropDown
-            selectedItem={'selectedItem'}
+            selectedItem={list[1]?.value}
             placeholder={'Выберите язык'}
             title={'Название поля'}
-            list={array}
+            list={list}
             onPress={onPress}
             subtitle={'subtitle'}
             subtitleIcon={'icon-account'}
@@ -147,7 +149,7 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
       <SafeAreaProvider>
         <PopupsProvider>
           <DropDown
-            selectedItem={'selectedItem'}
+            selectedItem={list[1]?.value}
             placeholder={'Выберите язык'}
             title={'Название поля'}
             list={list}
@@ -173,7 +175,7 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
       <SafeAreaProvider>
         <PopupsProvider>
           <DropDown
-            selectedItem={'selectedItem'}
+            selectedItem={list[1]?.value}
             placeholder={'Выберите язык'}
             title={'Название поля'}
             list={list}
@@ -209,7 +211,7 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
       <SafeAreaProvider>
         <PopupsProvider>
           <DropDown
-            selectedItem={list[1]}
+            selectedItem={list[1]?.value}
             placeholder={'Выберите язык'}
             title={'Название поля'}
             required={false}
@@ -227,7 +229,7 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
       <SafeAreaProvider>
         <PopupsProvider>
           <DropDown
-            selectedItem={list[1]}
+            selectedItem={list[1]?.value}
             placeholder={'Выберите язык'}
             title={'Название поля'}
             required={true}

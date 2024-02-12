@@ -110,7 +110,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements 1`] = `
           ]
         }
       >
-        2
+        English
       </Text>
       <View
         style={false}
@@ -376,7 +376,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type val
           ]
         }
       >
-        Выберите язык
+        English
       </Text>
       <View
         style={false}
@@ -515,7 +515,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type wro
           ]
         }
       >
-        Выберите язык
+        English
       </Text>
       <View
         style={false}
@@ -934,7 +934,7 @@ exports[`@lad-tech/mobydick-core/DropDown selectItemClose 1`] = `
           ]
         }
       >
-        Выберите язык
+        English
       </Text>
       <View
         style={false}

@@ -9,16 +9,11 @@ export type IListItem<T> = {label: string; value: T};
 
 export type IItemValue = string | number;
 
-export interface IDropDownProps<
-  T extends IListItem<S> | string,
-  S extends IItemValue,
-> {
+export interface IDropDownProps<T extends IListItem<S>, S extends IItemValue> {
   selectedItem: S | undefined;
   placeholder: string;
   list: T[];
-  onPress: (
-    item: T extends IListItem<S> ? Exclude<T, string>['value'] : string,
-  ) => void;
+  onPress: (item: T['value']) => void;
   title?: string;
   titleStyle?: TextStyle | undefined;
   titleFont?: TypographyProp | undefined;

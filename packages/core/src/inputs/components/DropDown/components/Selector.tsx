@@ -37,7 +37,7 @@ type IFieldsToSelect =
   | 'listEmptyText'
   | 'listEmptyFont';
 
-interface IItemsProps<T extends IListItem<S> | string, S extends IItemValue>
+interface IItemsProps<T extends IListItem<S>, S extends IItemValue>
   extends IPopupProps,
     Pick<IDropDownProps<T, S>, IFieldsToSelect> {
   list: IListItem<S>[];
