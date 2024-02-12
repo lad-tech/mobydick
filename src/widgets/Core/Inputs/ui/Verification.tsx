@@ -1,5 +1,5 @@
 import {useCallback, useRef, useState} from 'react';
-import {Keyboard, StyleSheet, TextInput} from 'react-native';
+import {Keyboard, TextInput} from 'react-native';
 
 import Header from './Header';
 
@@ -102,7 +102,7 @@ const Verification = () => {
 
 const styleSource = createStyles(theme => {
   const {colors, spaces} = theme;
-  return StyleSheet.create({
+  return {
     wrapper: {
       marginBottom: spaces.Space12,
     },
@@ -121,7 +121,7 @@ const styleSource = createStyles(theme => {
       backgroundColor: colors.BorderNormal,
       marginHorizontal: spaces.Space6,
     },
-  });
+  };
 });
 
 export default Verification;

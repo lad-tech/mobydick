@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import {StyleSheet} from 'react-native';
 
 import Header from './Header';
 
@@ -69,12 +68,10 @@ const InputList = () => {
   );
 };
 
-const styleSource = createStyles(({spaces}) => {
-  return StyleSheet.create({
-    containerStyle: {
-      marginBottom: spaces.Space12,
-    },
-  });
-});
+const styleSource = createStyles(({spaces}) => ({
+  containerStyle: {
+    marginBottom: spaces.Space12,
+  },
+}));
 
 export default InputList;

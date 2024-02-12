@@ -1,4 +1,3 @@
-import {StyleSheet} from 'react-native';
 import {FC} from 'react';
 
 import {createStyles, Typography, useStyles} from 'shared/ui';
@@ -12,12 +11,10 @@ const Header: FC<{title: string}> = ({title}) => {
   );
 };
 
-const styleSource = createStyles(({spaces}) => {
-  return StyleSheet.create({
-    h5: {
-      marginBottom: spaces.Space8,
-    },
-  });
-});
+const styleSource = createStyles(({spaces}) => ({
+  h5: {
+    marginBottom: spaces.Space8,
+  },
+}));
 
 export default Header;

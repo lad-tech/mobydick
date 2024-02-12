@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import {StyleSheet} from 'react-native';
 
 import {useDebounce} from 'shared/lib';
 import {createStyles, Search, SimpleIcon, useStyles, View} from 'shared/ui';
@@ -30,12 +29,10 @@ const ExampleSearch = () => {
   );
 };
 
-const styleSource = createStyles(({spaces}) => {
-  return StyleSheet.create({
-    wrapper: {
-      marginBottom: spaces.Space12,
-    },
-  });
-});
+const styleSource = createStyles(({spaces}) => ({
+  wrapper: {
+    marginBottom: spaces.Space12,
+  },
+}));
 
 export default ExampleSearch;
