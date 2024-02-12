@@ -9,12 +9,13 @@ import PopupsProvider from '../../../../popups/context/PopupsProvider';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
 import Constants from '../../../../popups/components/PopupBase/constants';
 import {LABELS} from '../../../../other';
+import {Pressable} from '../../../../basic';
 
 describe('@lad-tech/mobydick-core/DropDown', () => {
   let viewRef: React.RefObject<View>;
   beforeEach(() => {
     viewRef = React.createRef();
-    render(<View ref={viewRef} />);
+    render(<Pressable ref={viewRef} />);
   });
   afterEach(() => {
     jest.resetAllMocks();

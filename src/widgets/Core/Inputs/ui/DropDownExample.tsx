@@ -3,12 +3,16 @@ import {StyleSheet} from 'react-native';
 
 import Header from './Header';
 
-import {DropDown} from 'shared/ui';
+import {DropDown, IListItem} from 'shared/ui';
 
 const DropDownExample = () => {
   const [language, setLanguage] = useState<number>();
 
-  const list = [
+  const [programmingLanguages, setProgrammingLanguages] = useState<
+    IListItem<number>[]
+  >([]);
+
+  const languageList = [
     {
       value: 1,
       label: 'Russian',
@@ -23,14 +27,53 @@ const DropDownExample = () => {
     },
   ];
 
+  const programmingLanguageList = [
+    {
+      value: 1,
+      label: 'JavaScript',
+    },
+    {
+      value: 2,
+      label: 'Kotlin',
+    },
+    {
+      value: 3,
+      label: 'Swift',
+    },
+    {
+      value: 4,
+      label: 'Rust',
+    },
+    {
+      value: 5,
+      label: 'C++',
+    },
+    {
+      value: 6,
+      label: 'COBOL',
+    },
+  ];
+
   return (
     <>
       <Header title={'DropDown:'} />
+
       <DropDown
-        title={'Select language'}
+        isMultiselect
+        title={'Select your favorite programming languages:'}
+        selectedItem={programmingLanguages}
+        placeholder={'Select language'}
+        list={programmingLanguageList}
+        onPress={setProgrammingLanguages}
+        buttonStyle={styles.buttonStyle}
+        flatListStyle={styles.flatListStyle}
+      />
+
+      <DropDown
+        title={'Select language:'}
         selectedItem={language}
-        placeholder={'Choose language:'}
-        list={list}
+        placeholder={'Select language'}
+        list={languageList}
         onPress={setLanguage}
         buttonStyle={styles.buttonStyle}
         flatListStyle={styles.flatListStyle}

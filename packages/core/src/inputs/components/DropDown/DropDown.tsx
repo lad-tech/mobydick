@@ -1,14 +1,13 @@
-import {useCallback, useRef, useState} from 'react';
+import {useCallback, useMemo, useRef, useState} from 'react';
 
 import {IInputsTypes} from '../types';
 import {InputSubtitle, InputTitle} from '../Base';
 import usePopups from '../../../popups/hooks/usePopups';
 import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
-import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import {Typography} from '../../../typography/components/Typography/Typography';
 import {LABELS} from '../../../other';
-import {IView} from '../../../basic/components/View/types';
+import {IView, Pressable} from '../../../basic';
 
 import Selector from './components/Selector';
 import DropDownIcon from './components/DropDownIcon';
@@ -18,9 +17,13 @@ import {
   DROP_DOWN_POPUP_ID,
 } from './constants';
 import stylesCreate from './stylesCreate';
-import {IDropDownProps, IListItem} from './types';
+import {IDropDownMultiSelectProps, IDropDownProps, IListItem} from './types';
+import ChipList from './components/ChipList';
+import getSelectedItems from './utils/getSelectedItems';
 
-function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
+function DropDown<T extends IListItem>(
+  props: IDropDownProps<T> | IDropDownMultiSelectProps<T>,
+) {
   const {
     title,
     titleStyle,
@@ -32,7 +35,7 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
     onPress,
     rightIcon,
     navBarHeight = 50,
-
+    isMultiselect,
     selectedItemColor,
 
     buttonStyle,
@@ -54,7 +57,9 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
     subtitleProps,
   } = props;
 
-  const selected = selectedItem ? selectedItem : undefined;
+  const hasSelected = useMemo(() => {
+    return isMultiselect ? !!selectedItem?.length : !!selectedItem;
+  }, [isMultiselect, selectedItem]);
 
   const [isOpen, setOpen] = useState(false);
 
@@ -70,14 +75,18 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
 
   const renderItemOnPress = useCallback(
     (item: T) => {
-      onPress(item.value);
+      if (isMultiselect) {
+        onPress(getSelectedItems(selectedItem, item));
+      } else {
+        onPress(item.value);
+      }
       setOpen(false);
       popupContext.closePopup(DROP_DOWN_POPUP_ID);
     },
-    [onPress, popupContext],
+    [onPress, popupContext, selectedItem, isMultiselect],
   );
 
-  const openPopup = (pageY: number) => {
+  const openPopup = (pageY: number, dropDownHeight: number) => {
     popupContext.openPopup({
       id: DROP_DOWN_POPUP_ID,
       Content: propsFromPopup => (
@@ -86,9 +95,10 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
           list={list}
           pageY={pageY}
           navBarHeight={navBarHeight}
-          selectedItem={selected}
+          selectedItem={selectedItem}
           selectedItemColor={selectedItemColor}
           renderItemOnPress={renderItemOnPress}
+          dropDownHeight={dropDownHeight}
           buttonStyle={buttonStyle}
           flatListStyle={flatListStyle}
           flatListItemStyle={flatListItemStyle}
@@ -104,17 +114,18 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
       ),
     });
   };
-  const checkPosition = useCallback(() => {
+
+  const checkPosition = () => {
     if (dropDownRef.current) {
-      dropDownRef.current.measure((_x, _y, _width, _height, _pageX, pageY) => {
-        openPopup(pageY);
+      dropDownRef.current.measure((_x, _y, _width, height, _pageX, pageY) => {
+        openPopup(pageY, height);
         setOpen(true);
       });
     }
-  }, [openPopup]);
+  };
 
   const getFont = () => {
-    if (selected) {
+    if (hasSelected) {
       return buttonTextFontChosen || 'Regular-Primary-M';
     }
     return buttonTextFont || 'Regular-Muted-M';
@@ -138,13 +149,15 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
           required={required}
         />
       )}
-      <View collapsable={false} ref={dropDownRef}>
-        <TouchableOpacity
+      <View collapsable={false}>
+        <Pressable
+          ref={dropDownRef}
           style={[
             styles.inputContainer,
             buttonStyle,
+            isMultiselect && styles.pv8,
             {
-              height: buttonStyle?.height
+              [isMultiselect ? 'minHeight' : 'height']: buttonStyle?.height
                 ? buttonStyle.height
                 : DEFAULT_DROP_DOWN_HEIGHT,
             },
@@ -163,17 +176,25 @@ function DropDown<T extends IListItem>(props: IDropDownProps<T>) {
           disabled={disabled}
           onPress={checkPosition}
           accessibilityLabel={LABELS.selector}>
-          <Typography
-            style={[
-              styles.placeholder,
-              selected ? buttonTextStyleChosen : buttonTextStyle,
-            ]}
-            font={getFont()}
-            numberOfLines={1}>
-            {list.find(item => item.value === selected)?.label || placeholder}
-          </Typography>
+          {isMultiselect && selectedItem?.length ? (
+            <ChipList
+              selectedItem={selectedItem}
+              onChange={renderItemOnPress}
+            />
+          ) : (
+            <Typography
+              style={[
+                styles.placeholder,
+                hasSelected ? buttonTextStyleChosen : buttonTextStyle,
+              ]}
+              font={getFont()}
+              numberOfLines={1}>
+              {list.find(item => item.value === selectedItem)?.label ||
+                placeholder}
+            </Typography>
+          )}
           <DropDownIcon isOpen={isOpen} rightIcon={rightIcon} />
-        </TouchableOpacity>
+        </Pressable>
         {subtitle ? (
           <InputSubtitle
             type={type}

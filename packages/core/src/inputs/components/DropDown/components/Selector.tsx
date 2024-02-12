@@ -3,12 +3,11 @@ import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
 import {
   BORDER_BUTTON_WIDTH,
-  DEFAULT_DROP_DOWN_HEIGHT,
   DEFAULT_DROP_DOWN_WIDTH,
   LIST_MAX_HEIGHT,
 } from '../constants';
 import {getDropDownDimensions} from '../utils/getDropDownDimensions';
-import {IDropDownProps, IListItem} from '../types';
+import {IDropDownMultiSelectProps, IDropDownProps, IListItem} from '../types';
 import {IPopupProps} from '../../../../popups/components/PopupBase/types';
 import TouchableHighlight from '../../../../basic/components/TouchableHighlight/TouchableHighlight';
 import {Typography} from '../../../../typography/components/Typography/Typography';
@@ -39,9 +38,10 @@ type IFieldsToSelect =
 
 interface IItemsProps<T extends IListItem>
   extends IPopupProps,
-    Pick<IDropDownProps<T>, IFieldsToSelect> {
+    Pick<IDropDownProps<T> | IDropDownMultiSelectProps<T>, IFieldsToSelect> {
   list: IListItem[];
   pageY: number;
+  dropDownHeight: number;
   renderItemOnPress: (item: T) => void;
 }
 
@@ -78,8 +78,18 @@ function renderItem<T extends IListItem>(props: IRenderItemProps<T>) {
       flatListTextFont,
     } = props;
 
+    const isSelected = () => {
+      if (Array.isArray(selectedItem)) {
+        return selectedItem.length === 0
+          ? false
+          : selectedItem.some(it => it.value === item.value);
+      }
+
+      return item.value === selectedItem;
+    };
+
     const getFont = () => {
-      if (item.value === selectedItem) {
+      if (isSelected()) {
         return flatListTextFontPressed || 'Medium-Primary-M';
       }
       return flatListTextFont || 'Regular-Secondary-M';
@@ -95,18 +105,14 @@ function renderItem<T extends IListItem>(props: IRenderItemProps<T>) {
         style={[
           styles.dropDownItem,
           flatListItemStyle,
-          item.value === selectedItem ? backgroundColorItem : null,
+          isSelected() ? backgroundColorItem : null,
         ]}
         onPress={() => renderItemOnPress(item)}
         underlayColor={
           selectedItemColor ? selectedItemColor : theme.colors.BgAccentSoft
         }>
         <Typography
-          style={
-            item.value === selectedItem
-              ? flatListTextStylePressed
-              : flatListTextStyle
-          }
+          style={isSelected() ? flatListTextStylePressed : flatListTextStyle}
           font={getFont()}>
           {item.label}
         </Typography>
@@ -135,6 +141,7 @@ function Selector<T extends IListItem>(props: IItemsProps<T>) {
     flatListTextFontPressed,
     listEmptyText,
     listEmptyFont,
+    dropDownHeight,
   } = props;
   const [styles, theme] = useStyles(stylesCreate);
   const {height} = useSafeAreaFrame();
@@ -143,13 +150,12 @@ function Selector<T extends IListItem>(props: IItemsProps<T>) {
     getDropDownDimensions({
       pageY,
       navBarHeight,
-      dropDownHeight: buttonStyle?.height
-        ? +buttonStyle.height
-        : DEFAULT_DROP_DOWN_HEIGHT,
+      dropDownHeight,
       dropDownBorderWidth: buttonStyle?.borderWidth || BORDER_BUTTON_WIDTH,
       listLength: list.length,
       height,
     });
+
   const styleWidth = flatListStyle?.width || buttonStyle?.width;
 
   return (
