@@ -1,3 +1,10 @@
+# [7.22.0](https://github.com/lad-tech/mobydick/compare/v7.21.2...v7.22.0) (2024-02-13)
+
+
+### Features
+
+* **DropDown:** add multi-select functionality for dropdown [#29](https://github.com/lad-tech/mobydick/issues/29) ([d43e597](https://github.com/lad-tech/mobydick/commit/d43e597197399581aecaa127b313dac6a285f321))
+
 ## [7.21.2](https://github.com/lad-tech/mobydick/compare/v7.21.1...v7.21.2) (2024-02-09)
 
 
