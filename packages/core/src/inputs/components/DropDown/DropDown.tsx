@@ -57,7 +57,7 @@ function DropDown<T extends IListItem>(
     subtitleProps,
   } = props;
 
-  const hasSelected = useMemo(() => {
+  const isSelected = useMemo(() => {
     return isMultiselect ? !!selectedItem?.length : !!selectedItem;
   }, [isMultiselect, selectedItem]);
 
@@ -125,7 +125,7 @@ function DropDown<T extends IListItem>(
   };
 
   const getFont = () => {
-    if (hasSelected) {
+    if (isSelected) {
       return buttonTextFontChosen || 'Regular-Primary-M';
     }
     return buttonTextFont || 'Regular-Muted-M';
@@ -185,7 +185,7 @@ function DropDown<T extends IListItem>(
             <Typography
               style={[
                 styles.placeholder,
-                hasSelected ? buttonTextStyleChosen : buttonTextStyle,
+                isSelected ? buttonTextStyleChosen : buttonTextStyle,
               ]}
               font={getFont()}
               numberOfLines={1}>
