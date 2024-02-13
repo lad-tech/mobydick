@@ -40,6 +40,17 @@ export interface IDropDownProps<T extends IListItem> {
   maxVisibleListLength?: number;
   listEmptyText?: string | undefined;
   listEmptyFont?: TypographyProp | undefined;
+  isMultiselect?: false;
+}
+
+export interface IDropDownMultiSelectProps<T extends IListItem>
+  extends Omit<
+    IDropDownProps<T>,
+    'selectedItem' | 'onPress' | 'isMultiselect'
+  > {
+  selectedItem: T[] | undefined;
+  onPress: (item: T[]) => void;
+  isMultiselect: true;
 }
 
 export interface IDropDownIconProps {

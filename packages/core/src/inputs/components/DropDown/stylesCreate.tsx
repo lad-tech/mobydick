@@ -23,6 +23,9 @@ const defaultStyle = (theme: IThemeContext) => {
       alignItems: 'center',
       marginBottom: spaces.Space8,
     },
+    pv8: {
+      paddingVertical: spaces.Space8,
+    },
     placeholder: {
       flex: 1,
     },

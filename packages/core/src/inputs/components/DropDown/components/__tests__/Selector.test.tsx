@@ -29,6 +29,7 @@ describe('@lad-tech/mobydick-core/Selector', () => {
           onClose={jest.fn()}
           pageY={1}
           renderItemOnPress={renderItemOnPress}
+          dropDownHeight={80}
         />
       </SafeAreaProvider>,
     );
@@ -49,6 +50,7 @@ describe('@lad-tech/mobydick-core/Selector', () => {
           pageY={1}
           selectedItem={largeList[1]?.value}
           renderItemOnPress={renderItemOnPress}
+          dropDownHeight={80}
         />
       </SafeAreaProvider>,
     );
@@ -66,6 +68,7 @@ describe('@lad-tech/mobydick-core/Selector', () => {
           flatListItemStyle={{height: 10}}
           selectedItem={selectedItem}
           selectedItemColor={'red'}
+          dropDownHeight={80}
         />
       </SafeAreaProvider>,
     );
@@ -82,6 +85,7 @@ describe('@lad-tech/mobydick-core/Selector', () => {
           pageY={1}
           renderItemOnPress={renderItemOnPress}
           flatListTextStylePressed={{backgroundColor: 'red'}}
+          dropDownHeight={80}
         />
       </SafeAreaProvider>,
     );
@@ -98,6 +102,7 @@ describe('@lad-tech/mobydick-core/Selector', () => {
           renderItemOnPress={renderItemOnPress}
           selectedItem={selectedItem}
           flatListTextFontPressed={'Bold-Error-L'}
+          dropDownHeight={80}
         />
       </SafeAreaProvider>,
     );
@@ -116,6 +121,7 @@ describe('@lad-tech/mobydick-core/Selector', () => {
           renderItemOnPress={renderItemOnPress}
           selectedItem={selectedItem}
           flatListStyle={{paddingVertical: 2}}
+          dropDownHeight={72}
         />
       </SafeAreaProvider>,
     );
@@ -141,6 +147,51 @@ describe('@lad-tech/mobydick-core/Selector', () => {
           selectedItem={selectedItem}
           flatListStyle={{width: 2}}
           buttonStyle={{borderWidth: 1}}
+          dropDownHeight={72}
+        />
+      </SafeAreaProvider>,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+
+  it('Selector custom with array in selectedItem', () => {
+    const data = [
+      {label: 'JavaScript', value: 1},
+      {label: 'Rust', value: 2},
+    ];
+
+    const {toJSON} = render(
+      <SafeAreaProvider>
+        <Selector
+          list={data}
+          onClose={jest.fn()}
+          pageY={1}
+          renderItemOnPress={renderItemOnPress}
+          selectedItem={[data[0]!]}
+          dropDownHeight={72}
+        />
+      </SafeAreaProvider>,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+
+  it('Selector custom with empty array in selectedItem', () => {
+    const data = [
+      {label: 'JavaScript', value: 1},
+      {label: 'Rust', value: 2},
+    ];
+
+    const {toJSON} = render(
+      <SafeAreaProvider>
+        <Selector
+          list={data}
+          onClose={jest.fn()}
+          pageY={1}
+          renderItemOnPress={renderItemOnPress}
+          selectedItem={[]}
+          dropDownHeight={72}
         />
       </SafeAreaProvider>,
     );

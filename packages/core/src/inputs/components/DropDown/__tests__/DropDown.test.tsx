@@ -9,12 +9,13 @@ import PopupsProvider from '../../../../popups/context/PopupsProvider';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
 import Constants from '../../../../popups/components/PopupBase/constants';
 import {LABELS} from '../../../../other';
+import {Pressable} from '../../../../basic';
 
 describe('@lad-tech/mobydick-core/DropDown', () => {
   let viewRef: React.RefObject<View>;
   beforeEach(() => {
     viewRef = React.createRef();
-    render(<View ref={viewRef} />);
+    render(<Pressable ref={viewRef} />);
   });
   afterEach(() => {
     jest.resetAllMocks();
@@ -237,5 +238,68 @@ describe('@lad-tech/mobydick-core/DropDown', () => {
       </SafeAreaProvider>,
     );
     expect(toJSON()).toMatchSnapshot();
+  });
+
+  it('multiselect snapshot', async () => {
+    const {toJSON} = render(
+      <SafeAreaProvider>
+        <PopupsProvider>
+          <DropDown
+            isMultiselect
+            placeholder={'Выберите язык'}
+            title={'Название поля'}
+            list={list}
+            onPress={jest.fn()}
+            selectedItem={[list[1]!]}
+            rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
+          />
+        </PopupsProvider>
+      </SafeAreaProvider>,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+
+  it('multiselect', async () => {
+    const onPress = jest.fn();
+
+    jest
+      .spyOn(viewRef.current as View, 'measure')
+      .mockImplementation(
+        (
+          cb: (
+            x: number,
+            y: number,
+            width: number,
+            height: number,
+            pageX: number,
+            pageY: number,
+          ) => void,
+        ) => cb(0, 0, 1, 1, 287, 2410),
+      );
+
+    const {getByLabelText} = render(
+      <SafeAreaProvider>
+        <PopupsProvider>
+          <DropDown
+            isMultiselect
+            placeholder={'Выберите язык'}
+            title={'Название поля'}
+            list={list}
+            onPress={onPress}
+            type={IInputsTypes.disabled}
+            selectedItem={[]}
+            rightIcon={<SimpleIcon name={'icon-arrow-down'} />}
+          />
+        </PopupsProvider>
+      </SafeAreaProvider>,
+    );
+    const pressable = getByLabelText(LABELS.selector);
+    fireEvent.press(pressable);
+
+    const pressableSelect = getByLabelText(list[1]!.label);
+    fireEvent.press(pressableSelect);
+
+    expect(onPress).toHaveBeenCalledWith([list[1]!]);
   });
 });
