@@ -4,7 +4,7 @@ function getSelectedItems<T extends IListItem>(
   selectedItems: T[] | undefined,
   item: T,
 ) {
-  if (selectedItems === undefined || selectedItems.length === 0) {
+  if (!selectedItems?.length) {
     return [item];
   }
 
