@@ -154,4 +154,48 @@ describe('@lad-tech/mobydick-core/Selector', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+
+  it('Selector custom with array in selectedItem', () => {
+    const data = [
+      {label: 'JavaScript', value: 1},
+      {label: 'Rust', value: 2},
+    ];
+
+    const {toJSON} = render(
+      <SafeAreaProvider>
+        <Selector
+          list={data}
+          onClose={jest.fn()}
+          pageY={1}
+          renderItemOnPress={renderItemOnPress}
+          selectedItem={[data[0]!]}
+          dropDownHeight={72}
+        />
+      </SafeAreaProvider>,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+
+  it('Selector custom with empty array in selectedItem', () => {
+    const data = [
+      {label: 'JavaScript', value: 1},
+      {label: 'Rust', value: 2},
+    ];
+
+    const {toJSON} = render(
+      <SafeAreaProvider>
+        <Selector
+          list={data}
+          onClose={jest.fn()}
+          pageY={1}
+          renderItemOnPress={renderItemOnPress}
+          selectedItem={[]}
+          dropDownHeight={72}
+        />
+      </SafeAreaProvider>,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
