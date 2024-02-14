@@ -11,6 +11,7 @@ type IRootStackParamList = {
 
   [SCREENS.Chat]: undefined
   [SCREENS.Controls]: undefined
+  [SCREENS.CTA]: undefined
   [SCREENS.Inputs]: undefined
   [SCREENS.Popups]: undefined
   [SCREENS.Progress]: undefined

@@ -14,6 +14,7 @@ const CoreScreen = () => {
         text={SCREENS.Controls}
         onPress={move(SCREENS.Controls)}
       />
+      <NavigationButton text={SCREENS.CTA} onPress={move(SCREENS.CTA)} />
       <NavigationButton text={SCREENS.Inputs} onPress={move(SCREENS.Inputs)} />
       <NavigationButton text={SCREENS.Popups} onPress={move(SCREENS.Popups)} />
       <NavigationButton

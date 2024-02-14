@@ -1,7 +1,6 @@
 import {useState} from 'react';
 
-import Header from './Header';
-
+import Header from 'shared/ui/Header';
 import {
   createStyles,
   IInputsTypes,
@@ -25,7 +24,6 @@ const InputList = () => {
         type={IInputsTypes.default}
         title={'Login'}
         placeholder={'login'}
-        containerStyle={styles.containerStyle}
         required={true}
       />
 
@@ -38,7 +36,6 @@ const InputList = () => {
             <SimpleIcon name={isSecureTextEntry ? 'icon-show' : 'icon-hide'} />
           </Pressable>
         }
-        containerStyle={styles.containerStyle}
         secureTextEntry={isSecureTextEntry}
         required={true}
       />
@@ -46,7 +43,6 @@ const InputList = () => {
       <InputField
         type={IInputsTypes.wrong}
         title={'Title'}
-        containerStyle={styles.containerStyle}
         subtitle={'Error text'}
       />
 
@@ -54,7 +50,6 @@ const InputList = () => {
         type={IInputsTypes.disabled}
         title={'Disabled field'}
         disabled={true}
-        containerStyle={styles.containerStyle}
         subtitle={'Subtitle'}
       />
 
@@ -72,7 +67,7 @@ const InputList = () => {
 
 const styleSource = createStyles(({spaces}) => ({
   containerStyle: {
-    marginBottom: spaces.Space12,
+    gap: spaces.Space12,
   },
 }));
 

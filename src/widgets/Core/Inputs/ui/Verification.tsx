@@ -1,8 +1,7 @@
 import {useCallback, useRef, useState} from 'react';
 import {Keyboard, TextInput} from 'react-native';
 
-import Header from './Header';
-
+import Header from 'shared/ui/Header';
 import {CodeField, createStyles, useStyles, View} from 'shared/ui';
 
 const Verification = () => {
@@ -104,7 +103,7 @@ const styleSource = createStyles(theme => {
   const {colors, spaces} = theme;
   return {
     wrapper: {
-      marginBottom: spaces.Space12,
+      gap: spaces.Space12,
     },
     container: {
       flexDirection: 'row',
