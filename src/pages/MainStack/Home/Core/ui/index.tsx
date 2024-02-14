@@ -14,6 +14,7 @@ const CoreScreen = () => {
         text={SCREENS.Controls}
         onPress={move(SCREENS.Controls)}
       />
+      <NavigationButton text={SCREENS.Inputs} onPress={move(SCREENS.Inputs)} />
       <NavigationButton text={SCREENS.Popups} onPress={move(SCREENS.Popups)} />
       <NavigationButton
         text={SCREENS.Progress}
@@ -24,7 +25,6 @@ const CoreScreen = () => {
         text={SCREENS.Typography}
         onPress={move(SCREENS.Typography)}
       />
-      <NavigationButton text={SCREENS.Inputs} onPress={move(SCREENS.Inputs)} />
     </View>
   );
 };
