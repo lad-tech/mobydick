@@ -8,6 +8,7 @@ export enum SCREENS {
 
   Chat = 'Chat',
   Controls = 'Controls',
+  CTA = 'CTA',
   Inputs = 'Inputs',
   Popups = 'Popups',
   Progress = 'Progress',

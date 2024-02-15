@@ -1,8 +1,7 @@
 import {useState} from 'react';
 import {StyleSheet} from 'react-native';
 
-import Header from './Header';
-
+import Header from 'shared/ui/Header';
 import {DropDown, IListItem} from 'shared/ui';
 
 const DropDownExample = () => {

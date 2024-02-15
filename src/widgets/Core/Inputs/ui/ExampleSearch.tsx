@@ -2,7 +2,7 @@ import {useState} from 'react';
 
 import {useDebounce} from 'shared/lib';
 import {createStyles, Search, SimpleIcon, useStyles, View} from 'shared/ui';
-import Header from 'widgets/Core/Inputs/ui/Header';
+import Header from 'shared/ui/Header';
 
 const ExampleSearch = () => {
   const [styles] = useStyles(styleSource);
@@ -31,7 +31,7 @@ const ExampleSearch = () => {
 
 const styleSource = createStyles(({spaces}) => ({
   wrapper: {
-    marginBottom: spaces.Space12,
+    gap: spaces.Space12,
   },
 }));
 
