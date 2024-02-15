@@ -1,3 +1,10 @@
+# [7.23.0](https://github.com/lad-tech/mobydick/compare/v7.22.0...v7.23.0) (2024-02-15)
+
+
+### Features
+
+* add new icons ([13af2ef](https://github.com/lad-tech/mobydick/commit/13af2ef8e50d76b6fca2131af40d5f958c557ab4))
+
 # [7.22.0](https://github.com/lad-tech/mobydick/compare/v7.21.2...v7.22.0) (2024-02-13)
 
 
