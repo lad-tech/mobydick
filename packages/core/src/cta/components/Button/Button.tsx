@@ -26,6 +26,7 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     textStyle,
     font,
     count,
+    textProps,
     ...otherProps
   } = props;
   const [styles, theme] = useStyles(
@@ -85,7 +86,10 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     <Container>
       {leftIcon}
       {Boolean(text) && (
-        <Typography style={[styles.text, textStyle]} font={font || defaultFont}>
+        <Typography
+          {...textProps}
+          style={[styles.text, textStyle]}
+          font={font || defaultFont}>
           {text}
         </Typography>
       )}

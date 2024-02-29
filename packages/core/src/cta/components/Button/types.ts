@@ -1,5 +1,5 @@
 import {ReactElement} from 'react';
-import {StyleProp, TextStyle} from 'react-native';
+import {StyleProp, TextProps, TextStyle} from 'react-native';
 
 import {ITouchableOpacityProps} from '../../../basic/components/TouchableOpacity/types';
 import {TypographyProp} from '../../../typography/types';
@@ -14,6 +14,7 @@ type IProps = {
   loading?: boolean;
   size?: IButtonSize;
   count?: number;
+  textProps?: TextProps;
 };
 
 export enum IButtonTypes {
