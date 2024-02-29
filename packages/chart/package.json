@@ -1,6 +1,6 @@
 {
   "name": "@lad-tech/mobydick-chart",
-  "version": "7.23.0",
+  "version": "7.24.0",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "lib/index",
   "module": "lib/index",
@@ -39,7 +39,7 @@
   "peerDependencies": {
     "react-native": ">=0.66.4",
     "react": ">=17.0.2",
-    "@lad-tech/mobydick-core": "7.23.0",
+    "@lad-tech/mobydick-core": "7.24.0",
     "@shopify/react-native-skia": ">=0.1.234",
     "react-native-reanimated": ">=3.6.1",
     "react-native-gesture-handler": ">=2.14.1"

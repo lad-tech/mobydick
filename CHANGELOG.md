@@ -1,3 +1,10 @@
+# [7.24.0](https://github.com/lad-tech/mobydick/compare/v7.23.0...v7.24.0) (2024-02-29)
+
+
+### Features
+
+* **button:** button text props [#77](https://github.com/lad-tech/mobydick/issues/77) ([2a317a6](https://github.com/lad-tech/mobydick/commit/2a317a6fb889a4bcc401922b700c075ecc1b9a00))
+
 # [7.23.0](https://github.com/lad-tech/mobydick/compare/v7.22.0...v7.23.0) (2024-02-15)
 
 
