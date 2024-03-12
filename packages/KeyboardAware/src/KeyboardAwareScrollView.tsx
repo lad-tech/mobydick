@@ -8,7 +8,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import React, {ReactElement, useEffect, useRef} from 'react';
+import {ReactElement, useEffect, useRef} from 'react';
 
 const androidStatusBarOffset = StatusBar.currentHeight ?? 0;
 
@@ -35,7 +35,7 @@ const KeyboardAwareScrollView = ({
       currentlyFocusedInput?.measureInWindow((_x, y, _width, height) => {
         const endOfInputY = y + height + androidStatusBarOffset;
         const deltaToScroll = endOfInputY - keyboardY;
-        const additionalScroll = 10;
+        const additionalScroll = 30;
 
         const scrollPositionTarget =
           scrollPositionRef.current +
@@ -63,7 +63,10 @@ const KeyboardAwareScrollView = ({
         }).start(() => {
           bottomRef.current?.measureInWindow(
             (_BottomX, _BottomY, _BottomWidth, bottomHeight) => {
-              calculateAndScroll({keyboardY, bottomHeight: bottomHeight ?? 0});
+              calculateAndScroll({
+                keyboardY,
+                bottomHeight: bottomHeight ?? 0,
+              });
             },
           );
         });
@@ -95,7 +98,7 @@ const KeyboardAwareScrollView = ({
         {...rest}>
         {children}
       </Animated.ScrollView>
-      {React.cloneElement(BottomComponent ?? <View />, {ref: bottomRef})}
+      <View ref={bottomRef}>{BottomComponent}</View>
       <Animated.View
         style={[
           Platform.OS === 'ios'
