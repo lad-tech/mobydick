@@ -1,5 +1,5 @@
 import {ScrollView, useStyles} from 'shared/ui';
-import getScreenStyles from 'pages/lib/getScreenStyles';
+import getScreenStyles from 'shared/styles/getScreenStyles';
 import {ActionSheetWidget} from 'widgets/Core/Popup/ui/ActionSheetWidget';
 import {ModalWidget} from 'widgets/Core/Popup/ui/ModalWidget';
 import {SnackbarWidget} from 'widgets/Core/Popup/ui/SnackbarWidget';

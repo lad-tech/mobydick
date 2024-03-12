@@ -1,5 +1,5 @@
 import {ScrollView, useStyles} from 'shared/ui';
-import getScreenStyles from 'pages/lib/getScreenStyles';
+import getScreenStyles from 'shared/styles/getScreenStyles';
 import {ButtonWidget} from 'widgets/Core/CTA/ui/ButtonWidget';
 
 const CTAScreen = () => {

@@ -1,5 +1,5 @@
 import {LineChart, useStyles, View} from 'shared/ui';
-import getScreenStyles from 'pages/lib/getScreenStyles';
+import getScreenStyles from 'shared/styles/getScreenStyles';
 import {mockChartDataset} from 'shared/lib/test/data/chart';
 
 const LineChartScreen = () => {
