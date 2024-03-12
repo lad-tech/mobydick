@@ -16,5 +16,13 @@ export enum SCREENS {
   Typography = 'Typography',
 
   LineChart = 'LineChart',
-  BarChart = 'BarChart'
+  BarChart = 'BarChart',
+
+  KeyboardAware = 'KeyboardAware',
+  KeyboardAwareScrollView = 'KeyboardAwareScrollView',
+  KeyboardAwareScrollViewWithBottom = 'KeyboardAwareScrollViewWithBottom',
+
+  KeyboardAwareScrollViewTabs= 'KeyboardAwareScrollViewTabsScreen',
+  KeyboardAwareScrollViewWithTabs= 'KeyboardAwareScrollViewWithTabs',
+  KeyboardAwareScrollViewWithBottomAndTabs = 'KeyboardAwareScrollViewWithBottomAndTabs',
 }

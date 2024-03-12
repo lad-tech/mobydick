@@ -22,6 +22,10 @@ import ChatScreen from 'pages/MainStack/Home/Core/Chat/ui';
 import ControlsScreen from 'pages/MainStack/Home/Core/Controls/ui';
 import StylesScreen from 'pages/MainStack/Home/Core/Styles/ui';
 import CTAScreen from 'pages/MainStack/Home/Core/CTA/ui';
+import KeyboardAwareScreen from 'pages/MainStack/Home/KeyboardAware/ui';
+import {KeyboardAwareScrollViewScreen} from 'pages/MainStack/Home/KeyboardAware/ScrollView/ui/KeyboardAwareScrollViewScreen';
+import {KeyboardAwareScrollViewWithBottomScreen} from 'pages/MainStack/Home/KeyboardAware/ScrollView/ui/KeyboardAwareScrollViewWithBottomScreen';
+import {KeyboardAwareScrollViewTabsScreen} from 'pages/MainStack/Home/KeyboardAware/ScrollView/Tabs/ui';
 
 const Stack = createNativeStackNavigator<IRootStackParamList>();
 
@@ -53,6 +57,26 @@ const MainStack = () => {
           <Stack.Screen name={SCREENS.Calendar} component={CalendarScreen} />
           <Stack.Screen name={SCREENS.Utils} component={UtilsScreen} />
           <Stack.Screen name={SCREENS.Chart} component={ChartScreen} />
+        </Stack.Group>
+
+        <Stack.Group>
+          <Stack.Screen
+            name={SCREENS.KeyboardAware}
+            component={KeyboardAwareScreen}
+          />
+          <Stack.Screen
+            name={SCREENS.KeyboardAwareScrollView}
+            component={KeyboardAwareScrollViewScreen}
+          />
+
+          <Stack.Screen
+            name={SCREENS.KeyboardAwareScrollViewWithBottom}
+            component={KeyboardAwareScrollViewWithBottomScreen}
+          />
+          <Stack.Screen
+            name={SCREENS.KeyboardAwareScrollViewTabs}
+            component={KeyboardAwareScrollViewTabsScreen}
+          />
         </Stack.Group>
 
         <Stack.Group>

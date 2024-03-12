@@ -1,0 +1,41 @@
+{
+  "name": "@lad-tech/keyboard-aware",
+  "version": "7.24.0",
+  "description": "React Native components library focused on usability, accessibility and developer experience",
+  "main": "lib/index",
+  "module": "lib/index",
+  "types": "lib/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "keywords": [
+    "mobydick",
+    "lad-tech",
+    "keyboard-aware",
+    "react-native"
+  ],
+  "files": [
+    "lib",
+    "src",
+    "index.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lad-tech/mobydick.git",
+    "directory": "packages/keyboardAware"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirill Lebedev <lebedevki@lad24.ru>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.66.4",
+    "react": ">=17.0.2"
+  }
+}
+
