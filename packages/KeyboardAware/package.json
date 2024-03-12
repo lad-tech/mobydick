@@ -1,6 +1,6 @@
 {
   "name": "@lad-tech/keyboard-aware",
-  "version": "7.24.0",
+  "version": "7.25.0",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "lib/index",
   "module": "lib/index",
@@ -38,4 +38,3 @@
     "react": ">=17.0.2"
   }
 }
-
