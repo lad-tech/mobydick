@@ -20,6 +20,14 @@ type IRootStackParamList = {
 
   [SCREENS.LineChart]: undefined
   [SCREENS.BarChart]: undefined
+
+  [SCREENS.KeyboardAware]: undefined
+  [SCREENS.KeyboardAwareScrollView]: undefined
+  [SCREENS.KeyboardAwareScrollViewWithBottom]: undefined
+
+  [SCREENS.KeyboardAwareScrollViewTabs]: undefined
+  [SCREENS.KeyboardAwareScrollViewWithTabs]: undefined
+  [SCREENS.KeyboardAwareScrollViewWithBottomAndTabs]: undefined
 }
 
 export default IRootStackParamList

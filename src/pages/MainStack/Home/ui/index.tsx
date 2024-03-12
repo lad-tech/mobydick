@@ -16,6 +16,10 @@ const HomeScreen = () => {
         text={SCREENS.Calendar}
       />
       <NavigationButton onPress={move(SCREENS.Utils)} text={SCREENS.Utils} />
+      <NavigationButton
+        onPress={move(SCREENS.KeyboardAware)}
+        text={SCREENS.KeyboardAware}
+      />
     </View>
   );
 };

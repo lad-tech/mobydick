@@ -1,0 +1,32 @@
+import ScrollView from './assets/video/ScrollView.mov';
+import ReactPlayer from 'react-player';
+
+<ReactPlayer playing controls url={ScrollView} />
+
+## Example
+
+```typescript jsx
+import { KeyboardAwareScrollView } from '@lad-tech/keyboard-aware';
+import { BottomComponent } from './Bottom';
+import { Inputs } from './Inputs';
+
+export const KeyboardAwareScrollViewWithBottom = () => {
+  return (
+    <KeyboardAwareScrollView
+      BottomComponent={<BottomComponent />}>
+      <Inputs />
+    </KeyboardAwareScrollView>
+  );
+};
+```
+
+
+## Props
+
+### [ScrollView Props](https://reactnative.dev/docs/scrollview#props)
+
+Inherits [ScrollView Props](https://reactnative.dev/docs/scrollview#props).
+
+### BottomComponent
+
+Sticky to Keyboard BottomComponent
