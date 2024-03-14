@@ -1,0 +1,178 @@
+Reusable Input field for any form
+
+
+import InputField from './assets/InputField.png';
+
+<img src={InputField} width="50%"/>
+
+## Example
+
+```typescript jsx
+import {useState} from 'react';
+
+import {
+  createStyles,
+  IInputsTypes,
+  InputField,
+  Pressable,
+  SimpleIcon,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+const InputList = () => {
+  const [styles] = useStyles(styleSource);
+  const [about, setAbout] = useState('');
+  const [isSecureTextEntry, setSecureTextEntry] = useState(false);
+
+  return (
+    <View style={styles.containerStyle}>
+      <InputField
+        type={IInputsTypes.default}
+        title={'Login'}
+        placeholder={'login'}
+        required={true}
+      />
+
+      <InputField
+        type={IInputsTypes.valid}
+        title={'Password'}
+        placeholder={'password'}
+        rightIcon={
+          <Pressable onPress={() => setSecureTextEntry(!isSecureTextEntry)}>
+            <SimpleIcon name={isSecureTextEntry ? 'icon-show' : 'icon-hide'} />
+          </Pressable>
+        }
+        secureTextEntry={isSecureTextEntry}
+        required={true}
+      />
+
+      <InputField
+        type={IInputsTypes.wrong}
+        title={'Title'}
+        subtitle={'Error text'}
+      />
+
+      <InputField
+        type={IInputsTypes.disabled}
+        title={'Disabled field'}
+        disabled={true}
+        subtitle={'Subtitle'}
+      />
+
+      <InputField
+        type={IInputsTypes.default}
+        title={'About:'}
+        placeholder={'Write something'}
+        multiline={true}
+        value={about}
+        onChangeText={setAbout}
+      />
+    </View>
+  );
+};
+
+const styleSource = createStyles(({spaces}) => ({
+  containerStyle: {
+    gap: spaces.Space12,
+  },
+}));
+
+export default InputList;
+
+```
+
+
+## `Props`
+
+### [`TextInput Props`](https://reactnative.dev/docs/textinput#props)
+
+Inherits [TextInput Props](https://reactnative.dev/docs/textinput#props).
+
+### `type`
+
+| Type                                                                                                        |
+|:------------------------------------------------------------------------------------------------------------|
+| [IInputsTypes](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/inputs/components/types.ts) |
+
+Style preset for InputFiled
+
+### `title`
+
+| Type   |
+|:-------|
+| string |
+
+Title for Input
+
+### `titleProps`
+
+| Type                                                                                                        |
+|:------------------------------------------------------------------------------------------------------------|
+| [IStyledTextProps](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L7) |
+
+Title customization
+
+### `required`
+
+| Type    |
+|:--------|
+| boolean |
+
+Mark field as required
+
+### `subtitle`
+
+| Type   |
+|:-------|
+| string |
+
+Subtitle for Input
+
+### `subtitleIcon`
+
+| Type                                                                                                                  |
+|:----------------------------------------------------------------------------------------------------------------------|
+| [SimpleIconName](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/styles/icons/font/unicodesMap.json) |
+
+SubtitleIcon for Input
+
+### `subtitleProps`
+
+| Type                                                                                                        |
+|:------------------------------------------------------------------------------------------------------------|
+| [IStyledTextProps](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L7) |
+
+Title customization
+
+### `containerStyle`
+
+| Type                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for container
+
+### `textInputContainerStyle`
+
+| Type                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for textInputContainer
+
+### `rightIcon`
+
+| Type         |
+|:-------------|
+| ReactElement |
+
+any react component placed right
+
+### `disabled`
+
+| Type    |
+|:--------|
+| boolean |
+
+disable input
