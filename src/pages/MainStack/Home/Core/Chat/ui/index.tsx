@@ -1,5 +1,5 @@
 import {useStyles, View} from 'shared/ui';
-import getScreenStyles from 'pages/lib/getScreenStyles';
+import getScreenStyles from 'shared/styles/getScreenStyles';
 import {ChatWidget} from 'widgets/Core/Chat/ui/ChatWidget';
 
 const ChatScreen = () => {
