@@ -1,7 +1,7 @@
 import {KeyboardAwareScrollView, useStyles} from 'shared/ui';
 import {Inputs} from 'widgets/KeyboardAware/Inputs';
 import {BottomComponent} from 'widgets/KeyboardAware/Bottom';
-import getScreenStyles from 'pages/lib/getScreenStyles';
+import getScreenStyles from 'shared/styles/getScreenStyles';
 
 export const KeyboardAwareScrollViewWithBottomAndTabsScreen = () => {
   const [styles] = useStyles(getScreenStyles);

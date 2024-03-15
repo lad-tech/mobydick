@@ -11,7 +11,7 @@ import {
   useStyles,
   View,
 } from 'shared/ui';
-import getScreenStyles from 'pages/lib/getScreenStyles';
+import getScreenStyles from 'shared/styles/getScreenStyles';
 
 const getAllTypography = (): TypographyProp[] => {
   const weights: TFontWeight[] = Object.keys(
