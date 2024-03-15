@@ -1,0 +1,64 @@
+Reusable Search
+
+
+
+
+import InputField from './assets/Search.png';
+
+<img src={InputField} width="50%"/>
+
+## Example
+
+```tsx
+import {useState} from 'react';
+
+import {Search, SimpleIcon} from '@lad-tech/mobydick-core';
+
+const ExampleSearch = () => {
+  const [value, setValue] = useState('');
+
+  return (
+      <Search
+        value={value}
+        onChangeText={setValue}
+        leftIcon={<SimpleIcon name={'icon-search'} />}
+      />
+  );
+};
+
+
+
+export default ExampleSearch;
+
+```
+
+
+## `Props`
+
+### [`TextInput Props`](https://reactnative.dev/docs/textinput#props)
+
+Inherits [TextInput Props](https://reactnative.dev/docs/textinput#props).
+
+### `containerStyle`
+
+| Type                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for container
+
+### `textInputContainerStyle`
+
+| Type                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for textInputContainer
+
+### `leftIcon`
+
+| Type         |
+|:-------------|
+| ReactElement |
+
+any react component placed right
