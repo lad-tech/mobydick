@@ -20,6 +20,10 @@ const HomeScreen = () => {
         onPress={move(SCREENS.KeyboardAware)}
         text={SCREENS.KeyboardAware}
       />
+      <NavigationButton
+        text={SCREENS.DragAndDrop}
+        onPress={move(SCREENS.DragAndDrop)}
+      />
     </View>
   );
 };

@@ -26,6 +26,7 @@ import KeyboardAwareScreen from 'pages/MainStack/Home/KeyboardAware/ui';
 import {KeyboardAwareScrollViewScreen} from 'pages/MainStack/Home/KeyboardAware/ScrollView/ui/KeyboardAwareScrollViewScreen';
 import {KeyboardAwareScrollViewWithBottomScreen} from 'pages/MainStack/Home/KeyboardAware/ScrollView/ui/KeyboardAwareScrollViewWithBottomScreen';
 import {KeyboardAwareScrollViewTabsScreen} from 'pages/MainStack/Home/KeyboardAware/ScrollView/Tabs/ui';
+import DragAndDropScreen from 'pages/MainStack/Home/Core/DragAndDrop/ui';
 
 const Stack = createNativeStackNavigator<IRootStackParamList>();
 
@@ -91,8 +92,11 @@ const MainStack = () => {
             name={SCREENS.Typography}
             component={TypographyScreen}
           />
+          <Stack.Screen
+            name={SCREENS.DragAndDrop}
+            component={DragAndDropScreen}
+          />
         </Stack.Group>
-
         <Stack.Group>
           <Stack.Screen name={SCREENS.LineChart} component={LineChartScreen} />
           <Stack.Screen name={SCREENS.BarChart} component={BarChartScreen} />
