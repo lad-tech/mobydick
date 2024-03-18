@@ -1,5 +1,5 @@
 import {useStyles, View} from 'shared/ui';
-import getScreenStyles from 'pages/lib/getScreenStyles';
+import getScreenStyles from 'shared/styles/getScreenStyles';
 import {move} from 'shared/lib/navigationRef';
 import {SCREENS} from 'shared/lib/constants/screens';
 import NavigationButton from 'shared/ui/NavigationButton';
@@ -16,6 +16,10 @@ const HomeScreen = () => {
         text={SCREENS.Calendar}
       />
       <NavigationButton onPress={move(SCREENS.Utils)} text={SCREENS.Utils} />
+      <NavigationButton
+        onPress={move(SCREENS.KeyboardAware)}
+        text={SCREENS.KeyboardAware}
+      />
       <NavigationButton
         text={SCREENS.DragAndDrop}
         onPress={move(SCREENS.DragAndDrop)}

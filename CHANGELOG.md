@@ -1,3 +1,10 @@
+# [7.25.0](https://github.com/lad-tech/mobydick/compare/v7.24.0...v7.25.0) (2024-03-12)
+
+
+### Features
+
+* create KeyboardAware [#79](https://github.com/lad-tech/mobydick/issues/79) ([aab2aaf](https://github.com/lad-tech/mobydick/commit/aab2aaff5104ccb70f9c6d9354ebed1ead39dea8))
+
 # [7.24.0](https://github.com/lad-tech/mobydick/compare/v7.23.0...v7.24.0) (2024-02-29)
 
 

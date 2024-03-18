@@ -1,5 +1,5 @@
 import {ScrollView, useStyles} from 'shared/ui';
-import getScreenStyles from 'pages/lib/getScreenStyles';
+import getScreenStyles from 'shared/styles/getScreenStyles';
 import {IndicatorWidget} from 'widgets/Core/Progress/ui/IndicatorWidget';
 import {SpinnerWidget} from 'widgets/Core/Progress/ui/SpinnerWidget';
 import {PanelSpinnerWidget} from 'widgets/Core/Progress/ui/PanelSpinnerWidget';

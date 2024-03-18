@@ -1,5 +1,5 @@
 import {Button, CurrentTheme, useStyles, useTheme, View} from 'shared/ui';
-import getScreenStyles from 'pages/lib/getScreenStyles';
+import getScreenStyles from 'shared/styles/getScreenStyles';
 
 const SettingsScreen = () => {
   const {currentTheme, setCurrentTheme} = useTheme();
