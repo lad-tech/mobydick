@@ -57,7 +57,7 @@
 - `yarn start`
 - `yarn android` или `yarn ios`
 - `yarn storybook`
-- 
+
 ### Для debugging
 Чтобы пользоваться React Native Debugger нужно добавить patch для StyleSheet у React Native 
 ```bash

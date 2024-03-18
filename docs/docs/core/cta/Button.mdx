@@ -1,0 +1,188 @@
+import ReactPlayer from 'react-player';
+import Button from './assets/Button.mov';
+
+<ReactPlayer playing controls url={Button} />
+
+Reusable button component
+
+## Example
+
+
+```tsx
+import {useState} from 'react';
+
+import {
+  Button,
+  createStyles,
+  IButtonSize,
+  IButtonTypes,
+  SimpleIcon,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const ButtonWidget = () => {
+  const [styles] = useStyles(style);
+  const [counter, setCounter] = useState(99);
+
+  const onChangeCounter = (value: number) => () => {
+    setCounter(val => val + value);
+  };
+
+  return (
+    <View style={styles.container}>
+      <View style={styles.content}>
+        <Button type={IButtonTypes.primary} text={'IButtonTypes.primary'} />
+        <Button type={IButtonTypes.secondary} text={'IButtonTypes.secondary'} />
+        <Button type={IButtonTypes.tertiary} text={'IButtonTypes.tertiary'} />
+        <Button type={IButtonTypes.loading} text={'IButtonTypes.loading'} />
+        <Button
+          type={IButtonTypes.destructive}
+          text={'IButtonTypes.destructive'}
+        />
+        <Button type={IButtonTypes.disabled} text={'IButtonTypes.disabled'} />
+      </View>
+
+      <View style={styles.content}>
+        <Button size={IButtonSize.fixed} text={'IButtonSize.fixed'} />
+        <Button size={IButtonSize.large} text={'IButtonSize.large'} />
+        <Button size={IButtonSize.small} text={'IButtonSize.small'} />
+      </View>
+
+      <View style={styles.content}>
+        <Button
+          text={'leftIcon'}
+          leftIcon={<SimpleIcon name={'icon-send'} />}
+        />
+        <Button
+          text={'rightIcon'}
+          rightIcon={<SimpleIcon name={'icon-send'} />}
+        />
+        <Button
+          text={'both'}
+          leftIcon={<SimpleIcon name={'icon-send'} />}
+          rightIcon={<SimpleIcon name={'icon-send'} />}
+        />
+      </View>
+
+      <View style={styles.content}>
+        <Button text={'loading'} loading={true} />
+        <Button text={'disabled'} disabled={true} />
+        <Button text={'both'} disabled={true} loading={true} />
+      </View>
+
+      <View style={styles.content}>
+        <Button
+          text={'increment'}
+          count={counter}
+          onPress={onChangeCounter(1)}
+        />
+        <Button
+          text={'decrement'}
+          count={counter}
+          onPress={onChangeCounter(-1)}
+        />
+      </View>
+    </View>
+  );
+};
+
+const style = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space4,
+  },
+  content: {
+    alignItems: 'center',
+    gap: spaces.Space4,
+  },
+}));
+
+
+```
+textProps?: TextProps;
+
+## `Props`
+
+### [`TouchableOpacity Props`](https://reactnative.dev/docs/touchableopacity#props)
+
+Inherits [TouchableOpacity Props](https://reactnative.dev/docs/touchableopacity#props).
+
+### `type`
+
+| Type                                                                                                                |
+|:--------------------------------------------------------------------------------------------------------------------|
+| [IButtonTypes](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/cta/components/Button/types.ts#L20) |
+
+Predefined type for button
+
+### `size`
+
+| Type                                                                                                               |
+|:-------------------------------------------------------------------------------------------------------------------|
+| [IButtonSize](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/cta/components/Button/types.ts#L29) |
+
+Predefined type for button
+
+### `text`
+
+| Type   |
+|:-------|
+| string |
+
+Text of button
+
+### `textStyle`
+
+| Type                                                             |
+|:-----------------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props#props) |
+
+Custom styles for textInputContainer
+
+### `textProps`
+
+| Type                                                 |
+|:-----------------------------------------------------|
+| [TextProps](https://reactnative.dev/docs/text#props) |
+
+Custom props for text inside button
+
+### `font`
+
+| Type                                                                                                       |
+|:-----------------------------------------------------------------------------------------------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) |
+
+Custom styles for textInputContainer
+
+### `loading`
+
+| Type    |
+|:--------|
+| boolean |
+
+Loading preset of button
+
+### `count`
+
+| Type   |
+|:-------|
+| number |
+
+Number of count
+
+### `leftIcon`
+
+| Type         |
+|:-------------|
+| ReactElement |
+
+any react component placed right
+
+### `rightIcon`
+
+| Type         |
+|:-------------|
+| ReactElement |
+
+any react component placed right
