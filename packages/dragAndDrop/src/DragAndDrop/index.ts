@@ -1,5 +1,5 @@
 import DragAndDrop from './DragAndDrop';
-import DragDropList from './DragAndDropList';
+import DragAndDropList from './DragAndDropList';
 
-export {DragAndDrop, DragDropList};
+export {DragAndDrop, DragAndDropList};
 export * from './types';
