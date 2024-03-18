@@ -1,14 +1,13 @@
 import {Dimensions} from 'react-native';
 
-import DragAndDropList from '../../../../../../../packages/dragAndDrop/src/DragAndDrop/DragAndDropList';
-
 import {
   createStyles,
   rem,
   Typography,
   useStyles,
   View,
-} from '@lad-tech/mobydick-core';
+  DragAndDropList,
+} from 'shared/ui';
 
 const {width: WIDTH} = Dimensions.get('window');
 
