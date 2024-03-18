@@ -16,6 +16,10 @@ const HomeScreen = () => {
         text={SCREENS.Calendar}
       />
       <NavigationButton onPress={move(SCREENS.Utils)} text={SCREENS.Utils} />
+      <NavigationButton
+        text={SCREENS.DragAndDrop}
+        onPress={move(SCREENS.DragAndDrop)}
+      />
     </View>
   );
 };

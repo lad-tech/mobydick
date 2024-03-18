@@ -22,6 +22,7 @@ import ChatScreen from 'pages/MainStack/Home/Core/Chat/ui';
 import ControlsScreen from 'pages/MainStack/Home/Core/Controls/ui';
 import StylesScreen from 'pages/MainStack/Home/Core/Styles/ui';
 import CTAScreen from 'pages/MainStack/Home/Core/CTA/ui';
+import DragAndDropScreen from 'pages/MainStack/Home/Core/DragAndDrop/ui';
 
 const Stack = createNativeStackNavigator<IRootStackParamList>();
 
@@ -67,8 +68,11 @@ const MainStack = () => {
             name={SCREENS.Typography}
             component={TypographyScreen}
           />
+          <Stack.Screen
+            name={SCREENS.DragAndDrop}
+            component={DragAndDropScreen}
+          />
         </Stack.Group>
-
         <Stack.Group>
           <Stack.Screen name={SCREENS.LineChart} component={LineChartScreen} />
           <Stack.Screen name={SCREENS.BarChart} component={BarChartScreen} />

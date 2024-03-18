@@ -20,6 +20,7 @@ type IRootStackParamList = {
 
   [SCREENS.LineChart]: undefined
   [SCREENS.BarChart]: undefined
+  [SCREENS.DragAndDrop]: undefined
 }
 
 export default IRootStackParamList

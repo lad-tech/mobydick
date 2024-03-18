@@ -16,5 +16,6 @@ export enum SCREENS {
   Typography = 'Typography',
 
   LineChart = 'LineChart',
-  BarChart = 'BarChart'
+  BarChart = 'BarChart',
+  DragAndDrop = 'DragAndDrop',
 }
