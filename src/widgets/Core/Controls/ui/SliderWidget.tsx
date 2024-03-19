@@ -15,6 +15,9 @@ export const SliderWidget = () => {
         <Slider
           min={0}
           max={100}
+          low={range.low}
+          high={range.high}
+          minRange={10}
           step={5}
           onValueChanged={(low, high) => {
             setRange({low, high});
@@ -28,6 +31,7 @@ export const SliderWidget = () => {
           min={0}
           max={100}
           step={1}
+          low={low}
           disableRange={true}
           onValueChanged={low => {
             setLow(low);
