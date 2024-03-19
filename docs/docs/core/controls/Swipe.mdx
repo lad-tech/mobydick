@@ -1,0 +1,46 @@
+import ReactPlayer from 'react-player';
+import Swipe from './assets/Swipe.mov';
+
+<ReactPlayer playing controls url={Swipe} />
+
+## Example
+
+```tsx
+import {useState} from 'react';
+
+import {Swipe} from '@lad-tech/mobydick-core';
+
+export const SwipeWidget = () => {
+  const [active, setActive] = useState(false);
+  return (
+    <Swipe onPress={setActive} active={active} disabled={false} />
+  );
+};
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`active`**
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Manage on/off swipe
+
+### <div class="label required basic">Required</div>**`disabled`**
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Disable element
+
+### <div class="label required basic">Required</div>**`onPress`**
+
+| TYPE                        |
+|:----------------------------|
+| (isActive: boolean) => void |
+
+Function for control active
