@@ -1,0 +1,135 @@
+import ReactPlayer from 'react-player';
+import Slider from './assets/Slider.mov';
+
+<ReactPlayer playing controls url={Slider} />
+
+## Example
+
+```tsx
+import {useState} from 'react';
+
+import {createStyles, Slider, Typography, useStyles, View} from '@lad-tech/mobydick-core';
+
+export const SliderWidget = () => {
+  const [styles] = useStyles(styleFn);
+
+  const [range, setRange] = useState({low: 0, high: 100});
+  const [low, setLow] = useState(0);
+  return (
+    <View style={styles.container}>
+      <Slider
+        min={0}
+        max={100}
+        low={range.low}
+        high={range.high}
+        step={5}
+        onValueChanged={(low, high) => {
+          setRange({low, high});
+        }}
+      />
+      <Slider
+        min={0}
+        max={100}
+        step={1}
+        low={low}
+        disableRange={true}
+        onValueChanged={low => {
+          setLow(low);
+        }}
+      />
+    </View>
+  );
+};
+const styleFn = createStyles(({spaces}) => ({
+  container: {gap: spaces.Space8},
+}));
+
+```
+
+onValueChanged?:
+
+## `Props`
+
+### [`View Props`](https://reactnative.dev/docs/view#props)
+
+Inherits [View Props](https://reactnative.dev/docs/view#props).
+
+### <div class="label required basic">Required</div>**`min`**
+
+| TYPE   |
+|:-------|
+| number |
+
+Min value for Slider
+
+### <div class="label required basic">Required</div>**`max`**
+
+| TYPE   |
+|:-------|
+| number |
+
+Max value for Slider
+
+### <div class="label required basic">Required</div>**`step`**
+
+| TYPE   |
+|:-------|
+| number |
+
+Step between slider changes
+
+### `low`
+
+| TYPE   |
+|:-------|
+| number |
+
+Slider low value
+
+### `high`
+
+| TYPE   |
+|:-------|
+| number |
+
+Slider high value
+
+### `minRange`
+
+| TYPE   |
+|:-------|
+| number |
+
+minRange between slider low and high
+
+### `disableRange`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Use only low inside slider
+
+### `disabled`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Disable slider changes
+
+### `onValueChanged`
+
+| TYPE                                                  |
+|:------------------------------------------------------|
+| (low: number, high: number, byUser: boolean) => void; |
+
+Detect changes by slider
+
+### `hitSlop`
+
+| TYPE                                        |
+|:--------------------------------------------|
+| [Insets](https://reactnative.dev/docs/rect) |
+
+HitSop for slider controls
