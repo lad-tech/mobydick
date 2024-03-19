@@ -15,8 +15,7 @@ import {
   Typography,
   useStyles,
   View,
-} from 'shared/ui';
-import Header from 'shared/ui/Header';
+} from '@lad-tech/mobydick-core';
 
 export const DotsWidget = () => {
   const [styles] = useStyles(stylesFn);
@@ -36,8 +35,6 @@ export const DotsWidget = () => {
   };
 
   return (
-    <View>
-      <Header title={'Dots'} />
       <View style={styles.container}>
         <TouchableOpacity onPress={onPressDecrease}>
           <Typography font={'Regular-Secondary-XS'}>
@@ -51,7 +48,6 @@ export const DotsWidget = () => {
           </Typography>
         </TouchableOpacity>
       </View>
-    </View>
   );
 };
 
