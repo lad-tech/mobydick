@@ -1,12 +1,13 @@
 import {StyleSheet} from 'react-native';
 
-import {ISizeSpinner, Spinner, Typography, useTheme, View} from 'shared/ui';
+import {ISizeSpinner, Spinner, useTheme, View} from 'shared/ui';
+import Header from 'shared/ui/Header';
 
 export const SpinnerWidget = () => {
   const {colors} = useTheme();
   return (
     <>
-      <Typography font={'Regular-Primary-H5'}>Spinner</Typography>
+      <Header title={'Spinner'} />
       <View style={styles.container}>
         <Spinner size={ISizeSpinner.XS} />
         <Spinner size={ISizeSpinner.XXS} />
