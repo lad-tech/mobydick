@@ -1,0 +1,46 @@
+Simple spinner for loading indication
+
+import Spinner from './assets/spinner.gif';
+
+<img src={Spinner} width={'30%'} />
+
+## Example
+```typescript jsx
+import React, {FC} from "react";
+import {ISizeSpinner, Spinner} from "@lad-tech/mobydick-core";
+
+export const MySpinner: FC = () => {
+  return <Spinner size={ISizeSpinner.L} duration={1000} />
+}
+
+export const MyBlackSpinner: FC = () => {
+  return <Spinner fill={'#000000'}/>
+}
+
+export const DefaultSpinner: FC = () => {
+  return <Spinner />
+}
+```
+
+## Props
+
+### [`Svg Props`](https://github.com/software-mansion/react-native-svg/blob/main/USAGE.md#common-props)
+
+Inherits [Svg Props](https://github.com/software-mansion/react-native-svg/blob/main/USAGE.md#common-props).
+
+### `size`
+
+Size of spinner
+
+| TYPE           | DEFAULT          |
+|:---------------|:-----------------|
+| `ISizeSpinner` | `ISizeSpinner.S` |
+
+
+### `duration`
+
+Duration of one spin in milliseconds
+
+| TYPE     | DEFAULT |
+|:---------|:--------|
+| `number` | `2500`  |
