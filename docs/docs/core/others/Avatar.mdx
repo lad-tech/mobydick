@@ -1,0 +1,168 @@
+import AvatarLight from './assets/AvatarLight.png';
+
+<img src={AvatarLight} width="50%"/>
+
+## Example
+
+```tsx
+import {
+  Avatar,
+  AvatarGroup,
+  createStyles,
+  IAvatarSize,
+  IAvatarTypes,
+  IBadgeTypes,
+  ICounterTypes,
+  IIndicatorTypes,
+  IStatusTypes,
+  Typography,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const AvatarWidget = () => {
+  const [styles] = useStyles(stylesFn);
+
+  return (
+    <View>
+      <View style={styles.container}>
+        <Typography>{'Content'}</Typography>
+        <View style={styles.row}>
+          <Avatar user={userTest} />
+          <Avatar user={userTest} type={IAvatarTypes.icon} />
+        </View>
+        <Typography>{'State'}</Typography>
+        <View style={styles.row}>
+          <Avatar
+            user={userTest}
+            type={IAvatarTypes.icon}
+            backgroundColor={'green'}
+            disabled={true}
+          />
+        </View>
+        <Typography>{'Size'}</Typography>
+        <View style={styles.row}>
+          <Avatar user={userTest} size={IAvatarSize.S} />
+        </View>
+        <Typography>{'Badge'}</Typography>
+        <View style={styles.row}>
+          <Avatar
+            user={userWithLogoTest}
+            badge={{type: IBadgeTypes.status, value: IStatusTypes.star}}
+          />
+          <Avatar
+            user={userWithLogoTest}
+            badge={{
+              type: IBadgeTypes.indicator,
+              value: IIndicatorTypes.secondary,
+            }}
+          />
+          <Avatar
+            user={userWithLogoTest}
+            badge={{
+              type: IBadgeTypes.counter,
+              value: ICounterTypes.attention,
+              count: 99,
+            }}
+          />
+        </View>
+        <Typography>{'Group'}</Typography>
+        <View style={styles.row}>
+          <AvatarGroup
+            groups={smallGroupDateTest.concat(Array(101).fill(defaultUserTest))}
+            backgroundColor={'#ff0000'}
+            type={IAvatarTypes.text}
+            groupCount={50}
+          />
+        </View>
+      </View>
+    </View>
+  );
+};
+
+const stylesFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space16,
+    alignItems: 'center',
+  },
+  row: {
+    flexDirection: 'row',
+    gap: spaces.Space16,
+  },
+}));
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`user`**
+
+| TYPE                                                                                                          |
+|:--------------------------------------------------------------------------------------------------------------|
+| [IUser](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/other/components/Avatar/types.ts#L5) |
+
+### `type`
+
+| TYPE                                                                                                                  | DEFAULT           |
+|:----------------------------------------------------------------------------------------------------------------------|:------------------|
+| [IAvatarTypes](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/other/components/Avatar/types.ts#L19) | IAvatarTypes.text |
+
+Predefined type for avatar
+
+### `size`
+
+| TYPE                                                                                                                 | DEFAULT       |
+|:---------------------------------------------------------------------------------------------------------------------|:--------------|
+| [IAvatarSize](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/other/components/Avatar/types.ts#L12) | IAvatarSize.M |
+
+Predefined size for avatar
+
+### `backgroundColor`
+
+| TYPE   |
+|:-------|
+| string |
+
+Background color for avatar
+
+### `style`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for avatar container
+
+### `badge`
+
+| TYPE                                                                                                            |
+|:----------------------------------------------------------------------------------------------------------------|
+| [IBadge](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/other/components/Avatar/types.ts#L34) |
+
+Several badge options
+
+### `backgroundColorBadge`
+
+| TYPE   |
+|:-------|
+| string |
+
+Background color for badge
+
+### `disabled`
+
+| TYPE    | DEFAULT |
+|:--------|:--------|
+| boolean | false   |
+
+### `border`
+
+| TYPE    | DEFAULT |
+|:--------|:--------|
+| boolean | false   |
+
+### `headers`
+
+| TYPE                                                                                                             |
+|:-----------------------------------------------------------------------------------------------------------------|
+| [headers](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/other/components/Avatar/types.ts#L58) |
