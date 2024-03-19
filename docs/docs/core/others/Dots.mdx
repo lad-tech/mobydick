@@ -1,0 +1,120 @@
+import ReactPlayer from 'react-player';
+import Dots from './assets/Dots.mov';
+
+<ReactPlayer playing controls url={Dots} />
+
+## Example
+
+```tsx
+import {useState} from 'react';
+
+import {
+  createStyles,
+  Dots,
+  TouchableOpacity,
+  Typography,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const DotsWidget = () => {
+  const [styles] = useStyles(stylesFn);
+  const [activeDot, setActiveDot] = useState(0);
+  const length = 9;
+
+  const onPressIncrease = () => {
+    if (activeDot !== length - 1) {
+      setActiveDot(curr => curr + 1);
+    }
+  };
+
+  const onPressDecrease = () => {
+    if (activeDot !== 0) {
+      setActiveDot(curr => curr - 1);
+    }
+  };
+
+  return (
+      <View style={styles.container}>
+        <TouchableOpacity onPress={onPressDecrease}>
+          <Typography font={'Regular-Secondary-XS'}>
+            Press me to decrease dot
+          </Typography>
+        </TouchableOpacity>
+        <Dots length={length} activeDot={activeDot} />
+        <TouchableOpacity onPress={onPressIncrease}>
+          <Typography font={'Regular-Secondary-XS'}>
+            Press me to increase dot
+          </Typography>
+        </TouchableOpacity>
+      </View>
+  );
+};
+
+const stylesFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space16,
+    alignItems: 'center',
+  },
+}));
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`length`**
+
+| TYPE   |
+|:-------|
+| number |
+
+Amount of elements
+
+### <div class="label required basic">Required</div>**`activeDot`**
+
+| TYPE   |
+|:-------|
+| number |
+
+Active element
+
+### `animateAutoScroll`
+
+| TYPE                                                         | DEFAULT |
+|:-------------------------------------------------------------|:--------|
+| [animated](https://reactnative.dev/docs/scrollview#scrollto) | true    |
+
+Active element
+
+### `fixedSize`
+
+| TYPE   |
+|:-------|
+| number |
+
+Element Size
+
+### `activeDotColor`
+
+| TYPE   |
+|:-------|
+| string |
+
+Color active element
+
+### `passiveDotColor`
+
+| TYPE   |
+|:-------|
+| string |
+
+Color other elements
+
+### `dotsStyles`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for dots container
+
