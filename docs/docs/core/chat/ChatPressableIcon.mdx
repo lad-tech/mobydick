@@ -1,0 +1,67 @@
+import ChatInput from './assets/ChatInput.png';
+
+<img src={ChatInput} />
+
+Works with ChatInput component
+
+## Example
+
+```tsx
+import {useState} from 'react';
+
+import {
+  ChatPressableIcon
+} from '@lad-tech/mobydick-core';
+
+export const ChatWidget = () => {
+  const [input, setInput] = useState('');
+  const [myMessages, setMyMessages] = useState([
+    {time: '12-12-1998', isMe: true, message: 'message'},
+  ]);
+
+  const onSend = () => {
+    setMyMessages([
+      ...myMessages,
+      {
+        time: new Date().toString(),
+        isMe: true,
+        message: input,
+      },
+    ]);
+    setInput('');
+  };
+
+  return (
+    <ChatPressableIcon name={'icon-send'} onPress={onSend} />
+  );
+};
+
+```
+
+
+## `Props`
+
+### [`TouchableOpacity Props`](https://reactnative.dev/docs/touchableopacity#props)
+
+Inherits [TouchableOpacity Props](https://reactnative.dev/docs/touchableopacity#props).
+
+### <div class="label required basic">Required</div>**`name`**
+
+| TYPE                                                                                                                                                      |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [SimpleIconName](https://github.com/lad-tech/mobydick/blob/2bbed82184fa63e6df14259ea744b1de51a66b73/packages/core/src/styles/icons/font/unicodesMap.json) |
+
+### color
+
+| TYPE                                                                                                                                                      |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [SimpleIconName](https://github.com/lad-tech/mobydick/blob/2bbed82184fa63e6df14259ea744b1de51a66b73/packages/core/src/styles/icons/font/unicodesMap.json) |
+
+Color for icon
+
+### backgroundColor
+
+| TYPE                                                                                                                                                      |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [SimpleIconName](https://github.com/lad-tech/mobydick/blob/2bbed82184fa63e6df14259ea744b1de51a66b73/packages/core/src/styles/icons/font/unicodesMap.json) |
+
