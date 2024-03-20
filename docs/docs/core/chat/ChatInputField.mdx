@@ -1,0 +1,32 @@
+import ChatInput from './assets/ChatInput.png';
+
+<img src={ChatInput} />
+
+Works with ChatInput component
+
+
+## Example
+
+```tsx
+import {useState} from 'react';
+
+import {
+  ChatInputField
+} from '@lad-tech/mobydick-core';
+
+export const ChatWidget = () => {
+  const [input, setInput] = useState('');
+
+  return (
+    <ChatInputField value={input} onChangeText={setInput} />
+  );
+};
+
+```
+
+## `Props`
+
+### [`TextInput Props`](https://reactnative.dev/docs/textinput#props)
+
+Inherits [TextInput Props](https://reactnative.dev/docs/textinput#props).
+

@@ -1,0 +1,69 @@
+import ChatInput from './assets/ChatInput.png';
+
+<img src={ChatInput} />
+
+Reusable ChatInput component with predefined styles for chat
+
+
+## Example
+
+```tsx
+import {useState} from 'react';
+
+import {
+  ChatInput,
+} from '@lad-tech/mobydick-core';
+
+export const ChatWidget = () => {
+  const [input, setInput] = useState('');
+  const [myMessages, setMyMessages] = useState([
+    {time: '12-12-1998', isMe: true, message: 'message'},
+  ]);
+
+  const onSend = () => {
+    setMyMessages([
+      ...myMessages,
+      {
+        time: new Date().toString(),
+        isMe: true,
+        message: input,
+      },
+    ]);
+    setInput('');
+  };
+
+  return (
+    <ChatInput>
+      <ChatInput.ChatInputField value={input} onChangeText={setInput} />
+      <ChatInput.ChatPressableIcon name={'icon-send'} onPress={onSend} />
+    </ChatInput>
+  );
+};
+
+```
+
+## `Props`
+
+### [`View Props`](https://reactnative.dev/docs/view#props)
+
+Inherits [View Props](https://reactnative.dev/docs/view#props).
+
+### `containerStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for container
+
+
+## `Componetns`
+
+### `ChatInputField`
+
+See [ChatInputField](./ChatInputField.md)
+
+### `ChatInputField`
+
+See [ChatInputField](./ChatPressableIcon.md)
+
