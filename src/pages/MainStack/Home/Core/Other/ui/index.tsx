@@ -2,6 +2,7 @@ import {ScrollView, useStyles} from 'shared/ui';
 import getScreenStyles from 'shared/styles/getScreenStyles';
 import {DotsWidget} from 'widgets/Core/Other/ui/DotsWidget';
 import {AvatarWidget} from 'widgets/Core/Other/ui/AvatarWidget';
+import {StatusWidget} from 'widgets/Core/Other/ui/StatusWidget';
 
 const OtherScreen = () => {
   const [styles] = useStyles(getScreenStyles);
@@ -10,6 +11,7 @@ const OtherScreen = () => {
     <ScrollView contentContainerStyle={[styles.container, {flex: undefined}]}>
       <DotsWidget />
       <AvatarWidget />
+      <StatusWidget />
     </ScrollView>
   );
 };
