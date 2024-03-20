@@ -1,0 +1,94 @@
+import Radio from './assets/Radio.png';
+
+<img src={Radio} />
+
+Reusable Radio component
+
+
+## Example
+
+```tsx
+import {
+  Radio,
+  Typography,
+} from '@lad-tech/mobydick-core';
+
+export const ControlListWidget = () => {
+  return (
+    <Radio value={'option one'}>
+      <Typography>option one</Typography>
+    </Radio>
+  );
+};
+
+```
+
+## `Props`
+
+
+### <div class="label required basic">Required</div>**`value`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Value for Radio
+
+### `selected`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Select Radio
+
+### `disabled`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Disable Radio
+
+### `onPress`
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+### `containerStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for container
+
+### `checkboxStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for checkbox
+
+### `fill`
+
+| TYPE   |
+|:-------|
+| string |
+
+Custom color for fill
+
+### `width`
+
+| TYPE   |
+|:-------|
+| number |
+
+### `height`
+
+| TYPE   |
+|:-------|
+| number |
+
