@@ -1,0 +1,56 @@
+import Status from '../assets/Status.png';
+
+<img src={Status} width="50%"/>
+
+Reusable Status component
+
+## Example
+
+```tsx
+import {
+  IStatusState,
+  IStatusType,
+  Status,
+} from '@lad-tech/mobydick-core';
+
+
+export const StatusWidget = () => {
+
+  return (
+      <Status type={IStatusType.tag} state={IStatusState.green} text={'tag'} />
+  );
+};
+
+```
+## `Props`
+
+### <div class="label required basic">Required</div>**`type`**
+
+| TYPE            |
+|:----------------|
+| IStatusType.tag |
+
+Type tag for status
+
+### <div class="label required basic">Required</div>**`state`**
+| TYPE                                                                                                                 |
+|:---------------------------------------------------------------------------------------------------------------------|
+| [IStatusState](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/other/components/Status/types.ts#L8) |
+
+Type state for status
+
+### <div class="label required basic">Required</div>**`text`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Type text for status
+
+### `style`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for status container
