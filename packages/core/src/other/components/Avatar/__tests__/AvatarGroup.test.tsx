@@ -13,6 +13,7 @@ const defaultGroupDate = [
     lastName: 'Пушкин',
   },
 ];
+
 const smallGroupDate = [
   {
     logo: 'https://vraki.net/sites/default/files/inline/images/30_55.jpg',
@@ -28,6 +29,7 @@ const defaultUser = [
     lastName: 'Пушкин',
   },
 ];
+
 describe('AvatarGroup', () => {
   test('render AvatarGroup < 3', () => {
     const {toJSON} = render(
