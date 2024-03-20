@@ -4,6 +4,7 @@ import {DotsWidget} from 'widgets/Core/Other/ui/DotsWidget';
 import {AvatarWidget} from 'widgets/Core/Other/ui/AvatarWidget';
 import {BadgeWidget} from 'widgets/Core/Other/ui/BadgeWidget';
 import {StatusWidget} from 'widgets/Core/Other/ui/StatusWidget';
+import {CrossedTextWidget} from 'widgets/Core/Other/ui/CrossedTextWidget';
 
 const OtherScreen = () => {
   const [styles] = useStyles(getScreenStyles);
@@ -14,6 +15,7 @@ const OtherScreen = () => {
       <AvatarWidget />
       <BadgeWidget />
       <StatusWidget />
+      <CrossedTextWidget />
     </ScrollView>
   );
 };

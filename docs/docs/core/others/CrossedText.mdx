@@ -1,0 +1,41 @@
+import CrossedText from './assets/CrossedText.png';
+
+<img src={CrossedText} width="50%"/>
+
+Reusable CrossedText component
+
+## Example
+
+```tsx
+import {CrossedText} from '@lad-tech/mobydick-core';
+
+export const CrossedTextWidget = () => {
+
+  return (
+      <CrossedText lineColor={'red'}>CrossedText</CrossedText>
+  );
+};
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`lineColor`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Color for line
+
+### `lineHeight`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| number | 1       |
+
+Height for line
+
+### [`IStyledTextProps`](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L7)
+
+Inherits [IStyledTextProps](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L7).
