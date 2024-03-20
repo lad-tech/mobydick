@@ -1,0 +1,74 @@
+import Badge from './assets/Badge.png';
+
+<img src={Badge} width="50%"/>
+
+Reusable Swipe component
+
+## Example
+
+```tsx
+import {
+  BadgeIndicator,
+  IIndicatorTypes,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const BadgeWidget = () => {
+
+  return (
+      <View>
+        <Counter
+          size={ICounterSize.small}
+          type={ICounterTypes.accent}
+          count={1}
+        />
+        <Counter type={ICounterTypes.attention} count={99} />
+        <Counter type={ICounterTypes.muted} count={999} />
+        <Counter type={ICounterTypes.accent} count={999} maxLength={3} />
+      </View>
+  );
+};
+
+```
+
+## `Props`
+
+### `count`
+
+| TYPE   |
+|:-------|
+| number |
+
+Number for counter
+
+### `type`
+
+| TYPE                                                                                                                         | DEFAULT              |
+|:-----------------------------------------------------------------------------------------------------------------------------|:---------------------|
+| [ICounterTypes](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/other/components/Badge/Counter/types.ts#L8) | ICounterTypes.accent |
+
+Predefined type for counter
+
+### `size`
+
+| TYPE                                                                                                                        | DEFAULT             |
+|:----------------------------------------------------------------------------------------------------------------------------|:--------------------|
+| [ICounterSize](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/other/components/Badge/Counter/types.ts#L3) | ICounterSize.medium |
+
+Predefined size for counter
+
+### `style`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for counter
+
+### `maxLength`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| number | 2       |
+
+Maximum number length
