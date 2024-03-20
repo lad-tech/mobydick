@@ -326,9 +326,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
       source={
         {
           "headers": undefined,
-          "uri": {
-            "testUri": "../../../src/shared/ui/images/Avatar.png",
-          },
+          "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
         }
       }
       style={
@@ -509,9 +507,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
       source={
         {
           "headers": undefined,
-          "uri": {
-            "testUri": "../../../src/shared/ui/images/Avatar.png",
-          },
+          "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
         }
       }
       style={
@@ -692,9 +688,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
       source={
         {
           "headers": undefined,
-          "uri": {
-            "testUri": "../../../src/shared/ui/images/Avatar.png",
-          },
+          "uri": "https://vraki.net/sites/default/files/inline/images/30_55.jpg",
         }
       }
       style={
