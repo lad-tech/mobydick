@@ -11,7 +11,6 @@ import {TypographyProp} from '../../../typography';
 
 export interface ICollapsibleProps extends TouchableOpacityProps {
   title?: string;
-  children?: ReactElement;
   duration?: number;
   containerStyle?: ViewStyle | ViewStyle[];
   headerStyle?: ViewStyle | ViewStyle[];
