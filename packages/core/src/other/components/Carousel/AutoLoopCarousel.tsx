@@ -1,3 +1,5 @@
+import {ReactElement} from 'react';
+
 import {ICarouselProps} from './types';
 import LoopCarousel from './LoopCarousel';
 
@@ -6,7 +8,7 @@ const AutoLoopCarousel = <T,>({
 }: Omit<
   ICarouselProps<T>,
   'keyExtractor' | 'isDots' | 'animateAutoScroll'
->): JSX.Element => {
+>): ReactElement => {
   return <LoopCarousel isScrolling={true} {...otherProps} />;
 };
 
