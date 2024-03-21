@@ -1,0 +1,131 @@
+import ReactPlayer from 'react-player';
+import Collapsible from './assets/Collapsible.mov';
+
+<ReactPlayer playing controls url={Collapsible} />
+
+Reusable Dots component
+
+## Example
+
+```tsx
+import {
+  Collapsible,
+  Typography,
+} from '@lad-tech/mobydick-core';
+
+export const CollapsibleWidget = () => {
+
+  return (
+      <Collapsible title={'Collapsible'}>
+        <Typography>
+          Component to wrap content in Collapsible element with trigger to open
+          and close
+        </Typography>
+      </Collapsible>
+  );
+};
+
+```
+
+## `Props`
+
+### [`TouchableOpacity Props`](https://reactnative.dev/docs/textinput#props)
+
+Inherits [TouchableOpacity Props](https://reactnative.dev/docs/touchableopacity#props).
+
+### `title`
+
+| TYPE   |
+|:-------|
+| string |
+
+Title for Collapsible
+
+### `duration`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| number | 250     |
+
+Duration animation in milliseconds
+
+### `containerStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for collapsible container
+
+### `headerStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for collapsible header
+
+### `titleStyle`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom styles for collapsible title
+
+### `fontTitle`
+
+| Type                                                                                                       | DEFAULT                |
+|:-----------------------------------------------------------------------------------------------------------|:-----------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'SemiBold-Secondary-M' |
+
+Font for title
+
+### `typeAnimation`
+
+| TYPE                                                                      | DEFAULT         |
+|:--------------------------------------------------------------------------|:----------------|
+| [LayoutAnimationType](https://reactnative.dev/docs/layoutanimation#types) | 'easeInEaseOut' |
+
+An enumeration of animation types to be used
+
+### `creationPropAnimation`
+
+| TYPE                                                                                 | DEFAULT  |
+|:-------------------------------------------------------------------------------------|:---------|
+| [LayoutAnimationProperty](https://reactnative.dev/docs/layoutanimation#properties-1) | 'scaleY' |
+
+An enumeration of layout properties to be animated to be used
+
+
+### `numberOfLines`
+
+| TYPE                                                             | DEFAULT |
+|:-----------------------------------------------------------------|:--------|
+| [numberOfLines](https://reactnative.dev/docs/text#numberoflines) | 2       |
+
+Used to truncate the text with an ellipsis after computing the text layout, including line wrapping, such that the total number of lines does not exceed this number. Setting this property to 0 will result in unsetting this value, which means that no lines restriction will be applied.
+
+### `initialState`
+
+| TYPE    | DEFAULT |
+|:--------|:--------|
+| boolean | false   |
+
+Initial state
+
+### `isAnimated`
+
+| TYPE    | DEFAULT |
+|:--------|:--------|
+| boolean | true    |
+
+To use or not to use LayoutAnimation
+
+### `titleBottomView`
+
+| TYPE         |
+|:-------------|
+| ReactElement |
+
+any react component placed title bottom

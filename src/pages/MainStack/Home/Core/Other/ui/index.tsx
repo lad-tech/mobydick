@@ -4,6 +4,7 @@ import {DotsWidget} from 'widgets/Core/Other/ui/DotsWidget';
 import {AvatarWidget} from 'widgets/Core/Other/ui/AvatarWidget';
 import {BadgeWidget} from 'widgets/Core/Other/ui/BadgeWidget';
 import {StatusWidget} from 'widgets/Core/Other/ui/StatusWidget';
+import {CollapsibleWidget} from 'widgets/Core/Other/ui/CollapsibleWidget';
 import {CrossedTextWidget} from 'widgets/Core/Other/ui/CrossedTextWidget';
 
 const OtherScreen = () => {
@@ -16,6 +17,7 @@ const OtherScreen = () => {
       <BadgeWidget />
       <StatusWidget />
       <CrossedTextWidget />
+      <CollapsibleWidget />
     </ScrollView>
   );
 };
