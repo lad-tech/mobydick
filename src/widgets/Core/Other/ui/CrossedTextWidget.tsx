@@ -7,7 +7,9 @@ export const CrossedTextWidget = () => {
   return (
     <View style={styles.container}>
       <Header title={'CrossedText'} />
-      <CrossedText lineColor={'red'}>CrossedText</CrossedText>
+      <View>
+        <CrossedText lineColor={'red'}>CrossedText</CrossedText>
+      </View>
     </View>
   );
 };
@@ -15,5 +17,6 @@ export const CrossedTextWidget = () => {
 const stylesFn = createStyles(({spaces}) => ({
   container: {
     gap: spaces.Space16,
+    alignItems: 'center',
   },
 }));
