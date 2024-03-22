@@ -1,3 +1,11 @@
+import Tooltip from '../assets/Tooltip.png';
+
+<img src={Tooltip} width="50%"/>
+
+Reusable DescriptionText component for Tooltip
+## Example
+
+```tsx
 import {useRef} from 'react';
 
 import {
@@ -10,7 +18,7 @@ import {
   usePopups,
   useStyles,
   View,
-} from 'shared/ui';
+} from '@lad-tech/mobydick-core';
 
 export const TooltipWidget = () => {
   const ref = useRef(null);
@@ -33,15 +41,9 @@ export const TooltipWidget = () => {
                 placement={IPlacement.center}
                 refCurrent={ref}
                 {...props}>
-                <TooltipBase.Title title={'Tooltip title'} />
                 <TooltipBase.DescriptionText
                   descriptionText={'Tooltip descriptionText'}
                 />
-                <TooltipBase.Arrow
-                  position={IPosition.bottom}
-                  placement={IPlacement.center}
-                />
-                <TooltipBase.LeftButton text={'Left button'} />
               </TooltipBase>
             ),
           })
@@ -59,3 +61,30 @@ const styleFn = createStyles(({spaces, colors}) => ({
     backgroundColor: colors.BgAccent,
   },
 }));
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`descriptionText`**
+
+| TYPE   |
+|:-------|
+| string |
+
+DescriptionText for tooltip
+
+### `descriptionStyles`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom styles for container
+
+### `descriptionFont`
+
+| Type                                                                                                       | DEFAULT                |
+|:-----------------------------------------------------------------------------------------------------------|:-----------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'SemiBold-Secondary-M' |
+
+Font for descriptionText

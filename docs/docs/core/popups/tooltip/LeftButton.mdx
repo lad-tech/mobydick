@@ -1,3 +1,12 @@
+import LeftButton from '../assets/LeftButton.png';
+
+<img src={LeftButton} width="50%"/>
+
+Reusable LeftButton component for Tooltip
+
+## Example
+
+```tsx
 import {useRef} from 'react';
 
 import {
@@ -10,7 +19,7 @@ import {
   usePopups,
   useStyles,
   View,
-} from 'shared/ui';
+} from '@lad-tech/mobydick-core';
 
 export const TooltipWidget = () => {
   const ref = useRef(null);
@@ -34,13 +43,6 @@ export const TooltipWidget = () => {
                 refCurrent={ref}
                 {...props}>
                 <TooltipBase.Title title={'Tooltip title'} />
-                <TooltipBase.DescriptionText
-                  descriptionText={'Tooltip descriptionText'}
-                />
-                <TooltipBase.Arrow
-                  position={IPosition.bottom}
-                  placement={IPlacement.center}
-                />
                 <TooltipBase.LeftButton text={'Left button'} />
               </TooltipBase>
             ),
@@ -59,3 +61,12 @@ const styleFn = createStyles(({spaces, colors}) => ({
     backgroundColor: colors.BgAccent,
   },
 }));
+```
+
+## `Props`
+
+### [`IButton Props`](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/cta/components/Button/types.ts#L35)
+
+Inherits [IButton Props](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/cta/components/Button/types.ts#L35)
+
+

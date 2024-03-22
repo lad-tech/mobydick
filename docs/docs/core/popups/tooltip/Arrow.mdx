@@ -1,3 +1,11 @@
+import Tooltip from '../assets/Tooltip.png';
+
+<img src={Tooltip} width="50%"/>
+
+Reusable Arrow component for Tooltip
+## Example
+
+```tsx
 import {useRef} from 'react';
 
 import {
@@ -10,7 +18,7 @@ import {
   usePopups,
   useStyles,
   View,
-} from 'shared/ui';
+} from '@lad-tech/mobydick-core';
 
 export const TooltipWidget = () => {
   const ref = useRef(null);
@@ -34,14 +42,10 @@ export const TooltipWidget = () => {
                 refCurrent={ref}
                 {...props}>
                 <TooltipBase.Title title={'Tooltip title'} />
-                <TooltipBase.DescriptionText
-                  descriptionText={'Tooltip descriptionText'}
-                />
                 <TooltipBase.Arrow
                   position={IPosition.bottom}
                   placement={IPlacement.center}
                 />
-                <TooltipBase.LeftButton text={'Left button'} />
               </TooltipBase>
             ),
           })
@@ -59,3 +63,31 @@ const styleFn = createStyles(({spaces, colors}) => ({
     backgroundColor: colors.BgAccent,
   },
 }));
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`position`**
+
+| TYPE                                                                                             |
+|:-------------------------------------------------------------------------------------------------|
+| [position](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L17) |
+
+Position for arrow
+
+### <div class="label required basic">Required</div>**`placement`**
+
+| TYPE                                                                                                                    |
+|:------------------------------------------------------------------------------------------------------------------------|
+| [placement](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/components/TooltipBase/types.ts#L7) |
+
+Placement for arrow
+
+### `arrowViewStyles`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for container
+
