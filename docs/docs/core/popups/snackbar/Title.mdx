@@ -1,0 +1,83 @@
+import Snackbar from '../assets/Snackbar.png';
+
+<img src={Snackbar} width="50%"/>
+
+Reusable Title component for Snackbar
+
+## Example
+
+```tsx
+import {
+  Button,
+  createStyles,
+  IPosition,
+  SnackbarBase,
+  Typography,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const SnackbarWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup} = usePopups();
+  return (
+    <View style={styles.container}>
+      <Typography font={'Regular-Primary-H5'}>Snackbar</Typography>
+      <Button
+        text={'Snackbar top'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <SnackbarBase {...props} position={IPosition.top}>
+                <SnackbarBase.Title title={'Snackbar top title'} />
+              </SnackbarBase>
+            ),
+          })
+        }
+      />
+      <Button
+        text={'Snackbar bottom'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <SnackbarBase {...props} position={IPosition.bottom}>
+                <SnackbarBase.Title title={'Snackbar top bottom'} />
+              </SnackbarBase>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({container: {gap: spaces.Space8}}));
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`title`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Title for Snackbar
+
+### `titleStyles`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom styles for container
+
+### `titleFont`
+
+| Type                                                                                                       | DEFAULT                |
+|:-----------------------------------------------------------------------------------------------------------|:-----------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'SemiBold-Secondary-M' |
+
+Font for title
