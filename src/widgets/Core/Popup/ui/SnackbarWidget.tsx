@@ -33,7 +33,7 @@ export const SnackbarWidget = () => {
           openPopup({
             Content: props => (
               <SnackbarBase {...props} position={IPosition.bottom}>
-                <SnackbarBase.Title title={'Snackbar top bottom'} />
+                <SnackbarBase.Title title={'Snackbar bottom title'} />
               </SnackbarBase>
             ),
           })
