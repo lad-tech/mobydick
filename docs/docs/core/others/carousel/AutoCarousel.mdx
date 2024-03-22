@@ -1,0 +1,199 @@
+import ReactPlayer from 'react-player';
+import Carousel from '../assets/Carousel.mov';
+
+<ReactPlayer playing controls url={Carousel} />
+
+Reusable AutoCarousel component
+
+## Example
+
+```tsx
+import {
+  AutoCarousel,
+  createStyles,
+  rem,
+  Typography,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+const data: number[] = [1, 2, 3, 4, 5, 6];
+const ITEM_WIDTH = rem(80);
+
+export const CarouselWidget = () => {
+  const [styles] = useStyles(stylesFn);
+
+  return (
+      <AutoCarousel
+        data={data}
+        sliderItem={item => (
+          <View style={[styles.blockView, {width: ITEM_WIDTH}]}>
+            <Typography>{item}</Typography>
+          </View>
+        )}
+        itemWidth={ITEM_WIDTH}
+        sideMargin={2}
+        keyExtractor={item => item.toString()}
+      />
+  );
+};
+
+const stylesFn = createStyles(({spaces, colors}) => ({
+  container: {
+    gap: spaces.Space16,
+  },
+  blockView: {
+    backgroundColor: colors.BgAccent,
+    aspectRatio: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+}));
+
+```
+
+## `Props`
+
+### [`FlatList Props`](https://reactnative.dev/docs/touchableopacity#props)
+
+Inherits [FlatList Props](https://reactnative.dev/docs/flatlist#props).
+
+### <div class="label required basic">Required</div>**`data`**
+
+| TYPE      |
+|:----------|
+| ArrayLike |
+
+Data for Carousel
+
+### <div class="label required basic">Required</div>**`sliderItem`**
+
+| TYPE                                                      |
+|:----------------------------------------------------------|
+| (item: T, index: number, data: ArrayLike) => ReactElement |
+
+### <div class="label required basic">Required</div>**`keyExtractor`**
+
+| TYPE                                |
+|:------------------------------------|
+| (item: T, index?: number) => string |
+
+### <div class="label required basic">Required</div>**`itemWidth`**
+
+| TYPE   |
+|:-------|
+| number |
+
+### `sideMargin`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| number | 10      |
+
+Margin for items
+
+### `loading`
+
+| TYPE    | DEFAULT |
+|:--------|:--------|
+| boolean | false   |
+
+loading for extraData
+
+### `onPressItem`
+
+| TYPE              |
+|:------------------|
+| (item: T) => void |
+
+
+### `activeItemId`
+
+| TYPE   |
+|:-------|
+| string |
+
+ActiveItemId for initScroll
+
+### `isDots`
+
+| TYPE    | DEFAULT |
+|:--------|:--------|
+| boolean | false   |
+
+IsDots for showing dots
+
+### `averageItemLength`
+
+| TYPE   |
+|:-------|
+| number |
+
+AverageItemLength for [onScrollToIndexFailed](https://reactnative.dev/docs/virtualizedlist#onscrolltoindexfailed)
+
+
+### `animateAutoScroll`
+| TYPE                                                                    | DEFAULT |
+|:------------------------------------------------------------------------|:--------|
+| [animated](https://reactnative.dev/docs/virtualizedlist#scrolltooffset) | false   |
+
+### `onActiveChange`
+
+| TYPE              |
+|:------------------|
+| (item: T) => void |
+
+Returned active element
+
+### `align`
+| TYPE                                                                                                                     | DEFAULT              |
+|:-------------------------------------------------------------------------------------------------------------------------|:---------------------|
+| [ICarouselAlign](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/other/components/Carousel/types.ts#L5) | ICarouselAlign.start |
+
+
+### `ms`
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| number | 2000    |
+
+Timer for autoscroll in milliseconds
+
+### `indexScroll`
+
+| TYPE   |
+|:-------|
+| number |
+
+Index to which the carousel will scroll
+
+### `dotSize`
+
+| TYPE   |
+|:-------|
+| number |
+
+Dot's element Size
+
+### `activeDotColor`
+
+| TYPE   |
+|:-------|
+| string |
+
+Color active dot's element
+
+### `passiveDotColor`
+
+| TYPE   |
+|:-------|
+| string |
+
+Color other dot's elements
+
+### `dotsStyles`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for dots container

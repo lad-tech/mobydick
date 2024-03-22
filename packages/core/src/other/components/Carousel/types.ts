@@ -1,5 +1,6 @@
 import {FlatListProps} from 'react-native/Libraries/Lists/FlatList';
 import {ViewStyle} from 'react-native';
+import {ReactElement} from 'react';
 
 export enum ICarouselAlign {
   center = 'center',
@@ -9,9 +10,10 @@ export enum ICarouselAlign {
 export interface ICarouselProps<T>
   extends Omit<FlatListProps<T>, 'renderItem' | 'keyExtractor'> {
   data: Array<T>;
-  sliderItem: (item: T, index: number, data: Array<T>) => JSX.Element;
-  sideMargin?: number;
+  sliderItem: (item: T, index: number, data: Array<T>) => ReactElement;
+  keyExtractor: (item: T, index?: number) => string;
   itemWidth: number;
+  sideMargin?: number;
   loading?: boolean;
   onPressItem?: (item: T) => void;
   activeItemId?: string;
@@ -20,7 +22,6 @@ export interface ICarouselProps<T>
   animateAutoScroll?: boolean;
   onActiveChange?: (item: T) => void;
   align?: ICarouselAlign;
-  keyExtractor: (item: T, index?: number) => string;
   isScrolling?: boolean;
   ms?: number;
   indexScroll?: number;

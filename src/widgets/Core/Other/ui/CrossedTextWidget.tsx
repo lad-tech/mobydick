@@ -5,12 +5,14 @@ export const CrossedTextWidget = () => {
   const [styles] = useStyles(stylesFn);
 
   return (
-    <View style={styles.container}>
+    <>
       <Header title={'CrossedText'} />
-      <View>
-        <CrossedText lineColor={'red'}>CrossedText</CrossedText>
+      <View style={styles.container}>
+        <View>
+          <CrossedText lineColor={'red'}>CrossedText</CrossedText>
+        </View>
       </View>
-    </View>
+    </>
   );
 };
 
