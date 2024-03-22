@@ -1,4 +1,4 @@
-import {useCallback, useState} from 'react';
+import {ReactElement, useCallback, useState} from 'react';
 
 import {ICarouselAlign, ICarouselProps} from './types';
 import Carousel from './Carousel';
@@ -8,7 +8,7 @@ const LoopCarousel = <T,>({
   itemWidth,
   align = ICarouselAlign.start,
   ...otherProps
-}: Omit<ICarouselProps<T>, 'keyExtractor'>): JSX.Element => {
+}: Omit<ICarouselProps<T>, 'keyExtractor'>): ReactElement => {
   const [infinityData, setInfinityData] = useState([...data, ...data, ...data]);
   const keyExtractorDefault = useCallback((item: T, index?: number) => {
     return String(index) + String(item);
