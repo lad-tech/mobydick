@@ -1,1 +1,58 @@
+import ReactPlayer from 'react-player';
+import PanelSpinner from './assets/PanelSpinner.mov';
+
+<ReactPlayer playing controls url={PanelSpinner} loop={true} />
+
+Reusable PanelSpinner component
+
+## Example
+
+```tsx
+import { PanelSpinner, View} from '@lad-tech/mobydick-core';
+
+export const PanelSpinnerWidget = () => {
+  return (
+    <View>
+      <PanelSpinner isLoading={true} />
+      <PanelSpinner isLoading={false} />
+      <PanelSpinner isLoading={true} onCancel={() => {}} />
+    </View>
+  );
+};
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`isLoading`**
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Show loading animation
+
+### `duration`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| number | 2500    |
+
+Animation duration in ms
+
+### `isError`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Show error
+
+### `onCancel`
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+Callback to cancel animation
 
