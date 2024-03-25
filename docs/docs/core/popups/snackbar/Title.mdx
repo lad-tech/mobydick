@@ -1,3 +1,12 @@
+import Snackbar from '../assets/Snackbar.png';
+
+<img src={Snackbar} width="50%"/>
+
+Reusable Title component for Snackbar
+
+## Example
+
+```tsx
 import {
   Button,
   createStyles,
@@ -7,7 +16,7 @@ import {
   usePopups,
   useStyles,
   View,
-} from 'shared/ui';
+} from '@lad-tech/mobydick-core';
 
 export const SnackbarWidget = () => {
   const [styles] = useStyles(styleFn);
@@ -44,3 +53,31 @@ export const SnackbarWidget = () => {
 };
 
 const styleFn = createStyles(({spaces}) => ({container: {gap: spaces.Space8}}));
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`title`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Title for Snackbar
+
+### `titleStyles`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom styles for container
+
+### `titleFont`
+
+| Type                                                                                                       | DEFAULT                |
+|:-----------------------------------------------------------------------------------------------------------|:-----------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'SemiBold-Secondary-M' |
+
+Font for title

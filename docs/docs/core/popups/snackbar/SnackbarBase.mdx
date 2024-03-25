@@ -1,0 +1,110 @@
+import ReactPlayer from 'react-player';
+import Snackbar from '../assets/Snackbar.mov';
+
+<ReactPlayer playing controls url={Snackbar} />
+
+Reusable Snackbar component
+
+## Example
+
+```tsx
+import {
+  Button,
+  createStyles,
+  IPosition,
+  SnackbarBase,
+  Typography,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const SnackbarWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup} = usePopups();
+  return (
+    <View style={styles.container}>
+      <Typography font={'Regular-Primary-H5'}>Snackbar</Typography>
+      <Button
+        text={'Snackbar top'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <SnackbarBase {...props} position={IPosition.top}>
+                <SnackbarBase.Title title={'Snackbar top title'} />
+              </SnackbarBase>
+            ),
+          })
+        }
+      />
+      <Button
+        text={'Snackbar bottom'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <SnackbarBase {...props} position={IPosition.bottom}>
+                <SnackbarBase.Title title={'Snackbar bottom title'} />
+              </SnackbarBase>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({container: {gap: spaces.Space8}}));
+
+```
+
+## `Props`
+
+### [`IPopup Props`](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L11)
+
+Inherits [IPopup Props](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L11) except 'Content'
+
+### <div class="label required basic">Required</div>**`onClose`**
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+Function for close snackbar
+
+### <div class="label required basic">Required</div>**`position`**
+
+| TYPE                                                                                             |
+|:-------------------------------------------------------------------------------------------------|
+| [position](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L17) |
+
+Position for snackbar
+
+### `overlayStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for PopupBase
+
+### `containerStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for container snackbar
+
+### `timeShow`
+
+| TYPE   |
+|:-------|
+| number |
+
+Timer for show snackbar
+
+## `Componetns`
+
+### `Title`
+
+See [Title](./Title)
