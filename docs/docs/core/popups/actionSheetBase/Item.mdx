@@ -1,0 +1,140 @@
+import ActionSheetBase from '../assets/ActionSheetBase.png';
+
+
+<img src={ActionSheetBase} width="50%"/>
+
+Reusable Item component for ActionSheetBase
+
+## Example
+
+```tsx
+import {
+  ActionSheetBase,
+  Button,
+  IItemType,
+  Typography,
+  usePopups,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const ActionSheetWidget = () => {
+  const {openPopup} = usePopups();
+  return (
+    <View>
+      <Typography font={'Regular-Primary-H5'}>ActionSheet</Typography>
+      <Button
+        text={'ActionSheet'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <ActionSheetBase {...props}>
+                <ActionSheetBase.Item
+                  title={'firstItem'}
+                  itemType={IItemType.firstItem}
+                  onPress={props.onClose}
+                />
+                <ActionSheetBase.Item
+                  title={'innerItem'}
+                  itemType={IItemType.innerItem}
+                  onPress={props.onClose}
+                />
+                <ActionSheetBase.Item
+                  title={'innerItem'}
+                  radio={'radio'}
+                  itemType={IItemType.innerItem}
+                  onPress={props.onClose}
+                />
+                <ActionSheetBase.Item
+                  title={'lastItem'}
+                  itemType={IItemType.lastItem}
+                  onPress={props.onClose}
+                />
+                <ActionSheetBase.Item
+                  title={'cancelItem'}
+                  itemType={IItemType.cancelItem}
+                  onPress={props.onClose}
+                />
+              </ActionSheetBase>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+```
+
+## `Props`
+
+### `style`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for Item
+
+### <div class="label required basic">Required</div>**`title`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Title for Item
+
+
+### `textFont`
+
+| Type                                                                                                       | DEFAULT             |
+|:-----------------------------------------------------------------------------------------------------------|:--------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Regular-Primary-M' |
+
+Font for title
+
+### `leftIcon`
+
+| TYPE         |
+|:-------------|
+| ReactElement |
+
+Left icon for item
+
+### `onPress`
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+OnPress for item
+
+### `radio`
+
+| TYPE   |
+|:-------|
+| string |
+
+Title for radio
+
+### `checkboxList`
+
+| TYPE     |
+|:---------|
+| string[] |
+
+Titles for checkboxList
+
+### `disabled`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Disabled for onPress
+
+### `itemType`
+
+| TYPE                                                                                                                         |
+|:-----------------------------------------------------------------------------------------------------------------------------|
+| [IItemType](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/components/ActionSheetBase/types.ts#L18) |
+
+Type for Item

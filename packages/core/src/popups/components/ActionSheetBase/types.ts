@@ -25,7 +25,6 @@ export enum IItemType {
 
 export interface IPropsItem extends IPropsContents {
   style?: ViewStyle;
-  isStatusPressedForTest?: boolean;
 }
 
 export interface IActionSheetBaseProps
@@ -33,5 +32,4 @@ export interface IActionSheetBaseProps
   onClose: () => void;
   overlayStyle?: StyleProp<ViewStyle>;
   containerStyle?: StyleProp<ViewStyle>;
-  children: React.ReactNode;
 }
