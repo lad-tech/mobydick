@@ -1,0 +1,103 @@
+import TextContent from '../assets/TextContent.png';
+
+<img src={TextContent} width="50%"/>
+
+Reusable TextContent component for ModalBase
+
+## Example
+
+```tsx
+import {
+  Button,
+  createStyles,
+  ModalBase,
+  Typography,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const ModalWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup} = usePopups();
+
+  return (
+    <View style={styles.container}>
+      <Typography font={'Regular-Primary-H5'}>Modal</Typography>
+      <Button
+        text={'ModalBase'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <ModalBase {...props}>
+                <ModalBase.TextContent
+                  title={'TextContent'}
+                  descriptionText={'descriptionText'}
+                />
+              </ModalBase>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space8,
+  },
+}));
+```
+
+## `Props`
+
+### `title`
+
+| TYPE   |
+|:-------|
+| string |
+
+Title for TextContent
+
+### `titleStyles`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom styles for container
+
+### `titleFont`
+
+| Type                                                                                                       | DEFAULT                |
+|:-----------------------------------------------------------------------------------------------------------|:-----------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'SemiBold-Secondary-M' |
+
+Font for title
+
+
+### `descriptionText`
+
+| TYPE   |
+|:-------|
+| string |
+
+DescriptionText for TextContent
+
+### `descriptionStyles`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom styles for container
+
+### `descriptionFont`
+
+| Type                                                                                                       | DEFAULT                |
+|:-----------------------------------------------------------------------------------------------------------|:-----------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'SemiBold-Secondary-M' |
+
+Font for title
+
