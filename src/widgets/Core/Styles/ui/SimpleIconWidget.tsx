@@ -8,7 +8,7 @@ export const SimpleIconWidget = () => {
   return (
     <View>
       <Header title={'SimpleIcons'} />
-      <SimpleIconAlbum onPress={setSimpleIconName} horizontal={true} />
+      <SimpleIconAlbum onPress={setSimpleIconName} />
       <Typography>{simpleIconName}</Typography>
     </View>
   );
