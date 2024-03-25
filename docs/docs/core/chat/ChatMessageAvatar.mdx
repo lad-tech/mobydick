@@ -1,0 +1,43 @@
+import ChatMessage from './assets/ChatMessage.png';
+
+<img src={ChatMessage} />
+
+Reusable ChatMessage component
+
+## Example
+
+```tsx
+import { ChatMessageAvatar } from '@lad-tech/mobydick-core';
+
+export const ChatWidget = () => {
+  return (
+    <ChatMessageAvatar
+      user={{
+        firstName: 'firstName',
+        lastName: 'lastName',
+        middleName: 'middleName',
+      }}
+      isMe={false}
+      time={'12-12-1998'}
+      message={'message'}
+    />
+  );
+};
+
+```
+
+## `Props`
+
+### [`IAvatar Props`](../others/Avatar#props)
+
+Inherits [IAvatar Props](../others/Avatar#props).
+
+### [`IChatMessage Props`](./ChatMessage#props)
+
+Inherits [IChatMessage Props](./ChatMessage#props).
+
+### `onPress`
+
+| TYPE       |
+|:-----------|
+| () => void |
