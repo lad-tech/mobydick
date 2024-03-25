@@ -1,0 +1,52 @@
+import ChatMessage from './assets/ChatMessage.png';
+
+<img src={ChatMessage} />
+
+Reusable ChatMessage component
+
+## Example
+
+```tsx
+import { ChatMessage } from '@lad-tech/mobydick-core';
+
+export const ChatWidget = () => {
+  return (
+    <ChatMessage isMe={true} time={'12-12-1998'} message={'message'} />
+  );
+};
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`isMe`**
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Place message to right or left
+
+### <div class="label required basic">Required</div>**`time`**
+
+| TYPE                                                |
+|:----------------------------------------------------|
+| string mating RegExp `/^([01]\d\|2[0-3]):[0-5]\d$/` |
+
+Time of message
+
+### `message`
+
+| TYPE   |
+|:-------|
+| string |
+
+Text of message
+
+### `image`
+
+| TYPE              |
+|:------------------|
+| FileHandle \| URI |
+
+image for message
