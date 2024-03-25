@@ -1,0 +1,64 @@
+---
+sidebar_position: 0
+---
+
+# Getting started
+
+## Introduction
+
+`@lad-tech/mobydick-core` is core components of mobydick
+
+## Installation
+
+```bash
+npm install @lad-tech/mobydick-core react-native-svg react-native-svg-transformer react-native-safe-area-context
+```
+
+## Font
+
+To use typography font, you must install the font. To do this, in `react-native.config.js` you need to add the path to it to `assets`:
+
+```js
+module.exports = {
+  project: {
+    ios: {},
+    android: {},
+  },
+  assets: [
+    ...,
+    // highlight-next-line
+    'node_modules/@lad-tech/mobydick-core/src/typography/assets/fonts/',
+  ],
+};
+```
+
+and run the command
+
+```bash
+npx react-native-asset
+```
+
+## Icons
+
+To use font icons, you must install the font. To do this, in `react-native.config.js` you need to add the path to it to `assets`:
+
+```js
+module.exports = {
+  project: {
+    ios: {},
+    android: {},
+  },
+    assets: [
+      ...,
+      // highlight-next-line
+      'node_modules/@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts/',
+  ],
+};
+```
+
+and run the command
+
+```bash
+npx react-native-asset
+```
+
