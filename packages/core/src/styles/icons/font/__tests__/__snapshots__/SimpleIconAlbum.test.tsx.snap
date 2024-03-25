@@ -423,20 +423,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -587,6 +573,20 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityState={
             {
@@ -737,20 +737,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -1365,20 +1351,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -1529,6 +1501,20 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityState={
             {
@@ -1679,20 +1665,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -2307,20 +2279,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -2471,6 +2429,20 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityState={
             {
@@ -2621,20 +2593,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -3249,15 +3207,1450 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-money"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-mute"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-noconnection"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
       </View>
     </View>
     <View
-      style={
-        {
-          "height": 0,
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
         }
-      }
-    />
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-notification"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-plus"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-plus2"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-present"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-qr"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-ruble"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-search"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-send"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-settings"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-share"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-show"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-smartphone"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-sort-horizontal"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-sort-vertical"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-speed"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-stack"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-starfill"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-staroutline"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-unlock"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-unmute"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-video"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-videooff"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-volume"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-wallet"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-warning"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
   </View>
 </RCTScrollView>
 `;
@@ -3685,20 +5078,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -3849,6 +5228,20 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityState={
             {
@@ -3999,20 +5392,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -4627,20 +6006,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -4791,6 +6156,20 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityState={
             {
@@ -4941,20 +6320,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -5569,20 +6934,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -5733,6 +7084,20 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
         <View
           accessibilityState={
             {
@@ -5883,20 +7248,6 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
-      </View>
-    </View>
-    <View
-      onFocusCapture={[Function]}
-      onLayout={[Function]}
-      style={null}
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-          }
-        }
-      >
         <View
           accessibilityState={
             {
@@ -6511,15 +7862,1450 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-money"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-mute"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-noconnection"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
       </View>
     </View>
     <View
-      style={
-        {
-          "height": 0,
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
         }
-      }
-    />
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-notification"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-plus"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-plus2"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-present"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-qr"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-ruble"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-search"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-send"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-settings"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-share"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-show"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-smartphone"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-sort-horizontal"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-sort-vertical"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-speed"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-stack"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-starfill"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-staroutline"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-unlock"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-unmute"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-video"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-videooff"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-volume"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-wallet"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-warning"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+      </View>
+    </View>
   </View>
 </RCTScrollView>
 `;

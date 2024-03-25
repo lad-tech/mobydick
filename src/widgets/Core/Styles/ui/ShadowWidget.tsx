@@ -1,10 +1,11 @@
 import {createStyles, Typography, useStyles, View} from 'shared/ui';
+import Header from 'shared/ui/Header';
 
 export const ShadowWidget = () => {
   const [styles] = useStyles(style);
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>Shadow</Typography>
+      <Header title={'Shadow'} />
       <View style={styles.content}>
         <View style={styles.item}>
           <View style={[styles.box, styles.shadowSmall]} />

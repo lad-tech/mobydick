@@ -1,0 +1,51 @@
+import SimpleIcon from './assets/SimpleIcon.png';
+
+<img src={SimpleIcon} />
+
+Reusable Font icons
+
+## Example
+
+```tsx
+import {SimpleIcon} from '@lad-tech/mobydick-core';
+
+export const SimpleIconWidget = () => {
+  return (
+    <SimpleIcon name={'icon-heart'}/>
+  );
+};
+
+```
+## `Props`
+
+### <div class="label required basic">Required</div>**`name`**
+
+| TYPE                                                                                                                                                      |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [SimpleIconName](https://github.com/lad-tech/mobydick/blob/2bbed82184fa63e6df14259ea744b1de51a66b73/packages/core/src/styles/icons/font/unicodesMap.json) |
+
+Name of icon
+
+### `color`
+
+| TYPE   |
+|:-------|
+| string |
+
+Custom color for icon
+
+### `size`
+
+| TYPE   |
+|:-------|
+| number |
+
+Custom size
+
+### `style`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props#props) |
+
+Custom styles for icon
