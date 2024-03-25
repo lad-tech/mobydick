@@ -1,0 +1,46 @@
+import ReactPlayer from 'react-player';
+import Indicator from './assets/Indicator.mov';
+
+<ReactPlayer playing controls url={Indicator} loop={true} />
+
+Reusable Indicator component
+
+## Example
+
+```tsx
+
+import {Indicator} from '@lad-tech/mobydick-core';
+
+export const IndicatorWidget = () => {
+  return (
+    <Indicator percent={20} />
+  );
+};
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`percent`**
+
+| TYPE   |
+|:-------|
+| number |
+
+Fill indicator from 0 to 100 percent
+
+### `indicatorViewStyles`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for indicator container
+
+### `indicatorStyles`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for indicator
