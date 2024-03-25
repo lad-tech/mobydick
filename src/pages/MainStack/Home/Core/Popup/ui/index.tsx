@@ -5,6 +5,7 @@ import {ModalsWidget} from 'widgets/Core/Popup/ui/ModalsWidget';
 import {SnackbarWidget} from 'widgets/Core/Popup/ui/SnackbarWidget';
 import {TooltipWidget} from 'widgets/Core/Popup/ui/TooltipWidget';
 import {ModalWidget} from 'widgets/Core/Popup/ui/ModalWidget';
+import {PopupBaseWidget} from 'widgets/Core/Popup/ui/PopupBaseWidget';
 
 const PopupScreen = () => {
   const [styles] = useStyles(getScreenStyles);
@@ -16,6 +17,7 @@ const PopupScreen = () => {
       <SnackbarWidget />
       <TooltipWidget />
       <ModalWidget />
+      <PopupBaseWidget />
     </ScrollView>
   );
 };
