@@ -1,0 +1,59 @@
+import CloseIcon from '../assets/CloseIcon.png';
+
+<img src={CloseIcon} width="50%"/>
+
+Reusable CloseIcon component for ModalBase
+
+## Example
+
+```tsx
+import {
+  Button,
+  createStyles,
+  ModalBase,
+  Typography,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const ModalWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup} = usePopups();
+
+  return (
+    <View style={styles.container}>
+      <Typography font={'Regular-Primary-H5'}>Modal</Typography>
+      <Button
+        text={'ModalBase'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <ModalBase {...props}>
+                <ModalBase.CloseIcon onPress={props.onClose} />
+              </ModalBase>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space8,
+  },
+}));
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`onPress`**
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+Function for closeIcon
+

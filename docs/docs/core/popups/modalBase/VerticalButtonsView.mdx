@@ -1,13 +1,21 @@
+import VerticalButtonsView from '../assets/VerticalButtonsView.png';
+
+<img src={VerticalButtonsView} width="50%"/>
+
+Reusable VerticalButtonsView component for ModalBase
+
+## Example
+
+```tsx
 import {
   Button,
   createStyles,
-  IButtonTypes,
   ModalBase,
   Typography,
   usePopups,
   useStyles,
   View,
-} from 'shared/ui';
+} from '@lad-tech/mobydick-core';
 
 export const ModalWidget = () => {
   const [styles] = useStyles(styleFn);
@@ -22,23 +30,9 @@ export const ModalWidget = () => {
           openPopup({
             Content: props => (
               <ModalBase {...props}>
-                <ModalBase.CloseIcon onPress={props.onClose} />
-                <ModalBase.AlertContent />
-                <ModalBase.TextContent
-                  title={'ModalBase'}
-                  descriptionText={'descriptionText'}
-                />
                 <ModalBase.VerticalButtonsView>
                   <ModalBase.VerticalButton text={'VerticalButton'} />
                 </ModalBase.VerticalButtonsView>
-                <ModalBase.HorizontalButtonsView
-                  textLeft={'Left btn'}
-                  textRight={'Right btn'}
-                  typeLeft={IButtonTypes.primary}
-                  typeRight={IButtonTypes.destructive}
-                  onPressRight={props.onClose}
-                  onPressLeft={props.onClose}
-                />
               </ModalBase>
             ),
           })
@@ -53,3 +47,14 @@ const styleFn = createStyles(({spaces}) => ({
     gap: spaces.Space8,
   },
 }));
+```
+
+
+## `Props`
+
+### [`View Props`](https://reactnative.dev/docs/textinput#props)
+
+Inherits [View Props](https://reactnative.dev/docs/view#props)
+
+
+

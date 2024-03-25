@@ -1,0 +1,124 @@
+import HorizontalButtonsView from '../assets/HorizontalButtonsView.png';
+
+<img src={HorizontalButtonsView} width="50%"/>
+
+Reusable HorizontalButtonsView component for ModalBase
+
+## Example
+
+```tsx
+import {
+  Button,
+  createStyles,
+  IButtonTypes,
+  ModalBase,
+  Typography,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const ModalWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup} = usePopups();
+
+  return (
+    <View style={styles.container}>
+      <Typography font={'Regular-Primary-H5'}>Modal</Typography>
+      <Button
+        text={'ModalBase'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <ModalBase {...props}>
+                <ModalBase.HorizontalButtonsView
+                  textLeft={'Left btn'}
+                  textRight={'Right btn'}
+                  typeLeft={IButtonTypes.primary}
+                  typeRight={IButtonTypes.destructive}
+                  onPressRight={props.onClose}
+                  onPressLeft={props.onClose}
+                />
+              </ModalBase>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space8,
+  },
+}));
+```
+
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`typeLeft`**
+
+| TYPE                                                                                                                |
+|:--------------------------------------------------------------------------------------------------------------------|
+| [IButtonTypes](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/cta/components/Button/types.ts#L20) |
+
+TypeLeft for left button in HorizontalButtonsView
+
+
+### <div class="label required basic">Required</div>**`typeRight`**
+
+| TYPE                                                                                                                |
+|:--------------------------------------------------------------------------------------------------------------------|
+| [IButtonTypes](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/cta/components/Button/types.ts#L20) |
+
+TypeRight for right button in HorizontalButtonsView
+
+### <div class="label required basic">Required</div>**`onPressLeft`**
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+OnPress for left button in HorizontalButtonsView
+
+### <div class="label required basic">Required</div>**`onPressRight`**
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+OnPress for right button in HorizontalButtonsView
+
+### <div class="label required basic">Required</div>**`textLeft`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Text for left button in HorizontalButtonsView
+
+### <div class="label required basic">Required</div>**`textRight`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Text for right button in HorizontalButtonsView
+
+### `disabledLeft`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Disabled for left button in HorizontalButtonsView
+
+### `disabledRight`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Disabled for right button in HorizontalButtonsView

@@ -1,0 +1,80 @@
+import AlertContent from '../assets/AlertContent.png';
+
+<img src={AlertContent} width="50%"/>
+
+Reusable AlertContent component for ModalBase
+
+## Example
+
+```tsx
+import {
+  Button,
+  createStyles,
+  ModalBase,
+  Typography,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const ModalWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup} = usePopups();
+
+  return (
+    <View style={styles.container}>
+      <Typography font={'Regular-Primary-H5'}>Modal</Typography>
+      <Button
+        text={'ModalBase'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <ModalBase {...props}>
+                <ModalBase.AlertContent />
+              </ModalBase>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space8,
+  },
+}));
+```
+
+## `Props`
+
+### `name`
+
+| TYPE                                                                                                                    | DEFAULT      |
+|:------------------------------------------------------------------------------------------------------------------------|:-------------|
+| [SimpleIconName](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/styles/icons/font/SimpleIcon.tsx#L40) | 'icon-check' |
+
+Predefined name for AlertContent
+
+### `color`
+
+| TYPE   | DEFAULT         |
+|:-------|:----------------|
+| string | colors.IconBase |
+
+Predefined color for AlertContent
+
+### `size`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| number | rem(36) |
+
+Predefined size for AlertContent
+
+### `style`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
