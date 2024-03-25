@@ -16,7 +16,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Mobydick Tutorial - 5min ⏱️
+            Mobydick Docs
           </Link>
         </div>
       </div>

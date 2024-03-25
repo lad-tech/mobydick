@@ -2,12 +2,11 @@
 sidebar_position: 0
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Mobydick in less than 5 minutes**.
+**Mobydick**  is set of libraries that are aimed at solving all the pressing problems for React Native developers
 
-## Getting Started
-
-```bash
-npm install @lad-tech/mobydick-core
-```
+- [@lad-tech/mobydick-core](./core/Introduction)
+- [@lad-tech/keyboard-aware](./KeyboardAware/Introduction)
+- [@lad-tech/mobydick-utils](./utils/Introduction)
+- [@lad-tech/mobydick-calendar](./calendar/Introduction)
