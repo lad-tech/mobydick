@@ -52,15 +52,21 @@ const config: Config = {
     navbar: {
       title: 'Mobydick',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Mobydick Logo',
         src: 'img/logo.png',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'guidesSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Guides',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'componentsSidebar',
+          position: 'left',
+          label: 'Components',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -78,8 +84,12 @@ const config: Config = {
           title: 'Documentations',
           items: [
             {
-              label: 'Docs',
-              to: '/docs/intro',
+              label: 'Components',
+              to: 'docs/components/Intro',
+            },
+            {
+              label: 'Guides',
+              to: 'docs/guides/Intro',
             },
           ],
         },
