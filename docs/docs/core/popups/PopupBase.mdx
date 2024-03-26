@@ -1,0 +1,64 @@
+import ReactPlayer from 'react-player';
+import PopupBase from './assets/PopupBase.mov';
+
+<ReactPlayer playing controls url={PopupBase} />
+
+Reusable PopupBase component
+
+## Example
+
+```tsx
+import {
+  Button,
+  createStyles,
+  PopupBase,
+  Typography,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const PopupBaseWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup} = usePopups();
+
+  return (
+    <View style={styles.container}>
+      <Typography font={'Regular-Primary-H5'}>Popup</Typography>
+      <Button
+        text={'PopupBase'}
+        onPress={() =>
+          openPopup({
+            Content: props => <PopupBase {...props}></PopupBase>,
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space8,
+  },
+}));
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`onClose`**
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+Function for close PopupBase
+
+### `overlayStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for PopupBase
