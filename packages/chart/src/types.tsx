@@ -1,3 +1,6 @@
+import type {ReactElement} from 'react';
+import type {SharedValue} from 'react-native-reanimated';
+
 export interface ICoordinates {
   x: number;
   y: number;
@@ -6,6 +9,7 @@ export interface ICoordinates {
 export interface IChart {
   name?: string;
   coordinates: ICoordinates[];
+  colors?: string[];
 }
 
 export interface IDataset {
@@ -19,3 +23,24 @@ export interface IGeneratePeriodsWithPaths {
   width: number;
   height: number;
 }
+
+export type IRenderSectionItem = (
+  {
+    period,
+    state,
+    transition,
+  }: {
+    period: string;
+    state: ISharedGraphState;
+    transition: IChartTransition;
+  },
+  index: number,
+) => ReactElement;
+
+export interface IGraphState {
+  next: number;
+  current: number;
+}
+
+export type ISharedGraphState = SharedValue<IGraphState>;
+export type IChartTransition = SharedValue<number>;

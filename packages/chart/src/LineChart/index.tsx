@@ -17,22 +17,22 @@ import {
   chartPaddingVertical,
   defaultChartHeightDivider,
 } from '../utils/constants';
-import {IDataset, IFormatter} from '../types';
+import {IDataset, IFormatter, IGraphState, IRenderSectionItem} from '../types';
 import Section from '../components/Section';
 import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
 
 export interface ILineChartProps {
   title?: string;
   dataset: IDataset;
-  isShowSection?: boolean;
+  renderSectionItem?: IRenderSectionItem;
   formatterX?: IFormatter;
   formatterY?: IFormatter;
 }
 
 export const LineChart = ({
+  renderSectionItem,
   dataset,
   title,
-  isShowSection = true,
   formatterY,
   formatterX,
 }: ILineChartProps) => {
@@ -65,7 +65,7 @@ export const LineChart = ({
   // animation value to transition from one graph to the next
   const transition = useSharedValue(0);
   // indices of the current and next graphs
-  const state = useSharedValue({
+  const state = useSharedValue<IGraphState>({
     next: 0,
     current: 0,
   });
@@ -172,8 +172,13 @@ export const LineChart = ({
           />
         </Group>
       </Canvas>
-      {isShowSection && (
-        <Section state={state} transition={transition} dataset={dataset} />
+      {renderSectionItem && (
+        <Section
+          state={state}
+          transition={transition}
+          dataset={dataset}
+          renderSection={renderSectionItem}
+        />
       )}
     </View>
   );
