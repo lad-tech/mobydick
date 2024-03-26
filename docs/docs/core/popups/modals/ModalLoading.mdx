@@ -1,0 +1,76 @@
+import ModalLoading from '../assets/ModalLoading.png';
+
+<img src={ModalLoading} width="50%"/>
+
+Reusable ModalLoading component
+
+## Example
+
+```tsx
+import {
+  Button,
+  createStyles,
+  ModalLoading,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const ModalsWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup} = usePopups();
+
+  return (
+    <View style={styles.container}>
+      <Button
+        text={'ModalLoading'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <ModalLoading
+                title={'ModalLoading'}
+                descriptionText={'descriptionText'}
+                {...props}></ModalLoading>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({container: {gap: spaces.Space8}}));
+
+```
+
+## `Props`
+
+### [`IContentProps`](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L6)
+
+Inherits [IContentProps](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L11)
+
+
+
+### <div class="label required basic">Required</div>**`title`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Title in ModalLoading
+
+### <div class="label required basic">Required</div>**`descriptionText`**
+
+| TYPE   |
+|:-------|
+| string |
+
+DescriptionText in ModalLoading
+
+### `buttonText`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| string | Отмена  |
+
+Text for button
