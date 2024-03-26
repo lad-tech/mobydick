@@ -73,7 +73,6 @@ describe('@lad-tech/mobydick-core/ActionSheetBase', () => {
         itemType={IItemType.cancelItem}
         title={'title'}
         leftIcon={<SimpleIcon name={'icon-copy'} />}
-        isStatusPressedForTest
       />,
     );
     const pressableItem = getByLabelText(LABELS.actionSheetsItem);

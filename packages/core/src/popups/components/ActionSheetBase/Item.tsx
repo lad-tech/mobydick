@@ -10,7 +10,7 @@ import Contents from './content/Contents';
 import {IPropsItem} from './types';
 
 const Item: FC<IPropsItem> = props => {
-  const {onPress, style, disabled, itemType, isStatusPressedForTest} = props;
+  const {onPress, style, disabled, itemType} = props;
   const [styles] = useStyles(stylesCreate, itemType);
   const {colors} = useTheme();
 
@@ -28,8 +28,7 @@ const Item: FC<IPropsItem> = props => {
       style={getStyle}
       disabled={disabled}
       onPress={onPress}
-      accessibilityLabel={LABELS.actionSheetsItem}
-      testOnly_pressed={isStatusPressedForTest}>
+      accessibilityLabel={LABELS.actionSheetsItem}>
       <Contents {...props} />
     </Pressable>
   );
