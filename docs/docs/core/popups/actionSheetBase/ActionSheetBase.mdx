@@ -1,0 +1,101 @@
+import ActionSheetBase from '../assets/ActionSheetBase.png';
+
+
+<img src={ActionSheetBase} width="50%"/>
+
+Reusable ActionSheetBase component for Modal
+
+## Example
+
+```tsx
+import {
+  ActionSheetBase,
+  Button,
+  IItemType,
+  Typography,
+  usePopups,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const ActionSheetWidget = () => {
+  const {openPopup} = usePopups();
+  return (
+    <View>
+      <Typography font={'Regular-Primary-H5'}>ActionSheet</Typography>
+      <Button
+        text={'ActionSheet'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <ActionSheetBase {...props}>
+                <ActionSheetBase.Item
+                  title={'firstItem'}
+                  itemType={IItemType.firstItem}
+                  onPress={props.onClose}
+                />
+                <ActionSheetBase.Item
+                  title={'innerItem'}
+                  itemType={IItemType.innerItem}
+                  onPress={props.onClose}
+                />
+                <ActionSheetBase.Item
+                  title={'innerItem'}
+                  radio={'radio'}
+                  itemType={IItemType.innerItem}
+                  onPress={props.onClose}
+                />
+                <ActionSheetBase.Item
+                  title={'lastItem'}
+                  itemType={IItemType.lastItem}
+                  onPress={props.onClose}
+                />
+                <ActionSheetBase.Item
+                  title={'cancelItem'}
+                  itemType={IItemType.cancelItem}
+                  onPress={props.onClose}
+                />
+              </ActionSheetBase>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+```
+
+## `Props`
+
+### [`IPopup Props`](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L11)
+
+Inherits [IPopup Props](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L11) except 'Content'
+
+### <div class="label required basic">Required</div>**`onClose`**
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+Function for close ActionSheetBase
+
+### `overlayStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for PopupBase
+
+### `containerStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for container ActionSheetBase
+
+## `Components`
+
+### `Item`
+
+See [Item](./Item)
