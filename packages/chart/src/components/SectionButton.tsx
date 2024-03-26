@@ -8,7 +8,7 @@ import {
 } from '../types';
 
 export interface ISectionButtonProps {
-  renderSection: IRenderSectionItem;
+  renderSectionItem: IRenderSectionItem;
   period: string;
   index: number;
   state: ISharedGraphState;
@@ -16,7 +16,7 @@ export interface ISectionButtonProps {
 }
 
 export const SectionButton = ({
-  renderSection,
+  renderSectionItem,
   transition,
   state,
   period,
@@ -34,7 +34,7 @@ export const SectionButton = ({
           duration: 750,
         });
       }}>
-      {renderSection({period, state, transition}, index)}
+      {renderSectionItem({period, state, transition}, index)}
     </Pressable>
   );
 };

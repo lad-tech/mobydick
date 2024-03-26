@@ -1,4 +1,4 @@
-import {View} from 'react-native';
+import {StyleProp, View, ViewStyle} from 'react-native';
 import {SharedValue} from 'react-native-reanimated';
 import {createStyles, useStyles} from '@lad-tech/mobydick-core';
 
@@ -7,27 +7,29 @@ import {IDataset, IGraphState, IRenderSectionItem} from '../types';
 import SectionButton from './SectionButton';
 
 export interface ISelectionProps {
-  renderSection: IRenderSectionItem;
   state: SharedValue<IGraphState>;
   transition: SharedValue<number>;
   dataset: IDataset;
+  renderSectionItem: IRenderSectionItem;
+  sectionContainerStyles?: StyleProp<ViewStyle>;
 }
 
 export const Selection = ({
   state,
   transition,
   dataset,
-  renderSection,
+  renderSectionItem,
+  sectionContainerStyles,
 }: ISelectionProps) => {
   const [styles] = useStyles(createStyleFn);
 
   const periods = Object.keys(dataset);
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, sectionContainerStyles]}>
       {periods.map((period, index) => (
         <SectionButton
-          renderSection={renderSection}
+          renderSectionItem={renderSectionItem}
           key={index}
           index={index}
           period={period}

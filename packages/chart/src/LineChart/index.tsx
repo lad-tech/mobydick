@@ -7,7 +7,7 @@ import {
 } from '@shopify/react-native-skia';
 import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
-import {View} from 'react-native';
+import {StyleProp, View, ViewStyle} from 'react-native';
 import {useTheme} from '@lad-tech/mobydick-core';
 
 import Coordinates from '../components/Coordinates';
@@ -25,14 +25,16 @@ export interface ILineChartProps {
   title?: string;
   dataset: IDataset;
   renderSectionItem?: IRenderSectionItem;
+  sectionContainerStyles?: StyleProp<ViewStyle>;
   formatterX?: IFormatter;
   formatterY?: IFormatter;
 }
 
 export const LineChart = ({
-  renderSectionItem,
   dataset,
   title,
+  renderSectionItem,
+  sectionContainerStyles,
   formatterY,
   formatterX,
 }: ILineChartProps) => {
@@ -177,7 +179,8 @@ export const LineChart = ({
           state={state}
           transition={transition}
           dataset={dataset}
-          renderSection={renderSectionItem}
+          renderSectionItem={renderSectionItem}
+          sectionContainerStyles={sectionContainerStyles}
         />
       )}
     </View>

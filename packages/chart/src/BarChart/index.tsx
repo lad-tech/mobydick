@@ -8,6 +8,7 @@ import {
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
 import {useTheme, View} from '@lad-tech/mobydick-core';
+import {StyleProp, ViewStyle} from 'react-native';
 
 import {IDataset, IFormatter, IRenderSectionItem} from '../types';
 import {
@@ -24,6 +25,7 @@ export interface IBarChartProps {
   title?: string;
   dataset: IDataset;
   renderSectionItem?: IRenderSectionItem;
+  sectionContainerStyles?: StyleProp<ViewStyle>;
   formatterX?: IFormatter;
   formatterY?: IFormatter;
 }
@@ -32,6 +34,7 @@ export const BarChart = ({
   dataset,
   title,
   renderSectionItem,
+  sectionContainerStyles,
   formatterY,
   formatterX,
 }: IBarChartProps) => {
@@ -181,7 +184,8 @@ export const BarChart = ({
           state={state}
           transition={transition}
           dataset={dataset}
-          renderSection={renderSectionItem}
+          renderSectionItem={renderSectionItem}
+          sectionContainerStyles={sectionContainerStyles}
         />
       )}
     </View>
