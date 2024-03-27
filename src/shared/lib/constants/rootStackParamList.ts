@@ -18,6 +18,7 @@ type IRootStackParamList = {
   [SCREENS.Styles]: undefined
   [SCREENS.Typography]: undefined
   [SCREENS.Other]: undefined
+  [SCREENS.Navbars]: undefined
 
   [SCREENS.LineChart]: undefined
   [SCREENS.BarChart]: undefined

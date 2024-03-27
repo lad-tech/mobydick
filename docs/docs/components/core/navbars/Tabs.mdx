@@ -1,0 +1,140 @@
+import ReactPlayer from 'react-player';
+import Tabs from './assets/Tabs.mov';
+
+<ReactPlayer playing controls url={Tabs} />
+
+Reusable Tabs component
+
+## Example
+
+```tsx
+import {useState} from 'react';
+
+import {createStyles, Tabs, useStyles, View} from '@lad-tech/mobydick-core';
+
+
+const TABS_TEST = [
+  {value: 'tab1', label: 'tab1'},
+  {value: 'tab2', label: 'tab2'},
+  {value: 'tab3', label: 'tab3'},
+  {value: 'tab4', label: 'tab4'},
+  {value: 'tab5', label: 'tab5'},
+  {value: 'tab6', label: 'tab6'},
+  {value: 'tab7', label: 'tab7'},
+  {value: 'tab8', label: 'tab8'},
+  {value: 'tab9', label: 'tab9'},
+];
+
+export const TabsWidget = () => {
+  const [styles] = useStyles(stylesFn);
+
+  const [activeValue, setActiveValue] = useState<string | number>('tab1');
+
+  return (
+    <View style={styles.container}>
+      <Tabs
+        list={TABS_TEST}
+        onPressCommon={item => setActiveValue(item.value)}
+        activeValue={activeValue}
+      />
+    </View>
+  );
+};
+
+const stylesFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space16,
+    alignItems: 'center',
+  },
+}));
+
+```
+## `Props`
+
+### <div class="label required basic">Required</div>**`list`**
+
+| Type                                                                                          |
+|:----------------------------------------------------------------------------------------------|
+| [tab[]](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/navbars/types.ts#L7) |
+
+Data for tabs
+
+### <div class="label required basic">Required</div>**`activeValue`**
+
+| TYPE             |
+|:-----------------|
+| string \| number |
+
+The value that will be selected as active tab
+
+### `containerStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for tabs container
+
+### `contentContainerStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for tabs content container
+
+### `fontTab`
+
+| Type                                                                                                       | DEFAULT               |
+|:-----------------------------------------------------------------------------------------------------------|:----------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Regular-Tertiary-XS' |
+
+Font for tab
+
+### `fontActiveTab`
+
+| Type                                                                                                       | DEFAULT            |
+|:-----------------------------------------------------------------------------------------------------------|:-------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Regular-White-XS' |
+
+Font for active tab
+
+### `backgroundColorTab`
+
+| Type   | DEFAULT           |
+|:-------|:------------------|
+| string | colors.BgTertiary |
+
+Background color for tab
+
+### `backgroundColorActiveTab`
+
+| Type   | DEFAULT            |
+|:-------|:-------------------|
+| string | colors.ElementBase |
+
+Background color for active tab
+
+### `onPressCommon`
+
+| TYPE                                                                                                         |
+|:-------------------------------------------------------------------------------------------------------------|
+| (item: [ITab](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/navbars/types.ts#L7)) => void |
+
+OnPress for all tabs
+
+### `styleTab`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for tab
+
+### `styleActiveTab`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for active tab

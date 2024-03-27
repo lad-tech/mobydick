@@ -27,6 +27,10 @@ const CoreScreen = () => {
         onPress={move(SCREENS.Typography)}
       />
       <NavigationButton text={SCREENS.Other} onPress={move(SCREENS.Other)} />
+      <NavigationButton
+        text={SCREENS.Navbars}
+        onPress={move(SCREENS.Navbars)}
+      />
     </View>
   );
 };
