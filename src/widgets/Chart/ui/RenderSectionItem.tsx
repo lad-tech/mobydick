@@ -6,14 +6,14 @@ import Animated, {
 import {
   createStyles,
   IChartTransition,
-  ISharedGraphState,
+  ISharedChartState,
   Typography,
   useStyles,
 } from 'shared/ui';
 
 interface IProps {
   period: string;
-  state: ISharedGraphState;
+  state: ISharedChartState;
   transition: IChartTransition;
   index: number;
 }

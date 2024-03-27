@@ -17,7 +17,6 @@ import {
   defaultChartHeightDivider,
 } from '../utils/constants';
 import Coordinates from '../components/Coordinates';
-import Line from '../components/Line';
 import {generatePeriodsWithBarPaths} from '../utils/generatePeriodsWithBarPaths';
 import Section from '../components/Section';
 
@@ -72,16 +71,16 @@ export const BarChart = ({
     current: 0,
   });
 
-  const chartPath = useDerivedValue(() => {
-    const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
-
-    if (start === undefined || end === undefined) {
-      throw Error('start === undefined || end === undefined');
-    }
-    return end.chartPath.interpolate(start.chartPath, transition.value)!;
-  });
+  // const chartPath = useDerivedValue(() => {
+  //   const {current, next} = state.value;
+  //   const start = periodsWithPaths[current];
+  //   const end = periodsWithPaths[next];
+  //
+  //   if (start === undefined || end === undefined) {
+  //     throw Error('start === undefined || end === undefined');
+  //   }
+  //   return end.chartPath.interpolate(start.chartPath, transition.value)!;
+  // });
 
   const maxY = useDerivedValue(() => {
     const {current, next} = state.value;
@@ -158,12 +157,12 @@ export const BarChart = ({
               color={colors.TextPrimary}
             />
           )}
-          <Line
-            path={chartPath}
-            width={width}
-            colors={colors}
-            strokeWidth={20}
-          />
+          {/*<Line*/}
+          {/*  path={chartPath}*/}
+          {/*  width={width}*/}
+          {/*  colors={colors}*/}
+          {/*  strokeWidth={20}*/}
+          {/*/>*/}
           <Coordinates
             font={font}
             colors={colors}

@@ -2,12 +2,12 @@ import {StyleProp, View, ViewStyle} from 'react-native';
 import {SharedValue} from 'react-native-reanimated';
 import {createStyles, useStyles} from '@lad-tech/mobydick-core';
 
-import {IDataset, IGraphState, IRenderSectionItem} from '../types';
+import {IChartState, IDataset, IRenderSectionItem} from '../types';
 
 import SectionButton from './SectionButton';
 
 export interface ISelectionProps {
-  state: SharedValue<IGraphState>;
+  state: SharedValue<IChartState>;
   transition: SharedValue<number>;
   dataset: IDataset;
   renderSectionItem: IRenderSectionItem;

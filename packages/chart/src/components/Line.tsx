@@ -1,12 +1,28 @@
-import type {PathProps, SkiaDefaultProps} from '@shopify/react-native-skia';
-import {LinearGradient, Path, SkPath, vec} from '@shopify/react-native-skia';
-import {SharedValue} from 'react-native-reanimated';
-import {defaultTheme} from '@lad-tech/mobydick-core';
+import {
+  LinearGradient,
+  Path,
+  PathProps,
+  Skia,
+  SkiaDefaultProps,
+  vec,
+} from '@shopify/react-native-skia';
+import {
+  interpolateColor,
+  SharedValue,
+  useDerivedValue,
+} from 'react-native-reanimated';
 
-interface IChartProps extends SkiaDefaultProps<PathProps, 'start' | 'end'> {
-  colors: (typeof defaultTheme.colors)[0];
-  path: Readonly<SharedValue<SkPath>>;
+import {IChartTransition, ISharedChartState} from '../types';
+import {IPeriodsWithPaths} from '../utils';
+
+interface IChartProps
+  extends Omit<SkiaDefaultProps<PathProps, 'start' | 'end'>, 'path'> {
+  periodsWithPaths: SharedValue<IPeriodsWithPaths>;
+  index: number;
   width: number;
+  transition: IChartTransition;
+  state: ISharedChartState;
+  lineColors?: string[] | undefined;
 }
 
 export const COLORS = [
@@ -20,16 +36,48 @@ export const COLORS = [
   '#FF8A57',
 ];
 
-export const Line = ({path, width, colors, ...rest}: IChartProps) => {
+export const Line = ({
+  periodsWithPaths,
+  index,
+  width,
+  transition,
+  state,
+  ...rest
+}: IChartProps) => {
+  const chartPath = useDerivedValue(() => {
+    const {current, next} = state.value;
+    const start =
+      periodsWithPaths.value[current]?.lines[index]?.path ??
+      Skia.Path.Make().moveTo(0, 0);
+    const end =
+      periodsWithPaths.value[next]?.lines[index]?.path ??
+      Skia.Path.Make().moveTo(0, 0);
+
+    return end.interpolate(start, transition.value)!;
+  });
+
+  const colors = useDerivedValue(() => {
+    const {current, next} = state.value;
+    const start = periodsWithPaths.value[current]?.lines[index]?.colors ?? [];
+    const end = periodsWithPaths.value[next]?.lines[index]?.colors ?? [];
+
+    return end.map((endColor, i) =>
+      interpolateColor(
+        transition.value,
+        [0, 1],
+        [start[i] ?? endColor, endColor],
+      ),
+    );
+  });
+
   return (
     <Path
-      path={path}
+      path={chartPath}
       style="stroke"
       strokeJoin="round"
       strokeWidth={2}
-      color={colors.ChartFirst}
       {...rest}>
-      <LinearGradient start={vec(0, 0)} end={vec(width, 0)} colors={COLORS} />
+      <LinearGradient start={vec(0, 0)} end={vec(width, 0)} colors={colors} />
     </Path>
   );
 };

@@ -31,16 +31,16 @@ export type IRenderSectionItem = (
     transition,
   }: {
     period: string;
-    state: ISharedGraphState;
+    state: ISharedChartState;
     transition: IChartTransition;
   },
   index: number,
 ) => ReactElement;
 
-export interface IGraphState {
+export interface IChartState {
   next: number;
   current: number;
 }
 
-export type ISharedGraphState = SharedValue<IGraphState>;
+export type ISharedChartState = SharedValue<IChartState>;
 export type IChartTransition = SharedValue<number>;
