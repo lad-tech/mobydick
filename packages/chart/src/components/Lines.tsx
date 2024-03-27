@@ -26,9 +26,14 @@ export const Lines = ({
   transition,
 }: ILinesProps) => {
   const lines = useDerivedValue(() => {
-    const {next} = state.value;
+    const {next, current} = state.value;
+
+    const start = periodsWithPaths.value[current]?.lines ?? [];
     const end = periodsWithPaths.value[next]?.lines ?? [];
 
+    if (start.length !== end.length) {
+      throw Error('Available only same numbers of lines in periods');
+    }
     return end;
   });
 

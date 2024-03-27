@@ -2,7 +2,6 @@ import {
   LinearGradient,
   Path,
   PathProps,
-  Skia,
   SkiaDefaultProps,
   vec,
 } from '@shopify/react-native-skia';
@@ -46,12 +45,12 @@ export const Line = ({
 }: IChartProps) => {
   const chartPath = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start =
-      periodsWithPaths.value[current]?.lines[index]?.path ??
-      Skia.Path.Make().moveTo(0, 0);
-    const end =
-      periodsWithPaths.value[next]?.lines[index]?.path ??
-      Skia.Path.Make().moveTo(0, 0);
+    const start = periodsWithPaths.value[current]?.lines[index]?.path;
+    const end = periodsWithPaths.value[next]?.lines[index]?.path;
+
+    if (start === undefined || end === undefined) {
+      throw Error('start === undefined || end === undefined SHEEE');
+    }
 
     return end.interpolate(start, transition.value)!;
   });
