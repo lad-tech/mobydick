@@ -1,0 +1,108 @@
+import ModalAsk from '../assets/ModalAsk.png';
+
+<img src={ModalAsk} width="50%"/>
+
+Reusable ModalAsk component
+
+## Example
+
+```tsx
+import {
+  Button,
+  createStyles,
+  ModalAsk,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const ModalsWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup} = usePopups();
+
+  return (
+    <View style={styles.container}>
+      <Button
+        text={'ModalAsk'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <ModalAsk
+                title={'ModalAsk'}
+                descriptionText={'descriptionText'}
+                onPressRight={props.onClose}
+                {...props}></ModalAsk>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({container: {gap: spaces.Space8}}));
+
+```
+
+## `Props`
+
+### [`IContentProps`](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L6)
+
+Inherits [IContentProps](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L11)
+
+
+### <div class="label required basic">Required</div>**`title`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Title in ModalAsk
+
+### <div class="label required basic">Required</div>**`descriptionText`**
+
+| TYPE   |
+|:-------|
+| string |
+
+DescriptionText in ModalAsk
+
+### `typeLeft`
+
+| TYPE                                                                                                                | DEFAULT               |
+|:--------------------------------------------------------------------------------------------------------------------|:----------------------|
+| [IButtonTypes](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/cta/components/Button/types.ts#L20) | IButtonTypes.tertiary |
+
+TypeLeft for left button in ModalAsk
+
+### `textLeft`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| string | Отмена  |
+
+Text for left button in ModalAsk
+
+### <div class="label required basic">Required</div>**`onPressRight`**
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+OnPress for right button in ModalAsk
+
+### `typeRight`
+
+| TYPE                                                                                                                | DEFAULT                  |
+|:--------------------------------------------------------------------------------------------------------------------|:-------------------------|
+| [IButtonTypes](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/cta/components/Button/types.ts#L20) | IButtonTypes.destructive |
+
+TypeRight for left button in ModalAsk
+
+### `textRight`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| string | Удалить |
+
+Text for right button in ModalAsk

@@ -3,7 +3,7 @@ import {FC} from 'react';
 import {IButtonTypes} from '../cta/components/Button/types';
 
 export type IPopupId = string;
-export interface IContentProps extends Omit<IPopup, 'Content' | 'props'> {
+export interface IContentProps {
   onClose: () => void;
   id: IPopupId;
 }

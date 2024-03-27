@@ -1,0 +1,74 @@
+import ModalSuccess from '../assets/ModalSuccess.png';
+
+<img src={ModalSuccess} width="50%"/>
+
+Reusable ModalSuccess component
+
+## Example
+
+```tsx
+import {
+  Button,
+  createStyles,
+  ModalSuccess,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const ModalsWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup} = usePopups();
+
+  return (
+    <View style={styles.container}>
+      <Button
+        text={'ModalSuccess'}
+        onPress={() =>
+          openPopup({
+            Content: props => (
+              <ModalSuccess
+                title={'ModalSuccess'}
+                descriptionText={'descriptionText'}
+                {...props}></ModalSuccess>
+            ),
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({container: {gap: spaces.Space8}}));
+
+```
+
+## `Props`
+
+### [`IContentProps`](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L6)
+
+Inherits [IContentProps](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L11)
+
+### <div class="label required basic">Required</div>**`title`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Title in ModalSuccess
+
+### <div class="label required basic">Required</div>**`descriptionText`**
+
+| TYPE   |
+|:-------|
+| string |
+
+DescriptionText in ModalSuccess
+
+### `buttonText`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| string | OK      |
+
+Text for button

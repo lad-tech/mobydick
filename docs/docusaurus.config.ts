@@ -84,12 +84,12 @@ const config: Config = {
           title: 'Documentations',
           items: [
             {
-              label: 'Components',
-              to: 'docs/components/Intro',
-            },
-            {
               label: 'Guides',
               to: 'docs/guides/Intro',
+            },
+            {
+              label: 'Components',
+              to: 'docs/components/Intro',
             },
           ],
         },

@@ -8,8 +8,9 @@ import {
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
 import {useTheme, View} from '@lad-tech/mobydick-core';
+import {StyleProp, ViewStyle} from 'react-native';
 
-import {IDataset, IFormatter} from '../types';
+import {IDataset, IFormatter, IRenderSectionItem} from '../types';
 import {
   chartPaddingHorizontal,
   chartPaddingVertical,
@@ -23,7 +24,8 @@ import Section from '../components/Section';
 export interface IBarChartProps {
   title?: string;
   dataset: IDataset;
-  isShowSection?: boolean;
+  renderSectionItem?: IRenderSectionItem;
+  sectionContainerStyles?: StyleProp<ViewStyle>;
   formatterX?: IFormatter;
   formatterY?: IFormatter;
 }
@@ -31,7 +33,8 @@ export interface IBarChartProps {
 export const BarChart = ({
   dataset,
   title,
-  isShowSection = true,
+  renderSectionItem,
+  sectionContainerStyles,
   formatterY,
   formatterX,
 }: IBarChartProps) => {
@@ -176,8 +179,14 @@ export const BarChart = ({
           />
         </Group>
       </Canvas>
-      {isShowSection && (
-        <Section state={state} transition={transition} dataset={dataset} />
+      {renderSectionItem && (
+        <Section
+          state={state}
+          transition={transition}
+          dataset={dataset}
+          renderSectionItem={renderSectionItem}
+          sectionContainerStyles={sectionContainerStyles}
+        />
       )}
     </View>
   );
