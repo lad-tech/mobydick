@@ -4,14 +4,14 @@ import {createStyles, Pressable, useStyles} from '@lad-tech/mobydick-core';
 import {
   IChartTransition,
   IRenderSectionItem,
-  ISharedGraphState,
+  ISharedChartState,
 } from '../types';
 
 export interface ISectionButtonProps {
   renderSectionItem: IRenderSectionItem;
   period: string;
   index: number;
-  state: ISharedGraphState;
+  state: ISharedChartState;
   transition: IChartTransition;
 }
 

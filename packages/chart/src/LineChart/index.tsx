@@ -11,15 +11,15 @@ import {StyleProp, View, ViewStyle} from 'react-native';
 import {useTheme} from '@lad-tech/mobydick-core';
 
 import Coordinates from '../components/Coordinates';
-import Line from '../components/Line';
 import {
   chartPaddingHorizontal,
   chartPaddingVertical,
   defaultChartHeightDivider,
 } from '../utils/constants';
-import {IDataset, IFormatter, IGraphState, IRenderSectionItem} from '../types';
+import {IChartState, IDataset, IFormatter, IRenderSectionItem} from '../types';
 import Section from '../components/Section';
 import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
+import {Lines} from '../components/Lines';
 
 export interface ILineChartProps {
   title?: string;
@@ -67,20 +67,9 @@ export const LineChart = ({
   // animation value to transition from one graph to the next
   const transition = useSharedValue(0);
   // indices of the current and next graphs
-  const state = useSharedValue<IGraphState>({
+  const state = useSharedValue<IChartState>({
     next: 0,
     current: 0,
-  });
-
-  const chartPath = useDerivedValue(() => {
-    const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
-
-    if (start === undefined || end === undefined) {
-      throw Error('start === undefined || end === undefined');
-    }
-    return end.chartPath.interpolate(start.chartPath, transition.value)!;
   });
 
   const maxY = useDerivedValue(() => {
@@ -136,7 +125,7 @@ export const LineChart = ({
       throw Error('start === undefined || end === undefined');
     }
 
-    return end.coordinatesLength;
+    return end.maxCoordinatesLength;
   });
 
   return (
@@ -158,7 +147,12 @@ export const LineChart = ({
               font={font}
             />
           )}
-          <Line path={chartPath} width={width} colors={colors} />
+          <Lines
+            periodsWithPaths={periodsWithPaths}
+            width={width}
+            state={state}
+            transition={transition}
+          />
           <Coordinates
             font={font}
             colors={colors}

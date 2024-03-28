@@ -1,12 +1,17 @@
 import {
   Canvas,
   Group,
+  Skia,
   Text,
   useCanvasRef,
   useFont,
 } from '@shopify/react-native-skia';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
-import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
+import {
+  interpolateColor,
+  useDerivedValue,
+  useSharedValue,
+} from 'react-native-reanimated';
 import {useTheme, View} from '@lad-tech/mobydick-core';
 import {StyleProp, ViewStyle} from 'react-native';
 
@@ -17,9 +22,9 @@ import {
   defaultChartHeightDivider,
 } from '../utils/constants';
 import Coordinates from '../components/Coordinates';
-import Line from '../components/Line';
 import {generatePeriodsWithBarPaths} from '../utils/generatePeriodsWithBarPaths';
 import Section from '../components/Section';
+import Line from '../components/Line';
 
 export interface IBarChartProps {
   title?: string;
@@ -74,13 +79,28 @@ export const BarChart = ({
 
   const chartPath = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths[current]?.chartPath ?? Skia.Path.Make();
+    const end = periodsWithPaths[next]?.chartPath ?? Skia.Path.Make();
 
-    if (start === undefined || end === undefined) {
-      throw Error('start === undefined || end === undefined');
+    if (end.isInterpolatable(start)) {
+      return end.interpolate(start, transition.value)!;
     }
-    return end.chartPath.interpolate(start.chartPath, transition.value)!;
+
+    return end;
+  });
+
+  const colorsBar = useDerivedValue(() => {
+    const {current, next} = state.value;
+    const start = periodsWithPaths[current]?.colors ?? [];
+    const end = periodsWithPaths[next]?.colors ?? [];
+
+    return end.map((endColor, i) =>
+      interpolateColor(
+        transition.value,
+        [0, 1],
+        [start[i] ?? endColor, endColor],
+      ),
+    );
   });
 
   const maxY = useDerivedValue(() => {
@@ -159,9 +179,9 @@ export const BarChart = ({
             />
           )}
           <Line
-            path={chartPath}
+            chartPath={chartPath}
             width={width}
-            colors={colors}
+            colors={colorsBar}
             strokeWidth={20}
           />
           <Coordinates

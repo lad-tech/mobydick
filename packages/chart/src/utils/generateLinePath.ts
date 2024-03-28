@@ -9,34 +9,21 @@ export const generateLinePath = ({
   height,
   width,
   coordinates,
+  maxY,
+  maxX,
+  minY,
+  minX,
 }: {
   coordinates: ICoordinates[];
   height: number;
   width: number;
+  maxY: number;
+  maxX: number;
+  minY: number;
+  minX: number;
 }) => {
   'worklet';
   const path = Skia.Path.Make();
-  let {maxX, maxY, minY, minX} = {
-    maxX: 0,
-    maxY: 0,
-    minY: Infinity,
-    minX: Infinity,
-  };
-
-  coordinates.forEach(({x, y}) => {
-    if (maxX < x) {
-      maxX = x;
-    }
-    if (x < minX) {
-      minX = x;
-    }
-    if (maxY < y) {
-      maxY = y;
-    }
-    if (y < minY) {
-      minY = y;
-    }
-  });
 
   coordinates.forEach(({x, y}, index) => {
     const xCoordinate = interpolate(
@@ -68,9 +55,5 @@ export const generateLinePath = ({
 
   return {
     path,
-    maxX,
-    maxY,
-    minX,
-    minY,
   };
 };
