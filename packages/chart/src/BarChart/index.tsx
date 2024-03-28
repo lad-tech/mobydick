@@ -1,12 +1,17 @@
 import {
   Canvas,
   Group,
+  Skia,
   Text,
   useCanvasRef,
   useFont,
 } from '@shopify/react-native-skia';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
-import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
+import {
+  interpolateColor,
+  useDerivedValue,
+  useSharedValue,
+} from 'react-native-reanimated';
 import {useTheme, View} from '@lad-tech/mobydick-core';
 import {StyleProp, ViewStyle} from 'react-native';
 
@@ -19,6 +24,7 @@ import {
 import Coordinates from '../components/Coordinates';
 import {generatePeriodsWithBarPaths} from '../utils/generatePeriodsWithBarPaths';
 import Section from '../components/Section';
+import Line from '../components/Line';
 
 export interface IBarChartProps {
   title?: string;
@@ -71,16 +77,31 @@ export const BarChart = ({
     current: 0,
   });
 
-  // const chartPath = useDerivedValue(() => {
-  //   const {current, next} = state.value;
-  //   const start = periodsWithPaths[current];
-  //   const end = periodsWithPaths[next];
-  //
-  //   if (start === undefined || end === undefined) {
-  //     throw Error('start === undefined || end === undefined');
-  //   }
-  //   return end.chartPath.interpolate(start.chartPath, transition.value)!;
-  // });
+  const chartPath = useDerivedValue(() => {
+    const {current, next} = state.value;
+    const start = periodsWithPaths[current]?.chartPath ?? Skia.Path.Make();
+    const end = periodsWithPaths[next]?.chartPath ?? Skia.Path.Make();
+
+    if (end.isInterpolatable(start)) {
+      return end.interpolate(start, transition.value)!;
+    }
+
+    return end;
+  });
+
+  const colorsBar = useDerivedValue(() => {
+    const {current, next} = state.value;
+    const start = periodsWithPaths[current]?.colors ?? [];
+    const end = periodsWithPaths[next]?.colors ?? [];
+
+    return end.map((endColor, i) =>
+      interpolateColor(
+        transition.value,
+        [0, 1],
+        [start[i] ?? endColor, endColor],
+      ),
+    );
+  });
 
   const maxY = useDerivedValue(() => {
     const {current, next} = state.value;
@@ -157,12 +178,12 @@ export const BarChart = ({
               color={colors.TextPrimary}
             />
           )}
-          {/*<Line*/}
-          {/*  path={chartPath}*/}
-          {/*  width={width}*/}
-          {/*  colors={colors}*/}
-          {/*  strokeWidth={20}*/}
-          {/*/>*/}
+          <Line
+            chartPath={chartPath}
+            width={width}
+            colors={colorsBar}
+            strokeWidth={20}
+          />
           <Coordinates
             font={font}
             colors={colors}

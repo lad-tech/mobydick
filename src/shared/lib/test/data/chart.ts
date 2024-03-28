@@ -16,7 +16,7 @@ export const mockChartDataset: IDataset = {
       name: '3 line',
       colors:  [
         '#ff0000',
-        '#F43B1D',
+        '#f4e91d',
       ]
     },
     {
