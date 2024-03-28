@@ -13,7 +13,7 @@ export const mockChartDataset: IDataset = {
   'period 1': [
     {
       coordinates: mockChart(20),
-      name: '3 line',
+      name: '1 line',
       colors:  [
         '#ff0000',
         '#f4e91d',
@@ -21,20 +21,16 @@ export const mockChartDataset: IDataset = {
     },
     {
       coordinates: mockChart(10),
-      name: '4 line',
-      colors: [
-        '#c7b2b2',
-        '#cbbdbd',
-
-      ]
+      name: '2 line',
     },
     {
       coordinates: mockChart(5),
-      name: '5 line',
-      colors: [
-        '#bcff06',
-        '#00e7ff',
-
+      name: '3 line',
+      colors:  [
+        '#33135b',
+        '#9BE1DA',
+        '#c5cd56',
+        '#3b3f8e',
       ]
     },
   ],
@@ -52,25 +48,25 @@ export const mockChartDataset: IDataset = {
     {
       coordinates: mockChart(10),
       name: '2 line',
+      colors:  [
+        '#E0F5E9',
+        '#e1db9b',
+        '#abcd56',
+        '#768e3b',
+        '#1cef38',
+        '#1df488',
+        '#1de7f9',
+        '#5787ff',
+      ],
     },
     {
-      coordinates: mockChart(3),
-      name: '2 line',
+      coordinates: mockChart(5),
+      name: '3 line',
       colors:  [
-        '#d5ff80',
-        '#9BE1DA',
-        '#5658cd',
-        '#3B8B8E',
-      ]
-    },
-    {
-      coordinates: mockChart(2),
-      name: '2 line',
-      colors:  [
-        '#d5ff80',
-        '#9BE1DA',
-        '#5658cd',
-        '#3B8B8E',
+        '#ee80ff',
+        '#e19b9b',
+        '#5ecd56',
+        '#833b8e',
       ]
     },
   ],
