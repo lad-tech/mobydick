@@ -5,3 +5,4 @@ export * from './generateLinePath';
 export * from './generatePeriodsWithBarPaths';
 export * from './generatePeriodsWithLinePaths';
 export * from './getCoordinateValues';
+export * from './getLinesMinMax';

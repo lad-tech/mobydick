@@ -9,23 +9,14 @@ import {
 } from '@shopify/react-native-skia';
 import {SharedValue} from 'react-native-reanimated';
 
+import {COLORS} from '../utils';
+
 interface IChartProps
   extends Omit<SkiaDefaultProps<PathProps, 'start' | 'end'>, 'path'> {
   chartPath: SharedValue<SkPath>;
   width: number;
   colors?: SharedValue<Color[]>;
 }
-
-export const COLORS = [
-  '#E0F5E9',
-  '#9BE1DA',
-  '#56CDCB',
-  '#3B8B8E',
-  '#EF1E1C',
-  '#F43B1D',
-  '#F9571D',
-  '#FF8A57',
-];
 
 export const Line = ({chartPath, width, colors, ...rest}: IChartProps) => {
   return (

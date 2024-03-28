@@ -1,8 +1,9 @@
 import {IChart, IGeneratePeriodsWithPaths} from '../types';
-import {COLORS} from '../components';
 import {ILine} from '../components/Lines';
 
 import {generateLinePath} from './generateLinePath';
+import {getLinesMinMax} from './getLinesMinMax';
+import {COLORS} from './constants';
 
 export type IPeriodsWithPaths = {
   maxY: number;
@@ -24,31 +25,22 @@ export const generatePeriodsWithLinePaths = ({
   return periods.map(period => {
     const lines = dataset[period] as IChart[];
 
-    let maxXLine = 0;
-    let maxYLine = 0;
-    let minXLine = Infinity;
-    let minYLine = Infinity;
+    const {maxY, maxX, minY, minX} = getLinesMinMax(lines);
+
     let maxCoordinatesLength = 0;
 
     const temp = lines.map(line => {
       const {coordinates, colors, name} = line;
 
-      const {
-        path: chartPath,
-        maxX,
-        maxY,
-        minX,
-        minY,
-      } = generateLinePath({
+      const {path: chartPath} = generateLinePath({
         width,
         height,
         coordinates,
+        maxY,
+        maxX,
+        minY,
+        minX,
       });
-
-      maxXLine = Math.max(maxXLine, maxX);
-      maxYLine = Math.max(maxYLine, maxY);
-      minXLine = Math.min(minXLine, minX);
-      minYLine = Math.min(minYLine, minY);
 
       const coordinatesLength = coordinates.length;
 
@@ -64,10 +56,10 @@ export const generatePeriodsWithLinePaths = ({
     });
 
     return {
-      maxX: maxXLine,
-      maxY: maxYLine,
-      minY: minYLine,
-      minX: minXLine,
+      maxX,
+      maxY,
+      minY,
+      minX,
       maxCoordinatesLength: maxCoordinatesLength,
       lines: temp,
     };
