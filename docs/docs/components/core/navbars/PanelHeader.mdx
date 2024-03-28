@@ -1,0 +1,165 @@
+import PanelHeader from './assets/PanelHeader.png';
+
+<img src={PanelHeader} width="50%"/>
+
+Reusable PanelHeader component
+
+## Example
+
+```tsx
+import {
+  createStyles,
+  PanelHeader,
+  SimpleIcon,
+  useStyles,
+} from '@lad-tech/mobydick-core';
+
+export const PanelHeaderWidget = () => {
+  const [styles] = useStyles(stylesFn);
+
+  return (
+    <PanelHeader
+      title={'PanelHeader'}
+      leftView={<SimpleIcon name={'icon-arrow-left'} />}
+      rightView={<SimpleIcon name={'icon-camera'} />}
+      containerStyle={styles.container}
+    />
+  );
+};
+
+const stylesFn = createStyles(({colors}) => ({
+  container: {
+    backgroundColor: colors.BgAccent,
+  },
+}));
+
+```
+## `Props`
+
+### `title`
+
+| TYPE   |
+|:-------|
+| string |
+
+Title for PanelHeader
+
+### `subtitle`
+
+| TYPE   |
+|:-------|
+| string |
+
+Subtitle for PanelHeader
+
+### `titleView`
+
+| TYPE                                                 |
+|:-----------------------------------------------------|
+| [ReactNode](https://reactnative.dev/docs/react-node) |
+
+TitleView for PanelHeader
+
+### `titleStyle`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom styles for PanelHeader title
+
+### `titleFont`
+
+| Type                                                                                                       | DEFAULT              |
+|:-----------------------------------------------------------------------------------------------------------|:---------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | SemiBold-Secondary-M |
+
+Font for title
+
+### `subtitleStyle`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom styles for PanelHeader subtitle
+
+### `subtitleFont`
+
+| Type                                                                                                       | DEFAULT              |
+|:-----------------------------------------------------------------------------------------------------------|:---------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | Regular-Tertiary-XXS |
+
+Font for subtitle
+
+### `titleViewStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for title
+
+### `rightView`
+
+| TYPE                                                 |
+|:-----------------------------------------------------|
+| [ReactNode](https://reactnative.dev/docs/react-node) |
+
+RightView for PanelHeader
+
+### `leftView`
+
+| TYPE                                                 |
+|:-----------------------------------------------------|
+| [ReactNode](https://reactnative.dev/docs/react-node) |
+
+LeftView for PanelHeader
+
+### `rightViewStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for rightView
+
+### `leftViewStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for leftView
+
+### `containerStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles container for contentHeader
+
+### `commonViewStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles container for panelHeader
+
+### `isSafeAreaView`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+Flag for using SafeAreaView
+
+### `edges`
+
+| TYPE                                                                       |
+|:---------------------------------------------------------------------------|
+| [Edge](https://docs.expo.dev/versions/latest/sdk/safe-area-context/#props) |
+
+Sets the edges to apply the safe area insets to.
