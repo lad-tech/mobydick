@@ -20,6 +20,7 @@ import {IChartState, IDataset, IFormatter, IRenderSectionItem} from '../types';
 import Section from '../components/Section';
 import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
 import {Lines} from '../components/Lines';
+import {ChartDots} from '../components/ChartDots';
 
 export interface ILineChartProps {
   title?: string;
@@ -150,6 +151,11 @@ export const LineChart = ({
           <Lines
             periodsWithPaths={periodsWithPaths}
             width={width}
+            state={state}
+            transition={transition}
+          />
+          <ChartDots
+            periodsWithPaths={periodsWithPaths}
             state={state}
             transition={transition}
           />
