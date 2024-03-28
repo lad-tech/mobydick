@@ -1,0 +1,232 @@
+import LineChart from './assets/LineChart.mov';
+import ReactPlayer from 'react-player';
+
+<ReactPlayer playing controls url={LineChart} loop={true}/>
+
+## Example
+
+### LineChart
+
+```tsx
+import {IRenderSectionItem, LineChart, ICoordinates, IDataset} from '@lad-tech/mobydick-chart';
+import RenderSectionItem from '....';
+
+const random = Math.random() * 100;
+
+ const mockChart = (n: number) =>
+  new Array(n).fill(0).map<ICoordinates>((_value, index) => {
+    return {
+      x: random * index,
+      y: 10 + Math.random() * index,
+    };
+  });
+
+ const mockChartDataset: IDataset = {
+  'period 1': [
+    {
+      coordinates: mockChart(20),
+      name: '1 line',
+      colors:  [
+        '#ff0000',
+        '#f4e91d',
+      ]
+    },
+    {
+      coordinates: mockChart(10),
+      name: '2 line',
+    },
+    {
+      coordinates: mockChart(5),
+      name: '3 line',
+      colors:  [
+        '#33135b',
+        '#9BE1DA',
+        '#c5cd56',
+        '#3b3f8e',
+      ]
+    },
+  ],
+  period: [
+    {
+      coordinates: mockChart(20),
+      name: '1 line',
+      colors:  [
+        '#ba80ff',
+        '#9BE1DA',
+        '#56CDCB',
+        '#3B8B8E',
+      ]
+    },
+    {
+      coordinates: mockChart(10),
+      name: '2 line',
+      colors:  [
+        '#E0F5E9',
+        '#e1db9b',
+        '#abcd56',
+        '#768e3b',
+        '#1cef38',
+        '#1df488',
+        '#1de7f9',
+        '#5787ff',
+      ],
+    },
+    {
+      coordinates: mockChart(5),
+      name: '3 line',
+      colors:  [
+        '#ee80ff',
+        '#e19b9b',
+        '#5ecd56',
+        '#833b8e',
+      ]
+    },
+  ],
+};
+
+
+const renderSectionItem: IRenderSectionItem = (
+  {period, transition, state},
+  index,
+) => (
+  <RenderSectionItem
+    period={period}
+    state={state}
+    transition={transition}
+    index={index}
+  />
+);
+
+const LineChartScreen = () => {
+  return (
+    <LineChart
+      dataset={mockChartDataset}
+      renderSectionItem={renderSectionItem}
+    />
+  );
+};
+
+export default LineChartScreen;
+
+```
+### RenderSectionItem
+
+```tsx
+import Animated, {
+  interpolateColor,
+  useAnimatedStyle,
+} from 'react-native-reanimated';
+
+import {
+  createStyles,
+  Typography,
+  useStyles,
+} from '@lad-tech/mobydick-core';
+
+import {
+  IChartTransition,
+  ISharedChartState,
+} from '@lad-tech/mobydick-chart';
+
+interface IProps {
+  period: string;
+  state: ISharedChartState;
+  transition: IChartTransition;
+  index: number;
+}
+
+const RenderSectionItem = ({period, state, transition, index}: IProps) => {
+  const [styles, {colors}] = useStyles(createStyleFn);
+  const animationStyles = useAnimatedStyle(() => {
+    const {current, next} = state.value;
+
+    if (index !== current && index !== next) {
+      return {backgroundColor: colors.BgAccent};
+    }
+
+    if (index === current && index === next) {
+      return {backgroundColor: colors.BgAccentHard};
+    }
+
+    return {
+      backgroundColor: interpolateColor(
+        transition.value,
+        index === next ? [0, 1] : [1, 0],
+        [colors.BgAccent, colors.BgAccentHard],
+      ),
+    };
+  });
+
+  return (
+    <Animated.View style={[styles.container, animationStyles]}>
+      <Typography style={styles.text}>{period}</Typography>
+    </Animated.View>
+  );
+};
+
+const createStyleFn = createStyles(({spaces}) => ({
+  container: {
+    flexGrow: 1,
+    padding: spaces.Space8,
+    borderRadius: spaces.Space16,
+    margin: spaces.Space4,
+  },
+  text: {
+    textAlign: 'center',
+    textAlignVertical: 'center',
+  },
+}));
+
+export default RenderSectionItem;
+
+```
+
+## Props
+
+### <div class="label required basic">Required</div>**`dataset`**
+
+| TYPE                                                                                        |
+|:--------------------------------------------------------------------------------------------|
+| [IDataset](https://github.com/lad-tech/mobydick/blob/main/packages/chart/src/types.tsx#L15) |
+
+All data for chart
+
+### `title`
+
+| TYPE   |
+|:-------|
+| string |
+
+Title for chart
+
+### `renderSectionItem`
+
+| TYPE                                                                                                  |
+|:------------------------------------------------------------------------------------------------------|
+| [IRenderSectionItem](https://github.com/lad-tech/mobydick/blob/main/packages/chart/src/types.tsx#L27) |
+
+Render for sections components
+
+### `sectionContainerStyles`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom section container styles
+
+### `formatterX`
+
+| TYPE                                                                                          |
+|:----------------------------------------------------------------------------------------------|
+| [IFormatter](https://github.com/lad-tech/mobydick/blob/main/packages/chart/src/types.tsx#L19) |
+
+Custom format for x
+
+### `formatterY`
+
+| TYPE                                                                                          |
+|:----------------------------------------------------------------------------------------------|
+| [IFormatter](https://github.com/lad-tech/mobydick/blob/main/packages/chart/src/types.tsx#L19) |
+
+Custom format for y
