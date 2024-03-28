@@ -58,13 +58,11 @@ export const LineChart = ({
     width: realWidth - chartPaddingHorizontal,
   };
 
-  const periodsWithPaths = useSharedValue(
-    generatePeriodsWithLinePaths({
-      dataset,
-      width,
-      height,
-    }),
-  );
+  const periodsWithPaths = generatePeriodsWithLinePaths({
+    dataset,
+    width,
+    height,
+  });
 
   // animation value to transition from one graph to the next
   const transition = useSharedValue(0);
@@ -76,8 +74,8 @@ export const LineChart = ({
 
   const maxY = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths.value[current];
-    const end = periodsWithPaths.value[next];
+    const start = periodsWithPaths[current];
+    const end = periodsWithPaths[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -87,8 +85,8 @@ export const LineChart = ({
   });
   const maxX = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths.value[current];
-    const end = periodsWithPaths.value[next];
+    const start = periodsWithPaths[current];
+    const end = periodsWithPaths[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -98,8 +96,8 @@ export const LineChart = ({
   });
   const minX = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths.value[current];
-    const end = periodsWithPaths.value[next];
+    const start = periodsWithPaths[current];
+    const end = periodsWithPaths[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -109,8 +107,8 @@ export const LineChart = ({
   });
   const minY = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths.value[current];
-    const end = periodsWithPaths.value[next];
+    const start = periodsWithPaths[current];
+    const end = periodsWithPaths[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -120,8 +118,8 @@ export const LineChart = ({
   });
   const coordinatesLength = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths.value[current];
-    const end = periodsWithPaths.value[next];
+    const start = periodsWithPaths[current];
+    const end = periodsWithPaths[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');

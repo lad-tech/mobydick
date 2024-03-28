@@ -1,5 +1,4 @@
 import {
-  AnimatedProp,
   Color,
   LinearGradient,
   Path,
@@ -8,12 +7,13 @@ import {
   SkPath,
   vec,
 } from '@shopify/react-native-skia';
+import {SharedValue} from 'react-native-reanimated';
 
 interface IChartProps
   extends Omit<SkiaDefaultProps<PathProps, 'start' | 'end'>, 'path'> {
-  chartPath: SkPath;
+  chartPath: SharedValue<SkPath>;
   width: number;
-  colors?: AnimatedProp<Color[]>;
+  colors?: SharedValue<Color[]>;
 }
 
 export const COLORS = [

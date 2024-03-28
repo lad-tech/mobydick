@@ -1,9 +1,5 @@
 import {PathProps, Skia, SkiaDefaultProps} from '@shopify/react-native-skia';
-import {
-  interpolateColor,
-  SharedValue,
-  useDerivedValue,
-} from 'react-native-reanimated';
+import {interpolateColor, useDerivedValue} from 'react-native-reanimated';
 
 import {IChartTransition, ISharedChartState} from '../types';
 import {IPeriodsWithPaths} from '../utils';
@@ -12,7 +8,7 @@ import Line from './Line';
 
 interface IChartProps
   extends Omit<SkiaDefaultProps<PathProps, 'start' | 'end'>, 'path'> {
-  periodsWithPaths: SharedValue<IPeriodsWithPaths>;
+  periodsWithPaths: IPeriodsWithPaths;
   index: number;
   width: number;
   transition: IChartTransition;
@@ -31,21 +27,20 @@ export const LineOfPeriod = ({
     const {current, next} = state.value;
 
     const start =
-      periodsWithPaths.value[current]?.lines[index]?.path ?? Skia.Path.Make();
-    const end =
-      periodsWithPaths.value[next]?.lines[index]?.path ?? Skia.Path.Make();
+      periodsWithPaths[current]?.lines[index]?.path ?? Skia.Path.Make();
+    const end = periodsWithPaths[next]?.lines[index]?.path ?? Skia.Path.Make();
 
-    if (start === undefined || end === undefined) {
-      throw Error('start === undefined || end === undefined');
+    if (end.isInterpolatable(start)) {
+      return end.interpolate(start, transition.value)!;
     }
 
-    return end.interpolate(start, transition.value)!;
+    return end;
   });
 
   const colors = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths.value[current]?.lines[index]?.colors ?? [];
-    const end = periodsWithPaths.value[next]?.lines[index]?.colors ?? [];
+    const start = periodsWithPaths[current]?.lines[index]?.colors ?? [];
+    const end = periodsWithPaths[next]?.lines[index]?.colors ?? [];
 
     return end.map((endColor, i) =>
       interpolateColor(
@@ -56,9 +51,7 @@ export const LineOfPeriod = ({
     );
   });
 
-  return (
-    <Line colors={colors.value} width={width} chartPath={chartPath.value} />
-  );
+  return <Line colors={colors} width={width} chartPath={chartPath} />;
 };
 
 export default LineOfPeriod;

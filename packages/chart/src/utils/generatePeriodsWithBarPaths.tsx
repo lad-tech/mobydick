@@ -14,7 +14,7 @@ export const generatePeriodsWithBarPaths = ({
     const lines = dataset[period] as IChart[];
     const firstLine = lines[0] as IChart;
 
-    const {coordinates} = firstLine;
+    const {coordinates, colors} = firstLine;
     const {
       path: chartPath,
       maxX,
@@ -36,6 +36,7 @@ export const generatePeriodsWithBarPaths = ({
       minX,
       minY,
       coordinatesLength,
+      colors,
     };
   });
 };

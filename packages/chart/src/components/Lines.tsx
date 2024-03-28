@@ -1,5 +1,5 @@
 import {SkPath} from '@shopify/react-native-skia';
-import {type SharedValue, useDerivedValue} from 'react-native-reanimated';
+import {useDerivedValue} from 'react-native-reanimated';
 
 import {IPeriodsWithPaths} from '../utils';
 import {IChartTransition, ISharedChartState} from '../types';
@@ -13,7 +13,7 @@ export interface ILine {
 }
 
 interface ILinesProps {
-  periodsWithPaths: SharedValue<IPeriodsWithPaths>;
+  periodsWithPaths: IPeriodsWithPaths;
   width: number;
   transition: IChartTransition;
   state: ISharedChartState;
@@ -26,14 +26,10 @@ export const Lines = ({
   transition,
 }: ILinesProps) => {
   const lines = useDerivedValue(() => {
-    const {next, current} = state.value;
+    const {next} = state.value;
 
-    const start = periodsWithPaths.value[current]?.lines ?? [];
-    const end = periodsWithPaths.value[next]?.lines ?? [];
+    const end = periodsWithPaths[next]?.lines ?? [];
 
-    if (start.length !== end.length) {
-      throw Error('Available only same numbers of lines in periods');
-    }
     return end;
   });
 
