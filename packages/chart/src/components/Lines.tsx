@@ -4,7 +4,7 @@ import {type SharedValue, useDerivedValue} from 'react-native-reanimated';
 import {IPeriodsWithPaths} from '../utils';
 import {IChartTransition, ISharedChartState} from '../types';
 
-import Line from './Line';
+import LineOfPeriod from './LineOfPeriod';
 
 export interface ILine {
   name?: string | undefined;
@@ -40,7 +40,7 @@ export const Lines = ({
   return (
     <>
       {lines.value.map(({colors}, index) => (
-        <Line
+        <LineOfPeriod
           key={index}
           index={index}
           periodsWithPaths={periodsWithPaths}
