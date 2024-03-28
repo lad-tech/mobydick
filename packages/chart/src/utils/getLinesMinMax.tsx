@@ -12,18 +12,10 @@ export const getLinesMinMax = (
   return lines.reduce(
     ({maxX, maxY, minX, minY}, {coordinates}) => {
       coordinates.forEach(({x, y}) => {
-        if (maxX < x) {
-          maxX = x;
-        }
-        if (x < minX) {
-          minX = x;
-        }
-        if (maxY < y) {
-          maxY = y;
-        }
-        if (y < minY) {
-          minY = y;
-        }
+        maxX = Math.max(x, maxX);
+        minX = Math.min(x, minX);
+        maxY = Math.max(y, maxY);
+        minY = Math.min(y, minY);
       });
 
       return {maxX, maxY, minX, minY};
