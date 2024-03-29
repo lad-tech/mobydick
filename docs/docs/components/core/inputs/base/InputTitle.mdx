@@ -1,0 +1,62 @@
+Reusable InputTitle for any form
+
+import InputField from '../assets/InputField.png';
+
+<img src={InputField} width="50%"/>
+
+## Example
+
+```tsx
+import {
+  InputTitle,
+} from '@lad-tech/mobydick-core';
+
+const InputList = () => {
+
+  return <InputTitle  title={'Title'} />
+};
+
+export default InputList;
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`title`**
+
+| Type   |
+|:-------|
+| string |
+
+Title for Title
+
+### `titleProps`
+
+| Type                                                                                                        |
+|:------------------------------------------------------------------------------------------------------------|
+| [IStyledTextProps](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L7) |
+
+### `required`
+
+| Type    |
+|:--------|
+| boolean |
+
+Mark field as required
+
+### `titleStyles`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom styles for container
+
+### `titleFont`
+
+| Type                                                                                                       | DEFAULT              |
+|:-----------------------------------------------------------------------------------------------------------|:---------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Medium-Tertiary-XS' |
+
+Font for title
+
