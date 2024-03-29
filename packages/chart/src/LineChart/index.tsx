@@ -20,7 +20,6 @@ import {IChartState, IDataset, IFormatter, IRenderSectionItem} from '../types';
 import Section from '../components/Section';
 import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
 import {Lines} from '../components/Lines';
-import {ChartDots} from '../components/ChartDots';
 
 export interface ILineChartProps {
   title?: string;
@@ -29,6 +28,7 @@ export interface ILineChartProps {
   sectionContainerStyles?: StyleProp<ViewStyle>;
   formatterX?: IFormatter;
   formatterY?: IFormatter;
+  hideDataPoints?: boolean;
 }
 
 export const LineChart = ({
@@ -38,6 +38,7 @@ export const LineChart = ({
   sectionContainerStyles,
   formatterY,
   formatterX,
+  hideDataPoints = false,
 }: ILineChartProps) => {
   const {colors, spaces} = useTheme();
   const font = useFont(
@@ -151,13 +152,10 @@ export const LineChart = ({
           <Lines
             periodsWithPaths={periodsWithPaths}
             width={width}
+            height={height}
             state={state}
             transition={transition}
-          />
-          <ChartDots
-            periodsWithPaths={periodsWithPaths}
-            state={state}
-            transition={transition}
+            hideDataPoints={hideDataPoints}
           />
           <Coordinates
             font={font}
