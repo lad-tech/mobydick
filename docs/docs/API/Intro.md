@@ -6,5 +6,3 @@ sidebar_position: 0
 
 **Mobydick**  is set of libraries that are aimed at solving all the pressing problems for React Native developers
 
-- [@lad-tech/mobydick-utils](./utils/Introduction.mdx)
-
