@@ -8,35 +8,14 @@ import InputField from '../assets/InputField.png';
 
 ```tsx
 import {
-  createStyles,
   InputSubtitle,
-  useStyles,
-  View,
   IInputsTypes,
-  InputField,
 } from '@lad-tech/mobydick-core';
 
 const InputList = () => {
-  const [styles] = useStyles(styleSource);
 
-  return (
-      <View style={styles.containerStyle}>
-        <InputField
-          type={IInputsTypes.disabled}
-          title={'Disabled field'}
-          disabled={true}
-          subtitle={'Subtitle'}
-        />
-        <InputSubtitle type={IInputsTypes.disabled} subtitle={'Subtitle'} />
-      </View>
-  );
+  return <InputSubtitle type={IInputsTypes.disabled} subtitle={'Subtitle'} />
 };
-
-const styleSource = createStyles(({spaces}) => ({
-  containerStyle: {
-    gap: spaces.Space12,
-  },
-}));
 
 export default InputList;
 
