@@ -1,13 +1,13 @@
 import {SharedValue, useDerivedValue} from 'react-native-reanimated';
 import {SkPath} from '@shopify/react-native-skia';
 
-import {PointsOfLine} from './PointsOfLine';
+import {PointOfLine} from './PointOfLine';
 
 interface IPointsProps {
   chartPath: SharedValue<SkPath>;
 }
 
-export const Points = ({chartPath}: IPointsProps) => {
+export const LinePoints = ({chartPath}: IPointsProps) => {
   const linePoints = useDerivedValue(() => {
     const cmd = chartPath.value.toCmds() ?? [];
     return cmd;
@@ -17,7 +17,7 @@ export const Points = ({chartPath}: IPointsProps) => {
     <>
       {linePoints.value.map((_, pointIndex) => {
         return (
-          <PointsOfLine
+          <PointOfLine
             key={`${pointIndex}`}
             pointIndex={pointIndex}
             chartPath={chartPath}

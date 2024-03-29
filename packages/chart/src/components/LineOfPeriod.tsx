@@ -12,7 +12,7 @@ import {IChartTransition, ISharedChartState} from '../types';
 import {IPeriodsWithPaths} from '../utils';
 
 import Line from './Line';
-import {Points} from './Points';
+import {LinePoints} from './LinePoints';
 
 interface IChartProps
   extends Omit<SkiaDefaultProps<PathProps, 'start' | 'end'>, 'path'> {
@@ -71,7 +71,7 @@ export const LineOfPeriod = ({
         colors={colors}
       />
       <Line chartPath={chartPath} />
-      {hideDataPoints ? null : <Points chartPath={chartPath} />}
+      {hideDataPoints ? null : <LinePoints chartPath={chartPath} />}
     </Group>
   );
 };

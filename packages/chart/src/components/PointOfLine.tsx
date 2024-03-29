@@ -8,7 +8,7 @@ interface IPointsProps {
   chartPath: SharedValue<SkPath>;
 }
 
-export const PointsOfLine = ({pointIndex, chartPath}: IPointsProps) => {
+export const PointOfLine = ({pointIndex, chartPath}: IPointsProps) => {
   const coords = useDerivedValue(() => {
     const [, x, y] = chartPath.value.toCmds()[pointIndex] ?? [];
 
