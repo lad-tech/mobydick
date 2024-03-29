@@ -1,10 +1,12 @@
 import {
   Canvas,
   Group,
+  LinearGradient,
   Skia,
   Text,
   useCanvasRef,
   useFont,
+  vec,
 } from '@shopify/react-native-skia';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {
@@ -178,12 +180,15 @@ export const BarChart = ({
               color={colors.TextPrimary}
             />
           )}
-          <Line
-            chartPath={chartPath}
-            width={width}
-            colors={colorsBar}
-            strokeWidth={20}
-          />
+          <Group>
+            <LinearGradient
+              start={vec(0, 0)}
+              end={vec(width, height)}
+              colors={colorsBar}
+            />
+            <Line chartPath={chartPath} strokeWidth={20} />
+          </Group>
+
           <Coordinates
             font={font}
             colors={colors}

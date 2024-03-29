@@ -15,15 +15,19 @@ export interface ILine {
 interface ILinesProps {
   periodsWithPaths: IPeriodsWithPaths;
   width: number;
+  height: number;
   transition: IChartTransition;
   state: ISharedChartState;
+  hideDataPoints: boolean;
 }
 
 export const Lines = ({
   periodsWithPaths,
   width,
   state,
+  height,
   transition,
+  hideDataPoints,
 }: ILinesProps) => {
   const lines = useDerivedValue(() => {
     const {next} = state.value;
@@ -41,9 +45,11 @@ export const Lines = ({
           index={index}
           periodsWithPaths={periodsWithPaths}
           width={width}
+          height={height}
           lineColors={colors}
           state={state}
           transition={transition}
+          hideDataPoints={hideDataPoints}
         />
       ))}
     </>

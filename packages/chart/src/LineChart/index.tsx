@@ -28,6 +28,7 @@ export interface ILineChartProps {
   sectionContainerStyles?: StyleProp<ViewStyle>;
   formatterX?: IFormatter;
   formatterY?: IFormatter;
+  hideDataPoints?: boolean;
 }
 
 export const LineChart = ({
@@ -37,6 +38,7 @@ export const LineChart = ({
   sectionContainerStyles,
   formatterY,
   formatterX,
+  hideDataPoints = false,
 }: ILineChartProps) => {
   const {colors, spaces} = useTheme();
   const font = useFont(
@@ -150,8 +152,10 @@ export const LineChart = ({
           <Lines
             periodsWithPaths={periodsWithPaths}
             width={width}
+            height={height}
             state={state}
             transition={transition}
+            hideDataPoints={hideDataPoints}
           />
           <Coordinates
             font={font}
