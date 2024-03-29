@@ -1,13 +1,10 @@
-import {StyleProp, TextStyle} from 'react-native';
-import * as React from 'react';
+import {TextStyle} from 'react-native';
 
 import {ITextProps} from '../basic/components/Text/types';
 import {ITextColors} from '../styles/constants/colors/types';
 
 export interface IStyledTextProps extends ITextProps {
-  children?: React.ReactNode;
   font?: TypographyProp | undefined;
-  style?: StyleProp<TextStyle>;
 }
 
 export enum TFontSize {
