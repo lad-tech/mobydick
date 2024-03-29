@@ -68,6 +68,12 @@ const config: Config = {
           position: 'left',
           label: 'Components',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'APISidebar',
+          position: 'left',
+          label: 'API',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/lad-tech/mobydick',
@@ -90,6 +96,10 @@ const config: Config = {
             {
               label: 'Components',
               to: 'docs/components/Intro',
+            },
+            {
+              label: 'API',
+              to: 'docs/API/Intro',
             },
           ],
         },
