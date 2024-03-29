@@ -4,6 +4,18 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
 <RCTScrollView
   data={
     [
+      "icon-Bio_agefill",
+      "icon-Calendarfill",
+      "icon-CellsFill",
+      "icon-Chart2fill",
+      "icon-Chartfill",
+      "icon-Fatfill",
+      "icon-Kettlebellfill",
+      "icon-Musclefill",
+      "icon-Rulerfill",
+      "icon-Sleepfill",
+      "icon-Stepfill",
+      "icon-Waterfill",
       "icon-account",
       "icon-accountfill",
       "icon-arrow-down",
@@ -158,7 +170,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-account"
+          testID="icon-Bio_agefill"
         >
           <Text
             allowFontScaling={true}
@@ -208,7 +220,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-accountfill"
+          testID="icon-Calendarfill"
         >
           <Text
             allowFontScaling={true}
@@ -258,7 +270,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-arrow-down"
+          testID="icon-CellsFill"
         >
           <Text
             allowFontScaling={true}
@@ -308,7 +320,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-arrow-left"
+          testID="icon-Chart2fill"
         >
           <Text
             allowFontScaling={true}
@@ -358,7 +370,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-arrow-left-1"
+          testID="icon-Chartfill"
         >
           <Text
             allowFontScaling={true}
@@ -408,7 +420,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-arrow-right"
+          testID="icon-Fatfill"
         >
           <Text
             allowFontScaling={true}
@@ -458,7 +470,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-arrow-right-1"
+          testID="icon-Kettlebellfill"
         >
           <Text
             allowFontScaling={true}
@@ -508,7 +520,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-arrow-up"
+          testID="icon-Musclefill"
         >
           <Text
             allowFontScaling={true}
@@ -558,7 +570,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-attachment"
+          testID="icon-Rulerfill"
         >
           <Text
             allowFontScaling={true}
@@ -622,7 +634,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-bag"
+          testID="icon-Sleepfill"
         >
           <Text
             allowFontScaling={true}
@@ -672,7 +684,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-bagfill"
+          testID="icon-Stepfill"
         >
           <Text
             allowFontScaling={true}
@@ -722,7 +734,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-bar"
+          testID="icon-Waterfill"
         >
           <Text
             allowFontScaling={true}
@@ -772,7 +784,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-bookmark"
+          testID="icon-account"
         >
           <Text
             allowFontScaling={true}
@@ -822,7 +834,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-calendar"
+          testID="icon-accountfill"
         >
           <Text
             allowFontScaling={true}
@@ -872,7 +884,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-calendar_search"
+          testID="icon-arrow-down"
         >
           <Text
             allowFontScaling={true}
@@ -922,7 +934,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-call"
+          testID="icon-arrow-left"
         >
           <Text
             allowFontScaling={true}
@@ -972,7 +984,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-camera"
+          testID="icon-arrow-left-1"
         >
           <Text
             allowFontScaling={true}
@@ -1022,7 +1034,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-cancel"
+          testID="icon-arrow-right"
         >
           <Text
             allowFontScaling={true}
@@ -1086,7 +1098,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-cancel2"
+          testID="icon-arrow-right-1"
         >
           <Text
             allowFontScaling={true}
@@ -1136,7 +1148,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-card"
+          testID="icon-arrow-up"
         >
           <Text
             allowFontScaling={true}
@@ -1186,7 +1198,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-cart"
+          testID="icon-attachment"
         >
           <Text
             allowFontScaling={true}
@@ -1236,7 +1248,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-case"
+          testID="icon-bag"
         >
           <Text
             allowFontScaling={true}
@@ -1286,7 +1298,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-chart"
+          testID="icon-bagfill"
         >
           <Text
             allowFontScaling={true}
@@ -1336,7 +1348,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-chart2"
+          testID="icon-bar"
         >
           <Text
             allowFontScaling={true}
@@ -1386,7 +1398,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-check"
+          testID="icon-bookmark"
         >
           <Text
             allowFontScaling={true}
@@ -1436,7 +1448,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-check2"
+          testID="icon-calendar"
         >
           <Text
             allowFontScaling={true}
@@ -1486,7 +1498,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-copy"
+          testID="icon-calendar_search"
         >
           <Text
             allowFontScaling={true}
@@ -1550,7 +1562,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-delete"
+          testID="icon-call"
         >
           <Text
             allowFontScaling={true}
@@ -1600,7 +1612,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-diamond"
+          testID="icon-camera"
         >
           <Text
             allowFontScaling={true}
@@ -1650,7 +1662,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-discount"
+          testID="icon-cancel"
         >
           <Text
             allowFontScaling={true}
@@ -1700,7 +1712,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-doc"
+          testID="icon-cancel2"
         >
           <Text
             allowFontScaling={true}
@@ -1750,7 +1762,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-edit"
+          testID="icon-card"
         >
           <Text
             allowFontScaling={true}
@@ -1800,7 +1812,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-exchange"
+          testID="icon-cart"
         >
           <Text
             allowFontScaling={true}
@@ -1850,7 +1862,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-filter"
+          testID="icon-case"
         >
           <Text
             allowFontScaling={true}
@@ -1900,7 +1912,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-flash"
+          testID="icon-chart"
         >
           <Text
             allowFontScaling={true}
@@ -1950,7 +1962,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-folder"
+          testID="icon-chart2"
         >
           <Text
             allowFontScaling={true}
@@ -2014,7 +2026,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-folder-1"
+          testID="icon-check"
         >
           <Text
             allowFontScaling={true}
@@ -2064,7 +2076,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-grid"
+          testID="icon-check2"
         >
           <Text
             allowFontScaling={true}
@@ -2114,7 +2126,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-gridfill"
+          testID="icon-copy"
         >
           <Text
             allowFontScaling={true}
@@ -2164,7 +2176,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-group"
+          testID="icon-delete"
         >
           <Text
             allowFontScaling={true}
@@ -2214,7 +2226,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-hangup"
+          testID="icon-diamond"
         >
           <Text
             allowFontScaling={true}
@@ -2264,7 +2276,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-heart"
+          testID="icon-discount"
         >
           <Text
             allowFontScaling={true}
@@ -2314,7 +2326,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-heartfill"
+          testID="icon-doc"
         >
           <Text
             allowFontScaling={true}
@@ -2364,7 +2376,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-hide"
+          testID="icon-edit"
         >
           <Text
             allowFontScaling={true}
@@ -2414,7 +2426,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-home2"
+          testID="icon-exchange"
         >
           <Text
             allowFontScaling={true}
@@ -2478,7 +2490,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-house"
+          testID="icon-filter"
         >
           <Text
             allowFontScaling={true}
@@ -2528,7 +2540,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-housefill"
+          testID="icon-flash"
         >
           <Text
             allowFontScaling={true}
@@ -2578,7 +2590,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-image"
+          testID="icon-folder"
         >
           <Text
             allowFontScaling={true}
@@ -2628,7 +2640,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-info"
+          testID="icon-folder-1"
         >
           <Text
             allowFontScaling={true}
@@ -2678,7 +2690,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-info2"
+          testID="icon-grid"
         >
           <Text
             allowFontScaling={true}
@@ -2728,7 +2740,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-kebab"
+          testID="icon-gridfill"
         >
           <Text
             allowFontScaling={true}
@@ -2778,7 +2790,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-link"
+          testID="icon-group"
         >
           <Text
             allowFontScaling={true}
@@ -2828,7 +2840,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-list"
+          testID="icon-hangup"
         >
           <Text
             allowFontScaling={true}
@@ -2878,7 +2890,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-loading"
+          testID="icon-heart"
         >
           <Text
             allowFontScaling={true}
@@ -2942,7 +2954,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-location"
+          testID="icon-heartfill"
         >
           <Text
             allowFontScaling={true}
@@ -2992,7 +3004,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-lock"
+          testID="icon-hide"
         >
           <Text
             allowFontScaling={true}
@@ -3042,7 +3054,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-logout"
+          testID="icon-home2"
         >
           <Text
             allowFontScaling={true}
@@ -3092,7 +3104,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-mail"
+          testID="icon-house"
         >
           <Text
             allowFontScaling={true}
@@ -3142,7 +3154,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-mic"
+          testID="icon-housefill"
         >
           <Text
             allowFontScaling={true}
@@ -3192,7 +3204,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-minus"
+          testID="icon-image"
         >
           <Text
             allowFontScaling={true}
@@ -3242,7 +3254,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-money"
+          testID="icon-info"
         >
           <Text
             allowFontScaling={true}
@@ -3292,7 +3304,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-mute"
+          testID="icon-info2"
         >
           <Text
             allowFontScaling={true}
@@ -3342,7 +3354,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-noconnection"
+          testID="icon-kebab"
         >
           <Text
             allowFontScaling={true}
@@ -3406,7 +3418,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-notification"
+          testID="icon-link"
         >
           <Text
             allowFontScaling={true}
@@ -3456,7 +3468,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-plus"
+          testID="icon-list"
         >
           <Text
             allowFontScaling={true}
@@ -3506,7 +3518,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-plus2"
+          testID="icon-loading"
         >
           <Text
             allowFontScaling={true}
@@ -3556,7 +3568,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-present"
+          testID="icon-location"
         >
           <Text
             allowFontScaling={true}
@@ -3606,7 +3618,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-qr"
+          testID="icon-lock"
         >
           <Text
             allowFontScaling={true}
@@ -3656,7 +3668,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-ruble"
+          testID="icon-logout"
         >
           <Text
             allowFontScaling={true}
@@ -3706,7 +3718,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-search"
+          testID="icon-mail"
         >
           <Text
             allowFontScaling={true}
@@ -3756,7 +3768,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-send"
+          testID="icon-mic"
         >
           <Text
             allowFontScaling={true}
@@ -3806,7 +3818,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-settings"
+          testID="icon-minus"
         >
           <Text
             allowFontScaling={true}
@@ -3870,7 +3882,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-share"
+          testID="icon-money"
         >
           <Text
             allowFontScaling={true}
@@ -3920,7 +3932,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-show"
+          testID="icon-mute"
         >
           <Text
             allowFontScaling={true}
@@ -3970,7 +3982,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-smartphone"
+          testID="icon-noconnection"
         >
           <Text
             allowFontScaling={true}
@@ -4020,7 +4032,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-sort-horizontal"
+          testID="icon-notification"
         >
           <Text
             allowFontScaling={true}
@@ -4070,7 +4082,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-sort-vertical"
+          testID="icon-plus"
         >
           <Text
             allowFontScaling={true}
@@ -4120,7 +4132,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-speed"
+          testID="icon-plus2"
         >
           <Text
             allowFontScaling={true}
@@ -4170,7 +4182,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-stack"
+          testID="icon-present"
         >
           <Text
             allowFontScaling={true}
@@ -4220,7 +4232,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-starfill"
+          testID="icon-qr"
         >
           <Text
             allowFontScaling={true}
@@ -4270,7 +4282,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-staroutline"
+          testID="icon-ruble"
         >
           <Text
             allowFontScaling={true}
@@ -4334,7 +4346,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-unlock"
+          testID="icon-search"
         >
           <Text
             allowFontScaling={true}
@@ -4384,7 +4396,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-unmute"
+          testID="icon-send"
         >
           <Text
             allowFontScaling={true}
@@ -4434,7 +4446,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-video"
+          testID="icon-settings"
         >
           <Text
             allowFontScaling={true}
@@ -4484,7 +4496,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-videooff"
+          testID="icon-share"
         >
           <Text
             allowFontScaling={true}
@@ -4534,7 +4546,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-volume"
+          testID="icon-show"
         >
           <Text
             allowFontScaling={true}
@@ -4584,7 +4596,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-wallet"
+          testID="icon-smartphone"
         >
           <Text
             allowFontScaling={true}
@@ -4634,7 +4646,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
               "padding": 15,
             }
           }
-          testID="icon-warning"
+          testID="icon-sort-horizontal"
         >
           <Text
             allowFontScaling={true}
@@ -4649,8 +4661,115 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly 1`] = `
             
           </Text>
         </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-sort-vertical"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-speed"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#5E6678",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
       </View>
     </View>
+    <View
+      style={
+        {
+          "height": 0,
+        }
+      }
+    />
   </View>
 </RCTScrollView>
 `;
@@ -4659,6 +4778,18 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
 <RCTScrollView
   data={
     [
+      "icon-Bio_agefill",
+      "icon-Calendarfill",
+      "icon-CellsFill",
+      "icon-Chart2fill",
+      "icon-Chartfill",
+      "icon-Fatfill",
+      "icon-Kettlebellfill",
+      "icon-Musclefill",
+      "icon-Rulerfill",
+      "icon-Sleepfill",
+      "icon-Stepfill",
+      "icon-Waterfill",
       "icon-account",
       "icon-accountfill",
       "icon-arrow-down",
@@ -4813,7 +4944,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-account"
+          testID="icon-Bio_agefill"
         >
           <Text
             allowFontScaling={true}
@@ -4863,7 +4994,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-accountfill"
+          testID="icon-Calendarfill"
         >
           <Text
             allowFontScaling={true}
@@ -4913,7 +5044,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-arrow-down"
+          testID="icon-CellsFill"
         >
           <Text
             allowFontScaling={true}
@@ -4963,7 +5094,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-arrow-left"
+          testID="icon-Chart2fill"
         >
           <Text
             allowFontScaling={true}
@@ -5013,7 +5144,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-arrow-left-1"
+          testID="icon-Chartfill"
         >
           <Text
             allowFontScaling={true}
@@ -5063,7 +5194,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-arrow-right"
+          testID="icon-Fatfill"
         >
           <Text
             allowFontScaling={true}
@@ -5113,7 +5244,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-arrow-right-1"
+          testID="icon-Kettlebellfill"
         >
           <Text
             allowFontScaling={true}
@@ -5163,7 +5294,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-arrow-up"
+          testID="icon-Musclefill"
         >
           <Text
             allowFontScaling={true}
@@ -5213,7 +5344,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-attachment"
+          testID="icon-Rulerfill"
         >
           <Text
             allowFontScaling={true}
@@ -5277,7 +5408,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-bag"
+          testID="icon-Sleepfill"
         >
           <Text
             allowFontScaling={true}
@@ -5327,7 +5458,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-bagfill"
+          testID="icon-Stepfill"
         >
           <Text
             allowFontScaling={true}
@@ -5377,7 +5508,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-bar"
+          testID="icon-Waterfill"
         >
           <Text
             allowFontScaling={true}
@@ -5427,7 +5558,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-bookmark"
+          testID="icon-account"
         >
           <Text
             allowFontScaling={true}
@@ -5477,7 +5608,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-calendar"
+          testID="icon-accountfill"
         >
           <Text
             allowFontScaling={true}
@@ -5527,7 +5658,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-calendar_search"
+          testID="icon-arrow-down"
         >
           <Text
             allowFontScaling={true}
@@ -5577,7 +5708,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-call"
+          testID="icon-arrow-left"
         >
           <Text
             allowFontScaling={true}
@@ -5627,7 +5758,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-camera"
+          testID="icon-arrow-left-1"
         >
           <Text
             allowFontScaling={true}
@@ -5677,7 +5808,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-cancel"
+          testID="icon-arrow-right"
         >
           <Text
             allowFontScaling={true}
@@ -5741,7 +5872,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-cancel2"
+          testID="icon-arrow-right-1"
         >
           <Text
             allowFontScaling={true}
@@ -5791,7 +5922,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-card"
+          testID="icon-arrow-up"
         >
           <Text
             allowFontScaling={true}
@@ -5841,7 +5972,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-cart"
+          testID="icon-attachment"
         >
           <Text
             allowFontScaling={true}
@@ -5891,7 +6022,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-case"
+          testID="icon-bag"
         >
           <Text
             allowFontScaling={true}
@@ -5941,7 +6072,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-chart"
+          testID="icon-bagfill"
         >
           <Text
             allowFontScaling={true}
@@ -5991,7 +6122,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-chart2"
+          testID="icon-bar"
         >
           <Text
             allowFontScaling={true}
@@ -6041,7 +6172,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-check"
+          testID="icon-bookmark"
         >
           <Text
             allowFontScaling={true}
@@ -6091,7 +6222,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-check2"
+          testID="icon-calendar"
         >
           <Text
             allowFontScaling={true}
@@ -6141,7 +6272,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-copy"
+          testID="icon-calendar_search"
         >
           <Text
             allowFontScaling={true}
@@ -6205,7 +6336,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-delete"
+          testID="icon-call"
         >
           <Text
             allowFontScaling={true}
@@ -6255,7 +6386,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-diamond"
+          testID="icon-camera"
         >
           <Text
             allowFontScaling={true}
@@ -6305,7 +6436,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-discount"
+          testID="icon-cancel"
         >
           <Text
             allowFontScaling={true}
@@ -6355,7 +6486,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-doc"
+          testID="icon-cancel2"
         >
           <Text
             allowFontScaling={true}
@@ -6405,7 +6536,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-edit"
+          testID="icon-card"
         >
           <Text
             allowFontScaling={true}
@@ -6455,7 +6586,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-exchange"
+          testID="icon-cart"
         >
           <Text
             allowFontScaling={true}
@@ -6505,7 +6636,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-filter"
+          testID="icon-case"
         >
           <Text
             allowFontScaling={true}
@@ -6555,7 +6686,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-flash"
+          testID="icon-chart"
         >
           <Text
             allowFontScaling={true}
@@ -6605,7 +6736,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-folder"
+          testID="icon-chart2"
         >
           <Text
             allowFontScaling={true}
@@ -6669,7 +6800,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-folder-1"
+          testID="icon-check"
         >
           <Text
             allowFontScaling={true}
@@ -6719,7 +6850,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-grid"
+          testID="icon-check2"
         >
           <Text
             allowFontScaling={true}
@@ -6769,7 +6900,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-gridfill"
+          testID="icon-copy"
         >
           <Text
             allowFontScaling={true}
@@ -6819,7 +6950,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-group"
+          testID="icon-delete"
         >
           <Text
             allowFontScaling={true}
@@ -6869,7 +7000,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-hangup"
+          testID="icon-diamond"
         >
           <Text
             allowFontScaling={true}
@@ -6919,7 +7050,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-heart"
+          testID="icon-discount"
         >
           <Text
             allowFontScaling={true}
@@ -6969,7 +7100,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-heartfill"
+          testID="icon-doc"
         >
           <Text
             allowFontScaling={true}
@@ -7019,7 +7150,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-hide"
+          testID="icon-edit"
         >
           <Text
             allowFontScaling={true}
@@ -7069,7 +7200,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-home2"
+          testID="icon-exchange"
         >
           <Text
             allowFontScaling={true}
@@ -7133,7 +7264,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-house"
+          testID="icon-filter"
         >
           <Text
             allowFontScaling={true}
@@ -7183,7 +7314,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-housefill"
+          testID="icon-flash"
         >
           <Text
             allowFontScaling={true}
@@ -7233,7 +7364,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-image"
+          testID="icon-folder"
         >
           <Text
             allowFontScaling={true}
@@ -7283,7 +7414,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-info"
+          testID="icon-folder-1"
         >
           <Text
             allowFontScaling={true}
@@ -7333,7 +7464,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-info2"
+          testID="icon-grid"
         >
           <Text
             allowFontScaling={true}
@@ -7383,7 +7514,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-kebab"
+          testID="icon-gridfill"
         >
           <Text
             allowFontScaling={true}
@@ -7433,7 +7564,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-link"
+          testID="icon-group"
         >
           <Text
             allowFontScaling={true}
@@ -7483,7 +7614,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-list"
+          testID="icon-hangup"
         >
           <Text
             allowFontScaling={true}
@@ -7533,7 +7664,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-loading"
+          testID="icon-heart"
         >
           <Text
             allowFontScaling={true}
@@ -7597,7 +7728,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-location"
+          testID="icon-heartfill"
         >
           <Text
             allowFontScaling={true}
@@ -7647,7 +7778,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-lock"
+          testID="icon-hide"
         >
           <Text
             allowFontScaling={true}
@@ -7697,7 +7828,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-logout"
+          testID="icon-home2"
         >
           <Text
             allowFontScaling={true}
@@ -7747,7 +7878,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-mail"
+          testID="icon-house"
         >
           <Text
             allowFontScaling={true}
@@ -7797,7 +7928,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-mic"
+          testID="icon-housefill"
         >
           <Text
             allowFontScaling={true}
@@ -7847,7 +7978,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-minus"
+          testID="icon-image"
         >
           <Text
             allowFontScaling={true}
@@ -7897,7 +8028,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-money"
+          testID="icon-info"
         >
           <Text
             allowFontScaling={true}
@@ -7947,7 +8078,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-mute"
+          testID="icon-info2"
         >
           <Text
             allowFontScaling={true}
@@ -7997,7 +8128,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-noconnection"
+          testID="icon-kebab"
         >
           <Text
             allowFontScaling={true}
@@ -8061,7 +8192,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-notification"
+          testID="icon-link"
         >
           <Text
             allowFontScaling={true}
@@ -8111,7 +8242,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-plus"
+          testID="icon-list"
         >
           <Text
             allowFontScaling={true}
@@ -8161,7 +8292,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-plus2"
+          testID="icon-loading"
         >
           <Text
             allowFontScaling={true}
@@ -8211,7 +8342,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-present"
+          testID="icon-location"
         >
           <Text
             allowFontScaling={true}
@@ -8261,7 +8392,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-qr"
+          testID="icon-lock"
         >
           <Text
             allowFontScaling={true}
@@ -8311,7 +8442,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-ruble"
+          testID="icon-logout"
         >
           <Text
             allowFontScaling={true}
@@ -8361,7 +8492,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-search"
+          testID="icon-mail"
         >
           <Text
             allowFontScaling={true}
@@ -8411,7 +8542,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-send"
+          testID="icon-mic"
         >
           <Text
             allowFontScaling={true}
@@ -8461,7 +8592,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-settings"
+          testID="icon-minus"
         >
           <Text
             allowFontScaling={true}
@@ -8525,7 +8656,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-share"
+          testID="icon-money"
         >
           <Text
             allowFontScaling={true}
@@ -8575,7 +8706,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-show"
+          testID="icon-mute"
         >
           <Text
             allowFontScaling={true}
@@ -8625,7 +8756,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-smartphone"
+          testID="icon-noconnection"
         >
           <Text
             allowFontScaling={true}
@@ -8675,7 +8806,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-sort-horizontal"
+          testID="icon-notification"
         >
           <Text
             allowFontScaling={true}
@@ -8725,7 +8856,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-sort-vertical"
+          testID="icon-plus"
         >
           <Text
             allowFontScaling={true}
@@ -8775,7 +8906,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-speed"
+          testID="icon-plus2"
         >
           <Text
             allowFontScaling={true}
@@ -8825,7 +8956,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-stack"
+          testID="icon-present"
         >
           <Text
             allowFontScaling={true}
@@ -8875,7 +9006,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-starfill"
+          testID="icon-qr"
         >
           <Text
             allowFontScaling={true}
@@ -8925,7 +9056,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-staroutline"
+          testID="icon-ruble"
         >
           <Text
             allowFontScaling={true}
@@ -8989,7 +9120,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-unlock"
+          testID="icon-search"
         >
           <Text
             allowFontScaling={true}
@@ -9039,7 +9170,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-unmute"
+          testID="icon-send"
         >
           <Text
             allowFontScaling={true}
@@ -9089,7 +9220,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-video"
+          testID="icon-settings"
         >
           <Text
             allowFontScaling={true}
@@ -9139,7 +9270,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-videooff"
+          testID="icon-share"
         >
           <Text
             allowFontScaling={true}
@@ -9189,7 +9320,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-volume"
+          testID="icon-show"
         >
           <Text
             allowFontScaling={true}
@@ -9239,7 +9370,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-wallet"
+          testID="icon-smartphone"
         >
           <Text
             allowFontScaling={true}
@@ -9289,7 +9420,7 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
               "padding": 15,
             }
           }
-          testID="icon-warning"
+          testID="icon-sort-horizontal"
         >
           <Text
             allowFontScaling={true}
@@ -9304,8 +9435,115 @@ exports[`@lad-tech/mobydick-core/icons/SimpleIconAlbum renders correctly with co
             
           </Text>
         </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-sort-vertical"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "padding": 15,
+            }
+          }
+          testID="icon-speed"
+        >
+          <Text
+            allowFontScaling={true}
+            style={
+              {
+                "color": "#333",
+                "fontFamily": "Neotis",
+                "fontSize": 30,
+              }
+            }
+          >
+            
+          </Text>
+        </View>
       </View>
     </View>
+    <View
+      style={
+        {
+          "height": 0,
+        }
+      }
+    />
   </View>
 </RCTScrollView>
 `;

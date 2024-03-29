@@ -32,7 +32,7 @@ exports[`Avatar render avatar ITypeAvatar.icon 1`] = `
       }
     }
   >
-    
+    
   </Text>
 </View>
 `;
@@ -306,7 +306,7 @@ exports[`Avatar render avatar badge status 1`] = `
       }
     }
   >
-    
+    
   </Text>
   <Text
     allowFontScaling={true}
@@ -656,7 +656,7 @@ exports[`Avatar render avatar without firstName and lastName 1`] = `
       }
     }
   >
-    
+    
   </Text>
 </View>
 `;
