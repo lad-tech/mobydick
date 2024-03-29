@@ -1,0 +1,31 @@
+import Typography from './assets/Typography.png';
+
+<img src={Typography} />
+
+Reusable text
+
+## Example
+
+```tsx
+import {Typography} from '@lad-tech/mobydick-core';
+
+export const Example = () => {
+  return (
+    <Typography font={'Regular-Primary-H5'}>Example</Typography>
+  );
+};
+
+```
+## `Props`
+
+### [`TextInput Props`](https://reactnative.dev/docs/textinput#props)
+
+Inherits [TextInput Props](https://reactnative.dev/docs/textinput#props).
+
+### `font`
+
+| Type                                                                                                       | DEFAULT             |
+|:-----------------------------------------------------------------------------------------------------------|:--------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Regular-Primary-S' |
+
+Font for text
