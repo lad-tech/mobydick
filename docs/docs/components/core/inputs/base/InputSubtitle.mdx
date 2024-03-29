@@ -1,0 +1,75 @@
+Reusable InputSubtitle for any form
+
+import InputField from '../assets/InputField.png';
+
+<img src={InputField} width="50%"/>
+
+## Example
+
+```tsx
+import {
+  createStyles,
+  InputSubtitle,
+  useStyles,
+  View,
+  IInputsTypes,
+  InputField,
+} from '@lad-tech/mobydick-core';
+
+const InputList = () => {
+  const [styles] = useStyles(styleSource);
+
+  return (
+      <View style={styles.containerStyle}>
+        <InputField
+          type={IInputsTypes.disabled}
+          title={'Disabled field'}
+          disabled={true}
+          subtitle={'Subtitle'}
+        />
+        <InputSubtitle type={IInputsTypes.disabled} subtitle={'Subtitle'} />
+      </View>
+  );
+};
+
+const styleSource = createStyles(({spaces}) => ({
+  containerStyle: {
+    gap: spaces.Space12,
+  },
+}));
+
+export default InputList;
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`type`**
+
+| Type                                                                                                        |
+|:------------------------------------------------------------------------------------------------------------|
+| [IInputsTypes](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/inputs/components/types.ts) |
+
+Style preset for InputSubtitle
+
+### <div class="label required basic">Required</div>**`subtitle`**
+
+| Type   |
+|:-------|
+| string |
+
+Subtitle for InputSubtitle
+
+### `subtitleIcon`
+
+| Type                                                                                                                  |
+|:----------------------------------------------------------------------------------------------------------------------|
+| [SimpleIconName](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/styles/icons/font/unicodesMap.json) |
+
+SubtitleIcon
+
+### `subtitleProps`
+
+| Type                                                                                                        |
+|:------------------------------------------------------------------------------------------------------------|
+| [IStyledTextProps](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L7) |
