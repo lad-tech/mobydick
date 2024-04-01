@@ -1,0 +1,341 @@
+import DropDown from './assets/DropDown.mov';
+import ReactPlayer from "react-player";
+
+<ReactPlayer playing controls url={DropDown} />
+
+Reusable DropDown component
+
+## Example
+
+```tsx
+import {useState} from 'react';
+
+import {DropDown, IListItem} from '@lad-tech/mobydick-core';
+
+const DropDownExample = () => {
+  const [language, setLanguage] = useState<number>();
+
+  const [programmingLanguages, setProgrammingLanguages] = useState<
+    IListItem<number>[]
+  >([]);
+
+  const languageList = [
+    {
+      value: 1,
+      label: 'Russian',
+    },
+    {
+      value: 2,
+      label: 'English',
+    },
+    {
+      value: 3,
+      label: 'German',
+    },
+  ];
+
+  const programmingLanguageList = [
+    {
+      value: 1,
+      label: 'JavaScript',
+    },
+    {
+      value: 2,
+      label: 'Kotlin',
+    },
+    {
+      value: 3,
+      label: 'Swift',
+    },
+    {
+      value: 4,
+      label: 'Rust',
+    },
+    {
+      value: 5,
+      label: 'C++',
+    },
+    {
+      value: 6,
+      label: 'COBOL',
+    },
+  ];
+
+  return (
+    <>
+      <DropDown
+        isMultiselect
+        title={'Select your favorite programming languages:'}
+        selectedItem={programmingLanguages}
+        placeholder={'Select language'}
+        list={programmingLanguageList}
+        onPress={setProgrammingLanguages}
+        buttonStyle={styles.buttonStyle}
+        flatListStyle={styles.flatListStyle}
+      />
+
+      <DropDown
+        title={'Select language:'}
+        selectedItem={language}
+        placeholder={'Select language'}
+        list={languageList}
+        onPress={setLanguage}
+        buttonStyle={styles.buttonStyle}
+        flatListStyle={styles.flatListStyle}
+      />
+    </>
+  );
+};
+
+const styles = StyleSheet.create({
+  buttonStyle: {
+    width: '100%',
+  },
+  flatListStyle: {
+    width: '95%',
+  },
+});
+
+export default DropDownExample;
+```
+
+:::warning
+Percentage styles are not supported.
+:::
+
+
+1. Horizontal layout is not yet supported, but can be customized with props.
+2. It is better to choose either `TextStyle` or `TextFont`.
+3. For `FlatList` the width is taken from the button as standard, you can pass your own.
+4. If you pass `selectedItem` to DropDown, which is not in `list`, then `placeholder` will be displayed.
+5. When calculating the top indentation on Android, the height status of the bar is not taken into account, which is why the indentation is displayed incorrectly in emulators.
+
+#### **Props**
+
+### `selectedItem`
+
+| Type                |
+|:--------------------|
+| T['value'] \|\| T[] |
+
+The currently selected element to color it in DropDown. These must be unique IDs
+
+### <div class="label required basic">Required</div>**`placeholder`**
+
+| Type   |
+|:-------|
+| string |
+
+Default text in DropDown
+
+### <div class="label required basic">Required</div>**`list`**
+
+| Type |
+|:-----|
+| T[]  |
+
+Array of elements for the DropDown list
+
+### <div class="label required basic">Required</div>**`onPress`**
+
+| Type                                |
+|:------------------------------------|
+| (item: T['value'] \|\| T[]) => void |
+
+Function for clicking on an array element
+
+### `title`
+
+| TYPE   |
+|:-------|
+| string |
+
+DropDown header text
+
+### `titleStyle`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom style for label, it is recommended not to use indents
+
+### `titleFont`
+
+| Type                                                                                                       | DEFAULT              |
+|:-----------------------------------------------------------------------------------------------------------|:---------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Medium-Tertiary-XS' |
+
+Custom font from the design system for label
+
+### `required`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+### `rightIcon`
+
+| TYPE         |
+|:-------------|
+| ReactElement |
+
+DropDown rightIcon
+
+### `type`
+
+| Type                                                                                                        | DEFAULT              |
+|:------------------------------------------------------------------------------------------------------------|:---------------------|
+| [IInputsTypes](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/inputs/components/types.ts) | IInputsTypes.default |
+
+### `disabled`
+
+| TYPE    |
+|:--------|
+| boolean |
+
+### `subtitle`
+
+| Type   |
+|:-------|
+| string |
+
+Subtitle for DropDown
+
+### `subtitleIcon`
+
+| Type                                                                                                                  |
+|:----------------------------------------------------------------------------------------------------------------------|
+| [SimpleIconName](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/styles/icons/font/unicodesMap.json) |
+
+SubtitleIcon for DropDown
+
+### `subtitleProps`
+
+| Type                                                                                                        |
+|:------------------------------------------------------------------------------------------------------------|
+| [IStyledTextProps](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L7) |
+
+
+### `navBarHeight`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| number | 50      |
+
+Height of the navigation bar for the correct position so that DropDown does not go under the navigation
+
+### `buttonStyle`
+
+| Type                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom style for the button. If you pass only this, item in the list will calculate the height by "button height * 0.8"
+
+### `flatListStyle`
+
+| Type                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom style for the FlatList view. By default, the width is taken from the button, the height is calculated in the function
+
+### `flatListItemStyle`
+
+| Type                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom style for FlatList's RenderItem
+
+### `buttonTextStyle`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom text style for a button with default Placeholder
+
+### `buttonTextStyleChosen`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Custom text style for a button with a selected item 一 selectedItem
+
+### `buttonTextFont`
+
+| Type                                                                                                       | DEFAULT           |
+|:-----------------------------------------------------------------------------------------------------------|:------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Regular-Muted-M' |
+
+Custom font for button text with default Placeholder
+
+### `buttonTextFontChosen`
+
+| Type                                                                                                       | DEFAULT             |
+|:-----------------------------------------------------------------------------------------------------------|:--------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Regular-Primary-M' |
+
+Custom font for button text when the element is selected 一 selectedItem
+
+### `flatListTextStyle`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Text style for unselected items in a FlatList
+
+### `flatListTextStylePressed`
+
+| TYPE                                                       |
+|:-----------------------------------------------------------|
+| [TextStyle](https://reactnative.dev/docs/text-style-props) |
+
+Text style for the selected item in the FlatList 一 selectedItem
+
+### `flatListTextFont`
+
+| TYPE                                                                                                       | DEFAULT               |
+|:-----------------------------------------------------------------------------------------------------------|:----------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Regular-Secondary-M' |
+
+Font for text for unselected items in a FlatList
+
+### `flatListTextFontPressed`
+
+| TYPE                                                                                                       | DEFAULT            |
+|:-----------------------------------------------------------------------------------------------------------|:-------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Medium-Primary-M' |
+
+Font for text for an unselected item in the FlatList 一 selectedItem
+
+### `selectedItemColor`
+
+| Type   |
+|:-------|
+| string |
+
+The color of the selected item in the list when you click on it - TouchableHighLight
+
+### `listEmptyText`
+
+| TYPE   | DEFAULT                                       |
+|:-------|:----------------------------------------------|
+| string | 'Данные недоступны. Повторите попытку позже.' |
+
+### `listEmptyFont`
+
+| TYPE                                                                                                       | DEFAULT           |
+|:-----------------------------------------------------------------------------------------------------------|:------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Regular-Muted-M' |
+
+### `isMultiselect`
+
+| Type    |
+|:--------|
+| boolean |
+
