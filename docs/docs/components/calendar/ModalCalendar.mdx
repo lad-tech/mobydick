@@ -8,8 +8,7 @@ Reusable ModalCalendar
 ## Example
 
 ```tsx
-import {Button, createStyles, usePopups, useStyles, View} from 'shared/ui';
-import {ModalCalendar} from '@lad-tech/mobydick-calendar';
+import {ModalCalendar, Button, createStyles, usePopups, useStyles, View} from '@lad-tech/mobydick-calendar';
 
 export const ModalCalendarWidget = () => {
   const [styles] = useStyles(stylesFn);
@@ -49,7 +48,7 @@ Inherits [ICalendar](https://github.com/lad-tech/mobydick/blob/main/packages/cal
 
 ### [`IHorizontalButtonsView`](https://wix.github.io/react-native-calendars/docs/Components/Calendar#theme)
 
-Inherits [IHorizontalButtonsView](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L22).
+Inherits Partial [IHorizontalButtonsView](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L22).
 
 ### `onDateRangeChange`
 

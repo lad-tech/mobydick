@@ -1,6 +1,5 @@
-import {createStyles, useStyles, View} from 'shared/ui';
+import {createStyles, useStyles, View, Calendar} from 'shared/ui';
 import Header from 'shared/ui/Header';
-import {Calendar} from '@lad-tech/mobydick-calendar';
 
 export const CalendarWidget = () => {
   const [styles] = useStyles(stylesFn);

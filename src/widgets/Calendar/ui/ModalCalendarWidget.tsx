@@ -1,6 +1,12 @@
-import {Button, createStyles, usePopups, useStyles, View} from 'shared/ui';
+import {
+  Button,
+  createStyles,
+  usePopups,
+  useStyles,
+  View,
+  ModalCalendar,
+} from 'shared/ui';
 import Header from 'shared/ui/Header';
-import {ModalCalendar} from '@lad-tech/mobydick-calendar';
 
 export const ModalCalendarWidget = () => {
   const [styles] = useStyles(stylesFn);
