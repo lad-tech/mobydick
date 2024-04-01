@@ -35,6 +35,11 @@ export enum IButtonView {
   large = 'large',
 }
 
+interface IInitialDate {
+  fromDate: string;
+  toDate?: string;
+}
+
 export interface ICalendar extends CalendarProps {
   onDateRangeChange?: (dateRange: IDateRange) => void;
   bottomView?: ReactElement;
@@ -43,7 +48,7 @@ export interface ICalendar extends CalendarProps {
   isShowToday?: boolean;
   localeConfig?: ILocaleConfig | undefined;
   isPeriod?: boolean;
-  initialRange?: {fromDate: string; toDate?: string};
+  initialRange?: IInitialDate;
   dottedDates?: Date[];
   maxLengthDateRange?: number;
 }
