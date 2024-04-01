@@ -1,0 +1,36 @@
+The `useToggle` React hook useful when value must be `Boolean` type
+
+## Example
+
+```tsx
+import {useToggle} from "@lad-tech/mobydick-utils";
+import {FC} from "react";
+import {Switch,SwitchChangeEvent} from "react-native";
+
+const SwitchComponent: FC = () => {
+  const [toggle, setToggle] = useToggle(false);
+
+  const onChange = (event: SwitchChangeEvent) => {
+    setToggle(event.nativeEvent.value);
+  }
+
+  return <Switch value={toggle} onChange={onChange} />
+
+}
+
+```
+
+## `Parameters`
+
+| NAME         | TYPE      | DEFAULT |
+|:-------------|:----------|:--------|
+| initialState | `boolean` | `false` |
+
+## `Returns`
+
+The `useToggle` hook returns a tuple with the following:
+
+| INDEX | TYPE       | DESCRIPTION              |
+|:------|:-----------|:-------------------------|
+| 0     | `boolean`  | Current state            |
+| 1     | `function` | Function to toggle state |
