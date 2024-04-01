@@ -1,0 +1,82 @@
+---
+sidebar_position: 1
+---
+
+## Customization
+
+You can control you theme by theme props in `ThemeProvider`
+
+```tsx
+import {
+  CurrentTheme,
+  defaultSpaces,
+  getShadows,
+  ThemeProvider,
+} from '@lad-tech/mobydick-core';
+import {Navigation} from 'pages/Navigation';
+import {themeColors} from 'shared/lib/theme';
+import {fonts} from 'shared/lib/theme/deafultFont';
+
+
+function App() {
+  return (
+    <ThemeProvider
+      theme={{
+        currentTheme: CurrentTheme.light,
+        colors: themeColors,
+        spaces: {
+          ...defaultSpaces,
+        },
+        fonts: fonts,
+        shadows: getShadows({
+          spaces: defaultSpaces,
+          currentTheme: CurrentTheme.light,
+        }),
+      }}>
+        <Navigation />
+    </ThemeProvider>
+  );
+}
+
+export default App
+```
+
+### <div class="label required basic">Required</div>**`currentTheme`**
+
+| TYPE   |
+|:-------|
+| string |
+
+Name one of theme
+
+### <div class="label required basic">Required</div>**`colors`**
+
+| TYPE                                                                                                     |
+|:---------------------------------------------------------------------------------------------------------|
+| [colors](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/styles/constants/theme.ts#L42) |
+
+All possible colors group by theme
+
+### <div class="label required basic">Required</div>**`spaces`**
+
+| TYPE                                                                                                    |
+|:--------------------------------------------------------------------------------------------------------|
+| [space](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/styles/constants/theme.ts#L66) |
+
+All possible spaces
+
+### <div class="label required basic">Required</div>**`fonts`**
+
+| TYPE                                                                                                    |
+|:--------------------------------------------------------------------------------------------------------|
+| [fonts](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/styles/constants/theme.ts#L31) |
+
+Map for font
+
+### <div class="label required basic">Required</div>**`shadows`**
+
+| TYPE                                                                                                     |
+|:---------------------------------------------------------------------------------------------------------|
+| [shadow](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/styles/constants/theme.ts#L69) |
+
+Map for shadow
