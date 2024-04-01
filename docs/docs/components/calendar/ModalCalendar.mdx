@@ -1,0 +1,121 @@
+import Calendar from './assets/Calendar.mov';
+import ReactPlayer from "react-player";
+
+<ReactPlayer playing controls url={Calendar} />
+
+Reusable ModalCalendar
+
+## Example
+
+```tsx
+import {ModalCalendar, Button, createStyles, usePopups, useStyles, View} from '@lad-tech/mobydick-calendar';
+
+export const ModalCalendarWidget = () => {
+  const [styles] = useStyles(stylesFn);
+  const {openPopup} = usePopups();
+
+  return (
+    <View style={styles.container}>
+      <Button
+        text={'ModalCalendar'}
+        onPress={() =>
+          openPopup({
+            Content: props => <ModalCalendar {...props} />,
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const stylesFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space16,
+    alignItems: 'center',
+  },
+}));
+```
+
+## `Props`
+
+### [`IContentProps`](https://wix.github.io/react-native-calendars/docs/Components/Calendar#theme)
+
+Inherits [IContentProps](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L6).
+
+### [`ICalendar`](https://github.com/lad-tech/mobydick/blob/main/packages/calendar/src/Calendar/types.ts#L43).
+
+Inherits [ICalendar](https://github.com/lad-tech/mobydick/blob/main/packages/calendar/src/Calendar/types.ts#L43).
+
+### [`IHorizontalButtonsView`](https://wix.github.io/react-native-calendars/docs/Components/Calendar#theme)
+
+Inherits Partial [IHorizontalButtonsView](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L22).
+
+### `onDateRangeChange`
+
+| Type                                                                                                                           |
+|:-------------------------------------------------------------------------------------------------------------------------------|
+| (dateRange?: [IDateRange](https://github.com/lad-tech/mobydick/blob/main/packages/calendar/src/Calendar/types.ts#L27)) => void |
+
+Works by clicking `Apply` and `Cancel`, if you need to record that you, for example, canceled the selected dates;
+
+### `titlePrefix`
+
+| Type   | DEFAULT    |
+|:-------|:-----------|
+| string | 'Выбрано ' |
+
+
+### `titleSuffix`
+
+| Type   | DEFAULT |
+|:-------|:--------|
+| string | ' д'    |
+
+### `titleFont`
+
+| Type                                                                                                       | DEFAULT            |
+|:-----------------------------------------------------------------------------------------------------------|:-------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Medium-Primary-M' |
+
+Custom font from the design system for label
+
+### `descriptionText`
+
+| Type   |
+|:-------|
+| string |
+
+### `descriptionFont`
+
+| Type                                                                                                       | DEFAULT           |
+|:-----------------------------------------------------------------------------------------------------------|:------------------|
+| [TypographyProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Regular-Muted-M' |
+
+Custom font from the design system for label
+
+### `buttonView`
+
+| Type                                                                                                      | DEFAULT              |
+|:----------------------------------------------------------------------------------------------------------|:---------------------|
+| [IButtonView](https://github.com/lad-tech/mobydick/blob/main/packages/calendar/src/Calendar/types.ts#L33) | 'Medium-Tertiary-XS' |
+
+### `isCounter`
+
+| TYPE    | DEFAULT |
+|:--------|:--------|
+| boolean | true    |
+
+### `isShowToday`
+
+| TYPE    | DEFAULT |
+|:--------|:--------|
+| boolean | true    |
+
+### `onAcceptDateRangeChange`
+
+| Type                                                                                                                          |
+|:------------------------------------------------------------------------------------------------------------------------------|
+| (dateRange: [IDateRange](https://github.com/lad-tech/mobydick/blob/main/packages/calendar/src/Calendar/types.ts#L27)) => void |
+
+`onAcceptDateRangeChange` – works when you click `Apply`;
+

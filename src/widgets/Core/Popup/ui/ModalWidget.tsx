@@ -3,11 +3,11 @@ import {
   createStyles,
   IButtonTypes,
   ModalBase,
-  Typography,
   usePopups,
   useStyles,
   View,
 } from 'shared/ui';
+import Header from 'shared/ui/Header';
 
 export const ModalWidget = () => {
   const [styles] = useStyles(styleFn);
@@ -15,7 +15,7 @@ export const ModalWidget = () => {
 
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>Modal</Typography>
+      <Header title={'ModalBase'} />
       <Button
         text={'ModalBase'}
         onPress={() =>

@@ -1,0 +1,99 @@
+import Calendar from './assets/Calendar.mov';
+import ReactPlayer from "react-player";
+
+<ReactPlayer playing controls url={Calendar} />
+
+Reusable Calendar
+
+## Example
+
+```tsx
+import {Calendar, createStyles, useStyles, View} from '@lad-tech/mobydick-calendar';
+
+export const CalendarWidget = () => {
+  const [styles] = useStyles(stylesFn);
+
+  return (
+    <View style={styles.container}>
+      <Calendar />
+    </View>
+  );
+};
+
+const stylesFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space16,
+    alignItems: 'center',
+  },
+}));
+```
+
+## `Props`
+
+### [`CalendarProps`](https://wix.github.io/react-native-calendars/docs/Components/Calendar#theme)
+
+Inherits [CalendarProps](https://wix.github.io/react-native-calendars/docs/Components/Calendar#theme).
+
+### `onDateRangeChange`
+
+| Type                                                                                                                          |
+|:------------------------------------------------------------------------------------------------------------------------------|
+| (dateRange: [IDateRange](https://github.com/lad-tech/mobydick/blob/main/packages/calendar/src/Calendar/types.ts#L27)) => void |
+
+Works by clicking `Apply` and `Cancel`, if you need to record that you, for example, canceled the selected dates;
+
+### `bottomView`
+
+| Type         |
+|:-------------|
+| ReactElement |
+
+
+### `defaultLocale`
+
+| TYPE   | DEFAULT |
+|:-------|:--------|
+| string | 'ru'    |
+
+
+### `isClear`
+
+| Type    |
+|:--------|
+| boolean |
+
+### `isShowToday`
+
+| TYPE    | DEFAULT |
+|:--------|:--------|
+| boolean | true    |
+
+### `localeConfig`
+
+| Type                                                                                                        |
+|:------------------------------------------------------------------------------------------------------------|
+| [ILocaleConfig](https://github.com/lad-tech/mobydick/blob/main/packages/calendar/src/Calendar/types.ts#L65) |
+
+### `isPeriod`
+
+| TYPE    | DEFAULT |
+|:--------|:--------|
+| boolean | false   |
+
+### `initialRange`
+
+| Type                                                                                                       |
+|:-----------------------------------------------------------------------------------------------------------|
+| [IInitialDate](https://github.com/lad-tech/mobydick/blob/main/packages/calendar/src/Calendar/types.ts#L38) |
+
+### `dottedDates`
+
+| Type   |
+|:-------|
+| Date[] |
+
+### `maxLengthDateRange`
+
+| Type   |
+|:-------|
+| number |
