@@ -1,0 +1,70 @@
+
+```tsx
+import {
+  Button,
+  createStyles,
+  PopupBase,
+  usePopups,
+  useStyles,
+  View,
+} from '@lad-tech/mobydick-core';
+
+export const PopupBaseWidget = () => {
+  const [styles] = useStyles(styleFn);
+  const {openPopup, closePopup, closeAllPopups} = usePopups();
+
+  return (
+    <View style={styles.container}>
+      <Button
+        text={'PopupBase'}
+        onPress={() =>
+          openPopup({
+            Content: props => <PopupBase {...props} />,
+          })
+        }
+      />
+    </View>
+  );
+};
+
+const styleFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space8,
+  },
+}));
+
+```
+
+## `Return`
+
+### `popups`
+
+| TYPE                                                                                                    |
+|:--------------------------------------------------------------------------------------------------------|
+| Array\<[IPopup](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L11)\> |
+
+Array of all popups opened
+
+### `openPopup`
+
+| TYPE                                                                                                                               |
+|:-----------------------------------------------------------------------------------------------------------------------------------|
+| (popup: [IOpenPopupParams](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/context/types.ts#L3)) => string |
+
+Function which open popup
+
+### `closePopup`
+
+| TYPE                                                                                                          |
+|:--------------------------------------------------------------------------------------------------------------|
+| (id: [IPopupId](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/types.ts#L5)) => void |
+
+Function which close popup by id
+
+### `closeAllPopups`
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+Function which close all popup

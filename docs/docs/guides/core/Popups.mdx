@@ -1,0 +1,33 @@
+---
+sidebar_position: 2
+---
+
+## Introduction
+
+Provide ability to control all popups in app.
+
+## Setup
+
+```tsx
+import {PopupsProvider, ThemeProvider} from '@lad-tech/mobydic-core';
+import MainStack from 'pages/MainStack/ui';
+
+export default () => {
+  return (
+    <ThemeProvider>
+    // highlight-next-line
+      <PopupsProvider>
+        <MainStack />
+    // highlight-next-line
+      </PopupsProvider>
+    </ThemeProvider>
+  );
+};
+
+```
+
+## `API`
+
+### [`usePopup`](../../API/core/popups/usePopup)
+
+### [`usePopups`](../../API/core/popups/usePopups)

@@ -1,0 +1,39 @@
+```tsx
+import { usePopup } from '@lad-tech/mobydick-core';
+
+const CustomPopup = () => {
+  return ...
+}
+
+const App = () => {
+  const {open, close, closeAll} = usePopup(CustomPopup);
+  return ...
+}
+
+```
+
+## `Return`
+
+### `open`
+
+| TYPE                                                                                                                               |
+|:-----------------------------------------------------------------------------------------------------------------------------------|
+| (popup: [IOpenPopupParams](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/popups/context/types.ts#L3)) => string |
+
+Function which open popup
+
+### `close`
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+Function which close popup
+
+### `closeAll`
+
+| TYPE       |
+|:-----------|
+| () => void |
+
+Function which close all popup
