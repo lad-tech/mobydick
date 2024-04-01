@@ -1,0 +1,20 @@
+The `useIsForeground` hook is listening `AppState` and return `true` when application is in `foreground` state.
+Otherwise return `false`
+
+## Example
+
+```tsx
+import {FC} from "react";
+import {useIsForeground} from "@lad-tech/mobydick-utils";
+import {Text, View} from "@lad-tech/mobydick-core";
+
+const Example: FC = () => {
+  const {isForeground} = useIsForeground();
+
+  return (
+    <View>
+      <Text>Is app in foreground? {isForeground}</Text>
+    </View>
+  )
+}
+```
