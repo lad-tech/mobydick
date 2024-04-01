@@ -37,7 +37,6 @@ export interface IDropDownProps<T extends IListItem> {
   flatListTextFont?: TypographyProp | undefined;
   flatListTextFontPressed?: TypographyProp | undefined;
   selectedItemColor?: string | undefined;
-  maxVisibleListLength?: number;
   listEmptyText?: string | undefined;
   listEmptyFont?: TypographyProp | undefined;
   isMultiselect?: false;
