@@ -1,0 +1,31 @@
+React state hook that returns the latest state as described in the [React hooks FAQ](https://legacy.reactjs.org/docs/hooks-faq.html#why-am-i-seeing-stale-props-or-state-inside-my-function).
+
+This is mostly useful to get access to the latest value of some props or state inside an asynchronous callback,
+instead of that value at the time the callback was created from.
+
+## Example
+
+```tsx
+import {useLatest} from "@lad-tech/mobydick-utils";
+import {Button, Text, View} from "@lad-tech/mobydick-core";
+import {Alert} from "react-native";
+
+const Demo = () => {
+  const [count, setCount] = React.useState(0);
+  const latestCount = useLatest(count);
+
+  const handleAlertClick = () => {
+    setTimeout(() => {
+      Alert.alert(`Latest count value: ${latestCount.current}`);
+    }, 3000);
+  }
+
+  return (
+    <View>
+      <Text>You clicked {count} times</Text>
+      <Button onPress={() => setCount(count + 1)}>Click me</Button>
+      <Button onPress={handleAlertClick}>Show alert</Button>
+    </View>
+  );
+};
+```
