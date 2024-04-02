@@ -4,14 +4,13 @@ Implementation of throttle function
 
 ```tsx
 import {useState} from 'react';
-import {createStyles, Search, SimpleIcon, useStyles, View} from 'shared/ui';
-import Header from 'shared/ui/Header';
-import {useThrottle} from "shared/mobydick-utils";
+import {Search, SimpleIcon, View} from "@lad-tech/mobydick-core";
+import {useThrottle} from "@lad-tech/mobydick-utils";
 
 const ExampleSearch = () => {
   const [styles] = useStyles(styleSource);
   const [value, setValue] = useState('');
-  
+
   // highlight-start
   const throttledFn = useThrottle(
     (valueFn: string) => console.log('value', valueFn),
