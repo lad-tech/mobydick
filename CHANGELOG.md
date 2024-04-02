@@ -1,3 +1,14 @@
+# [7.26.0](https://github.com/lad-tech/mobydick/compare/v7.25.0...v7.26.0) (2024-04-02)
+
+
+### Features
+
+* add leftIcon for InputField [#163](https://github.com/lad-tech/mobydick/issues/163) ([2417830](https://github.com/lad-tech/mobydick/commit/2417830543e925185e489375da169489dd8f1a59))
+* add renderSectionItem [#166](https://github.com/lad-tech/mobydick/issues/166) ([15b3100](https://github.com/lad-tech/mobydick/commit/15b31009652f7d505e7540ee482057d7e85fada6))
+* **chart:** add dots for LineChart ([27aa31b](https://github.com/lad-tech/mobydick/commit/27aa31bd6df319f23a7d78bacbc60b1afe22dfeb))
+* **chart:** custom colors and multiply lines [#169](https://github.com/lad-tech/mobydick/issues/169) ([75506d4](https://github.com/lad-tech/mobydick/commit/75506d44243e7f7bff0eca81cbe37547dee02a99))
+* update icons ([59dfffa](https://github.com/lad-tech/mobydick/commit/59dfffa5ae6ec9bfb53ec324cfea9422804c9a98))
+
 # [7.25.0](https://github.com/lad-tech/mobydick/compare/v7.24.0...v7.25.0) (2024-03-12)
 
 
