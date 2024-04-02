@@ -3,7 +3,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Mobydick',
-  tagline: 'Mobydick are cool',
+  tagline: 'Mobydick is cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
