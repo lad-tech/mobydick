@@ -37,6 +37,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     style,
     title,
     subtitle,
+    leftIcon,
     rightIcon,
     type = IInputsTypes.default,
     disabled = false,
@@ -105,6 +106,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
           getPadding(),
           textInputContainerStyle,
         ]}>
+        {leftIcon}
         <TextInput
           ref={ref}
           testID={Constants.testID}
