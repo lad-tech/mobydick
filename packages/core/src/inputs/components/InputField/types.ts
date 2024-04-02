@@ -15,6 +15,7 @@ export interface IInputFieldsProps extends ITextInputProps {
   subtitleProps?: IStyledTextProps;
   containerStyle?: StyleProp<ViewStyle>;
   textInputContainerStyle?: StyleProp<ViewStyle>;
+  leftIcon?: ReactElement;
   rightIcon?: ReactElement;
   type?: IInputsTypes;
   disabled?: boolean;
