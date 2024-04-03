@@ -95,6 +95,7 @@ export const Coordinates = ({
         const path = Skia.Path.Make()
           .moveTo(chartPaddingHorizontal, coordinate)
           .lineTo(width, coordinate);
+        path.dash(2, 2, 2);
 
         const text = formatterY?.(value) ?? value.toFixed(2);
 
@@ -140,6 +141,7 @@ export const Coordinates = ({
         const path = Skia.Path.Make()
           .moveTo(coordinate, height)
           .lineTo(coordinate, chartPaddingVertical);
+        path.dash(2, 2, 2);
 
         const paddingFromChart = 5;
 
