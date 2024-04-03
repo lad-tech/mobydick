@@ -41,7 +41,7 @@ export const SectionButton = ({
 
 const createStyleFn = createStyles(() => ({
   flex: {
-    flex: 1,
+    flexGrow: 1,
   },
 }));
 

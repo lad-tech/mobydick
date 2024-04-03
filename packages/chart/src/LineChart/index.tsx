@@ -7,8 +7,8 @@ import {
 } from '@shopify/react-native-skia';
 import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
-import {StyleProp, View, ViewStyle} from 'react-native';
-import {useTheme} from '@lad-tech/mobydick-core';
+import {StyleProp, ViewStyle} from 'react-native';
+import {useTheme, View} from '@lad-tech/mobydick-core';
 
 import Coordinates from '../components/Coordinates';
 import {
