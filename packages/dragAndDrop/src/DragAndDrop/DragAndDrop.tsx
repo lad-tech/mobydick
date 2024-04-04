@@ -87,8 +87,8 @@ const DragAndDrop: FC<PropsWithChildren<IDragAndDropProps>> = ({
         height: itemHeight,
       });
       // 2. We swap the positions
-      const oldOlder = positions.value[id];
-      if (newOrder !== oldOlder) {
+      const oldOrder = positions.value[id];
+      if (newOrder !== oldOrder) {
         const idToSwap = Object.keys(positions.value).find(
           key => positions.value[key] === newOrder,
         );
@@ -97,7 +97,7 @@ const DragAndDrop: FC<PropsWithChildren<IDragAndDropProps>> = ({
           // And Object.assign doesn't seem to be working on alpha.6
           const newPositions = JSON.parse(JSON.stringify(positions.value));
           newPositions[id] = newOrder;
-          newPositions[idToSwap] = oldOlder;
+          newPositions[idToSwap] = oldOrder;
           positions.value = newPositions;
         }
       }
