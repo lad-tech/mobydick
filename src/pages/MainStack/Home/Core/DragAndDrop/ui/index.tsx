@@ -1,53 +1,49 @@
 import {Dimensions} from 'react-native';
 
-import {
-  createStyles,
-  rem,
-  Typography,
-  useStyles,
-  View,
-  DragAndDropList,
-} from 'shared/ui';
+import {rem, DragAndDropList, useTheme} from 'shared/ui';
+import {BlockView} from 'shared/ui/BlockView';
 
 const {width: WIDTH} = Dimensions.get('window');
 
-const arr = new Array(25).fill('').map((_, i) => i);
+const arr = new Array(26).fill('').map((_, i) => i);
 export const MARGIN = rem(8);
-export const COL = 1;
-export const EL_WIDTH = WIDTH / COL - MARGIN * 2;
-export const EL_HEIGHT = EL_WIDTH / 4;
+export const COL = 2;
+export const EL_WIDTH = WIDTH / COL - MARGIN;
+export const EL_HEIGHT = EL_WIDTH / 2;
 
 const DragAndDropScreen = () => {
-  const [styles] = useStyles(createStyleFn);
+  const {colors} = useTheme();
+
+  const bgColors = [
+    colors.ElementMuted,
+    colors.ElementAdditional,
+    colors.ElementAttention,
+    colors.ElementBase,
+    colors.ElementNeutral,
+    colors.ElementSuccess,
+    colors.ElementWhite,
+  ];
 
   return (
     <DragAndDropList
       list={arr}
-      sideMargin={MARGIN}
       itemWidth={EL_WIDTH}
       itemHeight={EL_HEIGHT}
       columns={COL}
-      renderItem={(item: number, index: number) => {
-        return (
-          <View style={styles.box} key={index} pointerEvents="none">
-            <Typography style={styles.element}>{item}</Typography>
-          </View>
-        );
-      }}
+      contentContainerStyle={{marginHorizontal: MARGIN}}
+      renderItem={(item: number, index: number) => (
+        <BlockView
+          item={item}
+          width={EL_WIDTH}
+          key={index}
+          height={EL_HEIGHT}
+          backgroundColor={
+            bgColors[Math.floor(Math.random() * bgColors.length)]
+          }
+        />
+      )}
     />
   );
 };
-
-const createStyleFn = createStyles(({colors}) => ({
-  box: {
-    width: EL_WIDTH,
-    height: EL_HEIGHT,
-  },
-  element: {
-    backgroundColor: colors.BgAccent,
-    flex: 1,
-    marginVertical: MARGIN,
-  },
-}));
 
 export default DragAndDropScreen;

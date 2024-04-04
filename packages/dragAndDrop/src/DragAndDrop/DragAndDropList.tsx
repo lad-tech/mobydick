@@ -4,7 +4,9 @@ import Animated, {
   useAnimatedScrollHandler,
   useSharedValue,
 } from 'react-native-reanimated';
-import {useStyles, createStyles, View} from '@lad-tech/mobydick-core';
+import {useStyles, createStyles} from '@lad-tech/mobydick-core';
+import {useState} from 'react';
+import {View} from 'react-native';
 
 import {IDragAndDropListProps, IPositions} from './types';
 import DragAndDrop from './DragAndDrop';
@@ -15,11 +17,12 @@ const DragAndDropList = <T,>({
   itemWidth,
   itemHeight,
   columns,
-  sideMargin,
+  contentContainerStyle,
 }: IDragAndDropListProps<T>) => {
   const [styles] = useStyles(createStyleFn);
   const scrollY = useSharedValue(0);
   const scrollView = useAnimatedRef<Animated.ScrollView>();
+  const [heightScrollView, setHeightScrollView] = useState(0);
 
   const positions = useSharedValue<IPositions>(
     Object.assign({}, ...list.map((_item: T, index) => ({[index]: index}))),
@@ -37,11 +40,16 @@ const DragAndDropList = <T,>({
         <Animated.ScrollView
           onScroll={onScroll}
           ref={scrollView}
-          contentContainerStyle={{
-            height: Math.ceil(list.length / columns) * itemHeight,
-            alignItems: 'center',
-            marginHorizontal: sideMargin,
+          onLayout={event => {
+            setHeightScrollView(event.nativeEvent.layout.height);
           }}
+          contentContainerStyle={[
+            styles.contentContainer,
+            {
+              height: Math.ceil(list.length / columns) * itemHeight,
+            },
+            contentContainerStyle,
+          ]}
           showsVerticalScrollIndicator={false}
           bounces={false}
           scrollEventThrottle={16}>
@@ -54,8 +62,8 @@ const DragAndDropList = <T,>({
                 itemWidth={itemWidth}
                 itemHeight={itemHeight}
                 columns={columns}
-                sideMargin={sideMargin}
                 scrollView={scrollView}
+                heightScrollView={heightScrollView}
                 scrollY={scrollY}>
                 {renderItem(item, index, list)}
               </DragAndDrop>
@@ -70,6 +78,10 @@ const DragAndDropList = <T,>({
 const createStyleFn = createStyles(() => ({
   container: {
     flex: 1,
+  },
+  contentContainer: {
+    alignItems: 'center',
+    justifyContent: 'space-between',
   },
 }));
 

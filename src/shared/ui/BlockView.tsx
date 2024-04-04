@@ -1,19 +1,35 @@
 import {createStyles, Typography, useStyles, View} from 'shared/ui';
 
-export const BlockView = ({item, width}: {item: number; width: number}) => {
-  const [styles] = useStyles(stylesFn);
+export const BlockView = ({
+  item,
+  width,
+  height,
+  backgroundColor,
+}: {
+  item: number;
+  width: number;
+  height?: number;
+  backgroundColor?: string | undefined;
+}) => {
+  const [styles, {colors}] = useStyles(stylesFn);
 
   return (
-    <View style={[styles.container, {width: width}]}>
+    <View
+      style={[
+        styles.container,
+        {
+          width: width,
+          height: height || width,
+          backgroundColor: backgroundColor || colors.BgAccent,
+        },
+      ]}>
       <Typography>{item}</Typography>
     </View>
   );
 };
 
-const stylesFn = createStyles(({colors}) => ({
+const stylesFn = createStyles(() => ({
   container: {
-    backgroundColor: colors.BgAccent,
-    aspectRatio: 1,
     alignItems: 'center',
     justifyContent: 'center',
   },

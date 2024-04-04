@@ -1,20 +1,15 @@
 import {FC, PropsWithChildren} from 'react';
-import {
-  PanGestureHandler,
-  PanGestureHandlerGestureEvent,
-} from 'react-native-gesture-handler';
+import {Gesture, GestureDetector} from 'react-native-gesture-handler';
 import Animated, {
-  useAnimatedGestureHandler,
   useAnimatedReaction,
   useAnimatedStyle,
   useSharedValue,
   withTiming,
   scrollTo,
 } from 'react-native-reanimated';
-import {useSafeAreaInsets} from 'react-native-safe-area-context';
-import {Dimensions, StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 
-import {IContextType, IDragAndDropProps} from './types';
+import {IDragAndDropProps} from './types';
 import {animationConfig, getOrder, getPosition} from './utils';
 
 const DragAndDrop: FC<PropsWithChildren<IDragAndDropProps>> = ({
@@ -26,6 +21,7 @@ const DragAndDrop: FC<PropsWithChildren<IDragAndDropProps>> = ({
   columns,
   itemWidth,
   itemHeight,
+  heightScrollView,
 }) => {
   const position = getPosition({
     index: positions.value[id]!,
@@ -38,12 +34,11 @@ const DragAndDrop: FC<PropsWithChildren<IDragAndDropProps>> = ({
   const y = useSharedValue(position.y);
 
   const isGestureActive = useSharedValue(false);
-  const inset = useSafeAreaInsets();
 
-  const containerHeight =
-    Dimensions.get('window').height - inset.top - inset.bottom;
+  const containerHeight = heightScrollView;
+
   const contentHeight =
-    (Object.keys(positions.value).length / columns) * itemHeight;
+    Math.ceil(Object.keys(positions.value).length / columns) * itemHeight;
 
   useAnimatedReaction(
     () => positions.value[id]!,
@@ -59,18 +54,29 @@ const DragAndDrop: FC<PropsWithChildren<IDragAndDropProps>> = ({
     },
   );
 
-  const onGestureEvent = useAnimatedGestureHandler<
-    PanGestureHandlerGestureEvent,
-    IContextType
-  >({
-    onStart: (_, context) => {
-      context.x = x.value;
-      context.y = y.value;
+  const animatedStyle = useAnimatedStyle(() => {
+    const zIndex = isGestureActive.value ? 100 : 0;
+    const scale = isGestureActive.value ? 1.1 : 1;
+    return {
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: itemWidth,
+      height: itemHeight,
+      zIndex,
+      transform: [{translateX: x.value}, {translateY: y.value}, {scale}],
+    };
+  });
+
+  const pan = Gesture.Pan()
+    .onStart(event => {
+      x.value = x.value + event.translationX;
+      y.value = y.value + event.translationY;
       isGestureActive.value = true;
-    },
-    onActive: (event, context) => {
-      x.value = event.translationX + context.x;
-      y.value = event.translationY + context.y;
+    })
+    .onChange(event => {
+      x.value = x.value + event.changeX;
+      y.value = y.value + event.changeY;
       // 1. We calculate where the tile should be
       const newOrder = getOrder({
         tx: x.value,
@@ -80,7 +86,6 @@ const DragAndDrop: FC<PropsWithChildren<IDragAndDropProps>> = ({
         width: itemWidth,
         height: itemHeight,
       });
-
       // 2. We swap the positions
       const oldOlder = positions.value[id];
       if (newOrder !== oldOlder) {
@@ -99,26 +104,24 @@ const DragAndDrop: FC<PropsWithChildren<IDragAndDropProps>> = ({
 
       // 3. Scroll
       const lowerBound = scrollY.value;
-      const upperBound = lowerBound + containerHeight - itemWidth;
+      const upperBound = lowerBound + containerHeight - itemHeight;
       const maxScroll = contentHeight - containerHeight;
       const leftToScrollDown = maxScroll - scrollY.value;
 
       if (y.value < lowerBound) {
         const diff = Math.min(lowerBound - y.value, lowerBound);
         scrollY.value -= diff;
-        context.y -= diff;
-        y.value = context.y + event.translationY;
+        y.value -= diff;
         scrollTo(scrollView, 0, scrollY.value, false);
       }
       if (y.value > upperBound) {
         const diff = Math.min(y.value - upperBound, leftToScrollDown);
         scrollY.value += diff;
-        context.y += diff;
-        y.value = context.y + event.translationY;
+        y.value += diff;
         scrollTo(scrollView, 0, scrollY.value, false);
       }
-    },
-    onEnd: () => {
+    })
+    .onEnd(_ => {
       const destination = getPosition({
         index: positions.value[id]!,
         col: columns,
@@ -131,32 +134,21 @@ const DragAndDrop: FC<PropsWithChildren<IDragAndDropProps>> = ({
         () => (isGestureActive.value = false),
       );
 
-      y.value = withTiming(destination.y, animationConfig);
-    },
-  });
-
-  const animatedStyle = useAnimatedStyle(() => {
-    const zIndex = isGestureActive.value ? 100 : 0;
-    const scale = isGestureActive.value ? 1.1 : 1;
-    return {
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      width: itemWidth,
-      height: itemHeight,
-      zIndex,
-      transform: [{translateX: x.value}, {translateY: y.value}, {scale}],
-    };
-  });
+      y.value = withTiming(
+        destination.y,
+        animationConfig,
+        () => (isGestureActive.value = false),
+      );
+    });
 
   return (
-    <Animated.View style={animatedStyle}>
-      <PanGestureHandler onGestureEvent={onGestureEvent}>
+    <GestureDetector gesture={pan}>
+      <Animated.View style={animatedStyle}>
         <Animated.View style={StyleSheet.absoluteFill}>
           {children}
         </Animated.View>
-      </PanGestureHandler>
-    </Animated.View>
+      </Animated.View>
+    </GestureDetector>
   );
 };
 
