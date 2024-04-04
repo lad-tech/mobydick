@@ -1,5 +1,5 @@
 import {SkPath} from '@shopify/react-native-skia';
-import {useDerivedValue} from 'react-native-reanimated';
+import {SharedValue, useDerivedValue} from 'react-native-reanimated';
 
 import {IPeriodsWithPaths} from '../utils';
 import {IChartTransition, ISharedChartState} from '../types';
@@ -13,9 +13,8 @@ export interface ILine {
 }
 
 interface ILinesProps {
-  periodsWithPaths: IPeriodsWithPaths;
-  width: number;
-  height: number;
+  periodsWithPaths: SharedValue<IPeriodsWithPaths>;
+  size: SharedValue<{height: number; width: number}>;
   transition: IChartTransition;
   state: ISharedChartState;
   hideDataPoints: boolean;
@@ -23,16 +22,15 @@ interface ILinesProps {
 
 export const Lines = ({
   periodsWithPaths,
-  width,
+  size,
   state,
-  height,
   transition,
   hideDataPoints,
 }: ILinesProps) => {
   const lines = useDerivedValue(() => {
     const {next} = state.value;
 
-    const end = periodsWithPaths[next]?.lines ?? [];
+    const end = periodsWithPaths.value[next]?.lines ?? [];
 
     return end;
   });
@@ -43,9 +41,8 @@ export const Lines = ({
         <LineOfPeriod
           key={index}
           index={index}
+          size={size}
           periodsWithPaths={periodsWithPaths}
-          width={width}
-          height={height}
           lineColors={colors}
           state={state}
           transition={transition}

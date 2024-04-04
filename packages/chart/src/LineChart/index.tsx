@@ -5,14 +5,18 @@ import {
   useCanvasRef,
   useFont,
 } from '@shopify/react-native-skia';
-import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
+import {
+  Extrapolation,
+  interpolate,
+  useDerivedValue,
+  useSharedValue,
+} from 'react-native-reanimated';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {StyleProp, ViewStyle} from 'react-native';
-import {useTheme, View} from '@lad-tech/mobydick-core';
+import {useTheme} from '@lad-tech/mobydick-core';
 
 import Coordinates from '../components/Coordinates';
 import {
-  chartPaddingHorizontal,
   chartPaddingVertical,
   defaultChartHeightDivider,
 } from '../utils/constants';
@@ -26,6 +30,7 @@ export interface ILineChartProps {
   dataset: IDataset;
   renderSectionItem?: IRenderSectionItem;
   sectionContainerStyles?: StyleProp<ViewStyle>;
+  chartContainerStyles?: StyleProp<ViewStyle>;
   formatterX?: IFormatter;
   formatterY?: IFormatter;
   hideDataPoints?: boolean;
@@ -35,6 +40,7 @@ export const LineChart = ({
   dataset,
   title,
   renderSectionItem,
+  chartContainerStyles,
   sectionContainerStyles,
   formatterY,
   formatterX,
@@ -43,27 +49,32 @@ export const LineChart = ({
   const {colors, spaces} = useTheme();
   const font = useFont(
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf'),
-    14,
+    require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Medium.ttf'),
+    12,
   );
+
   const ref = useCanvasRef();
 
   const {height: frameHeight, width: frameWidth} = useSafeAreaFrame();
-  const size = useSharedValue({
+
+  const canvasSize = useSharedValue({
+    height: frameHeight,
     width: frameWidth,
-    height: frameHeight / defaultChartHeightDivider,
   });
-  const {height: realHeight, width: realWidth} = size.value;
 
-  const {height, width} = {
-    height: realHeight - chartPaddingVertical,
-    width: realWidth - chartPaddingHorizontal,
-  };
+  const size = useDerivedValue(() => {
+    return {
+      height: canvasSize.value.height,
+      width: canvasSize.value.width - chartPaddingVertical / 2,
+    };
+  });
 
-  const periodsWithPaths = generatePeriodsWithLinePaths({
-    dataset,
-    width,
-    height,
+  const periodsWithPaths = useDerivedValue(() => {
+    return generatePeriodsWithLinePaths({
+      dataset,
+      width: size.value.width,
+      height: size.value.height,
+    });
   });
 
   // animation value to transition from one graph to the next
@@ -76,8 +87,8 @@ export const LineChart = ({
 
   const maxY = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -87,8 +98,8 @@ export const LineChart = ({
   });
   const maxX = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -98,8 +109,8 @@ export const LineChart = ({
   });
   const minX = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -109,8 +120,8 @@ export const LineChart = ({
   });
   const minY = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -120,8 +131,8 @@ export const LineChart = ({
   });
   const coordinatesLength = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -129,21 +140,53 @@ export const LineChart = ({
 
     return end.maxCoordinatesLength;
   });
+  const transform = useDerivedValue(() => {
+    const width = size.value.width;
+    const newWidth = size.value.width - 16 * 2;
+
+    const height = size.value.height;
+    const newHeight = size.value.height - 16 * 2;
+
+    const scaleX = interpolate(
+      newHeight,
+      [0, height],
+      [0, 1],
+      Extrapolation.CLAMP,
+    );
+
+    const scaleY = interpolate(
+      newWidth,
+      [0, width],
+      [0, 1],
+      Extrapolation.CLAMP,
+    );
+
+    return [{scaleX}, {scaleY}, {translateX: 16}, {translateY: 16}];
+  });
+
+  if (!font) return null;
 
   return (
-    <View>
+    <>
       <Canvas
         ref={ref}
-        style={{
-          height: frameHeight / defaultChartHeightDivider,
-          backgroundColor: colors.BgPrimary,
-          borderRadius: spaces.Space20,
-        }}>
-        <Group>
+        onSize={canvasSize}
+        style={[
+          {
+            flex: 1,
+            minHeight: frameHeight / defaultChartHeightDivider,
+            backgroundColor: colors.BgPrimary,
+            borderRadius: spaces.Space20,
+            borderColor: colors.BorderSoft,
+            borderWidth: spaces.Space1,
+          },
+          chartContainerStyles,
+        ]}>
+        <Group transform={transform}>
           {title && (
             <Text
               text={title}
-              x={width / 2 - title.length * 3}
+              x={size.value.width / 2 - title.length * 3}
               y={chartPaddingVertical / 2}
               color={colors.TextPrimary}
               font={font}
@@ -151,8 +194,7 @@ export const LineChart = ({
           )}
           <Lines
             periodsWithPaths={periodsWithPaths}
-            width={width}
-            height={height}
+            size={size}
             state={state}
             transition={transition}
             hideDataPoints={hideDataPoints}
@@ -160,8 +202,7 @@ export const LineChart = ({
           <Coordinates
             font={font}
             colors={colors}
-            width={width}
-            height={height}
+            size={size}
             maxY={maxY}
             minY={minY}
             maxX={maxX}
@@ -181,7 +222,7 @@ export const LineChart = ({
           sectionContainerStyles={sectionContainerStyles}
         />
       )}
-    </View>
+    </>
   );
 };
 

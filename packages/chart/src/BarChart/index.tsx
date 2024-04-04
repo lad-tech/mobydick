@@ -48,7 +48,7 @@ export const BarChart = ({
   const font = useFont(
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf'),
-    14,
+    12,
   );
   const {colors, spaces} = useTheme();
   const ref = useCanvasRef();
@@ -161,6 +161,8 @@ export const BarChart = ({
     return end.coordinatesLength;
   });
 
+  if (!font) return null;
+
   return (
     <View>
       <Canvas
@@ -190,10 +192,9 @@ export const BarChart = ({
           </Group>
 
           <Coordinates
-            font={font}
             colors={colors}
-            width={width}
-            height={height}
+            size={size}
+            font={font}
             maxY={maxY}
             maxX={maxX}
             minX={minX}
