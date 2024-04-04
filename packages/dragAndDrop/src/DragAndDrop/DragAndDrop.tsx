@@ -55,7 +55,7 @@ const DragAndDrop: FC<PropsWithChildren<IDragAndDropProps>> = ({
   );
 
   const animatedStyle = useAnimatedStyle(() => {
-    const zIndex = isGestureActive.value ? 100 : 0;
+    const zIndex = isGestureActive.value ? 1 : 0;
     const scale = isGestureActive.value ? 1.1 : 1;
     return {
       position: 'absolute',

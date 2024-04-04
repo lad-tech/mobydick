@@ -10,8 +10,6 @@
   "keywords": [
     "mobydick",
     "lad-tech",
-    "mobydick-chart",
-    "chart",
     "react-native",
     "reanimated"
   ],
@@ -33,7 +31,7 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kirill Lebedev <lebedevki@lad24.ru>",
+  "author": "Vera Smolina <smolinavp@lad24.ru>",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.66.4",
