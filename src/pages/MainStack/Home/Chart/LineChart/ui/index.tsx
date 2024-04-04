@@ -21,6 +21,7 @@ const LineChartScreen = () => {
   return (
     <View style={styles.container}>
       <LineChart
+        title={'qew'}
         dataset={mockChartDataset}
         renderSectionItem={renderSectionItem}
       />

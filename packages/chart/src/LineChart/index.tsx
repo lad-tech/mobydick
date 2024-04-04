@@ -65,7 +65,7 @@ export const LineChart = ({
   const size = useDerivedValue(() => {
     return {
       height: canvasSize.value.height,
-      width: canvasSize.value.width - chartPaddingVertical / 2,
+      width: canvasSize.value.width,
     };
   });
 
@@ -141,27 +141,35 @@ export const LineChart = ({
     return end.maxCoordinatesLength;
   });
   const transform = useDerivedValue(() => {
+    const padding = 16;
     const width = size.value.width;
-    const newWidth = size.value.width - 16 * 2;
+    const newWidth = size.value.width - padding * 2;
 
     const height = size.value.height;
-    const newHeight = size.value.height - 16 * 2;
+    const newHeight = size.value.height - padding * 2;
 
     const scaleX = interpolate(
-      newHeight,
-      [0, height],
-      [0, 1],
-      Extrapolation.CLAMP,
-    );
-
-    const scaleY = interpolate(
       newWidth,
       [0, width],
       [0, 1],
       Extrapolation.CLAMP,
     );
 
-    return [{scaleX}, {scaleY}, {translateX: 16}, {translateY: 16}];
+    const scaleY = interpolate(
+      newHeight,
+      [0, height],
+      [0, 1],
+      Extrapolation.CLAMP,
+    );
+
+    return [
+      {translateX: width / 2},
+      {scaleX},
+      {translateX: -width / 2},
+      {translateY: height / 2},
+      {scaleY},
+      {translateY: -height / 2},
+    ];
   });
 
   if (!font) return null;
@@ -173,7 +181,6 @@ export const LineChart = ({
         onSize={canvasSize}
         style={[
           {
-            flex: 1,
             minHeight: frameHeight / defaultChartHeightDivider,
             backgroundColor: colors.BgPrimary,
             borderRadius: spaces.Space20,

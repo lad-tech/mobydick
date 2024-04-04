@@ -56,7 +56,7 @@ export const getCoordinateValues = ({
       valueY,
       [minY, maxY],
       [
-        height - chartPaddingVertical / 2,
+        height - chartPaddingVertical,
         chartPaddingVertical + chartPaddingVertical / 2,
       ],
       Extrapolation.CLAMP,
@@ -90,7 +90,7 @@ export const getCoordinateValues = ({
       [minX, maxX],
       [
         chartPaddingHorizontal + chartPaddingHorizontal / 2,
-        width - chartPaddingHorizontal / 2,
+        width - chartPaddingHorizontal,
       ],
       Extrapolation.CLAMP,
     );
@@ -104,7 +104,7 @@ export const getCoordinateValues = ({
     const textXEnd = coordinateX + textXWidth;
 
     const pathX = Skia.Path.Make()
-      .moveTo(coordinateX, height)
+      .moveTo(coordinateX, height - chartPaddingVertical / 2)
       .lineTo(coordinateX, chartPaddingVertical);
     pathX.dash(2, 2, 2);
 

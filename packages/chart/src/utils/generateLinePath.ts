@@ -31,7 +31,7 @@ export const generateLinePath = ({
       [minX, maxX],
       [
         chartPaddingHorizontal + chartPaddingHorizontal / 2,
-        width - chartPaddingHorizontal / 2,
+        width - chartPaddingHorizontal,
       ],
       Extrapolation.CLAMP,
     );
@@ -40,7 +40,7 @@ export const generateLinePath = ({
       y,
       [minY, maxY],
       [
-        height - chartPaddingVertical / 2,
+        height - chartPaddingVertical,
         chartPaddingVertical + chartPaddingVertical / 2,
       ],
       Extrapolation.CLAMP,

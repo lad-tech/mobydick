@@ -31,7 +31,7 @@ const CoordY = ({
   });
 
   const value = useDerivedValue(() => {
-    const value = coords.value.coordinateValuesY[index]?.value ?? '0';
+    const value = coords.value.coordinateValuesY[index]?.value ?? '';
 
     return value;
   });
@@ -43,7 +43,9 @@ const CoordY = ({
   });
 
   const x = useDerivedValue(() => {
-    const r = coordinateValueYMaxLength.value;
+    const {width} = font.measureText(value.value);
+    const symbolSize = width / value.value.length;
+    const r = -coordinateValueYMaxLength.value * symbolSize;
 
     if (r < 0) {
       return 0;
@@ -87,7 +89,7 @@ const CoordX = ({font, size, coords, index, colors}: ICoordXProps) => {
     return path;
   });
   const value = useDerivedValue(() => {
-    const value = coords.value.coordinateValuesX[index]?.value ?? '0';
+    const value = coords.value.coordinateValuesX[index]?.value ?? '';
 
     return value;
   });
@@ -99,8 +101,7 @@ const CoordX = ({font, size, coords, index, colors}: ICoordXProps) => {
   });
 
   const y = useDerivedValue(() => {
-    const {height} = font.measureText(value.value);
-    return size.value.height + height;
+    return size.value.height;
   });
 
   return (
@@ -197,10 +198,10 @@ export const Coordinates = ({
         return (
           <CoordY
             key={index.toString()}
-            coords={coords}
             font={font}
-            index={index}
+            coords={coords}
             colors={colors}
+            index={index}
             coordinateValueYMaxLength={coordinateValueYMaxLength}
           />
         );
@@ -208,7 +209,7 @@ export const Coordinates = ({
       {coords.value.coordinateValuesX.map((_, index) => {
         return (
           <CoordX
-            key={index}
+            key={index.toString()}
             font={font}
             coords={coords}
             colors={colors}

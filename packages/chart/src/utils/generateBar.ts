@@ -41,7 +41,7 @@ export const generateBarsPath = ({
       [minX, maxX],
       [
         chartPaddingHorizontal + chartPaddingHorizontal / 2,
-        width - chartPaddingHorizontal / 2,
+        width - chartPaddingHorizontal,
       ],
       Extrapolation.CLAMP,
     );
