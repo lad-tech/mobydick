@@ -11,7 +11,7 @@ export const generateCoordinatesPath = ({
 }) => {
   'worklet';
   return Skia.Path.Make()
-    .moveTo(chartPaddingHorizontal, chartPaddingVertical)
+    .moveTo(chartPaddingHorizontal, 0)
     .lineTo(chartPaddingHorizontal, height - chartPaddingVertical / 2)
     .lineTo(width, height - chartPaddingVertical / 2);
 };

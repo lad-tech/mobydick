@@ -55,10 +55,7 @@ export const getCoordinateValues = ({
     const coordinateY = interpolate(
       valueY,
       [minY, maxY],
-      [
-        height - chartPaddingVertical,
-        chartPaddingVertical + chartPaddingVertical / 2,
-      ],
+      [height - chartPaddingVertical, 0],
       Extrapolation.CLAMP,
     );
     const valueYFormatted = formatterY?.(valueY) ?? valueY.toFixed(2);
@@ -90,7 +87,7 @@ export const getCoordinateValues = ({
       [minX, maxX],
       [
         chartPaddingHorizontal + chartPaddingHorizontal / 2,
-        width - chartPaddingHorizontal,
+        width - chartPaddingHorizontal / 2,
       ],
       Extrapolation.CLAMP,
     );
@@ -105,7 +102,7 @@ export const getCoordinateValues = ({
 
     const pathX = Skia.Path.Make()
       .moveTo(coordinateX, height - chartPaddingVertical / 2)
-      .lineTo(coordinateX, chartPaddingVertical);
+      .lineTo(coordinateX, 0);
     pathX.dash(2, 2, 2);
 
     if (textXCoord > lastXEndOfText) {

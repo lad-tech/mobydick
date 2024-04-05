@@ -37,7 +37,7 @@ export type IRenderSectionItem = (
   index: number,
 ) => ReactElement;
 
-export type IRenderTitle = (
+export type IRenderHeader = (
   {
     period,
     state,
