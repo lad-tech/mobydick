@@ -1,6 +1,6 @@
 {
-  "name": "@lad-tech/mobydick-chart",
-  "version": "7.26.0",
+  "name": "@lad-tech/mobydick-drag-and-drop",
+  "version": "7.24.0",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "lib/index",
   "module": "lib/index",
@@ -10,10 +10,7 @@
   "keywords": [
     "mobydick",
     "lad-tech",
-    "mobydick-chart",
-    "chart",
     "react-native",
-    "skia",
     "reanimated"
   ],
   "files": [
@@ -24,7 +21,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/lad-tech/mobydick.git",
-    "directory": "packages/chart"
+    "directory": "packages/dragAndDrop"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
@@ -34,13 +31,12 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kirill Lebedev <lebedevki@lad24.ru>",
+  "author": "Vera Smolina <smolinavp@lad24.ru>",
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.66.4",
     "react": ">=17.0.2",
-    "@lad-tech/mobydick-core": "7.26.0",
-    "@shopify/react-native-skia": ">=0.1.234",
+    "@lad-tech/mobydick-core": "7.24.0",
     "react-native-reanimated": ">=3.6.1",
     "react-native-gesture-handler": ">=2.14.1"
   }

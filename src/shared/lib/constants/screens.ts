@@ -27,4 +27,5 @@ export enum SCREENS {
   KeyboardAwareScrollViewTabs= 'KeyboardAwareScrollViewTabsScreen',
   KeyboardAwareScrollViewWithTabs= 'KeyboardAwareScrollViewWithTabs',
   KeyboardAwareScrollViewWithBottomAndTabs = 'KeyboardAwareScrollViewWithBottomAndTabs',
+  DragAndDrop = 'DragAndDrop',
 }
