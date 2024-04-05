@@ -10,16 +10,17 @@ import {
 } from '@shopify/react-native-skia';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {
+  Extrapolation,
+  interpolate,
   interpolateColor,
   useDerivedValue,
   useSharedValue,
 } from 'react-native-reanimated';
-import {useTheme, View} from '@lad-tech/mobydick-core';
+import {useTheme} from '@lad-tech/mobydick-core';
 import {StyleProp, ViewStyle} from 'react-native';
 
 import {IDataset, IFormatter, IRenderSectionItem} from '../types';
 import {
-  chartPaddingHorizontal,
   chartPaddingVertical,
   defaultChartHeightDivider,
 } from '../utils/constants';
@@ -48,28 +49,32 @@ export const BarChart = ({
   const font = useFont(
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf'),
-    14,
+    12,
   );
   const {colors, spaces} = useTheme();
   const ref = useCanvasRef();
 
   const {height: frameHeight, width: frameWidth} = useSafeAreaFrame();
-  const size = useSharedValue({
+
+  const canvasSize = useSharedValue({
+    height: frameHeight,
     width: frameWidth,
-    height: frameHeight / defaultChartHeightDivider,
   });
-  const {height: realHeight, width: realWidth} = size.value;
 
-  const {height, width} = {
-    height: realHeight - chartPaddingVertical,
-    width: realWidth - chartPaddingHorizontal,
-  };
-
-  const periodsWithPaths = generatePeriodsWithBarPaths({
-    dataset,
-    width,
-    height,
+  const size = useDerivedValue(() => {
+    return {
+      height: canvasSize.value.height,
+      width: canvasSize.value.width,
+    };
   });
+
+  const periodsWithPaths = useDerivedValue(() =>
+    generatePeriodsWithBarPaths({
+      dataset,
+      width: size.value.width,
+      height: size.value.height,
+    }),
+  );
 
   // animation value to transition from one graph to the next
   const transition = useSharedValue(0);
@@ -81,8 +86,9 @@ export const BarChart = ({
 
   const chartPath = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current]?.chartPath ?? Skia.Path.Make();
-    const end = periodsWithPaths[next]?.chartPath ?? Skia.Path.Make();
+    const start =
+      periodsWithPaths.value[current]?.chartPath ?? Skia.Path.Make();
+    const end = periodsWithPaths.value[next]?.chartPath ?? Skia.Path.Make();
 
     if (end.isInterpolatable(start)) {
       return end.interpolate(start, transition.value)!;
@@ -93,8 +99,8 @@ export const BarChart = ({
 
   const colorsBar = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current]?.colors ?? [];
-    const end = periodsWithPaths[next]?.colors ?? [];
+    const start = periodsWithPaths.value[current]?.colors ?? [];
+    const end = periodsWithPaths.value[next]?.colors ?? [];
 
     return end.map((endColor, i) =>
       interpolateColor(
@@ -107,8 +113,8 @@ export const BarChart = ({
 
   const maxY = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -118,8 +124,8 @@ export const BarChart = ({
   });
   const maxX = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -129,8 +135,8 @@ export const BarChart = ({
   });
   const minX = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -140,8 +146,8 @@ export const BarChart = ({
   });
   const minY = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -151,8 +157,8 @@ export const BarChart = ({
   });
   const coordinatesLength = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -160,22 +166,58 @@ export const BarChart = ({
 
     return end.coordinatesLength;
   });
+  const transform = useDerivedValue(() => {
+    const padding = 16;
+    const width = size.value.width;
+    const newWidth = size.value.width - padding * 2;
+
+    const height = size.value.height;
+    const newHeight = size.value.height - padding * 2;
+
+    const scaleX = interpolate(
+      newWidth,
+      [0, width],
+      [0, 1],
+      Extrapolation.CLAMP,
+    );
+
+    const scaleY = interpolate(
+      newHeight,
+      [0, height],
+      [0, 1],
+      Extrapolation.CLAMP,
+    );
+
+    return [
+      {translateX: width / 2},
+      {scaleX},
+      {translateX: -width / 2},
+      {translateY: height / 2},
+      {scaleY},
+      {translateY: -height / 2},
+    ];
+  });
+
+  if (!font) return null;
 
   return (
-    <View>
+    <>
       <Canvas
         ref={ref}
+        onSize={canvasSize}
         style={{
-          height: frameHeight / defaultChartHeightDivider,
+          minHeight: frameHeight / defaultChartHeightDivider,
           backgroundColor: colors.BgPrimary,
           borderRadius: spaces.Space20,
+          borderColor: colors.BorderSoft,
+          borderWidth: spaces.Space1,
         }}>
-        <Group>
+        <Group transform={transform}>
           {title && (
             <Text
               font={font}
               text={title}
-              x={width / 2 - title.length * 3}
+              x={size.value.width / 2 - title.length * 3}
               y={chartPaddingVertical / 2}
               color={colors.TextPrimary}
             />
@@ -183,17 +225,16 @@ export const BarChart = ({
           <Group>
             <LinearGradient
               start={vec(0, 0)}
-              end={vec(width, height)}
+              end={vec(size.value.width, size.value.height)}
               colors={colorsBar}
             />
             <Line chartPath={chartPath} strokeWidth={20} />
           </Group>
 
           <Coordinates
-            font={font}
             colors={colors}
-            width={width}
-            height={height}
+            size={size}
+            font={font}
             maxY={maxY}
             maxX={maxX}
             minX={minX}
@@ -213,7 +254,7 @@ export const BarChart = ({
           sectionContainerStyles={sectionContainerStyles}
         />
       )}
-    </View>
+    </>
   );
 };
 export default BarChart;
