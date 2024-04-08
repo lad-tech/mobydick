@@ -5,12 +5,9 @@ import {
   Skia,
   SkiaDefaultProps,
   vec,
+  interpolateColors,
 } from '@shopify/react-native-skia';
-import {
-  interpolateColor,
-  SharedValue,
-  useDerivedValue,
-} from 'react-native-reanimated';
+import {SharedValue, useDerivedValue} from 'react-native-reanimated';
 
 import {IChartTransition, ISharedChartState} from '../types';
 import {IPeriodsWithPaths} from '../utils';
@@ -58,7 +55,7 @@ export const LineOfPeriod = ({
     const end = periodsWithPaths.value[next]?.lines[index]?.colors ?? [];
 
     return end.map((endColor, i) =>
-      interpolateColor(
+      interpolateColors(
         transition.value,
         [0, 1],
         [start[i] ?? endColor, endColor],

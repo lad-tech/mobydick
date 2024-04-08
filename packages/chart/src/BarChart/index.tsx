@@ -6,13 +6,10 @@ import {
   useCanvasRef,
   useFont,
   vec,
+  interpolateColors,
 } from '@shopify/react-native-skia';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
-import {
-  interpolateColor,
-  useDerivedValue,
-  useSharedValue,
-} from 'react-native-reanimated';
+import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
 import {useTheme, View} from '@lad-tech/mobydick-core';
 import {StyleProp, ViewStyle} from 'react-native';
 
@@ -107,7 +104,7 @@ export const BarChart = ({
     const end = periodsWithPaths.value[next]?.colors ?? [];
 
     return end.map((endColor, i) =>
-      interpolateColor(
+      interpolateColors(
         transition.value,
         [0, 1],
         [start[i] ?? endColor, endColor],
