@@ -1,3 +1,10 @@
+# [7.28.0](https://github.com/lad-tech/mobydick/compare/v7.27.1...v7.28.0) (2024-04-08)
+
+
+### Features
+
+* **tabs:** export tab item [#202](https://github.com/lad-tech/mobydick/issues/202) ([46af26f](https://github.com/lad-tech/mobydick/commit/46af26f0a8454b31bcbf70803ba60dcbe1c0f7b3))
+
 ## [7.27.1](https://github.com/lad-tech/mobydick/compare/v7.27.0...v7.27.1) (2024-04-08)
 
 
