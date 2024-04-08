@@ -1,3 +1,10 @@
+## [7.28.1](https://github.com/lad-tech/mobydick/compare/v7.28.0...v7.28.1) (2024-04-08)
+
+
+### Bug Fixes
+
+* **charts:** changed import interpolateColors ([4e2933e](https://github.com/lad-tech/mobydick/commit/4e2933ec3fcaea9f875a765b7addc2e4e089f625))
+
 # [7.28.0](https://github.com/lad-tech/mobydick/compare/v7.27.1...v7.28.0) (2024-04-08)
 
 
