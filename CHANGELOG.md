@@ -1,3 +1,17 @@
+# [7.27.0](https://github.com/lad-tech/mobydick/compare/v7.26.0...v7.27.0) (2024-04-08)
+
+
+### Bug Fixes
+
+* use flexGrow inside SectionButton ([f0aac9c](https://github.com/lad-tech/mobydick/commit/f0aac9c6ecc4985fc030444f97ff9f9ed6ea5395))
+
+
+### Features
+
+* add Header for BarChart ([1b35531](https://github.com/lad-tech/mobydick/commit/1b35531d6854b04d0bc3e0fc4ffda06b8c286983))
+* add Header for LineChart ([3c133ab](https://github.com/lad-tech/mobydick/commit/3c133aba471ae7418cbef6310d61e881e4fe84fd))
+* **DragAndDrop:** added drag and drop ([0b5c89c](https://github.com/lad-tech/mobydick/commit/0b5c89c768fd210286518750bbcfc05cfc97d3ed))
+
 # [7.26.0](https://github.com/lad-tech/mobydick/compare/v7.25.0...v7.26.0) (2024-04-02)
 
 
