@@ -37,18 +37,22 @@ export type IRenderSectionItem = (
   index: number,
 ) => ReactElement;
 
-export type IRenderTitle = (
-  {
-    period,
-    state,
-    transition,
-  }: {
-    period: string;
-    state: ISharedChartState;
-    transition: IChartTransition;
-  },
-  index: number,
-) => ReactElement;
+export type IRenderHeader = ({
+  selectedPeriodName,
+  state,
+  transition,
+}: {
+  selectedPeriodName: SharedValue<string>;
+  state: ISharedChartState;
+  transition: IChartTransition;
+  selectedValues: SharedValue<ISelectedValues>;
+}) => ReactElement;
+
+export type ISelectedValues = {
+  x: number;
+  y: number;
+  name: string | undefined;
+}[];
 
 export interface IChartState {
   next: number;

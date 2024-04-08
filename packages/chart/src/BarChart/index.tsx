@@ -3,45 +3,49 @@ import {
   Group,
   LinearGradient,
   Skia,
-  Text,
   useCanvasRef,
   useFont,
   vec,
 } from '@shopify/react-native-skia';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {
-  Extrapolation,
-  interpolate,
   interpolateColor,
   useDerivedValue,
   useSharedValue,
 } from 'react-native-reanimated';
-import {useTheme} from '@lad-tech/mobydick-core';
+import {useTheme, View} from '@lad-tech/mobydick-core';
 import {StyleProp, ViewStyle} from 'react-native';
 
-import {IDataset, IFormatter, IRenderSectionItem} from '../types';
 import {
-  chartPaddingVertical,
-  defaultChartHeightDivider,
-} from '../utils/constants';
+  IDataset,
+  IFormatter,
+  IRenderHeader,
+  IRenderSectionItem,
+  ISelectedValues,
+} from '../types';
+import {defaultChartHeightDivider} from '../utils/constants';
 import Coordinates from '../components/Coordinates';
 import {generatePeriodsWithBarPaths} from '../utils/generatePeriodsWithBarPaths';
 import Section from '../components/Section';
 import Line from '../components/Line';
 
 export interface IBarChartProps {
-  title?: string;
   dataset: IDataset;
+  renderHeader?: IRenderHeader;
   renderSectionItem?: IRenderSectionItem;
+  containerStyles?: StyleProp<ViewStyle>;
   sectionContainerStyles?: StyleProp<ViewStyle>;
+  chartContainerStyles?: StyleProp<ViewStyle>;
   formatterX?: IFormatter;
   formatterY?: IFormatter;
 }
 
 export const BarChart = ({
   dataset,
-  title,
+  renderHeader,
   renderSectionItem,
+  containerStyles,
+  chartContainerStyles,
   sectionContainerStyles,
   formatterY,
   formatterX,
@@ -166,62 +170,85 @@ export const BarChart = ({
 
     return end.coordinatesLength;
   });
-  const transform = useDerivedValue(() => {
-    const padding = 16;
-    const width = size.value.width;
-    const newWidth = size.value.width - padding * 2;
 
-    const height = size.value.height;
-    const newHeight = size.value.height - padding * 2;
+  const selectedPeriodName = useDerivedValue(() => {
+    const {next} = state.value;
 
-    const scaleX = interpolate(
-      newWidth,
-      [0, width],
-      [0, 1],
-      Extrapolation.CLAMP,
-    );
+    const periods = Object.keys(dataset);
+    const periodName = periods[next];
 
-    const scaleY = interpolate(
-      newHeight,
-      [0, height],
-      [0, 1],
-      Extrapolation.CLAMP,
-    );
+    if (periodName === undefined) {
+      throw Error('period === undefined');
+    }
+
+    return periodName;
+  });
+
+  const selectedPeriod = useDerivedValue(() => {
+    const check = dataset[selectedPeriodName.value];
+
+    if (check === undefined) {
+      throw Error('selectedPeriod === undefined');
+    }
+
+    return check;
+  });
+
+  const selectedValues = useDerivedValue<ISelectedValues>(() => {
+    const {next} = state.value;
+    const end = periodsWithPaths.value[next];
+
+    if (end === undefined) {
+      throw Error(' end === undefined');
+    }
+
+    const {coordinates, name} = selectedPeriod.value[0] ?? {
+      coordinates: [],
+      name: '',
+    };
+    const {x, y} = coordinates[coordinates.length - 1] ?? {x: 0, y: 0};
 
     return [
-      {translateX: width / 2},
-      {scaleX},
-      {translateX: -width / 2},
-      {translateY: height / 2},
-      {scaleY},
-      {translateY: -height / 2},
+      {
+        name,
+        y,
+        x,
+      },
     ];
   });
 
   if (!font) return null;
 
   return (
-    <>
-      <Canvas
-        ref={ref}
-        onSize={canvasSize}
-        style={{
-          minHeight: frameHeight / defaultChartHeightDivider,
-          backgroundColor: colors.BgPrimary,
+    <View
+      style={[
+        {
+          gap: spaces.Space12,
+          padding: spaces.Space16,
           borderRadius: spaces.Space20,
           borderColor: colors.BorderSoft,
           borderWidth: spaces.Space1,
-        }}>
-        <Group transform={transform}>
-          {title && (
-            <Text
-              font={font}
-              text={title}
-              x={size.value.width / 2 - title.length * 3}
-              y={chartPaddingVertical / 2}
-              color={colors.TextPrimary}
-            />
-          )}
+        },
+        containerStyles,
+      ]}>
+      {renderHeader?.({
+        selectedPeriodName,
+        state,
+        transition,
+        selectedValues,
+      })}
+      <Canvas
+        ref={ref}
+        onSize={canvasSize}
+        style={[
+          {
+            flexGrow: 1,
+            minHeight: frameHeight / defaultChartHeightDivider,
+            backgroundColor: colors.BgPrimary,
+          },
+          chartContainerStyles,
+        ]}>
+        <Group>
           <Group>
             <LinearGradient
               start={vec(0, 0)}
@@ -254,7 +281,7 @@ export const BarChart = ({
           sectionContainerStyles={sectionContainerStyles}
         />
       )}
-    </>
+    </View>
   );
 };
 export default BarChart;

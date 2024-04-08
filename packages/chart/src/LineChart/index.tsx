@@ -1,34 +1,28 @@
-import {
-  Canvas,
-  Group,
-  Text,
-  useCanvasRef,
-  useFont,
-} from '@shopify/react-native-skia';
-import {
-  Extrapolation,
-  interpolate,
-  useDerivedValue,
-  useSharedValue,
-} from 'react-native-reanimated';
+import {Canvas, Group, useCanvasRef, useFont} from '@shopify/react-native-skia';
+import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {StyleProp, ViewStyle} from 'react-native';
-import {useTheme} from '@lad-tech/mobydick-core';
+import {useTheme, View} from '@lad-tech/mobydick-core';
 
 import Coordinates from '../components/Coordinates';
+import {defaultChartHeightDivider} from '../utils/constants';
 import {
-  chartPaddingVertical,
-  defaultChartHeightDivider,
-} from '../utils/constants';
-import {IChartState, IDataset, IFormatter, IRenderSectionItem} from '../types';
+  IChartState,
+  IDataset,
+  IFormatter,
+  IRenderHeader,
+  IRenderSectionItem,
+  ISelectedValues,
+} from '../types';
 import Section from '../components/Section';
 import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
 import {Lines} from '../components/Lines';
 
 export interface ILineChartProps {
-  title?: string;
   dataset: IDataset;
+  renderHeader?: IRenderHeader;
   renderSectionItem?: IRenderSectionItem;
+  containerStyles?: StyleProp<ViewStyle>;
   sectionContainerStyles?: StyleProp<ViewStyle>;
   chartContainerStyles?: StyleProp<ViewStyle>;
   formatterX?: IFormatter;
@@ -38,8 +32,9 @@ export interface ILineChartProps {
 
 export const LineChart = ({
   dataset,
-  title,
+  renderHeader,
   renderSectionItem,
+  containerStyles,
   chartContainerStyles,
   sectionContainerStyles,
   formatterY,
@@ -57,16 +52,9 @@ export const LineChart = ({
 
   const {height: frameHeight, width: frameWidth} = useSafeAreaFrame();
 
-  const canvasSize = useSharedValue({
+  const size = useSharedValue({
     height: frameHeight,
     width: frameWidth,
-  });
-
-  const size = useDerivedValue(() => {
-    return {
-      height: canvasSize.value.height,
-      width: canvasSize.value.width,
-    };
   });
 
   const periodsWithPaths = useDerivedValue(() => {
@@ -140,65 +128,84 @@ export const LineChart = ({
 
     return end.maxCoordinatesLength;
   });
-  const transform = useDerivedValue(() => {
-    const padding = 16;
-    const width = size.value.width;
-    const newWidth = size.value.width - padding * 2;
 
-    const height = size.value.height;
-    const newHeight = size.value.height - padding * 2;
+  const selectedPeriodName = useDerivedValue(() => {
+    const {next} = state.value;
 
-    const scaleX = interpolate(
-      newWidth,
-      [0, width],
-      [0, 1],
-      Extrapolation.CLAMP,
-    );
+    const periods = Object.keys(dataset);
+    const periodName = periods[next];
 
-    const scaleY = interpolate(
-      newHeight,
-      [0, height],
-      [0, 1],
-      Extrapolation.CLAMP,
-    );
+    if (periodName === undefined) {
+      throw Error('period === undefined');
+    }
 
-    return [
-      {translateX: width / 2},
-      {scaleX},
-      {translateX: -width / 2},
-      {translateY: height / 2},
-      {scaleY},
-      {translateY: -height / 2},
-    ];
+    return periodName;
+  });
+
+  const selectedPeriod = useDerivedValue(() => {
+    const check = dataset[selectedPeriodName.value];
+
+    if (check === undefined) {
+      throw Error('selectedPeriod === undefined');
+    }
+
+    return check;
+  });
+
+  const selectedValues = useDerivedValue<ISelectedValues>(() => {
+    const {next} = state.value;
+    const end = periodsWithPaths.value[next];
+
+    if (end === undefined) {
+      throw Error(
+        'period === undefined || end === undefined || selectedPeriod === undefined',
+      );
+    }
+
+    return end.lines.map(({name}, index) => {
+      const lineCoords = selectedPeriod.value[index]?.coordinates ?? [];
+      const {x, y} = lineCoords[lineCoords.length - 1] ?? {x: 0, y: 0};
+
+      return {
+        name,
+        y,
+        x,
+      };
+    });
   });
 
   if (!font) return null;
 
   return (
-    <>
+    <View
+      style={[
+        {
+          gap: spaces.Space12,
+          padding: spaces.Space16,
+          borderRadius: spaces.Space20,
+          borderColor: colors.BorderSoft,
+          borderWidth: spaces.Space1,
+        },
+        containerStyles,
+      ]}>
+      {renderHeader?.({
+        selectedPeriodName,
+        state,
+        transition,
+        selectedValues,
+      })}
       <Canvas
         ref={ref}
-        onSize={canvasSize}
+        onSize={size}
         style={[
           {
+            flexGrow: 1,
             minHeight: frameHeight / defaultChartHeightDivider,
             backgroundColor: colors.BgPrimary,
-            borderRadius: spaces.Space20,
-            borderColor: colors.BorderSoft,
-            borderWidth: spaces.Space1,
           },
           chartContainerStyles,
         ]}>
-        <Group transform={transform}>
-          {title && (
-            <Text
-              text={title}
-              x={size.value.width / 2 - title.length * 3}
-              y={chartPaddingVertical / 2}
-              color={colors.TextPrimary}
-              font={font}
-            />
-          )}
+        <Group>
           <Lines
             periodsWithPaths={periodsWithPaths}
             size={size}
@@ -229,7 +236,7 @@ export const LineChart = ({
           sectionContainerStyles={sectionContainerStyles}
         />
       )}
-    </>
+    </View>
   );
 };
 
