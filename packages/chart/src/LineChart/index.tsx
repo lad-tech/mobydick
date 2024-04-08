@@ -19,7 +19,6 @@ import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePath
 import {Lines} from '../components/Lines';
 
 export interface ILineChartProps {
-  title?: string;
   dataset: IDataset;
   renderHeader?: IRenderHeader;
   renderSectionItem?: IRenderSectionItem;
