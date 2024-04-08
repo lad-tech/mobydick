@@ -39,8 +39,8 @@ export const mockChartDataset: IDataset = {
       coordinates: mockChart(20),
       name: '1 line',
       colors:  [
-        '#ff0000',
-        '#f4e91d',
+        '#0022ff',
+        '#cd1df4',
       ]
     },
     {
@@ -51,10 +51,10 @@ export const mockChartDataset: IDataset = {
       coordinates: mockChart(5),
       name: '3 line',
       colors:  [
-        '#33135b',
+        '#5b3113',
         '#9BE1DA',
         '#c5cd56',
-        '#3b3f8e',
+        '#668e3b',
       ]
     },
   ],
@@ -64,8 +64,8 @@ export const mockChartDataset: IDataset = {
       coordinates: mockChart(20),
       name: '1 line',
       colors:  [
-        '#ff0000',
-        '#f4e91d',
+        '#1c9680',
+        '#479459',
       ]
     },
     {
