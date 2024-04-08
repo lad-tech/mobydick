@@ -55,7 +55,7 @@ export const getCoordinateValues = ({
     const coordinateY = interpolate(
       valueY,
       [minY, maxY],
-      [height - chartPaddingVertical, 0],
+      [height - chartPaddingVertical, chartPaddingVertical / 2],
       Extrapolation.CLAMP,
     );
     const valueYFormatted = formatterY?.(valueY) ?? valueY.toFixed(2);
