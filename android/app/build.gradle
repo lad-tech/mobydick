@@ -95,8 +95,8 @@ android {
         applicationId "com.mobydick"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1541
-        versionName "7.27.0"
+        versionCode 1542
+        versionName "7.27.1"
         testBuildType System.getProperty('testBuildType', 'debug')
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
 

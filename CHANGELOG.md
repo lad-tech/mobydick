@@ -1,3 +1,10 @@
+## [7.27.1](https://github.com/lad-tech/mobydick/compare/v7.27.0...v7.27.1) (2024-04-08)
+
+
+### Bug Fixes
+
+* **getCoordinateValues:** changed coordinateY ([4448a52](https://github.com/lad-tech/mobydick/commit/4448a527e9be93fde3ee50db25af5e3e884a56a2))
+
 # [7.27.0](https://github.com/lad-tech/mobydick/compare/v7.26.0...v7.27.0) (2024-04-08)
 
 
