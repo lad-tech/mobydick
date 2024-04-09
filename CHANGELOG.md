@@ -1,3 +1,10 @@
+## [7.28.3](https://github.com/lad-tech/mobydick/compare/v7.28.2...v7.28.3) (2024-04-09)
+
+
+### Bug Fixes
+
+* **chart:** changed bar coordinates ([64a1594](https://github.com/lad-tech/mobydick/commit/64a1594dcea7b8bf6965ac2c2363a14e57a42cac))
+
 ## [7.28.2](https://github.com/lad-tech/mobydick/compare/v7.28.1...v7.28.2) (2024-04-09)
 
 
