@@ -182,9 +182,10 @@ export const LineChart = ({
         {
           gap: spaces.Space12,
           padding: spaces.Space16,
-          borderRadius: spaces.Space20,
+          borderRadius: spaces.Space12,
           borderColor: colors.BorderSoft,
           borderWidth: spaces.Space1,
+          backgroundColor: colors.BgPrimary,
         },
         containerStyles,
       ]}>
@@ -201,7 +202,6 @@ export const LineChart = ({
           {
             flexGrow: 1,
             minHeight: frameHeight / defaultChartHeightDivider,
-            backgroundColor: colors.BgPrimary,
           },
           chartContainerStyles,
         ]}>
