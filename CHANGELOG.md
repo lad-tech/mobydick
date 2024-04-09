@@ -1,3 +1,10 @@
+## [7.28.2](https://github.com/lad-tech/mobydick/compare/v7.28.1...v7.28.2) (2024-04-09)
+
+
+### Bug Fixes
+
+* update styles in charts ([62fe7bf](https://github.com/lad-tech/mobydick/commit/62fe7bfb3b2ec74acbd27c60b59fd3feb8a9bb34))
+
 ## [7.28.1](https://github.com/lad-tech/mobydick/compare/v7.28.0...v7.28.1) (2024-04-08)
 
 
