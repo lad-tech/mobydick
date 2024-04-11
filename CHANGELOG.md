@@ -1,3 +1,10 @@
+# [7.29.0](https://github.com/lad-tech/mobydick/compare/v7.28.3...v7.29.0) (2024-04-11)
+
+
+### Features
+
+* **icons:** update neotis font ([0fe495f](https://github.com/lad-tech/mobydick/commit/0fe495f87d9e8b34cc37752807270525e844297f))
+
 ## [7.28.3](https://github.com/lad-tech/mobydick/compare/v7.28.2...v7.28.3) (2024-04-09)
 
 
