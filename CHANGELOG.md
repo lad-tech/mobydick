@@ -1,3 +1,10 @@
+## [7.29.2](https://github.com/lad-tech/mobydick/compare/v7.29.1...v7.29.2) (2024-04-12)
+
+
+### Bug Fixes
+
+* **chart:** fix text padding and line weight ([0927695](https://github.com/lad-tech/mobydick/commit/0927695210d2eef02e4ba99ba43bee2f692833dd))
+
 ## [7.29.1](https://github.com/lad-tech/mobydick/compare/v7.29.0...v7.29.1) (2024-04-12)
 
 
