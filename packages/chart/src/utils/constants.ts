@@ -1,5 +1,5 @@
 export const chartPaddingHorizontal = 40;
-export const chartPaddingVertical = 30;
+export const chartPaddingVertical = 40; //Увеличил паддинг на 10, слегка сжав график, чтобы влезал текст под Х координатой
 export const defaultChartHeightDivider = 4;
 export const COLORS = [
   '#E0F5E9',

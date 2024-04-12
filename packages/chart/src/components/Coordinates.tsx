@@ -78,8 +78,8 @@ export const Coordinates = ({
         path={coordinatesPath}
         style="stroke"
         strokeJoin="round"
-        strokeWidth={2}
-        color={colors.BorderHard}
+        strokeWidth={1}
+        color={colors.BorderNormal}
       />
       {coords.value.coordinateValuesY.map((_, index) => {
         return (
