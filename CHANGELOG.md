@@ -1,3 +1,10 @@
+## [7.29.1](https://github.com/lad-tech/mobydick/compare/v7.29.0...v7.29.1) (2024-04-12)
+
+
+### Bug Fixes
+
+* **icons:** fix font unicodes map ([c77e77c](https://github.com/lad-tech/mobydick/commit/c77e77cf8a2c089e87eb9abbe9bc8ec750dc1209))
+
 # [7.29.0](https://github.com/lad-tech/mobydick/compare/v7.28.3...v7.29.0) (2024-04-11)
 
 
