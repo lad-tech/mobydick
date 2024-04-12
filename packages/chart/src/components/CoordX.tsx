@@ -12,6 +12,8 @@ interface ICoordXProps {
   size: SharedValue<{height: number; width: number}>;
 }
 
+const textPadding = 4;
+
 export const CoordX = ({font, size, coords, index, colors}: ICoordXProps) => {
   const path = useDerivedValue(() => {
     const path =
@@ -32,7 +34,7 @@ export const CoordX = ({font, size, coords, index, colors}: ICoordXProps) => {
   });
 
   const y = useDerivedValue(() => {
-    return size.value.height;
+    return size.value.height - textPadding; //Прижимаю текст слегка наверх, чтобы не обрезался
   });
 
   return (
