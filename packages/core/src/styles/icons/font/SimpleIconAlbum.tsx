@@ -1,4 +1,4 @@
-import {FlatListProps, StyleSheet} from 'react-native';
+import {FlatListProps} from 'react-native';
 
 import rem from '../../utils/rem';
 import Pressable from '../../../basic/components/Pressable/Pressable';
@@ -43,10 +43,10 @@ const SimpleIconAlbum = ({
   );
 };
 
-const styles = StyleSheet.create({
+const styles = {
   item: {
     padding: rem(10),
   },
-});
+};
 
 export default SimpleIconAlbum;

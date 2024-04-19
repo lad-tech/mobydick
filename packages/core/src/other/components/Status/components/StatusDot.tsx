@@ -1,11 +1,11 @@
 import {useCallback} from 'react';
-import {StyleSheet, ViewStyle} from 'react-native';
+import {ViewStyle} from 'react-native';
 
 import {IStatusState} from '../types';
 import useTheme from '../../../../styles/hooks/useTheme';
 import useStyles from '../../../../styles/hooks/useStyles';
 import View from '../../../../basic/components/View/View';
-import {IThemeContext} from '../../../../styles/types';
+import {createStyles} from '../../../../styles';
 
 interface IProps {
   state: IStatusState;
@@ -45,13 +45,12 @@ const StatusDot = ({state, style}: IProps) => {
   );
 };
 
-const stylesCreate = ({spaces}: IThemeContext) =>
-  StyleSheet.create({
-    dot: {
-      width: spaces.Space8,
-      height: spaces.Space8,
-      borderRadius: spaces.Space8 / 2,
-    },
-  });
+const stylesCreate = createStyles(({spaces}) => ({
+  dot: {
+    width: spaces.Space8,
+    height: spaces.Space8,
+    borderRadius: spaces.Space8 / 2,
+  },
+}));
 
 export default StatusDot;

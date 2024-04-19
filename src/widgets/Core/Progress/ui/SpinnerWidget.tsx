@@ -1,10 +1,11 @@
-import {StyleSheet} from 'react-native';
-
-import {ISizeSpinner, Spinner, useTheme, View} from 'shared/ui';
+import {createStyles, ISizeSpinner, Spinner, useTheme, View} from 'shared/ui';
 import Header from 'shared/ui/Header';
+import useStyles from '@lad-tech/mobydick-core/src/styles/hooks/useStyles';
 
 export const SpinnerWidget = () => {
   const {colors} = useTheme();
+  const [styles] = useStyles(stylesCreate);
+
   return (
     <>
       <Header title={'Spinner'} />
@@ -20,9 +21,9 @@ export const SpinnerWidget = () => {
   );
 };
 
-const styles = StyleSheet.create({
+const stylesCreate = createStyles(_ => ({
   container: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
   },
-});
+}));

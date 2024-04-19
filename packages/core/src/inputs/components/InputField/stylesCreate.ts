@@ -1,16 +1,9 @@
-import {StyleSheet} from 'react-native';
-
 import {IInputsTypes} from '../types';
 import {disabledStyle, validStyle, wrongStyle} from '../../style';
-import {IThemeContext, rem} from '../../../styles';
+import {createStyles, IThemeContext, rem} from '../../../styles';
 
-const defaultStyle = (
-  theme: IThemeContext,
-  focused: boolean,
-  multiline: boolean,
-) => {
-  const {colors, spaces} = theme;
-  return StyleSheet.create({
+const defaultStyle = createStyles(
+  ({spaces, colors}, multiline: boolean, focused: boolean) => ({
     container: {
       minWidth: rem(130),
     },
@@ -39,8 +32,8 @@ const defaultStyle = (
       color: colors.TextPrimary,
       padding: 0, // Android по дефолту ставит padding на input's
     },
-  });
-};
+  }),
+);
 
 const stylesCreate = (
   theme: IThemeContext,

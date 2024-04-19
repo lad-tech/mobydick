@@ -1,7 +1,8 @@
-import {StyleSheet, ViewStyle} from 'react-native';
+import {ViewStyle} from 'react-native';
 
 import rem from '../../../styles/utils/rem';
 import {IThemeContext} from '../../../styles/types';
+import {createStyles} from '../../../styles';
 
 import {IButtonSize, IButtonTypes} from './types';
 
@@ -69,10 +70,8 @@ const primaryStyle = ({
   leftIcon,
   rightIcon,
   text,
-}: IButtonContents) => {
-  const {colors} = theme;
-
-  return StyleSheet.create({
+}: IButtonContents) =>
+  createStyles(({colors}) => ({
     container: {
       flexDirection: 'row',
       alignItems: 'center',
@@ -90,8 +89,7 @@ const primaryStyle = ({
     counter: {
       marginLeft: theme.spaces.Space2,
     },
-  });
-};
+  }))(theme);
 
 const secondaryStyle = ({
   theme,

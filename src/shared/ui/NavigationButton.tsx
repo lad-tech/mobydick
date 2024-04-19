@@ -1,11 +1,4 @@
-import {StyleSheet} from 'react-native';
-
-import {
-  IThemeContext,
-  TouchableOpacity,
-  Typography,
-  useStyles,
-} from 'shared/ui';
+import {createStyles, TouchableOpacity, Typography, useStyles} from 'shared/ui';
 
 interface INavigationButtonProps {
   text: string;
@@ -21,15 +14,14 @@ const NavigationButton = ({onPress, text}: INavigationButtonProps) => {
   );
 };
 
-const createStylesFn = ({colors, spaces}: IThemeContext) => {
-  return StyleSheet.create({
-    container: {
-      borderColor: colors.BorderNormal,
-      borderWidth: spaces.Space1,
-      borderRadius: spaces.Space8,
-      padding: spaces.Space8,
-      backgroundColor: colors.BgPrimary,
-    },
-  });
-};
+const createStylesFn = createStyles(({spaces, colors}) => ({
+  container: {
+    borderColor: colors.BorderNormal,
+    borderWidth: spaces.Space1,
+    borderRadius: spaces.Space8,
+    padding: spaces.Space8,
+    backgroundColor: colors.BgPrimary,
+  },
+}));
+
 export default NavigationButton;

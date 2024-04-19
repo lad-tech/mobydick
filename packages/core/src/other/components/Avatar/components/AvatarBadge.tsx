@@ -1,5 +1,3 @@
-import {StyleSheet} from 'react-native';
-
 import {IBadge, IBadgeTypes} from '../types';
 import {BadgeIndicator, ICounterSize} from '../../Badge';
 import Counter from '../../Badge/Counter/Counter';
@@ -7,6 +5,7 @@ import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
 import useStyles from '../../../../styles/hooks/useStyles';
 import useTheme from '../../../../styles/hooks/useTheme';
 import rem from '../../../../styles/utils/rem';
+import {createStyles} from '../../../../styles';
 
 interface IProps {
   badge?: IBadge;
@@ -44,23 +43,23 @@ const AvatarBadge = (props: IProps): JSX.Element | null => {
 
   return null;
 };
-const stylesCreate = () =>
-  StyleSheet.create({
-    indicator: {
-      bottom: 2,
-      right: 2,
-    },
-    counter: {
-      position: 'absolute',
-      bottom: -3,
-      right: -3,
-    },
-    status: {
-      position: 'absolute',
-      zIndex: 1,
-      bottom: 0,
-      right: 0,
-    },
-  });
+
+const stylesCreate = createStyles(_ => ({
+  indicator: {
+    bottom: 2,
+    right: 2,
+  },
+  counter: {
+    position: 'absolute',
+    bottom: -3,
+    right: -3,
+  },
+  status: {
+    position: 'absolute',
+    zIndex: 1,
+    bottom: 0,
+    right: 0,
+  },
+}));
 
 export default AvatarBadge;

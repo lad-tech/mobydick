@@ -1,4 +1,5 @@
 import {
+  createStyles,
   Pressable,
   rem,
   SimpleIcon,
@@ -8,7 +9,6 @@ import {
   View,
 } from '@lad-tech/mobydick-core';
 import {FC} from 'react';
-import {StyleSheet} from 'react-native';
 
 import {LABELS} from '../constants';
 import {ITitle} from '../types';
@@ -60,18 +60,17 @@ const CalendarHeader: FC<ICustomHeader> = props => {
 
 export default CalendarHeader;
 
-const stylesCreate = () =>
-  StyleSheet.create({
-    container: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      justifyContent: 'center',
-      paddingTop: rem(12),
-    },
-    title: {
-      width: rem(160),
-      flexDirection: 'row',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-  });
+const stylesCreate = createStyles(_ => ({
+  container: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingTop: rem(12),
+  },
+  title: {
+    width: rem(160),
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+}));

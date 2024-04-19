@@ -1,11 +1,7 @@
-import {StyleSheet} from 'react-native';
-
 import {IPosition} from '../../types';
-import {IThemeContext} from '../../../styles/types';
+import {createStyles} from '../../../styles';
 
-const stylesCreate = (theme: IThemeContext, position?: IPosition) => {
-  const {colors, spaces} = theme;
-
+const stylesCreate = createStyles(({spaces, colors}, position?: IPosition) => {
   const positionStyle = () => {
     switch (position) {
       case IPosition.top:
@@ -35,8 +31,7 @@ const stylesCreate = (theme: IThemeContext, position?: IPosition) => {
         };
     }
   };
-
-  return StyleSheet.create({
+  return {
     container: {
       backgroundColor: colors.BgContrast,
       paddingVertical: spaces.Space8,
@@ -68,7 +63,7 @@ const stylesCreate = (theme: IThemeContext, position?: IPosition) => {
     positionStyle: {
       ...positionStyle(),
     },
-  });
-};
+  };
+});
 
 export default stylesCreate;

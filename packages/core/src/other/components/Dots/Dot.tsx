@@ -19,7 +19,7 @@ const Dot = ({
   activeDotColor,
   passiveDotColor,
 }: IDot): JSX.Element => {
-  const [styles] = useStyles(stylesCreate, size);
+  const [styles] = useStyles(stylesCreate, {size});
   const {colors} = useTheme();
 
   const backgroundColor = useMemo(() => {

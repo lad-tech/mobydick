@@ -1,12 +1,10 @@
-import {StyleSheet} from 'react-native';
-
 import Avatar from '../../other/components/Avatar/Avatar';
 import TouchableOpacity from '../../basic/components/TouchableOpacity/TouchableOpacity';
 import {IAvatarSize} from '../../other';
 import {IChatMessageAvatar} from '../types';
 import View from '../../basic/components/View/View';
 import useStyles from '../../styles/hooks/useStyles';
-import {IThemeContext} from '../../styles';
+import {createStyles} from '../../styles';
 
 import ChatMessage from './ChatMessage';
 
@@ -27,17 +25,16 @@ const ChatMessageAvatar = (props: IChatMessageAvatar) => {
   );
 };
 
-const stylesCreate = ({spaces}: IThemeContext, isMe: boolean) =>
-  StyleSheet.create({
-    container: {
-      flexDirection: 'row',
-      alignSelf: isMe ? 'flex-end' : 'flex-start',
-    },
-    avatar: {
-      paddingRight: spaces.Space8,
-      marginVertical: spaces.Space4,
-      alignSelf: 'flex-end',
-    },
-  });
+const stylesCreate = createStyles(({spaces}, isMe: boolean) => ({
+  container: {
+    flexDirection: 'row',
+    alignSelf: isMe ? 'flex-end' : 'flex-start',
+  },
+  avatar: {
+    paddingRight: spaces.Space8,
+    marginVertical: spaces.Space4,
+    alignSelf: 'flex-end',
+  },
+}));
 
 export default ChatMessageAvatar;

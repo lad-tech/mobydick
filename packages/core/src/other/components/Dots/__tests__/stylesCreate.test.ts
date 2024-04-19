@@ -8,7 +8,7 @@ describe('dots/stylesCreate', () => {
   it('must return', () => {
     const {result} = renderHook(() => useTheme());
 
-    expect(stylesCreate(result.current)).toEqual({
+    expect(stylesCreate(result.current, {size: 12})).toEqual({
       dot: {
         width: rem(8),
         height: rem(8),

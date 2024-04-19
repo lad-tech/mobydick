@@ -1,11 +1,10 @@
 import {FC} from 'react';
-import {StyleSheet} from 'react-native';
 
 import View from '../../../basic/components/View/View';
 import {Typography} from '../../../typography';
 import rem from '../../../styles/utils/rem';
 import useStyles from '../../../styles/hooks/useStyles';
-import {IThemeContext} from '../../../styles';
+import {createStyles} from '../../../styles';
 
 import Avatar from './Avatar';
 import {IAvatarGroupProps} from './types';
@@ -67,46 +66,44 @@ const AvatarGroup: FC<IAvatarGroupProps> = props => {
 
 export default AvatarGroup;
 
-const stylesCreate = ({colors, spaces}: IThemeContext, length: number) => {
-  return StyleSheet.create({
-    container: {
-      flexDirection: 'row',
-      maxWidth:
-        length > 3
-          ? spaces.Space40 * 4 - rem(36)
-          : spaces.Space40 * length - spaces.Space12 * (length - 1),
-    },
-    countView: {
-      width: spaces.Space40,
-      height: spaces.Space40,
-      borderRadius: spaces.Space20,
-      backgroundColor: colors.BgSecondary,
-      justifyContent: 'center',
-      zIndex: 4,
-      right: rem(36),
+const stylesCreate = createStyles(({spaces, colors}, length: number) => ({
+  container: {
+    flexDirection: 'row',
+    maxWidth:
+      length > 3
+        ? spaces.Space40 * 4 - rem(36)
+        : spaces.Space40 * length - spaces.Space12 * (length - 1),
+  },
+  countView: {
+    width: spaces.Space40,
+    height: spaces.Space40,
+    borderRadius: spaces.Space20,
+    backgroundColor: colors.BgSecondary,
+    justifyContent: 'center',
+    zIndex: 4,
+    right: rem(36),
 
-      borderWidth: spaces.Space2,
-      borderColor: colors.BgPrimary,
-    },
-    countText: {
-      alignSelf: 'center',
-      textAlign: 'center',
-    },
-    avatarOne: {
-      zIndex: 1,
-    },
-    avatarTwo: {
-      right: spaces.Space12,
+    borderWidth: spaces.Space2,
+    borderColor: colors.BgPrimary,
+  },
+  countText: {
+    alignSelf: 'center',
+    textAlign: 'center',
+  },
+  avatarOne: {
+    zIndex: 1,
+  },
+  avatarTwo: {
+    right: spaces.Space12,
 
-      zIndex: 2,
-    },
-    avatarThree: {
-      right: spaces.Space24,
-      zIndex: 3,
-    },
-    avatarFour: {
-      right: rem(36),
-      zIndex: 4,
-    },
-  });
-};
+    zIndex: 2,
+  },
+  avatarThree: {
+    right: spaces.Space24,
+    zIndex: 3,
+  },
+  avatarFour: {
+    right: rem(36),
+    zIndex: 4,
+  },
+}));
