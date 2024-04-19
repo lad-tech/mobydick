@@ -1,13 +1,12 @@
 import {FC, useCallback} from 'react';
 import {
+  createStyles,
   FlatList,
-  IThemeContext,
   Pressable,
   Typography,
   useStyles,
   useTheme,
 } from '@lad-tech/mobydick-core';
-import {StyleSheet} from 'react-native';
 
 import {LABELS} from '../constants';
 
@@ -66,16 +65,15 @@ const Months: FC<IMonths> = props => {
 
 export default Months;
 
-const stylesCreate = ({spaces}: IThemeContext) =>
-  StyleSheet.create({
-    month: {
-      flex: 3,
-      paddingVertical: spaces.Space20,
-      alignItems: 'center',
-      borderRadius: spaces.Space4,
-    },
-    container: {
-      width: '100%',
-      alignContent: 'center',
-    },
-  });
+const stylesCreate = createStyles(({spaces}) => ({
+  month: {
+    flex: 3,
+    paddingVertical: spaces.Space20,
+    alignItems: 'center',
+    borderRadius: spaces.Space4,
+  },
+  container: {
+    width: '100%',
+    alignContent: 'center',
+  },
+}));

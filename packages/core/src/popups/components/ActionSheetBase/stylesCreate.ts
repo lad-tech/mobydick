@@ -1,13 +1,11 @@
-import {StyleSheet, ViewStyle} from 'react-native';
+import {ViewStyle} from 'react-native';
 
 import rem from '../../../styles/utils/rem';
-import {IThemeContext} from '../../../styles/types';
+import {createStyles} from '../../../styles';
 
 import {IItemType} from './types';
 
-const stylesCreate = (theme: IThemeContext, itemType?: IItemType) => {
-  const {colors, spaces} = theme;
-
+const stylesCreate = createStyles(({spaces, colors}, itemType?: IItemType) => {
   const getItemStyle = (): ViewStyle => {
     switch (itemType) {
       case IItemType.firstItem:
@@ -42,7 +40,8 @@ const stylesCreate = (theme: IThemeContext, itemType?: IItemType) => {
         };
     }
   };
-  return StyleSheet.create({
+
+  return {
     overlayStyle: {
       justifyContent: 'flex-end',
     },
@@ -70,7 +69,7 @@ const stylesCreate = (theme: IThemeContext, itemType?: IItemType) => {
     textSelected: {
       paddingVertical: rem(15),
     },
-  });
-};
+  };
+});
 
 export default stylesCreate;

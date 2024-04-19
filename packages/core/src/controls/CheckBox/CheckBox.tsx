@@ -19,7 +19,7 @@ const CheckBox: FC<IControlProps & IPressableProps> = ({children, ...rest}) => {
     width,
     height,
   } = rest;
-  const [styles] = useStyles(stylesCreate, disabled, selected, width, height);
+  const [styles] = useStyles(stylesCreate, {disabled, selected, width, height});
 
   return (
     <Pressable

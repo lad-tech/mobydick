@@ -1,5 +1,5 @@
 import {useCallback, useMemo, useState} from 'react';
-import {LayoutAnimation, Platform, StyleSheet, UIManager} from 'react-native';
+import {LayoutAnimation, Platform, UIManager} from 'react-native';
 
 import {Typography} from '../../../typography';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
@@ -8,7 +8,7 @@ import View from '../../../basic/components/View/View';
 import useTheme from '../../../styles/hooks/useTheme';
 import useStyles from '../../../styles/hooks/useStyles';
 import {LABELS} from '../../constants';
-import {IThemeContext} from '../../../styles/types';
+import {createStyles} from '../../../styles';
 
 import {ICollapsibleProps} from './types';
 
@@ -35,7 +35,7 @@ const Collapsible = (props: ICollapsibleProps) => {
     isAnimated = true,
     titleBottomView,
   } = props;
-  const [styles] = useStyles(createStyles);
+  const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
   const [collapsed, setCollapsed] = useState(initialState);
 
@@ -71,20 +71,19 @@ const Collapsible = (props: ICollapsibleProps) => {
   );
 };
 
-const createStyles = ({spaces}: IThemeContext) =>
-  StyleSheet.create({
-    container: {
-      width: '100%',
-      padding: spaces.Space20,
-    },
-    header: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      justifyContent: 'space-between',
-    },
-    title: {
-      flex: 1,
-    },
-  });
+const stylesCreate = createStyles(({spaces}) => ({
+  container: {
+    width: '100%',
+    padding: spaces.Space20,
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  title: {
+    flex: 1,
+  },
+}));
 
 export default Collapsible;

@@ -1,9 +1,10 @@
 import {FC} from 'react';
-import {StyleSheet} from 'react-native';
 
 import View from '../../../basic/components/View/View';
 import {Typography} from '../../../typography';
 import rem from '../../../styles/utils/rem';
+import {createStyles} from '../../../styles';
+import useStyles from '../../../styles/hooks/useStyles';
 
 import {ICrossedTextProps} from './types';
 
@@ -13,18 +14,25 @@ const CrossedText: FC<ICrossedTextProps> = ({
   lineColor,
   lineHeight = rem(1),
   ...props
-}) => (
-  <View style={style}>
-    <Typography {...props}>{children}</Typography>
-    <View style={styles.crossed}>
-      <View
-        style={[styles.line, {backgroundColor: lineColor, height: lineHeight}]}
-      />
-    </View>
-  </View>
-);
+}) => {
+  const [styles] = useStyles(stylesCreate);
 
-const styles = StyleSheet.create({
+  return (
+    <View style={style}>
+      <Typography {...props}>{children}</Typography>
+      <View style={styles.crossed}>
+        <View
+          style={[
+            styles.line,
+            {backgroundColor: lineColor, height: lineHeight},
+          ]}
+        />
+      </View>
+    </View>
+  );
+};
+
+const stylesCreate = createStyles(_ => ({
   crossed: {
     width: '100%',
     height: '100%',
@@ -35,6 +43,6 @@ const styles = StyleSheet.create({
   line: {
     width: '100%',
   },
-});
+}));
 
 export default CrossedText;

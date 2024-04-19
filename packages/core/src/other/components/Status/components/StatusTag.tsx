@@ -1,12 +1,12 @@
 import {useCallback} from 'react';
-import {StyleSheet, ViewStyle} from 'react-native';
+import {ViewStyle} from 'react-native';
 
 import {IStatusState} from '../types';
 import useStyles from '../../../../styles/hooks/useStyles';
 import useTheme from '../../../../styles/hooks/useTheme';
 import {Typography} from '../../../../typography';
 import View from '../../../../basic/components/View/View';
-import {IThemeContext} from '../../../../styles/types';
+import {createStyles} from '../../../../styles';
 
 interface IProps {
   state: IStatusState;
@@ -70,13 +70,12 @@ const StatusTag = ({state, text, style}: IProps) => {
   );
 };
 
-const stylesCreate = ({spaces}: IThemeContext) =>
-  StyleSheet.create({
-    tag: {
-      paddingVertical: spaces.Space2,
-      paddingHorizontal: spaces.Space6,
-      borderRadius: spaces.Space4,
-    },
-  });
+const stylesCreate = createStyles(({spaces}) => ({
+  tag: {
+    paddingVertical: spaces.Space2,
+    paddingHorizontal: spaces.Space6,
+    borderRadius: spaces.Space4,
+  },
+}));
 
 export default StatusTag;

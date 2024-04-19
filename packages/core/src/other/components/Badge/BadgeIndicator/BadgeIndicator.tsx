@@ -1,11 +1,10 @@
 import {FC, useCallback} from 'react';
-import {StyleSheet} from 'react-native';
 
 import View from '../../../../basic/components/View/View';
 import useStyles from '../../../../styles/hooks/useStyles';
 import useTheme from '../../../../styles/hooks/useTheme';
 import rem from '../../../../styles/utils/rem';
-import {IThemeContext} from '../../../../styles';
+import {createStyles} from '../../../../styles';
 
 import {IBadgeIndicatorProps, IIndicatorTypes} from './types';
 
@@ -31,15 +30,14 @@ const BadgeIndicator: FC<IBadgeIndicatorProps> = ({type, style}) => {
 };
 export default BadgeIndicator;
 
-const stylesCreate = ({spaces, colors}: IThemeContext) =>
-  StyleSheet.create({
-    indicator: {
-      position: 'absolute',
-      zIndex: 1,
-      width: rem(9),
-      height: rem(9),
-      borderRadius: rem(9) / 2,
-      borderColor: colors.BgPrimary,
-      borderWidth: spaces.Space1,
-    },
-  });
+const stylesCreate = createStyles(({spaces, colors}) => ({
+  indicator: {
+    position: 'absolute',
+    zIndex: 1,
+    width: rem(9),
+    height: rem(9),
+    borderRadius: rem(9) / 2,
+    borderColor: colors.BgPrimary,
+    borderWidth: spaces.Space1,
+  },
+}));

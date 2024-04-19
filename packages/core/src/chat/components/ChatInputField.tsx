@@ -1,6 +1,6 @@
-import {Platform, StyleSheet} from 'react-native';
+import {Platform} from 'react-native';
 
-import {IThemeContext, rem} from '../../styles';
+import {createStyles, rem} from '../../styles';
 import InputField from '../../inputs/components/InputField/InputField';
 import useStyles from '../../styles/hooks/useStyles';
 import {LABELS} from '../../other';
@@ -22,29 +22,28 @@ const ChatInputField = (props: IInputFieldsProps) => {
   );
 };
 
-const stylesCreate = ({spaces}: IThemeContext) =>
-  StyleSheet.create({
-    inputContainer: {
-      minHeight: rem(38),
-      maxHeight: rem(196),
-      width: '100%',
-      borderWidth: undefined,
-      marginVertical: 0,
-      alignItems: 'center',
-      paddingVertical: Platform.select({
-        android: spaces.Space4,
-        ios: spaces.Space8,
-      }),
-    },
-    container: {
-      flex: 1,
-      flexDirection: 'column',
-      minWidth: undefined,
-      marginRight: spaces.Space2,
-    },
-    textInput: {
-      paddingTop: 0,
-    },
-  });
+const stylesCreate = createStyles(({spaces}) => ({
+  inputContainer: {
+    minHeight: rem(38),
+    maxHeight: rem(196),
+    width: '100%',
+    borderWidth: undefined,
+    marginVertical: 0,
+    alignItems: 'center',
+    paddingVertical: Platform.select({
+      android: spaces.Space4,
+      ios: spaces.Space8,
+    }),
+  },
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    minWidth: undefined,
+    marginRight: spaces.Space2,
+  },
+  textInput: {
+    paddingTop: 0,
+  },
+}));
 
 export default ChatInputField;
