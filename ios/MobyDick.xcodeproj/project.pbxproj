@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		272031E6FE7D4743AECB0E44 /* Neotis.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72366087416423695188D1F /* Neotis.ttf */; };
 		34BD882A9663416A85F437BD /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4B870A4D224592AB180528 /* Inter-Medium.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-MobyDick-MobyDickTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MobyDick-MobyDickTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -20,7 +21,6 @@
 		B2580B9BEBC34E8C8296F4F9 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED3C107DB30644458A97FAC3 /* Inter-SemiBold.ttf */; };
 		B2B39CE66E2E4D22937563CB /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67B4FAB9822A49BB973439F8 /* Inter-Bold.ttf */; };
 		DE59D0FB01F349C3A4E48E93 /* Inter-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC09545204134690B5D0062E /* Inter-Italic.ttf */; };
-		272031E6FE7D4743AECB0E44 /* Neotis.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72366087416423695188D1F /* Neotis.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +54,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MobyDick/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MobyDick-MobyDickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyDick-MobyDickTests.release.xcconfig"; path = "Target Support Files/Pods-MobyDick-MobyDickTests/Pods-MobyDick-MobyDickTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC09545204134690B5D0062E /* Inter-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Italic.ttf"; path = "../node_modules/@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Italic.ttf"; sourceTree = "<group>"; };
+		B72366087416423695188D1F /* Neotis.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Neotis.ttf; path = "../node_modules/@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts/Neotis.ttf"; sourceTree = "<group>"; };
 		C9208F4754A44ACDB1009C42 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../node_modules/@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED3C107DB30644458A97FAC3 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../node_modules/@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
-		B72366087416423695188D1F /* Neotis.ttf */ = {isa = PBXFileReference; name = "Neotis.ttf"; path = "../node_modules/@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts/Neotis.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -608,6 +608,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -633,6 +634,10 @@
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -675,6 +680,10 @@
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -697,6 +706,10 @@
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
