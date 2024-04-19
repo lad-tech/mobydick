@@ -3,7 +3,7 @@ import {disabledStyle, validStyle, wrongStyle} from '../../style';
 import {createStyles, IThemeContext, rem} from '../../../styles';
 
 const defaultStyle = createStyles(
-  ({spaces, colors}, multiline: boolean, focused: boolean) => ({
+  ({spaces, colors}, focused: boolean, multiline: boolean) => ({
     container: {
       minWidth: rem(130),
     },

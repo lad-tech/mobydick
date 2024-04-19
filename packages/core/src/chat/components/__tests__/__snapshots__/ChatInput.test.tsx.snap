@@ -54,9 +54,9 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
         style={
           [
             {
-              "alignItems": "center",
+              "alignItems": undefined,
               "backgroundColor": "#EEEFF1",
-              "borderColor": "rgba(32, 36, 45, 0.3)",
+              "borderColor": "transparent",
               "borderRadius": 12,
               "borderWidth": 1.5,
               "flexDirection": "row",
@@ -101,7 +101,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
                 "paddingLeft": 27,
                 "paddingRight": 24,
                 "paddingVertical": 18,
-                "textAlignVertical": undefined,
+                "textAlignVertical": "top",
               },
               {
                 "color": "#20242D",
@@ -234,9 +234,9 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
         style={
           [
             {
-              "alignItems": "center",
+              "alignItems": undefined,
               "backgroundColor": "#EEEFF1",
-              "borderColor": "rgba(32, 36, 45, 0.3)",
+              "borderColor": "transparent",
               "borderRadius": 12,
               "borderWidth": 1.5,
               "flexDirection": "row",
@@ -281,7 +281,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
                 "paddingLeft": 27,
                 "paddingRight": 24,
                 "paddingVertical": 18,
-                "textAlignVertical": undefined,
+                "textAlignVertical": "top",
               },
               [
                 {
@@ -419,9 +419,9 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
         style={
           [
             {
-              "alignItems": "center",
+              "alignItems": undefined,
               "backgroundColor": "#EEEFF1",
-              "borderColor": "rgba(32, 36, 45, 0.3)",
+              "borderColor": "transparent",
               "borderRadius": 12,
               "borderWidth": 1.5,
               "flexDirection": "row",
@@ -466,7 +466,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
                 "paddingLeft": 27,
                 "paddingRight": 24,
                 "paddingVertical": 18,
-                "textAlignVertical": undefined,
+                "textAlignVertical": "top",
               },
               {
                 "color": "#20242D",

@@ -217,7 +217,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
     style={
       [
         {
-          "alignItems": undefined,
+          "alignItems": "center",
           "backgroundColor": "#D1D4DB",
           "borderColor": "#D1D4DB",
           "borderRadius": 12,
@@ -252,7 +252,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
             "paddingLeft": 27,
             "paddingRight": 24,
             "paddingVertical": 18,
-            "textAlignVertical": "top",
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -285,9 +285,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
     style={
       [
         {
-          "alignItems": undefined,
+          "alignItems": "center",
           "backgroundColor": "#EEEFF1",
-          "borderColor": "transparent",
+          "borderColor": "rgba(32, 36, 45, 0.3)",
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
@@ -320,7 +320,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
             "paddingLeft": 27,
             "paddingRight": 24,
             "paddingVertical": 18,
-            "textAlignVertical": "top",
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -539,9 +539,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
     style={
       [
         {
-          "alignItems": "center",
+          "alignItems": undefined,
           "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "transparent",
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
@@ -574,7 +574,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
             "paddingLeft": 27,
             "paddingRight": 24,
             "paddingVertical": 18,
-            "textAlignVertical": undefined,
+            "textAlignVertical": "top",
           },
           [
             {
@@ -810,7 +810,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
     style={
       [
         {
-          "alignItems": undefined,
+          "alignItems": "center",
           "backgroundColor": "rgba(43, 120, 238, 0.15)",
           "borderColor": "#2B78EE",
           "borderRadius": 12,
@@ -845,7 +845,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
             "paddingLeft": 27,
             "paddingRight": 24,
             "paddingVertical": 18,
-            "textAlignVertical": "top",
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
@@ -987,7 +987,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
     style={
       [
         {
-          "alignItems": undefined,
+          "alignItems": "center",
           "backgroundColor": "rgba(245, 77, 61, 0.15)",
           "borderColor": "#F54D3D",
           "borderRadius": 12,
@@ -1022,7 +1022,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
             "paddingLeft": 27,
             "paddingRight": 24,
             "paddingVertical": 18,
-            "textAlignVertical": "top",
+            "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",

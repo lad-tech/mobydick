@@ -23,9 +23,9 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
     style={
       [
         {
-          "alignItems": "center",
+          "alignItems": undefined,
           "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "transparent",
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
@@ -71,7 +71,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
             "paddingLeft": 27,
             "paddingRight": 24,
             "paddingVertical": 18,
-            "textAlignVertical": undefined,
+            "textAlignVertical": "top",
           },
           {
             "color": "#20242D",
@@ -211,9 +211,9 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
     style={
       [
         {
-          "alignItems": "center",
+          "alignItems": undefined,
           "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "transparent",
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
@@ -258,7 +258,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
             "paddingLeft": 27,
             "paddingRight": 24,
             "paddingVertical": 18,
-            "textAlignVertical": undefined,
+            "textAlignVertical": "top",
           },
           {
             "color": "#20242D",
@@ -304,9 +304,9 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
     style={
       [
         {
-          "alignItems": "center",
+          "alignItems": undefined,
           "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "transparent",
           "borderRadius": 12,
           "borderWidth": 1.5,
           "flexDirection": "row",
@@ -354,7 +354,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
             "paddingLeft": 27,
             "paddingRight": 24,
             "paddingVertical": 18,
-            "textAlignVertical": undefined,
+            "textAlignVertical": "top",
           },
           {
             "color": "#20242D",
