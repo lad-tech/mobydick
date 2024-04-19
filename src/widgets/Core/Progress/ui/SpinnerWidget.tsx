@@ -1,6 +1,12 @@
-import {createStyles, ISizeSpinner, Spinner, useTheme, View} from 'shared/ui';
+import {
+  createStyles,
+  ISizeSpinner,
+  Spinner,
+  useTheme,
+  View,
+  useStyles,
+} from 'shared/ui';
 import Header from 'shared/ui/Header';
-import useStyles from '@lad-tech/mobydick-core/src/styles/hooks/useStyles';
 
 export const SpinnerWidget = () => {
   const {colors} = useTheme();
