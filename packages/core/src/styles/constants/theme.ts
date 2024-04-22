@@ -36,6 +36,7 @@ export const defaultFonts: TWeights = {
   Italic: 'Inter-Italic',
   BoldItalic: 'Inter-BoldItalic',
 };
+
 export const defaultTheme: IDefaultTheme = {
   currentTheme: CurrentTheme.light,
   colors: {
