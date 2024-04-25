@@ -1,5 +1,5 @@
 name: Prepare
-description: 'Install dependencies'
+description: 'Prepare node and install dependencies'
 
 runs:
   using: "composite"

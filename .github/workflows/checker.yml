@@ -1,0 +1,23 @@
+name: Checker
+
+on:
+  workflow_call:
+  workflow_dispatch:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [ 20.11.x ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+      - name: install
+        uses: ./.github/actions/install
+      - name: lint
+        uses: ./.github/actions/lint
+      - name: test
+        uses: ./.github/actions/test

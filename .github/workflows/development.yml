@@ -1,0 +1,23 @@
+name: Development
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  checker:
+    uses:  ./.github/workflows/checker.yml
+  android:
+    needs: [checker]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [ 20.11.x ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+      - name: install
+        uses: ./.github/actions/install
+      - name: android
+        uses: ./.github/actions/android
