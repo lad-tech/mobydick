@@ -6,14 +6,14 @@ on:
     branches: [ "main" ]
 
 jobs:
-  install:
-    uses: ./.github/workflows/install.yml
-  release:
+  android:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node: [ 20.11.x ]
     steps:
+      - name: install
+        uses: ./.github/actions/install
       - name: add release.keystore
         env:
           ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}

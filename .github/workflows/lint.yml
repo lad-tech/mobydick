@@ -7,9 +7,8 @@ on:
     branches: [ "main" ]
 
 jobs:
-  install:
-    uses: ./.github/workflows/install.yml
   lint:
+    needs: [install]
     runs-on: ubuntu-latest
     strategy:
       matrix:

@@ -5,8 +5,6 @@ on:
     branches: [ "docs", "main" ]
 
 jobs:
-  install:
-    uses: ./.github/workflows/install.yml
   docs:
     runs-on: ubuntu-latest
     strategy:

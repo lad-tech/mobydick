@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  install:
-    uses: ./.github/workflows/install.yml
   release:
     runs-on: ubuntu-latest
     strategy:
