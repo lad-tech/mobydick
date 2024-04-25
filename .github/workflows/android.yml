@@ -6,40 +6,14 @@ on:
     branches: [ "main" ]
 
 jobs:
+  install:
+    uses: ./.github/workflows/install.yml
   release:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node: [ 20.11.x ]
     steps:
-      - name: Check out Git repository # clone the repo to local ci workspace
-        uses: actions/checkout@v3.5.3
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GH_TOKEN }}
-
-      - name: Setup node
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node }}
-          registry-url: 'https://registry.npmjs.org'
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >> "$GITHUB_OUTPUT"
-
-      - name: Restore node_modules from cache
-        uses: actions/cache@v1.2.1
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-
-      - name: Install dependencies # install project deps with --frozen-lockfile to make sure we will have the same packages version ( very recommended  on running yarn install on ci)
-        run: yarn install --frozen-lockfile
-
       - name: add release.keystore
         env:
           ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
@@ -53,10 +27,9 @@ jobs:
           echo "MYAPP_UPLOAD_KEY_ALIAS=${MYAPP_UPLOAD_KEY_ALIAS}" >> ./${CUSTOM_DIR}/android/gradle.properties
           echo "MYAPP_UPLOAD_STORE_PASSWORD=${MYAPP_UPLOAD_STORE_PASSWORD}" >> ./${CUSTOM_DIR}/android/gradle.properties
 
-
       - name: build apk
         run: |
-         yarn android:get:apk
+         yarn android:get:release
 
       - name: Archive production apk
         uses: actions/upload-artifact@v4
