@@ -14,8 +14,8 @@ import {
   IElementColors,
   IIconColors,
   ITextColors,
+  IShadow,
 } from './constants';
-import {getShadows} from './shadows/getShadows';
 
 export type IStylesTypes = Record<string, ViewStyle | TextStyle | ImageStyle>;
 export type ICurrentTheme = CurrentTheme | string;
@@ -36,7 +36,7 @@ export interface IDefaultTheme {
   >;
   spaces: IDefaultSpaces;
   fonts: TWeights;
-  shadows: ReturnType<typeof getShadows>;
+  shadows: IShadow;
 }
 
 export interface IThemeContext {
@@ -53,7 +53,7 @@ export interface IThemeContext {
     IBannerColors;
   spaces: IDefaultSpaces;
   fonts: TWeights;
-  shadows: ReturnType<typeof getShadows>;
+  shadows: IShadow;
 
   setTheme: (theme: IDefaultTheme) => void;
   setCurrentTheme: (theme: ICurrentTheme) => void;

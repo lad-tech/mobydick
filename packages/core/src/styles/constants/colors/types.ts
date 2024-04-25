@@ -1,3 +1,7 @@
+import {ImageStyle, TextStyle, ViewStyle} from 'react-native';
+
+import {IShadowKeys} from '../../shadows';
+
 export type ITextColors = {
   TextPrimary: string;
   TextSecondary: string;
@@ -145,3 +149,5 @@ export type IBannerColors = {
   BannerSeventhHard: string;
   BannerSeventhSoft: string;
 };
+
+export type IShadow = Record<IShadowKeys, ViewStyle | TextStyle | ImageStyle>;
