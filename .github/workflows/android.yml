@@ -12,6 +12,8 @@ jobs:
       matrix:
         node: [ 20.11.x ]
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
       - name: install
         uses: ./.github/actions/install
       - name: add release.keystore
