@@ -3,10 +3,16 @@ description: 'Build android'
 
 runs:
   using: "composite"
+  env:
+    GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+    ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+    MYAPP_UPLOAD_KEY_ALIAS: ${{ secrets.MYAPP_UPLOAD_KEY_ALIAS }}
+    MYAPP_UPLOAD_KEY_PASSWORD: ${{ secrets.MYAPP_UPLOAD_KEY_PASSWORD }}
+    MYAPP_UPLOAD_STORE_PASSWORD: ${{ secrets.MYAPP_UPLOAD_STORE_PASSWORD }}
   steps:
     - name: add release.keystore
       shell: bash
-      env:
+      with:
         ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
         MYAPP_UPLOAD_KEY_ALIAS: ${{ secrets.MYAPP_UPLOAD_KEY_ALIAS }}
         MYAPP_UPLOAD_KEY_PASSWORD: ${{ secrets.MYAPP_UPLOAD_KEY_PASSWORD }}
@@ -37,7 +43,7 @@ runs:
 
     - name: add GOOGLE_API_KEY
       shell: bash
-      env:
+      with:
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       run: |
         echo ${GOOGLE_API_KEY} > GOOGLE_API_KEY.json
