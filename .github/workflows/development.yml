@@ -13,11 +13,8 @@ jobs:
     uses:  ./.github/workflows/checker.yml
   android:
     needs: [checker]
-    environment: Production
+    environment: production
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node: [ 20.11.x ]
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.1
