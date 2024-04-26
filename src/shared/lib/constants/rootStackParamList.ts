@@ -1,4 +1,4 @@
-import { SCREENS } from 'shared/lib/constants/screens';
+import { SCREENS } from '@shared/lib/constants/screens';
 
 type IRootStackParamList = {
   [SCREENS.Home]: undefined,
@@ -31,6 +31,7 @@ type IRootStackParamList = {
   [SCREENS.KeyboardAwareScrollViewWithTabs]: undefined
   [SCREENS.KeyboardAwareScrollViewWithBottomAndTabs]: undefined
   [SCREENS.DragAndDrop]: undefined
+  [SCREENS.Markdown]: undefined
 }
 
 export default IRootStackParamList
