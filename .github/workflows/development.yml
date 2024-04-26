@@ -6,15 +6,9 @@ on:
 jobs:
   checker:
     uses:  ./.github/workflows/checker.yml
-  android:
-    runs-on: ubuntu-latest
+  release:
     needs: [checker]
-    environment: production
-    concurrency: android
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4.1.1
-      - name: install
-        uses: ./.github/actions/install
-      - name: android
-        uses: ./.github/actions/android
+    uses: ./.github/workflows/release.yml
+  build:
+    needs: [release]
+    uses: ./.github/workflows/build.yml
