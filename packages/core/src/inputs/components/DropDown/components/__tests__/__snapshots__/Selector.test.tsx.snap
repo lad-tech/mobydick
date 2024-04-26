@@ -96,7 +96,7 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom flatList styles 1`] = 
       onScrollEndDrag={[Function]}
       removeClippedSubviews={false}
       renderItem={[Function]}
-      scrollEventThrottle={50}
+      scrollEventThrottle={0.0001}
       stickyHeaderIndices={[]}
       viewabilityConfigCallbackPairs={[]}
     >
@@ -262,7 +262,7 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with array in selected
       onScrollEndDrag={[Function]}
       removeClippedSubviews={false}
       renderItem={[Function]}
-      scrollEventThrottle={50}
+      scrollEventThrottle={0.0001}
       stickyHeaderIndices={[]}
       viewabilityConfigCallbackPairs={[]}
     >
@@ -483,7 +483,7 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with empty array in se
       onScrollEndDrag={[Function]}
       removeClippedSubviews={false}
       renderItem={[Function]}
-      scrollEventThrottle={50}
+      scrollEventThrottle={0.0001}
       stickyHeaderIndices={[]}
       viewabilityConfigCallbackPairs={[]}
     >
@@ -698,7 +698,7 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem TouchableHig
       onScrollEndDrag={[Function]}
       removeClippedSubviews={false}
       renderItem={[Function]}
-      scrollEventThrottle={50}
+      scrollEventThrottle={0.0001}
       stickyHeaderIndices={[]}
       viewabilityConfigCallbackPairs={[]}
     >
@@ -862,7 +862,7 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography  
       onScrollEndDrag={[Function]}
       removeClippedSubviews={false}
       renderItem={[Function]}
-      scrollEventThrottle={50}
+      scrollEventThrottle={0.0001}
       stickyHeaderIndices={[]}
       viewabilityConfigCallbackPairs={[]}
     >
@@ -1024,7 +1024,7 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography w
       onScrollEndDrag={[Function]}
       removeClippedSubviews={false}
       renderItem={[Function]}
-      scrollEventThrottle={50}
+      scrollEventThrottle={0.0001}
       stickyHeaderIndices={[]}
       viewabilityConfigCallbackPairs={[]}
     >
@@ -1188,7 +1188,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly 1`] = `
       onScrollEndDrag={[Function]}
       removeClippedSubviews={false}
       renderItem={[Function]}
-      scrollEventThrottle={50}
+      scrollEventThrottle={0.0001}
       stickyHeaderIndices={[]}
       viewabilityConfigCallbackPairs={[]}
     >
@@ -1372,7 +1372,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
       onScrollEndDrag={[Function]}
       removeClippedSubviews={false}
       renderItem={[Function]}
-      scrollEventThrottle={50}
+      scrollEventThrottle={0.0001}
       stickyHeaderIndices={[]}
       viewabilityConfigCallbackPairs={[]}
     >
