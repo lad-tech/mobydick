@@ -1,0 +1,44 @@
+name: Ios
+description: 'Build ios'
+
+inputs:
+  EXPORT_OPTION:
+    description: EXPORT_OPTION
+    required: true
+  IOS_SCHEME:
+    description: IOS_SCHEME
+    required: true
+  APP_STORE_API_ISSUER:
+    description: APP_STORE_API_ISSUER
+    required: true
+  APP_STORE_API_KEY:
+    description: MYAPP_UPLOAD_STORE_PASSWORD
+    required: true
+
+
+runs:
+  using: "composite"
+  steps:
+    - name: install pods
+      shell: bash
+      run: |
+        cd ./${CUSTOM_DIR}/ios
+        NO_FLIPPER=1 pod install
+    - name: install pods
+      shell: bash
+      run: |
+        cd ./${CUSTOM_DIR}/ios
+        NO_FLIPPER=1 pod install
+        echo ${ExportOptions} > ExportOptions.plist
+    - name: archive
+      shell: bash
+      run: |
+        xcodebuild -workspace ${IOS_SCHEME}.xcworkspace -scheme $IOS_SCHEME -sdk iphoneos archive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -allowProvisioningUpdates -quiet
+    - name: exportArchive
+      shell: bash
+      run: |
+        xcodebuild -exportArchive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -exportOptionsPlist ${PWD}/ExportOptions.plist -exportPath $PWD/build -authenticationKeyIssuerID $APP_STORE_API_ISSUER -authenticationKeyID $APP_STORE_API_KEY -allowProvisioningUpdates -quiet
+    - name: publish
+      shell: bash
+      run: |
+        xcrun altool --upload-app -f ./build/*.ipa -t ios --apiKey $APP_STORE_API_KEY --apiIssuer $APP_STORE_API_ISSUER
