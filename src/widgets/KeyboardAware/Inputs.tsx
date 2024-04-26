@@ -1,4 +1,4 @@
-import {createStyles, InputField, useStyles, View} from 'shared/ui';
+import {createStyles, InputField, useStyles, View} from '@shared/ui';
 
 export const Inputs = () => {
   const [styles] = useStyles(style);

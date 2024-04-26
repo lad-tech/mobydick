@@ -9,7 +9,7 @@ import {
   ISharedChartState,
   Typography,
   useStyles,
-} from 'shared/ui';
+} from '@shared/ui';
 
 interface IProps {
   period: string;

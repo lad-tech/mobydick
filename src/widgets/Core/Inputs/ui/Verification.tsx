@@ -1,8 +1,8 @@
 import {useCallback, useRef, useState} from 'react';
 import {Keyboard, TextInput} from 'react-native';
 
-import Header from 'shared/ui/Header';
-import {CodeField, createStyles, useStyles, View} from 'shared/ui';
+import Header from '@shared/ui/Header';
+import {CodeField, createStyles, useStyles, View} from '@shared/ui';
 
 const Verification = () => {
   const [styles] = useStyles(styleSource);

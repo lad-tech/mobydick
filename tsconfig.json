@@ -2,46 +2,46 @@
   "exclude": ["docs/*"],
   "compilerOptions": {
     "paths": {
-      "shared": [
+      "@shared": [
         "./src/shared"
       ],
-      "shared/*": [
+      "@shared/*": [
         "./src/shared/*"
       ],
-      "entities": [
+      "@entities": [
         "./src/entities"
       ],
-      "entities/*": [
+      "@entities/*": [
         "./src/entities/*"
       ],
-      "features": [
+      "@features": [
         "./src/features"
       ],
-      "features/*": [
+      "@features/*": [
         "./src/features/*"
       ],
-      "widgets": [
+      "@widgets": [
         "./src/widgets"
       ],
-      "widgets/*": [
+      "@widgets/*": [
         "./src/widgets/*"
       ],
-      "pages": [
+      "@pages": [
         "./src/pages"
       ],
-      "pages/*": [
+      "@pages/*": [
         "./src/pages/*"
       ],
-      "precesses": [
+      "@precesses": [
         "./src/precesses"
       ],
-      "precesses/*": [
+      "@precesses/*": [
         "./src/precesses/*"
       ],
-      "app": [
+      "@app": [
         "./src/app"
       ],
-      "app/*": [
+      "@app/*": [
         "./src/app/*"
       ]
     },

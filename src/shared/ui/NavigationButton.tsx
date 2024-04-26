@@ -1,4 +1,9 @@
-import {createStyles, TouchableOpacity, Typography, useStyles} from 'shared/ui';
+import {
+  createStyles,
+  TouchableOpacity,
+  Typography,
+  useStyles,
+} from '@shared/ui';
 
 interface INavigationButtonProps {
   text: string;

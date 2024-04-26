@@ -8,9 +8,9 @@ import {
   Typography,
   useStyles,
   View,
-} from 'shared/ui';
-import Header from 'shared/ui/Header';
-import {BlockView} from 'shared/ui/BlockView';
+} from '@shared/ui';
+import Header from '@shared/ui/Header';
+import {BlockView} from '@shared/ui/BlockView';
 
 const data: number[] = [1, 2, 3, 4, 5, 6];
 const ITEM_WIDTH = rem(80);
