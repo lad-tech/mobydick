@@ -2,8 +2,8 @@ name: Ios
 description: 'Build ios'
 
 inputs:
-  EXPORT_OPTION:
-    description: EXPORT_OPTION
+  EXPORT_OPTIONS:
+    description: EXPORT_OPTIONS
     required: true
   IOS_SCHEME:
     description: IOS_SCHEME
@@ -24,12 +24,12 @@ runs:
       run: |
         cd ./${CUSTOM_DIR}/ios
         NO_FLIPPER=1 pod install
-    - name: install pods
+    - name: prepare
       shell: bash
       run: |
         cd ./${CUSTOM_DIR}/ios
         NO_FLIPPER=1 pod install
-        echo ${ExportOptions} > ExportOptions.plist
+        echo ${EXPORT_OPTIONS} > ExportOptions.plist
     - name: archive
       shell: bash
       run: |
