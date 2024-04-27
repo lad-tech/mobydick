@@ -9,8 +9,10 @@ const usePopup = <P>(modal: FC<P & IContentProps>) => {
   return {
     open: (props?: IPopup<P>['props']) => {
       id.current = MobyDickPopup.openPopup({
-        Content: modal as FC<IContentProps>,
-        props: props || {},
+        Content: modal,
+        props:
+          props ||
+          ({} as Omit<P, keyof IContentProps> & Partial<IContentProps>),
       });
     },
     close: () => {
