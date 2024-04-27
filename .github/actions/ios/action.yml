@@ -15,15 +15,9 @@ inputs:
     description: MYAPP_UPLOAD_STORE_PASSWORD
     required: true
 
-
 runs:
   using: "composite"
   steps:
-    - name: install pods
-      shell: bash
-      run: |
-        cd ./${CUSTOM_DIR}/ios
-        NO_FLIPPER=1 pod install
     - name: prepare
       shell: bash
       env:
@@ -38,8 +32,10 @@ runs:
         IOS_SCHEME: ${{ inputs.IOS_SCHEME }}
         APP_STORE_API_ISSUER: ${{ inputs.APP_STORE_API_ISSUER }}
         APP_STORE_API_KEY: ${{ inputs.APP_STORE_API_KEY }}
+        TEST: ${{ inputs.TEST }}
       run: |
-        xcodebuild -workspace ${IOS_SCHEME}.xcworkspace -scheme $IOS_SCHEME -sdk iphoneos archive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -allowProvisioningUpdates -quiet
+        cd ./${CUSTOM_DIR}/ios
+        xcodebuild -workspace ${IOS_SCHEME}.xcworkspace -scheme $IOS_SCHEME -sdk iphoneos archive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -authenticationKeyPath ~/private_keys/AuthKey_${APP_STORE_API_KEY}.p8 -authenticationKeyIssuerID $APP_STORE_API_ISSUER -authenticationKeyID $APP_STORE_API_KEY -allowProvisioningUpdates -quiet
     - name: exportArchive
       shell: bash
       env:
@@ -47,11 +43,13 @@ runs:
         APP_STORE_API_ISSUER: ${{ inputs.APP_STORE_API_ISSUER }}
         APP_STORE_API_KEY: ${{ inputs.APP_STORE_API_KEY }}
       run: |
-        xcodebuild -exportArchive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -exportOptionsPlist ${PWD}/ExportOptions.plist -exportPath $PWD/build -authenticationKeyIssuerID $APP_STORE_API_ISSUER -authenticationKeyID $APP_STORE_API_KEY -allowProvisioningUpdates -quiet
+        cd ./${CUSTOM_DIR}/ios
+        xcodebuild -exportArchive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -exportOptionsPlist ${PWD}/ExportOptions.plist -exportPath $PWD/build -authenticationKeyPath ~/private_keys/AuthKey_${APP_STORE_API_KEY}.p8 -authenticationKeyIssuerID $APP_STORE_API_ISSUER -authenticationKeyID $APP_STORE_API_KEY -allowProvisioningUpdates -quiet
     - name: publish
       shell: bash
       env:
         APP_STORE_API_ISSUER: ${{ inputs.APP_STORE_API_ISSUER }}
         APP_STORE_API_KEY: ${{ inputs.APP_STORE_API_KEY }}
       run: |
+        cd ./${CUSTOM_DIR}/ios
         xcrun altool --upload-app -f ./build/*.ipa -t ios --apiKey $APP_STORE_API_KEY --apiIssuer $APP_STORE_API_ISSUER
