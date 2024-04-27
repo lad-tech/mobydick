@@ -34,7 +34,7 @@ runs:
         APP_STORE_API_KEY: ${{ inputs.APP_STORE_API_KEY }}
       run: |
         cd ./${CUSTOM_DIR}/ios
-        xcodebuild -workspace ${IOS_SCHEME}.xcworkspace -scheme $IOS_SCHEME -sdk iphoneos archive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -authenticationKeyPath ~/private_keys/AuthKey_${APP_STORE_API_KEY}.p8 -authenticationKeyIssuerID $APP_STORE_API_ISSUER -authenticationKeyID $APP_STORE_API_KEY -allowProvisioningUpdates
+        xcodebuild -workspace ${IOS_SCHEME}.xcworkspace -scheme $IOS_SCHEME -sdk iphoneos archive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -authenticationKeyPath ~/private_keys/AuthKey_${APP_STORE_API_KEY}.p8 -authenticationKeyIssuerID $APP_STORE_API_ISSUER -authenticationKeyID $APP_STORE_API_KEY -allowProvisioningUpdates -quiet
     - name: exportArchive
       shell: bash
       env:
@@ -43,7 +43,7 @@ runs:
         APP_STORE_API_KEY: ${{ inputs.APP_STORE_API_KEY }}
       run: |
         cd ./${CUSTOM_DIR}/ios
-        xcodebuild -exportArchive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -exportOptionsPlist ${PWD}/ExportOptions.plist -exportPath $PWD/build -authenticationKeyPath ~/private_keys/AuthKey_${APP_STORE_API_KEY}.p8 -authenticationKeyIssuerID $APP_STORE_API_ISSUER -authenticationKeyID $APP_STORE_API_KEY -allowProvisioningUpdates
+        xcodebuild -exportArchive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -exportOptionsPlist ${PWD}/ExportOptions.plist -exportPath $PWD/build -authenticationKeyPath ~/private_keys/AuthKey_${APP_STORE_API_KEY}.p8 -authenticationKeyIssuerID $APP_STORE_API_ISSUER -authenticationKeyID $APP_STORE_API_KEY -allowProvisioningUpdates -quiet
     - name: publish
       shell: bash
       env:
