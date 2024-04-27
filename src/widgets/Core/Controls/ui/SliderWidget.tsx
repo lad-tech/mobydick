@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-import {createStyles, Slider, Typography, useStyles, View} from 'shared/ui';
+import {createStyles, Slider, Typography, useStyles, View} from '@shared/ui';
 
 export const SliderWidget = () => {
   const [styles] = useStyles(styleFn);

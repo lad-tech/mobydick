@@ -4,9 +4,9 @@ Implement of debounce function
 
 ```tsx
 import {useState} from 'react';
-import {useDebounce} from 'shared/lib';
-import {createStyles, Search, SimpleIcon, useStyles, View} from 'shared/ui';
-import Header from 'shared/ui/Header';
+import {useDebounce} from '@shared/lib';
+import {createStyles, Search, SimpleIcon, useStyles, View} from '@shared/ui';
+import Header from '@shared/ui/Header';
 
 const ExampleSearch = () => {
   const [styles] = useStyles(styleSource);

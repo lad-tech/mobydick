@@ -8,7 +8,7 @@ import {
   Typography,
   useStyles,
   View,
-} from 'shared/ui';
+} from '@shared/ui';
 
 export const ControlListWidget = () => {
   const [styles] = useStyles(styleFn);

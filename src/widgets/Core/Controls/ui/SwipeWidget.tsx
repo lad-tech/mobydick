@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-import {Swipe, Typography, View} from 'shared/ui';
+import {Swipe, Typography, View} from '@shared/ui';
 
 export const SwipeWidget = () => {
   const [active, setActive] = useState(false);

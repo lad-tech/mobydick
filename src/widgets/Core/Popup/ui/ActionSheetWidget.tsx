@@ -5,7 +5,7 @@ import {
   Typography,
   usePopups,
   View,
-} from 'shared/ui';
+} from '@shared/ui';
 
 export const ActionSheetWidget = () => {
   const {openPopup} = usePopups();
