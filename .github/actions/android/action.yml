@@ -18,7 +18,6 @@ inputs:
     description: GOOGLE_API_KEY
     required: true
 
-
 runs:
   using: "composite"
   steps:
