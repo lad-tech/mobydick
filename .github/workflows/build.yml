@@ -21,21 +21,21 @@ jobs:
           IOS_SCHEME: ${{ secrets.IOS_SCHEME }}
           APP_STORE_API_ISSUER: ${{ secrets.APP_STORE_API_ISSUER }}
           APP_STORE_API_KEY: ${{ secrets.APP_STORE_API_KEY }}
-  android:
-    runs-on: [self-hosted, macOS, ARM64, mobile]
-    environment: production-android
-    concurrency: android
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4.1.1
-      - name: install
-        uses: ./.github/actions/install
-      - name: android
-        uses: ./.github/actions/android
-        with:
-          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-          MYAPP_UPLOAD_KEY_ALIAS: ${{ secrets.MYAPP_UPLOAD_KEY_ALIAS }}
-          MYAPP_UPLOAD_KEY_PASSWORD: ${{ secrets.MYAPP_UPLOAD_KEY_PASSWORD }}
-          MYAPP_UPLOAD_STORE_PASSWORD: ${{ secrets.MYAPP_UPLOAD_STORE_PASSWORD }}
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-
+#  android:
+#    runs-on: [self-hosted, macOS, ARM64, mobile]
+#    environment: production-android
+#    concurrency: android
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v4.1.1
+#      - name: install
+#        uses: ./.github/actions/install
+#      - name: android
+#        uses: ./.github/actions/android
+#        with:
+#          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+#          MYAPP_UPLOAD_KEY_ALIAS: ${{ secrets.MYAPP_UPLOAD_KEY_ALIAS }}
+#          MYAPP_UPLOAD_KEY_PASSWORD: ${{ secrets.MYAPP_UPLOAD_KEY_PASSWORD }}
+#          MYAPP_UPLOAD_STORE_PASSWORD: ${{ secrets.MYAPP_UPLOAD_STORE_PASSWORD }}
+#          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+#
