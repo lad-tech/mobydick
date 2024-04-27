@@ -24,6 +24,10 @@ const HomeScreen = () => {
         text={SCREENS.DragAndDrop}
         onPress={move(SCREENS.DragAndDrop)}
       />
+      <NavigationButton
+        text={SCREENS.Markdown}
+        onPress={move(SCREENS.Markdown)}
+      />
     </View>
   );
 };

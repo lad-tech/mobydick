@@ -31,6 +31,7 @@ type IRootStackParamList = {
   [SCREENS.KeyboardAwareScrollViewWithTabs]: undefined
   [SCREENS.KeyboardAwareScrollViewWithBottomAndTabs]: undefined
   [SCREENS.DragAndDrop]: undefined
+  [SCREENS.Markdown]: undefined
 }
 
 export default IRootStackParamList
