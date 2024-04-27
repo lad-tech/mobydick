@@ -38,7 +38,6 @@ runs:
         TEST: ${{ inputs.TEST }}
       run: |
         cd ./${CUSTOM_DIR}/ios
-#        security unlock-keychain -p $TEST login.keychain
         xcodebuild -workspace ${IOS_SCHEME}.xcworkspace -scheme $IOS_SCHEME -sdk iphoneos archive -archivePath ${PWD}/build/${IOS_SCHEME}.xcarchive -authenticationKeyPath ~/private_keys/AuthKey_${APP_STORE_API_KEY}.p8 -authenticationKeyIssuerID $APP_STORE_API_ISSUER -authenticationKeyID $APP_STORE_API_KEY -allowProvisioningUpdates -quiet
     - name: exportArchive
       shell: bash
