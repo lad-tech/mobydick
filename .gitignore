@@ -59,9 +59,12 @@ yarn-error.log
 /ios/Pods/
 /vendor/bundle/
 
-coverage
+# testing
+/coverage
 /test-report.xml
+
 /packages/**/lib/**
+
 /env.json
 
 # Temporary files created by Metro to check the health of the file watcher

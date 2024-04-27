@@ -5,11 +5,18 @@ exports[`Swipe should renders correctly active 1`] = `
   accessibilityLabel="swipe"
   collapsable={false}
   needsOffscreenAlphaCompositing={true}
-  onMoveShouldSetPanResponder={[Function]}
-  onPanResponderGrant={[Function]}
-  onPanResponderMove={[Function]}
-  onPanResponderRelease={[Function]}
-  onStartShouldSetPanResponder={[Function]}
+  onMoveShouldSetResponder={[Function]}
+  onMoveShouldSetResponderCapture={[Function]}
+  onResponderEnd={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderReject={[Function]}
+  onResponderRelease={[Function]}
+  onResponderStart={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onStartShouldSetResponderCapture={[Function]}
   style={
     {
       "backgroundColor": "rgba(182, 187, 198, 1)",
@@ -45,11 +52,18 @@ exports[`Swipe should renders correctly active and disabled 1`] = `
   accessibilityLabel="swipe"
   collapsable={false}
   needsOffscreenAlphaCompositing={true}
-  onMoveShouldSetPanResponder={[Function]}
-  onPanResponderGrant={[Function]}
-  onPanResponderMove={[Function]}
-  onPanResponderRelease={[Function]}
-  onStartShouldSetPanResponder={[Function]}
+  onMoveShouldSetResponder={[Function]}
+  onMoveShouldSetResponderCapture={[Function]}
+  onResponderEnd={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderReject={[Function]}
+  onResponderRelease={[Function]}
+  onResponderStart={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onStartShouldSetResponderCapture={[Function]}
   style={
     {
       "backgroundColor": "rgba(43, 120, 238, 1)",

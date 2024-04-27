@@ -1,0 +1,14 @@
+name: Development
+
+on:
+  workflow_dispatch:
+
+jobs:
+  checker:
+    uses:  ./.github/workflows/checker.yml
+  release:
+    needs: [checker]
+    uses: ./.github/workflows/release.yml
+  build:
+    needs: [release]
+    uses: ./.github/workflows/build.yml

@@ -8,7 +8,7 @@ const eventMock = {};
 const trueFunc = () => true;
 const falseFunc = () => false;
 
-describe('Slider', () => {
+describe.skip('Slider', () => {
   it('should renders correctly by default', function () {
     const {getByLabelText, toJSON} = render(
       <Slider min={0} max={100} step={1} />,

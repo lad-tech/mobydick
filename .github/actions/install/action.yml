@@ -1,0 +1,15 @@
+name: Prepare
+description: 'Prepare node and install dependencies'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Setup node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20.11.x
+        cache: yarn
+        cache-dependency-path: yarn.lock
+    - name: Install dependencies # install project deps with --frozen-lockfile to make sure we will have the same packages version ( very recommended  on running yarn install on ci)
+      shell: bash
+      run: yarn install --frozen-lockfile
