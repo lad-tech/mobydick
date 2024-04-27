@@ -19,11 +19,6 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: install pods
-      shell: bash
-      run: |
-        cd ./${CUSTOM_DIR}/ios
-        NO_FLIPPER=1 pod install
     - name: prepare
       shell: bash
       env:
