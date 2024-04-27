@@ -1,0 +1,42 @@
+{
+  "name": "@lad-tech/mobydick-markdown",
+  "version": "7.29.2",
+  "description": "React Native components library focused on usability, accessibility and developer experience",
+  "main": "lib/index",
+  "module": "lib/index",
+  "types": "lib/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "keywords": [
+    "mobydick",
+    "lad-tech",
+    "react-native",
+    "reanimated"
+  ],
+  "files": [
+    "lib",
+    "src",
+    "index.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lad-tech/mobydick.git",
+    "directory": "packages/markdown"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ksenia Petrova <petrovakd@lad24.ru>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.66.4",
+    "react": ">=17.0.2",
+    "@lad-tech/mobydick-core": "7.29.2",
+    "react-native-markdown-display": ">=7.0.2"
+  }
+}

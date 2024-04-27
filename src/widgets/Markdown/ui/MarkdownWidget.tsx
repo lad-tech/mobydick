@@ -1,51 +1,11 @@
-import Markdown from 'react-native-markdown-display';
-
-import {
-  createStyles,
-  rem,
-  ScrollView,
-  useFont,
-  useStyles,
-  View,
-} from '@shared/ui';
+import {createStyles, Markdown, ScrollView, useStyles, View} from '@shared/ui';
 
 export const MarkdownWidget = () => {
-  const [styles, {colors}] = useStyles(stylesFn);
-  const {fontStyle: bodyFontStyle} = useFont('Regular-Primary-XXS');
-  const {fontStyle: strongFontStyle} = useFont('SemiBold-Primary-XXS');
-
-  const style = {
-    body: {
-      fontFamily: bodyFontStyle.fontFamily,
-      fontSize: bodyFontStyle.fontSize,
-      color: bodyFontStyle.color,
-    },
-    heading1: {
-      fontSize: rem(24),
-    },
-    heading2: {
-      fontSize: rem(20),
-    },
-    heading3: {
-      fontSize: rem(18),
-    },
-    strong: {
-      fontFamily: strongFontStyle.fontFamily,
-    },
-    code_inline: {
-      backgroundColor: colors.BgSecondary,
-    },
-    code_block: {
-      backgroundColor: colors.BgSecondary,
-    },
-    fence: {
-      backgroundColor: colors.BgSecondary,
-    },
-  };
+  const [styles] = useStyles(stylesFn);
 
   return (
     <ScrollView style={styles.container}>
-      <Markdown style={style}>{markdown}</Markdown>
+      <Markdown>{markdown}</Markdown>
       <View style={styles.footer} />
     </ScrollView>
   );
