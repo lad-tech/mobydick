@@ -7,6 +7,7 @@ runs:
     - name: Setup node
       uses: actions/setup-node@v4
       with:
+        registry-url: 'https://registry.npmjs.org/'
         node-version: 20.11.x
         cache: yarn
         cache-dependency-path: yarn.lock
