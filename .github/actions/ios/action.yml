@@ -35,6 +35,7 @@ runs:
         IOS_SCHEME: ${{ inputs.IOS_SCHEME }}
         APP_STORE_API_ISSUER: ${{ inputs.APP_STORE_API_ISSUER }}
         APP_STORE_API_KEY: ${{ inputs.APP_STORE_API_KEY }}
+        TEST: ${{ inputs.TEST }}
       run: |
         cd ./${CUSTOM_DIR}/ios
         security unlock-keychain -p $TEST login.keychain
