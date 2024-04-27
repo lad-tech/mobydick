@@ -15,7 +15,6 @@ inputs:
     description: MYAPP_UPLOAD_STORE_PASSWORD
     required: true
 
-
 runs:
   using: "composite"
   steps:
