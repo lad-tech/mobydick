@@ -4532,7 +4532,7 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
           style={
             [
               {
-                "color": "#2B78EE",
+                "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
@@ -27150,7 +27150,7 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
           style={
             [
               {
-                "color": "#2B78EE",
+                "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 27,
                 "lineHeight": 33,
