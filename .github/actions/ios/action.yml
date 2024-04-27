@@ -14,9 +14,6 @@ inputs:
   APP_STORE_API_KEY:
     description: MYAPP_UPLOAD_STORE_PASSWORD
     required: true
-  TEST:
-    description: TEST
-    required: true
 
 runs:
   using: "composite"
