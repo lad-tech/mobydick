@@ -1,3 +1,18 @@
+# [7.31.0](https://github.com/lad-tech/mobydick/compare/v7.30.0...v7.31.0) (2024-05-02)
+
+
+### Bug Fixes
+
+* **app:** fix tests for createstyles ([894144e](https://github.com/lad-tech/mobydick/commit/894144e27eae84ac0933ce3cc95e4525d2b0237d))
+* **Button:** changed getDefaultFont ([61c9f4c](https://github.com/lad-tech/mobydick/commit/61c9f4c332ac5416898e7dceaa52cfeeca93af9e))
+
+
+### Features
+
+* **app:** use createStyles typed func ([82cc18a](https://github.com/lad-tech/mobydick/commit/82cc18a55b034a85f92b439ce2f3b5c57d74633c))
+* **fsd:** add layer prefix [#221](https://github.com/lad-tech/mobydick/issues/221) ([d60129b](https://github.com/lad-tech/mobydick/commit/d60129b6d0b76ad2e579768f575f69797cba6f0e))
+* **markdown:** add markdown lib and styling [#223](https://github.com/lad-tech/mobydick/issues/223) ([c0cdb8b](https://github.com/lad-tech/mobydick/commit/c0cdb8b2f690d513292494d5aa0e1a24ee25fbbc))
+
 ## [7.29.2](https://github.com/lad-tech/mobydick/compare/v7.29.1...v7.29.2) (2024-04-12)
 
 
