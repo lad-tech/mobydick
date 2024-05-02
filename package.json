@@ -6,7 +6,7 @@
   "scripts": {
     "prepare": "husky install",
     "postinstall": "npx patch-package",
-    "postversion": "./scripts/semantic-release.ts --skipPublish true",
+    "postversion": "./scripts/semantic-release.ts",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
