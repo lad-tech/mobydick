@@ -10,3 +10,13 @@
 - [@lad-tech/mobydick-core/progress](./src/progress/README.md)
 - [@lad-tech/mobydick-core/styles](./src/styles/README.md)
 - [@lad-tech/mobydick-core/typography](./src/typography/README.md)
+
+## Installation
+
+```shell
+yarn add @lad-tech/mobydick-core react-native-svg react-native-svg-transformer react-native-safe-area-context
+```
+
+## Documentation
+
+https://lad-tech.github.io/mobydick/docs/guides/core/Introduction
