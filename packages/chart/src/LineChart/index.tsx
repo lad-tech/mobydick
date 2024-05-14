@@ -11,6 +11,7 @@ import {
   interpolate,
   useDerivedValue,
   useSharedValue,
+  withTiming,
 } from 'react-native-reanimated';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {StyleProp, ViewStyle} from 'react-native';
@@ -205,7 +206,34 @@ export const LineChart = ({
   const y = useSharedValue(-10);
 
   const pan = Gesture.Pan()
-    .onChange(event => {
+    .onBegin(event => {
+      x.value = withTiming(
+        interpolate(
+          event.x,
+          [
+            chartPaddingHorizontal + chartPaddingHorizontal / 2,
+            size.value.width - chartPaddingHorizontal / 2,
+          ],
+          [
+            chartPaddingHorizontal + chartPaddingHorizontal / 2,
+            size.value.width - chartPaddingHorizontal / 2,
+          ],
+          Extrapolation.CLAMP,
+        ),
+        {duration: 150},
+      );
+
+      y.value = withTiming(
+        interpolate(
+          event.y,
+          [size.value.height - chartPaddingVertical, chartPaddingVertical / 2],
+          [size.value.height - chartPaddingVertical, chartPaddingVertical / 2],
+          Extrapolation.CLAMP,
+        ),
+        {duration: 150},
+      );
+    })
+    .onUpdate(event => {
       x.value = interpolate(
         event.x,
         [
@@ -227,8 +255,8 @@ export const LineChart = ({
       );
     })
     .onEnd(() => {
-      x.value = -10;
-      y.value = -10;
+      x.value = withTiming(-10, {duration: 150});
+      y.value = withTiming(-10, {duration: 150});
     });
 
   const text = useDerivedValue(() => {
