@@ -10,9 +10,9 @@ interface IXLine {
 }
 
 const XLine: FC<IXLine> = ({x, size}) => {
-  const line1 = useDerivedValue(() => vec(x.value, chartPaddingVertical));
+  const line1 = useDerivedValue(() => vec(x.value, 0));
   const line2 = useDerivedValue(() =>
-    vec(x.value, size.value.height - chartPaddingVertical),
+    vec(x.value, size.value.height - chartPaddingVertical / 2),
   );
 
   return (
