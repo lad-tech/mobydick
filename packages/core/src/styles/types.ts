@@ -1,21 +1,21 @@
 import {ImageStyle, TextStyle, ViewStyle} from 'react-native';
 
+import {TWeights} from '../typography';
+
 import {
   CurrentTheme,
-  defaultBannerLightColor,
-  defaultBgLightColor,
-  defaultBorderLightColor,
-  defaultCategoryLightColor,
-  defaultChartLightColor,
-  defaultCTALightColor,
-  defaultElementLightColor,
-  defaultFonts,
-  defaultIconLightColor,
-  defaultSpaces,
-  defaultTextLightColor,
-  defaultTheme,
+  IDefaultSpaces,
+  IBannerColors,
+  IBgColors,
+  IBorderColors,
+  ICategoryColors,
+  IChartColors,
+  ICTAColors,
+  IElementColors,
+  IIconColors,
+  ITextColors,
+  IShadow,
 } from './constants';
-import {getShadows} from './shadows/getShadows';
 
 export type IStylesTypes = Record<string, ViewStyle | TextStyle | ImageStyle>;
 export type ICurrentTheme = CurrentTheme | string;
@@ -24,36 +24,36 @@ export interface IDefaultTheme {
   currentTheme: ICurrentTheme;
   colors: Record<
     ICurrentTheme,
-    typeof defaultTextLightColor &
-      typeof defaultElementLightColor &
-      typeof defaultIconLightColor &
-      typeof defaultBgLightColor &
-      typeof defaultCTALightColor &
-      typeof defaultBorderLightColor &
-      typeof defaultChartLightColor &
-      typeof defaultCategoryLightColor &
-      typeof defaultBannerLightColor
+    ITextColors &
+      IElementColors &
+      IIconColors &
+      IBgColors &
+      ICTAColors &
+      IBorderColors &
+      IChartColors &
+      ICategoryColors &
+      IBannerColors
   >;
-  spaces: typeof defaultSpaces;
-  fonts: typeof defaultFonts;
-  shadows: ReturnType<typeof getShadows>;
+  spaces: IDefaultSpaces;
+  fonts: TWeights;
+  shadows: IShadow;
 }
 
 export interface IThemeContext {
-  theme: typeof defaultTheme;
+  theme: IDefaultTheme;
   currentTheme: ICurrentTheme;
-  colors: typeof defaultTextLightColor &
-    typeof defaultElementLightColor &
-    typeof defaultIconLightColor &
-    typeof defaultBgLightColor &
-    typeof defaultCTALightColor &
-    typeof defaultBorderLightColor &
-    typeof defaultChartLightColor &
-    typeof defaultCategoryLightColor &
-    typeof defaultBannerLightColor;
-  spaces: typeof defaultSpaces;
-  fonts: typeof defaultFonts;
-  shadows: ReturnType<typeof getShadows>;
+  colors: ITextColors &
+    IElementColors &
+    IIconColors &
+    IBgColors &
+    ICTAColors &
+    IBorderColors &
+    IChartColors &
+    ICategoryColors &
+    IBannerColors;
+  spaces: IDefaultSpaces;
+  fonts: TWeights;
+  shadows: IShadow;
 
   setTheme: (theme: IDefaultTheme) => void;
   setCurrentTheme: (theme: ICurrentTheme) => void;

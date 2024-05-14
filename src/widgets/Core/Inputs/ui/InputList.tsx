@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-import Header from 'shared/ui/Header';
+import Header from '@shared/ui/Header';
 import {
   createStyles,
   IInputsTypes,
@@ -9,7 +9,7 @@ import {
   SimpleIcon,
   useStyles,
   View,
-} from 'shared/ui';
+} from '@shared/ui';
 
 const InputList = () => {
   const [styles] = useStyles(styleSource);

@@ -1,5 +1,11 @@
 ## @lad-tech/mobydick-calendar
 
-## ***ModalCalendar***
-`onDateRangeChange` – работает при нажатии `Применить` и `Отменить`, если вам нужно зафиксировать, что вы, например, отменили выбранные даты;
-`onAcceptDateRangeChange` – работает при нажатии `Применить`;
+## Installation
+
+```shell
+yarn add @lad-tech/mobydick-core react-native-calendars @lad-tech/mobydick-calendar 
+```
+
+## Documentation
+
+https://lad-tech.github.io/mobydick/docs/guides/calendar/Introduction

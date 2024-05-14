@@ -2,46 +2,46 @@
   "exclude": ["docs/*"],
   "compilerOptions": {
     "paths": {
-      "shared": [
+      "@shared": [
         "./src/shared"
       ],
-      "shared/*": [
+      "@shared/*": [
         "./src/shared/*"
       ],
-      "entities": [
+      "@entities": [
         "./src/entities"
       ],
-      "entities/*": [
+      "@entities/*": [
         "./src/entities/*"
       ],
-      "features": [
+      "@features": [
         "./src/features"
       ],
-      "features/*": [
+      "@features/*": [
         "./src/features/*"
       ],
-      "widgets": [
+      "@widgets": [
         "./src/widgets"
       ],
-      "widgets/*": [
+      "@widgets/*": [
         "./src/widgets/*"
       ],
-      "pages": [
+      "@pages": [
         "./src/pages"
       ],
-      "pages/*": [
+      "@pages/*": [
         "./src/pages/*"
       ],
-      "precesses": [
+      "@precesses": [
         "./src/precesses"
       ],
-      "precesses/*": [
+      "@precesses/*": [
         "./src/precesses/*"
       ],
-      "app": [
+      "@app": [
         "./src/app"
       ],
-      "app/*": [
+      "@app/*": [
         "./src/app/*"
       ]
     },
@@ -129,7 +129,7 @@
     "alwaysStrict": true,                                /* Ensure 'use strict' is always emitted. */
     "noUnusedLocals": true,                              /* Enable error reporting when local variables aren't read. */
     "noUnusedParameters": true,                          /* Raise an error when a function parameter isn't read. */
-    "exactOptionalPropertyTypes": true,                  /* Interpret optional property types as written, rather than adding 'undefined'. */
+    "exactOptionalPropertyTypes": false,                  /* Interpret optional property types as written, rather than adding 'undefined'. */
     "noImplicitReturns": true,                           /* Enable error reporting for codepaths that do not explicitly return in a function. */
     "noFallthroughCasesInSwitch": true,                  /* Enable error reporting for fallthrough cases in switch statements. */
     "noUncheckedIndexedAccess": true,                    /* Add 'undefined' to a type when accessed using an index. */

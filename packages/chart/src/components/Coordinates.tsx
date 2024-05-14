@@ -1,23 +1,18 @@
-import {Group, Path, SkFont, Skia, Text} from '@shopify/react-native-skia';
-import {useState} from 'react';
-import {
-  runOnJS,
-  SharedValue,
-  useAnimatedReaction,
-  useDerivedValue,
-} from 'react-native-reanimated';
-import {defaultTheme} from '@lad-tech/mobydick-core';
+import {Group, Path, SkFont} from '@shopify/react-native-skia';
+import {SharedValue, useDerivedValue} from 'react-native-reanimated';
+import {IThemeContext} from '@lad-tech/mobydick-core';
 
-import {chartPaddingHorizontal, chartPaddingVertical} from '../utils/constants';
 import {IFormatter} from '../types';
 import {generateCoordinatesPath} from '../utils/generateCoordinatesPath';
 import {getCoordinateValues} from '../utils/getCoordinateValues';
 
+import {CoordY} from './CoordY';
+import {CoordX} from './CoordX';
+
 export interface ICoordinatesProps {
-  font: SkFont | null;
-  colors: (typeof defaultTheme.colors)[0];
-  width: number;
-  height: number;
+  font: SkFont;
+  colors: IThemeContext['colors'];
+  size: SharedValue<{height: number; width: number}>;
 
   maxX: SharedValue<number>;
   maxY: SharedValue<number>;
@@ -32,8 +27,7 @@ export interface ICoordinatesProps {
 export const Coordinates = ({
   font,
   colors,
-  width,
-  height,
+  size,
   maxX,
   minX,
   maxY,
@@ -42,45 +36,41 @@ export const Coordinates = ({
   formatterX,
   formatterY,
 }: ICoordinatesProps) => {
-  const [, setTrigger] = useState(0);
-  const coordinatesPath = generateCoordinatesPath({width, height});
+  const coordinatesPath = useDerivedValue(() =>
+    generateCoordinatesPath({
+      width: size.value.width,
+      height: size.value.height,
+    }),
+  );
 
   const coords = useDerivedValue(() =>
     getCoordinateValues({
+      font,
       maxX: maxX.value,
       minX: minX.value,
       maxY: maxY.value,
       minY: minY.value,
-      height,
-      width,
+      height: size.value.height,
+      width: size.value.width,
       coordinatesLength: coordinatesLength.value,
+      formatterX,
+      formatterY,
     }),
   );
 
-  const {coordinateValuesY, coordinateValuesX} = coords.value;
+  const coordinateValueYMaxLength = useDerivedValue(() => {
+    return (
+      (
+        formatterY?.(
+          coords.value.coordinateValuesY[
+            coords.value.coordinateValuesY.length - 1
+          ]?.value.length ?? 0,
+        ) ?? coords.value.coordinateValuesY[0]?.value
+      )?.length ?? 0
+    );
+  });
 
-  const coordinateValueYMaxLength =
-    (
-      formatterY?.(
-        coordinateValuesY[coordinateValuesY.length - 1]?.value ?? 0,
-      ) ?? coordinateValuesY[0]?.value.toFixed()
-    )?.length ?? 0;
-
-  useAnimatedReaction(
-    () => {
-      return coords.value;
-    },
-    (currentValue, previousValue) => {
-      if (currentValue !== previousValue) {
-        runOnJS(setTrigger)(trigger => trigger + 1);
-      }
-    },
-  );
-  const texSymbolWidth = 8;
-  const texSymbolHeight = 10;
-
-  let lastXEndOfText = 0;
-  let lastYTopOfText = height;
+  if (!font) return null;
 
   return (
     <Group>
@@ -88,96 +78,31 @@ export const Coordinates = ({
         path={coordinatesPath}
         style="stroke"
         strokeJoin="round"
-        strokeWidth={2}
-        color={colors.BorderHard}
+        strokeWidth={1}
+        color={colors.BorderNormal}
       />
-      {coordinateValuesY.map(({coordinate, value}, index) => {
-        const path = Skia.Path.Make()
-          .moveTo(chartPaddingHorizontal, coordinate)
-          .lineTo(width, coordinate);
-        path.dash(2, 2, 2);
-
-        const text = formatterY?.(value) ?? value.toFixed(2);
-
-        let x = (coordinateValueYMaxLength - text.length) * texSymbolWidth;
-        const y = coordinate + texSymbolHeight / 2;
-
-        const coordinateTopOfText = y - texSymbolHeight;
-        const coordinateTBottomOfText = y + texSymbolHeight / 2;
-
-        const isCoordinateWithText = coordinateTBottomOfText <= lastYTopOfText;
-
-        if (isCoordinateWithText) {
-          lastYTopOfText = coordinateTopOfText;
-        }
-
-        if (x < 0) {
-          x = 0;
-        }
-
-        if (!isCoordinateWithText) {
-          return null;
-        }
-
+      {coords.value.coordinateValuesY.map((_, index) => {
         return (
-          <Group key={coordinate.toString() + index}>
-            <Path
-              path={path}
-              style="stroke"
-              strokeJoin="round"
-              color={colors.BorderNormal}
-            />
-            <Text
-              font={font}
-              text={text}
-              y={y}
-              x={x}
-              color={colors.TextSecondary}
-            />
-          </Group>
+          <CoordY
+            key={index.toString()}
+            font={font}
+            coords={coords}
+            colors={colors}
+            index={index}
+            coordinateValueYMaxLength={coordinateValueYMaxLength}
+          />
         );
       })}
-      {coordinateValuesX.map(({coordinate, value}, index) => {
-        const path = Skia.Path.Make()
-          .moveTo(coordinate, height)
-          .lineTo(coordinate, chartPaddingVertical);
-        path.dash(2, 2, 2);
-
-        const paddingFromChart = 5;
-
-        const text = formatterX?.(value) ?? value.toFixed(2);
-
-        const x = coordinate - (text.length * texSymbolWidth) / 2;
-        const y = height + texSymbolHeight + paddingFromChart;
-
-        const coordinateEndOfText = x + text.length * texSymbolWidth;
-
-        const isCoordinateWithText = x >= lastXEndOfText;
-
-        if (isCoordinateWithText) {
-          lastXEndOfText = coordinateEndOfText;
-        }
-
-        if (!isCoordinateWithText) {
-          return null;
-        }
-
+      {coords.value.coordinateValuesX.map((_, index) => {
         return (
-          <Group key={coordinate.toString() + index}>
-            <Path
-              path={path}
-              style="stroke"
-              strokeJoin="round"
-              color={colors.BorderNormal}
-            />
-            <Text
-              font={font}
-              text={text}
-              y={y}
-              x={x}
-              color={colors.TextSecondary}
-            />
-          </Group>
+          <CoordX
+            key={index.toString()}
+            font={font}
+            coords={coords}
+            colors={colors}
+            index={index}
+            size={size}
+          />
         );
       })}
     </Group>

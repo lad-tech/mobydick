@@ -1,12 +1,10 @@
-import {StyleSheet} from 'react-native';
-
 import TouchableOpacity from '../../basic/components/TouchableOpacity/TouchableOpacity';
 import SimpleIcon, {SimpleIconName} from '../../styles/icons/font/SimpleIcon';
 import useStyles from '../../styles/hooks/useStyles';
 import rem from '../../styles/utils/rem';
 import useTheme from '../../styles/hooks/useTheme';
 import {ITouchableOpacityProps} from '../../basic';
-import {IThemeContext} from '../../styles/types';
+import {createStyles} from '../../styles';
 
 interface IChatPressableIcon extends ITouchableOpacityProps {
   name: SimpleIconName;
@@ -32,16 +30,15 @@ const ChatPressableIcon = (props: IChatPressableIcon) => {
   );
 };
 
-const stylesCreate = ({spaces}: IThemeContext) =>
-  StyleSheet.create({
-    container: {
-      width: rem(38),
-      height: rem(38),
-      borderRadius: spaces.Space8,
-      marginLeft: spaces.Space6,
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
-  });
+const stylesCreate = createStyles(({spaces}) => ({
+  container: {
+    width: rem(38),
+    height: rem(38),
+    borderRadius: spaces.Space8,
+    marginLeft: spaces.Space6,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+}));
 
 export default ChatPressableIcon;

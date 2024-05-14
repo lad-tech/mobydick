@@ -1,7 +1,7 @@
-import {Animated, StyleSheet} from 'react-native';
+import {Animated} from 'react-native';
 
 import useStyles from '../../../styles/hooks/useStyles';
-import {IThemeContext} from '../../../styles';
+import {createStyles} from '../../../styles';
 
 const Thumb = ({size}: {size: Animated.Value}) => {
   const [styles] = useStyles(stylesCreate);
@@ -20,14 +20,12 @@ const Thumb = ({size}: {size: Animated.Value}) => {
   );
 };
 
-const stylesCreate = ({colors, spaces}: IThemeContext) => {
-  return StyleSheet.create({
-    root: {
-      borderWidth: spaces.Space2,
-      borderColor: colors.IconMuted,
-      backgroundColor: colors.BgPrimary,
-    },
-  });
-};
+const stylesCreate = createStyles(({spaces, colors}) => ({
+  root: {
+    borderWidth: spaces.Space2,
+    borderColor: colors.IconMuted,
+    backgroundColor: colors.BgPrimary,
+  },
+}));
 
 export default Thumb;

@@ -1,3 +1,88 @@
+# [7.31.0](https://github.com/lad-tech/mobydick/compare/v7.30.0...v7.31.0) (2024-05-02)
+
+
+### Bug Fixes
+
+* **app:** fix tests for createstyles ([894144e](https://github.com/lad-tech/mobydick/commit/894144e27eae84ac0933ce3cc95e4525d2b0237d))
+* **Button:** changed getDefaultFont ([61c9f4c](https://github.com/lad-tech/mobydick/commit/61c9f4c332ac5416898e7dceaa52cfeeca93af9e))
+
+
+### Features
+
+* **app:** use createStyles typed func ([82cc18a](https://github.com/lad-tech/mobydick/commit/82cc18a55b034a85f92b439ce2f3b5c57d74633c))
+* **fsd:** add layer prefix [#221](https://github.com/lad-tech/mobydick/issues/221) ([d60129b](https://github.com/lad-tech/mobydick/commit/d60129b6d0b76ad2e579768f575f69797cba6f0e))
+* **markdown:** add markdown lib and styling [#223](https://github.com/lad-tech/mobydick/issues/223) ([c0cdb8b](https://github.com/lad-tech/mobydick/commit/c0cdb8b2f690d513292494d5aa0e1a24ee25fbbc))
+
+## [7.29.2](https://github.com/lad-tech/mobydick/compare/v7.29.1...v7.29.2) (2024-04-12)
+
+
+### Bug Fixes
+
+* **chart:** fix text padding and line weight ([0927695](https://github.com/lad-tech/mobydick/commit/0927695210d2eef02e4ba99ba43bee2f692833dd))
+
+## [7.29.1](https://github.com/lad-tech/mobydick/compare/v7.29.0...v7.29.1) (2024-04-12)
+
+
+### Bug Fixes
+
+* **icons:** fix font unicodes map ([c77e77c](https://github.com/lad-tech/mobydick/commit/c77e77cf8a2c089e87eb9abbe9bc8ec750dc1209))
+
+# [7.29.0](https://github.com/lad-tech/mobydick/compare/v7.28.3...v7.29.0) (2024-04-11)
+
+
+### Features
+
+* **icons:** update neotis font ([0fe495f](https://github.com/lad-tech/mobydick/commit/0fe495f87d9e8b34cc37752807270525e844297f))
+
+## [7.28.3](https://github.com/lad-tech/mobydick/compare/v7.28.2...v7.28.3) (2024-04-09)
+
+
+### Bug Fixes
+
+* **chart:** changed bar coordinates ([64a1594](https://github.com/lad-tech/mobydick/commit/64a1594dcea7b8bf6965ac2c2363a14e57a42cac))
+
+## [7.28.2](https://github.com/lad-tech/mobydick/compare/v7.28.1...v7.28.2) (2024-04-09)
+
+
+### Bug Fixes
+
+* update styles in charts ([62fe7bf](https://github.com/lad-tech/mobydick/commit/62fe7bfb3b2ec74acbd27c60b59fd3feb8a9bb34))
+
+## [7.28.1](https://github.com/lad-tech/mobydick/compare/v7.28.0...v7.28.1) (2024-04-08)
+
+
+### Bug Fixes
+
+* **charts:** changed import interpolateColors ([4e2933e](https://github.com/lad-tech/mobydick/commit/4e2933ec3fcaea9f875a765b7addc2e4e089f625))
+
+# [7.28.0](https://github.com/lad-tech/mobydick/compare/v7.27.1...v7.28.0) (2024-04-08)
+
+
+### Features
+
+* **tabs:** export tab item [#202](https://github.com/lad-tech/mobydick/issues/202) ([46af26f](https://github.com/lad-tech/mobydick/commit/46af26f0a8454b31bcbf70803ba60dcbe1c0f7b3))
+
+## [7.27.1](https://github.com/lad-tech/mobydick/compare/v7.27.0...v7.27.1) (2024-04-08)
+
+
+### Bug Fixes
+
+* **getCoordinateValues:** changed coordinateY ([4448a52](https://github.com/lad-tech/mobydick/commit/4448a527e9be93fde3ee50db25af5e3e884a56a2))
+
+# [7.27.0](https://github.com/lad-tech/mobydick/compare/v7.26.0...v7.27.0) (2024-04-08)
+
+
+### Bug Fixes
+
+* use flexGrow inside SectionButton ([f0aac9c](https://github.com/lad-tech/mobydick/commit/f0aac9c6ecc4985fc030444f97ff9f9ed6ea5395))
+
+
+### Features
+
+* add Header for BarChart ([1b35531](https://github.com/lad-tech/mobydick/commit/1b35531d6854b04d0bc3e0fc4ffda06b8c286983))
+* add Header for LineChart ([3c133ab](https://github.com/lad-tech/mobydick/commit/3c133aba471ae7418cbef6310d61e881e4fe84fd))
+* **DragAndDrop:** added drag and drop ([0b5c89c](https://github.com/lad-tech/mobydick/commit/0b5c89c768fd210286518750bbcfc05cfc97d3ed))
+
 # [7.26.0](https://github.com/lad-tech/mobydick/compare/v7.25.0...v7.26.0) (2024-04-02)
 
 

@@ -1,6 +1,7 @@
 import {ImageStyle, Platform, TextStyle, ViewStyle} from 'react-native';
 
 import {IThemeContext} from '../types';
+import {IShadow} from '../constants';
 
 export type IShadowKeys = 'small' | 'medium' | 'large';
 
@@ -103,7 +104,7 @@ export const shadowsAndroidDark = ({
 export const getShadows = ({
   spaces,
   currentTheme,
-}: Pick<IThemeContext, 'spaces' | 'currentTheme'>) => {
+}: Pick<IThemeContext, 'spaces' | 'currentTheme'>): IShadow => {
   const isDark = currentTheme === 'dark';
 
   if (Platform.OS === 'ios') {

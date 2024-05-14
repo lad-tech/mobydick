@@ -39,10 +39,7 @@ export const generateLinePath = ({
     const yCoordinate = interpolate(
       y,
       [minY, maxY],
-      [
-        height - chartPaddingVertical / 2,
-        chartPaddingVertical + chartPaddingVertical / 2,
-      ],
+      [height - chartPaddingVertical, chartPaddingVertical / 2],
       Extrapolation.CLAMP,
     );
 

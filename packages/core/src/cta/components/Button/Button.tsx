@@ -38,7 +38,10 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     Boolean(text),
   );
 
-  const defaultFont = getDefaultFont(size, type);
+  const defaultFont = getDefaultFont(
+    size,
+    disabled ? IButtonTypes.disabled : type,
+  );
 
   const counterSize =
     size === IButtonSize.small ? ICounterSize.small : ICounterSize.medium;

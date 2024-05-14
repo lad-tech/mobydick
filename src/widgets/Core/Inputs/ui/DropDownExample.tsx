@@ -1,11 +1,11 @@
 import {useState} from 'react';
-import {StyleSheet} from 'react-native';
 
-import Header from 'shared/ui/Header';
-import {DropDown, IListItem} from 'shared/ui';
+import Header from '@shared/ui/Header';
+import {createStyles, DropDown, IListItem, useStyles} from '@shared/ui';
 
 const DropDownExample = () => {
   const [language, setLanguage] = useState<number>();
+  const [styles] = useStyles(createStylesFn);
 
   const [programmingLanguages, setProgrammingLanguages] = useState<
     IListItem<number>[]
@@ -81,13 +81,13 @@ const DropDownExample = () => {
   );
 };
 
-const styles = StyleSheet.create({
+const createStylesFn = createStyles(_ => ({
   buttonStyle: {
     width: '100%',
   },
   flatListStyle: {
     width: '95%',
   },
-});
+}));
 
 export default DropDownExample;

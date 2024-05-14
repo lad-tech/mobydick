@@ -1,11 +1,7 @@
-import {StyleSheet} from 'react-native';
-
 import {IPosition} from '../../types';
-import {IThemeContext} from '../../../styles/types';
+import {createStyles} from '../../../styles';
 
-const stylesCreate = (theme: IThemeContext, placement?: IPosition) => {
-  const {colors} = theme;
-
+const stylesCreate = createStyles(({colors, spaces}, placement?: IPosition) => {
   const placementStyle = () => {
     switch (placement) {
       case IPosition.top:
@@ -19,7 +15,8 @@ const stylesCreate = (theme: IThemeContext, placement?: IPosition) => {
         };
     }
   };
-  return StyleSheet.create({
+
+  return {
     overlayStyle: {
       backgroundColor: 'transparent',
       position: 'absolute',
@@ -30,19 +27,19 @@ const stylesCreate = (theme: IThemeContext, placement?: IPosition) => {
     },
     container: {
       backgroundColor: colors.BgContrast,
-      borderRadius: theme.spaces.Space12,
+      borderRadius: spaces.Space12,
       justifyContent: 'center',
       alignItems: 'center',
       flexDirection: 'row',
-      paddingHorizontal: theme.spaces.Space20,
-      paddingVertical: theme.spaces.Space16,
-      margin: theme.spaces.Space20,
+      paddingHorizontal: spaces.Space20,
+      paddingVertical: spaces.Space16,
+      margin: spaces.Space20,
     },
     title: {
       flex: 1,
-      paddingRight: theme.spaces.Space8,
+      paddingRight: spaces.Space8,
     },
-  });
-};
+  };
+});
 
 export default stylesCreate;

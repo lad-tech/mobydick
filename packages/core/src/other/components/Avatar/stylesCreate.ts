@@ -1,6 +1,6 @@
-import {ImageStyle, StyleSheet} from 'react-native';
+import {ImageStyle} from 'react-native';
 
-import {IThemeContext, rem} from '../../../styles';
+import {createStyles, rem} from '../../../styles';
 
 import {IAvatarSize} from './types';
 
@@ -41,14 +41,8 @@ const getBorderStyles = (color: string, border?: boolean) => {
   );
 };
 
-const stylesCreate = (
-  theme: IThemeContext,
-  size: IAvatarSize,
-  border?: boolean,
-) => {
-  const {colors} = theme;
-
-  return StyleSheet.create({
+const stylesCreate = createStyles(
+  ({colors}, size: IAvatarSize, border?: boolean) => ({
     container: {
       alignSelf: 'center',
       justifyContent: 'center',
@@ -61,6 +55,7 @@ const stylesCreate = (
       ...getSizeStyles(size),
       ...getBorderStyles(colors.BgPrimary, border),
     },
-  });
-};
+  }),
+);
+
 export default stylesCreate;

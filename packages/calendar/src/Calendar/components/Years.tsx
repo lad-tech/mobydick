@@ -1,13 +1,12 @@
 import {FC, useCallback} from 'react';
 import {
+  createStyles,
   FlatList,
-  IThemeContext,
   Pressable,
   Typography,
   useStyles,
   useTheme,
 } from '@lad-tech/mobydick-core';
-import {StyleSheet} from 'react-native';
 
 import {LABELS} from '../constants';
 
@@ -63,16 +62,15 @@ const Years: FC<IYears> = props => {
 
 export default Years;
 
-const stylesCreate = ({spaces}: IThemeContext) =>
-  StyleSheet.create({
-    year: {
-      flex: 4,
-      paddingVertical: spaces.Space20,
-      alignItems: 'center',
-      borderRadius: spaces.Space4,
-    },
-    container: {
-      width: '100%',
-      alignContent: 'center',
-    },
-  });
+const stylesCreate = createStyles(({spaces}) => ({
+  year: {
+    flex: 4,
+    paddingVertical: spaces.Space20,
+    alignItems: 'center',
+    borderRadius: spaces.Space4,
+  },
+  container: {
+    width: '100%',
+    alignContent: 'center',
+  },
+}));

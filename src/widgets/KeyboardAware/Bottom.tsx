@@ -1,4 +1,4 @@
-import {Button, createStyles, Typography, useStyles, View} from 'shared/ui';
+import {Button, createStyles, Typography, useStyles, View} from '@shared/ui';
 
 export const BottomComponent = () => {
   const [styles] = useStyles(style);

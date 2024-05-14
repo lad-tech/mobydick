@@ -1,12 +1,12 @@
 import {
   Button,
   createStyles,
+  ModalCalendar,
   usePopups,
   useStyles,
   View,
-  ModalCalendar,
-} from 'shared/ui';
-import Header from 'shared/ui/Header';
+} from '@shared/ui';
+import Header from '@shared/ui/Header';
 
 export const ModalCalendarWidget = () => {
   const [styles] = useStyles(stylesFn);

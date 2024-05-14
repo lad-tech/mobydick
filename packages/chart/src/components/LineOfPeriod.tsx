@@ -5,8 +5,9 @@ import {
   Skia,
   SkiaDefaultProps,
   vec,
+  interpolateColors,
 } from '@shopify/react-native-skia';
-import {interpolateColor, useDerivedValue} from 'react-native-reanimated';
+import {SharedValue, useDerivedValue} from 'react-native-reanimated';
 
 import {IChartTransition, ISharedChartState} from '../types';
 import {IPeriodsWithPaths} from '../utils';
@@ -16,10 +17,9 @@ import {LinePoints} from './LinePoints';
 
 interface IChartProps
   extends Omit<SkiaDefaultProps<PathProps, 'start' | 'end'>, 'path'> {
-  periodsWithPaths: IPeriodsWithPaths;
+  periodsWithPaths: SharedValue<IPeriodsWithPaths>;
   index: number;
-  width: number;
-  height: number;
+  size: SharedValue<{height: number; width: number}>;
   transition: IChartTransition;
   state: ISharedChartState;
   lineColors?: string[] | undefined;
@@ -29,8 +29,7 @@ interface IChartProps
 export const LineOfPeriod = ({
   periodsWithPaths,
   index,
-  width,
-  height,
+  size,
   transition,
   state,
   hideDataPoints,
@@ -39,8 +38,9 @@ export const LineOfPeriod = ({
     const {current, next} = state.value;
 
     const start =
-      periodsWithPaths[current]?.lines[index]?.path ?? Skia.Path.Make();
-    const end = periodsWithPaths[next]?.lines[index]?.path ?? Skia.Path.Make();
+      periodsWithPaths.value[current]?.lines[index]?.path ?? Skia.Path.Make();
+    const end =
+      periodsWithPaths.value[next]?.lines[index]?.path ?? Skia.Path.Make();
 
     if (end.isInterpolatable(start)) {
       return end.interpolate(start, transition.value)!;
@@ -51,11 +51,11 @@ export const LineOfPeriod = ({
 
   const colors = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current]?.lines[index]?.colors ?? [];
-    const end = periodsWithPaths[next]?.lines[index]?.colors ?? [];
+    const start = periodsWithPaths.value[current]?.lines[index]?.colors ?? [];
+    const end = periodsWithPaths.value[next]?.lines[index]?.colors ?? [];
 
     return end.map((endColor, i) =>
-      interpolateColor(
+      interpolateColors(
         transition.value,
         [0, 1],
         [start[i] ?? endColor, endColor],
@@ -67,7 +67,7 @@ export const LineOfPeriod = ({
     <Group>
       <LinearGradient
         start={vec(0, 0)}
-        end={vec(width, height)}
+        end={vec(size.value.width, size.value.height)}
         colors={colors}
       />
       <Line chartPath={chartPath} />

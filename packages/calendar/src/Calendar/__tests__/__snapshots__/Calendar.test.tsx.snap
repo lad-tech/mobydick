@@ -54,7 +54,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -216,7 +216,7 @@ exports[`Calendar press calendarLeftArrow 01 -> 12 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -4315,7 +4315,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -4477,7 +4477,7 @@ exports[`Calendar press calendarLeftArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -8579,7 +8579,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -8688,7 +8688,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -8722,7 +8722,7 @@ exports[`Calendar press calendarPressTitle * 2 calendarLeftArrow 1`] = `
     removeClippedSubviews={false}
     renderItem={[Function]}
     scrollEnabled={false}
-    scrollEventThrottle={50}
+    scrollEventThrottle={0.0001}
     showsVerticalScrollIndicator={false}
     stickyHeaderIndices={[]}
     style={
@@ -9605,7 +9605,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -9714,7 +9714,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -9748,7 +9748,7 @@ exports[`Calendar press calendarPressTitle * 3 calendarLeftArrow 1`] = `
     removeClippedSubviews={false}
     renderItem={[Function]}
     scrollEnabled={false}
-    scrollEventThrottle={50}
+    scrollEventThrottle={0.0001}
     showsVerticalScrollIndicator={false}
     stickyHeaderIndices={[]}
     style={
@@ -10631,7 +10631,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -10740,7 +10740,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -10774,7 +10774,7 @@ exports[`Calendar press calendarPressTitle calendarRightArrow 1`] = `
     removeClippedSubviews={false}
     renderItem={[Function]}
     scrollEnabled={false}
-    scrollEventThrottle={50}
+    scrollEventThrottle={0.0001}
     showsVerticalScrollIndicator={false}
     stickyHeaderIndices={[]}
     style={
@@ -11657,7 +11657,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -11766,7 +11766,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -11800,7 +11800,7 @@ exports[`Calendar press calendarPressTitle*2 calendarRightArrow 1`] = `
     removeClippedSubviews={false}
     renderItem={[Function]}
     scrollEnabled={false}
-    scrollEventThrottle={50}
+    scrollEventThrottle={0.0001}
     showsVerticalScrollIndicator={false}
     stickyHeaderIndices={[]}
     style={
@@ -12683,7 +12683,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -12792,7 +12792,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -12826,7 +12826,7 @@ exports[`Calendar press calendarPressTitleYear 1`] = `
     removeClippedSubviews={false}
     renderItem={[Function]}
     scrollEnabled={false}
-    scrollEventThrottle={50}
+    scrollEventThrottle={0.0001}
     showsVerticalScrollIndicator={false}
     stickyHeaderIndices={[]}
     style={
@@ -13709,7 +13709,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -13871,7 +13871,7 @@ exports[`Calendar press calendarRightArrow 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -17979,7 +17979,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -18141,7 +18141,7 @@ exports[`Calendar press calendarRightArrow 12 -> 1 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -23027,7 +23027,7 @@ exports[`Calendar renders correctly 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -23189,7 +23189,7 @@ exports[`Calendar renders correctly 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -27329,7 +27329,7 @@ exports[`Calendar renders correctly dottedDates 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -27491,7 +27491,7 @@ exports[`Calendar renders correctly dottedDates 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -31590,7 +31590,7 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -31752,7 +31752,7 @@ exports[`Calendar renders correctly dottedDates cc 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -35851,7 +35851,7 @@ exports[`Calendar renders correctly isClear 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -36013,7 +36013,7 @@ exports[`Calendar renders correctly isClear 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -40112,7 +40112,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -40274,7 +40274,7 @@ exports[`Calendar renders correctly isClear isShowToday 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -44382,7 +44382,7 @@ exports[`Calendar renders correctly isShowToday = false > maxLengthDateRange max
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -44544,7 +44544,7 @@ exports[`Calendar renders correctly isShowToday = false > maxLengthDateRange max
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -48795,7 +48795,7 @@ exports[`Calendar renders correctly isShowToday = true < maxLengthDateRange 1`] 
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -48957,7 +48957,7 @@ exports[`Calendar renders correctly isShowToday = true < maxLengthDateRange 1`] 
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -53097,7 +53097,7 @@ exports[`Calendar renders correctly isShowToday = true < maxLengthDateRange maxD
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -53259,7 +53259,7 @@ exports[`Calendar renders correctly isShowToday = true < maxLengthDateRange maxD
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -57548,7 +57548,7 @@ exports[`Calendar renders correctly isShowToday = true > maxLengthDateRange 1`] 
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -57710,7 +57710,7 @@ exports[`Calendar renders correctly isShowToday = true > maxLengthDateRange 1`] 
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -61850,7 +61850,7 @@ exports[`Calendar renders correctly isShowToday = true > maxLengthDateRange maxD
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -62012,7 +62012,7 @@ exports[`Calendar renders correctly isShowToday = true > maxLengthDateRange maxD
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -66304,7 +66304,7 @@ exports[`Calendar renders correctly maxDate maxLengthDateRange 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -66466,7 +66466,7 @@ exports[`Calendar renders correctly maxDate maxLengthDateRange 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -70658,7 +70658,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -70820,7 +70820,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -75012,7 +75012,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange fromDate 
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -75174,7 +75174,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange fromDate 
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -79366,7 +79366,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange isPeriod 
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -79528,7 +79528,7 @@ exports[`Calendar renders correctly maxDate minDate maxLengthDateRange isPeriod 
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -83720,7 +83720,7 @@ exports[`Calendar renders correctly maxLengthDateRange 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -83882,7 +83882,7 @@ exports[`Calendar renders correctly maxLengthDateRange 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -88768,7 +88768,7 @@ exports[`Calendar renders correctly minDate maxLengthDateRange 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -88930,7 +88930,7 @@ exports[`Calendar renders correctly minDate maxLengthDateRange 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,
@@ -93122,7 +93122,7 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -93284,7 +93284,7 @@ exports[`Calendar renders correctly not isValidDate 1`] = `
           }
         }
       >
-        
+        
       </Text>
     </View>
   </View>,

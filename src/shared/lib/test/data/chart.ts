@@ -1,6 +1,6 @@
 import { ICoordinates, IDataset } from '@lad-tech/mobydick-chart/src/types';
 
-const random = Math.random() * 100;
+const random = Math.random() * 10;
 export const mockChart = (n: number) =>
   new Array(n).fill(0).map<ICoordinates>((_value, index) => {
     return {
@@ -17,6 +17,55 @@ export const mockChartDataset: IDataset = {
       colors:  [
         '#ff0000',
         '#f4e91d',
+      ]
+    },
+    {
+      coordinates: mockChart(10),
+      name: '2 line',
+    },
+    {
+      coordinates: mockChart(5),
+      name: '3 line',
+      colors:  [
+        '#33135b',
+        '#9BE1DA',
+        '#c5cd56',
+        '#3b3f8e',
+      ]
+    },
+  ],
+  'pasdasdasderiod 1': [
+    {
+      coordinates: mockChart(20),
+      name: '1 line',
+      colors:  [
+        '#0022ff',
+        '#cd1df4',
+      ]
+    },
+    {
+      coordinates: mockChart(10),
+      name: '2 line',
+    },
+    {
+      coordinates: mockChart(5),
+      name: '3 line',
+      colors:  [
+        '#5b3113',
+        '#9BE1DA',
+        '#c5cd56',
+        '#668e3b',
+      ]
+    },
+  ],
+
+  'asdasdasdasdasd 1': [
+    {
+      coordinates: mockChart(20),
+      name: '1 line',
+      colors:  [
+        '#1c9680',
+        '#479459',
       ]
     },
     {

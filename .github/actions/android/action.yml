@@ -1,0 +1,65 @@
+name: Android
+description: 'Build android'
+
+inputs:
+  ANDROID_KEYSTORE_BASE64:
+    description: ANDROID_KEYSTORE_BASE64
+    required: true
+  MYAPP_UPLOAD_KEY_ALIAS:
+    description: MYAPP_UPLOAD_KEY_ALIAS
+    required: true
+  MYAPP_UPLOAD_KEY_PASSWORD:
+    description: MYAPP_UPLOAD_KEY_PASSWORD
+    required: true
+  MYAPP_UPLOAD_STORE_PASSWORD:
+    description: MYAPP_UPLOAD_STORE_PASSWORD
+    required: true
+  GOOGLE_API_KEY:
+    description: GOOGLE_API_KEY
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: add release.keystore
+      shell: bash
+      env:
+        ANDROID_KEYSTORE_BASE64: ${{ inputs.ANDROID_KEYSTORE_BASE64 }}
+        MYAPP_UPLOAD_KEY_ALIAS: ${{ inputs.MYAPP_UPLOAD_KEY_ALIAS }}
+        MYAPP_UPLOAD_KEY_PASSWORD: ${{ inputs.MYAPP_UPLOAD_KEY_PASSWORD }}
+        MYAPP_UPLOAD_STORE_PASSWORD: ${{ inputs.MYAPP_UPLOAD_STORE_PASSWORD }}
+      run: |
+        echo -n ${ANDROID_KEYSTORE_BASE64} | base64 -d > ./${CUSTOM_DIR}/android/app/release.keystore
+        echo "MYAPP_UPLOAD_STORE_FILE=./release.keystore" >> ./${CUSTOM_DIR}/android/gradle.properties
+        echo "MYAPP_UPLOAD_KEY_PASSWORD=${MYAPP_UPLOAD_KEY_PASSWORD}" >> ./${CUSTOM_DIR}/android/gradle.properties
+        echo "MYAPP_UPLOAD_KEY_ALIAS=${MYAPP_UPLOAD_KEY_ALIAS}" >> ./${CUSTOM_DIR}/android/gradle.properties
+        echo "MYAPP_UPLOAD_STORE_PASSWORD=${MYAPP_UPLOAD_STORE_PASSWORD}" >> ./${CUSTOM_DIR}/android/gradle.properties
+
+    - name: build apk
+      shell: bash
+      run: |
+        yarn android:get:release
+
+    - name: Archive production apk
+      uses: actions/upload-artifact@v4
+      with:
+        name: apk
+        path: |
+          ./android/app/build/outputs/**/*.apk
+
+    - name: build aab
+      shell: bash
+      run: |
+        yarn android:get:aab
+
+    - name: add GOOGLE_API_KEY
+      shell: bash
+      env:
+        GOOGLE_API_KEY: ${{ inputs.GOOGLE_API_KEY }}
+      run: |
+        echo ${GOOGLE_API_KEY} > GOOGLE_API_KEY.json
+
+    - name: publish
+      shell: bash
+      run: |
+        find ./${CUSTOM_DIR}/android/app/build/outputs/ -name "*.aab" | xargs -t npx @lad-tech/mobygp -k ./GOOGLE_API_KEY.json -a

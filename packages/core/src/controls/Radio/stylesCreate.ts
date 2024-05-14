@@ -1,15 +1,8 @@
-import {StyleSheet} from 'react-native';
-
 import rem from '../../styles/utils/rem';
-import {IThemeContext} from '../../styles/types';
+import {createStyles} from '../../styles';
 
-const stylesCreate = (
-  theme: IThemeContext,
-  selected: boolean,
-  disabled: boolean,
-) => {
-  const {colors, spaces} = theme;
-  return StyleSheet.create({
+const stylesCreate = createStyles(
+  ({spaces, colors}, selected: boolean, disabled: boolean) => ({
     container: {
       flexDirection: 'row',
       alignItems: 'center',
@@ -33,7 +26,7 @@ const stylesCreate = (
       borderRadius: rem(9),
       borderColor: colors.BgPrimary,
     },
-  });
-};
+  }),
+);
 
 export default stylesCreate;

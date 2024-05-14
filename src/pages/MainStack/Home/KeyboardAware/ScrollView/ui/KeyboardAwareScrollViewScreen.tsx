@@ -1,6 +1,6 @@
-import {KeyboardAwareScrollView, useStyles} from 'shared/ui';
-import {Inputs} from 'widgets/KeyboardAware/Inputs';
-import getScreenStyles from 'shared/styles/getScreenStyles';
+import {KeyboardAwareScrollView, useStyles} from '@shared/ui';
+import getScreenStyles from '@shared/styles/getScreenStyles';
+import {Inputs} from '@widgets/KeyboardAware/Inputs';
 
 export const KeyboardAwareScrollViewScreen = () => {
   const [styles] = useStyles(getScreenStyles);

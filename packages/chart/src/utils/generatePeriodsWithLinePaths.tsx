@@ -42,11 +42,7 @@ export const generatePeriodsWithLinePaths = ({
         minX,
       });
 
-      const coordinatesLength = coordinates.length;
-
-      if (coordinates.length > maxCoordinatesLength) {
-        maxCoordinatesLength = coordinatesLength;
-      }
+      maxCoordinatesLength = Math.max(maxCoordinatesLength, coordinates.length);
 
       return {
         path: chartPath,
@@ -60,7 +56,7 @@ export const generatePeriodsWithLinePaths = ({
       maxY,
       minY,
       minX,
-      maxCoordinatesLength: maxCoordinatesLength,
+      maxCoordinatesLength,
       lines: temp,
     };
   });

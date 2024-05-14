@@ -1,5 +1,5 @@
 module.exports = {
-  presets: ['module:metro-react-native-babel-preset'],
+  presets: ['module:@react-native/babel-preset'],
   plugins: [
       'react-native-reanimated/plugin',
     [
@@ -18,13 +18,13 @@ module.exports = {
           ".json"
         ],
         "alias": {
-          "shared": "./src/shared",
-          "entities": "./src/entities",
-          "features": "./src/features",
-          "widgets": "./src/widgets",
-          "pages": "./src/pages",
-          "processes": "./src/processes",
-          "app": "./src/app",
+          "@shared": "./src/shared",
+          "@entities": "./src/entities",
+          "@features": "./src/features",
+          "@widgets": "./src/widgets",
+          "@pages": "./src/pages",
+          "@processes": "./src/processes",
+          "@app": "./src/app",
         }
       },
     ],

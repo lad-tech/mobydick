@@ -1,0 +1,9 @@
+name: Test
+description: 'Run tests'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Install dependencies # install project deps with --frozen-lockfile to make sure we will have the same packages version ( very recommended  on running yarn install on ci)
+      shell: bash
+      run: yarn test:ci

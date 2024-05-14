@@ -1,11 +1,10 @@
-import {Dimensions, StyleSheet} from 'react-native';
+import {Dimensions} from 'react-native';
 
-import {IThemeContext} from '../../../styles/types';
+import {createStyles} from '../../../styles';
 
-const stylesCreate = (theme: IThemeContext) => {
-  const {spaces, colors} = theme;
+const stylesCreate = createStyles(({spaces, colors}) => {
   const {width} = Dimensions.get('window');
-  return StyleSheet.create({
+  return {
     overlayStyle: {
       justifyContent: 'flex-end',
     },
@@ -67,7 +66,7 @@ const stylesCreate = (theme: IThemeContext) => {
     imageView: {
       marginBottom: spaces.Space4,
     },
-  });
-};
+  };
+});
 
 export default stylesCreate;

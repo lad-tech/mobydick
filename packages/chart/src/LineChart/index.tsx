@@ -2,7 +2,6 @@ import {
   Canvas,
   Group,
   SkiaDomView,
-  Text,
   useCanvasRef,
   useFont,
 } from '@shopify/react-native-skia';
@@ -27,11 +26,13 @@ import {
 
 import Coordinates from '../components/Coordinates';
 import {
+  defaultChartHeightDivider,
   chartPaddingHorizontal,
   chartPaddingVertical,
-  defaultChartHeightDivider,
 } from '../utils/constants';
 import {
+  IRenderHeader,
+  ISelectedValues,
   IChart,
   IChartState,
   ICoordinates,
@@ -46,10 +47,12 @@ import XLine from '../components/XLine';
 import ChartPopup from '../components/ChartPopup';
 
 export interface ILineChartProps {
-  title?: string;
   dataset: IDataset;
+  renderHeader?: IRenderHeader;
   renderSectionItem?: IRenderSectionItem;
+  containerStyles?: StyleProp<ViewStyle>;
   sectionContainerStyles?: StyleProp<ViewStyle>;
+  chartContainerStyles?: StyleProp<ViewStyle>;
   formatterX?: IFormatter;
   formatterY?: IFormatter;
   hideDataPoints?: boolean;
@@ -59,8 +62,10 @@ export interface ILineChartProps {
 
 export const LineChart = ({
   dataset,
-  title,
+  renderHeader,
   renderSectionItem,
+  containerStyles,
+  chartContainerStyles,
   sectionContainerStyles,
   formatterY,
   formatterX,
@@ -70,27 +75,25 @@ export const LineChart = ({
   const {colors, spaces} = useTheme();
   const font = useFont(
     // eslint-disable-next-line @typescript-eslint/no-var-requires
-    require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf'),
-    14,
+    require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Medium.ttf'),
+    12,
   );
+
   const ref = useCanvasRef();
 
   const {height: frameHeight, width: frameWidth} = useSafeAreaFrame();
+
   const size = useSharedValue({
+    height: frameHeight,
     width: frameWidth,
-    height: frameHeight / defaultChartHeightDivider,
   });
-  const {height: realHeight, width: realWidth} = size.value;
 
-  const {height, width} = {
-    height: realHeight - chartPaddingVertical,
-    width: realWidth - chartPaddingHorizontal,
-  };
-
-  const periodsWithPaths = generatePeriodsWithLinePaths({
-    dataset,
-    width,
-    height,
+  const periodsWithPaths = useDerivedValue(() => {
+    return generatePeriodsWithLinePaths({
+      dataset,
+      width: size.value.width,
+      height: size.value.height,
+    });
   });
 
   // animation value to transition from one graph to the next
@@ -103,8 +106,8 @@ export const LineChart = ({
 
   const maxY = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -112,10 +115,11 @@ export const LineChart = ({
 
     return end.maxY;
   });
+
   const maxX = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -123,10 +127,11 @@ export const LineChart = ({
 
     return end.maxX;
   });
+
   const minX = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -134,10 +139,11 @@ export const LineChart = ({
 
     return end.minX;
   });
+
   const minY = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
@@ -145,16 +151,62 @@ export const LineChart = ({
 
     return end.minY;
   });
+
   const coordinatesLength = useDerivedValue(() => {
     const {current, next} = state.value;
-    const start = periodsWithPaths[current];
-    const end = periodsWithPaths[next];
+    const start = periodsWithPaths.value[current];
+    const end = periodsWithPaths.value[next];
 
     if (start === undefined || end === undefined) {
       throw Error('start === undefined || end === undefined');
     }
 
     return end.maxCoordinatesLength;
+  });
+
+  const selectedPeriodName = useDerivedValue(() => {
+    const {next} = state.value;
+
+    const periods = Object.keys(dataset);
+    const periodName = periods[next];
+
+    if (periodName === undefined) {
+      throw Error('period === undefined');
+    }
+
+    return periodName;
+  });
+
+  const selectedPeriod = useDerivedValue(() => {
+    const check = dataset[selectedPeriodName.value];
+
+    if (check === undefined) {
+      throw Error('selectedPeriod === undefined');
+    }
+
+    return check;
+  });
+
+  const selectedValues = useDerivedValue<ISelectedValues>(() => {
+    const {next} = state.value;
+    const end = periodsWithPaths.value[next];
+
+    if (end === undefined) {
+      throw Error(
+        'period === undefined || end === undefined || selectedPeriod === undefined',
+      );
+    }
+
+    return end.lines.map(({name}, index) => {
+      const lineCoords = selectedPeriod.value[index]?.coordinates ?? [];
+      const {x, y} = lineCoords[lineCoords.length - 1] ?? {x: 0, y: 0};
+
+      return {
+        name,
+        y,
+        x,
+      };
+    });
   });
 
   const x = useSharedValue(-3);
@@ -174,7 +226,10 @@ export const LineChart = ({
       val.find(e => {
         const chartCoords = interpolate(
           x.value,
-          [chartPaddingHorizontal * 1.5, width - chartPaddingHorizontal * 0.5],
+          [
+            chartPaddingHorizontal * 1.5,
+            size.value.width - chartPaddingHorizontal * 0.5,
+          ],
           [minX.value, maxX.value],
           Extrapolation.CLAMP,
         );
@@ -185,7 +240,6 @@ export const LineChart = ({
 
   const pan = Gesture.Pan()
     .onChange(event => {
-      'worklet';
       x.value = withTiming(event.x, {duration: 50});
     })
     .onUpdate(event => {
@@ -197,7 +251,10 @@ export const LineChart = ({
           interpolate(
             point.value.y,
             [minY.value, maxY.value],
-            [height - chartPaddingVertical * 1.5, chartPaddingVertical],
+            [
+              size.value.height - chartPaddingVertical * 1.5,
+              chartPaddingVertical,
+            ],
             Extrapolation.CLAMP,
           ),
           {duration: 150},
@@ -210,77 +267,88 @@ export const LineChart = ({
     });
 
   const text = useDerivedValue(() => {
-    console.log(minX.value, maxX.value);
     return interpolate(
       x.value,
-      [chartPaddingHorizontal * 1.5, width - chartPaddingHorizontal / 2],
+      [
+        chartPaddingHorizontal * 1.5,
+        size.value.width - chartPaddingHorizontal / 2,
+      ],
       [minX.value, maxX.value],
       Extrapolation.CLAMP,
     ).toFixed(2);
   }, [x, minX, maxX, state]);
 
+  if (!font) return null;
+
   return (
-    <View>
-      <GestureHandlerRootView>
-        <GestureDetector gesture={pan}>
-          <View>
-            <Canvas
-              ref={ref}
-              style={{
-                height: frameHeight / defaultChartHeightDivider,
-                backgroundColor: colors.BgPrimary,
-                borderRadius: spaces.Space20,
-              }}>
-              <XLine x={x} size={size} />
-              <Group>
-                {title && (
-                  <Text
-                    text={title}
-                    x={width / 2 - title.length * 3}
-                    y={chartPaddingVertical / 2}
-                    color={colors.TextPrimary}
-                    font={font}
-                  />
-                )}
-                <Lines
-                  periodsWithPaths={periodsWithPaths}
-                  width={width}
-                  height={height}
-                  state={state}
-                  transition={transition}
-                  hideDataPoints={hideDataPoints}
-                />
-                <Coordinates
-                  font={font}
-                  colors={colors}
-                  width={width}
-                  height={height}
-                  maxY={maxY}
-                  minY={minY}
-                  maxX={maxX}
-                  minX={minX}
-                  coordinatesLength={coordinatesLength}
-                  formatterX={formatterX}
-                  formatterY={formatterY}
-                />
-              </Group>
-            </Canvas>
-            <ChartPopup x={x} y={y}>
-              <Animated.Text>{text.value}</Animated.Text>
-            </ChartPopup>
-            {renderSectionItem && (
-              <Section
+    <GestureHandlerRootView>
+      <GestureDetector gesture={pan}>
+        <View
+          style={[
+            {
+              gap: spaces.Space12,
+              padding: spaces.Space16,
+              borderRadius: spaces.Space12,
+              borderColor: colors.BorderSoft,
+              borderWidth: spaces.Space1,
+              backgroundColor: colors.BgPrimary,
+            },
+            containerStyles,
+          ]}>
+          {renderHeader?.({
+            selectedPeriodName,
+            state,
+            transition,
+            selectedValues,
+          })}
+          <Canvas
+            ref={ref}
+            onSize={size}
+            style={[
+              {
+                flexGrow: 1,
+                minHeight: frameHeight / defaultChartHeightDivider,
+              },
+              chartContainerStyles,
+            ]}>
+            <XLine x={x} size={size} />
+            <Group>
+              <Lines
+                periodsWithPaths={periodsWithPaths}
+                size={size}
                 state={state}
                 transition={transition}
-                dataset={dataset}
-                renderSectionItem={renderSectionItem}
-                sectionContainerStyles={sectionContainerStyles}
+                hideDataPoints={hideDataPoints}
               />
-            )}
-          </View>
-        </GestureDetector>
-      </GestureHandlerRootView>
-    </View>
+              <Coordinates
+                font={font}
+                colors={colors}
+                size={size}
+                maxY={maxY}
+                minY={minY}
+                maxX={maxX}
+                minX={minX}
+                coordinatesLength={coordinatesLength}
+                formatterX={formatterX}
+                formatterY={formatterY}
+              />
+            </Group>
+          </Canvas>
+          <ChartPopup x={x} y={y}>
+            <Animated.Text>{text.value}</Animated.Text>
+          </ChartPopup>
+          {renderSectionItem && (
+            <Section
+              state={state}
+              transition={transition}
+              dataset={dataset}
+              renderSectionItem={renderSectionItem}
+              sectionContainerStyles={sectionContainerStyles}
+            />
+          )}
+        </View>
+      </GestureDetector>
+    </GestureHandlerRootView>
   );
 };
 

@@ -1,10 +1,10 @@
 import {FC, useCallback, useState} from 'react';
-import {LayoutChangeEvent, StyleSheet} from 'react-native';
+import {LayoutChangeEvent} from 'react-native';
 
 import View from '../../../../basic/components/View/View';
 import {LABELS} from '../../../../other';
 import {Typography} from '../../../../typography';
-import {IThemeContext, useStyles} from '../../../../styles';
+import {createStyles, useStyles} from '../../../../styles';
 import rem from '../../../../styles/utils/rem';
 import {IPanelHeaderProps} from '../../../types';
 
@@ -25,7 +25,7 @@ const ContentHeader: FC<IPanelHeaderProps> = props => {
     leftViewStyle,
   } = props;
 
-  const [styles] = useStyles(createStyles);
+  const [styles] = useStyles(stylesCreate);
   const [widthLeftView, setWidthLeftView] = useState(rem(24));
   const [widthRightView, setWidthRightView] = useState(rem(24));
 
@@ -90,35 +90,34 @@ const ContentHeader: FC<IPanelHeaderProps> = props => {
   );
 };
 
-const createStyles = ({spaces}: IThemeContext) =>
-  StyleSheet.create({
-    container: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center',
+const stylesCreate = createStyles(({spaces}) => ({
+  container: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
 
-      paddingHorizontal: spaces.Space20,
-      paddingVertical: spaces.Space10,
-      height: rem(60),
-    },
-    leftView: {
-      alignItems: 'flex-start',
-      maxWidth: rem(96),
-    },
-    titleView: {
-      flex: 2,
-      paddingHorizontal: spaces.Space8,
-    },
-    rightView: {
-      alignItems: 'flex-end',
-      maxWidth: rem(96),
-    },
-    title: {
-      textAlign: 'center',
-    },
-    defaultTitleView: {
-      alignItems: 'center',
-    },
-  });
+    paddingHorizontal: spaces.Space20,
+    paddingVertical: spaces.Space10,
+    height: rem(60),
+  },
+  leftView: {
+    alignItems: 'flex-start',
+    maxWidth: rem(96),
+  },
+  titleView: {
+    flex: 2,
+    paddingHorizontal: spaces.Space8,
+  },
+  rightView: {
+    alignItems: 'flex-end',
+    maxWidth: rem(96),
+  },
+  title: {
+    textAlign: 'center',
+  },
+  defaultTitleView: {
+    alignItems: 'center',
+  },
+}));
 
 export default ContentHeader;
