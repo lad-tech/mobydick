@@ -2,7 +2,6 @@ import {
   Canvas,
   Group,
   SkiaDomView,
-  Text,
   useCanvasRef,
   useFont,
 } from '@shopify/react-native-skia';
@@ -40,6 +39,7 @@ import Section from '../components/Section';
 import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
 import {Lines} from '../components/Lines';
 import XLine from '../components/XLine';
+import ChartPopup from '../components/ChartPopup';
 
 export interface ILineChartProps {
   dataset: IDataset;
@@ -259,18 +259,6 @@ export const LineChart = ({
       y.value = withTiming(-10, {duration: 150});
     });
 
-  const text = useDerivedValue(() => {
-    return interpolate(
-      x.value,
-      [
-        chartPaddingHorizontal + chartPaddingHorizontal / 2,
-        size.value.width - chartPaddingHorizontal / 2,
-      ],
-      [minX.value, maxX.value],
-      Extrapolation.CLAMP,
-    ).toFixed(2);
-  }, [x, minX, maxX, state]);
-
   if (!font) return null;
 
   return (
@@ -325,12 +313,17 @@ export const LineChart = ({
               formatterY={formatterY}
             />
           </Group>
-          <Text
+          <ChartPopup
+            size={size}
             font={font}
-            text={text}
+            colors={colors}
+            selectedPeriod={selectedPeriod}
             x={x}
             y={y}
-            color={colors.TextPrimary}
+            maxX={maxX}
+            maxY={maxY}
+            minY={minY}
+            minX={minX}
           />
         </Canvas>
       </GestureDetector>

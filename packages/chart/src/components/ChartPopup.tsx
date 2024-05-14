@@ -1,31 +1,117 @@
+import {Group, Paragraph, SkFont, Skia} from '@shopify/react-native-skia';
 import {FC, PropsWithChildren} from 'react';
-import Animated, {SharedValue, useAnimatedStyle} from 'react-native-reanimated';
 import {ViewStyle} from 'react-native';
+import {
+  Extrapolation,
+  interpolate,
+  SharedValue,
+  useDerivedValue,
+} from 'react-native-reanimated';
+import {IThemeContext} from '@lad-tech/mobydick-core';
+
+import {chartPaddingHorizontal} from '../utils';
+import {IChart, IFormatter} from '../types';
 
 interface IChartPopup {
+  size: SharedValue<{height: number; width: number}>;
+  font: SkFont;
+  colors: IThemeContext['colors'];
+
+  selectedPeriod: SharedValue<IChart[]>;
+
   x: SharedValue<number>;
   y: SharedValue<number>;
+  minX: SharedValue<number>;
+  maxX: SharedValue<number>;
+  minY: SharedValue<number>;
+  maxY: SharedValue<number>;
+
+  formatterX?: IFormatter | undefined;
+  formatterY?: IFormatter | undefined;
+
   style?: ViewStyle;
 }
 
 const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
+  size,
+  selectedPeriod,
+
   x,
   y,
-  style,
-  children,
+  minX,
+  maxX,
 }) => {
-  const defaultPosition = {x: 0, y: 0};
-  const popupStyle = useAnimatedStyle<ViewStyle>(
-    () => ({
-      ...(style ?? defaultPosition),
-      position: 'absolute',
-      transform: [{translateX: x.value}, {translateY: y.value}],
-      display: x.value < 0 ? 'none' : 'flex',
-    }),
-    [x.value, y.value],
-  );
+  const realX = useDerivedValue(() => {
+    return interpolate(
+      x.value,
+      [
+        chartPaddingHorizontal + chartPaddingHorizontal / 2,
+        size.value.width - chartPaddingHorizontal / 2,
+      ],
+      [minX.value, maxX.value],
+      Extrapolation.CLAMP,
+    );
+  }, [x, minX, maxX]);
 
-  return <Animated.View style={popupStyle}>{children}</Animated.View>;
+  const realYs = useDerivedValue(() => {
+    return selectedPeriod.value.map(line => {
+      let closestIndex = 0;
+      let lastDiff = Infinity;
+
+      line.coordinates.forEach(({x}, index) => {
+        const currentDiff = realX.value - x;
+        if (currentDiff < lastDiff && x <= realX.value) {
+          lastDiff = currentDiff;
+          closestIndex = index;
+        }
+      });
+
+      const closedLeftCoordinates = line.coordinates[closestIndex];
+      const possibleSecondIndex = closestIndex + 1;
+      const closedRightCoordinates =
+        line.coordinates[
+          possibleSecondIndex < line.coordinates.length
+            ? possibleSecondIndex
+            : 0
+        ];
+
+      if (!closedLeftCoordinates) throw Error('!closedLeftCoordinates');
+      if (!closedRightCoordinates) throw Error('!closedRightCoordinates');
+
+      // Similarity of triangles
+      //        /|
+      //       / |
+      //      /  |
+      //     /   |
+      //    /|   |bY
+      //   / |xY |
+      //  /__|___|
+      //   xl
+      //      bl
+      const bl = closedRightCoordinates.x - closedLeftCoordinates.x;
+      const xl = realX.value - closedLeftCoordinates.x;
+      const bY = closedRightCoordinates.y - closedLeftCoordinates.y;
+      const xY = (bY / bl) * xl;
+
+      return xY + closedLeftCoordinates.y;
+    });
+  }, []);
+
+  const textY = useDerivedValue(() => {
+    const para = Skia.ParagraphBuilder.Make()
+      .pushStyle({color: Skia.Color('#000')})
+      .addText(`x=${realX.value.toFixed(2)}\n`);
+
+    realYs.value.forEach(y => para.addText(`y=${y.toFixed(2)}\n`));
+
+    return para.build();
+  }, [x, minX, maxX]);
+
+  return (
+    <Group>
+      <Paragraph paragraph={textY} x={x} y={y} width={100} />
+    </Group>
+  );
 };
 
 export default ChartPopup;
