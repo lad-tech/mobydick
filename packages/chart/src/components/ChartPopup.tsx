@@ -1,6 +1,7 @@
 import {
   Group,
   Paragraph,
+  RoundedRect,
   SkFont,
   Skia,
   TextAlign,
@@ -111,22 +112,25 @@ const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
     }
 
     return result;
-  }, []);
+  });
 
   const text = useDerivedValue(() => {
-    const paragraph = Skia.ParagraphBuilder.Make({textAlign: TextAlign.Center})
-      .pushStyle({color: Skia.Color('#000')})
-      .addText(`x=${realX.value.toFixed(2)}\n`);
+    const paragraph = Skia.ParagraphBuilder.Make({
+      textAlign: TextAlign.Center,
+    }).addText(`x=${realX.value.toFixed(2)}\n`);
 
-    realYs.value.forEach(({y, name}) =>
-      paragraph.addText(`y:${name}=${y.toFixed(2)}\n`),
+    realYs.value.forEach(({y, name}, index) =>
+      paragraph.addText(
+        `y:${name}=${y.toFixed(2)}${index < realYs.value.length - 1 ? '\n' : ''}`,
+      ),
     );
 
     const r = paragraph.build();
+
     r.layout(100);
 
     return r;
-  }, [x, minX, maxX]);
+  });
 
   const adjustedX = useDerivedValue(() => {
     const textWidth = text.value.getMaxWidth();
@@ -158,9 +162,30 @@ const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
     return dy;
   });
 
+  const boxHeight = useDerivedValue(() => {
+    return text.value.getHeight();
+  });
+
+  const boxWidth = useDerivedValue(() => {
+    return text.value.getMaxWidth();
+  });
+
   return (
-    <Group>
-      <Paragraph paragraph={text} x={adjustedX} y={adjustedY} width={100} />
+    <Group opacity={0.5}>
+      <RoundedRect
+        x={adjustedX}
+        y={adjustedY}
+        width={boxWidth}
+        height={boxHeight}
+        r={6}
+        color={'rgb(120,81,169)'}
+      />
+      <Paragraph
+        paragraph={text}
+        x={adjustedX}
+        y={adjustedY}
+        width={boxWidth}
+      />
     </Group>
   );
 };
