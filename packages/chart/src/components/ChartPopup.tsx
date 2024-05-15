@@ -60,25 +60,33 @@ const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
   }, [x, minX, maxX]);
 
   const realYs = useDerivedValue(() => {
-    return selectedPeriod.value.map(line => {
+    const result = [];
+
+    for (const {coordinates, name} of selectedPeriod.value) {
       let closestIndex = 0;
       let lastDiff = Infinity;
+      let maxX = 0;
 
-      line.coordinates.forEach(({x}, index) => {
+      coordinates.forEach(({x}, index) => {
+        maxX = Math.max(maxX, x);
+
         const currentDiff = realX.value - x;
+
         if (currentDiff < lastDiff && x <= realX.value) {
           lastDiff = currentDiff;
           closestIndex = index;
         }
       });
 
-      const closedLeftCoordinates = line.coordinates[closestIndex];
+      if (maxX < realX.value) {
+        continue;
+      }
+
+      const closedLeftCoordinates = coordinates[closestIndex];
       const possibleSecondIndex = closestIndex + 1;
       const closedRightCoordinates =
-        line.coordinates[
-          possibleSecondIndex < line.coordinates.length
-            ? possibleSecondIndex
-            : 0
+        coordinates[
+          possibleSecondIndex < coordinates.length ? possibleSecondIndex : 0
         ];
 
       if (!closedLeftCoordinates) throw Error('!closedLeftCoordinates');
@@ -99,21 +107,24 @@ const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
       const bY = closedRightCoordinates.y - closedLeftCoordinates.y;
       const xY = (bY / bl) * xl;
 
-      return xY + closedLeftCoordinates.y;
-    });
+      result.push({y: xY + closedLeftCoordinates.y, name});
+    }
+
+    return result;
   }, []);
 
   const text = useDerivedValue(() => {
-    const para = Skia.ParagraphBuilder.Make({textAlign: TextAlign.Center})
+    const paragraph = Skia.ParagraphBuilder.Make({textAlign: TextAlign.Center})
       .pushStyle({color: Skia.Color('#000')})
       .addText(`x=${realX.value.toFixed(2)}\n`);
 
-    realYs.value.forEach((y, index) =>
-      para.addText(`y:${selectedPeriod.value[index]?.name}=${y.toFixed(2)}\n`),
+    realYs.value.forEach(({y, name}) =>
+      paragraph.addText(`y:${name}=${y.toFixed(2)}\n`),
     );
 
-    const r = para.build();
+    const r = paragraph.build();
     r.layout(100);
+
     return r;
   }, [x, minX, maxX]);
 
