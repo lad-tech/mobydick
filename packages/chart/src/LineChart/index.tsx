@@ -202,8 +202,8 @@ export const LineChart = ({
     });
   });
 
-  const x = useSharedValue(-10);
-  const y = useSharedValue(-10);
+  const x = useSharedValue(-150);
+  const y = useSharedValue(-150);
 
   const pan = Gesture.Pan()
     .onBegin(event => {
@@ -255,8 +255,8 @@ export const LineChart = ({
       );
     })
     .onEnd(() => {
-      x.value = withTiming(-10, {duration: 150});
-      y.value = withTiming(-10, {duration: 150});
+      x.value = withTiming(-150, {duration: 150});
+      y.value = withTiming(-150, {duration: 150});
     });
 
   if (!font) return null;

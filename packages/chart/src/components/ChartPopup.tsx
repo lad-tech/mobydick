@@ -1,4 +1,10 @@
-import {Group, Paragraph, SkFont, Skia} from '@shopify/react-native-skia';
+import {
+  Group,
+  Paragraph,
+  SkFont,
+  Skia,
+  TextAlign,
+} from '@shopify/react-native-skia';
 import {FC, PropsWithChildren} from 'react';
 import {ViewStyle} from 'react-native';
 import {
@@ -97,19 +103,53 @@ const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
     });
   }, []);
 
-  const textY = useDerivedValue(() => {
-    const para = Skia.ParagraphBuilder.Make()
+  const text = useDerivedValue(() => {
+    const para = Skia.ParagraphBuilder.Make({textAlign: TextAlign.Center})
       .pushStyle({color: Skia.Color('#000')})
       .addText(`x=${realX.value.toFixed(2)}\n`);
 
-    realYs.value.forEach(y => para.addText(`y=${y.toFixed(2)}\n`));
+    realYs.value.forEach((y, index) =>
+      para.addText(`y:${selectedPeriod.value[index]?.name}=${y.toFixed(2)}\n`),
+    );
 
-    return para.build();
+    const r = para.build();
+    r.layout(100);
+    return r;
   }, [x, minX, maxX]);
+
+  const adjustedX = useDerivedValue(() => {
+    const textWidth = text.value.getMaxWidth();
+    const halfWidth = size.value.width / 2;
+
+    const touchPositionX = x.value;
+
+    let dx = touchPositionX;
+
+    if (touchPositionX > halfWidth) {
+      dx = touchPositionX - textWidth;
+    }
+
+    return dx;
+  });
+
+  const adjustedY = useDerivedValue(() => {
+    const textHeight = text.value.getHeight();
+    const halfHeight = size.value.height / 2;
+
+    const touchPositionY = y.value;
+
+    let dy = touchPositionY;
+
+    if (touchPositionY > halfHeight) {
+      dy = touchPositionY - textHeight;
+    }
+
+    return dy;
+  });
 
   return (
     <Group>
-      <Paragraph paragraph={textY} x={x} y={y} width={100} />
+      <Paragraph paragraph={text} x={adjustedX} y={adjustedY} width={100} />
     </Group>
   );
 };
