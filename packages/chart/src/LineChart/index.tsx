@@ -1,7 +1,6 @@
 import {
   Canvas,
   Group,
-  SkiaDomView,
   useCanvasRef,
   useFont,
   useFonts,
@@ -45,13 +44,16 @@ export interface ILineChartProps {
   dataset: IDataset;
   renderHeader?: IRenderHeader;
   renderSectionItem?: IRenderSectionItem;
+
   containerStyles?: StyleProp<ViewStyle>;
   sectionContainerStyles?: StyleProp<ViewStyle>;
   chartContainerStyles?: StyleProp<ViewStyle>;
+
   formatterX?: IFormatter;
   formatterY?: IFormatter;
+
   hideDataPoints?: boolean;
-  popup?: SkiaDomView;
+  hidePointer?: boolean;
 }
 
 export const LineChart = ({
@@ -64,6 +66,7 @@ export const LineChart = ({
   formatterY,
   formatterX,
   hideDataPoints = false,
+  hidePointer = false,
 }: ILineChartProps) => {
   const {colors, spaces} = useTheme();
   const fontMgr = useFonts({
@@ -320,18 +323,20 @@ export const LineChart = ({
               formatterY={formatterY}
             />
           </Group>
-          <PointerPopup
-            size={size}
-            fontMgr={fontMgr}
-            colors={colors}
-            selectedPeriod={selectedPeriod}
-            x={x}
-            y={y}
-            maxX={maxX}
-            maxY={maxY}
-            minY={minY}
-            minX={minX}
-          />
+          {!hidePointer && (
+            <PointerPopup
+              size={size}
+              fontMgr={fontMgr}
+              colors={colors}
+              selectedPeriod={selectedPeriod}
+              x={x}
+              y={y}
+              maxX={maxX}
+              maxY={maxY}
+              minY={minY}
+              minX={minX}
+            />
+          )}
         </Canvas>
       </GestureDetector>
       {renderSectionItem && (
