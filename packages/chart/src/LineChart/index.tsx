@@ -39,7 +39,7 @@ import {
 import Section from '../components/Section';
 import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
 import {Lines} from '../components/Lines';
-import ChartPopup from '../components/ChartPopup';
+import PointerPopup from '../components/PointerPopup';
 
 export interface ILineChartProps {
   dataset: IDataset;
@@ -320,7 +320,7 @@ export const LineChart = ({
               formatterY={formatterY}
             />
           </Group>
-          <ChartPopup
+          <PointerPopup
             size={size}
             fontMgr={fontMgr}
             colors={colors}

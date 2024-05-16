@@ -44,7 +44,7 @@ interface IChartPopup {
   style?: ViewStyle;
 }
 
-const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
+const PointerPopup: FC<PropsWithChildren<IChartPopup>> = ({
   size,
   colors,
   fontMgr,
@@ -230,4 +230,4 @@ const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
   );
 };
 
-export default ChartPopup;
+export default PointerPopup;
