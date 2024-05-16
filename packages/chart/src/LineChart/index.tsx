@@ -39,7 +39,6 @@ import {
 import Section from '../components/Section';
 import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
 import {Lines} from '../components/Lines';
-import XLine from '../components/XLine';
 import ChartPopup from '../components/ChartPopup';
 
 export interface ILineChartProps {
@@ -300,7 +299,6 @@ export const LineChart = ({
             },
             chartContainerStyles,
           ]}>
-          <XLine x={x} size={size} />
           <Group>
             <Lines
               periodsWithPaths={periodsWithPaths}

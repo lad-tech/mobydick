@@ -1,12 +1,15 @@
-import type {SkTypefaceFontProvider} from '@shopify/react-native-skia';
 import {
+  DashPathEffect,
   Group,
+  Line,
   Paragraph,
   rect,
   RoundedRect,
   rrect,
   Skia,
+  SkTypefaceFontProvider,
   TextAlign,
+  vec,
 } from '@shopify/react-native-skia';
 import {FC, PropsWithChildren} from 'react';
 import {ViewStyle} from 'react-native';
@@ -18,7 +21,7 @@ import {
 } from 'react-native-reanimated';
 import {IThemeContext} from '@lad-tech/mobydick-core';
 
-import {chartPaddingHorizontal} from '../utils';
+import {chartPaddingHorizontal, chartPaddingVertical} from '../utils';
 import {IChart, IFormatter} from '../types';
 
 interface IChartPopup {
@@ -193,6 +196,11 @@ const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
     );
   });
 
+  const line1 = useDerivedValue(() => vec(x.value, 0));
+  const line2 = useDerivedValue(() =>
+    vec(x.value, size.value.height - chartPaddingVertical / 2),
+  );
+
   return (
     <Group>
       <RoundedRect
@@ -215,6 +223,9 @@ const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
         y={adjustedY}
         width={boxWidth}
       />
+      <Line p1={line1} p2={line2} color={colors.BorderHard} strokeWidth={2}>
+        <DashPathEffect intervals={[4, 4]} />
+      </Line>
     </Group>
   );
 };
