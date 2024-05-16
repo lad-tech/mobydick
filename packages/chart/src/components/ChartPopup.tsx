@@ -1,8 +1,10 @@
+import type {SkTypefaceFontProvider} from '@shopify/react-native-skia';
 import {
   Group,
   Paragraph,
+  rect,
   RoundedRect,
-  SkFont,
+  rrect,
   Skia,
   TextAlign,
 } from '@shopify/react-native-skia';
@@ -21,8 +23,8 @@ import {IChart, IFormatter} from '../types';
 
 interface IChartPopup {
   size: SharedValue<{height: number; width: number}>;
-  font: SkFont;
   colors: IThemeContext['colors'];
+  fontMgr: SkTypefaceFontProvider;
 
   selectedPeriod: SharedValue<IChart[]>;
 
@@ -41,6 +43,9 @@ interface IChartPopup {
 
 const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
   size,
+  colors,
+  fontMgr,
+
   selectedPeriod,
 
   x,
@@ -115,19 +120,29 @@ const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
   });
 
   const text = useDerivedValue(() => {
-    const paragraph = Skia.ParagraphBuilder.Make({
-      textAlign: TextAlign.Center,
-    }).addText(`x=${realX.value.toFixed(2)}\n`);
+    const paragraph = Skia.ParagraphBuilder.Make(
+      {
+        textAlign: TextAlign.Center,
+        textStyle: {
+          color: Skia.Color(colors.TextPrimary),
+        },
+      },
+      fontMgr,
+    ).addText(`x=${realX.value.toFixed(2)}\n`);
 
-    realYs.value.forEach(({y, name}, index) =>
-      paragraph.addText(
-        `y:${name}=${y.toFixed(2)}${index < realYs.value.length - 1 ? '\n' : ''}`,
-      ),
-    );
+    let maxTextLength = 0;
+
+    realYs.value.forEach(({y, name}, index) => {
+      const text = `y:${name}=${y.toFixed(2)}${index < realYs.value.length - 1 ? '\n' : ''}`;
+
+      maxTextLength = Math.max(maxTextLength, text.length);
+
+      paragraph.addText(text);
+    });
 
     const r = paragraph.build();
 
-    r.layout(100);
+    r.layout(maxTextLength * 7);
 
     return r;
   });
@@ -170,15 +185,29 @@ const ChartPopup: FC<PropsWithChildren<IChartPopup>> = ({
     return text.value.getMaxWidth();
   });
 
+  const borderRect = useDerivedValue(() => {
+    return rrect(
+      rect(adjustedX.value, adjustedY.value, boxWidth.value, boxHeight.value),
+      10,
+      10,
+    );
+  });
+
   return (
-    <Group opacity={0.5}>
+    <Group>
       <RoundedRect
         x={adjustedX}
         y={adjustedY}
         width={boxWidth}
         height={boxHeight}
         r={6}
-        color={'rgb(120,81,169)'}
+        color={colors.BgPrimaryExtra}
+      />
+      <RoundedRect
+        rect={borderRect}
+        color={colors.BorderSoft}
+        style="stroke"
+        strokeWidth={1}
       />
       <Paragraph
         paragraph={text}

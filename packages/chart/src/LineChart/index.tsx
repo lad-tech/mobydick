@@ -4,6 +4,7 @@ import {
   SkiaDomView,
   useCanvasRef,
   useFont,
+  useFonts,
 } from '@shopify/react-native-skia';
 import {
   Extrapolation,
@@ -66,6 +67,14 @@ export const LineChart = ({
   hideDataPoints = false,
 }: ILineChartProps) => {
   const {colors, spaces} = useTheme();
+  const fontMgr = useFonts({
+    Inter: [
+      require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Bold.ttf'),
+      require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Italic.ttf'),
+      require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf'),
+    ],
+  });
+
   const font = useFont(
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Medium.ttf'),
@@ -259,7 +268,7 @@ export const LineChart = ({
       y.value = withTiming(-150, {duration: 150});
     });
 
-  if (!font) return null;
+  if (!fontMgr || !font) return null;
 
   return (
     <GestureHandlerRootView
@@ -315,7 +324,7 @@ export const LineChart = ({
           </Group>
           <ChartPopup
             size={size}
-            font={font}
+            fontMgr={fontMgr}
             colors={colors}
             selectedPeriod={selectedPeriod}
             x={x}
