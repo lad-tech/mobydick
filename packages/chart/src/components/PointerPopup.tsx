@@ -12,7 +12,6 @@ import {
   vec,
 } from '@shopify/react-native-skia';
 import {FC, PropsWithChildren} from 'react';
-import {ViewStyle} from 'react-native';
 import {
   Extrapolation,
   interpolate,
@@ -40,8 +39,6 @@ interface IChartPopup {
 
   formatterX?: IFormatter | undefined;
   formatterY?: IFormatter | undefined;
-
-  style?: ViewStyle;
 }
 
 const PointerPopup: FC<PropsWithChildren<IChartPopup>> = ({
@@ -55,6 +52,9 @@ const PointerPopup: FC<PropsWithChildren<IChartPopup>> = ({
   y,
   minX,
   maxX,
+
+  formatterX,
+  formatterY,
 }) => {
   const realX = useDerivedValue(() => {
     return interpolate(
@@ -131,12 +131,12 @@ const PointerPopup: FC<PropsWithChildren<IChartPopup>> = ({
         },
       },
       fontMgr,
-    ).addText(`x=${realX.value.toFixed(2)}\n`);
+    ).addText(`x=${formatterX?.(realX.value) ?? realX.value.toFixed(2)}\n`);
 
     let maxTextLength = 0;
 
     realYs.value.forEach(({y, name}, index) => {
-      const text = `y:${name}=${y.toFixed(2)}${index < realYs.value.length - 1 ? '\n' : ''}`;
+      const text = `y:${name}=${formatterY?.(y) ?? y.toFixed(2)}${index < realYs.value.length - 1 ? '\n' : ''}`;
 
       maxTextLength = Math.max(maxTextLength, text.length);
 
