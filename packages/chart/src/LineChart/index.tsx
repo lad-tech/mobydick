@@ -10,7 +10,6 @@ import {
   interpolate,
   useDerivedValue,
   useSharedValue,
-  withTiming,
 } from 'react-native-reanimated';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {StyleProp, ViewStyle} from 'react-native';
@@ -218,30 +217,24 @@ export const LineChart = ({
 
   const pan = Gesture.Pan()
     .onBegin(event => {
-      x.value = withTiming(
-        interpolate(
-          event.x,
-          [
-            chartPaddingHorizontal + chartPaddingHorizontal / 2,
-            size.value.width - chartPaddingHorizontal / 2,
-          ],
-          [
-            chartPaddingHorizontal + chartPaddingHorizontal / 2,
-            size.value.width - chartPaddingHorizontal / 2,
-          ],
-          Extrapolation.CLAMP,
-        ),
-        {duration: 150},
+      x.value = interpolate(
+        event.x,
+        [
+          chartPaddingHorizontal + chartPaddingHorizontal / 2,
+          size.value.width - chartPaddingHorizontal / 2,
+        ],
+        [
+          chartPaddingHorizontal + chartPaddingHorizontal / 2,
+          size.value.width - chartPaddingHorizontal / 2,
+        ],
+        Extrapolation.CLAMP,
       );
 
-      y.value = withTiming(
-        interpolate(
-          event.y,
-          [size.value.height - chartPaddingVertical, chartPaddingVertical / 2],
-          [size.value.height - chartPaddingVertical, chartPaddingVertical / 2],
-          Extrapolation.CLAMP,
-        ),
-        {duration: 150},
+      y.value = interpolate(
+        event.y,
+        [size.value.height - chartPaddingVertical, chartPaddingVertical / 2],
+        [size.value.height - chartPaddingVertical, chartPaddingVertical / 2],
+        Extrapolation.CLAMP,
       );
     })
     .onUpdate(event => {
@@ -266,8 +259,8 @@ export const LineChart = ({
       );
     })
     .onEnd(() => {
-      x.value = withTiming(-150, {duration: 150});
-      y.value = withTiming(-150, {duration: 150});
+      x.value = -150;
+      y.value = -150;
     });
 
   if (!fontMgr || !font) return null;
