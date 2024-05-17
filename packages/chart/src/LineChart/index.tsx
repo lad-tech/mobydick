@@ -1,11 +1,31 @@
-import {Canvas, Group, useCanvasRef, useFont} from '@shopify/react-native-skia';
-import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
+import {
+  Canvas,
+  Group,
+  useCanvasRef,
+  useFont,
+  useFonts,
+} from '@shopify/react-native-skia';
+import {
+  Extrapolation,
+  interpolate,
+  useDerivedValue,
+  useSharedValue,
+} from 'react-native-reanimated';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {StyleProp, ViewStyle} from 'react-native';
-import {useTheme, View} from '@lad-tech/mobydick-core';
+import {useTheme} from '@lad-tech/mobydick-core';
+import {
+  Gesture,
+  GestureDetector,
+  GestureHandlerRootView,
+} from 'react-native-gesture-handler';
 
 import Coordinates from '../components/Coordinates';
-import {defaultChartHeightDivider} from '../utils/constants';
+import {
+  chartPaddingHorizontal,
+  chartPaddingVertical,
+  defaultChartHeightDivider,
+} from '../utils/constants';
 import {
   IChartState,
   IDataset,
@@ -17,17 +37,22 @@ import {
 import Section from '../components/Section';
 import {generatePeriodsWithLinePaths} from '../utils/generatePeriodsWithLinePaths';
 import {Lines} from '../components/Lines';
+import PointerPopup from '../components/PointerPopup';
 
 export interface ILineChartProps {
   dataset: IDataset;
   renderHeader?: IRenderHeader;
   renderSectionItem?: IRenderSectionItem;
+
   containerStyles?: StyleProp<ViewStyle>;
   sectionContainerStyles?: StyleProp<ViewStyle>;
   chartContainerStyles?: StyleProp<ViewStyle>;
+
   formatterX?: IFormatter;
   formatterY?: IFormatter;
+
   hideDataPoints?: boolean;
+  hidePointer?: boolean;
 }
 
 export const LineChart = ({
@@ -40,8 +65,17 @@ export const LineChart = ({
   formatterY,
   formatterX,
   hideDataPoints = false,
+  hidePointer = false,
 }: ILineChartProps) => {
   const {colors, spaces} = useTheme();
+  const fontMgr = useFonts({
+    Inter: [
+      require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Bold.ttf'),
+      require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Italic.ttf'),
+      require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf'),
+    ],
+  });
+
   const font = useFont(
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Medium.ttf'),
@@ -84,6 +118,7 @@ export const LineChart = ({
 
     return end.maxY;
   });
+
   const maxX = useDerivedValue(() => {
     const {current, next} = state.value;
     const start = periodsWithPaths.value[current];
@@ -95,6 +130,7 @@ export const LineChart = ({
 
     return end.maxX;
   });
+
   const minX = useDerivedValue(() => {
     const {current, next} = state.value;
     const start = periodsWithPaths.value[current];
@@ -106,6 +142,7 @@ export const LineChart = ({
 
     return end.minX;
   });
+
   const minY = useDerivedValue(() => {
     const {current, next} = state.value;
     const start = periodsWithPaths.value[current];
@@ -117,6 +154,7 @@ export const LineChart = ({
 
     return end.minY;
   });
+
   const coordinatesLength = useDerivedValue(() => {
     const {current, next} = state.value;
     const start = periodsWithPaths.value[current];
@@ -174,10 +212,61 @@ export const LineChart = ({
     });
   });
 
-  if (!font) return null;
+  const x = useSharedValue(-150);
+  const y = useSharedValue(-150);
+
+  const pan = Gesture.Pan()
+    .onBegin(event => {
+      x.value = interpolate(
+        event.x,
+        [
+          chartPaddingHorizontal + chartPaddingHorizontal / 2,
+          size.value.width - chartPaddingHorizontal / 2,
+        ],
+        [
+          chartPaddingHorizontal + chartPaddingHorizontal / 2,
+          size.value.width - chartPaddingHorizontal / 2,
+        ],
+        Extrapolation.CLAMP,
+      );
+
+      y.value = interpolate(
+        event.y,
+        [size.value.height - chartPaddingVertical, chartPaddingVertical / 2],
+        [size.value.height - chartPaddingVertical, chartPaddingVertical / 2],
+        Extrapolation.CLAMP,
+      );
+    })
+    .onUpdate(event => {
+      x.value = interpolate(
+        event.x,
+        [
+          chartPaddingHorizontal + chartPaddingHorizontal / 2,
+          size.value.width - chartPaddingHorizontal / 2,
+        ],
+        [
+          chartPaddingHorizontal + chartPaddingHorizontal / 2,
+          size.value.width - chartPaddingHorizontal / 2,
+        ],
+        Extrapolation.CLAMP,
+      );
+
+      y.value = interpolate(
+        event.y,
+        [size.value.height - chartPaddingVertical, chartPaddingVertical / 2],
+        [size.value.height - chartPaddingVertical, chartPaddingVertical / 2],
+        Extrapolation.CLAMP,
+      );
+    })
+    .onEnd(() => {
+      x.value = -150;
+      y.value = -150;
+    });
+
+  if (!fontMgr || !font) return null;
 
   return (
-    <View
+    <GestureHandlerRootView
       style={[
         {
           gap: spaces.Space12,
@@ -195,38 +284,54 @@ export const LineChart = ({
         transition,
         selectedValues,
       })}
-      <Canvas
-        ref={ref}
-        onSize={size}
-        style={[
-          {
-            flexGrow: 1,
-            minHeight: frameHeight / defaultChartHeightDivider,
-          },
-          chartContainerStyles,
-        ]}>
-        <Group>
-          <Lines
-            periodsWithPaths={periodsWithPaths}
-            size={size}
-            state={state}
-            transition={transition}
-            hideDataPoints={hideDataPoints}
-          />
-          <Coordinates
-            font={font}
-            colors={colors}
-            size={size}
-            maxY={maxY}
-            minY={minY}
-            maxX={maxX}
-            minX={minX}
-            coordinatesLength={coordinatesLength}
-            formatterX={formatterX}
-            formatterY={formatterY}
-          />
-        </Group>
-      </Canvas>
+      <GestureDetector gesture={pan}>
+        <Canvas
+          ref={ref}
+          onSize={size}
+          style={[
+            {
+              flexGrow: 1,
+              minHeight: frameHeight / defaultChartHeightDivider,
+            },
+            chartContainerStyles,
+          ]}>
+          <Group>
+            <Lines
+              periodsWithPaths={periodsWithPaths}
+              size={size}
+              state={state}
+              transition={transition}
+              hideDataPoints={hideDataPoints}
+            />
+            <Coordinates
+              font={font}
+              colors={colors}
+              size={size}
+              maxY={maxY}
+              minY={minY}
+              maxX={maxX}
+              minX={minX}
+              coordinatesLength={coordinatesLength}
+              formatterX={formatterX}
+              formatterY={formatterY}
+            />
+          </Group>
+          {!hidePointer && (
+            <PointerPopup
+              size={size}
+              fontMgr={fontMgr}
+              colors={colors}
+              selectedPeriod={selectedPeriod}
+              x={x}
+              y={y}
+              maxX={maxX}
+              maxY={maxY}
+              minY={minY}
+              minX={minX}
+            />
+          )}
+        </Canvas>
+      </GestureDetector>
       {renderSectionItem && (
         <Section
           state={state}
@@ -236,7 +341,7 @@ export const LineChart = ({
           sectionContainerStyles={sectionContainerStyles}
         />
       )}
-    </View>
+    </GestureHandlerRootView>
   );
 };
 

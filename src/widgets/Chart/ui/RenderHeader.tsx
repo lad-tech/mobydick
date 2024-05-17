@@ -1,7 +1,7 @@
 import Animated, {useAnimatedProps} from 'react-native-reanimated';
 import {TextInput} from 'react-native';
 
-import {IRenderHeader, Typography, View} from '@shared/ui';
+import {IRenderHeader, Typography, useFont, View} from '@shared/ui';
 
 interface IRenderHeaderProps {
   header: Parameters<IRenderHeader>[number];
@@ -11,6 +11,7 @@ export const AnimatedText = Animated.createAnimatedComponent(TextInput);
 Animated.addWhitelistedNativeProps({text: true});
 
 const RenderHeader = ({header}: IRenderHeaderProps) => {
+  const {fontStyle} = useFont('Regular-Primary-XS');
   const animatedPropsPeriod = useAnimatedProps(() => {
     return {
       text: header.selectedPeriodName.value,
@@ -33,12 +34,14 @@ const RenderHeader = ({header}: IRenderHeaderProps) => {
         animatedProps={animatedPropsPeriod}
         editable={false}
         underlineColorAndroid="transparent"
+        style={fontStyle}
       />
       <Typography>Last record</Typography>
       <AnimatedText
         animatedProps={animatedPropsRecord}
         editable={false}
         underlineColorAndroid="transparent"
+        style={fontStyle}
       />
     </View>
   );
