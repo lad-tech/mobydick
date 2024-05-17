@@ -15,18 +15,18 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly  isNotValid time 
       {
         "backgroundColor": "#FFF",
         "borderBottomLeftRadius": 0,
-        "borderBottomRightRadius": 15,
-        "borderRadius": 15,
-        "marginVertical": 6,
+        "borderBottomRightRadius": 10,
+        "borderRadius": 10,
+        "marginVertical": 4,
       }
     }
   >
     <View
       style={
         {
-          "paddingBottom": 6,
-          "paddingHorizontal": 15,
-          "paddingTop": 12,
+          "paddingBottom": 4,
+          "paddingHorizontal": 10,
+          "paddingTop": 8,
         }
       }
     >
@@ -37,9 +37,9 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly  isNotValid time 
             {
               "color": "#444B5A",
               "fontFamily": "Inter-Regular",
-              "fontSize": 21,
-              "lineHeight": 27,
-              "minHeight": 27,
+              "fontSize": 14,
+              "lineHeight": 18,
+              "minHeight": 18,
             },
             undefined,
           ]
@@ -52,8 +52,8 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly  isNotValid time 
       style={
         {
           "alignSelf": "flex-end",
-          "paddingBottom": 12,
-          "paddingHorizontal": 9,
+          "paddingBottom": 8,
+          "paddingHorizontal": 6,
         }
       }
     />
@@ -75,19 +75,19 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe 1`] = `
     style={
       {
         "backgroundColor": "#2B78EE",
-        "borderBottomLeftRadius": 15,
+        "borderBottomLeftRadius": 10,
         "borderBottomRightRadius": 0,
-        "borderRadius": 15,
-        "marginVertical": 6,
+        "borderRadius": 10,
+        "marginVertical": 4,
       }
     }
   >
     <View
       style={
         {
-          "paddingBottom": 6,
-          "paddingHorizontal": 15,
-          "paddingTop": 12,
+          "paddingBottom": 4,
+          "paddingHorizontal": 10,
+          "paddingTop": 8,
         }
       }
     >
@@ -98,9 +98,9 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe 1`] = `
             {
               "color": "#FFF",
               "fontFamily": "Inter-Regular",
-              "fontSize": 21,
-              "lineHeight": 27,
-              "minHeight": 27,
+              "fontSize": 14,
+              "lineHeight": 18,
+              "minHeight": 18,
             },
             undefined,
           ]
@@ -113,8 +113,8 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe 1`] = `
       style={
         {
           "alignSelf": "flex-end",
-          "paddingBottom": 12,
-          "paddingHorizontal": 9,
+          "paddingBottom": 8,
+          "paddingHorizontal": 6,
         }
       }
     >
@@ -125,9 +125,9 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe 1`] = `
             {
               "color": "rgba(255, 255, 255, 0.75)",
               "fontFamily": "Inter-Regular",
-              "fontSize": 15,
-              "lineHeight": 21,
-              "minHeight": 21,
+              "fontSize": 10,
+              "lineHeight": 14,
+              "minHeight": 14,
             },
             undefined,
           ]
@@ -154,10 +154,10 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image 1`] = 
     style={
       {
         "backgroundColor": "#2B78EE",
-        "borderBottomLeftRadius": 15,
+        "borderBottomLeftRadius": 10,
         "borderBottomRightRadius": 0,
-        "borderRadius": 15,
-        "marginVertical": 6,
+        "borderRadius": 10,
+        "marginVertical": 4,
       }
     }
   >
@@ -165,13 +165,13 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image 1`] = 
       style={
         [
           {
-            "maxHeight": 222,
-            "maxWidth": 222,
-            "minHeight": 193.5,
-            "minWidth": 193.5,
+            "maxHeight": 148,
+            "maxWidth": 148,
+            "minHeight": 129,
+            "minWidth": 129,
           },
           {
-            "margin": 6,
+            "margin": 4,
           },
         ]
       }
@@ -184,10 +184,10 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image 1`] = 
         }
         style={
           {
-            "maxHeight": 222,
-            "maxWidth": 222,
-            "minHeight": 193.5,
-            "minWidth": 193.5,
+            "maxHeight": 148,
+            "maxWidth": 148,
+            "minHeight": 129,
+            "minWidth": 129,
           }
         }
       />
@@ -196,8 +196,8 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image 1`] = 
       style={
         {
           "alignSelf": "flex-end",
-          "paddingBottom": 12,
-          "paddingHorizontal": 9,
+          "paddingBottom": 8,
+          "paddingHorizontal": 6,
         }
       }
     >
@@ -208,9 +208,9 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image 1`] = 
             {
               "color": "rgba(255, 255, 255, 0.75)",
               "fontFamily": "Inter-Regular",
-              "fontSize": 15,
-              "lineHeight": 21,
-              "minHeight": 21,
+              "fontSize": 10,
+              "lineHeight": 14,
+              "minHeight": 14,
             },
             undefined,
           ]
@@ -237,10 +237,10 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image number
     style={
       {
         "backgroundColor": "#2B78EE",
-        "borderBottomLeftRadius": 15,
+        "borderBottomLeftRadius": 10,
         "borderBottomRightRadius": 0,
-        "borderRadius": 15,
-        "marginVertical": 6,
+        "borderRadius": 10,
+        "marginVertical": 4,
       }
     }
   >
@@ -248,13 +248,13 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image number
       style={
         [
           {
-            "maxHeight": 222,
-            "maxWidth": 222,
-            "minHeight": 193.5,
-            "minWidth": 193.5,
+            "maxHeight": 148,
+            "maxWidth": 148,
+            "minHeight": 129,
+            "minWidth": 129,
           },
           {
-            "margin": 6,
+            "margin": 4,
           },
         ]
       }
@@ -263,10 +263,10 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image number
         source={42}
         style={
           {
-            "maxHeight": 222,
-            "maxWidth": 222,
-            "minHeight": 193.5,
-            "minWidth": 193.5,
+            "maxHeight": 148,
+            "maxWidth": 148,
+            "minHeight": 129,
+            "minWidth": 129,
           }
         }
       />
@@ -275,8 +275,8 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image number
       style={
         {
           "alignSelf": "flex-end",
-          "paddingBottom": 12,
-          "paddingHorizontal": 9,
+          "paddingBottom": 8,
+          "paddingHorizontal": 6,
         }
       }
     >
@@ -287,9 +287,9 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image number
             {
               "color": "rgba(255, 255, 255, 0.75)",
               "fontFamily": "Inter-Regular",
-              "fontSize": 15,
-              "lineHeight": 21,
-              "minHeight": 21,
+              "fontSize": 10,
+              "lineHeight": 14,
+              "minHeight": 14,
             },
             undefined,
           ]
@@ -317,18 +317,18 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
       {
         "backgroundColor": "#FFF",
         "borderBottomLeftRadius": 0,
-        "borderBottomRightRadius": 15,
-        "borderRadius": 15,
-        "marginVertical": 6,
+        "borderBottomRightRadius": 10,
+        "borderRadius": 10,
+        "marginVertical": 4,
       }
     }
   >
     <View
       style={
         {
-          "paddingBottom": 6,
-          "paddingHorizontal": 15,
-          "paddingTop": 12,
+          "paddingBottom": 4,
+          "paddingHorizontal": 10,
+          "paddingTop": 8,
         }
       }
     >
@@ -339,9 +339,9 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
             {
               "color": "#444B5A",
               "fontFamily": "Inter-Regular",
-              "fontSize": 21,
-              "lineHeight": 27,
-              "minHeight": 27,
+              "fontSize": 14,
+              "lineHeight": 18,
+              "minHeight": 18,
             },
             undefined,
           ]
@@ -354,8 +354,8 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
       style={
         {
           "alignSelf": "flex-end",
-          "paddingBottom": 12,
-          "paddingHorizontal": 9,
+          "paddingBottom": 8,
+          "paddingHorizontal": 6,
         }
       }
     >
@@ -366,9 +366,9 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
             {
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
-              "fontSize": 15,
-              "lineHeight": 21,
-              "minHeight": 21,
+              "fontSize": 10,
+              "lineHeight": 14,
+              "minHeight": 14,
             },
             undefined,
           ]

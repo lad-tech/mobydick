@@ -34,11 +34,11 @@ exports[`@lad-tech/mobydick-core/TooltipBase/LeftButton should renders correctly
       "alignItems": "center",
       "alignSelf": "flex-start",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "marginVertical": 12,
-      "minHeight": 72,
+      "marginVertical": 8,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -50,13 +50,13 @@ exports[`@lad-tech/mobydick-core/TooltipBase/LeftButton should renders correctly
         {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 27,
-          "lineHeight": 33,
-          "minHeight": 33,
+          "fontSize": 18,
+          "lineHeight": 22,
+          "minHeight": 22,
         },
         [
           {
-            "paddingHorizontal": 9,
+            "paddingHorizontal": 6,
           },
           undefined,
         ],

@@ -11,7 +11,7 @@ import {
   DateData,
   LocaleConfig,
 } from 'react-native-calendars';
-import {useStyles, useTheme, rem} from '@lad-tech/mobydick-core';
+import {px, useStyles, useTheme} from '@lad-tech/mobydick-core';
 
 import {localeConfigRu} from './localeConfig';
 import {
@@ -109,10 +109,10 @@ const Calendar: FC<ICalendar> = props => {
         arrowColor: colors.IconNeutral,
         monthTextColor: colors.TextPrimary,
         textDayHeaderFontFamily: 'Inter-SemiBold',
-        textDayHeaderFontSize: rem(14),
-        textDayFontSize: rem(14),
+        textDayHeaderFontSize: px(14),
+        textDayFontSize: px(14),
         textDayFontFamily: 'Inter-Regular',
-        weekVerticalMargin: rem(1),
+        weekVerticalMargin: px(1),
         'stylesheet.day.period': {
           todayText: {
             fontWeight: '400',
@@ -125,7 +125,7 @@ const Calendar: FC<ICalendar> = props => {
         'stylesheet.calendar.header': {
           dayHeader: {
             marginTop: 0,
-            marginBottom: rem(5),
+            marginBottom: px(5),
             color: colors.TextSecondary,
           },
         },

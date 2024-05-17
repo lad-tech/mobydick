@@ -191,7 +191,7 @@ describe('Calendar-functions', () => {
       dates: {
         '2022-12-15': {
           color: '#fff',
-          customContainerStyle: {borderRadius: 6, width: '100%'},
+          customContainerStyle: {borderRadius: 4, width: '100%'},
           endingDay: true,
           startingDay: true,
           textColor: '#000',
@@ -229,7 +229,7 @@ describe('Calendar-functions', () => {
       dates: {
         '2022-01-20': {
           color: '#fff',
-          customContainerStyle: {borderRadius: 6, width: '100%'},
+          customContainerStyle: {borderRadius: 4, width: '100%'},
           customTextStyle: undefined,
           endingDay: true,
           startingDay: true,
@@ -249,7 +249,7 @@ describe('Calendar-functions', () => {
         },
         '2022-01-24': {
           color: '#fff',
-          customContainerStyle: {borderRadius: 6, width: '100%'},
+          customContainerStyle: {borderRadius: 4, width: '100%'},
           customTextStyle: undefined,
           endingDay: true,
           startingDay: true,
@@ -288,7 +288,7 @@ describe('Calendar-functions', () => {
       dates: {
         '2022-01-22': {
           color: '#fff',
-          customContainerStyle: {borderRadius: 6, width: '100%'},
+          customContainerStyle: {borderRadius: 4, width: '100%'},
           endingDay: true,
           startingDay: true,
           textColor: '#000',
@@ -304,7 +304,7 @@ describe('Calendar-functions', () => {
         },
         '2022-01-24': {
           color: '#fff',
-          customContainerStyle: {borderRadius: 6, width: '100%'},
+          customContainerStyle: {borderRadius: 4, width: '100%'},
           customTextStyle: undefined,
           endingDay: true,
           startingDay: true,
@@ -342,7 +342,7 @@ describe('Calendar-functions', () => {
       dates: {
         '2022-01-22': {
           color: '#fff',
-          customContainerStyle: {borderRadius: 6, width: '100%'},
+          customContainerStyle: {borderRadius: 4, width: '100%'},
           endingDay: true,
           startingDay: true,
           textColor: '#000',
@@ -354,7 +354,7 @@ describe('Calendar-functions', () => {
         },
         '2022-01-24': {
           color: '#fff',
-          customContainerStyle: {borderRadius: 6, width: '100%'},
+          customContainerStyle: {borderRadius: 4, width: '100%'},
 
           endingDay: true,
           startingDay: true,

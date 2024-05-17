@@ -8,8 +8,8 @@ import {
 } from 'react-native';
 
 import useStyles from '../../styles/hooks/useStyles';
-import rem from '../../styles/utils/rem';
 import {LABELS} from '../../other';
+import px from '../../styles/utils/px';
 
 import stylesCreate from './stylesCreate';
 import {ISwipe} from './types';
@@ -97,7 +97,7 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
 
   const translateX = pan.interpolate({
     inputRange: [leftPos, rightPos],
-    outputRange: [0, rem(20)],
+    outputRange: [0, px(20)],
     extrapolate: 'clamp',
   });
 

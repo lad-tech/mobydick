@@ -59,12 +59,12 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
         {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
+          "borderRadius": 12,
           "justifyContent": "center",
-          "marginVertical": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 36,
-          "width": 726,
+          "marginVertical": 20,
+          "paddingHorizontal": 20,
+          "paddingVertical": 24,
+          "width": 734,
         },
         {
           "maxWidth": "80%",
@@ -90,7 +90,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
         height="48"
         style={
           {
-            "margin": 9,
+            "margin": 6,
           }
         }
         width="48"
@@ -99,8 +99,8 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
     <View
       style={
         {
-          "marginBottom": 12,
-          "marginTop": 18,
+          "marginBottom": 8,
+          "marginTop": 12,
         }
       }
     >
@@ -111,9 +111,9 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
             {
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
-              "fontSize": 27,
-              "lineHeight": 33,
-              "minHeight": 33,
+              "fontSize": 18,
+              "lineHeight": 22,
+              "minHeight": 22,
             },
             [
               {
@@ -133,13 +133,13 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
             {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
-              "fontSize": 21,
-              "lineHeight": 27,
-              "minHeight": 27,
+              "fontSize": 14,
+              "lineHeight": 18,
+              "minHeight": 18,
             },
             [
               {
-                "paddingTop": 12,
+                "paddingTop": 8,
                 "textAlign": "center",
               },
               undefined,
@@ -155,7 +155,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "stretch",
-          "marginTop": 30,
+          "marginTop": 20,
         }
       }
     >
@@ -192,10 +192,10 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "rgba(43, 120, 238, 0.15)",
-            "borderRadius": 18,
+            "borderRadius": 12,
             "flexDirection": "row",
             "justifyContent": "center",
-            "minHeight": 72,
+            "minHeight": 48,
             "opacity": 1,
           }
         }
@@ -207,13 +207,13 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
               {
                 "color": "#2B78EE",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 27,
-                "lineHeight": 33,
-                "minHeight": 33,
+                "fontSize": 18,
+                "lineHeight": 22,
+                "minHeight": 22,
               },
               [
                 {
-                  "paddingHorizontal": 9,
+                  "paddingHorizontal": 6,
                 },
                 undefined,
               ],
@@ -287,12 +287,12 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
         {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
+          "borderRadius": 12,
           "justifyContent": "center",
-          "marginVertical": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 36,
-          "width": 726,
+          "marginVertical": 20,
+          "paddingHorizontal": 20,
+          "paddingVertical": 24,
+          "width": 734,
         },
         {
           "maxWidth": "80%",
@@ -318,7 +318,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
         height="48"
         style={
           {
-            "margin": 9,
+            "margin": 6,
           }
         }
         width="48"
@@ -327,8 +327,8 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
     <View
       style={
         {
-          "marginBottom": 12,
-          "marginTop": 18,
+          "marginBottom": 8,
+          "marginTop": 12,
         }
       }
     >
@@ -339,9 +339,9 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
             {
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
-              "fontSize": 27,
-              "lineHeight": 33,
-              "minHeight": 33,
+              "fontSize": 18,
+              "lineHeight": 22,
+              "minHeight": 22,
             },
             [
               {
@@ -361,13 +361,13 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
             {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
-              "fontSize": 21,
-              "lineHeight": 27,
-              "minHeight": 27,
+              "fontSize": 14,
+              "lineHeight": 18,
+              "minHeight": 18,
             },
             [
               {
-                "paddingTop": 12,
+                "paddingTop": 8,
                 "textAlign": "center",
               },
               undefined,
@@ -383,7 +383,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
         {
           "alignItems": "center",
           "alignSelf": "stretch",
-          "marginTop": 30,
+          "marginTop": 20,
         }
       }
     >
@@ -420,10 +420,10 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
             "alignItems": "center",
             "alignSelf": "stretch",
             "backgroundColor": "rgba(43, 120, 238, 0.15)",
-            "borderRadius": 18,
+            "borderRadius": 12,
             "flexDirection": "row",
             "justifyContent": "center",
-            "minHeight": 72,
+            "minHeight": 48,
             "opacity": 1,
           }
         }
@@ -435,13 +435,13 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
               {
                 "color": "#2B78EE",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 27,
-                "lineHeight": 33,
-                "minHeight": 33,
+                "fontSize": 18,
+                "lineHeight": 22,
+                "minHeight": 22,
               },
               [
                 {
-                  "paddingHorizontal": 9,
+                  "paddingHorizontal": 6,
                 },
                 undefined,
               ],

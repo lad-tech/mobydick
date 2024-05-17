@@ -1,8 +1,8 @@
 import {FlatListProps} from 'react-native';
 
-import rem from '../../utils/rem';
 import Pressable from '../../../basic/components/Pressable/Pressable';
 import FlatList from '../../../basic/components/FlatList/FlatList';
+import px from '../../utils/px';
 
 import SimpleIcon, {iconNames, SimpleIconName} from './SimpleIcon';
 
@@ -15,7 +15,7 @@ const renderItem =
         style={styles.item}
         key={item}
         onPress={() => onPress(item)}>
-        <SimpleIcon key={item} name={item} size={rem(20)} color={color} />
+        <SimpleIcon key={item} name={item} size={px(20)} color={color} />
       </Pressable>
     );
   };
@@ -45,7 +45,7 @@ const SimpleIconAlbum = ({
 
 const styles = {
   item: {
-    padding: rem(10),
+    padding: px(10),
   },
 };
 

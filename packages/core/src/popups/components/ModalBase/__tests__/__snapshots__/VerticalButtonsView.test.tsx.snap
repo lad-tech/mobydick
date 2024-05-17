@@ -6,7 +6,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly VerticalButt
     {
       "alignItems": "center",
       "alignSelf": "stretch",
-      "marginTop": 30,
+      "marginTop": 20,
     }
   }
 >
@@ -43,10 +43,10 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly VerticalButt
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#F54D3D",
-        "borderRadius": 18,
+        "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
-        "minHeight": 72,
+        "minHeight": 48,
         "opacity": 1,
       }
     }
@@ -58,13 +58,13 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly VerticalButt
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-            "minHeight": 33,
+            "fontSize": 18,
+            "lineHeight": 22,
+            "minHeight": 22,
           },
           [
             {
-              "paddingHorizontal": 9,
+              "paddingHorizontal": 6,
             },
             undefined,
           ],

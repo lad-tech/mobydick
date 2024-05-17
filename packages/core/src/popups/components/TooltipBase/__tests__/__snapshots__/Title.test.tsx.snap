@@ -8,9 +8,9 @@ exports[`@lad-tech/mobydick-core/TooltipBase/Title should renders correctly 1`] 
       {
         "color": "#FFF",
         "fontFamily": "Inter-SemiBold",
-        "fontSize": 21,
-        "lineHeight": 27,
-        "minHeight": 27,
+        "fontSize": 14,
+        "lineHeight": 18,
+        "minHeight": 18,
       },
       [
         {
@@ -33,9 +33,9 @@ exports[`@lad-tech/mobydick-core/TooltipBase/Title should renders correctly font
       {
         "color": "#20242D",
         "fontFamily": "Inter-Regular",
-        "fontSize": 21,
-        "lineHeight": 27,
-        "minHeight": 27,
+        "fontSize": 14,
+        "lineHeight": 18,
+        "minHeight": 18,
       },
       [
         {

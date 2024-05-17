@@ -1,20 +1,20 @@
-import rem from '../utils/rem';
+import px from '../utils/px';
 
 export const defaultSpaces: IDefaultSpaces = {
-  Space1: rem(1),
-  Space2: rem(2),
-  Space4: rem(4),
-  Space6: rem(6),
-  Space8: rem(8),
-  Space10: rem(10),
-  Space12: rem(12),
-  Space16: rem(16),
-  Space20: rem(20),
-  Space24: rem(24),
-  Space32: rem(32),
-  Space40: rem(40),
-  Space48: rem(48),
-  Space64: rem(64),
+  Space1: px(1),
+  Space2: px(2),
+  Space4: px(4),
+  Space6: px(6),
+  Space8: px(8),
+  Space10: px(10),
+  Space12: px(12),
+  Space16: px(16),
+  Space20: px(20),
+  Space24: px(24),
+  Space32: px(32),
+  Space40: px(40),
+  Space48: px(48),
+  Space64: px(64),
 };
 
 export type IDefaultSpaces = {

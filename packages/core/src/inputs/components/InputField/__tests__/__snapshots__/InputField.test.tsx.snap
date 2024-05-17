@@ -5,7 +5,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -25,9 +25,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -43,14 +43,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -69,20 +69,20 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           undefined,
         ]
@@ -104,8 +104,8 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
         {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
-          "fontSize": 24,
-          "marginRight": 6,
+          "fontSize": 16,
+          "marginRight": 4,
         }
       }
     >
@@ -118,9 +118,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
           {
             "color": "#9BA1B0",
             "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
-            "minHeight": 24,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "flex": 1,
@@ -139,7 +139,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -152,14 +152,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
           "alignItems": "center",
           "backgroundColor": "#D1D4DB",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -178,20 +178,20 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           undefined,
         ]
@@ -207,7 +207,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -220,14 +220,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
           "alignItems": "center",
           "backgroundColor": "#D1D4DB",
           "borderColor": "#D1D4DB",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -246,20 +246,20 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           undefined,
         ]
@@ -275,7 +275,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -288,14 +288,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.3)",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -314,20 +314,20 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           undefined,
         ]
@@ -343,7 +343,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -356,14 +356,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -382,20 +382,20 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           undefined,
         ]
@@ -411,7 +411,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -431,9 +431,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -449,14 +449,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -475,18 +475,18 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           [
             {
               "color": "#20242D",
-              "fontSize": 24,
+              "fontSize": 16,
               "padding": 0,
             },
           ],
@@ -504,7 +504,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -524,9 +524,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -542,14 +542,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
           "alignItems": undefined,
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "minHeight": 120,
+          "minHeight": 80,
         },
         null,
         undefined,
@@ -568,18 +568,18 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": "top",
           },
           [
             {
               "color": "#20242D",
-              "fontSize": 24,
+              "fontSize": 16,
               "padding": 0,
             },
           ],
@@ -597,7 +597,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -617,9 +617,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -635,14 +635,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -662,18 +662,18 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           [
             {
               "color": "#20242D",
-              "fontSize": 24,
+              "fontSize": 16,
               "padding": 0,
             },
           ],
@@ -697,8 +697,8 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
         {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
-          "fontSize": 24,
-          "marginRight": 6,
+          "fontSize": 16,
+          "marginRight": 4,
         }
       }
     >
@@ -711,9 +711,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
           {
             "color": "#9BA1B0",
             "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
-            "minHeight": 24,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "flex": 1,
@@ -732,7 +732,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -745,14 +745,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(43, 120, 238, 0.15)",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -771,20 +771,20 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           undefined,
         ]
@@ -800,7 +800,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -813,14 +813,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(43, 120, 238, 0.15)",
           "borderColor": "#2B78EE",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -839,20 +839,20 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           undefined,
         ]
@@ -868,7 +868,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -881,14 +881,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(245, 77, 61, 0.15)",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -907,20 +907,20 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           undefined,
         ]
@@ -942,8 +942,8 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
         {
           "color": "#F54D3D",
           "fontFamily": "Neotis",
-          "fontSize": 24,
-          "marginRight": 6,
+          "fontSize": 16,
+          "marginRight": 4,
         }
       }
     >
@@ -956,9 +956,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
           {
             "color": "#F54D3D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
-            "minHeight": 24,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "flex": 1,
@@ -977,7 +977,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -990,14 +990,14 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
           "alignItems": "center",
           "backgroundColor": "rgba(245, 77, 61, 0.15)",
           "borderColor": "#F54D3D",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -1016,20 +1016,20 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           undefined,
         ]
@@ -1051,8 +1051,8 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
         {
           "color": "#F54D3D",
           "fontFamily": "Neotis",
-          "fontSize": 24,
-          "marginRight": 6,
+          "fontSize": 16,
+          "marginRight": 4,
         }
       }
     >
@@ -1065,9 +1065,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
           {
             "color": "#F54D3D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
-            "minHeight": 24,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "flex": 1,
@@ -1086,7 +1086,7 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
   style={
     [
       {
-        "minWidth": 195,
+        "minWidth": 130,
       },
       undefined,
     ]
@@ -1106,9 +1106,9 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
-            "minHeight": 28.5,
+            "fontSize": 15,
+            "lineHeight": 19,
+            "minHeight": 19,
           },
           undefined,
         ]
@@ -1124,14 +1124,14 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
           "alignItems": "center",
           "backgroundColor": "#EEEFF1",
           "borderColor": "transparent",
-          "borderRadius": 12,
-          "borderWidth": 1.5,
+          "borderRadius": 8,
+          "borderWidth": 1,
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 12,
+          "marginVertical": 8,
         },
         {
-          "height": 72,
+          "height": 48,
         },
         null,
         undefined,
@@ -1150,18 +1150,18 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
       style={
         [
           {
-            "borderRadius": 12,
+            "borderRadius": 8,
             "flex": 1,
             "padding": 0,
-            "paddingLeft": 27,
-            "paddingRight": 24,
-            "paddingVertical": 18,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
             "textAlignVertical": undefined,
           },
           [
             {
               "color": "#20242D",
-              "fontSize": 24,
+              "fontSize": 16,
               "padding": 0,
             },
           ],

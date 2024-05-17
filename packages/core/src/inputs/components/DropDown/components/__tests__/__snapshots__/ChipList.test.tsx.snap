@@ -7,7 +7,7 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
       "flex": 1,
       "flexDirection": "row",
       "flexWrap": "wrap",
-      "gap": 12,
+      "gap": 8,
     }
   }
 >
@@ -17,10 +17,10 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
         "alignItems": "center",
         "alignSelf": "flex-start",
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
-        "borderRadius": 12,
+        "borderRadius": 8,
         "flexDirection": "row",
-        "padding": 6,
-        "paddingLeft": 12,
+        "padding": 4,
+        "paddingLeft": 8,
       }
     }
   >
@@ -31,12 +31,12 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
           {
             "color": "#2B78EE",
             "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
-            "minHeight": 24,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
-            "marginRight": 6,
+            "marginRight": 4,
           },
         ]
       }
@@ -84,7 +84,7 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
           {
             "color": "#2B78EE",
             "fontFamily": "Neotis",
-            "fontSize": 24,
+            "fontSize": 16,
           }
         }
       >
@@ -98,10 +98,10 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
         "alignItems": "center",
         "alignSelf": "flex-start",
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
-        "borderRadius": 12,
+        "borderRadius": 8,
         "flexDirection": "row",
-        "padding": 6,
-        "paddingLeft": 12,
+        "padding": 4,
+        "paddingLeft": 8,
       }
     }
   >
@@ -112,12 +112,12 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
           {
             "color": "#2B78EE",
             "fontFamily": "Inter-Regular",
-            "fontSize": 18,
-            "lineHeight": 24,
-            "minHeight": 24,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
-            "marginRight": 6,
+            "marginRight": 4,
           },
         ]
       }
@@ -165,7 +165,7 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
           {
             "color": "#2B78EE",
             "fontFamily": "Neotis",
-            "fontSize": 24,
+            "fontSize": 16,
           }
         }
       >

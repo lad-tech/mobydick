@@ -7,12 +7,12 @@ import {
 } from 'react-native';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
-import rem from '../../../styles/utils/rem';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import {LABELS} from '../../constants';
 import useStyles from '../../../styles/hooks/useStyles';
 import Dots from '../Dots/Dots';
 import {isNumber} from '../../functions/isNumber';
+import px from '../../../styles/utils/px';
 
 import stylesCreate from './stylesCreate';
 import {ICarouselAlign, ICarouselProps} from './types';
@@ -28,7 +28,7 @@ const Carousel = <T,>({
   sliderItem,
   keyExtractor,
   loading = false,
-  sideMargin = rem(10),
+  sideMargin = px(10),
   itemWidth,
   onPressItem,
   activeItemId,

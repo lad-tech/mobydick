@@ -5,7 +5,7 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
   style={
     {
       "flexDirection": "row",
-      "maxWidth": 102,
+      "maxWidth": 68,
     }
   }
 >
@@ -16,11 +16,11 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#ff0000",
@@ -41,9 +41,9 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -59,17 +59,17 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#ff0000",
         },
         {
-          "right": 18,
+          "right": 12,
           "zIndex": 2,
         },
         {
@@ -85,9 +85,9 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -104,7 +104,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
   style={
     {
       "flexDirection": "row",
-      "maxWidth": 186,
+      "maxWidth": 124,
     }
   }
 >
@@ -115,11 +115,11 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#2B78EE",
@@ -140,9 +140,9 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -158,17 +158,17 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#2B78EE",
         },
         {
-          "right": 18,
+          "right": 12,
           "zIndex": 2,
         },
         {
@@ -184,9 +184,9 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -202,17 +202,17 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#2B78EE",
         },
         {
-          "right": 36,
+          "right": 24,
           "zIndex": 3,
         },
         {
@@ -228,9 +228,9 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -246,17 +246,17 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#2B78EE",
         },
         {
-          "right": 54,
+          "right": 36,
           "zIndex": 4,
         },
         {
@@ -272,9 +272,9 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -291,7 +291,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
   style={
     {
       "flexDirection": "row",
-      "maxWidth": 186,
+      "maxWidth": 124,
     }
   }
 >
@@ -302,11 +302,11 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#2B78EE",
@@ -332,10 +332,10 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
       style={
         {
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
-          "width": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
+          "width": 40,
         }
       }
     />
@@ -347,17 +347,17 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#2B78EE",
         },
         {
-          "right": 18,
+          "right": 12,
           "zIndex": 2,
         },
         {
@@ -373,9 +373,9 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -391,17 +391,17 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#2B78EE",
         },
         {
-          "right": 36,
+          "right": 24,
           "zIndex": 3,
         },
         {
@@ -417,9 +417,9 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -433,12 +433,12 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
       {
         "backgroundColor": "#EEEFF1",
         "borderColor": "#FFF",
-        "borderRadius": 30,
-        "borderWidth": 3,
-        "height": 60,
+        "borderRadius": 20,
+        "borderWidth": 2,
+        "height": 40,
         "justifyContent": "center",
-        "right": 54,
-        "width": 60,
+        "right": 36,
+        "width": 40,
         "zIndex": 4,
       }
     }
@@ -450,9 +450,9 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
           {
             "color": "#444B5A",
             "fontFamily": "Inter-Medium",
-            "fontSize": 18,
-            "lineHeight": 24,
-            "minHeight": 24,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "alignSelf": "center",
@@ -472,7 +472,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
   style={
     {
       "flexDirection": "row",
-      "maxWidth": 186,
+      "maxWidth": 124,
     }
   }
 >
@@ -483,11 +483,11 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#ff0000",
@@ -513,10 +513,10 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
       style={
         {
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
-          "width": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
+          "width": 40,
         }
       }
     />
@@ -528,17 +528,17 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#ff0000",
         },
         {
-          "right": 18,
+          "right": 12,
           "zIndex": 2,
         },
         {
@@ -554,9 +554,9 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -572,17 +572,17 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#ff0000",
         },
         {
-          "right": 36,
+          "right": 24,
           "zIndex": 3,
         },
         {
@@ -598,9 +598,9 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -614,12 +614,12 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
       {
         "backgroundColor": "#EEEFF1",
         "borderColor": "#FFF",
-        "borderRadius": 30,
-        "borderWidth": 3,
-        "height": 60,
+        "borderRadius": 20,
+        "borderWidth": 2,
+        "height": 40,
         "justifyContent": "center",
-        "right": 54,
-        "width": 60,
+        "right": 36,
+        "width": 40,
         "zIndex": 4,
       }
     }
@@ -631,9 +631,9 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
           {
             "color": "#444B5A",
             "fontFamily": "Inter-Medium",
-            "fontSize": 18,
-            "lineHeight": 24,
-            "minHeight": 24,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "alignSelf": "center",
@@ -653,7 +653,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
   style={
     {
       "flexDirection": "row",
-      "maxWidth": 186,
+      "maxWidth": 124,
     }
   }
 >
@@ -664,11 +664,11 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#ff0000",
@@ -694,10 +694,10 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
       style={
         {
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
-          "width": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
+          "width": 40,
         }
       }
     />
@@ -709,17 +709,17 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#ff0000",
         },
         {
-          "right": 18,
+          "right": 12,
           "zIndex": 2,
         },
         {
@@ -735,9 +735,9 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -753,17 +753,17 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "borderColor": "#FFF",
-          "borderRadius": 30,
-          "borderWidth": 3,
-          "height": 60,
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "height": 40,
           "justifyContent": "center",
-          "width": 60,
+          "width": 40,
         },
         {
           "backgroundColor": "#ff0000",
         },
         {
-          "right": 36,
+          "right": 24,
           "zIndex": 3,
         },
         {
@@ -779,9 +779,9 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-Regular",
-            "fontSize": 21,
-            "lineHeight": 27,
-            "minHeight": 27,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -795,12 +795,12 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
       {
         "backgroundColor": "#EEEFF1",
         "borderColor": "#FFF",
-        "borderRadius": 30,
-        "borderWidth": 3,
-        "height": 60,
+        "borderRadius": 20,
+        "borderWidth": 2,
+        "height": 40,
         "justifyContent": "center",
-        "right": 54,
-        "width": 60,
+        "right": 36,
+        "width": 40,
         "zIndex": 4,
       }
     }
@@ -812,9 +812,9 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
           {
             "color": "#444B5A",
             "fontFamily": "Inter-Medium",
-            "fontSize": 18,
-            "lineHeight": 24,
-            "minHeight": 24,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "alignSelf": "center",

@@ -1,9 +1,9 @@
-import rem from '../utils/rem';
+import px from '../utils/px';
 
 const HIT_SLOP = {
-  small: {top: rem(10), bottom: rem(10), left: rem(10), right: rem(10)},
-  medium: {top: rem(20), bottom: rem(20), left: rem(20), right: rem(20)},
-  large: {top: rem(30), bottom: rem(30), left: rem(30), right: rem(30)},
+  small: {top: px(10), bottom: px(10), left: px(10), right: px(10)},
+  medium: {top: px(20), bottom: px(20), left: px(20), right: px(20)},
+  large: {top: px(30), bottom: px(30), left: px(30), right: px(30)},
 };
 
 export default HIT_SLOP;

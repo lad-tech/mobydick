@@ -7,7 +7,7 @@ import SimpleIcon, {
 import useStyles from '../../../styles/hooks/useStyles';
 import useTheme from '../../../styles/hooks/useTheme';
 import View from '../../../basic/components/View/View';
-import rem from '../../../styles/utils/rem';
+import px from '../../../styles/utils/px';
 
 import stylesCreate from './stylesCreate';
 
@@ -27,7 +27,7 @@ const AlertContent: FC<IProps> = props => {
     <View style={[styles.alertView, style]}>
       <SimpleIcon
         name={name || 'icon-check'}
-        size={size || rem(36)}
+        size={size || px(36)}
         color={color || colors.IconBase}
       />
     </View>

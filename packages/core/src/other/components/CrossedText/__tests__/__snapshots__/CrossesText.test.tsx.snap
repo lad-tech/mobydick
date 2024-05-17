@@ -9,9 +9,9 @@ exports[`CrossedText render crossed text default 1`] = `
         {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 22.5,
-          "lineHeight": 28.5,
-          "minHeight": 28.5,
+          "fontSize": 15,
+          "lineHeight": 19,
+          "minHeight": 19,
         },
         undefined,
       ]
@@ -36,7 +36,7 @@ exports[`CrossedText render crossed text default 1`] = `
           },
           {
             "backgroundColor": "#000",
-            "height": 1.5,
+            "height": 1,
           },
         ]
       }
@@ -54,9 +54,9 @@ exports[`CrossedText render crossed text with lineHeight 1`] = `
         {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 22.5,
-          "lineHeight": 28.5,
-          "minHeight": 28.5,
+          "fontSize": 15,
+          "lineHeight": 19,
+          "minHeight": 19,
         },
         undefined,
       ]

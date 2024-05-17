@@ -1,11 +1,12 @@
-import {createStyles, rem} from '../../../styles';
+import {createStyles} from '../../../styles';
+import px from '../../../styles/utils/px';
 
 const stylesCreate = createStyles(({spaces, colors}, focused: boolean) => ({
   inputContainer: {
     backgroundColor: focused ? colors.BgAccentSoft : colors.BgSecondary,
     borderRadius: spaces.Space8,
-    minWidth: rem(68),
-    minHeight: rem(48),
+    minWidth: px(68),
+    minHeight: px(48),
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',

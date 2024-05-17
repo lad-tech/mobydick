@@ -1,10 +1,10 @@
-import rem from '../../styles/utils/rem';
 import {createStyles} from '../../styles';
+import px from '../../styles/utils/px';
 
 const stylesCreate = createStyles(
   (
     {spaces, colors},
-    {disabled = false, selected = false, width = rem(20), height = rem(20)},
+    {disabled = false, selected = false, width = px(20), height = px(20)},
   ) => ({
     container: {
       flexDirection: 'row',

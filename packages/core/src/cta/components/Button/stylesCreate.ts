@@ -1,8 +1,8 @@
 import {ViewStyle} from 'react-native';
 
-import rem from '../../../styles/utils/rem';
 import {IThemeContext} from '../../../styles/types';
 import {createStyles} from '../../../styles';
+import px from '../../../styles/utils/px';
 
 import {IButtonSize, IButtonTypes} from './types';
 
@@ -24,7 +24,7 @@ const getButtonHorizontalPadding = ({
     return theme.spaces.Space6;
   }
   if (leftIcon || rightIcon) {
-    return rem(14);
+    return px(14);
   }
   return theme.spaces.Space12;
 };
@@ -52,7 +52,7 @@ const getButtonStyles = ({
       return {
         minHeight: theme.spaces.Space48,
         paddingVertical: theme.spaces.Space12,
-        paddingHorizontal: text ? rem(26) : theme.spaces.Space12,
+        paddingHorizontal: text ? px(26) : theme.spaces.Space12,
       };
     case IButtonSize.fixed:
       return {

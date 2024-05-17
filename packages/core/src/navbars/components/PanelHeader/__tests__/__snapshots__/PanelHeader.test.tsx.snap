@@ -29,10 +29,10 @@ exports[`Tab render panelHeader 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 90,
+            "height": 60,
             "justifyContent": "space-between",
-            "paddingHorizontal": 30,
-            "paddingVertical": 15,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
           },
           {
             "backgroundColor": "#000",
@@ -47,10 +47,10 @@ exports[`Tab render panelHeader 1`] = `
           [
             {
               "alignItems": "flex-start",
-              "maxWidth": 144,
+              "maxWidth": 96,
             },
             {
-              "minWidth": 36,
+              "minWidth": 24,
             },
             {
               "flex": 1,
@@ -64,7 +64,7 @@ exports[`Tab render panelHeader 1`] = `
             {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 36,
+              "fontSize": 24,
             }
           }
         >
@@ -76,7 +76,7 @@ exports[`Tab render panelHeader 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 12,
+              "paddingHorizontal": 8,
             },
             {
               "flex": 1,
@@ -91,10 +91,10 @@ exports[`Tab render panelHeader 1`] = `
           [
             {
               "alignItems": "flex-end",
-              "maxWidth": 144,
+              "maxWidth": 96,
             },
             {
-              "minWidth": 36,
+              "minWidth": 24,
             },
             {
               "flex": 1,
@@ -108,7 +108,7 @@ exports[`Tab render panelHeader 1`] = `
             {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 36,
+              "fontSize": 24,
             }
           }
         >
@@ -147,10 +147,10 @@ exports[`Tab render panelHeader edges 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 90,
+            "height": 60,
             "justifyContent": "space-between",
-            "paddingHorizontal": 30,
-            "paddingVertical": 15,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
           },
           undefined,
         ]
@@ -159,7 +159,7 @@ exports[`Tab render panelHeader edges 1`] = `
       <View
         style={
           {
-            "width": 36,
+            "width": 24,
           }
         }
       />
@@ -168,7 +168,7 @@ exports[`Tab render panelHeader edges 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 12,
+              "paddingHorizontal": 8,
             },
             undefined,
           ]
@@ -189,9 +189,9 @@ exports[`Tab render panelHeader edges 1`] = `
                 {
                   "color": "#5E6678",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 18,
-                  "lineHeight": 24,
-                  "minHeight": 24,
+                  "fontSize": 12,
+                  "lineHeight": 16,
+                  "minHeight": 16,
                 },
                 [
                   {
@@ -209,7 +209,7 @@ exports[`Tab render panelHeader edges 1`] = `
       <View
         style={
           {
-            "width": 36,
+            "width": 24,
           }
         }
       />
@@ -237,10 +237,10 @@ exports[`Tab render panelHeader isSafeAreaView 1`] = `
         {
           "alignItems": "center",
           "flexDirection": "row",
-          "height": 90,
+          "height": 60,
           "justifyContent": "space-between",
-          "paddingHorizontal": 30,
-          "paddingVertical": 15,
+          "paddingHorizontal": 20,
+          "paddingVertical": 10,
         },
         {
           "backgroundColor": "#000",
@@ -255,10 +255,10 @@ exports[`Tab render panelHeader isSafeAreaView 1`] = `
         [
           {
             "alignItems": "flex-start",
-            "maxWidth": 144,
+            "maxWidth": 96,
           },
           {
-            "minWidth": 36,
+            "minWidth": 24,
           },
           {
             "flex": 1,
@@ -272,7 +272,7 @@ exports[`Tab render panelHeader isSafeAreaView 1`] = `
           {
             "color": "#5E6678",
             "fontFamily": "Neotis",
-            "fontSize": 36,
+            "fontSize": 24,
           }
         }
       >
@@ -284,7 +284,7 @@ exports[`Tab render panelHeader isSafeAreaView 1`] = `
         [
           {
             "flex": 2,
-            "paddingHorizontal": 12,
+            "paddingHorizontal": 8,
           },
           {
             "flex": 1,
@@ -299,10 +299,10 @@ exports[`Tab render panelHeader isSafeAreaView 1`] = `
         [
           {
             "alignItems": "flex-end",
-            "maxWidth": 144,
+            "maxWidth": 96,
           },
           {
-            "minWidth": 36,
+            "minWidth": 24,
           },
           {
             "flex": 1,
@@ -316,7 +316,7 @@ exports[`Tab render panelHeader isSafeAreaView 1`] = `
           {
             "color": "#5E6678",
             "fontFamily": "Neotis",
-            "fontSize": 36,
+            "fontSize": 24,
           }
         }
       >
@@ -356,10 +356,10 @@ exports[`Tab render panelHeader only leftView 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 90,
+            "height": 60,
             "justifyContent": "space-between",
-            "paddingHorizontal": 30,
-            "paddingVertical": 15,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
           },
           {
             "backgroundColor": "#000",
@@ -374,10 +374,10 @@ exports[`Tab render panelHeader only leftView 1`] = `
           [
             {
               "alignItems": "flex-start",
-              "maxWidth": 144,
+              "maxWidth": 96,
             },
             {
-              "minWidth": 36,
+              "minWidth": 24,
             },
             {
               "flex": 1,
@@ -391,7 +391,7 @@ exports[`Tab render panelHeader only leftView 1`] = `
             {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 36,
+              "fontSize": 24,
             }
           }
         >
@@ -403,7 +403,7 @@ exports[`Tab render panelHeader only leftView 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 12,
+              "paddingHorizontal": 8,
             },
             {
               "flex": 1,
@@ -414,7 +414,7 @@ exports[`Tab render panelHeader only leftView 1`] = `
       <View
         style={
           {
-            "width": 36,
+            "width": 24,
           }
         }
       />
@@ -452,10 +452,10 @@ exports[`Tab render panelHeader only rightView 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 90,
+            "height": 60,
             "justifyContent": "space-between",
-            "paddingHorizontal": 30,
-            "paddingVertical": 15,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
           },
           {
             "backgroundColor": "#000",
@@ -466,7 +466,7 @@ exports[`Tab render panelHeader only rightView 1`] = `
       <View
         style={
           {
-            "width": 36,
+            "width": 24,
           }
         }
       />
@@ -475,7 +475,7 @@ exports[`Tab render panelHeader only rightView 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 12,
+              "paddingHorizontal": 8,
             },
             {
               "flex": 1,
@@ -490,10 +490,10 @@ exports[`Tab render panelHeader only rightView 1`] = `
           [
             {
               "alignItems": "flex-end",
-              "maxWidth": 144,
+              "maxWidth": 96,
             },
             {
-              "minWidth": 36,
+              "minWidth": 24,
             },
             {
               "flex": 1,
@@ -507,7 +507,7 @@ exports[`Tab render panelHeader only rightView 1`] = `
             {
               "color": "#5E6678",
               "fontFamily": "Neotis",
-              "fontSize": 36,
+              "fontSize": 24,
             }
           }
         >
@@ -546,10 +546,10 @@ exports[`Tab render panelHeader with subtitle 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 90,
+            "height": 60,
             "justifyContent": "space-between",
-            "paddingHorizontal": 30,
-            "paddingVertical": 15,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
           },
           undefined,
         ]
@@ -558,7 +558,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
       <View
         style={
           {
-            "width": 36,
+            "width": 24,
           }
         }
       />
@@ -567,7 +567,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 12,
+              "paddingHorizontal": 8,
             },
             undefined,
           ]
@@ -588,9 +588,9 @@ exports[`Tab render panelHeader with subtitle 1`] = `
                 {
                   "color": "#5E6678",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 18,
-                  "lineHeight": 24,
-                  "minHeight": 24,
+                  "fontSize": 12,
+                  "lineHeight": 16,
+                  "minHeight": 16,
                 },
                 [
                   {
@@ -608,7 +608,7 @@ exports[`Tab render panelHeader with subtitle 1`] = `
       <View
         style={
           {
-            "width": 36,
+            "width": 24,
           }
         }
       />
@@ -644,10 +644,10 @@ exports[`Tab render panelHeader with title 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 90,
+            "height": 60,
             "justifyContent": "space-between",
-            "paddingHorizontal": 30,
-            "paddingVertical": 15,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
           },
           undefined,
         ]
@@ -656,7 +656,7 @@ exports[`Tab render panelHeader with title 1`] = `
       <View
         style={
           {
-            "width": 36,
+            "width": 24,
           }
         }
       />
@@ -665,7 +665,7 @@ exports[`Tab render panelHeader with title 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 12,
+              "paddingHorizontal": 8,
             },
             undefined,
           ]
@@ -686,9 +686,9 @@ exports[`Tab render panelHeader with title 1`] = `
                 {
                   "color": "#444B5A",
                   "fontFamily": "Inter-SemiBold",
-                  "fontSize": 24,
-                  "lineHeight": 30,
-                  "minHeight": 30,
+                  "fontSize": 16,
+                  "lineHeight": 20,
+                  "minHeight": 20,
                 },
                 [
                   {
@@ -706,7 +706,7 @@ exports[`Tab render panelHeader with title 1`] = `
       <View
         style={
           {
-            "width": 36,
+            "width": 24,
           }
         }
       />
@@ -742,10 +742,10 @@ exports[`Tab render panelHeader without props 1`] = `
           {
             "alignItems": "center",
             "flexDirection": "row",
-            "height": 90,
+            "height": 60,
             "justifyContent": "space-between",
-            "paddingHorizontal": 30,
-            "paddingVertical": 15,
+            "paddingHorizontal": 20,
+            "paddingVertical": 10,
           },
           undefined,
         ]
@@ -754,7 +754,7 @@ exports[`Tab render panelHeader without props 1`] = `
       <View
         style={
           {
-            "width": 36,
+            "width": 24,
           }
         }
       />
@@ -763,7 +763,7 @@ exports[`Tab render panelHeader without props 1`] = `
           [
             {
               "flex": 2,
-              "paddingHorizontal": 12,
+              "paddingHorizontal": 8,
             },
             undefined,
           ]
@@ -780,7 +780,7 @@ exports[`Tab render panelHeader without props 1`] = `
       <View
         style={
           {
-            "width": 36,
+            "width": 24,
           }
         }
       />

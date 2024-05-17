@@ -24,8 +24,8 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
           "alignItems": "flex-end",
           "backgroundColor": "#FFF",
           "flexDirection": "row",
-          "paddingHorizontal": 30,
-          "paddingVertical": 24,
+          "paddingHorizontal": 20,
+          "paddingVertical": 16,
           "width": "100%",
         },
         undefined,
@@ -36,13 +36,13 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
       style={
         [
           {
-            "minWidth": 195,
+            "minWidth": 130,
           },
           [
             {
               "flex": 1,
               "flexDirection": "column",
-              "marginRight": 3,
+              "marginRight": 2,
               "minWidth": undefined,
             },
             undefined,
@@ -57,14 +57,14 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
               "alignItems": undefined,
               "backgroundColor": "#EEEFF1",
               "borderColor": "transparent",
-              "borderRadius": 12,
-              "borderWidth": 1.5,
+              "borderRadius": 8,
+              "borderWidth": 1,
               "flexDirection": "row",
               "justifyContent": "space-between",
-              "marginVertical": 12,
+              "marginVertical": 8,
             },
             {
-              "minHeight": 120,
+              "minHeight": 80,
             },
             null,
             [
@@ -72,9 +72,9 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
                 "alignItems": "center",
                 "borderWidth": undefined,
                 "marginVertical": 0,
-                "maxHeight": 294,
-                "minHeight": 57,
-                "paddingVertical": 12,
+                "maxHeight": 196,
+                "minHeight": 38,
+                "paddingVertical": 8,
                 "width": "100%",
               },
               undefined,
@@ -95,20 +95,20 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
           style={
             [
               {
-                "borderRadius": 12,
+                "borderRadius": 8,
                 "flex": 1,
                 "padding": 0,
-                "paddingLeft": 27,
-                "paddingRight": 24,
-                "paddingVertical": 18,
+                "paddingLeft": 18,
+                "paddingRight": 16,
+                "paddingVertical": 12,
                 "textAlignVertical": "top",
               },
               {
                 "color": "#20242D",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 24,
-                "lineHeight": 30,
-                "minHeight": 30,
+                "fontSize": 16,
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {
@@ -155,12 +155,12 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
         {
           "alignItems": "center",
           "backgroundColor": "#E5F0FF",
-          "borderRadius": 12,
-          "height": 57,
+          "borderRadius": 8,
+          "height": 38,
           "justifyContent": "center",
-          "marginLeft": 9,
+          "marginLeft": 6,
           "opacity": 1,
-          "width": 57,
+          "width": 38,
         }
       }
     >
@@ -170,7 +170,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
           {
             "color": "#2B78EE",
             "fontFamily": "Neotis",
-            "fontSize": 36,
+            "fontSize": 24,
           }
         }
       >
@@ -202,8 +202,8 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
           "alignItems": "flex-end",
           "backgroundColor": "#FFF",
           "flexDirection": "row",
-          "paddingHorizontal": 30,
-          "paddingVertical": 24,
+          "paddingHorizontal": 20,
+          "paddingVertical": 16,
           "width": "100%",
         },
         {
@@ -216,13 +216,13 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
       style={
         [
           {
-            "minWidth": 195,
+            "minWidth": 130,
           },
           [
             {
               "flex": 1,
               "flexDirection": "column",
-              "marginRight": 3,
+              "marginRight": 2,
               "minWidth": undefined,
             },
             undefined,
@@ -237,14 +237,14 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
               "alignItems": undefined,
               "backgroundColor": "#EEEFF1",
               "borderColor": "transparent",
-              "borderRadius": 12,
-              "borderWidth": 1.5,
+              "borderRadius": 8,
+              "borderWidth": 1,
               "flexDirection": "row",
               "justifyContent": "space-between",
-              "marginVertical": 12,
+              "marginVertical": 8,
             },
             {
-              "minHeight": 120,
+              "minHeight": 80,
             },
             null,
             [
@@ -252,9 +252,9 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
                 "alignItems": "center",
                 "borderWidth": undefined,
                 "marginVertical": 0,
-                "maxHeight": 294,
-                "minHeight": 57,
-                "paddingVertical": 12,
+                "maxHeight": 196,
+                "minHeight": 38,
+                "paddingVertical": 8,
                 "width": "100%",
               },
               undefined,
@@ -275,18 +275,18 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
           style={
             [
               {
-                "borderRadius": 12,
+                "borderRadius": 8,
                 "flex": 1,
                 "padding": 0,
-                "paddingLeft": 27,
-                "paddingRight": 24,
-                "paddingVertical": 18,
+                "paddingLeft": 18,
+                "paddingRight": 16,
+                "paddingVertical": 12,
                 "textAlignVertical": "top",
               },
               [
                 {
                   "color": "#20242D",
-                  "fontSize": 24,
+                  "fontSize": 16,
                   "padding": 0,
                 },
               ],
@@ -335,12 +335,12 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
         {
           "alignItems": "center",
           "backgroundColor": "#E5F0FF",
-          "borderRadius": 12,
-          "height": 57,
+          "borderRadius": 8,
+          "height": 38,
           "justifyContent": "center",
-          "marginLeft": 9,
+          "marginLeft": 6,
           "opacity": 1,
-          "width": 57,
+          "width": 38,
         }
       }
     >
@@ -350,7 +350,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
           {
             "color": "#2B78EE",
             "fontFamily": "Neotis",
-            "fontSize": 36,
+            "fontSize": 24,
           }
         }
       >
@@ -387,8 +387,8 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
           "alignItems": "flex-end",
           "backgroundColor": "#FFF",
           "flexDirection": "row",
-          "paddingHorizontal": 30,
-          "paddingVertical": 24,
+          "paddingHorizontal": 20,
+          "paddingVertical": 16,
           "width": "100%",
         },
         {
@@ -401,13 +401,13 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
       style={
         [
           {
-            "minWidth": 195,
+            "minWidth": 130,
           },
           [
             {
               "flex": 1,
               "flexDirection": "column",
-              "marginRight": 3,
+              "marginRight": 2,
               "minWidth": undefined,
             },
             undefined,
@@ -422,14 +422,14 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
               "alignItems": undefined,
               "backgroundColor": "#EEEFF1",
               "borderColor": "transparent",
-              "borderRadius": 12,
-              "borderWidth": 1.5,
+              "borderRadius": 8,
+              "borderWidth": 1,
               "flexDirection": "row",
               "justifyContent": "space-between",
-              "marginVertical": 12,
+              "marginVertical": 8,
             },
             {
-              "minHeight": 120,
+              "minHeight": 80,
             },
             null,
             [
@@ -437,9 +437,9 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
                 "alignItems": "center",
                 "borderWidth": undefined,
                 "marginVertical": 0,
-                "maxHeight": 294,
-                "minHeight": 57,
-                "paddingVertical": 12,
+                "maxHeight": 196,
+                "minHeight": 38,
+                "paddingVertical": 8,
                 "width": "100%",
               },
               undefined,
@@ -460,20 +460,20 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
           style={
             [
               {
-                "borderRadius": 12,
+                "borderRadius": 8,
                 "flex": 1,
                 "padding": 0,
-                "paddingLeft": 27,
-                "paddingRight": 24,
-                "paddingVertical": 18,
+                "paddingLeft": 18,
+                "paddingRight": 16,
+                "paddingVertical": 12,
                 "textAlignVertical": "top",
               },
               {
                 "color": "#20242D",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 24,
-                "lineHeight": 30,
-                "minHeight": 30,
+                "fontSize": 16,
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {
@@ -520,12 +520,12 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
         {
           "alignItems": "center",
           "backgroundColor": "#E5F0FF",
-          "borderRadius": 12,
-          "height": 57,
+          "borderRadius": 8,
+          "height": 38,
           "justifyContent": "center",
-          "marginLeft": 9,
+          "marginLeft": 6,
           "opacity": 1,
-          "width": 57,
+          "width": 38,
         }
       }
     >
@@ -535,7 +535,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
           {
             "color": "#2B78EE",
             "fontFamily": "Neotis",
-            "fontSize": 36,
+            "fontSize": 24,
           }
         }
       >

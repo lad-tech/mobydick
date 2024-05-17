@@ -1,6 +1,6 @@
 import {FC, PropsWithChildren} from 'react';
 import MarkdownDisplay, {MarkdownProps} from 'react-native-markdown-display';
-import {rem, useFont, useTheme} from '@lad-tech/mobydick-core';
+import {px, useFont, useTheme} from '@lad-tech/mobydick-core';
 
 const Markdown: FC<PropsWithChildren<MarkdownProps>> = ({children, style}) => {
   const {colors} = useTheme();
@@ -14,13 +14,13 @@ const Markdown: FC<PropsWithChildren<MarkdownProps>> = ({children, style}) => {
       color: bodyFontStyle.color,
     },
     heading1: {
-      fontSize: rem(24),
+      fontSize: px(24),
     },
     heading2: {
-      fontSize: rem(20),
+      fontSize: px(20),
     },
     heading3: {
-      fontSize: rem(18),
+      fontSize: px(18),
     },
     strong: {
       fontFamily: strongFontStyle.fontFamily,

@@ -3,7 +3,7 @@ import {FC} from 'react';
 import {IAvatarSize} from '../types';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
 import useTheme from '../../../../styles/hooks/useTheme';
-import rem from '../../../../styles/utils/rem';
+import px from '../../../../styles/utils/px';
 
 interface IProps {
   size: IAvatarSize;
@@ -12,14 +12,14 @@ interface IProps {
 const getSizeIcon = (size: IAvatarSize) => {
   switch (size) {
     case IAvatarSize.S:
-      return rem(12);
+      return px(12);
     case IAvatarSize.L:
-      return rem(30);
+      return px(30);
     case IAvatarSize.XL:
-      return rem(40);
+      return px(40);
     case IAvatarSize.M:
     default:
-      return rem(20);
+      return px(20);
   }
 };
 

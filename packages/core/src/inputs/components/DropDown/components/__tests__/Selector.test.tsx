@@ -1,4 +1,4 @@
-import {render, fireEvent} from '@testing-library/react-native';
+import {fireEvent, render} from '@testing-library/react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 import Selector from '../Selector';
@@ -127,7 +127,7 @@ describe('@lad-tech/mobydick-core/Selector', () => {
     );
 
     expect(spy).toHaveBeenLastCalledWith({
-      dropDownBorderWidth: 1.5,
+      dropDownBorderWidth: 1,
       dropDownHeight: 72,
       height: 640,
       navBarHeight: 50,

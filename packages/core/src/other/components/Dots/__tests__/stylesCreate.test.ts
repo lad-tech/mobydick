@@ -2,7 +2,7 @@ import {renderHook} from '@testing-library/react-hooks';
 
 import stylesCreate from '../stylesCreate';
 import useTheme from '../../../../styles/hooks/useTheme';
-import rem from '../../../../styles/utils/rem';
+import px from '../../../../styles/utils/px';
 
 describe('dots/stylesCreate', () => {
   it('must return', () => {
@@ -10,15 +10,15 @@ describe('dots/stylesCreate', () => {
 
     expect(stylesCreate(result.current)).toEqual({
       dot: {
-        width: rem(8),
-        height: rem(8),
-        marginHorizontal: rem(5),
-        borderRadius: rem(8) / 2,
+        width: px(8),
+        height: px(8),
+        marginHorizontal: px(5),
+        borderRadius: px(8) / 2,
       },
       dots: {
         flexDirection: 'row',
         alignItems: 'center',
-        paddingTop: rem(5),
+        paddingTop: px(5),
       },
     });
   });

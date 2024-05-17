@@ -5,7 +5,7 @@ exports[`Collapsible render crossed onPress - 1 1`] = `
   style={
     [
       {
-        "padding": 30,
+        "padding": 20,
         "width": "100%",
       },
       {
@@ -61,9 +61,9 @@ exports[`Collapsible render crossed onPress - 1 1`] = `
           {
             "color": "#20242D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 22.5,
-            "lineHeight": 28.5,
-            "minHeight": 28.5,
+            "fontSize": 15,
+            "lineHeight": 19,
+            "minHeight": 19,
           },
           [
             {
@@ -84,7 +84,7 @@ exports[`Collapsible render crossed onPress - 1 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 36,
+          "fontSize": 24,
         }
       }
     >
@@ -100,7 +100,7 @@ exports[`Collapsible render crossed onPress - 1 android 1`] = `
   style={
     [
       {
-        "padding": 30,
+        "padding": 20,
         "width": "100%",
       },
       undefined,
@@ -153,9 +153,9 @@ exports[`Collapsible render crossed onPress - 1 android 1`] = `
           {
             "color": "#444B5A",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           [
             {
@@ -174,7 +174,7 @@ exports[`Collapsible render crossed onPress - 1 android 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 36,
+          "fontSize": 24,
         }
       }
     >
@@ -191,7 +191,7 @@ exports[`Collapsible render crossed onPress - 2 1`] = `
   style={
     [
       {
-        "padding": 30,
+        "padding": 20,
         "width": "100%",
       },
       undefined,
@@ -244,9 +244,9 @@ exports[`Collapsible render crossed onPress - 2 1`] = `
           {
             "color": "#444B5A",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           [
             {
@@ -265,7 +265,7 @@ exports[`Collapsible render crossed onPress - 2 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 36,
+          "fontSize": 24,
         }
       }
     >

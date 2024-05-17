@@ -4,8 +4,8 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with description
 <View
   style={
     {
-      "marginBottom": 12,
-      "marginTop": 18,
+      "marginBottom": 8,
+      "marginTop": 12,
     }
   }
 >
@@ -16,13 +16,13 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with description
         {
           "color": "#444B5A",
           "fontFamily": "Inter-Medium",
-          "fontSize": 24,
-          "lineHeight": 30,
-          "minHeight": 30,
+          "fontSize": 16,
+          "lineHeight": 20,
+          "minHeight": 20,
         },
         [
           {
-            "paddingTop": 12,
+            "paddingTop": 8,
             "textAlign": "center",
           },
           {
@@ -41,8 +41,8 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with titleFont 1
 <View
   style={
     {
-      "marginBottom": 12,
-      "marginTop": 18,
+      "marginBottom": 8,
+      "marginTop": 12,
     }
   }
 >
@@ -53,9 +53,9 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with titleFont 1
         {
           "color": "#444B5A",
           "fontFamily": "Inter-Medium",
-          "fontSize": 24,
-          "lineHeight": 30,
-          "minHeight": 30,
+          "fontSize": 16,
+          "lineHeight": 20,
+          "minHeight": 20,
         },
         [
           {
@@ -77,13 +77,13 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with titleFont 1
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         [
           {
-            "paddingTop": 12,
+            "paddingTop": 8,
             "textAlign": "center",
           },
           {
@@ -102,8 +102,8 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without descript
 <View
   style={
     {
-      "marginBottom": 12,
-      "marginTop": 18,
+      "marginBottom": 8,
+      "marginTop": 12,
     }
   }
 >
@@ -114,9 +114,9 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without descript
         {
           "color": "#20242D",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 27,
-          "lineHeight": 33,
-          "minHeight": 33,
+          "fontSize": 18,
+          "lineHeight": 22,
+          "minHeight": 22,
         },
         [
           {
@@ -138,13 +138,13 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without descript
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         [
           {
-            "paddingTop": 12,
+            "paddingTop": 8,
             "textAlign": "center",
           },
           {
@@ -163,8 +163,8 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without titleFon
 <View
   style={
     {
-      "marginBottom": 12,
-      "marginTop": 18,
+      "marginBottom": 8,
+      "marginTop": 12,
     }
   }
 >
@@ -175,9 +175,9 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without titleFon
         {
           "color": "#20242D",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 27,
-          "lineHeight": 33,
-          "minHeight": 33,
+          "fontSize": 18,
+          "lineHeight": 22,
+          "minHeight": 22,
         },
         [
           {

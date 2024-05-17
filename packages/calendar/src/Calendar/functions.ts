@@ -1,6 +1,6 @@
 import {DateData} from 'react-native-calendars';
 import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
-import {rem} from '@lad-tech/mobydick-core';
+import {px} from '@lad-tech/mobydick-core';
 
 import {
   colorElem,
@@ -26,7 +26,7 @@ const getStyleToday = (colorToday: colorElem): MarkingProps => {
     textColor: colorToday.textColor,
 
     customContainerStyle: {
-      borderRadius: rem(4),
+      borderRadius: px(4),
       width: '100%',
     },
     customTextStyle: {
@@ -63,7 +63,7 @@ export const getAllDatesBetween = (
     textColor: colorPrime.textColor,
 
     customContainerStyle: {
-      borderRadius: rem(4),
+      borderRadius: px(4),
       width: '100%',
     },
     customTextStyle:
@@ -100,7 +100,7 @@ export const getAllDatesBetween = (
     textColor: colorPrime.textColor,
     color: colorPrime.color,
     customContainerStyle: {
-      borderRadius: rem(4),
+      borderRadius: px(4),
       width: '100%',
     },
 

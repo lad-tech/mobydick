@@ -40,9 +40,9 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
     style={
       {
         "alignSelf": "flex-end",
-        "marginVertical": 6,
+        "marginVertical": 4,
         "opacity": 1,
-        "paddingRight": 12,
+        "paddingRight": 8,
       }
     }
   >
@@ -52,10 +52,10 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
           {
             "alignItems": "center",
             "alignSelf": "center",
-            "borderRadius": 18,
-            "height": 36,
+            "borderRadius": 12,
+            "height": 24,
             "justifyContent": "center",
-            "width": 36,
+            "width": 24,
           },
           {
             "backgroundColor": "#2B78EE",
@@ -74,9 +74,9 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
             {
               "color": "#FFF",
               "fontFamily": "Inter-Regular",
-              "fontSize": 15,
-              "lineHeight": 21,
-              "minHeight": 21,
+              "fontSize": 10,
+              "lineHeight": 14,
+              "minHeight": 14,
             },
             undefined,
           ]
@@ -100,18 +100,18 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
         {
           "backgroundColor": "#FFF",
           "borderBottomLeftRadius": 0,
-          "borderBottomRightRadius": 15,
-          "borderRadius": 15,
-          "marginVertical": 6,
+          "borderBottomRightRadius": 10,
+          "borderRadius": 10,
+          "marginVertical": 4,
         }
       }
     >
       <View
         style={
           {
-            "paddingBottom": 6,
-            "paddingHorizontal": 15,
-            "paddingTop": 12,
+            "paddingBottom": 4,
+            "paddingHorizontal": 10,
+            "paddingTop": 8,
           }
         }
       >
@@ -122,9 +122,9 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
               {
                 "color": "#444B5A",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 21,
-                "lineHeight": 27,
-                "minHeight": 27,
+                "fontSize": 14,
+                "lineHeight": 18,
+                "minHeight": 18,
               },
               undefined,
             ]
@@ -137,8 +137,8 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
         style={
           {
             "alignSelf": "flex-end",
-            "paddingBottom": 12,
-            "paddingHorizontal": 9,
+            "paddingBottom": 8,
+            "paddingHorizontal": 6,
           }
         }
       >
@@ -149,9 +149,9 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
               {
                 "color": "#9BA1B0",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 15,
-                "lineHeight": 21,
-                "minHeight": 21,
+                "fontSize": 10,
+                "lineHeight": 14,
+                "minHeight": 14,
               },
               undefined,
             ]
@@ -205,9 +205,9 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
     style={
       {
         "alignSelf": "flex-end",
-        "marginVertical": 6,
+        "marginVertical": 4,
         "opacity": 1,
-        "paddingRight": 12,
+        "paddingRight": 8,
       }
     }
   >
@@ -217,10 +217,10 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
           {
             "alignItems": "center",
             "alignSelf": "center",
-            "borderRadius": 18,
-            "height": 36,
+            "borderRadius": 12,
+            "height": 24,
             "justifyContent": "center",
-            "width": 36,
+            "width": 24,
           },
           {
             "backgroundColor": "#2B78EE",
@@ -239,9 +239,9 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
             {
               "color": "#FFF",
               "fontFamily": "Inter-Regular",
-              "fontSize": 15,
-              "lineHeight": 21,
-              "minHeight": 21,
+              "fontSize": 10,
+              "lineHeight": 14,
+              "minHeight": 14,
             },
             undefined,
           ]
@@ -264,19 +264,19 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
       style={
         {
           "backgroundColor": "#2B78EE",
-          "borderBottomLeftRadius": 15,
+          "borderBottomLeftRadius": 10,
           "borderBottomRightRadius": 0,
-          "borderRadius": 15,
-          "marginVertical": 6,
+          "borderRadius": 10,
+          "marginVertical": 4,
         }
       }
     >
       <View
         style={
           {
-            "paddingBottom": 6,
-            "paddingHorizontal": 15,
-            "paddingTop": 12,
+            "paddingBottom": 4,
+            "paddingHorizontal": 10,
+            "paddingTop": 8,
           }
         }
       >
@@ -287,9 +287,9 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 21,
-                "lineHeight": 27,
-                "minHeight": 27,
+                "fontSize": 14,
+                "lineHeight": 18,
+                "minHeight": 18,
               },
               undefined,
             ]
@@ -302,8 +302,8 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
         style={
           {
             "alignSelf": "flex-end",
-            "paddingBottom": 12,
-            "paddingHorizontal": 9,
+            "paddingBottom": 8,
+            "paddingHorizontal": 6,
           }
         }
       >
@@ -314,9 +314,9 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
               {
                 "color": "rgba(255, 255, 255, 0.75)",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 15,
-                "lineHeight": 21,
-                "minHeight": 21,
+                "fontSize": 10,
+                "lineHeight": 14,
+                "minHeight": 14,
               },
               undefined,
             ]

@@ -7,7 +7,7 @@ exports[`CalendarHeader render 1`] = `
       "alignItems": "center",
       "flexDirection": "row",
       "justifyContent": "center",
-      "paddingTop": 18,
+      "paddingTop": 12,
     }
   }
 >
@@ -49,7 +49,7 @@ exports[`CalendarHeader render 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 36,
+          "fontSize": 24,
         }
       }
     >
@@ -62,7 +62,7 @@ exports[`CalendarHeader render 1`] = `
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "center",
-        "width": 240,
+        "width": 160,
       }
     }
   >
@@ -108,9 +108,9 @@ exports[`CalendarHeader render 1`] = `
             {
               "color": "#20242D",
               "fontFamily": "Inter-Medium",
-              "fontSize": 24,
-              "lineHeight": 30,
-              "minHeight": 30,
+              "fontSize": 16,
+              "lineHeight": 20,
+              "minHeight": 20,
             },
             undefined,
           ]
@@ -161,9 +161,9 @@ exports[`CalendarHeader render 1`] = `
             {
               "color": "#20242D",
               "fontFamily": "Inter-Medium",
-              "fontSize": 24,
-              "lineHeight": 30,
-              "minHeight": 30,
+              "fontSize": 16,
+              "lineHeight": 20,
+              "minHeight": 20,
             },
             undefined,
           ]
@@ -211,7 +211,7 @@ exports[`CalendarHeader render 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 36,
+          "fontSize": 24,
         }
       }
     >

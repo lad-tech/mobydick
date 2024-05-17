@@ -2,9 +2,9 @@ import {FC} from 'react';
 
 import View from '../../../basic/components/View/View';
 import {Typography} from '../../../typography';
-import rem from '../../../styles/utils/rem';
 import {createStyles} from '../../../styles';
 import useStyles from '../../../styles/hooks/useStyles';
+import px from '../../../styles/utils/px';
 
 import {ICrossedTextProps} from './types';
 
@@ -12,7 +12,7 @@ const CrossedText: FC<ICrossedTextProps> = ({
   children,
   style,
   lineColor,
-  lineHeight = rem(1),
+  lineHeight = px(1),
   ...props
 }) => {
   const [styles] = useStyles(stylesCreate);

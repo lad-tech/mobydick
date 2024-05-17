@@ -8,14 +8,14 @@ exports[`@lad-tech/mobydick-core/SnackbarBase/Title should renders correctly wit
       {
         "color": "#444B5A",
         "fontFamily": "Inter-Medium",
-        "fontSize": 24,
-        "lineHeight": 30,
-        "minHeight": 30,
+        "fontSize": 16,
+        "lineHeight": 20,
+        "minHeight": 20,
       },
       [
         {
           "flex": 1,
-          "paddingRight": 12,
+          "paddingRight": 8,
         },
         {
           "backgroundColor": "#000",
@@ -36,14 +36,14 @@ exports[`@lad-tech/mobydick-core/SnackbarBase/Title should renders correctly wit
       {
         "color": "#FFF",
         "fontFamily": "Inter-Medium",
-        "fontSize": 21,
-        "lineHeight": 27,
-        "minHeight": 27,
+        "fontSize": 14,
+        "lineHeight": 18,
+        "minHeight": 18,
       },
       [
         {
           "flex": 1,
-          "paddingRight": 12,
+          "paddingRight": 8,
         },
         {
           "flex": 1,

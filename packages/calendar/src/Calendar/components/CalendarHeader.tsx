@@ -1,7 +1,7 @@
 import {
   createStyles,
   Pressable,
-  rem,
+  px,
   SimpleIcon,
   TouchableOpacity,
   Typography,
@@ -65,10 +65,10 @@ const stylesCreate = createStyles(_ => ({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingTop: rem(12),
+    paddingTop: px(12),
   },
   title: {
-    width: rem(160),
+    width: px(160),
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',

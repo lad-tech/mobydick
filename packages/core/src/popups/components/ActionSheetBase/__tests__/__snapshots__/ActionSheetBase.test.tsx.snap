@@ -161,12 +161,12 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly with i
           {
             "alignItems": "center",
             "borderTopColor": "#D1D4DB",
-            "borderTopWidth": 1.5,
+            "borderTopWidth": 1,
             "flexDirection": "row",
             "justifyContent": "space-between",
-            "marginHorizontal": 12,
-            "minHeight": 75,
-            "paddingHorizontal": 30,
+            "marginHorizontal": 8,
+            "minHeight": 50,
+            "paddingHorizontal": 20,
           },
           {
             "backgroundColor": "#FFF",
@@ -191,12 +191,12 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly with i
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 22.5,
-                "lineHeight": 28.5,
-                "minHeight": 28.5,
+                "fontSize": 15,
+                "lineHeight": 19,
+                "minHeight": 19,
               },
               {
-                "paddingVertical": 22.5,
+                "paddingVertical": 15,
               },
             ]
           }

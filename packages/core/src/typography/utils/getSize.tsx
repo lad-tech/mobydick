@@ -1,20 +1,20 @@
-import rem from '../../styles/utils/rem';
 import {TFontSize, TSizes} from '../types';
+import px from '../../styles/utils/px';
 
 const sizes: TSizes = {
-  H1: {fontSize: rem(36), lineHeight: rem(40)},
-  H2: {fontSize: rem(32), lineHeight: rem(36)},
-  H3: {fontSize: rem(28), lineHeight: rem(32)},
-  H4: {fontSize: rem(24), lineHeight: rem(26)},
-  H5: {fontSize: rem(22), lineHeight: rem(24)},
+  H1: {fontSize: px(36), lineHeight: px(40)},
+  H2: {fontSize: px(32), lineHeight: px(36)},
+  H3: {fontSize: px(28), lineHeight: px(32)},
+  H4: {fontSize: px(24), lineHeight: px(26)},
+  H5: {fontSize: px(22), lineHeight: px(24)},
 
-  XL: {fontSize: rem(20), lineHeight: rem(24)},
-  L: {fontSize: rem(18), lineHeight: rem(22)},
-  M: {fontSize: rem(16), lineHeight: rem(20)},
-  S: {fontSize: rem(15), lineHeight: rem(19)},
-  XS: {fontSize: rem(14), lineHeight: rem(18)},
-  XXS: {fontSize: rem(12), lineHeight: rem(16)},
-  XXXS: {fontSize: rem(10), lineHeight: rem(14)},
+  XL: {fontSize: px(20), lineHeight: px(24)},
+  L: {fontSize: px(18), lineHeight: px(22)},
+  M: {fontSize: px(16), lineHeight: px(20)},
+  S: {fontSize: px(15), lineHeight: px(19)},
+  XS: {fontSize: px(14), lineHeight: px(18)},
+  XXS: {fontSize: px(12), lineHeight: px(16)},
+  XXXS: {fontSize: px(10), lineHeight: px(14)},
 };
 // eslint-disable-next-line import/prefer-default-export
 export const getSize = (

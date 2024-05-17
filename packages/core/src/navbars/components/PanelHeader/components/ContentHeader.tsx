@@ -5,8 +5,8 @@ import View from '../../../../basic/components/View/View';
 import {LABELS} from '../../../../other';
 import {Typography} from '../../../../typography';
 import {createStyles, useStyles} from '../../../../styles';
-import rem from '../../../../styles/utils/rem';
 import {IPanelHeaderProps} from '../../../types';
+import px from '../../../../styles/utils/px';
 
 const ContentHeader: FC<IPanelHeaderProps> = props => {
   const {
@@ -26,8 +26,8 @@ const ContentHeader: FC<IPanelHeaderProps> = props => {
   } = props;
 
   const [styles] = useStyles(stylesCreate);
-  const [widthLeftView, setWidthLeftView] = useState(rem(24));
-  const [widthRightView, setWidthRightView] = useState(rem(24));
+  const [widthLeftView, setWidthLeftView] = useState(px(24));
+  const [widthRightView, setWidthRightView] = useState(px(24));
 
   const onLayoutLeftView = useCallback((event: LayoutChangeEvent) => {
     setWidthLeftView(event.nativeEvent.layout.width);
@@ -98,11 +98,11 @@ const stylesCreate = createStyles(({spaces}) => ({
 
     paddingHorizontal: spaces.Space20,
     paddingVertical: spaces.Space10,
-    height: rem(60),
+    height: px(60),
   },
   leftView: {
     alignItems: 'flex-start',
-    maxWidth: rem(96),
+    maxWidth: px(96),
   },
   titleView: {
     flex: 2,
@@ -110,7 +110,7 @@ const stylesCreate = createStyles(({spaces}) => ({
   },
   rightView: {
     alignItems: 'flex-end',
-    maxWidth: rem(96),
+    maxWidth: px(96),
   },
   title: {
     textAlign: 'center',

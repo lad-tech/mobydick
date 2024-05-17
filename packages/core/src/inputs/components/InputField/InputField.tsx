@@ -12,7 +12,7 @@ import View from '../../../basic/components/View/View';
 import TextInput from '../../../basic/components/TextInput/TextInput';
 import useStyles from '../../../styles/hooks/useStyles';
 import {useFont} from '../../../typography/hooks/useFont';
-import rem from '../../../styles/utils/rem';
+import px from '../../../styles/utils/px';
 
 import {IInputFieldsProps} from './types';
 import stylesCreate from './stylesCreate';
@@ -86,11 +86,11 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     [onBlur],
   );
   const getHeight = () => {
-    return multiline ? {minHeight: rem(80)} : {height: rem(48)};
+    return multiline ? {minHeight: px(80)} : {height: px(48)};
   };
 
   const getPadding = useCallback(() => {
-    return rightIcon ? {paddingRight: rem(16)} : null;
+    return rightIcon ? {paddingRight: px(16)} : null;
   }, [rightIcon]);
 
   return (

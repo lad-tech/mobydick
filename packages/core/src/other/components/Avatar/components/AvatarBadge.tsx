@@ -4,8 +4,8 @@ import Counter from '../../Badge/Counter/Counter';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
 import useStyles from '../../../../styles/hooks/useStyles';
 import useTheme from '../../../../styles/hooks/useTheme';
-import rem from '../../../../styles/utils/rem';
 import {createStyles} from '../../../../styles';
+import px from '../../../../styles/utils/px';
 
 interface IProps {
   badge?: IBadge;
@@ -34,7 +34,7 @@ const AvatarBadge = (props: IProps): JSX.Element | null => {
     return (
       <SimpleIcon
         name={badge.value}
-        size={rem(12)}
+        size={px(12)}
         color={colors.IconAdditional}
         style={styles.status}
       />
