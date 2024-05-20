@@ -1,3 +1,10 @@
+# [7.32.0](https://github.com/lad-tech/mobydick/compare/v7.31.0...v7.32.0) (2024-05-20)
+
+
+### Features
+
+* move to px ([e31a2b4](https://github.com/lad-tech/mobydick/commit/e31a2b4d66c71286a647056dfc30e2b8d7afe25e))
+
 # [7.31.0](https://github.com/lad-tech/mobydick/compare/v7.30.0...v7.31.0) (2024-05-02)
 
 
