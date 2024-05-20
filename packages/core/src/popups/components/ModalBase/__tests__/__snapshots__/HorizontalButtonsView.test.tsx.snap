@@ -5,7 +5,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
   style={
     {
       "flexDirection": "row",
-      "paddingTop": 30,
+      "paddingTop": 20,
     }
   }
 >
@@ -42,12 +42,12 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#F54D3D",
-        "borderRadius": 18,
+        "borderRadius": 12,
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginRight": 9,
-        "minHeight": 72,
+        "marginRight": 6,
+        "minHeight": 48,
         "opacity": 1,
       }
     }
@@ -59,13 +59,13 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-            "minHeight": 33,
+            "fontSize": 18,
+            "lineHeight": 22,
+            "minHeight": 22,
           },
           [
             {
-              "paddingHorizontal": 9,
+              "paddingHorizontal": 6,
             },
             undefined,
           ],
@@ -108,12 +108,12 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#F54D3D",
-        "borderRadius": 18,
+        "borderRadius": 12,
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginLeft": 9,
-        "minHeight": 72,
+        "marginLeft": 6,
+        "minHeight": 48,
         "opacity": 1,
       }
     }
@@ -125,13 +125,13 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-            "minHeight": 33,
+            "fontSize": 18,
+            "lineHeight": 22,
+            "minHeight": 22,
           },
           [
             {
-              "paddingHorizontal": 9,
+              "paddingHorizontal": 6,
             },
             undefined,
           ],
@@ -149,7 +149,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
   style={
     {
       "flexDirection": "row",
-      "paddingTop": 30,
+      "paddingTop": 20,
     }
   }
 >
@@ -186,12 +186,12 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#2B78EE",
-        "borderRadius": 18,
+        "borderRadius": 12,
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginRight": 9,
-        "minHeight": 72,
+        "marginRight": 6,
+        "minHeight": 48,
         "opacity": 1,
       }
     }
@@ -203,13 +203,13 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-            "minHeight": 33,
+            "fontSize": 18,
+            "lineHeight": 22,
+            "minHeight": 22,
           },
           [
             {
-              "paddingHorizontal": 9,
+              "paddingHorizontal": 6,
             },
             undefined,
           ],
@@ -252,12 +252,12 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "#2B78EE",
-        "borderRadius": 18,
+        "borderRadius": 12,
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginLeft": 9,
-        "minHeight": 72,
+        "marginLeft": 6,
+        "minHeight": 48,
         "opacity": 1,
       }
     }
@@ -269,13 +269,13 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-            "minHeight": 33,
+            "fontSize": 18,
+            "lineHeight": 22,
+            "minHeight": 22,
           },
           [
             {
-              "paddingHorizontal": 9,
+              "paddingHorizontal": 6,
             },
             undefined,
           ],
@@ -293,7 +293,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
   style={
     {
       "flexDirection": "row",
-      "paddingTop": 30,
+      "paddingTop": 20,
     }
   }
 >
@@ -330,12 +330,12 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
-        "borderRadius": 18,
+        "borderRadius": 12,
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginRight": 9,
-        "minHeight": 72,
+        "marginRight": 6,
+        "minHeight": 48,
         "opacity": 1,
       }
     }
@@ -347,13 +347,13 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
           {
             "color": "#2B78EE",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-            "minHeight": 33,
+            "fontSize": 18,
+            "lineHeight": 22,
+            "minHeight": 22,
           },
           [
             {
-              "paddingHorizontal": 9,
+              "paddingHorizontal": 6,
             },
             undefined,
           ],
@@ -396,12 +396,12 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
-        "borderRadius": 18,
+        "borderRadius": 12,
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginLeft": 9,
-        "minHeight": 72,
+        "marginLeft": 6,
+        "minHeight": 48,
         "opacity": 1,
       }
     }
@@ -413,13 +413,13 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
           {
             "color": "#2B78EE",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-            "minHeight": 33,
+            "fontSize": 18,
+            "lineHeight": 22,
+            "minHeight": 22,
           },
           [
             {
-              "paddingHorizontal": 9,
+              "paddingHorizontal": 6,
             },
             undefined,
           ],
@@ -437,7 +437,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
   style={
     {
       "flexDirection": "row",
-      "paddingTop": 30,
+      "paddingTop": 20,
     }
   }
 >
@@ -474,12 +474,12 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "transparent",
-        "borderRadius": 18,
+        "borderRadius": 12,
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginRight": 9,
-        "minHeight": 72,
+        "marginRight": 6,
+        "minHeight": 48,
         "opacity": 1,
       }
     }
@@ -491,13 +491,13 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
           {
             "color": "#2B78EE",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-            "minHeight": 33,
+            "fontSize": 18,
+            "lineHeight": 22,
+            "minHeight": 22,
           },
           [
             {
-              "paddingHorizontal": 9,
+              "paddingHorizontal": 6,
             },
             undefined,
           ],
@@ -540,12 +540,12 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
         "alignItems": "center",
         "alignSelf": "stretch",
         "backgroundColor": "transparent",
-        "borderRadius": 18,
+        "borderRadius": 12,
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "center",
-        "marginLeft": 9,
-        "minHeight": 72,
+        "marginLeft": 6,
+        "minHeight": 48,
         "opacity": 1,
       }
     }
@@ -557,13 +557,13 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly HorizontalBu
           {
             "color": "#2B78EE",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 27,
-            "lineHeight": 33,
-            "minHeight": 33,
+            "fontSize": 18,
+            "lineHeight": 22,
+            "minHeight": 22,
           },
           [
             {
-              "paddingHorizontal": 9,
+              "paddingHorizontal": 6,
             },
             undefined,
           ],

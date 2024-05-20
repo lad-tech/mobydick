@@ -57,12 +57,12 @@ exports[`@lad-tech/mobydick-core/ModalBase should renders correctly 1`] = `
         {
           "alignItems": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
+          "borderRadius": 12,
           "justifyContent": "center",
-          "marginVertical": 30,
-          "paddingHorizontal": 30,
-          "paddingVertical": 36,
-          "width": 726,
+          "marginVertical": 20,
+          "paddingHorizontal": 20,
+          "paddingVertical": 24,
+          "width": 734,
         },
         undefined,
       ]

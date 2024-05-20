@@ -1,7 +1,7 @@
 import {Platform} from 'react-native';
 
-import rem from '../../../../../styles/utils/rem';
 import {getDropDownDimensions} from '../getDropDownDimensions';
+import px from '../../../../../styles/utils/px';
 
 describe('@lad-tech/mobydick-core/DropDownFunctions', () => {
   it('must return actual position list 8', () => {
@@ -15,8 +15,8 @@ describe('@lad-tech/mobydick-core/DropDownFunctions', () => {
         height: 700,
       }),
     ).toEqual({
-      underDropDownPos: 506,
-      aboveDropDownPos: 700 - 300 + rem(4),
+      underDropDownPos: 504,
+      aboveDropDownPos: 700 - 300 + px(4),
       isAboveDropDown: false,
     });
   });
@@ -31,8 +31,8 @@ describe('@lad-tech/mobydick-core/DropDownFunctions', () => {
         height: 700,
       }),
     ).toEqual({
-      underDropDownPos: 174,
-      aboveDropDownPos: 700 - 128 + rem(4),
+      underDropDownPos: 172,
+      aboveDropDownPos: 700 - 128 + px(4),
       isAboveDropDown: false,
     });
   });
@@ -48,8 +48,8 @@ describe('@lad-tech/mobydick-core/DropDownFunctions', () => {
         height: 700,
       }),
     ).toEqual({
-      underDropDownPos: 174,
-      aboveDropDownPos: 700 - 128 + rem(4),
+      underDropDownPos: 172,
+      aboveDropDownPos: 700 - 128 + px(4),
       isAboveDropDown: false,
     });
   });
@@ -64,8 +64,8 @@ describe('@lad-tech/mobydick-core/DropDownFunctions', () => {
         height: 700,
       }),
     ).toEqual({
-      underDropDownPos: 174,
-      aboveDropDownPos: 700 - 128 + rem(4),
+      underDropDownPos: 172,
+      aboveDropDownPos: 700 - 128 + px(4),
       isAboveDropDown: false,
     });
   });

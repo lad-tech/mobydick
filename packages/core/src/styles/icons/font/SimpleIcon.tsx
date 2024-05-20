@@ -3,7 +3,7 @@ import {TextStyle} from 'react-native';
 
 import Text from '../../../basic/components/Text/Text';
 import useTheme from '../../hooks/useTheme';
-import rem from '../../utils/rem';
+import px from '../../utils/px';
 
 import glyphMap from './unicodesMap.json';
 
@@ -15,7 +15,7 @@ interface IProps {
 }
 
 const SimpleIcon = ({
-  size = rem(24),
+  size = px(24),
   name,
   style,
   color,

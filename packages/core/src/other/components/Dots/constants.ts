@@ -1,12 +1,12 @@
-import rem from '../../../styles/utils/rem';
+import px from '../../../styles/utils/px';
 
 export const SPAN_SIZE = 3;
 
-export const SIZE_LARGE = rem(8);
-export const SIZE_MEDIUM = rem(6);
-export const SIZE_SMALL = rem(4);
+export const SIZE_LARGE = px(8);
+export const SIZE_MEDIUM = px(6);
+export const SIZE_SMALL = px(4);
 
-export const MARGIN_DOT = rem(5) * 2;
+export const MARGIN_DOT = px(5) * 2;
 
 export const WIDTH_SMALL =
   (SIZE_LARGE + MARGIN_DOT) * 3 +

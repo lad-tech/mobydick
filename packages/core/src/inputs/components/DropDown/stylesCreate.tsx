@@ -1,8 +1,8 @@
 import {IInputsTypes} from '../types';
 import {disabledStyle, validStyle, wrongStyle} from '../../style';
-import rem from '../../../styles/utils/rem';
 import {IThemeContext} from '../../../styles/types';
 import {createStyles} from '../../../styles';
+import px from '../../../styles/utils/px';
 
 const defaultStyle = createStyles(({spaces, colors}) => ({
   container: {
@@ -11,7 +11,7 @@ const defaultStyle = createStyles(({spaces, colors}) => ({
   inputContainer: {
     backgroundColor: colors.BgSecondary,
     borderRadius: spaces.Space8,
-    paddingLeft: rem(18),
+    paddingLeft: px(18),
     paddingRight: spaces.Space12,
     borderWidth: spaces.Space1,
     borderColor: colors.BorderNormal,

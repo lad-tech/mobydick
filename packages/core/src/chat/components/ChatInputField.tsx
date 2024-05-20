@@ -1,10 +1,11 @@
 import {Platform} from 'react-native';
 
-import {createStyles, rem} from '../../styles';
+import {createStyles} from '../../styles';
 import InputField from '../../inputs/components/InputField/InputField';
 import useStyles from '../../styles/hooks/useStyles';
 import {LABELS} from '../../other';
 import {IInputFieldsProps} from '../../inputs';
+import px from '../../styles/utils/px';
 
 const ChatInputField = (props: IInputFieldsProps) => {
   const {textInputContainerStyle, style, containerStyle, ...otherProps} = props;
@@ -24,8 +25,8 @@ const ChatInputField = (props: IInputFieldsProps) => {
 
 const stylesCreate = createStyles(({spaces}) => ({
   inputContainer: {
-    minHeight: rem(38),
-    maxHeight: rem(196),
+    minHeight: px(38),
+    maxHeight: px(196),
     width: '100%',
     borderWidth: undefined,
     marginVertical: 0,

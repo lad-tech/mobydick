@@ -7,10 +7,10 @@ exports[`Avatar render avatar ITypeAvatar.icon 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -28,7 +28,7 @@ exports[`Avatar render avatar ITypeAvatar.icon 1`] = `
       {
         "color": "#FFF",
         "fontFamily": "Neotis",
-        "fontSize": 30,
+        "fontSize": 20,
       }
     }
   >
@@ -44,10 +44,10 @@ exports[`Avatar render avatar ITypeAvatar.text 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -66,9 +66,9 @@ exports[`Avatar render avatar ITypeAvatar.text 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -86,10 +86,10 @@ exports[`Avatar render avatar badge counter 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -108,10 +108,10 @@ exports[`Avatar render avatar badge counter 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 13.5,
-          "height": 27,
+          "borderRadius": 9,
+          "height": 18,
           "justifyContent": "center",
-          "minWidth": 27,
+          "minWidth": 18,
           "zIndex": 1,
         },
         {
@@ -129,13 +129,13 @@ exports[`Avatar render avatar badge counter 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 18,
-            "lineHeight": 24,
-            "minHeight": 24,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "color": "#F54D3D",
-            "paddingHorizontal": 6,
+            "paddingHorizontal": 4,
             "textAlign": "center",
           },
         ]
@@ -151,9 +151,9 @@ exports[`Avatar render avatar badge counter 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -171,10 +171,10 @@ exports[`Avatar render avatar badge indicator 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -191,11 +191,11 @@ exports[`Avatar render avatar badge indicator 1`] = `
       [
         {
           "borderColor": "#FFF",
-          "borderRadius": 6.75,
-          "borderWidth": 1.5,
-          "height": 13.5,
+          "borderRadius": 4.5,
+          "borderWidth": 1,
+          "height": 9,
           "position": "absolute",
-          "width": 13.5,
+          "width": 9,
           "zIndex": 1,
         },
         {
@@ -215,9 +215,9 @@ exports[`Avatar render avatar badge indicator 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -235,10 +235,10 @@ exports[`Avatar render avatar badge null 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -257,9 +257,9 @@ exports[`Avatar render avatar badge null 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -277,10 +277,10 @@ exports[`Avatar render avatar badge status 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -299,7 +299,7 @@ exports[`Avatar render avatar badge status 1`] = `
         "bottom": 0,
         "color": "#FAB742",
         "fontFamily": "Neotis",
-        "fontSize": 18,
+        "fontSize": 12,
         "position": "absolute",
         "right": 0,
         "zIndex": 1,
@@ -315,9 +315,9 @@ exports[`Avatar render avatar badge status 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -335,10 +335,10 @@ exports[`Avatar render avatar disabled 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -357,9 +357,9 @@ exports[`Avatar render avatar disabled 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -377,10 +377,10 @@ exports[`Avatar render avatar not photo 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -403,9 +403,9 @@ exports[`Avatar render avatar not photo 1`] = `
     }
     style={
       {
-        "borderRadius": 30,
-        "height": 60,
-        "width": 60,
+        "borderRadius": 20,
+        "height": 40,
+        "width": 40,
       }
     }
   />
@@ -419,10 +419,10 @@ exports[`Avatar render avatar with photo L 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 45,
-        "height": 90,
+        "borderRadius": 30,
+        "height": 60,
         "justifyContent": "center",
-        "width": 90,
+        "width": 60,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -445,9 +445,9 @@ exports[`Avatar render avatar with photo L 1`] = `
     }
     style={
       {
-        "borderRadius": 45,
-        "height": 90,
-        "width": 90,
+        "borderRadius": 30,
+        "height": 60,
+        "width": 60,
       }
     }
   />
@@ -461,10 +461,10 @@ exports[`Avatar render avatar with photo S 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 18,
-        "height": 36,
+        "borderRadius": 12,
+        "height": 24,
         "justifyContent": "center",
-        "width": 36,
+        "width": 24,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -487,9 +487,9 @@ exports[`Avatar render avatar with photo S 1`] = `
     }
     style={
       {
-        "borderRadius": 18,
-        "height": 36,
-        "width": 36,
+        "borderRadius": 12,
+        "height": 24,
+        "width": 24,
       }
     }
   />
@@ -503,10 +503,10 @@ exports[`Avatar render avatar with photo XL 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 60,
-        "height": 120,
+        "borderRadius": 40,
+        "height": 80,
         "justifyContent": "center",
-        "width": 120,
+        "width": 80,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -531,9 +531,9 @@ exports[`Avatar render avatar with photo XL 1`] = `
     }
     style={
       {
-        "borderRadius": 60,
-        "height": 120,
-        "width": 120,
+        "borderRadius": 40,
+        "height": 80,
+        "width": 80,
       }
     }
   />
@@ -547,10 +547,10 @@ exports[`Avatar render avatar with photo without size 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -573,9 +573,9 @@ exports[`Avatar render avatar with photo without size 1`] = `
     }
     style={
       {
-        "borderRadius": 30,
-        "height": 60,
-        "width": 60,
+        "borderRadius": 20,
+        "height": 40,
+        "width": 40,
       }
     }
   />
@@ -589,10 +589,10 @@ exports[`Avatar render avatar without firstName 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#FA9247",
@@ -611,9 +611,9 @@ exports[`Avatar render avatar without firstName 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -631,10 +631,10 @@ exports[`Avatar render avatar without firstName and lastName 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "borderRadius": 30,
-        "height": 60,
+        "borderRadius": 20,
+        "height": 40,
         "justifyContent": "center",
-        "width": 60,
+        "width": 40,
       },
       {
         "backgroundColor": "#FAB742",
@@ -652,7 +652,7 @@ exports[`Avatar render avatar without firstName and lastName 1`] = `
       {
         "color": "#FFF",
         "fontFamily": "Neotis",
-        "fontSize": 30,
+        "fontSize": 20,
       }
     }
   >

@@ -4,10 +4,10 @@ import View from '../../basic/components/View/View';
 import {Typography} from '../../typography';
 import {isNumber} from '../../other/functions/isNumber';
 import useStyles from '../../styles/hooks/useStyles';
-import rem from '../../styles/utils/rem';
 import {isValidMessageTime} from '../functions/isValidMessageTime';
 import {IChatMessage} from '../types';
 import {createStyles} from '../../styles';
+import px from '../../styles/utils/px';
 
 const ChatMessage = (props: IChatMessage) => {
   const {isMe, message, image, time} = props;
@@ -64,10 +64,10 @@ const stylesCreate = createStyles(({spaces, colors}, isMe: boolean) => ({
     margin: spaces.Space4,
   },
   image: {
-    minWidth: rem(129),
-    maxWidth: rem(148),
-    minHeight: rem(129),
-    maxHeight: rem(148),
+    minWidth: px(129),
+    maxWidth: px(148),
+    minHeight: px(129),
+    maxHeight: px(148),
   },
   textArea: {
     paddingTop: spaces.Space8,

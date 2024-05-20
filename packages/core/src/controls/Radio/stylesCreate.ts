@@ -1,5 +1,5 @@
-import rem from '../../styles/utils/rem';
 import {createStyles} from '../../styles';
+import px from '../../styles/utils/px';
 
 const stylesCreate = createStyles(
   ({spaces, colors}, selected: boolean, disabled: boolean) => ({
@@ -10,9 +10,9 @@ const stylesCreate = createStyles(
       opacity: disabled ? 0.4 : 1,
     },
     circle: {
-      width: rem(22),
+      width: px(22),
       aspectRatio: 1,
-      borderRadius: rem(11),
+      borderRadius: px(11),
       backgroundColor: selected ? colors.ElementBase : 'transparent',
       borderColor: selected ? colors.ElementBase : colors.BorderNormal,
       borderWidth: spaces.Space2,
@@ -20,10 +20,10 @@ const stylesCreate = createStyles(
       alignItems: 'center',
     },
     innerCircle: {
-      width: rem(18),
+      width: px(18),
       aspectRatio: 1,
       borderWidth: spaces.Space2,
-      borderRadius: rem(9),
+      borderRadius: px(9),
       borderColor: colors.BgPrimary,
     },
   }),

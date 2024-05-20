@@ -6,8 +6,8 @@ import SimpleIcon from '../../../styles/icons/font/SimpleIcon';
 import TextInput from '../../../basic/components/TextInput/TextInput';
 import {ITextInput} from '../../../basic';
 import Pressable from '../../../basic/components/Pressable/Pressable';
-import rem from '../../../styles/utils/rem';
 import {LABELS} from '../../../other';
+import px from '../../../styles/utils/px';
 
 import {strings} from './constants';
 import stylesCreate from './stylesCreate';
@@ -52,7 +52,7 @@ const Search = forwardRef<ITextInput, ISearchProps>((props, ref) => {
           accessibilityLabel={LABELS.cancelSearch}
           onPress={onCancel}
           style={styles.cancelIcon}>
-          <SimpleIcon name={'icon-cancel'} size={rem(16)} />
+          <SimpleIcon name={'icon-cancel'} size={px(16)} />
         </Pressable>
       ) : null}
     </View>

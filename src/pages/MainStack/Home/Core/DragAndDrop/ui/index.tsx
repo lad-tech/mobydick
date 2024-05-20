@@ -1,12 +1,12 @@
 import {Dimensions} from 'react-native';
 
-import {DragAndDropList, rem, useTheme} from '@shared/ui';
+import {DragAndDropList, px, useTheme} from '@shared/ui';
 import {BlockView} from '@shared/ui/BlockView';
 
 const {width: WIDTH} = Dimensions.get('window');
 
 const arr = new Array(26).fill('').map((_, i) => i);
-export const MARGIN = rem(8);
+export const MARGIN = px(8);
 export const COL = 2;
 export const EL_WIDTH = WIDTH / COL - MARGIN;
 export const EL_HEIGHT = EL_WIDTH / 2;

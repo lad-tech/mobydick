@@ -7,7 +7,7 @@ exports[`IconAvatar render IconAvatar 1`] = `
     {
       "color": "#FFF",
       "fontFamily": "Neotis",
-      "fontSize": 18,
+      "fontSize": 12,
     }
   }
 >
@@ -22,7 +22,7 @@ exports[`IconAvatar render IconAvatar size L background 1`] = `
     {
       "color": "#FFF",
       "fontFamily": "Neotis",
-      "fontSize": 45,
+      "fontSize": 30,
     }
   }
 >
@@ -37,7 +37,7 @@ exports[`IconAvatar render IconAvatar size M background 1`] = `
     {
       "color": "#FFF",
       "fontFamily": "Neotis",
-      "fontSize": 30,
+      "fontSize": 20,
     }
   }
 >
@@ -52,7 +52,7 @@ exports[`IconAvatar render IconAvatar size S 1`] = `
     {
       "color": "#FFF",
       "fontFamily": "Neotis",
-      "fontSize": 18,
+      "fontSize": 12,
     }
   }
 >
@@ -67,7 +67,7 @@ exports[`IconAvatar render IconAvatar size XL background 1`] = `
     {
       "color": "#FFF",
       "fontFamily": "Neotis",
-      "fontSize": 60,
+      "fontSize": 40,
     }
   }
 >

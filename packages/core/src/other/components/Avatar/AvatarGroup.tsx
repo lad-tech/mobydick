@@ -2,9 +2,9 @@ import {FC} from 'react';
 
 import View from '../../../basic/components/View/View';
 import {Typography} from '../../../typography';
-import rem from '../../../styles/utils/rem';
 import useStyles from '../../../styles/hooks/useStyles';
 import {createStyles} from '../../../styles';
+import px from '../../../styles/utils/px';
 
 import Avatar from './Avatar';
 import {IAvatarGroupProps} from './types';
@@ -71,7 +71,7 @@ const stylesCreate = createStyles(({spaces, colors}, length: number) => ({
     flexDirection: 'row',
     maxWidth:
       length > 3
-        ? spaces.Space40 * 4 - rem(36)
+        ? spaces.Space40 * 4 - px(36)
         : spaces.Space40 * length - spaces.Space12 * (length - 1),
   },
   countView: {
@@ -81,7 +81,7 @@ const stylesCreate = createStyles(({spaces, colors}, length: number) => ({
     backgroundColor: colors.BgSecondary,
     justifyContent: 'center',
     zIndex: 4,
-    right: rem(36),
+    right: px(36),
 
     borderWidth: spaces.Space2,
     borderColor: colors.BgPrimary,
@@ -103,7 +103,7 @@ const stylesCreate = createStyles(({spaces, colors}, length: number) => ({
     zIndex: 3,
   },
   avatarFour: {
-    right: rem(36),
+    right: px(36),
     zIndex: 4,
   },
 }));

@@ -1,11 +1,12 @@
 import {IInputsTypes} from '../types';
 import {disabledStyle, validStyle, wrongStyle} from '../../style';
-import {createStyles, IThemeContext, rem} from '../../../styles';
+import {createStyles, IThemeContext} from '../../../styles';
+import px from '../../../styles/utils/px';
 
 const defaultStyle = createStyles(
   ({spaces, colors}, focused: boolean, multiline: boolean) => ({
     container: {
-      minWidth: rem(130),
+      minWidth: px(130),
     },
     inputContainer: {
       backgroundColor: colors.BgSecondary,
@@ -20,7 +21,7 @@ const defaultStyle = createStyles(
     textInput: {
       flex: 1,
       paddingRight: spaces.Space16,
-      paddingLeft: rem(18),
+      paddingLeft: px(18),
       textAlignVertical: multiline ? 'top' : undefined,
       padding: 0, // Android по дефолту ставит padding на input's
       paddingVertical: spaces.Space12,

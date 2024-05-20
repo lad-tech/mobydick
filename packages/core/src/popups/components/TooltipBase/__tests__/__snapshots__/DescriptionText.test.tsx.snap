@@ -8,13 +8,13 @@ exports[`@lad-tech/mobydick-core/TooltipBase/DescriptionText should renders corr
       {
         "color": "#FFF",
         "fontFamily": "Inter-Regular",
-        "fontSize": 21,
-        "lineHeight": 27,
-        "minHeight": 27,
+        "fontSize": 14,
+        "lineHeight": 18,
+        "minHeight": 18,
       },
       [
         {
-          "paddingBottom": 12,
+          "paddingBottom": 8,
           "zIndex": 1,
         },
         undefined,
@@ -34,13 +34,13 @@ exports[`@lad-tech/mobydick-core/TooltipBase/DescriptionText should renders corr
       {
         "color": "#20242D",
         "fontFamily": "Inter-Regular",
-        "fontSize": 21,
-        "lineHeight": 27,
-        "minHeight": 27,
+        "fontSize": 14,
+        "lineHeight": 18,
+        "minHeight": 18,
       },
       [
         {
-          "paddingBottom": 12,
+          "paddingBottom": 8,
           "zIndex": 1,
         },
         {

@@ -5,8 +5,8 @@ import SimpleIcon from '../../../styles/icons/font/SimpleIcon';
 import useStyles from '../../../styles/hooks/useStyles';
 import {Spinner} from '../Spinner';
 import {ISizeSpinner} from '../Spinner/types';
-import rem from '../../../styles/utils/rem';
 import Pressable from '../../../basic/components/Pressable/Pressable';
+import px from '../../../styles/utils/px';
 
 import stylesCreate from './stylesCreate';
 import {PanelSpinnerProps} from './types';
@@ -24,7 +24,7 @@ const PanelSpinner: FC<PanelSpinnerProps> = props => {
         ]}>
         <SimpleIcon
           name="icon-cancel"
-          size={rem(32)}
+          size={px(32)}
           color={theme.colors.IconMuted}
         />
       </View>
@@ -32,7 +32,7 @@ const PanelSpinner: FC<PanelSpinnerProps> = props => {
       <View style={styles.insideView}>
         <SimpleIcon
           name="icon-check"
-          size={rem(48)}
+          size={px(48)}
           color={theme.colors.IconBase}
         />
       </View>

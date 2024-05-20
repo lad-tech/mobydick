@@ -1,5 +1,5 @@
-import rem from '../../../styles/utils/rem';
 import {createStyles} from '../../../styles';
+import px from '../../../styles/utils/px';
 
 const stylesCreate = createStyles(({spaces, colors}) => ({
   container: {
@@ -8,8 +8,8 @@ const stylesCreate = createStyles(({spaces, colors}) => ({
     padding: spaces.Space20,
     backgroundColor: colors.BgPrimary,
     borderColor: colors.BorderSoft,
-    borderWidth: rem(0.5),
-    borderRadius: rem(200),
+    borderWidth: px(0.5),
+    borderRadius: px(200),
     shadowColor: colors.BgBlack,
     // ios
     shadowOffset: {
@@ -17,7 +17,7 @@ const stylesCreate = createStyles(({spaces, colors}) => ({
       height: 1,
     },
     shadowOpacity: 0.3,
-    shadowRadius: rem(12),
+    shadowRadius: px(12),
     // android
     elevation: 10,
   },

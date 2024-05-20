@@ -7,18 +7,18 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 300,
-      "borderWidth": 1,
+      "borderRadius": 200,
+      "borderWidth": 0.5,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 30,
+      "padding": 20,
       "shadowColor": "#20242D",
       "shadowOffset": {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 18,
+      "shadowRadius": 12,
     }
   }
 >
@@ -51,18 +51,18 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 300,
-      "borderWidth": 1,
+      "borderRadius": 200,
+      "borderWidth": 0.5,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 30,
+      "padding": 20,
       "shadowColor": "#20242D",
       "shadowOffset": {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 18,
+      "shadowRadius": 12,
     }
   }
 >
@@ -120,9 +120,9 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
         {
           "alignItems": "center",
           "aspectRatio": 1,
-          "borderRadius": 36,
+          "borderRadius": 24,
           "justifyContent": "center",
-          "width": 72,
+          "width": 48,
         },
         {
           "position": "absolute",
@@ -136,7 +136,7 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
         {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
-          "fontSize": 36,
+          "fontSize": 24,
         }
       }
     >
@@ -153,18 +153,18 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly done 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 300,
-      "borderWidth": 1,
+      "borderRadius": 200,
+      "borderWidth": 0.5,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 30,
+      "padding": 20,
       "shadowColor": "#20242D",
       "shadowOffset": {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 18,
+      "shadowRadius": 12,
     }
   }
 >
@@ -173,9 +173,9 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly done 1`] = `
       {
         "alignItems": "center",
         "aspectRatio": 1,
-        "borderRadius": 36,
+        "borderRadius": 24,
         "justifyContent": "center",
-        "width": 72,
+        "width": 48,
       }
     }
   >
@@ -185,7 +185,7 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly done 1`] = `
         {
           "color": "#2B78EE",
           "fontFamily": "Neotis",
-          "fontSize": 72,
+          "fontSize": 48,
         }
       }
     >
@@ -202,18 +202,18 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly error 1`] = `
       "alignItems": "center",
       "backgroundColor": "#FFF",
       "borderColor": "rgba(32, 36, 45, 0.15)",
-      "borderRadius": 300,
-      "borderWidth": 1,
+      "borderRadius": 200,
+      "borderWidth": 0.5,
       "elevation": 10,
       "justifyContent": "center",
-      "padding": 30,
+      "padding": 20,
       "shadowColor": "#20242D",
       "shadowOffset": {
         "height": 1,
         "width": 0,
       },
       "shadowOpacity": 0.3,
-      "shadowRadius": 18,
+      "shadowRadius": 12,
     }
   }
 >
@@ -223,9 +223,9 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly error 1`] = `
         {
           "alignItems": "center",
           "aspectRatio": 1,
-          "borderRadius": 36,
+          "borderRadius": 24,
           "justifyContent": "center",
-          "width": 72,
+          "width": 48,
         },
         {
           "backgroundColor": "#EEEFF1",
@@ -239,7 +239,7 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly error 1`] = `
         {
           "color": "#9BA1B0",
           "fontFamily": "Neotis",
-          "fontSize": 48,
+          "fontSize": 32,
         }
       }
     >

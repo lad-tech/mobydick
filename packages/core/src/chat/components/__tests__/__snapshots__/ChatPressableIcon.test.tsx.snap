@@ -33,12 +33,12 @@ exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#E5F0FF",
-      "borderRadius": 12,
-      "height": 57,
+      "borderRadius": 8,
+      "height": 38,
       "justifyContent": "center",
-      "marginLeft": 9,
+      "marginLeft": 6,
       "opacity": 1,
-      "width": 57,
+      "width": 38,
     }
   }
 >
@@ -48,7 +48,7 @@ exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly 1`] = `
       {
         "color": "#2B78EE",
         "fontFamily": "Neotis",
-        "fontSize": 36,
+        "fontSize": 24,
       }
     }
   >
@@ -90,12 +90,12 @@ exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly disabled 1`
     {
       "alignItems": "center",
       "backgroundColor": "black",
-      "borderRadius": 12,
-      "height": 57,
+      "borderRadius": 8,
+      "height": 38,
       "justifyContent": "center",
-      "marginLeft": 9,
+      "marginLeft": 6,
       "opacity": 1,
-      "width": 57,
+      "width": 38,
     }
   }
 >
@@ -105,7 +105,7 @@ exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly disabled 1`
       {
         "color": "red",
         "fontFamily": "Neotis",
-        "fontSize": 36,
+        "fontSize": 24,
       }
     }
   >
@@ -147,12 +147,12 @@ exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly with props 
     {
       "alignItems": "center",
       "backgroundColor": "black",
-      "borderRadius": 12,
-      "height": 57,
+      "borderRadius": 8,
+      "height": 38,
       "justifyContent": "center",
-      "marginLeft": 9,
+      "marginLeft": 6,
       "opacity": 1,
-      "width": 57,
+      "width": 38,
     }
   }
 >
@@ -162,7 +162,7 @@ exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly with props 
       {
         "color": "red",
         "fontFamily": "Neotis",
-        "fontSize": 36,
+        "fontSize": 24,
       }
     }
   >

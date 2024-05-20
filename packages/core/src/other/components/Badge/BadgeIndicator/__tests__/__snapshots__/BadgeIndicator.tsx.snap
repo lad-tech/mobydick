@@ -6,11 +6,11 @@ exports[`BadgeIndicator render BadgeIndicator primary 1`] = `
     [
       {
         "borderColor": "#FFF",
-        "borderRadius": 6.75,
-        "borderWidth": 1.5,
-        "height": 13.5,
+        "borderRadius": 4.5,
+        "borderWidth": 1,
+        "height": 9,
         "position": "absolute",
-        "width": 13.5,
+        "width": 9,
         "zIndex": 1,
       },
       {
@@ -30,11 +30,11 @@ exports[`BadgeIndicator render BadgeIndicator secondary 1`] = `
     [
       {
         "borderColor": "#FFF",
-        "borderRadius": 6.75,
-        "borderWidth": 1.5,
-        "height": 13.5,
+        "borderRadius": 4.5,
+        "borderWidth": 1,
+        "height": 9,
         "position": "absolute",
-        "width": 13.5,
+        "width": 9,
         "zIndex": 1,
       },
       {

@@ -33,11 +33,11 @@ exports[`Tab render correctly active false 1`] = `
   style={
     {
       "backgroundColor": "#D1D4DB",
-      "borderRadius": 12,
-      "marginRight": 12,
+      "borderRadius": 8,
+      "marginRight": 8,
       "opacity": 1,
-      "paddingHorizontal": 18,
-      "paddingVertical": 9,
+      "paddingHorizontal": 12,
+      "paddingVertical": 6,
     }
   }
 >
@@ -48,9 +48,9 @@ exports[`Tab render correctly active false 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -94,11 +94,11 @@ exports[`Tab render correctly with props 1`] = `
   style={
     {
       "backgroundColor": "#2B78EE",
-      "borderRadius": 12,
-      "marginRight": 12,
+      "borderRadius": 8,
+      "marginRight": 8,
       "opacity": 1,
-      "paddingHorizontal": 18,
-      "paddingVertical": 9,
+      "paddingHorizontal": 12,
+      "paddingVertical": 6,
     }
   }
 >
@@ -110,9 +110,9 @@ exports[`Tab render correctly with props 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]

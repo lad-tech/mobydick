@@ -7,11 +7,11 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value blur 1`] 
       {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 12,
+        "borderRadius": 8,
         "flexDirection": "row",
         "justifyContent": "center",
-        "minHeight": 72,
-        "minWidth": 102,
+        "minHeight": 48,
+        "minWidth": 68,
       },
       undefined,
     ]
@@ -39,9 +39,9 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value blur 1`] 
         {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 30,
-          "lineHeight": 36,
-          "minHeight": 36,
+          "fontSize": 20,
+          "lineHeight": 24,
+          "minHeight": 24,
         },
         undefined,
       ]
@@ -57,11 +57,11 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value focus 1`]
       {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 12,
+        "borderRadius": 8,
         "flexDirection": "row",
         "justifyContent": "center",
-        "minHeight": 72,
-        "minWidth": 102,
+        "minHeight": 48,
+        "minWidth": 68,
       },
       undefined,
     ]
@@ -88,9 +88,9 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value focus 1`]
         {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 30,
-          "lineHeight": 36,
-          "minHeight": 36,
+          "fontSize": 20,
+          "lineHeight": 24,
+          "minHeight": 24,
         },
         undefined,
       ]

@@ -34,10 +34,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -49,13 +49,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 27,
-          "lineHeight": 33,
-          "minHeight": 33,
+          "fontSize": 18,
+          "lineHeight": 22,
+          "minHeight": 22,
         },
         [
           {
-            "paddingHorizontal": 9,
+            "paddingHorizontal": 6,
           },
           undefined,
         ],
@@ -100,13 +100,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly 2`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 48,
+      "minHeight": 32,
       "opacity": 1,
-      "paddingHorizontal": 18,
-      "paddingVertical": 9,
+      "paddingHorizontal": 12,
+      "paddingVertical": 6,
     }
   }
 >
@@ -117,13 +117,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly 2`] = `
         {
           "color": "#F54D3D",
           "fontFamily": "Inter-Bold",
-          "fontSize": 27,
-          "lineHeight": 33,
-          "minHeight": 33,
+          "fontSize": 18,
+          "lineHeight": 22,
+          "minHeight": 22,
         },
         [
           {
-            "paddingHorizontal": 6,
+            "paddingHorizontal": 4,
           },
           undefined,
         ],
@@ -169,10 +169,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly destructive 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#F54D3D",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -184,14 +184,14 @@ exports[`@lad-tech/mobydick-core/Button renders correctly destructive 1`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
-          "height": 36,
+          "borderRadius": 12,
+          "height": 24,
           "justifyContent": "center",
-          "minWidth": 36,
+          "minWidth": 24,
           "zIndex": 1,
         },
         {
-          "marginLeft": 3,
+          "marginLeft": 2,
         },
       ]
     }
@@ -203,13 +203,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly destructive 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           {
             "color": "#F54D3D",
-            "paddingHorizontal": 9,
+            "paddingHorizontal": 6,
             "textAlign": "center",
           },
         ]
@@ -255,10 +255,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly disabled 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -299,10 +299,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly fixed 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -342,13 +342,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly large 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
-      "paddingHorizontal": 18,
-      "paddingVertical": 18,
+      "paddingHorizontal": 12,
+      "paddingVertical": 12,
     }
   }
 />
@@ -387,13 +387,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly left icon size large 1
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
-      "paddingHorizontal": 39,
-      "paddingVertical": 18,
+      "paddingHorizontal": 26,
+      "paddingVertical": 12,
     }
   }
 >
@@ -405,13 +405,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly left icon size large 1
         {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 27,
-          "lineHeight": 33,
-          "minHeight": 33,
+          "fontSize": 18,
+          "lineHeight": 22,
+          "minHeight": 22,
         },
         [
           {
-            "paddingHorizontal": 9,
+            "paddingHorizontal": 6,
           },
           undefined,
         ],
@@ -457,13 +457,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly left icon size small 1
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 48,
+      "minHeight": 32,
       "opacity": 1,
-      "paddingHorizontal": 21,
-      "paddingVertical": 9,
+      "paddingHorizontal": 14,
+      "paddingVertical": 6,
     }
   }
 >
@@ -475,13 +475,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly left icon size small 1
         {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         [
           {
-            "paddingHorizontal": 6,
+            "paddingHorizontal": 4,
           },
           undefined,
         ],
@@ -527,13 +527,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly left icon small 1`] = 
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 48,
+      "minHeight": 32,
       "opacity": 1,
-      "paddingHorizontal": 9,
-      "paddingVertical": 9,
+      "paddingHorizontal": 6,
+      "paddingVertical": 6,
     }
   }
 >
@@ -576,10 +576,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -640,10 +640,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading disabled 1`] =
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -704,10 +704,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -768,10 +768,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 2`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -832,10 +832,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 3`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -847,14 +847,14 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 3`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
-          "height": 36,
+          "borderRadius": 12,
+          "height": 24,
           "justifyContent": "center",
-          "minWidth": 36,
+          "minWidth": 24,
           "zIndex": 1,
         },
         {
-          "marginLeft": 3,
+          "marginLeft": 2,
         },
       ]
     }
@@ -866,13 +866,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 3`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           {
             "color": "#2B78EE",
-            "paddingHorizontal": 9,
+            "paddingHorizontal": 6,
             "textAlign": "center",
           },
         ]
@@ -918,10 +918,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 4`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -933,14 +933,14 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 4`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
-          "height": 36,
+          "borderRadius": 12,
+          "height": 24,
           "justifyContent": "center",
-          "minWidth": 36,
+          "minWidth": 24,
           "zIndex": 1,
         },
         {
-          "marginLeft": 3,
+          "marginLeft": 2,
         },
       ]
     }
@@ -952,13 +952,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 4`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           {
             "color": "#2B78EE",
-            "paddingHorizontal": 9,
+            "paddingHorizontal": 6,
             "textAlign": "center",
           },
         ]
@@ -1004,10 +1004,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 5`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -1019,14 +1019,14 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 5`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#2B78EE",
-          "borderRadius": 18,
-          "height": 36,
+          "borderRadius": 12,
+          "height": 24,
           "justifyContent": "center",
-          "minWidth": 36,
+          "minWidth": 24,
           "zIndex": 1,
         },
         {
-          "marginLeft": 3,
+          "marginLeft": 2,
         },
       ]
     }
@@ -1038,13 +1038,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 5`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           {
             "color": "#FFF",
-            "paddingHorizontal": 9,
+            "paddingHorizontal": 6,
             "textAlign": "center",
           },
         ]
@@ -1090,10 +1090,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 6`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#9BA1B0",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -1105,14 +1105,14 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 6`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
-          "height": 36,
+          "borderRadius": 12,
+          "height": 24,
           "justifyContent": "center",
-          "minWidth": 36,
+          "minWidth": 24,
           "zIndex": 1,
         },
         {
-          "marginLeft": 3,
+          "marginLeft": 2,
         },
       ]
     }
@@ -1124,13 +1124,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 6`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           {
             "color": "#9BA1B0",
-            "paddingHorizontal": 9,
+            "paddingHorizontal": 6,
             "textAlign": "center",
           },
         ]
@@ -1176,10 +1176,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 7`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -1240,10 +1240,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 8`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#F54D3D",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -1255,14 +1255,14 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 8`] = `
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#FFF",
-          "borderRadius": 18,
-          "height": 36,
+          "borderRadius": 12,
+          "height": 24,
           "justifyContent": "center",
-          "minWidth": 36,
+          "minWidth": 24,
           "zIndex": 1,
         },
         {
-          "marginLeft": 3,
+          "marginLeft": 2,
         },
       ]
     }
@@ -1274,13 +1274,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 8`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 24,
-            "lineHeight": 30,
-            "minHeight": 30,
+            "fontSize": 16,
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           {
             "color": "#F54D3D",
-            "paddingHorizontal": 9,
+            "paddingHorizontal": 6,
             "textAlign": "center",
           },
         ]
@@ -1326,10 +1326,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading without type 1
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -1370,10 +1370,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly secondary 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "rgba(43, 120, 238, 0.15)",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -1413,13 +1413,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly small 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 48,
+      "minHeight": 32,
       "opacity": 1,
-      "paddingHorizontal": 9,
-      "paddingVertical": 9,
+      "paddingHorizontal": 6,
+      "paddingVertical": 6,
     }
   }
 />
@@ -1458,13 +1458,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly small 2`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 48,
+      "minHeight": 32,
       "opacity": 1,
-      "paddingHorizontal": 9,
-      "paddingVertical": 9,
+      "paddingHorizontal": 6,
+      "paddingVertical": 6,
     }
   }
 >
@@ -1524,10 +1524,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly tertiary 1`] = `
       "alignItems": "center",
       "alignSelf": "stretch",
       "backgroundColor": "transparent",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 72,
+      "minHeight": 48,
       "opacity": 1,
     }
   }
@@ -1567,13 +1567,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly text 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
-      "minHeight": 48,
+      "minHeight": 32,
       "opacity": 1,
-      "paddingHorizontal": 18,
-      "paddingVertical": 9,
+      "paddingHorizontal": 12,
+      "paddingVertical": 6,
     }
   }
 >
@@ -1584,13 +1584,13 @@ exports[`@lad-tech/mobydick-core/Button renders correctly text 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 21,
-          "lineHeight": 27,
-          "minHeight": 27,
+          "fontSize": 14,
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         [
           {
-            "paddingHorizontal": 6,
+            "paddingHorizontal": 4,
           },
           undefined,
         ],
@@ -1635,7 +1635,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly without size 1`] = `
     {
       "alignItems": "center",
       "backgroundColor": "#2B78EE",
-      "borderRadius": 18,
+      "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
       "opacity": 1,

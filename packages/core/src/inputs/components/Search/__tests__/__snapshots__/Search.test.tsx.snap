@@ -7,12 +7,12 @@ exports[`Search render correctly with value 1`] = `
       {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 12,
+        "borderRadius": 8,
         "flexDirection": "row",
-        "height": 54,
+        "height": 36,
         "justifyContent": "center",
-        "paddingLeft": 18,
-        "paddingRight": 12,
+        "paddingLeft": 12,
+        "paddingRight": 8,
       },
       undefined,
     ]
@@ -31,9 +31,9 @@ exports[`Search render correctly with value 1`] = `
         {
           "color": "#20242D",
           "flex": 1,
-          "fontSize": 24,
+          "fontSize": 16,
           "padding": 0,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 8,
         },
         undefined,
       ]
@@ -75,9 +75,9 @@ exports[`Search render correctly with value 1`] = `
       {
         "alignItems": "center",
         "backgroundColor": "#D1D4DB",
-        "borderRadius": 36,
+        "borderRadius": 24,
         "justifyContent": "center",
-        "padding": 6,
+        "padding": 4,
       }
     }
   >
@@ -87,7 +87,7 @@ exports[`Search render correctly with value 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Neotis",
-          "fontSize": 24,
+          "fontSize": 16,
         }
       }
     >
@@ -104,12 +104,12 @@ exports[`Search render correctly without value 1`] = `
       {
         "alignItems": "center",
         "backgroundColor": "#EEEFF1",
-        "borderRadius": 12,
+        "borderRadius": 8,
         "flexDirection": "row",
-        "height": 54,
+        "height": 36,
         "justifyContent": "center",
-        "paddingLeft": 18,
-        "paddingRight": 12,
+        "paddingLeft": 12,
+        "paddingRight": 8,
       },
       undefined,
     ]
@@ -121,7 +121,7 @@ exports[`Search render correctly without value 1`] = `
       {
         "color": "#5E6678",
         "fontFamily": "Neotis",
-        "fontSize": 36,
+        "fontSize": 24,
       }
     }
   >
@@ -139,9 +139,9 @@ exports[`Search render correctly without value 1`] = `
         {
           "color": "#20242D",
           "flex": 1,
-          "fontSize": 24,
+          "fontSize": 16,
           "padding": 0,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 8,
         },
         undefined,
       ]

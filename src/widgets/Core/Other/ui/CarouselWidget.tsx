@@ -4,7 +4,7 @@ import {
   Carousel,
   createStyles,
   LoopCarousel,
-  rem,
+  px,
   Typography,
   useStyles,
   View,
@@ -13,7 +13,7 @@ import Header from '@shared/ui/Header';
 import {BlockView} from '@shared/ui/BlockView';
 
 const data: number[] = [1, 2, 3, 4, 5, 6];
-const ITEM_WIDTH = rem(80);
+const ITEM_WIDTH = px(80);
 
 export const CarouselWidget = () => {
   const [styles] = useStyles(stylesFn);

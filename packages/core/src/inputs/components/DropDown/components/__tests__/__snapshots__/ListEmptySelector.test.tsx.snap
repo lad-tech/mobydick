@@ -8,9 +8,9 @@ exports[`npm/mobydick-inputs/ListEmptySelector renders correctly with text and f
       {
         "color": "#F54D3D",
         "fontFamily": "Inter-Regular",
-        "fontSize": 27,
-        "lineHeight": 33,
-        "minHeight": 33,
+        "fontSize": 18,
+        "lineHeight": 22,
+        "minHeight": 22,
       },
       {
         "paddingHorizontal": 12,
@@ -30,9 +30,9 @@ exports[`npm/mobydick-inputs/ListEmptySelector renders correctly without text an
       {
         "color": "#9BA1B0",
         "fontFamily": "Inter-Regular",
-        "fontSize": 24,
-        "lineHeight": 30,
-        "minHeight": 30,
+        "fontSize": 16,
+        "lineHeight": 20,
+        "minHeight": 20,
       },
       {
         "paddingHorizontal": 12,

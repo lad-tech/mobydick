@@ -1,10 +1,10 @@
 import TouchableOpacity from '../../basic/components/TouchableOpacity/TouchableOpacity';
 import SimpleIcon, {SimpleIconName} from '../../styles/icons/font/SimpleIcon';
 import useStyles from '../../styles/hooks/useStyles';
-import rem from '../../styles/utils/rem';
 import useTheme from '../../styles/hooks/useTheme';
 import {ITouchableOpacityProps} from '../../basic';
 import {createStyles} from '../../styles';
+import px from '../../styles/utils/px';
 
 interface IChatPressableIcon extends ITouchableOpacityProps {
   name: SimpleIconName;
@@ -32,8 +32,8 @@ const ChatPressableIcon = (props: IChatPressableIcon) => {
 
 const stylesCreate = createStyles(({spaces}) => ({
   container: {
-    width: rem(38),
-    height: rem(38),
+    width: px(38),
+    height: px(38),
     borderRadius: spaces.Space8,
     marginLeft: spaces.Space6,
     justifyContent: 'center',

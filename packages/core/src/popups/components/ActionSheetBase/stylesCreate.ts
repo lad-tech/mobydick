@@ -1,7 +1,7 @@
 import {ViewStyle} from 'react-native';
 
-import rem from '../../../styles/utils/rem';
 import {createStyles} from '../../../styles';
+import px from '../../../styles/utils/px';
 
 import {IItemType} from './types';
 
@@ -29,7 +29,7 @@ const stylesCreate = createStyles(({spaces, colors}, itemType?: IItemType) => {
       case IItemType.cancelItem:
         return {
           borderRadius: spaces.Space12,
-          marginBottom: rem(30),
+          marginBottom: px(30),
           justifyContent: 'center',
         };
       default:
@@ -54,7 +54,7 @@ const stylesCreate = createStyles(({spaces, colors}, itemType?: IItemType) => {
       alignItems: 'center',
       paddingHorizontal: spaces.Space20,
       marginHorizontal: spaces.Space8,
-      minHeight: rem(50),
+      minHeight: px(50),
 
       ...getItemStyle(),
     },
@@ -67,7 +67,7 @@ const stylesCreate = createStyles(({spaces, colors}, itemType?: IItemType) => {
       alignItems: 'center',
     },
     textSelected: {
-      paddingVertical: rem(15),
+      paddingVertical: px(15),
     },
   };
 });

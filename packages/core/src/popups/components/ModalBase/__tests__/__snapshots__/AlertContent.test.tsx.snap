@@ -7,7 +7,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly AlertContent
       {
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
         "borderRadius": 100,
-        "padding": 18,
+        "padding": 12,
       },
       undefined,
     ]
@@ -19,7 +19,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly AlertContent
       {
         "color": "#2B78EE",
         "fontFamily": "Neotis",
-        "fontSize": 54,
+        "fontSize": 36,
       }
     }
   >
@@ -35,7 +35,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly AlertContent
       {
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
         "borderRadius": 100,
-        "padding": 18,
+        "padding": 12,
       },
       {
         "backgroundColor": "#fff",
@@ -49,7 +49,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly AlertContent
       {
         "color": "#fff",
         "fontFamily": "Neotis",
-        "fontSize": 54,
+        "fontSize": 36,
       }
     }
   >

@@ -8,9 +8,9 @@ exports[`@lad-tech/mobydick-core/Typography renders default correctly 1`] = `
       {
         "color": "#20242D",
         "fontFamily": "Inter-Regular",
-        "fontSize": 22.5,
-        "lineHeight": 28.5,
-        "minHeight": 28.5,
+        "fontSize": 15,
+        "lineHeight": 19,
+        "minHeight": 19,
       },
       undefined,
     ]

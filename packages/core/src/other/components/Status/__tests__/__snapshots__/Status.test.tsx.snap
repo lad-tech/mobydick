@@ -5,9 +5,9 @@ exports[`Status render not state 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "paddingHorizontal": 9,
-        "paddingVertical": 3,
+        "borderRadius": 4,
+        "paddingHorizontal": 6,
+        "paddingVertical": 2,
       },
       {
         "backgroundColor": "#EEEFF1",
@@ -23,9 +23,9 @@ exports[`Status render not state 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 18,
-          "lineHeight": 24,
-          "minHeight": 24,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -41,9 +41,9 @@ exports[`Status render type dot blue 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "height": 12,
-        "width": 12,
+        "borderRadius": 4,
+        "height": 8,
+        "width": 8,
       },
       {
         "backgroundColor": "#2B78EE",
@@ -59,9 +59,9 @@ exports[`Status render type dot gray 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "height": 12,
-        "width": 12,
+        "borderRadius": 4,
+        "height": 8,
+        "width": 8,
       },
       {
         "backgroundColor": "#B6BBC6",
@@ -77,9 +77,9 @@ exports[`Status render type dot green 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "height": 12,
-        "width": 12,
+        "borderRadius": 4,
+        "height": 8,
+        "width": 8,
       },
       {
         "backgroundColor": "#4ABA79",
@@ -97,9 +97,9 @@ exports[`Status render type dot orange 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "height": 12,
-        "width": 12,
+        "borderRadius": 4,
+        "height": 8,
+        "width": 8,
       },
       {
         "backgroundColor": "#FAB742",
@@ -115,9 +115,9 @@ exports[`Status render type dot red 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "height": 12,
-        "width": 12,
+        "borderRadius": 4,
+        "height": 8,
+        "width": 8,
       },
       {
         "backgroundColor": "#F54D3D",
@@ -133,9 +133,9 @@ exports[`Status render type tag blue 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "paddingHorizontal": 9,
-        "paddingVertical": 3,
+        "borderRadius": 4,
+        "paddingHorizontal": 6,
+        "paddingVertical": 2,
       },
       {
         "backgroundColor": "rgba(43, 120, 238, 0.15)",
@@ -153,9 +153,9 @@ exports[`Status render type tag blue 1`] = `
         {
           "color": "#2B78EE",
           "fontFamily": "Inter-Regular",
-          "fontSize": 18,
-          "lineHeight": 24,
-          "minHeight": 24,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -171,9 +171,9 @@ exports[`Status render type tag gray 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "paddingHorizontal": 9,
-        "paddingVertical": 3,
+        "borderRadius": 4,
+        "paddingHorizontal": 6,
+        "paddingVertical": 2,
       },
       {
         "backgroundColor": "#EEEFF1",
@@ -189,9 +189,9 @@ exports[`Status render type tag gray 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 18,
-          "lineHeight": 24,
-          "minHeight": 24,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -207,9 +207,9 @@ exports[`Status render type tag green 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "paddingHorizontal": 9,
-        "paddingVertical": 3,
+        "borderRadius": 4,
+        "paddingHorizontal": 6,
+        "paddingVertical": 2,
       },
       {
         "backgroundColor": "rgba(74, 186, 121, 0.15)",
@@ -225,9 +225,9 @@ exports[`Status render type tag green 1`] = `
         {
           "color": "#29A35C",
           "fontFamily": "Inter-Regular",
-          "fontSize": 18,
-          "lineHeight": 24,
-          "minHeight": 24,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -243,9 +243,9 @@ exports[`Status render type tag orange 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "paddingHorizontal": 9,
-        "paddingVertical": 3,
+        "borderRadius": 4,
+        "paddingHorizontal": 6,
+        "paddingVertical": 2,
       },
       {
         "backgroundColor": "rgba(250, 183, 66, 0.15)",
@@ -261,9 +261,9 @@ exports[`Status render type tag orange 1`] = `
         {
           "color": "#F97A1F",
           "fontFamily": "Inter-Regular",
-          "fontSize": 18,
-          "lineHeight": 24,
-          "minHeight": 24,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -279,9 +279,9 @@ exports[`Status render type tag red 1`] = `
   style={
     [
       {
-        "borderRadius": 6,
-        "paddingHorizontal": 9,
-        "paddingVertical": 3,
+        "borderRadius": 4,
+        "paddingHorizontal": 6,
+        "paddingVertical": 2,
       },
       {
         "backgroundColor": "rgba(245, 77, 61, 0.15)",
@@ -297,9 +297,9 @@ exports[`Status render type tag red 1`] = `
         {
           "color": "#F54D3D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 18,
-          "lineHeight": 24,
-          "minHeight": 24,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]

@@ -1,11 +1,12 @@
-import {createStyles, rem} from '../../../styles';
+import {createStyles} from '../../../styles';
+import px from '../../../styles/utils/px';
 
 const stylesCreate = createStyles(({spaces, colors}) => ({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    height: rem(36),
+    height: px(36),
     backgroundColor: colors.BgSecondary,
     borderRadius: spaces.Space8,
     paddingLeft: spaces.Space12,
@@ -22,7 +23,7 @@ const stylesCreate = createStyles(({spaces, colors}) => ({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: colors.BgTertiary,
-    borderRadius: rem(24),
+    borderRadius: px(24),
     padding: spaces.Space4,
   },
 }));

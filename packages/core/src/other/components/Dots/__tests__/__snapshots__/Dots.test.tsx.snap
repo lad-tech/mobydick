@@ -21,7 +21,7 @@ exports[`Dots render dots activeDot left 1`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -42,10 +42,10 @@ exports[`Dots render dots activeDot left 1`] = `
         style={
           [
             {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -57,10 +57,10 @@ exports[`Dots render dots activeDot left 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -72,10 +72,10 @@ exports[`Dots render dots activeDot left 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -87,10 +87,10 @@ exports[`Dots render dots activeDot left 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -102,24 +102,9 @@ exports[`Dots render dots activeDot left 1`] = `
         style={
           [
             {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -132,10 +117,10 @@ exports[`Dots render dots activeDot left 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -147,10 +132,10 @@ exports[`Dots render dots activeDot left 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -162,10 +147,10 @@ exports[`Dots render dots activeDot left 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -177,10 +162,25 @@ exports[`Dots render dots activeDot left 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -200,7 +200,7 @@ exports[`Dots render dots activeDot left 2`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -221,10 +221,10 @@ exports[`Dots render dots activeDot left 2`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -236,10 +236,10 @@ exports[`Dots render dots activeDot left 2`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -251,25 +251,10 @@ exports[`Dots render dots activeDot left 2`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -283,7 +268,7 @@ exports[`Dots render dots activeDot left 2`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -296,10 +281,10 @@ exports[`Dots render dots activeDot left 2`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -311,10 +296,10 @@ exports[`Dots render dots activeDot left 2`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -326,10 +311,10 @@ exports[`Dots render dots activeDot left 2`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -341,10 +326,10 @@ exports[`Dots render dots activeDot left 2`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -356,10 +341,25 @@ exports[`Dots render dots activeDot left 2`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -379,7 +379,7 @@ exports[`Dots render dots activeDot left 3`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -400,10 +400,10 @@ exports[`Dots render dots activeDot left 3`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -415,10 +415,10 @@ exports[`Dots render dots activeDot left 3`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -430,25 +430,10 @@ exports[`Dots render dots activeDot left 3`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -462,7 +447,7 @@ exports[`Dots render dots activeDot left 3`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -475,10 +460,10 @@ exports[`Dots render dots activeDot left 3`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -490,10 +475,10 @@ exports[`Dots render dots activeDot left 3`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -505,10 +490,10 @@ exports[`Dots render dots activeDot left 3`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -520,10 +505,10 @@ exports[`Dots render dots activeDot left 3`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -535,10 +520,25 @@ exports[`Dots render dots activeDot left 3`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -558,7 +558,7 @@ exports[`Dots render dots activeDot left 4`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -579,10 +579,25 @@ exports[`Dots render dots activeDot left 4`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -596,7 +611,7 @@ exports[`Dots render dots activeDot left 4`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -609,10 +624,10 @@ exports[`Dots render dots activeDot left 4`] = `
         style={
           [
             {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -624,10 +639,10 @@ exports[`Dots render dots activeDot left 4`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -639,25 +654,10 @@ exports[`Dots render dots activeDot left 4`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -669,24 +669,9 @@ exports[`Dots render dots activeDot left 4`] = `
         style={
           [
             {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -699,10 +684,10 @@ exports[`Dots render dots activeDot left 4`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -714,10 +699,25 @@ exports[`Dots render dots activeDot left 4`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -737,7 +737,7 @@ exports[`Dots render dots activeDot right 1`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -758,10 +758,85 @@ exports[`Dots render dots activeDot right 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -775,7 +850,7 @@ exports[`Dots render dots activeDot right 1`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -788,10 +863,10 @@ exports[`Dots render dots activeDot right 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -803,10 +878,10 @@ exports[`Dots render dots activeDot right 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -818,85 +893,10 @@ exports[`Dots render dots activeDot right 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -916,7 +916,7 @@ exports[`Dots render dots activeDot right 2`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -937,9 +937,24 @@ exports[`Dots render dots activeDot right 2`] = `
         style={
           [
             {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -952,25 +967,10 @@ exports[`Dots render dots activeDot right 2`] = `
         style={
           [
             {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -982,10 +982,10 @@ exports[`Dots render dots activeDot right 2`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -997,25 +997,10 @@ exports[`Dots render dots activeDot right 2`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1029,7 +1014,7 @@ exports[`Dots render dots activeDot right 2`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -1042,10 +1027,10 @@ exports[`Dots render dots activeDot right 2`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1057,10 +1042,10 @@ exports[`Dots render dots activeDot right 2`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1072,10 +1057,25 @@ exports[`Dots render dots activeDot right 2`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1095,7 +1095,7 @@ exports[`Dots render dots activeDot right 3`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -1116,10 +1116,10 @@ exports[`Dots render dots activeDot right 3`] = `
         style={
           [
             {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1131,10 +1131,10 @@ exports[`Dots render dots activeDot right 3`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -1146,10 +1146,10 @@ exports[`Dots render dots activeDot right 3`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1161,25 +1161,10 @@ exports[`Dots render dots activeDot right 3`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1193,7 +1178,7 @@ exports[`Dots render dots activeDot right 3`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -1206,10 +1191,10 @@ exports[`Dots render dots activeDot right 3`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1221,10 +1206,10 @@ exports[`Dots render dots activeDot right 3`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1236,10 +1221,10 @@ exports[`Dots render dots activeDot right 3`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1251,10 +1236,25 @@ exports[`Dots render dots activeDot right 3`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1274,7 +1274,7 @@ exports[`Dots render dots activeDot right 4`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -1295,10 +1295,10 @@ exports[`Dots render dots activeDot right 4`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -1310,10 +1310,10 @@ exports[`Dots render dots activeDot right 4`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1325,25 +1325,10 @@ exports[`Dots render dots activeDot right 4`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1357,7 +1342,7 @@ exports[`Dots render dots activeDot right 4`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -1370,10 +1355,10 @@ exports[`Dots render dots activeDot right 4`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1385,10 +1370,10 @@ exports[`Dots render dots activeDot right 4`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1400,10 +1385,10 @@ exports[`Dots render dots activeDot right 4`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1415,10 +1400,10 @@ exports[`Dots render dots activeDot right 4`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1430,10 +1415,25 @@ exports[`Dots render dots activeDot right 4`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1453,7 +1453,7 @@ exports[`Dots render dots activeDot=2 1`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -1474,10 +1474,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 5,
+              "width": 6,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1489,10 +1489,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1504,10 +1504,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -1519,25 +1519,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1551,7 +1536,7 @@ exports[`Dots render dots activeDot=2 1`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -1564,10 +1549,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1579,10 +1564,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1594,10 +1579,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1609,10 +1594,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1624,10 +1609,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1639,10 +1624,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1654,10 +1639,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1669,10 +1654,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1684,10 +1669,10 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1699,10 +1684,25 @@ exports[`Dots render dots activeDot=2 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1735,7 +1735,7 @@ exports[`Dots render dots activeDot=2 fixedSize 1`] = `
         {
           "borderRadius": 2,
           "height": 4,
-          "marginHorizontal": 7.5,
+          "marginHorizontal": 5,
           "width": 4,
         },
         {
@@ -1750,7 +1750,7 @@ exports[`Dots render dots activeDot=2 fixedSize 1`] = `
         {
           "borderRadius": 2,
           "height": 4,
-          "marginHorizontal": 7.5,
+          "marginHorizontal": 5,
           "width": 4,
         },
         {
@@ -1765,7 +1765,7 @@ exports[`Dots render dots activeDot=2 fixedSize 1`] = `
         {
           "borderRadius": 2,
           "height": 4,
-          "marginHorizontal": 7.5,
+          "marginHorizontal": 5,
           "width": 4,
         },
         {
@@ -1780,7 +1780,7 @@ exports[`Dots render dots activeDot=2 fixedSize 1`] = `
         {
           "borderRadius": 2,
           "height": 4,
-          "marginHorizontal": 7.5,
+          "marginHorizontal": 5,
           "width": 4,
         },
         {
@@ -1795,7 +1795,7 @@ exports[`Dots render dots activeDot=2 fixedSize 1`] = `
         {
           "borderRadius": 2,
           "height": 4,
-          "marginHorizontal": 7.5,
+          "marginHorizontal": 5,
           "width": 4,
         },
         {
@@ -1814,7 +1814,7 @@ exports[`Dots render dots activeDot=10 1`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -1835,10 +1835,85 @@ exports[`Dots render dots activeDot=10 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1852,7 +1927,7 @@ exports[`Dots render dots activeDot=10 1`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -1865,10 +1940,10 @@ exports[`Dots render dots activeDot=10 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1880,10 +1955,10 @@ exports[`Dots render dots activeDot=10 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -1895,85 +1970,10 @@ exports[`Dots render dots activeDot=10 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -1993,7 +1993,7 @@ exports[`Dots render dots activeDot=10 animateAutoScroll 1`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -2014,10 +2014,85 @@ exports[`Dots render dots activeDot=10 animateAutoScroll 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2031,7 +2106,7 @@ exports[`Dots render dots activeDot=10 animateAutoScroll 1`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -2044,10 +2119,10 @@ exports[`Dots render dots activeDot=10 animateAutoScroll 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2059,10 +2134,10 @@ exports[`Dots render dots activeDot=10 animateAutoScroll 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2074,85 +2149,10 @@ exports[`Dots render dots activeDot=10 animateAutoScroll 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -2181,10 +2181,10 @@ exports[`Dots render dots length < 7 1`] = `
     style={
       [
         {
-          "borderRadius": 6,
-          "height": 12,
-          "marginHorizontal": 7.5,
-          "width": 12,
+          "borderRadius": 4,
+          "height": 8,
+          "marginHorizontal": 5,
+          "width": 8,
         },
         {
           "backgroundColor": "#5E6678",
@@ -2196,10 +2196,10 @@ exports[`Dots render dots length < 7 1`] = `
     style={
       [
         {
-          "borderRadius": 6,
-          "height": 12,
-          "marginHorizontal": 7.5,
-          "width": 12,
+          "borderRadius": 4,
+          "height": 8,
+          "marginHorizontal": 5,
+          "width": 8,
         },
         {
           "backgroundColor": "#B6BBC6",
@@ -2211,25 +2211,10 @@ exports[`Dots render dots length < 7 1`] = `
     style={
       [
         {
-          "borderRadius": 6,
-          "height": 12,
-          "marginHorizontal": 7.5,
-          "width": 12,
-        },
-        {
-          "backgroundColor": "#B6BBC6",
-        },
-      ]
-    }
-  />
-  <View
-    style={
-      [
-        {
-          "borderRadius": 4.5,
-          "height": 9,
-          "marginHorizontal": 7.5,
-          "width": 9,
+          "borderRadius": 4,
+          "height": 8,
+          "marginHorizontal": 5,
+          "width": 8,
         },
         {
           "backgroundColor": "#B6BBC6",
@@ -2243,7 +2228,7 @@ exports[`Dots render dots length < 7 1`] = `
         {
           "borderRadius": 3,
           "height": 6,
-          "marginHorizontal": 7.5,
+          "marginHorizontal": 5,
           "width": 6,
         },
         {
@@ -2256,10 +2241,25 @@ exports[`Dots render dots length < 7 1`] = `
     style={
       [
         {
-          "borderRadius": 3,
-          "height": 6,
-          "marginHorizontal": 7.5,
-          "width": 6,
+          "borderRadius": 2,
+          "height": 4,
+          "marginHorizontal": 5,
+          "width": 4,
+        },
+        {
+          "backgroundColor": "#B6BBC6",
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      [
+        {
+          "borderRadius": 2,
+          "height": 4,
+          "marginHorizontal": 5,
+          "width": 4,
         },
         {
           "backgroundColor": "#B6BBC6",
@@ -2277,7 +2277,7 @@ exports[`Dots render dots length > 7 1`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -2298,10 +2298,10 @@ exports[`Dots render dots length > 7 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -2313,10 +2313,10 @@ exports[`Dots render dots length > 7 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2328,25 +2328,10 @@ exports[`Dots render dots length > 7 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2360,7 +2345,7 @@ exports[`Dots render dots length > 7 1`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -2373,10 +2358,10 @@ exports[`Dots render dots length > 7 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2388,10 +2373,10 @@ exports[`Dots render dots length > 7 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2403,10 +2388,10 @@ exports[`Dots render dots length > 7 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2418,10 +2403,10 @@ exports[`Dots render dots length > 7 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2433,10 +2418,25 @@ exports[`Dots render dots length > 7 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2456,7 +2456,7 @@ exports[`Dots render dots onLayout 1`] = `
   onLayout={[Function]}
   style={
     {
-      "width": 150,
+      "width": 100,
     }
   }
 >
@@ -2477,10 +2477,10 @@ exports[`Dots render dots onLayout 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#5E6678",
@@ -2492,10 +2492,10 @@ exports[`Dots render dots onLayout 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2507,25 +2507,10 @@ exports[`Dots render dots onLayout 1`] = `
         style={
           [
             {
-              "borderRadius": 6,
-              "height": 12,
-              "marginHorizontal": 7.5,
-              "width": 12,
-            },
-            {
-              "backgroundColor": "#B6BBC6",
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          [
-            {
-              "borderRadius": 4.5,
-              "height": 9,
-              "marginHorizontal": 7.5,
-              "width": 9,
+              "borderRadius": 4,
+              "height": 8,
+              "marginHorizontal": 5,
+              "width": 8,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2539,7 +2524,7 @@ exports[`Dots render dots onLayout 1`] = `
             {
               "borderRadius": 3,
               "height": 6,
-              "marginHorizontal": 7.5,
+              "marginHorizontal": 5,
               "width": 6,
             },
             {
@@ -2552,10 +2537,10 @@ exports[`Dots render dots onLayout 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2567,10 +2552,10 @@ exports[`Dots render dots onLayout 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2582,10 +2567,10 @@ exports[`Dots render dots onLayout 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2597,10 +2582,10 @@ exports[`Dots render dots onLayout 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",
@@ -2612,10 +2597,25 @@ exports[`Dots render dots onLayout 1`] = `
         style={
           [
             {
-              "borderRadius": 3,
-              "height": 6,
-              "marginHorizontal": 7.5,
-              "width": 6,
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
+            },
+            {
+              "backgroundColor": "#B6BBC6",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "borderRadius": 2,
+              "height": 4,
+              "marginHorizontal": 5,
+              "width": 4,
             },
             {
               "backgroundColor": "#B6BBC6",

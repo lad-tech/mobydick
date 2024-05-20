@@ -5,7 +5,7 @@ exports[`@lad-tech/mobydick-core/ImageView should renders correctly 1`] = `
   style={
     [
       {
-        "marginBottom": 6,
+        "marginBottom": 4,
       },
       undefined,
     ]
@@ -20,7 +20,7 @@ exports[`@lad-tech/mobydick-core/ImageView should renders correctly with styles 
   style={
     [
       {
-        "marginBottom": 6,
+        "marginBottom": 4,
       },
       {
         "flex": 1,

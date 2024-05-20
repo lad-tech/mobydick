@@ -53,9 +53,9 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom flatList styles 1`] = 
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "paddingVertical": 8,
           "position": "absolute",
         },
         {
@@ -65,10 +65,10 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom flatList styles 1`] = 
           "width": 2,
         },
         {
-          "top": 79,
+          "top": 77,
         },
         {
-          "maxHeight": 366,
+          "maxHeight": 244,
         },
       ]
     }
@@ -129,8 +129,8 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom flatList styles 1`] = 
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -146,9 +146,9 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom flatList styles 1`] = 
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -217,20 +217,20 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with array in selected
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "paddingVertical": 8,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 300,
+          "width": 200,
         },
         {
-          "top": 79,
+          "top": 77,
         },
         {
-          "maxHeight": 366,
+          "maxHeight": 244,
         },
       ]
     }
@@ -295,8 +295,8 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with array in selected
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -312,9 +312,9 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with array in selected
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -352,8 +352,8 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with array in selected
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 null,
@@ -367,9 +367,9 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with array in selected
                   {
                     "color": "#444B5A",
                     "fontFamily": "Inter-Regular",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -438,20 +438,20 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with empty array in se
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "paddingVertical": 8,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 300,
+          "width": 200,
         },
         {
-          "top": 79,
+          "top": 77,
         },
         {
-          "maxHeight": 366,
+          "maxHeight": 244,
         },
       ]
     }
@@ -516,8 +516,8 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with empty array in se
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 null,
@@ -531,9 +531,9 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with empty array in se
                   {
                     "color": "#444B5A",
                     "fontFamily": "Inter-Regular",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -571,8 +571,8 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with empty array in se
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 null,
@@ -586,9 +586,9 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with empty array in se
                   {
                     "color": "#444B5A",
                     "fontFamily": "Inter-Regular",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -657,20 +657,20 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem TouchableHig
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "paddingVertical": 8,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 300,
+          "width": 200,
         },
         {
-          "top": 87,
+          "top": 85,
         },
         {
-          "maxHeight": 366,
+          "maxHeight": 244,
         },
       ]
     }
@@ -731,8 +731,8 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem TouchableHig
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 {
                   "height": 10,
@@ -750,9 +750,9 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem TouchableHig
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -821,20 +821,20 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography  
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "paddingVertical": 8,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 300,
+          "width": 200,
         },
         {
-          "top": 87,
+          "top": 85,
         },
         {
-          "maxHeight": 366,
+          "maxHeight": 244,
         },
       ]
     }
@@ -895,8 +895,8 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography  
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -912,9 +912,9 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography  
                   {
                     "color": "#F54D3D",
                     "fontFamily": "Inter-Bold",
-                    "fontSize": 27,
-                    "lineHeight": 33,
-                    "minHeight": 33,
+                    "fontSize": 18,
+                    "lineHeight": 22,
+                    "minHeight": 22,
                   },
                   undefined,
                 ]
@@ -983,20 +983,20 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography w
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "paddingVertical": 8,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 300,
+          "width": 200,
         },
         {
-          "top": 87,
+          "top": 85,
         },
         {
-          "maxHeight": 366,
+          "maxHeight": 244,
         },
       ]
     }
@@ -1057,8 +1057,8 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography w
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -1074,9 +1074,9 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography w
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   {
                     "backgroundColor": "red",
@@ -1147,20 +1147,20 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly 1`] = `
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "paddingVertical": 8,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 300,
+          "width": 200,
         },
         {
-          "top": 87,
+          "top": 85,
         },
         {
-          "maxHeight": 366,
+          "maxHeight": 244,
         },
       ]
     }
@@ -1221,8 +1221,8 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly 1`] = `
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 null,
@@ -1236,9 +1236,9 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly 1`] = `
                   {
                     "color": "#444B5A",
                     "fontFamily": "Inter-Regular",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -1307,20 +1307,20 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
         {
           "backgroundColor": "#EEEFF1",
           "borderColor": "rgba(32, 36, 45, 0.15)",
-          "borderRadius": 18,
-          "borderWidth": 1.5,
-          "paddingVertical": 12,
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "paddingVertical": 8,
           "position": "absolute",
         },
         undefined,
         {
-          "width": 300,
+          "width": 200,
         },
         {
-          "top": 87,
+          "top": 85,
         },
         {
-          "maxHeight": 366,
+          "maxHeight": 244,
         },
       ]
     }
@@ -1405,8 +1405,8 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -1422,9 +1422,9 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -1462,8 +1462,8 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -1479,9 +1479,9 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -1519,8 +1519,8 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -1536,9 +1536,9 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -1576,8 +1576,8 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -1593,9 +1593,9 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -1633,8 +1633,8 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -1650,9 +1650,9 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -1690,8 +1690,8 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -1707,9 +1707,9 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]
@@ -1747,8 +1747,8 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
               [
                 {
                   "justifyContent": "center",
-                  "paddingHorizontal": 18,
-                  "paddingVertical": 12,
+                  "paddingHorizontal": 12,
+                  "paddingVertical": 8,
                 },
                 undefined,
                 {
@@ -1764,9 +1764,9 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
                   {
                     "color": "#20242D",
                     "fontFamily": "Inter-Medium",
-                    "fontSize": 24,
-                    "lineHeight": 30,
-                    "minHeight": 30,
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                    "minHeight": 20,
                   },
                   undefined,
                 ]

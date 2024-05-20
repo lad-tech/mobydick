@@ -1,12 +1,12 @@
-import rem from '../../../../styles/utils/rem';
 import {createStyles} from '../../../../styles';
+import px from '../../../../styles/utils/px';
 
 import {ICounterSize, ICounterTypes} from './types';
 
 const stylesCreate = createStyles(
   ({spaces, colors}, size: ICounterSize, type?: ICounterTypes) => {
     const isMedium = size === ICounterSize.medium;
-    const defaultSize = isMedium ? spaces.Space24 : rem(18);
+    const defaultSize = isMedium ? spaces.Space24 : px(18);
 
     const getBackgroundColor = () => {
       switch (type) {

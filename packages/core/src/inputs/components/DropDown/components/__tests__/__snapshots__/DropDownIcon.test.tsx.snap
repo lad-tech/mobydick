@@ -10,7 +10,7 @@ exports[`@lad-tech/mobydick-core/DropDownIcon renders correctly custom close 1`]
       {
         "color": "#5E6678",
         "fontFamily": "Neotis",
-        "fontSize": 36,
+        "fontSize": 24,
       }
     }
   >
@@ -37,7 +37,7 @@ exports[`@lad-tech/mobydick-core/DropDownIcon renders correctly custom open 1`] 
       {
         "color": "#5E6678",
         "fontFamily": "Neotis",
-        "fontSize": 36,
+        "fontSize": 24,
       }
     }
   >
@@ -53,7 +53,7 @@ exports[`@lad-tech/mobydick-core/DropDownIcon renders correctly standart close 1
     {
       "color": "#9BA1B0",
       "fontFamily": "Neotis",
-      "fontSize": 36,
+      "fontSize": 24,
     }
   }
 >
@@ -68,7 +68,7 @@ exports[`@lad-tech/mobydick-core/DropDownIcon renders correctly standart open 1`
     {
       "color": "#9BA1B0",
       "fontFamily": "Neotis",
-      "fontSize": 36,
+      "fontSize": 24,
       "transform": [
         {
           "rotateX": "180deg",
