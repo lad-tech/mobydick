@@ -2,11 +2,7 @@
   "name": "@lad-tech/mobydick-chart",
   "version": "7.32.0",
   "description": "React Native components library focused on usability, accessibility and developer experience",
-  "main": "lib/index",
-  "module": "lib/index",
-  "types": "lib/index.d.ts",
-  "react-native": "src/index",
-  "source": "src/index",
+  "main": "index.ts",
   "keywords": [
     "mobydick",
     "lad-tech",
@@ -17,7 +13,6 @@
     "reanimated"
   ],
   "files": [
-    "lib",
     "src",
     "index.ts"
   ],
