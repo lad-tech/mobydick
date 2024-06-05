@@ -1,3 +1,10 @@
+# [7.33.0](https://github.com/lad-tech/mobydick/compare/v7.32.0...v7.33.0) (2024-06-05)
+
+
+### Features
+
+* include inside npm only source files ([c706639](https://github.com/lad-tech/mobydick/commit/c706639ec5df64f804d8ea7b332918b18d56d0e1))
+
 # [7.32.0](https://github.com/lad-tech/mobydick/compare/v7.31.0...v7.32.0) (2024-05-20)
 
 
