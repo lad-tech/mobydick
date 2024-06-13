@@ -1,4 +1,4 @@
-import {useStyles, View} from '@shared/ui';
+import {ScrollView, useStyles} from '@shared/ui';
 import getScreenStyles from '@shared/styles/getScreenStyles';
 import NavigationButton from '@shared/ui/NavigationButton';
 import {SCREENS} from '@shared/lib/constants/screens';
@@ -8,7 +8,7 @@ const CoreScreen = () => {
   const [styles] = useStyles(getScreenStyles);
 
   return (
-    <View style={styles.container}>
+    <ScrollView contentContainerStyle={[styles.container]}>
       <NavigationButton text={SCREENS.Chat} onPress={move(SCREENS.Chat)} />
       <NavigationButton
         text={SCREENS.Controls}
@@ -31,7 +31,11 @@ const CoreScreen = () => {
         text={SCREENS.Navbars}
         onPress={move(SCREENS.Navbars)}
       />
-    </View>
+      <NavigationButton
+        text={SCREENS.Portals}
+        onPress={move(SCREENS.Portals)}
+      />
+    </ScrollView>
   );
 };
 

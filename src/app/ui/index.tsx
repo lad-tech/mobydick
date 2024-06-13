@@ -3,6 +3,7 @@ import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 import {PopupsProvider, ThemeProvider} from '@shared/ui';
 import MainStack from '@pages/MainStack/ui';
+import {PortalProvider} from '@lad-tech/mobydick-core';
 
 export default () => {
   return (
@@ -10,7 +11,9 @@ export default () => {
       <GestureHandlerRootView style={{flex: 1}}>
         <ThemeProvider>
           <PopupsProvider>
-            <MainStack />
+            <PortalProvider>
+              <MainStack />
+            </PortalProvider>
           </PopupsProvider>
         </ThemeProvider>
       </GestureHandlerRootView>
