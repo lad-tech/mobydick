@@ -8,7 +8,7 @@ const CoreScreen = () => {
   const [styles] = useStyles(getScreenStyles);
 
   return (
-    <ScrollView contentContainerStyle={[styles.container]}>
+    <ScrollView contentContainerStyle={[styles.container, {flex: undefined}]}>
       <NavigationButton text={SCREENS.Chat} onPress={move(SCREENS.Chat)} />
       <NavigationButton
         text={SCREENS.Controls}
