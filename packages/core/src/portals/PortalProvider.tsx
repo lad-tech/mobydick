@@ -1,8 +1,15 @@
-import {FC, ReactElement, useCallback, useState} from 'react';
+import {
+  FC,
+  ReactElement,
+  useCallback,
+  useImperativeHandle,
+  useState,
+} from 'react';
 
 import PortalContext from './context';
 import PortalHost from './components/PortalHost';
 import {IPortalHosts} from './types';
+import {portalRef} from './MobyDickPortal';
 
 interface IPortalProviderProps {
   rootName?: string;
@@ -71,6 +78,13 @@ export const PortalProvider: FC<IPortalProviderProps> = ({
       };
     });
   }, []);
+
+  useImperativeHandle(portalRef, () => ({
+    hosts,
+    mountPortal,
+    updatePortal,
+    unmountPortal,
+  }));
 
   return (
     <PortalContext.Provider

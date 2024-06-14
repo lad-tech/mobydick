@@ -10,11 +10,11 @@ export default () => {
     <SafeAreaProvider>
       <GestureHandlerRootView style={{flex: 1}}>
         <ThemeProvider>
-          <PopupsProvider>
-            <PortalProvider>
+          <PortalProvider>
+            <PopupsProvider>
               <MainStack />
-            </PortalProvider>
-          </PopupsProvider>
+            </PopupsProvider>
+          </PortalProvider>
         </ThemeProvider>
       </GestureHandlerRootView>
     </SafeAreaProvider>

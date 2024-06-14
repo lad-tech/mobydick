@@ -1,27 +1,44 @@
-import {View} from 'react-native';
 import {useState} from 'react';
 
-import {Button, ModalLoading, Portal} from '@lad-tech/mobydick-core';
+import {
+  Button,
+  MobyDickPortal,
+  ModalAsk,
+  ModalLoading,
+  Portal,
+  View,
+} from '@shared/ui';
 
 export const PortalsScreen = () => {
   const [isShow, setIsShow] = useState(false);
 
   const [text, setText] = useState('BIBA');
 
-  const toogle = () => {
-    setIsShow(show => !show);
+  const toggle = () => {
+    setIsShow(!isShow);
     setTimeout(() => {
       setText('BOBA');
     }, 2000);
+    MobyDickPortal.mountPortal(
+      'portalRoot',
+      `nested`,
+      <ModalAsk
+        onPressRight={toggle}
+        onClose={() => MobyDickPortal.unmountPortal('portalRoot', `nested`)}
+        id={'BIBA'}
+        title={text}
+        descriptionText={'Проверяем обновление'}
+      />,
+    );
   };
   return (
     <View>
-      <Button onPress={toogle} />
+      <Button onPress={toggle} />
       {isShow && (
         <Portal>
           <ModalLoading
-            onClose={toogle}
-            id={'BIBA'}
+            onClose={toggle}
+            id={'BIBA1'}
             title={text}
             descriptionText={'Проверяем обновление'}
           />
