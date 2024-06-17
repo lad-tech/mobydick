@@ -1,6 +1,6 @@
 import {FC} from 'react';
 
-import {Typography} from '../../../../typography';
+import {TypographyLegacy} from '../../../../typography';
 import {IAvatarSize} from '../types';
 
 interface IProps {
@@ -28,7 +28,7 @@ const TextAvatar: FC<IProps> = ({firstName, lastName, size}) => {
   const secondLetter = lastName?.slice(0, 1);
   const initials = secondLetter ? firstLetter + secondLetter : firstLetter;
 
-  return <Typography font={getFont(size)}>{initials}</Typography>;
+  return <TypographyLegacy font={getFont(size)}>{initials}</TypographyLegacy>;
 };
 
 export default TextAvatar;

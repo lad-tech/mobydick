@@ -10,7 +10,7 @@ import {getDropDownDimensions} from '../utils/getDropDownDimensions';
 import {IDropDownMultiSelectProps, IDropDownProps, IListItem} from '../types';
 import {IPopupProps} from '../../../../popups/components/PopupBase/types';
 import TouchableHighlight from '../../../../basic/components/TouchableHighlight/TouchableHighlight';
-import {Typography} from '../../../../typography/components/Typography/Typography';
+import {TypographyLegacy} from '../../../../typography/components/TypographyLegacy/TypographyLegacy';
 import useStyles from '../../../../styles/hooks/useStyles';
 import PopupBase from '../../../../popups/components/PopupBase/PopupBase';
 import View from '../../../../basic/components/View/View';
@@ -111,11 +111,11 @@ function renderItem<T extends IListItem>(props: IRenderItemProps<T>) {
         underlayColor={
           selectedItemColor ? selectedItemColor : theme.colors.BgAccentSoft
         }>
-        <Typography
+        <TypographyLegacy
           style={isSelected() ? flatListTextStylePressed : flatListTextStyle}
           font={getFont()}>
           {item.label}
-        </Typography>
+        </TypographyLegacy>
       </TouchableHighlight>
     );
   };

@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 import useStyles from '../../../../styles/hooks/useStyles';
 import {View} from '../../../../basic';
-import {Typography} from '../../../../typography';
+import {TypographyLegacy} from '../../../../typography';
 import {TouchableOpacity} from '../../../../basic/components/TouchableOpacity';
 import SimpleIcon from '../../../../styles/icons/font/SimpleIcon';
 import createStyles from '../../../../styles/utils/createStyles';
@@ -22,9 +22,9 @@ const Chip: FC<IChipProps> = ({
 
   return (
     <View style={styles.container}>
-      <Typography font="Regular-Accent-XXS" style={styles.text}>
+      <TypographyLegacy font="Regular-Accent-XXS" style={styles.text}>
         {getText(text, maxTextLength)}
-      </Typography>
+      </TypographyLegacy>
       <TouchableOpacity accessibilityLabel={text} onPress={onPress}>
         <SimpleIcon
           size={theme.spaces.Space16}

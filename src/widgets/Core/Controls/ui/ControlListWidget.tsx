@@ -5,7 +5,7 @@ import {
   ControlsList,
   createStyles,
   Radio,
-  Typography,
+  TypographyLegacy,
   useStyles,
   View,
 } from '@shared/ui';
@@ -18,34 +18,36 @@ export const ControlListWidget = () => {
 
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>ControlsList</Typography>
+      <TypographyLegacy font={'Regular-Primary-H5'}>
+        ControlsList
+      </TypographyLegacy>
       <View>
-        <Typography font={'Regular-Primary-L'}>checkbox</Typography>
+        <TypographyLegacy font={'Regular-Primary-L'}>checkbox</TypographyLegacy>
         <ControlsList
           onChange={setCheckbox}
           values={checkbox}
           listStyles={styles.container}>
           <CheckBox value={'option one'}>
-            <Typography>option one</Typography>
+            <TypographyLegacy>option one</TypographyLegacy>
           </CheckBox>
           <CheckBox value={'option two'}>
-            <Typography>option two</Typography>
+            <TypographyLegacy>option two</TypographyLegacy>
           </CheckBox>
         </ControlsList>
       </View>
 
       <View>
-        <Typography font={'Regular-Primary-L'}>radio</Typography>
+        <TypographyLegacy font={'Regular-Primary-L'}>radio</TypographyLegacy>
         <ControlsList
           onChange={setRadio}
           values={radio}
           single={true}
           listStyles={styles.container}>
           <Radio value={'option one'}>
-            <Typography>option one</Typography>
+            <TypographyLegacy>option one</TypographyLegacy>
           </Radio>
           <Radio value={'option two'}>
-            <Typography>option two</Typography>
+            <TypographyLegacy>option two</TypographyLegacy>
           </Radio>
         </ControlsList>
       </View>

@@ -1,7 +1,7 @@
 import {FC} from 'react';
 
 import View from '../../../basic/components/View/View';
-import {Typography} from '../../../typography';
+import {TypographyLegacy} from '../../../typography';
 import {createStyles} from '../../../styles';
 import useStyles from '../../../styles/hooks/useStyles';
 import px from '../../../styles/utils/px';
@@ -19,7 +19,7 @@ const CrossedText: FC<ICrossedTextProps> = ({
 
   return (
     <View style={style}>
-      <Typography {...props}>{children}</Typography>
+      <TypographyLegacy {...props}>{children}</TypographyLegacy>
       <View style={styles.crossed}>
         <View
           style={[

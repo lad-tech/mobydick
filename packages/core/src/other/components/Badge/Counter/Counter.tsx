@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 import View from '../../../../basic/components/View/View';
 import useStyles from '../../../../styles/hooks/useStyles';
-import {Typography} from '../../../../typography';
+import {TypographyLegacy} from '../../../../typography';
 
 import stylesCreate from './stylesCreate';
 import {ICounterProps, ICounterSize, ICounterTypes} from './types';
@@ -29,9 +29,9 @@ const Counter: FC<ICounterProps> = ({
 
   return (
     <View style={[styles.counter, style]}>
-      <Typography style={styles.text} font={font}>
+      <TypographyLegacy style={styles.text} font={font}>
         {text}
-      </Typography>
+      </TypographyLegacy>
     </View>
   );
 };

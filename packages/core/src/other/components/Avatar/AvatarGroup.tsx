@@ -1,7 +1,7 @@
 import {FC} from 'react';
 
 import View from '../../../basic/components/View/View';
-import {Typography} from '../../../typography';
+import {TypographyLegacy} from '../../../typography';
 import useStyles from '../../../styles/hooks/useStyles';
 import {createStyles} from '../../../styles';
 import px from '../../../styles/utils/px';
@@ -55,9 +55,11 @@ const AvatarGroup: FC<IAvatarGroupProps> = props => {
         )
       ) : (
         <View style={styles.countView}>
-          <Typography font={'Medium-Secondary-XXS'} style={styles.countText}>
+          <TypographyLegacy
+            font={'Medium-Secondary-XXS'}
+            style={styles.countText}>
             {'+' + text.toString()}
-          </Typography>
+          </TypographyLegacy>
         </View>
       )}
     </View>

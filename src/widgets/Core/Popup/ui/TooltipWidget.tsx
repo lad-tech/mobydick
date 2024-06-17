@@ -6,7 +6,7 @@ import {
   IPlacement,
   IPosition,
   TooltipBase,
-  Typography,
+  TypographyLegacy,
   usePopups,
   useStyles,
   View,
@@ -19,9 +19,9 @@ export const TooltipWidget = () => {
 
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>Tooltip</Typography>
+      <TypographyLegacy font={'Regular-Primary-H5'}>Tooltip</TypographyLegacy>
       <View ref={ref} style={styles.ref}>
-        <Typography>Ref component</Typography>
+        <TypographyLegacy>Ref component</TypographyLegacy>
       </View>
       <Button
         text={'Tooltip'}

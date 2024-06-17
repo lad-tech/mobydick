@@ -4,7 +4,7 @@ import {
   createStyles,
   Dots,
   TouchableOpacity,
-  Typography,
+  TypographyLegacy,
   useStyles,
   View,
 } from '@shared/ui';
@@ -32,15 +32,15 @@ export const DotsWidget = () => {
       <Header title={'Dots'} />
       <View style={styles.container}>
         <TouchableOpacity onPress={onPressDecrease}>
-          <Typography font={'Regular-Secondary-XS'}>
+          <TypographyLegacy font={'Regular-Secondary-XS'}>
             Press me to decrease dot
-          </Typography>
+          </TypographyLegacy>
         </TouchableOpacity>
         <Dots length={length} activeDot={activeDot} />
         <TouchableOpacity onPress={onPressIncrease}>
-          <Typography font={'Regular-Secondary-XS'}>
+          <TypographyLegacy font={'Regular-Secondary-XS'}>
             Press me to increase dot
-          </Typography>
+          </TypographyLegacy>
         </TouchableOpacity>
       </View>
     </View>
