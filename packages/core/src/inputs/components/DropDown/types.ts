@@ -2,7 +2,7 @@ import {ReactElement} from 'react';
 import {TextStyle, ViewStyle} from 'react-native';
 
 import {IInputsTypes} from '../types';
-import {IStyledTextProps, TypographyProp} from '../../../typography';
+import {IStyledTextProps, TypographyLegacyProp} from '../../../typography';
 import {SimpleIconName} from '../../../styles/icons/font/SimpleIcon';
 
 export type IListItem<T = IItemValue> = {label: string; value: T};
@@ -16,7 +16,7 @@ export interface IDropDownProps<T extends IListItem> {
   onPress: (item: T['value']) => void;
   title?: string;
   titleStyle?: TextStyle | undefined;
-  titleFont?: TypographyProp | undefined;
+  titleFont?: TypographyLegacyProp | undefined;
   required?: boolean;
   rightIcon?: ReactElement;
   type?: IInputsTypes;
@@ -30,15 +30,15 @@ export interface IDropDownProps<T extends IListItem> {
   flatListItemStyle?: ViewStyle | undefined;
   buttonTextStyle?: TextStyle | undefined;
   buttonTextStyleChosen?: TextStyle | undefined;
-  buttonTextFont?: TypographyProp | undefined;
-  buttonTextFontChosen?: TypographyProp | undefined;
+  buttonTextFont?: TypographyLegacyProp | undefined;
+  buttonTextFontChosen?: TypographyLegacyProp | undefined;
   flatListTextStyle?: TextStyle | undefined;
   flatListTextStylePressed?: TextStyle | undefined;
-  flatListTextFont?: TypographyProp | undefined;
-  flatListTextFontPressed?: TypographyProp | undefined;
+  flatListTextFont?: TypographyLegacyProp | undefined;
+  flatListTextFontPressed?: TypographyLegacyProp | undefined;
   selectedItemColor?: string | undefined;
   listEmptyText?: string | undefined;
-  listEmptyFont?: TypographyProp | undefined;
+  listEmptyFont?: TypographyLegacyProp | undefined;
   isMultiselect?: false;
 }
 
@@ -59,5 +59,5 @@ export interface IDropDownIconProps {
 
 export interface IListEmptySelectorProps {
   listEmptyText?: string | undefined;
-  listEmptyFont?: TypographyProp | undefined;
+  listEmptyFont?: TypographyLegacyProp | undefined;
 }

@@ -1,12 +1,12 @@
 import {StyleProp, ViewStyle} from 'react-native';
 import {PropsWithChildren, ReactElement} from 'react';
 
-import {TypographyProp} from '../../../typography/types';
+import {TypographyLegacyProp} from '../../../typography/types';
 import {IPopup} from '../../types';
 
 export interface IPropsContents {
   title: string;
-  textFont?: TypographyProp;
+  textFont?: TypographyLegacyProp;
   leftIcon?: ReactElement | undefined;
   onPress?(): void;
   radio?: string;

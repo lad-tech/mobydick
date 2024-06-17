@@ -1,10 +1,11 @@
 import {TextStyle} from 'react-native';
 
 import useTheme from '../../styles/hooks/useTheme';
-import {HeaderProp, TEXT, TFontColor, TFontSize} from '../types';
+import {TEXT, TFontColor, TFontSize, TFontWeight, TitleProp} from '../types';
 import {getSize} from '../utils';
+import {getWeight} from '../utils/getWeight';
 
-export const useFontHeader = (font: HeaderProp = 'Primary-H1') => {
+export const useFontHeader = (font: TitleProp = 'Primary-H1') => {
   const {colors, theme} = useTheme();
 
   const [color, size] = font.split('-');
@@ -16,7 +17,7 @@ export const useFontHeader = (font: HeaderProp = 'Primary-H1') => {
     fontSize,
     lineHeight,
     minHeight: lineHeight,
-    fontWeight: '600',
+    fontWeight: getWeight(TFontWeight.SemiBold),
   };
 
   return {fontStyle};

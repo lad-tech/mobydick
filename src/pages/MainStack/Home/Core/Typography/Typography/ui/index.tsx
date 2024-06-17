@@ -1,20 +1,20 @@
 import {FlatListProps, ListRenderItem} from 'react-native';
 
 import {
-  BodyProp,
   defaultTextLightColor,
   FlatList,
   TFontBodySize,
   TFontColor,
   TFontWeight,
   Typography,
+  TypographyLegacyProp,
   TypographyProp,
   useStyles,
   View,
 } from '@shared/ui';
 import getScreenStyles from '@shared/styles/getScreenStyles';
 
-const getAllTypography = (): BodyProp[] => {
+const getAllTypography = (): TypographyProp[] => {
   const weights: TFontWeight[] = Object.keys(
     TFontWeight,
   ) as unknown as TFontWeight[];
@@ -26,7 +26,7 @@ const getAllTypography = (): BodyProp[] => {
     name.slice(4, name.length),
   ) as unknown as TFontColor[];
 
-  const result: BodyProp[] = [];
+  const result: TypographyProp[] = [];
   weights.forEach(weight => {
     colors.forEach(color => {
       sizes.forEach(size => {
@@ -38,12 +38,12 @@ const getAllTypography = (): BodyProp[] => {
   return result;
 };
 
-const renderItem: ListRenderItem<BodyProp> = ({item}) => (
+const renderItem: ListRenderItem<TypographyProp> = ({item}) => (
   <Typography font={item}>{item}</Typography>
 );
 
-const keyExtractor: FlatListProps<TypographyProp>['keyExtractor'] = item =>
-  item;
+const keyExtractor: FlatListProps<TypographyLegacyProp>['keyExtractor'] =
+  item => item;
 const TypographyScreen = () => {
   const [styles] = useStyles(getScreenStyles);
   const data = getAllTypography();

@@ -4,11 +4,11 @@ import {
   TFontColor,
   TFontSize,
   TFontWeight,
-  TypographyProp,
+  TypographyLegacyProp,
 } from '../types';
 import {getSize} from '../utils';
 
-export const useFont = (font: TypographyProp = 'Regular-Primary-S') => {
+export const useFont = (font: TypographyLegacyProp = 'Regular-Primary-S') => {
   const {colors, theme} = useTheme();
   const getWeight = (weight: TFontWeight): string => theme.fonts[weight];
 

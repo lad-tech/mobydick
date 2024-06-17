@@ -7,13 +7,13 @@ import {
   TFontSize,
   TFontWeight,
   TypographyLegacy,
-  TypographyProp,
+  TypographyLegacyProp,
   useStyles,
   View,
 } from '@shared/ui';
 import getScreenStyles from '@shared/styles/getScreenStyles';
 
-const getAllTypographyLegacy = (): TypographyProp[] => {
+const getAllTypographyLegacy = (): TypographyLegacyProp[] => {
   const weights: TFontWeight[] = Object.keys(
     TFontWeight,
   ) as unknown as TFontWeight[];
@@ -23,7 +23,7 @@ const getAllTypographyLegacy = (): TypographyProp[] => {
     name.slice(4, name.length),
   ) as unknown as TFontColor[];
 
-  const result: TypographyProp[] = [];
+  const result: TypographyLegacyProp[] = [];
   weights.forEach(weight => {
     colors.forEach(color => {
       sizes.forEach(size => {
@@ -35,12 +35,12 @@ const getAllTypographyLegacy = (): TypographyProp[] => {
   return result;
 };
 
-const renderItem: ListRenderItem<TypographyProp> = ({item}) => (
+const renderItem: ListRenderItem<TypographyLegacyProp> = ({item}) => (
   <TypographyLegacy font={item}>{item}</TypographyLegacy>
 );
 
-const keyExtractor: FlatListProps<TypographyProp>['keyExtractor'] = item =>
-  item;
+const keyExtractor: FlatListProps<TypographyLegacyProp>['keyExtractor'] =
+  item => item;
 const TypographyLegacyScreen = () => {
   const [styles] = useStyles(getScreenStyles);
   const data = getAllTypographyLegacy();

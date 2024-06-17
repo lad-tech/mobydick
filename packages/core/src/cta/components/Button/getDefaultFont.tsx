@@ -1,11 +1,11 @@
-import {TypographyProp} from '../../../typography';
+import {TypographyLegacyProp} from '../../../typography';
 
 import {IButtonSize, IButtonTypes} from './types';
 
 export const getDefaultFont = (
   size: IButtonSize,
   type: IButtonTypes,
-): TypographyProp => {
+): TypographyLegacyProp => {
   let defaultButtonFont = 'SemiBold';
 
   switch (type) {
@@ -31,5 +31,5 @@ export const getDefaultFont = (
       break;
   }
 
-  return defaultButtonFont as TypographyProp;
+  return defaultButtonFont as TypographyLegacyProp;
 };

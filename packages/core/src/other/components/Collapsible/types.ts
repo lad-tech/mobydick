@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import {ReactElement} from 'react';
 
-import {TypographyProp} from '../../../typography';
+import {TypographyLegacyProp} from '../../../typography';
 
 export interface ICollapsibleProps extends TouchableOpacityProps {
   title?: string;
@@ -15,7 +15,7 @@ export interface ICollapsibleProps extends TouchableOpacityProps {
   containerStyle?: ViewStyle | ViewStyle[];
   headerStyle?: ViewStyle | ViewStyle[];
   titleStyle?: TextStyle | TextStyle[];
-  fontTitle?: TypographyProp;
+  fontTitle?: TypographyLegacyProp;
   typeAnimation?: LayoutAnimationType;
   creationPropAnimation?: LayoutAnimationProperty;
   numberOfLines?: number;

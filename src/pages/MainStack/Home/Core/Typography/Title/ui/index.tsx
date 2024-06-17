@@ -3,17 +3,17 @@ import {FlatListProps, ListRenderItem} from 'react-native';
 import {
   defaultTextLightColor,
   FlatList,
-  HeaderProp,
   TFontColor,
   TFontHeaderSize,
   Title,
-  TypographyProp,
+  TitleProp,
+  TypographyLegacyProp,
   useStyles,
   View,
 } from '@shared/ui';
 import getScreenStyles from '@shared/styles/getScreenStyles';
 
-const getAllTitle = (): HeaderProp[] => {
+const getAllTitle = (): TitleProp[] => {
   const sizes: TFontHeaderSize[] = Object.keys(
     TFontHeaderSize,
   ) as unknown as TFontHeaderSize[];
@@ -21,7 +21,7 @@ const getAllTitle = (): HeaderProp[] => {
     name.slice(4, name.length),
   ) as unknown as TFontColor[];
 
-  const result: HeaderProp[] = [];
+  const result: TitleProp[] = [];
   colors.forEach(color => {
     sizes.forEach(size => {
       result.push(`${color}-${size}`);
@@ -31,12 +31,12 @@ const getAllTitle = (): HeaderProp[] => {
   return result;
 };
 
-const renderItem: ListRenderItem<HeaderProp> = ({item}) => (
+const renderItem: ListRenderItem<TitleProp> = ({item}) => (
   <Title font={item}>{item}</Title>
 );
 
-const keyExtractor: FlatListProps<TypographyProp>['keyExtractor'] = item =>
-  item;
+const keyExtractor: FlatListProps<TypographyLegacyProp>['keyExtractor'] =
+  item => item;
 const TitleScreen = () => {
   const [styles] = useStyles(getScreenStyles);
   const data = getAllTitle();

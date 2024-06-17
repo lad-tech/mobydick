@@ -2,13 +2,13 @@ import {ReactElement} from 'react';
 import {StyleProp, TextProps, TextStyle} from 'react-native';
 
 import {ITouchableOpacityProps} from '../../../basic/components/TouchableOpacity/types';
-import {TypographyProp} from '../../../typography/types';
+import {TypographyLegacyProp} from '../../../typography/types';
 
 type IProps = {
   type?: IButtonTypes;
   text?: string;
   textStyle?: StyleProp<TextStyle>;
-  font?: TypographyProp | undefined;
+  font?: TypographyLegacyProp | undefined;
   leftIcon?: ReactElement;
   rightIcon?: ReactElement;
   loading?: boolean;

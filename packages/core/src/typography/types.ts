@@ -2,15 +2,15 @@ import {ITextProps} from '../basic/components/Text/types';
 import {ITextColors} from '../styles/constants/colors/types';
 
 export interface IStyledTextProps extends ITextProps {
-  font?: TypographyProp | undefined;
+  font?: TypographyLegacyProp | undefined;
 }
 
 export interface IHeaderProps extends ITextProps {
-  font?: HeaderProp;
+  font?: TitleProp;
 }
 
 export interface IBodyProps extends ITextProps {
-  font?: BodyProp | undefined;
+  font?: TypographyProp | undefined;
 }
 
 export enum TFontSize {
@@ -64,6 +64,6 @@ export type TSizes = Record<TFontSize, {fontSize: number; lineHeight: number}>;
 
 export type TWeights = Record<TFontWeight, string>;
 
-export type TypographyProp = `${TFontWeight}-${TFontColor}-${TFontSize}`;
-export type HeaderProp = `${TFontColor}-${TFontHeaderSize}`;
-export type BodyProp = `${TFontWeight}-${TFontColor}-${TFontBodySize}`;
+export type TypographyLegacyProp = `${TFontWeight}-${TFontColor}-${TFontSize}`;
+export type TitleProp = `${TFontColor}-${TFontHeaderSize}`;
+export type TypographyProp = `${TFontWeight}-${TFontColor}-${TFontBodySize}`;
