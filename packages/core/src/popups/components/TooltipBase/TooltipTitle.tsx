@@ -2,21 +2,21 @@ import {FC} from 'react';
 
 import {ITitlePopup} from '../PopupBase';
 import useStyles from '../../../styles/hooks/useStyles';
-import {Typography} from '../../../typography/components/Typography/Typography';
+import {TypographyLegacy} from '../../../typography/components/TypographyLegacy/TypographyLegacy';
 
 import stylesCreate from './stylesCreate';
 
-const Title: FC<ITitlePopup> = props => {
+const TooltipTitle: FC<ITitlePopup> = props => {
   const [styles] = useStyles(stylesCreate);
   const {title, titleStyles, titleFont} = props;
 
   return (
-    <Typography
+    <TypographyLegacy
       font={titleFont ? titleFont : 'SemiBold-Contrast-XS'}
       style={[styles.title, titleStyles]}>
       {title}
-    </Typography>
+    </TypographyLegacy>
   );
 };
 
-export default Title;
+export default TooltipTitle;

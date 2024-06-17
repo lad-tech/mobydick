@@ -5,7 +5,7 @@ import {
   createStyles,
   LoopCarousel,
   px,
-  Typography,
+  TypographyLegacy,
   useStyles,
   View,
 } from '@shared/ui';
@@ -21,7 +21,7 @@ export const CarouselWidget = () => {
   return (
     <View style={styles.container}>
       <Header title={'Carousel'} />
-      <Typography>Carousel</Typography>
+      <TypographyLegacy>Carousel</TypographyLegacy>
       <Carousel
         data={data}
         sliderItem={item => <BlockView item={item} width={ITEM_WIDTH} />}
@@ -29,14 +29,14 @@ export const CarouselWidget = () => {
         sideMargin={2}
         keyExtractor={item => item.toString()}
       />
-      <Typography>LoopCarousel</Typography>
+      <TypographyLegacy>LoopCarousel</TypographyLegacy>
       <LoopCarousel
         data={data}
         sliderItem={item => <BlockView item={item} width={ITEM_WIDTH} />}
         itemWidth={ITEM_WIDTH}
         sideMargin={2}
       />
-      <Typography>AutoCarousel</Typography>
+      <TypographyLegacy>AutoCarousel</TypographyLegacy>
       <AutoCarousel
         data={data}
         sliderItem={item => <BlockView item={item} width={ITEM_WIDTH} />}
@@ -44,7 +44,7 @@ export const CarouselWidget = () => {
         sideMargin={2}
         keyExtractor={item => item.toString()}
       />
-      <Typography>AutoLoopCarousel</Typography>
+      <TypographyLegacy>AutoLoopCarousel</TypographyLegacy>
       <AutoLoopCarousel
         data={data}
         sliderItem={item => <BlockView item={item} width={ITEM_WIDTH} />}

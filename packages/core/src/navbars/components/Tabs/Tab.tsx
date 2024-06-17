@@ -3,7 +3,7 @@ import {useCallback} from 'react';
 import {ITabProps} from '../../types';
 import useStyles from '../../../styles/hooks/useStyles';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
-import {Typography} from '../../../typography/components/Typography/Typography';
+import {TypographyLegacy} from '../../../typography/components/TypographyLegacy/TypographyLegacy';
 import {LABELS} from '../../../other';
 
 import stylesCreate from './stylesCreate';
@@ -48,7 +48,9 @@ const Tab = (props: ITabProps): JSX.Element => {
         },
       ]}>
       {item.leftIcon ? item.leftIcon : null}
-      <Typography font={active ? fontActive : font}>{item.label}</Typography>
+      <TypographyLegacy font={active ? fontActive : font}>
+        {item.label}
+      </TypographyLegacy>
       {item.rightIcon ? item.rightIcon : null}
     </TouchableOpacity>
   );

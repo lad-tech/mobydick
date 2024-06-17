@@ -1,7 +1,7 @@
 import {
   createStyles,
   PanelSpinner,
-  Typography,
+  TypographyLegacy,
   useStyles,
   View,
 } from '@shared/ui';
@@ -10,19 +10,27 @@ export const PanelSpinnerWidget = () => {
   const [styles] = useStyles(stylesFn);
   return (
     <View>
-      <Typography font={'Regular-Primary-H5'}>PanelSpinner</Typography>
+      <TypographyLegacy font={'Regular-Primary-H5'}>
+        PanelSpinner
+      </TypographyLegacy>
       <View style={styles.container}>
         <View style={styles.panelContainer}>
           <PanelSpinner isLoading={true} />
-          <Typography font={'Regular-Primary-XS'}>isLoading=true</Typography>
+          <TypographyLegacy font={'Regular-Primary-XS'}>
+            isLoading=true
+          </TypographyLegacy>
         </View>
         <View style={styles.panelContainer}>
           <PanelSpinner isLoading={false} />
-          <Typography font={'Regular-Primary-XS'}>isLoading=false</Typography>
+          <TypographyLegacy font={'Regular-Primary-XS'}>
+            isLoading=false
+          </TypographyLegacy>
         </View>
         <View style={styles.panelContainer}>
           <PanelSpinner isLoading={true} onCancel={() => {}} />
-          <Typography font={'Regular-Primary-XS'}>with onCancel</Typography>
+          <TypographyLegacy font={'Regular-Primary-XS'}>
+            with onCancel
+          </TypographyLegacy>
         </View>
       </View>
     </View>

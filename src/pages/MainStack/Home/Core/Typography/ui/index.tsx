@@ -6,7 +6,7 @@ import {
   TFontColor,
   TFontSize,
   TFontWeight,
-  Typography,
+  TypographyLegacy,
   TypographyProp,
   useStyles,
   View,
@@ -36,7 +36,7 @@ const getAllTypography = (): TypographyProp[] => {
 };
 
 const renderItem: ListRenderItem<TypographyProp> = ({item}) => (
-  <Typography font={item}>{item}</Typography>
+  <TypographyLegacy font={item}>{item}</TypographyLegacy>
 );
 
 const keyExtractor: FlatListProps<TypographyProp>['keyExtractor'] = item =>

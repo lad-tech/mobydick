@@ -1,12 +1,12 @@
 import {useState} from 'react';
 
-import {Swipe, Typography, View} from '@shared/ui';
+import {Swipe, TypographyLegacy, View} from '@shared/ui';
 
 export const SwipeWidget = () => {
   const [active, setActive] = useState(false);
   return (
     <View>
-      <Typography font={'Regular-Primary-H5'}>Swipe</Typography>
+      <TypographyLegacy font={'Regular-Primary-H5'}>Swipe</TypographyLegacy>
       <Swipe onPress={setActive} active={active} disabled={false} />
     </View>
   );

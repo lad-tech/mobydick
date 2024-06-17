@@ -1,7 +1,7 @@
 import {useCallback, useMemo, useState} from 'react';
 import {LayoutAnimation, Platform, UIManager} from 'react-native';
 
-import {Typography} from '../../../typography';
+import {TypographyLegacy} from '../../../typography';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
 import SimpleIcon from '../../../styles/icons/font/SimpleIcon';
 import View from '../../../basic/components/View/View';
@@ -57,12 +57,12 @@ const Collapsible = (props: ICollapsibleProps) => {
         onPress={onPress}
         style={[styles.header, headerStyle]}
         accessibilityLabel={LABELS.collapsed}>
-        <Typography
+        <TypographyLegacy
           font={fontTitle}
           numberOfLines={numberOfLines}
           style={[styles.title, titleStyle]}>
           {title}
-        </Typography>
+        </TypographyLegacy>
         <SimpleIcon name={name} color={colors.IconNeutral} />
       </TouchableOpacity>
       {titleBottomView}

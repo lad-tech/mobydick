@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-import {SimpleIconAlbum, Typography, View} from '@shared/ui';
+import {SimpleIconAlbum, TypographyLegacy, View} from '@shared/ui';
 import Header from '@shared/ui/Header';
 
 export const SimpleIconWidget = () => {
@@ -9,7 +9,7 @@ export const SimpleIconWidget = () => {
     <View>
       <Header title={'SimpleIcons'} />
       <SimpleIconAlbum onPress={setSimpleIconName} />
-      <Typography>{simpleIconName}</Typography>
+      <TypographyLegacy>{simpleIconName}</TypographyLegacy>
     </View>
   );
 };

@@ -4,7 +4,7 @@ import {ViewStyle} from 'react-native';
 import {IStatusState} from '../types';
 import useStyles from '../../../../styles/hooks/useStyles';
 import useTheme from '../../../../styles/hooks/useTheme';
-import {Typography} from '../../../../typography';
+import {TypographyLegacy} from '../../../../typography';
 import View from '../../../../basic/components/View/View';
 import {createStyles} from '../../../../styles';
 
@@ -65,7 +65,7 @@ const StatusTag = ({state, text, style}: IProps) => {
         },
         style,
       ]}>
-      <Typography font={getFont()}>{text}</Typography>
+      <TypographyLegacy font={getFont()}>{text}</TypographyLegacy>
     </View>
   );
 };

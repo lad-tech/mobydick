@@ -3,7 +3,7 @@ import {
   createStyles,
   IPosition,
   SnackbarBase,
-  Typography,
+  TypographyLegacy,
   usePopups,
   useStyles,
   View,
@@ -14,7 +14,7 @@ export const SnackbarWidget = () => {
   const {openPopup} = usePopups();
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>Snackbar</Typography>
+      <TypographyLegacy font={'Regular-Primary-H5'}>Snackbar</TypographyLegacy>
       <Button
         text={'Snackbar top'}
         onPress={() =>

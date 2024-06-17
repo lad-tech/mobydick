@@ -7,14 +7,14 @@ import {IPosition} from '../../types';
 import useStyles from '../../../styles/hooks/useStyles';
 
 import stylesCreate from './stylesCreate';
-import Title from './Title';
+import TooltipTitle from './TooltipTitle';
 import DescriptionText from './DescriptionText';
 import Arrow from './Arrow';
 import LeftButton from './LeftButton';
 import {IPlacement, ITooltipBaseProps} from './types';
 
 const TooltipBase: FC<ITooltipBaseProps> & {
-  Title: typeof Title;
+  Title: typeof TooltipTitle;
   DescriptionText: typeof DescriptionText;
   Arrow: typeof Arrow;
   LeftButton: typeof LeftButton;
@@ -96,7 +96,7 @@ const TooltipBase: FC<ITooltipBaseProps> & {
   );
 };
 
-TooltipBase.Title = Title;
+TooltipBase.Title = TooltipTitle;
 TooltipBase.DescriptionText = DescriptionText;
 TooltipBase.Arrow = Arrow;
 TooltipBase.LeftButton = LeftButton;

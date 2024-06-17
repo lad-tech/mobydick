@@ -1,7 +1,7 @@
 import {Image} from 'react-native';
 
 import View from '../../basic/components/View/View';
-import {Typography} from '../../typography';
+import {TypographyLegacy} from '../../typography';
 import {isNumber} from '../../other/functions/isNumber';
 import useStyles from '../../styles/hooks/useStyles';
 import {isValidMessageTime} from '../functions/isValidMessageTime';
@@ -27,19 +27,19 @@ const ChatMessage = (props: IChatMessage) => {
 
         {message && (
           <View style={styles.textArea}>
-            <Typography
+            <TypographyLegacy
               font={isMe ? 'Regular-White-XS' : 'Regular-Secondary-XS'}>
               {message}
-            </Typography>
+            </TypographyLegacy>
           </View>
         )}
 
         <View style={styles.timeArea}>
           {isValidMessageTime(time) && (
-            <Typography
+            <TypographyLegacy
               font={isMe ? 'Regular-WhiteExtra-XXXS' : 'Regular-Muted-XXXS'}>
               {time}
-            </Typography>
+            </TypographyLegacy>
           )}
         </View>
       </View>

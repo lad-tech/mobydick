@@ -5,7 +5,7 @@ import {
   ModalError,
   ModalLoading,
   ModalSuccess,
-  Typography,
+  TypographyLegacy,
   usePopups,
   useStyles,
   View,
@@ -17,7 +17,7 @@ export const ModalsWidget = () => {
 
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>Modal</Typography>
+      <TypographyLegacy font={'Regular-Primary-H5'}>Modal</TypographyLegacy>
       <Button
         text={'ModalAsk'}
         onPress={() =>

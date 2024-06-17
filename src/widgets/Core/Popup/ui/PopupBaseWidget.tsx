@@ -2,7 +2,7 @@ import {
   Button,
   createStyles,
   PopupBase,
-  Typography,
+  TypographyLegacy,
   usePopups,
   useStyles,
   View,
@@ -14,7 +14,7 @@ export const PopupBaseWidget = () => {
 
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>Popup</Typography>
+      <TypographyLegacy font={'Regular-Primary-H5'}>Popup</TypographyLegacy>
       <Button
         text={'PopupBase'}
         onPress={() =>
