@@ -36,9 +36,9 @@ exports[`@lad-tech/mobydick-core/SnackbarBase/Title should renders correctly wit
       {
         "color": "#FFF",
         "fontFamily": "Inter-Medium",
-        "fontSize": 14,
-        "lineHeight": 18,
-        "minHeight": 18,
+        "fontSize": 12,
+        "lineHeight": 16,
+        "minHeight": 16,
       },
       [
         {

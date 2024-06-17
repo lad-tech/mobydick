@@ -11,7 +11,6 @@ import HomeScreen from '@pages/MainStack/Home/ui';
 import CalendarScreen from '@pages/MainStack/Home/Calendar/ui';
 import CoreScreen from '@pages/MainStack/Home/Core/ui';
 import UtilsScreen from '@pages/MainStack/Home/Utils/ui';
-import TypographyScreen from '@pages/MainStack/Home/Core/Typography/ui';
 import InputsScreen from '@pages/MainStack/Home/Core/Inputs/ui';
 import ChartScreen from '@pages/MainStack/Home/Chart/ui';
 import LineChartScreen from '@pages/MainStack/Home/Chart/LineChart/ui';
@@ -30,6 +29,10 @@ import OtherScreen from '@pages/MainStack/Home/Core/Other/ui';
 import NavbarsScreen from '@pages/MainStack/Home/Core/Navbars/ui';
 import DragAndDropScreen from '@pages/MainStack/Home/Core/DragAndDrop/ui';
 import MarkdownScreen from '@pages/MainStack/Home/Markdown/ui';
+import TypographyScreen from '@pages/MainStack/Home/Core/Typography/Typography/ui';
+import TitleScreen from '@pages/MainStack/Home/Core/Typography/Title/ui';
+import TypographyLegacyScreen from '@pages/MainStack/Home/Core/Typography/TypographyLegacy';
+import TypographyAllScreen from '@pages/MainStack/Home/Core/Typography/ui';
 
 const Stack = createNativeStackNavigator<IRootStackParamList>();
 
@@ -91,6 +94,15 @@ const MainStack = () => {
           <Stack.Screen name={SCREENS.Popups} component={PopupScreen} />
           <Stack.Screen name={SCREENS.Progress} component={ProgressScreen} />
           <Stack.Screen name={SCREENS.Styles} component={StylesScreen} />
+          <Stack.Screen
+            name={SCREENS.TypographyAll}
+            component={TypographyAllScreen}
+          />
+          <Stack.Screen
+            name={SCREENS.TypographyLegacy}
+            component={TypographyLegacyScreen}
+          />
+          <Stack.Screen name={SCREENS.Title} component={TitleScreen} />
           <Stack.Screen
             name={SCREENS.Typography}
             component={TypographyScreen}

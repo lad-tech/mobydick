@@ -189,9 +189,9 @@ exports[`Tab render panelHeader edges 1`] = `
                 {
                   "color": "#5E6678",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                  "minHeight": 16,
+                  "fontSize": 10,
+                  "lineHeight": 14,
+                  "minHeight": 14,
                 },
                 [
                   {
@@ -588,9 +588,9 @@ exports[`Tab render panelHeader with subtitle 1`] = `
                 {
                   "color": "#5E6678",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                  "minHeight": 16,
+                  "fontSize": 10,
+                  "lineHeight": 14,
+                  "minHeight": 14,
                 },
                 [
                   {

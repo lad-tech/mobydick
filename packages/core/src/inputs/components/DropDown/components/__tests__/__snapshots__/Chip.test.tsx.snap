@@ -21,9 +21,9 @@ exports[`@lad-tech/mobydick-core/Chip renders correctly and onPress fired 1`] = 
         {
           "color": "#2B78EE",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 10,
+          "lineHeight": 14,
+          "minHeight": 14,
         },
         {
           "marginRight": 4,
@@ -105,9 +105,9 @@ exports[`@lad-tech/mobydick-core/Chip renders correctly with maxTextLength 1`] =
         {
           "color": "#2B78EE",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 10,
+          "lineHeight": 14,
+          "minHeight": 14,
         },
         {
           "marginRight": 4,

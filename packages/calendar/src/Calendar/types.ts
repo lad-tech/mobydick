@@ -1,7 +1,10 @@
 import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
 import {CalendarProps} from 'react-native-calendars';
 import {ReactElement} from 'react';
-import {IHorizontalButtonsView, TypographyProp} from '@lad-tech/mobydick-core';
+import {
+  IHorizontalButtonsView,
+  TypographyLegacyProp,
+} from '@lad-tech/mobydick-core';
 
 export interface IMarkedTypes {
   [key: string]: MarkingProps;
@@ -59,9 +62,9 @@ export interface IModalCalendar
   onDateRangeChange?: (dateRange?: IDateRange) => void;
   titlePrefix?: string;
   titleSuffix?: string;
-  titleFont?: TypographyProp;
+  titleFont?: TypographyLegacyProp;
   descriptionText?: string;
-  descriptionFont?: TypographyProp;
+  descriptionFont?: TypographyLegacyProp;
   buttonView?: IButtonView;
   isCounter?: boolean;
   onAcceptDateRangeChange?: (dateRange: IDateRange) => void;

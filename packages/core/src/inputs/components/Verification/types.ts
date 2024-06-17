@@ -1,6 +1,6 @@
 import {StyleProp, ViewStyle} from 'react-native';
 
-import {TypographyProp} from '../../../typography/types';
+import {TypographyLegacyProp} from '../../../typography/types';
 import {ITextInputProps} from '../../../basic';
 
 export interface ICodeFieldProps extends ITextInputProps {
@@ -11,5 +11,5 @@ export interface ICodeFieldProps extends ITextInputProps {
   textInputContainerStyle?: StyleProp<ViewStyle>;
   onChangeText?(text: string): void;
   onBackKeyPress?(): void;
-  fontStyleCodeField?: TypographyProp;
+  fontStyleCodeField?: TypographyLegacyProp;
 }

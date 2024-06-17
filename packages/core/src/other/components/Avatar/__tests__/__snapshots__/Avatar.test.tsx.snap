@@ -66,9 +66,9 @@ exports[`Avatar render avatar ITypeAvatar.text 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 14,
-          "lineHeight": 18,
-          "minHeight": 18,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -129,9 +129,9 @@ exports[`Avatar render avatar badge counter 1`] = `
           {
             "color": "#FFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 12,
-            "lineHeight": 16,
-            "minHeight": 16,
+            "fontSize": 10,
+            "lineHeight": 14,
+            "minHeight": 14,
           },
           {
             "color": "#F54D3D",
@@ -151,9 +151,9 @@ exports[`Avatar render avatar badge counter 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 14,
-          "lineHeight": 18,
-          "minHeight": 18,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -215,9 +215,9 @@ exports[`Avatar render avatar badge indicator 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 14,
-          "lineHeight": 18,
-          "minHeight": 18,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -257,9 +257,9 @@ exports[`Avatar render avatar badge null 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 14,
-          "lineHeight": 18,
-          "minHeight": 18,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -315,9 +315,9 @@ exports[`Avatar render avatar badge status 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 14,
-          "lineHeight": 18,
-          "minHeight": 18,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -357,9 +357,9 @@ exports[`Avatar render avatar disabled 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 14,
-          "lineHeight": 18,
-          "minHeight": 18,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -611,9 +611,9 @@ exports[`Avatar render avatar without firstName 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 14,
-          "lineHeight": 18,
-          "minHeight": 18,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]

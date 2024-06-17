@@ -23,8 +23,8 @@ const CoreScreen = () => {
       />
       <NavigationButton text={SCREENS.Styles} onPress={move(SCREENS.Styles)} />
       <NavigationButton
-        text={SCREENS.Typography}
-        onPress={move(SCREENS.Typography)}
+        text={SCREENS.TypographyAll}
+        onPress={move(SCREENS.TypographyAll)}
       />
       <NavigationButton text={SCREENS.Other} onPress={move(SCREENS.Other)} />
       <NavigationButton

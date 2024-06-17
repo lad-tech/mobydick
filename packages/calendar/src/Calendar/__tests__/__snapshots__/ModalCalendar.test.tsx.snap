@@ -9133,9 +9133,9 @@ exports[`ModalCalendar bottomView IButtonView.small onAcceptDateRangeChange 1`] 
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 14,
-                "lineHeight": 18,
-                "minHeight": 18,
+                "fontSize": 12,
+                "lineHeight": 16,
+                "minHeight": 16,
               },
               [
                 {
@@ -13666,9 +13666,9 @@ exports[`ModalCalendar bottomView IButtonView.small onDateRangeChange 1`] = `
               {
                 "color": "#FFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 14,
-                "lineHeight": 18,
-                "minHeight": 18,
+                "fontSize": 12,
+                "lineHeight": 16,
+                "minHeight": 16,
               },
               [
                 {

@@ -48,9 +48,9 @@ exports[`TextAvatar render TextAvatar size M 1`] = `
       {
         "color": "#FFF",
         "fontFamily": "Inter-Regular",
-        "fontSize": 14,
-        "lineHeight": 18,
-        "minHeight": 18,
+        "fontSize": 12,
+        "lineHeight": 16,
+        "minHeight": 16,
       },
       undefined,
     ]

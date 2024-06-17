@@ -48,9 +48,9 @@ exports[`Tab render correctly active false 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 14,
-          "lineHeight": 18,
-          "minHeight": 18,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -110,9 +110,9 @@ exports[`Tab render correctly with props 1`] = `
         {
           "color": "#FFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 14,
-          "lineHeight": 18,
-          "minHeight": 18,
+          "fontSize": 12,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]

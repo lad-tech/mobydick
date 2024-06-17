@@ -23,9 +23,9 @@ exports[`Status render not state 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 10,
+          "lineHeight": 14,
+          "minHeight": 14,
         },
         undefined,
       ]
@@ -153,9 +153,9 @@ exports[`Status render type tag blue 1`] = `
         {
           "color": "#2B78EE",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 10,
+          "lineHeight": 14,
+          "minHeight": 14,
         },
         undefined,
       ]
@@ -189,9 +189,9 @@ exports[`Status render type tag gray 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 10,
+          "lineHeight": 14,
+          "minHeight": 14,
         },
         undefined,
       ]
@@ -225,9 +225,9 @@ exports[`Status render type tag green 1`] = `
         {
           "color": "#29A35C",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 10,
+          "lineHeight": 14,
+          "minHeight": 14,
         },
         undefined,
       ]
@@ -261,9 +261,9 @@ exports[`Status render type tag orange 1`] = `
         {
           "color": "#F97A1F",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 10,
+          "lineHeight": 14,
+          "minHeight": 14,
         },
         undefined,
       ]
@@ -297,9 +297,9 @@ exports[`Status render type tag red 1`] = `
         {
           "color": "#F54D3D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 10,
+          "lineHeight": 14,
+          "minHeight": 14,
         },
         undefined,
       ]

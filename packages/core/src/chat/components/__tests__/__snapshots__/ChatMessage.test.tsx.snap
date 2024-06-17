@@ -37,9 +37,9 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly  isNotValid time 
             {
               "color": "#444B5A",
               "fontFamily": "Inter-Regular",
-              "fontSize": 14,
-              "lineHeight": 18,
-              "minHeight": 18,
+              "fontSize": 12,
+              "lineHeight": 16,
+              "minHeight": 16,
             },
             undefined,
           ]
@@ -98,9 +98,9 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe 1`] = `
             {
               "color": "#FFF",
               "fontFamily": "Inter-Regular",
-              "fontSize": 14,
-              "lineHeight": 18,
-              "minHeight": 18,
+              "fontSize": 12,
+              "lineHeight": 16,
+              "minHeight": 16,
             },
             undefined,
           ]
@@ -339,9 +339,9 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
             {
               "color": "#444B5A",
               "fontFamily": "Inter-Regular",
-              "fontSize": 14,
-              "lineHeight": 18,
-              "minHeight": 18,
+              "fontSize": 12,
+              "lineHeight": 16,
+              "minHeight": 16,
             },
             undefined,
           ]

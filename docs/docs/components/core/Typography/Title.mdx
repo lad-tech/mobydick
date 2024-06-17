@@ -1,0 +1,31 @@
+import Title from "./assets/Title.png";
+
+<img src={Title} height={600} />
+
+Reusable text
+
+## Example
+
+```tsx
+import {Title} from "@lad-tech/mobydick-core";
+
+export const Example = () => {
+  return (
+    <Title font={'Primary-H5'}>Example</Title>
+  );
+};
+
+```
+## `Props`
+
+### [`TextInput Props`](https://reactnative.dev/docs/textinput#props)
+
+Inherits [TextInput Props](https://reactnative.dev/docs/textinput#props).
+
+### `font`
+
+| Type                                                                                                  | DEFAULT      |
+|:------------------------------------------------------------------------------------------------------|:-------------|
+| [TitleProp](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/types.ts#L49) | 'Primary-H1' |
+
+Font for text

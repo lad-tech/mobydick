@@ -4,7 +4,7 @@ import View from '../../../basic/components/View/View';
 import {
   IStyledTextProps,
   TypographyLegacy,
-  TypographyProp,
+  TypographyLegacyProp,
 } from '../../../typography';
 import useTheme from '../../../styles/hooks/useTheme';
 
@@ -12,7 +12,7 @@ interface IInputTitle {
   title: string;
   titleProps?: IStyledTextProps | undefined;
   titleStyle?: TextStyle | TextStyle[] | undefined;
-  titleFont?: TypographyProp | undefined;
+  titleFont?: TypographyLegacyProp | undefined;
   required?: boolean | undefined;
 }
 const InputTitle = (props: IInputTitle) => {

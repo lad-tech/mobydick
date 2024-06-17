@@ -11,9 +11,10 @@ const sizes: TSizes = {
   XL: {fontSize: px(20), lineHeight: px(24)},
   L: {fontSize: px(18), lineHeight: px(22)},
   M: {fontSize: px(16), lineHeight: px(20)},
-  S: {fontSize: px(15), lineHeight: px(19)},
-  XS: {fontSize: px(14), lineHeight: px(18)},
-  XXS: {fontSize: px(12), lineHeight: px(16)},
+  S: {fontSize: px(14), lineHeight: px(18)},
+  XS: {fontSize: px(12), lineHeight: px(16)},
+  XXS: {fontSize: px(10), lineHeight: px(14)},
+  // @deprecated
   XXXS: {fontSize: px(10), lineHeight: px(14)},
 };
 // eslint-disable-next-line import/prefer-default-export
