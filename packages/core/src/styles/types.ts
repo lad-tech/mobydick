@@ -4,17 +4,17 @@ import {TWeights} from '../typography';
 
 import {
   CurrentTheme,
-  IDefaultSpaces,
   IBannerColors,
   IBgColors,
   IBorderColors,
   ICategoryColors,
   IChartColors,
   ICTAColors,
+  IDefaultSpaces,
   IElementColors,
   IIconColors,
-  ITextColors,
   IShadow,
+  ITextColors,
 } from './constants';
 
 export type IStylesTypes = Record<string, ViewStyle | TextStyle | ImageStyle>;
@@ -36,6 +36,7 @@ export interface IDefaultTheme {
   >;
   spaces: IDefaultSpaces;
   fonts: TWeights;
+  font: string;
   shadows: IShadow;
 }
 
@@ -53,12 +54,12 @@ export interface IThemeContext {
     IBannerColors;
   spaces: IDefaultSpaces;
   fonts: TWeights;
+  font: string;
   shadows: IShadow;
 
   setTheme: (theme: IDefaultTheme) => void;
   setCurrentTheme: (theme: ICurrentTheme) => void;
 }
-
 /**
  * @deprecated use IThemeContext
  */

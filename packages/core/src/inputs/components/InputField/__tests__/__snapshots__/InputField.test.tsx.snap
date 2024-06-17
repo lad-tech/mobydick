@@ -25,9 +25,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           undefined,
         ]
@@ -118,9 +118,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
           {
             "color": "#9BA1B0",
             "fontFamily": "Inter-Regular",
-            "fontSize": 12,
-            "lineHeight": 16,
-            "minHeight": 16,
+            "fontSize": 10,
+            "lineHeight": 14,
+            "minHeight": 14,
           },
           {
             "flex": 1,
@@ -431,9 +431,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           undefined,
         ]
@@ -524,9 +524,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           undefined,
         ]
@@ -617,9 +617,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           undefined,
         ]
@@ -711,9 +711,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
           {
             "color": "#9BA1B0",
             "fontFamily": "Inter-Regular",
-            "fontSize": 12,
-            "lineHeight": 16,
-            "minHeight": 16,
+            "fontSize": 10,
+            "lineHeight": 14,
+            "minHeight": 14,
           },
           {
             "flex": 1,
@@ -956,9 +956,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
           {
             "color": "#F54D3D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 12,
-            "lineHeight": 16,
-            "minHeight": 16,
+            "fontSize": 10,
+            "lineHeight": 14,
+            "minHeight": 14,
           },
           {
             "flex": 1,
@@ -1065,9 +1065,9 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
           {
             "color": "#F54D3D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 12,
-            "lineHeight": 16,
-            "minHeight": 16,
+            "fontSize": 10,
+            "lineHeight": 14,
+            "minHeight": 14,
           },
           {
             "flex": 1,
@@ -1106,9 +1106,9 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 15,
-            "lineHeight": 19,
-            "minHeight": 19,
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]

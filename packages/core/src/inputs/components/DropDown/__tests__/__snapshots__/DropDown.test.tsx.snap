@@ -27,9 +27,9 @@ exports[`@lad-tech/mobydick-core/DropDown multiselect snapshot 1`] = `
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "paddingBottom": 8,
@@ -131,9 +131,9 @@ exports[`@lad-tech/mobydick-core/DropDown multiselect snapshot 1`] = `
                 {
                   "color": "#2B78EE",
                   "fontFamily": "Inter-Regular",
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                  "minHeight": 16,
+                  "fontSize": 10,
+                  "lineHeight": 14,
+                  "minHeight": 14,
                 },
                 {
                   "marginRight": 4,
@@ -241,9 +241,9 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements 1`] = `
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "paddingBottom": 8,
@@ -384,9 +384,9 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements disabled
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "paddingBottom": 8,
@@ -527,9 +527,9 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type val
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "paddingBottom": 8,
@@ -670,9 +670,9 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type wro
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           [
             {
@@ -823,9 +823,9 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly without array 1`] = 
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "paddingBottom": 8,
@@ -966,9 +966,9 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly without array with t
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "paddingBottom": 8,
@@ -985,9 +985,9 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly without array with t
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "color": "#F54D3D",
@@ -1128,9 +1128,9 @@ exports[`@lad-tech/mobydick-core/DropDown selectItemClose 1`] = `
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 14,
-            "lineHeight": 18,
-            "minHeight": 18,
+            "fontSize": 12,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "paddingBottom": 8,
@@ -1273,9 +1273,9 @@ exports[`@lad-tech/mobydick-core/DropDown selectItemClose 1`] = `
             {
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
-              "fontSize": 12,
-              "lineHeight": 16,
-              "minHeight": 16,
+              "fontSize": 10,
+              "lineHeight": 14,
+              "minHeight": 14,
             },
             {
               "flex": 1,

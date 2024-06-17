@@ -33,9 +33,9 @@ export const defaultFonts: TWeights = {
   Medium: 'Inter-Medium',
   SemiBold: 'Inter-SemiBold',
   Bold: 'Inter-Bold',
-  Italic: 'Inter-Italic',
-  BoldItalic: 'Inter-BoldItalic',
 };
+
+export const defaultFont = 'Inter-Regular';
 
 export const defaultTheme: IDefaultTheme = {
   currentTheme: CurrentTheme.light,
@@ -67,6 +67,7 @@ export const defaultTheme: IDefaultTheme = {
     ...defaultSpaces,
   },
   fonts: defaultFonts,
+  font: defaultFont,
   shadows: getShadows({
     spaces: defaultSpaces,
     currentTheme: CurrentTheme.light,

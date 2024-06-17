@@ -1,10 +1,16 @@
-import {TextStyle} from 'react-native';
-
 import {ITextProps} from '../basic/components/Text/types';
 import {ITextColors} from '../styles/constants/colors/types';
 
 export interface IStyledTextProps extends ITextProps {
   font?: TypographyProp | undefined;
+}
+
+export interface IHeaderProps extends ITextProps {
+  font?: HeaderProp;
+}
+
+export interface IBodyProps extends ITextProps {
+  font?: BodyProp | undefined;
 }
 
 export enum TFontSize {
@@ -22,13 +28,28 @@ export enum TFontSize {
   XXXS = 'XXXS',
 }
 
+export enum TFontHeaderSize {
+  H1 = 'H1',
+  H2 = 'H2',
+  H3 = 'H3',
+  H4 = 'H4',
+  H5 = 'H5',
+}
+
+export enum TFontBodySize {
+  XL = 'XL',
+  L = 'L',
+  M = 'M',
+  S = 'S',
+  XS = 'XS',
+  XXS = 'XXS',
+}
+
 export enum TFontWeight {
   Regular = 'Regular',
   Medium = 'Medium',
   SemiBold = 'SemiBold',
   Bold = 'Bold',
-  Italic = 'Italic',
-  BoldItalic = 'BoldItalic',
 }
 
 export const TEXT = 'Text';
@@ -44,8 +65,5 @@ export type TSizes = Record<TFontSize, {fontSize: number; lineHeight: number}>;
 export type TWeights = Record<TFontWeight, string>;
 
 export type TypographyProp = `${TFontWeight}-${TFontColor}-${TFontSize}`;
-
-export type TFontStyle = Pick<
-  TextStyle,
-  'color' | 'fontSize' | 'fontFamily' | 'lineHeight'
->;
+export type HeaderProp = `${TFontColor}-${TFontHeaderSize}`;
+export type BodyProp = `${TFontWeight}-${TFontColor}-${TFontBodySize}`;
