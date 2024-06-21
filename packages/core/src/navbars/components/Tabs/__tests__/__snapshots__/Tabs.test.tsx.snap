@@ -97,7 +97,7 @@ exports[`Tabs render correctly 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             {
-              "backgroundColor": "#D1D4DB",
+              "backgroundColor": "#D0D6E0",
               "borderRadius": 8,
               "marginRight": 8,
               "opacity": 1,
@@ -245,7 +245,7 @@ exports[`Tabs render correctly with props 1`] = `
             style={
               [
                 {
-                  "color": "#F54D3D",
+                  "color": "#F54C3D",
                   "fontFamily": "Inter-Regular",
                   "fontSize": 28,
                   "lineHeight": 32,

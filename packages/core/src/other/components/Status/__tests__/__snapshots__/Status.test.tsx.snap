@@ -10,7 +10,7 @@ exports[`Status render not state 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "#EEEFF1",
+        "backgroundColor": "#F2F4F7",
       },
       undefined,
     ]
@@ -64,7 +64,7 @@ exports[`Status render type dot gray 1`] = `
         "width": 8,
       },
       {
-        "backgroundColor": "#B6BBC6",
+        "backgroundColor": "#D0D6E0",
       },
       undefined,
     ]
@@ -82,7 +82,7 @@ exports[`Status render type dot green 1`] = `
         "width": 8,
       },
       {
-        "backgroundColor": "#4ABA79",
+        "backgroundColor": "#29A35C",
       },
       {
         "flex": 1,
@@ -176,7 +176,7 @@ exports[`Status render type tag gray 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "#EEEFF1",
+        "backgroundColor": "#F2F4F7",
       },
       undefined,
     ]
@@ -212,7 +212,7 @@ exports[`Status render type tag green 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "rgba(74, 186, 121, 0.15)",
+        "backgroundColor": "rgba(58, 189, 112, 0.1)",
       },
       undefined,
     ]
@@ -248,7 +248,7 @@ exports[`Status render type tag orange 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "rgba(250, 183, 66, 0.15)",
+        "backgroundColor": "rgba(250, 146, 71, 0.1)",
       },
       undefined,
     ]
@@ -259,7 +259,7 @@ exports[`Status render type tag orange 1`] = `
     style={
       [
         {
-          "color": "#F97A1F",
+          "color": "#FE8027",
           "fontFamily": "Inter-Regular",
           "fontSize": 10,
           "lineHeight": 14,
@@ -284,7 +284,7 @@ exports[`Status render type tag red 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "rgba(245, 77, 61, 0.15)",
+        "backgroundColor": "rgba(249, 97, 84, 0.1)",
       },
       undefined,
     ]
@@ -295,7 +295,7 @@ exports[`Status render type tag red 1`] = `
     style={
       [
         {
-          "color": "#F54D3D",
+          "color": "#F54C3D",
           "fontFamily": "Inter-Regular",
           "fontSize": 10,
           "lineHeight": 14,

@@ -45,7 +45,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item 1
         "paddingHorizontal": 20,
       },
       {
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
       },
       undefined,
     ]
@@ -128,7 +128,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
         "paddingHorizontal": 20,
       },
       {
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
       },
       undefined,
     ]
@@ -148,7 +148,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 14,
             "lineHeight": 18,
@@ -204,7 +204,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
         "alignItems": "center",
         "borderBottomLeftRadius": 12,
         "borderBottomRightRadius": 12,
-        "borderTopColor": "#D1D4DB",
+        "borderTopColor": "#D0D6E0",
         "borderTopWidth": 1,
         "flexDirection": "row",
         "justifyContent": "space-between",
@@ -214,7 +214,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
         "paddingHorizontal": 20,
       },
       {
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
       },
       undefined,
     ]
@@ -234,7 +234,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 14,
             "lineHeight": 18,
@@ -327,7 +327,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
           "alignItems": "center",
           "aspectRatio": 1,
           "backgroundColor": "transparent",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "rgba(21, 28, 44, 0.2)",
           "borderRadius": 11,
           "borderWidth": 2,
           "justifyContent": "center",
@@ -385,7 +385,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
         "paddingHorizontal": 20,
       },
       {
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
       },
       undefined,
     ]
@@ -468,7 +468,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
         "paddingHorizontal": 20,
       },
       {
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
       },
       undefined,
     ]
@@ -494,7 +494,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
         allowFontScaling={true}
         style={
           {
-            "color": "#5E6678",
+            "color": "#353A45",
             "fontFamily": "Neotis",
             "fontSize": 24,
           }
@@ -571,7 +571,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
         "paddingHorizontal": 20,
       },
       {
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
       },
       undefined,
     ]
@@ -682,7 +682,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly Item w
       style={
         [
           {
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 4,
             "borderWidth": 0,
             "height": 20,
@@ -739,7 +739,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly inner 
     [
       {
         "alignItems": "center",
-        "borderTopColor": "#D1D4DB",
+        "borderTopColor": "#D0D6E0",
         "borderTopWidth": 1,
         "flexDirection": "row",
         "justifyContent": "space-between",
@@ -748,7 +748,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly inner 
         "paddingHorizontal": 20,
       },
       {
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
       },
       undefined,
     ]
@@ -768,7 +768,7 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly inner 
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 14,
             "lineHeight": 18,

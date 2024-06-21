@@ -6,7 +6,7 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value blur 1`] 
     [
       {
         "alignItems": "center",
-        "backgroundColor": "#EEEFF1",
+        "backgroundColor": "#F2F4F7",
         "borderRadius": 8,
         "flexDirection": "row",
         "justifyContent": "center",
@@ -56,7 +56,7 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value focus 1`]
     [
       {
         "alignItems": "center",
-        "backgroundColor": "#EEEFF1",
+        "backgroundColor": "#F2F4F7",
         "borderRadius": 8,
         "flexDirection": "row",
         "justifyContent": "center",

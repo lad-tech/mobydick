@@ -15,7 +15,7 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -39,7 +39,7 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -58,7 +58,7 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -83,7 +83,7 @@ exports[`AvatarGroup render AvatarGroup < 3 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -114,7 +114,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -138,7 +138,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -157,7 +157,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -182,7 +182,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -201,7 +201,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -226,7 +226,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -245,7 +245,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -270,7 +270,7 @@ exports[`AvatarGroup render AvatarGroup = 4 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -301,7 +301,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -331,7 +331,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
       }
       style={
         {
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -346,7 +346,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -371,7 +371,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -390,7 +390,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -415,7 +415,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -431,8 +431,8 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
   <View
     style={
       {
-        "backgroundColor": "#EEEFF1",
-        "borderColor": "#FFF",
+        "backgroundColor": "#F2F4F7",
+        "borderColor": "#FFFFFF",
         "borderRadius": 20,
         "borderWidth": 2,
         "height": 40,
@@ -448,7 +448,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
       style={
         [
           {
-            "color": "#444B5A",
+            "color": "#353A45",
             "fontFamily": "Inter-Medium",
             "fontSize": 10,
             "lineHeight": 14,
@@ -482,7 +482,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -512,7 +512,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
       }
       style={
         {
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -527,7 +527,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -552,7 +552,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -571,7 +571,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -596,7 +596,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -612,8 +612,8 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
   <View
     style={
       {
-        "backgroundColor": "#EEEFF1",
-        "borderColor": "#FFF",
+        "backgroundColor": "#F2F4F7",
+        "borderColor": "#FFFFFF",
         "borderRadius": 20,
         "borderWidth": 2,
         "height": 40,
@@ -629,7 +629,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
       style={
         [
           {
-            "color": "#444B5A",
+            "color": "#353A45",
             "fontFamily": "Inter-Medium",
             "fontSize": 10,
             "lineHeight": 14,
@@ -663,7 +663,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -693,7 +693,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
       }
       style={
         {
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -708,7 +708,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -733,7 +733,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -752,7 +752,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "borderColor": "#FFF",
+          "borderColor": "#FFFFFF",
           "borderRadius": 20,
           "borderWidth": 2,
           "height": 40,
@@ -777,7 +777,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
             "lineHeight": 16,
@@ -793,8 +793,8 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
   <View
     style={
       {
-        "backgroundColor": "#EEEFF1",
-        "borderColor": "#FFF",
+        "backgroundColor": "#F2F4F7",
+        "borderColor": "#FFFFFF",
         "borderRadius": 20,
         "borderWidth": 2,
         "height": 40,
@@ -810,7 +810,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
       style={
         [
           {
-            "color": "#444B5A",
+            "color": "#353A45",
             "fontFamily": "Inter-Medium",
             "fontSize": 10,
             "lineHeight": 14,

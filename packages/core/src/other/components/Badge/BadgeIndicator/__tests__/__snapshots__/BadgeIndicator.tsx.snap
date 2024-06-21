@@ -5,7 +5,7 @@ exports[`BadgeIndicator render BadgeIndicator primary 1`] = `
   style={
     [
       {
-        "borderColor": "#FFF",
+        "borderColor": "#FFFFFF",
         "borderRadius": 4.5,
         "borderWidth": 1,
         "height": 9,
@@ -29,7 +29,7 @@ exports[`BadgeIndicator render BadgeIndicator secondary 1`] = `
   style={
     [
       {
-        "borderColor": "#FFF",
+        "borderColor": "#FFFFFF",
         "borderRadius": 4.5,
         "borderWidth": 1,
         "height": 9,

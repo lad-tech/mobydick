@@ -5,14 +5,14 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly 1`] = `
   style={
     {
       "alignItems": "center",
-      "backgroundColor": "#FFF",
-      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "rgba(21, 28, 44, 0.1)",
       "borderRadius": 200,
       "borderWidth": 0.5,
       "elevation": 10,
       "justifyContent": "center",
       "padding": 20,
-      "shadowColor": "#20242D",
+      "shadowColor": "#151C2C",
       "shadowOffset": {
         "height": 1,
         "width": 0,
@@ -49,14 +49,14 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly canceled 1`] = `
   style={
     {
       "alignItems": "center",
-      "backgroundColor": "#FFF",
-      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "rgba(21, 28, 44, 0.1)",
       "borderRadius": 200,
       "borderWidth": 0.5,
       "elevation": 10,
       "justifyContent": "center",
       "padding": 20,
-      "shadowColor": "#20242D",
+      "shadowColor": "#151C2C",
       "shadowOffset": {
         "height": 1,
         "width": 0,
@@ -151,14 +151,14 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly done 1`] = `
   style={
     {
       "alignItems": "center",
-      "backgroundColor": "#FFF",
-      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "rgba(21, 28, 44, 0.1)",
       "borderRadius": 200,
       "borderWidth": 0.5,
       "elevation": 10,
       "justifyContent": "center",
       "padding": 20,
-      "shadowColor": "#20242D",
+      "shadowColor": "#151C2C",
       "shadowOffset": {
         "height": 1,
         "width": 0,
@@ -200,14 +200,14 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly error 1`] = `
   style={
     {
       "alignItems": "center",
-      "backgroundColor": "#FFF",
-      "borderColor": "rgba(32, 36, 45, 0.15)",
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "rgba(21, 28, 44, 0.1)",
       "borderRadius": 200,
       "borderWidth": 0.5,
       "elevation": 10,
       "justifyContent": "center",
       "padding": 20,
-      "shadowColor": "#20242D",
+      "shadowColor": "#151C2C",
       "shadowOffset": {
         "height": 1,
         "width": 0,
@@ -228,7 +228,7 @@ exports[`@lad-tech/mobydick-core/PanelSpinner renders correctly error 1`] = `
           "width": 48,
         },
         {
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#F2F4F7",
         },
       ]
     }

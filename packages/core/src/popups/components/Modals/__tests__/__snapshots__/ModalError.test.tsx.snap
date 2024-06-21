@@ -35,7 +35,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly 1`] = `
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -58,7 +58,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "borderRadius": 12,
           "justifyContent": "center",
           "marginVertical": 20,
@@ -81,7 +81,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly 1`] = `
             "padding": 12,
           },
           {
-            "backgroundColor": "rgba(245, 77, 61, 0.15)",
+            "backgroundColor": "rgba(249, 97, 84, 0.1)",
           },
         ]
       }
@@ -194,7 +194,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly 1`] = `
           {
             "alignItems": "center",
             "alignSelf": "stretch",
-            "backgroundColor": "#F54D3D",
+            "backgroundColor": "#F54C3D",
             "borderRadius": 12,
             "flexDirection": "row",
             "justifyContent": "center",
@@ -208,7 +208,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly 1`] = `
           style={
             [
               {
-                "color": "#FFF",
+                "color": "#FFFFFF",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 18,
                 "lineHeight": 22,
@@ -266,7 +266,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly with option
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -289,7 +289,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly with option
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "borderRadius": 12,
           "justifyContent": "center",
           "marginVertical": 20,
@@ -312,7 +312,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly with option
             "padding": 12,
           },
           {
-            "backgroundColor": "rgba(245, 77, 61, 0.15)",
+            "backgroundColor": "rgba(249, 97, 84, 0.1)",
           },
         ]
       }
@@ -425,7 +425,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly with option
           {
             "alignItems": "center",
             "alignSelf": "stretch",
-            "backgroundColor": "#F54D3D",
+            "backgroundColor": "#F54C3D",
             "borderRadius": 12,
             "flexDirection": "row",
             "justifyContent": "center",
@@ -439,7 +439,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly with option
           style={
             [
               {
-                "color": "#FFF",
+                "color": "#FFFFFF",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 18,
                 "lineHeight": 22,

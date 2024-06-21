@@ -1,149 +1,331 @@
+export const primitivesColors = {
+  Blue100: '#2B78EE',
+  Blue80: '#5B99F9',
+  Blue04: 'rgba(91, 153, 249, 0.4)',
+  Blue01: 'rgba(91, 153, 249, 0.1)',
+
+  Violet100: '#916CFC',
+  Violet80: '#AE92FC',
+  Violet04: 'rgba(174, 146, 252, 0.4)',
+  Violet01: 'rgba(174, 146, 252, 0.1)',
+
+  Green100: '#29A35C',
+  Green80: '#3ABD70',
+  Green04: 'rgba(58, 189, 112, 0.4)',
+  Green01: 'rgba(58, 189, 112, 0.1)',
+
+  Mint100: '#4FAEAE',
+  Mint80: '#30C5C5',
+  Mint04: 'rgba(48, 197, 197, 0.4)',
+  Mint01: 'rgba(48, 197, 197, 0.1)',
+
+  Red100: '#F54C3D',
+  Red80: '#F96154',
+  Red04: 'rgba(249, 97, 84, 0.4)',
+  Red01: 'rgba(249, 97, 84, 0.1)',
+
+  Orange100: '#FE8027',
+  Orange80: '#FA9247',
+  Orange04: 'rgba(250, 146, 71, 0.4)',
+  Orange01: 'rgba(250, 146, 71, 0.1)',
+
+  Yellow100: '#FABC42',
+  Yellow80: '#FAD242',
+  Yellow04: 'rgba(250, 210, 66, 0.4)',
+  Yellow01: 'rgba(250, 210, 66, 0.1)',
+
+  White100: '#FFFFFF',
+  White08: 'rgba(255, 255, 255, 0.8)',
+  White06: 'rgba(255, 255, 255, 0.6)',
+  White04: 'rgba(255, 255, 255, 0.4)',
+  White02: 'rgba(255, 255, 255, 0.2)',
+  White01: 'rgba(255, 255, 255, 0.1)',
+
+  Black100: '#151C2C',
+  Black08: 'rgba(21, 28, 44, 0.8)',
+  Black06: 'rgba(21, 28, 44, 0.6)',
+  Black04: 'rgba(21, 28, 44, 0.4)',
+  Black02: 'rgba(21, 28, 44, 0.2)',
+  Black01: 'rgba(21, 28, 44, 0.1)',
+
+  Neutral100: '#20242D',
+  Neutral80: '#353A45',
+  Neutral60: '#5E6678',
+  Neutral40: '#9BA1B0',
+  Neutral20: '#D0D6E0',
+  Neutral10: '#F2F4F7',
+  Neutral0: '#FFFFFF',
+
+  Accent100: '#2B78EE',
+  Accent80: '#5B99F9',
+};
+
 export const defaultTextLightColor = {
-  TextPrimary: '#20242D',
-  TextSecondary: '#444B5A',
-  TextTertiary: '#5E6678',
-  TextMuted: '#9BA1B0',
-  TextAccent: '#2B78EE',
-  TextAccentContrast: '#4C94FF',
+  TextAccent: primitivesColors.Accent100,
+  TextAccentContrast: primitivesColors.Accent80,
+  TextPrimary: primitivesColors.Neutral100,
+  TextSecondary: primitivesColors.Neutral80,
+  TextTertiary: primitivesColors.Neutral60,
+  TextMuted: primitivesColors.Neutral40,
+  TextSuccess: primitivesColors.Green100,
+  TextWarning: primitivesColors.Orange100,
+  TextError: primitivesColors.Red100,
+  TextWhite: primitivesColors.White100,
+  TextWhiteExtra: primitivesColors.White08,
+  TextBlack: primitivesColors.Black100,
+  TextBlackExtra: primitivesColors.Black08,
+  TextInverse: primitivesColors.Neutral0,
+
+  /** @deprecated use TextInverse **/
   TextContrast: '#FFF',
-  TextError: '#F54D3D',
-  TextBlack: '#20242D',
-  TextBlackExtra: 'rgba(32, 36, 45, 0.75)',
-  TextWhite: '#FFF',
-  TextWhiteExtra: 'rgba(255, 255, 255, 0.75)',
-  TextSuccess: '#29A35C',
-  TextWarning: '#F97A1F',
 };
 export const defaultTextDarkColor = {
-  TextPrimary: '#FFFFFF',
-  TextSecondary: '#D1D4DB',
-  TextTertiary: '#B6BBC6',
-  TextMuted: '#7A8394',
-  TextAccent: '#4C94FF',
-  TextAccentContrast: '#2B78EE',
+  TextAccent: primitivesColors.Accent100,
+  TextAccentContrast: primitivesColors.Accent80,
+  TextPrimary: primitivesColors.Neutral0,
+  TextSecondary: primitivesColors.Neutral10,
+  TextTertiary: primitivesColors.Neutral40,
+  TextMuted: primitivesColors.Neutral60,
+  TextSuccess: primitivesColors.Green80,
+  TextWarning: primitivesColors.Orange80,
+  TextError: primitivesColors.Red80,
+  TextWhite: primitivesColors.White100,
+  TextWhiteExtra: primitivesColors.White08,
+  TextBlack: primitivesColors.Black100,
+  TextBlackExtra: primitivesColors.Black08,
+  TextInverse: primitivesColors.Neutral100,
+
+  /** @deprecated use TextInverse **/
   TextContrast: '#20242D',
-  TextError: '#F86B5D',
-  TextBlack: '#20242D',
-  TextBlackExtra: 'rgba(32, 36, 45, 0.75)',
-  TextWhite: '#FFF',
-  TextWhiteExtra: 'rgba(255, 255, 255, 0.75)',
-  TextSuccess: '#4ABA79',
-  TextWarning: '#FA9247',
 };
 
 export const defaultIconLightColor = {
-  IconNeutral: '#5E6678',
-  IconMuted: '#9BA1B0',
+  IconAccent: primitivesColors.Accent100,
+  IconNeutral: primitivesColors.Neutral80,
+  IconMuted: primitivesColors.Neutral40,
+  IconSuccess: primitivesColors.Green100,
+  IconWarning: primitivesColors.Orange100,
+  IconError: primitivesColors.Red100,
+  IconWhite: primitivesColors.White100,
+  IconBlack: primitivesColors.Black100,
+  IconInverse: primitivesColors.Neutral0,
+
+  /** @deprecated use IconAccent **/
   IconBase: '#2B78EE',
-  IconAttention: '#F54D3D',
+  /** @deprecated use IconWarning **/
   IconAdditional: '#FAB742',
-  IconWhite: '#FFF',
-  IconBlack: '#1E232F',
-  IconSuccess: '#4ABA79',
+  /** @deprecated use IconError **/
+  IconAttention: '#F54D3D',
 };
 export const defaultIconDarkColor = {
-  IconNeutral: '#B6BBC6',
-  IconMuted: '#7A8394',
+  IconAccent: primitivesColors.Accent80,
+  IconNeutral: primitivesColors.Neutral10,
+  IconMuted: primitivesColors.Neutral40,
+  IconSuccess: primitivesColors.Green80,
+  IconWarning: primitivesColors.Orange80,
+  IconError: primitivesColors.Red80,
+  IconWhite: primitivesColors.White100,
+  IconBlack: primitivesColors.Black100,
+  IconInverse: primitivesColors.Neutral100,
+
+  /** @deprecated use IconAccent **/
   IconBase: '#4C94FF',
-  IconAttention: '#F86B5D',
+  /** @deprecated use IconWarning **/
   IconAdditional: '#FAB742',
-  IconWhite: '#FFF',
-  IconBlack: '#1E232F',
-  IconSuccess: '#4ABA79',
+  /** @deprecated use IconError **/
+  IconAttention: '#F86B5D',
 };
 
 export const defaultElementLightColor = {
-  ElementNeutral: '#5E6678',
-  ElementMuted: '#B6BBC6',
+  ElementAccent: primitivesColors.Accent100,
+  ElementNeutral: primitivesColors.Neutral80,
+  ElementMuted: primitivesColors.Neutral20,
+  ElementSuccess: primitivesColors.Green100,
+  ElementWarning: primitivesColors.Orange100,
+  ElementError: primitivesColors.Red100,
+  ElementWhite: primitivesColors.White100,
+  ElementBlack: primitivesColors.Black100,
+  ElementInverse: primitivesColors.Neutral0,
+
+  /** @deprecated use ElementAccent **/
   ElementBase: '#2B78EE',
-  ElementAttention: '#F54D3D',
+  /** @deprecated use ElementWarning **/
   ElementAdditional: '#FAB742',
-  ElementWhite: '#FFF',
-  ElementBlack: '#20242D',
-  ElementSuccess: '#4ABA79',
+  /** @deprecated use ElementError **/
+  ElementAttention: '#F54D3D',
 };
 export const defaultElementDarkColor = {
-  ElementNeutral: '#B6BBC6',
-  ElementMuted: '#5E6678',
+  ElementAccent: primitivesColors.Accent80,
+  ElementNeutral: primitivesColors.Neutral10,
+  ElementMuted: primitivesColors.Neutral60,
+  ElementSuccess: primitivesColors.Green80,
+  ElementWarning: primitivesColors.Orange80,
+  ElementError: primitivesColors.Red80,
+  ElementWhite: primitivesColors.White100,
+  ElementBlack: primitivesColors.Black100,
+  ElementInverse: primitivesColors.Neutral100,
+
+  /** @deprecated use ElementAccent **/
   ElementBase: '#4C94FF',
+  /** @deprecated use ElementWarning **/
   ElementAttention: '#F86B5D',
+  /** @deprecated use ElementError **/
   ElementAdditional: '#FAB742',
-  ElementWhite: '#FFF',
-  ElementBlack: '#20242D',
-  ElementSuccess: '#4ABA79',
 };
 
 export const defaultBorderLightColor = {
-  BorderExtra: 'rgba(32, 36, 45, 0.75)',
-  BorderHard: 'rgba(32, 36, 45, 0.45)',
-  BorderNormal: 'rgba(32, 36, 45, 0.3)',
-  BorderSoft: 'rgba(32, 36, 45, 0.15)',
-  BorderError: '#F54D3D',
-  BorderSuccess: '#2B78EE',
+  BorderAccent: primitivesColors.Blue100,
+  BorderExtra: primitivesColors.Black08,
+  BorderHard: primitivesColors.Black04,
+  BorderNormal: primitivesColors.Black02,
+  BorderSoft: primitivesColors.Black01,
+  BorderSuccess: primitivesColors.Green100, // old blue
+  BorderWarning: primitivesColors.Orange100,
+  BorderError: primitivesColors.Red100,
 };
 export const defaultBorderDarkColor = {
-  BorderExtra: 'rgba(255, 255, 255, 0.75)',
-  BorderHard: 'rgba(255, 255, 255, 0.45)',
-  BorderNormal: 'rgba(255, 255, 255, 0.3)',
-  BorderSoft: 'rgba(255, 255, 255, 0.15)',
-  BorderError: '#F86B5D',
-  BorderSuccess: '#4C94FF',
+  BorderAccent: primitivesColors.Blue80,
+  BorderExtra: primitivesColors.White08,
+  BorderHard: primitivesColors.White04,
+  BorderNormal: primitivesColors.White02,
+  BorderSoft: primitivesColors.White01,
+  BorderSuccess: primitivesColors.Green80, // old blue
+  BorderWarning: primitivesColors.Orange80,
+  BorderError: primitivesColors.Red80,
 };
 
 export const defaultBgLightColor = {
-  BgPrimary: '#FFF',
-  BgPrimaryExtra: 'rgba(255, 255, 255, 0.75)',
-  BgSecondary: '#EEEFF1',
-  BgTertiary: '#D1D4DB',
-  BgQuaternary: '#B6BBC6',
-  BgContrast: '#20242D',
-  BgContrastExtra: 'rgba(32, 36, 45, 0.75)',
-  BgError: 'rgba(245, 77, 61, 0.15)',
-  BgAccent: '#E5F0FF',
-  BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
-  BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
-  BgAccentHard: 'rgba(43, 120, 238, 0.45)',
-  BgOverlay: 'rgba(0, 0, 0, 0.2)',
-  BgBlack: '#20242D',
-  BgWhite: '#FFF',
+  BgAccent: primitivesColors.Accent100,
+  BgPrimary: primitivesColors.Neutral0,
+  BgPrimaryExtra: primitivesColors.White08,
+  BgSecondary: primitivesColors.Neutral10,
+  BgTertiary: primitivesColors.Neutral20,
+  BgSuccess: primitivesColors.Green01,
+  BgWarning: primitivesColors.Orange01,
+  BgError: primitivesColors.Red01,
+  BgWhite: primitivesColors.White100,
+  BgBlack: primitivesColors.Black100,
+  BgOverlay: primitivesColors.Black02,
+  BgInverse: primitivesColors.Neutral100,
+
+  /** @deprecated **/
   BgWhiteSoft: 'rgba(255, 255, 255, 0.15)',
-  BgSuccess: 'rgba(74, 186, 121, 0.15)',
-  BgWarning: 'rgba(250, 183, 66, 0.15)',
+  /** @deprecated **/
+  BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
+  /** @deprecated **/
+  BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
+  /** @deprecated **/
+  BgAccentHard: 'rgba(43, 120, 238, 0.45)',
+  /** @deprecated **/
+  BgQuaternary: '#B6BBC6',
+  /** @deprecated **/
+  BgContrast: '#20242D',
+  /** @deprecated **/
+  BgContrastExtra: 'rgba(32, 36, 45, 0.75)',
 };
 export const defaultBgDarkColor = {
-  BgPrimary: '#20242D',
-  BgPrimaryExtra: 'rgba(32, 36, 45, 0.75)',
-  BgSecondary: '#2E3442',
-  BgTertiary: '#444B5A',
+  BgAccent: primitivesColors.Accent80,
+  BgPrimary: primitivesColors.Neutral100,
+  BgPrimaryExtra: primitivesColors.Black08,
+  BgSecondary: primitivesColors.Neutral80,
+  BgTertiary: primitivesColors.Neutral60,
+  BgSuccess: primitivesColors.Green01,
+  BgWarning: primitivesColors.Orange01,
+  BgError: primitivesColors.Red01,
+  BgWhite: primitivesColors.White100,
+  BgBlack: primitivesColors.Black100,
+  BgOverlay: primitivesColors.White01,
+  BgInverse: primitivesColors.Neutral0,
+
+  /** @deprecated **/
   BgQuaternary: '#5E6678',
+  /** @deprecated **/
   BgContrast: '#FFF',
+  /** @deprecated **/
   BgContrastExtra: 'rgba(255, 255, 255, 0.75)',
-  BgError: 'rgba(245, 77, 61, 0.15)',
-  BgAccent: '#1E2C43',
-  BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
-  BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
-  BgAccentHard: 'rgba(43, 120, 238, 0.45)',
-  BgOverlay: 'rgba(255, 255, 255, 0.2)',
-  BgBlack: '#20242D',
-  BgWhite: '#FFF',
+  /** @deprecated **/
   BgWhiteSoft: 'rgba(255, 255, 255, 0.15)',
-  BgSuccess: 'rgba(74, 186, 121, 0.15)',
-  BgWarning: 'rgba(250, 183, 66, 0.15)',
+  /** @deprecated **/
+  BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
+  /** @deprecated **/
+  BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
+  /** @deprecated **/
+  BgAccentHard: 'rgba(43, 120, 238, 0.45)',
 };
 
 export const defaultCTALightColor = {
-  CtaBtnPrimary: '#2B78EE',
-  CtaBtnSecondary: 'rgba(43, 120, 238, 0.15)',
-  CtaBtnMuted: '#9BA1B0',
-  CtaBtnDestructive: '#F54D3D',
+  CtaBtnPrimary: primitivesColors.Accent100,
+  CtaBtnSecondary: primitivesColors.Neutral10,
+  CtaBtnMuted: primitivesColors.Neutral10,
+  CtaBtnDestructive: primitivesColors.Red100,
 };
 export const defaultCTADarkColor = {
-  CtaBtnPrimary: '#2B78EE',
-  CtaBtnSecondary: 'rgba(43, 120, 238, 0.15)',
-  CtaBtnMuted: '#758199',
-  CtaBtnDestructive: '#F86B5D',
+  CtaBtnPrimary: primitivesColors.Accent80,
+  CtaBtnSecondary: primitivesColors.Neutral80,
+  CtaBtnMuted: primitivesColors.Neutral80,
+  CtaBtnDestructive: primitivesColors.Red80,
 };
 
+export const defaultAdditionalLightColor = {
+  AdditionalFirst: primitivesColors.Red100,
+  AdditionalFirstHard: primitivesColors.Red04,
+  AdditionalFirstSoft: primitivesColors.Red01,
+
+  AdditionalSecond: primitivesColors.Orange100,
+  AdditionalSecondHard: primitivesColors.Orange04,
+  AdditionalSecondSoft: primitivesColors.Orange01,
+
+  AdditionalThird: primitivesColors.Yellow100,
+  AdditionalThirdHard: primitivesColors.Yellow04,
+  AdditionalThirdSoft: primitivesColors.Yellow01,
+
+  AdditionalFourth: primitivesColors.Green100,
+  AdditionalFourthHard: primitivesColors.Green04,
+  AdditionalFourthSoft: primitivesColors.Green01,
+
+  AdditionalFifth: primitivesColors.Mint100,
+  AdditionalFifthHard: primitivesColors.Mint04,
+  AdditionalFifthSoft: primitivesColors.Mint01,
+
+  AdditionalSixth: primitivesColors.Blue100,
+  AdditionalSixthHard: primitivesColors.Blue04,
+  AdditionalSixthSoft: primitivesColors.Blue01,
+
+  AdditionalSeventh: primitivesColors.Violet100,
+  AdditionalSeventhHard: primitivesColors.Violet04,
+  AdditionalSeventhSoft: primitivesColors.Violet01,
+};
+export const defaultAdditionalDarkColor = {
+  AdditionalFirst: primitivesColors.Red80,
+  AdditionalFirstHard: primitivesColors.Red04,
+  AdditionalFirstSoft: primitivesColors.Red01,
+
+  AdditionalSecond: primitivesColors.Orange80,
+  AdditionalSecondHard: primitivesColors.Orange04,
+  AdditionalSecondSoft: primitivesColors.Orange01,
+
+  AdditionalThird: primitivesColors.Yellow80,
+  AdditionalThirdHard: primitivesColors.Yellow04,
+  AdditionalThirdSoft: primitivesColors.Yellow01,
+
+  AdditionalFourth: primitivesColors.Green80,
+  AdditionalFourthHard: primitivesColors.Green04,
+  AdditionalFourthSoft: primitivesColors.Green01,
+
+  AdditionalFifth: primitivesColors.Mint80,
+  AdditionalFifthHard: primitivesColors.Mint04,
+  AdditionalFifthSoft: primitivesColors.Mint01,
+
+  AdditionalSixth: primitivesColors.Blue80,
+  AdditionalSixthHard: primitivesColors.Blue04,
+  AdditionalSixthSoft: primitivesColors.Blue01,
+
+  AdditionalSeventh: primitivesColors.Violet80,
+  AdditionalSeventhHard: primitivesColors.Violet04,
+  AdditionalSeventhSoft: primitivesColors.Violet01,
+};
+
+/** @deprecated **/
 export const defaultChartLightColor = {
   ChartFirst: '#FF6952',
   ChartFirstHard: 'rgba(255, 105, 82, 0.45)',
@@ -167,6 +349,7 @@ export const defaultChartLightColor = {
   ChartSeventhHard: 'rgba(110, 110, 247, 0.45)',
   ChartSeventhSoft: 'rgba(110, 110, 247, 0.15)',
 };
+/** @deprecated **/
 export const defaultChartDarkColor = {
   ChartFirst: '#FF6952',
   ChartFirstHard: 'rgba(255, 105, 82, 0.45)',
@@ -191,6 +374,7 @@ export const defaultChartDarkColor = {
   ChartSeventhSoft: 'rgba(110, 110, 247, 0.15)',
 };
 
+/** @deprecated **/
 export const defaultCategoryLightColor = {
   CategoryFirst: '#FF6952',
   CategoryFirstHard: 'rgba(255, 105, 82, 0.45)',
@@ -214,7 +398,7 @@ export const defaultCategoryLightColor = {
   CategorySeventhHard: 'rgba(110, 110, 247, 0.45)',
   CategorySeventhSoft: 'rgba(110, 110, 247, 0.15)',
 };
-
+/** @deprecated **/
 export const defaultCategoryDarkColor = {
   CategoryFirst: '#FF6952',
   CategoryFirstHard: 'rgba(255, 105, 82, 0.45)',
@@ -239,6 +423,7 @@ export const defaultCategoryDarkColor = {
   CategorySeventhSoft: 'rgba(110, 110, 247, 0.15)',
 };
 
+/** @deprecated **/
 export const defaultBannerLightColor = {
   BannerFirst: '#FF6952',
   BannerFirstHard: 'rgba(255, 105, 82, 0.45)',
@@ -262,6 +447,7 @@ export const defaultBannerLightColor = {
   BannerSeventhHard: 'rgba(110, 110, 247, 0.45)',
   BannerSeventhSoft: 'rgba(110, 110, 247, 0.15)',
 };
+/** @deprecated **/
 export const defaultBannerDarkColor = {
   BannerFirst: '#FF6952',
   BannerFirstHard: 'rgba(255, 105, 82, 0.45)',

@@ -35,7 +35,7 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom flatList styles 1`] = 
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -51,8 +51,8 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom flatList styles 1`] = 
     style={
       [
         {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
+          "backgroundColor": "#F2F4F7",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
           "borderRadius": 12,
           "borderWidth": 1,
           "paddingVertical": 8,
@@ -199,7 +199,7 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with array in selected
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -215,8 +215,8 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with array in selected
     style={
       [
         {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
+          "backgroundColor": "#F2F4F7",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
           "borderRadius": 12,
           "borderWidth": 1,
           "paddingVertical": 8,
@@ -365,7 +365,7 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with array in selected
               style={
                 [
                   {
-                    "color": "#444B5A",
+                    "color": "#353A45",
                     "fontFamily": "Inter-Regular",
                     "fontSize": 16,
                     "lineHeight": 20,
@@ -420,7 +420,7 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with empty array in se
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -436,8 +436,8 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with empty array in se
     style={
       [
         {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
+          "backgroundColor": "#F2F4F7",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
           "borderRadius": 12,
           "borderWidth": 1,
           "paddingVertical": 8,
@@ -529,7 +529,7 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with empty array in se
               style={
                 [
                   {
-                    "color": "#444B5A",
+                    "color": "#353A45",
                     "fontFamily": "Inter-Regular",
                     "fontSize": 16,
                     "lineHeight": 20,
@@ -584,7 +584,7 @@ exports[`@lad-tech/mobydick-core/Selector Selector custom with empty array in se
               style={
                 [
                   {
-                    "color": "#444B5A",
+                    "color": "#353A45",
                     "fontFamily": "Inter-Regular",
                     "fontSize": 16,
                     "lineHeight": 20,
@@ -639,7 +639,7 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem TouchableHig
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -655,8 +655,8 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem TouchableHig
     style={
       [
         {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
+          "backgroundColor": "#F2F4F7",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
           "borderRadius": 12,
           "borderWidth": 1,
           "paddingVertical": 8,
@@ -803,7 +803,7 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography  
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -819,8 +819,8 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography  
     style={
       [
         {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
+          "backgroundColor": "#F2F4F7",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
           "borderRadius": 12,
           "borderWidth": 1,
           "paddingVertical": 8,
@@ -910,7 +910,7 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography  
               style={
                 [
                   {
-                    "color": "#F54D3D",
+                    "color": "#F54C3D",
                     "fontFamily": "Inter-Bold",
                     "fontSize": 18,
                     "lineHeight": 22,
@@ -965,7 +965,7 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography w
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -981,8 +981,8 @@ exports[`@lad-tech/mobydick-core/Selector render correct renderItem Typography w
     style={
       [
         {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
+          "backgroundColor": "#F2F4F7",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
           "borderRadius": 12,
           "borderWidth": 1,
           "paddingVertical": 8,
@@ -1129,7 +1129,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly 1`] = `
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -1145,8 +1145,8 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly 1`] = `
     style={
       [
         {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
+          "backgroundColor": "#F2F4F7",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
           "borderRadius": 12,
           "borderWidth": 1,
           "paddingVertical": 8,
@@ -1234,7 +1234,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly 1`] = `
               style={
                 [
                   {
-                    "color": "#444B5A",
+                    "color": "#353A45",
                     "fontFamily": "Inter-Regular",
                     "fontSize": 16,
                     "lineHeight": 20,
@@ -1289,7 +1289,7 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -1305,8 +1305,8 @@ exports[`@lad-tech/mobydick-core/Selector renders correctly with bottom padding 
     style={
       [
         {
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.15)",
+          "backgroundColor": "#F2F4F7",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
           "borderRadius": 12,
           "borderWidth": 1,
           "paddingVertical": 8,
