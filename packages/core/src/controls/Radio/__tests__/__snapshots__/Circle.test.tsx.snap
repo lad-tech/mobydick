@@ -34,7 +34,7 @@ exports[`@lad-tech/mobydick-core/Radio/Circle renders correctly 1`] = `
   style={
     {
       "aspectRatio": 1,
-      "borderColor": "#FFF",
+      "borderColor": "#FFFFFF",
       "borderRadius": 9,
       "borderWidth": 2,
       "width": 18,
@@ -77,7 +77,7 @@ exports[`@lad-tech/mobydick-core/Radio/Circle renders correctly selected 1`] = `
   style={
     {
       "aspectRatio": 1,
-      "borderColor": "#FFF",
+      "borderColor": "#FFFFFF",
       "borderRadius": 9,
       "borderWidth": 2,
       "width": 18,
@@ -90,7 +90,7 @@ exports[`@lad-tech/mobydick-core/Radio/Circle renders correctly selected 1`] = `
         "alignItems": "center",
         "aspectRatio": 1,
         "backgroundColor": "transparent",
-        "borderColor": "rgba(32, 36, 45, 0.3)",
+        "borderColor": "rgba(21, 28, 44, 0.2)",
         "borderRadius": 11,
         "borderWidth": 2,
         "justifyContent": "center",

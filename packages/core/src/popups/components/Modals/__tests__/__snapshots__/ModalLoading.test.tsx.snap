@@ -35,7 +35,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -58,7 +58,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "borderRadius": 12,
           "justifyContent": "center",
           "marginVertical": 20,
@@ -191,7 +191,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
           {
             "alignItems": "center",
             "alignSelf": "stretch",
-            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "backgroundColor": "#F2F4F7",
             "borderRadius": 12,
             "flexDirection": "row",
             "justifyContent": "center",
@@ -263,7 +263,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -286,7 +286,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "borderRadius": 12,
           "justifyContent": "center",
           "marginVertical": 20,
@@ -419,7 +419,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
           {
             "alignItems": "center",
             "alignSelf": "stretch",
-            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "backgroundColor": "#F2F4F7",
             "borderRadius": 12,
             "flexDirection": "row",
             "justifyContent": "center",

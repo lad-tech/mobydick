@@ -6,7 +6,7 @@ exports[`Search render correctly with value 1`] = `
     [
       {
         "alignItems": "center",
-        "backgroundColor": "#EEEFF1",
+        "backgroundColor": "#F2F4F7",
         "borderRadius": 8,
         "flexDirection": "row",
         "height": 36,
@@ -74,7 +74,7 @@ exports[`Search render correctly with value 1`] = `
     style={
       {
         "alignItems": "center",
-        "backgroundColor": "#D1D4DB",
+        "backgroundColor": "#D0D6E0",
         "borderRadius": 24,
         "justifyContent": "center",
         "padding": 4,
@@ -85,7 +85,7 @@ exports[`Search render correctly with value 1`] = `
       allowFontScaling={true}
       style={
         {
-          "color": "#5E6678",
+          "color": "#353A45",
           "fontFamily": "Neotis",
           "fontSize": 16,
         }
@@ -103,7 +103,7 @@ exports[`Search render correctly without value 1`] = `
     [
       {
         "alignItems": "center",
-        "backgroundColor": "#EEEFF1",
+        "backgroundColor": "#F2F4F7",
         "borderRadius": 8,
         "flexDirection": "row",
         "height": 36,
@@ -119,7 +119,7 @@ exports[`Search render correctly without value 1`] = `
     allowFontScaling={true}
     style={
       {
-        "color": "#5E6678",
+        "color": "#353A45",
         "fontFamily": "Neotis",
         "fontSize": 24,
       }

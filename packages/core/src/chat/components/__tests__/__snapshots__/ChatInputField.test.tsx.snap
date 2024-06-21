@@ -24,7 +24,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
       [
         {
           "alignItems": undefined,
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#F2F4F7",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -119,8 +119,8 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
       [
         {
           "alignItems": undefined,
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "backgroundColor": "#F2F4F7",
+          "borderColor": "rgba(21, 28, 44, 0.2)",
           "borderRadius": 8,
           "borderWidth": 1,
           "flexDirection": "row",
@@ -212,7 +212,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
       [
         {
           "alignItems": undefined,
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#F2F4F7",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -305,7 +305,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
       [
         {
           "alignItems": undefined,
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#F2F4F7",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,

@@ -42,7 +42,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly VerticalButt
       {
         "alignItems": "center",
         "alignSelf": "stretch",
-        "backgroundColor": "#F54D3D",
+        "backgroundColor": "#F54C3D",
         "borderRadius": 12,
         "flexDirection": "row",
         "justifyContent": "center",
@@ -56,7 +56,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly VerticalButt
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 18,
             "lineHeight": 22,

@@ -87,7 +87,7 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
       style={
         [
           {
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 4,
             "borderWidth": 2,
             "height": 20,
@@ -192,7 +192,7 @@ exports[`ControlsList should renders correctly with checkbox type 1`] = `
       style={
         [
           {
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 4,
             "borderWidth": 2,
             "height": 20,
@@ -311,7 +311,7 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       style={
         [
           {
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 4,
             "borderWidth": 2,
             "height": 20,
@@ -416,7 +416,7 @@ exports[`ControlsList should renders correctly with checkbox type and horizontal
       style={
         [
           {
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 4,
             "borderWidth": 2,
             "height": 20,
@@ -535,7 +535,7 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
       style={
         [
           {
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 4,
             "borderWidth": 2,
             "height": 20,
@@ -640,7 +640,7 @@ exports[`ControlsList should renders correctly with checkbox type and single 1`]
       style={
         [
           {
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 4,
             "borderWidth": 2,
             "height": 20,
@@ -774,7 +774,7 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
         style={
           {
             "aspectRatio": 1,
-            "borderColor": "#FFF",
+            "borderColor": "#FFFFFF",
             "borderRadius": 9,
             "borderWidth": 2,
             "width": 18,
@@ -878,7 +878,7 @@ exports[`ControlsList should renders correctly with radio type 1`] = `
           "alignItems": "center",
           "aspectRatio": 1,
           "backgroundColor": "transparent",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "rgba(21, 28, 44, 0.2)",
           "borderRadius": 11,
           "borderWidth": 2,
           "justifyContent": "center",
@@ -997,7 +997,7 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
           "alignItems": "center",
           "aspectRatio": 1,
           "backgroundColor": "transparent",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "rgba(21, 28, 44, 0.2)",
           "borderRadius": 11,
           "borderWidth": 2,
           "justifyContent": "center",
@@ -1102,7 +1102,7 @@ exports[`ControlsList should renders correctly with radio type and horizontal 1`
           "alignItems": "center",
           "aspectRatio": 1,
           "backgroundColor": "transparent",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "rgba(21, 28, 44, 0.2)",
           "borderRadius": 11,
           "borderWidth": 2,
           "justifyContent": "center",
@@ -1221,7 +1221,7 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
           "alignItems": "center",
           "aspectRatio": 1,
           "backgroundColor": "transparent",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "rgba(21, 28, 44, 0.2)",
           "borderRadius": 11,
           "borderWidth": 2,
           "justifyContent": "center",
@@ -1326,7 +1326,7 @@ exports[`ControlsList should renders correctly with radio type and single 1`] = 
           "alignItems": "center",
           "aspectRatio": 1,
           "backgroundColor": "transparent",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "rgba(21, 28, 44, 0.2)",
           "borderRadius": 11,
           "borderWidth": 2,
           "justifyContent": "center",

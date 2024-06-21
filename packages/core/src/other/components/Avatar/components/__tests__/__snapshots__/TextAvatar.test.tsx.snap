@@ -6,7 +6,7 @@ exports[`TextAvatar render TextAvatar 1`] = `
   style={
     [
       {
-        "color": "#FFF",
+        "color": "#FFFFFF",
         "fontFamily": "Inter-Regular",
         "fontSize": 10,
         "lineHeight": 14,
@@ -26,7 +26,7 @@ exports[`TextAvatar render TextAvatar size L 1`] = `
   style={
     [
       {
-        "color": "#FFF",
+        "color": "#FFFFFF",
         "fontFamily": "Inter-Regular",
         "fontSize": 18,
         "lineHeight": 22,
@@ -46,7 +46,7 @@ exports[`TextAvatar render TextAvatar size M 1`] = `
   style={
     [
       {
-        "color": "#FFF",
+        "color": "#FFFFFF",
         "fontFamily": "Inter-Regular",
         "fontSize": 12,
         "lineHeight": 16,
@@ -66,7 +66,7 @@ exports[`TextAvatar render TextAvatar size S 1`] = `
   style={
     [
       {
-        "color": "#FFF",
+        "color": "#FFFFFF",
         "fontFamily": "Inter-Regular",
         "fontSize": 10,
         "lineHeight": 14,
@@ -86,7 +86,7 @@ exports[`TextAvatar render TextAvatar size XL 1`] = `
   style={
     [
       {
-        "color": "#FFF",
+        "color": "#FFFFFF",
         "fontFamily": "Inter-Regular",
         "fontSize": 22,
         "lineHeight": 24,

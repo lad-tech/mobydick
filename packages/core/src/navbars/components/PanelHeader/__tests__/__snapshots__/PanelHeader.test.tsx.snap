@@ -62,7 +62,7 @@ exports[`Tab render panelHeader 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -106,7 +106,7 @@ exports[`Tab render panelHeader 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -270,7 +270,7 @@ exports[`Tab render panelHeader isSafeAreaView 1`] = `
         allowFontScaling={true}
         style={
           {
-            "color": "#5E6678",
+            "color": "#353A45",
             "fontFamily": "Neotis",
             "fontSize": 24,
           }
@@ -314,7 +314,7 @@ exports[`Tab render panelHeader isSafeAreaView 1`] = `
         allowFontScaling={true}
         style={
           {
-            "color": "#5E6678",
+            "color": "#353A45",
             "fontFamily": "Neotis",
             "fontSize": 24,
           }
@@ -389,7 +389,7 @@ exports[`Tab render panelHeader only leftView 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -505,7 +505,7 @@ exports[`Tab render panelHeader only rightView 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -684,7 +684,7 @@ exports[`Tab render panelHeader with title 1`] = `
             style={
               [
                 {
-                  "color": "#444B5A",
+                  "color": "#353A45",
                   "fontFamily": "Inter-SemiBold",
                   "fontSize": 16,
                   "lineHeight": 20,

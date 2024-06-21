@@ -78,8 +78,8 @@ exports[`@lad-tech/mobydick-core/DropDown multiselect snapshot 1`] = `
         [
           {
             "alignItems": "center",
-            "backgroundColor": "#EEEFF1",
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "backgroundColor": "#F2F4F7",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 8,
             "borderWidth": 1,
             "flexDirection": "row",
@@ -200,7 +200,7 @@ exports[`@lad-tech/mobydick-core/DropDown multiselect snapshot 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -292,8 +292,8 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements 1`] = `
         [
           {
             "alignItems": "center",
-            "backgroundColor": "#EEEFF1",
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "backgroundColor": "#F2F4F7",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 8,
             "borderWidth": 1,
             "flexDirection": "row",
@@ -343,7 +343,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -435,7 +435,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements disabled
         [
           {
             "alignItems": "center",
-            "backgroundColor": "#D1D4DB",
+            "backgroundColor": "#D0D6E0",
             "borderColor": "transparent",
             "borderRadius": 8,
             "borderWidth": 1,
@@ -486,7 +486,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements disabled
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -629,7 +629,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type val
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -726,7 +726,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type wro
         [
           {
             "alignItems": "center",
-            "backgroundColor": "rgba(245, 77, 61, 0.15)",
+            "backgroundColor": "rgba(249, 97, 84, 0.1)",
             "borderColor": "transparent",
             "borderRadius": 8,
             "borderWidth": 1,
@@ -782,7 +782,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type wro
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -874,8 +874,8 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly without array 1`] = 
         [
           {
             "alignItems": "center",
-            "backgroundColor": "#EEEFF1",
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "backgroundColor": "#F2F4F7",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 8,
             "borderWidth": 1,
             "flexDirection": "row",
@@ -925,7 +925,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly without array 1`] = 
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -990,7 +990,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly without array with t
             "minHeight": 16,
           },
           {
-            "color": "#F54D3D",
+            "color": "#F54C3D",
           },
         ]
       }
@@ -1036,8 +1036,8 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly without array with t
         [
           {
             "alignItems": "center",
-            "backgroundColor": "#EEEFF1",
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "backgroundColor": "#F2F4F7",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 8,
             "borderWidth": 1,
             "flexDirection": "row",
@@ -1087,7 +1087,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly without array with t
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1179,8 +1179,8 @@ exports[`@lad-tech/mobydick-core/DropDown selectItemClose 1`] = `
         [
           {
             "alignItems": "center",
-            "backgroundColor": "#EEEFF1",
-            "borderColor": "rgba(32, 36, 45, 0.3)",
+            "backgroundColor": "#F2F4F7",
+            "borderColor": "rgba(21, 28, 44, 0.2)",
             "borderRadius": 8,
             "borderWidth": 1,
             "flexDirection": "row",
@@ -1235,7 +1235,7 @@ exports[`@lad-tech/mobydick-core/DropDown selectItemClose 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }

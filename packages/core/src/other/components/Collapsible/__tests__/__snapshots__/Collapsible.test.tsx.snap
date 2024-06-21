@@ -59,7 +59,7 @@ exports[`Collapsible render crossed onPress - 1 1`] = `
       style={
         [
           {
-            "color": "#20242D",
+            "color": "#151C2C",
             "fontFamily": "Inter-Regular",
             "fontSize": 14,
             "lineHeight": 18,
@@ -82,7 +82,7 @@ exports[`Collapsible render crossed onPress - 1 1`] = `
       allowFontScaling={true}
       style={
         {
-          "color": "#5E6678",
+          "color": "#353A45",
           "fontFamily": "Neotis",
           "fontSize": 24,
         }
@@ -151,7 +151,7 @@ exports[`Collapsible render crossed onPress - 1 android 1`] = `
       style={
         [
           {
-            "color": "#444B5A",
+            "color": "#353A45",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 16,
             "lineHeight": 20,
@@ -172,7 +172,7 @@ exports[`Collapsible render crossed onPress - 1 android 1`] = `
       allowFontScaling={true}
       style={
         {
-          "color": "#5E6678",
+          "color": "#353A45",
           "fontFamily": "Neotis",
           "fontSize": 24,
         }
@@ -242,7 +242,7 @@ exports[`Collapsible render crossed onPress - 2 1`] = `
       style={
         [
           {
-            "color": "#444B5A",
+            "color": "#353A45",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 16,
             "lineHeight": 20,
@@ -263,7 +263,7 @@ exports[`Collapsible render crossed onPress - 2 1`] = `
       allowFontScaling={true}
       style={
         {
-          "color": "#5E6678",
+          "color": "#353A45",
           "fontFamily": "Neotis",
           "fontSize": 24,
         }
