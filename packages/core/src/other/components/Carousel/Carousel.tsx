@@ -37,15 +37,15 @@ const Carousel = <T,>({
   isDots = false,
   onActiveChange,
   align = ICarouselAlign.start,
-  onEndReached,
   initialNumToRender,
   isScrolling = false,
   ms = 2000,
-  indexScroll,
+  indexScroll = 0,
   dotSize,
   activeDotColor,
   passiveDotColor,
   dotsStyles,
+  isLoop,
   ...otherProps
 }: ICarouselProps<T>): JSX.Element => {
   const ref = useRef<FlatList>(null);
@@ -167,16 +167,18 @@ const Carousel = <T,>({
     }
 
     const timerAutoScroll = setInterval(() => {
-      setCurrIndex(state => {
-        ref.current?.scrollToIndex({
-          animated: true,
-          index: state + 1,
+      if (currIndex !== data.length - 1) {
+        setCurrIndex(state => {
+          ref.current?.scrollToIndex({
+            animated: true,
+            index: state + 1,
+          });
+          return state + 1;
         });
-        return state + 1;
-      });
+      }
     }, ms);
 
-    if (currIndex === data.length - 1) {
+    if (currIndex === data.length - 1 && !isLoop) {
       clearInterval(timerAutoScroll);
     }
 
@@ -184,11 +186,23 @@ const Carousel = <T,>({
   }, [currIndex, data.length, isScrolling, ms]);
 
   const checkScroll = useCallback(
-    ({contentOffset}: NativeScrollEvent, index: number) => {
-      if (!contentOffset.x) {
+    (nativeEvent: NativeScrollEvent, index: number) => {
+      if (!nativeEvent.contentOffset.x) {
         ref.current?.scrollToOffset({
           offset: widthSnap * index,
           animated: false,
+        });
+      }
+      if (
+        nativeEvent.contentSize.width ===
+        nativeEvent.contentOffset.x + nativeEvent.layoutMeasurement.width
+      ) {
+        setCurrIndex(() => {
+          ref.current?.scrollToOffset({
+            offset: widthSnap * index,
+            animated: false,
+          });
+          return index;
         });
       }
     },
@@ -224,8 +238,6 @@ const Carousel = <T,>({
         bounces={false}
         scrollEventThrottle={16}
         onScroll={onScroll}
-        onEndReached={onEndReached}
-        onEndReachedThreshold={0.5}
         removeClippedSubviews={true}
         initialNumToRender={initialNumToRender || 10}
         {...otherProps}
