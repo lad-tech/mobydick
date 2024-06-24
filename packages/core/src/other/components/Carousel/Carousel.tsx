@@ -40,7 +40,7 @@ const Carousel = <T,>({
   initialNumToRender,
   isScrolling = false,
   ms = 2000,
-  indexScroll = 0,
+  indexScroll,
   dotSize,
   activeDotColor,
   passiveDotColor,
