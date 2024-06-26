@@ -44,7 +44,6 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
   initialNumToRender={10}
   keyExtractor={[Function]}
   onContentSizeChange={[Function]}
-  onEndReachedThreshold={0.5}
   onLayout={[Function]}
   onMomentumScrollBegin={[Function]}
   onMomentumScrollEnd={[Function]}

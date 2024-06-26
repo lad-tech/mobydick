@@ -1,18 +1,8 @@
 {
   "branches": [
     "main",
-    "next",
-    "next-major",
     {
-      "name": "release",
-      "prerelease": true
-    },
-    {
-      "name": "develop",
-      "prerelease": true
-    },
-    {
-      "name": "swimlane-*",
+      "name": "next",
       "prerelease": true
     }
   ],
