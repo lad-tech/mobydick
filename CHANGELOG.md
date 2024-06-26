@@ -1,3 +1,16 @@
+# [7.34.0-next.1](https://github.com/lad-tech/mobydick/compare/v7.33.0...v7.34.0-next.1) (2024-06-26)
+
+
+### Bug Fixes
+
+* **Carousel:** deleted infinity data ([fd31030](https://github.com/lad-tech/mobydick/commit/fd31030719e22ac43e6bd83267da6c9ec234dd83))
+
+
+### Features
+
+* add Title and new Typography [#224](https://github.com/lad-tech/mobydick/issues/224) ([fed364b](https://github.com/lad-tech/mobydick/commit/fed364bf0deb3c279b212da41b25c07c11beb943))
+* update colors ([e45dc20](https://github.com/lad-tech/mobydick/commit/e45dc204d017066accd12701eb3ff6a72995ff48))
+
 # [7.33.0](https://github.com/lad-tech/mobydick/compare/v7.32.0...v7.33.0) (2024-06-05)
 
 
