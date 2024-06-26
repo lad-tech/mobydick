@@ -1,4 +1,4 @@
-import { SCREENS } from '@shared/lib/constants/screens';
+import { SCREENS } from "@shared/lib/constants/screens";
 
 type IRootStackParamList = {
   [SCREENS.Home]: undefined,
@@ -14,6 +14,7 @@ type IRootStackParamList = {
   [SCREENS.CTA]: undefined
   [SCREENS.Inputs]: undefined
   [SCREENS.Popups]: undefined
+  [SCREENS.Portals]: undefined
   [SCREENS.Progress]: undefined
   [SCREENS.Styles]: undefined
   [SCREENS.Typography]: undefined

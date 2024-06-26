@@ -30,6 +30,7 @@ import OtherScreen from '@pages/MainStack/Home/Core/Other/ui';
 import NavbarsScreen from '@pages/MainStack/Home/Core/Navbars/ui';
 import DragAndDropScreen from '@pages/MainStack/Home/Core/DragAndDrop/ui';
 import MarkdownScreen from '@pages/MainStack/Home/Markdown/ui';
+import {PortalsScreen} from '@pages/MainStack/Home/Core/Portals/ui';
 
 const Stack = createNativeStackNavigator<IRootStackParamList>();
 
@@ -89,6 +90,7 @@ const MainStack = () => {
           <Stack.Screen name={SCREENS.CTA} component={CTAScreen} />
           <Stack.Screen name={SCREENS.Inputs} component={InputsScreen} />
           <Stack.Screen name={SCREENS.Popups} component={PopupScreen} />
+          <Stack.Screen name={SCREENS.Portals} component={PortalsScreen} />
           <Stack.Screen name={SCREENS.Progress} component={ProgressScreen} />
           <Stack.Screen name={SCREENS.Styles} component={StylesScreen} />
           <Stack.Screen
