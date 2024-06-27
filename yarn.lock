@@ -3006,6 +3006,18 @@
     deepmerge "^4.3.1"
     svgo "^3.0.2"
 
+"@tabler/icons-react-native@^3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons-react-native/-/icons-react-native-3.7.0.tgz#e44c6dd54ab82d705625642e50e160ddab8b1ab6"
+  integrity sha512-kIy6JF75y3m70mhCOTaT3V1FERVOxPZ7IcvjAaO96YTaweHk7B+W2f2Ptd+hSHBVeA0nRHsK0wb8ZY9Wt6i5vA==
+  dependencies:
+    "@tabler/icons" "3.7.0"
+
+"@tabler/icons@3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-3.7.0.tgz#b522723844644b50ccaddd0fd19a91c0eb3095da"
+  integrity sha512-lJGIZLSWrPO6VygRUbaVvQjWgL2EaiBMD8e6leCYUQ8ZPO4LIzKMq358C8KlhXJcyNiRz1Io3YWoc/DNTcWqSg==
+
 "@testing-library/react-hooks@^8.0.0":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@testing-library/react-hooks/-/react-hooks-8.0.1.tgz#0924bbd5b55e0c0c0502d1754657ada66947ca12"
