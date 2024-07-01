@@ -1,6 +1,6 @@
 {
   "name": "@lad-tech/mobydick-markdown",
-  "version": "7.34.0-next.1",
+  "version": "7.34.0-next.2",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "index.ts",
   "keywords": [
@@ -31,7 +31,7 @@
   "peerDependencies": {
     "react-native": ">=0.66.4",
     "react": ">=17.0.2",
-    "@lad-tech/mobydick-core": "7.34.0-next.1",
+    "@lad-tech/mobydick-core": "7.34.0-next.2",
     "react-native-markdown-display": ">=7.0.2"
   }
 }

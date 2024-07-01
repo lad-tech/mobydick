@@ -1,3 +1,10 @@
+# [7.34.0-next.2](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.1...v7.34.0-next.2) (2024-07-01)
+
+
+### Features
+
+* add TablerIcons [#255](https://github.com/lad-tech/mobydick/issues/255) ([b81baba](https://github.com/lad-tech/mobydick/commit/b81babaccfa5ed0cf394dd8862ff012533d17213))
+
 # [7.34.0-next.1](https://github.com/lad-tech/mobydick/compare/v7.33.0...v7.34.0-next.1) (2024-06-26)
 
 
