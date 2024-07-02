@@ -28,6 +28,7 @@ export enum CurrentTheme {
   light = 'light',
   dark = 'dark',
 }
+/** @deprecated  use defaultFont **/
 export const defaultFonts: TWeights = {
   Regular: 'Inter-Regular',
   Medium: 'Inter-Medium',
@@ -35,7 +36,7 @@ export const defaultFonts: TWeights = {
   Bold: 'Inter-Bold',
 };
 
-export const defaultFont = 'Inter-Regular';
+export const defaultFont = 'Inter';
 
 export const defaultTheme: IDefaultTheme = {
   currentTheme: CurrentTheme.light,

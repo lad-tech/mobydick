@@ -35,6 +35,7 @@ export interface IDefaultTheme {
       IBannerColors
   >;
   spaces: IDefaultSpaces;
+  /** @deprecated  use font **/
   fonts: TWeights;
   font: string;
   shadows: IShadow;
