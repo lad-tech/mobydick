@@ -1,3 +1,15 @@
+# [7.34.0-next.4](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.3...v7.34.0-next.4) (2024-07-08)
+
+
+### Bug Fixes
+
+* add forgotten colors and update types ([88cb363](https://github.com/lad-tech/mobydick/commit/88cb36305cea2dc0dd957ddbb61e1aa99714368a))
+
+
+### Features
+
+* update Slider styles ([ca3efa4](https://github.com/lad-tech/mobydick/commit/ca3efa4f5f4e43e8ef3b30323fe422167c7b9cb5))
+
 # [7.34.0-next.3](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.2...v7.34.0-next.3) (2024-07-08)
 
 
