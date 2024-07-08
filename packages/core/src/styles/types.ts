@@ -4,6 +4,7 @@ import {TWeights} from '../typography';
 
 import {
   CurrentTheme,
+  IAdditionalColors,
   IBannerColors,
   IBgColors,
   IBorderColors,
@@ -32,7 +33,8 @@ export interface IDefaultTheme {
       IBorderColors &
       IChartColors &
       ICategoryColors &
-      IBannerColors
+      IBannerColors &
+      IAdditionalColors
   >;
   spaces: IDefaultSpaces;
   /** @deprecated  use font **/
@@ -52,7 +54,8 @@ export interface IThemeContext {
     IBorderColors &
     IChartColors &
     ICategoryColors &
-    IBannerColors;
+    IBannerColors &
+    IAdditionalColors;
   spaces: IDefaultSpaces;
   fonts: TWeights;
   font: string;
