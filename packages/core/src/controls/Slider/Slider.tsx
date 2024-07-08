@@ -37,8 +37,8 @@ export interface ISliderProps extends ViewProps {
   onValueChanged?: (low: number, high: number, byUser: boolean) => void;
   hitSlop?: Insets;
 }
-const THUMB_RADIUS_LOW = px(12) * 2;
-const THUMB_RADIUS_HIGH = THUMB_RADIUS_LOW + px(6);
+const THUMB_RADIUS_LOW = px(16);
+const THUMB_RADIUS_HIGH = THUMB_RADIUS_LOW + px(4);
 
 const Slider: React.FC<ISliderProps> = ({
   min,
