@@ -22,9 +22,9 @@ const Thumb = ({size}: {size: Animated.Value}) => {
 
 const stylesCreate = createStyles(({spaces, colors}) => ({
   root: {
-    borderWidth: spaces.Space2,
-    borderColor: colors.IconMuted,
-    backgroundColor: colors.BgPrimary,
+    borderWidth: spaces.Space4,
+    borderColor: colors.BorderExtra,
+    backgroundColor: colors.BgTertiary,
   },
 }));
 
