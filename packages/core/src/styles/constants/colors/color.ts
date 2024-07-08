@@ -1,3 +1,15 @@
+import {
+  IBannerColors,
+  IBgColors,
+  IBorderColors,
+  ICategoryColors,
+  IChartColors,
+  ICTAColors,
+  IElementColors,
+  IIconColors,
+  ITextColors,
+} from './types';
+
 export const primitivesColors = {
   Blue100: '#2B78EE',
   Blue80: '#5B99F9',
@@ -60,7 +72,7 @@ export const primitivesColors = {
   Accent80: '#5B99F9',
 };
 
-export const defaultTextLightColor = {
+export const defaultTextLightColor: ITextColors = {
   TextAccent: primitivesColors.Accent100,
   TextAccentContrast: primitivesColors.Accent80,
   TextPrimary: primitivesColors.Neutral100,
@@ -79,7 +91,7 @@ export const defaultTextLightColor = {
   /** @deprecated use TextInverse **/
   TextContrast: '#FFF',
 };
-export const defaultTextDarkColor = {
+export const defaultTextDarkColor: ITextColors = {
   TextAccent: primitivesColors.Accent100,
   TextAccentContrast: primitivesColors.Accent80,
   TextPrimary: primitivesColors.Neutral0,
@@ -99,7 +111,7 @@ export const defaultTextDarkColor = {
   TextContrast: '#20242D',
 };
 
-export const defaultIconLightColor = {
+export const defaultIconLightColor: IIconColors = {
   IconAccent: primitivesColors.Accent100,
   IconNeutral: primitivesColors.Neutral80,
   IconMuted: primitivesColors.Neutral40,
@@ -117,7 +129,7 @@ export const defaultIconLightColor = {
   /** @deprecated use IconError **/
   IconAttention: '#F54D3D',
 };
-export const defaultIconDarkColor = {
+export const defaultIconDarkColor: IIconColors = {
   IconAccent: primitivesColors.Accent80,
   IconNeutral: primitivesColors.Neutral10,
   IconMuted: primitivesColors.Neutral40,
@@ -136,7 +148,7 @@ export const defaultIconDarkColor = {
   IconAttention: '#F86B5D',
 };
 
-export const defaultElementLightColor = {
+export const defaultElementLightColor: IElementColors = {
   ElementAccent: primitivesColors.Accent100,
   ElementNeutral: primitivesColors.Neutral80,
   ElementMuted: primitivesColors.Neutral20,
@@ -154,7 +166,7 @@ export const defaultElementLightColor = {
   /** @deprecated use ElementError **/
   ElementAttention: '#F54D3D',
 };
-export const defaultElementDarkColor = {
+export const defaultElementDarkColor: IElementColors = {
   ElementAccent: primitivesColors.Accent80,
   ElementNeutral: primitivesColors.Neutral10,
   ElementMuted: primitivesColors.Neutral60,
@@ -173,7 +185,7 @@ export const defaultElementDarkColor = {
   ElementAdditional: '#FAB742',
 };
 
-export const defaultBorderLightColor = {
+export const defaultBorderLightColor: IBorderColors = {
   BorderAccent: primitivesColors.Blue100,
   BorderExtra: primitivesColors.Black08,
   BorderHard: primitivesColors.Black04,
@@ -183,7 +195,7 @@ export const defaultBorderLightColor = {
   BorderWarning: primitivesColors.Orange100,
   BorderError: primitivesColors.Red100,
 };
-export const defaultBorderDarkColor = {
+export const defaultBorderDarkColor: IBorderColors = {
   BorderAccent: primitivesColors.Blue80,
   BorderExtra: primitivesColors.White08,
   BorderHard: primitivesColors.White04,
@@ -194,7 +206,7 @@ export const defaultBorderDarkColor = {
   BorderError: primitivesColors.Red80,
 };
 
-export const defaultBgLightColor = {
+export const defaultBgLightColor: IBgColors = {
   BgAccent: primitivesColors.Accent100,
   BgPrimary: primitivesColors.Neutral0,
   BgPrimaryExtra: primitivesColors.White08,
@@ -223,7 +235,7 @@ export const defaultBgLightColor = {
   /** @deprecated **/
   BgContrastExtra: 'rgba(32, 36, 45, 0.75)',
 };
-export const defaultBgDarkColor = {
+export const defaultBgDarkColor: IBgColors = {
   BgAccent: primitivesColors.Accent80,
   BgPrimary: primitivesColors.Neutral100,
   BgPrimaryExtra: primitivesColors.Black08,
@@ -253,13 +265,13 @@ export const defaultBgDarkColor = {
   BgAccentHard: 'rgba(43, 120, 238, 0.45)',
 };
 
-export const defaultCTALightColor = {
+export const defaultCTALightColor: ICTAColors = {
   CtaBtnPrimary: primitivesColors.Accent100,
   CtaBtnSecondary: primitivesColors.Neutral10,
   CtaBtnMuted: primitivesColors.Neutral10,
   CtaBtnDestructive: primitivesColors.Red100,
 };
-export const defaultCTADarkColor = {
+export const defaultCTADarkColor: ICTAColors = {
   CtaBtnPrimary: primitivesColors.Accent80,
   CtaBtnSecondary: primitivesColors.Neutral80,
   CtaBtnMuted: primitivesColors.Neutral80,
@@ -326,7 +338,7 @@ export const defaultAdditionalDarkColor = {
 };
 
 /** @deprecated **/
-export const defaultChartLightColor = {
+export const defaultChartLightColor: IChartColors = {
   ChartFirst: '#FF6952',
   ChartFirstHard: 'rgba(255, 105, 82, 0.45)',
   ChartFirstSoft: 'rgba(255, 105, 82, 0.15)',
@@ -350,7 +362,7 @@ export const defaultChartLightColor = {
   ChartSeventhSoft: 'rgba(110, 110, 247, 0.15)',
 };
 /** @deprecated **/
-export const defaultChartDarkColor = {
+export const defaultChartDarkColor: IChartColors = {
   ChartFirst: '#FF6952',
   ChartFirstHard: 'rgba(255, 105, 82, 0.45)',
   ChartFirstSoft: 'rgba(255, 105, 82, 0.15)',
@@ -375,7 +387,7 @@ export const defaultChartDarkColor = {
 };
 
 /** @deprecated **/
-export const defaultCategoryLightColor = {
+export const defaultCategoryLightColor: ICategoryColors = {
   CategoryFirst: '#FF6952',
   CategoryFirstHard: 'rgba(255, 105, 82, 0.45)',
   CategoryFirstSoft: 'rgba(255, 105, 82, 0.15)',
@@ -399,7 +411,7 @@ export const defaultCategoryLightColor = {
   CategorySeventhSoft: 'rgba(110, 110, 247, 0.15)',
 };
 /** @deprecated **/
-export const defaultCategoryDarkColor = {
+export const defaultCategoryDarkColor: ICategoryColors = {
   CategoryFirst: '#FF6952',
   CategoryFirstHard: 'rgba(255, 105, 82, 0.45)',
   CategoryFirstSoft: 'rgba(255, 105, 82, 0.15)',
@@ -424,7 +436,7 @@ export const defaultCategoryDarkColor = {
 };
 
 /** @deprecated **/
-export const defaultBannerLightColor = {
+export const defaultBannerLightColor: IBannerColors = {
   BannerFirst: '#FF6952',
   BannerFirstHard: 'rgba(255, 105, 82, 0.45)',
   BannerFirstSoft: 'rgba(255, 105, 82, 0.15)',
@@ -448,7 +460,7 @@ export const defaultBannerLightColor = {
   BannerSeventhSoft: 'rgba(110, 110, 247, 0.15)',
 };
 /** @deprecated **/
-export const defaultBannerDarkColor = {
+export const defaultBannerDarkColor: IBannerColors = {
   BannerFirst: '#FF6952',
   BannerFirstHard: 'rgba(255, 105, 82, 0.45)',
   BannerFirstSoft: 'rgba(255, 105, 82, 0.15)',

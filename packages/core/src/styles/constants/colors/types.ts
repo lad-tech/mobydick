@@ -3,72 +3,102 @@ import {ImageStyle, TextStyle, ViewStyle} from 'react-native';
 import {IShadowKeys} from '../../shadows';
 
 export type ITextColors = {
+  TextAccent: string;
+  TextAccentContrast: string;
   TextPrimary: string;
   TextSecondary: string;
   TextTertiary: string;
   TextMuted: string;
-  TextAccent: string;
-  TextAccentContrast: string;
-  TextContrast: string;
-  TextError: string;
-  TextBlack: string;
-  TextBlackExtra: string;
-  TextWhite: string;
-  TextWhiteExtra: string;
   TextSuccess: string;
   TextWarning: string;
+  TextError: string;
+  TextWhite: string;
+  TextWhiteExtra: string;
+  TextBlack: string;
+  TextBlackExtra: string;
+  TextInverse: string;
+
+  /** @deprecated use TextInverse **/
+  TextContrast: string;
 };
 
 export type IIconColors = {
+  IconAccent: string;
   IconNeutral: string;
   IconMuted: string;
-  IconBase: string;
-  IconAttention: string;
-  IconAdditional: string;
+  IconSuccess: string;
+  IconWarning: string;
+  IconError: string;
   IconWhite: string;
   IconBlack: string;
-  IconSuccess: string;
+  IconInverse: string;
+
+  /** @deprecated use IconAccent **/
+  IconBase: string;
+  /** @deprecated use IconWarning **/
+  IconAdditional: string;
+  /** @deprecated use IconError **/
+  IconAttention: string;
 };
 
 export type IElementColors = {
+  ElementAccent: string;
   ElementNeutral: string;
   ElementMuted: string;
-  ElementBase: string;
-  ElementAttention: string;
-  ElementAdditional: string;
+  ElementSuccess: string;
+  ElementWarning: string;
+  ElementError: string;
   ElementWhite: string;
   ElementBlack: string;
-  ElementSuccess: string;
+  ElementInverse: string;
+
+  /** @deprecated use ElementAccent **/
+  ElementBase: string;
+  /** @deprecated use ElementWarning **/
+  ElementAdditional: string;
+  /** @deprecated use ElementError **/
+  ElementAttention: string;
 };
 
 export type IBorderColors = {
+  BorderAccent: string;
   BorderExtra: string;
   BorderHard: string;
   BorderNormal: string;
   BorderSoft: string;
-  BorderError: string;
   BorderSuccess: string;
+  BorderWarning: string;
+  BorderError: string;
 };
 
 export type IBgColors = {
+  BgAccent: string;
   BgPrimary: string;
   BgPrimaryExtra: string;
   BgSecondary: string;
   BgTertiary: string;
-  BgQuaternary: string;
-  BgContrast: string;
-  BgContrastExtra: string;
-  BgError: string;
-  BgAccent: string;
-  BgAccentSoft: string;
-  BgAccentNormal: string;
-  BgAccentHard: string;
-  BgOverlay: string;
-  BgBlack: string;
-  BgWhite: string;
-  BgWhiteSoft: string;
   BgSuccess: string;
   BgWarning: string;
+  BgError: string;
+  BgWhite: string;
+  BgBlack: string;
+  BgOverlay: string;
+  BgInverse: string;
+
+  /** @deprecated **/
+  BgWhiteSoft: string;
+  /** @deprecated **/
+  BgAccentSoft: string;
+  /** @deprecated **/
+  BgAccentNormal: string;
+  /** @deprecated **/
+  BgAccentHard: string;
+  /** @deprecated **/
+  BgQuaternary: string;
+  /** @deprecated **/
+  BgContrast: string;
+  /** @deprecated **/
+  BgContrastExtra: string;
 };
 
 export type ICTAColors = {
@@ -78,6 +108,37 @@ export type ICTAColors = {
   CtaBtnDestructive: string;
 };
 
+export type IAdditionalColors = {
+  AdditionalFirst: string;
+  AdditionalFirstHard: string;
+  AdditionalFirstSoft: string;
+
+  AdditionalSecond: string;
+  AdditionalSecondHard: string;
+  AdditionalSecondSoft: string;
+
+  AdditionalThird: string;
+  AdditionalThirdHard: string;
+  AdditionalThirdSoft: string;
+
+  AdditionalFourth: string;
+  AdditionalFourthHard: string;
+  AdditionalFourthSoft: string;
+
+  AdditionalFifth: string;
+  AdditionalFifthHard: string;
+  AdditionalFifthSoft: string;
+
+  AdditionalSixth: string;
+  AdditionalSixthHard: string;
+  AdditionalSixthSoft: string;
+
+  AdditionalSeventh: string;
+  AdditionalSeventhHard: string;
+  AdditionalSeventhSoft: string;
+};
+
+/** @deprecated **/
 export type IChartColors = {
   ChartFirst: string;
   ChartFirstHard: string;
@@ -101,7 +162,7 @@ export type IChartColors = {
   ChartSeventhHard: string;
   ChartSeventhSoft: string;
 };
-
+/** @deprecated **/
 export type ICategoryColors = {
   CategoryFirst: string;
   CategoryFirstHard: string;
@@ -125,7 +186,7 @@ export type ICategoryColors = {
   CategorySeventhHard: string;
   CategorySeventhSoft: string;
 };
-
+/** @deprecated **/
 export type IBannerColors = {
   BannerFirst: string;
   BannerFirstHard: string;

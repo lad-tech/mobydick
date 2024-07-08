@@ -4,6 +4,8 @@ import {getShadows} from '../shadows/getShadows';
 
 import {defaultSpaces} from './defaultSpaces';
 import {
+  defaultAdditionalDarkColor,
+  defaultAdditionalLightColor,
   defaultBannerDarkColor,
   defaultBannerLightColor,
   defaultBgDarkColor,
@@ -51,6 +53,7 @@ export const defaultTheme: IDefaultTheme = {
       ...defaultChartLightColor,
       ...defaultCategoryLightColor,
       ...defaultBannerLightColor,
+      ...defaultAdditionalLightColor,
     },
     [CurrentTheme.dark]: {
       ...defaultTextDarkColor,
@@ -62,6 +65,7 @@ export const defaultTheme: IDefaultTheme = {
       ...defaultChartDarkColor,
       ...defaultCategoryDarkColor,
       ...defaultBannerDarkColor,
+      ...defaultAdditionalDarkColor,
     },
   },
   spaces: {
