@@ -98,7 +98,9 @@ const KeyboardAwareScrollView = ({
         {...rest}>
         {children}
       </Animated.ScrollView>
-      <View ref={bottomRef}>{BottomComponent}</View>
+      <View ref={bottomRef} collapsable={false}>
+        {BottomComponent}
+      </View>
       <Animated.View
         style={[
           Platform.OS === 'ios'
