@@ -1,3 +1,11 @@
+# [7.34.0-next.3](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.2...v7.34.0-next.3) (2024-07-08)
+
+
+### Bug Fixes
+
+* android KeyboardAwareScrollView [#258](https://github.com/lad-tech/mobydick/issues/258) ([13d6db0](https://github.com/lad-tech/mobydick/commit/13d6db0809901f6f9c3797e1e0ec65a7b7b7bdde))
+* update font ttf ([71d5e7d](https://github.com/lad-tech/mobydick/commit/71d5e7de5ec7dc586f9002c44f604724d335957e))
+
 # [7.34.0-next.2](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.1...v7.34.0-next.2) (2024-07-01)
 
 
