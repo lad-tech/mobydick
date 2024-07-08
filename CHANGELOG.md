@@ -1,3 +1,11 @@
+## [7.33.1](https://github.com/lad-tech/mobydick/compare/v7.33.0...v7.33.1) (2024-07-08)
+
+
+### Bug Fixes
+
+* android KeyboardAwareScrollView [#258](https://github.com/lad-tech/mobydick/issues/258) ([13d6db0](https://github.com/lad-tech/mobydick/commit/13d6db0809901f6f9c3797e1e0ec65a7b7b7bdde))
+* **Carousel:** deleted infinity data ([fd31030](https://github.com/lad-tech/mobydick/commit/fd31030719e22ac43e6bd83267da6c9ec234dd83))
+
 # [7.33.0](https://github.com/lad-tech/mobydick/compare/v7.32.0...v7.33.0) (2024-06-05)
 
 
