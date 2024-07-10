@@ -12,6 +12,7 @@ const Rating: FC<TRating> = ({
   count,
   iconStyle,
   iconSize = px(40),
+  fillColor,
 }) => {
   const [rating, setRating] = useState(-1);
   const [styles] = useStyles(stylesCreate);
@@ -36,6 +37,7 @@ const Rating: FC<TRating> = ({
       currentSelected={rating}
       iconStyle={iconStyle}
       iconSize={iconSize}
+      fillColor={fillColor}
     />
   ));
 

@@ -7,6 +7,7 @@ export type TStar = {
   currentSelected: number;
   iconSize: number;
   iconStyle?: StyleProp<ViewStyle>;
+  fillColor?: string;
 };
 
 export type TRating = {
@@ -14,4 +15,5 @@ export type TRating = {
   count: number;
   iconStyle?: StyleProp<ViewStyle>;
   iconSize?: number;
+  fillColor?: string;
 };

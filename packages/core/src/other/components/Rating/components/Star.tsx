@@ -11,6 +11,7 @@ const Star: FC<TStar> = ({
   currentSelected,
   iconSize,
   iconStyle,
+  fillColor = '#ffd712',
 }) => {
   const value = useState(new Animated.Value(0))[0];
 
@@ -47,7 +48,7 @@ const Star: FC<TStar> = ({
         <StarSVG
           height={iconSize}
           width={iconSize}
-          fill={filled ? '#ffd712' : '#cccccc'}
+          fill={filled ? fillColor : '#cccccc'}
         />
       </Animated.View>
     </TouchableOpacity>
