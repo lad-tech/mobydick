@@ -9,8 +9,10 @@ export const getDefaultFont = (
   let defaultButtonFont = 'SemiBold';
 
   switch (type) {
-    case IButtonTypes.primary:
     case IButtonTypes.disabled:
+      defaultButtonFont += '-Muted';
+      break;
+    case IButtonTypes.primary:
     case IButtonTypes.destructive:
     case IButtonTypes.loading:
       defaultButtonFont += '-White';
