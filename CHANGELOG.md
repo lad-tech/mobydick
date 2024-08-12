@@ -1,3 +1,10 @@
+# [7.34.0-next.6](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.5...v7.34.0-next.6) (2024-08-12)
+
+
+### Bug Fixes
+
+* update font import [#269](https://github.com/lad-tech/mobydick/issues/269) ([8c2b140](https://github.com/lad-tech/mobydick/commit/8c2b1401337fd457ab397a3de131718394c3c6d1))
+
 # [7.34.0-next.5](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.4...v7.34.0-next.5) (2024-08-12)
 
 
