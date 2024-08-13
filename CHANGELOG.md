@@ -1,3 +1,10 @@
+# [7.34.0-next.7](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.6...v7.34.0-next.7) (2024-08-13)
+
+
+### Bug Fixes
+
+* **Button:** added state for btn and removed some types ([25ff1f8](https://github.com/lad-tech/mobydick/commit/25ff1f875db5cebe715332f34dee24d9a5a6f25a))
+
 # [7.34.0-next.6](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.5...v7.34.0-next.6) (2024-08-12)
 
 
