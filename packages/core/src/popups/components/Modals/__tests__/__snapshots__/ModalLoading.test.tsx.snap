@@ -205,7 +205,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
           style={
             [
               {
-                "color": "#2B78EE",
+                "color": "#20242D",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 18,
                 "lineHeight": 22,
@@ -433,7 +433,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
           style={
             [
               {
-                "color": "#2B78EE",
+                "color": "#20242D",
                 "fontFamily": "Inter-SemiBold",
                 "fontSize": 18,
                 "lineHeight": 22,

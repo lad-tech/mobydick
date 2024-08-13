@@ -4,7 +4,7 @@ import {IThemeContext} from '../../../styles/types';
 import {createStyles} from '../../../styles';
 import px from '../../../styles/utils/px';
 
-import {IButtonSize, IButtonTypes} from './types';
+import {IButtonSize, IButtonTypes, IStateBtn} from './types';
 
 interface IButtonContents {
   theme: IThemeContext;
@@ -12,6 +12,7 @@ interface IButtonContents {
   leftIcon: boolean;
   rightIcon: boolean;
   text: boolean;
+  state: IStateBtn;
 }
 
 const getButtonHorizontalPadding = ({
@@ -35,6 +36,7 @@ const getButtonStyles = ({
   leftIcon,
   rightIcon,
   text,
+  state,
 }: IButtonContents): ViewStyle => {
   switch (size) {
     case IButtonSize.small:
@@ -46,6 +48,7 @@ const getButtonStyles = ({
           leftIcon,
           rightIcon,
           text,
+          state,
         }),
       };
     case IButtonSize.large:
@@ -64,22 +67,41 @@ const getButtonStyles = ({
   }
 };
 
+function getBgColorPrimaryType({
+  theme,
+  state,
+}: {
+  theme: IThemeContext;
+  state: IStateBtn;
+}) {
+  switch (state) {
+    case IStateBtn.danger:
+      return theme.colors.CtaBtnDestructive;
+    case IStateBtn.disabled:
+      return theme.colors.CtaBtnMuted;
+    case IStateBtn.default:
+    default:
+      return theme.colors.CtaBtnPrimary;
+  }
+}
+
 const primaryStyle = ({
   theme,
   size,
   leftIcon,
   rightIcon,
   text,
+  state,
 }: IButtonContents) =>
-  createStyles(({colors}) => ({
+  createStyles(() => ({
     container: {
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundColor: colors.CtaBtnPrimary,
+      backgroundColor: getBgColorPrimaryType({theme, state}),
       borderRadius: theme.spaces.Space12,
 
-      ...getButtonStyles({theme, size, leftIcon, rightIcon, text}),
+      ...getButtonStyles({theme, size, leftIcon, rightIcon, text, state}),
     },
 
     text: {
@@ -97,8 +119,16 @@ const secondaryStyle = ({
   leftIcon,
   rightIcon,
   text,
+  state,
 }: IButtonContents) => {
-  const defaultStyles = primaryStyle({theme, size, leftIcon, rightIcon, text});
+  const defaultStyles = primaryStyle({
+    theme,
+    size,
+    leftIcon,
+    rightIcon,
+    text,
+    state,
+  });
   const {
     colors: {CtaBtnSecondary},
   } = theme;
@@ -114,8 +144,16 @@ const tertiaryStyle = ({
   leftIcon,
   rightIcon,
   text,
+  state,
 }: IButtonContents) => {
-  const defaultStyles = primaryStyle({theme, size, leftIcon, rightIcon, text});
+  const defaultStyles = primaryStyle({
+    theme,
+    size,
+    leftIcon,
+    rightIcon,
+    text,
+    state,
+  });
 
   defaultStyles.container.backgroundColor = 'transparent';
 
@@ -128,8 +166,16 @@ const disabledStyle = ({
   leftIcon,
   rightIcon,
   text,
+  state,
 }: IButtonContents) => {
-  const defaultStyles = primaryStyle({theme, size, leftIcon, rightIcon, text});
+  const defaultStyles = primaryStyle({
+    theme,
+    size,
+    leftIcon,
+    rightIcon,
+    text,
+    state,
+  });
   const {
     colors: {CtaBtnMuted},
   } = theme;
@@ -145,8 +191,16 @@ const destructiveStyle = ({
   leftIcon,
   rightIcon,
   text,
+  state,
 }: IButtonContents) => {
-  const defaultStyles = primaryStyle({theme, size, leftIcon, rightIcon, text});
+  const defaultStyles = primaryStyle({
+    theme,
+    size,
+    leftIcon,
+    rightIcon,
+    text,
+    state,
+  });
   const {
     colors: {CtaBtnDestructive},
   } = theme;
@@ -163,19 +217,20 @@ const stylesCreate = (
   leftIcon: boolean,
   rightIcon: boolean,
   text: boolean,
+  state: IStateBtn,
 ) => {
   switch (type) {
     case IButtonTypes.secondary:
-      return secondaryStyle({theme, size, leftIcon, rightIcon, text});
+      return secondaryStyle({theme, size, leftIcon, rightIcon, text, state});
     case IButtonTypes.tertiary:
-      return tertiaryStyle({theme, size, leftIcon, rightIcon, text});
+      return tertiaryStyle({theme, size, leftIcon, rightIcon, text, state});
     case IButtonTypes.disabled:
-      return disabledStyle({theme, size, leftIcon, rightIcon, text});
+      return disabledStyle({theme, size, leftIcon, rightIcon, text, state});
     case IButtonTypes.destructive:
-      return destructiveStyle({theme, size, leftIcon, rightIcon, text});
+      return destructiveStyle({theme, size, leftIcon, rightIcon, text, state});
     case IButtonTypes.primary:
     default:
-      return primaryStyle({theme, size, leftIcon, rightIcon, text});
+      return primaryStyle({theme, size, leftIcon, rightIcon, text, state});
   }
 };
 export default stylesCreate;
