@@ -1,3 +1,11 @@
+# [7.34.0-next.8](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.7...v7.34.0-next.8) (2024-08-14)
+
+
+### Bug Fixes
+
+* **Input:** changed styles for wrong, disable and default types ([78515cf](https://github.com/lad-tech/mobydick/commit/78515cfce977815a2169951e31e4395fc34e4a5d))
+* **InputTitle:** changed font ([f4ddfd2](https://github.com/lad-tech/mobydick/commit/f4ddfd2eeb2ba075eef72654fb096120d1f57ffe))
+
 # [7.34.0-next.7](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.6...v7.34.0-next.7) (2024-08-13)
 
 
