@@ -120,7 +120,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
         {
           "alignItems": undefined,
           "backgroundColor": "#F2F4F7",
-          "borderColor": "rgba(21, 28, 44, 0.2)",
+          "borderColor": "rgba(21, 28, 44, 0.4)",
           "borderRadius": 8,
           "borderWidth": 1,
           "flexDirection": "row",

@@ -7,13 +7,12 @@ export const disabledStyle = <
 >(
   theme: IThemeContext,
   defaultStyles: T,
-  active: boolean,
 ) => {
   const {colors} = theme;
   const {inputContainer} = defaultStyles;
 
-  inputContainer.borderColor = active ? colors.BgTertiary : 'transparent';
-  inputContainer.backgroundColor = colors.BgTertiary;
+  inputContainer.borderColor = colors.BorderSoft;
+  inputContainer.backgroundColor = 'transparent';
 
   return defaultStyles;
 };

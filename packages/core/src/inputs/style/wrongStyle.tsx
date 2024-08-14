@@ -13,7 +13,6 @@ export const wrongStyle = <
   const {inputContainer} = defaultStyles;
 
   inputContainer.borderColor = active ? colors.BorderError : 'transparent';
-  inputContainer.backgroundColor = colors.BgError;
 
   return defaultStyles;
 };
