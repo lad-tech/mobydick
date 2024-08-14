@@ -12,7 +12,7 @@ const defaultStyle = createStyles(
       backgroundColor: colors.BgSecondary,
       borderRadius: spaces.Space8,
       borderWidth: spaces.Space1,
-      borderColor: focused ? colors.BorderNormal : 'transparent',
+      borderColor: focused ? colors.BorderHard : 'transparent',
       marginVertical: spaces.Space8,
       flexDirection: 'row',
       justifyContent: 'space-between',
@@ -56,11 +56,7 @@ const stylesCreate = (
         focused,
       );
     case IInputsTypes.disabled:
-      return disabledStyle(
-        theme,
-        defaultStyle(theme, focused, multiline),
-        focused,
-      );
+      return disabledStyle(theme, defaultStyle(theme, focused, multiline));
     case IInputsTypes.default:
     default:
       return defaultStyle(theme, focused, multiline);

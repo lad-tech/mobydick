@@ -435,8 +435,8 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements disabled
         [
           {
             "alignItems": "center",
-            "backgroundColor": "#D0D6E0",
-            "borderColor": "transparent",
+            "backgroundColor": "transparent",
+            "borderColor": "rgba(21, 28, 44, 0.1)",
             "borderRadius": 8,
             "borderWidth": 1,
             "flexDirection": "row",
@@ -726,7 +726,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type wro
         [
           {
             "alignItems": "center",
-            "backgroundColor": "rgba(249, 97, 84, 0.1)",
+            "backgroundColor": "#F2F4F7",
             "borderColor": "transparent",
             "borderRadius": 8,
             "borderWidth": 1,
