@@ -23,11 +23,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
       style={
         [
           {
-            "color": "#5E6678",
-            "fontFamily": "Inter-Medium",
-            "fontSize": 12,
-            "lineHeight": 16,
-            "minHeight": 16,
+            "color": "#353A45",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -429,11 +429,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
       style={
         [
           {
-            "color": "#5E6678",
-            "fontFamily": "Inter-Medium",
-            "fontSize": 12,
-            "lineHeight": 16,
-            "minHeight": 16,
+            "color": "#353A45",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -522,11 +522,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
       style={
         [
           {
-            "color": "#5E6678",
-            "fontFamily": "Inter-Medium",
-            "fontSize": 12,
-            "lineHeight": 16,
-            "minHeight": 16,
+            "color": "#353A45",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -615,11 +615,11 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
       style={
         [
           {
-            "color": "#5E6678",
-            "fontFamily": "Inter-Medium",
-            "fontSize": 12,
-            "lineHeight": 16,
-            "minHeight": 16,
+            "color": "#353A45",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 14,
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
