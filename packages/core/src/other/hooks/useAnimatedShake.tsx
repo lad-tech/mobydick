@@ -21,13 +21,13 @@ const useAnimatedShake = () => {
     );
   }, [shake]);
 
-  const childrenShakeElement = (children: Element | Element[]) => (
+  const childrenShakeElement = (children: JSX.Element) => (
     <Animated.View style={animateStyle}>
       <>{children}</>
     </Animated.View>
   );
 
-  return {handleShake, childrenShakeElement, animateStyle};
+  return {handleShake, childrenShakeElement};
 };
 
 export default useAnimatedShake;

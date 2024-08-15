@@ -8,6 +8,7 @@ import {CollapsibleWidget} from '@widgets/Core/Other/ui/CollapsibleWidget';
 import {CrossedTextWidget} from '@widgets/Core/Other/ui/CrossedTextWidget';
 import {CarouselWidget} from '@widgets/Core/Other/ui/CarouselWidget';
 import {RatingWidget} from '@widgets/Core/Other/ui/RatingWidget';
+import {ShakeWidget} from '@widgets/Core/Other/ui/ShakeWidget';
 
 const OtherScreen = () => {
   const [styles] = useStyles(getScreenStyles);
@@ -19,6 +20,7 @@ const OtherScreen = () => {
       <BadgeWidget />
       <StatusWidget />
       <RatingWidget />
+      <ShakeWidget />
       <CrossedTextWidget />
       <CollapsibleWidget />
       <CarouselWidget />
