@@ -9,15 +9,11 @@ export const ShakeWidget = () => {
   const shakeUserTest = useAnimatedShake();
   const shakeWithLogo = useAnimatedShake();
 
-  const ShakeAvatarUserTest = () => (
-    <>{shakeUserTest.childrenShakeElement(<Avatar user={userTest} />)}</>
-  );
+  const ShakeAvatarUserTest = () =>
+    shakeUserTest.childrenShakeElement(<Avatar user={userTest} />);
 
-  const ShakeAvatarWithLogo = () => (
-    <>
-      {shakeWithLogo.childrenShakeElement(<Avatar user={userWithLogoTest} />)}
-    </>
-  );
+  const ShakeAvatarWithLogo = () =>
+    shakeWithLogo.childrenShakeElement(<Avatar user={userWithLogoTest} />);
 
   return (
     <View>
