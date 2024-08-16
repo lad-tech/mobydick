@@ -12,8 +12,8 @@ import {
 import Header from '@shared/ui/Header';
 import {BlockView} from '@shared/ui/BlockView';
 
-const data: number[] = [1, 2, 3, 4, 5, 6];
-const ITEM_WIDTH = px(80);
+const data: number[] = [1, 2, 3];
+const ITEM_WIDTH = px(200);
 
 export const CarouselWidget = () => {
   const [styles] = useStyles(stylesFn);

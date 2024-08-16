@@ -11,6 +11,7 @@ export enum SCREENS {
   CTA = 'CTA',
   Inputs = 'Inputs',
   Popups = 'Popups',
+  Portals = 'Portals',
   Progress = 'Progress',
   Styles = 'Styles',
   Typography = 'Typography',

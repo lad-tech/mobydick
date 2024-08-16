@@ -1,12 +1,8 @@
 {
   "name": "@lad-tech/keyboard-aware",
-  "version": "7.32.0",
+  "version": "7.33.1",
   "description": "React Native components library focused on usability, accessibility and developer experience",
-  "main": "lib/index",
-  "module": "lib/index",
-  "types": "lib/index.d.ts",
-  "react-native": "src/index",
-  "source": "src/index",
+  "main": "index.ts",
   "keywords": [
     "mobydick",
     "lad-tech",
@@ -14,7 +10,6 @@
     "react-native"
   ],
   "files": [
-    "lib",
     "src",
     "index.ts"
   ],

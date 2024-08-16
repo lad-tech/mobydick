@@ -29,4 +29,5 @@ export interface ICarouselProps<T>
   activeDotColor?: string;
   passiveDotColor?: string;
   dotsStyles?: ViewStyle | ViewStyle[];
+  isLoop?: boolean;
 }
