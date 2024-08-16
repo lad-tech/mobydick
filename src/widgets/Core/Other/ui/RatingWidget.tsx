@@ -6,9 +6,9 @@ import {
   Typography,
   useStyles,
   View,
+  Rating,
 } from '@shared/ui';
 import Header from '@shared/ui/Header';
-import Rating from '@lad-tech/mobydick-core/src/other/components/Rating/Rating';
 
 export const RatingWidget = () => {
   const [styles] = useStyles(stylesFn);
