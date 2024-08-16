@@ -72,6 +72,15 @@
 * add Title and new Typography [#224](https://github.com/lad-tech/mobydick/issues/224) ([fed364b](https://github.com/lad-tech/mobydick/commit/fed364bf0deb3c279b212da41b25c07c11beb943))
 * update colors ([e45dc20](https://github.com/lad-tech/mobydick/commit/e45dc204d017066accd12701eb3ff6a72995ff48))
 
+# [7.34.0](https://github.com/lad-tech/mobydick/compare/v7.33.1...v7.34.0) (2024-08-16)
+
+
+### Features
+
+* create Portals ([35e5121](https://github.com/lad-tech/mobydick/commit/35e51218ac0c33908642b755f3c4bd045a1dbbf5))
+* **rating:** add disabled and rate props ([9954667](https://github.com/lad-tech/mobydick/commit/9954667f1c6ab5104ae6731af580a420b7e96053))
+* **rating:** remove state from component ([80c199b](https://github.com/lad-tech/mobydick/commit/80c199b0d3d45c2abf1b1942610102e4b7f59058))
+
 ## [7.33.1](https://github.com/lad-tech/mobydick/compare/v7.33.0...v7.33.1) (2024-07-08)
 
 
