@@ -1,12 +1,8 @@
 {
   "name": "@lad-tech/mobydick-markdown",
-  "version": "7.32.0",
+  "version": "7.33.1",
   "description": "React Native components library focused on usability, accessibility and developer experience",
-  "main": "lib/index",
-  "module": "lib/index",
-  "types": "lib/index.d.ts",
-  "react-native": "src/index",
-  "source": "src/index",
+  "main": "index.ts",
   "keywords": [
     "mobydick",
     "lad-tech",
@@ -14,7 +10,6 @@
     "markdown"
   ],
   "files": [
-    "lib",
     "src",
     "index.ts"
   ],
@@ -36,7 +31,7 @@
   "peerDependencies": {
     "react-native": ">=0.66.4",
     "react": ">=17.0.2",
-    "@lad-tech/mobydick-core": "7.32.0",
+    "@lad-tech/mobydick-core": "7.33.1",
     "react-native-markdown-display": ">=7.0.2"
   }
 }
