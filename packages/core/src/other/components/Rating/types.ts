@@ -12,11 +12,11 @@ export type TStar = {
 };
 
 export type TRating = {
-  onChange?: (data: number) => void;
+  setCurrentRate?: (data: number) => void;
   count: number;
   iconStyle?: StyleProp<ViewStyle>;
   iconSize?: number;
   fillColor?: string;
-  currentRate?: number;
+  currentRate: number;
   disabled?: boolean;
 };

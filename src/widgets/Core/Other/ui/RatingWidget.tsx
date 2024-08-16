@@ -1,3 +1,5 @@
+import {useState} from 'react';
+
 import {
   createStyles,
   IStatusState,
@@ -10,6 +12,7 @@ import Rating from '@lad-tech/mobydick-core/src/other/components/Rating/Rating';
 
 export const RatingWidget = () => {
   const [styles] = useStyles(stylesFn);
+  const [rate, setRate] = useState(0);
 
   return (
     <View>
@@ -18,16 +21,17 @@ export const RatingWidget = () => {
         <Typography>Style</Typography>
         <View style={styles.row}>
           <Rating
-            onChange={() => {}}
+            setCurrentRate={setRate}
             count={5}
             iconSize={25}
             iconStyle={styles.rating}
             fillColor={IStatusState.red}
+            currentRate={rate}
           />
         </View>
         <Typography>Default</Typography>
         <View style={styles.row}>
-          <Rating onChange={() => {}} count={5} />
+          <Rating setCurrentRate={setRate} count={5} currentRate={rate} />
         </View>
       </View>
     </View>

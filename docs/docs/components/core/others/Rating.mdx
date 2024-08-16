@@ -13,33 +13,32 @@ import {
   View,
 } from '@shared/ui';
 import Header from '@shared/ui/Header';
-import Rating from '@lad-tech/mobydick-core/src/other/components/Rating/Rating';
+import Rating from '@lad-tech/mobydick-core';
 
 export const RatingWidget = () => {
   const [styles] = useStyles(stylesFn);
 
-  return (
-    <View>
-      <Header title={'Rating'} />
-      <View style={styles.container}>
-        <Typography>Style</Typography>
-        <View style={styles.row}>
-          <Rating
-            onChange={() => {}}
-            count={5}
-            iconSize={25}
-            iconStyle={styles.rating}
-            fillColor={IStatusState.red}
-            currentRate={2}
-            disabled={false}
-          />
-        </View>
-        <Typography>Default</Typography>
-        <View style={styles.row}>
-          <Rating onChange={() => {}} count={5} />
+    return (
+      <View>
+        <Header title={'Rating'} />
+        <View style={styles.container}>
+          <Typography>Style</Typography>
+          <View style={styles.row}>
+            <Rating
+              setCurrentRate={setRate}
+              count={5}
+              iconSize={25}
+              iconStyle={styles.rating}
+              fillColor={IStatusState.red}
+              currentRate={rate}
+            />
+          </View>
+          <Typography>Default</Typography>
+          <View style={styles.row}>
+            <Rating setCurrentRate={setRate} count={5} currentRate={rate} />
+          </View>
         </View>
       </View>
-    </View>
   );
 };
 
@@ -70,7 +69,7 @@ const stylesFn = createStyles(({spaces}) => ({
 
 Amount of elements
 
-### `onChange`
+### `setCurrentRate`
 
 | TYPE   |
 |:-------|

@@ -1,4 +1,4 @@
-import {FC, useState} from 'react';
+import {FC} from 'react';
 import {View} from 'react-native';
 
 import {createStyles, px} from '../../../styles';
@@ -8,38 +8,35 @@ import Star from './components/Star';
 import {TRating} from './types';
 
 const Rating: FC<TRating> = ({
-  onChange,
+  setCurrentRate,
   count,
   iconStyle,
   iconSize = px(40),
   fillColor,
-  currentRate = -1,
+  currentRate = 0,
   disabled,
 }) => {
-  const [rating, setRating] = useState(currentRate);
   const [styles] = useStyles(stylesCreate);
   const ratingCount = Array(count).fill(0);
 
   const handleRating = (startId: number) => {
-    if (!onChange) {
+    if (!setCurrentRate) {
       return;
     }
-    if (rating === startId) {
-      setRating(rating - 1);
-      onChange(rating);
+    if (currentRate === startId) {
+      setCurrentRate(currentRate + 1);
       return;
     }
-    setRating(startId);
-    onChange(++startId);
+    setCurrentRate(startId);
   };
 
   const stars = ratingCount.map((_, index) => (
     <Star
       key={'rating' + index}
-      filled={index <= rating}
+      filled={index <= currentRate - 1}
       starId={index}
       setRating={handleRating}
-      currentSelected={rating}
+      currentSelected={currentRate}
       iconStyle={iconStyle}
       iconSize={iconSize}
       fillColor={fillColor}
