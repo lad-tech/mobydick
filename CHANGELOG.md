@@ -1,3 +1,24 @@
+# [7.35.0-next.1](https://github.com/lad-tech/mobydick/compare/v7.34.0...v7.35.0-next.1) (2024-08-16)
+
+
+### Bug Fixes
+
+* add forgotten colors and update types ([88cb363](https://github.com/lad-tech/mobydick/commit/88cb36305cea2dc0dd957ddbb61e1aa99714368a))
+* **Button:** added state for btn and removed some types ([25ff1f8](https://github.com/lad-tech/mobydick/commit/25ff1f875db5cebe715332f34dee24d9a5a6f25a))
+* **Button:** changed font for disabled ([46cc135](https://github.com/lad-tech/mobydick/commit/46cc135f2c7d22c4f184ee36c41dde491b1ddb3c))
+* **Input:** changed styles for wrong, disable and default types ([78515cf](https://github.com/lad-tech/mobydick/commit/78515cfce977815a2169951e31e4395fc34e4a5d))
+* **InputTitle:** changed font ([f4ddfd2](https://github.com/lad-tech/mobydick/commit/f4ddfd2eeb2ba075eef72654fb096120d1f57ffe))
+* update font import [#269](https://github.com/lad-tech/mobydick/issues/269) ([8c2b140](https://github.com/lad-tech/mobydick/commit/8c2b1401337fd457ab397a3de131718394c3c6d1))
+* update font ttf ([71d5e7d](https://github.com/lad-tech/mobydick/commit/71d5e7de5ec7dc586f9002c44f604724d335957e))
+
+
+### Features
+
+* add TablerIcons [#255](https://github.com/lad-tech/mobydick/issues/255) ([b81baba](https://github.com/lad-tech/mobydick/commit/b81babaccfa5ed0cf394dd8862ff012533d17213))
+* add Title and new Typography [#224](https://github.com/lad-tech/mobydick/issues/224) ([fed364b](https://github.com/lad-tech/mobydick/commit/fed364bf0deb3c279b212da41b25c07c11beb943))
+* update colors ([e45dc20](https://github.com/lad-tech/mobydick/commit/e45dc204d017066accd12701eb3ff6a72995ff48))
+* update Slider styles ([ca3efa4](https://github.com/lad-tech/mobydick/commit/ca3efa4f5f4e43e8ef3b30323fe422167c7b9cb5))
+
 # [7.34.0-next.8](https://github.com/lad-tech/mobydick/compare/v7.34.0-next.7...v7.34.0-next.8) (2024-08-14)
 
 
