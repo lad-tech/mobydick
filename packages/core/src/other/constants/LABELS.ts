@@ -17,4 +17,5 @@ export const LABELS = {
   panelHeaderLeftView: 'panelHeaderLeftView',
   panelHeaderRightView: 'panelHeaderRightView',
   chatInputField: 'chatInputField',
+  ratingStarButton: 'ratingStarButton',
 };

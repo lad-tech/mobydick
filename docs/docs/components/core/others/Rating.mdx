@@ -1,0 +1,119 @@
+import ReactPlayer from 'react-player';
+
+Reusable Rating component
+
+## Example
+
+```tsx
+import {
+  createStyles,
+  IStatusState,
+  Typography,
+  useStyles,
+  View,
+} from '@shared/ui';
+import Header from '@shared/ui/Header';
+import Rating from '@lad-tech/mobydick-core';
+
+export const RatingWidget = () => {
+  const [styles] = useStyles(stylesFn);
+
+    return (
+      <View>
+        <Header title={'Rating'} />
+        <View style={styles.container}>
+          <Typography>Style</Typography>
+          <View style={styles.row}>
+            <Rating
+              setCurrentRate={setRate}
+              count={5}
+              iconSize={25}
+              iconStyle={styles.rating}
+              fillColor={IStatusState.red}
+              currentRate={rate}
+            />
+          </View>
+          <Typography>Default</Typography>
+          <View style={styles.row}>
+            <Rating setCurrentRate={setRate} count={5} currentRate={rate} />
+          </View>
+        </View>
+      </View>
+  );
+};
+
+const stylesFn = createStyles(({spaces}) => ({
+  container: {
+    gap: spaces.Space16,
+    alignItems: 'center',
+  },
+  row: {
+    flexDirection: 'row',
+    gap: spaces.Space16,
+  },
+  rating: {
+    margin: spaces.Space1,
+  },
+}));
+
+
+```
+
+## `Props`
+
+### <div class="label required basic">Required</div>**`count`**
+
+| TYPE   |
+|:-------|
+| number |
+
+Amount of elements
+
+### `setCurrentRate`
+
+| TYPE   |
+|:-------|
+| () => void  |
+
+Return active element
+
+### `iconSize`
+
+| TYPE   |
+|:-------|
+| number |
+
+Star icon Size
+
+### `fillColor`
+
+| TYPE   |
+|:-------|
+| string |
+
+Color for star elements
+
+### `iconStyle`
+
+| TYPE                                                             |
+|:-----------------------------------------------------------------|
+| [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
+
+Custom styles for icon container
+
+### `disabled`
+
+| TYPE   |
+|:-------|
+| boolean |
+
+Make changing rating disabled
+
+### `currentRate`
+
+| TYPE   |
+|:-------|
+| number |
+
+Initial rating for component
+
