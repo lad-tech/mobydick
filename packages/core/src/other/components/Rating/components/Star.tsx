@@ -1,10 +1,11 @@
 import {FC, useState} from 'react';
-import {TouchableOpacity, Animated} from 'react-native';
+import {TouchableOpacity, Animated, ViewProps} from 'react-native';
 
 import {Star as StarSVG} from '../../../../styles';
 import {TStar} from '../types';
+import {LABELS} from '../../../constants';
 
-const Star: FC<TStar> = ({
+const Star: FC<TStar & ViewProps> = ({
   filled,
   setRating,
   starId,
@@ -43,7 +44,9 @@ const Star: FC<TStar> = ({
   };
 
   return (
-    <TouchableOpacity onPress={() => handleRating(starId)}>
+    <TouchableOpacity
+      onPress={() => handleRating(starId)}
+      accessibilityLabel={`${LABELS.ratingStarButton}${starId}`}>
       <Animated.View style={[iconStyle, {transform: [{scale: interpolated}]}]}>
         <StarSVG
           height={iconSize}
