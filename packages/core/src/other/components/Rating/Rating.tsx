@@ -13,12 +13,17 @@ const Rating: FC<TRating> = ({
   iconStyle,
   iconSize = px(40),
   fillColor,
+  currentRate = -1,
+  disabled,
 }) => {
-  const [rating, setRating] = useState(-1);
+  const [rating, setRating] = useState(currentRate);
   const [styles] = useStyles(stylesCreate);
   const ratingCount = Array(count).fill(0);
 
   const handleRating = (startId: number) => {
+    if (!onChange) {
+      return;
+    }
     if (rating === startId) {
       setRating(rating - 1);
       onChange(rating);
@@ -38,6 +43,7 @@ const Rating: FC<TRating> = ({
       iconStyle={iconStyle}
       iconSize={iconSize}
       fillColor={fillColor}
+      disabled={disabled}
     />
   ));
 

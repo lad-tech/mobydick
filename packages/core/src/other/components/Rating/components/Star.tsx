@@ -13,6 +13,7 @@ const Star: FC<TStar & ViewProps> = ({
   iconSize,
   iconStyle,
   fillColor = '#ffd712',
+  disabled,
 }) => {
   const value = useState(new Animated.Value(0))[0];
 
@@ -46,7 +47,8 @@ const Star: FC<TStar & ViewProps> = ({
   return (
     <TouchableOpacity
       onPress={() => handleRating(starId)}
-      accessibilityLabel={`${LABELS.ratingStarButton}${starId}`}>
+      accessibilityLabel={`${LABELS.ratingStarButton}${starId}`}
+      disabled={disabled}>
       <Animated.View style={[iconStyle, {transform: [{scale: interpolated}]}]}>
         <StarSVG
           height={iconSize}

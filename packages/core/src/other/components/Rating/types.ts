@@ -8,12 +8,15 @@ export type TStar = {
   iconSize: number;
   iconStyle?: StyleProp<ViewStyle>;
   fillColor?: string;
+  disabled?: boolean;
 };
 
 export type TRating = {
-  onChange: (data: number) => void;
+  onChange?: (data: number) => void;
   count: number;
   iconStyle?: StyleProp<ViewStyle>;
   iconSize?: number;
   fillColor?: string;
+  currentRate?: number;
+  disabled?: boolean;
 };

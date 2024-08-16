@@ -30,6 +30,8 @@ export const RatingWidget = () => {
             iconSize={25}
             iconStyle={styles.rating}
             fillColor={IStatusState.red}
+            currentRate={2}
+            disabled={false}
           />
         </View>
         <Typography>Default</Typography>
@@ -68,7 +70,7 @@ const stylesFn = createStyles(({spaces}) => ({
 
 Amount of elements
 
-### <div class="label required basic">Required</div>**`onChange`**
+### `onChange`
 
 | TYPE   |
 |:-------|
@@ -99,4 +101,20 @@ Color for star elements
 | [ViewStyle](https://reactnative.dev/docs/view-style-props#props) |
 
 Custom styles for icon container
+
+### `disabled`
+
+| TYPE   |
+|:-------|
+| boolean |
+
+Make changing rating disabled
+
+### `currentRate`
+
+| TYPE   |
+|:-------|
+| number |
+
+Initial rating for component
 
