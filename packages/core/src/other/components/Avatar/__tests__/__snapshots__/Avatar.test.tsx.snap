@@ -127,18 +127,20 @@ exports[`Avatar render avatar badge counter 1`] = `
       style={
         [
           {
-            "color": "#FFFFFF",
+            "color": "#F54C3D",
             "fontFamily": "Inter",
             "fontSize": 10,
             "fontWeight": "600",
             "lineHeight": 14,
             "minHeight": 14,
           },
-          {
-            "color": "#F54C3D",
-            "paddingHorizontal": 4,
-            "textAlign": "center",
-          },
+          [
+            {
+              "paddingHorizontal": 4,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
         ]
       }
     >

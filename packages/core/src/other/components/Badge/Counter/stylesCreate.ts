@@ -21,19 +21,6 @@ const stylesCreate = createStyles(
       }
     };
 
-    const getColorText = () => {
-      switch (type) {
-        case ICounterTypes.accentLight:
-          return {color: colors.TextAccent};
-        case ICounterTypes.attentionLight:
-          return {color: colors.TextError};
-        case ICounterTypes.mutedLight:
-          return {color: colors.TextMuted};
-        default:
-          return {color: colors.TextWhite};
-      }
-    };
-
     return {
       counter: {
         zIndex: 1,
@@ -48,7 +35,6 @@ const stylesCreate = createStyles(
       text: {
         textAlign: 'center',
         paddingHorizontal: isMedium ? spaces.Space6 : spaces.Space4,
-        ...getColorText(),
       },
     };
   },
