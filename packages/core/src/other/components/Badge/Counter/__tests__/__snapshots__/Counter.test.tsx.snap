@@ -32,11 +32,13 @@ exports[`Counter render counter ICounterSize.medium 1`] = `
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#FFFFFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -75,11 +77,13 @@ exports[`Counter render counter ICounterSize.small 1`] = `
           "lineHeight": 14,
           "minHeight": 14,
         },
-        {
-          "color": "#FFFFFF",
-          "paddingHorizontal": 4,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 4,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -118,11 +122,13 @@ exports[`Counter render counter ICounterTypes.accent 1`] = `
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#FFFFFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -154,18 +160,20 @@ exports[`Counter render counter ICounterTypes.accentLight 1`] = `
     style={
       [
         {
-          "color": "#FFFFFF",
+          "color": "#2B78EE",
           "fontFamily": "Inter",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#2B78EE",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -204,11 +212,13 @@ exports[`Counter render counter ICounterTypes.attention 1`] = `
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#FFFFFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -240,18 +250,20 @@ exports[`Counter render counter ICounterTypes.attentionLight 1`] = `
     style={
       [
         {
-          "color": "#FFFFFF",
+          "color": "#F54C3D",
           "fontFamily": "Inter",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#F54C3D",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -290,11 +302,13 @@ exports[`Counter render counter ICounterTypes.muted 1`] = `
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#FFFFFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -326,18 +340,20 @@ exports[`Counter render counter ICounterTypes.mutedLight 1`] = `
     style={
       [
         {
-          "color": "#FFFFFF",
+          "color": "#9BA1B0",
           "fontFamily": "Inter",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#9BA1B0",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -378,11 +394,13 @@ exports[`Counter render counter style 1`] = `
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#FFFFFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -421,11 +439,13 @@ exports[`Counter render font 1`] = `
           "lineHeight": 14,
           "minHeight": 14,
         },
-        {
-          "color": "#FFFFFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >

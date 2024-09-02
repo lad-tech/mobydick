@@ -6,18 +6,18 @@ import {Typography} from '../../../../typography';
 
 import stylesCreate from './stylesCreate';
 import {ICounterProps, ICounterSize, ICounterTypes} from './types';
+import {getFont} from './getFont';
 
 const Counter: FC<ICounterProps> = ({
   count,
   style,
+  textStyle,
   font,
   size = ICounterSize.medium,
   type = ICounterTypes.accent,
   maxLength = 2,
 }) => {
   const [styles] = useStyles(stylesCreate, size, type);
-  const fontCorrection =
-    size === ICounterSize.medium ? 'SemiBold-White-M' : 'SemiBold-White-XXS';
 
   if (!count) {
     return null;
@@ -30,7 +30,9 @@ const Counter: FC<ICounterProps> = ({
 
   return (
     <View style={[styles.counter, style]}>
-      <Typography style={styles.text} font={font ?? fontCorrection}>
+      <Typography
+        style={[styles.text, textStyle]}
+        font={font ?? getFont(type, size)}>
         {text}
       </Typography>
     </View>

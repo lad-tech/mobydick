@@ -1,4 +1,4 @@
-import {StyleProp, ViewStyle} from 'react-native';
+import {StyleProp, TextStyle, ViewStyle} from 'react-native';
 
 import {TypographyProp} from '../../../../typography';
 
@@ -22,6 +22,7 @@ export interface ICounterProps {
   font?: TypographyProp;
   type?: ICounterTypes;
   style?: StyleProp<ViewStyle>;
+  textStyle?: StyleProp<TextStyle>;
   size?: ICounterSize;
   maxLength?: number;
 }
