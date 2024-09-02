@@ -1,3 +1,10 @@
+# [7.35.0-next.3](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.2...v7.35.0-next.3) (2024-09-02)
+
+
+### Bug Fixes
+
+* counter font color ([f791369](https://github.com/lad-tech/mobydick/commit/f7913694cc2cfc6b9e957cf277b13ad52a6e20be))
+
 # [7.35.0-next.2](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.1...v7.35.0-next.2) (2024-09-02)
 
 
