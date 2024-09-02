@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 import View from '../../../../basic/components/View/View';
 import useStyles from '../../../../styles/hooks/useStyles';
-import {TypographyLegacy} from '../../../../typography';
+import {Typography} from '../../../../typography';
 
 import stylesCreate from './stylesCreate';
 import {ICounterProps, ICounterSize, ICounterTypes} from './types';
@@ -10,12 +10,13 @@ import {ICounterProps, ICounterSize, ICounterTypes} from './types';
 const Counter: FC<ICounterProps> = ({
   count,
   style,
+  font,
   size = ICounterSize.medium,
   type = ICounterTypes.accent,
   maxLength = 2,
 }) => {
   const [styles] = useStyles(stylesCreate, size, type);
-  const font =
+  const fontCorrection =
     size === ICounterSize.medium ? 'SemiBold-White-M' : 'SemiBold-White-XXS';
 
   if (!count) {
@@ -29,9 +30,9 @@ const Counter: FC<ICounterProps> = ({
 
   return (
     <View style={[styles.counter, style]}>
-      <TypographyLegacy style={styles.text} font={font}>
+      <Typography style={styles.text} font={font ?? fontCorrection}>
         {text}
-      </TypographyLegacy>
+      </Typography>
     </View>
   );
 };

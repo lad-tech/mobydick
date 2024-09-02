@@ -58,4 +58,8 @@ describe('Counter', () => {
     const {toJSON} = render(<Counter />);
     expect(toJSON()).toMatchSnapshot();
   });
+  test('render font', () => {
+    const {toJSON} = render(<Counter font={'Bold-Black-XXS'} count={10} />);
+    expect(toJSON()).toMatchSnapshot();
+  });
 });

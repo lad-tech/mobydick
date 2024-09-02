@@ -26,8 +26,9 @@ exports[`Counter render counter ICounterSize.medium 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter-SemiBold",
+          "fontFamily": "Inter",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
@@ -68,8 +69,9 @@ exports[`Counter render counter ICounterSize.small 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter-SemiBold",
+          "fontFamily": "Inter",
           "fontSize": 10,
+          "fontWeight": "600",
           "lineHeight": 14,
           "minHeight": 14,
         },
@@ -110,8 +112,9 @@ exports[`Counter render counter ICounterTypes.accent 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter-SemiBold",
+          "fontFamily": "Inter",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
@@ -152,8 +155,9 @@ exports[`Counter render counter ICounterTypes.accentLight 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter-SemiBold",
+          "fontFamily": "Inter",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
@@ -194,8 +198,9 @@ exports[`Counter render counter ICounterTypes.attention 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter-SemiBold",
+          "fontFamily": "Inter",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
@@ -236,8 +241,9 @@ exports[`Counter render counter ICounterTypes.attentionLight 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter-SemiBold",
+          "fontFamily": "Inter",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
@@ -278,8 +284,9 @@ exports[`Counter render counter ICounterTypes.muted 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter-SemiBold",
+          "fontFamily": "Inter",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
@@ -320,8 +327,9 @@ exports[`Counter render counter ICounterTypes.mutedLight 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter-SemiBold",
+          "fontFamily": "Inter",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
@@ -364,8 +372,9 @@ exports[`Counter render counter style 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter-SemiBold",
+          "fontFamily": "Inter",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
@@ -378,6 +387,49 @@ exports[`Counter render counter style 1`] = `
     }
   >
     20
+  </Text>
+</View>
+`;
+
+exports[`Counter render font 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#151C2C",
+          "fontFamily": "Inter",
+          "fontSize": 10,
+          "fontWeight": "700",
+          "lineHeight": 14,
+          "minHeight": 14,
+        },
+        {
+          "color": "#FFFFFF",
+          "paddingHorizontal": 6,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    10
   </Text>
 </View>
 `;
