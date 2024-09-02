@@ -1,3 +1,10 @@
+# [7.35.0-next.2](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.1...v7.35.0-next.2) (2024-09-02)
+
+
+### Features
+
+* add font prop for Counter ([e45e765](https://github.com/lad-tech/mobydick/commit/e45e765d676f3a10dd62d4349ff706d617448e6d))
+
 # [7.35.0-next.1](https://github.com/lad-tech/mobydick/compare/v7.34.0...v7.35.0-next.1) (2024-08-16)
 
 
