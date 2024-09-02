@@ -202,8 +202,9 @@ exports[`@lad-tech/mobydick-core/Button renders correctly destructive 1`] = `
         [
           {
             "color": "#FFFFFF",
-            "fontFamily": "Inter-SemiBold",
+            "fontFamily": "Inter",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },
@@ -865,8 +866,9 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 3`] = `
         [
           {
             "color": "#FFFFFF",
-            "fontFamily": "Inter-SemiBold",
+            "fontFamily": "Inter",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },
@@ -951,8 +953,9 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 4`] = `
         [
           {
             "color": "#FFFFFF",
-            "fontFamily": "Inter-SemiBold",
+            "fontFamily": "Inter",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },
@@ -1037,8 +1040,9 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 5`] = `
         [
           {
             "color": "#FFFFFF",
-            "fontFamily": "Inter-SemiBold",
+            "fontFamily": "Inter",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },
@@ -1187,8 +1191,9 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 7`] = `
         [
           {
             "color": "#FFFFFF",
-            "fontFamily": "Inter-SemiBold",
+            "fontFamily": "Inter",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },
@@ -1273,8 +1278,9 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 8`] = `
         [
           {
             "color": "#FFFFFF",
-            "fontFamily": "Inter-SemiBold",
+            "fontFamily": "Inter",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },

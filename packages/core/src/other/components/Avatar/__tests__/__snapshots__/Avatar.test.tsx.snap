@@ -128,8 +128,9 @@ exports[`Avatar render avatar badge counter 1`] = `
         [
           {
             "color": "#FFFFFF",
-            "fontFamily": "Inter-SemiBold",
+            "fontFamily": "Inter",
             "fontSize": 10,
+            "fontWeight": "600",
             "lineHeight": 14,
             "minHeight": 14,
           },

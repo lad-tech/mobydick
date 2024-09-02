@@ -1,4 +1,6 @@
-import {ViewStyle} from 'react-native';
+import {StyleProp, ViewStyle} from 'react-native';
+
+import {TypographyProp} from '../../../../typography';
 
 export enum ICounterSize {
   medium = 'medium',
@@ -17,8 +19,9 @@ export enum ICounterTypes {
 
 export interface ICounterProps {
   count?: number;
+  font?: TypographyProp;
   type?: ICounterTypes;
-  style?: ViewStyle | ViewStyle[];
+  style?: StyleProp<ViewStyle>;
   size?: ICounterSize;
   maxLength?: number;
 }
