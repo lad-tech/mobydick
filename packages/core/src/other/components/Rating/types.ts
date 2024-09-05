@@ -2,9 +2,8 @@ import {StyleProp, ViewStyle} from 'react-native';
 
 export type TStar = {
   filled: boolean;
-  starId: number;
+  starIndex: number;
   setRating: (data: number) => void;
-  currentSelected: number;
   iconSize: number;
   iconStyle?: StyleProp<ViewStyle>;
   fillColor?: string;
@@ -12,7 +11,7 @@ export type TStar = {
 };
 
 export type TRating = {
-  setCurrentRate?: (data: number) => void;
+  setCurrentRate: (data: number) => void;
   count: number;
   iconStyle?: StyleProp<ViewStyle>;
   iconSize?: number;

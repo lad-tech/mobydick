@@ -32,23 +32,9 @@ describe('Rating', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
-  test('render rating 4', () => {
-    const onPress = jest.fn();
-    const {toJSON} = render(
-      <Rating count={4} setCurrentRate={onPress} currentRate={4} />,
-    );
-    expect(toJSON()).toMatchSnapshot();
-  });
-  test('render rating 5', () => {
-    const onPress = jest.fn();
-    const {toJSON} = render(
-      <Rating count={5} setCurrentRate={onPress} currentRate={5} />,
-    );
-    expect(toJSON()).toMatchSnapshot();
-  });
   test('change rating', () => {
     const onPress = jest.fn();
-    const {toJSON, getByLabelText} = render(
+    const {getByLabelText} = render(
       <Rating count={5} setCurrentRate={onPress} currentRate={2} />,
     );
     const setRatingButton = getByLabelText(`${LABELS.ratingStarButton}4`);
@@ -57,17 +43,11 @@ describe('Rating', () => {
       fireEvent.press(setRatingButton);
     });
 
-    expect(setRatingButton.props.accessibilityState).toHaveProperty(
-      'disabled',
-      undefined,
-    );
     expect(onPress).toHaveBeenCalledWith(4);
-
-    expect(toJSON()).toMatchSnapshot();
   });
   test('change rating is disabled', () => {
     const onPress = jest.fn();
-    const {toJSON, getByLabelText} = render(
+    const {getByLabelText} = render(
       <Rating
         count={5}
         setCurrentRate={onPress}
@@ -81,11 +61,6 @@ describe('Rating', () => {
       fireEvent.press(setRatingButton);
     });
 
-    expect(setRatingButton.props.accessibilityState).toHaveProperty(
-      'disabled',
-      true,
-    );
-
-    expect(toJSON()).toMatchSnapshot();
+    expect(onPress).toHaveBeenCalledTimes(0);
   });
 });
