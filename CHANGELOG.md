@@ -1,3 +1,10 @@
+## [7.34.1](https://github.com/lad-tech/mobydick/compare/v7.34.0...v7.34.1) (2024-09-05)
+
+
+### Bug Fixes
+
+* rating logic ([9699984](https://github.com/lad-tech/mobydick/commit/969998427bdbec423707a1ed1927c35e074aafa5))
+
 # [7.35.0-next.3](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.2...v7.35.0-next.3) (2024-09-02)
 
 

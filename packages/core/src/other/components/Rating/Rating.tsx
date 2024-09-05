@@ -19,24 +19,21 @@ const Rating: FC<TRating> = ({
   const [styles] = useStyles(stylesCreate);
   const ratingCount = Array(count).fill(0);
 
-  const handleRating = (startId: number) => {
-    if (!setCurrentRate) {
+  const handleRating = (starIndex: number) => {
+    const newRating = starIndex + 1;
+    if (currentRate === newRating) {
+      setCurrentRate(newRating - 1);
       return;
     }
-    if (currentRate === startId) {
-      setCurrentRate(currentRate + 1);
-      return;
-    }
-    setCurrentRate(startId);
+    setCurrentRate(newRating);
   };
 
   const stars = ratingCount.map((_, index) => (
     <Star
       key={'rating' + index}
       filled={index <= currentRate - 1}
-      starId={index}
+      starIndex={index}
       setRating={handleRating}
-      currentSelected={currentRate}
       iconStyle={iconStyle}
       iconSize={iconSize}
       fillColor={fillColor}
