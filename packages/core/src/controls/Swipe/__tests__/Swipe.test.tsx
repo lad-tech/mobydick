@@ -103,4 +103,21 @@ describe.skip('Swipe', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  it('should renders correctly with activeColor', function () {
+    const {getByLabelText, toJSON} = render(
+      <Swipe
+        active={false}
+        onPress={onPress}
+        activeColor={'red'}
+        containerStyle={{height: 22, width: 44}}
+        switcherStyle={{borderRadius: 24}}
+      />,
+    );
+    const panHandler = getByLabelText(LABELS.swipe);
+
+    act(() => {
+      panHandler.props.onPanResponderRelease(eventMock, {dx: 0});
+    });
+    expect(toJSON()).toMatchSnapshot();
+  });
 });
