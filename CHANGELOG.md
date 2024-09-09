@@ -1,9 +1,9 @@
-# [7.35.0-next.4](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.3...v7.35.0-next.4) (2024-09-05)
+## [7.34.2](https://github.com/lad-tech/mobydick/compare/v7.34.1...v7.34.2) (2024-09-09)
 
 
 ### Bug Fixes
 
-* rating logic ([9699984](https://github.com/lad-tech/mobydick/commit/969998427bdbec423707a1ed1927c35e074aafa5))
+* **Swipe:** added props ([784bf0c](https://github.com/lad-tech/mobydick/commit/784bf0c2b1b5a663f8078c6469ad9be74eb26630))
 
 ## [7.34.1](https://github.com/lad-tech/mobydick/compare/v7.34.0...v7.34.1) (2024-09-05)
 
