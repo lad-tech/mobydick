@@ -1,3 +1,10 @@
+## [7.34.2](https://github.com/lad-tech/mobydick/compare/v7.34.1...v7.34.2) (2024-09-09)
+
+
+### Bug Fixes
+
+* **Swipe:** added props ([784bf0c](https://github.com/lad-tech/mobydick/commit/784bf0c2b1b5a663f8078c6469ad9be74eb26630))
+
 ## [7.34.1](https://github.com/lad-tech/mobydick/compare/v7.34.0...v7.34.1) (2024-09-05)
 
 
