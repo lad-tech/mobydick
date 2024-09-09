@@ -5,6 +5,7 @@ export interface ISwipe {
   disabled?: boolean;
   onPress: (isActive: boolean) => void;
   activeColor?: string;
+  passiveColor?: string;
   containerStyle?: StyleProp<ViewStyle>;
   switcherStyle?: StyleProp<ViewStyle>;
 }

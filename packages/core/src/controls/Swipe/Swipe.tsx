@@ -22,10 +22,11 @@ const Swipe: FC<ISwipe> = ({
   disabled,
   onPress,
   activeColor,
+  passiveColor,
   containerStyle,
   switcherStyle,
 }) => {
-  const [styles, theme] = useStyles(stylesCreate, disabled);
+  const [styles, {colors}] = useStyles(stylesCreate, disabled);
   const defaultState = active ? rightPos : leftPos;
 
   const pan = useRef(new Animated.Value(defaultState)).current;
@@ -99,8 +100,8 @@ const Swipe: FC<ISwipe> = ({
   const backgroundColor = pan.interpolate({
     inputRange: [leftPos, rightPos],
     outputRange: [
-      theme.colors.ElementMuted,
-      activeColor || theme.colors.ElementBase,
+      passiveColor || colors.ElementMuted,
+      activeColor || colors.ElementBase,
     ],
     extrapolate: 'clamp',
   });
