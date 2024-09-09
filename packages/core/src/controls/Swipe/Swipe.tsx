@@ -17,7 +17,14 @@ import {ISwipe} from './types';
 const leftPos = -20;
 const rightPos = 20;
 
-const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
+const Swipe: FC<ISwipe> = ({
+  active,
+  disabled,
+  onPress,
+  activeColor,
+  containerStyle,
+  switcherStyle,
+}) => {
   const [styles, theme] = useStyles(stylesCreate, disabled);
   const defaultState = active ? rightPos : leftPos;
 
@@ -91,7 +98,10 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
 
   const backgroundColor = pan.interpolate({
     inputRange: [leftPos, rightPos],
-    outputRange: [theme.colors.ElementMuted, theme.colors.ElementBase],
+    outputRange: [
+      theme.colors.ElementMuted,
+      activeColor || theme.colors.ElementBase,
+    ],
     extrapolate: 'clamp',
   });
 
@@ -103,11 +113,13 @@ const Swipe: FC<ISwipe> = ({active, disabled, onPress}) => {
 
   return (
     <Animated.View
-      style={[styles.container, {backgroundColor}]}
+      style={[styles.container, containerStyle, {backgroundColor}]}
       needsOffscreenAlphaCompositing={true}
       accessibilityLabel={LABELS.swipe}
       {...panResponder.panHandlers}>
-      <Animated.View style={[styles.switcher, {transform: [{translateX}]}]} />
+      <Animated.View
+        style={[styles.switcher, switcherStyle, {transform: [{translateX}]}]}
+      />
     </Animated.View>
   );
 };
