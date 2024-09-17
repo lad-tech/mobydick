@@ -33,6 +33,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
     }
   >
     <View
+      accessible={true}
       style={
         [
           {
@@ -97,6 +98,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
               {
                 "borderRadius": 8,
                 "flex": 1,
+                "outlineWidth": 0,
                 "padding": 0,
                 "paddingLeft": 18,
                 "paddingRight": 16,
@@ -213,6 +215,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
     }
   >
     <View
+      accessible={true}
       style={
         [
           {
@@ -277,6 +280,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
               {
                 "borderRadius": 8,
                 "flex": 1,
+                "outlineWidth": 0,
                 "padding": 0,
                 "paddingLeft": 18,
                 "paddingRight": 16,
@@ -398,6 +402,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
     }
   >
     <View
+      accessible={true}
       style={
         [
           {
@@ -462,6 +467,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
               {
                 "borderRadius": 8,
                 "flex": 1,
+                "outlineWidth": 0,
                 "padding": 0,
                 "paddingLeft": 18,
                 "paddingRight": 16,

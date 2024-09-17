@@ -26,6 +26,9 @@ const defaultStyle = createStyles(
       padding: 0, // Android по дефолту ставит padding на input's
       paddingVertical: spaces.Space12,
       borderRadius: spaces.Space8,
+
+      // for web
+      outlineWidth: 0,
     },
 
     androidTextInput: {

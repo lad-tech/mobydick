@@ -94,7 +94,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
   }, [rightIcon]);
 
   return (
-    <View style={[styles.container, containerStyle]}>
+    <View style={[styles.container, containerStyle]} accessible={true}>
       {title && (
         <InputTitle title={title} titleProps={titleProps} required={required} />
       )}
