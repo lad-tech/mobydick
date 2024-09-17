@@ -2,6 +2,7 @@
 
 exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -67,6 +68,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -97,6 +99,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
 
 exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -161,6 +164,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -190,6 +194,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
 
 exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -254,6 +259,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -283,6 +289,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
 
 exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -350,6 +357,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
