@@ -1,3 +1,10 @@
+# [7.35.0-next.7](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.6...v7.35.0-next.7) (2024-09-18)
+
+
+### Features
+
+* update outline for Search ([be2dd18](https://github.com/lad-tech/mobydick/commit/be2dd18d193b67c87c78e33c1c79136d7bede264))
+
 # [7.35.0-next.6](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.5...v7.35.0-next.6) (2024-09-17)
 
 
