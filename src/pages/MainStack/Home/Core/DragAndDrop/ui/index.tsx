@@ -1,7 +1,7 @@
 import {Dimensions} from 'react-native';
 
-import {DragAndDropList, px, useTheme} from '@shared/ui';
-import {BlockView} from '@shared/ui/BlockView';
+import {DragAndDropList, px, useTheme} from '@/shared/ui';
+import {BlockView} from '@/shared/ui/BlockView';
 
 const {width: WIDTH} = Dimensions.get('window');
 

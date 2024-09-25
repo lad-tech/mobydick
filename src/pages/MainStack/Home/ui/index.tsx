@@ -1,8 +1,8 @@
-import {useStyles, View} from '@shared/ui';
-import getScreenStyles from '@shared/styles/getScreenStyles';
-import {move} from '@shared/lib/navigationRef';
-import {SCREENS} from '@shared/lib/constants/screens';
-import NavigationButton from '@shared/ui/NavigationButton';
+import {useStyles, View} from '@/shared/ui';
+import getScreenStyles from '@/shared/styles/getScreenStyles';
+import {move} from '@/shared/lib/navigationRef';
+import {SCREENS} from '@/shared/lib/constants/screens';
+import NavigationButton from '@/shared/ui/NavigationButton';
 
 const HomeScreen = () => {
   const [styles] = useStyles(getScreenStyles);

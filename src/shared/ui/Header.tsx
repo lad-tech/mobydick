@@ -1,6 +1,6 @@
 import {FC} from 'react';
 
-import {TypographyLegacy} from '@shared/ui';
+import {TypographyLegacy} from '@/shared/ui';
 
 const Header: FC<{title: string}> = ({title}) => {
   return (

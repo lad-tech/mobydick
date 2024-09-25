@@ -1,6 +1,6 @@
 import { Theme } from '@react-navigation/native';
 
-import { CurrentTheme, useTheme } from '@shared/ui';
+import { CurrentTheme, useTheme } from '@/shared/ui';
 
 export const useNavigationTheme = () => {
   const {currentTheme, colors} = useTheme();

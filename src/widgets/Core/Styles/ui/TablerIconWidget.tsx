@@ -5,8 +5,8 @@ import {
   IconBackpack,
   useStyles,
   View,
-} from '@shared/ui';
-import Header from '@shared/ui/Header';
+} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const TablerIconWidget = () => {
   const [styles] = useStyles(style);

@@ -10,8 +10,8 @@ import {
   TypographyLegacyProp,
   useStyles,
   View,
-} from '@shared/ui';
-import getScreenStyles from '@shared/styles/getScreenStyles';
+} from '@/shared/ui';
+import getScreenStyles from '@/shared/styles/getScreenStyles';
 
 const getAllTypographyLegacy = (): TypographyLegacyProp[] => {
   const weights: TFontWeight[] = Object.keys(

@@ -9,7 +9,7 @@ import {
   usePopups,
   useStyles,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const ModalsWidget = () => {
   const [styles] = useStyles(styleFn);

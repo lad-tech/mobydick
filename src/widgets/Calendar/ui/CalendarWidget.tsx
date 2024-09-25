@@ -1,5 +1,5 @@
-import {Calendar, createStyles, useStyles, View} from '@shared/ui';
-import Header from '@shared/ui/Header';
+import {Calendar, createStyles, useStyles, View} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const CalendarWidget = () => {
   const [styles] = useStyles(stylesFn);

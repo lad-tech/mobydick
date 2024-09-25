@@ -1,7 +1,7 @@
-import {ScrollView, useStyles} from '@shared/ui';
-import getScreenStyles from '@shared/styles/getScreenStyles';
-import {TabsWidget} from '@widgets/Core/Navbars/ui/TabsWidget';
-import {PanelHeaderWidget} from '@widgets/Core/Navbars/ui/PanelHeaderWidget';
+import {ScrollView, useStyles} from '@/shared/ui';
+import getScreenStyles from '@/shared/styles/getScreenStyles';
+import {TabsWidget} from '@/widgets/Core/Navbars/ui/TabsWidget';
+import {PanelHeaderWidget} from '@/widgets/Core/Navbars/ui/PanelHeaderWidget';
 
 const NavbarsScreen = () => {
   const [styles] = useStyles(getScreenStyles);

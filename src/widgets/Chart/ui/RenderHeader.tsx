@@ -1,7 +1,7 @@
 import Animated, {useAnimatedProps} from 'react-native-reanimated';
 import {TextInput} from 'react-native';
 
-import {IRenderHeader, TypographyLegacy, useFont, View} from '@shared/ui';
+import {IRenderHeader, TypographyLegacy, useFont, View} from '@/shared/ui';
 
 interface IRenderHeaderProps {
   header: Parameters<IRenderHeader>[number];

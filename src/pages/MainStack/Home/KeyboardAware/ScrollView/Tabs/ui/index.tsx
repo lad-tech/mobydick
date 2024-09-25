@@ -3,8 +3,8 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {KeyboardAwareScrollViewWithTabsScreen} from './KeyboardAwareScrollViewWithTabsScreen';
 import {KeyboardAwareScrollViewWithBottomAndTabsScreen} from './KeyboardAwareScrollViewWithBottomAndTabsScreen';
 
-import IRootStackParamList from '@shared/lib/constants/rootStackParamList';
-import {SCREENS} from '@shared/lib/constants/screens';
+import IRootStackParamList from '@/shared/lib/constants/rootStackParamList';
+import {SCREENS} from '@/shared/lib/constants/screens';
 
 const Tab = createBottomTabNavigator<IRootStackParamList>();
 

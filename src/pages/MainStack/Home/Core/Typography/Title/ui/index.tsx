@@ -10,8 +10,8 @@ import {
   TypographyLegacyProp,
   useStyles,
   View,
-} from '@shared/ui';
-import getScreenStyles from '@shared/styles/getScreenStyles';
+} from '@/shared/ui';
+import getScreenStyles from '@/shared/styles/getScreenStyles';
 
 const getAllTitle = (): TitleProp[] => {
   const sizes: TFontHeaderSize[] = Object.keys(

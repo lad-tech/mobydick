@@ -1,4 +1,4 @@
-import {createStyles} from '@shared/ui';
+import {createStyles} from '@/shared/ui';
 
 const getScreenStyles = createStyles(({colors, spaces}) => ({
   container: {

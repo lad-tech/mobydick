@@ -6,7 +6,7 @@ import {
   TypographyLegacy,
   useStyles,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const SliderWidget = () => {
   const [styles] = useStyles(styleFn);

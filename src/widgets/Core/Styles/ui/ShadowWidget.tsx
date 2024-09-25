@@ -1,5 +1,5 @@
-import {createStyles, TypographyLegacy, useStyles, View} from '@shared/ui';
-import Header from '@shared/ui/Header';
+import {createStyles, TypographyLegacy, useStyles, View} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const ShadowWidget = () => {
   const [styles] = useStyles(style);

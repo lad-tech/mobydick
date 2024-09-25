@@ -10,7 +10,7 @@ import {
   IChatMessage,
   useStyles,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const ChatWidget = () => {
   const [styles] = useStyles(styleFn);

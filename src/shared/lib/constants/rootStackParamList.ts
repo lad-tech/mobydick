@@ -1,4 +1,4 @@
-import { SCREENS } from "@shared/lib/constants/screens";
+import { SCREENS } from "@/shared/lib/constants/screens";
 
 type IRootStackParamList = {
   [SCREENS.Home]: undefined,

@@ -1,5 +1,5 @@
-import {createStyles, CrossedText, useStyles, View} from '@shared/ui';
-import Header from '@shared/ui/Header';
+import {createStyles, CrossedText, useStyles, View} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const CrossedTextWidget = () => {
   const [styles] = useStyles(stylesFn);
