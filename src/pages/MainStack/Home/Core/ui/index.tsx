@@ -1,8 +1,8 @@
-import {ScrollView, useStyles} from '@shared/ui';
-import getScreenStyles from '@shared/styles/getScreenStyles';
-import NavigationButton from '@shared/ui/NavigationButton';
-import {SCREENS} from '@shared/lib/constants/screens';
-import {move} from '@shared/lib/navigationRef';
+import {ScrollView, useStyles} from '@/shared/ui';
+import getScreenStyles from '@/shared/styles/getScreenStyles';
+import NavigationButton from '@/shared/ui/NavigationButton';
+import {SCREENS} from '@/shared/lib/constants/screens';
+import {move} from '@/shared/lib/navigationRef';
 
 const CoreScreen = () => {
   const [styles] = useStyles(getScreenStyles);

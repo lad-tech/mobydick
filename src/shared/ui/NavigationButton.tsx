@@ -1,9 +1,9 @@
 import {
   createStyles,
   TouchableOpacity,
-  TypographyLegacy,
+  Typography,
   useStyles,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 interface INavigationButtonProps {
   text: string;
@@ -14,7 +14,7 @@ const NavigationButton = ({onPress, text}: INavigationButtonProps) => {
   const [styles] = useStyles(createStylesFn);
   return (
     <TouchableOpacity onPress={onPress} style={styles.container}>
-      <TypographyLegacy font={'Regular-Primary-H5'}>{text}</TypographyLegacy>
+      <Typography font={'Regular-Primary-L'}>{text}</Typography>
     </TouchableOpacity>
   );
 };

@@ -1,0 +1,17 @@
+pre-commit:
+  parallel: true
+  commands:
+    eslint:
+      glob: "*.{js,jsx,ts,tsx}"
+      run: yarn eslint --fix {staged_files}
+    jest:
+      glob: "*.{js,jsx,ts,tsx}"
+      run: yarn jest --bail --findRelatedTests --passWithNoTests {staged_files}
+    typescript:
+      glob: "*.{ts,tsx}"
+      run: yarn tsc --noEmit
+
+commit-msg:
+  commands:
+    commitlint:
+      run: npx commitlint --edit

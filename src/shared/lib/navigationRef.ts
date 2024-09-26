@@ -1,5 +1,5 @@
 import { createNavigationContainerRef, StackActions } from '@react-navigation/native';
-import IRootStackParamList from '@shared/lib/constants/rootStackParamList';
+import IRootStackParamList from '@/shared/lib/constants/rootStackParamList';
 
 export const navigationRef = createNavigationContainerRef<IRootStackParamList>();
 

@@ -1,7 +1,7 @@
 import {useState} from 'react';
 
-import {SimpleIconAlbum, TypographyLegacy, View} from '@shared/ui';
-import Header from '@shared/ui/Header';
+import {SimpleIconAlbum, TypographyLegacy, View} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const SimpleIconWidget = () => {
   const [simpleIconName, setSimpleIconName] = useState('');

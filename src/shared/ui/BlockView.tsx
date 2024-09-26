@@ -1,4 +1,4 @@
-import {createStyles, TypographyLegacy, useStyles, View} from '@shared/ui';
+import {createStyles, TypographyLegacy, useStyles, View} from '@/shared/ui';
 
 export const BlockView = ({
   item,

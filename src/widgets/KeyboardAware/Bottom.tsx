@@ -4,7 +4,7 @@ import {
   TypographyLegacy,
   useStyles,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const BottomComponent = () => {
   const [styles] = useStyles(style);

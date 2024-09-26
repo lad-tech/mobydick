@@ -11,15 +11,15 @@ import {
   TypographyLegacy,
   useStyles,
   View,
-} from '@shared/ui';
-import Header from '@shared/ui/Header';
+} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 import {
   defaultGroupDateTest,
   defaultUserTest,
   smallGroupDateTest,
   userTest,
   userWithLogoTest,
-} from '@shared/lib/test/data/avatar';
+} from '@/shared/lib/test/data/avatar';
 
 export const AvatarWidget = () => {
   const [styles] = useStyles(stylesFn);

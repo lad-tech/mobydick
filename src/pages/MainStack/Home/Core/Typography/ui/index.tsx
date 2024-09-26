@@ -1,8 +1,8 @@
-import {useStyles, View} from '@shared/ui';
-import getScreenStyles from '@shared/styles/getScreenStyles';
-import NavigationButton from '@shared/ui/NavigationButton';
-import {SCREENS} from '@shared/lib/constants/screens';
-import {move} from '@shared/lib/navigationRef';
+import {useStyles, View} from '@/shared/ui';
+import getScreenStyles from '@/shared/styles/getScreenStyles';
+import NavigationButton from '@/shared/ui/NavigationButton';
+import {SCREENS} from '@/shared/lib/constants/screens';
+import {move} from '@/shared/lib/navigationRef';
 
 const TypographyAllScreen = () => {
   const [styles] = useStyles(getScreenStyles);

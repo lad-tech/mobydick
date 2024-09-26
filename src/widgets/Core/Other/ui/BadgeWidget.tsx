@@ -8,8 +8,8 @@ import {
   TypographyLegacy,
   useStyles,
   View,
-} from '@shared/ui';
-import Header from '@shared/ui/Header';
+} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const BadgeWidget = () => {
   const [styles] = useStyles(stylesFn);

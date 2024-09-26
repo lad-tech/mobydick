@@ -7,7 +7,7 @@ import {
   usePopups,
   useStyles,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const SnackbarWidget = () => {
   const [styles] = useStyles(styleFn);

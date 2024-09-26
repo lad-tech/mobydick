@@ -1,6 +1,0 @@
-export const TEXTS = {
-  NAVIGATOR: 'NAVIGATOR',
-  ADDONS: 'ADDONS',
-  KNOBS: 'KNOBS',
-  PREVIEW: 'PREVIEW',
-};

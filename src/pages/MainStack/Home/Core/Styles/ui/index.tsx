@@ -1,8 +1,8 @@
-import {FlatList, useStyles, View} from '@shared/ui';
-import getScreenStyles from '@shared/styles/getScreenStyles';
-import {ShadowWidget} from '@widgets/Core/Styles/ui/ShadowWidget';
-import {SimpleIconWidget} from '@widgets/Core/Styles/ui/SimpleIconWidget';
-import {TablerIconWidget} from '@widgets/Core/Styles/ui/TablerIconWidget';
+import {FlatList, useStyles, View} from '@/shared/ui';
+import getScreenStyles from '@/shared/styles/getScreenStyles';
+import {ShadowWidget} from '@/widgets/Core/Styles/ui/ShadowWidget';
+import {SimpleIconWidget} from '@/widgets/Core/Styles/ui/SimpleIconWidget';
+import {TablerIconWidget} from '@/widgets/Core/Styles/ui/TablerIconWidget';
 
 const renderItem = () => <View />;
 

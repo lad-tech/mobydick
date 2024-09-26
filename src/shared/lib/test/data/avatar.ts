@@ -5,7 +5,7 @@ export const userTest = {
 
 export const userWithLogoTest = {
     firstName: 'Anonim',
-    logo: require('@shared/ui/images/Avatar.png'),
+    logo: require('@/shared/ui/images/Avatar.png'),
 };
 
 export const defaultGroupDateTest = [
@@ -21,7 +21,7 @@ export const defaultGroupDateTest = [
 
 export const smallGroupDateTest = [
     {
-        logo: require('@shared/ui/images/Avatar.png'),
+        logo: require('@/shared/ui/images/Avatar.png'),
         firstName: 'Иван',
         lastName: 'Пушкин',
     },

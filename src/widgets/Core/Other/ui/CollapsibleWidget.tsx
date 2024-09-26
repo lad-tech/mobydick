@@ -4,8 +4,8 @@ import {
   TypographyLegacy,
   useStyles,
   View,
-} from '@shared/ui';
-import Header from '@shared/ui/Header';
+} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const CollapsibleWidget = () => {
   const [styles] = useStyles(stylesFn);

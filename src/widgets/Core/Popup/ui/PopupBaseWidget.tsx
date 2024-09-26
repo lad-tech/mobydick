@@ -6,7 +6,7 @@ import {
   usePopups,
   useStyles,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const PopupBaseWidget = () => {
   const [styles] = useStyles(styleFn);
