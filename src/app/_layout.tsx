@@ -5,6 +5,17 @@ import {SplashScreen} from 'expo-router';
 import {useEffect} from 'react';
 import {StatusBar} from 'expo-status-bar';
 import {Appearance, Platform} from 'react-native';
+import {
+  Inter_100Thin,
+  Inter_200ExtraLight,
+  Inter_300Light,
+  Inter_400Regular,
+  Inter_500Medium,
+  Inter_600SemiBold,
+  Inter_700Bold,
+  Inter_800ExtraBold,
+  Inter_900Black,
+} from '@expo-google-fonts/inter';
 
 import {PopupsProvider, ThemeProvider} from '@/shared/ui';
 import MainStack from '@/pages/MainStack/ui';
@@ -32,7 +43,15 @@ const NavigationThemeWrapper = () => {
 
 export default () => {
   const [loaded] = useFonts({
-    Inter: require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter.ttf'),
+    Inter_100Thin,
+    Inter_200ExtraLight,
+    Inter_300Light,
+    Inter_400Regular,
+    Inter_500Medium,
+    Inter_600SemiBold,
+    Inter_700Bold,
+    Inter_800ExtraBold,
+    Inter_900Black,
     Neotis: require('@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts/Neotis.ttf'),
   });
 

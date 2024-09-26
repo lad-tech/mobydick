@@ -12,6 +12,7 @@ import {useSafeAreaFrame} from 'react-native-safe-area-context';
 import {useDerivedValue, useSharedValue} from 'react-native-reanimated';
 import {useTheme, View} from '@lad-tech/mobydick-core';
 import {StyleProp, ViewStyle} from 'react-native';
+import {Inter_400Regular} from '@expo-google-fonts/inter';
 
 import {
   IDataset,
@@ -47,11 +48,7 @@ export const BarChart = ({
   formatterY,
   formatterX,
 }: IBarChartProps) => {
-  const font = useFont(
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf'),
-    12,
-  );
+  const font = useFont(Inter_400Regular, 12);
   const {colors, spaces} = useTheme();
   const ref = useCanvasRef();
 

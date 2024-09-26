@@ -14,7 +14,7 @@ sidebar_position: 0
 npm install @lad-tech/mobydick-core react-native-svg react-native-svg-transformer react-native-safe-area-context
 ```
 
-## Font
+### Bare React Native
 
 To use typography font, you must install the font. To do this, in `react-native.config.js` you need to add the path to it to `assets`:
 
@@ -28,6 +28,9 @@ module.exports = {
     ...,
     // highlight-next-line
     'node_modules/@lad-tech/mobydick-core/src/typography/assets/fonts/',
+    // highlight-next-line
+    'node_modules/@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts/',
+
   ],
 };
 ```
@@ -38,27 +41,76 @@ and run the command
 npx react-native-asset
 ```
 
-## Icons
+### Expo
 
-To use font icons, you must install the font. To do this, in `react-native.config.js` you need to add the path to it to `assets`:
+add new fonts into `app.json` (`app.config.js`)
 
 ```js
-module.exports = {
-  project: {
-    ios: {},
-    android: {},
-  },
-    assets: [
-      ...,
-      // highlight-next-line
-      'node_modules/@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts/',
+plugins: [
+  ...
+  [
+    'expo-font',
+    {
+      fonts: [
+        // highlight-next-line
+        'node_modules/@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts',
+        // highlight-next-line
+        'node_modules/expo-google-fonts/inter',
+      ],
+    },
   ],
-};
+],
 ```
+and load them into `_layout.ts`
 
-and run the command
+```ts
+import {useFonts} from 'expo-font';
+import {SplashScreen} from 'expo-router';
+import {useEffect} from 'react';
+import {
+  Inter_100Thin,
+  Inter_200ExtraLight,
+  Inter_300Light,
+  Inter_400Regular,
+  Inter_500Medium,
+  Inter_600SemiBold,
+  Inter_700Bold,
+  Inter_800ExtraBold,
+  Inter_900Black,
+} from '@expo-google-fonts/inter';
 
-```bash
-npx react-native-asset
+
+// Prevent the splash screen from auto-hiding before asset loading is complete.
+SplashScreen.preventAutoHideAsync();
+
+export default () => {
+  const [loaded] = useFonts({
+    Inter_100Thin,
+    Inter_200ExtraLight,
+    Inter_300Light,
+    Inter_400Regular,
+    Inter_500Medium,
+    Inter_600SemiBold,
+    Inter_700Bold,
+    Inter_800ExtraBold,
+    Inter_900Black,
+    Neotis: require('@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts/Neotis.ttf'),
+  });
+
+  useEffect(() => {
+    if (loaded) {
+      SplashScreen.hideAsync();
+    }
+  }, [loaded]);
+
+  if (!loaded) {
+    return null;
+  }
+
+  return (
+    ...
+  );
+};
+
 ```
 

@@ -8,22 +8,24 @@ import {
   TFontWeight,
   TypographyProp,
 } from '../types';
-import {getSize} from '../utils';
+import {fontResolver, getSize} from '../utils';
 import {getWeight} from '../utils/getWeight';
 
 export const useFontBody = (font: TypographyProp = 'Regular-Primary-S') => {
-  const {colors, theme} = useTheme();
+  const {colors, customFontResolver} = useTheme();
 
-  const [wight, color, size] = font.split('-');
+  const [weight, color, size] = font.split('-');
   const {fontSize, lineHeight} = getSize(size as TFontSize);
 
   const fontStyle: TextStyle = {
     color: colors[`${TEXT}${color as TFontColor}`],
-    fontFamily: theme.font,
+    fontFamily: customFontResolver
+      ? customFontResolver(weight as TFontWeight)
+      : fontResolver(weight as TFontWeight),
     fontSize,
     lineHeight,
     minHeight: lineHeight,
-    fontWeight: getWeight(wight as TFontWeight),
+    fontWeight: getWeight(weight as TFontWeight),
   };
 
   return {fontStyle};
