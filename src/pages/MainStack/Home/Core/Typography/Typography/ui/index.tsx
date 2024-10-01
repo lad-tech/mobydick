@@ -27,8 +27,8 @@ const getAllTypography = (): TypographyProp[] => {
   ) as unknown as TFontColor[];
 
   const result: TypographyProp[] = [];
-  weights.forEach(weight => {
-    colors.forEach(color => {
+  colors.forEach(color => {
+    weights.forEach(weight => {
       sizes.forEach(size => {
         result.push(`${weight}-${color}-${size}`);
       });

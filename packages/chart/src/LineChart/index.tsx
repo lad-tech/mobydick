@@ -19,6 +19,17 @@ import {
   GestureDetector,
   GestureHandlerRootView,
 } from 'react-native-gesture-handler';
+import {
+  Inter_100Thin,
+  Inter_200ExtraLight,
+  Inter_300Light,
+  Inter_400Regular,
+  Inter_500Medium,
+  Inter_600SemiBold,
+  Inter_700Bold,
+  Inter_800ExtraBold,
+  Inter_900Black,
+} from '@expo-google-fonts/inter';
 
 import Coordinates from '../components/Coordinates';
 import {
@@ -70,17 +81,19 @@ export const LineChart = ({
   const {colors, spaces} = useTheme();
   const fontMgr = useFonts({
     Inter: [
-      require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Bold.ttf'),
-      require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Italic.ttf'),
-      require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Regular.ttf'),
+      Inter_100Thin,
+      Inter_200ExtraLight,
+      Inter_300Light,
+      Inter_400Regular,
+      Inter_500Medium,
+      Inter_600SemiBold,
+      Inter_700Bold,
+      Inter_800ExtraBold,
+      Inter_900Black,
     ],
   });
 
-  const font = useFont(
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    require('@lad-tech/mobydick-core/src/typography/assets/fonts/Inter-Medium.ttf'),
-    12,
-  );
+  const font = useFont(Inter_500Medium, 12);
 
   const ref = useCanvasRef();
 

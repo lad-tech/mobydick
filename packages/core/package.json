@@ -37,6 +37,7 @@
     "react-native-svg-transformer": ">=1.0.0"
   },
   "dependencies": {
+    "@expo-google-fonts/inter": "^0.2.3",
     "@tabler/icons-react-native": "^3.7.0"
   }
 }

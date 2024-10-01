@@ -26,7 +26,7 @@ exports[`Counter render counter ICounterSize.medium 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter",
+          "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
@@ -71,7 +71,7 @@ exports[`Counter render counter ICounterSize.small 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter",
+          "fontFamily": "Inter-SemiBold",
           "fontSize": 10,
           "fontWeight": "600",
           "lineHeight": 14,
@@ -116,7 +116,7 @@ exports[`Counter render counter ICounterTypes.accent 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter",
+          "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
@@ -161,7 +161,7 @@ exports[`Counter render counter ICounterTypes.accentLight 1`] = `
       [
         {
           "color": "#2B78EE",
-          "fontFamily": "Inter",
+          "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
@@ -206,7 +206,7 @@ exports[`Counter render counter ICounterTypes.attention 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter",
+          "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
@@ -251,7 +251,7 @@ exports[`Counter render counter ICounterTypes.attentionLight 1`] = `
       [
         {
           "color": "#F54C3D",
-          "fontFamily": "Inter",
+          "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
@@ -296,7 +296,7 @@ exports[`Counter render counter ICounterTypes.muted 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter",
+          "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
@@ -341,7 +341,7 @@ exports[`Counter render counter ICounterTypes.mutedLight 1`] = `
       [
         {
           "color": "#9BA1B0",
-          "fontFamily": "Inter",
+          "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
@@ -388,7 +388,7 @@ exports[`Counter render counter style 1`] = `
       [
         {
           "color": "#FFFFFF",
-          "fontFamily": "Inter",
+          "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 20,
@@ -433,7 +433,7 @@ exports[`Counter render font 1`] = `
       [
         {
           "color": "#151C2C",
-          "fontFamily": "Inter",
+          "fontFamily": "Inter-Bold",
           "fontSize": 10,
           "fontWeight": "700",
           "lineHeight": 14,

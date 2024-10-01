@@ -71,8 +71,6 @@ export const defaultTheme: IDefaultTheme = {
   spaces: {
     ...defaultSpaces,
   },
-  fonts: defaultFonts,
-  font: defaultFont,
   shadows: getShadows({
     spaces: defaultSpaces,
     currentTheme: CurrentTheme.light,

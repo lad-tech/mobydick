@@ -38,8 +38,8 @@ module.exports = {
         'expo-font',
         {
           fonts: [
-            'node_modules/@lad-tech/mobydick-core/src/typography/assets/fonts/Inter.ttf',
-            'node_modules/@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts/Neotis.ttf',
+            'node_modules/@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts',
+            'node_modules/expo-google-fonts/inter',
           ],
         },
       ],

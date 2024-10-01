@@ -1,6 +1,6 @@
 import {ImageStyle, TextStyle, ViewStyle} from 'react-native';
 
-import {TWeights} from '../typography';
+import {TFontWeight} from '../typography';
 
 import {
   CurrentTheme,
@@ -37,9 +37,7 @@ export interface IDefaultTheme {
       IAdditionalColors
   >;
   spaces: IDefaultSpaces;
-  /** @deprecated  use font **/
-  fonts: TWeights;
-  font: string;
+
   shadows: IShadow;
 }
 
@@ -57,8 +55,7 @@ export interface IThemeContext {
     IBannerColors &
     IAdditionalColors;
   spaces: IDefaultSpaces;
-  fonts: TWeights;
-  font: string;
+  customFontResolver?: (weight: TFontWeight) => string;
   shadows: IShadow;
 
   setTheme: (theme: IDefaultTheme) => void;
