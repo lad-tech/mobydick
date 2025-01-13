@@ -39,7 +39,7 @@ module.exports = {
         {
           fonts: [
             'node_modules/@lad-tech/mobydick-core/src/styles/icons/font/assets/fonts',
-            'node_modules/expo-google-fonts/inter',
+            'node_modules/@expo-google-fonts/inter',
           ],
         },
       ],
