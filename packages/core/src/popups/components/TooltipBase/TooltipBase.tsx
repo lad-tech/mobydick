@@ -50,19 +50,28 @@ const TooltipBase: FC<ITooltipBaseProps> & {
   }, []);
 
   useMemo(() => {
-    refCurrent?.current?.measure((_x, _y, _width, _height, _pageX, pageY) => {
-      if (pageY) {
-        const androidValue = height - pageY;
+    refCurrent?.current?.measure(
+      (
+        _x: number,
+        _y: number,
+        _width: number,
+        _height: number,
+        _pageX: number,
+        pageY: number,
+      ) => {
+        if (pageY) {
+          const androidValue = height - pageY;
 
-        position === IPosition.top
-          ? setPositionValueY(pageY + _height)
-          : setPositionValueY(androidValue);
+          position === IPosition.top
+            ? setPositionValueY(pageY + _height)
+            : setPositionValueY(androidValue);
 
-        placement === IPlacement.start
-          ? setPositionValueX(_pageX)
-          : setPositionValueX(width - _pageX - _width);
-      }
-    });
+          placement === IPlacement.start
+            ? setPositionValueX(_pageX)
+            : setPositionValueX(width - _pageX - _width);
+        }
+      },
+    );
   }, []);
 
   if (positionValueY === 0) {

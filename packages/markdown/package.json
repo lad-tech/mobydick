@@ -29,9 +29,9 @@
   "author": "Ksenia Petrova <petrovakd@lad24.ru>",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": ">=0.66.4",
-    "react": ">=17.0.2",
     "@lad-tech/mobydick-core": "7.35.0-next.7",
+    "react": ">=17.0.2",
+    "react-native": ">=0.66.4",
     "react-native-markdown-display": ">=7.0.2"
   }
 }
