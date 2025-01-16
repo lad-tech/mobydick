@@ -1,7 +1,7 @@
 import {
   TouchableHighlightProps as DefaultTouchableHighlightProps,
-  TouchableHighlight as DefaultTouchableHighlight,
+  View,
 } from 'react-native';
 
 export type TouchableHighlightProps = DefaultTouchableHighlightProps;
-export type ITouchableHighlight = DefaultTouchableHighlight;
+export type ITouchableHighlight = View & TouchableHighlightProps;

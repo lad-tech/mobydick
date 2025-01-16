@@ -112,7 +112,7 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -176,7 +176,7 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -240,7 +240,7 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -304,7 +304,7 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -368,7 +368,7 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -432,7 +432,7 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -496,7 +496,7 @@ exports[`AutoCarousel render AutoCarousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
