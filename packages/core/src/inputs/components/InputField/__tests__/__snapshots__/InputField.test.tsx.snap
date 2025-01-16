@@ -42,7 +42,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#F2F4F7",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -293,7 +293,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#F2F4F7",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "rgba(21, 28, 44, 0.4)",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -363,7 +363,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#F2F4F7",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -458,7 +458,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#F2F4F7",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -553,7 +553,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
       [
         {
           "alignItems": undefined,
-          "backgroundColor": "#F2F4F7",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -648,7 +648,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#F2F4F7",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -900,7 +900,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#F2F4F7",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -1011,7 +1011,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#F2F4F7",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "#F54C3D",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -1147,7 +1147,7 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#F2F4F7",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,

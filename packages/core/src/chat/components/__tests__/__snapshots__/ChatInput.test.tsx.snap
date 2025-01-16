@@ -56,7 +56,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
           [
             {
               "alignItems": undefined,
-              "backgroundColor": "#F2F4F7",
+              "backgroundColor": "#EDEFF3",
               "borderColor": "transparent",
               "borderRadius": 8,
               "borderWidth": 1,
@@ -238,7 +238,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
           [
             {
               "alignItems": undefined,
-              "backgroundColor": "#F2F4F7",
+              "backgroundColor": "#EDEFF3",
               "borderColor": "transparent",
               "borderRadius": 8,
               "borderWidth": 1,
@@ -425,7 +425,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
           [
             {
               "alignItems": undefined,
-              "backgroundColor": "#F2F4F7",
+              "backgroundColor": "#EDEFF3",
               "borderColor": "transparent",
               "borderRadius": 8,
               "borderWidth": 1,

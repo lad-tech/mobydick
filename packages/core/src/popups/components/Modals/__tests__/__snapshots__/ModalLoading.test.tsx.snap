@@ -191,7 +191,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
           {
             "alignItems": "center",
             "alignSelf": "stretch",
-            "backgroundColor": "#F2F4F7",
+            "backgroundColor": "#EDEFF3",
             "borderRadius": 12,
             "flexDirection": "row",
             "justifyContent": "center",
@@ -419,7 +419,7 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
           {
             "alignItems": "center",
             "alignSelf": "stretch",
-            "backgroundColor": "#F2F4F7",
+            "backgroundColor": "#EDEFF3",
             "borderRadius": 12,
             "flexDirection": "row",
             "justifyContent": "center",

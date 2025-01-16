@@ -65,7 +65,7 @@ export const primitivesColors = {
   Neutral60: '#5E6678',
   Neutral40: '#9BA1B0',
   Neutral20: '#D0D6E0',
-  Neutral10: '#F2F4F7',
+  Neutral10: '#EDEFF3',
   Neutral0: '#FFFFFF',
 
   Accent100: '#2B78EE',
