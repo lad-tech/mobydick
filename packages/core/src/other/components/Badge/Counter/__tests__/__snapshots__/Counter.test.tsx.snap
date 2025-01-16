@@ -189,7 +189,7 @@ exports[`Counter render counter ICounterTypes.attention 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#F54D3D",
+        "backgroundColor": "#F54C3D",
         "borderRadius": 12,
         "height": 24,
         "justifyContent": "center",
@@ -358,6 +358,51 @@ exports[`Counter render counter ICounterTypes.mutedLight 1`] = `
     }
   >
     10
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.neutral 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#353A45",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    99+
   </Text>
 </View>
 `;

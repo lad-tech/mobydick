@@ -19,11 +19,14 @@ function getSpinnerColor({
   ) {
     return theme.colors.ElementError;
   }
-  if (
-    state === IStateBtn.default &&
-    (type === IButtonTypes.secondary || type === IButtonTypes.tertiary)
-  ) {
-    return theme.colors.ElementAccent;
+
+  if (state === IStateBtn.default) {
+    if (type === IButtonTypes.tertiary) {
+      return theme.colors.ElementAccent;
+    }
+    if (type === IButtonTypes.secondary) {
+      return theme.colors.ElementNeutral;
+    }
   }
 
   return theme.colors.ElementWhite;

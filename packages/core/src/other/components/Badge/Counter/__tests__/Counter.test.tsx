@@ -22,6 +22,12 @@ describe('Counter', () => {
     );
     expect(toJSON()).toMatchSnapshot();
   });
+  test('render counter ICounterTypes.neutral', () => {
+    const {toJSON} = render(
+      <Counter type={ICounterTypes.neutral} count={123} />,
+    );
+    expect(toJSON()).toMatchSnapshot();
+  });
   test('render counter ICounterTypes.attentionLight', () => {
     const {toJSON} = render(
       <Counter type={ICounterTypes.attentionLight} count={2} />,

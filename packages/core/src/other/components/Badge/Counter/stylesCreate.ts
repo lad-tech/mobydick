@@ -11,11 +11,13 @@ const stylesCreate = createStyles(
     const getBackgroundColor = () => {
       switch (type) {
         case ICounterTypes.attention:
-          return {backgroundColor: colors.ElementAttention};
+          return {backgroundColor: colors.ElementError};
         case ICounterTypes.accent:
-          return {backgroundColor: colors.ElementBase};
+          return {backgroundColor: colors.ElementAccent};
         case ICounterTypes.muted:
           return {backgroundColor: colors.ElementMuted};
+        case ICounterTypes.neutral:
+          return {backgroundColor: colors.ElementNeutral};
         default:
           return {backgroundColor: colors.ElementWhite};
       }

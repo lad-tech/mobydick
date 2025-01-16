@@ -16,11 +16,13 @@ const getCounterType = ({
     return ICounterTypes.attentionLight;
   }
 
-  if (
-    state === IStateBtn.default &&
-    (type === IButtonTypes.secondary || type === IButtonTypes.tertiary)
-  ) {
-    return ICounterTypes.accent;
+  if (state === IStateBtn.default) {
+    if (type === IButtonTypes.tertiary) {
+      return ICounterTypes.accent;
+    }
+    if (type === IButtonTypes.secondary) {
+      return ICounterTypes.neutral;
+    }
   }
   if (
     state === IStateBtn.danger &&

@@ -793,7 +793,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 2`] = `
     }
   >
     <SvgMock
-      fill="#2B78EE"
+      fill="#353A45"
       height="24"
       width="24"
     />
@@ -938,7 +938,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 4`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#2B78EE",
+          "backgroundColor": "#353A45",
           "borderRadius": 12,
           "height": 24,
           "justifyContent": "center",
