@@ -431,7 +431,7 @@ exports[`AvatarGroup render AvatarGroup 1`] = `
   <View
     style={
       {
-        "backgroundColor": "#F2F4F7",
+        "backgroundColor": "#EDEFF3",
         "borderColor": "#FFFFFF",
         "borderRadius": 20,
         "borderWidth": 2,
@@ -612,7 +612,7 @@ exports[`AvatarGroup render AvatarGroup groupCount 1`] = `
   <View
     style={
       {
-        "backgroundColor": "#F2F4F7",
+        "backgroundColor": "#EDEFF3",
         "borderColor": "#FFFFFF",
         "borderRadius": 20,
         "borderWidth": 2,
@@ -793,7 +793,7 @@ exports[`AvatarGroup render AvatarGroup with props 1`] = `
   <View
     style={
       {
-        "backgroundColor": "#F2F4F7",
+        "backgroundColor": "#EDEFF3",
         "borderColor": "#FFFFFF",
         "borderRadius": 20,
         "borderWidth": 2,

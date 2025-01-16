@@ -7,7 +7,7 @@ exports[`Search render correctly with value 1`] = `
     [
       {
         "alignItems": "center",
-        "backgroundColor": "#F2F4F7",
+        "backgroundColor": "#EDEFF3",
         "borderRadius": 8,
         "flexDirection": "row",
         "height": 36,
@@ -106,7 +106,7 @@ exports[`Search render correctly without value 1`] = `
     [
       {
         "alignItems": "center",
-        "backgroundColor": "#F2F4F7",
+        "backgroundColor": "#EDEFF3",
         "borderRadius": 8,
         "flexDirection": "row",
         "height": 36,
