@@ -7,6 +7,7 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value blur 1`] 
       {
         "alignItems": "center",
         "backgroundColor": "#EDEFF3",
+        "borderColor": "transparent",
         "borderRadius": 8,
         "flexDirection": "row",
         "justifyContent": "center",
@@ -28,7 +29,7 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value blur 1`] 
     onFocus={[Function]}
     onKeyPress={[Function]}
     placeholderTextColor="#9BA1B0"
-    selectionColor="#2B78EE"
+    selectionColor="#20242D"
     style={
       [
         {
@@ -57,6 +58,7 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value focus 1`]
       {
         "alignItems": "center",
         "backgroundColor": "#EDEFF3",
+        "borderColor": "transparent",
         "borderRadius": 8,
         "flexDirection": "row",
         "justifyContent": "center",
@@ -77,7 +79,7 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value focus 1`]
     onFocus={[Function]}
     onKeyPress={[Function]}
     placeholderTextColor="#9BA1B0"
-    selectionColor="#2B78EE"
+    selectionColor="#20242D"
     style={
       [
         {
@@ -88,9 +90,9 @@ exports[`@lad-tech/mobydick-core/CodeField render correctly with value focus 1`]
         {
           "color": "#20242D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 20,
-          "lineHeight": 24,
-          "minHeight": 24,
+          "fontSize": 16,
+          "lineHeight": 20,
+          "minHeight": 20,
         },
         undefined,
       ]

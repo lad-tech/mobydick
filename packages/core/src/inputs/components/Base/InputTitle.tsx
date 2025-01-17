@@ -3,8 +3,8 @@ import {TextStyle} from 'react-native';
 import View from '../../../basic/components/View/View';
 import {
   IStyledTextProps,
-  TypographyLegacy,
-  TypographyLegacyProp,
+  Typography,
+  TypographyProp,
 } from '../../../typography';
 import useTheme from '../../../styles/hooks/useTheme';
 
@@ -12,7 +12,7 @@ interface IInputTitle {
   title: string;
   titleProps?: IStyledTextProps | undefined;
   titleStyle?: TextStyle | TextStyle[] | undefined;
-  titleFont?: TypographyLegacyProp | undefined;
+  titleFont?: TypographyProp | undefined;
   required?: boolean | undefined;
 }
 const InputTitle = (props: IInputTitle) => {
@@ -22,13 +22,13 @@ const InputTitle = (props: IInputTitle) => {
 
   return (
     <View style={{flexDirection: 'row'}}>
-      <TypographyLegacy font={font} style={titleStyle} {...titleProps}>
+      <Typography font={font} style={titleStyle} {...titleProps}>
         {title}
-      </TypographyLegacy>
+      </Typography>
       {required && (
-        <TypographyLegacy font={font} style={{color: colors.TextError}}>
+        <Typography font={font} style={{color: colors.TextError}}>
           {'*'}
-        </TypographyLegacy>
+        </Typography>
       )}
     </View>
   );

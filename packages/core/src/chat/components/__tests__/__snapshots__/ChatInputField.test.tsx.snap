@@ -62,7 +62,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
       onFocus={[Function]}
       placeholder="placeholder"
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -158,7 +158,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -253,7 +253,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -351,7 +351,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
       onFocus={[Function]}
       placeholder="placeholder"
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {

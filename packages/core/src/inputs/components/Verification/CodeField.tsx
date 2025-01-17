@@ -25,7 +25,7 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
   } = props;
   const [focused, setFocused] = useState(false);
   const {fontStyle} = useFont(
-    fontStyleCodeField ? fontStyleCodeField : 'Regular-Primary-XL',
+    fontStyleCodeField ? fontStyleCodeField : 'Regular-Primary-M',
   );
   const [styles, theme] = useStyles(stylesCreate, focused);
 
@@ -57,7 +57,7 @@ const CodeField = forwardRef<ITextInput, ICodeFieldProps>((props, ref) => {
         onFocus={onFocus}
         onBlur={onBlur}
         onKeyPress={onKeyPress}
-        selectionColor={theme.colors.IconBase}
+        selectionColor={theme.colors.TextPrimary}
         {...otherProps}
       />
     </View>

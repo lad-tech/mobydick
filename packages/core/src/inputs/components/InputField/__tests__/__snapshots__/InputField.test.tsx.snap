@@ -27,6 +27,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
             "color": "#353A45",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 14,
+            "fontWeight": "600",
             "lineHeight": 18,
             "minHeight": 18,
           },
@@ -66,7 +67,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -120,9 +121,10 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
           {
             "color": "#9BA1B0",
             "fontFamily": "Inter-Regular",
-            "fontSize": 10,
-            "lineHeight": 14,
-            "minHeight": 14,
+            "fontSize": 12,
+            "fontWeight": "400",
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "flex": 1,
@@ -177,7 +179,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -247,7 +249,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -317,7 +319,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -387,7 +389,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -443,6 +445,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
             "color": "#353A45",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 14,
+            "fontWeight": "600",
             "lineHeight": 18,
             "minHeight": 18,
           },
@@ -482,7 +485,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -538,6 +541,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
             "color": "#353A45",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 14,
+            "fontWeight": "600",
             "lineHeight": 18,
             "minHeight": 18,
           },
@@ -577,7 +581,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -633,6 +637,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
             "color": "#353A45",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 14,
+            "fontWeight": "600",
             "lineHeight": 18,
             "minHeight": 18,
           },
@@ -673,7 +678,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
       secureTextEntry={true}
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -727,9 +732,10 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
           {
             "color": "#9BA1B0",
             "fontFamily": "Inter-Regular",
-            "fontSize": 10,
-            "lineHeight": 14,
-            "minHeight": 14,
+            "fontSize": 12,
+            "fontWeight": "400",
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "flex": 1,
@@ -784,7 +790,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -854,7 +860,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -924,7 +930,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -978,9 +984,10 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
           {
             "color": "#F54C3D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 10,
-            "lineHeight": 14,
-            "minHeight": 14,
+            "fontSize": 12,
+            "fontWeight": "400",
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "flex": 1,
@@ -1035,7 +1042,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
@@ -1089,9 +1096,10 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
           {
             "color": "#F54C3D",
             "fontFamily": "Inter-Regular",
-            "fontSize": 10,
-            "lineHeight": 14,
-            "minHeight": 14,
+            "fontSize": 12,
+            "fontWeight": "400",
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           {
             "flex": 1,
@@ -1132,6 +1140,7 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
             "fontSize": 14,
+            "fontWeight": "500",
             "lineHeight": 18,
             "minHeight": 18,
           },
@@ -1171,7 +1180,7 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {

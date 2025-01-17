@@ -1,8 +1,12 @@
 import {ITextProps} from '../basic/components/Text/types';
 import {ITextColors} from '../styles/constants/colors/types';
 
-export interface IStyledTextProps extends ITextProps {
+export interface IStyledTextLegacyProps extends ITextProps {
   font?: TypographyLegacyProp | undefined;
+}
+
+export interface IStyledTextProps extends ITextProps {
+  font?: TypographyProp | undefined;
 }
 
 export interface IHeaderProps extends ITextProps {

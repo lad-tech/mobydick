@@ -92,7 +92,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
           onBlur={[Function]}
           onFocus={[Function]}
           placeholderTextColor="#9BA1B0"
-          selectionColor="#2B78EE"
+          selectionColor="#20242D"
           style={
             [
               {
@@ -274,7 +274,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
           onBlur={[Function]}
           onFocus={[Function]}
           placeholderTextColor="#9BA1B0"
-          selectionColor="#2B78EE"
+          selectionColor="#20242D"
           style={
             [
               {
@@ -461,7 +461,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
           onBlur={[Function]}
           onFocus={[Function]}
           placeholderTextColor="#9BA1B0"
-          selectionColor="#2B78EE"
+          selectionColor="#20242D"
           style={
             [
               {

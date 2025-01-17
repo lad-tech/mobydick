@@ -44,7 +44,7 @@ const Search = forwardRef<ITextInput, ISearchProps>((props, ref) => {
         placeholderTextColor={theme.colors.TextTertiary}
         value={value}
         onChangeText={onChangeText}
-        selectionColor={theme.colors.IconBase}
+        selectionColor={theme.colors.TextPrimary}
         {...otherProps}
       />
       {value ? (

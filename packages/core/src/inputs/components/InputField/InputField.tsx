@@ -68,7 +68,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
     } else {
       return fontStyle;
     }
-  }, [fontStyle.color]);
+  }, [fontStyle, styles.androidTextInput]);
 
   const onFocusInput = useCallback(
     (event: NativeSyntheticEvent<TextInputFocusEventData>) => {
@@ -116,7 +116,7 @@ const InputField = forwardRef<ITextInput, IInputFieldsProps>((props, ref) => {
           numberOfLines={1}
           onFocus={onFocusInput}
           onBlur={onBlurInput}
-          selectionColor={theme.colors.IconBase}
+          selectionColor={theme.colors.TextPrimary}
           secureTextEntry={secureTextEntry}
           multiline={multiline}
           {...otherProps}

@@ -3,7 +3,7 @@ import {SimpleIcon, SimpleIconName} from '../../../styles/icons';
 import {IStyledTextProps} from '../../../typography/types';
 import useTheme from '../../../styles/hooks/useTheme';
 import View from '../../../basic/components/View/View';
-import {TypographyLegacy} from '../../../typography';
+import {Typography} from '../../../typography';
 
 interface ISubtitle {
   type: IInputsTypes;
@@ -28,16 +28,14 @@ const InputSubtitle = (props: ISubtitle) => {
           style={{marginRight: spaces.Space4}}
         />
       )}
-      <TypographyLegacy
+      <Typography
         font={
-          type === IInputsTypes.wrong
-            ? 'Regular-Error-XXS'
-            : 'Regular-Muted-XXS'
+          type === IInputsTypes.wrong ? 'Regular-Error-XS' : 'Regular-Muted-XS'
         }
         style={{flex: 1}}
         {...subtitleProps}>
         {subtitle}
-      </TypographyLegacy>
+      </Typography>
     </View>
   );
 };

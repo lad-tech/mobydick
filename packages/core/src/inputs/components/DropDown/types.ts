@@ -2,7 +2,11 @@ import {ReactElement} from 'react';
 import {TextStyle, ViewStyle} from 'react-native';
 
 import {IInputsTypes} from '../types';
-import {IStyledTextProps, TypographyLegacyProp} from '../../../typography';
+import {
+  IStyledTextProps,
+  TypographyLegacyProp,
+  TypographyProp,
+} from '../../../typography';
 import {SimpleIconName} from '../../../styles/icons/font/SimpleIcon';
 
 export type IListItem<T = IItemValue> = {label: string; value: T};
@@ -16,7 +20,7 @@ export interface IDropDownProps<T extends IListItem> {
   onPress: (item: T['value']) => void;
   title?: string;
   titleStyle?: TextStyle | undefined;
-  titleFont?: TypographyLegacyProp | undefined;
+  titleFont?: TypographyProp | undefined;
   required?: boolean;
   rightIcon?: ReactElement;
   type?: IInputsTypes;
