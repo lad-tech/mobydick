@@ -207,9 +207,10 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly 1`] = `
               {
                 "color": "#20242D",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 18,
-                "lineHeight": 22,
-                "minHeight": 22,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {
@@ -435,9 +436,10 @@ exports[`@lad-tech/mobydick-core/modalLoading should renders correctly with opti
               {
                 "color": "#20242D",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 18,
-                "lineHeight": 22,
-                "minHeight": 22,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {

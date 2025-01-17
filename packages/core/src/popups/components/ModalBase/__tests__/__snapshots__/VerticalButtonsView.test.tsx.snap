@@ -58,9 +58,10 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly VerticalButt
           {
             "color": "#FFFFFF",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 18,
-            "lineHeight": 22,
-            "minHeight": 22,
+            "fontSize": 16,
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "minHeight": 20,
           },
           [
             {

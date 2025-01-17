@@ -3740,9 +3740,10 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               {
                 "color": "#9BA1B0",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 18,
-                "lineHeight": 22,
-                "minHeight": 22,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {
@@ -3806,9 +3807,10 @@ exports[`ModalCalendar bottomView IButtonView.large 1`] = `
               {
                 "color": "#9BA1B0",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 18,
-                "lineHeight": 22,
-                "minHeight": 22,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {
@@ -7545,9 +7547,10 @@ exports[`ModalCalendar bottomView IButtonView.small onAcceptDateRangeChange 1`] 
               {
                 "color": "#FFFFFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 12,
-                "lineHeight": 16,
-                "minHeight": 16,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 18,
+                "minHeight": 18,
               },
               [
                 {
@@ -11284,9 +11287,10 @@ exports[`ModalCalendar bottomView IButtonView.small onDateRangeChange 1`] = `
               {
                 "color": "#FFFFFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 12,
-                "lineHeight": 16,
-                "minHeight": 16,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 18,
+                "minHeight": 18,
               },
               [
                 {
@@ -22403,9 +22407,10 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               {
                 "color": "#9BA1B0",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 18,
-                "lineHeight": 22,
-                "minHeight": 22,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {
@@ -22469,9 +22474,10 @@ exports[`ModalCalendar renders correctly initialRange only fromDate isShowToday 
               {
                 "color": "#9BA1B0",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 18,
-                "lineHeight": 22,
-                "minHeight": 22,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {

@@ -2,7 +2,7 @@ import {ReactElement} from 'react';
 import {StyleProp, TextProps, TextStyle} from 'react-native';
 
 import {ITouchableOpacityProps} from '../../../basic/components/TouchableOpacity/types';
-import {TypographyLegacyProp} from '../../../typography/types';
+import {TypographyProp} from '../../../typography/types';
 
 export enum IStateBtn {
   danger = 'danger',
@@ -14,7 +14,7 @@ type IProps = {
   type?: IButtonTypes;
   text?: string;
   textStyle?: StyleProp<TextStyle>;
-  font?: TypographyLegacyProp | undefined;
+  font?: TypographyProp | undefined;
   leftIcon?: ReactElement;
   rightIcon?: ReactElement;
   loading?: boolean;

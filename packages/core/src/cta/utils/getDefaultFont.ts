@@ -1,4 +1,4 @@
-import {TypographyLegacyProp} from '../../typography/types';
+import {TypographyProp} from '../../typography/types';
 import {IButtonSize, IButtonTypes, IStateBtn} from '../components/Button/types';
 
 function pickColorTextBtn({
@@ -30,23 +30,23 @@ const getDefaultFont = (
   size: IButtonSize,
   type: IButtonTypes,
   state: IStateBtn,
-): TypographyLegacyProp => {
+): TypographyProp => {
   let defaultButtonFont = 'SemiBold';
 
   defaultButtonFont += pickColorTextBtn({type, state});
 
   switch (size) {
     case IButtonSize.small:
-      defaultButtonFont += '-XS';
+      defaultButtonFont += '-S';
       break;
     case IButtonSize.large:
     case IButtonSize.fixed:
     default:
-      defaultButtonFont += '-L';
+      defaultButtonFont += '-M';
       break;
   }
 
-  return defaultButtonFont as TypographyLegacyProp;
+  return defaultButtonFont as TypographyProp;
 };
 
 export default getDefaultFont;
