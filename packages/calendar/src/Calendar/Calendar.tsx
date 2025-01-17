@@ -65,7 +65,7 @@ const Calendar: FC<ICalendar> = props => {
   const colorsArg = useMemo(
     () => ({
       colorPrime: {
-        color: colors.ElementBase,
+        color: colors.ElementAccent,
         textColor: colors.TextWhite,
       },
       colorSoft: {
