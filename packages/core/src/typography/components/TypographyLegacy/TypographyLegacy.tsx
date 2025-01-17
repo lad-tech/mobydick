@@ -2,9 +2,9 @@ import {FC} from 'react';
 
 import Text from '../../../basic/components/Text/Text';
 import {useFont} from '../../hooks';
-import {IStyledTextProps} from '../../types';
+import {IStyledTextLegacyProps} from '../../types';
 
-export const TypographyLegacy: FC<IStyledTextProps> = ({
+export const TypographyLegacy: FC<IStyledTextLegacyProps> = ({
   children,
   font = 'Regular-Primary-S',
   style,
