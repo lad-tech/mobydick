@@ -66,9 +66,10 @@ exports[`Avatar render avatar ITypeAvatar.text 1`] = `
         {
           "color": "#FFFFFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -129,10 +130,10 @@ exports[`Avatar render avatar badge counter 1`] = `
           {
             "color": "#F54C3D",
             "fontFamily": "Inter-SemiBold",
-            "fontSize": 10,
+            "fontSize": 12,
             "fontWeight": "600",
-            "lineHeight": 14,
-            "minHeight": 14,
+            "lineHeight": 16,
+            "minHeight": 16,
           },
           [
             {
@@ -154,9 +155,10 @@ exports[`Avatar render avatar badge counter 1`] = `
         {
           "color": "#FFFFFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -202,7 +204,7 @@ exports[`Avatar render avatar badge indicator 1`] = `
           "zIndex": 1,
         },
         {
-          "backgroundColor": "#F54D3D",
+          "backgroundColor": "#F54C3D",
         },
         {
           "bottom": 2,
@@ -218,9 +220,10 @@ exports[`Avatar render avatar badge indicator 1`] = `
         {
           "color": "#FFFFFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -260,9 +263,10 @@ exports[`Avatar render avatar badge null 1`] = `
         {
           "color": "#FFFFFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -300,7 +304,7 @@ exports[`Avatar render avatar badge status 1`] = `
     style={
       {
         "bottom": 0,
-        "color": "#FAB742",
+        "color": "#FE8027",
         "fontFamily": "Neotis",
         "fontSize": 12,
         "position": "absolute",
@@ -318,9 +322,10 @@ exports[`Avatar render avatar badge status 1`] = `
         {
           "color": "#FFFFFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -360,9 +365,10 @@ exports[`Avatar render avatar disabled 1`] = `
         {
           "color": "#FFFFFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]
@@ -614,9 +620,10 @@ exports[`Avatar render avatar without firstName 1`] = `
         {
           "color": "#FFFFFF",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 18,
+          "minHeight": 18,
         },
         undefined,
       ]

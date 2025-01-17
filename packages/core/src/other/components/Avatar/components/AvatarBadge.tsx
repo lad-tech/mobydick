@@ -35,7 +35,7 @@ const AvatarBadge = (props: IProps): JSX.Element | null => {
       <SimpleIcon
         name={badge.value}
         size={px(12)}
-        color={colors.IconAdditional}
+        color={colors.IconWarning}
         style={styles.status}
       />
     );

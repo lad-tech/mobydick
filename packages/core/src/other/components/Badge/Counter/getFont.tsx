@@ -18,5 +18,5 @@ export const getFont = (
   type: ICounterTypes,
   size: ICounterSize,
 ): TypographyProp => {
-  return `SemiBold-${getColorText(type)}-${size === ICounterSize.medium ? 'M' : 'XXS'}`;
+  return `SemiBold-${getColorText(type)}-${size === ICounterSize.medium ? 'M' : 'XS'}`;
 };

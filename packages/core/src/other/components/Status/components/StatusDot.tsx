@@ -18,22 +18,22 @@ const StatusDot = ({state, style}: IProps) => {
   const getBackgroundColor = useCallback(() => {
     switch (state) {
       case IStatusState.blue:
-        return colors.ElementBase;
+        return colors.ElementAccent;
       case IStatusState.red:
-        return colors.ElementAttention;
+        return colors.ElementError;
       case IStatusState.green:
         return colors.ElementSuccess;
       case IStatusState.orange:
-        return colors.ElementAdditional;
+        return colors.ElementWarning;
       case IStatusState.gray:
       default:
         return colors.ElementMuted;
     }
   }, [
     state,
-    colors.ElementAdditional,
-    colors.ElementBase,
-    colors.ElementAttention,
+    colors.ElementWarning,
+    colors.ElementAccent,
+    colors.ElementError,
     colors.ElementSuccess,
     colors.ElementMuted,
   ]);

@@ -1,6 +1,6 @@
-import {IStyledTextLegacyProps} from '../../../typography';
+import {IStyledTextProps} from '../../../typography';
 
-export interface ICrossedTextProps extends IStyledTextLegacyProps {
+export interface ICrossedTextProps extends IStyledTextProps {
   lineColor: string;
   lineHeight?: number;
 }
