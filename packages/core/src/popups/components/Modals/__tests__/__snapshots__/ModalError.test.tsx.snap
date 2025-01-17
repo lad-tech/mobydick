@@ -210,9 +210,10 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly 1`] = `
               {
                 "color": "#FFFFFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 18,
-                "lineHeight": 22,
-                "minHeight": 22,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {
@@ -441,9 +442,10 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly with option
               {
                 "color": "#FFFFFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 18,
-                "lineHeight": 22,
-                "minHeight": 22,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {

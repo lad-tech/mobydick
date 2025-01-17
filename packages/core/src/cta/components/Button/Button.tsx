@@ -3,7 +3,7 @@ import {FC, forwardRef, PropsWithChildren} from 'react';
 import {getCounterType, getDefaultFont, getSpinnerColor} from '../../utils';
 import {ITouchableOpacity, TouchableOpacity} from '../../../basic';
 import useStyles from '../../../styles/hooks/useStyles';
-import {TypographyLegacy} from '../../../typography';
+import {Typography} from '../../../typography';
 import {Spinner} from '../../../progress/components/Spinner';
 import {ISizeSpinner} from '../../../progress/components/Spinner/types';
 import {ICounterSize} from '../../../other';
@@ -74,12 +74,12 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     <Container>
       {leftIcon}
       {Boolean(text) && (
-        <TypographyLegacy
+        <Typography
           {...textProps}
           style={[styles.text, textStyle]}
           font={font || defaultFont}>
           {text}
-        </TypographyLegacy>
+        </Typography>
       )}
       {rightIcon}
       {count ? (
