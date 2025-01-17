@@ -5,15 +5,15 @@ import {ReactTestInstance} from 'react-test-renderer';
 import {Radio} from '../../Radio';
 import useCloneControls from '../useCloneControls';
 import {ControlsList} from '../index';
-import {TypographyLegacy} from '../../../typography/components/TypographyLegacy/TypographyLegacy';
+import {Typography} from '../../../typography';
 
 const list = (single: boolean) => (
   <ControlsList single={single} onChange={jest.fn} values={[]}>
     <Radio value={'1'}>
-      <TypographyLegacy font={'Regular-Primary-M'}>1</TypographyLegacy>
+      <Typography font={'Regular-Primary-M'}>1</Typography>
     </Radio>
     <Radio value={'2'}>
-      <TypographyLegacy font={'Regular-Primary-M'}>2</TypographyLegacy>
+      <Typography font={'Regular-Primary-M'}>2</Typography>
     </Radio>
   </ControlsList>
 );

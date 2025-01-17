@@ -122,9 +122,10 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
               {
                 "color": "#353A45",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 12,
-                "lineHeight": 16,
-                "minHeight": 16,
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 18,
+                "minHeight": 18,
               },
               undefined,
             ]
@@ -150,6 +151,7 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
                 "color": "#9BA1B0",
                 "fontFamily": "Inter-Regular",
                 "fontSize": 10,
+                "fontWeight": "400",
                 "lineHeight": 14,
                 "minHeight": 14,
               },
@@ -287,9 +289,10 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
               {
                 "color": "#FFFFFF",
                 "fontFamily": "Inter-Regular",
-                "fontSize": 12,
-                "lineHeight": 16,
-                "minHeight": 16,
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 18,
+                "minHeight": 18,
               },
               undefined,
             ]
@@ -315,6 +318,7 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
                 "color": "rgba(255, 255, 255, 0.8)",
                 "fontFamily": "Inter-Regular",
                 "fontSize": 10,
+                "fontWeight": "400",
                 "lineHeight": 14,
                 "minHeight": 14,
               },
