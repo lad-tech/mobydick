@@ -1,7 +1,7 @@
 import {Image} from 'react-native';
 
 import View from '../../basic/components/View/View';
-import {TypographyLegacy} from '../../typography';
+import {Typography} from '../../typography';
 import {isNumber} from '../../other/functions/isNumber';
 import useStyles from '../../styles/hooks/useStyles';
 import {isValidMessageTime} from '../functions/isValidMessageTime';
@@ -27,19 +27,18 @@ const ChatMessage = (props: IChatMessage) => {
 
         {message && (
           <View style={styles.textArea}>
-            <TypographyLegacy
-              font={isMe ? 'Regular-White-XS' : 'Regular-Secondary-XS'}>
+            <Typography font={isMe ? 'Regular-White-S' : 'Regular-Secondary-S'}>
               {message}
-            </TypographyLegacy>
+            </Typography>
           </View>
         )}
 
         <View style={styles.timeArea}>
           {isValidMessageTime(time) && (
-            <TypographyLegacy
-              font={isMe ? 'Regular-WhiteExtra-XXXS' : 'Regular-Muted-XXXS'}>
+            <Typography
+              font={isMe ? 'Regular-WhiteExtra-XXS' : 'Regular-Muted-XXS'}>
               {time}
-            </TypographyLegacy>
+            </Typography>
           )}
         </View>
       </View>
@@ -54,7 +53,7 @@ const stylesCreate = createStyles(({spaces, colors}, isMe: boolean) => ({
     maxWidth: '90%',
   },
   bubble: {
-    backgroundColor: isMe ? colors.ElementBase : colors.BgPrimary,
+    backgroundColor: isMe ? colors.ElementAccent : colors.BgPrimary,
     borderRadius: spaces.Space10,
     borderBottomLeftRadius: isMe ? spaces.Space10 : 0,
     borderBottomRightRadius: isMe ? 0 : spaces.Space10,
