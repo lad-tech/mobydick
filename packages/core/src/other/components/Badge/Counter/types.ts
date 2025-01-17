@@ -15,6 +15,7 @@ export enum ICounterTypes {
 
   attention = 'attention',
   muted = 'muted',
+  neutral = 'neutral', // в дизайне его пока нет, но используется в btn с таким цветом
 }
 
 export interface ICounterProps {
