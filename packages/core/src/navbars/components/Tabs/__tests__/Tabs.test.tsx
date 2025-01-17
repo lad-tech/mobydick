@@ -20,8 +20,8 @@ describe('Tabs', () => {
         backgroundColorActiveTab={'#ff0000'}
         contentContainerStyle={{flex: 1}}
         containerStyle={{flex: 2}}
-        fontTab={'Regular-Error-H3'}
-        fontActiveTab={'Regular-White-H3'}
+        fontTab={'Regular-Error-L'}
+        fontActiveTab={'Regular-White-L'}
       />,
     );
     expect(toJSON()).toMatchSnapshot();

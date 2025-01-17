@@ -20,7 +20,7 @@ describe('Tab', () => {
         }}
         active={true}
         backgroundColorTab={'#fff000'}
-        fontTab={'Medium-Accent-H1'}
+        fontTab={'Medium-Accent-M'}
       />,
     );
     const tab = getByLabelText(LABELS.tab);

@@ -2,7 +2,7 @@ import {ReactElement, ReactNode} from 'react';
 import {TextStyle, ViewStyle} from 'react-native';
 import {Edge} from 'react-native-safe-area-context/src/SafeArea.types';
 
-import {TypographyLegacyProp} from '../typography/types';
+import {TypographyProp} from '../typography/types';
 
 export interface ITab<T extends string | number = string | number> {
   value: T;
@@ -13,8 +13,8 @@ export interface ITab<T extends string | number = string | number> {
 }
 
 interface ITabCommon {
-  fontTab?: TypographyLegacyProp;
-  fontActiveTab?: TypographyLegacyProp;
+  fontTab?: TypographyProp;
+  fontActiveTab?: TypographyProp;
   backgroundColorTab?: string;
   backgroundColorActiveTab?: string;
   onPressCommon?(item: ITab): void;
@@ -39,9 +39,9 @@ export interface IPanelHeaderProps {
   subtitle?: string;
   titleView?: ReactNode;
   titleStyle?: TextStyle;
-  titleFont?: TypographyLegacyProp;
+  titleFont?: TypographyProp;
   subtitleStyle?: TextStyle;
-  subtitleFont?: TypographyLegacyProp;
+  subtitleFont?: TypographyProp;
   titleViewStyle?: ViewStyle;
   rightView?: ReactNode;
   leftView?: ReactNode;
