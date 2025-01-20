@@ -109,7 +109,9 @@ function renderItem<T extends IListItem>(props: IRenderItemProps<T>) {
         ]}
         onPress={() => renderItemOnPress(item)}
         underlayColor={
-          selectedItemColor ? selectedItemColor : theme.colors.AdditionalSixthSoft
+          selectedItemColor
+            ? selectedItemColor
+            : theme.colors.AdditionalSixthSoft
         }>
         <TypographyLegacy
           style={isSelected() ? flatListTextStylePressed : flatListTextStyle}
