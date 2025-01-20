@@ -22,7 +22,7 @@ export const TooltipWidget = () => {
     <View style={styles.container}>
       <Title font={'Primary-H5'}>Tooltip</Title>
       <View ref={ref} style={styles.ref}>
-        <Typography>Ref component</Typography>
+        <Typography font={'Regular-White-S'}>Ref component</Typography>
       </View>
       <Button
         text={'Tooltip'}
@@ -57,6 +57,6 @@ const styleFn = createStyles(({spaces, colors}) => ({
   ref: {
     alignItems: 'center',
     padding: spaces.Space8,
-    backgroundColor: colors.BgAccent,
+    backgroundColor: colors.BgSecondary,
   },
 }));
