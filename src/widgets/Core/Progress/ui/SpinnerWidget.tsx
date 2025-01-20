@@ -21,7 +21,7 @@ export const SpinnerWidget = () => {
         <Spinner size={ISizeSpinner.S} />
         <Spinner size={ISizeSpinner.L} duration={1000} />
         <Spinner size={ISizeSpinner.M} />
-        <Spinner fill={colors.BgContrast} />
+        <Spinner fill={colors.BgInverse} />
       </View>
     </>
   );

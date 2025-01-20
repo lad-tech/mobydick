@@ -97,7 +97,7 @@ function renderItem<T extends IListItem>(props: IRenderItemProps<T>) {
 
     const backgroundColorItem = selectedItemColor
       ? {backgroundColor: selectedItemColor}
-      : {backgroundColor: theme.colors.BgAccentSoft};
+      : {backgroundColor: theme.colors.AdditionalSixthSoft};
 
     return (
       <TouchableHighlight
@@ -109,7 +109,9 @@ function renderItem<T extends IListItem>(props: IRenderItemProps<T>) {
         ]}
         onPress={() => renderItemOnPress(item)}
         underlayColor={
-          selectedItemColor ? selectedItemColor : theme.colors.BgAccentSoft
+          selectedItemColor
+            ? selectedItemColor
+            : theme.colors.AdditionalSixthSoft
         }>
         <TypographyLegacy
           style={isSelected() ? flatListTextStylePressed : flatListTextStyle}

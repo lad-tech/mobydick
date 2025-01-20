@@ -16,7 +16,7 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
       {
         "alignItems": "center",
         "alignSelf": "flex-start",
-        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+        "backgroundColor": "rgba(91, 153, 249, 0.1)",
         "borderRadius": 8,
         "flexDirection": "row",
         "padding": 4,
@@ -97,7 +97,7 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
       {
         "alignItems": "center",
         "alignSelf": "flex-start",
-        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+        "backgroundColor": "rgba(91, 153, 249, 0.1)",
         "borderRadius": 8,
         "flexDirection": "row",
         "padding": 4,

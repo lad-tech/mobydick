@@ -101,7 +101,7 @@ const Swipe: FC<ISwipe> = ({
     inputRange: [leftPos, rightPos],
     outputRange: [
       passiveColor || colors.ElementMuted,
-      activeColor || colors.ElementBase,
+      activeColor || colors.ElementAccent,
     ],
     extrapolate: 'clamp',
   });

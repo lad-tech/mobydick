@@ -96,7 +96,7 @@ const Calendar: FC<ICalendar> = props => {
   const [yearRange, setYearRange] = useState<number[]>(
     calculateYearRange(currentYear),
   );
-  const dateDots = getDottedDates(dottedDates, colors.ElementBase);
+  const dateDots = getDottedDates(dottedDates, colors.ElementAccent);
   const dateToday = getMarkedToday(colorsArg);
 
   const themeStyles = useMemo(

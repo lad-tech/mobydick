@@ -53,7 +53,7 @@ const styleSource = createStyles(({colors, spaces}) => ({
     borderRadius: spaces.Space8,
     padding: spaces.Space4,
     paddingLeft: spaces.Space8,
-    backgroundColor: colors.BgAccentSoft,
+    backgroundColor: colors.AdditionalSixthSoft,
   },
   text: {
     marginRight: spaces.Space4,

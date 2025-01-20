@@ -20,7 +20,7 @@ const CheckSquare: FC<ICommonControlProps & IPressableProps> = ({
         <Check
           width={width}
           height={height}
-          fill={rest.fill || colors.ElementBase}
+          fill={rest.fill || colors.ElementAccent}
         />
       ) : null}
     </Pressable>

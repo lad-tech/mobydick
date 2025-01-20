@@ -11,7 +11,7 @@ const stylesCreate = createStyles(({spaces, colors}, position?: IPosition) => {
           borderRightWidth: spaces.Space8,
           borderTopWidth: 0,
           borderLeftWidth: spaces.Space8,
-          borderBottomColor: colors.BgContrast,
+          borderBottomColor: colors.BgInverse,
           borderRightColor: 'transparent',
           borderTopColor: 'transparent',
           borderLeftColor: 'transparent',
@@ -24,7 +24,7 @@ const stylesCreate = createStyles(({spaces, colors}, position?: IPosition) => {
           borderRightWidth: spaces.Space8,
           borderBottomWidth: 0,
           borderLeftWidth: spaces.Space8,
-          borderTopColor: colors.BgContrast,
+          borderTopColor: colors.BgInverse,
           borderRightColor: 'transparent',
           borderBottomColor: 'transparent',
           borderLeftColor: 'transparent',
@@ -33,7 +33,7 @@ const stylesCreate = createStyles(({spaces, colors}, position?: IPosition) => {
   };
   return {
     container: {
-      backgroundColor: colors.BgContrast,
+      backgroundColor: colors.BgInverse,
       paddingVertical: spaces.Space8,
       paddingHorizontal: spaces.Space16,
       borderRadius: spaces.Space8,

@@ -57,6 +57,6 @@ const styleFn = createStyles(({spaces, colors}) => ({
   ref: {
     alignItems: 'center',
     padding: spaces.Space8,
-    backgroundColor: colors.BgSecondary,
+    backgroundColor: colors.ElementWarning,
   },
 }));

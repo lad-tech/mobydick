@@ -26,7 +26,7 @@ const stylesCreate = createStyles(({colors, spaces}, placement?: IPosition) => {
       ...placementStyle(),
     },
     container: {
-      backgroundColor: colors.BgContrast,
+      backgroundColor: colors.BgInverse,
       borderRadius: spaces.Space12,
       justifyContent: 'center',
       alignItems: 'center',
