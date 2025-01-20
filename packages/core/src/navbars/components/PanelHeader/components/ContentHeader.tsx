@@ -3,10 +3,10 @@ import {LayoutChangeEvent} from 'react-native';
 
 import View from '../../../../basic/components/View/View';
 import {LABELS} from '../../../../other';
-import {TypographyLegacy} from '../../../../typography';
 import {createStyles, useStyles} from '../../../../styles';
 import {IPanelHeaderProps} from '../../../types';
 import px from '../../../../styles/utils/px';
+import {Typography} from '../../../../typography/components/Typography/Typography';
 
 const ContentHeader: FC<IPanelHeaderProps> = props => {
   const {
@@ -18,7 +18,7 @@ const ContentHeader: FC<IPanelHeaderProps> = props => {
     rightView,
     leftView,
     subtitle,
-    subtitleFont = 'Regular-Tertiary-XXS',
+    subtitleFont = 'Regular-Tertiary-XS',
     subtitleStyle,
     containerStyle,
     rightViewStyle,
@@ -57,20 +57,20 @@ const ContentHeader: FC<IPanelHeaderProps> = props => {
         {titleView || (
           <View style={styles.defaultTitleView}>
             {title && (
-              <TypographyLegacy
+              <Typography
                 numberOfLines={1}
                 style={[styles.title, titleStyle]}
                 font={titleFont}>
                 {title}
-              </TypographyLegacy>
+              </Typography>
             )}
             {subtitle && (
-              <TypographyLegacy
+              <Typography
                 numberOfLines={1}
                 style={[styles.title, subtitleStyle]}
                 font={subtitleFont}>
                 {subtitle}
-              </TypographyLegacy>
+              </Typography>
             )}
           </View>
         )}
