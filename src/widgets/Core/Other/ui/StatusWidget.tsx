@@ -3,7 +3,7 @@ import {
   IStatusState,
   IStatusType,
   Status,
-  TypographyLegacy,
+  Typography,
   useStyles,
   View,
 } from '@/shared/ui';
@@ -16,7 +16,7 @@ export const StatusWidget = () => {
     <View>
       <Header title={'Status'} />
       <View style={styles.container}>
-        <TypographyLegacy>Dot</TypographyLegacy>
+        <Typography>Dot</Typography>
         <View style={styles.row}>
           <Status type={IStatusType.dot} state={IStatusState.green} />
           <Status type={IStatusType.dot} state={IStatusState.blue} />
@@ -24,7 +24,7 @@ export const StatusWidget = () => {
           <Status type={IStatusType.dot} state={IStatusState.gray} />
           <Status type={IStatusType.dot} state={IStatusState.orange} />
         </View>
-        <TypographyLegacy>Tag</TypographyLegacy>
+        <Typography>Tag</Typography>
         <View style={styles.row}>
           <Status
             type={IStatusType.tag}

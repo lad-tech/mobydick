@@ -1,4 +1,4 @@
-import {createStyles, TypographyLegacy, useStyles, View} from '@/shared/ui';
+import {createStyles, Typography, useStyles, View} from '@/shared/ui';
 
 export const BlockView = ({
   item,
@@ -23,7 +23,7 @@ export const BlockView = ({
           backgroundColor: backgroundColor || colors.BgAccent,
         },
       ]}>
-      <TypographyLegacy>{item}</TypographyLegacy>
+      <Typography>{item}</Typography>
     </View>
   );
 };

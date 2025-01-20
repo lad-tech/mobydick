@@ -7,7 +7,7 @@ import {
   createStyles,
   IChartTransition,
   ISharedChartState,
-  TypographyLegacy,
+  Typography,
   useStyles,
 } from '@/shared/ui';
 
@@ -42,7 +42,7 @@ const RenderSectionItem = ({period, state, transition, index}: IProps) => {
 
   return (
     <Animated.View style={[styles.container, animationStyles]}>
-      <TypographyLegacy style={styles.text}>{period}</TypographyLegacy>
+      <Typography style={styles.text}>{period}</Typography>
     </Animated.View>
   );
 };

@@ -1,7 +1,7 @@
 import Animated, {useAnimatedProps} from 'react-native-reanimated';
 import {TextInput} from 'react-native';
 
-import {IRenderHeader, TypographyLegacy, useFontBody, View} from '@/shared/ui';
+import {IRenderHeader, Typography, useFontBody, View} from '@/shared/ui';
 
 interface IRenderHeaderProps {
   header: Parameters<IRenderHeader>[number];
@@ -36,7 +36,7 @@ const RenderHeader = ({header}: IRenderHeaderProps) => {
         underlineColorAndroid="transparent"
         style={fontStyle}
       />
-      <TypographyLegacy>Last record</TypographyLegacy>
+      <Typography>Last record</Typography>
       <AnimatedText
         animatedProps={animatedPropsRecord}
         editable={false}

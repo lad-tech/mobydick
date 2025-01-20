@@ -1,4 +1,4 @@
-import {createStyles, TypographyLegacy, useStyles, View} from '@/shared/ui';
+import {createStyles, Typography, useStyles, View} from '@/shared/ui';
 import Header from '@/shared/ui/Header';
 
 export const ShadowWidget = () => {
@@ -9,15 +9,15 @@ export const ShadowWidget = () => {
       <View style={styles.content}>
         <View style={styles.item}>
           <View style={[styles.box, styles.shadowSmall]} />
-          <TypographyLegacy>shadowSmall</TypographyLegacy>
+          <Typography>shadowSmall</Typography>
         </View>
         <View style={styles.item}>
           <View style={[styles.box, styles.shadowMedium]} />
-          <TypographyLegacy>shadowMedium</TypographyLegacy>
+          <Typography>shadowMedium</Typography>
         </View>
         <View style={styles.item}>
           <View style={[styles.box, styles.shadowLarge]} />
-          <TypographyLegacy>shadowLarge</TypographyLegacy>
+          <Typography>shadowLarge</Typography>
         </View>
       </View>
     </View>

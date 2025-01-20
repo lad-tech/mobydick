@@ -1,7 +1,7 @@
 import {
   Collapsible,
   createStyles,
-  TypographyLegacy,
+  Typography,
   useStyles,
   View,
 } from '@/shared/ui';
@@ -15,10 +15,10 @@ export const CollapsibleWidget = () => {
       <Header title={'Collapsible'} />
       <View style={styles.container}>
         <Collapsible title={'Collapsible'}>
-          <TypographyLegacy>
+          <Typography>
             Component to wrap content in Collapsible element with trigger to
             open and close
-          </TypographyLegacy>
+          </Typography>
         </Collapsible>
       </View>
     </View>

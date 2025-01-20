@@ -5,10 +5,10 @@ import {
   ModalError,
   ModalLoading,
   ModalSuccess,
-  TypographyLegacy,
   usePopups,
   useStyles,
   View,
+  Title,
 } from '@/shared/ui';
 
 export const ModalsWidget = () => {
@@ -17,7 +17,7 @@ export const ModalsWidget = () => {
 
   return (
     <View style={styles.container}>
-      <TypographyLegacy font={'Regular-Primary-H5'}>Modal</TypographyLegacy>
+      <Title font={'Primary-H5'}>Modal</Title>
       <Button
         text={'ModalAsk'}
         onPress={() =>

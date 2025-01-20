@@ -35,7 +35,7 @@ const Loader: FC<LoaderProps> = props => {
     }
   };
 
-  return getSize(fill || colors.ElementBase);
+  return getSize(fill || colors.ElementAccent);
 };
 
 export default Loader;
