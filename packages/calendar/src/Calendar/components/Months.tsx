@@ -3,7 +3,7 @@ import {
   createStyles,
   FlatList,
   Pressable,
-  TypographyLegacy,
+  Typography,
   useStyles,
   useTheme,
 } from '@lad-tech/mobydick-core';
@@ -44,7 +44,7 @@ const Months: FC<IMonths> = props => {
           style={getStyle}
           accessibilityLabel={LABELS.pressMonth}
           onPress={onPress(index)}>
-          <TypographyLegacy>{item}</TypographyLegacy>
+          <Typography>{item}</Typography>
         </Pressable>
       );
     },

@@ -4,7 +4,7 @@ import {
   px,
   SimpleIcon,
   TouchableOpacity,
-  TypographyLegacy,
+  Typography,
   useStyles,
   View,
 } from '@lad-tech/mobydick-core';
@@ -37,18 +37,14 @@ const CalendarHeader: FC<ICustomHeader> = props => {
           <TouchableOpacity
             onPress={onPressMonth}
             accessibilityLabel={LABELS.calendarPressTitleMonth}>
-            <TypographyLegacy font={'Medium-Primary-M'}>
-              {title.currMonth}
-            </TypographyLegacy>
+            <Typography font={'Medium-Primary-M'}>{title.currMonth}</Typography>
           </TouchableOpacity>
         )}
         {Boolean(title.currYear) && (
           <TouchableOpacity
             onPress={onPressYear}
             accessibilityLabel={LABELS.calendarPressTitleYear}>
-            <TypographyLegacy font={'Medium-Primary-M'}>
-              {title.currYear}
-            </TypographyLegacy>
+            <Typography font={'Medium-Primary-M'}>{title.currYear}</Typography>
           </TouchableOpacity>
         )}
       </View>
