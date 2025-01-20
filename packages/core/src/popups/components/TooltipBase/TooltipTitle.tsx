@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 import {ITitlePopup} from '../PopupBase';
 import useStyles from '../../../styles/hooks/useStyles';
-import {TypographyLegacy} from '../../../typography/components/TypographyLegacy/TypographyLegacy';
+import {Typography} from '../../../typography';
 
 import stylesCreate from './stylesCreate';
 
@@ -11,11 +11,11 @@ const TooltipTitle: FC<ITitlePopup> = props => {
   const {title, titleStyles, titleFont} = props;
 
   return (
-    <TypographyLegacy
-      font={titleFont ? titleFont : 'SemiBold-Contrast-XS'}
+    <Typography
+      font={titleFont ? titleFont : 'SemiBold-Inverse-S'}
       style={[styles.title, titleStyles]}>
       {title}
-    </TypographyLegacy>
+    </Typography>
   );
 };
 
