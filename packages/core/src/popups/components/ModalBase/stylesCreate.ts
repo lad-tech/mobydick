@@ -29,7 +29,7 @@ const stylesCreate = createStyles(({spaces, colors}) => {
     alertView: {
       borderRadius: 100,
       padding: spaces.Space12,
-      backgroundColor: colors.BgAccentSoft,
+      backgroundColor: colors.AdditionalSixthSoft,
     },
     text: {
       marginTop: spaces.Space24,

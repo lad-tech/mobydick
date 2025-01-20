@@ -117,7 +117,7 @@ exports[`@lad-tech/mobydick-core/DropDown multiselect snapshot 1`] = `
             {
               "alignItems": "center",
               "alignSelf": "flex-start",
-              "backgroundColor": "rgba(43, 120, 238, 0.15)",
+              "backgroundColor": "rgba(91, 153, 249, 0.1)",
               "borderRadius": 8,
               "flexDirection": "row",
               "padding": 4,
@@ -582,7 +582,7 @@ exports[`@lad-tech/mobydick-core/DropDown renders correctly 10 elements type val
         [
           {
             "alignItems": "center",
-            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "backgroundColor": "rgba(91, 153, 249, 0.1)",
             "borderColor": "transparent",
             "borderRadius": 8,
             "borderWidth": 1,

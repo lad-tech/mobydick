@@ -36,7 +36,7 @@ const StatusTag = ({state, text, style}: IProps) => {
   const getBackgroundColorText = useCallback(() => {
     switch (state) {
       case IStatusState.blue:
-        return colors.BgAccentSoft;
+        return colors.AdditionalSixthSoft;
       case IStatusState.red:
         return colors.BgError;
       case IStatusState.green:
@@ -49,7 +49,7 @@ const StatusTag = ({state, text, style}: IProps) => {
     }
   }, [
     state,
-    colors.BgAccentSoft,
+    colors.AdditionalSixthSoft,
     colors.BgError,
     colors.BgSuccess,
     colors.BgWarning,

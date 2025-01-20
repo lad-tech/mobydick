@@ -87,7 +87,7 @@ export type IBgColors = {
 
   /** @deprecated **/
   BgWhiteSoft: string;
-  /** @deprecated **/
+  /** @deprecated use AdditionalSixthSoft **/
   BgAccentSoft: string;
   /** @deprecated **/
   BgAccentNormal: string;
@@ -95,7 +95,7 @@ export type IBgColors = {
   BgAccentHard: string;
   /** @deprecated **/
   BgQuaternary: string;
-  /** @deprecated **/
+  /** @deprecated use BgInverse **/
   BgContrast: string;
   /** @deprecated **/
   BgContrastExtra: string;

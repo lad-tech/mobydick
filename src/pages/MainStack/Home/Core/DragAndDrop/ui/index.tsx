@@ -16,9 +16,9 @@ const DragAndDropScreen = () => {
 
   const bgColors = [
     colors.ElementMuted,
-    colors.ElementAdditional,
-    colors.ElementAttention,
-    colors.ElementBase,
+    colors.ElementWarning,
+    colors.ElementError,
+    colors.ElementAccent,
     colors.ElementNeutral,
     colors.ElementSuccess,
     colors.ElementWhite,

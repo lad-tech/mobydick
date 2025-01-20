@@ -76,7 +76,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly 1`] = `
       style={
         [
           {
-            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "backgroundColor": "rgba(91, 153, 249, 0.1)",
             "borderRadius": 100,
             "padding": 12,
           },
@@ -310,7 +310,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly with option
       style={
         [
           {
-            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "backgroundColor": "rgba(91, 153, 249, 0.1)",
             "borderRadius": 100,
             "padding": 12,
           },

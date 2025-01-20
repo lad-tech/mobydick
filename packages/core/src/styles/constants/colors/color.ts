@@ -180,9 +180,9 @@ export const defaultElementDarkColor: IElementColors = {
   /** @deprecated use ElementAccent **/
   ElementBase: '#4C94FF',
   /** @deprecated use ElementWarning **/
-  ElementAttention: '#F86B5D',
-  /** @deprecated use ElementError **/
   ElementAdditional: '#FAB742',
+  /** @deprecated use ElementError **/
+  ElementAttention: '#F86B5D',
 };
 
 export const defaultBorderLightColor: IBorderColors = {
@@ -222,7 +222,7 @@ export const defaultBgLightColor: IBgColors = {
 
   /** @deprecated **/
   BgWhiteSoft: 'rgba(255, 255, 255, 0.15)',
-  /** @deprecated **/
+  /** @deprecated use AdditionalSixthSoft **/
   BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
   /** @deprecated **/
   BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
@@ -230,7 +230,7 @@ export const defaultBgLightColor: IBgColors = {
   BgAccentHard: 'rgba(43, 120, 238, 0.45)',
   /** @deprecated **/
   BgQuaternary: '#B6BBC6',
-  /** @deprecated **/
+  /** @deprecated use BgInverse **/
   BgContrast: '#20242D',
   /** @deprecated **/
   BgContrastExtra: 'rgba(32, 36, 45, 0.75)',
@@ -251,13 +251,13 @@ export const defaultBgDarkColor: IBgColors = {
 
   /** @deprecated **/
   BgQuaternary: '#5E6678',
-  /** @deprecated **/
+  /** @deprecated use BgInverse **/
   BgContrast: '#FFF',
   /** @deprecated **/
   BgContrastExtra: 'rgba(255, 255, 255, 0.75)',
   /** @deprecated **/
   BgWhiteSoft: 'rgba(255, 255, 255, 0.15)',
-  /** @deprecated **/
+  /** @deprecated use AdditionalSixthSoft **/
   BgAccentSoft: 'rgba(43, 120, 238, 0.15)',
   /** @deprecated **/
   BgAccentNormal: 'rgba(43, 120, 238, 0.3)',
