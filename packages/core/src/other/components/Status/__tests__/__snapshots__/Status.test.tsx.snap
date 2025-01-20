@@ -23,9 +23,10 @@ exports[`Status render not state 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 10,
-          "lineHeight": 14,
-          "minHeight": 14,
+          "fontSize": 12,
+          "fontWeight": "400",
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -102,7 +103,7 @@ exports[`Status render type dot orange 1`] = `
         "width": 8,
       },
       {
-        "backgroundColor": "#FAB742",
+        "backgroundColor": "#FE8027",
       },
       undefined,
     ]
@@ -120,7 +121,7 @@ exports[`Status render type dot red 1`] = `
         "width": 8,
       },
       {
-        "backgroundColor": "#F54D3D",
+        "backgroundColor": "#F54C3D",
       },
       undefined,
     ]
@@ -153,9 +154,10 @@ exports[`Status render type tag blue 1`] = `
         {
           "color": "#2B78EE",
           "fontFamily": "Inter-Regular",
-          "fontSize": 10,
-          "lineHeight": 14,
-          "minHeight": 14,
+          "fontSize": 12,
+          "fontWeight": "400",
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -189,9 +191,10 @@ exports[`Status render type tag gray 1`] = `
         {
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
-          "fontSize": 10,
-          "lineHeight": 14,
-          "minHeight": 14,
+          "fontSize": 12,
+          "fontWeight": "400",
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -225,9 +228,10 @@ exports[`Status render type tag green 1`] = `
         {
           "color": "#29A35C",
           "fontFamily": "Inter-Regular",
-          "fontSize": 10,
-          "lineHeight": 14,
-          "minHeight": 14,
+          "fontSize": 12,
+          "fontWeight": "400",
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -261,9 +265,10 @@ exports[`Status render type tag orange 1`] = `
         {
           "color": "#FE8027",
           "fontFamily": "Inter-Regular",
-          "fontSize": 10,
-          "lineHeight": 14,
-          "minHeight": 14,
+          "fontSize": 12,
+          "fontWeight": "400",
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]
@@ -297,9 +302,10 @@ exports[`Status render type tag red 1`] = `
         {
           "color": "#F54C3D",
           "fontFamily": "Inter-Regular",
-          "fontSize": 10,
-          "lineHeight": 14,
-          "minHeight": 14,
+          "fontSize": 12,
+          "fontWeight": "400",
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         undefined,
       ]

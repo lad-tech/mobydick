@@ -1,6 +1,6 @@
 import {FC} from 'react';
 
-import {TypographyLegacy} from '../../../../typography';
+import {Title, Typography} from '../../../../typography';
 import {IAvatarSize} from '../types';
 
 interface IProps {
@@ -12,14 +12,12 @@ interface IProps {
 const getFont = (size: IAvatarSize) => {
   switch (size) {
     case IAvatarSize.S:
-      return 'Regular-White-XXXS';
+      return 'Regular-White-XXS';
     case IAvatarSize.L:
       return 'Regular-White-L';
-    case IAvatarSize.XL:
-      return 'Regular-White-H5';
     case IAvatarSize.M:
     default:
-      return 'Regular-White-XS';
+      return 'Regular-White-S';
   }
 };
 
@@ -28,7 +26,11 @@ const TextAvatar: FC<IProps> = ({firstName, lastName, size}) => {
   const secondLetter = lastName?.slice(0, 1);
   const initials = secondLetter ? firstLetter + secondLetter : firstLetter;
 
-  return <TypographyLegacy font={getFont(size)}>{initials}</TypographyLegacy>;
+  if (size == IAvatarSize.XL) {
+    return <Title font={'White-H5'}>{initials}</Title>;
+  }
+
+  return <Typography font={getFont(size)}>{initials}</Typography>;
 };
 
 export default TextAvatar;

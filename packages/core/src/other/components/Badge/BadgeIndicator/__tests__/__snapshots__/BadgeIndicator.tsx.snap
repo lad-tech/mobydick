@@ -14,7 +14,7 @@ exports[`BadgeIndicator render BadgeIndicator primary 1`] = `
         "zIndex": 1,
       },
       {
-        "backgroundColor": "#F54D3D",
+        "backgroundColor": "#F54C3D",
       },
       {
         "top": 0,
@@ -38,7 +38,7 @@ exports[`BadgeIndicator render BadgeIndicator secondary 1`] = `
         "zIndex": 1,
       },
       {
-        "backgroundColor": "#FAB742",
+        "backgroundColor": "#FE8027",
       },
       undefined,
     ]

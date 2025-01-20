@@ -15,10 +15,10 @@ const BadgeIndicator: FC<IBadgeIndicatorProps> = ({type, style}) => {
   const getBackgroundColor = useCallback(() => {
     switch (type) {
       case IIndicatorTypes.secondary:
-        return colors.ElementAdditional;
+        return colors.ElementWarning;
       case IIndicatorTypes.primary:
       default:
-        return colors.ElementAttention;
+        return colors.ElementError;
     }
   }, [type]);
 

@@ -72,10 +72,10 @@ exports[`Counter render counter ICounterSize.small 1`] = `
         {
           "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 10,
+          "fontSize": 12,
           "fontWeight": "600",
-          "lineHeight": 14,
-          "minHeight": 14,
+          "lineHeight": 16,
+          "minHeight": 16,
         },
         [
           {

@@ -4,7 +4,7 @@ import {ViewStyle} from 'react-native';
 import {IStatusState} from '../types';
 import useStyles from '../../../../styles/hooks/useStyles';
 import useTheme from '../../../../styles/hooks/useTheme';
-import {TypographyLegacy} from '../../../../typography';
+import {Typography} from '../../../../typography';
 import View from '../../../../basic/components/View/View';
 import {createStyles} from '../../../../styles';
 
@@ -20,16 +20,16 @@ const StatusTag = ({state, text, style}: IProps) => {
   const getFont = useCallback(() => {
     switch (state) {
       case IStatusState.blue:
-        return 'Regular-Accent-XXS';
+        return 'Regular-Accent-XS';
       case IStatusState.red:
-        return 'Regular-Error-XXS';
+        return 'Regular-Error-XS';
       case IStatusState.green:
-        return 'Regular-Success-XXS';
+        return 'Regular-Success-XS';
       case IStatusState.orange:
-        return 'Regular-Warning-XXS';
+        return 'Regular-Warning-XS';
       case IStatusState.gray:
       default:
-        return 'Regular-Tertiary-XXS';
+        return 'Regular-Tertiary-XS';
     }
   }, [state]);
 
@@ -65,7 +65,7 @@ const StatusTag = ({state, text, style}: IProps) => {
         },
         style,
       ]}>
-      <TypographyLegacy font={getFont()}>{text}</TypographyLegacy>
+      <Typography font={getFont()}>{text}</Typography>
     </View>
   );
 };
