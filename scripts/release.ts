@@ -1,6 +1,5 @@
 #!/usr/bin/env ts-node
 import path from 'path';
-import {execSync} from 'child_process';
 
 import yargs from 'yargs';
 import SimpleGit from 'simple-git';
@@ -80,8 +79,6 @@ const parser = yargs(process.argv.slice(2))
 
     logger.info('All packages were published successfully');
   }
-
-  execSync('npx react-native-version');
 
   await git.add([
     path.join(__dirname, '../packages'),
