@@ -90,7 +90,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly 1`] = `
         allowFontScaling={true}
         style={
           {
-            "color": "#F54D3D",
+            "color": "#F54C3D",
             "fontFamily": "Neotis",
             "fontSize": 36,
           }
@@ -324,7 +324,7 @@ exports[`@lad-tech/mobydick-core/modalError should renders correctly with option
         allowFontScaling={true}
         style={
           {
-            "color": "#F54D3D",
+            "color": "#F54C3D",
             "fontFamily": "Neotis",
             "fontSize": 36,
           }

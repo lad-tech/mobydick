@@ -21,7 +21,7 @@ const ModalError: FC<IContentProps & IModalProps> = props => {
       {...props}>
       <ModalBase.AlertContent
         name={'icon-warning'}
-        color={colors.IconAttention}
+        color={colors.IconError}
         style={{backgroundColor: colors.BgError}}
       />
 

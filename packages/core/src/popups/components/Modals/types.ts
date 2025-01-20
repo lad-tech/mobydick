@@ -1,3 +1,5 @@
+import {StyleProp, ViewStyle} from 'react-native';
+
 import {IButtonTypes} from '../../../cta';
 
 export interface IModalProps {
@@ -16,4 +18,7 @@ export interface IModalAskProps {
   onPressRight(): void;
   typeRight?: IButtonTypes;
   textRight?: string;
+
+  overlayStyle?: StyleProp<ViewStyle>;
+  containerStyle?: StyleProp<ViewStyle>;
 }

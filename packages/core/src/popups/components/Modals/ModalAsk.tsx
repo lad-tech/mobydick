@@ -30,7 +30,7 @@ const ModalAsk: FC<IContentProps & IModalAskProps> = props => {
       {...props}>
       <ModalBase.AlertContent
         name={'icon-warning'}
-        color={colors.IconAttention}
+        color={colors.IconError}
         style={{backgroundColor: colors.BgError}}
       />
 
