@@ -5,7 +5,7 @@ import {
   ICounterSize,
   ICounterTypes,
   IIndicatorTypes,
-  TypographyLegacy,
+  Typography,
   useStyles,
   View,
 } from '@/shared/ui';
@@ -18,12 +18,12 @@ export const BadgeWidget = () => {
     <View>
       <Header title={'Badge'} />
       <View style={styles.container}>
-        <TypographyLegacy>{'BadgeIndicator'}</TypographyLegacy>
+        <Typography>{'BadgeIndicator'}</Typography>
         <View style={styles.row}>
           <BadgeIndicator type={IIndicatorTypes.primary} />
           <BadgeIndicator type={IIndicatorTypes.secondary} style={{right: 0}} />
         </View>
-        <TypographyLegacy>{'Counter'}</TypographyLegacy>
+        <Typography>{'Counter'}</Typography>
         <View style={styles.row}>
           <Counter
             size={ICounterSize.small}

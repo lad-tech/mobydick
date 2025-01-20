@@ -3,7 +3,8 @@ import {useState} from 'react';
 import {
   createStyles,
   Slider,
-  TypographyLegacy,
+  Title,
+  Typography,
   useStyles,
   View,
 } from '@/shared/ui';
@@ -15,9 +16,9 @@ export const SliderWidget = () => {
   const [low, setLow] = useState(0);
   return (
     <View style={styles.container}>
-      <TypographyLegacy font={'Regular-Primary-H5'}>Slider</TypographyLegacy>
+      <Title font={'Primary-H5'}>Slider</Title>
       <View>
-        <TypographyLegacy font={'Regular-Primary-L'}>default</TypographyLegacy>
+        <Typography font={'Regular-Primary-L'}>default</Typography>
         <Slider
           min={0}
           max={100}
@@ -29,12 +30,10 @@ export const SliderWidget = () => {
             setRange({low, high});
           }}
         />
-        <TypographyLegacy>{`Low: ${range.low} High: ${range.high} Step: ${5}`}</TypographyLegacy>
+        <Typography>{`Low: ${range.low} High: ${range.high} Step: ${5}`}</Typography>
       </View>
       <View>
-        <TypographyLegacy font={'Regular-Primary-L'}>
-          disableRange
-        </TypographyLegacy>
+        <Typography font={'Regular-Primary-L'}>disableRange</Typography>
         <Slider
           min={0}
           max={100}
@@ -45,7 +44,7 @@ export const SliderWidget = () => {
             setLow(low);
           }}
         />
-        <TypographyLegacy>{`Low: ${low} Step: ${1}`}</TypographyLegacy>
+        <Typography>{`Low: ${low} Step: ${1}`}</Typography>
       </View>
     </View>
   );

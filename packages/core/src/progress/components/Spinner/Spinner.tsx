@@ -34,7 +34,7 @@ const Spinner: FC<SpinnerProps> = props => {
   return (
     <Animated.View
       style={{alignSelf: 'center', transform: [{rotate: rotation}]}}>
-      <Loader size={size} fill={fill || colors.ElementBase} {...otherProps} />
+      <Loader size={size} fill={fill || colors.ElementAccent} {...otherProps} />
     </Animated.View>
   );
 };

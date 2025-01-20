@@ -8,7 +8,7 @@ import {
   ICounterTypes,
   IIndicatorTypes,
   IStatusTypes,
-  TypographyLegacy,
+  Typography,
   useStyles,
   View,
 } from '@/shared/ui';
@@ -28,13 +28,13 @@ export const AvatarWidget = () => {
     <View>
       <Header title={'Avatar'} />
       <View style={styles.container}>
-        <TypographyLegacy>{'Content'}</TypographyLegacy>
+        <Typography>{'Content'}</Typography>
         <View style={styles.row}>
           <Avatar user={userTest} />
           <Avatar user={userWithLogoTest} />
           <Avatar user={userTest} type={IAvatarTypes.icon} />
         </View>
-        <TypographyLegacy>{'State'}</TypographyLegacy>
+        <Typography>{'State'}</Typography>
         <View style={styles.row}>
           <Avatar
             user={userTest}
@@ -48,14 +48,14 @@ export const AvatarWidget = () => {
             disabled={true}
           />
         </View>
-        <TypographyLegacy>{'Size'}</TypographyLegacy>
+        <Typography>{'Size'}</Typography>
         <View style={styles.row}>
           <Avatar user={userTest} size={IAvatarSize.S} />
           <Avatar user={userTest} size={IAvatarSize.M} />
           <Avatar user={userTest} size={IAvatarSize.L} />
           <Avatar user={userTest} size={IAvatarSize.XL} />
         </View>
-        <TypographyLegacy>{'Badge'}</TypographyLegacy>
+        <Typography>{'Badge'}</Typography>
         <View style={styles.row}>
           <Avatar
             user={userWithLogoTest}
@@ -76,7 +76,7 @@ export const AvatarWidget = () => {
             }}
           />
         </View>
-        <TypographyLegacy>{'Badge counter'}</TypographyLegacy>
+        <Typography>{'Badge counter'}</Typography>
         <View style={styles.row}>
           <Avatar
             user={userWithLogoTest}
@@ -119,7 +119,7 @@ export const AvatarWidget = () => {
             }}
           />
         </View>
-        <TypographyLegacy>{'Group'}</TypographyLegacy>
+        <Typography>{'Group'}</Typography>
         <View style={styles.row}>
           <AvatarGroup
             groups={defaultGroupDateTest.concat(defaultGroupDateTest)}
