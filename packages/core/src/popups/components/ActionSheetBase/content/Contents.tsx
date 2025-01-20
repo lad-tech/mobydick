@@ -2,7 +2,7 @@ import {IItemType, IPropsContents} from '../types';
 import stylesCreate from '../stylesCreate';
 import useStyles from '../../../../styles/hooks/useStyles';
 import View from '../../../../basic/components/View/View';
-import {TypographyLegacy} from '../../../../typography';
+import {Typography} from '../../../../typography';
 import CheckBox from '../../../../controls/CheckBox/CheckBox';
 import Radio from '../../../../controls/Radio/Radio';
 
@@ -32,9 +32,9 @@ const Contents = (props: IPropsContents) => {
     <>
       <View style={styles.leftIconView}>
         {leftIcon && <View style={styles.leftIcon}>{leftIcon}</View>}
-        <TypographyLegacy style={styles.textSelected} font={selectFont()}>
+        <Typography style={styles.textSelected} font={selectFont()}>
           {title}
-        </TypographyLegacy>
+        </Typography>
       </View>
 
       {checkboxList && (

@@ -115,6 +115,7 @@ exports[`@lad-tech/mobydick-core/modalAsk should renders correctly 1`] = `
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
               "fontSize": 18,
+              "fontWeight": "600",
               "lineHeight": 22,
               "minHeight": 22,
             },
@@ -136,9 +137,10 @@ exports[`@lad-tech/mobydick-core/modalAsk should renders correctly 1`] = `
             {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
-              "fontSize": 12,
-              "lineHeight": 16,
-              "minHeight": 16,
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 18,
+              "minHeight": 18,
             },
             [
               {
@@ -415,6 +417,7 @@ exports[`@lad-tech/mobydick-core/modalAsk should renders correctly with optional
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
               "fontSize": 18,
+              "fontWeight": "600",
               "lineHeight": 22,
               "minHeight": 22,
             },
@@ -436,9 +439,10 @@ exports[`@lad-tech/mobydick-core/modalAsk should renders correctly with optional
             {
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
-              "fontSize": 12,
-              "lineHeight": 16,
-              "minHeight": 16,
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 18,
+              "minHeight": 18,
             },
             [
               {

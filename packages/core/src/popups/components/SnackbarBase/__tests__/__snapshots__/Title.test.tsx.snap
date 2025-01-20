@@ -9,6 +9,7 @@ exports[`@lad-tech/mobydick-core/SnackbarBase/Title should renders correctly wit
         "color": "#353A45",
         "fontFamily": "Inter-Medium",
         "fontSize": 16,
+        "fontWeight": "500",
         "lineHeight": 20,
         "minHeight": 20,
       },
@@ -34,11 +35,12 @@ exports[`@lad-tech/mobydick-core/SnackbarBase/Title should renders correctly wit
   style={
     [
       {
-        "color": "#FFF",
+        "color": "#FFFFFF",
         "fontFamily": "Inter-Medium",
-        "fontSize": 12,
-        "lineHeight": 16,
-        "minHeight": 16,
+        "fontSize": 14,
+        "fontWeight": "500",
+        "lineHeight": 18,
+        "minHeight": 18,
       },
       [
         {

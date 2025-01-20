@@ -1,27 +1,27 @@
 import {StyleProp, TextStyle, ViewStyle} from 'react-native';
 
-import {TypographyLegacyProp} from '../../../typography/types';
+import {TypographyProp} from '../../../typography/types';
 
 export interface ITitlePopup {
   title: string;
   titleStyles?: TextStyle | TextStyle[];
-  titleFont?: TypographyLegacyProp;
+  titleFont?: TypographyProp;
 }
 
 export interface IDescriptionTextPopup {
   descriptionText: string;
   descriptionStyles?: TextStyle | TextStyle[];
-  descriptionFont?: TypographyLegacyProp;
+  descriptionFont?: TypographyProp;
 }
 
 export interface ITextContentProps {
   title?: string | undefined;
   titleStyles?: TextStyle | TextStyle[];
-  titleFont?: TypographyLegacyProp;
+  titleFont?: TypographyProp;
 
   descriptionText?: string | undefined;
   descriptionStyles?: TextStyle | TextStyle[];
-  descriptionFont?: TypographyLegacyProp;
+  descriptionFont?: TypographyProp;
 }
 
 export interface IPopupCloseIcon {

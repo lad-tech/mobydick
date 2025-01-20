@@ -3,7 +3,7 @@ import {FC} from 'react';
 import {ITextContentProps} from '../PopupBase';
 import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
-import {TypographyLegacy} from '../../../typography/components/TypographyLegacy/TypographyLegacy';
+import {Typography} from '../../../typography';
 
 import stylesCreate from './stylesCreate';
 
@@ -21,18 +21,18 @@ const TextContent: FC<ITextContentProps> = props => {
   return (
     <View style={styles.textContent}>
       {Boolean(title) && (
-        <TypographyLegacy
+        <Typography
           style={[styles.title, titleStyles]}
           font={titleFont ? titleFont : 'SemiBold-Primary-L'}>
           {title}
-        </TypographyLegacy>
+        </Typography>
       )}
       {Boolean(descriptionText) && (
-        <TypographyLegacy
+        <Typography
           style={[styles.description, descriptionStyles]}
-          font={descriptionFont ? descriptionFont : 'Regular-Tertiary-XS'}>
+          font={descriptionFont ? descriptionFont : 'Regular-Tertiary-S'}>
           {descriptionText}
-        </TypographyLegacy>
+        </Typography>
       )}
     </View>
   );

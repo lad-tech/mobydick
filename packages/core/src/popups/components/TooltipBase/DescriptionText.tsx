@@ -2,7 +2,7 @@ import {FC} from 'react';
 
 import {IDescriptionTextPopup} from '../PopupBase';
 import useStyles from '../../../styles/hooks/useStyles';
-import {TypographyLegacy} from '../../../typography';
+import {Typography} from '../../../typography';
 
 import stylesCreate from './stylesCreate';
 
@@ -11,11 +11,11 @@ const DescriptionText: FC<IDescriptionTextPopup> = props => {
   const {descriptionText, descriptionStyles, descriptionFont} = props;
 
   return (
-    <TypographyLegacy
-      font={descriptionFont ? descriptionFont : 'Regular-Contrast-XS'}
+    <Typography
+      font={descriptionFont ? descriptionFont : 'Regular-Contrast-S'}
       style={[styles.descriptionText, descriptionStyles]}>
       {descriptionText}
-    </TypographyLegacy>
+    </Typography>
   );
 };
 
