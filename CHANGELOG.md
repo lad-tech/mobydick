@@ -1,3 +1,27 @@
+# [7.35.0-next.9](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.8...v7.35.0-next.9) (2025-01-21)
+
+
+### Bug Fixes
+
+* added string ([270c989](https://github.com/lad-tech/mobydick/commit/270c989e8a7d668603735ae0433ed1c2514a3bc6))
+* **Button:** update Typography ([6039b7d](https://github.com/lad-tech/mobydick/commit/6039b7dd0adc906c1e990c9d3ba2beee149b6c96))
+* **Calendar:** update Typography ([08ac40e](https://github.com/lad-tech/mobydick/commit/08ac40ed3ecb006f2aff9183a3a54792fcbaefcb))
+* **Chat:** update Typography ([c9ff332](https://github.com/lad-tech/mobydick/commit/c9ff332f16ddba99031d6860aa14de54f0266d82))
+* **Inputs:** update Typography ([81f14b6](https://github.com/lad-tech/mobydick/commit/81f14b6ab19b39ed1fc1d14eff392b6930f75b1a))
+* **Navbars:** update Typography ([b43181c](https://github.com/lad-tech/mobydick/commit/b43181cc55b6f7086d1a36efcd38e59b9841c895))
+* **Other:** update Typography ([628225e](https://github.com/lad-tech/mobydick/commit/628225eea89b977e718759408b02d8b422f276b8))
+* **Popups:** added styles ([d173ff8](https://github.com/lad-tech/mobydick/commit/d173ff83e480cb8943961251649e5e939f0bceff))
+* **Popups:** update Typography ([ee9e37d](https://github.com/lad-tech/mobydick/commit/ee9e37d411c6c042864bc7c2aac573eb5c51f1fe))
+* removed react-native-version ([290a9cf](https://github.com/lad-tech/mobydick/commit/290a9cf9e368b59e21174fafbcdb21933af7ede2))
+* removed react-native-version ([657c6b4](https://github.com/lad-tech/mobydick/commit/657c6b4683a258abcbfabbf4f698913b8d914d87))
+* replaced deprecated colors ([d3fb144](https://github.com/lad-tech/mobydick/commit/d3fb144836124262eda76280a87eb2b75f5fa973))
+* update deprecated colors ([4d4aa45](https://github.com/lad-tech/mobydick/commit/4d4aa45985c3cbaf398eb6fba17ee1f8f01a9490))
+* update Typography ([a433a31](https://github.com/lad-tech/mobydick/commit/a433a31eed1d9ba94cf99fa52d0068383fff89f9))
+* update version ([1d446e1](https://github.com/lad-tech/mobydick/commit/1d446e1a2984b5e2bc6c3c7780498ad74cea585c))
+* update version in peerDependencies ([c17bba9](https://github.com/lad-tech/mobydick/commit/c17bba991853d84ee5993b96c6af83dc7807bc92))
+* updated version ([ec58556](https://github.com/lad-tech/mobydick/commit/ec5855621f9222bfc0d4740c124aebe6f547ec94))
+* updated version ([b48a10b](https://github.com/lad-tech/mobydick/commit/b48a10bef197127286544a6a5688430f483ea9a8))
+
 # [7.35.0-next.7](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.6...v7.35.0-next.7) (2024-09-18)
 
 
