@@ -69,7 +69,7 @@ const Calendar: FC<ICalendar> = props => {
         textColor: colors.TextWhite,
       },
       colorSoft: {
-        color: colors.BgAccent,
+        color: colors.BgSecondary,
         textColor: colors.TextPrimary,
       },
       colorToday: {
