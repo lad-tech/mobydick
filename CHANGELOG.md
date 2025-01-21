@@ -1,3 +1,10 @@
+# [7.35.0-next.10](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.9...v7.35.0-next.10) (2025-01-21)
+
+
+### Bug Fixes
+
+* **Calendar:** fix color ([3946581](https://github.com/lad-tech/mobydick/commit/39465814aa7859cbcf5e7d1029e0cfcf63148def))
+
 # [7.35.0-next.9](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.8...v7.35.0-next.9) (2025-01-21)
 
 
