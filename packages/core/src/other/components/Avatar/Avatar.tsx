@@ -30,24 +30,24 @@ const Avatar: FC<IAvatarProps> = props => {
     const nameLength = `${user?.firstName}${user?.middleName}${user?.lastName}`
       .length;
     const avatarColors = [
-      colors.BannerFirst,
-      colors.BannerSecond,
-      colors.BannerThird,
-      colors.BannerFourth,
-      colors.BannerFifth,
-      colors.BannerSixth,
-      colors.BannerSeventh,
+      colors.AdditionalFirst,
+      colors.AdditionalSecond,
+      colors.AdditionalThird,
+      colors.AdditionalFourth,
+      colors.AdditionalFifth,
+      colors.AdditionalSixth,
+      colors.AdditionalSeventh,
     ];
     return avatarColors[nameLength % avatarColors.length];
   }, [
     user,
-    colors.BannerFirst,
-    colors.BannerSecond,
-    colors.BannerThird,
-    colors.BannerFourth,
-    colors.BannerFifth,
-    colors.BannerSixth,
-    colors.BannerSeventh,
+    colors.AdditionalFirst,
+    colors.AdditionalSecond,
+    colors.AdditionalThird,
+    colors.AdditionalFourth,
+    colors.AdditionalFifth,
+    colors.AdditionalSixth,
+    colors.AdditionalSeventh,
   ]);
 
   const [styles] = useStyles(stylesCreate, size, border);
