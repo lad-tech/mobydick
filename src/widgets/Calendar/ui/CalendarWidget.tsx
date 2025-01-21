@@ -7,7 +7,7 @@ export const CalendarWidget = () => {
   return (
     <View style={styles.container}>
       <Header title={'Calendar'} />
-      <Calendar />
+      <Calendar isPeriod={true} />
     </View>
   );
 };
