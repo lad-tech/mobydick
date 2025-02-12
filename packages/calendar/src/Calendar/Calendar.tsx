@@ -108,10 +108,10 @@ const Calendar: FC<ICalendar> = props => {
         textDisabledColor: colors.TextMuted,
         arrowColor: colors.IconNeutral,
         monthTextColor: colors.TextPrimary,
-        textDayHeaderFontFamily: 'Inter-SemiBold',
+        textDayHeaderFontFamily: 'Inter_600SemiBold',
         textDayHeaderFontSize: px(14),
         textDayFontSize: px(14),
-        textDayFontFamily: 'Inter-Medium',
+        textDayFontFamily: 'Inter_500Medium',
         weekVerticalMargin: px(1),
         'stylesheet.day.period': {
           todayText: {
