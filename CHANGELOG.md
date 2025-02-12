@@ -1,3 +1,10 @@
+# [7.35.0-next.12](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.11...v7.35.0-next.12) (2025-02-12)
+
+
+### Bug Fixes
+
+* **Calendar:** change FontFamily ([fa8430b](https://github.com/lad-tech/mobydick/commit/fa8430b03661bc97a9337950a0855660d22fc7f0))
+
 # [7.35.0-next.11](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.10...v7.35.0-next.11) (2025-02-12)
 
 
