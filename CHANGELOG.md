@@ -1,3 +1,10 @@
+# [7.35.0-next.13](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.12...v7.35.0-next.13) (2025-02-12)
+
+
+### Bug Fixes
+
+* **Calendar:** added textDayHeaderFontWeight ([8c6313b](https://github.com/lad-tech/mobydick/commit/8c6313b956c799f5614f4b0308e87e26eda7a962))
+
 # [7.35.0-next.12](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.11...v7.35.0-next.12) (2025-02-12)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@lad-tech/mobydick-chart",
-  "version": "7.35.0-next.12",
+  "version": "7.35.0-next.13",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "index.ts",
   "keywords": [
@@ -33,7 +33,7 @@
   "license": "MIT",
   "peerDependencies": {
     "@expo-google-fonts/inter": "^0.2.3",
-    "@lad-tech/mobydick-core": "7.35.0-next.12",
+    "@lad-tech/mobydick-core": "7.35.0-next.13",
     "@shopify/react-native-skia": ">=0.1.234",
     "react": ">=17.0.2",
     "react-native": ">=0.66.4",
