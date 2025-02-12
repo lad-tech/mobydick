@@ -1,6 +1,6 @@
 {
   "name": "@lad-tech/mobydick-drag-and-drop",
-  "version": "7.35.0-next.10",
+  "version": "7.35.0-next.11",
   "description": "React Native components library focused on usability, accessibility and developer experience",
   "main": "index.ts",
   "keywords": [
@@ -29,7 +29,7 @@
   "author": "Vera Smolina <smolinavp@lad24.ru>",
   "license": "MIT",
   "peerDependencies": {
-    "@lad-tech/mobydick-core": "7.35.0-next.10",
+    "@lad-tech/mobydick-core": "7.35.0-next.11",
     "react": ">=17.0.2",
     "react-native": ">=0.66.4",
     "react-native-gesture-handler": ">=2.14.1",
