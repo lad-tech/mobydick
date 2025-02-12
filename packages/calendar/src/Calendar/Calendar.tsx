@@ -111,11 +111,11 @@ const Calendar: FC<ICalendar> = props => {
         textDayHeaderFontFamily: 'Inter-SemiBold',
         textDayHeaderFontSize: px(14),
         textDayFontSize: px(14),
-        textDayFontFamily: 'Inter-Regular',
+        textDayFontFamily: 'Inter-Medium',
         weekVerticalMargin: px(1),
         'stylesheet.day.period': {
           todayText: {
-            fontWeight: '400',
+            fontWeight: 400,
           },
           wrapper: {
             alignItems: 'center',
