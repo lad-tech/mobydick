@@ -1,3 +1,56 @@
+# [7.35.0](https://github.com/lad-tech/mobydick/compare/v7.34.2...v7.35.0) (2025-02-19)
+
+
+### Bug Fixes
+
+* add forgotten colors and update types ([88cb363](https://github.com/lad-tech/mobydick/commit/88cb36305cea2dc0dd957ddbb61e1aa99714368a))
+* added string ([270c989](https://github.com/lad-tech/mobydick/commit/270c989e8a7d668603735ae0433ed1c2514a3bc6))
+* **Button:** added state for btn and removed some types ([25ff1f8](https://github.com/lad-tech/mobydick/commit/25ff1f875db5cebe715332f34dee24d9a5a6f25a))
+* **Button:** changed font for disabled ([46cc135](https://github.com/lad-tech/mobydick/commit/46cc135f2c7d22c4f184ee36c41dde491b1ddb3c))
+* **Button:** update Secondary ([d68a738](https://github.com/lad-tech/mobydick/commit/d68a7387805275a6718a5518ed776a9aad90ce34))
+* **Button:** update Typography ([6039b7d](https://github.com/lad-tech/mobydick/commit/6039b7dd0adc906c1e990c9d3ba2beee149b6c96))
+* **Calendar:** added textDayHeaderFontWeight ([8c6313b](https://github.com/lad-tech/mobydick/commit/8c6313b956c799f5614f4b0308e87e26eda7a962))
+* **Calendar:** change FontFamily ([fa8430b](https://github.com/lad-tech/mobydick/commit/fa8430b03661bc97a9337950a0855660d22fc7f0))
+* **Calendar:** change FontFamily ([898aca3](https://github.com/lad-tech/mobydick/commit/898aca31a2ab224ef8f099cae85751a154767cf1))
+* **Calendar:** fix color ([3946581](https://github.com/lad-tech/mobydick/commit/39465814aa7859cbcf5e7d1029e0cfcf63148def))
+* **Calendar:** update Typography ([08ac40e](https://github.com/lad-tech/mobydick/commit/08ac40ed3ecb006f2aff9183a3a54792fcbaefcb))
+* **Chat:** update Typography ([c9ff332](https://github.com/lad-tech/mobydick/commit/c9ff332f16ddba99031d6860aa14de54f0266d82))
+* **color:** update Neutral10 ([67c7d3f](https://github.com/lad-tech/mobydick/commit/67c7d3fbe50f792ffedab1b42b5f667bfeead60c))
+* counter font color ([f791369](https://github.com/lad-tech/mobydick/commit/f7913694cc2cfc6b9e957cf277b13ad52a6e20be))
+* font for all platforms ([78e04a3](https://github.com/lad-tech/mobydick/commit/78e04a3add37e3aed590ac9be49a1a7dd8e7634a))
+* **Input:** changed styles for wrong, disable and default types ([78515cf](https://github.com/lad-tech/mobydick/commit/78515cfce977815a2169951e31e4395fc34e4a5d))
+* **Inputs:** update Typography ([81f14b6](https://github.com/lad-tech/mobydick/commit/81f14b6ab19b39ed1fc1d14eff392b6930f75b1a))
+* **InputTitle:** changed font ([f4ddfd2](https://github.com/lad-tech/mobydick/commit/f4ddfd2eeb2ba075eef72654fb096120d1f57ffe))
+* **Navbars:** update Typography ([b43181c](https://github.com/lad-tech/mobydick/commit/b43181cc55b6f7086d1a36efcd38e59b9841c895))
+* **Other:** update Typography ([628225e](https://github.com/lad-tech/mobydick/commit/628225eea89b977e718759408b02d8b422f276b8))
+* **Popups:** added styles ([d173ff8](https://github.com/lad-tech/mobydick/commit/d173ff83e480cb8943961251649e5e939f0bceff))
+* **Popups:** update Typography ([ee9e37d](https://github.com/lad-tech/mobydick/commit/ee9e37d411c6c042864bc7c2aac573eb5c51f1fe))
+* removed react-native-version ([290a9cf](https://github.com/lad-tech/mobydick/commit/290a9cf9e368b59e21174fafbcdb21933af7ede2))
+* removed react-native-version ([657c6b4](https://github.com/lad-tech/mobydick/commit/657c6b4683a258abcbfabbf4f698913b8d914d87))
+* rename [@expo-google-fonts](https://github.com/expo-google-fonts) ([200ca2b](https://github.com/lad-tech/mobydick/commit/200ca2bccb725e3ca873ea1ec96416a6d7a4a4d8))
+* replaced deprecated colors ([d3fb144](https://github.com/lad-tech/mobydick/commit/d3fb144836124262eda76280a87eb2b75f5fa973))
+* update deprecated colors ([4d4aa45](https://github.com/lad-tech/mobydick/commit/4d4aa45985c3cbaf398eb6fba17ee1f8f01a9490))
+* update font import [#269](https://github.com/lad-tech/mobydick/issues/269) ([8c2b140](https://github.com/lad-tech/mobydick/commit/8c2b1401337fd457ab397a3de131718394c3c6d1))
+* update font ttf ([71d5e7d](https://github.com/lad-tech/mobydick/commit/71d5e7de5ec7dc586f9002c44f604724d335957e))
+* update rn ([9d124bc](https://github.com/lad-tech/mobydick/commit/9d124bc1db5f13e6136d9a25daa1152f02cd3333))
+* update Typography ([a433a31](https://github.com/lad-tech/mobydick/commit/a433a31eed1d9ba94cf99fa52d0068383fff89f9))
+* update version ([1d446e1](https://github.com/lad-tech/mobydick/commit/1d446e1a2984b5e2bc6c3c7780498ad74cea585c))
+* update version in peerDependencies ([c17bba9](https://github.com/lad-tech/mobydick/commit/c17bba991853d84ee5993b96c6af83dc7807bc92))
+* updated version ([ec58556](https://github.com/lad-tech/mobydick/commit/ec5855621f9222bfc0d4740c124aebe6f547ec94))
+* updated version ([b48a10b](https://github.com/lad-tech/mobydick/commit/b48a10bef197127286544a6a5688430f483ea9a8))
+
+
+### Features
+
+* add font prop for Counter ([e45e765](https://github.com/lad-tech/mobydick/commit/e45e765d676f3a10dd62d4349ff706d617448e6d))
+* add TablerIcons [#255](https://github.com/lad-tech/mobydick/issues/255) ([b81baba](https://github.com/lad-tech/mobydick/commit/b81babaccfa5ed0cf394dd8862ff012533d17213))
+* add Title and new Typography [#224](https://github.com/lad-tech/mobydick/issues/224) ([fed364b](https://github.com/lad-tech/mobydick/commit/fed364bf0deb3c279b212da41b25c07c11beb943))
+* move to expo for better web support ([d0a5930](https://github.com/lad-tech/mobydick/commit/d0a59307cdf629970802e764fdade5a559dd93f3))
+* update colors ([e45dc20](https://github.com/lad-tech/mobydick/commit/e45dc204d017066accd12701eb3ff6a72995ff48))
+* update outline for InputField ([9bd277b](https://github.com/lad-tech/mobydick/commit/9bd277be941a42b0115699483bf038e8f282586c))
+* update outline for Search ([be2dd18](https://github.com/lad-tech/mobydick/commit/be2dd18d193b67c87c78e33c1c79136d7bede264))
+* update Slider styles ([ca3efa4](https://github.com/lad-tech/mobydick/commit/ca3efa4f5f4e43e8ef3b30323fe422167c7b9cb5))
+
 # [7.35.0-next.13](https://github.com/lad-tech/mobydick/compare/v7.35.0-next.12...v7.35.0-next.13) (2025-02-12)
 
 
