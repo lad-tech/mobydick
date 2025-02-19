@@ -2,6 +2,7 @@
 
 exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -24,7 +25,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
       [
         {
           "alignItems": undefined,
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -61,12 +62,13 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
       onFocus={[Function]}
       placeholder="placeholder"
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -97,6 +99,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly 1`] = `
 
 exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -119,8 +122,8 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
       [
         {
           "alignItems": undefined,
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "backgroundColor": "#EDEFF3",
+          "borderColor": "rgba(21, 28, 44, 0.4)",
           "borderRadius": 8,
           "borderWidth": 1,
           "flexDirection": "row",
@@ -155,12 +158,13 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -190,6 +194,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 1
 
 exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -212,7 +217,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
       [
         {
           "alignItems": undefined,
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -248,12 +253,13 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -283,6 +289,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly focused/blur 2
 
 exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -305,7 +312,7 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
       [
         {
           "alignItems": undefined,
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -344,12 +351,13 @@ exports[`@lad-tech/mobydick-core/ChatInputField renders correctly with props 1`]
       onFocus={[Function]}
       placeholder="placeholder"
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,

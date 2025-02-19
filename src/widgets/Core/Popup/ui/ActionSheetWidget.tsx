@@ -2,16 +2,16 @@ import {
   ActionSheetBase,
   Button,
   IItemType,
-  Typography,
+  Title,
   usePopups,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const ActionSheetWidget = () => {
   const {openPopup} = usePopups();
   return (
     <View>
-      <Typography font={'Regular-Primary-H5'}>ActionSheet</Typography>
+      <Title font={'Primary-H5'}>ActionSheet</Title>
       <Button
         text={'ActionSheet'}
         onPress={() =>

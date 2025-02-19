@@ -3,18 +3,18 @@ import {
   createStyles,
   IPosition,
   SnackbarBase,
-  Typography,
+  Title,
   usePopups,
   useStyles,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const SnackbarWidget = () => {
   const [styles] = useStyles(styleFn);
   const {openPopup} = usePopups();
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>Snackbar</Typography>
+      <Title font={'Primary-H5'}>Snackbar</Title>
       <Button
         text={'Snackbar top'}
         onPress={() =>

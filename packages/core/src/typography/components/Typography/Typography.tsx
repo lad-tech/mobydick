@@ -1,17 +1,16 @@
 import {FC} from 'react';
 
+import {IBodyProps} from '../../types';
 import Text from '../../../basic/components/Text/Text';
-import {useFont} from '../../hooks';
-import {IStyledTextProps} from '../../types';
+import {useFontBody} from '../../hooks/useFontBody';
 
-export const Typography: FC<IStyledTextProps> = ({
+export const Typography: FC<IBodyProps> = ({
   children,
   font = 'Regular-Primary-S',
   style,
   ...props
 }) => {
-  const {fontStyle} = useFont(font);
-
+  const {fontStyle} = useFontBody(font);
   return (
     <Text style={[fontStyle, style]} {...props}>
       {children}

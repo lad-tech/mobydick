@@ -1,6 +1,6 @@
 import { Theme } from '@react-navigation/native';
 
-import { CurrentTheme, useTheme } from '@shared/ui';
+import { CurrentTheme, useTheme } from '@/shared/ui';
 
 export const useNavigationTheme = () => {
   const {currentTheme, colors} = useTheme();
@@ -8,7 +8,7 @@ export const useNavigationTheme = () => {
   const theme: Theme = {
     dark: currentTheme === CurrentTheme.dark,
     colors: {
-      primary: colors.BgContrast,
+      primary: colors.BgInverse,
       border: colors.BorderNormal,
       text: colors.TextPrimary,
       card: colors.BgPrimary,

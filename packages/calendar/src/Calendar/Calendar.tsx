@@ -65,11 +65,11 @@ const Calendar: FC<ICalendar> = props => {
   const colorsArg = useMemo(
     () => ({
       colorPrime: {
-        color: colors.ElementBase,
+        color: colors.ElementAccent,
         textColor: colors.TextWhite,
       },
       colorSoft: {
-        color: colors.BgAccent,
+        color: colors.BgSecondary,
         textColor: colors.TextPrimary,
       },
       colorToday: {
@@ -96,7 +96,7 @@ const Calendar: FC<ICalendar> = props => {
   const [yearRange, setYearRange] = useState<number[]>(
     calculateYearRange(currentYear),
   );
-  const dateDots = getDottedDates(dottedDates, colors.ElementBase);
+  const dateDots = getDottedDates(dottedDates, colors.ElementAccent);
   const dateToday = getMarkedToday(colorsArg);
 
   const themeStyles = useMemo(
@@ -108,14 +108,16 @@ const Calendar: FC<ICalendar> = props => {
         textDisabledColor: colors.TextMuted,
         arrowColor: colors.IconNeutral,
         monthTextColor: colors.TextPrimary,
-        textDayHeaderFontFamily: 'Inter-SemiBold',
+        textDayHeaderFontFamily: 'Inter_600SemiBold',
+        textDayHeaderFontWeight: '600' as const,
         textDayHeaderFontSize: px(14),
         textDayFontSize: px(14),
-        textDayFontFamily: 'Inter-Regular',
+        textDayFontFamily: 'Inter_500Medium',
+        textDayFontWeight: '500' as const,
         weekVerticalMargin: px(1),
         'stylesheet.day.period': {
           todayText: {
-            fontWeight: '400',
+            fontWeight: 400,
           },
           wrapper: {
             alignItems: 'center',

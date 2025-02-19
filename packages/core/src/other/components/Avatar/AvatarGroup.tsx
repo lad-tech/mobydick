@@ -55,7 +55,7 @@ const AvatarGroup: FC<IAvatarGroupProps> = props => {
         )
       ) : (
         <View style={styles.countView}>
-          <Typography font={'Medium-Secondary-XXS'} style={styles.countText}>
+          <Typography font={'Medium-Secondary-XS'} style={styles.countText}>
             {'+' + text.toString()}
           </Typography>
         </View>

@@ -7,7 +7,7 @@ import {
   ModalLoading,
   Portal,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const PortalsScreen = () => {
   const [isShow, setIsShow] = useState(false);

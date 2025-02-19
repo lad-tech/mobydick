@@ -5,10 +5,11 @@ import {
   ControlsList,
   createStyles,
   Radio,
+  Title,
   Typography,
   useStyles,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const ControlListWidget = () => {
   const [styles] = useStyles(styleFn);
@@ -18,7 +19,7 @@ export const ControlListWidget = () => {
 
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>ControlsList</Typography>
+      <Title font={'Primary-H5'}>ControlsList</Title>
       <View>
         <Typography font={'Regular-Primary-L'}>checkbox</Typography>
         <ControlsList

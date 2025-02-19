@@ -22,7 +22,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
       [
         {
           "alignItems": "flex-end",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "flexDirection": "row",
           "paddingHorizontal": 20,
           "paddingVertical": 16,
@@ -33,6 +33,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
     }
   >
     <View
+      accessible={true}
       style={
         [
           {
@@ -55,7 +56,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
           [
             {
               "alignItems": undefined,
-              "backgroundColor": "#EEEFF1",
+              "backgroundColor": "#EDEFF3",
               "borderColor": "transparent",
               "borderRadius": 8,
               "borderWidth": 1,
@@ -91,12 +92,13 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
           onBlur={[Function]}
           onFocus={[Function]}
           placeholderTextColor="#9BA1B0"
-          selectionColor="#2B78EE"
+          selectionColor="#20242D"
           style={
             [
               {
                 "borderRadius": 8,
                 "flex": 1,
+                "outlineWidth": 0,
                 "padding": 0,
                 "paddingLeft": 18,
                 "paddingRight": 16,
@@ -154,7 +156,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly 1`] = `
       style={
         {
           "alignItems": "center",
-          "backgroundColor": "#E5F0FF",
+          "backgroundColor": "#2B78EE",
           "borderRadius": 8,
           "height": 38,
           "justifyContent": "center",
@@ -200,7 +202,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
       [
         {
           "alignItems": "flex-end",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "flexDirection": "row",
           "paddingHorizontal": 20,
           "paddingVertical": 16,
@@ -213,6 +215,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
     }
   >
     <View
+      accessible={true}
       style={
         [
           {
@@ -235,7 +238,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
           [
             {
               "alignItems": undefined,
-              "backgroundColor": "#EEEFF1",
+              "backgroundColor": "#EDEFF3",
               "borderColor": "transparent",
               "borderRadius": 8,
               "borderWidth": 1,
@@ -271,12 +274,13 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
           onBlur={[Function]}
           onFocus={[Function]}
           placeholderTextColor="#9BA1B0"
-          selectionColor="#2B78EE"
+          selectionColor="#20242D"
           style={
             [
               {
                 "borderRadius": 8,
                 "flex": 1,
+                "outlineWidth": 0,
                 "padding": 0,
                 "paddingLeft": 18,
                 "paddingRight": 16,
@@ -334,7 +338,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly android 1`] = `
       style={
         {
           "alignItems": "center",
-          "backgroundColor": "#E5F0FF",
+          "backgroundColor": "#2B78EE",
           "borderRadius": 8,
           "height": 38,
           "justifyContent": "center",
@@ -385,7 +389,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
       [
         {
           "alignItems": "flex-end",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "flexDirection": "row",
           "paddingHorizontal": 20,
           "paddingVertical": 16,
@@ -398,6 +402,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
     }
   >
     <View
+      accessible={true}
       style={
         [
           {
@@ -420,7 +425,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
           [
             {
               "alignItems": undefined,
-              "backgroundColor": "#EEEFF1",
+              "backgroundColor": "#EDEFF3",
               "borderColor": "transparent",
               "borderRadius": 8,
               "borderWidth": 1,
@@ -456,12 +461,13 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
           onBlur={[Function]}
           onFocus={[Function]}
           placeholderTextColor="#9BA1B0"
-          selectionColor="#2B78EE"
+          selectionColor="#20242D"
           style={
             [
               {
                 "borderRadius": 8,
                 "flex": 1,
+                "outlineWidth": 0,
                 "padding": 0,
                 "paddingLeft": 18,
                 "paddingRight": 16,
@@ -519,7 +525,7 @@ exports[`@lad-tech/mobydick-core/ChatInput renders correctly with containerStyle
       style={
         {
           "alignItems": "center",
-          "backgroundColor": "#E5F0FF",
+          "backgroundColor": "#2B78EE",
           "borderRadius": 8,
           "height": 38,
           "justifyContent": "center",

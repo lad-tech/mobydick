@@ -35,7 +35,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly 1`] = `
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -58,7 +58,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "borderRadius": 12,
           "justifyContent": "center",
           "marginVertical": 20,
@@ -76,7 +76,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly 1`] = `
       style={
         [
           {
-            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "backgroundColor": "rgba(91, 153, 249, 0.1)",
             "borderRadius": 100,
             "padding": 12,
           },
@@ -113,6 +113,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly 1`] = `
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
               "fontSize": 18,
+              "fontWeight": "600",
               "lineHeight": 22,
               "minHeight": 22,
             },
@@ -135,6 +136,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly 1`] = `
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
               "fontSize": 14,
+              "fontWeight": "400",
               "lineHeight": 18,
               "minHeight": 18,
             },
@@ -206,11 +208,12 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly 1`] = `
           style={
             [
               {
-                "color": "#FFF",
+                "color": "#FFFFFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 18,
-                "lineHeight": 22,
-                "minHeight": 22,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {
@@ -264,7 +267,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly with opti
     [
       {
         "alignItems": "center",
-        "backgroundColor": "rgba(0, 0, 0, 0.2)",
+        "backgroundColor": "rgba(21, 28, 44, 0.2)",
         "height": "100%",
         "position": "absolute",
         "width": "100%",
@@ -287,7 +290,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly with opti
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "borderRadius": 12,
           "justifyContent": "center",
           "marginVertical": 20,
@@ -305,7 +308,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly with opti
       style={
         [
           {
-            "backgroundColor": "rgba(43, 120, 238, 0.15)",
+            "backgroundColor": "rgba(91, 153, 249, 0.1)",
             "borderRadius": 100,
             "padding": 12,
           },
@@ -342,6 +345,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly with opti
               "color": "#20242D",
               "fontFamily": "Inter-SemiBold",
               "fontSize": 18,
+              "fontWeight": "600",
               "lineHeight": 22,
               "minHeight": 22,
             },
@@ -364,6 +368,7 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly with opti
               "color": "#5E6678",
               "fontFamily": "Inter-Regular",
               "fontSize": 14,
+              "fontWeight": "400",
               "lineHeight": 18,
               "minHeight": 18,
             },
@@ -435,11 +440,12 @@ exports[`@lad-tech/mobydick-core/modalSuccess should renders correctly with opti
           style={
             [
               {
-                "color": "#FFF",
+                "color": "#FFFFFF",
                 "fontFamily": "Inter-SemiBold",
-                "fontSize": 18,
-                "lineHeight": 22,
-                "minHeight": 22,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "minHeight": 20,
               },
               [
                 {

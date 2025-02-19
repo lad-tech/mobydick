@@ -4,13 +4,15 @@ import {returnTrue} from '../../functions';
 import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
 
-import Title from './Title';
+import SnackbarTitle from './SnackbarTitle';
 import stylesCreate from './stylesCreate';
 import {ISnackbarProps} from './types';
 
 const DEFAULT_TIME_SHOW = 5000;
 
-const SnackbarBase: FC<ISnackbarProps> & {Title: typeof Title} = props => {
+const SnackbarBase: FC<ISnackbarProps> & {
+  Title: typeof SnackbarTitle;
+} = props => {
   const {children, onClose, containerStyle, overlayStyle, position, timeShow} =
     props;
   const [styles] = useStyles(stylesCreate, position);
@@ -41,5 +43,5 @@ const SnackbarBase: FC<ISnackbarProps> & {Title: typeof Title} = props => {
   );
 };
 
-SnackbarBase.Title = Title;
+SnackbarBase.Title = SnackbarTitle;
 export default SnackbarBase;

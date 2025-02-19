@@ -1,6 +1,6 @@
 import {FC} from 'react';
 
-import {Typography} from '../../../../typography/components/Typography/Typography';
+import {TypographyLegacy} from '../../../../typography/components/TypographyLegacy/TypographyLegacy';
 import {IListEmptySelectorProps} from '../types';
 
 const ListEmptySelector: FC<IListEmptySelectorProps> = ({
@@ -13,9 +13,9 @@ const ListEmptySelector: FC<IListEmptySelectorProps> = ({
     : 'Данные недоступны. Повторите попытку позже.';
 
   return (
-    <Typography font={font} style={{paddingHorizontal: 12}}>
+    <TypographyLegacy font={font} style={{paddingHorizontal: 12}}>
       {emptyText}
-    </Typography>
+    </TypographyLegacy>
   );
 };
 

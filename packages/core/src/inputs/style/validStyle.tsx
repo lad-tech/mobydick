@@ -13,7 +13,7 @@ export const validStyle = <
   const {inputContainer} = defaultStyles;
 
   inputContainer.borderColor = active ? colors.BorderSuccess : 'transparent';
-  inputContainer.backgroundColor = colors.BgAccentSoft;
+  inputContainer.backgroundColor = colors.AdditionalSixthSoft;
 
   return defaultStyles;
 };

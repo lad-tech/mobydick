@@ -7,14 +7,14 @@ import {IPosition} from '../../types';
 import useStyles from '../../../styles/hooks/useStyles';
 
 import stylesCreate from './stylesCreate';
-import Title from './Title';
+import TooltipTitle from './TooltipTitle';
 import DescriptionText from './DescriptionText';
 import Arrow from './Arrow';
 import LeftButton from './LeftButton';
 import {IPlacement, ITooltipBaseProps} from './types';
 
 const TooltipBase: FC<ITooltipBaseProps> & {
-  Title: typeof Title;
+  Title: typeof TooltipTitle;
   DescriptionText: typeof DescriptionText;
   Arrow: typeof Arrow;
   LeftButton: typeof LeftButton;
@@ -50,19 +50,28 @@ const TooltipBase: FC<ITooltipBaseProps> & {
   }, []);
 
   useMemo(() => {
-    refCurrent?.current?.measure((_x, _y, _width, _height, _pageX, pageY) => {
-      if (pageY) {
-        const androidValue = height - pageY;
+    refCurrent?.current?.measure(
+      (
+        _x: number,
+        _y: number,
+        _width: number,
+        _height: number,
+        _pageX: number,
+        pageY: number,
+      ) => {
+        if (pageY) {
+          const androidValue = height - pageY;
 
-        position === IPosition.top
-          ? setPositionValueY(pageY + _height)
-          : setPositionValueY(androidValue);
+          position === IPosition.top
+            ? setPositionValueY(pageY + _height)
+            : setPositionValueY(androidValue);
 
-        placement === IPlacement.start
-          ? setPositionValueX(_pageX)
-          : setPositionValueX(width - _pageX - _width);
-      }
-    });
+          placement === IPlacement.start
+            ? setPositionValueX(_pageX)
+            : setPositionValueX(width - _pageX - _width);
+        }
+      },
+    );
   }, []);
 
   if (positionValueY === 0) {
@@ -96,7 +105,7 @@ const TooltipBase: FC<ITooltipBaseProps> & {
   );
 };
 
-TooltipBase.Title = Title;
+TooltipBase.Title = TooltipTitle;
 TooltipBase.DescriptionText = DescriptionText;
 TooltipBase.Arrow = Arrow;
 TooltipBase.LeftButton = LeftButton;

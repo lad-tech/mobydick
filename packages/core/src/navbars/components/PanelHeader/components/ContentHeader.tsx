@@ -3,10 +3,10 @@ import {LayoutChangeEvent} from 'react-native';
 
 import View from '../../../../basic/components/View/View';
 import {LABELS} from '../../../../other';
-import {Typography} from '../../../../typography';
 import {createStyles, useStyles} from '../../../../styles';
 import {IPanelHeaderProps} from '../../../types';
 import px from '../../../../styles/utils/px';
+import {Typography} from '../../../../typography/components/Typography/Typography';
 
 const ContentHeader: FC<IPanelHeaderProps> = props => {
   const {
@@ -18,7 +18,7 @@ const ContentHeader: FC<IPanelHeaderProps> = props => {
     rightView,
     leftView,
     subtitle,
-    subtitleFont = 'Regular-Tertiary-XXS',
+    subtitleFont = 'Regular-Tertiary-XS',
     subtitleStyle,
     containerStyle,
     rightViewStyle,

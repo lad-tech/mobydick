@@ -3,8 +3,8 @@ import {useCallback} from 'react';
 import {ITabProps} from '../../types';
 import useStyles from '../../../styles/hooks/useStyles';
 import TouchableOpacity from '../../../basic/components/TouchableOpacity/TouchableOpacity';
-import {Typography} from '../../../typography/components/Typography/Typography';
 import {LABELS} from '../../../other';
+import {Typography} from '../../../typography/components/Typography';
 
 import stylesCreate from './stylesCreate';
 
@@ -23,10 +23,10 @@ const Tab = (props: ITabProps): JSX.Element => {
   } = props;
 
   const backgroundColorActive =
-    backgroundColorActiveTab || theme.colors.ElementBase;
+    backgroundColorActiveTab || theme.colors.ElementAccent;
   const backgroundColor = backgroundColorTab || theme.colors.BgTertiary;
-  const font = fontTab || 'Regular-Tertiary-XS';
-  const fontActive = fontActiveTab || 'Regular-White-XS';
+  const font = fontTab || 'Regular-Tertiary-S';
+  const fontActive = fontActiveTab || 'Regular-White-S';
 
   const selectPressable = useCallback(() => {
     if (item.onPress) {

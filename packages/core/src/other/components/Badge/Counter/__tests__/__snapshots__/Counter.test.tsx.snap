@@ -25,17 +25,20 @@ exports[`Counter render counter ICounterSize.medium 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#FFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -67,17 +70,20 @@ exports[`Counter render counter ICounterSize.small 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 12,
+          "fontWeight": "600",
           "lineHeight": 16,
           "minHeight": 16,
         },
-        {
-          "color": "#FFF",
-          "paddingHorizontal": 4,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 4,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -109,17 +115,20 @@ exports[`Counter render counter ICounterTypes.accent 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#FFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -135,7 +144,7 @@ exports[`Counter render counter ICounterTypes.accentLight 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
         "borderRadius": 12,
         "height": 24,
         "justifyContent": "center",
@@ -151,17 +160,20 @@ exports[`Counter render counter ICounterTypes.accentLight 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#2B78EE",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#2B78EE",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -177,7 +189,7 @@ exports[`Counter render counter ICounterTypes.attention 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#F54D3D",
+        "backgroundColor": "#F54C3D",
         "borderRadius": 12,
         "height": 24,
         "justifyContent": "center",
@@ -193,17 +205,20 @@ exports[`Counter render counter ICounterTypes.attention 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#FFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -219,7 +234,7 @@ exports[`Counter render counter ICounterTypes.attentionLight 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
         "borderRadius": 12,
         "height": 24,
         "justifyContent": "center",
@@ -235,17 +250,20 @@ exports[`Counter render counter ICounterTypes.attentionLight 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#F54C3D",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#F54D3D",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -261,7 +279,7 @@ exports[`Counter render counter ICounterTypes.muted 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#B6BBC6",
+        "backgroundColor": "#D0D6E0",
         "borderRadius": 12,
         "height": 24,
         "justifyContent": "center",
@@ -277,17 +295,20 @@ exports[`Counter render counter ICounterTypes.muted 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#FFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
@@ -303,7 +324,7 @@ exports[`Counter render counter ICounterTypes.mutedLight 1`] = `
       {
         "alignItems": "center",
         "alignSelf": "center",
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
         "borderRadius": 12,
         "height": 24,
         "justifyContent": "center",
@@ -319,21 +340,69 @@ exports[`Counter render counter ICounterTypes.mutedLight 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#9BA1B0",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#9BA1B0",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
     10
+  </Text>
+</View>
+`;
+
+exports[`Counter render counter ICounterTypes.neutral 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#353A45",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    99+
   </Text>
 </View>
 `;
@@ -363,21 +432,69 @@ exports[`Counter render counter style 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 16,
+          "fontWeight": "600",
           "lineHeight": 20,
           "minHeight": 20,
         },
-        {
-          "color": "#FFF",
-          "paddingHorizontal": 6,
-          "textAlign": "center",
-        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
       ]
     }
   >
     20
+  </Text>
+</View>
+`;
+
+exports[`Counter render font 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#2B78EE",
+        "borderRadius": 12,
+        "height": 24,
+        "justifyContent": "center",
+        "minWidth": 24,
+        "zIndex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={true}
+    style={
+      [
+        {
+          "color": "#151C2C",
+          "fontFamily": "Inter-Bold",
+          "fontSize": 10,
+          "fontWeight": "700",
+          "lineHeight": 14,
+          "minHeight": 14,
+        },
+        [
+          {
+            "paddingHorizontal": 6,
+            "textAlign": "center",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    10
   </Text>
 </View>
 `;

@@ -1,5 +1,5 @@
 import {render} from '@testing-library/react-native';
-import {TouchableOpacity} from 'react-native';
+import {View} from 'react-native';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import React from 'react';
 
@@ -18,7 +18,7 @@ describe('@lad-tech/mobydick-core/TooltipBase/TooltipBase', () => {
   });
   it('should renders correctly bottom center', () => {
     jest
-      .spyOn(buttonRef.current as TouchableOpacity, 'measure')
+      .spyOn(buttonRef.current as View, 'measure')
       .mockImplementation(
         (
           cb: (

@@ -33,7 +33,7 @@ const PanelSpinner: FC<PanelSpinnerProps> = props => {
         <SimpleIcon
           name="icon-check"
           size={px(48)}
-          color={theme.colors.IconBase}
+          color={theme.colors.IconAccent}
         />
       </View>
     );

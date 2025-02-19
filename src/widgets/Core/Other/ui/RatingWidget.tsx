@@ -7,8 +7,8 @@ import {
   useStyles,
   View,
   Rating,
-} from '@shared/ui';
-import Header from '@shared/ui/Header';
+} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const RatingWidget = () => {
   const [styles] = useStyles(stylesFn);

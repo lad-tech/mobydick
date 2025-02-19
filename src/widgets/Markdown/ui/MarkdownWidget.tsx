@@ -1,4 +1,4 @@
-import {createStyles, Markdown, ScrollView, useStyles, View} from '@shared/ui';
+import {createStyles, Markdown, ScrollView, useStyles, View} from '@/shared/ui';
 
 export const MarkdownWidget = () => {
   const [styles] = useStyles(stylesFn);

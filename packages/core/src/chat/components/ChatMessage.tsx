@@ -27,8 +27,7 @@ const ChatMessage = (props: IChatMessage) => {
 
         {message && (
           <View style={styles.textArea}>
-            <Typography
-              font={isMe ? 'Regular-White-XS' : 'Regular-Secondary-XS'}>
+            <Typography font={isMe ? 'Regular-White-S' : 'Regular-Secondary-S'}>
               {message}
             </Typography>
           </View>
@@ -37,7 +36,7 @@ const ChatMessage = (props: IChatMessage) => {
         <View style={styles.timeArea}>
           {isValidMessageTime(time) && (
             <Typography
-              font={isMe ? 'Regular-WhiteExtra-XXXS' : 'Regular-Muted-XXXS'}>
+              font={isMe ? 'Regular-WhiteExtra-XXS' : 'Regular-Muted-XXS'}>
               {time}
             </Typography>
           )}
@@ -54,7 +53,7 @@ const stylesCreate = createStyles(({spaces, colors}, isMe: boolean) => ({
     maxWidth: '90%',
   },
   bubble: {
-    backgroundColor: isMe ? colors.ElementBase : colors.BgPrimary,
+    backgroundColor: isMe ? colors.ElementAccent : colors.BgPrimary,
     borderRadius: spaces.Space10,
     borderBottomLeftRadius: isMe ? spaces.Space10 : 0,
     borderBottomRightRadius: isMe ? 0 : spaces.Space10,

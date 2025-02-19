@@ -1,7 +1,7 @@
 import {useState} from 'react';
 
-import Header from '@shared/ui/Header';
-import {createStyles, DropDown, IListItem, useStyles} from '@shared/ui';
+import Header from '@/shared/ui/Header';
+import {createStyles, DropDown, IListItem, useStyles} from '@/shared/ui';
 
 const DropDownExample = () => {
   const [language, setLanguage] = useState<number>();

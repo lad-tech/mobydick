@@ -12,15 +12,15 @@ const stylesCreate = createStyles(({spaces, colors}) => ({
   rail: {
     flex: 1,
     height: spaces.Space4,
-    borderRadius: spaces.Space2,
-    backgroundColor: colors.IconMuted,
+    borderRadius: spaces.Space64,
+    backgroundColor: colors.BorderSoft,
   },
   selectedRailContainer: {
     position: 'absolute',
   },
   selectedRail: {
     height: spaces.Space4,
-    backgroundColor: colors.IconBase,
+    backgroundColor: colors.BorderExtra,
     borderRadius: spaces.Space2,
   },
   highThumbContainer: {

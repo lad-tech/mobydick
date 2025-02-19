@@ -47,7 +47,7 @@ exports[`CalendarHeader render 1`] = `
       allowFontScaling={true}
       style={
         {
-          "color": "#5E6678",
+          "color": "#353A45",
           "fontFamily": "Neotis",
           "fontSize": 24,
         }
@@ -109,6 +109,7 @@ exports[`CalendarHeader render 1`] = `
               "color": "#20242D",
               "fontFamily": "Inter-Medium",
               "fontSize": 16,
+              "fontWeight": "500",
               "lineHeight": 20,
               "minHeight": 20,
             },
@@ -162,6 +163,7 @@ exports[`CalendarHeader render 1`] = `
               "color": "#20242D",
               "fontFamily": "Inter-Medium",
               "fontSize": 16,
+              "fontWeight": "500",
               "lineHeight": 20,
               "minHeight": 20,
             },
@@ -209,7 +211,7 @@ exports[`CalendarHeader render 1`] = `
       allowFontScaling={true}
       style={
         {
-          "color": "#5E6678",
+          "color": "#353A45",
           "fontFamily": "Neotis",
           "fontSize": 24,
         }

@@ -10,13 +10,34 @@ You can control you theme by theme props in `ThemeProvider`
 import {
   CurrentTheme,
   defaultSpaces,
-  getShadows,
-  ThemeProvider,
+  getShadows,TFontWeight,
+  ThemeProvider
 } from '@lad-tech/mobydick-core';
-import {Navigation} from '@pages/Navigation';
-import {themeColors} from '@shared/lib/theme';
-import {fonts} from '@shared/lib/theme/deafultFont';
+import {Navigation} from '@/pages/Navigation';
+import {themeColors} from '@/shared/lib/theme';
+import { Platform } from 'react-native';
 
+export const fontResolver = (weight: TFontWeight) => {
+  const map = {
+    [TFontWeight.Bold]: Platform.select({
+      android: 'Inter_700Bold',
+      ios: 'Inter-Bold',
+    }),
+    [TFontWeight.SemiBold]: Platform.select({
+      android: 'Inter_600SemiBold',
+      ios: 'Inter-SemiBold',
+    }),
+    [TFontWeight.Medium]: Platform.select({
+      android: 'Inter_500Medium',
+      ios: 'Inter-Medium',
+    }),
+    [TFontWeight.Regular]: Platform.select({
+      android: 'Inter_400Regular',
+      ios: 'Inter-Regular',
+    }),
+  };
+  return map[weight];
+};
 
 function App() {
   return (
@@ -27,11 +48,11 @@ function App() {
         spaces: {
           ...defaultSpaces,
         },
-        fonts: fonts,
         shadows: getShadows({
           spaces: defaultSpaces,
           currentTheme: CurrentTheme.light,
         }),
+        customFontResolver: fontResolver
       }}>
         <Navigation />
     </ThemeProvider>
@@ -67,14 +88,6 @@ All possible colors group by theme
 
 All possible spaces
 
-### <div class="label required basic">Required</div>**`fonts`**
-
-| TYPE                                                                                                    |
-|:--------------------------------------------------------------------------------------------------------|
-| [fonts](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/styles/constants/theme.ts#L31) |
-
-Map for font
-
 ### <div class="label required basic">Required</div>**`shadows`**
 
 | TYPE                                                                                                     |
@@ -82,3 +95,11 @@ Map for font
 | [shadow](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/styles/constants/theme.ts#L69) |
 
 Map for shadow
+
+### **`customFontResolver`**
+
+| TYPE                                                                                                                                |
+|:------------------------------------------------------------------------------------------------------------------------------------|
+| [(weigth: string) => string)](https://github.com/lad-tech/mobydick/blob/main/packages/core/src/typography/utils/fontResolver.ts#L5) |
+
+Custom function for font resolve. (If your app need use another font instead of Inter)

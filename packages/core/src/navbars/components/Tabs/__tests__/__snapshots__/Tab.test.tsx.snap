@@ -32,7 +32,7 @@ exports[`Tab render correctly active false 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     {
-      "backgroundColor": "#D1D4DB",
+      "backgroundColor": "#D0D6E0",
       "borderRadius": 8,
       "marginRight": 8,
       "opacity": 1,
@@ -49,6 +49,7 @@ exports[`Tab render correctly active false 1`] = `
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
           "fontSize": 14,
+          "fontWeight": "400",
           "lineHeight": 18,
           "minHeight": 18,
         },
@@ -108,9 +109,10 @@ exports[`Tab render correctly with props 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-Regular",
           "fontSize": 14,
+          "fontWeight": "400",
           "lineHeight": 18,
           "minHeight": 18,
         },

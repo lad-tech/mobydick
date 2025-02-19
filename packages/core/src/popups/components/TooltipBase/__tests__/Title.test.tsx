@@ -1,11 +1,11 @@
 import {render} from '@testing-library/react-native';
 
-import Title from '../Title';
+import TooltipTitle from '../TooltipTitle';
 
 describe('@lad-tech/mobydick-core/TooltipBase/Title', () => {
   it('should renders correctly font', () => {
     const {toJSON} = render(
-      <Title
+      <TooltipTitle
         title={'title'}
         titleFont={'Regular-Primary-XS'}
         titleStyles={{width: 100}}
@@ -15,7 +15,7 @@ describe('@lad-tech/mobydick-core/TooltipBase/Title', () => {
     expect(toJSON()).toMatchSnapshot();
   });
   it('should renders correctly', () => {
-    const {toJSON} = render(<Title title={'title'} />);
+    const {toJSON} = render(<TooltipTitle title={'title'} />);
 
     expect(toJSON()).toMatchSnapshot();
   });

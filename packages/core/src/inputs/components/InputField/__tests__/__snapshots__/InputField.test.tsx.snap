@@ -2,6 +2,7 @@
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -23,9 +24,10 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
       style={
         [
           {
-            "color": "#5E6678",
-            "fontFamily": "Inter-Medium",
+            "color": "#353A45",
+            "fontFamily": "Inter-SemiBold",
             "fontSize": 14,
+            "fontWeight": "600",
             "lineHeight": 18,
             "minHeight": 18,
           },
@@ -41,7 +43,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -65,12 +67,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -119,6 +122,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
             "color": "#9BA1B0",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
+            "fontWeight": "400",
             "lineHeight": 16,
             "minHeight": 16,
           },
@@ -136,6 +140,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly 1`] = `
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -150,8 +155,8 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#D1D4DB",
-          "borderColor": "transparent",
+          "backgroundColor": "transparent",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
           "borderRadius": 8,
           "borderWidth": 1,
           "flexDirection": "row",
@@ -174,12 +179,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -204,6 +210,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 1`] = `
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -218,8 +225,8 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#D1D4DB",
-          "borderColor": "#D1D4DB",
+          "backgroundColor": "transparent",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
           "borderRadius": 8,
           "borderWidth": 1,
           "flexDirection": "row",
@@ -242,12 +249,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -272,6 +280,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly disabled 2`] = `
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -286,8 +295,8 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#EEEFF1",
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "backgroundColor": "#EDEFF3",
+          "borderColor": "rgba(21, 28, 44, 0.4)",
           "borderRadius": 8,
           "borderWidth": 1,
           "flexDirection": "row",
@@ -310,12 +319,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -340,6 +350,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 1`] =
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -354,7 +365,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -378,12 +389,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -408,6 +420,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly focused/blur 2`] =
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -429,9 +442,10 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
       style={
         [
           {
-            "color": "#5E6678",
-            "fontFamily": "Inter-Medium",
+            "color": "#353A45",
+            "fontFamily": "Inter-SemiBold",
             "fontSize": 14,
+            "fontWeight": "600",
             "lineHeight": 18,
             "minHeight": 18,
           },
@@ -447,7 +461,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -471,12 +485,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -501,6 +516,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = false 
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -522,9 +538,10 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
       style={
         [
           {
-            "color": "#5E6678",
-            "fontFamily": "Inter-Medium",
+            "color": "#353A45",
+            "fontFamily": "Inter-SemiBold",
             "fontSize": 14,
+            "fontWeight": "600",
             "lineHeight": 18,
             "minHeight": 18,
           },
@@ -540,7 +557,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
       [
         {
           "alignItems": undefined,
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -564,12 +581,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -594,6 +612,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly multiline = true 1
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -615,9 +634,10 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
       style={
         [
           {
-            "color": "#5E6678",
-            "fontFamily": "Inter-Medium",
+            "color": "#353A45",
+            "fontFamily": "Inter-SemiBold",
             "fontSize": 14,
+            "fontWeight": "600",
             "lineHeight": 18,
             "minHeight": 18,
           },
@@ -633,7 +653,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -658,12 +678,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
       secureTextEntry={true}
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -712,6 +733,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
             "color": "#9BA1B0",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
+            "fontWeight": "400",
             "lineHeight": 16,
             "minHeight": 16,
           },
@@ -729,6 +751,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly secureTextEntry 1`
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -743,7 +766,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "rgba(43, 120, 238, 0.15)",
+          "backgroundColor": "rgba(91, 153, 249, 0.1)",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -767,12 +790,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -797,6 +821,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 1`] = `
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -811,8 +836,8 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "rgba(43, 120, 238, 0.15)",
-          "borderColor": "#2B78EE",
+          "backgroundColor": "rgba(91, 153, 249, 0.1)",
+          "borderColor": "#29A35C",
           "borderRadius": 8,
           "borderWidth": 1,
           "flexDirection": "row",
@@ -835,12 +860,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -865,6 +891,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -879,7 +906,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "rgba(245, 77, 61, 0.15)",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -903,12 +930,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -940,7 +968,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
       allowFontScaling={true}
       style={
         {
-          "color": "#F54D3D",
+          "color": "#F54C3D",
           "fontFamily": "Neotis",
           "fontSize": 16,
           "marginRight": 4,
@@ -954,9 +982,10 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
       style={
         [
           {
-            "color": "#F54D3D",
+            "color": "#F54C3D",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
+            "fontWeight": "400",
             "lineHeight": 16,
             "minHeight": 16,
           },
@@ -974,6 +1003,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
 
 exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -988,8 +1018,8 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "rgba(245, 77, 61, 0.15)",
-          "borderColor": "#F54D3D",
+          "backgroundColor": "#EDEFF3",
+          "borderColor": "#F54C3D",
           "borderRadius": 8,
           "borderWidth": 1,
           "flexDirection": "row",
@@ -1012,12 +1042,13 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,
@@ -1049,7 +1080,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
       allowFontScaling={true}
       style={
         {
-          "color": "#F54D3D",
+          "color": "#F54C3D",
           "fontFamily": "Neotis",
           "fontSize": 16,
           "marginRight": 4,
@@ -1063,9 +1094,10 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
       style={
         [
           {
-            "color": "#F54D3D",
+            "color": "#F54C3D",
             "fontFamily": "Inter-Regular",
             "fontSize": 12,
+            "fontWeight": "400",
             "lineHeight": 16,
             "minHeight": 16,
           },
@@ -1083,6 +1115,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 2`] = `
 
 exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
 <View
+  accessible={true}
   style={
     [
       {
@@ -1106,9 +1139,10 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
           {
             "color": "#5E6678",
             "fontFamily": "Inter-Medium",
-            "fontSize": 15,
-            "lineHeight": 19,
-            "minHeight": 19,
+            "fontSize": 14,
+            "fontWeight": "500",
+            "lineHeight": 18,
+            "minHeight": 18,
           },
           undefined,
         ]
@@ -1122,7 +1156,7 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
       [
         {
           "alignItems": "center",
-          "backgroundColor": "#EEEFF1",
+          "backgroundColor": "#EDEFF3",
           "borderColor": "transparent",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -1146,12 +1180,13 @@ exports[`@lad-tech/mobydick-core/InputField renders title titleProps 1`] = `
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#9BA1B0"
-      selectionColor="#2B78EE"
+      selectionColor="#20242D"
       style={
         [
           {
             "borderRadius": 8,
             "flex": 1,
+            "outlineWidth": 0,
             "padding": 0,
             "paddingLeft": 18,
             "paddingRight": 16,

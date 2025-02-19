@@ -3,8 +3,9 @@ import px from '../../../styles/utils/px';
 
 const stylesCreate = createStyles(({spaces, colors}, focused: boolean) => ({
   inputContainer: {
-    backgroundColor: focused ? colors.BgAccentSoft : colors.BgSecondary,
+    backgroundColor: colors.BgSecondary,
     borderRadius: spaces.Space8,
+    borderColor: focused ? colors.BorderHard : 'transparent',
     minWidth: px(68),
     minHeight: px(48),
     flexDirection: 'row',

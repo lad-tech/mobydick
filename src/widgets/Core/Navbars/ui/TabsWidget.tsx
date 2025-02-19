@@ -1,7 +1,7 @@
 import {useState} from 'react';
 
-import {createStyles, Tabs, useStyles, View} from '@shared/ui';
-import Header from '@shared/ui/Header';
+import {createStyles, Tabs, useStyles, View} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 const TABS_TEST = [
   {value: 'tab1', label: 'tab1'},

@@ -8,8 +8,8 @@ import {
   Typography,
   useStyles,
   View,
-} from '@shared/ui';
-import Header from '@shared/ui/Header';
+} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const BadgeWidget = () => {
   const [styles] = useStyles(stylesFn);
@@ -33,6 +33,7 @@ export const BadgeWidget = () => {
           <Counter type={ICounterTypes.attention} count={99} />
           <Counter type={ICounterTypes.muted} count={999} />
           <Counter type={ICounterTypes.accent} count={999} maxLength={3} />
+          <Counter type={ICounterTypes.neutral} count={99} />
         </View>
       </View>
     </View>

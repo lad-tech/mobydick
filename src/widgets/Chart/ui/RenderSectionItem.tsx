@@ -9,7 +9,7 @@ import {
   ISharedChartState,
   Typography,
   useStyles,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 interface IProps {
   period: string;
@@ -28,14 +28,14 @@ const RenderSectionItem = ({period, state, transition, index}: IProps) => {
     }
 
     if (index === current && index === next) {
-      return {backgroundColor: colors.BgAccentHard};
+      return {backgroundColor: colors.AdditionalSixthHard};
     }
 
     return {
       backgroundColor: interpolateColor(
         transition.value,
         index === next ? [0, 1] : [1, 0],
-        [colors.BgAccent, colors.BgAccentHard],
+        [colors.BgAccent, colors.AdditionalSixthHard],
       ),
     };
   });

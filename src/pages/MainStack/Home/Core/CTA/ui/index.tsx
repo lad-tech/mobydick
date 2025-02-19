@@ -1,6 +1,6 @@
-import {ScrollView, useStyles} from '@shared/ui';
-import getScreenStyles from '@shared/styles/getScreenStyles';
-import {ButtonWidget} from '@widgets/Core/CTA/ui/ButtonWidget';
+import {ScrollView, useStyles} from '@/shared/ui';
+import getScreenStyles from '@/shared/styles/getScreenStyles';
+import {ButtonWidget} from '@/widgets/Core/CTA/ui/ButtonWidget';
 
 const CTAScreen = () => {
   const [styles] = useStyles(getScreenStyles);

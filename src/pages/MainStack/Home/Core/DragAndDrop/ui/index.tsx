@@ -1,7 +1,7 @@
 import {Dimensions} from 'react-native';
 
-import {DragAndDropList, px, useTheme} from '@shared/ui';
-import {BlockView} from '@shared/ui/BlockView';
+import {DragAndDropList, px, useTheme} from '@/shared/ui';
+import {BlockView} from '@/shared/ui/BlockView';
 
 const {width: WIDTH} = Dimensions.get('window');
 
@@ -16,9 +16,9 @@ const DragAndDropScreen = () => {
 
   const bgColors = [
     colors.ElementMuted,
-    colors.ElementAdditional,
-    colors.ElementAttention,
-    colors.ElementBase,
+    colors.ElementWarning,
+    colors.ElementError,
+    colors.ElementAccent,
     colors.ElementNeutral,
     colors.ElementSuccess,
     colors.ElementWhite,

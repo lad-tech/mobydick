@@ -4,20 +4,21 @@ import {
   TFontColor,
   TFontSize,
   TFontWeight,
-  TypographyProp,
+  TypographyLegacyProp,
 } from '../types';
-import {getSize} from '../utils';
+import {fontResolver, getSize} from '../utils';
 
-export const useFont = (font: TypographyProp = 'Regular-Primary-S') => {
-  const {colors, theme} = useTheme();
-  const getWeight = (weight: TFontWeight): string => theme.fonts[weight];
+export const useFont = (font: TypographyLegacyProp = 'Regular-Primary-S') => {
+  const {colors, customFontResolver} = useTheme();
 
   const [weight, color, size] = font.split('-');
   const {fontSize, lineHeight} = getSize(size as TFontSize);
 
   const fontStyle = {
     color: colors[`${TEXT}${color as TFontColor}`],
-    fontFamily: getWeight(weight as TFontWeight),
+    fontFamily: customFontResolver
+      ? customFontResolver(weight as TFontWeight)
+      : fontResolver(weight as TFontWeight),
     fontSize,
     lineHeight,
     minHeight: lineHeight,

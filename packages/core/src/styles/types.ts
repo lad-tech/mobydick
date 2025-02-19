@@ -1,20 +1,21 @@
 import {ImageStyle, TextStyle, ViewStyle} from 'react-native';
 
-import {TWeights} from '../typography';
+import {TFontWeight} from '../typography';
 
 import {
   CurrentTheme,
-  IDefaultSpaces,
+  IAdditionalColors,
   IBannerColors,
   IBgColors,
   IBorderColors,
   ICategoryColors,
   IChartColors,
   ICTAColors,
+  IDefaultSpaces,
   IElementColors,
   IIconColors,
-  ITextColors,
   IShadow,
+  ITextColors,
 } from './constants';
 
 export type IStylesTypes = Record<string, ViewStyle | TextStyle | ImageStyle>;
@@ -32,10 +33,11 @@ export interface IDefaultTheme {
       IBorderColors &
       IChartColors &
       ICategoryColors &
-      IBannerColors
+      IBannerColors &
+      IAdditionalColors
   >;
   spaces: IDefaultSpaces;
-  fonts: TWeights;
+
   shadows: IShadow;
 }
 
@@ -50,15 +52,15 @@ export interface IThemeContext {
     IBorderColors &
     IChartColors &
     ICategoryColors &
-    IBannerColors;
+    IBannerColors &
+    IAdditionalColors;
   spaces: IDefaultSpaces;
-  fonts: TWeights;
+  customFontResolver?: (weight: TFontWeight) => string;
   shadows: IShadow;
 
   setTheme: (theme: IDefaultTheme) => void;
   setCurrentTheme: (theme: ICurrentTheme) => void;
 }
-
 /**
  * @deprecated use IThemeContext
  */

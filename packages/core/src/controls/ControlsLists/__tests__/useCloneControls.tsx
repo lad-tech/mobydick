@@ -5,7 +5,7 @@ import {ReactTestInstance} from 'react-test-renderer';
 import {Radio} from '../../Radio';
 import useCloneControls from '../useCloneControls';
 import {ControlsList} from '../index';
-import {Typography} from '../../../typography/components/Typography/Typography';
+import {Typography} from '../../../typography';
 
 const list = (single: boolean) => (
   <ControlsList single={single} onChange={jest.fn} values={[]}>

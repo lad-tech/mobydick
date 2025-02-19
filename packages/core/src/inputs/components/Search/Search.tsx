@@ -34,7 +34,7 @@ const Search = forwardRef<ITextInput, ISearchProps>((props, ref) => {
   }, [onChangeText]);
 
   return (
-    <View style={[styles.container, containerStyle]}>
+    <View style={[styles.container, containerStyle]} accessible={true}>
       {leftIcon ? leftIcon : <SimpleIcon name={'icon-search'} />}
       <TextInput
         ref={ref}
@@ -44,7 +44,7 @@ const Search = forwardRef<ITextInput, ISearchProps>((props, ref) => {
         placeholderTextColor={theme.colors.TextTertiary}
         value={value}
         onChangeText={onChangeText}
-        selectionColor={theme.colors.IconBase}
+        selectionColor={theme.colors.TextPrimary}
         {...otherProps}
       />
       {value ? (

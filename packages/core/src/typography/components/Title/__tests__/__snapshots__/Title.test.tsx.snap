@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@lad-tech/mobydick-core/Header renders default correctly 1`] = `
+<Text
+  allowFontScaling={true}
+  style={
+    [
+      {
+        "color": "#20242D",
+        "fontFamily": "Inter-SemiBold",
+        "fontSize": 36,
+        "fontWeight": "600",
+        "lineHeight": 40,
+        "minHeight": 40,
+      },
+      undefined,
+    ]
+  }
+>
+  My Text
+</Text>
+`;

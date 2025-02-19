@@ -6,9 +6,10 @@ exports[`TextAvatar render TextAvatar 1`] = `
   style={
     [
       {
-        "color": "#FFF",
+        "color": "#FFFFFF",
         "fontFamily": "Inter-Regular",
         "fontSize": 10,
+        "fontWeight": "400",
         "lineHeight": 14,
         "minHeight": 14,
       },
@@ -26,9 +27,10 @@ exports[`TextAvatar render TextAvatar size L 1`] = `
   style={
     [
       {
-        "color": "#FFF",
+        "color": "#FFFFFF",
         "fontFamily": "Inter-Regular",
         "fontSize": 18,
+        "fontWeight": "400",
         "lineHeight": 22,
         "minHeight": 22,
       },
@@ -46,9 +48,10 @@ exports[`TextAvatar render TextAvatar size M 1`] = `
   style={
     [
       {
-        "color": "#FFF",
+        "color": "#FFFFFF",
         "fontFamily": "Inter-Regular",
         "fontSize": 14,
+        "fontWeight": "400",
         "lineHeight": 18,
         "minHeight": 18,
       },
@@ -66,9 +69,10 @@ exports[`TextAvatar render TextAvatar size S 1`] = `
   style={
     [
       {
-        "color": "#FFF",
+        "color": "#FFFFFF",
         "fontFamily": "Inter-Regular",
         "fontSize": 10,
+        "fontWeight": "400",
         "lineHeight": 14,
         "minHeight": 14,
       },
@@ -86,9 +90,10 @@ exports[`TextAvatar render TextAvatar size XL 1`] = `
   style={
     [
       {
-        "color": "#FFF",
-        "fontFamily": "Inter-Regular",
+        "color": "#FFFFFF",
+        "fontFamily": "Inter-SemiBold",
         "fontSize": 22,
+        "fontWeight": "600",
         "lineHeight": 24,
         "minHeight": 24,
       },

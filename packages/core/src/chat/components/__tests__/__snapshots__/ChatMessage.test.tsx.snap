@@ -13,7 +13,7 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly  isNotValid time 
   <View
     style={
       {
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
         "borderBottomLeftRadius": 0,
         "borderBottomRightRadius": 10,
         "borderRadius": 10,
@@ -35,9 +35,10 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly  isNotValid time 
         style={
           [
             {
-              "color": "#444B5A",
+              "color": "#353A45",
               "fontFamily": "Inter-Regular",
               "fontSize": 14,
+              "fontWeight": "400",
               "lineHeight": 18,
               "minHeight": 18,
             },
@@ -96,9 +97,10 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe 1`] = `
         style={
           [
             {
-              "color": "#FFF",
+              "color": "#FFFFFF",
               "fontFamily": "Inter-Regular",
               "fontSize": 14,
+              "fontWeight": "400",
               "lineHeight": 18,
               "minHeight": 18,
             },
@@ -123,9 +125,10 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe 1`] = `
         style={
           [
             {
-              "color": "rgba(255, 255, 255, 0.75)",
+              "color": "rgba(255, 255, 255, 0.8)",
               "fontFamily": "Inter-Regular",
               "fontSize": 10,
+              "fontWeight": "400",
               "lineHeight": 14,
               "minHeight": 14,
             },
@@ -206,9 +209,10 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image 1`] = 
         style={
           [
             {
-              "color": "rgba(255, 255, 255, 0.75)",
+              "color": "rgba(255, 255, 255, 0.8)",
               "fontFamily": "Inter-Regular",
               "fontSize": 10,
+              "fontWeight": "400",
               "lineHeight": 14,
               "minHeight": 14,
             },
@@ -285,9 +289,10 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isMe image number
         style={
           [
             {
-              "color": "rgba(255, 255, 255, 0.75)",
+              "color": "rgba(255, 255, 255, 0.8)",
               "fontFamily": "Inter-Regular",
               "fontSize": 10,
+              "fontWeight": "400",
               "lineHeight": 14,
               "minHeight": 14,
             },
@@ -315,7 +320,7 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
   <View
     style={
       {
-        "backgroundColor": "#FFF",
+        "backgroundColor": "#FFFFFF",
         "borderBottomLeftRadius": 0,
         "borderBottomRightRadius": 10,
         "borderRadius": 10,
@@ -337,9 +342,10 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
         style={
           [
             {
-              "color": "#444B5A",
+              "color": "#353A45",
               "fontFamily": "Inter-Regular",
               "fontSize": 14,
+              "fontWeight": "400",
               "lineHeight": 18,
               "minHeight": 18,
             },
@@ -367,6 +373,7 @@ exports[`@lad-tech/mobydick-core/ChatMessage renders correctly isNotMe 1`] = `
               "color": "#9BA1B0",
               "fontFamily": "Inter-Regular",
               "fontSize": 10,
+              "fontWeight": "400",
               "lineHeight": 14,
               "minHeight": 14,
             },

@@ -10,7 +10,7 @@ exports[`Status render not state 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "#EEEFF1",
+        "backgroundColor": "#EDEFF3",
       },
       undefined,
     ]
@@ -24,6 +24,7 @@ exports[`Status render not state 1`] = `
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
           "fontSize": 12,
+          "fontWeight": "400",
           "lineHeight": 16,
           "minHeight": 16,
         },
@@ -64,7 +65,7 @@ exports[`Status render type dot gray 1`] = `
         "width": 8,
       },
       {
-        "backgroundColor": "#B6BBC6",
+        "backgroundColor": "#D0D6E0",
       },
       undefined,
     ]
@@ -82,7 +83,7 @@ exports[`Status render type dot green 1`] = `
         "width": 8,
       },
       {
-        "backgroundColor": "#4ABA79",
+        "backgroundColor": "#29A35C",
       },
       {
         "flex": 1,
@@ -102,7 +103,7 @@ exports[`Status render type dot orange 1`] = `
         "width": 8,
       },
       {
-        "backgroundColor": "#FAB742",
+        "backgroundColor": "#FE8027",
       },
       undefined,
     ]
@@ -120,7 +121,7 @@ exports[`Status render type dot red 1`] = `
         "width": 8,
       },
       {
-        "backgroundColor": "#F54D3D",
+        "backgroundColor": "#F54C3D",
       },
       undefined,
     ]
@@ -138,7 +139,7 @@ exports[`Status render type tag blue 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+        "backgroundColor": "rgba(91, 153, 249, 0.1)",
       },
       {
         "flex": 1,
@@ -154,6 +155,7 @@ exports[`Status render type tag blue 1`] = `
           "color": "#2B78EE",
           "fontFamily": "Inter-Regular",
           "fontSize": 12,
+          "fontWeight": "400",
           "lineHeight": 16,
           "minHeight": 16,
         },
@@ -176,7 +178,7 @@ exports[`Status render type tag gray 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "#EEEFF1",
+        "backgroundColor": "#EDEFF3",
       },
       undefined,
     ]
@@ -190,6 +192,7 @@ exports[`Status render type tag gray 1`] = `
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
           "fontSize": 12,
+          "fontWeight": "400",
           "lineHeight": 16,
           "minHeight": 16,
         },
@@ -212,7 +215,7 @@ exports[`Status render type tag green 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "rgba(74, 186, 121, 0.15)",
+        "backgroundColor": "rgba(58, 189, 112, 0.1)",
       },
       undefined,
     ]
@@ -226,6 +229,7 @@ exports[`Status render type tag green 1`] = `
           "color": "#29A35C",
           "fontFamily": "Inter-Regular",
           "fontSize": 12,
+          "fontWeight": "400",
           "lineHeight": 16,
           "minHeight": 16,
         },
@@ -248,7 +252,7 @@ exports[`Status render type tag orange 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "rgba(250, 183, 66, 0.15)",
+        "backgroundColor": "rgba(250, 146, 71, 0.1)",
       },
       undefined,
     ]
@@ -259,9 +263,10 @@ exports[`Status render type tag orange 1`] = `
     style={
       [
         {
-          "color": "#F97A1F",
+          "color": "#FE8027",
           "fontFamily": "Inter-Regular",
           "fontSize": 12,
+          "fontWeight": "400",
           "lineHeight": 16,
           "minHeight": 16,
         },
@@ -284,7 +289,7 @@ exports[`Status render type tag red 1`] = `
         "paddingVertical": 2,
       },
       {
-        "backgroundColor": "rgba(245, 77, 61, 0.15)",
+        "backgroundColor": "rgba(249, 97, 84, 0.1)",
       },
       undefined,
     ]
@@ -295,9 +300,10 @@ exports[`Status render type tag red 1`] = `
     style={
       [
         {
-          "color": "#F54D3D",
+          "color": "#F54C3D",
           "fontFamily": "Inter-Regular",
           "fontSize": 12,
+          "fontWeight": "400",
           "lineHeight": 16,
           "minHeight": 16,
         },

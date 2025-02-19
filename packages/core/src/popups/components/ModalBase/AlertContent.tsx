@@ -28,7 +28,7 @@ const AlertContent: FC<IProps> = props => {
       <SimpleIcon
         name={name || 'icon-check'}
         size={size || px(36)}
-        color={color || colors.IconBase}
+        color={color || colors.IconAccent}
       />
     </View>
   );

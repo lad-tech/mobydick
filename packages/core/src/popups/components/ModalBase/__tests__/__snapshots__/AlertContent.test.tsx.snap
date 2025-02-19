@@ -5,7 +5,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly AlertContent
   style={
     [
       {
-        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+        "backgroundColor": "rgba(91, 153, 249, 0.1)",
         "borderRadius": 100,
         "padding": 12,
       },
@@ -33,7 +33,7 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly AlertContent
   style={
     [
       {
-        "backgroundColor": "rgba(43, 120, 238, 0.15)",
+        "backgroundColor": "rgba(91, 153, 249, 0.1)",
         "borderRadius": 100,
         "padding": 12,
       },

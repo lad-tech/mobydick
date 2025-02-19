@@ -112,7 +112,7 @@ exports[`Carousel render Carousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -133,7 +133,7 @@ exports[`Carousel render Carousel 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -176,7 +176,7 @@ exports[`Carousel render Carousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -197,7 +197,7 @@ exports[`Carousel render Carousel 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -240,7 +240,7 @@ exports[`Carousel render Carousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -261,7 +261,7 @@ exports[`Carousel render Carousel 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -304,7 +304,7 @@ exports[`Carousel render Carousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -325,7 +325,7 @@ exports[`Carousel render Carousel 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -368,7 +368,7 @@ exports[`Carousel render Carousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -389,7 +389,7 @@ exports[`Carousel render Carousel 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -432,7 +432,7 @@ exports[`Carousel render Carousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -453,7 +453,7 @@ exports[`Carousel render Carousel 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -496,7 +496,7 @@ exports[`Carousel render Carousel 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -517,7 +517,7 @@ exports[`Carousel render Carousel 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -643,7 +643,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -664,7 +664,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -707,7 +707,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -728,7 +728,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -771,7 +771,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -792,7 +792,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -835,7 +835,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -856,7 +856,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -899,7 +899,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -920,7 +920,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -963,7 +963,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -984,7 +984,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1027,7 +1027,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1048,7 +1048,7 @@ exports[`Carousel render Carousel activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1174,7 +1174,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1195,7 +1195,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1238,7 +1238,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1259,7 +1259,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1302,7 +1302,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1323,7 +1323,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1366,7 +1366,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1387,7 +1387,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1430,7 +1430,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1451,7 +1451,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1494,7 +1494,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1515,7 +1515,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1558,7 +1558,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1579,7 +1579,7 @@ exports[`Carousel render Carousel animateAutoScroll true 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1705,7 +1705,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1726,7 +1726,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1769,7 +1769,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1790,7 +1790,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1833,7 +1833,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1854,7 +1854,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1897,7 +1897,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1918,7 +1918,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -1961,7 +1961,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1982,7 +1982,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2025,7 +2025,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2046,7 +2046,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2089,7 +2089,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2110,7 +2110,7 @@ exports[`Carousel render Carousel autoScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2236,7 +2236,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2257,7 +2257,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2300,7 +2300,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2321,7 +2321,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2364,7 +2364,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2385,7 +2385,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2428,7 +2428,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2449,7 +2449,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2492,7 +2492,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2513,7 +2513,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2556,7 +2556,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2577,7 +2577,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2620,7 +2620,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2641,7 +2641,7 @@ exports[`Carousel render Carousel averageItemLength 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2767,7 +2767,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2788,7 +2788,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2831,7 +2831,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2852,7 +2852,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2895,7 +2895,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2916,7 +2916,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -2959,7 +2959,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2980,7 +2980,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -3023,7 +3023,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3044,7 +3044,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -3087,7 +3087,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3108,7 +3108,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -3151,7 +3151,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -3172,7 +3172,7 @@ exports[`Carousel render Carousel averageItemLength onScrollToIndexFailed 1`] = 
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -3299,7 +3299,7 @@ exports[`Carousel render Carousel isDots 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -3320,7 +3320,7 @@ exports[`Carousel render Carousel isDots 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -3363,7 +3363,7 @@ exports[`Carousel render Carousel isDots 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -3384,7 +3384,7 @@ exports[`Carousel render Carousel isDots 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -3427,7 +3427,7 @@ exports[`Carousel render Carousel isDots 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -3448,7 +3448,7 @@ exports[`Carousel render Carousel isDots 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -3491,7 +3491,7 @@ exports[`Carousel render Carousel isDots 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -3512,7 +3512,7 @@ exports[`Carousel render Carousel isDots 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -3555,7 +3555,7 @@ exports[`Carousel render Carousel isDots 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -3576,7 +3576,7 @@ exports[`Carousel render Carousel isDots 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -3619,7 +3619,7 @@ exports[`Carousel render Carousel isDots 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -3640,7 +3640,7 @@ exports[`Carousel render Carousel isDots 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -3683,7 +3683,7 @@ exports[`Carousel render Carousel isDots 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -3704,7 +3704,7 @@ exports[`Carousel render Carousel isDots 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -3749,7 +3749,7 @@ exports[`Carousel render Carousel isDots 1`] = `
                 "width": 8,
               },
               {
-                "backgroundColor": "#5E6678",
+                "backgroundColor": "#353A45",
               },
             ]
           }
@@ -3764,7 +3764,7 @@ exports[`Carousel render Carousel isDots 1`] = `
                 "width": 8,
               },
               {
-                "backgroundColor": "#B6BBC6",
+                "backgroundColor": "#D0D6E0",
               },
             ]
           }
@@ -3779,7 +3779,7 @@ exports[`Carousel render Carousel isDots 1`] = `
                 "width": 8,
               },
               {
-                "backgroundColor": "#B6BBC6",
+                "backgroundColor": "#D0D6E0",
               },
             ]
           }
@@ -3794,7 +3794,7 @@ exports[`Carousel render Carousel isDots 1`] = `
                 "width": 6,
               },
               {
-                "backgroundColor": "#B6BBC6",
+                "backgroundColor": "#D0D6E0",
               },
             ]
           }
@@ -3809,7 +3809,7 @@ exports[`Carousel render Carousel isDots 1`] = `
                 "width": 4,
               },
               {
-                "backgroundColor": "#B6BBC6",
+                "backgroundColor": "#D0D6E0",
               },
             ]
           }
@@ -3824,7 +3824,7 @@ exports[`Carousel render Carousel isDots 1`] = `
                 "width": 4,
               },
               {
-                "backgroundColor": "#B6BBC6",
+                "backgroundColor": "#D0D6E0",
               },
             ]
           }
@@ -3839,7 +3839,7 @@ exports[`Carousel render Carousel isDots 1`] = `
                 "width": 4,
               },
               {
-                "backgroundColor": "#B6BBC6",
+                "backgroundColor": "#D0D6E0",
               },
             ]
           }
@@ -3963,7 +3963,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -3984,7 +3984,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -4027,7 +4027,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -4048,7 +4048,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -4091,7 +4091,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -4112,7 +4112,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -4155,7 +4155,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -4176,7 +4176,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -4219,7 +4219,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -4240,7 +4240,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -4283,7 +4283,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -4304,7 +4304,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -4347,7 +4347,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
           }
           accessible={true}
           collapsable={false}
-          focusable={true}
+          focusable={false}
           onClick={[Function]}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
@@ -4368,7 +4368,7 @@ exports[`Carousel render Carousel isDots with props 1`] = `
             allowFontScaling={true}
             style={
               {
-                "color": "#5E6678",
+                "color": "#353A45",
                 "fontFamily": "Neotis",
                 "fontSize": 24,
               }
@@ -4626,7 +4626,7 @@ exports[`Carousel render Carousel loading 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -4647,7 +4647,7 @@ exports[`Carousel render Carousel loading 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -4690,7 +4690,7 @@ exports[`Carousel render Carousel loading 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -4711,7 +4711,7 @@ exports[`Carousel render Carousel loading 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -4754,7 +4754,7 @@ exports[`Carousel render Carousel loading 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -4775,7 +4775,7 @@ exports[`Carousel render Carousel loading 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -4818,7 +4818,7 @@ exports[`Carousel render Carousel loading 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -4839,7 +4839,7 @@ exports[`Carousel render Carousel loading 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -4882,7 +4882,7 @@ exports[`Carousel render Carousel loading 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -4903,7 +4903,7 @@ exports[`Carousel render Carousel loading 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -4946,7 +4946,7 @@ exports[`Carousel render Carousel loading 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -4967,7 +4967,7 @@ exports[`Carousel render Carousel loading 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5010,7 +5010,7 @@ exports[`Carousel render Carousel loading 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5031,7 +5031,7 @@ exports[`Carousel render Carousel loading 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5157,7 +5157,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5178,7 +5178,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5221,7 +5221,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5242,7 +5242,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5285,7 +5285,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5306,7 +5306,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5349,7 +5349,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5370,7 +5370,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5413,7 +5413,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5434,7 +5434,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5477,7 +5477,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5498,7 +5498,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5541,7 +5541,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5562,7 +5562,7 @@ exports[`Carousel render Carousel not activeItemId 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5688,7 +5688,7 @@ exports[`Carousel render Carousel not index 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5709,7 +5709,7 @@ exports[`Carousel render Carousel not index 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5752,7 +5752,7 @@ exports[`Carousel render Carousel not index 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5773,7 +5773,7 @@ exports[`Carousel render Carousel not index 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5816,7 +5816,7 @@ exports[`Carousel render Carousel not index 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5837,7 +5837,7 @@ exports[`Carousel render Carousel not index 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5880,7 +5880,7 @@ exports[`Carousel render Carousel not index 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5901,7 +5901,7 @@ exports[`Carousel render Carousel not index 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -5944,7 +5944,7 @@ exports[`Carousel render Carousel not index 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -5965,7 +5965,7 @@ exports[`Carousel render Carousel not index 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6008,7 +6008,7 @@ exports[`Carousel render Carousel not index 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6029,7 +6029,7 @@ exports[`Carousel render Carousel not index 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6072,7 +6072,7 @@ exports[`Carousel render Carousel not index 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6093,7 +6093,7 @@ exports[`Carousel render Carousel not index 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6219,7 +6219,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6240,7 +6240,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6283,7 +6283,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6304,7 +6304,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6347,7 +6347,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6368,7 +6368,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6411,7 +6411,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6432,7 +6432,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6475,7 +6475,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6496,7 +6496,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6539,7 +6539,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6560,7 +6560,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6603,7 +6603,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6624,7 +6624,7 @@ exports[`Carousel render Carousel not scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6750,7 +6750,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6771,7 +6771,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6814,7 +6814,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6835,7 +6835,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6878,7 +6878,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6899,7 +6899,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -6942,7 +6942,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -6963,7 +6963,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7006,7 +7006,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7027,7 +7027,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7070,7 +7070,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7091,7 +7091,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7134,7 +7134,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7155,7 +7155,7 @@ exports[`Carousel render Carousel onActiveChange 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7281,7 +7281,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7302,7 +7302,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7345,7 +7345,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7366,7 +7366,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7409,7 +7409,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7430,7 +7430,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7473,7 +7473,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7494,7 +7494,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7537,7 +7537,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7558,7 +7558,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7601,7 +7601,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7622,7 +7622,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7665,7 +7665,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7686,7 +7686,7 @@ exports[`Carousel render Carousel onScroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7812,7 +7812,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7833,7 +7833,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7876,7 +7876,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7897,7 +7897,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -7940,7 +7940,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -7961,7 +7961,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8004,7 +8004,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8025,7 +8025,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8068,7 +8068,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8089,7 +8089,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8132,7 +8132,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8153,7 +8153,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8196,7 +8196,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8217,7 +8217,7 @@ exports[`Carousel render Carousel onScrollToIndexFailed 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8343,7 +8343,7 @@ exports[`Carousel render Carousel scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8364,7 +8364,7 @@ exports[`Carousel render Carousel scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8407,7 +8407,7 @@ exports[`Carousel render Carousel scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8428,7 +8428,7 @@ exports[`Carousel render Carousel scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8471,7 +8471,7 @@ exports[`Carousel render Carousel scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8492,7 +8492,7 @@ exports[`Carousel render Carousel scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8535,7 +8535,7 @@ exports[`Carousel render Carousel scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8556,7 +8556,7 @@ exports[`Carousel render Carousel scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8599,7 +8599,7 @@ exports[`Carousel render Carousel scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8620,7 +8620,7 @@ exports[`Carousel render Carousel scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8663,7 +8663,7 @@ exports[`Carousel render Carousel scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8684,7 +8684,7 @@ exports[`Carousel render Carousel scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8727,7 +8727,7 @@ exports[`Carousel render Carousel scroll 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8748,7 +8748,7 @@ exports[`Carousel render Carousel scroll 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8874,7 +8874,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8895,7 +8895,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -8938,7 +8938,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -8959,7 +8959,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9002,7 +9002,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9023,7 +9023,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9066,7 +9066,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9087,7 +9087,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9130,7 +9130,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9151,7 +9151,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9194,7 +9194,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9215,7 +9215,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9258,7 +9258,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9279,7 +9279,7 @@ exports[`Carousel render Carousel scroll align = center 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9405,7 +9405,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9426,7 +9426,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9469,7 +9469,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9490,7 +9490,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9533,7 +9533,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9554,7 +9554,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9597,7 +9597,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9618,7 +9618,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9661,7 +9661,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9682,7 +9682,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9725,7 +9725,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9746,7 +9746,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9789,7 +9789,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9810,7 +9810,7 @@ exports[`Carousel render Carousel scroll align = center count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -9936,7 +9936,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9957,7 +9957,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10000,7 +10000,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10021,7 +10021,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10064,7 +10064,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10085,7 +10085,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10128,7 +10128,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10149,7 +10149,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10192,7 +10192,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10213,7 +10213,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10256,7 +10256,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10277,7 +10277,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10320,7 +10320,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10341,7 +10341,7 @@ exports[`Carousel render Carousel scroll align = center honest 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10467,7 +10467,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10488,7 +10488,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10531,7 +10531,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10552,7 +10552,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10595,7 +10595,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10616,7 +10616,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10659,7 +10659,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10680,7 +10680,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10723,7 +10723,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10744,7 +10744,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10787,7 +10787,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10808,7 +10808,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }
@@ -10851,7 +10851,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
         }
         accessible={true}
         collapsable={false}
-        focusable={true}
+        focusable={false}
         onClick={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10872,7 +10872,7 @@ exports[`Carousel render Carousel scroll align = center honest count 1`] = `
           allowFontScaling={true}
           style={
             {
-              "color": "#5E6678",
+              "color": "#353A45",
               "fontFamily": "Neotis",
               "fontSize": 24,
             }

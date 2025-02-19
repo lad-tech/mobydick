@@ -77,7 +77,7 @@ exports[`CheckBox should renders correctly 1`] = `
     style={
       [
         {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "rgba(21, 28, 44, 0.2)",
           "borderRadius": 4,
           "borderWidth": 2,
           "height": 20,
@@ -173,7 +173,7 @@ exports[`CheckBox should renders correctly checked 1`] = `
     style={
       [
         {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "rgba(21, 28, 44, 0.2)",
           "borderRadius": 4,
           "borderWidth": 0,
           "height": 20,
@@ -275,7 +275,7 @@ exports[`CheckBox should renders correctly disabled 1`] = `
     style={
       [
         {
-          "borderColor": "rgba(32, 36, 45, 0.3)",
+          "borderColor": "rgba(21, 28, 44, 0.2)",
           "borderRadius": 4,
           "borderWidth": 2,
           "height": 20,

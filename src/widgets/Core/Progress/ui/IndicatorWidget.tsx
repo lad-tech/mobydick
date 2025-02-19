@@ -1,6 +1,12 @@
 import {useState} from 'react';
 
-import {Indicator, TouchableOpacity, Typography, View} from '@shared/ui';
+import {
+  Indicator,
+  Title,
+  TouchableOpacity,
+  Typography,
+  View,
+} from '@/shared/ui';
 
 export const IndicatorWidget = () => {
   const [percent, setPercent] = useState(10);
@@ -13,7 +19,7 @@ export const IndicatorWidget = () => {
 
   return (
     <View>
-      <Typography font={'Regular-Primary-H5'}>Indicator</Typography>
+      <Title font={'Primary-H5'}>Indicator</Title>
       <Indicator percent={percent} />
       <TouchableOpacity onPress={onPress}>
         <Typography font={'Regular-Secondary-XS'}>

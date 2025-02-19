@@ -20,23 +20,23 @@ const StatusTag = ({state, text, style}: IProps) => {
   const getFont = useCallback(() => {
     switch (state) {
       case IStatusState.blue:
-        return 'Regular-Accent-XXS';
+        return 'Regular-Accent-XS';
       case IStatusState.red:
-        return 'Regular-Error-XXS';
+        return 'Regular-Error-XS';
       case IStatusState.green:
-        return 'Regular-Success-XXS';
+        return 'Regular-Success-XS';
       case IStatusState.orange:
-        return 'Regular-Warning-XXS';
+        return 'Regular-Warning-XS';
       case IStatusState.gray:
       default:
-        return 'Regular-Tertiary-XXS';
+        return 'Regular-Tertiary-XS';
     }
   }, [state]);
 
   const getBackgroundColorText = useCallback(() => {
     switch (state) {
       case IStatusState.blue:
-        return colors.BgAccentSoft;
+        return colors.AdditionalSixthSoft;
       case IStatusState.red:
         return colors.BgError;
       case IStatusState.green:
@@ -49,7 +49,7 @@ const StatusTag = ({state, text, style}: IProps) => {
     }
   }, [
     state,
-    colors.BgAccentSoft,
+    colors.AdditionalSixthSoft,
     colors.BgError,
     colors.BgSuccess,
     colors.BgWarning,

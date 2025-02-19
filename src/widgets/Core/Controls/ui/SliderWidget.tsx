@@ -1,6 +1,13 @@
 import {useState} from 'react';
 
-import {createStyles, Slider, Typography, useStyles, View} from '@shared/ui';
+import {
+  createStyles,
+  Slider,
+  Title,
+  Typography,
+  useStyles,
+  View,
+} from '@/shared/ui';
 
 export const SliderWidget = () => {
   const [styles] = useStyles(styleFn);
@@ -9,7 +16,7 @@ export const SliderWidget = () => {
   const [low, setLow] = useState(0);
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>Slider</Typography>
+      <Title font={'Primary-H5'}>Slider</Title>
       <View>
         <Typography font={'Regular-Primary-L'}>default</Typography>
         <Slider

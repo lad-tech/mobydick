@@ -5,11 +5,12 @@ import {
   createStyles,
   IButtonSize,
   IButtonTypes,
+  IStateBtn,
   SimpleIcon,
   useStyles,
   View,
-} from '@shared/ui';
-import Header from '@shared/ui/Header';
+} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const ButtonWidget = () => {
   const [styles] = useStyles(style);
@@ -21,19 +22,48 @@ export const ButtonWidget = () => {
 
   return (
     <View style={styles.container}>
-      <Header title={'Type'} />
+      <Header title={'Type Default'} />
       <View style={styles.content}>
         <Button type={IButtonTypes.primary} text={'IButtonTypes.primary'} />
         <Button type={IButtonTypes.secondary} text={'IButtonTypes.secondary'} />
         <Button type={IButtonTypes.tertiary} text={'IButtonTypes.tertiary'} />
-        <Button type={IButtonTypes.loading} text={'IButtonTypes.loading'} />
-        <Button
-          type={IButtonTypes.destructive}
-          text={'IButtonTypes.destructive'}
-        />
-        <Button type={IButtonTypes.disabled} text={'IButtonTypes.disabled'} />
       </View>
-
+      <Header title={'Type Danger'} />
+      <View style={styles.content}>
+        <Button
+          type={IButtonTypes.primary}
+          text={'IButtonTypes.primary'}
+          state={IStateBtn.danger}
+        />
+        <Button
+          type={IButtonTypes.secondary}
+          text={'IButtonTypes.secondary'}
+          state={IStateBtn.danger}
+        />
+        <Button
+          type={IButtonTypes.tertiary}
+          text={'IButtonTypes.tertiary'}
+          state={IStateBtn.danger}
+        />
+      </View>
+      <Header title={'Type Disable'} />
+      <View style={styles.content}>
+        <Button
+          type={IButtonTypes.primary}
+          text={'IButtonTypes.primary'}
+          state={IStateBtn.disabled}
+        />
+        <Button
+          type={IButtonTypes.secondary}
+          text={'IButtonTypes.secondary'}
+          state={IStateBtn.disabled}
+        />
+        <Button
+          type={IButtonTypes.tertiary}
+          text={'IButtonTypes.tertiary'}
+          state={IStateBtn.disabled}
+        />
+      </View>
       <Header title={'Size'} />
       <View style={styles.content}>
         <Button size={IButtonSize.fixed} text={'IButtonSize.fixed'} />
@@ -58,14 +88,48 @@ export const ButtonWidget = () => {
         />
       </View>
 
-      <Header title={'State'} />
+      <Header title={'Loading Default'} />
       <View style={styles.content}>
         <Button text={'loading'} loading={true} />
-        <Button text={'disabled'} disabled={true} />
-        <Button text={'both'} disabled={true} loading={true} />
+        <Button text={'loading'} type={IButtonTypes.tertiary} loading={true} />
+        <Button text={'loading'} type={IButtonTypes.secondary} loading={true} />
       </View>
 
-      <Header title={'Counter'} />
+      <Header title={'Loading Disabled'} />
+      <View style={styles.content}>
+        <Button text={'loading'} loading={true} disabled={true} />
+        <Button
+          text={'loading'}
+          type={IButtonTypes.tertiary}
+          loading={true}
+          disabled={true}
+        />
+        <Button
+          text={'loading'}
+          type={IButtonTypes.secondary}
+          loading={true}
+          disabled={true}
+        />
+      </View>
+
+      <Header title={'Loading Danger'} />
+      <View style={styles.content}>
+        <Button text={'loading'} loading={true} state={IStateBtn.danger} />
+        <Button
+          text={'loading'}
+          type={IButtonTypes.tertiary}
+          loading={true}
+          state={IStateBtn.danger}
+        />
+        <Button
+          text={'loading'}
+          type={IButtonTypes.secondary}
+          loading={true}
+          state={IStateBtn.danger}
+        />
+      </View>
+
+      <Header title={'Counter Primary'} />
       <View style={styles.content}>
         <Button
           text={'increment'}
@@ -75,7 +139,62 @@ export const ButtonWidget = () => {
         <Button
           text={'decrement'}
           count={counter}
+          state={IStateBtn.danger}
           onPress={onChangeCounter(-1)}
+        />
+        <Button
+          text={'increment'}
+          count={counter}
+          state={IStateBtn.disabled}
+          onPress={onChangeCounter(1)}
+        />
+      </View>
+
+      <Header title={'Counter Secondary'} />
+      <View style={styles.content}>
+        <Button
+          text={'decrement'}
+          count={counter}
+          type={IButtonTypes.secondary}
+          onPress={onChangeCounter(-1)}
+        />
+        <Button
+          text={'increment'}
+          count={counter}
+          type={IButtonTypes.secondary}
+          state={IStateBtn.danger}
+          onPress={onChangeCounter(1)}
+        />
+        <Button
+          text={'decrement'}
+          count={counter}
+          type={IButtonTypes.secondary}
+          state={IStateBtn.disabled}
+          onPress={onChangeCounter(-1)}
+        />
+      </View>
+
+      <Header title={'Counter Tertiary'} />
+      <View style={styles.content}>
+        <Button
+          text={'increment'}
+          count={counter}
+          type={IButtonTypes.tertiary}
+          onPress={onChangeCounter(1)}
+        />
+        <Button
+          text={'decrement'}
+          count={counter}
+          type={IButtonTypes.tertiary}
+          state={IStateBtn.danger}
+          onPress={onChangeCounter(-1)}
+        />
+        <Button
+          text={'increment'}
+          count={counter}
+          type={IButtonTypes.tertiary}
+          state={IStateBtn.disabled}
+          onPress={onChangeCounter(1)}
         />
       </View>
     </View>

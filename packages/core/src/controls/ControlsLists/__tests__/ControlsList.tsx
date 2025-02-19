@@ -3,7 +3,7 @@ import {render} from '@testing-library/react-native';
 import {ControlsList} from '../index';
 import {CheckBox} from '../../CheckBox';
 import {Radio} from '../../Radio';
-import {Typography} from '../../../typography/components/Typography/Typography';
+import {Typography} from '../../../typography';
 
 describe('ControlsList', () => {
   it('should renders correctly with checkbox type', function () {

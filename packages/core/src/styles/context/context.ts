@@ -1,6 +1,6 @@
 import {createContext} from 'react';
 
-import {defaultFonts, defaultTheme} from '../constants/theme';
+import {defaultTheme} from '../constants/theme';
 import {IThemeContext} from '../types';
 
 export const MissingThemeProviderError = new Error(
@@ -18,7 +18,6 @@ export const defaultThemeContext: IThemeContext = {
     defaultTheme.currentTheme
   ] as (typeof defaultTheme.colors)[0],
   currentTheme: defaultTheme.currentTheme,
-  fonts: defaultFonts,
   shadows: defaultTheme.shadows,
 
   setTheme: missingFunc,

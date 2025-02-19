@@ -1,9 +1,9 @@
 import {FC} from 'react';
 
-import {Typography} from '@shared/ui';
+import {Title} from '@/shared/ui';
 
 const Header: FC<{title: string}> = ({title}) => {
-  return <Typography font={'Regular-Primary-H5'}>{title}</Typography>;
+  return <Title font={'Primary-H5'}>{title}</Title>;
 };
 
 export default Header;

@@ -47,11 +47,12 @@ exports[`@lad-tech/mobydick-core/Button renders correctly 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 18,
-          "lineHeight": 22,
-          "minHeight": 22,
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
         },
         [
           {
@@ -115,9 +116,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly 2`] = `
     style={
       [
         {
-          "color": "#F54D3D",
+          "color": "#F54C3D",
           "fontFamily": "Inter-Bold",
           "fontSize": 18,
+          "fontWeight": "700",
           "lineHeight": 22,
           "minHeight": 22,
         },
@@ -168,7 +170,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly destructive 1`] = `
     {
       "alignItems": "center",
       "alignSelf": "stretch",
-      "backgroundColor": "#F54D3D",
+      "backgroundColor": "#F54C3D",
       "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
@@ -183,7 +185,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly destructive 1`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "borderRadius": 12,
           "height": 24,
           "justifyContent": "center",
@@ -201,17 +203,20 @@ exports[`@lad-tech/mobydick-core/Button renders correctly destructive 1`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#2B78EE",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },
-          {
-            "color": "#F54D3D",
-            "paddingHorizontal": 6,
-            "textAlign": "center",
-          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -254,7 +259,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly disabled 1`] = `
     {
       "alignItems": "center",
       "alignSelf": "stretch",
-      "backgroundColor": "#9BA1B0",
+      "backgroundColor": "#EDEFF3",
       "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
@@ -403,11 +408,12 @@ exports[`@lad-tech/mobydick-core/Button renders correctly left icon size large 1
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
-          "fontSize": 18,
-          "lineHeight": 22,
-          "minHeight": 22,
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 20,
+          "minHeight": 20,
         },
         [
           {
@@ -473,9 +479,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly left icon size small 1
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 14,
+          "fontWeight": "600",
           "lineHeight": 18,
           "minHeight": 18,
         },
@@ -598,7 +605,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading 1`] = `
     }
   >
     <SvgMock
-      fill="#FFF"
+      fill="#FFFFFF"
       height="24"
       width="24"
     />
@@ -639,7 +646,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading disabled 1`] =
     {
       "alignItems": "center",
       "alignSelf": "stretch",
-      "backgroundColor": "#9BA1B0",
+      "backgroundColor": "#EDEFF3",
       "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
@@ -662,7 +669,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading disabled 1`] =
     }
   >
     <SvgMock
-      fill="#FFF"
+      fill="#D0D6E0"
       height="24"
       width="24"
     />
@@ -767,7 +774,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 2`] = `
     {
       "alignItems": "center",
       "alignSelf": "stretch",
-      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+      "backgroundColor": "#EDEFF3",
       "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
@@ -790,7 +797,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 2`] = `
     }
   >
     <SvgMock
-      fill="#2B78EE"
+      fill="#353A45"
       height="24"
       width="24"
     />
@@ -846,7 +853,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 3`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "borderRadius": 12,
           "height": 24,
           "justifyContent": "center",
@@ -864,17 +871,20 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 3`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#2B78EE",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },
-          {
-            "color": "#2B78EE",
-            "paddingHorizontal": 6,
-            "textAlign": "center",
-          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -917,7 +927,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 4`] = `
     {
       "alignItems": "center",
       "alignSelf": "stretch",
-      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+      "backgroundColor": "#EDEFF3",
       "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
@@ -932,7 +942,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 4`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#353A45",
           "borderRadius": 12,
           "height": 24,
           "justifyContent": "center",
@@ -950,17 +960,20 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 4`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },
-          {
-            "color": "#2B78EE",
-            "paddingHorizontal": 6,
-            "textAlign": "center",
-          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -1036,17 +1049,20 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 5`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#FFFFFF",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },
-          {
-            "color": "#FFF",
-            "paddingHorizontal": 6,
-            "textAlign": "center",
-          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -1057,92 +1073,6 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 5`] = `
 `;
 
 exports[`@lad-tech/mobydick-core/Button renders correctly loading types 6`] = `
-<View
-  accessibilityState={
-    {
-      "busy": undefined,
-      "checked": undefined,
-      "disabled": true,
-      "expanded": undefined,
-      "selected": undefined,
-    }
-  }
-  accessibilityValue={
-    {
-      "max": undefined,
-      "min": undefined,
-      "now": undefined,
-      "text": undefined,
-    }
-  }
-  accessible={true}
-  collapsable={false}
-  focusable={false}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    {
-      "alignItems": "center",
-      "alignSelf": "stretch",
-      "backgroundColor": "#9BA1B0",
-      "borderRadius": 12,
-      "flexDirection": "row",
-      "justifyContent": "center",
-      "minHeight": 48,
-      "opacity": 1,
-    }
-  }
->
-  <View
-    style={
-      [
-        {
-          "alignItems": "center",
-          "alignSelf": "center",
-          "backgroundColor": "#FFF",
-          "borderRadius": 12,
-          "height": 24,
-          "justifyContent": "center",
-          "minWidth": 24,
-          "zIndex": 1,
-        },
-        {
-          "marginLeft": 2,
-        },
-      ]
-    }
-  >
-    <Text
-      allowFontScaling={true}
-      style={
-        [
-          {
-            "color": "#FFF",
-            "fontFamily": "Inter-SemiBold",
-            "fontSize": 16,
-            "lineHeight": 20,
-            "minHeight": 20,
-          },
-          {
-            "color": "#9BA1B0",
-            "paddingHorizontal": 6,
-            "textAlign": "center",
-          },
-        ]
-      }
-    >
-      23
-    </Text>
-  </View>
-</View>
-`;
-
-exports[`@lad-tech/mobydick-core/Button renders correctly loading types 7`] = `
 <View
   accessibilityState={
     {
@@ -1198,10 +1128,99 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 7`] = `
     }
   >
     <SvgMock
-      fill="#FFF"
+      fill="#FFFFFF"
       height="24"
       width="24"
     />
+  </View>
+</View>
+`;
+
+exports[`@lad-tech/mobydick-core/Button renders correctly loading types 7`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "alignSelf": "stretch",
+      "backgroundColor": "#EDEFF3",
+      "borderRadius": 12,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "minHeight": 48,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 12,
+          "height": 24,
+          "justifyContent": "center",
+          "minWidth": 24,
+          "zIndex": 1,
+        },
+        {
+          "marginLeft": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#2B78EE",
+            "fontFamily": "Inter-SemiBold",
+            "fontSize": 16,
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "minHeight": 20,
+          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      23
+    </Text>
   </View>
 </View>
 `;
@@ -1239,7 +1258,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 8`] = `
     {
       "alignItems": "center",
       "alignSelf": "stretch",
-      "backgroundColor": "#F54D3D",
+      "backgroundColor": "#F54C3D",
       "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
@@ -1254,7 +1273,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 8`] = `
         {
           "alignItems": "center",
           "alignSelf": "center",
-          "backgroundColor": "#FFF",
+          "backgroundColor": "#FFFFFF",
           "borderRadius": 12,
           "height": 24,
           "justifyContent": "center",
@@ -1272,17 +1291,20 @@ exports[`@lad-tech/mobydick-core/Button renders correctly loading types 8`] = `
       style={
         [
           {
-            "color": "#FFF",
+            "color": "#2B78EE",
             "fontFamily": "Inter-SemiBold",
             "fontSize": 16,
+            "fontWeight": "600",
             "lineHeight": 20,
             "minHeight": 20,
           },
-          {
-            "color": "#F54D3D",
-            "paddingHorizontal": 6,
-            "textAlign": "center",
-          },
+          [
+            {
+              "paddingHorizontal": 6,
+              "textAlign": "center",
+            },
+            undefined,
+          ],
         ]
       }
     >
@@ -1369,7 +1391,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly secondary 1`] = `
     {
       "alignItems": "center",
       "alignSelf": "stretch",
-      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+      "backgroundColor": "#EDEFF3",
       "borderRadius": 12,
       "flexDirection": "row",
       "justifyContent": "center",
@@ -1482,7 +1504,7 @@ exports[`@lad-tech/mobydick-core/Button renders correctly small 2`] = `
     }
   >
     <SvgMock
-      fill="#FFF"
+      fill="#FFFFFF"
       height="20"
       width="20"
     />
@@ -1582,9 +1604,10 @@ exports[`@lad-tech/mobydick-core/Button renders correctly text 1`] = `
     style={
       [
         {
-          "color": "#FFF",
+          "color": "#FFFFFF",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 14,
+          "fontWeight": "600",
           "lineHeight": 18,
           "minHeight": 18,
         },

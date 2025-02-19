@@ -6,7 +6,7 @@ exports[`@lad-tech/mobydick-core/Chip renders correctly and onPress fired 1`] = 
     {
       "alignItems": "center",
       "alignSelf": "flex-start",
-      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+      "backgroundColor": "rgba(91, 153, 249, 0.1)",
       "borderRadius": 8,
       "flexDirection": "row",
       "padding": 4,
@@ -21,9 +21,9 @@ exports[`@lad-tech/mobydick-core/Chip renders correctly and onPress fired 1`] = 
         {
           "color": "#2B78EE",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 10,
+          "lineHeight": 14,
+          "minHeight": 14,
         },
         {
           "marginRight": 4,
@@ -90,7 +90,7 @@ exports[`@lad-tech/mobydick-core/Chip renders correctly with maxTextLength 1`] =
     {
       "alignItems": "center",
       "alignSelf": "flex-start",
-      "backgroundColor": "rgba(43, 120, 238, 0.15)",
+      "backgroundColor": "rgba(91, 153, 249, 0.1)",
       "borderRadius": 8,
       "flexDirection": "row",
       "padding": 4,
@@ -105,9 +105,9 @@ exports[`@lad-tech/mobydick-core/Chip renders correctly with maxTextLength 1`] =
         {
           "color": "#2B78EE",
           "fontFamily": "Inter-Regular",
-          "fontSize": 12,
-          "lineHeight": 16,
-          "minHeight": 16,
+          "fontSize": 10,
+          "lineHeight": 14,
+          "minHeight": 14,
         },
         {
           "marginRight": 4,

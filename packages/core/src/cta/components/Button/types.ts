@@ -4,6 +4,12 @@ import {StyleProp, TextProps, TextStyle} from 'react-native';
 import {ITouchableOpacityProps} from '../../../basic/components/TouchableOpacity/types';
 import {TypographyProp} from '../../../typography/types';
 
+export enum IStateBtn {
+  danger = 'danger',
+  default = 'default',
+  disabled = 'disabled',
+}
+
 type IProps = {
   type?: IButtonTypes;
   text?: string;
@@ -15,14 +21,19 @@ type IProps = {
   size?: IButtonSize;
   count?: number;
   textProps?: TextProps;
+  state?: IStateBtn;
 };
 
 export enum IButtonTypes {
   primary = 'primary',
   secondary = 'secondary',
   tertiary = 'tertiary',
-  disabled = 'disabled',
+
+  /** @deprecated use loading **/
   loading = 'loading',
+  /** @deprecated use disabled **/
+  disabled = 'disabled',
+  /** @deprecated use destructive **/
   destructive = 'destructive',
 }
 

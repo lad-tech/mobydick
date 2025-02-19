@@ -30,9 +30,7 @@ const InputSubtitle = (props: ISubtitle) => {
       )}
       <Typography
         font={
-          type === IInputsTypes.wrong
-            ? 'Regular-Error-XXS'
-            : 'Regular-Muted-XXS'
+          type === IInputsTypes.wrong ? 'Regular-Error-XS' : 'Regular-Muted-XS'
         }
         style={{flex: 1}}
         {...subtitleProps}>

@@ -32,7 +32,7 @@ exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly 1`] = `
   style={
     {
       "alignItems": "center",
-      "backgroundColor": "#E5F0FF",
+      "backgroundColor": "#2B78EE",
       "borderRadius": 8,
       "height": 38,
       "justifyContent": "center",
@@ -78,7 +78,7 @@ exports[`@lad-tech/mobydick-core/ChatPressableIcon renders correctly disabled 1`
   }
   accessible={true}
   collapsable={false}
-  focusable={true}
+  focusable={false}
   onClick={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}

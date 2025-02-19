@@ -1,4 +1,4 @@
-import {createStyles, PanelHeader, SimpleIcon, useStyles} from '@shared/ui';
+import {createStyles, PanelHeader, SimpleIcon, useStyles} from '@/shared/ui';
 
 export const PanelHeaderWidget = () => {
   const [styles] = useStyles(stylesFn);

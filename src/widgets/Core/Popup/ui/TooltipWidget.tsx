@@ -5,12 +5,13 @@ import {
   createStyles,
   IPlacement,
   IPosition,
+  Title,
   TooltipBase,
   Typography,
   usePopups,
   useStyles,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const TooltipWidget = () => {
   const ref = useRef(null);
@@ -19,9 +20,9 @@ export const TooltipWidget = () => {
 
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>Tooltip</Typography>
+      <Title font={'Primary-H5'}>Tooltip</Title>
       <View ref={ref} style={styles.ref}>
-        <Typography>Ref component</Typography>
+        <Typography font={'Regular-White-S'}>Ref component</Typography>
       </View>
       <Button
         text={'Tooltip'}
@@ -56,6 +57,6 @@ const styleFn = createStyles(({spaces, colors}) => ({
   ref: {
     alignItems: 'center',
     padding: spaces.Space8,
-    backgroundColor: colors.BgAccent,
+    backgroundColor: colors.ElementWarning,
   },
 }));

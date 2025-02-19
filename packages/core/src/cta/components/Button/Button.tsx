@@ -1,6 +1,6 @@
 import {FC, forwardRef, PropsWithChildren} from 'react';
 
-import {getCounterType} from '../../utils';
+import {getCounterType, getDefaultFont, getSpinnerColor} from '../../utils';
 import {ITouchableOpacity, TouchableOpacity} from '../../../basic';
 import useStyles from '../../../styles/hooks/useStyles';
 import {Typography} from '../../../typography';
@@ -9,9 +9,8 @@ import {ISizeSpinner} from '../../../progress/components/Spinner/types';
 import {ICounterSize} from '../../../other';
 import Counter from '../../../other/components/Badge/Counter/Counter';
 
-import {IButtonProps, IButtonSize, IButtonTypes} from './types';
+import {IButtonProps, IButtonSize, IButtonTypes, IStateBtn} from './types';
 import stylesCreate from './stylesCreate';
-import {getDefaultFont} from './getDefaultFont';
 
 const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
   const {
@@ -27,21 +26,20 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     font,
     count,
     textProps,
+    state = disabled ? IStateBtn.disabled : IStateBtn.default,
     ...otherProps
   } = props;
   const [styles, theme] = useStyles(
     stylesCreate,
-    disabled ? IButtonTypes.disabled : type,
+    type,
     size,
     Boolean(leftIcon),
     Boolean(rightIcon),
     Boolean(text),
+    state,
   );
 
-  const defaultFont = getDefaultFont(
-    size,
-    disabled ? IButtonTypes.disabled : type,
-  );
+  const defaultFont = getDefaultFont(size, type, state);
 
   const counterSize =
     size === IButtonSize.small ? ICounterSize.small : ICounterSize.medium;
@@ -61,24 +59,11 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
     </TouchableOpacity>
   );
 
-  const getSpinnerColor = (): string => {
-    if (disabled) {
-      return theme.colors.IconWhite;
-    }
-    switch (type) {
-      case IButtonTypes.secondary:
-      case IButtonTypes.tertiary:
-        return theme.colors.IconBase;
-      default:
-        return theme.colors.IconWhite;
-    }
-  };
-
   if (loading || type === IButtonTypes.loading) {
     return (
       <Container>
         <Spinner
-          fill={getSpinnerColor()}
+          fill={getSpinnerColor({type, state, theme})}
           size={size === IButtonSize.small ? ISizeSpinner.XXS : ISizeSpinner.XS}
         />
       </Container>
@@ -101,7 +86,7 @@ const Button = forwardRef<ITouchableOpacity, IButtonProps>((props, ref) => {
         <Counter
           count={count}
           size={counterSize}
-          type={getCounterType(type)}
+          type={getCounterType({type, state})}
           style={styles.counter}
         />
       ) : null}

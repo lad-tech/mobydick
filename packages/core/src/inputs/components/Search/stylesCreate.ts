@@ -18,6 +18,9 @@ const stylesCreate = createStyles(({spaces, colors}) => ({
     paddingHorizontal: spaces.Space8,
     fontSize: spaces.Space16,
     color: colors.TextPrimary,
+
+    // for web
+    outlineWidth: 0,
   },
   cancelIcon: {
     alignItems: 'center',

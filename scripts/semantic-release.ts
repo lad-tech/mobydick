@@ -1,5 +1,4 @@
 #!/usr/bin/env ts-node
-import {execSync} from 'child_process';
 
 import yargs from 'yargs';
 
@@ -64,8 +63,6 @@ const parser = yargs(process.argv.slice(2))
 
     logger.info('All packages were published successfully');
   }
-
-  execSync('npx react-native-version -A');
 
   logger.info(
     '                     .                                                          \n' +

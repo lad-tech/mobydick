@@ -15,7 +15,7 @@ const ChatPressableIcon = (props: IChatPressableIcon) => {
   const {colors} = useTheme();
   const {
     name,
-    color = colors.IconBase,
+    color = colors.IconAccent,
     backgroundColor = colors.BgAccent,
     ...otherProps
   } = props;

@@ -14,9 +14,10 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with description
     style={
       [
         {
-          "color": "#444B5A",
+          "color": "#353A45",
           "fontFamily": "Inter-Medium",
           "fontSize": 16,
+          "fontWeight": "500",
           "lineHeight": 20,
           "minHeight": 20,
         },
@@ -51,9 +52,10 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with titleFont 1
     style={
       [
         {
-          "color": "#444B5A",
+          "color": "#353A45",
           "fontFamily": "Inter-Medium",
           "fontSize": 16,
+          "fontWeight": "500",
           "lineHeight": 20,
           "minHeight": 20,
         },
@@ -78,6 +80,7 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly with titleFont 1
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
           "fontSize": 14,
+          "fontWeight": "400",
           "lineHeight": 18,
           "minHeight": 18,
         },
@@ -115,6 +118,7 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without descript
           "color": "#20242D",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 18,
+          "fontWeight": "600",
           "lineHeight": 22,
           "minHeight": 22,
         },
@@ -139,6 +143,7 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without descript
           "color": "#5E6678",
           "fontFamily": "Inter-Regular",
           "fontSize": 14,
+          "fontWeight": "400",
           "lineHeight": 18,
           "minHeight": 18,
         },
@@ -176,6 +181,7 @@ exports[`@lad-tech/mobydick-core/Title should renders correctly without titleFon
           "color": "#20242D",
           "fontFamily": "Inter-SemiBold",
           "fontSize": 18,
+          "fontWeight": "600",
           "lineHeight": 22,
           "minHeight": 22,
         },

@@ -18,7 +18,7 @@ interface IInputTitle {
 const InputTitle = (props: IInputTitle) => {
   const {title, titleProps, titleFont, titleStyle, required} = props;
   const {colors} = useTheme();
-  const font = titleFont || titleProps?.font || 'Medium-Tertiary-XS';
+  const font = titleFont || titleProps?.font || 'SemiBold-Secondary-S';
 
   return (
     <View style={{flexDirection: 'row'}}>

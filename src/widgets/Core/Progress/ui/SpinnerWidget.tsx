@@ -5,8 +5,8 @@ import {
   useStyles,
   useTheme,
   View,
-} from '@shared/ui';
-import Header from '@shared/ui/Header';
+} from '@/shared/ui';
+import Header from '@/shared/ui/Header';
 
 export const SpinnerWidget = () => {
   const {colors} = useTheme();
@@ -21,7 +21,7 @@ export const SpinnerWidget = () => {
         <Spinner size={ISizeSpinner.S} />
         <Spinner size={ISizeSpinner.L} duration={1000} />
         <Spinner size={ISizeSpinner.M} />
-        <Spinner fill={colors.BgContrast} />
+        <Spinner fill={colors.BgInverse} />
       </View>
     </>
   );

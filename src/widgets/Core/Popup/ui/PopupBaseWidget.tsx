@@ -2,11 +2,11 @@ import {
   Button,
   createStyles,
   PopupBase,
-  Typography,
+  Title,
   usePopups,
   useStyles,
   View,
-} from '@shared/ui';
+} from '@/shared/ui';
 
 export const PopupBaseWidget = () => {
   const [styles] = useStyles(styleFn);
@@ -14,7 +14,7 @@ export const PopupBaseWidget = () => {
 
   return (
     <View style={styles.container}>
-      <Typography font={'Regular-Primary-H5'}>Popup</Typography>
+      <Title font={'Primary-H5'}>Popup</Title>
       <Button
         text={'PopupBase'}
         onPress={() =>

@@ -4,6 +4,8 @@ import {getShadows} from '../shadows/getShadows';
 
 import {defaultSpaces} from './defaultSpaces';
 import {
+  defaultAdditionalDarkColor,
+  defaultAdditionalLightColor,
   defaultBannerDarkColor,
   defaultBannerLightColor,
   defaultBgDarkColor,
@@ -28,14 +30,15 @@ export enum CurrentTheme {
   light = 'light',
   dark = 'dark',
 }
+/** @deprecated  use defaultFont **/
 export const defaultFonts: TWeights = {
   Regular: 'Inter-Regular',
   Medium: 'Inter-Medium',
   SemiBold: 'Inter-SemiBold',
   Bold: 'Inter-Bold',
-  Italic: 'Inter-Italic',
-  BoldItalic: 'Inter-BoldItalic',
 };
+
+export const defaultFont = 'Inter';
 
 export const defaultTheme: IDefaultTheme = {
   currentTheme: CurrentTheme.light,
@@ -50,6 +53,7 @@ export const defaultTheme: IDefaultTheme = {
       ...defaultChartLightColor,
       ...defaultCategoryLightColor,
       ...defaultBannerLightColor,
+      ...defaultAdditionalLightColor,
     },
     [CurrentTheme.dark]: {
       ...defaultTextDarkColor,
@@ -61,12 +65,12 @@ export const defaultTheme: IDefaultTheme = {
       ...defaultChartDarkColor,
       ...defaultCategoryDarkColor,
       ...defaultBannerDarkColor,
+      ...defaultAdditionalDarkColor,
     },
   },
   spaces: {
     ...defaultSpaces,
   },
-  fonts: defaultFonts,
   shadows: getShadows({
     spaces: defaultSpaces,
     currentTheme: CurrentTheme.light,

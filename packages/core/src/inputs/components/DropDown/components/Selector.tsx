@@ -10,7 +10,7 @@ import {getDropDownDimensions} from '../utils/getDropDownDimensions';
 import {IDropDownMultiSelectProps, IDropDownProps, IListItem} from '../types';
 import {IPopupProps} from '../../../../popups/components/PopupBase/types';
 import TouchableHighlight from '../../../../basic/components/TouchableHighlight/TouchableHighlight';
-import {Typography} from '../../../../typography/components/Typography/Typography';
+import {TypographyLegacy} from '../../../../typography/components/TypographyLegacy/TypographyLegacy';
 import useStyles from '../../../../styles/hooks/useStyles';
 import PopupBase from '../../../../popups/components/PopupBase/PopupBase';
 import View from '../../../../basic/components/View/View';
@@ -97,7 +97,7 @@ function renderItem<T extends IListItem>(props: IRenderItemProps<T>) {
 
     const backgroundColorItem = selectedItemColor
       ? {backgroundColor: selectedItemColor}
-      : {backgroundColor: theme.colors.BgAccentSoft};
+      : {backgroundColor: theme.colors.AdditionalSixthSoft};
 
     return (
       <TouchableHighlight
@@ -109,13 +109,15 @@ function renderItem<T extends IListItem>(props: IRenderItemProps<T>) {
         ]}
         onPress={() => renderItemOnPress(item)}
         underlayColor={
-          selectedItemColor ? selectedItemColor : theme.colors.BgAccentSoft
+          selectedItemColor
+            ? selectedItemColor
+            : theme.colors.AdditionalSixthSoft
         }>
-        <Typography
+        <TypographyLegacy
           style={isSelected() ? flatListTextStylePressed : flatListTextStyle}
           font={getFont()}>
           {item.label}
-        </Typography>
+        </TypographyLegacy>
       </TouchableHighlight>
     );
   };

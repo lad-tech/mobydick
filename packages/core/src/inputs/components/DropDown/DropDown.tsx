@@ -5,7 +5,7 @@ import {InputSubtitle, InputTitle} from '../Base';
 import usePopups from '../../../popups/hooks/usePopups';
 import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
-import {Typography} from '../../../typography/components/Typography/Typography';
+import {TypographyLegacy} from '../../../typography/components/TypographyLegacy/TypographyLegacy';
 import {LABELS} from '../../../other';
 import {IView, Pressable} from '../../../basic';
 
@@ -182,7 +182,7 @@ function DropDown<T extends IListItem>(
               onChange={renderItemOnPress}
             />
           ) : (
-            <Typography
+            <TypographyLegacy
               style={[
                 styles.placeholder,
                 isSelected ? buttonTextStyleChosen : buttonTextStyle,
@@ -191,7 +191,7 @@ function DropDown<T extends IListItem>(
               numberOfLines={1}>
               {list.find(item => item.value === selectedItem)?.label ||
                 placeholder}
-            </Typography>
+            </TypographyLegacy>
           )}
           <DropDownIcon isOpen={isOpen} rightIcon={rightIcon} />
         </Pressable>
