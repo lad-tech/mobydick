@@ -1,3 +1,10 @@
+## [7.35.1](https://github.com/lad-tech/mobydick/compare/v7.35.0...v7.35.1) (2025-04-03)
+
+
+### Bug Fixes
+
+* **Calendar:** fix props marked dates ([dae6a08](https://github.com/lad-tech/mobydick/commit/dae6a085d7f7a5468e373a9a07ff3d6a66625c16))
+
 # [7.35.0](https://github.com/lad-tech/mobydick/compare/v7.34.2...v7.35.0) (2025-02-19)
 
 
