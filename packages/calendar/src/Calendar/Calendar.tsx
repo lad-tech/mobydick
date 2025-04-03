@@ -53,6 +53,7 @@ const Calendar: FC<ICalendar> = props => {
     maxLengthDateRange,
     maxDate,
     minDate,
+    markedDates,
     ...rest
   } = props;
   LocaleConfig.locales[defaultLocale] = localeConfig;
@@ -80,7 +81,7 @@ const Calendar: FC<ICalendar> = props => {
     [],
   );
 
-  const [markedDates, setMarkedDates] = useState<IMarkedDates>();
+  const [defaultMarkedDates, setDefaultMarkedDates] = useState<IMarkedDates>();
   const [currMaxDate, setCurrMaxDate] = useState(maxDate || '');
   const [currMinDate, setCurrMinDate] = useState(minDate || '');
   const [selectionState, setSelectionState] = useState<ISelectionState>(
@@ -168,7 +169,7 @@ const Calendar: FC<ICalendar> = props => {
       endDate.dotColor = colors.ElementWhite;
     }
 
-    setMarkedDates({
+    setDefaultMarkedDates({
       dates: result,
       fromDate: dateRange.fromDate,
       toDate: dateRange.toDate,
@@ -186,7 +187,7 @@ const Calendar: FC<ICalendar> = props => {
     (day: DateData) => {
       const {fromDate, toDate} = calculateBoundaries(
         day,
-        markedDates,
+        defaultMarkedDates,
         isPeriod,
       );
 
@@ -201,7 +202,7 @@ const Calendar: FC<ICalendar> = props => {
       onDateRangeChange,
       currentYear,
       currentMonthIndex,
-      markedDates,
+      defaultMarkedDates,
     ],
   );
 
@@ -217,7 +218,7 @@ const Calendar: FC<ICalendar> = props => {
       },
     );
 
-    setMarkedDates({
+    setDefaultMarkedDates({
       dates: isShowToday ? result : dateDots.dates,
       fromDate: dateToday.fromDate,
       toDate: dateToday.toDate,
@@ -338,8 +339,8 @@ const Calendar: FC<ICalendar> = props => {
   };
 
   useEffect(() => {
-    const fromDate = markedDates?.fromDate;
-    const toDate = markedDates?.toDate;
+    const fromDate = defaultMarkedDates?.fromDate;
+    const toDate = defaultMarkedDates?.toDate;
 
     if (!fromDate || !toDate || !maxLengthDateRange || !isPeriod) {
       setCurrMaxDate(maxDate || '');
@@ -369,8 +370,8 @@ const Calendar: FC<ICalendar> = props => {
       );
     }
   }, [
-    markedDates?.fromDate,
-    markedDates?.toDate,
+    defaultMarkedDates?.fromDate,
+    defaultMarkedDates?.toDate,
     isPeriod,
     maxDate,
     minDate,
@@ -391,7 +392,7 @@ const Calendar: FC<ICalendar> = props => {
           firstDay={1}
           style={styles.daysView}
           markingType={'period'}
-          markedDates={markedDates?.dates || {}}
+          markedDates={{...defaultMarkedDates?.dates, ...markedDates}}
           onDayPress={onDayPress}
           onDayLongPress={onDayPress}
           theme={themeStyles.theme}
