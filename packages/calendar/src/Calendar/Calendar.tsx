@@ -53,7 +53,7 @@ const Calendar: FC<ICalendar> = props => {
     maxLengthDateRange,
     maxDate,
     minDate,
-    markedDates,
+    disabledDates,
     ...rest
   } = props;
   LocaleConfig.locales[defaultLocale] = localeConfig;
@@ -189,6 +189,7 @@ const Calendar: FC<ICalendar> = props => {
         day,
         defaultMarkedDates,
         isPeriod,
+        disabledDates,
       );
 
       setCurrentYear(day.year);
@@ -203,6 +204,7 @@ const Calendar: FC<ICalendar> = props => {
       currentYear,
       currentMonthIndex,
       defaultMarkedDates,
+      disabledDates,
     ],
   );
 
@@ -392,7 +394,7 @@ const Calendar: FC<ICalendar> = props => {
           firstDay={1}
           style={styles.daysView}
           markingType={'period'}
-          markedDates={{...defaultMarkedDates?.dates, ...markedDates}}
+          markedDates={{...defaultMarkedDates?.dates, ...disabledDates}}
           onDayPress={onDayPress}
           onDayLongPress={onDayPress}
           theme={themeStyles.theme}

@@ -2,6 +2,7 @@ import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
 import {CalendarProps} from 'react-native-calendars';
 import {ReactElement} from 'react';
 import {IHorizontalButtonsView, TypographyProp} from '@lad-tech/mobydick-core';
+import {MarkedDates} from 'react-native-calendars/src/types';
 
 export interface IMarkedTypes {
   [key: string]: MarkingProps;
@@ -51,6 +52,7 @@ export interface ICalendar extends CalendarProps {
   initialRange?: IInitialDate;
   dottedDates?: Date[];
   maxLengthDateRange?: number;
+  disabledDates?: MarkedDates;
 }
 
 export interface IModalCalendar
