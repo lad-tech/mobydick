@@ -1,6 +1,7 @@
 import {DateData} from 'react-native-calendars';
 import {MarkingProps} from 'react-native-calendars/src/calendar/day/marking';
 import {px} from '@lad-tech/mobydick-core';
+import {MarkedDates} from 'react-native-calendars/src/types';
 
 import {
   colorElem,
@@ -142,6 +143,7 @@ export const calculateBoundaries = (
   day: DateData,
   markedDates: IMarkedDates | undefined,
   isPeriod: boolean,
+  disabledDates?: MarkedDates,
 ) => {
   let toDate;
   let fromDate;
@@ -156,22 +158,46 @@ export const calculateBoundaries = (
     toDate = day.timestamp;
   } else {
     const {fromDate: minDate, toDate: maxDate} = markedDates;
+    let hasBlockedDatesInPeriod = false;
 
-    if (day.timestamp < minDate.getTime()) {
-      fromDate = day.timestamp;
-      toDate = maxDate;
-    } else if (day.timestamp > maxDate.getTime()) {
-      toDate = day.timestamp;
-      fromDate = minDate;
-    } else if (
-      day.timestamp === minDate.getTime() ||
-      day.timestamp === maxDate.getTime()
+    if (
+      day.timestamp !== minDate.getTime() &&
+      day.timestamp !== maxDate.getTime()
     ) {
+      const startDate = new Date(Math.min(minDate.getTime(), day.timestamp));
+      const endDate = new Date(Math.max(maxDate.getTime(), day.timestamp));
+
+      const currentDate = new Date(startDate);
+      while (currentDate <= endDate && !hasBlockedDatesInPeriod) {
+        const dateKey = currentDate.toISOString().split('T')[0];
+
+        if (dateKey && disabledDates && disabledDates[dateKey]?.disabled) {
+          hasBlockedDatesInPeriod = true;
+        }
+        currentDate.setDate(currentDate.getDate() + 1);
+      }
+    }
+
+    if (hasBlockedDatesInPeriod) {
       fromDate = day.timestamp;
       toDate = day.timestamp;
     } else {
-      fromDate = minDate;
-      toDate = day.timestamp;
+      if (day.timestamp < minDate.getTime()) {
+        fromDate = day.timestamp;
+        toDate = maxDate;
+      } else if (day.timestamp > maxDate.getTime()) {
+        toDate = day.timestamp;
+        fromDate = minDate;
+      } else if (
+        day.timestamp === minDate.getTime() ||
+        day.timestamp === maxDate.getTime()
+      ) {
+        fromDate = day.timestamp;
+        toDate = day.timestamp;
+      } else {
+        fromDate = minDate;
+        toDate = day.timestamp;
+      }
     }
   }
   return {fromDate, toDate};
