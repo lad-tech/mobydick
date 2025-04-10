@@ -1,3 +1,10 @@
+## [7.35.2](https://github.com/lad-tech/mobydick/compare/v7.35.1...v7.35.2) (2025-04-10)
+
+
+### Bug Fixes
+
+* **Calendar:** fix period if exists disabled dates ([d2599fb](https://github.com/lad-tech/mobydick/commit/d2599fba37bfea3305d3cda2bc636845a7306217))
+
 ## [7.35.1](https://github.com/lad-tech/mobydick/compare/v7.35.0...v7.35.1) (2025-04-03)
 
 
