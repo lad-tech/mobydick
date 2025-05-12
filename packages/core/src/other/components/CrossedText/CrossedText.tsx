@@ -1,4 +1,5 @@
 import {FC} from 'react';
+import {ViewStyle} from 'react-native';
 
 import View from '../../../basic/components/View/View';
 import {Typography} from '../../../typography';
@@ -8,13 +9,9 @@ import px from '../../../styles/utils/px';
 
 import {ICrossedTextProps} from './types';
 
-const CrossedText: FC<ICrossedTextProps> = ({
-  children,
-  style,
-  lineColor,
-  lineHeight = px(1),
-  ...props
-}) => {
+const CrossedText: FC<
+  ICrossedTextProps & {style?: ViewStyle[] | ViewStyle}
+> = ({children, style, lineColor, lineHeight = px(1), ...props}) => {
   const [styles] = useStyles(stylesCreate);
 
   return (

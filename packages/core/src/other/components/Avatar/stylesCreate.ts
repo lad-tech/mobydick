@@ -1,11 +1,9 @@
-import {ImageStyle} from 'react-native';
-
 import {createStyles} from '../../../styles';
 import px from '../../../styles/utils/px';
 
 import {IAvatarSize} from './types';
 
-const getSizeStyles = (sizeAvatar: IAvatarSize): ImageStyle => {
+const getSizeStyles = (sizeAvatar: IAvatarSize) => {
   switch (sizeAvatar) {
     case IAvatarSize.S:
       return {

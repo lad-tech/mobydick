@@ -1,4 +1,4 @@
-import {StyleSheet, ViewStyle} from 'react-native';
+import {ViewStyle} from 'react-native';
 import {useSafeAreaFrame} from 'react-native-safe-area-context';
 
 import {
@@ -57,7 +57,7 @@ interface IRenderItemProps<T extends IListItem>
     | 'flatListTextStyle'
     | 'flatListTextFont'
   > {
-  styles: StyleSheet.NamedStyles<{dropDownItem: ViewStyle}>;
+  styles: {dropDownItem: ViewStyle};
   theme: ReturnType<typeof useStyles>[1];
 }
 
