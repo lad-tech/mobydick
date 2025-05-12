@@ -1,3 +1,10 @@
+## [7.35.3](https://github.com/lad-tech/mobydick/compare/v7.35.2...v7.35.3) (2025-05-12)
+
+
+### Bug Fixes
+
+* updated types ([18396f6](https://github.com/lad-tech/mobydick/commit/18396f6cf7ace23fbd3c35126676e7b133c3c083))
+
 ## [7.35.2](https://github.com/lad-tech/mobydick/compare/v7.35.1...v7.35.2) (2025-04-10)
 
 
