@@ -1,3 +1,10 @@
+## [7.35.4](https://github.com/lad-tech/mobydick/compare/v7.35.3...v7.35.4) (2025-05-27)
+
+
+### Bug Fixes
+
+* **InputField:** updated styles for wrong input ([8e5d077](https://github.com/lad-tech/mobydick/commit/8e5d077917516d0c15de4c004cb82bbcc3d681c4))
+
 ## [7.35.3](https://github.com/lad-tech/mobydick/compare/v7.35.2...v7.35.3) (2025-05-12)
 
 
