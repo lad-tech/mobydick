@@ -53,11 +53,7 @@ const stylesCreate = (
         focused,
       );
     case IInputsTypes.wrong:
-      return wrongStyle(
-        theme,
-        defaultStyle(theme, focused, multiline),
-        focused,
-      );
+      return wrongStyle(theme, defaultStyle(theme, focused, multiline));
     case IInputsTypes.disabled:
       return disabledStyle(theme, defaultStyle(theme, focused, multiline));
     case IInputsTypes.default:
