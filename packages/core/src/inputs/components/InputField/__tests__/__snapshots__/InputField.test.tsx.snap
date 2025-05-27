@@ -907,7 +907,7 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
         {
           "alignItems": "center",
           "backgroundColor": "#EDEFF3",
-          "borderColor": "transparent",
+          "borderColor": "#F54C3D",
           "borderRadius": 8,
           "borderWidth": 1,
           "flexDirection": "row",

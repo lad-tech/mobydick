@@ -46,7 +46,7 @@ const stylesCreate = (
     case IInputsTypes.valid:
       return validStyle(theme, defaultStyle(theme), isOpen);
     case IInputsTypes.wrong:
-      return wrongStyle(theme, defaultStyle(theme), isOpen);
+      return wrongStyle(theme, defaultStyle(theme));
     case IInputsTypes.disabled:
       return disabledStyle(theme, defaultStyle(theme));
     case IInputsTypes.default:

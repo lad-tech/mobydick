@@ -7,12 +7,11 @@ export const wrongStyle = <
 >(
   theme: IThemeContext,
   defaultStyles: T,
-  active: boolean,
 ) => {
   const {colors} = theme;
   const {inputContainer} = defaultStyles;
 
-  inputContainer.borderColor = active ? colors.BorderError : 'transparent';
+  inputContainer.borderColor = colors.BorderError;
 
   return defaultStyles;
 };
