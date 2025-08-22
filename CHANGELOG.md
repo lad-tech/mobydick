@@ -1,3 +1,10 @@
+## [7.35.5](https://github.com/lad-tech/mobydick/compare/v7.35.4...v7.35.5) (2025-08-22)
+
+
+### Bug Fixes
+
+* remove doc space ([3a1bf17](https://github.com/lad-tech/mobydick/commit/3a1bf17bf7f42a3c26efa976a064bd85cc629c3e))
+
 ## [7.35.4](https://github.com/lad-tech/mobydick/compare/v7.35.3...v7.35.4) (2025-05-27)
 
 
