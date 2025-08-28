@@ -18,6 +18,10 @@ import {
 
 const androidStatusBarOffset = StatusBar.currentHeight ?? 0;
 
+const isEdgeForced = Platform.OS === 'android' && Platform.Version >= 36;
+
+const isHeightBasedSolution = Platform.OS === 'ios' || isEdgeForced;
+
 const KeyboardAwareScrollView = forwardRef(
   (
     {
@@ -68,9 +72,9 @@ const KeyboardAwareScrollView = forwardRef(
           const duration = frames.duration;
 
           Animated.timing(keyboardHeightRef, {
-            toValue: frames.endCoordinates.height,
+            toValue: frames.endCoordinates.height + androidStatusBarOffset / 2,
             duration,
-            useNativeDriver: Platform.OS !== 'ios',
+            useNativeDriver: !isHeightBasedSolution,
           }).start(() => {
             bottomRef.current?.measureInWindow(
               (_BottomX, _BottomY, _BottomWidth, bottomHeight) => {
@@ -85,13 +89,13 @@ const KeyboardAwareScrollView = forwardRef(
       );
 
       const didHideListener = Keyboard.addListener(
-        'keyboardWillHide',
+        Platform.OS === 'ios' ? 'keyboardWillHide' : 'keyboardDidHide',
         frames => {
           const duration = frames.duration;
           Animated.timing(keyboardHeightRef, {
             toValue: 0,
             duration,
-            useNativeDriver: Platform.OS !== 'ios',
+            useNativeDriver: !isHeightBasedSolution,
           }).start();
         },
       );
@@ -117,7 +121,7 @@ const KeyboardAwareScrollView = forwardRef(
         </View>
         <Animated.View
           style={[
-            Platform.OS === 'ios'
+            isHeightBasedSolution
               ? {height: keyboardHeightRef}
               : {
                   transform: [{translateY: keyboardHeightRef}],
