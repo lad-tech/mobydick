@@ -8,7 +8,7 @@ runs:
       uses: actions/setup-node@v4
       with:
         registry-url: 'https://registry.npmjs.org/'
-        node-version: 20.11.x
+        node-version: 20.19.x
         cache: yarn
         cache-dependency-path: yarn.lock
     - name: Install dependencies # install project deps with --frozen-lockfile to make sure we will have the same packages version ( very recommended  on running yarn install on ci)
