@@ -21,7 +21,7 @@ export interface ITooltipBaseProps
   onClose: () => void;
   position: IPosition;
   placement: IPlacement;
-  refCurrent: RefObject<ITouchableOpacity>;
+  refCurrent: RefObject<ITouchableOpacity | null>;
   overlayStyle?: StyleProp<ViewStyle>;
   containerStyle?: StyleProp<ViewStyle>;
   timeShow?: number;

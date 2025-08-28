@@ -11,7 +11,7 @@ import {ITouchableOpacity} from '../../../../basic/components/TouchableOpacity/t
 
 describe('@lad-tech/mobydick-core/TooltipBase/TooltipBase', () => {
   jest.useFakeTimers();
-  let buttonRef: React.RefObject<ITouchableOpacity>;
+  let buttonRef: React.RefObject<ITouchableOpacity | null>;
   beforeEach(() => {
     buttonRef = React.createRef();
     render(<Button ref={buttonRef} />);

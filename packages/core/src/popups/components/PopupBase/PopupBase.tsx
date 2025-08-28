@@ -21,9 +21,11 @@ const PopupBase: FC<PropsWithChildren<IPopupProps>> = ({
       return true;
     };
 
-    BackHandler.addEventListener('hardwareBackPress', onBackPress);
-    return () =>
-      BackHandler.removeEventListener('hardwareBackPress', onBackPress);
+    const listener = BackHandler.addEventListener(
+      'hardwareBackPress',
+      onBackPress,
+    );
+    return () => listener.remove();
   }, []);
 
   const onPressClickOut = useCallback(
