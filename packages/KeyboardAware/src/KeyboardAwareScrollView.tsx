@@ -36,7 +36,11 @@ const KeyboardAwareScrollView = forwardRef(
     const scrollViewRef = useRef<ScrollView>(null);
     const scrollPositionRef = useRef<number>(0);
     const keyboardHeightRef = useRef(
-      new Animated.Value(initialKeyboardHeight ? initialKeyboardHeight : 0),
+      new Animated.Value(
+        initialKeyboardHeight
+          ? initialKeyboardHeight + androidStatusBarOffset / 2
+          : 0,
+      ),
     ).current;
     const bottomRef = useRef<View>(null);
 
