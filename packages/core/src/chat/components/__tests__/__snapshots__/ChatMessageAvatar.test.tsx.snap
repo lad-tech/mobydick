@@ -31,6 +31,8 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly isNotMe 1`]
     collapsable={false}
     focusable={false}
     onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -199,6 +201,8 @@ exports[`@lad-tech/mobydick-core/ChatMessageAvatar renders correctly onPress 1`]
     collapsable={false}
     focusable={true}
     onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}

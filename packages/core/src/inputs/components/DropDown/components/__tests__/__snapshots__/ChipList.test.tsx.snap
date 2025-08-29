@@ -66,6 +66,8 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
       collapsable={false}
       focusable={true}
       onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
@@ -147,6 +149,8 @@ exports[`@lad-tech/mobydick-core/ChipList renders correctly and onChange fired 1
       collapsable={false}
       focusable={true}
       onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
