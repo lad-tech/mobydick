@@ -32,8 +32,6 @@ exports[`@lad-tech/mobydick-core/modalBase should renders correctly VerticalButt
     collapsable={false}
     focusable={true}
     onClick={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}

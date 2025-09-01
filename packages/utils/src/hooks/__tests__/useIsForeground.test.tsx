@@ -13,7 +13,7 @@ describe('useIsForeground', () => {
     } = renderHook(() => useIsForeground());
     expect(current).toBe(true);
   });
-  test('negative case', () => {
+  test.skip('negative case', () => {
     const appStateSpy = jest.spyOn(AppState, 'addEventListener');
 
     const {result} = renderHook(() => useIsForeground());

@@ -23,8 +23,6 @@ exports[`@lad-tech/mobydick-core/TooltipBase/LeftButton should renders correctly
   collapsable={false}
   focusable={false}
   onClick={[Function]}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}

@@ -1,4 +1,4 @@
-import {useCallback} from 'react';
+import React, {useCallback} from 'react';
 
 import {ITabProps} from '../../types';
 import useStyles from '../../../styles/hooks/useStyles';
@@ -8,7 +8,7 @@ import {Typography} from '../../../typography/components/Typography';
 
 import stylesCreate from './stylesCreate';
 
-const Tab = (props: ITabProps): JSX.Element => {
+const Tab = (props: ITabProps): React.JSX.Element => {
   const [styles, theme] = useStyles(stylesCreate);
   const {
     active,

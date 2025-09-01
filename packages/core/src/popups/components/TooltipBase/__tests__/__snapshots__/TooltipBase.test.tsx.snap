@@ -53,19 +53,28 @@ exports[`@lad-tech/mobydick-core/TooltipBase/TooltipBase should renders correctl
   <View
     collapsable={false}
     style={
-      {
-        "alignItems": "flex-start",
-        "backgroundColor": "#20242D",
-        "borderRadius": 8,
-        "justifyContent": "center",
-        "marginVertical": 8,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
-        "position": "absolute",
-        "right": 32,
-        "top": 2411,
-        "zIndex": 1,
-      }
+      [
+        {
+          "alignItems": "flex-start",
+          "backgroundColor": "#20242D",
+          "borderRadius": 8,
+          "justifyContent": "center",
+          "marginVertical": 8,
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+          "position": "absolute",
+          "zIndex": 1,
+        },
+        undefined,
+        {
+          "top": 2411,
+        },
+        false,
+        false,
+        {
+          "right": 32,
+        },
+      ]
     }
   />
 </View>
@@ -124,18 +133,26 @@ exports[`@lad-tech/mobydick-core/TooltipBase/TooltipBase should renders correctl
   <View
     collapsable={false}
     style={
-      {
-        "alignItems": "flex-start",
-        "backgroundColor": "#20242D",
-        "borderRadius": 8,
-        "bottom": -1770,
-        "justifyContent": "center",
-        "marginVertical": 8,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
-        "position": "absolute",
-        "zIndex": 1,
-      }
+      [
+        {
+          "alignItems": "flex-start",
+          "backgroundColor": "#20242D",
+          "borderRadius": 8,
+          "justifyContent": "center",
+          "marginVertical": 8,
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+          "position": "absolute",
+          "zIndex": 1,
+        },
+        undefined,
+        false,
+        {
+          "bottom": -1770,
+        },
+        false,
+        false,
+      ]
     }
   />
 </View>
@@ -194,19 +211,28 @@ exports[`@lad-tech/mobydick-core/TooltipBase/TooltipBase should renders correctl
   <View
     collapsable={false}
     style={
-      {
-        "alignItems": "flex-start",
-        "backgroundColor": "#20242D",
-        "borderRadius": 8,
-        "justifyContent": "center",
-        "marginVertical": 8,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
-        "position": "absolute",
-        "right": 32,
-        "top": 2411,
-        "zIndex": 1,
-      }
+      [
+        {
+          "alignItems": "flex-start",
+          "backgroundColor": "#20242D",
+          "borderRadius": 8,
+          "justifyContent": "center",
+          "marginVertical": 8,
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+          "position": "absolute",
+          "zIndex": 1,
+        },
+        undefined,
+        {
+          "top": 2411,
+        },
+        false,
+        false,
+        {
+          "right": 32,
+        },
+      ]
     }
   />
 </View>
@@ -265,19 +291,28 @@ exports[`@lad-tech/mobydick-core/TooltipBase/TooltipBase should renders correctl
   <View
     collapsable={false}
     style={
-      {
-        "alignItems": "flex-start",
-        "backgroundColor": "#20242D",
-        "borderRadius": 8,
-        "justifyContent": "center",
-        "left": 287,
-        "marginVertical": 8,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
-        "position": "absolute",
-        "top": 2411,
-        "zIndex": 1,
-      }
+      [
+        {
+          "alignItems": "flex-start",
+          "backgroundColor": "#20242D",
+          "borderRadius": 8,
+          "justifyContent": "center",
+          "marginVertical": 8,
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+          "position": "absolute",
+          "zIndex": 1,
+        },
+        undefined,
+        {
+          "top": 2411,
+        },
+        false,
+        {
+          "left": 287,
+        },
+        false,
+      ]
     }
   />
 </View>

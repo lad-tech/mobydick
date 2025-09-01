@@ -1,4 +1,4 @@
-import {useCallback, useMemo} from 'react';
+import React, {useCallback, useMemo} from 'react';
 import {TextStyle} from 'react-native';
 
 import Text from '../../../basic/components/Text/Text';
@@ -19,7 +19,7 @@ const SimpleIcon = ({
   name,
   style,
   color,
-}: IProps): JSX.Element => {
+}: IProps): React.JSX.Element => {
   const {colors} = useTheme();
   const resolveGlyph = useCallback((iconName: SimpleIconName): string => {
     const glyph = glyphMap[iconName];

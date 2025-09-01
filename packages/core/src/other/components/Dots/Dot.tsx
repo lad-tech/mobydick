@@ -1,4 +1,4 @@
-import {useMemo} from 'react';
+import React, {useMemo} from 'react';
 
 import useStyles from '../../../styles/hooks/useStyles';
 import View from '../../../basic/components/View/View';
@@ -18,7 +18,7 @@ const Dot = ({
   size,
   activeDotColor,
   passiveDotColor,
-}: IDot): JSX.Element => {
+}: IDot): React.JSX.Element => {
   const [styles] = useStyles(stylesCreate, size);
   const {colors} = useTheme();
 
