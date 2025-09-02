@@ -18,20 +18,20 @@ import {
 
 const androidStatusBarOffset = StatusBar.currentHeight ?? 0;
 
-const isEdgeForced = Platform.OS === 'android' && Platform.Version >= 35;
-
-// TODO find the right way to find android edge to edge
-const isHeightBasedSolution = Platform.OS === 'ios' || isEdgeForced || true;
-
 const KeyboardAwareScrollView = forwardRef(
   (
     {
       children,
       BottomComponent,
+      isEdgeToEdgeEnabled = Platform.OS === 'android' && Platform.Version >= 35,
       ...rest
-    }: ScrollViewProps & {BottomComponent?: ReactElement},
+    }: ScrollViewProps & {
+      BottomComponent?: ReactElement;
+      isEdgeToEdgeEnabled?: boolean;
+    },
     ref,
   ) => {
+    const isHeightBasedSolution = Platform.OS === 'ios' || isEdgeToEdgeEnabled;
     const initialKeyboardHeight = Keyboard.metrics()?.height;
     const scrollViewRef = useRef<ScrollView>(null);
     const scrollPositionRef = useRef<number>(0);
