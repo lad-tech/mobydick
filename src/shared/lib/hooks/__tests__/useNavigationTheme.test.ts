@@ -16,7 +16,25 @@ describe("useNavigationTheme", () => {
           primary: "#20242D",
           text: "#20242D"
         },
-        dark: false
+        dark: false,
+        fonts: {
+          bold: {
+            fontFamily: 'System',
+            fontWeight: '600',
+          },
+          heavy: {
+            fontFamily: 'System',
+            fontWeight: '700',
+          },
+          medium: {
+            fontFamily: 'System',
+            fontWeight: '500',
+          },
+          regular: {
+            fontFamily: 'System',
+            fontWeight: '400',
+          },
+        }
       }
     });
   });

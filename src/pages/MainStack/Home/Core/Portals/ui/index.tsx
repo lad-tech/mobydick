@@ -6,8 +6,8 @@ import {
   ModalAsk,
   ModalLoading,
   Portal,
-  View,
 } from '@/shared/ui';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 export const PortalsScreen = () => {
   const [isShow, setIsShow] = useState(false);
@@ -32,7 +32,7 @@ export const PortalsScreen = () => {
     );
   };
   return (
-    <View>
+    <SafeAreaContainer>
       <Button onPress={toggle} />
       {isShow && (
         <Portal>
@@ -44,6 +44,6 @@ export const PortalsScreen = () => {
           />
         </Portal>
       )}
-    </View>
+    </SafeAreaContainer>
   );
 };

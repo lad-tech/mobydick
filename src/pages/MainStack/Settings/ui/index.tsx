@@ -1,12 +1,11 @@
-import {Button, CurrentTheme, useStyles, useTheme, View} from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
+import {Button, CurrentTheme, useTheme} from '@/shared/ui';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const SettingsScreen = () => {
   const {currentTheme, setCurrentTheme} = useTheme();
-  const [styles] = useStyles(getScreenStyles);
 
   return (
-    <View style={styles.container}>
+    <SafeAreaContainer>
       <Button
         text={currentTheme}
         disabled={false}
@@ -18,7 +17,7 @@ const SettingsScreen = () => {
           );
         }}
       />
-    </View>
+    </SafeAreaContainer>
   );
 };
 

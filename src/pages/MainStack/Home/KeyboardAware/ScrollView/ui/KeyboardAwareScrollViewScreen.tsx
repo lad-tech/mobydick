@@ -1,13 +1,15 @@
-import {KeyboardAwareScrollView, useStyles} from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
+import {KeyboardAwareScrollView, View} from '@/shared/ui';
 import {Inputs} from '@/widgets/KeyboardAware/Inputs';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 export const KeyboardAwareScrollViewScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
   return (
-    <KeyboardAwareScrollView
-      contentContainerStyle={[styles.container, {flex: undefined}]}>
-      <Inputs />
-    </KeyboardAwareScrollView>
+    <SafeAreaContainer>
+      <View style={{flex: 1}}>
+        <KeyboardAwareScrollView isEdgeToEdgeEnabled>
+          <Inputs />
+        </KeyboardAwareScrollView>
+      </View>
+    </SafeAreaContainer>
   );
 };

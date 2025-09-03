@@ -1,4 +1,4 @@
-import {useCallback, useEffect, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {
   FlatList,
   NativeScrollEvent,
@@ -47,7 +47,7 @@ const Carousel = <T,>({
   dotsStyles,
   isLoop,
   ...otherProps
-}: ICarouselProps<T>): JSX.Element => {
+}: ICarouselProps<T>): React.JSX.Element => {
   const ref = useRef<FlatList>(null);
   const [styles] = useStyles(stylesCreate, sideMargin);
   const [currIndex, setCurrIndex] = useState<number>(0);

@@ -3721,9 +3721,12 @@ exports[`Carousel render Carousel isDots 1`] = `
     collapsable={false}
     onLayout={[Function]}
     style={
-      {
-        "width": 100,
-      }
+      [
+        {
+          "width": 100,
+        },
+        undefined,
+      ]
     }
   >
     <RCTScrollView
@@ -4385,9 +4388,12 @@ exports[`Carousel render Carousel isDots with props 1`] = `
     collapsable={false}
     onLayout={[Function]}
     style={
-      {
-        "width": 100,
-      }
+      [
+        {
+          "width": 100,
+        },
+        undefined,
+      ]
     }
   >
     <RCTScrollView

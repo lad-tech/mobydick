@@ -1,33 +1,29 @@
 // RN do Object.freeze for Style in __DEV__
 // https://github.com/facebook/react-native/commit/a8e3c7f5780516eb0297830632862484ad032c10#r74968198
 // And I don't know why
-jest.mock('react-native/Libraries/StyleSheet/StyleSheet.js', () => {
-  const real = jest.requireActual(
-    'react-native/Libraries/StyleSheet/StyleSheet.js',
-  );
-  return {
-    ...real,
-    create: (obj: unknown) => obj,
-  };
-});
+jest.mock('react-native', () => {
+  const RN = jest.requireActual('react-native');
 
-// Somehow Platform.isTesting === undefined when running in jest:/
-jest.mock('react-native/Libraries/Utilities/Platform', () => {
-  const real = jest.requireActual('react-native/Libraries/Utilities/Platform');
-  return {
-    ...real,
-    isTesting: true,
+  const mockedRN = {
+    BackHandler: {
+      addEventListener: jest.fn(() => ({remove: jest.fn()})),
+      exitApp: jest.fn(),
+    },
+    StyleSheet: {
+      ...RN.StyleSheet,
+      create: jest.fn(styles => styles),
+    },
+    Platform: {
+      ...RN.Platform,
+      isTesting: true,
+    },
   };
+
+  return Object.setPrototypeOf(mockedRN, RN);
 });
 
 // we don't need logs in test's scripts
 jest.mock('../scripts/utils/logger'); // or use require
-
-jest.mock('react-native/Libraries/Utilities/BackHandler', () => {
-  return jest.requireActual(
-    'react-native/Libraries/Utilities/__mocks__/BackHandler.js',
-  );
-});
 
 jest.mock('react-native-safe-area-context', () => {
   return jest.requireActual('react-native-safe-area-context/jest/mock').default;

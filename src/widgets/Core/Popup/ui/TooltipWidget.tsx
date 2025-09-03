@@ -5,6 +5,7 @@ import {
   createStyles,
   IPlacement,
   IPosition,
+  ITouchableOpacity,
   Title,
   TooltipBase,
   Typography,
@@ -14,7 +15,7 @@ import {
 } from '@/shared/ui';
 
 export const TooltipWidget = () => {
-  const ref = useRef(null);
+  const ref = useRef<ITouchableOpacity | null>(null);
   const [styles] = useStyles(styleFn);
   const {openPopup} = usePopups();
 

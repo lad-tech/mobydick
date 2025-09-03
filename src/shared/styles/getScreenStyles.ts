@@ -4,7 +4,7 @@ const getScreenStyles = createStyles(({colors, spaces}) => ({
   container: {
     flex: 1,
     backgroundColor: colors.BgPrimary,
-    padding: spaces.Space8,
+    paddingHorizontal: spaces.Space8,
     gap: spaces.Space16,
   },
 }));

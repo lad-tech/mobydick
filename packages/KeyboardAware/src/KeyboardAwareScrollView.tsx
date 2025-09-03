@@ -23,13 +23,22 @@ const KeyboardAwareScrollView = forwardRef(
     {
       children,
       BottomComponent,
+      isEdgeToEdgeEnabled = Platform.OS === 'android' && Platform.Version >= 35,
       ...rest
-    }: ScrollViewProps & {BottomComponent?: ReactElement},
+    }: ScrollViewProps & {
+      BottomComponent?: ReactElement;
+      isEdgeToEdgeEnabled?: boolean;
+    },
     ref,
   ) => {
+    const isHeightBasedSolution = Platform.OS === 'ios' || isEdgeToEdgeEnabled;
+    const initialKeyboardHeight = Keyboard.metrics()?.height;
+
     const scrollViewRef = useRef<ScrollView>(null);
     const scrollPositionRef = useRef<number>(0);
-    const keyboardHeightRef = useRef(new Animated.Value(0)).current;
+    const keyboardHeightRef = useRef(
+      new Animated.Value(initialKeyboardHeight ? initialKeyboardHeight : 0),
+    ).current;
     const bottomRef = useRef<View>(null);
 
     useImperativeHandle(ref, () => scrollViewRef.current);
@@ -70,7 +79,7 @@ const KeyboardAwareScrollView = forwardRef(
           Animated.timing(keyboardHeightRef, {
             toValue: frames.endCoordinates.height,
             duration,
-            useNativeDriver: Platform.OS !== 'ios',
+            useNativeDriver: !isHeightBasedSolution,
           }).start(() => {
             bottomRef.current?.measureInWindow(
               (_BottomX, _BottomY, _BottomWidth, bottomHeight) => {
@@ -85,13 +94,13 @@ const KeyboardAwareScrollView = forwardRef(
       );
 
       const didHideListener = Keyboard.addListener(
-        'keyboardWillHide',
+        Platform.OS === 'ios' ? 'keyboardWillHide' : 'keyboardDidHide',
         frames => {
           const duration = frames.duration;
           Animated.timing(keyboardHeightRef, {
             toValue: 0,
             duration,
-            useNativeDriver: Platform.OS !== 'ios',
+            useNativeDriver: !isHeightBasedSolution,
           }).start();
         },
       );
@@ -117,7 +126,7 @@ const KeyboardAwareScrollView = forwardRef(
         </View>
         <Animated.View
           style={[
-            Platform.OS === 'ios'
+            isHeightBasedSolution
               ? {height: keyboardHeightRef}
               : {
                   transform: [{translateY: keyboardHeightRef}],

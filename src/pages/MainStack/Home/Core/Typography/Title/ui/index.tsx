@@ -8,10 +8,8 @@ import {
   Title,
   TitleProp,
   TypographyLegacyProp,
-  useStyles,
-  View,
 } from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const getAllTitle = (): TitleProp[] => {
   const sizes: TFontHeaderSize[] = Object.keys(
@@ -38,18 +36,17 @@ const renderItem: ListRenderItem<TitleProp> = ({item}) => (
 const keyExtractor: FlatListProps<TypographyLegacyProp>['keyExtractor'] =
   item => item;
 const TitleScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
   const data = getAllTitle();
 
   return (
-    <View style={styles.container}>
+    <SafeAreaContainer>
       <FlatList
         data={data}
         renderItem={renderItem}
         keyExtractor={keyExtractor}
         removeClippedSubviews={true}
       />
-    </View>
+    </SafeAreaContainer>
   );
 };
 

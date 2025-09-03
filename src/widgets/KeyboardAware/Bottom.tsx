@@ -11,11 +11,11 @@ export const BottomComponent = () => {
   );
 };
 
-const style = createStyles(({shadows, colors, spaces}) => ({
+const style = createStyles(({colors, spaces}) => ({
   container: {
     backgroundColor: colors.BgPrimary,
-    ...shadows.large,
+    borderTopWidth: spaces.Space1,
+    borderColor: colors.BorderSoft,
     alignItems: 'center',
-    padding: spaces.Space12,
   },
 }));

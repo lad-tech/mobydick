@@ -2,6 +2,7 @@ import {Dimensions} from 'react-native';
 
 import {DragAndDropList, px, useTheme} from '@/shared/ui';
 import {BlockView} from '@/shared/ui/BlockView';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const {width: WIDTH} = Dimensions.get('window');
 
@@ -25,24 +26,26 @@ const DragAndDropScreen = () => {
   ];
 
   return (
-    <DragAndDropList
-      list={arr}
-      itemWidth={EL_WIDTH}
-      itemHeight={EL_HEIGHT}
-      columns={COL}
-      contentContainerStyle={{marginHorizontal: MARGIN}}
-      renderItem={(item: number, index: number) => (
-        <BlockView
-          item={item}
-          width={EL_WIDTH}
-          key={index}
-          height={EL_HEIGHT}
-          backgroundColor={
-            bgColors[Math.floor(Math.random() * bgColors.length)]
-          }
-        />
-      )}
-    />
+    <SafeAreaContainer>
+      <DragAndDropList
+        list={arr}
+        itemWidth={EL_WIDTH}
+        itemHeight={EL_HEIGHT}
+        columns={COL}
+        contentContainerStyle={{marginHorizontal: MARGIN}}
+        renderItem={(item: number, index: number) => (
+          <BlockView
+            item={item}
+            width={EL_WIDTH}
+            key={index}
+            height={EL_HEIGHT}
+            backgroundColor={
+              bgColors[Math.floor(Math.random() * bgColors.length)]
+            }
+          />
+        )}
+      />
+    </SafeAreaContainer>
   );
 };
 

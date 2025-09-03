@@ -1,14 +1,11 @@
-import {useStyles, View} from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
 import NavigationButton from '@/shared/ui/NavigationButton';
 import {SCREENS} from '@/shared/lib/constants/screens';
 import {move} from '@/shared/lib/navigationRef';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const KeyboardAwareScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
-
   return (
-    <View style={styles.container}>
+    <SafeAreaContainer>
       <NavigationButton
         text={SCREENS.KeyboardAwareScrollView}
         onPress={move(SCREENS.KeyboardAwareScrollView)}
@@ -21,7 +18,7 @@ const KeyboardAwareScreen = () => {
         text={SCREENS.KeyboardAwareScrollViewTabs}
         onPress={move(SCREENS.KeyboardAwareScrollViewTabs)}
       />
-    </View>
+    </SafeAreaContainer>
   );
 };
 

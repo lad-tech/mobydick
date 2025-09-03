@@ -1,15 +1,18 @@
-import {KeyboardAwareScrollView, useStyles} from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
+import {KeyboardAwareScrollView, View} from '@/shared/ui';
 import {Inputs} from '@/widgets/KeyboardAware/Inputs';
 import {BottomComponent} from '@/widgets/KeyboardAware/Bottom';
+import SafeAreaContainerInsideTabs from '@/shared/ui/SafeAreaContainerInsideTabs';
 
 export const KeyboardAwareScrollViewWithBottomAndTabsScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
   return (
-    <KeyboardAwareScrollView
-      contentContainerStyle={[styles.container, {flex: undefined}]}
-      BottomComponent={<BottomComponent />}>
-      <Inputs />
-    </KeyboardAwareScrollView>
+    <SafeAreaContainerInsideTabs>
+      <View style={{flex: 1}}>
+        <KeyboardAwareScrollView
+          isEdgeToEdgeEnabled
+          BottomComponent={<BottomComponent />}>
+          <Inputs />
+        </KeyboardAwareScrollView>
+      </View>
+    </SafeAreaContainerInsideTabs>
   );
 };

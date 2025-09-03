@@ -9,10 +9,8 @@ import {
   Typography,
   TypographyLegacyProp,
   TypographyProp,
-  useStyles,
-  View,
 } from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const getAllTypography = (): TypographyProp[] => {
   const weights: TFontWeight[] = Object.keys(
@@ -45,18 +43,17 @@ const renderItem: ListRenderItem<TypographyProp> = ({item}) => (
 const keyExtractor: FlatListProps<TypographyLegacyProp>['keyExtractor'] =
   item => item;
 const TypographyScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
   const data = getAllTypography();
 
   return (
-    <View style={styles.container}>
+    <SafeAreaContainer>
       <FlatList
         data={data}
         renderItem={renderItem}
         keyExtractor={keyExtractor}
         removeClippedSubviews={true}
       />
-    </View>
+    </SafeAreaContainer>
   );
 };
 

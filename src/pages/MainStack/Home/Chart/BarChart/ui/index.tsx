@@ -1,14 +1,8 @@
-import {
-  BarChart,
-  IRenderHeader,
-  IRenderSectionItem,
-  useStyles,
-  View,
-} from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
+import {BarChart, IRenderHeader, IRenderSectionItem} from '@/shared/ui';
 import {mockChartDataset} from '@/shared/lib/test/data/chart';
 import RenderSectionItem from '@/widgets/Chart/ui/RenderSectionItem';
 import RenderHeader from '@/widgets/Chart/ui/RenderHeader';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const renderSectionItem: IRenderSectionItem = (
   {period, transition, state},
@@ -27,16 +21,14 @@ const renderHeader: IRenderHeader = headerData => (
 );
 
 const BarChartScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
-
   return (
-    <View style={styles.container}>
+    <SafeAreaContainer>
       <BarChart
         dataset={mockChartDataset}
         renderHeader={renderHeader}
         renderSectionItem={renderSectionItem}
       />
-    </View>
+    </SafeAreaContainer>
   );
 };
 

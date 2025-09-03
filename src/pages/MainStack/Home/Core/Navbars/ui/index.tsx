@@ -1,20 +1,16 @@
-import {ScrollView, useStyles} from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
+import {ScrollView} from '@/shared/ui';
 import {TabsWidget} from '@/widgets/Core/Navbars/ui/TabsWidget';
 import {PanelHeaderWidget} from '@/widgets/Core/Navbars/ui/PanelHeaderWidget';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const NavbarsScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
-
   return (
-    <ScrollView
-      contentContainerStyle={[
-        styles.container,
-        {flex: undefined, paddingHorizontal: 0},
-      ]}>
-      <TabsWidget />
-      <PanelHeaderWidget />
-    </ScrollView>
+    <SafeAreaContainer>
+      <ScrollView>
+        <TabsWidget />
+        <PanelHeaderWidget />
+      </ScrollView>
+    </SafeAreaContainer>
   );
 };
 

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {IBadge, IBadgeTypes} from '../types';
 import {BadgeIndicator, ICounterSize} from '../../Badge';
 import Counter from '../../Badge/Counter/Counter';
@@ -11,7 +13,7 @@ interface IProps {
   badge?: IBadge;
 }
 
-const AvatarBadge = (props: IProps): JSX.Element | null => {
+const AvatarBadge = (props: IProps): React.JSX.Element | null => {
   const {badge} = props;
   const [styles] = useStyles(stylesCreate);
   const {colors} = useTheme();
