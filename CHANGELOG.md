@@ -1,3 +1,17 @@
+# [7.36.0](https://github.com/lad-tech/mobydick/compare/v7.35.5...v7.36.0) (2025-09-03)
+
+
+### Bug Fixes
+
+* force height solution ([9b8fb7c](https://github.com/lad-tech/mobydick/commit/9b8fb7ce840d78254a094adc26cf29ad1d36f94d))
+* update lock ([8974c76](https://github.com/lad-tech/mobydick/commit/8974c76cba3636d5f56ee56cda2aa0da5ab1a62f))
+
+
+### Features
+
+* adapt to android edge to edge mode ([ce0bb90](https://github.com/lad-tech/mobydick/commit/ce0bb90ea5a5e3234b7d409ecbb1767afb9f8495))
+* add isEdgeToEdgeEnabled props for KeyboardAwareScrollView ([7bfadc1](https://github.com/lad-tech/mobydick/commit/7bfadc175ea02442511507422165a8cd6061b928))
+
 ## [7.35.5](https://github.com/lad-tech/mobydick/compare/v7.35.4...v7.35.5) (2025-08-22)
 
 
