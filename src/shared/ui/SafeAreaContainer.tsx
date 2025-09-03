@@ -63,7 +63,6 @@ const SafeAreaContainer = forwardRef<
     };
   }, [edges, isKeyboardShown, insets.top, insets.bottom]);
 
-  console.log(styles.container, insetsStyle, isKeyboardShown);
   return (
     <View ref={ref} style={[styles.container, insetsStyle, style]} {...rest} />
   );
