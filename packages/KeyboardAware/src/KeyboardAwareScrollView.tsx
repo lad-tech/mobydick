@@ -33,14 +33,11 @@ const KeyboardAwareScrollView = forwardRef(
   ) => {
     const isHeightBasedSolution = Platform.OS === 'ios' || isEdgeToEdgeEnabled;
     const initialKeyboardHeight = Keyboard.metrics()?.height;
+
     const scrollViewRef = useRef<ScrollView>(null);
     const scrollPositionRef = useRef<number>(0);
     const keyboardHeightRef = useRef(
-      new Animated.Value(
-        initialKeyboardHeight
-          ? initialKeyboardHeight + androidStatusBarOffset / 2
-          : 0,
-      ),
+      new Animated.Value(initialKeyboardHeight ? initialKeyboardHeight : 0),
     ).current;
     const bottomRef = useRef<View>(null);
 
@@ -80,7 +77,7 @@ const KeyboardAwareScrollView = forwardRef(
           const duration = frames.duration;
 
           Animated.timing(keyboardHeightRef, {
-            toValue: frames.endCoordinates.height + androidStatusBarOffset / 2,
+            toValue: frames.endCoordinates.height,
             duration,
             useNativeDriver: !isHeightBasedSolution,
           }).start(() => {

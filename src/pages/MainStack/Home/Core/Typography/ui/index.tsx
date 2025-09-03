@@ -1,14 +1,11 @@
-import {useStyles, View} from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
 import NavigationButton from '@/shared/ui/NavigationButton';
 import {SCREENS} from '@/shared/lib/constants/screens';
 import {move} from '@/shared/lib/navigationRef';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const TypographyAllScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
-
   return (
-    <View style={styles.container}>
+    <SafeAreaContainer>
       <NavigationButton
         text={SCREENS.TypographyLegacy}
         onPress={move(SCREENS.TypographyLegacy)}
@@ -18,7 +15,7 @@ const TypographyAllScreen = () => {
         text={SCREENS.Typography}
         onPress={move(SCREENS.Typography)}
       />
-    </View>
+    </SafeAreaContainer>
   );
 };
 

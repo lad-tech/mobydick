@@ -8,10 +8,8 @@ import {
   TFontWeight,
   TypographyLegacy,
   TypographyLegacyProp,
-  useStyles,
-  View,
 } from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const getAllTypographyLegacy = (): TypographyLegacyProp[] => {
   const weights: TFontWeight[] = Object.keys(
@@ -42,18 +40,17 @@ const renderItem: ListRenderItem<TypographyLegacyProp> = ({item}) => (
 const keyExtractor: FlatListProps<TypographyLegacyProp>['keyExtractor'] =
   item => item;
 const TypographyLegacyScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
   const data = getAllTypographyLegacy();
 
   return (
-    <View style={styles.container}>
+    <SafeAreaContainer>
       <FlatList
         data={data}
         renderItem={renderItem}
         keyExtractor={keyExtractor}
         removeClippedSubviews={true}
       />
-    </View>
+    </SafeAreaContainer>
   );
 };
 

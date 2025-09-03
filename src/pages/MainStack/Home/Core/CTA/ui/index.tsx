@@ -1,14 +1,14 @@
-import {ScrollView, useStyles} from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
+import {ScrollView} from '@/shared/ui';
 import {ButtonWidget} from '@/widgets/Core/CTA/ui/ButtonWidget';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const CTAScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
-
   return (
-    <ScrollView contentContainerStyle={[styles.container, {flex: undefined}]}>
-      <ButtonWidget />
-    </ScrollView>
+    <SafeAreaContainer>
+      <ScrollView>
+        <ButtonWidget />
+      </ScrollView>
+    </SafeAreaContainer>
   );
 };
 

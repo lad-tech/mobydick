@@ -1,14 +1,11 @@
-import {useStyles, View} from '@/shared/ui';
-import getScreenStyles from '@/shared/styles/getScreenStyles';
 import {move} from '@/shared/lib/navigationRef';
 import {SCREENS} from '@/shared/lib/constants/screens';
 import NavigationButton from '@/shared/ui/NavigationButton';
+import SafeAreaContainer from '@/shared/ui/SafeAreaContainer';
 
 const HomeScreen = () => {
-  const [styles] = useStyles(getScreenStyles);
-
   return (
-    <View style={styles.container}>
+    <SafeAreaContainer>
       <NavigationButton onPress={move(SCREENS.Core)} text={SCREENS.Core} />
       <NavigationButton onPress={move(SCREENS.Chart)} text={SCREENS.Chart} />
       <NavigationButton
@@ -28,7 +25,7 @@ const HomeScreen = () => {
         text={SCREENS.Markdown}
         onPress={move(SCREENS.Markdown)}
       />
-    </View>
+    </SafeAreaContainer>
   );
 };
 
