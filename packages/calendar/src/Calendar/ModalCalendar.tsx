@@ -31,6 +31,8 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
     titlePrefix = 'Выбрано ',
     titleSuffix = ' д',
     isCounter = true,
+    disabledLeft,
+    disabledRight,
     onAcceptDateRangeChange,
     ...rest
   } = props;
@@ -83,8 +85,8 @@ const ModalCalendar: FC<IContentProps & IModalCalendar> = props => {
           textLeft={textLeft || CANCEL_STR}
           typeRight={typeRight || IButtonTypes.primary}
           textRight={textRight || ACCEPT_STR}
-          disabledLeft={!date?.dateStart && !date?.dateEnd}
-          disabledRight={!date?.dateStart && !date?.dateEnd}
+          disabledLeft={disabledLeft || (!date?.dateStart && !date?.dateEnd)}
+          disabledRight={disabledRight || (!date?.dateStart && !date?.dateEnd)}
           onPressRight={onAccept}
           onPressLeft={onClear}
         />
