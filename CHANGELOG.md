@@ -1,3 +1,10 @@
+## [7.36.1](https://github.com/lad-tech/mobydick/compare/v7.36.0...v7.36.1) (2025-09-16)
+
+
+### Bug Fixes
+
+* **ModalCalendar:** added props to HorizontalButtonsView ([c59c717](https://github.com/lad-tech/mobydick/commit/c59c717fd97d060dfea714cea77bf662ab3adb35))
+
 # [7.36.0](https://github.com/lad-tech/mobydick/compare/v7.35.5...v7.36.0) (2025-09-03)
 
 
