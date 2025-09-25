@@ -1,3 +1,10 @@
+## [7.36.2](https://github.com/lad-tech/mobydick/compare/v7.36.1...v7.36.2) (2025-09-25)
+
+
+### Bug Fixes
+
+* **ActionSheetBase:** added SafeAreaView ([f908e67](https://github.com/lad-tech/mobydick/commit/f908e67499d3870ba2ac1785901b14b7ffc29e3f))
+
 ## [7.36.1](https://github.com/lad-tech/mobydick/compare/v7.36.0...v7.36.1) (2025-09-16)
 
 
