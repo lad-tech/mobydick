@@ -29,7 +29,7 @@ const stylesCreate = createStyles(({spaces, colors}, itemType?: IItemType) => {
       case IItemType.cancelItem:
         return {
           borderRadius: spaces.Space12,
-          marginBottom: px(30),
+          marginBottom: spaces.Space8,
           justifyContent: 'center',
         };
       default:

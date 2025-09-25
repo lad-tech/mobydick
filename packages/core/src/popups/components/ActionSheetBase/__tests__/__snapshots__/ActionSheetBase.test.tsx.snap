@@ -50,7 +50,15 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly 1`] = 
   }
   testID="Pressable"
 >
-  <View
+  <RNCSafeAreaView
+    edges={
+      {
+        "bottom": "additive",
+        "left": "additive",
+        "right": "additive",
+        "top": "additive",
+      }
+    }
     onStartShouldSetResponder={[Function]}
     style={
       [
@@ -114,7 +122,15 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly with i
   }
   testID="Pressable"
 >
-  <View
+  <RNCSafeAreaView
+    edges={
+      {
+        "bottom": "additive",
+        "left": "additive",
+        "right": "additive",
+        "top": "additive",
+      }
+    }
     onStartShouldSetResponder={[Function]}
     style={
       [
@@ -206,6 +222,6 @@ exports[`@lad-tech/mobydick-core/ActionSheetBase should renders correctly with i
         </Text>
       </View>
     </View>
-  </View>
+  </RNCSafeAreaView>
 </View>
 `;

@@ -1,9 +1,9 @@
 import {FC} from 'react';
+import {SafeAreaView} from 'react-native-safe-area-context';
 
 import {PopupBase} from '../PopupBase';
 import {returnTrue} from '../../functions';
 import useStyles from '../../../styles/hooks/useStyles';
-import View from '../../../basic/components/View/View';
 
 import stylesCreate from './stylesCreate';
 import Item from './Item';
@@ -19,11 +19,11 @@ const ActionSheetBase: FC<IActionSheetBaseProps> & {
     <PopupBase
       onClose={onClose}
       overlayStyle={[styles.overlayStyle, overlayStyle]}>
-      <View
+      <SafeAreaView
         style={[styles.containerStyle, containerStyle]}
         onStartShouldSetResponder={returnTrue}>
         {children}
-      </View>
+      </SafeAreaView>
     </PopupBase>
   );
 };
