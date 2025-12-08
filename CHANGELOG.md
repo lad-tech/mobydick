@@ -1,3 +1,10 @@
+# [7.37.0](https://github.com/lad-tech/mobydick/compare/v7.36.2...v7.37.0) (2025-12-08)
+
+
+### Features
+
+* **InputField:** added warning type ([981cafb](https://github.com/lad-tech/mobydick/commit/981cafbb3c5a71a11c5804d3fc6e846787ba99f8))
+
 ## [7.36.2](https://github.com/lad-tech/mobydick/compare/v7.36.1...v7.36.2) (2025-09-25)
 
 
