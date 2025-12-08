@@ -61,6 +61,15 @@ const InputList = () => {
         value={about}
         onChangeText={setAbout}
       />
+      <InputField
+        type={IInputsTypes.warning}
+        title={'About:'}
+        placeholder={'Write something'}
+        multiline={true}
+        value={about}
+        onChangeText={setAbout}
+        subtitle={'Check warning type'}
+      />
     </View>
   );
 };

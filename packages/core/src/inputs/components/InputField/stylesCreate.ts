@@ -2,6 +2,7 @@ import {IInputsTypes} from '../types';
 import {disabledStyle, validStyle, wrongStyle} from '../../style';
 import {createStyles, IThemeContext} from '../../../styles';
 import px from '../../../styles/utils/px';
+import {warningStyle} from '../../style/warningStyle';
 
 const defaultStyle = createStyles(
   ({spaces, colors}, focused: boolean, multiline: boolean) => ({
@@ -54,9 +55,10 @@ const stylesCreate = (
       );
     case IInputsTypes.wrong:
       return wrongStyle(theme, defaultStyle(theme, focused, multiline));
+    case IInputsTypes.warning:
+      return warningStyle(theme, defaultStyle(theme, focused, multiline));
     case IInputsTypes.disabled:
       return disabledStyle(theme, defaultStyle(theme, focused, multiline));
-    case IInputsTypes.default:
     default:
       return defaultStyle(theme, focused, multiline);
   }
