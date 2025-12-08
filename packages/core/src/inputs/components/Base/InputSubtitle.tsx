@@ -1,4 +1,4 @@
-import {useCallback} from 'react';
+import {useMemo} from 'react';
 
 import {IInputsTypes} from '../types';
 import {SimpleIcon, SimpleIconName} from '../../../styles/icons';
@@ -18,7 +18,7 @@ const InputSubtitle = (props: ISubtitle) => {
   const {type, subtitle, subtitleIcon, subtitleProps} = props;
   const {colors, spaces} = useTheme();
 
-  const getColor = useCallback(() => {
+  const color = useMemo(() => {
     switch (type) {
       case IInputsTypes.wrong:
         return colors.TextError;
@@ -29,7 +29,7 @@ const InputSubtitle = (props: ISubtitle) => {
     }
   }, [colors.TextError, colors.TextMuted, colors.TextWarning, type]);
 
-  const getFont = useCallback(() => {
+  const font = useMemo(() => {
     switch (type) {
       case IInputsTypes.wrong:
         return 'Regular-Error-XS';
@@ -46,11 +46,11 @@ const InputSubtitle = (props: ISubtitle) => {
         <SimpleIcon
           name={subtitleIcon}
           size={spaces.Space16}
-          color={getColor()}
+          color={color}
           style={{marginRight: spaces.Space4}}
         />
       )}
-      <Typography font={getFont()} style={{flex: 1}} {...subtitleProps}>
+      <Typography font={font} style={{flex: 1}} {...subtitleProps}>
         {subtitle}
       </Typography>
     </View>
