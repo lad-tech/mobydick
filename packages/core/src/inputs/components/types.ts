@@ -3,4 +3,5 @@ export enum IInputsTypes {
   valid = 'valid',
   wrong = 'wrong',
   disabled = 'disabled',
+  warning = 'warning',
 }

@@ -100,4 +100,15 @@ describe('@lad-tech/mobydick-core/InputField', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+  it('renders correctly warning', () => {
+    const {toJSON} = render(
+      <InputField
+        type={IInputsTypes.warning}
+        disabled={true}
+        subtitle={'subtitle'}
+      />,
+    );
+
+    expect(toJSON()).toMatchSnapshot();
+  });
 });

@@ -889,6 +889,105 @@ exports[`@lad-tech/mobydick-core/InputField renders correctly valid 2`] = `
 </View>
 `;
 
+exports[`@lad-tech/mobydick-core/InputField renders correctly warning 1`] = `
+<View
+  accessible={true}
+  style={
+    [
+      {
+        "minWidth": 130,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderColor": "rgba(21, 28, 44, 0.1)",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 8,
+        },
+        {
+          "height": 48,
+        },
+        null,
+        undefined,
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={false}
+      multiline={false}
+      numberOfLines={1}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#9BA1B0"
+      selectionColor="#20242D"
+      style={
+        [
+          {
+            "borderRadius": 8,
+            "flex": 1,
+            "outlineWidth": 0,
+            "padding": 0,
+            "paddingLeft": 18,
+            "paddingRight": 16,
+            "paddingVertical": 12,
+            "textAlignVertical": undefined,
+          },
+          [
+            {
+              "color": "#20242D",
+              "fontSize": 16,
+              "padding": 0,
+            },
+          ],
+          undefined,
+        ]
+      }
+      testID="TextInput"
+    />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={true}
+      style={
+        [
+          {
+            "color": "#FE8027",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "lineHeight": 16,
+            "minHeight": 16,
+          },
+          {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      subtitle
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`@lad-tech/mobydick-core/InputField renders correctly wrong 1`] = `
 <View
   accessible={true}
